@@ -150,27 +150,27 @@ def process_zipped_file(zip_file):
 
 
 def download_flan_collection_sni(accepted_filter_ids):
-    dset = huggingface_download("conceptofmind/niv2_submix_original", split="train")
+    dset = huggingface_download("DataProvenanceInitiative/niv2_submix_original", split="train")
     return pool_filter(dset, "task_name", accepted_filter_ids)
 
 
 def download_flan_collection_cot(accepted_filter_ids):
-    dset = huggingface_download("conceptofmind/cot_submix_original", split="train")
+    dset = huggingface_download("DataProvenanceInitiative/cot_submix_original", split="train")
     return pool_filter(dset, "task_name", accepted_filter_ids)
 
 
 def download_flan_collection_dialog(accepted_filter_ids):
-    dset = huggingface_download("conceptofmind/dialog_submix_original", split="train")
+    dset = huggingface_download("DataProvenanceInitiative/dialog_submix_original", split="train")
     return pool_filter(dset, "task_name", accepted_filter_ids)
 
 
 def download_flan_collection_flan2021(accepted_filter_ids):
-    dset = huggingface_download("conceptofmind/flan2021_submix_original", split="train")
+    dset = huggingface_download("DataProvenanceInitiative/flan2021_submix_original", split="train")
     return pool_filter(dset, "task_name", accepted_filter_ids)
 
 
 def download_flan_collection_p3(accepted_filter_ids):
-    dset = huggingface_download("conceptofmind/t0_submix_original", split="train")
+    dset = huggingface_download("DataProvenanceInitiative/t0_submix_original", split="train")
     return pool_filter(dset, "task_name", accepted_filter_ids)
 
 
