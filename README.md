@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img src="dpi.pdf" alt="Data Provenance Initiative">
+  <img src="dpi.png" width="40%" height="40%" alt="Data Provenance Initiative">
 </p>
 
 The Data Provenance Initiative is a multi-disciplinary volunteer effort to improve transparency, documentation, and responsible use of training datasets for AI.
@@ -35,7 +35,7 @@ All datasets will be normalized to the same format.
 By default, we use this [format](#dataset-format) as it generalizes to multi-turn dialog and response rankings, but you can also normalize the datasets for supervised finetuning.
 
 ```
-PYTHONPATH=. python src/download_and_filter.py -c src/configs/default.yaml
+python src/download_and_filter.py -c src/configs/default.yaml
 ```
 
 ## Collected Information
@@ -208,7 +208,7 @@ The Data Provenance Initiative is a research effort to increase transparency in 
 The information provided on this page and any output of the Data Provenance Initiative does not, and is not intended to, constitute legal advice; instead, all information, content, and materials are for general informational purposes only.
 No reader, user, or browser of this project should act or refrain from acting on the basis of information from the Data Provenance Initiative without first seeking legal advice from counsel in the relevant jurisdiction.
 
-The code in this repository is CC-BY 4.0 licensed.
+The code in this repository is Apache 2.0 licensed.
 
 ## Contact and Citation
 
