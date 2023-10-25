@@ -1,0 +1,100 @@
+{
+    "code_alpaca": {
+        "Unique Dataset Identifier": "code_alpaca",
+        "Dataset Name": "code_alpaca",
+        "Collection": "Code Alpaca",
+        "Collection URL": "https://huggingface.co/datasets/sahil2801/CodeAlpaca-20k",
+        "Dataset URL": "https://huggingface.co/datasets/sahil2801/CodeAlpaca-20k",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/sahil2801/CodeAlpaca-20k",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English",
+            "Python"
+        ],
+        "Task Categories": [
+            "Program Synthesis",
+            "Code Completion",
+            "Code Complexity Prediction",
+            "Code Generation",
+            "Code Modification Question Answering",
+            "Code Repair",
+            "Code Search",
+            "Code Summarization",
+            "Code Synthesis",
+            "Logical Reasoning Question Answering",
+            "Commonsense Reasoning"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 20022,
+            "Mean Inputs Length": 97.6367,
+            "Mean Targets Length": 196.9881,
+            "Max Inputs Length": 715,
+            "Max Targets Length": 3905,
+            "Min Inputs Length": 14,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "None"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://huggingface.co/datasets/sahil2801/CodeAlpaca-20k"
+            }
+        ],
+        "License Notes": "Not clearly documented, but authors says it is GPT-4 outputs",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "code_alpaca"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "sahil2801/CodeAlpaca-20k",
+            "HF Config": "sahil2801--CodeAlpaca-20k",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "",
+            "GitHub License": "",
+            "Text Topics": [
+                "Programming",
+                "Mathematics",
+                "Coding",
+                "Data structures",
+                "String manipulation",
+                "Database management",
+                "Python programming",
+                "Computer science",
+                "Math",
+                "Sorting algorithms"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-03-26",
+            "HF Downloads (September 2023)": 2139,
+            "HF Likes (September 2023)": 97,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
+    }
+}

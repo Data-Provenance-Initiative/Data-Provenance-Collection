@@ -1,0 +1,97 @@
+{
+    "toolbench": {
+        "Unique Dataset Identifier": "toolbench",
+        "Dataset Name": "toolbench",
+        "Collection": "Tool-Llama",
+        "Collection URL": "https://github.com/OpenBMB/ToolBench",
+        "Dataset URL": "https://github.com/OpenBMB/ToolBench",
+        "GitHub URL": "https://github.com/OpenBMB/ToolBench",
+        "Hugging Face URL": "",
+        "Paper Title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-World APIs",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/toolbench",
+        "ArXiv URL": "https://arxiv.org/abs/2307.16789",
+        "Semantic Scholar Corpus ID": "260334759",
+        "Languages": [
+            "English",
+            "Code"
+        ],
+        "Task Categories": [
+            "Code",
+            "Text to Code",
+            "Open-form Text Generation"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 37339,
+            "Mean Inputs Length": 7168.8854,
+            "Mean Targets Length": 1083.85,
+            "Max Inputs Length": 32237,
+            "Max Targets Length": 9905,
+            "Min Inputs Length": 2649,
+            "Min Targets Length": 38,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "rapidapi hub"
+        ],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "Tsinghua University",
+            "Renmin University",
+            "ModelBest Inc",
+            "Yale University",
+            "Tencent",
+            "Zhihu Inc"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": ""
+            },
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/OpenBMB/ToolBench#data"
+            }
+        ],
+        "License Notes": "Github repo specifies license",
+        "License Verified By": "Will",
+        "Dataset Filter IDs": [
+            "toolbench"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "API integration",
+                "Task automation",
+                "Data analysis",
+                "Web scraping",
+                "Sports",
+                "Natural Language Processing",
+                "Task analysis and execution",
+                "Error handling",
+                "Task Automation",
+                "Artificial intelligence"
+            ],
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "2023-07-31",
+            "PwC Description": "ToolBench is an instruction-tuning dataset for tool use, which is created automatically using ChatGPT. Specifically, the authors collect 16,464 real-world RESTful APIs spanning 49 categories from RapidAPI Hub, then prompt ChatgPT to generate diverse human instructions involving these APIs, covering both single-tool and multi-tool scenarios.",
+            "PwC License Name": "Apache License 2.0",
+            "PwC License URL": "https://github.com/OpenBMB/ToolBench/blob/master/LICENSE",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": 3113,
+            "GitHub Topics": []
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
+    }
+}

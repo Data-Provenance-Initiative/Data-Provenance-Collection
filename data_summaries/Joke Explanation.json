@@ -1,0 +1,86 @@
+{
+    "joke-explanation": {
+        "Unique Dataset Identifier": "joke-explanation",
+        "Dataset Name": "Joke Explanation",
+        "Collection": "Joke Explanation",
+        "Collection URL": "https://explainthejoke.com/",
+        "Dataset URL": "https://explainthejoke.com/",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/theblackcat102/joke_explaination",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Multiple Choice Question Answering",
+            "Pun Detection",
+            "Wordplay Detection",
+            "Humor Detection"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Sources": [
+            "explainthejoke.com"
+        ],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/theblackcat102/joke_explaination"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Alexis",
+        "Dataset Filter IDs": [
+            "joke-explanation"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Humor and jokes",
+                "Humor",
+                "Language and wordplay",
+                "Wordplay",
+                "Humor and Jokes",
+                "Animal behavior",
+                "Food and cooking",
+                "Cultural references",
+                "Wordplay and puns",
+                "Animal behavior and characteristics"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2023-03-09",
+            "HF Downloads (September 2023)": 13,
+            "HF Likes (September 2023)": 1,
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Text Metrics": {
+            "Num Dialogs": 377,
+            "Mean Inputs Length": 96.0796,
+            "Mean Targets Length": 547.5358,
+            "Max Inputs Length": 582,
+            "Max Targets Length": 1248,
+            "Min Inputs Length": 45,
+            "Min Targets Length": 51,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
+    }
+}

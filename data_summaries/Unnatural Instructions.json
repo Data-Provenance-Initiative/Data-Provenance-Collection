@@ -1,0 +1,99 @@
+{
+    "unnatural_instructions": {
+        "Unique Dataset Identifier": "unnatural_instructions",
+        "Dataset Name": "unnatural_instructions",
+        "Collection": "Unnatural Instructions",
+        "Collection URL": "https://github.com/orhonovich/unnatural-instructions",
+        "Dataset URL": "https://github.com/orhonovich/unnatural-instructions",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/mrm8488/unnatural-instructions",
+        "Paper Title": "Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2212.09689",
+        "Semantic Scholar Corpus ID": "254853659",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Sentiment Analysis",
+            "Multiple Choice Necessity Classification",
+            "Binary Classification",
+            "Binary Classification Question Answering",
+            "Numerical Data Aggregation and Analysis",
+            "Paraphrase Detection",
+            "Sentence Ordering",
+            "Sentence Completion"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 66010,
+            "Mean Inputs Length": 331.7012,
+            "Mean Targets Length": 68.1963,
+            "Max Inputs Length": 3780,
+            "Max Targets Length": 3532,
+            "Min Inputs Length": 25,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "prompts"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3"
+        ],
+        "Creators": [
+            "Tel Aviv University",
+            "Meta"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/orhonovich/unnatural-instructions"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/pdf/2212.09689.pdf"
+            }
+        ],
+        "License Notes": "Code for generating the data and compiling under MIT. The data generator itself licensed under OpenAI",
+        "License Verified By": "Nathan",
+        "Dataset Filter IDs": [
+            "unnatural_instructions"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Mathematics",
+                "Logic",
+                "Linguistics",
+                "Cooking",
+                "General knowledge",
+                "Grammar",
+                "Daily routine",
+                "Food",
+                "Critical thinking",
+                "Language"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2022-12-21",
+            "HF Downloads (September 2023)": 43,
+            "HF Likes (September 2023)": 3,
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    }
+}

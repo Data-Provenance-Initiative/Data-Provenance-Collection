@@ -1,0 +1,21 @@
+{
+    "OpenAI": [
+        "OpenAI ChatGPT",
+        "OpenAI Codex",
+        "OpenAI GPT-3",
+        "OpenAI GPT-4",
+        "OpenAI Playground"
+    ],
+    "Other": [
+        "Anthropic Internal Models",
+        "CTRL",
+        "Flan-T5",
+        "Grover",
+        "Instruct-GPT-J",
+        "StarCoder",
+        "T5",
+        "T5-XXL",
+        "XLNet",
+        "wikisql"
+    ]
+}

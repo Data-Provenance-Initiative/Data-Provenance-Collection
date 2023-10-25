@@ -1,0 +1,190 @@
+{
+    "fc-dialog-qrecc": {
+        "Unique Dataset Identifier": "fc-dialog-qrecc",
+        "Dataset Name": "qrecc",
+        "Collection": "Flan Collection (Dialog)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/apple/ml-qrecc",
+        "GitHub URL": "https://github.com/apple/ml-qrecc",
+        "Hugging Face URL": "https://huggingface.co/datasets/svakulenk0/qrecc",
+        "Paper Title": "Open-Domain Question Answering Goes Conversational via Question Rewriting",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/qrecc",
+        "ArXiv URL": "https://arxiv.org/abs/2010.04898",
+        "Semantic Scholar Corpus ID": 222290679,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialog Context Generation",
+            "Conversational Question Answering"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 27247,
+            "Mean Inputs Length": 1822.1266,
+            "Mean Targets Length": 211.2173,
+            "Max Inputs Length": 7423,
+            "Max Targets Length": 2593,
+            "Min Inputs Length": 22,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "wikipedia.org",
+            "google search",
+            "msmarco.org",
+            "washington post",
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Apple Inc",
+            "University of Amsterdam"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://github.com/apple/ml-qrecc"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "qrecc",
+            "qrecc_ii"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "svakulenk0/qrecc",
+            "HF Config": "svakulenk0--qrecc",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "2020-10-10",
+            "S2 Date": "2020-10-10",
+            "GitHub License": "Apache License 2.0",
+            "Text Topics": [
+                "Pop culture",
+                "Education",
+                "Entertainment industry",
+                "History",
+                "Biography",
+                "Sports",
+                "Music history",
+                "Politics"
+            ],
+            "Github Date": "",
+            "HF Date": "2021-12-01",
+            "HF Downloads (September 2023)": 96,
+            "HF Likes (September 2023)": 5,
+            "PwC Description": "QReCC contains 14K conversations with 81K question-answer pairs. QReCC is built on questions from TREC CAsT, QuAC and Google Natural Questions. While TREC CAsT and QuAC datasets contain multi-turn conversations, Natural Questions is not a conversational dataset. Questions in NQ dataset were used as prompts to create conversations explicitly balancing types of context-dependent questions, such as anaphora (co-references) and ellipsis.\n\nFor each query the authors collect query rewrites by resolving references, the resulting query rewrite is a context-independent version of the original (context-dependent) question. The rewritten query is then used to with a search engine to answer the question. Each query is also annotated with answer, link to the web page that used to produce the answer.\n\nEach conversation in the dataset contains a unique Conversation_no, Turn_no unique within a conversation, the original Question, Context, Rewrite and Answer with Answer_URL.",
+            "S2 Citation Count (September 2023)": 80,
+            "GitHub Stars": 104,
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "QuAC",
+            "CAsT",
+            "NQ"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "fc-dialog-wiki_dialog": {
+        "Unique Dataset Identifier": "fc-dialog-wiki_dialog",
+        "Dataset Name": "wiki_dialog",
+        "Collection": "Flan Collection (Dialog)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/google-research/dialog-inpainting#wikidialog-oq",
+        "GitHub URL": "https://github.com/google-research/dialog-inpainting#wikidialog-oq",
+        "Hugging Face URL": "https://huggingface.co/datasets/djaym7/wiki_dialog",
+        "Paper Title": "Dialog Inpainting: Turning Documents to Dialogs",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2205.09073",
+        "Semantic Scholar Corpus ID": 248863311,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialog Context Generation",
+            "Conversational Question Answering"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 526622,
+            "Mean Inputs Length": 1583.3658,
+            "Mean Targets Length": 206.038,
+            "Max Inputs Length": 7768,
+            "Max Targets Length": 2351,
+            "Min Inputs Length": 20,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "wikipedia.org",
+            "undisclosed web"
+        ],
+        "Model Generated": [
+            "T5"
+        ],
+        "Creators": [
+            "Google"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://github.com/google-research/dialog-inpainting/blob/main/WikiDialog-OQ_Data_Card.pdf"
+            }
+        ],
+        "License Notes": "Derived from QReCC, QuAC and Wikipedia",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "wiki_dialog",
+            "wiki_dialog_ii"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2022-05-18",
+            "GitHub License": "Apache License 2.0",
+            "Text Topics": [
+                "Literature",
+                "History",
+                "Religion",
+                "Sports",
+                "Education",
+                "Politics",
+                "General knowledge",
+                "Geography",
+                "Travel",
+                "Music"
+            ],
+            "Github Date": "",
+            "HF Date": "2022-08-20",
+            "HF Downloads (September 2023)": 11,
+            "HF Likes (September 2023)": 1,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 30,
+            "GitHub Stars": 93,
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "MS Marco retrieval corpus"
+        ],
+        "Human Annotation": "Yes"
+    }
+}

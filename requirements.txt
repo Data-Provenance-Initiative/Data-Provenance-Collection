@@ -1,0 +1,17 @@
+datasets
+numpy
+pandas
+jsonlines
+PyYAML
+ConfigArgParse
+tabulate
+datasets
+huggingface-hub
+tqdm
+tenacity
+openai
+chardet
+# ftfy
+# funcy
+# pdfminer.six
+# langchain

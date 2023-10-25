@@ -1,0 +1,52 @@
+{
+    "dataset-name (must match unique identifier)": {
+        "Unique Dataset Identifier": "string: dataset-name (formatted as <collection_abbreviation>-<dataset>)",
+        "Dataset Name": "string: Common name of dataset",
+        "Paper Title": "string (''): The title of the associated paper.",
+        "Dataset URL": "string (''): The URL to the dataset's original github repository, website, or best available resource.",
+        "GitHub URL": "string (''): The URL to the dataset's github repository.",
+        "Hugging Face URL": "string (''): The URL to the dataset's main Hugging Face page.",
+        "Papers with Code URL": "string (''): The URL to the dataset's (not the paper's) 'Papers with Code' page.",
+        "ArXiv URL": "string (''): The URL to the ArXiv abstract page if the dataset is accompanied by a paper.",
+        "Semantic Scholar Corpus ID": "int (''): The 'Corpus ID' associated with the dataset's paper on semantic scholar.",
+        "Collection": "string: The collection from which this version of the dataset is a part. Should be the name of this json file, without the .json extension.",
+        "Collection URL": "string: The URL of the collection's github repository or website.",
+        "Languages": [
+            "list[string]: A list of the natural or coding languages represented in the text.",
+            "Please use languages listed in `constants/language_groups.json` or add to it."
+        ],
+        "Task Categories": [
+            "list[string]: A list of the tasks represented in the dataset.",
+            "Please use tasks listed in `constants/task_groups.json` or add to it."
+        ],
+        "Text Sources": [
+            "list[string]: A list of sources from which the text was scraped/derived, including online/offline sources, if applicable.",
+            "Please use source URLs listed in `constants/domain_groups.json` or add to it."
+        ],
+        "Model Generated": ["list[str] (null): The model(s) used to generate this dataset if applicable."],
+        "Format": [
+            "list[string]: A list of the formats in which the dataset is available.",
+            "Please refer to `constants/data_formats.json` for options."
+        ],
+        "Human Annotation": ["string: 'Yes' or 'No' indicating human annotations are part of this dataset, in addition to whatever was scraped from third-party sources."],
+        "Derived from Datasets": [
+            "list[string]: A list of the names of ML datasets from which this dataset is comprised or derived."],
+        "Creators": [
+            "list[string]: A list of the institutions/corporations (not people) creators/compiler of the ML dataset.",
+            "Please use organizations listed in `constants/creator_groups.json`, or add to it."
+        ],
+        "Licenses": [
+            {
+                "License": "string (''): The name of the license, taken from `constants/license_classes.json`.",
+                "License URL": "string (''): The URL to the webpage where this license is mentioned in association with this dataset."
+            }
+        ],
+        "License Notes": "string (''): Any notes from the human annotator regarding the license information they retrieved.",
+        "License Verified By": "string (''): The name of the human annotator who verified the license information.",
+        "Dataset Filter IDs": [
+            "list[string] (''): A list of the dataset filter IDs associated with the dataset.",
+            "applicable when the same collection has multiple sources and they need to be separated.",
+            "If no extra filter id is needed, please put the unique identifier of the dataset here."
+        ]
+    }
+}

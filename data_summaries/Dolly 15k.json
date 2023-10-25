@@ -1,0 +1,598 @@
+{
+    "dolly-openqa": {
+        "Unique Dataset Identifier": "dolly-openqa",
+        "Dataset Name": "open_qa",
+        "Collection": "Dolly 15k",
+        "Collection URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "Dataset URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "Paper Title": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/databricks-dolly-15k",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 5933,
+            "Mean Inputs Length": 54.66,
+            "Mean Targets Length": 402.5417,
+            "Max Inputs Length": 4249,
+            "Max Targets Length": 8881,
+            "Min Inputs Length": 9,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Databricks"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "open_qa",
+            "general_qa"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "databricks/databricks-dolly-15k",
+            "HF Config": "databricks--databricks-dolly-15k",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "PwC Date": "2023-04-12",
+            "S2 Date": "",
+            "GitHub License": "",
+            "Text Topics": [
+                "Geography",
+                "Travel",
+                "History",
+                "Sports",
+                "General knowledge",
+                "Cooking techniques",
+                "Technology",
+                "Television shows",
+                "Entertainment",
+                "Pop culture"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-04-11",
+            "HF Downloads (September 2023)": 46359,
+            "HF Likes (September 2023)": 341,
+            "PwC Description": "Databricks Dolly 15k is a dataset containing 15,000 high-quality human-generated prompt / response pairs specifically designed for instruction tuning large language models. It is authored by more than 5,000 Databricks employees during March and April of 2023. The training records are natural, expressive and designed to represent a wide range of the behaviors, from brainstorming and content generation to information extraction and summarization.",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "dolly-closedqa": {
+        "Unique Dataset Identifier": "dolly-closedqa",
+        "Dataset Name": "closed_qa",
+        "Collection": "Dolly 15k",
+        "Collection URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "Dataset URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "Paper Title": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/databricks-dolly-15k",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Closed-Book Question Answering"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 1773,
+            "Mean Inputs Length": 1153.9921,
+            "Mean Targets Length": 186.7248,
+            "Max Inputs Length": 16766,
+            "Max Targets Length": 4140,
+            "Min Inputs Length": 69,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Databricks"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "closed_qa"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "databricks/databricks-dolly-15k",
+            "HF Config": "databricks--databricks-dolly-15k",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "PwC Date": "2023-04-12",
+            "S2 Date": "",
+            "GitHub License": "",
+            "Text Topics": [
+                "Sports",
+                "History",
+                "Geography",
+                "Literature",
+                "Music",
+                "Fitness",
+                "Space exploration",
+                "Health",
+                "Religion",
+                "Crime fiction"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-04-11",
+            "HF Downloads (September 2023)": 46359,
+            "HF Likes (September 2023)": 341,
+            "PwC Description": "Databricks Dolly 15k is a dataset containing 15,000 high-quality human-generated prompt / response pairs specifically designed for instruction tuning large language models. It is authored by more than 5,000 Databricks employees during March and April of 2023. The training records are natural, expressive and designed to represent a wide range of the behaviors, from brainstorming and content generation to information extraction and summarization.",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "dolly-classification": {
+        "Unique Dataset Identifier": "dolly-classification",
+        "Dataset Name": "classification",
+        "Collection": "Dolly 15k",
+        "Collection URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "Dataset URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "Paper Title": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/databricks-dolly-15k",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Classification"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 2136,
+            "Mean Inputs Length": 123.1292,
+            "Mean Targets Length": 141.7842,
+            "Max Inputs Length": 2187,
+            "Max Targets Length": 3488,
+            "Min Inputs Length": 16,
+            "Min Targets Length": 3,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Databricks"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "classification"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "databricks/databricks-dolly-15k",
+            "HF Config": "databricks--databricks-dolly-15k",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "PwC Date": "2023-04-12",
+            "S2 Date": "",
+            "GitHub License": "",
+            "Text Topics": [
+                "Geography",
+                "Classification of instruments",
+                "Animal classification",
+                "Sports",
+                "Music instruments",
+                "General knowledge",
+                "Comic book characters",
+                "Travel",
+                "Music",
+                "DC and Marvel Universes"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-04-11",
+            "HF Downloads (September 2023)": 46359,
+            "HF Likes (September 2023)": 341,
+            "PwC Description": "Databricks Dolly 15k is a dataset containing 15,000 high-quality human-generated prompt / response pairs specifically designed for instruction tuning large language models. It is authored by more than 5,000 Databricks employees during March and April of 2023. The training records are natural, expressive and designed to represent a wide range of the behaviors, from brainstorming and content generation to information extraction and summarization.",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "dolly-brainstorming": {
+        "Unique Dataset Identifier": "dolly-brainstorming",
+        "Dataset Name": "brainstorming",
+        "Collection": "Dolly 15k",
+        "Collection URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "Dataset URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "Paper Title": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/databricks-dolly-15k",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Brainstorming"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 1766,
+            "Mean Inputs Length": 60.7112,
+            "Mean Targets Length": 337.6291,
+            "Max Inputs Length": 677,
+            "Max Targets Length": 6172,
+            "Min Inputs Length": 10,
+            "Min Targets Length": 3,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Databricks"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "brainstorming"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "databricks/databricks-dolly-15k",
+            "HF Config": "databricks--databricks-dolly-15k",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "PwC Date": "2023-04-12",
+            "S2 Date": "",
+            "GitHub License": "",
+            "Text Topics": [
+                "Sports",
+                "Geography",
+                "Travel",
+                "Religion",
+                "History",
+                "Philosophy",
+                "Music",
+                "Education",
+                "Comedy movies",
+                "Health"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-04-11",
+            "HF Downloads (September 2023)": 46359,
+            "HF Likes (September 2023)": 341,
+            "PwC Description": "Databricks Dolly 15k is a dataset containing 15,000 high-quality human-generated prompt / response pairs specifically designed for instruction tuning large language models. It is authored by more than 5,000 Databricks employees during March and April of 2023. The training records are natural, expressive and designed to represent a wide range of the behaviors, from brainstorming and content generation to information extraction and summarization.",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "dolly-infoextract": {
+        "Unique Dataset Identifier": "dolly-infoextract",
+        "Dataset Name": "infoextract",
+        "Collection": "Dolly 15k",
+        "Collection URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "Dataset URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "Paper Title": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/databricks-dolly-15k",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Information Extraction"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 1506,
+            "Mean Inputs Length": 1272.7935,
+            "Mean Targets Length": 305.0279,
+            "Max Inputs Length": 13534,
+            "Max Targets Length": 8717,
+            "Min Inputs Length": 78,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Databricks"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "information_extraction"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "databricks/databricks-dolly-15k",
+            "HF Config": "databricks--databricks-dolly-15k",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "PwC Date": "2023-04-12",
+            "S2 Date": "",
+            "GitHub License": "",
+            "Text Topics": [
+                "Geography",
+                "History",
+                "Sports",
+                "Travel",
+                "Education",
+                "Environmental conservation",
+                "Technology",
+                "Electrical engineering",
+                "Video games",
+                "Entertainment industry"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-04-11",
+            "HF Downloads (September 2023)": 46359,
+            "HF Likes (September 2023)": 341,
+            "PwC Description": "Databricks Dolly 15k is a dataset containing 15,000 high-quality human-generated prompt / response pairs specifically designed for instruction tuning large language models. It is authored by more than 5,000 Databricks employees during March and April of 2023. The training records are natural, expressive and designed to represent a wide range of the behaviors, from brainstorming and content generation to information extraction and summarization.",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "dolly-summarization": {
+        "Unique Dataset Identifier": "dolly-summarization",
+        "Dataset Name": "summarization",
+        "Collection": "Dolly 15k",
+        "Collection URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "Dataset URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "Paper Title": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/databricks-dolly-15k",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Summarization"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 1188,
+            "Mean Inputs Length": 1383.0732,
+            "Mean Targets Length": 491.6431,
+            "Max Inputs Length": 23540,
+            "Max Targets Length": 26018,
+            "Min Inputs Length": 48,
+            "Min Targets Length": 14,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Databricks"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "summarization"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "databricks/databricks-dolly-15k",
+            "HF Config": "databricks--databricks-dolly-15k",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "PwC Date": "2023-04-12",
+            "S2 Date": "",
+            "GitHub License": "",
+            "Text Topics": [
+                "Sports",
+                "Geography",
+                "History",
+                "Music",
+                "Education",
+                "Economics",
+                "Religion",
+                "Music history",
+                "Rowing",
+                "Racing"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-04-11",
+            "HF Downloads (September 2023)": 46359,
+            "HF Likes (September 2023)": 341,
+            "PwC Description": "Databricks Dolly 15k is a dataset containing 15,000 high-quality human-generated prompt / response pairs specifically designed for instruction tuning large language models. It is authored by more than 5,000 Databricks employees during March and April of 2023. The training records are natural, expressive and designed to represent a wide range of the behaviors, from brainstorming and content generation to information extraction and summarization.",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "dolly-creative_writing": {
+        "Unique Dataset Identifier": "dolly-creative_writing",
+        "Dataset Name": "creative_writing",
+        "Collection": "Dolly 15k",
+        "Collection URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "Dataset URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+        "Paper Title": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/databricks-dolly-15k",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Creative Writing"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 709,
+            "Mean Inputs Length": 89.5444,
+            "Mean Targets Length": 1003.4217,
+            "Max Inputs Length": 804,
+            "Max Targets Length": 9796,
+            "Min Inputs Length": 4,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Databricks"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "creative_writing"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "databricks/databricks-dolly-15k",
+            "HF Config": "databricks--databricks-dolly-15k",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "PwC Date": "2023-04-12",
+            "S2 Date": "",
+            "GitHub License": "",
+            "Text Topics": [
+                "Travel",
+                "Geography",
+                "Sports",
+                "General knowledge",
+                "Philosophy",
+                "Outdoor activities",
+                "Transportation",
+                "Sightseeing",
+                "Teamwork and collaboration",
+                "Health and wellness"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-04-11",
+            "HF Downloads (September 2023)": 46359,
+            "HF Likes (September 2023)": 341,
+            "PwC Description": "Databricks Dolly 15k is a dataset containing 15,000 high-quality human-generated prompt / response pairs specifically designed for instruction tuning large language models. It is authored by more than 5,000 Databricks employees during March and April of 2023. The training records are natural, expressive and designed to represent a wide range of the behaviors, from brainstorming and content generation to information extraction and summarization.",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "book-summaries": {
+        "Unique Dataset Identifier": "book-summaries",
+        "Dataset Name": "book-summaries",
+        "Collection": "Book Summaries",
+        "Collection URL": "https://huggingface.co/datasets/emozilla/booksum-summary-analysis_gptneox-8192",
+        "Dataset URL": "https://github.com/salesforce/booksum",
+        "GitHub URL": "https://github.com/salesforce/booksum",
+        "Hugging Face URL": "https://huggingface.co/datasets/emozilla/booksum-summary-analysis_gptneox-8192",
+        "Paper Title": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/booksum",
+        "ArXiv URL": "https://arxiv.org/abs/2105.08209v2",
+        "Semantic Scholar Corpus ID": 234762900,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Summarization",
+            "Creative Writing",
+            "Creativity",
+            "Literary Analysis"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 7160,
+            "Mean Inputs Length": 13630.7441,
+            "Mean Targets Length": 1621.2327,
+            "Max Inputs Length": 34208,
+            "Max Targets Length": 12074,
+            "Min Inputs Length": 300,
+            "Min Targets Length": 47,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "project gutenberg",
+            "internet archive"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Salesforce Research",
+            "Huggingface",
+            "Yale University"
+        ],
+        "Licenses": [
+            {
+                "License": "Academic Research Purposes Only",
+                "License URL": "https://github.com/salesforce/booksum#legal-note"
+            }
+        ],
+        "License Notes": "Derived from Project Gutenberg(https://www.gutenberg.org) and Internet Archive(https://archive.org)",
+        "License Verified By": "Kartik Perisetla",
+        "Dataset Filter IDs": [
+            "summary"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Literature",
+                "Communication and understanding",
+                "Family dynamics and relationships",
+                "Relationships and emotions",
+                "Literature analysis",
+                "Social interactions and relationships",
+                "Love and relationships",
+                "Family dynamics",
+                "Character analysis",
+                "Literature and storytelling"
+            ],
+            "GitHub License": "BSD 3-Clause License",
+            "Github Date": "",
+            "HF Date": "2023-05-25",
+            "HF Downloads (September 2023)": 22,
+            "HF Likes (September 2023)": 3,
+            "PwC Date": "2021-05-18",
+            "PwC Description": "BookSum is a collection of datasets for long-form narrative summarization. This dataset covers source documents from the literature domain, such as novels, plays and stories, and includes highly abstractive, human written summaries on three levels of granularity of increasing difficulty: paragraph-, chapter-, and book-level. The domain and structure of this dataset poses a unique set of challenges for summarization systems, which include: processing very long documents, non-trivial causal and temporal dependencies, and rich discourse structures.\n\nBookSum contains summaries for 142,753 paragraphs, 12,293 chapters and 436 books.",
+            "PwC License Name": "BSD 3-Clause License",
+            "PwC License URL": "https://github.com/salesforce/booksum/blob/main/LICENSE.txt",
+            "S2 Citation Count (September 2023)": 51,
+            "S2 Date": "2021-05-18",
+            "GitHub Stars": 154,
+            "GitHub Topics": []
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
+    }
+}
