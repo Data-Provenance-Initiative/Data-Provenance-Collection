@@ -1,0 +1,486 @@
+{
+    "openai-webgpt-eli5": {
+        "Unique Dataset Identifier": "openai-webgpt-eli5",
+        "Dataset Name": "openai_webgpt_comparisons_eli5",
+        "Collection": "OpenAI (WebGPT)",
+        "Collection URL": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+        "Dataset URL": "https://openai.com/research/webgpt",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+        "Paper Title": "WebGPT: Browser-assisted question-answering with human feedback",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2112.09332",
+        "Semantic Scholar Corpus ID": 245329531,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Commonsense Reasoning",
+            "Decision Making"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 19098,
+            "Mean Inputs Length": 737.1632,
+            "Mean Targets Length": 750.5954,
+            "Max Inputs Length": 5462,
+            "Max Targets Length": 2092,
+            "Min Inputs Length": 11,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 4,
+            "Mean Dialog Turns": 4.0
+        },
+        "Text Sources": [
+            "wikipedia.org",
+            "crowdsourced",
+            "reddit"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3"
+        ],
+        "Creators": [
+            "OpenAI"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2112.09332"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne ",
+        "Dataset Filter IDs": [
+            "eli5"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "openai/webgpt_comparisons",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-12-17",
+            "GitHub License": "",
+            "Text Topics": [
+                "Neuroscience",
+                "Physiology",
+                "Sports",
+                "Health",
+                "Astronomy",
+                "Biology",
+                "Mathematics",
+                "Science",
+                "Space exploration",
+                "International relations and diplomacy"
+            ],
+            "Github Date": "",
+            "HF Date": "2022-12-18",
+            "HF Downloads (September 2023)": 13602,
+            "HF Likes (September 2023)": 168,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 324,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "TriviaQA"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "openai-webgpt-triviaqa": {
+        "Unique Dataset Identifier": "openai-webgpt-triviaqa",
+        "Dataset Name": "openai_webgpt_comparisons_triviaqa",
+        "Collection": "OpenAI (WebGPT)",
+        "Collection URL": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+        "Dataset URL": "https://openai.com/research/webgpt",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+        "Paper Title": "WebGPT: Browser-assisted question-answering with human feedback",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2112.09332",
+        "Semantic Scholar Corpus ID": 245329531,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Commonsense Reasoning",
+            "Decision Making"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 134,
+            "Mean Inputs Length": 502.3955,
+            "Mean Targets Length": 262.1791,
+            "Max Inputs Length": 2143,
+            "Max Targets Length": 1228,
+            "Min Inputs Length": 30,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 4,
+            "Mean Dialog Turns": 4.0
+        },
+        "Text Sources": [
+            "wikipedia.org",
+            "crowdsourced",
+            "reddit"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3"
+        ],
+        "Creators": [
+            "OpenAI"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2112.09332"
+            },
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://github.com/mandarjoshi90/triviaqa/blob/master/LICENSE"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne ",
+        "Dataset Filter IDs": [
+            "triviaqa"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "openai/webgpt_comparisons",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-12-17",
+            "GitHub License": "",
+            "Text Topics": [
+                "History",
+                "Geography",
+                "Literature",
+                "Sports",
+                "Travel",
+                "Music",
+                "Music history",
+                "Historical events",
+                "Politics",
+                "Biography"
+            ],
+            "Github Date": "",
+            "HF Date": "2022-12-18",
+            "HF Downloads (September 2023)": 13602,
+            "HF Likes (September 2023)": 168,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 324,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "TriviaQA"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "openai-webgpt-critique_eli5": {
+        "Unique Dataset Identifier": "openai-webgpt-critique_eli5",
+        "Dataset Name": "openai_webgpt_comparisons_critique_eli5",
+        "Collection": "OpenAI (WebGPT)",
+        "Collection URL": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+        "Dataset URL": "https://openai.com/research/webgpt",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+        "Paper Title": "WebGPT: Browser-assisted question-answering with human feedback",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2112.09332",
+        "Semantic Scholar Corpus ID": 245329531,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Commonsense Reasoning",
+            "Decision Making"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 185,
+            "Mean Inputs Length": 1043.9027,
+            "Mean Targets Length": 608.9838,
+            "Max Inputs Length": 2753,
+            "Max Targets Length": 1374,
+            "Min Inputs Length": 358,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 4,
+            "Mean Dialog Turns": 4.0
+        },
+        "Text Sources": [
+            "wikipedia.org",
+            "crowdsourced",
+            "reddit"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3"
+        ],
+        "Creators": [
+            "OpenAI"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2112.09332"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne ",
+        "Dataset Filter IDs": [
+            "critique_eli5"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "openai/webgpt_comparisons",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-12-17",
+            "GitHub License": "",
+            "Text Topics": [
+                "Technology",
+                "Biology",
+                "Economics",
+                "Physics",
+                "History",
+                "Astronomy",
+                "Space exploration",
+                "Macroeconomics",
+                "Economic policy",
+                "Neuroscience"
+            ],
+            "Github Date": "",
+            "HF Date": "2022-12-18",
+            "HF Downloads (September 2023)": 13602,
+            "HF Likes (September 2023)": 168,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 324,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "TriviaQA"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "openai-webgpt-arc_challenge": {
+        "Unique Dataset Identifier": "openai-webgpt-arc_challenge",
+        "Dataset Name": "openai_webgpt_comparisons_arc_challenge",
+        "Collection": "OpenAI (WebGPT)",
+        "Collection URL": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+        "Dataset URL": "https://openai.com/research/webgpt",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+        "Paper Title": "WebGPT: Browser-assisted question-answering with human feedback",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2112.09332",
+        "Semantic Scholar Corpus ID": 245329531,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Commonsense Reasoning",
+            "Decision Making",
+            "Natural Language Inference"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 84,
+            "Mean Inputs Length": 646.5595,
+            "Mean Targets Length": 427.0833,
+            "Max Inputs Length": 2322,
+            "Max Targets Length": 1369,
+            "Min Inputs Length": 72,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 4,
+            "Mean Dialog Turns": 4.0
+        },
+        "Text Sources": [
+            "wikipedia.org",
+            "crowdsourced",
+            "reddit"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3"
+        ],
+        "Creators": [
+            "OpenAI"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2112.09332"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://creativecommons.org/licenses/by-sa/4.0/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne ",
+        "Dataset Filter IDs": [
+            "arc-challenge"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "openai/webgpt_comparisons",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-12-17",
+            "GitHub License": "",
+            "Text Topics": [
+                "Biology",
+                "Science",
+                "Chemistry",
+                "Astronomy",
+                "Genetics",
+                "Evolutionary biology",
+                "Botany",
+                "Wildlife conservation",
+                "Geology",
+                "Physics"
+            ],
+            "Github Date": "",
+            "HF Date": "2022-12-18",
+            "HF Downloads (September 2023)": 13602,
+            "HF Likes (September 2023)": 168,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 324,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "TriviaQA"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "openai-webgpt-arc_easy": {
+        "Unique Dataset Identifier": "openai-webgpt-arc_easy",
+        "Dataset Name": "openai_webgpt_comparisons_arc_easy",
+        "Collection": "OpenAI (WebGPT)",
+        "Collection URL": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+        "Dataset URL": "https://openai.com/research/webgpt",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+        "Paper Title": "WebGPT: Browser-assisted question-answering with human feedback",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2112.09332",
+        "Semantic Scholar Corpus ID": 245329531,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Commonsense Reasoning",
+            "Decision Making",
+            "Natural Language Inference"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 77,
+            "Mean Inputs Length": 546.7922,
+            "Mean Targets Length": 426.2532,
+            "Max Inputs Length": 1614,
+            "Max Targets Length": 1117,
+            "Min Inputs Length": 102,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 4,
+            "Mean Dialog Turns": 4.0
+        },
+        "Text Sources": [
+            "wikipedia.org",
+            "crowdsourced",
+            "reddit"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3"
+        ],
+        "Creators": [
+            "OpenAI"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2112.09332"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://creativecommons.org/licenses/by-sa/4.0/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "arc-easy"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "openai/webgpt_comparisons",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-12-17",
+            "GitHub License": "",
+            "Text Topics": [
+                "Biology",
+                "Physics",
+                "Ecology",
+                "Physiology",
+                "Geology",
+                "Chemistry",
+                "Human anatomy",
+                "Photosynthesis",
+                "Animal adaptations",
+                "Thermodynamics"
+            ],
+            "Github Date": "",
+            "HF Date": "2022-12-18",
+            "HF Downloads (September 2023)": 13602,
+            "HF Likes (September 2023)": 168,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 324,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "TriviaQA"
+        ],
+        "Human Annotation": "Yes"
+    }
+}

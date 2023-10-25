@@ -1,0 +1,789 @@
+{
+    "fc-cot-cot_gsm8k": {
+        "Unique Dataset Identifier": "fc-cot-cot_gsm8k",
+        "Dataset Name": "cot_gsm8k",
+        "Collection": "Flan Collection (Chain-of-Thought)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/openai/grade-school-math",
+        "GitHub URL": "https://github.com/openai/grade-school-math",
+        "Hugging Face URL": "https://huggingface.co/datasets/gsm8k",
+        "Paper Title": "Training Verifiers to Solve Math Word Problems",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/gsm8k",
+        "ArXiv URL": "https://arxiv.org/abs/2110.14168",
+        "Semantic Scholar Corpus ID": 239998651,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 18266,
+            "Mean Inputs Length": 1270.7966,
+            "Mean Targets Length": 271.7951,
+            "Max Inputs Length": 4715,
+            "Max Targets Length": 1512,
+            "Min Inputs Length": 64,
+            "Min Targets Length": 51,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "OpenAI"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/gsm8k#licensing-information"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "cot_gsm8k",
+            "cot_gsm8k_ii"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "gsm8k",
+            "HF Config": "main",
+            "HF Config License": "MIT License",
+            "HF Yaml License": "MIT License",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": "",
+            "PwC Date": "2021-10-27",
+            "S2 Date": "2021-10-27",
+            "GitHub License": "",
+            "Text Topics": [
+                "Shopping",
+                "Finance",
+                "Time management",
+                "Daily routine",
+                "Logic",
+                "Math",
+                "Mathematics"
+            ],
+            "Github Date": "",
+            "HF Date": "2022-04-12",
+            "HF Downloads (September 2023)": 136536,
+            "HF Likes (September 2023)": 64,
+            "PwC Description": "GSM8K is a dataset of 8.5K high quality linguistically diverse grade school math word problems created by human problem writers. The dataset is segmented into 7.5K training problems and 1K test problems. These problems take between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations (+ − ×÷) to reach the final answer. A bright middle school student should be able to solve every problem. It can be used for multi-step mathematical reasoning.",
+            "S2 Citation Count (September 2023)": 434,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "fc-cot-cot_strategyqa": {
+        "Unique Dataset Identifier": "fc-cot-cot_strategyqa",
+        "Dataset Name": "cot_strategyqa",
+        "Collection": "Flan Collection (Chain-of-Thought)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://allenai.org/data/strategyqa",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/metaeval/strategy-qa",
+        "Paper Title": "Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/strategyqa",
+        "ArXiv URL": "https://arxiv.org/abs/2101.02235",
+        "Semantic Scholar Corpus ID": 230799347,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 5138,
+            "Mean Inputs Length": 665.9313,
+            "Mean Targets Length": 181.7561,
+            "Max Inputs Length": 2378,
+            "Max Targets Length": 603,
+            "Min Inputs Length": 42,
+            "Min Targets Length": 22,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Tel Aviv University",
+            "AI2",
+            "University of Pennsylvania"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "cot_strategyqa",
+            "cot_strategyqa_ii"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "metaeval/strategy-qa",
+            "HF Config": "metaeval--strategy-qa",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "2021-01-06",
+            "S2 Date": "2021-01-06",
+            "GitHub License": "",
+            "Text Topics": [
+                "Geography",
+                "Politics",
+                "Trivia",
+                "Food and cooking",
+                "Biography",
+                "History",
+                "Literature",
+                "General knowledge"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-09",
+            "HF Downloads (September 2023)": 71,
+            "HF Likes (September 2023)": 2,
+            "PwC Description": "StrategyQA is a question answering benchmark where the required reasoning steps are implicit in the question, and should be inferred using a strategy.\nIt includes 2,780 examples, each consisting of a strategy question, its decomposition, and evidence paragraphs.\nQuestions in StrategyQA are short, topic-diverse, and cover a wide range of strategies.",
+            "S2 Citation Count (September 2023)": 194,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "fc-cot-stream_aqua": {
+        "Unique Dataset Identifier": "fc-cot-stream_aqua",
+        "Dataset Name": "stream_aqua",
+        "Collection": "Flan Collection (Chain-of-Thought)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/deepmind/AQuA",
+        "GitHub URL": "https://github.com/deepmind/AQuA",
+        "Hugging Face URL": "https://huggingface.co/datasets/aqua_rat",
+        "Paper Title": "Program Induction by Rationale Generation: Learning to Solve and Explain Algebraic Word Problems",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/aqua-rat",
+        "ArXiv URL": "https://arxiv.org/abs/1705.04146",
+        "Semantic Scholar Corpus ID": 12777818,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 6628,
+            "Mean Inputs Length": 878.1331,
+            "Mean Targets Length": 151.5018,
+            "Max Inputs Length": 3454,
+            "Max Targets Length": 866,
+            "Min Inputs Length": 66,
+            "Min Targets Length": 21,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "gmat",
+            "gre exams"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "DeepMind",
+            "University of Oxford"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://github.com/deepmind/AQuA"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "stream_aqua",
+            "stream_aqua_ii"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "aqua_rat",
+            "HF Config": "raw",
+            "HF Config License": "Apache License 2.0",
+            "HF Yaml License": "",
+            "PwC License Name": "Apache License 2.0",
+            "PwC License URL": "https://www.apache.org/licenses/LICENSE-2.0",
+            "PwC Date": "",
+            "S2 Date": "2017-05-11",
+            "GitHub License": "",
+            "Text Topics": [
+                "Math",
+                "Mathematics",
+                "Math - This dialog involves solving a math problem related to work and time",
+                "Arithmetic",
+                "Speed and distance",
+                "Problem-solving",
+                "Probability",
+                "Measurement",
+                "Geometry"
+            ],
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 2759,
+            "HF Likes (September 2023)": 4,
+            "PwC Description": "Algebra Question Answering with Rationales (AQUA-RAT) is a dataset that contains algebraic word problems with rationales. The dataset consists of about 100,000 algebraic word problems with natural language rationales. Each problem is a json object consisting of four parts:\n* question - A natural language definition of the problem to solve\n* options - 5 possible options (A, B, C, D and E), among which one is correct\n* rationale - A natural language description of the solution to the problem\n* correct - The correct option",
+            "S2 Citation Count (September 2023)": 271,
+            "GitHub Stars": 248,
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "fc-cot-stream_creak": {
+        "Unique Dataset Identifier": "fc-cot-stream_creak",
+        "Dataset Name": "stream_creak",
+        "Collection": "Flan Collection (Chain-of-Thought)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/yasumasaonoe/creak",
+        "GitHub URL": "https://github.com/yasumasaonoe/creak",
+        "Hugging Face URL": "https://huggingface.co/datasets/amydeng2000/CREAK",
+        "Paper Title": "CREAK: A Dataset for Commonsense Reasoning over Entity Knowledge",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/creak",
+        "ArXiv URL": "https://arxiv.org/abs/2109.01653",
+        "Semantic Scholar Corpus ID": 237417284,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 17131,
+            "Mean Inputs Length": 603.0336,
+            "Mean Targets Length": 110.1393,
+            "Max Inputs Length": 2393,
+            "Max Targets Length": 1134,
+            "Min Inputs Length": 65,
+            "Min Targets Length": 31,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "The University of Texas at Austin"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://paperswithcode.com/dataset/creak"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "cot_creak",
+            "cot_creak_ii"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "amydeng2000/CREAK",
+            "HF Config": "amydeng2000--CREAK",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "CC BY-SA 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/4.0/legalcode",
+            "PwC Date": "2021-09-03",
+            "S2 Date": "2021-09-03",
+            "GitHub License": "MIT License",
+            "Text Topics": [
+                "Pop culture",
+                "Culture",
+                "History",
+                "Religion",
+                "Geography",
+                "General knowledge",
+                "Entertainment",
+                "Animal behavior"
+            ],
+            "Github Date": "",
+            "HF Date": "2022-11-16",
+            "HF Downloads (September 2023)": 97,
+            "HF Likes (September 2023)": 0,
+            "PwC Description": "A testbed for commonsense reasoning about entity knowledge, bridging fact-checking about entities with commonsense inferences.",
+            "S2 Citation Count (September 2023)": 30,
+            "GitHub Stars": 17,
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "fc-cot-stream_ecqa": {
+        "Unique Dataset Identifier": "fc-cot-stream_ecqa",
+        "Dataset Name": "stream_ecqa",
+        "Collection": "Flan Collection (Chain-of-Thought)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/dair-iitd/ECQA-Dataset",
+        "GitHub URL": "https://github.com/dair-iitd/ECQA-Dataset",
+        "Hugging Face URL": "https://huggingface.co/datasets/yangdong/ecqa",
+        "Paper Title": "Explanations for CommonsenseQA: New Dataset and Models",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/ecqa",
+        "ArXiv URL": "https://aclanthology.org/2021.acl-long.238/",
+        "Semantic Scholar Corpus ID": 236459873,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 17270,
+            "Mean Inputs Length": 735.446,
+            "Mean Targets Length": 152.5197,
+            "Max Inputs Length": 2593,
+            "Max Targets Length": 908,
+            "Min Inputs Length": 66,
+            "Min Targets Length": 37,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "conceptnet",
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Indian Institute of Technology",
+            "IBM"
+        ],
+        "Licenses": [
+            {
+                "License": "CDLA Sharing 1.0",
+                "License URL": "https://github.com/Community-Data-License-Agreements/Releases/blob/main/CDLA-Sharing-1.0.md"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "cot_ecqa",
+            "cot_ecqa_ii"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "yangdong/ecqa",
+            "HF Config": "yangdong--ecqa2",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "CDLA Sharing 1.0",
+            "PwC License URL": "https://github.com/Community-Data-License-Agreements/Releases",
+            "PwC Date": "2021-07-15",
+            "S2 Date": "",
+            "GitHub License": "",
+            "Text Topics": [
+                "General knowledge",
+                "Travel",
+                "Technology",
+                "Geography",
+                "Education",
+                "Decision-making",
+                "Communication skills",
+                "Communication",
+                "Music",
+                "Ethics and morality"
+            ],
+            "Github Date": "",
+            "HF Date": "2022-03-16",
+            "HF Downloads (September 2023)": 67,
+            "HF Likes (September 2023)": 0,
+            "PwC Description": "This repository contains the publicly released dataset, code, and models for the Explanations for CommonsenseQA paper presented at ACL-IJCNLP 2021. Directories data and  code inside the root folder contain dataset and code, respectively. The same data and code are also made available through our AIHN collaboration partner institute IIT Delhi. You can download the full paper from here.\n\nNote that these annotations are provided for the questions of the CommonsenseQA data (https://www.tau-nlp.org/commonsenseqa): arXiv:1811.00937 [cs.CL] (or arXiv:1811.00937v2 [cs.CL] for this version).\n\nCitations\nPlease consider citing this paper as follows:\n@inproceedings{aggarwaletal2021ecqa,\n  title={{E}xplanations for {C}ommonsense{QA}: {N}ew {D}ataset and {M}odels},\n  author={Shourya Aggarwal and Divyanshu Mandowara and Vishwajeet Agrawal and Dinesh Khandelwal and Parag Singla and Dinesh Garg},\n  booktitle=\"Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)}\",\n  Pages = 3050–3065,\n  year = \"2021\",\n  publisher = \"Association for Computational Linguistics\"\n}",
+            "S2 Citation Count (September 2023)": 59,
+            "GitHub Stars": 13,
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "CommonSenseQA"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "fc-cot-stream_esnli": {
+        "Unique Dataset Identifier": "fc-cot-stream_esnli",
+        "Dataset Name": "stream_esnli",
+        "Collection": "Flan Collection (Chain-of-Thought)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/OanaMariaCamburu/e-SNLI",
+        "GitHub URL": "https://github.com/OanaMariaCamburu/e-SNLI",
+        "Hugging Face URL": "https://huggingface.co/datasets/esnli",
+        "Paper Title": "e-SNLI: Natural Language Inference with Natural Language Explanations",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/e-snli",
+        "ArXiv URL": "https://arxiv.org/abs/1812.01193",
+        "Semantic Scholar Corpus ID": 54040953,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 89168,
+            "Mean Inputs Length": 831.8397,
+            "Mean Targets Length": 131.5167,
+            "Max Inputs Length": 2483,
+            "Max Targets Length": 677,
+            "Min Inputs Length": 65,
+            "Min Targets Length": 37,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "crowdsourced (amt)"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "University of Oxford",
+            "University College London",
+            "Alan Turing Institute",
+            "DeepMind"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://github.com/OanaMariaCamburu/e-SNLI"
+            }
+        ],
+        "License Notes": "An extension of SNLI with human annotated labels",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "cot_esnli",
+            "cot_esnli_ii"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "esnli",
+            "HF Config": "plain_text",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "Custom",
+            "PwC License URL": "https://github.com/OanaMariaCamburu/e-SNLI",
+            "PwC Date": "",
+            "S2 Date": "2018-12-04",
+            "GitHub License": "MIT License",
+            "Text Topics": [
+                "Reasoning",
+                "Language understanding",
+                "Inference and reasoning",
+                "Logic",
+                "Inference",
+                "General knowledge",
+                "Sports",
+                "Language comprehension"
+            ],
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 6646,
+            "HF Likes (September 2023)": 14,
+            "PwC Description": "e-SNLI is used for various goals, such as obtaining full sentence justifications of a model's decisions, improving universal sentence representations and transferring to out-of-domain NLI datasets.",
+            "S2 Citation Count (September 2023)": 393,
+            "GitHub Stars": 148,
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "snli"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "fc-cot-stream_qasc": {
+        "Unique Dataset Identifier": "fc-cot-stream_qasc",
+        "Dataset Name": "stream_qasc",
+        "Collection": "Flan Collection (Chain-of-Thought)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://allenai.org/data/qasc",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/qasc",
+        "Paper Title": "QASC: A Dataset for Question Answering via Sentence Composition",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/qasc",
+        "ArXiv URL": "https://arxiv.org/abs/1910.11473",
+        "Semantic Scholar Corpus ID": 204915921,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 2664,
+            "Mean Inputs Length": 975.1693,
+            "Mean Targets Length": 205.2755,
+            "Max Inputs Length": 2788,
+            "Max Targets Length": 537,
+            "Min Inputs Length": 66,
+            "Min Targets Length": 75,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "ck12.org"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "AI2",
+            "University of Arizona"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://github.com/allenai/qasc/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "cot_qasc",
+            "cot_qasc_ii"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "qasc",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "CC BY 4.0",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": "",
+            "PwC Date": "2019-10-25",
+            "S2 Date": "2019-10-25",
+            "GitHub License": "",
+            "Text Topics": [
+                "Marine biology",
+                "Animal behavior",
+                "Animal anatomy and physiology",
+                "Anatomy",
+                "Reproduction",
+                "Biology",
+                "Physiology",
+                "Genetics",
+                "Ecology",
+                "Zoology"
+            ],
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 5201,
+            "HF Likes (September 2023)": 5,
+            "PwC Description": "QASC is a question-answering dataset with a focus on sentence composition. It consists of 9,980 8-way multiple-choice questions about grade school science (8,134 train, 926 dev, 920 test), and comes with a corpus of 17M sentences.",
+            "S2 Citation Count (September 2023)": 199,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "WorldTree corpus"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "fc-cot-stream_qed": {
+        "Unique Dataset Identifier": "fc-cot-stream_qed",
+        "Dataset Name": "stream_qed",
+        "Collection": "Flan Collection (Chain-of-Thought)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/google-research-datasets/QED",
+        "GitHub URL": "https://github.com/google-research-datasets/QED",
+        "Hugging Face URL": "https://huggingface.co/datasets/qed",
+        "Paper Title": "QED: A Framework and Dataset for Explanations in Question Answering",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/qed",
+        "ArXiv URL": "https://arxiv.org/abs/1910.11473",
+        "Semantic Scholar Corpus ID": 221655495,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 12700,
+            "Mean Inputs Length": 2248.3326,
+            "Mean Targets Length": 358.2539,
+            "Max Inputs Length": 34693,
+            "Max Targets Length": 34677,
+            "Min Inputs Length": 66,
+            "Min Targets Length": 55,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "ck12.org"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University",
+            "Google Research",
+            "The University of Texas at Austin"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://github.com/google-research-datasets/QED"
+            },
+            {
+                "License": "GNU General Public License v3.0",
+                "License URL": "https://github.com/google-research-datasets/QED"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "stream_qed",
+            "stream_qed_ii"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "qed",
+            "HF Config": "qed",
+            "HF Config License": "",
+            "HF Yaml License": "Unspecified",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2020-09-08",
+            "GitHub License": "",
+            "Text Topics": [
+                "Geography",
+                "Reality TV shows",
+                "Sports",
+                "Acting and film industry",
+                "Literature",
+                "Travel",
+                "Music",
+                "Pop culture"
+            ],
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 1121,
+            "HF Likes (September 2023)": 2,
+            "PwC Description": "QED is a linguistically principled framework for explanations in question answering. Given a question and a passage, QED represents an explanation of the answer as a combination of discrete, human-interpretable steps:\nsentence selection := identification of a sentence implying an answer to the question\nreferential equality := identification of noun phrases in the question and the answer sentence that refer to the same thing\npredicate entailment := confirmation that the predicate in the sentence entails the predicate in the question once referential equalities are abstracted away.\nThe QED dataset is an expert-annotated dataset of QED explanations build upon a subset of the Google Natural Questions dataset.",
+            "S2 Citation Count (September 2023)": 45,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "WorldTree corpus"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "fc-cot-stream_sensemaking": {
+        "Unique Dataset Identifier": "fc-cot-stream_sensemaking",
+        "Dataset Name": "stream_sensemaking",
+        "Collection": "Flan Collection (Chain-of-Thought)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/allenai/feb",
+        "GitHub URL": "https://github.com/allenai/feb",
+        "Hugging Face URL": "",
+        "Paper Title": "Few-Shot Self-Rationalization with Natural Language Prompts",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2111.08284",
+        "Semantic Scholar Corpus ID": 244130199,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 14883,
+            "Mean Inputs Length": 736.1728,
+            "Mean Targets Length": 106.6989,
+            "Max Inputs Length": 2128,
+            "Max Targets Length": 433,
+            "Min Inputs Length": 73,
+            "Min Targets Length": 31,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "e-snli",
+            "ecqa",
+            "comve",
+            "sbic"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "AI2"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "cot_sensemaking",
+            "cot_sensemaking_ii"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-11-16",
+            "GitHub License": "Apache License 2.0",
+            "Text Topics": [
+                "Logic",
+                "General knowledge",
+                "Critical thinking",
+                "Language and grammar",
+                "Language and communication",
+                "Common sense",
+                "Grammar",
+                "Logic and reasoning"
+            ],
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 53,
+            "GitHub Stars": 11,
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    }
+}

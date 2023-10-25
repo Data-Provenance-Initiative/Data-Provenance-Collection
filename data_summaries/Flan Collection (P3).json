@@ -1,0 +1,2188 @@
+{
+    "fc-p3-adversarial_qa": {
+        "Unique Dataset Identifier": "fc-p3-adversarial_qa",
+        "Dataset Name": "adversarial_qa",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://paperswithcode.com/dataset/adversarialqa",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/adversarial_qa",
+        "Paper Title": "Beat the AI: Investigating Adversarial Human Annotation for Reading Comprehension",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/adversarialqa",
+        "ArXiv URL": "https://arxiv.org/abs/2002.00293",
+        "Semantic Scholar Corpus ID": 211010520,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Adversarial Question Answering",
+            "Question Generation",
+            "Question Answering"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 93281,
+            "Mean Inputs Length": 2450.0739,
+            "Mean Targets Length": 31.2691,
+            "Max Inputs Length": 8664,
+            "Max Targets Length": 850,
+            "Min Inputs Length": 236,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "wikipedia.org",
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "University College London"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://creativecommons.org/licenses/by-sa/3.0/"
+            }
+        ],
+        "License Notes": "Approved for training/fine-tuning only",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "adversarial_qa_droberta_tell_what_it_is",
+            "adversarial_qa_droberta_answer_the_following_q",
+            "adversarial_qa_dbidaf_answer_the_following_q",
+            "adversarial_qa_droberta_based_on",
+            "adversarial_qa_dbert_based_on",
+            "adversarial_qa_dbert_answer_the_following_q",
+            "adversarial_qa_dbert_generate_question",
+            "adversarial_qa_droberta_generate_question",
+            "adversarial_qa_dbidaf_generate_question",
+            "adversarial_qa_dbidaf_based_on",
+            "adversarial_qa_dbidaf_tell_what_it_is",
+            "adversarial_qa_dbidaf_question_context_answer",
+            "adversarial_qa_dbert_question_context_answer",
+            "adversarial_qa_droberta_question_context_answer",
+            "adversarial_qa_dbert_tell_what_it_is"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "adversarial_qa",
+            "HF Config": "adversarialQA",
+            "HF Config License": "",
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "PwC Date": "2020-02-02",
+            "S2 Date": "2020-02-02",
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 11446,
+            "HF Likes (September 2023)": 27,
+            "PwC Description": "We have created three new Reading Comprehension datasets constructed using an adversarial model-in-the-loop.\n\nWe use three different models; BiDAF (Seo et al., 2016), BERTLarge (Devlin et al., 2018), and RoBERTaLarge (Liu et al., 2019) in the annotation loop and construct three datasets; D(BiDAF), D(BERT), and D(RoBERTa), each with 10,000 training examples, 1,000 validation, and 1,000 test examples.\n\nThe adversarial human annotation paradigm ensures that these datasets consist of questions that current state-of-the-art models (at least the ones used as adversaries in the annotation loop) find challenging. The three AdversarialQA round 1 datasets provide a training and evaluation resource for such methods.",
+            "S2 Citation Count (September 2023)": 110,
+            "GitHub Stars": "",
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Reading comprehension",
+                "Genetics",
+                "History",
+                "Religion",
+                "Geography",
+                "Economics",
+                "Education",
+                "Politics"
+            ]
+        },
+        "Derived from Datasets": [
+            "SQuADv1"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "fc-p3-amazon_polarity": {
+        "Unique Dataset Identifier": "fc-p3-amazon_polarity",
+        "Dataset Name": "amazon_polarity",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://huggingface.co/datasets/amazon_polarity",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/amazon_polarity",
+        "Paper Title": "Character-level Convolutional Networks for Text Classification",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/yahoo-answers",
+        "ArXiv URL": "https://arxiv.org/abs/1509.01626",
+        "Semantic Scholar Corpus ID": 368182,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Sentiment Analysis"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 111616,
+            "Mean Inputs Length": 1420.5874,
+            "Mean Targets Length": 7.3349,
+            "Max Inputs Length": 5881,
+            "Max Targets Length": 19,
+            "Min Inputs Length": 142,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "undisclosed web",
+            "amazon.com",
+            "yelp",
+            "sogou news",
+            "dbpedia",
+            "yahoo! answers",
+            "ag news"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "New York University"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://huggingface.co/datasets/amazon_polarity"
+            }
+        ],
+        "License Notes": "Competitor dataset",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "amazon_polarity_user_satisfied",
+            "amazon_polarity_convey_negative_or_positive_sentiment",
+            "amazon_polarity_Is_this_product_review_positive",
+            "amazon_polarity_Is_this_review",
+            "amazon_polarity_Is_this_review_negative",
+            "amazon_polarity_would_you_buy",
+            "amazon_polarity_User_recommend_this_product",
+            "amazon_polarity_negative_or_positive_tone",
+            "amazon_polarity_flattering_or_not"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "amazon_polarity",
+            "HF Config": "amazon_polarity",
+            "HF Config License": "Apache License 2.0",
+            "HF Yaml License": "Apache License 2.0",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "2015-09-04",
+            "S2 Date": "2015-09-04",
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 9508,
+            "HF Likes (September 2023)": 26,
+            "PwC Description": "The Yahoo! Answers topic classification dataset is constructed using 10 largest main categories. Each class contains 140,000 training samples and 6,000 testing samples. Therefore, the total number of training samples is 1,400,000 and testing samples 60,000 in this dataset. From all the answers and other meta-information, we only used the best answer content and the main category information.",
+            "S2 Citation Count (September 2023)": 4622,
+            "GitHub Stars": "",
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Book reviews",
+                "Customer satisfaction",
+                "Movie reviews",
+                "Product recommendation",
+                "Music",
+                "Entertainment",
+                "Product review analysis"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "fc-p3-app_reviews": {
+        "Unique Dataset Identifier": "fc-p3-app_reviews",
+        "Dataset Name": "app_reviews",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://huggingface.co/datasets/app_reviews",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/app_reviews",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Context Generation",
+            "Sentiment Analysis"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 49515,
+            "Mean Inputs Length": 487.3374,
+            "Mean Targets Length": 19.1733,
+            "Max Inputs Length": 2539,
+            "Max Targets Length": 1252,
+            "Min Inputs Length": 96,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "app_reviews_categorize_rating_using_review",
+            "app_reviews_convert_to_star_rating",
+            "app_reviews_generate_review",
+            "app_reviews_convert_to_rating"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "app_reviews",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "Unspecified",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "",
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 5129,
+            "HF Likes (September 2023)": 11,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": "",
+            "GitHub Topics": [],
+            "Text Topics": [
+                "User feedback",
+                "User experience",
+                "App functionality",
+                "Technology",
+                "User reviews",
+                "Mobile applications",
+                "Sentiment analysis",
+                "App review",
+                "Review rating"
+            ]
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
+    },
+    "fc-p3-cos_e": {
+        "Unique Dataset Identifier": "fc-p3-cos_e",
+        "Dataset Name": "cos_e",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/salesforce/cos-e",
+        "GitHub URL": "https://github.com/salesforce/cos-e",
+        "Hugging Face URL": "https://huggingface.co/datasets/cos_e",
+        "Paper Title": "Explain Yourself! Leveraging Language Models for Commonsense Reasoning",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/cos-e",
+        "ArXiv URL": "https://arxiv.org/abs/1906.02361",
+        "Semantic Scholar Corpus ID": 174803111,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Explanation Generation",
+            "Multiple Choice Question Answering"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 66217,
+            "Mean Inputs Length": 637.0221,
+            "Mean Targets Length": 20.8987,
+            "Max Inputs Length": 2383,
+            "Max Targets Length": 162,
+            "Min Inputs Length": 95,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "conceptnet"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Salesforce Research"
+        ],
+        "Licenses": [
+            {
+                "License": "BSD 3-Clause License",
+                "License URL": "https://github.com/salesforce/cos-e/blob/master/LICENSE"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "cos_e_v1.11_generate_explanation_given_text",
+            "cos_e_v1.11_question_description_option_id",
+            "cos_e_v1.11_description_question_option_text",
+            "cos_e_v1.11_rationale",
+            "cos_e_v1.11_question_option_description_text",
+            "cos_e_v1.11_i_think",
+            "cos_e_v1.11_description_question_option_id",
+            "cos_e_v1.11_question_option_description_id",
+            "cos_e_v1.11_explain_why_human",
+            "cos_e_v1.11_aligned_with_common_sense",
+            "cos_e_v1.11_question_description_option_text"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "cos_e",
+            "HF Config": "v1.0",
+            "HF Config License": "",
+            "HF Yaml License": "Unspecified",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2019-06-06",
+            "GitHub License": "BSD 3-Clause License",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 5153,
+            "HF Likes (September 2023)": 5,
+            "PwC Description": "CoS-E consists of human explanations for commonsense reasoning in the form of natural language sequences and highlighted annotations",
+            "S2 Citation Count (September 2023)": 359,
+            "GitHub Stars": 142,
+            "GitHub Topics": [],
+            "Text Topics": [
+                "General knowledge",
+                "Office supplies",
+                "Decision-making",
+                "Daily routine",
+                "Communication",
+                "Common sense",
+                "Geography",
+                "Entertainment",
+                "Travel",
+                "Common sense reasoning"
+            ]
+        },
+        "Derived from Datasets": [
+            "CommonSenseQA"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "fc-p3-dbpedia_14": {
+        "Unique Dataset Identifier": "fc-p3-dbpedia_14",
+        "Dataset Name": "dbpedia_14",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://huggingface.co/datasets/dbpedia_14",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/dbpedia_14",
+        "Paper Title": "DBpedia – A large-scale, multilingual knowledge base extracted from Wikipedia ",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/dbpedia",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 1181640,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Classification"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 49477,
+            "Mean Inputs Length": 1258.5975,
+            "Mean Targets Length": 10.537,
+            "Max Inputs Length": 5160,
+            "Max Targets Length": 30,
+            "Min Inputs Length": 244,
+            "Min Targets Length": 4,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [],
+        "Model Generated": [],
+        "Creators": [
+            "University of Leipzig",
+            "University of Mannheim",
+            "OpenLink Software",
+            "Hasso-Plattner-Institute for IT-Systems Engineering",
+            "Neofonie GmbH",
+            "Kno.e.sis",
+            "Brox IT-Solutions GmbH"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "dbpedia_14_given_a_choice_of_categories_",
+            "dbpedia_14_given_list_what_category_does_the_paragraph_belong_to",
+            "dbpedia_14_given_a_list_of_category_what_does_the_title_belong_to",
+            "dbpedia_14_pick_one_category_for_the_following_text"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "dbpedia_14",
+            "HF Config": "dbpedia_14",
+            "HF Config License": "CC BY-SA 3.0",
+            "HF Yaml License": "CC BY-SA 3.0",
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+            "PwC Date": "2007-01-01",
+            "S2 Date": "",
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 17004,
+            "HF Likes (September 2023)": 7,
+            "PwC Description": "DBpedia (from \"DB\" for \"database\") is a project aiming to extract structured content from the information created in the Wikipedia project. DBpedia allows users to semantically query relationships and properties of Wikipedia resources, including links to other related datasets.",
+            "S2 Citation Count (September 2023)": 2816,
+            "GitHub Stars": "",
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Geography",
+                "Entertainment",
+                "Literature",
+                "Categorization",
+                "Botany",
+                "Education",
+                "Sports",
+                "Music",
+                "History",
+                "Architecture"
+            ]
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
+    },
+    "fc-p3-dream": {
+        "Unique Dataset Identifier": "fc-p3-dream",
+        "Dataset Name": "dream",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/nlpdata/dream",
+        "GitHub URL": "https://github.com/nlpdata/dream",
+        "Hugging Face URL": "https://huggingface.co/datasets/dream",
+        "Paper Title": "DREAM: A Challenge Data Set and Models for Dialogue-Based Reading Comprehension",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/1902.00164",
+        "Semantic Scholar Corpus ID": 59553499,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialog Turn Prediction",
+            "Multiple Choice Question Answering",
+            "Wrong Candidate Generation"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 18985,
+            "Mean Inputs Length": 1719.9007,
+            "Mean Targets Length": 144.8606,
+            "Max Inputs Length": 7495,
+            "Max Targets Length": 2035,
+            "Min Inputs Length": 58,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "undisclosed web"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Cornell University",
+            "Tencent AI Lab",
+            "University of Washington",
+            "AI2"
+        ],
+        "Licenses": [
+            {
+                "License": "Academic Research Purposes Only",
+                "License URL": "https://github.com/nlpdata/dream/blob/master/license.txt"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "dream_generate_first_utterance",
+            "dream_read_the_following_conversation_and_answer_the_question",
+            "dream_generate_last_utterance",
+            "dream_baseline",
+            "dream_answer_to_dialogue"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "dream",
+            "HF Config": "plain_text",
+            "HF Config License": "",
+            "HF Yaml License": "Unspecified",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2019-02-01",
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 4001,
+            "HF Likes (September 2023)": 5,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 219,
+            "GitHub Stars": 72,
+            "GitHub Topics": [
+                "dataset",
+                "dialogue",
+                "machine-reading-comprehension"
+            ],
+            "Text Topics": [
+                "Customer service",
+                "Education",
+                "Personal preferences",
+                "Geography",
+                "Travel",
+                "Time management",
+                "Daily routine",
+                "Communication"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "fc-p3-duorc_paraphraserc": {
+        "Unique Dataset Identifier": "fc-p3-duorc_paraphraserc",
+        "Dataset Name": "duorc_paraphraserc",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/duorc/duorc",
+        "GitHub URL": "https://github.com/duorc/duorc",
+        "Hugging Face URL": "https://huggingface.co/datasets/duorc",
+        "Paper Title": "DuoRC: Towards Complex Language Understanding with Paraphrased Reading Comprehension",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/duorc",
+        "ArXiv URL": "https://arxiv.org/abs/1804.07927",
+        "Semantic Scholar Corpus ID": 5071138,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Span Selection Question Answering",
+            "Title Generation",
+            "Question Generation"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 110833,
+            "Mean Inputs Length": 4230.9566,
+            "Mean Targets Length": 239.3622,
+            "Max Inputs Length": 8106,
+            "Max Targets Length": 2052,
+            "Min Inputs Length": 50,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "wikipedia.org",
+            "imdb.com"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "IBM",
+            "Indian Institute of Technology"
+        ],
+        "Licenses": [
+            {
+                "License": "Non Commercial",
+                "License URL": "https://www.imdb.com/interfaces/"
+            }
+        ],
+        "License Notes": "Derived from Wikipedia and IMDB.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "duorc_ParaphraseRC_generate_question_by_answer",
+            "duorc_ParaphraseRC_generate_question",
+            "duorc_ParaphraseRC_question_answering",
+            "duorc_ParaphraseRC_decide_worth_it",
+            "duorc_ParaphraseRC_title_generation",
+            "duorc_ParaphraseRC_movie_director",
+            "duorc_ParaphraseRC_build_story_around_qa",
+            "duorc_ParaphraseRC_answer_question",
+            "duorc_ParaphraseRC_extract_answer"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "duorc",
+            "HF Config": "SelfRC",
+            "HF Config License": "Custom",
+            "HF Yaml License": "",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": "",
+            "PwC Date": "2018-04-21",
+            "S2 Date": "2018-04-01",
+            "GitHub License": "MIT License",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 8260,
+            "HF Likes (September 2023)": 24,
+            "PwC Description": "DuoRC contains 186,089 unique question-answer pairs created from a collection of 7680 pairs of movie plots where each pair in the collection reflects two versions of the same movie.\n\nWhy another RC dataset?\n\nDuoRC pushes the NLP community to address challenges on incorporating knowledge and reasoning in neural architectures for reading comprehension. It poses several interesting challenges such as:\n\n\nDuoRC using parallel plots is especially designed to contain a large number of questions with low lexical overlap between questions and their corresponding passages\nIt requires models to go beyond the content of the given passage itself and incorporate world-knowledge, background knowledge, and common-sense knowledge to arrive at the answer\nIt revolves around narrative passages from movie plots describing complex events and therefore naturally require complex reasoning (e.g. temporal reasoning, entailment, long-distance anaphoras, etc.) across multiple sentences to infer the answer to questions\nSeveral of the questions in DuoRC, while seeming relevant, cannot actually be answered from the given passage. This requires the model to detect the unanswerability of questions. This aspect is important for machines to achieve in industrial settings in particular",
+            "S2 Citation Count (September 2023)": 161,
+            "GitHub Stars": 15,
+            "GitHub Topics": [
+                "dataset",
+                "nlp-machine-learning",
+                "question-answering",
+                "reading-comprehension"
+            ],
+            "Text Topics": [
+                "Movie trivia",
+                "Character development",
+                "Entertainment",
+                "Movie plot analysis",
+                "Film and entertainment",
+                "Creative writing",
+                "Movie analysis",
+                "Trivia",
+                "Movie plot summary"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "fc-p3-duorc_selfrc": {
+        "Unique Dataset Identifier": "fc-p3-duorc_selfrc",
+        "Dataset Name": "duorc_selfrc",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/duorc/duorc",
+        "GitHub URL": "https://github.com/duorc/duorc",
+        "Hugging Face URL": "https://huggingface.co/datasets/duorc",
+        "Paper Title": "DuoRC: Towards Complex Language Understanding with Paraphrased Reading Comprehension",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/duorc",
+        "ArXiv URL": "https://arxiv.org/abs/1804.07927",
+        "Semantic Scholar Corpus ID": 5071138,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Span Selection Question Answering",
+            "Title Generation",
+            "Question Generation"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 110981,
+            "Mean Inputs Length": 4189.922,
+            "Mean Targets Length": 232.2778,
+            "Max Inputs Length": 8203,
+            "Max Targets Length": 2052,
+            "Min Inputs Length": 51,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "wikipedia.org",
+            "imdb.com"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "IBM",
+            "Indian Institute of Technology"
+        ],
+        "Licenses": [
+            {
+                "License": "Non Commercial",
+                "License URL": "https://www.imdb.com/interfaces/"
+            }
+        ],
+        "License Notes": "Derived from Wikipedia and IMDB.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "duorc_SelfRC_generate_question",
+            "duorc_SelfRC_question_answering",
+            "duorc_SelfRC_answer_question",
+            "duorc_SelfRC_build_story_around_qa",
+            "duorc_SelfRC_extract_answer",
+            "duorc_SelfRC_generate_question_by_answer",
+            "duorc_SelfRC_movie_director",
+            "duorc_SelfRC_title_generation",
+            "duorc_SelfRC_decide_worth_it"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "duorc",
+            "HF Config": "SelfRC",
+            "HF Config License": "Custom",
+            "HF Yaml License": "",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": "",
+            "PwC Date": "2018-04-21",
+            "S2 Date": "2018-04-01",
+            "GitHub License": "MIT License",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 8260,
+            "HF Likes (September 2023)": 24,
+            "PwC Description": "DuoRC contains 186,089 unique question-answer pairs created from a collection of 7680 pairs of movie plots where each pair in the collection reflects two versions of the same movie.\n\nWhy another RC dataset?\n\nDuoRC pushes the NLP community to address challenges on incorporating knowledge and reasoning in neural architectures for reading comprehension. It poses several interesting challenges such as:\n\n\nDuoRC using parallel plots is especially designed to contain a large number of questions with low lexical overlap between questions and their corresponding passages\nIt requires models to go beyond the content of the given passage itself and incorporate world-knowledge, background knowledge, and common-sense knowledge to arrive at the answer\nIt revolves around narrative passages from movie plots describing complex events and therefore naturally require complex reasoning (e.g. temporal reasoning, entailment, long-distance anaphoras, etc.) across multiple sentences to infer the answer to questions\nSeveral of the questions in DuoRC, while seeming relevant, cannot actually be answered from the given passage. This requires the model to detect the unanswerability of questions. This aspect is important for machines to achieve in industrial settings in particular",
+            "S2 Citation Count (September 2023)": 161,
+            "GitHub Stars": 15,
+            "GitHub Topics": [
+                "dataset",
+                "nlp-machine-learning",
+                "question-answering",
+                "reading-comprehension"
+            ],
+            "Text Topics": [
+                "Relationship dynamics",
+                "Movie titles",
+                "Mystery and suspense",
+                "Movie plot analysis",
+                "Film analysis",
+                "Character development",
+                "Science fiction"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "fc-p3-hotpotqa": {
+        "Unique Dataset Identifier": "fc-p3-hotpotqa",
+        "Dataset Name": "hotpotqa",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/hotpotqa/hotpot",
+        "GitHub URL": "https://github.com/hotpotqa/hotpot",
+        "Hugging Face URL": "https://huggingface.co/datasets/hotpot_qa",
+        "Paper Title": "HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/hotpotqa",
+        "ArXiv URL": "https://arxiv.org/abs/1809.09600",
+        "Semantic Scholar Corpus ID": 52822214,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Closed-Book Question Answering",
+            "Explanation"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 61902,
+            "Mean Inputs Length": 479.7229,
+            "Mean Targets Length": 13.45,
+            "Max Inputs Length": 2376,
+            "Max Targets Length": 138,
+            "Min Inputs Length": 29,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Carnegie Mellon University",
+            "Stanford University",
+            "Montreal Institute of Learning Algorithms (Mila)",
+            "Universite de Montreal",
+            "CIFAR Senior Fellow",
+            "Google"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+            }
+        ],
+        "License Notes": "Approved for training/fine-tuning only",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "kilt_tasks_hotpotqa_combining_facts",
+            "kilt_tasks_hotpotqa_formulate",
+            "kilt_tasks_hotpotqa_complex_question",
+            "kilt_tasks_hotpotqa_straighforward_qa",
+            "kilt_tasks_hotpotqa_final_exam"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "hotpot_qa",
+            "HF Config": "distractor",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "CC BY-SA 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "PwC Date": "2018-01-01",
+            "S2 Date": "2018-09-25",
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 8046,
+            "HF Likes (September 2023)": 16,
+            "PwC Description": "HotpotQA is a question answering dataset collected on the English Wikipedia, containing about 113K crowd-sourced questions that are constructed to require the introduction paragraphs of two Wikipedia articles to answer. Each question in the dataset comes with the two gold paragraphs, as well as a list of sentences in these paragraphs that crowdworkers identify as supporting facts necessary to answer the question. \n\nA diverse range of reasoning strategies are featured in HotpotQA, including questions involving missing entities in the question, intersection questions (What satisfies property A and property B?), and comparison questions, where two entities are compared by a common attribute, among others. In the few-document distractor setting, the QA models are given ten paragraphs in which the gold paragraphs are guaranteed to be found; in the open-domain fullwiki setting, the models are only given the question and the entire Wikipedia. Models are evaluated on their answer accuracy and explainability, where the former is measured as overlap between the predicted and gold answers with exact match (EM) and unigram F1, and the latter concerns how well the predicted supporting fact sentences match human annotation (Supporting Fact EM/F1). A joint metric is also reported on this dataset, which encourages systems to perform well on both tasks simultaneously.",
+            "S2 Citation Count (September 2023)": 1150,
+            "GitHub Stars": 343,
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Sports",
+                "Trivia",
+                "Geography",
+                "History",
+                "Music trivia",
+                "Politics",
+                "General knowledge",
+                "Entertainment",
+                "Entertainment industry"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "fc-p3-qasc": {
+        "Unique Dataset Identifier": "fc-p3-qasc",
+        "Dataset Name": "qasc",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://allenai.org/data/qasc",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/qasc",
+        "Paper Title": "QASC: A Dataset for Question Answering via Sentence Composition",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/qasc",
+        "ArXiv URL": "https://arxiv.org/abs/1910.11473",
+        "Semantic Scholar Corpus ID": 204915921,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Multiple Choice Question Answering",
+            "Question Answering"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 40234,
+            "Mean Inputs Length": 848.8631,
+            "Mean Targets Length": 8.8538,
+            "Max Inputs Length": 3357,
+            "Max Targets Length": 59,
+            "Min Inputs Length": 115,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "ck12.org"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "AI2",
+            "University of Arizona"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://creativecommons.org/licenses/by/4.0/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "qasc_qa_with_combined_facts_1",
+            "qasc_is_correct_1",
+            "qasc_qa_with_separated_facts_5",
+            "qasc_qa_with_separated_facts_3",
+            "qasc_is_correct_2",
+            "qasc_qa_with_separated_facts_4",
+            "qasc_qa_with_separated_facts_2",
+            "qasc_qa_with_separated_facts_1"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "qasc",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "CC BY 4.0",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": "",
+            "PwC Date": "2019-10-25",
+            "S2 Date": "2019-10-25",
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 5201,
+            "HF Likes (September 2023)": 5,
+            "PwC Description": "QASC is a question-answering dataset with a focus on sentence composition. It consists of 9,980 8-way multiple-choice questions about grade school science (8,134 train, 926 dev, 920 test), and comes with a corpus of 17M sentences.",
+            "S2 Citation Count (September 2023)": 199,
+            "GitHub Stars": "",
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Logic",
+                "General knowledge",
+                "Geology",
+                "Biology",
+                "Environmental science",
+                "Science",
+                "Chemistry",
+                "Optics",
+                "Engineering"
+            ]
+        },
+        "Derived from Datasets": [
+            "WorldTree corpus"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "fc-p3-quail": {
+        "Unique Dataset Identifier": "fc-p3-quail",
+        "Dataset Name": "quail",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://huggingface.co/datasets/quail",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/quail",
+        "Paper Title": "Getting Closer to AI Complete Question Answering: A Set of Prerequisite Real Tasks",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/quail",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 213474484,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Multiple Choice Question Answering",
+            "Question Answering"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 82315,
+            "Mean Inputs Length": 4338.3901,
+            "Mean Targets Length": 16.248,
+            "Max Inputs Length": 9126,
+            "Max Targets Length": 157,
+            "Min Inputs Length": 1522,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [],
+        "Model Generated": [],
+        "Creators": [
+            "University of Massachusetts Lowell"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "https://huggingface.co/datasets?license=license:cc-by-nc-sa-4.0"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "quail_description_context_question_answer_text",
+            "quail_no_prompt_text",
+            "quail_context_description_question_text",
+            "quail_no_prompt_id",
+            "quail_context_question_answer_description_id",
+            "quail_context_question_description_text",
+            "quail_context_description_question_answer_id",
+            "quail_description_context_question_text",
+            "quail_context_question_description_answer_text",
+            "quail_context_question_description_answer_id",
+            "quail_description_context_question_answer_id",
+            "quail_context_question_answer_description_text",
+            "quail_context_description_question_answer_text"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "quail",
+            "HF Config": "quail",
+            "HF Config License": "",
+            "HF Yaml License": "CC BY-NC-SA 4.0",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2020-04-03",
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 5174,
+            "HF Likes (September 2023)": 1,
+            "PwC Description": "A new kind of question-answering dataset that combines commonsense, text-based, and unanswerable questions, balanced for different genres and reasoning types. Reasoning type annotation for 9 types of reasoning: temporal, causality, factoid, coreference, character properties, their belief states, subsequent entity states, event durations, and unanswerable. Genres: CC license fiction, Voice of America news, blogs, user stories from Quora 800 texts, 18 questions for each (~14K questions).",
+            "S2 Citation Count (September 2023)": 76,
+            "GitHub Stars": "",
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Elections",
+                "Theater and performing arts",
+                "Collaboration and teamwork",
+                "Education",
+                "Current events",
+                "International relations",
+                "Diplomacy"
+            ]
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
+    },
+    "fc-p3-quarel": {
+        "Unique Dataset Identifier": "fc-p3-quarel",
+        "Dataset Name": "quarel",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://allenai.org/data/quarel",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/quarel",
+        "Paper Title": "Getting Closer to AI Complete Question Answering: A Set of Prerequisite Real Tasks",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/quarel",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 213474484,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Multiple Choice Question Answering",
+            "Wrong Candidate Generation"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 6057,
+            "Mean Inputs Length": 830.0033,
+            "Mean Targets Length": 10.8481,
+            "Max Inputs Length": 2534,
+            "Max Targets Length": 35,
+            "Min Inputs Length": 134,
+            "Min Targets Length": 3,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [],
+        "Model Generated": [],
+        "Creators": [
+            "University of Massachusetts Lowell"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://creativecommons.org/licenses/by/4.0"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "quarel_choose_between",
+            "quarel_logic_test",
+            "quarel_testing_students",
+            "quarel_do_not_use",
+            "quarel_heres_a_story"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "quarel",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "2018-11-20",
+            "S2 Date": "2020-04-03",
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 3707,
+            "HF Likes (September 2023)": 2,
+            "PwC Description": "QuaRel is a crowdsourced dataset of 2771 multiple-choice story questions, including their logical forms.",
+            "S2 Citation Count (September 2023)": 76,
+            "GitHub Stars": "",
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Logic",
+                "Decision-making",
+                "Sports",
+                "Astronomy",
+                "Problem-solving",
+                "Physics",
+                "Transportation",
+                "Critical thinking"
+            ]
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
+    },
+    "fc-p3-quartz": {
+        "Unique Dataset Identifier": "fc-p3-quartz",
+        "Dataset Name": "quartz",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://allenai.org/data/quartz",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/quartz",
+        "Paper Title": "QUARTZ: An Open-Domain Dataset of Qualitative Relationship Questions",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/quartz",
+        "ArXiv URL": "https://arxiv.org/abs/1909.03553",
+        "Semantic Scholar Corpus ID": 202539540,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Multiple Choice Question Answering",
+            "Explanation"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 13306,
+            "Mean Inputs Length": 843.0395,
+            "Mean Targets Length": 8.9542,
+            "Max Inputs Length": 2703,
+            "Max Targets Length": 54,
+            "Min Inputs Length": 118,
+            "Min Targets Length": 3,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "AI2"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://creativecommons.org/licenses/by/4.0"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "quartz_given_the_fact_answer_the_q",
+            "quartz_use_info_from_question_paragraph",
+            "quartz_having_read_above_passage",
+            "quartz_paragraph_question_plain_concat",
+            "quartz_answer_question_based_on",
+            "quartz_read_passage_below_choose",
+            "quartz_use_info_from_paragraph_question",
+            "quartz_answer_question_below"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "quartz",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "CC BY 4.0",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "2019-09-08",
+            "S2 Date": "2019-09-08",
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 4972,
+            "HF Likes (September 2023)": 3,
+            "PwC Description": "QuaRTz is a crowdsourced dataset of 3864 multiple-choice questions about open domain qualitative relationships. Each question is paired with one of 405 different background sentences (sometimes short paragraphs).\n\nThe QuaRTz dataset V1 contains 3864 questions about open domain qualitative relationships. Each question is paired with one of 405 different background sentences (sometimes short paragraphs).\n\nThe dataset is split into train (2696), dev (384) and test (784). A background sentence will only appear in a single split.\n\nEach line in a dataset file is a question specified as a json object, e.g., (with extra whitespace for readability).",
+            "S2 Citation Count (September 2023)": 74,
+            "GitHub Stars": "",
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Geology",
+                "Population dynamics",
+                "Science",
+                "Chemistry",
+                "Geography",
+                "Health",
+                "pH scale"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "fc-p3-quoref": {
+        "Unique Dataset Identifier": "fc-p3-quoref",
+        "Dataset Name": "quoref",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://paperswithcode.com/dataset/quoref",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/quoref",
+        "Paper Title": "Quoref: A Reading Comprehension Dataset with Questions Requiring Coreferential Reasoning",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/quoref",
+        "ArXiv URL": "https://arxiv.org/abs/1908.05803",
+        "Semantic Scholar Corpus ID": 201058596,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Span Selection Question Answering",
+            "Question Answering"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 131046,
+            "Mean Inputs Length": 4265.6427,
+            "Mean Targets Length": 11.3236,
+            "Max Inputs Length": 8609,
+            "Max Targets Length": 107,
+            "Min Inputs Length": 509,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "wikipedia.org",
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "AI2",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://creativecommons.org/licenses/by/4.0/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "quoref_Read_And_Extract_",
+            "quoref_Answer_Question_Given_Context",
+            "quoref_Found_Context_Online",
+            "quoref_Answer_Test",
+            "quoref_Find_Answer",
+            "quoref_Context_Contains_Answer",
+            "quoref_What_Is_The_Answer",
+            "quoref_Given_Context_Answer_Question",
+            "quoref_Answer_Friend_Question",
+            "quoref_Guess_Title_For_Context",
+            "quoref_Guess_Answer"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "quoref",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "CC BY 4.0",
+            "PwC License Name": "CC BY 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
+            "PwC Date": "2019-08-16",
+            "S2 Date": "",
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 4439,
+            "HF Likes (September 2023)": 1,
+            "PwC Description": "Quoref is a QA dataset which tests the coreferential reasoning capability of reading comprehension systems. In this span-selection benchmark containing 24K questions over 4.7K paragraphs from Wikipedia, a system must resolve hard coreferences before selecting the appropriate span(s) in the paragraphs for answering questions.",
+            "S2 Citation Count (September 2023)": 136,
+            "GitHub Stars": "",
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Information retrieval",
+                "Character analysis",
+                "Music history",
+                "Reading comprehension",
+                "Art history",
+                "Literature",
+                "History"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "fc-p3-race": {
+        "Unique Dataset Identifier": "fc-p3-race",
+        "Dataset Name": "race",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://www.cs.cmu.edu/~glai1/data/race/#:~:text=notes",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/race",
+        "Paper Title": "RACE: Large-scale ReAding Comprehension Dataset From Examinations",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/race",
+        "ArXiv URL": "https://arxiv.org/abs/1704.04683",
+        "Semantic Scholar Corpus ID": 6826032,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Multiple Choice Question Answering",
+            "Span Generation",
+            "Question Generation"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 197435,
+            "Mean Inputs Length": 3824.4942,
+            "Mean Targets Length": 39.8305,
+            "Max Inputs Length": 9422,
+            "Max Targets Length": 557,
+            "Min Inputs Length": 250,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "web exams"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Carnegie Mellon University"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://www.cs.cmu.edu/~glai1/data/race/#:~:text=notes"
+            }
+        ],
+        "License Notes": "Non-commercial",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "race_middle_Select_the_best_answer",
+            "race_middle_Read_the_article_and_answer_the_question_no_option_",
+            "race_middle_Select_the_best_answer_generate_span_",
+            "race_middle_Taking_a_test",
+            "race_middle_Write_a_multi_choice_question_for_the_following_article",
+            "race_middle_Select_the_best_answer_no_instructions_",
+            "race_middle_Is_this_the_right_answer",
+            "race_middle_Write_a_multi_choice_question_options_given_",
+            "race_high_Select_the_best_answer_no_instructions_",
+            "race_high_Read_the_article_and_answer_the_question_no_option_",
+            "race_high_Taking_a_test",
+            "race_high_Write_a_multi_choice_question_options_given_",
+            "race_high_Is_this_the_right_answer",
+            "race_high_Select_the_best_answer_generate_span_",
+            "race_high_Write_a_multi_choice_question_for_the_following_article",
+            "race_high_Select_the_best_answer"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "race",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Yaml License": "Unspecified",
+            "PwC License Name": "Academic Research Purposes Only",
+            "PwC License URL": "https://www.cs.cmu.edu/~glai1/data/race/#:~:text=notes",
+            "PwC Date": "2017-01-01",
+            "S2 Date": "2017-04-15",
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 24087,
+            "HF Likes (September 2023)": 20,
+            "PwC Description": "The ReAding Comprehension dataset from Examinations (RACE) dataset is a machine reading comprehension dataset consisting of 27,933 passages and 97,867 questions from English exams, targeting Chinese students aged 12-18. RACE consists of two subsets, RACE-M and RACE-H, from middle school and high school exams, respectively. RACE-M has 28,293 questions and RACE-H has 69,574. Each question is associated with 4 candidate answers, one of which is correct. The data generation process of RACE differs from most machine reading comprehension datasets - instead of generating questions and answers by heuristics or crowd-sourcing, questions in RACE are specifically designed for testing human reading skills, and are created by domain experts.",
+            "S2 Citation Count (September 2023)": 927,
+            "GitHub Stars": "",
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Communication",
+                "History",
+                "Sports",
+                "Education",
+                "Health and wellness",
+                "Daily routine",
+                "Technology"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "fc-p3-ropes": {
+        "Unique Dataset Identifier": "fc-p3-ropes",
+        "Dataset Name": "ropes",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://paperswithcode.com/dataset/ropes",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/ropes",
+        "Paper Title": "Reasoning Over Paragraph Effects in Situations",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/ropes",
+        "ArXiv URL": "https://arxiv.org/abs/1908.05852",
+        "Semantic Scholar Corpus ID": 201058633,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Span Selection Question Answering",
+            "Question Answering"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 81186,
+            "Mean Inputs Length": 2750.6579,
+            "Mean Targets Length": 6.2875,
+            "Max Inputs Length": 9049,
+            "Max Targets Length": 32,
+            "Min Inputs Length": 161,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "books",
+            "wikipedia.org",
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "AI2"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://creativecommons.org/licenses/by/4.0/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "ropes_plain_background_situation",
+            "ropes_background_new_situation_answer",
+            "ropes_prompt_beginning",
+            "ropes_plain_no_background",
+            "ropes_prompt_bottom_hint_beginning",
+            "ropes_new_situation_background_answer",
+            "ropes_given_background_situation",
+            "ropes_read_background_situation",
+            "ropes_prompt_bottom_no_hint",
+            "ropes_plain_bottom_hint",
+            "ropes_prompt_mix",
+            "ropes_background_situation_middle"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "ropes",
+            "HF Config": "plain_text",
+            "HF Config License": "CC BY 4.0",
+            "HF Yaml License": "CC BY 4.0",
+            "PwC License Name": "CC BY 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
+            "PwC Date": "2019-08-16",
+            "S2 Date": "2019-08-16",
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 5332,
+            "HF Likes (September 2023)": 9,
+            "PwC Description": "ROPES is a QA dataset which tests a system's ability to apply knowledge from a passage of text to a new situation. A system is presented a background passage containing a causal or qualitative relation(s), a novel situation that uses this background, and questions that require reasoning about effects of the relationships in the back-ground passage in the context of the situation.",
+            "S2 Citation Count (September 2023)": 92,
+            "GitHub Stars": "",
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Biology",
+                "Ecology",
+                "Physics",
+                "Health",
+                "Chemistry",
+                "Geography",
+                "Environmental Science",
+                "Geology",
+                "Science",
+                "Agriculture"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "fc-p3-sciq": {
+        "Unique Dataset Identifier": "fc-p3-sciq",
+        "Dataset Name": "sciq",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://huggingface.co/datasets/sciq",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/sciq",
+        "Paper Title": "Crowdsourcing Multiple Choice Science Questions",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/sciq",
+        "ArXiv URL": "https://arxiv.org/abs/1707.06209",
+        "Semantic Scholar Corpus ID": 1553193,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Multiple Choice Question Answering",
+            "Question Generation"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 36222,
+            "Mean Inputs Length": 1173.5201,
+            "Mean Targets Length": 11.0302,
+            "Max Inputs Length": 7855,
+            "Max Targets Length": 62,
+            "Min Inputs Length": 34,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "creative commons license textbooks"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "University College London",
+            "University of Washington",
+            "AI2"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 3.0",
+                "License URL": "http://creativecommons.org/licenses/by-nc/3.0/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "sciq_Direct_Question",
+            "sciq_Multiple_Choice_Closed_Book_",
+            "sciq_Direct_Question_Closed_Book_",
+            "sciq_Multiple_Choice",
+            "sciq_Multiple_Choice_Question_First"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "sciq",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "CC BY-NC 3.0",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": "",
+            "PwC Date": "2017-07-19",
+            "S2 Date": "2017-07-19",
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 59289,
+            "HF Likes (September 2023)": 56,
+            "PwC Description": "The SciQ dataset contains 13,679 crowdsourced science exam questions about Physics, Chemistry and Biology, among others. The questions are in multiple-choice format with 4 answer options each. For the majority of the questions, an additional paragraph with supporting evidence for the correct answer is provided.",
+            "S2 Citation Count (September 2023)": 142,
+            "GitHub Stars": "",
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Science",
+                "Genetics",
+                "Chemistry",
+                "Ecology",
+                "Biology",
+                "Anatomy",
+                "Geography",
+                "Cell biology",
+                "Physics"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "fc-p3-social_iqa": {
+        "Unique Dataset Identifier": "fc-p3-social_iqa",
+        "Dataset Name": "social_iqa",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://leaderboard.allenai.org/socialiqa/submissions/get-started",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/social_i_qa",
+        "Paper Title": " Social IQa: Commonsense Reasoning about Social Interactions ",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/social-iqa",
+        "ArXiv URL": "https://arxiv.org/abs/1904.09728",
+        "Semantic Scholar Corpus ID": 128296356,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Multiple Choice Question Answering",
+            "Question Generation"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 74671,
+            "Mean Inputs Length": 598.6989,
+            "Mean Targets Length": 14.861,
+            "Max Inputs Length": 2279,
+            "Max Targets Length": 140,
+            "Min Inputs Length": 75,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "crowdsourced (amt)"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "AI2",
+            "Paul G. Allen School of Computer Science & Engineering"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "social_i_qa_Show_choices_and_generate_answer",
+            "social_i_qa_Check_if_a_random_answer_is_valid_or_not",
+            "social_i_qa_I_was_wondering",
+            "social_i_qa_Generate_the_question_from_the_answer",
+            "social_i_qa_Generate_answer",
+            "social_i_qa_Show_choices_and_generate_index"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "social_i_qa",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": "",
+            "PwC Date": "2019-04-22",
+            "S2 Date": "",
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 36880,
+            "HF Likes (September 2023)": 4,
+            "PwC Description": "Social Interaction QA (SIQA) is a question-answering benchmark for testing social commonsense intelligence. Contrary to many prior benchmarks that focus on physical or taxonomic knowledge, Social IQa focuses on reasoning about people’s actions and their social implications. For example, given an action like \"Jesse saw a concert\" and a question like \"Why did Jesse do this?\", humans can easily infer that Jesse wanted \"to see their favorite performer\" or \"to enjoy the music\", and not \"to see what's happening inside\" or \"to see if it works\". The actions in Social IQa span a wide variety of social situations, and answer candidates contain both human-curated answers and adversarially-filtered machine-generated candidates. Social IQa contains over 37,000 QA pairs for evaluating models’ abilities to reason about the social implications of everyday events and situations.",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": "",
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Interpersonal relationships",
+                "Personal achievements",
+                "Problem-solving",
+                "Decision-making",
+                "Communication and understanding",
+                "Sports",
+                "Relationships and emotions",
+                "Social interactions"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "fc-p3-web_questions": {
+        "Unique Dataset Identifier": "fc-p3-web_questions",
+        "Dataset Name": "web_questions",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://nlp.stanford.edu/software/sempre/",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/web_questions",
+        "Paper Title": "Semantic Parsing on Freebase from Question-Answer Pairs",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/webquestions",
+        "ArXiv URL": "https://aclanthology.org/D13-1160/",
+        "Semantic Scholar Corpus ID": 6401679,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Closed-Book Question Answering",
+            "Question Generation"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 11684,
+            "Mean Inputs Length": 285.5714,
+            "Mean Targets Length": 16.5724,
+            "Max Inputs Length": 990,
+            "Max Targets Length": 299,
+            "Min Inputs Length": 24,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "http://creativecommons.org/licenses/by/4.0/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "web_questions",
+            "web_questions_potential_correct_answer",
+            "web_questions_whats_the_answer",
+            "web_questions_question_answer",
+            "web_questions_short_general_knowledge_q",
+            "web_questions_get_the_answer"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "web_questions",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "Unspecified",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": "",
+            "PwC Date": "2013-01-01",
+            "S2 Date": "2013-10-01",
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 20984,
+            "HF Likes (September 2023)": 9,
+            "PwC Description": "The WebQuestions dataset is a question answering dataset using Freebase as the knowledge base and contains 6,642 question-answer pairs. It was created by crawling questions through the Google Suggest API, and then obtaining answers using Amazon Mechanical Turk. The original split uses 3,778 examples for training and 2,032 for testing. All answers are defined as Freebase entities.\n\nExample questions (answers) in the dataset include “Where did Edgar Allan Poe died?” (baltimore) or “What degrees did Barack Obama get?” (bachelor_of_arts, juris_doctor).",
+            "S2 Citation Count (September 2023)": 1594,
+            "GitHub Stars": "",
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Sports",
+                "General knowledge",
+                "Language",
+                "History",
+                "Entertainment",
+                "Currency",
+                "Geography"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "fc-p3-wiki_bio": {
+        "Unique Dataset Identifier": "fc-p3-wiki_bio",
+        "Dataset Name": "wiki_bio",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://paperswithcode.com/dataset/wikibio",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/wiki_bio",
+        "Paper Title": "Neural Text Generation from Structured Data with Application to the Biography Domain",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/wikibio",
+        "ArXiv URL": "https://arxiv.org/abs/1603.07771",
+        "Semantic Scholar Corpus ID": 1238927,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Structured Data to Text"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 61119,
+            "Mean Inputs Length": 2007.516,
+            "Mean Targets Length": 294.6815,
+            "Max Inputs Length": 6976,
+            "Max Targets Length": 2766,
+            "Min Inputs Length": 70,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "EPFL",
+            "Facebook AI Research"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://github.com/rlebret/wikipedia-biography-dataset/blob/master/LICENSE.txt"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "wiki_bio_who",
+            "wiki_bio_comprehension",
+            "wiki_bio_guess_person",
+            "wiki_bio_what_content",
+            "wiki_bio_key_content"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "wiki_bio",
+            "HF Config": "default",
+            "HF Config License": "CC BY-SA 3.0",
+            "HF Yaml License": "CC BY-SA 3.0",
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "https://github.com/rlebret/wikipedia-biography-dataset/blob/master/LICENSE.txt",
+            "PwC Date": "2016-01-01",
+            "S2 Date": "2016-03-24",
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 7499,
+            "HF Likes (September 2023)": 9,
+            "PwC Description": "This dataset gathers 728,321 biographies from English Wikipedia. It aims at evaluating text generation algorithms. For each article, we provide the first paragraph and the infobox (both tokenized).",
+            "S2 Citation Count (September 2023)": 427,
+            "GitHub Stars": "",
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Politics",
+                "History",
+                "Music",
+                "Military history",
+                "Sports",
+                "Education",
+                "Biography",
+                "Personal information",
+                "Literature",
+                "Personal details"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "fc-p3-wiki_hop": {
+        "Unique Dataset Identifier": "fc-p3-wiki_hop",
+        "Dataset Name": "wiki_hop",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://paperswithcode.com/dataset/wikihop",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/wiki_hop",
+        "Paper Title": "Neural Text Generation from Structured Data with Application to the Biography Domain",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/wikihop",
+        "ArXiv URL": "https://arxiv.org/abs/1603.07771",
+        "Semantic Scholar Corpus ID": 1238927,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Multiple Choice Question Answering",
+            "Question Answering"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 77806,
+            "Mean Inputs Length": 6986.7346,
+            "Mean Targets Length": 15.4116,
+            "Max Inputs Length": 36103,
+            "Max Targets Length": 102,
+            "Min Inputs Length": 413,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "EPFL",
+            "Facebook AI Research"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "http://qangaroo.cs.ucl.ac.uk/"
+            }
+        ],
+        "License Notes": "Approved for training/fine-tuning only",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "wiki_hop_original_choose_best_object_affirmative_2",
+            "wiki_hop_original_explain_relation",
+            "wiki_hop_original_choose_best_object_affirmative_1",
+            "wiki_hop_original_choose_best_object_interrogative_1",
+            "wiki_hop_original_generate_object",
+            "wiki_hop_original_generate_subject",
+            "wiki_hop_original_choose_best_object_affirmative_3",
+            "wiki_hop_original_choose_best_object_interrogative_2",
+            "wiki_hop_original_generate_subject_and_object"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "wiki_hop",
+            "HF Config": "original",
+            "HF Config License": "",
+            "HF Yaml License": "CC BY-SA 3.0",
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "http://qangaroo.cs.ucl.ac.uk/",
+            "PwC Date": "2017-01-01",
+            "S2 Date": "2016-03-24",
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 4841,
+            "HF Likes (September 2023)": 1,
+            "PwC Description": "WikiHop is a multi-hop question-answering dataset. The query of WikiHop is constructed with entities and relations from WikiData, while supporting documents are from WikiReading. A bipartite graph connecting entities and documents is first built and the answer for each query is located by traversal on this graph. Candidates that are type-consistent with the answer and share the same relation in query with the answer are included, resulting in a set of candidates. Thus, WikiHop is a multi-choice style reading comprehension data set. There are totally about 43K samples in training set, 5K samples in development set and 2.5K samples in test set. The test set is not provided. The task is to predict the correct answer given a query and multiple supporting documents.\n\nThe dataset includes a masked variant, where all candidates and their mentions in the supporting documents are replaced by random but consistent placeholder tokens.",
+            "S2 Citation Count (September 2023)": 427,
+            "GitHub Stars": "",
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Astronomy",
+                "Travel",
+                "Literature",
+                "Religion",
+                "Geography",
+                "Culture",
+                "Politics",
+                "General knowledge",
+                "Music"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "fc-p3-wiki_qa": {
+        "Unique Dataset Identifier": "fc-p3-wiki_qa",
+        "Dataset Name": "wiki_qa",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://huggingface.co/datasets/wiki_qa",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/wiki_qa",
+        "Paper Title": "WikiQA: A Challenge Dataset for Open-Domain Question Answering",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/wikiqa",
+        "ArXiv URL": "https://aclanthology.org/D15-1237/",
+        "Semantic Scholar Corpus ID": 1373518,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Closed-Book Question Answering",
+            "Question Generation",
+            "Answer Verification"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 65766,
+            "Mean Inputs Length": 789.4214,
+            "Mean Targets Length": 5.6153,
+            "Max Inputs Length": 2930,
+            "Max Targets Length": 424,
+            "Min Inputs Length": 44,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "bing search queries",
+            "wikipedia.org"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Georgia Institute of Technology",
+            "Microsoft Research"
+        ],
+        "Licenses": [
+            {
+                "License": "Microsoft Data Licensing Agreement",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Denied - no commercial use",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "wiki_qa_Is_This_True_",
+            "wiki_qa_Topic_Prediction_Question_and_Answer_Pair",
+            "wiki_qa_found_on_google",
+            "wiki_qa_Jeopardy_style",
+            "wiki_qa_Generate_Question_from_Topic",
+            "wiki_qa_Topic_Prediction_Question_Only",
+            "wiki_qa_exercise",
+            "wiki_qa_Topic_Prediction_Answer_Only",
+            "wiki_qa_Direct_Answer_to_Question",
+            "wiki_qa_Decide_good_answer",
+            "wiki_qa_automatic_system"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "wiki_qa",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "Unspecified",
+            "PwC License Name": "Custom",
+            "PwC License URL": "https://www.microsoft.com/en-us/download/details.aspx?id=52419",
+            "PwC Date": "2015-01-01",
+            "S2 Date": "2015-09-21",
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 18380,
+            "HF Likes (September 2023)": 14,
+            "PwC Description": "The WikiQA corpus is a publicly available set of question and sentence pairs, collected and annotated for research on open-domain question answering. In order to reflect the true information need of general users, Bing query logs were used as the question source. Each question is linked to a Wikipedia page that potentially has the answer. Because the summary section of a Wikipedia page provides the basic and usually most important information about the topic, sentences in this section were used as the candidate answers. The corpus includes 3,047 questions and 29,258 sentences, where 1,473 sentences were labeled as answer sentences to their corresponding questions.",
+            "S2 Citation Count (September 2023)": 761,
+            "GitHub Stars": "",
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Biology",
+                "Trivia",
+                "Verification",
+                "Sports",
+                "Information retrieval",
+                "General knowledge",
+                "Language and linguistics",
+                "History",
+                "Question answering",
+                "Geography"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "fc-p3-wiqa": {
+        "Unique Dataset Identifier": "fc-p3-wiqa",
+        "Dataset Name": "wiqa",
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://allenai.org/data/wiqa",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/wiqa",
+        "Paper Title": "WIQA: A dataset for “What if...” reasoning over procedural text",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/wiqa",
+        "ArXiv URL": "https://arxiv.org/abs/1909.04739",
+        "Semantic Scholar Corpus ID": 202558452,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Multiple Choice Question Answering",
+            "Question Answering"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 98654,
+            "Mean Inputs Length": 1267.0352,
+            "Mean Targets Length": 27.8915,
+            "Max Inputs Length": 5147,
+            "Max Targets Length": 160,
+            "Min Inputs Length": 122,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "propara"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "AI2"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://github.com/allenai/wiqa-dataset/blob/master/LICENSE"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "wiqa_does_the_supposed_perturbation_have_an_effect",
+            "wiqa_effect_with_string_answer",
+            "wiqa_what_is_the_missing_first_step",
+            "wiqa_what_might_be_the_last_step_of_the_process",
+            "wiqa_what_might_be_the_first_step_of_the_process",
+            "wiqa_which_of_the_following_is_the_supposed_perturbation",
+            "wiqa_what_is_the_final_step_of_the_following_process",
+            "wiqa_effect_with_label_answer"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "wiqa",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "2019-09-10",
+            "S2 Date": "2019-09-01",
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 3807,
+            "HF Likes (September 2023)": 2,
+            "PwC Description": "The WIQA dataset V1 has 39705 questions containing a perturbation and a possible effect in the context of a paragraph. The dataset is split into 29808 train questions, 6894 dev questions and 3003 test questions.",
+            "S2 Citation Count (September 2023)": 74,
+            "GitHub Stars": "",
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Engineering",
+                "Environmental Science",
+                "Respiratory system",
+                "Environmental sustainability",
+                "Household chores",
+                "Science",
+                "Geology",
+                "Human anatomy",
+                "Animal behavior"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    }
+}

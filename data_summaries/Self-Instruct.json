@@ -1,0 +1,112 @@
+{
+    "self_instruct": {
+        "Unique Dataset Identifier": "self_instruct",
+        "Dataset Name": "self_instruct",
+        "Collection": "Self-Instruct",
+        "Collection URL": "https://github.com/yizhongw/self-instruct",
+        "Dataset URL": "https://github.com/yizhongw/self-instruct",
+        "GitHub URL": "https://github.com/yizhongw/self-instruct",
+        "Hugging Face URL": "https://huggingface.co/datasets/yizhongw/self_instruct",
+        "Paper Title": "Self-Instruct: Aligning Language Model with Self Generated Instructions",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2212.10560",
+        "Semantic Scholar Corpus ID": 254877310,
+        "Languages": [
+            "English",
+            "Code"
+        ],
+        "Task Categories": [
+            "Open-Domain Question Answering",
+            "Natural Language Understanding (NLU)",
+            "Factoid Question Answering",
+            "Essay Generation",
+            "Open-Ended Question Answering",
+            "Quiz Creation and Sharing",
+            "Website Creation Instruction Generation",
+            "Sentence Classification",
+            "Sentiment Analysis",
+            "String Anagram Detection"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 82612,
+            "Mean Inputs Length": 134.0048,
+            "Mean Targets Length": 104.516,
+            "Max Inputs Length": 6135,
+            "Max Targets Length": 3334,
+            "Min Inputs Length": 14,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "OpenAI GPT-3"
+        ],
+        "Model Generated": [
+            "Other",
+            "OpenAI GPT-3"
+        ],
+        "Creators": [
+            "University of Washington",
+            "Tehran Polytechnic",
+            "Arizona State University",
+            "Johns Hopkins University",
+            "AI2"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://github.com/yizhongw/self-instruct/blob/main/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Seed instructions written by humans + LM generations expanding on them",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "self_instruct"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "yizhongw/self_instruct",
+            "HF Config": "self_instruct",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2022-12-20",
+            "GitHub License": "Apache License 2.0",
+            "Text Topics": [
+                "Mathematics",
+                "Problem-solving",
+                "Programming",
+                "Technology",
+                "Linguistics",
+                "Geography",
+                "Language",
+                "Logic",
+                "Sports",
+                "Travel"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-03-02",
+            "HF Downloads (September 2023)": 1684,
+            "HF Likes (September 2023)": 158,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 297,
+            "GitHub Stars": 3021,
+            "GitHub Topics": [
+                "general-purpose-model",
+                "instruction-tuning",
+                "language-model"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    }
+}

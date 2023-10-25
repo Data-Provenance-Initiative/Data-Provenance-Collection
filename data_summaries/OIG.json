@@ -1,0 +1,2210 @@
+{
+    "oig-unified_soda_dialog": {
+        "Unique Dataset Identifier": "oig-unified_soda_dialog",
+        "Dataset Name": "soda_dialog",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://github.com/skywalker023/sodaverse",
+        "GitHub URL": "https://github.com/skywalker023/sodaverse",
+        "Hugging Face URL": "https://huggingface.co/datasets/allenai/soda",
+        "Paper Title": "SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/soda",
+        "ArXiv URL": "https://arxiv.org/abs/2212.10465",
+        "Semantic Scholar Corpus ID": "254877312",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialogue Generation",
+            "Narrative Generation",
+            "Creative Writing",
+            "Commonsense Classification"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 1191582,
+            "Mean Inputs Length": 106.7706,
+            "Mean Targets Length": 344.5878,
+            "Max Inputs Length": 5718,
+            "Max Targets Length": 5197,
+            "Min Inputs Length": 12,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 16,
+            "Mean Dialog Turns": 5.4028
+        },
+        "Text Sources": [],
+        "Model Generated": [
+            "OpenAI GPT-3",
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "AI2",
+            "Seoul National University",
+            "University of Washington",
+            "University of Southern California",
+            "University of Pittsburgh",
+            "Carnegie Mellon University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://huggingface.co/datasets/allenai/soda"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://huggingface.co/datasets/allenai/soda"
+            }
+        ],
+        "License Notes": "Data from GPT-3 Outputs",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_soda_dialog"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Friendship",
+                "Daily routine",
+                "Travel",
+                "Communication",
+                "Personal finance",
+                "Education",
+                "Health",
+                "Outdoor activities",
+                "Relationships",
+                "Sports"
+            ],
+            "GitHub License": "MIT License",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2023-01-04",
+            "HF Downloads (September 2023)": 375,
+            "HF Likes (September 2023)": 93,
+            "PwC Date": "",
+            "PwC Description": "Implemented in one code library.",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": 136,
+            "GitHub Topics": [
+                "dataset",
+                "dataset-creation",
+                "dialogue",
+                "dialogue-generation",
+                "dialogue-system",
+                "gpt-3"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "oig-unified_abstract_infill": {
+        "Unique Dataset Identifier": "oig-unified_abstract_infill",
+        "Dataset Name": "abstract_infill",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://github.com/google-research/dialog-inpainting",
+        "GitHub URL": "https://github.com/google-research/dialog-inpainting",
+        "Hugging Face URL": "",
+        "Paper Title": "Dialog Inpainting: Turning Documents into Dialogs",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2205.09073",
+        "Semantic Scholar Corpus ID": "248863311",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialogue Generation"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 232188,
+            "Mean Inputs Length": 148.5539,
+            "Mean Targets Length": 228.8944,
+            "Max Inputs Length": 30246,
+            "Max Targets Length": 35323,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 16,
+            "Mean Dialog Turns": 12.3124
+        },
+        "Text Sources": [
+            "wikipedia.org",
+            "undisclosed web"
+        ],
+        "Model Generated": [
+            "T5",
+            "T5-XXL"
+        ],
+        "Creators": [
+            "Google"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://github.com/google-research/dialog-inpainting/blob/main/WikiDialog-OQ_Data_Card.pdf"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Anthony Chen",
+        "Dataset Filter IDs": [
+            "unified_abstract_infill"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Geography",
+                "History",
+                "Sports",
+                "Music",
+                "Politics",
+                "Literature",
+                "International relations",
+                "Film history and analysis",
+                "Songwriting",
+                "Culture"
+            ],
+            "GitHub License": "Apache License 2.0",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "Implemented in one code library.",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": 93,
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "MS Marco retrieval corpus"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "oig-unified_unnatural_instructions": {
+        "Unique Dataset Identifier": "oig-unified_unnatural_instructions",
+        "Dataset Name": "unnatural_instructions",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://github.com/orhonovich/unnatural-instructions",
+        "GitHub URL": "https://github.com/orhonovich/unnatural-instructions",
+        "Hugging Face URL": "https://huggingface.co/datasets/mrm8488/unnatural-instructions-full",
+        "Paper Title": "Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2212.09689",
+        "Semantic Scholar Corpus ID": "254853659",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Miscellaneous"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 238041,
+            "Mean Inputs Length": 248.5613,
+            "Mean Targets Length": 59.9319,
+            "Max Inputs Length": 3780,
+            "Max Targets Length": 3532,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 4,
+            "Mean Dialog Turns": 2.0001
+        },
+        "Text Sources": [
+            "prompts"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3"
+        ],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/orhonovich/unnatural-instructions"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/pdf/2212.09689.pdf"
+            }
+        ],
+        "License Notes": "Data from GPT-3 Outputs",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_unnatural_instructions"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Mathematics",
+                "Daily routine",
+                "Grammar",
+                "Linguistics",
+                "Cooking",
+                "General knowledge",
+                "Geography",
+                "Language understanding",
+                "Problem-solving",
+                "Food"
+            ],
+            "GitHub License": "MIT License",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2022-12-21",
+            "HF Downloads (September 2023)": 175,
+            "HF Likes (September 2023)": 6,
+            "PwC Date": "",
+            "PwC Description": "Implemented in 3 code libraries.",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": 148,
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "oig-unified_mathqa_flanv2_kojma_cot": {
+        "Unique Dataset Identifier": "oig-unified_mathqa_flanv2_kojma_cot",
+        "Dataset Name": "mathqa_flanv2_kojma_cot",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://math-qa.github.io/math-QA/",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/math_qa",
+        "Paper Title": "MathQA: Towards Interpretable Math Word Problem Solving with Operation-Based Formalisms",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/1905.13319",
+        "Semantic Scholar Corpus ID": "173188048",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Chain-of-Thought",
+            "Algebraic Expression Evaluation"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 107574,
+            "Mean Inputs Length": 193.6153,
+            "Mean Targets Length": 145.1814,
+            "Max Inputs Length": 34645,
+            "Max Targets Length": 3906,
+            "Min Inputs Length": 4,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 6,
+            "Mean Dialog Turns": 2.2631
+        },
+        "Text Sources": [
+            "crowdsourced",
+            "gmat",
+            "gre exams"
+        ],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Anthony Chen",
+        "Dataset Filter IDs": [
+            "unified_mathqa_flanv2_kojma_cot"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Mathematics",
+                "Logic",
+                "Arithmetic",
+                "Math",
+                "Daily routine",
+                "Sports",
+                "Problem-solving",
+                "Common sense",
+                "Shopping",
+                "Language comprehension"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 6948,
+            "HF Likes (September 2023)": 34,
+            "PwC Date": "",
+            "PwC Description": "No code available yet.",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "AQuA dataset"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "oig-unified_poetry_instructions": {
+        "Unique Dataset Identifier": "oig-unified_poetry_instructions",
+        "Dataset Name": "poetry_instructions",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://huggingface.co/datasets/merve/poetry",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/merve/poetry",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Poem Generation"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 1764,
+            "Mean Inputs Length": 9748.4666,
+            "Mean Targets Length": 59595.0,
+            "Max Inputs Length": 660008,
+            "Max Targets Length": 1783817,
+            "Min Inputs Length": 35,
+            "Min Targets Length": 49,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "Gutenberg Poetry Corpus",
+            "poetryfoundation.com"
+        ],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Poetry data of mostly classical poems https://huggingface.co/datasets/merve/poetry https://huggingface.co/datasets/matthh/gutenberg-poetry-corpus. Because the poems are from different time periods, some are in public domain while other are not.",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_poetry_instructions"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Poetry",
+                "Literature",
+                "Writing",
+                "Writing styles",
+                "Nature",
+                "Poetry and literature",
+                "Historical figures",
+                "Art",
+                "Writing style",
+                "History"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2021-09-24",
+            "HF Downloads (September 2023)": 54,
+            "HF Likes (September 2023)": 13,
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "oig-unified_poetry_2_song": {
+        "Unique Dataset Identifier": "oig-unified_poetry_2_song",
+        "Dataset Name": "poetry_2_song",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://huggingface.co/datasets/merve/poetry",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/merve/poetry",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Song Generation"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 12733,
+            "Mean Inputs Length": 134.972,
+            "Mean Targets Length": 479.99,
+            "Max Inputs Length": 529,
+            "Max Targets Length": 1200,
+            "Min Inputs Length": 48,
+            "Min Targets Length": 38,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "Gutenberg Poetry Corpus",
+            "poetryfoundation.com"
+        ],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "unified_poetry_instructions (and https://huggingface.co/datasets/shahules786/PoetryFoundationData) translated to song-like structures. Inherits license from unified_poetry instructions",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_poetry_2_song"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Poetry and literature",
+                "Poetry and Literature",
+                "Art and creativity",
+                "Poetry",
+                "Music and songwriting",
+                "Music",
+                "Nature and the environment",
+                "Social Commentaries",
+                "Artistic expression",
+                "Music and lyrics"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2021-09-24",
+            "HF Downloads (September 2023)": 54,
+            "HF Likes (September 2023)": 13,
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "oig-unified_ul2_plus_oscar_en_sample_dialog": {
+        "Unique Dataset Identifier": "oig-unified_ul2_plus_oscar_en_sample_dialog",
+        "Dataset Name": "ul2_plus_oscar_en_sample_dialog",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://oscar-project.org/",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialogue Generation",
+            "Span Generation",
+            "Fill in The Blank"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 2903911,
+            "Mean Inputs Length": 223.883,
+            "Mean Targets Length": 181.5277,
+            "Max Inputs Length": 13168,
+            "Max Targets Length": 14239,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 5154,
+            "Mean Dialog Turns": 21.5036
+        },
+        "Text Sources": [],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_ul2_plus_oscar_en_sample_dialog"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Sports",
+                "Travel",
+                "Education",
+                "Real estate and home features",
+                "Environmental sustainability",
+                "Economics",
+                "Geography",
+                "Cultural experiences",
+                "Religion",
+                "Content Management Systems (CMS)"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "oig-unified_multi_news": {
+        "Unique Dataset Identifier": "oig-unified_multi_news",
+        "Dataset Name": "multi_news",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://github.com/Alex-Fabbri/Multi-News",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/multi_news",
+        "Paper Title": "Multi-News: a Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/multi-news",
+        "ArXiv URL": "https://arxiv.org/abs/1906.01749",
+        "Semantic Scholar Corpus ID": "174799390",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Summarization"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 89944,
+            "Mean Inputs Length": 10990.6716,
+            "Mean Targets Length": 1298.3036,
+            "Max Inputs Length": 2905655,
+            "Max Targets Length": 5908,
+            "Min Inputs Length": 50,
+            "Min Targets Length": 188,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "news"
+        ],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://github.com/Alex-Fabbri/Multi-News/blob/master/LICENSE.txt"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_multi_news"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Crime and law enforcement",
+                "News and current events",
+                "Politics",
+                "Sports",
+                "International relations",
+                "Celebrity news and gossip",
+                "Media coverage and journalism",
+                "Animal welfare",
+                "Media and journalism",
+                "Wildlife conservation"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 6214,
+            "HF Likes (September 2023)": 24,
+            "PwC Date": "",
+            "PwC Description": "#5 best model for Multi-Document Summarization on Multi-News (ROUGE-1 metric)",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "oig-unified_rallio_safety_and_prosocial": {
+        "Unique Dataset Identifier": "oig-unified_rallio_safety_and_prosocial",
+        "Dataset Name": "rallio_safety_and_prosocial",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://huggingface.co/datasets/laion/OIG",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/laion/OIG",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Fill in The Blank",
+            "Creative Writing"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 319475,
+            "Mean Inputs Length": 67.2417,
+            "Mean Targets Length": 292.0494,
+            "Max Inputs Length": 5465,
+            "Max Targets Length": 6067,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 2.0002
+        },
+        "Text Sources": [],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_rallio_safety_and_prosocial"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Technology",
+                "Travel",
+                "Geography",
+                "Ethics and morality",
+                "Personal finance",
+                "Environmental science",
+                "Health",
+                "Medical procedures",
+                "Communication skills",
+                "Online research"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "oig-unified_oscar_en_sample_dialog": {
+        "Unique Dataset Identifier": "oig-unified_oscar_en_sample_dialog",
+        "Dataset Name": "oscar_en_sample_dialog",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://oscar-project.org/",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialogue Generation",
+            "Creative Writing",
+            "Miscellaneous"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 2670019,
+            "Mean Inputs Length": 79.7144,
+            "Mean Targets Length": 1321.8628,
+            "Max Inputs Length": 2418,
+            "Max Targets Length": 113997,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 1332,
+            "Mean Dialog Turns": 7.7149
+        },
+        "Text Sources": [],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/oscar-project/ungoliant/blob/main/LICENSE"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_oscar_en_sample_dialog"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Technology",
+                "Sports",
+                "Travel",
+                "Real estate and housing",
+                "Fashion and Style",
+                "Education",
+                "Software",
+                "Video games",
+                "History",
+                "Photography"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "oig-unified_grade_school_math_instructions": {
+        "Unique Dataset Identifier": "oig-unified_grade_school_math_instructions",
+        "Dataset Name": "grade_school_math_instructions",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://github.com/openai/grade-school-math",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/gsm8k",
+        "Paper Title": "Training Verifiers to Solve Math Word Problems",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/gsm8k",
+        "ArXiv URL": "https://arxiv.org/abs/2110.14168",
+        "Semantic Scholar Corpus ID": "239998651",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Chain-of-Thought",
+            "Algebraic Expression Evaluation"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 8792,
+            "Mean Inputs Length": 277.0946,
+            "Mean Targets Length": 239.9121,
+            "Max Inputs Length": 1132,
+            "Max Targets Length": 1137,
+            "Min Inputs Length": 51,
+            "Min Targets Length": 34,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/gsm8k#licensing-information"
+            }
+        ],
+        "License Notes": "Created by OAI but no license specified. The license provided looks like it is for the code.",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_grade_school_math_instructions"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Math",
+                "Mathematics",
+                "Arithmetic",
+                "Problem-solving",
+                "Time management",
+                "Daily routine",
+                "Finance",
+                "Shopping",
+                "Measurement",
+                "Budgeting"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2022-04-12",
+            "HF Downloads (September 2023)": 136536,
+            "HF Likes (September 2023)": 64,
+            "PwC Date": "",
+            "PwC Description": "Implemented in 2 code libraries.",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "oig-unified_sqlv2": {
+        "Unique Dataset Identifier": "oig-unified_sqlv2",
+        "Dataset Name": "sqlv2",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "Unspecified",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialogue Generation",
+            "Code Generation",
+            "Program Execution"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 24546,
+            "Mean Inputs Length": 153.1754,
+            "Mean Targets Length": 88.9733,
+            "Max Inputs Length": 2895,
+            "Max Targets Length": 559,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 18,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 22,
+            "Mean Dialog Turns": 9.1367
+        },
+        "Text Sources": [],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": "See subsets"
+            }
+        ],
+        "License Notes": "public text 2 sql datasets built on SPIDER, SPARC, and COSQL",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_sqlv2"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Database management",
+                "Education",
+                "Data modeling",
+                "Data analysis",
+                "Sports",
+                "Customer relationship management",
+                "Geography",
+                "Music industry",
+                "E-commerce",
+                "Information management"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "oig-unified_chip2": {
+        "Unique Dataset Identifier": "oig-unified_chip2",
+        "Dataset Name": "chip2",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://huggingface.co/datasets/laion/OIG/blob/main/unified_chip2.jsonl",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/laion/OIG/blob/main/unified_chip2.jsonl",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Brainstorming"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 210289,
+            "Mean Inputs Length": 72.9204,
+            "Mean Targets Length": 307.2312,
+            "Max Inputs Length": 795,
+            "Max Targets Length": 1471,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 5,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": "See subsets"
+            }
+        ],
+        "License Notes": "generated from many public datasets (including natural instructions and anthropics HH) and from the web",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_chip2"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Health",
+                "Travel",
+                "Mathematics",
+                "Geography",
+                "Financial planning",
+                "Transportation",
+                "DIY projects",
+                "Interior design",
+                "Personal finance",
+                "Interior design and decor"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "oig-unified_nq": {
+        "Unique Dataset Identifier": "oig-unified_nq",
+        "Dataset Name": "nq",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://ai.google.com/research/NaturalQuestions/download",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/natural_questions",
+        "Paper Title": "Natural Questions: A Benchmark for Question Answering Research",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/natural-questions",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "86611921",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 307373,
+            "Mean Inputs Length": 1632.7789,
+            "Mean Targets Length": 513.7535,
+            "Max Inputs Length": 641195,
+            "Max Targets Length": 386772,
+            "Min Inputs Length": 30,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 4,
+            "Mean Dialog Turns": 2.7205
+        },
+        "Text Sources": [],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://creativecommons.org/licenses/by-sa/3.0/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_nq"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "History",
+                "Geography",
+                "Television shows",
+                "Music",
+                "Sports",
+                "Entertainment",
+                "Television series",
+                "Release dates",
+                "Music history",
+                "Pop culture"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 1225,
+            "HF Likes (September 2023)": 18,
+            "PwC Date": "",
+            "PwC Description": "#7 best model for Question Answering on Natural Questions (long) (F1 metric)",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "oig-unified_joke_explanations": {
+        "Unique Dataset Identifier": "oig-unified_joke_explanations",
+        "Dataset Name": "joke_explanations",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "Unspecified",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Explanation Generation"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 356,
+            "Mean Inputs Length": 103.8624,
+            "Mean Targets Length": 222.5702,
+            "Max Inputs Length": 196,
+            "Max Targets Length": 577,
+            "Min Inputs Length": 59,
+            "Min Targets Length": 15,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "a very small dataset of joke explanations crawled from the public web",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_joke_explanations"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Humor",
+                "Humor and jokes",
+                "Wordplay",
+                "Language and wordplay",
+                "Jokes",
+                "Animal behavior",
+                "Linguistics",
+                "Sports",
+                "Anatomy",
+                "Music"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "oig-unified_openai_summarize_tldr": {
+        "Unique Dataset Identifier": "oig-unified_openai_summarize_tldr",
+        "Dataset Name": "openai_summarize_tldr",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://github.com/openai/summarize-from-feedback",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/openai/summarize_from_feedback",
+        "Paper Title": "Learning to summarize from human feedback",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2009.01325",
+        "Semantic Scholar Corpus ID": "221665105",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Summarization"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 233444,
+            "Mean Inputs Length": 1325.1591,
+            "Mean Targets Length": 140.6279,
+            "Max Inputs Length": 2369,
+            "Max Targets Length": 278,
+            "Min Inputs Length": 40,
+            "Min Targets Length": 70,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "reddit"
+        ],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_openai_summarize_tldr"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Relationships and dating",
+                "Relationships and communication",
+                "Personal growth and self-reflection",
+                "Relationships and emotions",
+                "Communication and trust in relationships",
+                "Relationship dynamics and communication",
+                "Relationships",
+                "Communication and interpersonal relationships",
+                "Long-distance relationships",
+                "Trust and communication in relationships"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2022-12-28",
+            "HF Downloads (September 2023)": 2591,
+            "HF Likes (September 2023)": 108,
+            "PwC Date": "",
+            "PwC Description": "Implemented in one code library.",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "oig-unified_unifiedskg_instructions": {
+        "Unique Dataset Identifier": "oig-unified_unifiedskg_instructions",
+        "Dataset Name": "unifiedskg_instructions",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://github.com/HKUNLP/UnifiedSKG",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Paper Title": "UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2201.05966",
+        "Semantic Scholar Corpus ID": "246016124",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialogue Generation",
+            "Question Answering"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 223404,
+            "Mean Inputs Length": 450.0098,
+            "Mean Targets Length": 371.9728,
+            "Max Inputs Length": 46228,
+            "Max Targets Length": 100064,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 156,
+            "Mean Dialog Turns": 4.3807
+        },
+        "Text Sources": [
+            "wikipedia.org",
+            "undisclosed web",
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": "See subsets"
+            }
+        ],
+        "License Notes": "They unify 21 knowledge-intensive datasets (e.g., semantic parsing) into a unified format",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_unifiedskg_instructions"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Sports",
+                "Geography",
+                "History",
+                "Data analysis",
+                "Education",
+                "Politics",
+                "Food and dining",
+                "Travel",
+                "Restaurant recommendations",
+                "General knowledge"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "🏆 SOTA for Task-Oriented Dialogue Systems on KVRET (Entity F1 metric)",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "Spider",
+            "GrailQA",
+            "WebQSP",
+            "MTOP",
+            "WikiSQL",
+            "WikiTQ",
+            "CompWebQ",
+            "HybridQA",
+            "MultiModalQA",
+            "FeTaQA",
+            "DART",
+            "ToTTo",
+            "MultiWoZ",
+            "KVRET",
+            "SParC",
+            "CoSQL",
+            "SQA",
+            "TabFact",
+            "SQL2Text",
+            "Logic2Text"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "oig-unified_sqlv1": {
+        "Unique Dataset Identifier": "oig-unified_sqlv1",
+        "Dataset Name": "sqlv1",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://huggingface.co/datasets/laion/OIG",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/laion/OIG",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialogue Generation",
+            "Code Generation",
+            "Program Execution"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 17148,
+            "Mean Inputs Length": 1166.0013,
+            "Mean Targets Length": 304.8098,
+            "Max Inputs Length": 3094,
+            "Max Targets Length": 4495,
+            "Min Inputs Length": 143,
+            "Min Targets Length": 20,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "public text 2 sql datasets built on SPIDER, SPARC, and COSQL",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_sqlv1"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Database management",
+                "Data analysis",
+                "SQL queries",
+                "Geography",
+                "Air travel",
+                "Education",
+                "Travel",
+                "Film industry",
+                "City codes and names",
+                "Information retrieval"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "oig-unified_canadian_parliament": {
+        "Unique Dataset Identifier": "oig-unified_canadian_parliament",
+        "Dataset Name": "canadian_parliament",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://openparliament.ca/data-download/",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Context Generation"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 301244,
+            "Mean Inputs Length": 160.3823,
+            "Mean Targets Length": 676.3885,
+            "Max Inputs Length": 209,
+            "Max Targets Length": 23367,
+            "Min Inputs Length": 127,
+            "Min Targets Length": 99,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Request Form",
+                "License URL": "https://www.ourcommons.ca/en/important-notices"
+            }
+        ],
+        "License Notes": "https://openparliament.ca/api/ contains information on usage.",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_canadian_parliament"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Politics",
+                "Parliamentary procedures",
+                "Legislation",
+                "Canadian politics",
+                "Diplomacy",
+                "Government",
+                "Environmental sustainability",
+                "Government legislation",
+                "Law and justice",
+                "Environmental conservation"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "oig-unified_plot_screenplay_books_dialog": {
+        "Unique Dataset Identifier": "oig-unified_plot_screenplay_books_dialog",
+        "Dataset Name": "plot_screenplay_books_dialog",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://github.com/markriedl/WikiPlots",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialogue Generation",
+            "Narrative Generation",
+            "Creative Writing"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 8135,
+            "Mean Inputs Length": 76.2023,
+            "Mean Targets Length": 1290.6585,
+            "Max Inputs Length": 1216,
+            "Max Targets Length": 56026,
+            "Min Inputs Length": 13,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 132,
+            "Mean Dialog Turns": 6.8133
+        },
+        "Text Sources": [],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "partly from Wiki and partly from Web",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_plot_screenplay_books_dialog"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Literature & Fiction",
+                "Literature",
+                "Historical fiction",
+                "United States",
+                "Book titles",
+                "Contemporary fiction",
+                "Science fiction",
+                "Romance",
+                "Geography",
+                "History"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "oig-unified_essays": {
+        "Unique Dataset Identifier": "oig-unified_essays",
+        "Dataset Name": "essays",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://huggingface.co/datasets/ChristophSchuhmann/essays-with-instructions",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialogue Generation",
+            "Creative Writing"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 2064,
+            "Mean Inputs Length": 90.1218,
+            "Mean Targets Length": 3610.9978,
+            "Max Inputs Length": 1793,
+            "Max Targets Length": 127032,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 110,
+            "Mean Dialog Turns": 8.6986
+        },
+        "Text Sources": [
+            "IvyPanda"
+        ],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Built on the ChristophSchuhmann/essays-with-instructions dataset which pulls lots of their essays from the IvyPanda website used for essay writing help. It is unclear what license should be applied here though this may help: https://ivypanda.com/copyright",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_essays"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Economics",
+                "Healthcare policy",
+                "Religion",
+                "Psychology",
+                "Globalization",
+                "Project management",
+                "Literature analysis",
+                "Business strategy",
+                "Sociology",
+                "Technology"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "oig-unified_conv_finqa": {
+        "Unique Dataset Identifier": "oig-unified_conv_finqa",
+        "Dataset Name": "conv_finqa",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://github.com/czyssrs/ConvFinQA",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Paper Title": "ConvFinQA: Exploring the Chain of Numerical Reasoning in Conversational Finance Question Answering",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/convfinqa",
+        "ArXiv URL": "https://arxiv.org/abs/2210.03849",
+        "Semantic Scholar Corpus ID": "252780839",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialogue Generation",
+            "Code Generation",
+            "Program Execution",
+            "Question Answering",
+            "Algebraic Expression Evaluation"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 9111,
+            "Mean Inputs Length": 1495.8212,
+            "Mean Targets Length": 15.9031,
+            "Max Inputs Length": 14672,
+            "Max Targets Length": 120,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 18,
+            "Mean Dialog Turns": 5.5417
+        },
+        "Text Sources": [
+            "s&p 500 earnings reports"
+        ],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/czyssrs/ConvFinQA/blob/main/LICENSE"
+            }
+        ],
+        "License Notes": "Dataset based on FinQA which is \"based on the publicly available earnings reports of S&P 500 companies from 1999 to 2019, collected in the FinTabNet dataset (Zheng et al., 2021)\"",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_conv_finqa"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Financial analysis",
+                "Financial accounting",
+                "Finance",
+                "Finance and accounting",
+                "Finance and Investments",
+                "Accounting",
+                "Financial reporting",
+                "Corporate finance",
+                "Financial reporting and analysis",
+                "Business operations"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "🏆 SOTA for Question Answering on ConvFinQA (Execution Accuracy metric)",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "FinQA"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "oig-unified_hc3_human": {
+        "Unique Dataset Identifier": "oig-unified_hc3_human",
+        "Dataset Name": "hc3_human",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+        "Paper Title": "How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/hc3",
+        "ArXiv URL": "https://arxiv.org/abs/2301.07597",
+        "Semantic Scholar Corpus ID": "255998637",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Explanation"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 58546,
+            "Mean Inputs Length": 177.4311,
+            "Mean Targets Length": 670.0314,
+            "Max Inputs Length": 610,
+            "Max Targets Length": 35521,
+            "Min Inputs Length": 13,
+            "Min Targets Length": 5,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "crowdsourced",
+            "web exams",
+            "wikipedia.org",
+            "iclinic.com",
+            "healthcaremagic.com",
+            "financial news",
+            "financial blogs"
+        ],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection#dataset-copyright"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://sites.google.com/view/fiqa/"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2301.07597"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_hc3_human"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Physics",
+                "Personal finance",
+                "Biology",
+                "Economics",
+                "Geography",
+                "Government and politics",
+                "International relations",
+                "Computer Science",
+                "Electronics",
+                "File management"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2023-01-18",
+            "HF Downloads (September 2023)": 3363,
+            "HF Likes (September 2023)": 110,
+            "PwC Date": "",
+            "PwC Description": "Implemented in one code library.",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "ELI5 dataset",
+            "WikiQA dataset",
+            "Wikipedia",
+            "Medical Dialog dataset",
+            "FiQA dataset",
+            "WebTextQA dataset",
+            "BaikeQA dataset",
+            "BaiduBake",
+            "NLPCC-DBQA dataset",
+            "Chinese Psychological Exams",
+            "LegalQA dataset",
+            "FinanceZhidao dataset"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "oig-unified_cuad": {
+        "Unique Dataset Identifier": "oig-unified_cuad",
+        "Dataset Name": "cuad",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://www.atticusprojectai.org/cuad",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/cuad",
+        "Paper Title": "CUAD: An Expert-Annotated NLP Dataset for Legal Contract Review",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/cuad",
+        "ArXiv URL": "https://arxiv.org/abs/2103.06268",
+        "Semantic Scholar Corpus ID": "232170369",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialogue Generation",
+            "Fill in The Blank"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 510,
+            "Mean Inputs Length": 201.763,
+            "Mean Targets Length": 1384.3256,
+            "Max Inputs Length": 34918,
+            "Max Targets Length": 46076,
+            "Min Inputs Length": 5,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 16,
+            "Max Dialog Turns": 808,
+            "Mean Dialog Turns": 81.1941
+        },
+        "Text Sources": [
+            "sec.gov/edgar/about"
+        ],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://creativecommons.org/licenses/by/4.0/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_cuad"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Legal agreements",
+                "Legal agreements and contracts",
+                "Business partnerships",
+                "Legal contracts",
+                "Intellectual property rights",
+                "Contractual agreements",
+                "Business agreements",
+                "Business agreements and contracts",
+                "Corporate governance",
+                "Business negotiations"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 1632,
+            "HF Likes (September 2023)": 27,
+            "PwC Date": "",
+            "PwC Description": "Implemented in 2 code libraries.",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "oig-unified_squad_v2_more_neg": {
+        "Unique Dataset Identifier": "oig-unified_squad_v2_more_neg",
+        "Dataset Name": "squad_v2_more_neg",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://rajpurkar.github.io/SQuAD-explorer/",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/squad_v2",
+        "Paper Title": "Know What You Don't Know: Unanswerable Questions for SQuAD",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/squad",
+        "ArXiv URL": "https://arxiv.org/abs/1806.03822",
+        "Semantic Scholar Corpus ID": "47018994",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialogue Generation",
+            "Question Answering"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 19586,
+            "Mean Inputs Length": 150.6437,
+            "Mean Targets Length": 37.8639,
+            "Max Inputs Length": 3772,
+            "Max Targets Length": 239,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 76,
+            "Mean Dialog Turns": 15.9605
+        },
+        "Text Sources": [
+            "crowdsourced (daemo)"
+        ],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_squad_v2_more_neg"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "History",
+                "Geography",
+                "Religion",
+                "Sports",
+                "History of science",
+                "Philosophy",
+                "Politics",
+                "Government and politics",
+                "Communication technology",
+                "Medieval history"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 8690810,
+            "HF Likes (September 2023)": 65,
+            "PwC Date": "",
+            "PwC Description": "Implemented in 13 code libraries.",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    },
+    "oig-unified_squad_v2": {
+        "Unique Dataset Identifier": "oig-unified_squad_v2",
+        "Dataset Name": "squad_v2",
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Dataset URL": "https://rajpurkar.github.io/SQuAD-explorer/",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/squad_v2",
+        "Paper Title": "Know What You Don't Know: Unanswerable Questions for SQuAD",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/squad",
+        "ArXiv URL": "https://arxiv.org/abs/1806.03822",
+        "Semantic Scholar Corpus ID": "47018994",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialogue Generation",
+            "Question Answering"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 19586,
+            "Mean Inputs Length": 169.0648,
+            "Mean Targets Length": 33.4508,
+            "Max Inputs Length": 3772,
+            "Max Targets Length": 239,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 60,
+            "Mean Dialog Turns": 13.3075
+        },
+        "Text Sources": [
+            "crowdsourced (daemo)"
+        ],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "unified_squad_v2"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "History",
+                "Geography",
+                "Religion",
+                "Education",
+                "Technology",
+                "International relations",
+                "Theology",
+                "Linguistics",
+                "Colonialism",
+                "Architecture"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 8690810,
+            "HF Likes (September 2023)": 65,
+            "PwC Date": "",
+            "PwC Description": "Implemented in 13 code libraries.",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "ultrachat": {
+        "Unique Dataset Identifier": "ultrachat",
+        "Dataset Name": "ultrachat",
+        "Collection": "UltraChat",
+        "Collection URL": "https://github.com/thunlp/UltraChat",
+        "Dataset URL": "https://github.com/thunlp/UltraChat",
+        "GitHub URL": "https://github.com/thunlp/UltraChat",
+        "Hugging Face URL": "https://huggingface.co/datasets/stingning/ultrachat",
+        "Paper Title": "Enhancing Chat Language Models by Scaling High-quality Instructional Conversations",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2305.14233",
+        "Semantic Scholar Corpus ID": 258840897,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Dialogue Generation",
+            "Creative Writing",
+            "Open-form Text Generation",
+            "Brainstorming",
+            "Roleplay",
+            "Creativity",
+            "Explanation Generation"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 1468352,
+            "Mean Inputs Length": 282.0822,
+            "Mean Targets Length": 1332.99,
+            "Max Inputs Length": 15962,
+            "Max Targets Length": 30055,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 14,
+            "Mean Dialog Turns": 7.6952
+        },
+        "Text Sources": [
+            "wikidata",
+            "wikipedia.org",
+            "commoncrawl.org"
+        ],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "Tsinghua University"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2009.01325"
+            },
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/thunlp/UltraChat#data"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Alexis Wu",
+        "Dataset Filter IDs": [
+            "ultrachat"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Travel",
+                "Education",
+                "Web development",
+                "Sports",
+                "Tourism",
+                "Sightseeing",
+                "Skincare",
+                "Beauty products",
+                "Network Security",
+                "History",
+                "Daily routine"
+            ],
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2023-04-20",
+            "HF Downloads (September 2023)": 356,
+            "HF Likes (September 2023)": 87,
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": 17,
+            "S2 Date": "2023-05-23",
+            "GitHub Stars": 1764,
+            "GitHub Topics": [
+                "chatbot",
+                "chatgpt",
+                "deep-learning",
+                "large-language-models"
+            ]
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
+    }
+}

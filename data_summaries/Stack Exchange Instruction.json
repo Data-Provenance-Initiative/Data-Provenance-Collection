@@ -1,0 +1,92 @@
+{
+    "stack-exchange-instruction": {
+        "Unique Dataset Identifier": "stack-exchange-instruction",
+        "Dataset Name": "Stack Exchange Instruction",
+        "Collection": "Stack Exchange Instruction",
+        "Collection URL": "https://huggingface.co/datasets/ArmelR/stack-exchange-instruction",
+        "Dataset URL": "https://huggingface.co/datasets/ArmelR/stack-exchange-instruction",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/ArmelR/stack-exchange-instruction",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English",
+            "Code"
+        ],
+        "Task Categories": [
+            "Code",
+            "Text to Code",
+            "Program Synthesis",
+            "Code Completion",
+            "Code Complexity Prediction",
+            "Code Generation",
+            "Code Modification Question Answering",
+            "Code Repair",
+            "Code Search",
+            "Code Summarization",
+            "Code Synthesis"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Sources": [
+            "stackexchange.com"
+        ],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Damien",
+        "Dataset Filter IDs": [
+            "stack-exchange-instruction"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Web development",
+                "Python programming",
+                "User interface design",
+                "Programming",
+                "Database management",
+                "Data manipulation",
+                "Data analysis",
+                "Troubleshooting",
+                "Java programming",
+                "SQL queries"
+            ],
+            "GitHub License": "",
+            "Github Date": "",
+            "HF Date": "2023-04-06",
+            "HF Downloads (September 2023)": 1157,
+            "HF Likes (September 2023)": 45,
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Text Metrics": {
+            "Num Dialogs": 10606840,
+            "Mean Inputs Length": 1162.6078,
+            "Mean Targets Length": 901.3974,
+            "Max Inputs Length": 202768,
+            "Max Targets Length": 117514,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
+    }
+}

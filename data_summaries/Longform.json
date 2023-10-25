@@ -1,0 +1,762 @@
+{
+    "longform-c4": {
+        "Unique Dataset Identifier": "longform-c4",
+        "Dataset Name": "c4",
+        "Collection": "Longform",
+        "Collection URL": "https://github.com/akoksal/LongForm",
+        "Dataset URL": "https://github.com/akoksal/LongForm",
+        "GitHub URL": "https://github.com/akoksal/LongForm",
+        "Hugging Face URL": "https://huggingface.co/datasets/akoksal/LongForm",
+        "Paper Title": "LongForm: Optimizing Instruction Tuning for Long Text Generation with Corpus Extraction",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/longform",
+        "ArXiv URL": "https://arxiv.org/abs/2304.08460",
+        "Semantic Scholar Corpus ID": 258179256,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Open-Domain Question Answering",
+            "Information Retrieval",
+            "Explanation Generation",
+            "Multiple Choice Question Answering",
+            "Nutritional Information Retrieval",
+            "Argumentative Question Answering",
+            "Open-Domain Information Retrieval",
+            "Historical Image Retrieval",
+            "Summarization"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 9000,
+            "Mean Inputs Length": 79.7946,
+            "Mean Targets Length": 2449.29,
+            "Max Inputs Length": 425,
+            "Max Targets Length": 7436,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 39,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "stackexchange.com",
+            "wikihow.com",
+            "undisclosed web",
+            "emails"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3"
+        ],
+        "Creators": [
+            "LMU Munich",
+            "Munich Center for Machine Learning",
+            "University of Cambridge"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.08460"
+            }
+        ],
+        "License Notes": "GPT-3 generates the instructions. The answer paragraphs are taken from various sources.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "C4"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "akoksal/LongForm",
+            "HF Config": "akoksal--LongForm",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "2023-04-17",
+            "S2 Date": "2023-04-17",
+            "GitHub License": "",
+            "Text Topics": [
+                "Politics",
+                "International relations",
+                "Cybersecurity",
+                "Crime and safety",
+                "Crime and law enforcement",
+                "International relations and diplomacy",
+                "Religion",
+                "Cooking and recipes",
+                "Technology",
+                "Video games"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-04-16",
+            "HF Downloads (September 2023)": 368,
+            "HF Likes (September 2023)": 30,
+            "PwC Description": "LongForm dataset is created by leveraging English corpus examples with augmented instructions. It contains diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. The examples generated from raw text corpora via LLMs includes structured corpus examples, as well as various NLP task examples such as email writing, grammar error correction, story/poem generation, and text summarization.",
+            "S2 Citation Count (September 2023)": 9,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "C4",
+            "bigbench",
+            "NIv2",
+            "Enron dataset"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "longform-naturalinstructions": {
+        "Unique Dataset Identifier": "longform-naturalinstructions",
+        "Dataset Name": "naturalinstructions",
+        "Collection": "Longform",
+        "Collection URL": "https://github.com/akoksal/LongForm",
+        "Dataset URL": "https://github.com/akoksal/LongForm",
+        "GitHub URL": "https://github.com/akoksal/LongForm",
+        "Hugging Face URL": "https://huggingface.co/datasets/akoksal/LongForm",
+        "Paper Title": "LongForm: Optimizing Instruction Tuning for Long Text Generation with Corpus Extraction",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/longform",
+        "ArXiv URL": "https://arxiv.org/abs/2304.08460",
+        "Semantic Scholar Corpus ID": 258179256,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Summarization",
+            "Poem Generation",
+            "Sentiment Analysis",
+            "Multiple Choice Question Answering",
+            "Summarization of US Congressional and California State Bills",
+            "Natural Language Inference",
+            "Metaphor Explanation Question Answering",
+            "Narrative Generation",
+            "Interview Question Answering",
+            "Taxpayer Receipt Generation"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 2946,
+            "Mean Inputs Length": 4073.7821,
+            "Mean Targets Length": 928.8815,
+            "Max Inputs Length": 81253,
+            "Max Targets Length": 8283,
+            "Min Inputs Length": 37,
+            "Min Targets Length": 12,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "stackexchange.com",
+            "wikihow.com",
+            "undisclosed web",
+            "emails"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3"
+        ],
+        "Creators": [
+            "LMU Munich",
+            "Munich Center for Machine Learning",
+            "University of Cambridge"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.08460"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/allenai/natural-instructions"
+            }
+        ],
+        "License Notes": "GPT-3 generates the instructions. The answer paragraphs are taken from various sources.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "Natural Instructions"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "akoksal/LongForm",
+            "HF Config": "akoksal--LongForm",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "2023-04-17",
+            "S2 Date": "2023-04-17",
+            "GitHub License": "",
+            "Text Topics": [
+                "Legislation",
+                "Imagination",
+                "Poetry",
+                "Nature",
+                "Travel",
+                "Health",
+                "Politics",
+                "Food and dining",
+                "Animals",
+                "Land management"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-04-16",
+            "HF Downloads (September 2023)": 368,
+            "HF Likes (September 2023)": 30,
+            "PwC Description": "LongForm dataset is created by leveraging English corpus examples with augmented instructions. It contains diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. The examples generated from raw text corpora via LLMs includes structured corpus examples, as well as various NLP task examples such as email writing, grammar error correction, story/poem generation, and text summarization.",
+            "S2 Citation Count (September 2023)": 9,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "C4",
+            "bigbench",
+            "NIv2",
+            "Enron dataset"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "longform-stackexchange": {
+        "Unique Dataset Identifier": "longform-stackexchange",
+        "Dataset Name": "stackexchange",
+        "Collection": "Longform",
+        "Collection URL": "https://github.com/akoksal/LongForm",
+        "Dataset URL": "https://github.com/akoksal/LongForm",
+        "GitHub URL": "https://github.com/akoksal/LongForm",
+        "Hugging Face URL": "https://huggingface.co/datasets/akoksal/LongForm",
+        "Paper Title": "LongForm: Optimizing Instruction Tuning for Long Text Generation with Corpus Extraction",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/longform",
+        "ArXiv URL": "https://arxiv.org/abs/2304.08460",
+        "Semantic Scholar Corpus ID": 258179256,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Website Mirroring with Local Browsing",
+            "Text Classification",
+            "Core Strength Training Explanation Question Answering",
+            "Advice Seeking Question Answering",
+            "Discourse-level Decision Making",
+            "Diagnosis of Plant Disease using Natural Language Processing",
+            "Synonym Identification and Retagging",
+            "Title Suggestion for Multiple Connected Questions",
+            "Explanation Question Answering",
+            "Breach of Contract Question Answering"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 3504,
+            "Mean Inputs Length": 1277.0291,
+            "Mean Targets Length": 1057.7945,
+            "Max Inputs Length": 25183,
+            "Max Targets Length": 14312,
+            "Min Inputs Length": 68,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "stackexchange.com",
+            "wikihow.com",
+            "undisclosed web",
+            "emails"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3"
+        ],
+        "Creators": [
+            "LMU Munich",
+            "Munich Center for Machine Learning",
+            "University of Cambridge"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.08460"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://stackoverflow.com/legal/terms-of-service/public#licensing"
+            }
+        ],
+        "License Notes": "GPT-3 generates the instructions. The answer paragraphs are taken from various sources.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "StackExchange"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "akoksal/LongForm",
+            "HF Config": "akoksal--LongForm",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "2023-04-17",
+            "S2 Date": "2023-04-17",
+            "GitHub License": "",
+            "Text Topics": [
+                "Mathematics",
+                "Web development",
+                "Engineering",
+                "Linguistics",
+                "Electronics",
+                "Information retrieval",
+                "Geology",
+                "Gardening and plant care",
+                "Online community dynamics",
+                "Statistics"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-04-16",
+            "HF Downloads (September 2023)": 368,
+            "HF Likes (September 2023)": 30,
+            "PwC Description": "LongForm dataset is created by leveraging English corpus examples with augmented instructions. It contains diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. The examples generated from raw text corpora via LLMs includes structured corpus examples, as well as various NLP task examples such as email writing, grammar error correction, story/poem generation, and text summarization.",
+            "S2 Citation Count (September 2023)": 9,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "C4",
+            "bigbench",
+            "NIv2",
+            "Enron dataset"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "longform-wikipedia": {
+        "Unique Dataset Identifier": "longform-wikipedia",
+        "Dataset Name": "wikipedia",
+        "Collection": "Longform",
+        "Collection URL": "https://github.com/akoksal/LongForm",
+        "Dataset URL": "https://github.com/akoksal/LongForm",
+        "GitHub URL": "https://github.com/akoksal/LongForm",
+        "Hugging Face URL": "https://huggingface.co/datasets/akoksal/LongForm",
+        "Paper Title": "LongForm: Optimizing Instruction Tuning for Long Text Generation with Corpus Extraction",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/longform",
+        "ArXiv URL": "https://arxiv.org/abs/2304.08460",
+        "Semantic Scholar Corpus ID": 258179256,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Open-Domain Question Answering",
+            "Span Selection Question Answering",
+            "Multiple Choice Question Answering",
+            "Definition Retrieval",
+            "Biography Generation",
+            "Description Generation",
+            "Information Retrieval",
+            "Factoid Question Answering"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 4500,
+            "Mean Inputs Length": 56.1716,
+            "Mean Targets Length": 345.1987,
+            "Max Inputs Length": 349,
+            "Max Targets Length": 2248,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "stackexchange.com",
+            "wikihow.com",
+            "undisclosed web",
+            "emails"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3"
+        ],
+        "Creators": [
+            "LMU Munich",
+            "Munich Center for Machine Learning",
+            "University of Cambridge"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.08460"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://en.wikipedia.org/wiki/Wikipedia:Copyrights"
+            }
+        ],
+        "License Notes": "GPT-3 generates the instructions. The answer paragraphs are taken from various sources.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "Wikipedia"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "akoksal/LongForm",
+            "HF Config": "akoksal--LongForm",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "2023-04-17",
+            "S2 Date": "2023-04-17",
+            "GitHub License": "",
+            "Text Topics": [
+                "Sports",
+                "Geography",
+                "History",
+                "Travel",
+                "Music",
+                "Culture",
+                "Biography",
+                "Botany",
+                "Football",
+                "Architecture"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-04-16",
+            "HF Downloads (September 2023)": 368,
+            "HF Likes (September 2023)": 30,
+            "PwC Description": "LongForm dataset is created by leveraging English corpus examples with augmented instructions. It contains diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. The examples generated from raw text corpora via LLMs includes structured corpus examples, as well as various NLP task examples such as email writing, grammar error correction, story/poem generation, and text summarization.",
+            "S2 Citation Count (September 2023)": 9,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "C4",
+            "bigbench",
+            "NIv2",
+            "Enron dataset"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "longform-wikihow": {
+        "Unique Dataset Identifier": "longform-wikihow",
+        "Dataset Name": "wikihow",
+        "Collection": "Longform",
+        "Collection URL": "https://github.com/akoksal/LongForm",
+        "Dataset URL": "https://github.com/akoksal/LongForm",
+        "GitHub URL": "https://github.com/akoksal/LongForm",
+        "Hugging Face URL": "https://huggingface.co/datasets/akoksal/LongForm",
+        "Paper Title": "LongForm: Optimizing Instruction Tuning for Long Text Generation with Corpus Extraction",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/longform",
+        "ArXiv URL": "https://arxiv.org/abs/2304.08460",
+        "Semantic Scholar Corpus ID": 258179256,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Open-Domain Question Answering",
+            "DIY Tutorial Generation",
+            "Recipe Generation",
+            "Instruction Generation",
+            "Pubic Hair Shaving Advice Question Answering",
+            "Shopping Recommendation Question Answering",
+            "Installation Instruction Retrieval",
+            "Nail Art Tutorial Generation",
+            "Shotgun Selection Question Answering",
+            "Step-by-Step Instruction Generation"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 2000,
+            "Mean Inputs Length": 81.818,
+            "Mean Targets Length": 4778.6255,
+            "Max Inputs Length": 159,
+            "Max Targets Length": 29678,
+            "Min Inputs Length": 18,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "stackexchange.com",
+            "wikihow.com",
+            "undisclosed web",
+            "emails"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3"
+        ],
+        "Creators": [
+            "LMU Munich",
+            "Munich Center for Machine Learning",
+            "University of Cambridge"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.08460"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://www.wikihow.com/wikiHow:Terms-of-Use"
+            }
+        ],
+        "License Notes": "GPT-3 generates the instructions. The answer paragraphs are taken from various sources.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "WikiHow"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "akoksal/LongForm",
+            "HF Config": "akoksal--LongForm",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "2023-04-17",
+            "S2 Date": "2023-04-17",
+            "GitHub License": "",
+            "Text Topics": [
+                "Technology",
+                "Gaming",
+                "Communication skills",
+                "Cooking techniques",
+                "Personal development",
+                "Food preparation",
+                "Time management",
+                "Personal grooming",
+                "Career development",
+                "Entrepreneurship"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-04-16",
+            "HF Downloads (September 2023)": 368,
+            "HF Likes (September 2023)": 30,
+            "PwC Description": "LongForm dataset is created by leveraging English corpus examples with augmented instructions. It contains diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. The examples generated from raw text corpora via LLMs includes structured corpus examples, as well as various NLP task examples such as email writing, grammar error correction, story/poem generation, and text summarization.",
+            "S2 Citation Count (September 2023)": 9,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "C4",
+            "bigbench",
+            "NIv2",
+            "Enron dataset"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "longform-beagec": {
+        "Unique Dataset Identifier": "longform-beagec",
+        "Dataset Name": "beagec",
+        "Collection": "Longform",
+        "Collection URL": "https://github.com/akoksal/LongForm",
+        "Dataset URL": "https://github.com/akoksal/LongForm",
+        "GitHub URL": "https://github.com/akoksal/LongForm",
+        "Hugging Face URL": "https://huggingface.co/datasets/akoksal/LongForm",
+        "Paper Title": "LongForm: Optimizing Instruction Tuning for Long Text Generation with Corpus Extraction",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/longform",
+        "ArXiv URL": "https://arxiv.org/abs/2304.08460",
+        "Semantic Scholar Corpus ID": 258179256,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Argumentative Essay Generation",
+            "Open-Domain Question Answering",
+            "Educational Content Generation for Television",
+            "Multiple Choice Question Answering",
+            "Sentence Correction",
+            "Grammar Error Detection",
+            "Historical Fact Retrieval",
+            "Document Rewriting"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 925,
+            "Mean Inputs Length": 1236.5276,
+            "Mean Targets Length": 1150.7254,
+            "Max Inputs Length": 9201,
+            "Max Targets Length": 9116,
+            "Min Inputs Length": 258,
+            "Min Targets Length": 162,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "stackexchange.com",
+            "wikihow.com",
+            "undisclosed web",
+            "emails"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3"
+        ],
+        "Creators": [
+            "LMU Munich",
+            "Munich Center for Machine Learning",
+            "University of Cambridge"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.08460"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://www.cl.cam.ac.uk/research/nl/bea2019st/#data"
+            }
+        ],
+        "License Notes": "GPT-3 generates the instructions. The answer paragraphs are taken from various sources.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "BEA-GEC"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "akoksal/LongForm",
+            "HF Config": "akoksal--LongForm",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "2023-04-17",
+            "S2 Date": "2023-04-17",
+            "GitHub License": "",
+            "Text Topics": [
+                "Sports",
+                "Travel",
+                "Transportation",
+                "Grammar",
+                "Education",
+                "Environmental conservation",
+                "Daily routine",
+                "Environmental impact",
+                "Personal interests and hobbies",
+                "Language learning"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-04-16",
+            "HF Downloads (September 2023)": 368,
+            "HF Likes (September 2023)": 30,
+            "PwC Description": "LongForm dataset is created by leveraging English corpus examples with augmented instructions. It contains diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. The examples generated from raw text corpora via LLMs includes structured corpus examples, as well as various NLP task examples such as email writing, grammar error correction, story/poem generation, and text summarization.",
+            "S2 Citation Count (September 2023)": 9,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "C4",
+            "bigbench",
+            "NIv2",
+            "Enron dataset"
+        ],
+        "Human Annotation": "Yes"
+    },
+    "longform-enron": {
+        "Unique Dataset Identifier": "longform-enron",
+        "Dataset Name": "enron",
+        "Collection": "Longform",
+        "Collection URL": "https://github.com/akoksal/LongForm",
+        "Dataset URL": "https://github.com/akoksal/LongForm",
+        "GitHub URL": "https://github.com/akoksal/LongForm",
+        "Hugging Face URL": "https://huggingface.co/datasets/akoksal/LongForm",
+        "Paper Title": "LongForm: Optimizing Instruction Tuning for Long Text Generation with Corpus Extraction",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/longform",
+        "ArXiv URL": "https://arxiv.org/abs/2304.08460",
+        "Semantic Scholar Corpus ID": 258179256,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Summarization",
+            "Information Retrieval",
+            "Natural Language Generation",
+            "Email Drafting",
+            "Email Subject Generation",
+            "Generative Question Answering",
+            "Protective Order Generation",
+            "Natural Language Generation (NLG)",
+            "Document Retrieval"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 297,
+            "Mean Inputs Length": 89.266,
+            "Mean Targets Length": 1303.1751,
+            "Max Inputs Length": 297,
+            "Max Targets Length": 87806,
+            "Min Inputs Length": 28,
+            "Min Targets Length": 4,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "stackexchange.com",
+            "wikihow.com",
+            "undisclosed web",
+            "emails"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3"
+        ],
+        "Creators": [
+            "LMU Munich",
+            "Munich Center for Machine Learning",
+            "University of Cambridge"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.08460"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://www.cs.cmu.edu/~./enron/"
+            }
+        ],
+        "License Notes": "GPT-3 generates the instructions. The answer paragraphs are taken from various sources.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "Enron"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "akoksal/LongForm",
+            "HF Config": "akoksal--LongForm",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "2023-04-17",
+            "S2 Date": "2023-04-17",
+            "GitHub License": "",
+            "Text Topics": [
+                "Email communication",
+                "Communication",
+                "Travel",
+                "Business communication",
+                "Energy policy and regulation",
+                "Meeting scheduling",
+                "Government and politics",
+                "Geography",
+                "Communication and Email Writing",
+                "Business and Finance"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-04-16",
+            "HF Downloads (September 2023)": 368,
+            "HF Likes (September 2023)": 30,
+            "PwC Description": "LongForm dataset is created by leveraging English corpus examples with augmented instructions. It contains diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. The examples generated from raw text corpora via LLMs includes structured corpus examples, as well as various NLP task examples such as email writing, grammar error correction, story/poem generation, and text summarization.",
+            "S2 Citation Count (September 2023)": 9,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "C4",
+            "bigbench",
+            "NIv2",
+            "Enron dataset"
+        ],
+        "Human Annotation": "Yes"
+    }
+}

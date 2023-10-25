@@ -1,0 +1,1610 @@
+{
+    "shp-askengineers": {
+        "Unique Dataset Identifier": "shp-askengineers",
+        "Dataset Name": "askengineers",
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Paper Title": "Understanding Dataset Difficulty with V-Usable Information",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2110.08420",
+        "Semantic Scholar Corpus ID": 250340652,
+        "Languages": [
+            "English",
+            "Code"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation",
+            "Text to Code"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 57096,
+            "Mean Inputs Length": 625.404,
+            "Mean Targets Length": 413.8372,
+            "Max Inputs Length": 8610,
+            "Max Targets Length": 9897,
+            "Min Inputs Length": 27,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
+        "Text Sources": [
+            "reddit"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University",
+            "AI2",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "askengineers_train"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "stanfordnlp/SHP",
+            "HF Config": "stanfordnlp--SHP",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-10-16",
+            "GitHub License": "",
+            "Text Topics": [
+                "Engineering",
+                "Work-life balance",
+                "Mechanical engineering",
+                "Career development",
+                "Problem-solving",
+                "Job search and career development",
+                "Salary negotiation",
+                "Career advancement",
+                "Physics",
+                "Fluid dynamics"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "shp-askculinary": {
+        "Unique Dataset Identifier": "shp-askculinary",
+        "Dataset Name": "askculinary",
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Paper Title": "Understanding Dataset Difficulty with V-Usable Information",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2110.08420",
+        "Semantic Scholar Corpus ID": 250340652,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation",
+            "Cooking Instruction Understanding"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 45710,
+            "Mean Inputs Length": 560.7313,
+            "Mean Targets Length": 338.3745,
+            "Max Inputs Length": 6653,
+            "Max Targets Length": 7685,
+            "Min Inputs Length": 33,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
+        "Text Sources": [
+            "reddit"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University",
+            "AI2",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "askculinary_train"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "stanfordnlp/SHP",
+            "HF Config": "stanfordnlp--SHP",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-10-16",
+            "GitHub License": "",
+            "Text Topics": [
+                "Cooking techniques",
+                "Cooking and recipes",
+                "Food science",
+                "Food preparation",
+                "Cooking techniques and methods",
+                "Food and cooking",
+                "Food and cuisine",
+                "Baking and cooking techniques",
+                "Culinary creativity",
+                "Kitchen equipment"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "shp-askbaking": {
+        "Unique Dataset Identifier": "shp-askbaking",
+        "Dataset Name": "askbaking",
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Paper Title": "Understanding Dataset Difficulty with V-Usable Information",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2110.08420",
+        "Semantic Scholar Corpus ID": 250340652,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation",
+            "Cooking Instruction Understanding"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 44007,
+            "Mean Inputs Length": 500.8414,
+            "Mean Targets Length": 276.552,
+            "Max Inputs Length": 5668,
+            "Max Targets Length": 6440,
+            "Min Inputs Length": 49,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
+        "Text Sources": [
+            "reddit"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University",
+            "AI2",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "askbaking_train"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "stanfordnlp/SHP",
+            "HF Config": "stanfordnlp--SHP",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-10-16",
+            "GitHub License": "",
+            "Text Topics": [
+                "Baking and cooking",
+                "Cooking and baking",
+                "Cooking/baking",
+                "Baking tips and techniques",
+                "Cooking and recipes",
+                "Baking techniques",
+                "Food and cooking",
+                "Baking tips and tricks",
+                "Baking and cooking techniques",
+                "Baking"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "shp-changemyview": {
+        "Unique Dataset Identifier": "shp-changemyview",
+        "Dataset Name": "changemyview",
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Paper Title": "Understanding Dataset Difficulty with V-Usable Information",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2110.08420",
+        "Semantic Scholar Corpus ID": 250340652,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 38173,
+            "Mean Inputs Length": 1759.7615,
+            "Mean Targets Length": 904.1107,
+            "Max Inputs Length": 39152,
+            "Max Targets Length": 10695,
+            "Min Inputs Length": 162,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
+        "Text Sources": [
+            "reddit"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University",
+            "AI2",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "changemyview_train"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "stanfordnlp/SHP",
+            "HF Config": "stanfordnlp--SHP",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-10-16",
+            "GitHub License": "",
+            "Text Topics": [
+                "Education",
+                "Social justice and activism",
+                "International relations and geopolitics",
+                "Racism and discrimination",
+                "Political ideologies and beliefs",
+                "Philosophy",
+                "Criminal justice system",
+                "Politics",
+                "Education policy",
+                "Freedom of speech"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "shp-askacademia": {
+        "Unique Dataset Identifier": "shp-askacademia",
+        "Dataset Name": "askacademia",
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Paper Title": "Understanding Dataset Difficulty with V-Usable Information",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2110.08420",
+        "Semantic Scholar Corpus ID": 250340652,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 31450,
+            "Mean Inputs Length": 865.8659,
+            "Mean Targets Length": 507.0448,
+            "Max Inputs Length": 15076,
+            "Max Targets Length": 9471,
+            "Min Inputs Length": 25,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
+        "Text Sources": [
+            "reddit"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University",
+            "AI2",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "askacademia_train"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "stanfordnlp/SHP",
+            "HF Config": "stanfordnlp--SHP",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-10-16",
+            "GitHub License": "",
+            "Text Topics": [
+                "Education",
+                "Education and career choices",
+                "Academic publishing",
+                "Health and well-being",
+                "Professional relationships in academia",
+                "Interdisciplinary studies",
+                "Mathematics",
+                "Academic writing",
+                "Email etiquette",
+                "Communication with professors"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "shp-asksciencefiction": {
+        "Unique Dataset Identifier": "shp-asksciencefiction",
+        "Dataset Name": "asksciencefiction",
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Paper Title": "Understanding Dataset Difficulty with V-Usable Information",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2110.08420",
+        "Semantic Scholar Corpus ID": 250340652,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 29382,
+            "Mean Inputs Length": 362.4261,
+            "Mean Targets Length": 404.5936,
+            "Max Inputs Length": 5367,
+            "Max Targets Length": 9891,
+            "Min Inputs Length": 37,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
+        "Text Sources": [
+            "reddit"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University",
+            "AI2",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "asksciencefiction_train"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "stanfordnlp/SHP",
+            "HF Config": "stanfordnlp--SHP",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-10-16",
+            "GitHub License": "",
+            "Text Topics": [
+                "Marvel Cinematic Universe (MCU)",
+                "Character analysis",
+                "Sports",
+                "Superheroes",
+                "Psychology",
+                "Technology",
+                "Star Wars lore and mythology",
+                "Marvel comics",
+                "Superhero movies",
+                "Science fiction"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "shp-legaladvice": {
+        "Unique Dataset Identifier": "shp-legaladvice",
+        "Dataset Name": "legaladvice",
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Paper Title": "Understanding Dataset Difficulty with V-Usable Information",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2110.08420",
+        "Semantic Scholar Corpus ID": 250340652,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 21170,
+            "Mean Inputs Length": 1629.5155,
+            "Mean Targets Length": 455.8159,
+            "Max Inputs Length": 11782,
+            "Max Targets Length": 7876,
+            "Min Inputs Length": 75,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
+        "Text Sources": [
+            "reddit"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University",
+            "AI2",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "legaladvice_train"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "stanfordnlp/SHP",
+            "HF Config": "stanfordnlp--SHP",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-10-16",
+            "GitHub License": "",
+            "Text Topics": [
+                "Family dynamics and relationships",
+                "Legal rights and responsibilities",
+                "Communication and conflict resolution",
+                "Employment law",
+                "Legal rights and responsibilities of tenants and landlords",
+                "LGBTQ+ rights and discrimination",
+                "Communication and conflict resolution in relationships",
+                "Tenant rights and responsibilities",
+                "Tenant rights and legal options",
+                "Legal advice and custody battles"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "shp-explainlikeimfive": {
+        "Unique Dataset Identifier": "shp-explainlikeimfive",
+        "Dataset Name": "explainlikeimfive",
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Paper Title": "Understanding Dataset Difficulty with V-Usable Information",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2110.08420",
+        "Semantic Scholar Corpus ID": 250340652,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 19592,
+            "Mean Inputs Length": 229.7086,
+            "Mean Targets Length": 695.4726,
+            "Max Inputs Length": 3455,
+            "Max Targets Length": 9803,
+            "Min Inputs Length": 29,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
+        "Text Sources": [
+            "reddit"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University",
+            "AI2",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "explainlikeimfive_train"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "stanfordnlp/SHP",
+            "HF Config": "stanfordnlp--SHP",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-10-16",
+            "GitHub License": "",
+            "Text Topics": [
+                "Physics",
+                "Astronomy",
+                "Economics",
+                "Biology",
+                "Health",
+                "Animal behavior",
+                "Mathematics",
+                "Reproduction",
+                "Space exploration",
+                "Technology"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "shp-askscience": {
+        "Unique Dataset Identifier": "shp-askscience",
+        "Dataset Name": "askscience",
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Paper Title": "Understanding Dataset Difficulty with V-Usable Information",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2110.08420",
+        "Semantic Scholar Corpus ID": 250340652,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation",
+            "Logical Reasoning"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 13316,
+            "Mean Inputs Length": 797.3608,
+            "Mean Targets Length": 620.7366,
+            "Max Inputs Length": 4938,
+            "Max Targets Length": 9945,
+            "Min Inputs Length": 30,
+            "Min Targets Length": 3,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
+        "Text Sources": [
+            "reddit"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University",
+            "AI2",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "askscience_train"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "stanfordnlp/SHP",
+            "HF Config": "stanfordnlp--SHP",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-10-16",
+            "GitHub License": "",
+            "Text Topics": [
+                "Astronomy",
+                "Space exploration",
+                "Engineering",
+                "Immunology",
+                "Physics",
+                "Optics",
+                "Mathematics",
+                "Biology",
+                "Paleontology",
+                "Genetics"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "shp-askphilosophy": {
+        "Unique Dataset Identifier": "shp-askphilosophy",
+        "Dataset Name": "askphilosophy",
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Paper Title": "Understanding Dataset Difficulty with V-Usable Information",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2110.08420",
+        "Semantic Scholar Corpus ID": 250340652,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation",
+            "Logical Reasoning"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 10307,
+            "Mean Inputs Length": 625.2475,
+            "Mean Targets Length": 686.2993,
+            "Max Inputs Length": 12508,
+            "Max Targets Length": 9998,
+            "Min Inputs Length": 26,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
+        "Text Sources": [
+            "reddit"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University",
+            "AI2",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "askphilosophy_train"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "stanfordnlp/SHP",
+            "HF Config": "stanfordnlp--SHP",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-10-16",
+            "GitHub License": "",
+            "Text Topics": [
+                "Philosophy",
+                "Ethics",
+                "Logic",
+                "Epistemology",
+                "Metaphysics",
+                "Reading recommendations",
+                "Religion",
+                "Philosophy of Mind",
+                "Literature",
+                "Existentialism"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "shp-askhr": {
+        "Unique Dataset Identifier": "shp-askhr",
+        "Dataset Name": "askhr",
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Paper Title": "Understanding Dataset Difficulty with V-Usable Information",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2110.08420",
+        "Semantic Scholar Corpus ID": 250340652,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 8295,
+            "Mean Inputs Length": 1236.442,
+            "Mean Targets Length": 380.3432,
+            "Max Inputs Length": 10616,
+            "Max Targets Length": 6986,
+            "Min Inputs Length": 72,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
+        "Text Sources": [
+            "reddit"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University",
+            "AI2",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "askhr_train"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "stanfordnlp/SHP",
+            "HF Config": "stanfordnlp--SHP",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-10-16",
+            "GitHub License": "",
+            "Text Topics": [
+                "Job search strategies",
+                "Employment law",
+                "Resume critique",
+                "Workplace ethics and boundaries",
+                "Workplace dynamics and communication",
+                "Work-life balance",
+                "Job application process",
+                "Interview preparation",
+                "Workplace dynamics and interpersonal relationships",
+                "Employee privacy and confidentiality"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "shp-askphysics": {
+        "Unique Dataset Identifier": "shp-askphysics",
+        "Dataset Name": "askphysics",
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Paper Title": "Understanding Dataset Difficulty with V-Usable Information",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2110.08420",
+        "Semantic Scholar Corpus ID": 250340652,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 7364,
+            "Mean Inputs Length": 512.4157,
+            "Mean Targets Length": 465.6141,
+            "Max Inputs Length": 4480,
+            "Max Targets Length": 9145,
+            "Min Inputs Length": 22,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
+        "Text Sources": [
+            "reddit"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University",
+            "AI2",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "askphysics_train"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "stanfordnlp/SHP",
+            "HF Config": "stanfordnlp--SHP",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-10-16",
+            "GitHub License": "",
+            "Text Topics": [
+                "Physics",
+                "Quantum mechanics",
+                "Physics education",
+                "Mathematics",
+                "Education",
+                "Science",
+                "Cosmology",
+                "Physics jokes",
+                "Astronomy",
+                "Special relativity"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "shp-askdocs": {
+        "Unique Dataset Identifier": "shp-askdocs",
+        "Dataset Name": "askdocs",
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Paper Title": "Understanding Dataset Difficulty with V-Usable Information",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2110.08420",
+        "Semantic Scholar Corpus ID": 250340652,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 6449,
+            "Mean Inputs Length": 1977.5661,
+            "Mean Targets Length": 479.1076,
+            "Max Inputs Length": 10592,
+            "Max Targets Length": 5946,
+            "Min Inputs Length": 137,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
+        "Text Sources": [
+            "reddit"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University",
+            "AI2",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "askdocs_train"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "stanfordnlp/SHP",
+            "HF Config": "stanfordnlp--SHP",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-10-16",
+            "GitHub License": "",
+            "Text Topics": [
+                "Health",
+                "Medical diagnosis",
+                "Women's health",
+                "Medical conditions",
+                "Mental health and well-being",
+                "Health and well-being",
+                "Mental health and depression",
+                "Emergency medical care",
+                "Medical condition and treatment options",
+                "Pain management"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "shp-askanthropology": {
+        "Unique Dataset Identifier": "shp-askanthropology",
+        "Dataset Name": "askanthropology",
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Paper Title": "Understanding Dataset Difficulty with V-Usable Information",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2110.08420",
+        "Semantic Scholar Corpus ID": 250340652,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 3910,
+            "Mean Inputs Length": 571.7747,
+            "Mean Targets Length": 708.4121,
+            "Max Inputs Length": 7852,
+            "Max Targets Length": 8926,
+            "Min Inputs Length": 35,
+            "Min Targets Length": 3,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
+        "Text Sources": [
+            "reddit"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University",
+            "AI2",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "askanthropology_train"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "stanfordnlp/SHP",
+            "HF Config": "stanfordnlp--SHP",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-10-16",
+            "GitHub License": "",
+            "Text Topics": [
+                "Anthropology",
+                "Archaeology",
+                "History",
+                "Career paths for anthropology majors",
+                "Mythology",
+                "Folklore and mythology",
+                "Linguistics",
+                "Cultural identity",
+                "Cultural practices and traditions",
+                "Anthropology and its subfields"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "shp-askvet": {
+        "Unique Dataset Identifier": "shp-askvet",
+        "Dataset Name": "askvet",
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Paper Title": "Understanding Dataset Difficulty with V-Usable Information",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2110.08420",
+        "Semantic Scholar Corpus ID": 250340652,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 3300,
+            "Mean Inputs Length": 1117.533,
+            "Mean Targets Length": 359.7509,
+            "Max Inputs Length": 10539,
+            "Max Targets Length": 5514,
+            "Min Inputs Length": 49,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
+        "Text Sources": [
+            "reddit"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University",
+            "AI2",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "askvet_train"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "stanfordnlp/SHP",
+            "HF Config": "stanfordnlp--SHP",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-10-16",
+            "GitHub License": "",
+            "Text Topics": [
+                "Veterinary medicine",
+                "Animal behavior",
+                "Veterinary care",
+                "Pet ownership and responsibility",
+                "Pet health and veterinary care",
+                "Pet care",
+                "Pet health and well-being",
+                "Ethical considerations of declawing cats",
+                "Animal welfare",
+                "Animal welfare and ethics"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "shp-askhistorians": {
+        "Unique Dataset Identifier": "shp-askhistorians",
+        "Dataset Name": "askhistorians",
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Paper Title": "Understanding Dataset Difficulty with V-Usable Information",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2110.08420",
+        "Semantic Scholar Corpus ID": 250340652,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 3264,
+            "Mean Inputs Length": 2185.1039,
+            "Mean Targets Length": 1251.7564,
+            "Max Inputs Length": 36215,
+            "Max Targets Length": 9998,
+            "Min Inputs Length": 52,
+            "Min Targets Length": 7,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
+        "Text Sources": [
+            "reddit"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University",
+            "AI2",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "askhistorians_train"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "stanfordnlp/SHP",
+            "HF Config": "stanfordnlp--SHP",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-10-16",
+            "GitHub License": "",
+            "Text Topics": [
+                "History",
+                "Religion",
+                "Literature",
+                "Royalty",
+                "Online communities",
+                "Adventure",
+                "Exploration",
+                "Pursuing a PhD in history",
+                "Challenges and discouragement in academia",
+                "Education"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "shp-askcarguys": {
+        "Unique Dataset Identifier": "shp-askcarguys",
+        "Dataset Name": "askcarguys",
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Paper Title": "Understanding Dataset Difficulty with V-Usable Information",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2110.08420",
+        "Semantic Scholar Corpus ID": 250340652,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 3227,
+            "Mean Inputs Length": 543.0951,
+            "Mean Targets Length": 291.5189,
+            "Max Inputs Length": 7385,
+            "Max Targets Length": 7426,
+            "Min Inputs Length": 25,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
+        "Text Sources": [
+            "reddit"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University",
+            "AI2",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "askcarguys_train"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "stanfordnlp/SHP",
+            "HF Config": "stanfordnlp--SHP",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-10-16",
+            "GitHub License": "",
+            "Text Topics": [
+                "Automotive maintenance",
+                "Automotive mechanics",
+                "Car modifications",
+                "Car maintenance",
+                "Automotive technology",
+                "Personal preferences",
+                "Automobiles",
+                "Cars and automotive knowledge",
+                "Automotive engineering",
+                "Automotive maintenance and repairs"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "shp-asksocialscience": {
+        "Unique Dataset Identifier": "shp-asksocialscience",
+        "Dataset Name": "asksocialscience",
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Paper Title": "Understanding Dataset Difficulty with V-Usable Information",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2110.08420",
+        "Semantic Scholar Corpus ID": 250340652,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 2706,
+            "Mean Inputs Length": 549.8145,
+            "Mean Targets Length": 881.036,
+            "Max Inputs Length": 7429,
+            "Max Targets Length": 10774,
+            "Min Inputs Length": 27,
+            "Min Targets Length": 4,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
+        "Text Sources": [
+            "reddit"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University",
+            "AI2",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "asksocialscience_train"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "stanfordnlp/SHP",
+            "HF Config": "stanfordnlp--SHP",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2021-10-16",
+            "GitHub License": "",
+            "Text Topics": [
+                "Economics",
+                "Sociology",
+                "Political ideologies",
+                "Geography",
+                "Social sciences",
+                "Research methods",
+                "Politics",
+                "Cultural differences",
+                "Non-fiction books",
+                "Book recommendations"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    }
+}
