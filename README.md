@@ -2,7 +2,7 @@
 
 [**Paper**](https://www.dataprovenance.org/paper.pdf) | [**Data Provenance Explorer**](https://www.dataprovenance.org/)
 
-[**Setup**](#setup) | [**Run**](#run) | [**Collected Information**](#collected-information) | [**Add Collection**](#add-a-collection) | [**Dat Format**](#dataset-format) | [**Legal Notice & Limitations**](#legal-notice-and-limitations) | [**Contact & Citation**](#contact-and-citation)
+[**Setup**](#setup) | [**Run**](#run) | [**Collected Information**](#collected-information) | [**Add Collection**](#add-a-collection) | [**Data Format**](#dataset-format) | [**Legal Notice & Limitations**](#legal-notice-and-limitations) | [**Contact**](#contact-and-citation)
 
 
 <p align="center">
