@@ -1,8 +1,8 @@
 # The Data Provenance Initiative
 
-**Paper (coming soon)** | [**Data Provenance Explorer**](https://www.dataprovenance.org/)
+[**Paper**](https://www.dataprovenance.org/paper.pdf) | [**Data Provenance Explorer**](https://www.dataprovenance.org/)
 
-[**Setup**](#setup) | [**Run**](#run) | [**Collected Information**](#collected-information) | [**Add a Collection**](#add-a-collection) | [**Dataset Format**](#dataset-format) | [**Legal Notice & Limitations**](#legal-notice-and-limitations) | [**Contact and Citation**](#contact-and-citation)
+[**Setup**](#setup) | [**Run**](#run) | [**Collected Information**](#collected-information) | [**Add Collection**](#add-a-collection) | [**Dat Format**](#dataset-format) | [**Legal Notice & Limitations**](#legal-notice-and-limitations) | [**Contact & Citation**](#contact-and-citation)
 
 
 <p align="center">
