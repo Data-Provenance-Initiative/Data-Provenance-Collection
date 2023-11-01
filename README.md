@@ -215,5 +215,10 @@ The code in this repository is Apache 2.0 licensed.
 Contact [data.provenance.init@gmail.com](mailto:data.provenance.init@gmail.com) to update or contribute to this resource.
 
 ```
-Citation coming soon.
+@article{longpre2023data,
+  title={The Data Provenance Initiative: A Large Scale Audit of Dataset Licensing \& Attribution in AI},
+  author={Longpre, Shayne and Mahari, Robert and Chen, Anthony and Obeng-Marnu, Naana and Sileo, Damien and Brannon, William and Muennighoff, Niklas and Khazam, Nathan and Kabbara, Jad and Perisetla, Kartik and others},
+  journal={arXiv preprint arXiv:2310.16787},
+  year={2023}
+}
 ```
