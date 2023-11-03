@@ -49,9 +49,13 @@
             {
                 "License": "OpenAI",
                 "License URL": "https://github.com/teknium1/GPTeacher"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/teknium1/GPTeacher/blob/main/LICENSE"
             }
         ],
-        "License Notes": "GPT-4 generated responses.",
+        "License Notes": "GPT-4 generated responses. Confirmed with creator that the MIT License is intended for data too.",
         "License Verified By": "Shayne",
         "Dataset Filter IDs": [
             "gpteacher_instruct"
@@ -141,9 +145,13 @@
             {
                 "License": "OpenAI",
                 "License URL": "https://github.com/teknium1/GPTeacher"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/teknium1/GPTeacher/blob/main/LICENSE"
             }
         ],
-        "License Notes": "GPT-4 generated responses.",
+        "License Notes": "GPT-4 generated responses. Confirmed with creator that the MIT License is intended for data too.",
         "License Verified By": "Shayne",
         "Dataset Filter IDs": [
             "gpteacher_codegen"
@@ -232,9 +240,13 @@
             {
                 "License": "OpenAI",
                 "License URL": "https://github.com/teknium1/GPTeacher"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/teknium1/GPTeacher/blob/main/LICENSE"
             }
         ],
-        "License Notes": "GPT-4 generated responses.",
+        "License Notes": "GPT-4 generated responses. Confirmed with creator that the MIT License is intended for data too.",
         "License Verified By": "Shayne",
         "Dataset Filter IDs": [
             "gpteacher_toolformer"
@@ -315,9 +327,13 @@
             {
                 "License": "OpenAI",
                 "License URL": "https://github.com/teknium1/GPTeacher"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/teknium1/GPTeacher/blob/main/LICENSE"
             }
         ],
-        "License Notes": "GPT-4 generated responses.",
+        "License Notes": "GPT-4 generated responses. Confirmed with creator that the MIT License is intended for data too.",
         "License Verified By": "Shayne",
         "Dataset Filter IDs": [
             "gpteacher_roleplay"
