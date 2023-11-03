@@ -50,6 +50,10 @@
         ],
         "Licenses": [
             {
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
+            {
                 "License": "CC BY 4.0",
                 "License URL": "https://huggingface.co/datasets/allenai/soda"
             },
@@ -148,6 +152,10 @@
         ],
         "Licenses": [
             {
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
+            {
                 "License": "CC BY-SA 4.0",
                 "License URL": "https://github.com/google-research/dialog-inpainting/blob/main/WikiDialog-OQ_Data_Card.pdf"
             }
@@ -233,6 +241,10 @@
         ],
         "Creators": [],
         "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
             {
                 "License": "MIT License",
                 "License URL": "https://github.com/orhonovich/unnatural-instructions"
@@ -323,8 +335,12 @@
         "Creators": [],
         "Licenses": [
             {
-                "License": "Various",
-                "License URL": ""
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/google-deepmind/AQuA/"
             }
         ],
         "License Notes": "",
@@ -407,8 +423,12 @@
         "Creators": [],
         "Licenses": [
             {
-                "License": "Various",
-                "License URL": ""
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://www.kaggle.com/datasets/ishnoor/poetry-analysis-with-machine-learning"
             }
         ],
         "License Notes": "Poetry data of mostly classical poems https://huggingface.co/datasets/merve/poetry https://huggingface.co/datasets/matthh/gutenberg-poetry-corpus. Because the poems are from different time periods, some are in public domain while other are not.",
@@ -489,8 +509,12 @@
         "Creators": [],
         "Licenses": [
             {
-                "License": "Various",
-                "License URL": ""
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://www.kaggle.com/datasets/ishnoor/poetry-analysis-with-machine-learning"
             }
         ],
         "License Notes": "unified_poetry_instructions (and https://huggingface.co/datasets/shahules786/PoetryFoundationData) translated to song-like structures. Inherits license from unified_poetry instructions",
@@ -651,6 +675,10 @@
         "Creators": [],
         "Licenses": [
             {
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
+            {
                 "License": "Custom",
                 "License URL": "https://github.com/Alex-Fabbri/Multi-News/blob/master/LICENSE.txt"
             }
@@ -730,6 +758,10 @@
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
             {
                 "License": "Unspecified",
                 "License URL": ""
@@ -811,6 +843,10 @@
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
             {
                 "License": "Unspecified",
                 "License URL": "https://github.com/oscar-project/ungoliant/blob/main/LICENSE"
@@ -895,6 +931,10 @@
         "Creators": [],
         "Licenses": [
             {
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
+            {
                 "License": "MIT License",
                 "License URL": "https://huggingface.co/datasets/gsm8k#licensing-information"
             }
@@ -976,8 +1016,20 @@
         "Creators": [],
         "Licenses": [
             {
-                "License": "Various",
-                "License URL": "See subsets"
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://yale-lily.github.io/spider"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://yale-lily.github.io/sparc"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://yale-lily.github.io/cosql"
             }
         ],
         "License Notes": "public text 2 sql datasets built on SPIDER, SPARC, and COSQL",
@@ -1014,7 +1066,11 @@
             "GitHub Stars": "",
             "GitHub Topics": []
         },
-        "Derived from Datasets": [],
+        "Derived from Datasets": [
+            "SPIDER",
+            "SPARC",
+            "COSQL"
+        ],
         "Human Annotation": "No"
     },
     "oig-unified_chip2": {
@@ -1033,7 +1089,9 @@
             "English"
         ],
         "Task Categories": [
-            "Brainstorming"
+            "Brainstorming",
+            "Algebraic Expression Evaluation",
+            "Question Answering"
         ],
         "Format": [
             "Multi-turn Dialog"
@@ -1055,12 +1113,28 @@
         "Creators": [],
         "Licenses": [
             {
-                "License": "Various",
-                "License URL": "See subsets"
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://creativecommons.org/licenses/by-sa/3.0/"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/gsm8k#licensing-information"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/anthropics/hh-rlhf/blob/master/LICENSE"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://conala-corpus.github.io/"
             }
         ],
-        "License Notes": "generated from many public datasets (including natural instructions and anthropics HH) and from the web",
-        "License Verified By": "",
+        "License Notes": "generated from many public datasets (including natural instructions and anthropics HH) and from the web. Described here: https://huggingface.co/datasets/laion/OIG#unified-chip2jsonl--oig-small-chip2-210000",
+        "License Verified By": "Anthony Chen",
         "Dataset Filter IDs": [
             "unified_chip2"
         ],
@@ -1133,6 +1207,10 @@
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
             {
                 "License": "CC BY-SA 3.0",
                 "License URL": "https://creativecommons.org/licenses/by-sa/3.0/"
@@ -1212,6 +1290,10 @@
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
             {
                 "License": "Unspecified",
                 "License URL": "Unspecified"
@@ -1293,6 +1375,10 @@
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
             {
                 "License": "CC BY 4.0",
                 "License URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
@@ -1378,8 +1464,24 @@
         "Creators": [],
         "Licenses": [
             {
-                "License": "Various",
-                "License URL": "See subsets"
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://yale-lily.github.io/spider"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://yale-lily.github.io/sparc"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://yale-lily.github.io/cosql"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/xlang-ai/UnifiedSKG"
             }
         ],
         "License Notes": "They unify 21 knowledge-intensive datasets (e.g., semantic parsing) into a unified format",
@@ -1480,8 +1582,20 @@
         "Creators": [],
         "Licenses": [
             {
-                "License": "Various",
-                "License URL": ""
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://yale-lily.github.io/spider"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://yale-lily.github.io/sparc"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://yale-lily.github.io/cosql"
             }
         ],
         "License Notes": "public text 2 sql datasets built on SPIDER, SPARC, and COSQL",
@@ -1518,7 +1632,11 @@
             "GitHub Stars": "",
             "GitHub Topics": []
         },
-        "Derived from Datasets": [],
+        "Derived from Datasets": [
+            "SPIDER",
+            "SPARC",
+            "COSQL"
+        ],
         "Human Annotation": "No"
     },
     "oig-unified_canadian_parliament": {
@@ -1559,8 +1677,8 @@
         "Creators": [],
         "Licenses": [
             {
-                "License": "Request Form",
-                "License URL": "https://www.ourcommons.ca/en/important-notices"
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
             }
         ],
         "License Notes": "https://openparliament.ca/api/ contains information on usage.",
@@ -1639,6 +1757,10 @@
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
             {
                 "License": "Unspecified",
                 "License URL": "Unspecified"
@@ -1721,6 +1843,10 @@
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
             {
                 "License": "Unspecified",
                 "License URL": ""
@@ -1806,6 +1932,10 @@
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
             {
                 "License": "Unspecified",
                 "License URL": "https://github.com/czyssrs/ConvFinQA/blob/main/LICENSE"
@@ -1898,6 +2028,10 @@
         ],
         "Creators": [],
         "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
             {
                 "License": "CC BY-SA 4.0",
                 "License URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection#dataset-copyright"
@@ -2002,6 +2136,10 @@
         "Creators": [],
         "Licenses": [
             {
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
+            {
                 "License": "CC BY 4.0",
                 "License URL": "https://creativecommons.org/licenses/by/4.0/"
             }
@@ -2084,6 +2222,10 @@
         "Creators": [],
         "Licenses": [
             {
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
+            {
                 "License": "CC BY-SA 4.0",
                 "License URL": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
             }
@@ -2165,6 +2307,10 @@
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://laion.ai/blog/oig-dataset/"
+            },
             {
                 "License": "CC BY-SA 4.0",
                 "License URL": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
