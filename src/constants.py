@@ -3,7 +3,7 @@ from helpers import io
 
 LICENSE_CONSTANTS_FP = "constants/license_classes.json"
 CUSTOM_LICENSE_CONSTANTS_FP = "constants/custom_license_classes.json"
-LANGUAGE_CONSTANTS_FP = "constants/language_families.json"
+LANGUAGE_CONSTANTS_FP = "constants/language_groups.json"
 TASK_CONSTANTS_FP = "constants/task_groups.json"
 TOPIC_CONSTANTS_FP = "constants/topic_groups.json"
 MODEL_CONSTANTS_FP = "constants/model_groups.json"
