@@ -1,0 +1,152 @@
+{
+    "chatdoctor-healthcaremagic-100k": {
+        "Unique Dataset Identifier": "chatdoctor-healthcaremagic-100k",
+        "Dataset Name": "HealthCareMagic-100k",
+        "Paper Title": "ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) Using Medical Domain Knowledge.",
+        "Dataset URL": "https://drive.google.com/file/d/1lyfqIwlLSClhgrCutWuEe_IACNq6XNUt/view?usp=sharing",
+        "GitHub URL": "https://github.com/Kent0n-Li/ChatDoctor",
+        "Hugging Face URL": "https://huggingface.co/datasets/lavita/ChatDoctor-HealthCareMagic-100k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2303.14070",
+        "Semantic Scholar Corpus ID": 259252045,
+        "Collection": "ChatDoctor",
+        "Collection URL": "https://github.com/Kent0n-Li/ChatDoctor",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Diagnosis Question Answering",
+            "Medical Question Answering",
+            "Question Answering",
+            "Symptom Prediction Question Answering"
+        ],
+        "Text Sources": [
+            "healthcaremagic.com"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "University of Texas at Dallas",
+            "University of Illinois Urbana-Champaign",
+            "The Ohio State University"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://github.com/Kent0n-Li/ChatDoctor/blob/main/LICENSE"
+            }
+        ],
+        "License Notes": "The target of the license is unclear. In this commit the authors switched from Research only to Apache 2.0: https://github.com/Kent0n-Li/ChatDoctor/commit/2d798cb8744424615b637139be493f46592c4c6b",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "chatdoctor-healthcaremagic-100k"
+        ]
+    },
+    "chatdoctor-icliniq-10k": {
+        "Unique Dataset Identifier": "chatdoctor-icliniq-10k",
+        "Dataset Name": "iCliniq-10k",
+        "Paper Title": "ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) Using Medical Domain Knowledge.",
+        "Dataset URL": "https://drive.google.com/file/d/1ZKbqgYqWc7DJHs3N9TQYQVPdDQmZaClA/view?usp=sharing",
+        "GitHub URL": "https://github.com/Kent0n-Li/ChatDoctor",
+        "Hugging Face URL": "https://huggingface.co/datasets/lavita/ChatDoctor-iCliniq",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2303.14070",
+        "Semantic Scholar Corpus ID": 259252045,
+        "Collection": "ChatDoctor",
+        "Collection URL": "https://github.com/Kent0n-Li/ChatDoctor",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Diagnosis Question Answering",
+            "Medical Question Answering",
+            "Question Answering",
+            "Symptom Prediction Question Answering"
+        ],
+        "Text Sources": [
+            "icliniq.com"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "University of Texas at Dallas",
+            "University of Illinois Urbana-Champaign",
+            "The Ohio State University"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://github.com/Kent0n-Li/ChatDoctor/blob/main/LICENSE"
+            }
+        ],
+        "License Notes": "The target of the license is unclear. In this commit the authors switched from Research only to Apache 2.0: https://github.com/Kent0n-Li/ChatDoctor/commit/2d798cb8744424615b637139be493f46592c4c6b",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "chatdoctor-icliniq-10k"
+        ]
+    },
+    "chatdoctor-genmedgpt-5k": {
+        "Unique Dataset Identifier": "chatdoctor-genmedgpt-5k",
+        "Dataset Name": "GenMedGPT-5k",
+        "Paper Title": "",
+        "Dataset URL": "https://drive.google.com/file/d/1nDTKZ3wZbZWTkFMBkxlamrzbNz0frugg/view?usp=sharing",
+        "GitHub URL": "https://github.com/Kent0n-Li/ChatDoctor",
+        "Hugging Face URL": "https://huggingface.co/datasets/wangrongsheng/GenMedGPT-5k-en",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "ChatDoctor",
+        "Collection URL": "https://github.com/Kent0n-Li/ChatDoctor",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Diagnosis Question Answering",
+            "Medical Question Answering",
+            "Question Answering",
+            "Symptom Prediction Question Answering"
+        ],
+        "Text Sources": [],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "University of Texas at Dallas",
+            "University of Illinois Urbana-Champaign",
+            "The Ohio State University"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "The only detail provided for this dataset is that it was generated by ChatGPT",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "chatdoctor-genmedgpt-5k"
+        ]
+    }
+}
