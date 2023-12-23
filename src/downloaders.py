@@ -98,15 +98,15 @@ def huggingface_download(
     """
     assert not (data_dir and data_files)
 
-    # num_proc = max(multiprocessing.cpu_count() // 2,1)
+    num_proc = max(multiprocessing.cpu_count() // 2,1)
     if data_files:
-        dset = load_dataset(data_address, data_files=data_files)
+        dset = load_dataset(data_address, data_files=data_files, num_proc=num_proc)
     elif data_dir:
-        dset = load_dataset(data_address, data_dir=data_dir)
+        dset = load_dataset(data_address, data_dir=data_dir, num_proc=num_proc)
     elif name:
         dset = load_dataset(data_address, name)
     else:
-        dset = load_dataset(data_address)
+        dset = load_dataset(data_address, num_proc=num_proc)
 
     if split:
         dset = dset[split]
