@@ -76,6 +76,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_alpaca,
         "prepare_function": preparers.prepare_alpaca,
     },
+    "EverythingLM": {
+        "download_function": downloaders.download_everything_lm,
+        "prepare_function": preparers.prepare_everything_lm,
+    },
     "GPT-4-Alpaca": {
         "download_function": downloaders.download_gpt4_alpaca,
         "prepare_function": preparers.prepare_gpt4_alpaca,
