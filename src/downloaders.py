@@ -98,15 +98,15 @@ def huggingface_download(
     """
     assert not (data_dir and data_files)
 
-    num_proc = max(multiprocessing.cpu_count() // 2,1)
+    # num_proc = max(multiprocessing.cpu_count() // 2,1)
     if data_files:
-        dset = load_dataset(data_address, data_files=data_files, num_proc=num_proc)
+        dset = load_dataset(data_address, data_files=data_files)
     elif data_dir:
-        dset = load_dataset(data_address, data_dir=data_dir, num_proc=num_proc)
+        dset = load_dataset(data_address, data_dir=data_dir)
     elif name:
         dset = load_dataset(data_address, name)
     else:
-        dset = load_dataset(data_address, num_proc=num_proc)
+        dset = load_dataset(data_address)
 
     if split:
         dset = dset[split]
@@ -319,6 +319,8 @@ def download_openai_webgpt(accepted_filter_ids):
 def download_alpaca(accepted_filter_ids):
     return huggingface_download('tatsu-lab/alpaca', split='train')
 
+def download_pure_dove(accepted_filter_ids):
+    return huggingface_download('LDJnr/Pure-Dove', split='train')
 
 def download_evol_instruct(accepted_filter_ids):
     return huggingface_download('WizardLM/evol_instruct_70k', split='train')

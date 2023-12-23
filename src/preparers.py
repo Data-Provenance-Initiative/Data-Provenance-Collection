@@ -239,6 +239,11 @@ def prepare_evol_instruct(row):
         row['instruction'], row["output"], "evol_instruct",
     )
 
+def prepare_pure_dove(row):
+    return convert_inputs_targets_to_messages(
+        row["conversation"][0]["input"], row["conversation"][0]["output"], "pure_dove",
+    )
+
 def prepare_sharegpt_vicuna(row):
     parent = "sharegpt_vicuna"
     messages = []
