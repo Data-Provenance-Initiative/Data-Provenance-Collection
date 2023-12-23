@@ -24,9 +24,9 @@
         "Human Annotation": "Yes",
         "Derived from Datasets": [""],
         "Creators": [],
-        "Licenses": [{"License": "Unspecified", "License URL": ""}],
+        "Licenses": [{"License": "Apache License 2.0", "License URL": "https://huggingface.co/datasets/LDJnr/Pure-Dove"}],
         "License Notes": "",
-        "License Verified By": "",
+        "License Verified By": "Manan",
         "Dataset Filter IDs": ["pure_dove"]
     }
 }
