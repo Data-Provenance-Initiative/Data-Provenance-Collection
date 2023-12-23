@@ -1,0 +1,32 @@
+{
+    "pure_dove": {
+        "Unique Dataset Identifier": "pure_dove",
+        "Dataset Name": "pure_dove",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/LDJnr/Pure-Dove",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/LDJnr/Pure-Dove",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "Pure-Dove",
+        "Collection URL": "https://huggingface.co/datasets/LDJnr/Pure-Dove",
+        "Languages": ["English"],
+        "Task Categories": [
+            "Dialog Generation",
+            "Explanation Generation",
+            "Instruction Following",
+            "Instructional Question Answering"
+        ],
+        "Text Sources": ["sharegpt.com", "chat.lmsys.org"],
+        "Model Generated": ["OpenAI GPT-4"],
+        "Format": ["Multi-turn Dialog"],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [""],
+        "Creators": [],
+        "Licenses": [{"License": "Unspecified", "License URL": ""}],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": ["pure_dove"]
+    }
+}
