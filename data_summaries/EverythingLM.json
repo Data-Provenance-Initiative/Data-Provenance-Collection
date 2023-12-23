@@ -28,7 +28,7 @@
         "Format": [
             "Zero-shot"
         ],
-        "Human Annotation": ["No"],
+        "Human Annotation": "No",
         "Derived from Datasets": [],
         "Creators": [],
         "Licenses": [
