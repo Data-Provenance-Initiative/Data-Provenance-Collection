@@ -1,0 +1,46 @@
+{
+    "everything_lm": {
+        "Unique Dataset Identifier": "everything_lm",
+        "Dataset Name": "everything_lm",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/totally-not-an-llm/EverythingLM-data-V3",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/totally-not-an-llm/EverythingLM-data-V3",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "EverythingLM",
+        "Collection URL": "https://huggingface.co/datasets/totally-not-an-llm/EverythingLM-data-V3",
+        "Languages": [
+            "English",
+            "Code"
+        ],
+        "Task Categories": [
+            "Brainstorming",
+            "Reasoning over Natural Language",
+            "Factual Knowledge Question Answering",
+            "Roleplay",
+            "Multiple Choice Question Answering",
+            "Instruction Following"
+        ],
+        "Text Sources": [],
+        "Model Generated": ["OpenAI GPT-4"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/totally-not-an-llm/EverythingLM-data-V3"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "everything_lm"
+        ]
+    }
+}

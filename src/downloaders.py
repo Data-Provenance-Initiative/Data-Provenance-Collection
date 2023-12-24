@@ -242,6 +242,8 @@ def download_laion_oig(accepted_filter_ids):
 def download_self_instruct(accepted_filter_ids):
     return huggingface_download('yizhongw/self_instruct', split='train')
 
+def download_everything_lm(accepted_filter_ids):
+    return huggingface_download('totally-not-an-llm/EverythingLM-data-V3', split='train')
 
 def download_anthropic_hh_rlhf(accepted_filter_ids):
     return huggingface_download('anthropic/hh-rlhf', split='train')
