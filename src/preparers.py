@@ -239,6 +239,11 @@ def prepare_evol_instruct(row):
         row['instruction'], row["output"], "evol_instruct",
     )
 
+def prepare_meta_math_qa(row):
+    return convert_inputs_targets_to_messages(
+        row["query"], row["response"], "meta_math_qa",
+    )
+
 def prepare_sharegpt_vicuna(row):
     parent = "sharegpt_vicuna"
     messages = []

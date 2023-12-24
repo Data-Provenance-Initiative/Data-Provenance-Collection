@@ -76,6 +76,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_alpaca,
         "prepare_function": preparers.prepare_alpaca,
     },
+    "MetaMathQA": {
+        "download_function": downloaders.download_meta_math_qa,
+        "prepare_function": preparers.prepare_meta_math_qa,
+    },
     "GPT-4-Alpaca": {
         "download_function": downloaders.download_gpt4_alpaca,
         "prepare_function": preparers.prepare_gpt4_alpaca,
