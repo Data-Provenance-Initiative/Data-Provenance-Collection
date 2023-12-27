@@ -1,0 +1,102 @@
+{
+    "agentinstruct_alfworld": {
+        "Unique Dataset Identifier": "agentinstruct_alfworld",
+        "Dataset Name": "alfworld",
+        "Paper Title": "ALFWorld: Aligning Text and Embodied Environments for Interactive Learning",
+        "Dataset URL": "https://github.com/alfworld/alfworld/tree/master/alfworld/data",
+        "GitHub URL": "https://github.com/THUDM/AgentTuning",
+        "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/alfworld",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2010.03768",
+        "Semantic Scholar Corpus ID": 222208810,
+        "Collection": "AgentInstruct",
+        "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Instruction Following"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            ""
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Human Annotation": [
+            "Yes"
+        ],
+        "Derived from Datasets": [
+            "ALFRED"
+        ],
+        "Creators": [
+            "University of Washington",
+            "Microsoft",
+            "Carnegie Mellon University"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/alfworld/alfworld"
+            }
+        ],
+        "License Notes": "This dataset license information is derived from the ALFRED dataset  https://github.com/askforalfred/alfred/tree/master",
+        "License Verified By": "Christopher",
+        "Dataset Filter IDs": [
+            "alfworld"
+        ]
+    },
+    "agentinstruct_webshop": {
+        "Unique Dataset Identifier": "agentinstruct_webshop",
+        "Dataset Name": "webshop",
+        "Paper Title": "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents",
+        "Dataset URL": "",
+        "GitHub URL": "https://github.com/princeton-nlp/WebShop",
+        "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/webshop",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2207.01206",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "AgentInstruct",
+        "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Instruction Following"
+        ],
+        "Text Sources": [
+            "crowdsourced" // WebShop – a simulated e-commerce website environment with 1.18 million real-world products and 12, 087 crowd-sourced text instructions.
+        ],
+        "Model Generated": [
+            "GPT-4"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Human Annotation": [
+            "Yes"// We use Amazon Mechanical Turk (AMT) to collect natural language instructions that specify goal products with appropriate options.
+        ],
+        "Derived from Datasets": [
+            "Amazon" // We use ScraperAPI [35] to scrape 1, 181, 436 products from amazon.com 
+        ],
+        "Creators": [
+            "University of Washington",
+            "Microsoft",
+            "Carnegie Mellon University"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/princeton-nlp/WebShop/blob/master/LICENSE.md"
+            }
+        ],
+        "License Notes": "The license is for the framework used to create the dataset.",
+        "License Verified By": "Christopher",
+        "Dataset Filter IDs": [
+            "webshop"
+        ]
+    }
+}
