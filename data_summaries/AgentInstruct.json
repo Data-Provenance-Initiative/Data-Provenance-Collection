@@ -1,7 +1,7 @@
 {
     "agentinstruct_alfworld": {
         "Unique Dataset Identifier": "agentinstruct_alfworld",
-        "Dataset Name": "alfworld",
+        "Dataset Name": "ALFworld",
         "Paper Title": "ALFWorld: Aligning Text and Embodied Environments for Interactive Learning",
         "Dataset URL": "https://github.com/alfworld/alfworld/tree/master/alfworld/data",
         "GitHub URL": "https://github.com/THUDM/AgentTuning",
@@ -51,7 +51,7 @@
     },
     "agentinstruct_webshop": {
         "Unique Dataset Identifier": "agentinstruct_webshop",
-        "Dataset Name": "webshop",
+        "Dataset Name": "Webshop",
         "Paper Title": "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents",
         "Dataset URL": "",
         "GitHub URL": "https://github.com/princeton-nlp/WebShop",
@@ -71,7 +71,7 @@
             "crowdsourced" // WebShop – a simulated e-commerce website environment with 1.18 million real-world products and 12, 087 crowd-sourced text instructions.
         ],
         "Model Generated": [
-            "GPT-4"
+            ""
         ],
         "Format": [
             "Chain-of-Thought"
@@ -83,9 +83,7 @@
             "Amazon" // We use ScraperAPI [35] to scrape 1, 181, 436 products from amazon.com 
         ],
         "Creators": [
-            "University of Washington",
-            "Microsoft",
-            "Carnegie Mellon University"
+            "Princeton University"
         ],
         "Licenses": [
             {
@@ -97,6 +95,216 @@
         "License Verified By": "Christopher",
         "Dataset Filter IDs": [
             "webshop"
+        ]
+    },
+    "agentinstruct_mind2web": {
+        "Unique Dataset Identifier": "agentinstruct_mind2web",
+        "Dataset Name": "Mind2Web",
+        "Paper Title": "Mind2Web: Towards a Generalist Agent for the Web",
+        "Dataset URL": "https://app.globus.org/file-manager?origin_id=32e6b738-a0b0-47f8-b475-26bf1c5ebf19",
+        "GitHub URL": "259129428",
+        "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/mind2web",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2306.06070",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "AgentInstruct",
+        "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Instruction Following"
+        ],
+        "Text Sources": [
+            "crowdsourced" // With over 2,000 open-ended tasks collected from 137 websites spanning 31 domains and crowdsourced action sequences for the tasks
+            // Website selection and task verification are done by the authors. For task proposal and demonstration, we develop a sophisticated annotation tool using Playwright 2 and hire annotators through Amazon Mechanical Turk. 
+        ],
+        "Model Generated": [
+            "ChatGPT" // To further stimulate creativity and boost diversity, we use ChatGPT to generate seed tasks by prompting it to test different functionalities of a website
+        ],
+        "Format": [
+            "Chain-of-Thought" // action sequences 
+        ],
+        "Human Annotation": [
+            "Yes"
+        ],
+        "Derived from Datasets": [
+            ""
+        ],
+        "Creators": [
+            "The Ohio State University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://github.com/OSU-NLP-Group/Mind2Web"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Christopher",
+        "Dataset Filter IDs": [
+            "mind2web"
+        ]
+    },
+    "agentinstruct_knowledgegraph": { // The actual source of this dataset seems to be unknown at the moment. "Anonymous. Knowledge base question answering as tool learning. under review, 2023."
+        // AgentTuning refers to AgentBench, which is a collection of datasets that includes the one cited.
+        "Unique Dataset Identifier": "agentinstruct_knowledgegraph",
+        "Dataset Name": "knowledgegraph",
+        "Paper Title": "",
+        "Dataset URL": "",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/kg",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "AgentInstruct",
+        "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Instruction Following"
+        ],
+        "Text Sources": [
+            ""
+        ],
+        "Model Generated": [
+            ""
+        ],
+        "Format": [
+            ""
+        ],
+        "Human Annotation": [
+            ""
+        ],
+        "Derived from Datasets": [
+            ""
+        ],
+        "Creators": [
+            "Tsinghua University",
+            "The Ohio State University",
+            "UC Berkeley"
+        ],
+        "Licenses": [
+            {
+                "License": "",
+                "License URL": "d"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Christopher",
+        "Dataset Filter IDs": [
+            "kg"
+        ]
+    },
+    "agentinstruct_operatingsystem": {
+        "Unique Dataset Identifier": "agentinstruct_operatingsystem",
+        "Dataset Name": "operatingsystem",
+        "Paper Title": "",
+        "Dataset URL": "",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/os",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "AgentInstruct",
+        "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Instruction Following",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "Stack Overflow", // For human instructions, we first gather 6000 real problems and solutions with bash or shell tag from Stack Overflow3.
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "GPT-4"
+        ],
+        "Format": [
+            ""
+        ],
+        "Human Annotation": [
+            ""
+        ],
+        "Derived from Datasets": [
+            ""
+        ],
+        "Creators": [
+            "Tsinghua University",
+            "The Ohio State University",
+            "UC Berkeley"
+        ],
+        "Licenses": [
+            {
+                "License": "",
+                "License URL": "d"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Christopher",
+        "Dataset Filter IDs": [
+            "os"
+        ]
+    },
+    "agentinstruct_database": {
+        "Unique Dataset Identifier": "agentinstruct_database",
+        "Dataset Name": "database",
+        "Paper Title": "",
+        "Dataset URL": "",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/db",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "AgentInstruct",
+        "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Instruction Following"
+        ],
+        "Text Sources": [
+            "Kaggle", // 32% of our databases are sourced from Kaggle*, a platform renowned for holding data science competitions with difficult, noisy values and schemas. Another 48% come from CTU Prague Relational Learning Repository†, an open platform for machine learning research with multi-relational data. The remaining 20% are built by acquiring open tables, synthesizing and standardizing schemas, and generating database constraints.
+            "CTU Prague RElational Learning Repository",
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "GPT-4" // We prompt GPT-4 with a question from BIRD, and collect its interaction trajectory with the database.
+            // According to the original paper, they mentioned that they utilized GPT-3.5 Turbo.
+        ],
+        "Format": [
+            ""
+        ],
+        "Human Annotation": [
+            "yes"
+        ],
+        "Derived from Datasets": [
+            "BIRD" // Thus to construct instructions on the Database (DB) task, we derive instructions from BIRD (Li et al., 2023), a SELECT-only database benchmark.
+            "WikiSQL", // There seem to be many inconsistencies in the paper cited. The paper mentions different datasets as the underlying basis, which can lead to confusion and inaccuracy.
+            "WikiTableQuestions",
+            "SQA",
+            "HybridaQA",
+            "FeTaQA"
+        ],
+        "Creators": [
+            "Tsinghua University",
+            "The Ohio State University",
+            "UC Berkeley
+        ],
+        "Licenses": [
+            {
+                "License": "",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Christopher",
+        "Dataset Filter IDs": [
+            "db"
         ]
     }
 }
