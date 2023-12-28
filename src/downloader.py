@@ -1,8 +1,8 @@
 import os
-import pandas as pd
-from functools import partial
-from collections import Counter, defaultdict
-from datasets import load_dataset, list_datasets
+# import pandas as pd
+# from functools import partial
+from collections import defaultdict  # Counter,
+# from datasets import load_dataset, list_datasets
 from helpers import io
 import random
 
@@ -13,9 +13,9 @@ class Downloader:
     """Downloads, filters, prepares, then saves the data for a Collection."""
 
     def __init__(
-        self, 
-        name, 
-        download_function, 
+        self,
+        name,
+        download_function,
         prepare_function,
         uid_key_mapper,
         custom_prepare=False,
@@ -35,13 +35,13 @@ class Downloader:
         self.prepare_fn = prepare_function
         self.custom_prepare = custom_prepare
 
-        # Allows us to map from keys back to Dataset UID so we can 
+        # Allows us to map from keys back to Dataset UID so we can
         # track which dataset they came from:
         self.keys_to_uid = {v: k for k, vs in uid_key_mapper.items() for v in vs}
 
     def download_and_prepare(
-        self, 
-        accepted_filter_ids, 
+        self,
+        accepted_filter_ids,
         limit=None,
         debug=False,
     ):
@@ -49,10 +49,10 @@ class Downloader:
         if self.custom_prepare:
             # In some cases we need to preprocess the whole dataset together
             prepared_dset = self.prepare_fn(dset)
-        elif debug: 
+        elif debug:
             # Easier to debug when not in parallel.
             prepared_dset = [self.prepare_fn(ex) for ex in dset]
-        else: 
+        else:
             # Run in parallel by default once working.
             prepared_dset = self._pool_process(self.prepare_fn, dset)
 
@@ -69,14 +69,14 @@ class Downloader:
                     f"The `parent` field of the first message in a dialog must be from one of the `Dataset Filter Ids`, specified in the json. It is currently {message['parent']} when the options are {self.keys_to_uid.keys()}"
                 if message["parent"] in self.keys_to_uid:
                     message["parent"] = self.keys_to_uid[message["parent"]]
-                    
+
                 new_row.append(message)
             normalized_dset.append(new_row)
 
         return normalized_dset
 
     def run_and_save(
-        self, 
+        self,
         accepted_filter_ids,
         savedir,
         limit=None,
@@ -84,7 +84,7 @@ class Downloader:
         debug=False,
     ):
         """Runs the data pipeline for this collection:
-        
+
         Downloads --> Prepares --> Reformats (optional) --> Samples (optional) --> Saves.
 
         accepated_filter_ids: A list of every `dataset_filter_ids` (from each dataset yaml files)
@@ -95,14 +95,14 @@ class Downloader:
         reformat: What format for the output data. Options are [`messages`, `supervised`].
             Default (`messages`) reformat is described here: TODO.
         debug: Turns of data parallelism so errors are easier to debug.
-        
+
         Saves the data as a gzipped jsonlines file according to `format` argument.
         """
         prepared_dset = self.download_and_prepare(accepted_filter_ids, limit=limit, debug=debug)
 
         num_messages = sum([len(dialog) for dialog in prepared_dset])
         print(f"{self.name} -- Downloaded {len(prepared_dset)} dialogs, totaling {num_messages} messages.")
-        
+
         # If specified, reformat dataset for supervised learning, multi-turn dialogs, or reward modeling.
         if reformat == "supervised":
             prepared_dset = self._reformat_supervised(prepared_dset)
@@ -125,7 +125,6 @@ class Downloader:
             pairs = self._reformat_supervised_dialog(dialog)
             reformatted.extend(pairs)
         return reformatted
-
 
     def _reformat_supervised_dialog(self, dialog):
         dset_name = dialog[0]["parent"]
@@ -157,4 +156,3 @@ class Downloader:
             dfs(root_id, dialog[root_id])
 
         return pairs
-
