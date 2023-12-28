@@ -40,7 +40,7 @@
                 "License URL": "https://github.com/alfworld/alfworld"
             }
         ],
-        "License Notes": "The used ALFRED dataset is licensed under the MIT License https://github.com/askforalfred/alfred/tree/master and the used TextWorld is licensed under the GNU General Public License (GPL) v2.0 License.",
+        "License Notes": "The used ALFRED dataset is licensed under the MIT License https://github.com/askforalfred/alfred/tree/master and the used TextWorld is licensed under the GNU General Public License (GPL) v2.0 License. The authors only state that ALFworld is licensed under the MIT License.",
         "License Verified By": "Christopher",
         "Dataset Filter IDs": [
             "alfworld"
@@ -96,11 +96,11 @@
         "Dataset Name": "knowledgegraph",
         "Paper Title": "AgentBench: Evaluating LLMs as Agents",
         "Dataset URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/kg",
-        "GitHub URL": "",
+        "GitHub URL": "https://github.com/THUDM/AgentBench",
         "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/kg",
         "Papers with Code URL": "",
         "ArXiv URL": "https://arxiv.org/abs/2310.12823",
-        "Semantic Scholar Corpus ID": "",
+        "Semantic Scholar Corpus ID": 260682249,
         "Collection": "AgentInstruct",
         "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
         "Languages": [
@@ -134,7 +134,7 @@
                 "License URL": ""
             }
         ],
-        "License Notes": "The original Freebase dataset is licensed under the Creative Commmon Attribution License.",
+        "License Notes": "The paper cites an anonymous source from 2023 that is currently under review. It is unclear what that means for the license. The original Freebase dataset, which seems to be a part of the source, is licensed under the Creative Commmon Attribution License.",
         "License Verified By": "Christopher",
         "Dataset Filter IDs": [
             "kg"
@@ -145,11 +145,11 @@
         "Dataset Name": "operatingsystem",
         "Paper Title": "AgentBench: Evaluating LLMs as Agents",
         "Dataset URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/os",
-        "GitHub URL": "",
+        "GitHub URL": "https://github.com/THUDM/AgentBench",
         "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/os",
         "Papers with Code URL": "",
         "ArXiv URL": "https://arxiv.org/abs/2310.12823",
-        "Semantic Scholar Corpus ID": "",
+        "Semantic Scholar Corpus ID": 260682249,
         "Collection": "AgentInstruct",
         "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
         "Languages": [
@@ -185,7 +185,7 @@
                 "License URL": "https://arxiv.org/abs/2310.12823"
             }
         ],
-        "License Notes": "",
+        "License Notes": "The paper cited as the source for the dataset in the collection refers to a data source that includes Stack Overflow. However, the authors of the paper do not mention this in the actual paper, which raises the possibility that they created the dataset solely with GPT. As of now, it is underspecified.",
         "License Verified By": "Christopher",
         "Dataset Filter IDs": [
             "os"
@@ -196,11 +196,11 @@
         "Dataset Name": "database",
         "Paper Title": "AgentBench: Evaluating LLMs as Agents",
         "Dataset URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/db",
-        "GitHub URL": "",
+        "GitHub URL": "https://github.com/THUDM/AgentBench",
         "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/db",
         "Papers with Code URL": "",
         "ArXiv URL": "https://arxiv.org/abs/2310.12823",
-        "Semantic Scholar Corpus ID": "",
+        "Semantic Scholar Corpus ID": 260682249,
         "Collection": "AgentInstruct",
         "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
         "Languages": [
@@ -249,11 +249,11 @@
         "Dataset Name": "mind2web",
         "Paper Title": "Mind2Web: Towards a Generalist Agent for the Web",
         "Dataset URL": "https://app.globus.org/file-manager?origin_id=32e6b738-a0b0-47f8-b475-26bf1c5ebf19",
-        "GitHub URL": "",
+        "GitHub URL": "https://github.com/OSU-NLP-Group/Mind2Web",
         "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/mind2web",
         "Papers with Code URL": "",
         "ArXiv URL": "https://arxiv.org/abs/2306.06070",
-        "Semantic Scholar Corpus ID": "",
+        "Semantic Scholar Corpus ID": 259129428,
         "Collection": "AgentInstruct",
         "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
         "Languages": [
@@ -286,6 +286,10 @@
             {
                 "License": "CC BY 4.0",
                 "License URL": "https://github.com/OSU-NLP-Group/Mind2Web"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2306.06070"
             }
         ],
         "License Notes": "The license is specifically mentioned by the authors in the repository.",
