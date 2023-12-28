@@ -40,8 +40,8 @@ class Downloader:
         self.keys_to_uid = {v: k for k, vs in uid_key_mapper.items() for v in vs}
 
     def download_and_prepare(
-        self, 
-        accepted_filter_ids, 
+        self,
+        accepted_filter_ids,
         limit=None,
         debug=False,
     ):
@@ -49,10 +49,10 @@ class Downloader:
         if self.custom_prepare:
             # In some cases we need to preprocess the whole dataset together
             prepared_dset = self.prepare_fn(dset)
-        elif debug: 
+        elif debug:
             # Easier to debug when not in parallel.
             prepared_dset = [self.prepare_fn(ex) for ex in dset]
-        else: 
+        else:
             # Run in parallel by default once working.
             prepared_dset = self._pool_process(self.prepare_fn, dset)
 
@@ -69,7 +69,7 @@ class Downloader:
                     f"The `parent` field of the first message in a dialog must be from one of the `Dataset Filter Ids`, specified in the json. It is currently {message['parent']} when the options are {self.keys_to_uid.keys()}"
                 if message["parent"] in self.keys_to_uid:
                     message["parent"] = self.keys_to_uid[message["parent"]]
-                    
+
                 new_row.append(message)
             normalized_dset.append(new_row)
 
@@ -84,7 +84,7 @@ class Downloader:
         debug=False,
     ):
         """Runs the data pipeline for this collection:
-        
+
         Downloads --> Prepares --> Reformats (optional) --> Samples (optional) --> Saves.
 
         accepated_filter_ids: A list of every `dataset_filter_ids` (from each dataset yaml files)
@@ -126,7 +126,6 @@ class Downloader:
             reformatted.extend(pairs)
         return reformatted
 
-
     def _reformat_supervised_dialog(self, dialog):
         dset_name = dialog[0]["parent"]
         pairs = []
@@ -157,4 +156,3 @@ class Downloader:
             dfs(root_id, dialog[root_id])
 
         return pairs
-

@@ -5,6 +5,7 @@ from functools import partial
 from collections import Counter, defaultdict
 from helpers import io
 import re
+import json
 
 
 ###########################################################################
@@ -25,9 +26,9 @@ def convert_inputs_targets_to_messages(
     ]
 
 
-###########################################################################
-############### Data Preparer Functions
-###########################################################################
+# ##########################################################################
+# ############## Data Preparer Functions
+# ##########################################################################
 
 def prepare_flan_collection(row):
     return convert_inputs_targets_to_messages(
@@ -51,7 +52,7 @@ def prepare_commitpackft(row):
         # Could add some strong delimiters to separate the code from the text
         # e.g. ```prog_lang\n<old_contents>\n```\n\n<subject>
         row["old_contents"] + "\n\n" + row["subject"],
-        row["new_contents"], 
+        row["new_contents"],
         lang_normalized,
     )
 
@@ -476,6 +477,7 @@ def prepare_baize_data(row):
 
     return messages
 
+
 def prepare_open_orca(row):
     inputs = "".join([row['system_prompt'] + row['question']])
     outputs = row['response']
@@ -483,3 +485,18 @@ def prepare_open_orca(row):
         {"from": "user", "text": inputs.strip(), "parent": row['source']},
         {"from": "assistant", "text": outputs.strip(), "parent": 0},
     ]
+
+
+def prepare_agentinstruct(row):
+    datasets = row  # Based on the current structure, a row represents all datasets :TODO: might need to change this
+    messages = []
+    for dataset in datasets:
+        parent = dataset['id'].split('_')[0]
+        for i, turn in enumerate(dataset["conversations"]):
+            messages.append({
+                "from": "user" if turn["from"] == "human" else "assistant",
+                "text": turn["value"].strip(),
+                "parent": parent,
+            })
+            parent = i
+    return messages
