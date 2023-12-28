@@ -17,7 +17,7 @@ import pandas as pd
 from datasets import load_dataset, Dataset  # ,list_datasets
 
 # `HfFileSystem` requires the latest version of `huggingface_hub`
-from huggingface_hub import HfFileSystem, hf_hub_url, hf_hub_download, login
+from huggingface_hub import HfFileSystem, hf_hub_url, hf_hub_download  # , login
 
 from helpers import io
 
@@ -115,7 +115,7 @@ def huggingface_download(
 
     try:
         dset = dset.to_list()
-    except:
+    except ValueError:
         print("Trouble converting Hugging Face dataset to list...")
         pass
     return dset
@@ -177,8 +177,7 @@ def download_flan_collection_p3(accepted_filter_ids):
 
 
 def download_xp3x(accepted_filter_ids, sample_threshold=100):
-
-    # The more accepted_filter_ids the longer it will take. So if it's too many switch to the sample (likely e.g. when people just choose everything). 
+    # The more accepted_filter_ids the longer it will take. So if it's too many switch to the sample (likely e.g. when people just choose everything).
     # Meanwhile if people just choose a few ids, maybe just one language or so, then use the big one.
     if len(accepted_filter_ids) > sample_threshold:
         print(f"xP3x: Detected {len(accepted_filter_ids)} filter IDs. Defaulting to xP3x-sample to reduce download size. Increase sample_threshold to download full dataset.")
