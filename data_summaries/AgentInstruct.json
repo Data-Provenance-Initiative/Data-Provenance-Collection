@@ -15,14 +15,15 @@
             "English"
         ],
         "Task Categories": [
-            "Instruction Following"
+            "Instruction Following",
+            "Chain-of-Thought"
         ],
         "Text Sources": [
             "crowdsourced"
         ],
         "Model Generated": [],
         "Format": [
-            "Chain-of-Thought"
+            "Multi-turn Dialog"
         ],
         "Human Annotation": "Yes",
         "Derived from Datasets": [
@@ -39,7 +40,7 @@
                 "License URL": "https://github.com/alfworld/alfworld"
             }
         ],
-        "License Notes": "This dataset license information is derived from the ALFRED dataset  https://github.com/askforalfred/alfred/tree/master",
+        "License Notes": "The used ALFRED dataset is licensed under the MIT License https://github.com/askforalfred/alfred/tree/master and the used TextWorld is licensed under the GNU General Public License (GPL) v2.0 License.",
         "License Verified By": "Christopher",
         "Dataset Filter IDs": [
             "alfworld"
@@ -61,19 +62,18 @@
             "English"
         ],
         "Task Categories": [
-            "Instruction Following"
+            "Instruction Following",
+            "Chain-of-Thought"
         ],
         "Text Sources": [
             "crowdsourced"
         ],
         "Model Generated": [],
         "Format": [
-            "Chain-of-Thought"
+            "Multi-turn Dialog"
         ],
         "Human Annotation": "Yes",
-        "Derived from Datasets": [
-            "Amazon"
-        ],
+        "Derived from Datasets": [],
         "Creators": [
             "Princeton University"
         ],
@@ -83,7 +83,7 @@
                 "License URL": "https://github.com/princeton-nlp/WebShop/blob/master/LICENSE.md"
             }
         ],
-        "License Notes": "The license is for the framework used to create the dataset.",
+        "License Notes": "The authors collected data on various products from Amazon.com and retrieved text and crowdsourced instructions from annotators. It is possible that some of these annotations have additional licenses. Therefore, the license pertains to the framework that was used to create the dataset and is mentioned by the authors.",
         "License Verified By": "Christopher",
         "Dataset Filter IDs": [
             "webshop"
@@ -92,12 +92,12 @@
     "AgentInstruct-knowledgegraph": {
         "Unique Dataset Identifier": "AgentInstruct-knowledgegraph",
         "Dataset Name": "knowledgegraph",
-        "Paper Title": "",
+        "Paper Title": "AgentBench: Evaluating LLMs as Agents",
         "Dataset URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/kg",
         "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/kg",
         "Papers with Code URL": "",
-        "ArXiv URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2310.12823",
         "Semantic Scholar Corpus ID": "",
         "Collection": "AgentInstruct",
         "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
@@ -105,18 +105,21 @@
             "English"
         ],
         "Task Categories": [
+            "Chain-of-Thought",
             "Instruction Following"
         ],
         "Text Sources": [
-            ""
+            "freebase"
         ],
         "Model Generated": [],
         "Format": [
-            "Chain-of-Thought"
+            "Multi-turn Dialog"
         ],
         "Human Annotation": "Yes",
         "Derived from Datasets": [
-            ""
+            "GrailQA",
+            "ComplexWebQuestions",
+            "GraphQuestions"
         ],
         "Creators": [
             "Tsinghua University",
@@ -129,7 +132,7 @@
                 "License URL": ""
             }
         ],
-        "License Notes": "",
+        "License Notes": "The original Freebase dataset is licensed under the Creative Commmon Attribution License.",
         "License Verified By": "Christopher",
         "Dataset Filter IDs": [
             "kg"
@@ -138,12 +141,12 @@
     "AgentInstruct-operatingsystem": {
         "Unique Dataset Identifier": "AgentInstruct-operatingsystem",
         "Dataset Name": "operatingsystem",
-        "Paper Title": "",
+        "Paper Title": "AgentBench: Evaluating LLMs as Agents",
         "Dataset URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/os",
         "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/os",
         "Papers with Code URL": "",
-        "ArXiv URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2310.12823",
         "Semantic Scholar Corpus ID": "",
         "Collection": "AgentInstruct",
         "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
@@ -152,17 +155,16 @@
         ],
         "Task Categories": [
             "Instruction Following",
-            "Question Answering"
+            "Chain-of-Thought"
         ],
         "Text Sources": [
-            "Stack Overflow",
-            "crowdsourced"
+            "stackoverflow.com"
         ],
         "Model Generated": [
             "OpenAI GPT-4"
         ],
         "Format": [
-            "Chain-of-Thought"
+            "Multi-turn Dialog"
         ],
         "Human Annotation": "Yes",
         "Derived from Datasets": [
@@ -177,6 +179,10 @@
             {
                 "License": "Unspecified",
                 "License URL": ""
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2310.12823"
             }
         ],
         "License Notes": "",
@@ -188,12 +194,12 @@
     "AgentInstruct-database": {
         "Unique Dataset Identifier": "AgentInstruct-database",
         "Dataset Name": "database",
-        "Paper Title": "",
+        "Paper Title": "AgentBench: Evaluating LLMs as Agents",
         "Dataset URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/db",
         "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/db",
         "Papers with Code URL": "",
-        "ArXiv URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2310.12823",
         "Semantic Scholar Corpus ID": "",
         "Collection": "AgentInstruct",
         "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
@@ -201,27 +207,21 @@
             "English"
         ],
         "Task Categories": [
-            "Instruction Following"
+            "Instruction Following",
+            "Chain-of-Thought"
         ],
         "Text Sources": [
-            "Kaggle",
-            "CTU Prague RElational Learning Repository",
             "crowdsourced"
         ],
         "Model Generated": [
             "OpenAI GPT-4"
         ],
         "Format": [
-            "Chain-of-Thought"
+            "Multi-turn Dialog"
         ],
         "Human Annotation": "Yes",
         "Derived from Datasets": [
-            "BIRD",
-            "WikiSQL",
-            "WikiTableQuestions",
-            "SQA",
-            "HybridaQA",
-            "FeTaQA"
+            "BIRD"
         ],
         "Creators": [
             "Tsinghua University",
@@ -232,9 +232,13 @@
             {
                 "License": "Unspecified",
                 "License URL": ""
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2310.12823"
             }
         ],
-        "License Notes": "",
+        "License Notes": "The original paper does not provide any information regarding its license. The paper cited for this task https://arxiv.org/pdf/2308.03688.pdf has created the dataset using additional datasets, but it is not clear which of those additional datasets were utilized to create this dataset on databases.",
         "License Verified By": "Christopher",
         "Dataset Filter IDs": [
             "db"
@@ -256,7 +260,8 @@
             "English"
         ],
         "Task Categories": [
-            "Instruction Following"
+            "Instruction Following",
+            "Chain-of-Thought"
         ],
         "Text Sources": [
             "crowdsourced"
@@ -265,17 +270,10 @@
             "OpenAI ChatGPT"
         ],
         "Format": [
-            "Chain-of-Thought"
+            "Multi-turn Dialog"
         ],
         "Human Annotation": "Yes",
-        "Derived from Datasets": [
-            "BIRD",
-            "WikiSQL",
-            "WikiTableQuestions",
-            "SQA",
-            "HybridaQA",
-            "FeTaQA"
-        ],
+        "Derived from Datasets": [],
         "Creators": [
             "The Ohio State University"
         ],
@@ -285,7 +283,7 @@
                 "License URL": "https://github.com/OSU-NLP-Group/Mind2Web"
             }
         ],
-        "License Notes": "",
+        "License Notes": "The license is specifically mentioned by the authors in the repository.",
         "License Verified By": "Christopher",
         "Dataset Filter IDs": [
             "mind2web"
