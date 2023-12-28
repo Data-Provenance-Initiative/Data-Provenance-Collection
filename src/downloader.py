@@ -1,8 +1,8 @@
 import os
-import pandas as pd
-from functools import partial
-from collections import Counter, defaultdict
-from datasets import load_dataset, list_datasets
+# import pandas as pd
+# from functools import partial
+from collections import defaultdict  # Counter,
+# from datasets import load_dataset, list_datasets
 from helpers import io
 import random
 
@@ -13,9 +13,9 @@ class Downloader:
     """Downloads, filters, prepares, then saves the data for a Collection."""
 
     def __init__(
-        self, 
-        name, 
-        download_function, 
+        self,
+        name,
+        download_function,
         prepare_function,
         uid_key_mapper,
         custom_prepare=False,
@@ -35,7 +35,7 @@ class Downloader:
         self.prepare_fn = prepare_function
         self.custom_prepare = custom_prepare
 
-        # Allows us to map from keys back to Dataset UID so we can 
+        # Allows us to map from keys back to Dataset UID so we can
         # track which dataset they came from:
         self.keys_to_uid = {v: k for k, vs in uid_key_mapper.items() for v in vs}
 
@@ -76,7 +76,7 @@ class Downloader:
         return normalized_dset
 
     def run_and_save(
-        self, 
+        self,
         accepted_filter_ids,
         savedir,
         limit=None,
@@ -95,14 +95,14 @@ class Downloader:
         reformat: What format for the output data. Options are [`messages`, `supervised`].
             Default (`messages`) reformat is described here: TODO.
         debug: Turns of data parallelism so errors are easier to debug.
-        
+
         Saves the data as a gzipped jsonlines file according to `format` argument.
         """
         prepared_dset = self.download_and_prepare(accepted_filter_ids, limit=limit, debug=debug)
 
         num_messages = sum([len(dialog) for dialog in prepared_dset])
         print(f"{self.name} -- Downloaded {len(prepared_dset)} dialogs, totaling {num_messages} messages.")
-        
+
         # If specified, reformat dataset for supervised learning, multi-turn dialogs, or reward modeling.
         if reformat == "supervised":
             prepared_dset = self._reformat_supervised(prepared_dset)
