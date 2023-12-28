@@ -55,7 +55,7 @@
         "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/webshop",
         "Papers with Code URL": "",
         "ArXiv URL": "https://arxiv.org/abs/2207.01206",
-        "Semantic Scholar Corpus ID": "",
+        "Semantic Scholar Corpus ID": 250264533,
         "Collection": "AgentInstruct",
         "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
         "Languages": [
@@ -66,7 +66,9 @@
             "Chain-of-Thought"
         ],
         "Text Sources": [
-            "crowdsourced"
+            "crowdsourced",
+            "amazon.com",
+            "web search queries"
         ],
         "Model Generated": [],
         "Format": [
@@ -167,9 +169,7 @@
             "Multi-turn Dialog"
         ],
         "Human Annotation": "Yes",
-        "Derived from Datasets": [
-            ""
-        ],
+        "Derived from Datasets": [],
         "Creators": [
             "Tsinghua University",
             "The Ohio State University",
@@ -211,7 +211,7 @@
             "Chain-of-Thought"
         ],
         "Text Sources": [
-            "crowdsourced"
+            "database operations"
         ],
         "Model Generated": [
             "OpenAI GPT-4"
@@ -264,7 +264,12 @@
             "Chain-of-Thought"
         ],
         "Text Sources": [
-            "crowdsourced"
+            "crowdsourced",
+            "travel websites",
+            "shopping websites",
+            "service websites",
+            "entertainment websites",
+            "information websites"
         ],
         "Model Generated": [
             "OpenAI ChatGPT"
