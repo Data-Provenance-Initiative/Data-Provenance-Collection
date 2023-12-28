@@ -430,6 +430,9 @@
     "dart": [
         "dart"
     ],
+    "database operations": [
+        "database operations"
+    ],
     "dataset: copa": [
         "copa dataset (roemmele et al 2011)",
         "dataset: copa"
@@ -532,6 +535,9 @@
     ],
     "enron corporation": [
         "enron corportation"
+    ],
+    "entertainment websites": [
+        "entertainment websites"
     ],
     "etv": [
         "etv"
@@ -839,6 +845,9 @@
     ],
     "inference rule candidates": [
         "inference rule candidates"
+    ],
+    "information websites": [
+        "information websites"
     ],
     "infopankki": [
         "infopankki"
@@ -1422,8 +1431,14 @@
     "sentences written by english language learners for the toefl exam": [
         "sentences written by english language learners for the toefl exam"
     ],
+    "service websites": [
+        "service websites"
+    ],
     "setimes": [
         "setimes"
+    ],
+    "shopping websites": [
+        "shopping websites"
     ],
     "shtfplan.com": [
         "shtfplan.com"
@@ -1604,6 +1619,9 @@
     ],
     "travel.stackexchange.com": [
         "https://travel.stackexchange.com/"
+    ],
+    "travel websites": [
+        "travel websites"
     ],
     "trec": [
         "trec"
