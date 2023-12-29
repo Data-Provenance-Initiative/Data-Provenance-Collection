@@ -1,7 +1,7 @@
 {
-    "meta_math_qa": {
-        "Unique Dataset Identifier": "meta_math_qa",
-        "Dataset Name": "meta_math_qa",
+    "metamathqa-math": {
+        "Unique Dataset Identifier": "metamathqa-math",
+        "Dataset Name": "metamathqa_math",
         "Paper Title": "MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models",
         "Dataset URL": "https://huggingface.co/datasets/meta-math/MetaMathQA",
         "GitHub URL": "https://github.com/meta-math/MetaMath",
@@ -19,16 +19,18 @@
             "Question Answering"
         ],
         "Text Sources": [
-            "gsm8k",
             "math"
         ],
         "Model Generated": ["OpenAI GPT-3.5-Turbo"],
         "Format": [
             "Few-shot",
-            "Chain-of-Thought"
+            "Chain-of-Thought",
+            "Zero-shot"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": [],
+        "Derived from Datasets": [
+            "math"
+        ],
         "Creators": [
             "University of Cambridge",
             "Southern University of Science and Technology",
@@ -41,12 +43,80 @@
             {
                 "License": "MIT License",
                 "License URL": "https://huggingface.co/datasets/meta-math/MetaMathQA"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/hendrycks/math/blob/main/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2309.12284"
             }
         ],
         "License Notes": "",
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
-            "meta_math_qa"
+            "math"
+        ]
+    },
+    "metamathqa-gsm8k": {
+        "Unique Dataset Identifier": "metamathqa-gsm8k",
+        "Dataset Name": "metamathqa_gsm8k",
+        "Paper Title": "MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models",
+        "Dataset URL": "https://huggingface.co/datasets/meta-math/MetaMathQA",
+        "GitHub URL": "https://github.com/meta-math/MetaMath",
+        "Hugging Face URL": "https://huggingface.co/datasets/meta-math/MetaMathQA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2309.12284",
+        "Semantic Scholar Corpus ID": "262084051",
+        "Collection": "MetaMathQA",
+        "Collection URL": "https://meta-math.github.io/",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Logical and Mathematical Reasoning",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "gsm8k"
+        ],
+        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Format": [
+            "Few-shot",
+            "Chain-of-Thought",
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "gsm8k"
+        ],
+        "Creators": [
+            "University of Cambridge",
+            "Southern University of Science and Technology",
+            "The Hong Kong University of Science and Technology",
+            "Huawei Noah’s Ark Lab",
+            "Alan Turing Institute",
+            "Max Planck Institute for Intelligent Systems"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/meta-math/MetaMathQA"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/openai/grade-school-math/blob/master/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2309.12284"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "gsm8k"
         ]
     }
 }
