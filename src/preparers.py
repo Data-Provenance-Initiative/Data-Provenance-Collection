@@ -240,9 +240,24 @@ def prepare_evol_instruct(row):
     )
 
 def prepare_pure_dove(row):
-    return convert_inputs_targets_to_messages(
-        row["conversation"][0]["input"], row["conversation"][0]["output"], "pure_dove",
-    )
+    messages = []
+    parent_id = 0
+    for i, turn in enumerate(row["conversation"]):
+        messages.append({
+            "from": "user",
+            "text": turn["input"].strip(),
+            "parent": "pure_dove" if i == 0 else parent_id,
+        })
+        if parent_id != 0:
+            parent_id += 1
+        messages.append({
+            "from": "assistant",
+            "text": turn["output"].strip(),
+            "parent": parent_id,
+        })
+        parent_id += 1
+    return messages
+
 
 def prepare_sharegpt_vicuna(row):
     parent = "sharegpt_vicuna"
