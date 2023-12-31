@@ -234,6 +234,12 @@ def prepare_alpaca(row):
         inputs, row["output"], "alpaca",
     )
 
+def prepare_everything_lm(row):
+    inputs = " ".join([row["instruction"], row["input"]]).strip()
+    return convert_inputs_targets_to_messages(
+        inputs, row["output"], "everything_lm",
+    )
+
 def prepare_evol_instruct(row):
     return convert_inputs_targets_to_messages(
         row['instruction'], row["output"], "evol_instruct",
