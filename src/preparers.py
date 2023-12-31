@@ -477,3 +477,8 @@ def prepare_open_orca(row):
         {"from": "user", "text": inputs.strip(), "parent": row['source']},
         {"from": "assistant", "text": outputs.strip(), "parent": 0},
     ]
+
+def prepare_chatdoctor(row):
+    return convert_inputs_targets_to_messages(
+        row["inputs"], row["outputs"], row["_source"]
+    )
