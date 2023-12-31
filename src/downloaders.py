@@ -622,7 +622,9 @@ def download_chatdoctor(accepted_filter_ids):
         healthcaremagic_dset = huggingface_download("lavita/ChatDoctor-HealthCareMagic-100k", split='train')
         dset += annotate_source(healthcaremagic_dset, "chatdoctor-healthcaremagic-100k")
     if "chatdoctor-icliniq-10k" in accepted_filter_ids:
-        icliniq_dset = huggingface_download("lavita/ChatDoctor-iCliniq", split='train')
+        icliniq_dset = load_dataset("lavita/ChatDoctor-iCliniq", split='train')
+        icliniq_dset = icliniq_dset.rename_column("answer_icliniq", "output")
+        icliniq_dset = icliniq_dset.to_list()
         dset += annotate_source(icliniq_dset, "chatdoctor-icliniq-10k")
     if "chatdoctor-genmedgpt-5k" in accepted_filter_ids:
         genmedgpt_dset = huggingface_download("wangrongsheng/GenMedGPT-5k-en", split='train')
