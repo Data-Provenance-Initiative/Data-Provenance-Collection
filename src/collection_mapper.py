@@ -177,10 +177,13 @@ COLLECTION_FN_MAPPER = {
     "Baize Chat Data": {
         "download_function": downloaders.download_baize_data,
         "prepare_function": preparers.prepare_baize_data,
-    },
-    
+    },    
     "Open Orca":{
         "download_function": downloaders.download_open_orca,
         "prepare_function": preparers.prepare_open_orca,
+    },
+    "ChatDoctor":{
+        "download_function": downloaders.download_chatdoctor,
+        "prepare_function": preparers.prepare_chatdoctor,
     }
 }
