@@ -92,6 +92,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_evol_instruct_v2,
         "prepare_function": preparers.prepare_evol_instruct_v2,
     },
+    "Pure-Dove": {
+        "download_function": downloaders.download_pure_dove,
+        "prepare_function": preparers.prepare_pure_dove,
+    },
     "OIG": {
         "download_function": downloaders.download_laion_oig,
         "prepare_function": preparers.prepare_laion_oig,
