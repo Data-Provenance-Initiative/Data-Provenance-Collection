@@ -100,6 +100,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_laion_oig,
         "prepare_function": preparers.prepare_laion_oig,
     },
+    "Thai Gen AI (Alpaca)": {
+        "download_function": downloaders.download_thai_gen_ai_alpaca,
+        "prepare_function": preparers.prepare_thai_gen_ai_alpaca,
+    },
     "ShareGPT Vicuna": {
         "download_function": downloaders.download_sharegpt_vicuna,
         "prepare_function": preparers.prepare_sharegpt_vicuna,
