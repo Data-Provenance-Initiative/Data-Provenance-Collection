@@ -1,0 +1,63 @@
+{
+    "llama2_med_tuned_instructions": {
+        "Unique Dataset Identifier": "llama2_med_tuned_instructions",
+        "Dataset Name": "llama2_med_tuned_instructions",
+        "Paper Title": "Exploring the Effectiveness of Instruction Tuning in Biomedical Language Processing",
+        "Dataset URL": "https://huggingface.co/datasets/nlpie/Llama2-MedTuned-Instructions",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/nlpie/Llama2-MedTuned-Instructions",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2401.00579",
+        "Semantic Scholar Corpus ID": 266693667,
+        "Collection": "Llama2-MedTuned-Instructions",
+        "Collection URL": "https://huggingface.co/datasets/nlpie/Llama2-MedTuned-Instructions",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Named Entity Recognition (NER)",
+            "Open-Domain Relation Extraction",
+            "Natural Language Inference",
+            "Document Classification",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "NCBI-disease",
+            "BC5CDR-disease",
+            "BC5CDR-chem",
+            "BC2GM",
+            "JNLPBA",
+            "i2b2-2012",
+            "i2b2-2010",
+            "GAD",
+            "MedNLI",
+            "hallmarks of cancer (HoC)",
+            "ChatDoctor",
+            "PMC-Llama-Instructions"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "list[string]: A list of the names of ML datasets from which this dataset is comprised or derived."],
+        "Creators": [
+            "University of Oxford",
+            "NLPie Research",
+            "Oxford-Suzhou Centre for Advanced Research",
+            "Sharif University of Technology"
+        ],
+        "Licenses": [
+            {
+                "License": "No License",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "llama2_med_tuned_instructions"
+        ]
+    }
+}
