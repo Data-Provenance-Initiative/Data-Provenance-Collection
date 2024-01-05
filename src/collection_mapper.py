@@ -136,6 +136,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_starcoder_self_instruct,
         "prepare_function": preparers.prepare_starcoder_self_instruct,
     },
+    "Thai Gen AI (GPTeacher)": {
+        "download_function": downloaders.download_thai_gen_ai_gpteacher,
+        "prepare_function": preparers.prepare_thai_gen_ai_gpteacher,
+    },
     "Tiny Stories": {
         "download_function": downloaders.download_tiny_stories,
         "prepare_function": preparers.prepare_tiny_stories,
