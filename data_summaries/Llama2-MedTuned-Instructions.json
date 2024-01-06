@@ -40,8 +40,7 @@
             "Zero-shot"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": [
-            "list[string]: A list of the names of ML datasets from which this dataset is comprised or derived."],
+        "Derived from Datasets": [],
         "Creators": [
             "University of Oxford",
             "NLPie Research",
@@ -50,8 +49,8 @@
         ],
         "Licenses": [
             {
-                "License": "No License",
-                "License URL": ""
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://huggingface.co/datasets/nlpie/Llama2-MedTuned-Instructions"
             }
         ],
         "License Notes": "",
