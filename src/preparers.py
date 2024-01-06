@@ -375,6 +375,14 @@ def prepare_starcoder_self_instruct(row):
         'starcoder-self-instruct'
     )
 
+def prepare_thai_gen_ai_gpteacher(row):
+    inputs = row["instruction"].strip()
+    if row["input"]:
+        inputs += "\n" + row["input"].strip()
+    return convert_inputs_targets_to_messages(
+        inputs, row["output"], "thai_gen_ai_gpteacher",
+    )
+
 def tinystories_get_example(it):
     buf = []
     try:
