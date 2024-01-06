@@ -141,6 +141,10 @@ COLLECTION_FN_MAPPER = {
         "prepare_function": preparers.prepare_tiny_stories,
         "custom_prepare": True,
     },
+    "Thai Gen AI (Dolly)": {
+        "download_function": downloaders.download_thai_gen_ai_dolly,
+        "prepare_function": preparers.prepare_thai_gen_ai_dolly,
+    },
     "Tasksource Instruct": {
         "download_function": downloaders.download_tasksource_instruct,
         "prepare_function": preparers.prepare_tasksource_instruct,
