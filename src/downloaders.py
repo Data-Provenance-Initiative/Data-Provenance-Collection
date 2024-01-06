@@ -454,6 +454,8 @@ def download_unnatural_instructions(accepted_filter_ids):
 def download_starcoder_self_instruct(accepted_filter_ids):
     return huggingface_download('codeparrot/self-instruct-starcoder', split='curated')
 
+def download_thai_gen_ai_gpteacher(accepted_filter_ids):
+    return huggingface_download('Thaweewat/gpteacher-20k-th', split='train')
 
 def download_tiny_stories(accepted_filter_ids):
     return huggingface_download('roneneldan/TinyStoriesInstruct', split='train')
