@@ -228,6 +228,9 @@ def download_dolly_15k(accepted_filter_ids):
     dset = huggingface_download("databricks/databricks-dolly-15k", split="train")
     return pool_filter(dset, "category", accepted_filter_ids)
 
+def download_thai_gen_ai_dolly(accepted_filter_ids):
+    dset = huggingface_download("Thaweewat/databricks-dolly-15k-th", split="train")
+    return pool_filter(dset, "category", accepted_filter_ids)
 
 def download_laion_oig(accepted_filter_ids):
     dsets = []

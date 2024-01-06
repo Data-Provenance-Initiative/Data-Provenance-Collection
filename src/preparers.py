@@ -62,6 +62,13 @@ def prepare_dolly_15k(row):
         input_text, target_text, row["category"]
     )
 
+def prepare_thai_gen_ai_dolly(row):
+    input_text = "\n".join([row["context"], row["instruction"]]).strip() if row["context"] else row["instruction"]
+    target_text = row["response"]
+    return convert_inputs_targets_to_messages(
+        input_text, target_text, row["category"]
+    )
+
 def prepare_laion_oig(row):
     # Rosey is there since unified_joke_explanations uses this instead of <bot> marker.
     turn_markers = ["<human>:", "<bot>:", "Rosey:"]
