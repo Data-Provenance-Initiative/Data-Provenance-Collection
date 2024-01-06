@@ -247,6 +247,12 @@ def prepare_everything_lm(row):
         inputs, row["output"], "everything_lm",
     )
 
+def prepare_llama2_med_tuned_instructions(row):
+    inputs = "\n".join([row["instruction"], row["input"]]).strip()
+    return convert_inputs_targets_to_messages(
+        inputs, row["output"], "llama2_med_tuned_instructions",
+    )
+
 def prepare_evol_instruct(row):
     return convert_inputs_targets_to_messages(
         row['instruction'], row["output"], "evol_instruct",
