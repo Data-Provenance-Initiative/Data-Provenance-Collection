@@ -1,0 +1,48 @@
+{
+    "thai_gen_ai_alpaca": {
+        "Unique Dataset Identifier": "thai_gen_ai_alpaca",
+        "Dataset Name": "thai_gen_ai_alpaca",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/Thaweewat/alpaca-cleaned-52k-th",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/Thaweewat/alpaca-cleaned-52k-th",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "Thai Gen AI (Alpaca)",
+        "Collection URL": "https://huggingface.co/collections/Thaweewat/thai-gen-ai-dataset-653cc1c0d6f7982a7a4a9e2c",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Natural Language Understanding (NLU)",
+            "Word Reordering",
+            "Algebraic Expression Evaluation",
+            "Description Generation",
+            "Narrative Generation",
+            "Sentence Rewriting",
+            "Span Selection Question Answering",
+            "Summarization",
+            "Literary Analysis"
+        ],
+        "Text Sources": [],
+        "Model Generated": ["OpenAI GPT-3"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": ["Alpaca"],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/Thaweewat/alpaca-cleaned-52k-th"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "thai_gen_ai_alpaca"
+        ]
+    }
+}

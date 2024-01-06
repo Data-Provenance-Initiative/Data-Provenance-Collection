@@ -351,6 +351,14 @@ def prepare_gpt4_alpaca(row):
         inputs, row["output"], "gpt4alpaca",
     )
 
+def prepare_thai_gen_ai_alpaca(row):
+    inputs = row["instruction"].strip()
+    if row["input"]:
+        inputs += "\n" + row["input"].strip()
+    return convert_inputs_targets_to_messages(
+        inputs, row["output"], "thai_gen_ai_alpaca",
+    )
+
 def prepare_tasksource_instruct(row):
     # task_name = "tsi-" + row['task'].replace("-", "_").replace("/", "-")
     return convert_inputs_targets_to_messages(
