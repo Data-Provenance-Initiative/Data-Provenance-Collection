@@ -326,6 +326,9 @@ def download_openai_webgpt(accepted_filter_ids):
 def download_alpaca(accepted_filter_ids):
     return huggingface_download('tatsu-lab/alpaca', split='train')
 
+def download_meta_math_qa(accepted_filter_ids):
+    return huggingface_download('meta-math/MetaMathQA', split='train')
+
 def download_pure_dove(accepted_filter_ids):
     return huggingface_download('LDJnr/Pure-Dove', split='train')
 
