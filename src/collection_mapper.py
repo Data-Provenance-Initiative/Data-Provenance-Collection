@@ -216,5 +216,10 @@ COLLECTION_FN_MAPPER = {
     "AgentInstruct": {
         "download_function": downloaders.download_agentinstruct,
         "prepare_function": preparers.prepare_agentinstruct,
+    },
+
+    "WildChat":{
+        "download_function": downloaders.download_wildchat,
+        "prepare_function": preparers.prepare_wildchat,
     }
 }
