@@ -202,5 +202,10 @@ COLLECTION_FN_MAPPER = {
     "Open Orca":{
         "download_function": downloaders.download_open_orca,
         "prepare_function": preparers.prepare_open_orca,
+    },
+
+    "WildChat":{
+        "download_function": downloaders.download_wildchat,
+        "prepare_function": preparers.prepare_wildchat,
     }
 }
