@@ -202,5 +202,10 @@ COLLECTION_FN_MAPPER = {
     "Open Orca":{
         "download_function": downloaders.download_open_orca,
         "prepare_function": preparers.prepare_open_orca,
+    },
+    
+    "<Deita 10K":{
+    "download_function": downloaders.download_deita_10k,
+    "prepare_function": preparers.prepare_deita_10k,
     }
 }
