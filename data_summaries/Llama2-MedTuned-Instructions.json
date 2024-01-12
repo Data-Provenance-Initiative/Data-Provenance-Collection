@@ -15,6 +15,7 @@
             "English"
         ],
         "Task Categories": [
+            "BioMedical Question Answering",
             "Named Entity Recognition (NER)",
             "Open-Domain Relation Extraction",
             "Natural Language Inference",
@@ -50,7 +51,7 @@
         "Licenses": [
             {
                 "License": "CC BY-NC 4.0",
-                "License URL": "https://huggingface.co/datasets/nlpie/Llama2-MedTuned-Instructions"
+                "License URL": "https://huggingface.co/datasets/nlpie/Llama2-MedTuned-Instructions/discussions/2"
             }
         ],
         "License Notes": "",
