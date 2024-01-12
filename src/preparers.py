@@ -252,6 +252,17 @@ def prepare_evol_instruct(row):
         row['instruction'], row["output"], "evol_instruct",
     )
 
+def prepare_deita_10k(row):
+    messages = []
+    for i, turn in enumerate(row["conversations"]):
+        messages.append({
+            "from": "user" if turn["from"] == "human" else "assistant",
+            "text": turn["value"].strip(),
+            "parent": parent,
+        })
+        parent = i
+    return messages
+
 def prepare_pure_dove(row):
     messages = []
     parent_id = 0
