@@ -16,12 +16,22 @@
             "Code"
         ],
         "Task Categories": [
+            "Basic Instruct",
             "Brainstorming",
-            "Reasoning over Natural Language",
+            "Contextual Question Answering",
+            "Creative Writing",
+            "Coding",
             "Factual Knowledge Question Answering",
-            "Roleplay",
+            "General Knowledge",
+            "Greeting/Small Talk",
+            "Instruction Following",
             "Multiple Choice Question Answering",
-            "Instruction Following"
+            "No Context Snippet",
+            "Reasoning over Natural Language",
+            "Roleplay",
+            "Search Query",
+            "Text Modification",
+            "Trick Question"
         ],
         "Text Sources": [],
         "Model Generated": ["OpenAI GPT-4"],
@@ -34,6 +44,10 @@
         "Licenses": [
             {
                 "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/totally-not-an-llm/EverythingLM-data-V3"
+            },
+            {
+                "License": "OpenAI",
                 "License URL": "https://huggingface.co/datasets/totally-not-an-llm/EverythingLM-data-V3"
             }
         ],
