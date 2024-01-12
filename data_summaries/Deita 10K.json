@@ -1,0 +1,59 @@
+{
+    "deita-10k": {
+        "Unique Dataset Identifier": "deita-10k",
+        "Dataset Name": "deita-10k",
+        "Paper Title": "What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning",
+        "Dataset URL": "https://huggingface.co/datasets/hkust-nlp/deita-10k-v0",
+        "GitHub URL": "https://github.com/hkust-nlp/deita",
+        "Hugging Face URL": "https://huggingface.co/datasets/hkust-nlp/deita-10k-v0",
+        "Papers with Code URL": "???",
+        "ArXiv URL": "https://arxiv.org/abs/2312.15685",
+        "Semantic Scholar Corpus ID": 266551413,
+        "Collection": "Deita",
+        "Collection URL": "https://huggingface.co/collections/hkust-nlp/deita-6569c198c174808d94cf5bd4",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Large Language Models (LLMs)"
+        ],
+        "Text Sources": [
+            "ShareGPT",
+            "UltraChat",
+            "WizardLM"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Multi-turn Dialog"
+        ],
+        "Model Generated": [
+            "OpenAI ChatGPT",
+            "OpenAI Playground"
+        ],
+        "Derived from Datasets": [
+            "ShareGPT",
+            "UltraChat",
+            "WizardLM"
+        ],
+        "Human Annotation": "Yes",
+        "Creators": [
+            "ShanghaiTech University",
+            "Beijing University of Posts and Telecommunications",
+            "Meituan",
+            "Alibaba Group",
+            "The Hong Kong University of Science and Technology"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/hkust-nlp/deita-10k-v0"
+            },
+            {
+                "License": "Apache-2.0 License",
+                "License URL": "https://github.com/hkust-nlp/deita?tab=Apache-2.0-1-ov-file"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "An"
+    }
+}
