@@ -271,6 +271,10 @@ def prepare_pure_dove(row):
         parent_id += 1
     return messages
 
+def prepare_feedback_collection(row):
+    return convert_inputs_targets_to_messages(
+        row['instruction'], row["output"], "feedback_collection",
+    )
 
 def prepare_sharegpt_vicuna(row):
     parent = "sharegpt_vicuna"
