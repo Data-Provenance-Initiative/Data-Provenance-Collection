@@ -332,6 +332,9 @@ def download_pure_dove(accepted_filter_ids):
 def download_evol_instruct(accepted_filter_ids):
     return huggingface_download('WizardLM/evol_instruct_70k', split='train')
 
+def download_selfee(accepted_filter_ids):
+    return huggingface_download('kaist-ai/selfee-train', split='train')
+
 
 def download_sharegpt_vicuna(accepted_filter_ids):
     sharegpt_dir = "anon8231489123/ShareGPT_Vicuna_unfiltered"
