@@ -29,7 +29,8 @@
         ],
         "Format": [
             "Zero-shot",
-            "Chain-of-Thought"
+            "Chain-of-Thought",
+            "Program-of-Thought"
         ],
         "Human Annotation": "No",
         "Derived from Datasets": [
@@ -55,7 +56,20 @@
         "License Notes": "The authors provided a table for licenses of the original datasets. Although one dataset has a cc-by-nc license, the authors chose an MIT license for their curated dataset",
         "License Verified By": "",
         "Dataset Filter IDs": [
-            "mathinstruct"
+          "cot_MATH_train",
+          "cot_TheoremQA",
+          "cot_aqua_rat",
+          "cot_college_math",
+          "cot_gsm_rft",
+          "cot_gsm_train",
+          "cot_math50k_camel",
+          "cot_number_comparison",
+          "pot_MATH_train",
+          "pot_TheoremQA",
+          "pot_aqua_rat_filtered",
+          "pot_gsm_gpt4",
+          "pot_mathqa",
+          "pot_numglue"
         ]
     }
 }

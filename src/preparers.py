@@ -535,5 +535,5 @@ def prepare_open_orca(row):
 
 def prepare_mathinstruct(row):
     return convert_inputs_targets_to_messages(
-        row["instruction"], row["output"], row["source"]
+        row["instruction"], row["output"], row["_source"]
     )
