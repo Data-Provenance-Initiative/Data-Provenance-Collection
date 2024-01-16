@@ -496,6 +496,9 @@ def download_open_orca(accepeted_filter_ids):
     dset = list(map(lambda x: {**x, 'source': x['id'].split('.')[0]}, dset))
     return pool_filter(dset, "source", accepeted_filter_ids)
 
+def download_mathinstruct(accepeted_filter_ids):
+    return huggingface_download('TIGER-Lab/MathInstruct', split='train')
+
 
 def split_by_user(pairs):
     '''
