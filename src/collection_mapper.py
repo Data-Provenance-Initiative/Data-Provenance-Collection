@@ -96,6 +96,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_pure_dove,
         "prepare_function": preparers.prepare_pure_dove,
     },
+    "Llama2-MedTuned-Instructions": {
+        "download_function": downloaders.download_llama2_med_tuned_instructions,
+        "prepare_function": preparers.prepare_llama2_med_tuned_instructions,
+    },
     "OIG": {
         "download_function": downloaders.download_laion_oig,
         "prepare_function": preparers.prepare_laion_oig,
