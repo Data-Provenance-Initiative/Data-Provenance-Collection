@@ -228,6 +228,9 @@ def download_dolly_15k(accepted_filter_ids):
     dset = huggingface_download("databricks/databricks-dolly-15k", split="train")
     return pool_filter(dset, "category", accepted_filter_ids)
 
+def download_thai_gen_ai_dolly(accepted_filter_ids):
+    dset = huggingface_download("Thaweewat/databricks-dolly-15k-th", split="train")
+    return pool_filter(dset, "category", accepted_filter_ids)
 
 def download_laion_oig(accepted_filter_ids):
     dsets = []
@@ -248,6 +251,8 @@ def download_everything_lm(accepted_filter_ids):
 def download_anthropic_hh_rlhf(accepted_filter_ids):
     return huggingface_download('anthropic/hh-rlhf', split='train')
 
+def download_thai_gen_ai_alpaca(accepted_filter_ids):
+    return huggingface_download('Thaweewat/alpaca-cleaned-52k-th', split='train')
 
 def download_stanford_human_preferences(accepted_filter_ids):
     dset = huggingface_download('stanfordnlp/SHP', split='train')
@@ -331,6 +336,8 @@ def download_pure_dove(accepted_filter_ids):
 def download_evol_instruct(accepted_filter_ids):
     return huggingface_download('WizardLM/evol_instruct_70k', split='train')
 
+def download_llama2_med_tuned_instructions(accepted_filter_ids):
+    return huggingface_download('nlpie/Llama2-MedTuned-Instructions', split='train')
 
 def download_sharegpt_vicuna(accepted_filter_ids):
     sharegpt_dir = "anon8231489123/ShareGPT_Vicuna_unfiltered"
@@ -455,6 +462,8 @@ def download_unnatural_instructions(accepted_filter_ids):
 def download_starcoder_self_instruct(accepted_filter_ids):
     return huggingface_download('codeparrot/self-instruct-starcoder', split='curated')
 
+def download_thai_gen_ai_gpteacher(accepted_filter_ids):
+    return huggingface_download('Thaweewat/gpteacher-20k-th', split='train')
 
 def download_tiny_stories(accepted_filter_ids):
     return huggingface_download('roneneldan/TinyStoriesInstruct', split='train')
