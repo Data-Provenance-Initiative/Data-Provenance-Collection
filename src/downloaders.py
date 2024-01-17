@@ -328,7 +328,7 @@ def download_alpaca(accepted_filter_ids):
 
 def download_deita_10k(accepted_filter_ids):
     dset = huggingface_download("hkust-nlp/deita-10k-v0", split="train")
-    return pool_filter(dset, "source", accepted_filter_ids)    
+    return pool_filter(dset, "source", accepted_filter_ids)
 
 def download_pure_dove(accepted_filter_ids):
     return huggingface_download('LDJnr/Pure-Dove', split='train')
