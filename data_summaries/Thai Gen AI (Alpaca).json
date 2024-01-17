@@ -26,17 +26,29 @@
             "Literary Analysis"
         ],
         "Text Sources": [],
-        "Model Generated": ["OpenAI GPT-3"],
+        "Model Generated": ["OpenAI GPT-3", "Google Cloud Translation API"],
         "Format": [
             "Zero-shot"
         ],
         "Human Annotation": "No",
         "Derived from Datasets": ["Alpaca"],
-        "Creators": [],
+        "Creators": ["Stanford University"],
         "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://crfm.stanford.edu/2023/03/13/alpaca.html"
+            },
             {
                 "License": "CC BY-SA 3.0",
                 "License URL": "https://huggingface.co/datasets/Thaweewat/alpaca-cleaned-52k-th"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
+            },
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE"
             }
         ],
         "License Notes": "",
