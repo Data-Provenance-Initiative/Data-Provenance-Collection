@@ -264,9 +264,8 @@ def prepare_deita_10k(row):
         messages.append({
             "from": "user" if turn["from"] == "human" else "assistant",
             "text": turn["value"].strip(),
-            "parent": parent,
+            "parent": row["source"] if i == 0 else 0
         })
-        parent = i
     return messages
 
 def prepare_pure_dove(row):
