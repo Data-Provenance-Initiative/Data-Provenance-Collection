@@ -248,7 +248,7 @@ def prepare_evol_instruct(row):
 
 def prepare_meta_math_qa(row):
     return convert_inputs_targets_to_messages(
-        row["query"], row["response"], "meta_math_qa",
+        row["query"], row["response"], row["type"],
     )
 
 def prepare_pure_dove(row):
