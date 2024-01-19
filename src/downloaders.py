@@ -497,7 +497,7 @@ def download_open_orca(accepeted_filter_ids):
     return pool_filter(dset, "source", accepeted_filter_ids)
 
 def download_medinstruct(accepted_filter_ids):
-    return huggingface_download('casey-martin/MedInstruct', split='train')
+    return direct_data_request("https://raw.githubusercontent.com/XZhang97666/AlpaCare/master/data/MedInstruct-52k.json")
 
 
 def split_by_user(pairs):
