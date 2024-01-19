@@ -286,5 +286,237 @@
         "Dataset Filter IDs": [
             "TaskSource"
         ]
+    },
+    "capybara-General-Instruct": {
+        "Unique Dataset Identifier": "capybara-General-Instruct",
+        "Dataset Name": "capybara_General-Instruct",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/LDJnr/Capybara",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/LDJnr/Capybara",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "Capybara",
+        "Collection URL": "https://huggingface.co/datasets/LDJnr/Capybara",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Summarization",
+            "Multiple Choice Question Answering",
+            "Logical Reasoning",
+            "Sentence Rewriting",
+            "Paraphrase Generation",
+            "Natural Language Generation (NLG)",
+            "Vegetarian Recipe Modification Question Answering",
+            "Algebraic Expression Evaluation",
+            "Text Classification"
+        ],
+        "Text Sources": [],
+        "Model Generated": ["OpenAI GPT-4"],
+        "Format": [
+            "Zero-shot",
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": ["No"],
+        "Derived from Datasets": ["GPTeacher-General-Instruct"],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://huggingface.co/datasets/teknium/GPTeacher-General-Instruct"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/teknium/GPTeacher-General-Instruct"
+            },
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/LDJnr/Capybara"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "General-Instruct"
+        ]
+    },
+    "capybara-GPT4LLM": {
+        "Unique Dataset Identifier": "capybara-GPT4LLM",
+        "Dataset Name": "capybara_GPT4LLM",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/LDJnr/Capybara",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/LDJnr/Capybara",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "Capybara",
+        "Collection URL": "https://huggingface.co/datasets/LDJnr/Capybara",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "# TODO"
+        ],
+        "Text Sources": [],
+        "Model Generated": ["OpenAI GPT-4"],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": ["No"],
+        "Derived from Datasets": ["GPT4LLM"],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://huggingface.co/datasets/teknium/GPTeacher-General-Instruct"
+            },
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM"
+            },
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/LDJnr/Capybara"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "GPT4LLM"
+        ]
+    },
+    "capybara-TheoremQA": {
+        "Unique Dataset Identifier": "capybara-TheoremQA",
+        "Dataset Name": "capybara_TheoremQA",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/LDJnr/Capybara",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/LDJnr/Capybara",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "Capybara",
+        "Collection URL": "https://huggingface.co/datasets/LDJnr/Capybara",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Sources": [],
+        "Model Generated": [],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": ["No"],
+        "Derived from Datasets": ["TheoremQA"],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/wenhu/TheoremQA"
+            },
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/LDJnr/Capybara"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "TheoremQA"
+        ]
+    },
+    "capybara-Less-Wrong": {
+        "Unique Dataset Identifier": "capybara-Less-Wrong",
+        "Dataset Name": "capybara_Less-Wrong",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/LDJnr/Capybara",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/LDJnr/Capybara",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "Capybara",
+        "Collection URL": "https://huggingface.co/datasets/LDJnr/Capybara",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "# TODO"
+        ],
+        "Text Sources": [],
+        "Model Generated": ["OpenAI GPT-4"],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": ["No"],
+        "Derived from Datasets": ["LessWrong-Amplify-Instruct"],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://huggingface.co/datasets/teknium/GPTeacher-General-Instruct"
+            },
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/LDJnr/LessWrong-Amplify-Instruct"
+            },
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/LDJnr/Capybara"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "Less-Wrong"
+        ]
+    },
+    "capybara-SuperCOT": {
+        "Unique Dataset Identifier": "capybara-SuperCOT",
+        "Dataset Name": "capybara_SuperCOT",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/LDJnr/Capybara",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/LDJnr/Capybara",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "Capybara",
+        "Collection URL": "https://huggingface.co/datasets/LDJnr/Capybara",
+        "Languages": [
+            "English",
+            "Code"
+        ],
+        "Task Categories": [
+            "# TODO"
+        ],
+        "Text Sources": [],
+        "Model Generated": [],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": ["No"],
+        "Derived from Datasets": ["SuperCOT"],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/kaiokendev/SuperCOT-dataset"
+            },
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/LDJnr/Capybara"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "SuperCOT"
+        ]
     }
 }
