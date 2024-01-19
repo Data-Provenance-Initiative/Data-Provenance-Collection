@@ -532,3 +532,11 @@ def prepare_open_orca(row):
         {"from": "user", "text": inputs.strip(), "parent": row['source']},
         {"from": "assistant", "text": outputs.strip(), "parent": 0},
     ]
+
+def prepare_medinstruct(row):
+    inputs = "".join([row['instruction'] + row['input']])
+    return convert_inputs_targets_to_messages(
+        inputs,
+        row['output'],
+        'medinstruct',
+    )
