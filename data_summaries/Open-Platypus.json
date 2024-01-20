@@ -1,0 +1,187 @@
+{
+    "op-open_platypus": {
+        "Unique Dataset Identifier": "op-open_platypus",
+        "Dataset Name": "open_platypus",
+        "Paper Title": "Platypus: Quick, Cheap, and Powerful Refinement of LLMs",
+        "Dataset URL": "https://platypus-llm.github.io",
+        "GitHub URL": "https://github.com/arielnlee/Platypus#dataset-refinement",
+        "Hugging Face URL": "https://huggingface.co/datasets/garage-bAInd/Open-Platypus",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/open-platypus",
+        "ArXiv URL": "https://arxiv.org/abs/2308.07317",
+        "Semantic Scholar Corpus ID": 260886870,
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "Code",
+            "English",
+            "French",
+            "German",
+            "Spanish",
+            "Vietnamese"
+        ],
+        "Task Categories": [
+            "list[string]: A list of the tasks represented in the dataset.",
+            "Please use tasks listed in `constants/task_groups.json` or add to it."
+        ],
+        "Text Sources": [
+            "list[string]: A list of sources from which the text was scraped/derived, including online/offline sources, if applicable.",
+            "Please use source URLs listed in `constants/domain_groups.json` or add to it."
+        ],
+        "Model Generated": ["list[str] (null): The model(s) used to generate this dataset if applicable."],
+        "Format": [
+            "list[string]: A list of the formats in which the dataset is available.",
+            "Please refer to `constants/data_formats.json` for options."
+        ],
+        "Human Annotation": ["string: 'Yes' or 'No' indicating human annotations are part of this dataset, in addition to whatever was scraped from third-party sources."],
+        "Derived from Datasets": [
+            "ARB",
+            "Airoboros 1.4.1",
+            "MATH",
+            "NUPRL Leetcode Solutions GPT4",
+            "OpenAssistant Guanaco",
+            "PRM800K",
+            "ReClor",
+            "SciBench",
+            "ScienceQA",
+            "TheoremQA",
+            "TigerBot Kaggle Leetcode Solutions"
+        ],
+        "Creators": [
+            "list[string]: A list of the institutions/corporations (not people) creators/compiler of the ML dataset.",
+            "Please use organizations listed in `constants/creator_groups.json`, or add to it."
+        ],
+        "Licenses": [
+            {
+                "License": "string (''): The name of the license, taken from `constants/license_classes.json`.",
+                "License URL": "string (''): The URL to the webpage where this license is mentioned in association with this dataset."
+            }
+        ],
+        "License Notes": "string (''): Any notes from the human annotator regarding the license information they retrieved.",
+        "License Verified By": "string (''): The name of the human annotator who verified the license information.",
+        "Dataset Filter IDs": [
+            "list[string] (''): A list of the dataset filter IDs associated with the dataset.",
+            "applicable when the same collection has multiple sources and they need to be separated.",
+            "If no extra filter id is needed, please put the unique identifier of the dataset here."
+        ]
+    },
+    "op-arb": {
+        "Unique Dataset Identifier": "op-arb",
+        "Dataset Name": "arb",
+        "Paper Title": "ARB: Advanced Reasoning Benchmark for Large Language Models",
+        "Dataset URL": "https://arb.duckai.org",
+        "GitHub URL": "https://github.com/TheDuckAI/arb",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.13692",
+        "Semantic Scholar Corpus ID": 260155126,
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [""],
+        "Task Categories": [""],
+        "Text Sources": [""],
+        "Model Generated": [""],
+        "Format": [""],
+        "Human Annotation": [""],
+        "Derived from Datasets": [""],
+        "Creators": [""],
+        "Licenses": [
+            {
+                "License": "",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [""]
+    },
+    "op-reclor": {
+        "Unique Dataset Identifier": "op-reclor",
+        "Dataset Name": "reclor",
+        "Paper Title": "ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning",
+        "Dataset URL": "https://whyu.me/reclor",
+        "GitHub URL": "https://github.com/yuweihao/reclor",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/reclor",
+        "ArXiv URL": "https://arxiv.org/abs/2002.04326",
+        "Semantic Scholar Corpus ID": 209485573,
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [""],
+        "Task Categories": [""],
+        "Text Sources": [""],
+        "Model Generated": [""],
+        "Format": [""],
+        "Human Annotation": [""],
+        "Derived from Datasets": [""],
+        "Creators": [""],
+        "Licenses": [
+            {
+                "License": "",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [""]
+    },
+    "op-prm800k": {
+        "Unique Dataset Identifier": "op-prm800k",
+        "Dataset Name": "prm800k",
+        "Paper Title": "Let's Verify Step by Step",
+        "Dataset URL": "https://github.com/openai/prm800k",
+        "GitHub URL": "https://github.com/openai/prm800k",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/prm800k",
+        "ArXiv URL": "https://arxiv.org/abs/2305.20050",
+        "Semantic Scholar Corpus ID": 258987659,
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [""],
+        "Task Categories": [""],
+        "Text Sources": [""],
+        "Model Generated": [""],
+        "Format": [""],
+        "Human Annotation": [""],
+        "Derived from Datasets": [""],
+        "Creators": [""],
+        "Licenses": [
+            {
+                "License": "",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [""]
+    },
+    "op-theorem_qa": {
+        "Unique Dataset Identifier": "op-theorem_qa",
+        "Dataset Name": "theorem_qa",
+        "Paper Title": "TheoremQA: A Theorem-driven Question Answering Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/wenhu/TheoremQA",
+        "GitHub URL": "https://github.com/wenhuchen/TheoremQA",
+        "Hugging Face URL": "https://huggingface.co/datasets/wenhu/TheoremQA",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/theoremqa",
+        "ArXiv URL": "https://arxiv.org/abs/2305.12524",
+        "Semantic Scholar Corpus ID": 258833200,
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [""],
+        "Task Categories": [""],
+        "Text Sources": [""],
+        "Model Generated": [""],
+        "Format": [""],
+        "Human Annotation": [""],
+        "Derived from Datasets": [""],
+        "Creators": [""],
+        "Licenses": [
+            {
+                "License": "",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [""]
+    }
+}
