@@ -21,12 +21,14 @@
         "semeval 2012 task 2"
     ],
     "Biomedical": [
+        "Anki Medical Curriculum",
         "BC2GM",
         "BC5CDR-chem",
         "BC5CDR-disease",
         "biomed articles",
         "cancer.gov",
         "ChatDoctor",
+        "CORD-19",
         "GAD",
         "hallmarks of cancer (HoC)",
         "haodf.com",
@@ -37,9 +39,11 @@
         "iclinic.com",
         "JNLPBA",
         "mcat tests",
+        "Medical Exams",
         "medline.com",
         "medlineplus.gov",
         "MedNLI",
+        "National Library of Medicine (NLM)",
         "NCBI-disease",
         "nlm.nih.gov/databases/download/pubmed_medline.html",
         "plos articles",
@@ -48,7 +52,8 @@
         "pubmed",
         "pubmed articles",
         "rarediseases.info.nih.gov",
-        "vol. 5: biology"
+        "vol. 5: biology",
+        "wikidoc.org"
     ],
     "Books": [
         "Gutenberg Poetry Corpus",
