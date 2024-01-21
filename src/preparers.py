@@ -317,19 +317,19 @@ def prepare_cot_collection(row):
 
 
 def prepare_gpt4all(row):
-    # source_to_dsetid = {
-    #    "": "stackoverflow",
-    #    "pacovaldez/stackoverflow-questions": "stackoverflow",
-    #    "nomic-ai": "nomic",
-    #    "laion/unified_chip2": "chip2",
-    #    "unified_chip2": "chip2",
-    #    "unified_unifiedskg_instructions": "unifiedskg",
-    #    "output_unified_unifiedskg.jsonl": "unifiedskg",
-    #    "unified_multi_sum": "unifiedmultisum",
-    #    "unified_abstract_infill_output_0-100_000.jsonl": "abstractinfill",
-    #    "unified_abstract_infill_output-100-000-x.jsonl": "abstractinfill",
-    #    "unified_hc3_human": "hc3"
-    # }
+    source_to_dsetid = {
+        "": "stackoverflow",
+        "pacovaldez/stackoverflow-questions": "stackoverflow",
+        "nomic-ai": "nomic",
+        "laion/unified_chip2": "chip2",
+        "unified_chip2": "chip2",
+        "unified_unifiedskg_instructions": "unifiedskg",
+        "output_unified_unifiedskg.jsonl": "unifiedskg",
+        "unified_multi_sum": "unifiedmultisum",
+        "unified_abstract_infill_output_0-100_000.jsonl": "abstractinfill",
+        "unified_abstract_infill_output-100-000-x.jsonl": "abstractinfill",
+        "unified_hc3_human": "hc3"
+    }
     return convert_inputs_targets_to_messages(
         # row["prompt"], row["response"], f"nomicai-gpt4allj--{source_to_dsetid[row['source']]}"
         row["prompt"], row["response"], row['source']
@@ -530,12 +530,10 @@ def prepare_agentinstruct(row):
     datasets = row  # Based on the current structure, a row represents all datasets :TODO: might need to change this
     messages = []
     for dataset in datasets:
-        parent = dataset['id'].split('_')[0]
-        for i, turn in enumerate(dataset["conversations"]):
+        for i, turn in enumerate(dataset["conversations"], start=-1):
             messages.append({
                 "from": "user" if turn["from"] == "human" else "assistant",
                 "text": turn["value"].strip(),
-                "parent": parent,
+                "parent": dataset['id'].split('_')[0] if i == -1 else i,
             })
-            parent = i
     return messages
