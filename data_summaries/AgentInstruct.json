@@ -16,7 +16,8 @@
         ],
         "Task Categories": [
             "Instruction Following",
-            "Chain-of-Thought"
+            "Chain-of-Thought",
+            "Task-Specific Actions"
         ],
         "Text Sources": [
             "crowdsourced"
@@ -38,9 +39,17 @@
             {
                 "License": "MIT License",
                 "License URL": "https://github.com/alfworld/alfworld"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/askforalfred/alfred/blob/master/LICENSE"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/microsoft/TextWorld/blob/main/LICENSE.txt"
             }
         ],
-        "License Notes": "The used ALFRED dataset is licensed under the MIT License https://github.com/askforalfred/alfred/tree/master and the used TextWorld is licensed under the GNU General Public License (GPL) v2.0 License. The authors only state that ALFworld is licensed under the MIT License.",
+        "License Notes": "The ALFRED dataset that was used is licensed under the MIT License https://github.com/askforalfred/alfred/tree/master. Moreover, the authors of ALFworld have stated that the TextWorld framework used is licensed under the GNU General Public License (GPL) v2.0 License https://github.com/alfworld/alfworld#MIT-1-ov-file. However, it should be noted that in the original repository, it is licensed under the MIT License https://github.com/microsoft/TextWorld/blob/main/LICENSE.txt. To combine ALFRED with TextWorld, the authors created text-based analogs of each ALFRED scene.",
         "License Verified By": "Christopher",
         "Dataset Filter IDs": [
             "alfworld"
@@ -63,7 +72,8 @@
         ],
         "Task Categories": [
             "Instruction Following",
-            "Chain-of-Thought"
+            "Chain-of-Thought",
+            "Task-Specific Actions"
         ],
         "Text Sources": [
             "crowdsourced",
@@ -99,7 +109,7 @@
         "GitHub URL": "https://github.com/THUDM/AgentBench",
         "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/kg",
         "Papers with Code URL": "",
-        "ArXiv URL": "https://arxiv.org/abs/2310.12823",
+        "ArXiv URL": "https://arxiv.org/abs/2308.03688",
         "Semantic Scholar Corpus ID": 260682249,
         "Collection": "AgentInstruct",
         "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
@@ -108,7 +118,8 @@
         ],
         "Task Categories": [
             "Chain-of-Thought",
-            "Instruction Following"
+            "Instruction Following",
+            "Task-Specific Actions"
         ],
         "Text Sources": [
             "freebase"
@@ -131,10 +142,14 @@
         "Licenses": [
             {
                 "License": "Unspecified",
-                "License URL": ""
+                "License URL": "https://arxiv.org/pdf/2308.03688.pdf"
+            },
+            {
+                "License": "CC BY 4.0",
+                "License URL": "http://creativecommons.org/licenses/by/4.0/"
             }
         ],
-        "License Notes": "The paper cites an anonymous source from 2023 that is currently under review. It is unclear what that means for the license. The original Freebase dataset, which seems to be a part of the source, is licensed under the Creative Commmon Attribution License.",
+        "License Notes": "The paper https://arxiv.org/pdf/2308.03688.pdf cites an anonymous source from 2023 on page four that is currently under review. It is unclear what that means for the license. The original Freebase dataset, which seems to be a part of the source, is licensed under the Creative Commmon Attribution License.",
         "License Verified By": "Christopher",
         "Dataset Filter IDs": [
             "kg"
@@ -148,7 +163,7 @@
         "GitHub URL": "https://github.com/THUDM/AgentBench",
         "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/os",
         "Papers with Code URL": "",
-        "ArXiv URL": "https://arxiv.org/abs/2310.12823",
+        "ArXiv URL": "https://arxiv.org/abs/2308.03688",
         "Semantic Scholar Corpus ID": 260682249,
         "Collection": "AgentInstruct",
         "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
@@ -157,7 +172,8 @@
         ],
         "Task Categories": [
             "Instruction Following",
-            "Chain-of-Thought"
+            "Chain-of-Thought",
+            "Task-Specific Actions"
         ],
         "Text Sources": [
             "stackoverflow.com"
@@ -169,7 +185,9 @@
             "Multi-turn Dialog"
         ],
         "Human Annotation": "Yes",
-        "Derived from Datasets": [],
+        "Derived from Datasets": [
+            "AgentBench"
+        ],
         "Creators": [
             "Tsinghua University",
             "The Ohio State University",
@@ -178,7 +196,7 @@
         "Licenses": [
             {
                 "License": "Unspecified",
-                "License URL": ""
+                "License URL": "https://github.com/THUDM/AgentBench"
             },
             {
                 "License": "OpenAI",
@@ -208,7 +226,8 @@
         ],
         "Task Categories": [
             "Instruction Following",
-            "Chain-of-Thought"
+            "Chain-of-Thought",
+            "Task-Specific Actions"
         ],
         "Text Sources": [
             "database operations"
@@ -261,7 +280,8 @@
         ],
         "Task Categories": [
             "Instruction Following",
-            "Chain-of-Thought"
+            "Chain-of-Thought",
+            "Task-Specific Actions"
         ],
         "Text Sources": [
             "crowdsourced",
@@ -290,6 +310,10 @@
             {
                 "License": "OpenAI",
                 "License URL": "https://arxiv.org/abs/2306.06070"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/discussions"
             }
         ],
         "License Notes": "The license is specifically mentioned by the authors in the repository.",
