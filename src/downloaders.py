@@ -496,6 +496,36 @@ def download_open_orca(accepeted_filter_ids):
     dset = list(map(lambda x: {**x, 'source': x['id'].split('.')[0]}, dset))
     return pool_filter(dset, "source", accepeted_filter_ids)
 
+def download_medical_meadow(accepted_filter_ids):
+    dset = []
+    if "medical-meadow-med-flashcards" in accepted_filter_ids:
+        med_flashcards = huggingface_download("medalpaca/medical_meadow_medical_flashcards", split='train')
+        dset += annotate_source(med_flashcards, "medical-meadow-med-flashcards")
+    if "medical-meadow-wikidoc-living-textbook" in accepted_filter_ids:
+        wikidoc_living_textbook = huggingface_download("medalpaca/medical_meadow_wikidoc", split='train')
+        dset += annotate_source(wikidoc_living_textbook, "medical-meadow-wikidoc-living-textbook")
+    if "medical-meadow-wikidoc-patient-information" in accepted_filter_ids:
+        wikidoc_patient_information = huggingface_download("medalpaca/medical_meadow_wikidoc_patient_information", split='train')
+        dset += annotate_source(wikidoc_patient_information, "medical-meadow-wikidoc-patient-information")
+    if "medical-meadow-cord19" in accepted_filter_ids:
+        cord19 = huggingface_download("medalpaca/medical_meadow_cord19", split='train')
+        dset += annotate_source(cord19, "medical-meadow-cord19")
+    if "medical-meadow-health-advice" in accepted_filter_ids:
+        health_advice = huggingface_download("medalpaca/medical_meadow_health_advice", split='train')
+        dset += annotate_source(health_advice, "medical-meadow-health-advice")
+    if "medical-meadow-pubmed-causal" in accepted_filter_ids:
+        pubmed_causal = huggingface_download("medalpaca/medical_meadow_pubmed_causal", split='train')
+        dset += annotate_source(pubmed_causal, "medical-meadow-pubmed-causal")
+    if "medical-meadow-mmlu" in accepted_filter_ids:
+        mmlu = huggingface_download("medalpaca/medical_meadow_mmmlu", split='train')
+        dset += annotate_source(mmlu, "medical-meadow-mmlu")
+    if "medical-meadow-medqa" in accepted_filter_ids:
+        medqa = huggingface_download("medalpaca/medical_meadow_medqa", split='train')
+        dset += annotate_source(medqa, "medical-meadow-medqa")
+    if "medical-meadow-mediqa" in accepted_filter_ids:
+        mediqa = huggingface_download("medalpaca/medical_meadow_mediqa", split='train')
+        dset += annotate_source(mediqa, "medical-meadow-mediqa")
+    return dset
 
 def split_by_user(pairs):
     '''
