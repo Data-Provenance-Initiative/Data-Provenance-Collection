@@ -326,7 +326,7 @@ def download_openai_webgpt(accepted_filter_ids):
 def download_alpaca(accepted_filter_ids):
     return huggingface_download('tatsu-lab/alpaca', split='train')
 
-def download_meta_math_qa(accepted_filter_ids):
+def download_metamathqa(accepted_filter_ids):
     dset = huggingface_download('meta-math/MetaMathQA', split='train')
     return pool_filter(dset, "type", accepted_filter_ids)
 
