@@ -295,7 +295,7 @@ def prepare_nectar(row):
         messages.append({
             "from": "user",
             "text": h.strip(),
-            "parent": "pure_dove" if index == 0 else parent_id,
+            "parent": "nectar" if index == 0 else parent_id,
         })
         if parent_id != 0:
             parent_id += 1
