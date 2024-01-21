@@ -181,6 +181,7 @@
         "Data to Text",
         "Description Generation",
         "Document Rewriting",
+        "Greeting/Small Talk",
         "Inverted Casing Selection",
         "Inverted Grammatical Acceptability",
         "Inverted Language Modeling",
@@ -196,6 +197,7 @@
         "Natural Language Generation",
         "Natural Language Generation (NLG)",
         "Natural Language Generation (NLG) using Randomly Selected Adjectives and Nouns from Predefined Arrays",
+        "No Context Snippet",
         "Open-form Text Generation",
         "Recursive Function Generation",
         "Sentence Rewriting",
@@ -203,6 +205,7 @@
         "Structured Data to Text",
         "Style Transfer",
         "Text Generation",
+        "Text Modification",
         "Title Generation",
         "User Interface Design Suggestion",
         "Wrong Candidate Generation"
@@ -227,6 +230,7 @@
         "Closed-Book Question Answering",
         "Comparative Analysis Question Answering",
         "Comparative Question Answering",
+        "Contextual Question Answering",
         "Conversational Question Answering",
         "Core Strength Training Explanation Question Answering",
         "Definition Retrieval",
@@ -236,6 +240,7 @@
         "Factual Information Retrieval",
         "Factual Knowledge Question Answering",
         "Factual Question Answering",
+        "General Knowledge",
         "Generative Question Answering",
         "Geographical Map Making Question Answering",
         "Historical Fact Retrieval",
@@ -272,6 +277,7 @@
         "Question Understanding",
         "Recipe Retrieval",
         "Scientific Knowledge Retrieval",
+        "Search Query",
         "Shape Identification Question Answering",
         "Shopping List Generation",
         "Shopping Recommendation Question Answering",
@@ -282,6 +288,7 @@
         "Tax-Exempt Charitable Organization Donation Advice Question Answering",
         "Temperature Conversion Question Answering",
         "Timeline Memory Resolution Question Answering",
+        "Trick Question",
         "Vegetarian Recipe Modification Question Answering",
         "Visual Reasoning Question Answering",
         "Webpage Content Retrieval"
@@ -305,6 +312,7 @@
         "Word Segmentation"
     ],
     "Short Text Generation": [
+        "Basic Instruct",
         "Casing Selection",
         "Content-Based News Recommendation",
         "Entity Generation",
