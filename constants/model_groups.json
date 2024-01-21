@@ -3,6 +3,8 @@
         "OpenAI ChatGPT",
         "OpenAI Codex",
         "OpenAI GPT-3",
+        "GPT-3.5-turbo",
+        "GPT-3.5-turbo-instruct",
         "OpenAI GPT-4",
         "OpenAI Playground"
     ],
@@ -13,6 +15,8 @@
         "Google Cloud Translation API",
         "Grover",
         "Instruct-GPT-J",
+        "LLama-2-7B-chat",
+        "Mistral-7B-Instruct",
         "StarCoder",
         "T5",
         "T5-XXL",
