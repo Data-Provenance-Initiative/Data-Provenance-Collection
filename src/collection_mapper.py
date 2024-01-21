@@ -202,7 +202,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_baize_data,
         "prepare_function": preparers.prepare_baize_data,
     },
-    
+    "Medical Meadow": {
+        "download_function": downloaders.download_medical_meadow,
+        "prepare_function": preparers.prepare_medical_meadow,
+    },
     "Open Orca":{
         "download_function": downloaders.download_open_orca,
         "prepare_function": preparers.prepare_open_orca,
