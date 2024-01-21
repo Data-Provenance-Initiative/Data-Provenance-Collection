@@ -101,9 +101,9 @@
             "medical-meadow-wikidoc-living-textbook"
         ]
     },
-    "medical_meadow_wikidoc_patient_information": {
-        "Unique Dataset Identifier": "medical_meadow_wikidoc_patient_information",
-        "Dataset Name": "wikidoc_patient_information",
+    "medical-meadow-wikidoc-patient-information": {
+        "Unique Dataset Identifier": "medical-meadow-wikidoc-patient-information",
+        "Dataset Name": "wikidoc-patient-information",
         "Paper Title": "MedAlpaca - An Open-Source Collection of Medical Conversational AI Models and Training Data",
         "Dataset URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc_patient_information",
         "GitHub URL": "https://github.com/kbressem/medAlpaca",
@@ -149,11 +149,11 @@
         "License Notes": "The license is provided as a tag for the HF repo without even providing a version (just cc) and was not explicitly mentioned in the dataset card",
         "License Verified By": "",
         "Dataset Filter IDs": [
-            "medical_meadow_wikidoc_patient_information"
+            "medical-meadow-wikidoc-patient-information"
         ]
     },
-    "medical_meadow_cord19": {
-        "Unique Dataset Identifier": "medical_meadow_cord19",
+    "medical-meadow-cord19": {
+        "Unique Dataset Identifier": "medical-meadow-cord19",
         "Dataset Name": "cord19",
         "Paper Title": "CORD-19: The COVID-19 Open Research Dataset",
         "Dataset URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_cord19",
@@ -202,12 +202,12 @@
         "License Notes": "The licenses are provided as tags for the HF repo of original dataset without even providing a version and was not explicitly mentioned in the dataset card. In case of CC-BY-ND, this derived dataset is confusing. Also, the github repo of CORD-19 provides an Apache-2.0 license and containing only a README",
         "License Verified By": "",
         "Dataset Filter IDs": [
-            "medical_meadow_cord19"
+            "medical-meadow-cord19"
         ]
     },
-    "medical_meadow_health_advice": {
-        "Unique Dataset Identifier": "medical_meadow_health_advice",
-        "Dataset Name": "health_advice",
+    "medical-meadow-health-advice": {
+        "Unique Dataset Identifier": "medical-meadow-health-advice",
+        "Dataset Name": "health-advice",
         "Paper Title": "Detecting Causal Language Use in Science Findings",
         "Dataset URL": "https://aclanthology.org/D19-1473/",
         "GitHub URL": "https://github.com/junwang4/causal-language-use-in-science",
@@ -251,12 +251,12 @@
         "License Notes": "The license was provided in the github repo of the original dataset",
         "License Verified By": "",
         "Dataset Filter IDs": [
-            "medical_meadow_health_advice"
+            "medical-meadow-health-advice"
         ]
     },
-    "medical_meadow_pubmed_causal": {
-        "Unique Dataset Identifier": "medical_meadow_pubmed_causal",
-        "Dataset Name": "pubmed_causal",
+    "medical-meadow-pubmed-causal": {
+        "Unique Dataset Identifier": "medical-meadow-pubmed-causal",
+        "Dataset Name": "pubmed-causal",
         "Paper Title": "Detecting Causal Language Use in Science Findings",
         "Dataset URL": "https://aclanthology.org/D19-1473/",
         "GitHub URL": "https://github.com/junwang4/causal-language-use-in-science",
@@ -300,7 +300,7 @@
         "License Notes": "The license was provided in the github repo of the original dataset",
         "License Verified By": "",
         "Dataset Filter IDs": [
-            "medical_meadow_pubmed_causal"
+            "medical-meadow-pubmed-causal"
         ]
     },
     "medical-meadow-mmlu": {
