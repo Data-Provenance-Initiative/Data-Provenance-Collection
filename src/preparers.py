@@ -277,6 +277,35 @@ def prepare_pure_dove(row):
         parent_id += 1
     return messages
 
+def prepare_nectar(row):
+    human = []
+    assistant = []
+    messages = []
+    # Split the conversation based on "Human:" and "Assistant:" tags
+    segments = row["prompt"].split("Human: ")[1:]
+    # Extract human and assistant texts
+    for segment in segments:
+        parts = segment.split("Assistant:")
+        human.append(parts[0].strip())
+        if len(parts) > 1:
+            assistant.append(parts[1].strip())
+    assistant.append(row["answers"][0]["answer"])
+    parent_id = 0
+    for index, (h, a) in enumerate(zip(human, assistant)):
+        messages.append({
+            "from": "user",
+            "text": h.strip(),
+            "parent": "pure_dove" if index == 0 else parent_id,
+        })
+        if parent_id != 0:
+            parent_id += 1
+        messages.append({
+            "from": "assistant",
+            "text": a.strip(),
+            "parent": parent_id,
+        })
+        parent_id += 1
+    return messages
 
 def prepare_sharegpt_vicuna(row):
     parent = "sharegpt_vicuna"
