@@ -77,8 +77,8 @@ COLLECTION_FN_MAPPER = {
         "prepare_function": preparers.prepare_alpaca,
     },
     "MetaMathQA": {
-        "download_function": downloaders.download_meta_math_qa,
-        "prepare_function": preparers.prepare_meta_math_qa,
+        "download_function": downloaders.download_metamathqa,
+        "prepare_function": preparers.prepare_metamathqa,
     },
     "EverythingLM": {
         "download_function": downloaders.download_everything_lm,
