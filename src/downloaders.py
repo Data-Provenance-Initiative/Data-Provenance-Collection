@@ -496,6 +496,9 @@ def download_open_orca(accepeted_filter_ids):
     dset = list(map(lambda x: {**x, 'source': x['id'].split('.')[0]}, dset))
     return pool_filter(dset, "source", accepeted_filter_ids)
 
+def download_pmc_llama(accepted_filter_ids):
+    dset = huggingface_download("axiong/pmc_llama_instructions", split="train")
+    return pool_filter(dset, "source", accepted_filter_ids)
 
 def split_by_user(pairs):
     '''
