@@ -202,7 +202,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_baize_data,
         "prepare_function": preparers.prepare_baize_data,
     },
-    
+    "PMC-LLaMA Instructions": {
+        "download_function": downloaders.download_pmc_llama,
+        "prepare_function": preparers.prepare_pmc_llama,
+    },
     "Open Orca":{
         "download_function": downloaders.download_open_orca,
         "prepare_function": preparers.prepare_open_orca,
