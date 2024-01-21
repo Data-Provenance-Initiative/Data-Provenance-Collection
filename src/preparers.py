@@ -538,5 +538,5 @@ def prepare_medical_meadow(row):
     return convert_inputs_targets_to_messages(
         inputs,
         row['output'],
-        'medical-meadow',
+        row["_source"],
     )
