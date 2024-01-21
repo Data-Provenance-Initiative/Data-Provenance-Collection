@@ -6,7 +6,7 @@
         "Dataset URL": "https://huggingface.co/datasets/axiong/pmc_llama_instructions",
         "GitHub URL": "https://github.com/chaoyi-wu/PMC-LLaMA",
         "Hugging Face URL": "https://huggingface.co/datasets/axiong/pmc_llama_instructions",
-        "Papers with Code URL": "string (''): The URL to the dataset's (not the paper's) 'Papers with Code' page.",
+        "Papers with Code URL": "",
         "ArXiv URL": "https://arxiv.org/abs/2304.14454",
         "Semantic Scholar Corpus ID": 258417843,
         "Collection": "PMC-LLaMA Instructions",
