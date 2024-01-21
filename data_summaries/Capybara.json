@@ -28,7 +28,7 @@
         "Format": [
             "Multi-turn Dialog"
         ],
-        "Human Annotation": ["No"],
+        "Human Annotation": "No",
         "Derived from Datasets": [
             "Pure-Dove"
         ],
@@ -71,7 +71,12 @@
             "English"
         ],
         "Task Categories": [
-            "# TODO"
+            "Contextual Question Answering",
+            "Closed-Book Question Answering",
+            "Coding",
+            "Multiple Choice Question Answering",
+            "Trivia",
+            "Math"
         ],
         "Text Sources": [],
         "Model Generated": [
@@ -81,7 +86,7 @@
         "Format": [
             "Multi-turn Dialog"
         ],
-        "Human Annotation": ["No"],
+        "Human Annotation": "No",
         "Derived from Datasets": [
             "Airoboros",
             "MetaMathQA"
@@ -123,14 +128,18 @@
             "English"
         ],
         "Task Categories": [
-            "# TODO"
+            "Coding",
+            "Creative Writing",
+            "Humor Generation",
+            "Poem Generation",
+            "Question Answering"
         ],
         "Text Sources": [],
         "Model Generated": [],
         "Format": [
             "Multi-turn Dialog"
         ],
-        "Human Annotation": ["No"],
+        "Human Annotation": "No",
         "Derived from Datasets": ["know_logic"],
         "Creators": [],
         "Licenses": [
@@ -189,7 +198,7 @@
             "Zero-shot",
             "Multi-turn Dialog"
         ],
-        "Human Annotation": ["No"],
+        "Human Annotation": "No",
         "Derived from Datasets": ["EverythingLM"],
         "Creators": [],
         "Licenses": [
@@ -228,14 +237,14 @@
             "English"
         ],
         "Task Categories": [
-            "# TODO"
+            "Logical and Mathematical Reasoning"
         ],
         "Text Sources": [],
         "Model Generated": [],
         "Format": [
             "Multi-turn Dialog"
         ],
-        "Human Annotation": ["No"],
+        "Human Annotation": "No",
         "Derived from Datasets": ["GOAT"],
         "Creators": [],
         "Licenses": [
@@ -270,18 +279,39 @@
             "English"
         ],
         "Task Categories": [
-            "# TODO"
+            "Classification",
+            "Token Classification",
+            "Multiple Choice Question Answering",
+            "Adversarial Sentiment Analysis",
+            "Adversarial Hate Speech Detection",
+            "Logical Reasoning",
+            "Discourse Relation Prediction",
+            "Natural Language Inference",
+            "Chain-of-Thought",
+            "Dialog Context Generation",
+            "Conversational Question Answering",
+            "Summarization",
+            "Closed-Book Question Answering"
         ],
         "Text Sources": [],
         "Model Generated": [],
         "Format": [
             "Multi-turn Dialog"
         ],
-        "Human Annotation": ["No"],
+        "Human Annotation": "No",
         "Derived from Datasets": ["TaskSource"],
         "Creators": [],
-        "Licenses": [],
-        "License Notes": "",
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/tasksource/tasksource-instruct-v0"
+            },
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/LDJnr/Capybara"
+            }
+        ],
+        "License Notes": "https://huggingface.co/datasets/LDJnr/Capybara/discussions/6",
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "TaskSource"
@@ -319,7 +349,7 @@
             "Zero-shot",
             "Multi-turn Dialog"
         ],
-        "Human Annotation": ["No"],
+        "Human Annotation": "No",
         "Derived from Datasets": ["GPTeacher-General-Instruct"],
         "Creators": [],
         "Licenses": [
@@ -358,14 +388,30 @@
             "English"
         ],
         "Task Categories": [
-            "# TODO"
+            "Natural Language Understanding (NLU)",
+            "Word Reordering",
+            "Algebraic Expression Evaluation",
+            "Description Generation",
+            "Narrative Generation",
+            "Sentence Rewriting",
+            "Span Selection Question Answering",
+            "Summarization",
+            "Literary Analysis",
+            "Sentiment Analysis",
+            "Multiple Choice Necessity Classification",
+            "Binary Classification",
+            "Binary Classification Question Answering",
+            "Numerical Data Aggregation and Analysis",
+            "Paraphrase Detection",
+            "Sentence Ordering",
+            "Sentence Completion"
         ],
         "Text Sources": [],
         "Model Generated": ["OpenAI GPT-4"],
         "Format": [
             "Multi-turn Dialog"
         ],
-        "Human Annotation": ["No"],
+        "Human Annotation": "No",
         "Derived from Datasets": ["GPT4LLM"],
         "Creators": [],
         "Licenses": [
@@ -411,7 +457,7 @@
         "Format": [
             "Multi-turn Dialog"
         ],
-        "Human Annotation": ["No"],
+        "Human Annotation": "No",
         "Derived from Datasets": ["TheoremQA"],
         "Creators": [],
         "Licenses": [
@@ -446,16 +492,16 @@
             "English"
         ],
         "Task Categories": [
-            "# TODO"
+            "Chain-of-Thought"
         ],
         "Text Sources": [],
         "Model Generated": ["OpenAI GPT-4"],
         "Format": [
             "Multi-turn Dialog"
         ],
-        "Human Annotation": ["No"],
+        "Human Annotation": "No",
         "Derived from Datasets": ["LessWrong-Amplify-Instruct"],
-        "Creators": [],
+        "Creators": ["Nous Research"],
         "Licenses": [
             {
                 "License": "OpenAI",
@@ -493,14 +539,16 @@
             "Code"
         ],
         "Task Categories": [
-            "# TODO"
+            "Commonsense Reasoning",
+            "Coding",
+            "Question Answering"
         ],
         "Text Sources": [],
         "Model Generated": [],
         "Format": [
             "Multi-turn Dialog"
         ],
-        "Human Annotation": ["No"],
+        "Human Annotation": "No",
         "Derived from Datasets": ["SuperCOT"],
         "Creators": [],
         "Licenses": [

@@ -253,6 +253,26 @@ def prepare_llama2_med_tuned_instructions(row):
         inputs, row["output"], "llama2_med_tuned_instructions",
     )
 
+def prepare_capybara(row):
+    messages = []
+    parent_id = 0
+    dset = row["source"]
+    for i, turn in enumerate(row["conversation"]):
+        messages.append({
+            "from": "user",
+            "text": turn["input"].strip(),
+            "parent": dset if i == 0 else parent_id,
+        })
+        if parent_id != 0:
+            parent_id += 1
+        messages.append({
+            "from": "assistant",
+            "text": turn["output"].strip(),
+            "parent": parent_id,
+        })
+        parent_id += 1
+    return messages
+
 def prepare_evol_instruct(row):
     return convert_inputs_targets_to_messages(
         row['instruction'], row["output"], "evol_instruct",
