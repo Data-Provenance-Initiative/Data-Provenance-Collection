@@ -1,0 +1,66 @@
+{
+    "pmc-llama-instructions": {
+        "Unique Dataset Identifier": "pmc-llama-instructions",
+        "Dataset Name": "pmc-llama-instructions",
+        "Paper Title": "PMC-LLaMA: Towards Building Open-source Language Models for Medicine",
+        "Dataset URL": "https://huggingface.co/datasets/axiong/pmc_llama_instructions",
+        "GitHub URL": "https://github.com/chaoyi-wu/PMC-LLaMA",
+        "Hugging Face URL": "https://huggingface.co/datasets/axiong/pmc_llama_instructions",
+        "Papers with Code URL": "string (''): The URL to the dataset's (not the paper's) 'Papers with Code' page.",
+        "ArXiv URL": "https://arxiv.org/abs/2304.14454",
+        "Semantic Scholar Corpus ID": 258417843,
+        "Collection": "PMC-LLaMA Instructions",
+        "Collection URL": "https://github.com/chaoyi-wu/PMC-LLaMA",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Question Answering"
+        ],
+        "Text Sources": [
+            "healthcaremagic.com",
+            "iclinic.com",
+            "pubmed"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4",
+            "OpenAI ChatGPT"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "ChatDoctor",
+            "MedQA",
+            "MedMCQA",
+            "PubmedQA",
+            "LiveQA",
+            "MedicationQA",
+            "UMLS"
+        ],
+        "Creators": [
+            "Shanghai Jiao Tong University"
+        ],
+        "Licenses": [
+            {
+                "License": "BigScience OpenRAIL-M",
+                "License URL": "https://huggingface.co/datasets/axiong/pmc_llama_instructions"
+            }
+        ],
+        "License Notes": "The provided license is confusing. Isn't BigScience OpenRAIL-M supposed to be for licensing models?",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "liveqa",
+            "medicationqa",
+            "medmcqa",
+            "medqa_train",
+            "pubmedqa.ori_pqaa",
+            "umls",
+            "umls_relation"
+        ]
+    }
+}
