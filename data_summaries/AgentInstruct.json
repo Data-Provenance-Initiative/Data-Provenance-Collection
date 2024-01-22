@@ -49,7 +49,7 @@
                 "License URL": "https://github.com/microsoft/TextWorld/blob/main/LICENSE.txt"
             }
         ],
-        "License Notes": "The ALFRED dataset that was used is licensed under the MIT License https://github.com/askforalfred/alfred/tree/master. Moreover, the authors of ALFworld have stated that the TextWorld framework used is licensed under the GNU General Public License (GPL) v2.0 License https://github.com/alfworld/alfworld#MIT-1-ov-file. However, it should be noted that in the original repository, it is licensed under the MIT License https://github.com/microsoft/TextWorld/blob/main/LICENSE.txt. To combine ALFRED with TextWorld, the authors created text-based analogs of each ALFRED scene.",
+        "License Notes": "The ALFRED dataset that was used is licensed under the MIT License https://github.com/askforalfred/alfred/tree/master and the TextWorld framework used is licensed in some cases under MIT License https://github.com/microsoft/TextWorld/blob/main/LICENSE.txt and in some cases https://github.com/alfworld/alfworld/issues/48 under GPL 2.0, which is not relevant for ALFworld. To combine ALFRED with TextWorld, the authors created text-based analogs of each ALFRED scene.",
         "License Verified By": "Christopher",
         "Dataset Filter IDs": [
             "alfworld"
