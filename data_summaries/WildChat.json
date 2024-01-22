@@ -1,6 +1,6 @@
 {
-  "wc-gpt-3.5-turbo": {
-    "Unique Dataset Identifier": "wc-gpt-3.5-turbo",
+  "wildchat-gpt_turbo": {
+    "Unique Dataset Identifier": "wildchat-gpt_turbo",
     "Dataset Name": "gpt-3.5-turbo",
     "Paper Title": "(InThe)WildChat: 570K ChatGPT Interaction Logs In The Wild",
     "Dataset URL": "https://huggingface.co/datasets/allenai/WildChat",
@@ -25,10 +25,10 @@
     ],
     "Task Categories": ["Conversational Question Answering", "Text Generation"],
     "Text Sources": [],
-    "Model Generated": ["OpenAI ChatGPT", "OpenAI GPT-3", "OpenAI GPT-4"],
-    "Format": ["Few-shot", "Multi-turn Dialog"],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [],
+    "Model Generated": ["OpenAI GPT-3"],
+    "Format": ["Multi-turn Dialog"],
+    "Human Annotation": "No",
+    "Derived from Datasets": ["crowdsourced"],
     "Creators": [
       "Cornell University",
       "AI2",
@@ -37,16 +37,21 @@
     ],
     "Licenses": [
       {
-        "License": "Various",
+        "License": "AI2 ImpACT",
+        "License URL": "https://huggingface.co/datasets/allenai/WildChat"
+      },
+      {
+        "License": "OpenAI",
         "License URL": "https://huggingface.co/datasets/allenai/WildChat"
       }
     ],
     "License Notes": "",
     "License Verified By": "Minnie",
-    "Dataset Filter IDs": ["gpt-4", "gpt-3.5-turbo"]
+    "Dataset Filter IDs": ["gpt-3.5-turbo"]
   },
-  "wc-gpt-4": {
-    "Unique Dataset Identifier": "wc-gpt-4",
+
+  "wildchat-gpt_4": {
+    "Unique Dataset Identifier": "wildchat-gpt_4",
     "Dataset Name": "gpt-4",
     "Paper Title": "(InThe)WildChat: 570K ChatGPT Interaction Logs In The Wild",
     "Dataset URL": "https://huggingface.co/datasets/allenai/WildChat",
@@ -70,10 +75,10 @@
       "Turkish"
     ],
     "Task Categories": ["Conversational Question Answering", "Text Generation"],
-    "Text Sources": [],
-    "Model Generated": ["OpenAI ChatGPT", "OpenAI GPT-3", "OpenAI GPT-4"],
-    "Format": ["Few-shot", "Multi-turn Dialog"],
-    "Human Annotation": "Yes",
+    "Text Sources": ["crowdsourced"],
+    "Model Generated": ["OpenAI GPT-4"],
+    "Format": ["Multi-turn Dialog"],
+    "Human Annotation": "No",
     "Derived from Datasets": [],
     "Creators": [
       "Cornell University",
@@ -83,12 +88,16 @@
     ],
     "Licenses": [
       {
-        "License": "Various",
+        "License": "AI2 ImpACT",
+        "License URL": "https://huggingface.co/datasets/allenai/WildChat"
+      },
+      {
+        "License": "OpenAI",
         "License URL": "https://huggingface.co/datasets/allenai/WildChat"
       }
     ],
     "License Notes": "",
-    "License Verified By": "Unsure who to put?",
-    "Dataset Filter IDs": ["gpt-4", "gpt-3.5-turbo"]
+    "License Verified By": "Minnie",
+    "Dataset Filter IDs": ["gpt-4"]
   }
 }
