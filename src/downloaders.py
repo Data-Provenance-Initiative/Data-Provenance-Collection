@@ -628,3 +628,13 @@ def download_gorilla(accepted_filter_ids):
             ret[key] = ret.get(key, []) + [ex[key]]
 
     return Dataset.from_dict(ret)
+
+
+def download_toxicchat(accepted_filter_ids):
+    config_names = accepted_filter_ids
+    dset = []
+    for c in config_names:
+        raw_dset = huggingface_download('lmsys/toxic-chat', c, split='train')
+        dset.extend(raw_dset)
+
+    return dset
