@@ -1,0 +1,47 @@
+{
+    "toxicchat": {
+        "Unique Dataset Identifier": "toxicchat",
+        "Dataset Name": "ToxicChat",
+        "Collection": "ToxicChat",
+        "Collection URL": "https://lmsys.org/blog/2023-10-30-toxicchat/",
+        "Paper Title": "ToxicChat: Unveiling Hidden Challenges of Toxicity Detection in Real-World User-AI Conversation",
+        "Dataset URL": "https://huggingface.co/datasets/lmsys/toxic-chat",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/lmsys/toxic-chat",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2310.17389",
+        "Semantic Scholar Corpus ID": "264491114",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Binary Classification of Hate Speech",
+            "Binary Classification of Racial Bias",
+            "Offensive Language Detection",
+            "Stereotype Detection",
+            "Toxicity Detection"
+        ],
+        "Text Sources": [
+            "crowdsourced",
+            "human"
+        ],
+        "Model Generated": ["Vicuna"],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": ["LMSYS-Chat-1M"],
+        "Creators": ["UC San Diego"],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://huggingface.co/datasets/lmsys/toxic-chat"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "toxicchat0124"
+        ]
+    }
+}
