@@ -532,3 +532,9 @@ def prepare_open_orca(row):
         {"from": "user", "text": inputs.strip(), "parent": row['source']},
         {"from": "assistant", "text": outputs.strip(), "parent": 0},
     ]
+
+def prepare_toxicchat(row):
+    return[
+        {"from": "user", "text": row["user_input"].strip(), "parent": "toxicchat0124", "score": float(1-row["toxicity"])},
+        {"from": "assistant", "text": row["model_output"].strip(), "parent": 0}
+    ]
