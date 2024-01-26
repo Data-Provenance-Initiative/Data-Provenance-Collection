@@ -164,22 +164,61 @@
         "Semantic Scholar Corpus ID": "",
         "Collection": "Open-Platypus",
         "Collection URL": "https://platypus-llm.github.io",
-        "Languages": [""],
-        "Task Categories": [""],
+        "Languages": [
+            "Spanish",
+            "Russian",
+            "German",
+            "Polish",
+            "Thai",
+            "Vietnamese",
+            "Swedish",
+            "Bengali",
+            "Danish",
+            "Hebrew",
+            "Italian",
+            "Persian",
+            "Slovak",
+            "Indonesian",
+            "Norwegian Bokmål",
+            "Greek",
+            "Dutch",
+            "Hungarian",
+            "Basque",
+            "Chinese",
+            "Esperanto",
+            "Japanese",
+            "Catalan",
+            "Czech",
+            "Bulgarian",
+            "Finnish",
+            "Portuguese",
+            "Turkish",
+            "Romanian",
+            "Arabic",
+            "Ukrainian",
+            "Galician",
+            "French",
+            "Korean"
+        ],
+        "Task Categories": [
+            "Commonsense Reasoning",
+            "Logical and Mathematical Reasoning",
+            "Question Answering"
+        ],
         "Text Sources": [""],
         "Model Generated": [""],
-        "Format": [""],
-        "Human Annotation": [""],
+        "Format": ["Multi-turn Dialog"],
+        "Human Annotation": ["Yes"],
         "Derived from Datasets": [""],
         "Creators": [""],
         "Licenses": [
             {
-                "License": "",
-                "License URL": ""
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/OpenAssistant/oasst1"
             }
         ],
-        "License Notes": "",
-        "License Verified By": "",
+        "License Notes": "Guanaco is a subset of OpenAssistant/oasst1, which is licensed under Apache License 2.0.",
+        "License Verified By": "Cole Hunter",
         "Dataset Filter IDs": [
             "guanaco"
         ]
@@ -300,14 +339,14 @@
         "Semantic Scholar Corpus ID": 259991511,
         "Collection": "Open-Platypus",
         "Collection URL": "https://platypus-llm.github.io",
-        "Languages": [""],
-        "Task Categories": [""],
-        "Text Sources": [""],
+        "Languages": ["English"],
+        "Task Categories": ["Logical and Mathematical Reasoning", "Question Answering"],
+        "Text Sources": ["Books"],
         "Model Generated": [""],
-        "Format": [""],
+        "Format": ["Zero-shot"],
         "Human Annotation": [""],
         "Derived from Datasets": [""],
-        "Creators": [""],
+        "Creators": ["UCLA","University of Washington"],
         "Licenses": [
             {
                 "License": "",
@@ -330,22 +369,22 @@
         "Semantic Scholar Corpus ID": 252383606,
         "Collection": "Open-Platypus",
         "Collection URL": "https://platypus-llm.github.io",
-        "Languages": [""],
-        "Task Categories": [""],
-        "Text Sources": [""],
+        "Languages": ["English"],
+        "Task Categories": ["Chain-of-Thought", "Explanation", "Question Answering"],
+        "Text Sources": ["Books", "Exams"],
         "Model Generated": [""],
         "Format": [""],
-        "Human Annotation": [""],
+        "Human Annotation": ["Yes"],
         "Derived from Datasets": [""],
-        "Creators": [""],
+        "Creators": ["UCLA","Arizona State University","Allen Institute for AI"],
         "Licenses": [
             {
-                "License": "",
-                "License URL": ""
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "https://lupantech.github.io/papers/neurips22_scienceqa.pdf"
             }
         ],
         "License Notes": "",
-        "License Verified By": "",
+        "License Verified By": "Cole Hunter",
         "Dataset Filter IDs": [""]
     },
     "op-theoremqa": {
@@ -360,22 +399,22 @@
         "Semantic Scholar Corpus ID": 258833200,
         "Collection": "Open-Platypus",
         "Collection URL": "https://platypus-llm.github.io",
-        "Languages": [""],
-        "Task Categories": [""],
-        "Text Sources": [""],
+        "Languages": ["English"],
+        "Task Categories": ["Logical and Mathematical Reasoning", "Question Answering"],
+        "Text Sources": ["Books"],
         "Model Generated": [""],
         "Format": [""],
-        "Human Annotation": [""],
+        "Human Annotation": ["Yes"],
         "Derived from Datasets": [""],
-        "Creators": [""],
+        "Creators": ["UCLA","UC Santa Barbara","University of Waterloo"],
         "Licenses": [
             {
-                "License": "",
-                "License URL": ""
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/wenhu/TheoremQA"
             }
         ],
         "License Notes": "",
-        "License Verified By": "",
+        "License Verified By": "Cole Hunter",
         "Dataset Filter IDs": [""]
     },
     "op-tigerbot_leetcode": {
@@ -390,22 +429,22 @@
         "Semantic Scholar Corpus ID": "",
         "Collection": "Open-Platypus",
         "Collection URL": "https://platypus-llm.github.io",
-        "Languages": [""],
-        "Task Categories": [""],
+        "Languages": ["English", "Code"],
+        "Task Categories": ["Code"],
         "Text Sources": [""],
         "Model Generated": [""],
-        "Format": [""],
+        "Format": ["Zero-shot"],
         "Human Annotation": [""],
         "Derived from Datasets": [""],
         "Creators": [""],
         "Licenses": [
             {
-                "License": "",
-                "License URL": ""
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/TigerResearch/tigerbot-kaggle-leetcodesolutions-en-2k"
             }
         ],
-        "License Notes": "",
-        "License Verified By": "",
+        "License Notes": "This is a dataset of Leetcode solutions",
+        "License Verified By": "Cole Hunter",
         "Dataset Filter IDs": ["tigerbot-kaggle"]
     }
 }
