@@ -628,3 +628,7 @@ def download_gorilla(accepted_filter_ids):
             ret[key] = ret.get(key, []) + [ex[key]]
 
     return Dataset.from_dict(ret)
+
+def download_seabench(accepted_filter_ids):
+    dset = huggingface_download('SeaLLMs/Sea-bench', split='train')
+    return dset

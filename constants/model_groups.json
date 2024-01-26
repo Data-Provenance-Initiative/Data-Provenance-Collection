@@ -17,6 +17,7 @@
         "T5",
         "T5-XXL",
         "XLNet",
-        "wikisql"
+        "wikisql",
+        "SeaLLM"
     ]
 }
