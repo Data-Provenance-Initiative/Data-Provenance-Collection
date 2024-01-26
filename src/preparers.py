@@ -532,3 +532,12 @@ def prepare_open_orca(row):
         {"from": "user", "text": inputs.strip(), "parent": row['source']},
         {"from": "assistant", "text": outputs.strip(), "parent": 0},
     ]
+
+def prepare_seabench(row):
+    inputs = row["turns"][0].strip()
+    outputs = row["chatgpt_response"].strip() if row["chatgpt_response"] else ""
+
+    return [
+        {"from": "user", "text": inputs, "parent": "train"},
+        {"from": "assistant", "text": outputs, "parent": 0},
+    ]

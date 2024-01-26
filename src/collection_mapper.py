@@ -206,5 +206,9 @@ COLLECTION_FN_MAPPER = {
     "Open Orca":{
         "download_function": downloaders.download_open_orca,
         "prepare_function": preparers.prepare_open_orca,
+    },
+    "SeaBench": {
+        "download_function": downloaders.download_seabench,
+        "prepare_function": preparers.prepare_seabench,
     }
 }

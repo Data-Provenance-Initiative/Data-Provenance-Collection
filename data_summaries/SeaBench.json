@@ -1,0 +1,58 @@
+{
+    "seabench": {
+        "Unique Dataset Identifier": "seabench",
+        "Dataset Name": "SeaBench",
+        "Paper Title": "SeaLLMs - Large Language Models for Southeast Asia",
+        "Dataset URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench/raw/main/question.jsonl",
+        "GitHub URL": "https://github.com/DAMO-NLP-SG/SeaLLMs",
+        "Hugging Face URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
+        "ArXiv URL": "https://arxiv.org/abs/2312.00738",
+        "Semantic Scholar Corpus ID": "265551745",
+        "Collection": "SeaBench",
+        "Languages": [
+            "Tagalog",
+            "Khmer",
+            "Vietnamese",
+            "Thai",
+            "Lao",
+            "Burmese",
+            "Indonesian",
+            "Standard Malay",
+            "English"
+        ],
+        "Task Categories": [
+            "Summarization",
+            "Translation",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "commoncrawl.org",
+            "local websites",
+            "annotation from native speaker annotators"
+        ],
+        "Model Generated": [
+            "SeaLLM"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Creators": [
+            "DAMO Academy Alibaba Group"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench"
+            }
+        ],
+        "Dataset Filter IDs": [
+            "train"
+        ],
+        "License Notes": "",
+        "Collection URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
+        "Papers with Code URL": "",
+        "License Verified By": "",
+        "Derived from Datasets": []
+    }
+}
