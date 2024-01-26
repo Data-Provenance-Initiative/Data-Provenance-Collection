@@ -53,6 +53,7 @@
     "Books": [
         "Gutenberg Poetry Corpus",
         "arts and crafts essays",
+        "berkeley problems in mathematics",
         "berlitz travel guide",
         "bible",
         "bible-uedin",
@@ -62,6 +63,7 @@
         "fiction e-books",
         "huggingface.co/datasets/bookcorpus",
         "internet archive",
+        "major american universities ph.d. qualifying questions and solutions",
         "manybooks.net/categories/ccl",
         "marion harland's cookery for beginners",
         "non-fiction books",
@@ -70,13 +72,19 @@
         "out of his mind (book)",
         "poems written by children in grades 1 to 12",
         "poetryfoundation.com",
+        "problems and solutions on electromagnetism",
+        "problems and solutions on mechanics",
+        "problems and solutions on optics",
+        "problems and solutions on thermodynamics and statistical mechanics",
         "project gutenberg",
+        "putnam and beyond",
         "quran",
         "syntax textbooks",
         "the chronicles of newgate",
         "the fireside chats of franklin delano roosevelt",
         "the science - history of the universe",
         "the seven wonders of the ancient world",
+        "undergraduate mathematics competitions (1995-2016)",
         "wikibooks"
     ],
     "Code": [
@@ -209,6 +217,7 @@
         "aiims pg exams",
         "amboss.com/us/usmle",
         "arithmetic word problems",
+        "bar exam",
         "chinese psychological exam",
         "chinese psychological exams",
         "exams",
@@ -287,6 +296,7 @@
         "human"
     ],
     "Legal": [
+        "bar exam",
         "california state bills",
         "casetext company",
         "chinese legal advice qa",
