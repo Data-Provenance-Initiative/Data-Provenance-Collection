@@ -628,3 +628,7 @@ def download_gorilla(accepted_filter_ids):
             ret[key] = ret.get(key, []) + [ex[key]]
 
     return Dataset.from_dict(ret)
+
+def download_open_platypus(accepted_filter_ids):
+    dset = huggingface_download("garage-bAInd/Open-Platypus", split="train")
+    return pool_filter(dset, "data_source", accepted_filter_ids)
