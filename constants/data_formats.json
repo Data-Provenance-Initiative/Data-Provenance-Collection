@@ -3,5 +3,6 @@
     "Few-shot",
     "Chain-of-Thought",
     "Multi-turn Dialog",
+    "Program of Thoughts",
     "Response Ranking"
 ]

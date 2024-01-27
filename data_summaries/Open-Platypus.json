@@ -19,10 +19,11 @@
             "Brainstorming",
             "Code",
             "Creative Writing",
-            "Question Answering"
+            "Question Answering",
+            "Question Understanding"
         ],
         "Text Sources": [
-            "Models"
+            "OpenAI ChatGPT"
         ],
         "Model Generated": [
             "OpenAI GPT-4",
@@ -66,15 +67,24 @@
             "English"
         ],
         "Task Categories": [
+            "Argumentative Reasoning",
             "Commonsense Reasoning",
+            "Chain-of-Thought",
             "Logical and Mathematical Reasoning",
             "Question Answering"
 
         ],
         "Text Sources": [
-            "Biomedical",
-            "Exams",
-            "Legal"
+            "bar exam",
+            "berkeley problems in mathematics",
+            "major american universities ph.d. qualifying questions and solutions",
+            "mcat tests",
+            "problems and solutions on electromagnetism",
+            "problems and solutions on mechanics",
+            "problems and solutions on optics",
+            "problems and solutions on thermodynamics and statistical mechanics",
+            "putnam and beyond",
+            "undergraduate mathematics competitions (1995-2016)"
         ],
         "Model Generated": [],
         "Format": [
@@ -123,7 +133,7 @@
             "Question Answering"
         ],
         "Text Sources": [
-            "Models"
+            "OpenAI GPT-4"
         ],
         "Model Generated": [
             "OpenAI GPT-4"
@@ -156,12 +166,12 @@
         "Unique Dataset Identifier": "op-openassistant_guanaco",
         "Dataset Name": "openassistant-guanaco",
         "Paper Title": "QLORA: Efficient Finetuning of Quantized LLMs",
-        "Dataset URL": "timdettmers/openassistant-guanaco",
+        "Dataset URL": "https://huggingface.co/datasets/timdettmers/openassistant-guanaco",
         "GitHub URL": "https://github.com/artidoro/qlora",
         "Hugging Face URL": "https://huggingface.co/datasets/timdettmers/openassistant-guanaco",
         "Papers with Code URL": "",
         "ArXiv URL": "https://arxiv.org/abs/2305.14314",
-        "Semantic Scholar Corpus ID": "",
+        "Semantic Scholar Corpus ID": 258841328,
         "Collection": "Open-Platypus",
         "Collection URL": "https://platypus-llm.github.io",
         "Languages": [
@@ -201,16 +211,28 @@
             "Korean"
         ],
         "Task Categories": [
+            "Clarification Question Answering",
             "Commonsense Reasoning",
+            "Instructional Question Answering",
             "Logical and Mathematical Reasoning",
+            "Multiple Choice Question Answering",
+            "Open-Ended Question Answering",
             "Question Answering"
         ],
-        "Text Sources": [""],
-        "Model Generated": [""],
-        "Format": ["Multi-turn Dialog"],
-        "Human Annotation": ["Yes"],
-        "Derived from Datasets": [""],
-        "Creators": [""],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "OpenAssistant Conversations Dataset"
+        ],
+        "Creators": [
+            "University of Washington"
+        ],
         "Licenses": [
             {
                 "License": "Apache License 2.0",
@@ -243,11 +265,12 @@
             "Chain-of-Thought",
             "Explanation",
             "Logical and Mathematical Reasoning",
-            "Question Answering"
+            "Question Answering",
+            "Step-by-Step Instruction Generation"
         ],
         "Text Sources": [
-            "Books",
-            "Models"
+            "mathematical association of america",
+            "OpenAI GPT-4"
         ],
         "Model Generated": [
             "OpenAI GPT-4"
@@ -297,14 +320,18 @@
             "English"
         ],
         "Task Categories": [
+            "Argumentative Reasoning",
             "Commonsense Reasoning",
             "Language Style Analysis",
+            "Multiple Choice Question Answering",
             "Natural Language Inference",
             "Question Answering"
         ],
         "Text Sources": [
-            "Exams",
-            "Legal"
+            "books",
+            "gmat",
+            "lsat",
+            "undisclosed web"
         ],
         "Model Generated": [],
         "Format": [
@@ -339,23 +366,47 @@
         "Semantic Scholar Corpus ID": 259991511,
         "Collection": "Open-Platypus",
         "Collection URL": "https://platypus-llm.github.io",
-        "Languages": ["English"],
-        "Task Categories": ["Logical and Mathematical Reasoning", "Question Answering"],
-        "Text Sources": ["Books"],
-        "Model Generated": [""],
-        "Format": ["Zero-shot"],
-        "Human Annotation": [""],
-        "Derived from Datasets": [""],
-        "Creators": ["UCLA","University of Washington"],
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Logical and Mathematical Reasoning",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "calculus: early transcendentals",
+            "classical dynamics of particles and systems",
+            "elementary differential equations and boundary value problems",
+            "fundamentals of physics",
+            "physical chemistry",
+            "physical chemistry, quanta, matter, and change",
+            "probability and statistical inference",
+            "quantum chemistry",
+            "statistical thermodynamics"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Chain-of-Thought",
+            "Few-shot",
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "UCLA",
+            "University of Washington"
+        ],
         "Licenses": [
             {
-                "License": "",
-                "License URL": ""
+                "License": "MIT License",
+                "License URL": "https://github.com/mandyyyyii/scibench/tree/main"
             }
         ],
-        "License Notes": "",
-        "License Verified By": "",
-        "Dataset Filter IDs": [""]
+        "License Notes": "The license on GitHub is MIT and no license is provided on HF or in the paper.",
+        "License Verified By": "Ariel Lee",
+        "Dataset Filter IDs": [
+            "scibench"
+        ]
     },
     "op-scienceqa": {
         "Unique Dataset Identifier": "op-scienceqa",
@@ -369,23 +420,42 @@
         "Semantic Scholar Corpus ID": 252383606,
         "Collection": "Open-Platypus",
         "Collection URL": "https://platypus-llm.github.io",
-        "Languages": ["English"],
-        "Task Categories": ["Chain-of-Thought", "Explanation", "Question Answering"],
-        "Text Sources": ["Books", "Exams"],
-        "Model Generated": [""],
-        "Format": [""],
-        "Human Annotation": ["Yes"],
-        "Derived from Datasets": [""],
-        "Creators": ["UCLA","Arizona State University","Allen Institute for AI"],
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought",
+            "Explanation",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "Books",
+            "Exams"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Chain-of-Thought",
+            "Few-shot",
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "UCLA",
+            "Arizona State University",
+            "Allen Institute for AI"
+        ],
         "Licenses": [
             {
                 "License": "CC BY-NC-SA 4.0",
-                "License URL": "https://lupantech.github.io/papers/neurips22_scienceqa.pdf"
+                "License URL": "https://github.com/lupantech/ScienceQA/blob/main/LICENSE-DATA"
             }
         ],
-        "License Notes": "",
+        "License Notes": "Both the paper and data license on GitHub are Attribution-NonCommercial-ShareAlike 4.0 International",
         "License Verified By": "Cole Hunter",
-        "Dataset Filter IDs": [""]
+        "Dataset Filter IDs": [
+            "scienceqa"
+        ]
     },
     "op-theoremqa": {
         "Unique Dataset Identifier": "op-theoremqa",
@@ -399,14 +469,33 @@
         "Semantic Scholar Corpus ID": 258833200,
         "Collection": "Open-Platypus",
         "Collection URL": "https://platypus-llm.github.io",
-        "Languages": ["English"],
-        "Task Categories": ["Logical and Mathematical Reasoning", "Question Answering"],
-        "Text Sources": ["Books"],
-        "Model Generated": [""],
-        "Format": [""],
-        "Human Annotation": ["Yes"],
-        "Derived from Datasets": [""],
-        "Creators": ["UCLA","UC Santa Barbara","University of Waterloo"],
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Logical and Mathematical Reasoning",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "Books",
+            "human",
+            "OpenAI GPT-4",
+            "undisclosed web"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
+        "Format": [
+            "Chain-of-Thought",
+            "Program of Thoughts"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "UCLA",
+            "UC Santa Barbara",
+            "University of Waterloo"
+        ],
         "Licenses": [
             {
                 "License": "MIT License",
@@ -415,7 +504,9 @@
         ],
         "License Notes": "",
         "License Verified By": "Cole Hunter",
-        "Dataset Filter IDs": [""]
+        "Dataset Filter IDs": [
+            "theoremqa"
+        ]
     },
     "op-tigerbot_leetcode": {
         "Unique Dataset Identifier": "op-tigerbot_leetcode",
@@ -429,22 +520,37 @@
         "Semantic Scholar Corpus ID": "",
         "Collection": "Open-Platypus",
         "Collection URL": "https://platypus-llm.github.io",
-        "Languages": ["English", "Code"],
-        "Task Categories": ["Code"],
-        "Text Sources": [""],
-        "Model Generated": [""],
-        "Format": ["Zero-shot"],
-        "Human Annotation": [""],
-        "Derived from Datasets": [""],
-        "Creators": [""],
+        "Languages": [
+            "English",
+            "Code"
+        ],
+        "Task Categories": [
+            "Code"
+        ],
+        "Text Sources": [],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "Kaggle Leetcode Solutions"
+        ],
+        "Creators": [],
         "Licenses": [
             {
                 "License": "Apache License 2.0",
                 "License URL": "https://huggingface.co/datasets/TigerResearch/tigerbot-kaggle-leetcodesolutions-en-2k"
+            },
+            {
+                "License": "GNU General Public License v3.0",
+                "License URL": "https://www.kaggle.com/datasets/erichartford/leetcode-solutions"
             }
         ],
-        "License Notes": "This is a dataset of Leetcode solutions",
+        "License Notes": "The original dataset from Kaggle lists GNU but the HF dataset lists Apache License 2.0. Looks like the kaggle dataset was first, and then a 3rd party uploaded to HF.",
         "License Verified By": "Cole Hunter",
-        "Dataset Filter IDs": ["tigerbot-kaggle"]
+        "Dataset Filter IDs": [
+            "tigerbot-kaggle"
+        ]
     }
 }
