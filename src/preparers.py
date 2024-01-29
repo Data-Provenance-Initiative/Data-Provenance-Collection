@@ -62,6 +62,13 @@ def prepare_dolly_15k(row):
         input_text, target_text, row["category"]
     )
 
+def prepare_thai_gen_ai_dolly(row):
+    input_text = "\n".join([row["context"], row["instruction"]]).strip() if row["context"] else row["instruction"]
+    target_text = row["response"]
+    return convert_inputs_targets_to_messages(
+        input_text, target_text, row["category"]
+    )
+
 def prepare_laion_oig(row):
     # Rosey is there since unified_joke_explanations uses this instead of <bot> marker.
     turn_markers = ["<human>:", "<bot>:", "Rosey:"]
@@ -240,10 +247,36 @@ def prepare_everything_lm(row):
         inputs, row["output"], "everything_lm",
     )
 
+def prepare_llama2_med_tuned_instructions(row):
+    inputs = "\n".join([row["instruction"], row["input"]]).strip()
+    return convert_inputs_targets_to_messages(
+        inputs, row["output"], "llama2_med_tuned_instructions",
+    )
+
 def prepare_evol_instruct(row):
     return convert_inputs_targets_to_messages(
         row['instruction'], row["output"], "evol_instruct",
     )
+
+def prepare_pure_dove(row):
+    messages = []
+    parent_id = 0
+    for i, turn in enumerate(row["conversation"]):
+        messages.append({
+            "from": "user",
+            "text": turn["input"].strip(),
+            "parent": "pure_dove" if i == 0 else parent_id,
+        })
+        if parent_id != 0:
+            parent_id += 1
+        messages.append({
+            "from": "assistant",
+            "text": turn["output"].strip(),
+            "parent": parent_id,
+        })
+        parent_id += 1
+    return messages
+
 
 def prepare_sharegpt_vicuna(row):
     parent = "sharegpt_vicuna"
@@ -324,6 +357,14 @@ def prepare_gpt4_alpaca(row):
         inputs, row["output"], "gpt4alpaca",
     )
 
+def prepare_thai_gen_ai_alpaca(row):
+    inputs = row["instruction"].strip()
+    if row["input"]:
+        inputs += "\n" + row["input"].strip()
+    return convert_inputs_targets_to_messages(
+        inputs, row["output"], "thai_gen_ai_alpaca",
+    )
+
 def prepare_tasksource_instruct(row):
     # task_name = "tsi-" + row['task'].replace("-", "_").replace("/", "-")
     return convert_inputs_targets_to_messages(
@@ -346,6 +387,14 @@ def prepare_starcoder_self_instruct(row):
     return convert_inputs_targets_to_messages(
         row['instruction'], row['output'],
         'starcoder-self-instruct'
+    )
+
+def prepare_thai_gen_ai_gpteacher(row):
+    inputs = row["instruction"].strip()
+    if row["input"]:
+        inputs += "\n" + row["input"].strip()
+    return convert_inputs_targets_to_messages(
+        inputs, row["output"], "thai_gen_ai_gpteacher",
     )
 
 def tinystories_get_example(it):
