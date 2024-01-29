@@ -10,6 +10,7 @@
         "Anthropic Internal Models",
         "CTRL",
         "Flan-T5",
+        "Google Cloud Translation API",
         "Grover",
         "Instruct-GPT-J",
         "StarCoder",

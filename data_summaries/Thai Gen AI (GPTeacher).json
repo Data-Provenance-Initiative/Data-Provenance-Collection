@@ -1,0 +1,68 @@
+{
+    "thai_gen_ai_gpteacher": {
+        "Unique Dataset Identifier": "thai_gen_ai_gpteacher",
+        "Dataset Name": "thai_gen_ai_gpteacher",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/Thaweewat/gpteacher-20k-th",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/Thaweewat/gpteacher-20k-th",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "Thai Gen AI (GPTeacher)",
+        "Collection URL": "https://huggingface.co/collections/Thaweewat/thai-gen-ai-dataset-653cc1c0d6f7982a7a4a9e2c",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Summarization",
+            "Multiple Choice Question Answering",
+            "Logical Reasoning",
+            "Sentence Rewriting",
+            "Paraphrase Generation",
+            "Natural Language Generation (NLG)",
+            "Vegetarian Recipe Modification Question Answering",
+            "Algebraic Expression Evaluation",
+            "Text Classification",
+            "File Line Counting",
+            "Temperature Conversion Question Answering",
+            "String Formatting",
+            "API Endpoint Creation Question Answering",
+            "C++ Program Synthesis",
+            "Recursive Function Generation",
+            "Algebraic Expression Evaluation",
+            "Multiple Choice Question Answering",
+            "File Search and Replace Generation",
+            "Natural Language Processing Question Answering",
+            "Command Line Execution Question Answering",
+            "Multiple Choice Question Answering",
+            "Algebraic Expression Evaluation",
+            "News Headline Retrieval",
+            "Web Scraping using Python Requests",
+            "Information Retrieval",
+            "Webpage Content Retrieval",
+            "Roleplay"
+        ],
+        "Text Sources": [],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/Thaweewat/gpteacher-20k-th"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "thai_gen_ai_gpteacher"
+        ]
+    }
+}
