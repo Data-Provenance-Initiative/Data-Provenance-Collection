@@ -1,0 +1,254 @@
+{
+    "coig-translated-instruction": {
+        "Unique Dataset Identifier": "coig-translated-instruction",
+        "Dataset Name": "COIG Translated Instructions",
+        "Paper Title": "Chinese Open Instruction Generalist: A Preliminary Release",
+        "Dataset URL": "https://github.com/BAAI-Zlab/COIG",
+        "GitHub URL": "https://github.com/BAAI-Zlab/COIG",
+        "Hugging Face URL": "https://huggingface.co/datasets/BAAI/COIG",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.07987",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "COIG",
+        "Collection URL": "https://huggingface.co/datasets/BAAI/COIG",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Sources": [],
+        "Model Generated": ["DeepL"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "niv2",
+            "self-instruct",
+            "unnatural-instructions"
+        ],
+        "Creators": [
+            "Beijing Academy of Artificial Intelligence",
+            "Beihang University",
+            "Carnegie Mellon University",
+            "Dartmouth University",
+            "University of Michigan",
+            "University of Sheffield",
+            "Zhejiang University"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-translated-instruction"
+        ]
+    },
+    "coig-exam-instruction": {
+        "Unique Dataset Identifier": "coig-exam-instruction",
+        "Dataset Name": "COIG Exam Instructions",
+        "Paper Title": "Chinese Open Instruction Generalist: A Preliminary Release",
+        "Dataset URL": "https://github.com/BAAI-Zlab/COIG",
+        "GitHub URL": "https://github.com/BAAI-Zlab/COIG",
+        "Hugging Face URL": "https://huggingface.co/datasets/BAAI/COIG",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.07987",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "COIG",
+        "Collection URL": "https://huggingface.co/datasets/BAAI/COIG",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "nationwide unified examination for admissions to general universities and colleges of china",
+            "the academic test for yhe junior high school students of china",
+            "national civil servants examination of china"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Beijing Academy of Artificial Intelligence",
+            "Beihang University",
+            "Carnegie Mellon University",
+            "Dartmouth University",
+            "University of Michigan",
+            "University of Sheffield",
+            "Zhejiang University"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-exam-instruction"
+        ]
+    },
+    "coig-alignment-instruction": {
+        "Unique Dataset Identifier": "coig-alignment-instruction",
+        "Dataset Name": "COIG Human Value Alignment Instructions",
+        "Paper Title": "Chinese Open Instruction Generalist: A Preliminary Release",
+        "Dataset URL": "https://github.com/BAAI-Zlab/COIG",
+        "GitHub URL": "https://github.com/BAAI-Zlab/COIG",
+        "Hugging Face URL": "https://huggingface.co/datasets/BAAI/COIG",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.07987",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "COIG",
+        "Collection URL": "https://huggingface.co/datasets/BAAI/COIG",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "textbooks", 
+            "exams"
+        ],
+        "Model Generated": ["OpenAI GPT-3"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Beijing Academy of Artificial Intelligence",
+            "Beihang University",
+            "Carnegie Mellon University",
+            "Dartmouth University",
+            "University of Michigan",
+            "University of Sheffield",
+            "Zhejiang University"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-alignment-instruction"
+        ]
+    },
+    "coig-counterfactual-correction": {
+        "Unique Dataset Identifier": "coig-counterfactual-correction",
+        "Dataset Name": "COIG Counterfactual Correction Multi-round Chat",
+        "Paper Title": "Chinese Open Instruction Generalist: A Preliminary Release",
+        "Dataset URL": "https://github.com/BAAI-Zlab/COIG",
+        "GitHub URL": "https://github.com/BAAI-Zlab/COIG",
+        "Hugging Face URL": "https://huggingface.co/datasets/BAAI/COIG",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.07987",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "COIG",
+        "Collection URL": "https://huggingface.co/datasets/BAAI/COIG",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Sources": [],
+        "Model Generated": ["OpenAI ChatGPT"],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "cn-dbpedia"
+        ],
+        "Creators": [
+            "Beijing Academy of Artificial Intelligence",
+            "Beihang University",
+            "Carnegie Mellon University",
+            "Dartmouth University",
+            "University of Michigan",
+            "University of Sheffield",
+            "Zhejiang University"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-counterfactual-correction"
+        ]
+    },
+    "coig-leetcode": {
+        "Unique Dataset Identifier": "coig-leetcode",
+        "Dataset Name": "COIG Counterfactual Correction Multi-round Chat",
+        "Paper Title": "Chinese Open Instruction Generalist: A Preliminary Release",
+        "Dataset URL": "https://github.com/BAAI-Zlab/COIG",
+        "GitHub URL": "https://github.com/BAAI-Zlab/COIG",
+        "Hugging Face URL": "https://huggingface.co/datasets/BAAI/COIG",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.07987",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "COIG",
+        "Collection URL": "https://huggingface.co/datasets/BAAI/COIG",
+        "Languages": [
+            "Chinese",
+            "Code"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "leetcode.com"
+        ],
+        "Model Generated": ["OpenAI ChatGPT"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "https://github.com/doocs/leetcode"
+        ],
+        "Creators": [
+            "Beijing Academy of Artificial Intelligence",
+            "Beihang University",
+            "Carnegie Mellon University",
+            "Dartmouth University",
+            "University of Michigan",
+            "University of Sheffield",
+            "Zhejiang University"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-leetcode"
+        ]
+    }
+}
