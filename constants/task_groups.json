@@ -60,7 +60,8 @@
         "Reasoning over Natural Language",
         "Spatial Reasoning Question Answering",
         "Word Relation Classification",
-        "Word Semantics"
+        "Word Semantics",
+        "Task-Specific Actions"
     ],
     "Creative Writing": [
         "Advertising Slogan Generation",
