@@ -1,0 +1,481 @@
+{
+    "metamathqa-MATH_Rephrased": {
+        "Unique Dataset Identifier": "metamathqa-MATH_Rephrased",
+        "Dataset Name": "metamathqa_MATH_Rephrased",
+        "Paper Title": "MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models",
+        "Dataset URL": "https://huggingface.co/datasets/meta-math/MetaMathQA",
+        "GitHub URL": "https://github.com/meta-math/MetaMath",
+        "Hugging Face URL": "https://huggingface.co/datasets/meta-math/MetaMathQA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2309.12284",
+        "Semantic Scholar Corpus ID": "262084051",
+        "Collection": "MetaMathQA",
+        "Collection URL": "https://meta-math.github.io/",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Logical and Mathematical Reasoning",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "math"
+        ],
+        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Format": [
+            "Few-shot",
+            "Chain-of-Thought",
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "math"
+        ],
+        "Creators": [
+            "University of Cambridge",
+            "Southern University of Science and Technology",
+            "The Hong Kong University of Science and Technology",
+            "Huawei Noah’s Ark Lab",
+            "Alan Turing Institute",
+            "Max Planck Institute for Intelligent Systems"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/meta-math/MetaMathQA"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/hendrycks/math/blob/main/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2309.12284"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "MATH_Rephrased"
+        ]
+    },"metamathqa-MATH_AnsAug": {
+        "Unique Dataset Identifier": "metamathqa-MATH_AnsAug",
+        "Dataset Name": "metamathqa_MATH_AnsAug",
+        "Paper Title": "MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models",
+        "Dataset URL": "https://huggingface.co/datasets/meta-math/MetaMathQA",
+        "GitHub URL": "https://github.com/meta-math/MetaMath",
+        "Hugging Face URL": "https://huggingface.co/datasets/meta-math/MetaMathQA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2309.12284",
+        "Semantic Scholar Corpus ID": "262084051",
+        "Collection": "MetaMathQA",
+        "Collection URL": "https://meta-math.github.io/",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Logical and Mathematical Reasoning",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "math"
+        ],
+        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Format": [
+            "Few-shot",
+            "Chain-of-Thought",
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "math"
+        ],
+        "Creators": [
+            "University of Cambridge",
+            "Southern University of Science and Technology",
+            "The Hong Kong University of Science and Technology",
+            "Huawei Noah’s Ark Lab",
+            "Alan Turing Institute",
+            "Max Planck Institute for Intelligent Systems"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/meta-math/MetaMathQA"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/hendrycks/math/blob/main/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2309.12284"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "MATH_AnsAug"
+        ]
+    },
+    "metamathqa-MATH_FOBAR": {
+        "Unique Dataset Identifier": "metamathqa-MATH_FOBAR",
+        "Dataset Name": "metamathqa_MATH_FOBAR",
+        "Paper Title": "MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models",
+        "Dataset URL": "https://huggingface.co/datasets/meta-math/MetaMathQA",
+        "GitHub URL": "https://github.com/meta-math/MetaMath",
+        "Hugging Face URL": "https://huggingface.co/datasets/meta-math/MetaMathQA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2309.12284",
+        "Semantic Scholar Corpus ID": "262084051",
+        "Collection": "MetaMathQA",
+        "Collection URL": "https://meta-math.github.io/",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Logical and Mathematical Reasoning",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "math"
+        ],
+        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Format": [
+            "Few-shot",
+            "Chain-of-Thought",
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "math"
+        ],
+        "Creators": [
+            "University of Cambridge",
+            "Southern University of Science and Technology",
+            "The Hong Kong University of Science and Technology",
+            "Huawei Noah’s Ark Lab",
+            "Alan Turing Institute",
+            "Max Planck Institute for Intelligent Systems"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/meta-math/MetaMathQA"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/hendrycks/math/blob/main/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2309.12284"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "MATH_FOBAR"
+        ]
+    },
+    "metamathqa-MATH_SV": {
+        "Unique Dataset Identifier": "metamathqa-MATH_SV",
+        "Dataset Name": "metamathqa_MATH_SV",
+        "Paper Title": "MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models",
+        "Dataset URL": "https://huggingface.co/datasets/meta-math/MetaMathQA",
+        "GitHub URL": "https://github.com/meta-math/MetaMath",
+        "Hugging Face URL": "https://huggingface.co/datasets/meta-math/MetaMathQA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2309.12284",
+        "Semantic Scholar Corpus ID": "262084051",
+        "Collection": "MetaMathQA",
+        "Collection URL": "https://meta-math.github.io/",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Logical and Mathematical Reasoning",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "math"
+        ],
+        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Format": [
+            "Few-shot",
+            "Chain-of-Thought",
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "math"
+        ],
+        "Creators": [
+            "University of Cambridge",
+            "Southern University of Science and Technology",
+            "The Hong Kong University of Science and Technology",
+            "Huawei Noah’s Ark Lab",
+            "Alan Turing Institute",
+            "Max Planck Institute for Intelligent Systems"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/meta-math/MetaMathQA"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/hendrycks/math/blob/main/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2309.12284"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "MATH_SV"
+        ]
+    },
+    "metamathqa-GSM_Rephrased": {
+        "Unique Dataset Identifier": "metamathqa-GSM_Rephrased",
+        "Dataset Name": "metamathqa_GSM_Rephrased",
+        "Paper Title": "MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models",
+        "Dataset URL": "https://huggingface.co/datasets/meta-math/MetaMathQA",
+        "GitHub URL": "https://github.com/meta-math/MetaMath",
+        "Hugging Face URL": "https://huggingface.co/datasets/meta-math/MetaMathQA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2309.12284",
+        "Semantic Scholar Corpus ID": "262084051",
+        "Collection": "MetaMathQA",
+        "Collection URL": "https://meta-math.github.io/",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Logical and Mathematical Reasoning",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "gsm8k"
+        ],
+        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Format": [
+            "Few-shot",
+            "Chain-of-Thought",
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "gsm8k"
+        ],
+        "Creators": [
+            "University of Cambridge",
+            "Southern University of Science and Technology",
+            "The Hong Kong University of Science and Technology",
+            "Huawei Noah’s Ark Lab",
+            "Alan Turing Institute",
+            "Max Planck Institute for Intelligent Systems"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/meta-math/MetaMathQA"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/openai/grade-school-math/blob/master/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2309.12284"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "GSM_Rephrased"
+        ]
+    },
+    "metamathqa-GSM_AnsAug": {
+        "Unique Dataset Identifier": "metamathqa-GSM_AnsAug",
+        "Dataset Name": "metamathqa_GSM_AnsAug",
+        "Paper Title": "MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models",
+        "Dataset URL": "https://huggingface.co/datasets/meta-math/MetaMathQA",
+        "GitHub URL": "https://github.com/meta-math/MetaMath",
+        "Hugging Face URL": "https://huggingface.co/datasets/meta-math/MetaMathQA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2309.12284",
+        "Semantic Scholar Corpus ID": "262084051",
+        "Collection": "MetaMathQA",
+        "Collection URL": "https://meta-math.github.io/",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Logical and Mathematical Reasoning",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "gsm8k"
+        ],
+        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Format": [
+            "Few-shot",
+            "Chain-of-Thought",
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "gsm8k"
+        ],
+        "Creators": [
+            "University of Cambridge",
+            "Southern University of Science and Technology",
+            "The Hong Kong University of Science and Technology",
+            "Huawei Noah’s Ark Lab",
+            "Alan Turing Institute",
+            "Max Planck Institute for Intelligent Systems"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/meta-math/MetaMathQA"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/openai/grade-school-math/blob/master/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2309.12284"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "GSM_AnsAug"
+        ]
+    },
+    "metamathqa-GSM_FOBAR": {
+        "Unique Dataset Identifier": "metamathqa-GSM_FOBAR",
+        "Dataset Name": "metamathqa_GSM_FOBAR",
+        "Paper Title": "MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models",
+        "Dataset URL": "https://huggingface.co/datasets/meta-math/MetaMathQA",
+        "GitHub URL": "https://github.com/meta-math/MetaMath",
+        "Hugging Face URL": "https://huggingface.co/datasets/meta-math/MetaMathQA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2309.12284",
+        "Semantic Scholar Corpus ID": "262084051",
+        "Collection": "MetaMathQA",
+        "Collection URL": "https://meta-math.github.io/",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Logical and Mathematical Reasoning",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "gsm8k"
+        ],
+        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Format": [
+            "Few-shot",
+            "Chain-of-Thought",
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "gsm8k"
+        ],
+        "Creators": [
+            "University of Cambridge",
+            "Southern University of Science and Technology",
+            "The Hong Kong University of Science and Technology",
+            "Huawei Noah’s Ark Lab",
+            "Alan Turing Institute",
+            "Max Planck Institute for Intelligent Systems"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/meta-math/MetaMathQA"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/openai/grade-school-math/blob/master/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2309.12284"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "GSM_FOBAR"
+        ]
+    },
+    "metamathqa-GSM_SV": {
+        "Unique Dataset Identifier": "metamathqa-GSM_SV",
+        "Dataset Name": "metamathqa_GSM_SV",
+        "Paper Title": "MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models",
+        "Dataset URL": "https://huggingface.co/datasets/meta-math/MetaMathQA",
+        "GitHub URL": "https://github.com/meta-math/MetaMath",
+        "Hugging Face URL": "https://huggingface.co/datasets/meta-math/MetaMathQA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2309.12284",
+        "Semantic Scholar Corpus ID": "262084051",
+        "Collection": "MetaMathQA",
+        "Collection URL": "https://meta-math.github.io/",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Logical and Mathematical Reasoning",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "gsm8k"
+        ],
+        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Format": [
+            "Few-shot",
+            "Chain-of-Thought",
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "gsm8k"
+        ],
+        "Creators": [
+            "University of Cambridge",
+            "Southern University of Science and Technology",
+            "The Hong Kong University of Science and Technology",
+            "Huawei Noah’s Ark Lab",
+            "Alan Turing Institute",
+            "Max Planck Institute for Intelligent Systems"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/meta-math/MetaMathQA"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/openai/grade-school-math/blob/master/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2309.12284"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "GSM_SV"
+        ]
+    }
+}
