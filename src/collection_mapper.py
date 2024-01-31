@@ -168,7 +168,7 @@ COLLECTION_FN_MAPPER = {
     "Tasksource Symbol-Tuning": {
         "download_function": downloaders.download_tasksource_symbol_tuning,
         "prepare_function": preparers.prepare_tasksource_instruct
-    },  
+    },
     "Stack Exchange Instruction": {
         "download_function": downloaders.download_stack_exchange_instruction,
         "prepare_function": preparers.prepare_stack_exchange_instruction,
@@ -177,7 +177,6 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_joke_explanation,
         "prepare_function": preparers.prepare_joke_explanation,
     },
-
     "Book Summaries": {
         "download_function": downloaders.download_book_summaries,
         "prepare_function": preparers.prepare_book_summaries,
@@ -206,9 +205,12 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_baize_data,
         "prepare_function": preparers.prepare_baize_data,
     },
-    
-    "Open Orca":{
+    "Open Orca": {
         "download_function": downloaders.download_open_orca,
         "prepare_function": preparers.prepare_open_orca,
+    },
+    "AgentInstruct": {
+        "download_function": downloaders.download_agentinstruct,
+        "prepare_function": preparers.prepare_agentinstruct,
     }
 }
