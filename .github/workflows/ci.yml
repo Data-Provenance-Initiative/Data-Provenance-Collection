@@ -36,5 +36,5 @@ jobs:
     - name: Run Tests
       run: |
         while IFS= read -r collection; do
-          python run_tests.py "$collection"
+          python src/test_new_collection.py --collection "$collection"
         done <<< "${{ steps.collection.outputs.collections }}"
