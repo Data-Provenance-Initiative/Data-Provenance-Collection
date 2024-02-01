@@ -3,8 +3,8 @@
         "OpenAI ChatGPT",
         "OpenAI Codex",
         "OpenAI GPT-3",
-        "GPT-3.5-turbo",
-        "GPT-3.5-turbo-instruct",
+        "OpenAI GPT-3.5-turbo-instruct",
+        "OpenAI GPT-3.5-Turbo",
         "OpenAI GPT-4",
         "OpenAI Playground"
     ],
