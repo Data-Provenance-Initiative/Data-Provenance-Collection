@@ -24,8 +24,8 @@
             "huggingface.co/datasets/SirNeural/flan_v2"
         ],
         "Model Generated": [
-            "GPT-3.5-turbo",
-            "GPT-3.5-turbo-instruct",
+            "OpenAI GPT-3.5-Turbo",
+            "OpenAI GPT-3.5-turbo-instruct",
             "OpenAI GPT-4",
             "LLama-2-7B-chat",
             "Mistral-7B-Instruct"
