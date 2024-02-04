@@ -660,7 +660,7 @@ def download_agentinstruct(accepted_filter_ids):
         dset.append(huggingface_download('THUDM/AgentInstruct', split='mind2web'))
 
     return dset
-    
+
 
 def download_open_platypus(accepted_filter_ids):
     dset = huggingface_download("garage-bAInd/Open-Platypus", split="train")
