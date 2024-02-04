@@ -22,9 +22,7 @@
             "Question Answering",
             "Question Understanding"
         ],
-        "Text Sources": [
-            "OpenAI ChatGPT"
-        ],
+        "Text Sources": [],
         "Model Generated": [
             "OpenAI GPT-4",
             "OpenAI ChatGPT"
@@ -79,12 +77,9 @@
             "berkeley problems in mathematics",
             "major american universities ph.d. qualifying questions and solutions",
             "mcat tests",
-            "problems and solutions on electromagnetism",
-            "problems and solutions on mechanics",
-            "problems and solutions on optics",
-            "problems and solutions on thermodynamics and statistical mechanics",
-            "putnam and beyond",
-            "undergraduate mathematics competitions (1995-2016)"
+            "textbook: putnam and beyond",
+            "undergraduate mathematics competitions (1995-2016)",
+            "world scientific: problems and solutions on electromagnetism, mechanics, optics, thermodynamics and statistical mechanics"
         ],
         "Model Generated": [],
         "Format": [
@@ -378,10 +373,10 @@
             "classical dynamics of particles and systems",
             "elementary differential equations and boundary value problems",
             "fundamentals of physics",
-            "physical chemistry",
-            "physical chemistry, quanta, matter, and change",
-            "probability and statistical inference",
-            "quantum chemistry",
+            "textbook: physical chemistry",
+            "textbook: physical chemistry, quanta, matter, and change",
+            "textbook: probability and statistical inference",
+            "textbook: quantum chemistry",
             "statistical thermodynamics"
         ],
         "Model Generated": [],
@@ -398,8 +393,8 @@
         ],
         "Licenses": [
             {
-                "License": "MIT License",
-                "License URL": "https://github.com/mandyyyyii/scibench/tree/main"
+                "License": "Unspecified",
+                "License URL": ""
             }
         ],
         "License Notes": "The license on GitHub is MIT and no license is provided on HF or in the paper.",
@@ -500,10 +495,14 @@
             {
                 "License": "MIT License",
                 "License URL": "https://huggingface.co/datasets/wenhu/TheoremQA"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/pdf/2305.12524.pdf"
             }
         ],
-        "License Notes": "",
-        "License Verified By": "Cole Hunter",
+        "License Notes": "They used GPT-4 to generate university level theorems in STEM subfields and then a team of domain experts refined and reviewed the data.",
+        "License Verified By": "Ariel Lee",
         "Dataset Filter IDs": [
             "theoremqa"
         ]
@@ -527,7 +526,9 @@
         "Task Categories": [
             "Code"
         ],
-        "Text Sources": [],
+        "Text Sources": [
+            "leetcode"
+        ],
         "Model Generated": [],
         "Format": [
             "Zero-shot"
