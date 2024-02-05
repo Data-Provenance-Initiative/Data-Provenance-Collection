@@ -43,6 +43,7 @@
             "SeaLLM"
         ],
         "Format": [
+            "Zero-shot",
             "Multi-turn Dialog"
         ],
         "Human Annotation": "Yes",
@@ -61,7 +62,7 @@
         "License Notes": "",
         "Collection URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
         "Papers with Code URL": "",
-        "License Verified By": "",
+        "License Verified By": "Lester James V. Miranda",
         "Derived from Datasets": []
     }
 }
