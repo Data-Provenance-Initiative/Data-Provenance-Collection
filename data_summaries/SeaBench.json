@@ -23,12 +23,21 @@
         "Task Categories": [
             "Summarization",
             "Translation",
-            "Question Answering"
+            "Question Answering",
+            "Open-Domain Question Answering",
+            "Advice Seeking Question Answering",
+            "Factual Knowledge Question Answering",
+            "Multiple Choice Question Answering",
+            "Natural Language Processing Question Answering",
+            "Logical Reasoning",
+            "Logical Reasoning Question Answering"
         ],
         "Text Sources": [
             "commoncrawl.org",
-            "local websites",
-            "annotation from native speaker annotators"
+            "wikipedia.org",
+            "academic papers",
+            "cc news",
+            "crowdsourced"
         ],
         "Model Generated": [
             "SeaLLM"
