@@ -7,7 +7,7 @@
         "GitHub URL": "https://github.com/DAMO-NLP-SG/SeaLLMs",
         "Hugging Face URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
         "ArXiv URL": "https://arxiv.org/abs/2312.00738",
-        "Semantic Scholar Corpus ID": "265551745",
+        "Semantic Scholar Corpus ID": 265551745,
         "Collection": "SeaBench",
         "Languages": [
             "Tagalog",
