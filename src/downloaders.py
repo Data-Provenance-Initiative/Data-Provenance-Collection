@@ -631,4 +631,4 @@ def download_gorilla(accepted_filter_ids):
 
 def download_seabench(accepted_filter_ids):
     dset = huggingface_download('SeaLLMs/Sea-bench', split='train')
-    return dset
+    return pool_filter(dset, "lang", accepted_filter_ids)
