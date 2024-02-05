@@ -538,6 +538,6 @@ def prepare_seabench(row):
     outputs = row["chatgpt_response"].strip() if row["chatgpt_response"] else ""
 
     return [
-        {"from": "user", "text": inputs, "parent": "train"},
+        {"from": "user", "text": inputs, "parent": row["lang"]},
         {"from": "assistant", "text": outputs, "parent": 0},
     ]
