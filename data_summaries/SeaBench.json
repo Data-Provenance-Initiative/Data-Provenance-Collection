@@ -59,7 +59,7 @@
         "Dataset Filter IDs": [
             "train"
         ],
-        "License Notes": "",
+        "License Notes": "Multilingual set with instructions that cover 9 Southeast Asian Languages",
         "Collection URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
         "Papers with Code URL": "",
         "License Verified By": "Lester James V. Miranda",
