@@ -16,9 +16,24 @@
         ],
         "Task Categories": [
             "Alignment",
-            "Language Modeling"
+            "Language Modeling",
+            "Essay Generation",
+            "Creative Writing",
+            "Data Analysis",
+            "Email Drafting",
+            "Dialog Generation",
+            "Creativity",
+            "Literary Analysis",
+            "Argumentative Essay Generation",
+            "Summarization",
+            "Logical Reasoning",
+            "Brainstorming",
+            "Miscellaneous"
         ],
-        "Text Sources": [],
+        "Text Sources": [
+            "sharegpt.com",
+            "crowdsourced"
+        ],
         "Format": [
             "Zero-shot",
             "Multi-turn Dialog"
@@ -53,6 +68,13 @@
             {
                 "License": "Apache License 2.0",
                 "License URL": "https://github.com/hkust-nlp/deita?tab=Apache-2.0-1-ov-file"
+            },
+                "License": "Unspecified",
+                "License URL": "None"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://sharegpt.com/"
             }
         ],
         "License Notes": "",
