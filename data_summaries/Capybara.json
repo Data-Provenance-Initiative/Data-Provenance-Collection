@@ -336,10 +336,6 @@
             "Summarization",
             "Multiple Choice Question Answering",
             "Logical Reasoning",
-            "Sentence Rewriting",
-            "Paraphrase Generation",
-            "Natural Language Generation (NLG)",
-            "Vegetarian Recipe Modification Question Answering",
             "Algebraic Expression Evaluation",
             "Text Classification"
         ],
