@@ -23,12 +23,20 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": [],
+        "Model Generated": ["Google Cloud Translation API"],
         "Creators": [],
         "Licenses": [
             {
                 "License": "CC BY-SA 3.0",
                 "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
             }
         ],
         "License Notes": "",
@@ -37,7 +45,7 @@
             "open_qa",
             "general_qa"
         ],
-        "Derived from Datasets": [],
+        "Derived from Datasets": ["Dolly 15k"],
         "Human Annotation": "Yes"
     },
     "thai_gen_ai_dolly-closedqa": {
@@ -64,12 +72,20 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": [],
+        "Model Generated": ["Google Cloud Translation API"],
         "Creators": [],
         "Licenses": [
             {
                 "License": "CC BY-SA 3.0",
                 "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
             }
         ],
         "License Notes": "",
@@ -77,7 +93,7 @@
         "Dataset Filter IDs": [
             "closed_qa"
         ],
-        "Derived from Datasets": [],
+        "Derived from Datasets": ["Dolly 15k"],
         "Human Annotation": "Yes"
     },
     "thai_gen_ai_dolly-classification": {
@@ -104,12 +120,20 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": [],
+        "Model Generated": ["Google Cloud Translation API"],
         "Creators": [],
         "Licenses": [
             {
                 "License": "CC BY-SA 3.0",
                 "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
             }
         ],
         "License Notes": "",
@@ -117,7 +141,7 @@
         "Dataset Filter IDs": [
             "classification"
         ],
-        "Derived from Datasets": [],
+        "Derived from Datasets": ["Dolly 15k"],
         "Human Annotation": "Yes"
     },
     "thai_gen_ai_dolly-brainstorming": {
@@ -144,12 +168,20 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": [],
+        "Model Generated": ["Google Cloud Translation API"],
         "Creators": [],
         "Licenses": [
             {
                 "License": "CC BY-SA 3.0",
                 "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
             }
         ],
         "License Notes": "",
@@ -157,7 +189,7 @@
         "Dataset Filter IDs": [
             "brainstorming"
         ],
-        "Derived from Datasets": [],
+        "Derived from Datasets": ["Dolly 15k"],
         "Human Annotation": "Yes"
     },
     "thai_gen_ai_dolly-infoextract": {
@@ -184,12 +216,20 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": [],
+        "Model Generated": ["Google Cloud Translation API"],
         "Creators": [],
         "Licenses": [
             {
                 "License": "CC BY-SA 3.0",
                 "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
             }
         ],
         "License Notes": "",
@@ -197,7 +237,7 @@
         "Dataset Filter IDs": [
             "information_extraction"
         ],
-        "Derived from Datasets": [],
+        "Derived from Datasets": ["Dolly 15k"],
         "Human Annotation": "Yes"
     },
     "thai_gen_ai_dolly-summarization": {
@@ -224,12 +264,20 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": [],
+        "Model Generated": ["Google Cloud Translation API"],
         "Creators": [],
         "Licenses": [
             {
                 "License": "CC BY-SA 3.0",
                 "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
             }
         ],
         "License Notes": "",
@@ -237,7 +285,7 @@
         "Dataset Filter IDs": [
             "summarization"
         ],
-        "Derived from Datasets": [],
+        "Derived from Datasets": ["Dolly 15k"],
         "Human Annotation": "Yes"
     },
     "thai_gen_ai_dolly-creative_writing": {
@@ -264,12 +312,20 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": [],
+        "Model Generated": ["Google Cloud Translation API"],
         "Creators": [],
         "Licenses": [
             {
                 "License": "CC BY-SA 3.0",
                 "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
             }
         ],
         "License Notes": "",
@@ -277,7 +333,7 @@
         "Dataset Filter IDs": [
             "creative_writing"
         ],
-        "Derived from Datasets": [],
+        "Derived from Datasets": ["Dolly 15k"],
         "Human Annotation": "Yes"
     }
 }
