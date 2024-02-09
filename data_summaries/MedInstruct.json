@@ -22,7 +22,10 @@
             "Medical Question Answering",
             "Question Answering"
         ],
-        "Text Sources": [],
+        "Text Sources": [
+            "Hand-crafted Clinical Instructions",
+            "Clinical Notes"
+        ],
         "Model Generated": [
             "OpenAI GPT-4",
             "OpenAI GPT-3.5-turbo"
@@ -37,12 +40,12 @@
         ],
         "Licenses": [
             {
-                "License": "Apache License 2.0",
-                "License URL": "https://github.com/XZhang97666/AlpaCare/blob/master/LICENSE"
+                "License": "OpenAI",
+                "License URL": ""
             }
         ],
-        "License Notes": "",
-        "License Verified By": "",
+        "License Notes": "No explicit license was provided in The Github or Huggingface repos. The chosen license is based on their use of OpenAI models to generate data",
+        "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "medinstruct"
         ]
