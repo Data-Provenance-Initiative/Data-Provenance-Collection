@@ -660,3 +660,6 @@ def download_agentinstruct(accepted_filter_ids):
         dset.append(huggingface_download('THUDM/AgentInstruct', split='mind2web'))
 
     return dset
+
+def download_cidar(accepted_filter_ids):
+    return huggingface_download('arbml/CIDAR', split='train')
