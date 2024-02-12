@@ -202,13 +202,12 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_baize_data,
         "prepare_function": preparers.prepare_baize_data,
     },
-    
-    "Open Orca":{
-        "download_function": downloaders.download_open_orca,
-        "prepare_function": preparers.prepare_open_orca,
-    },
     "MathInstruct":{
         "download_function": downloaders.download_mathinstruct,
         "prepare_function": preparers.prepare_mathinstruct,
+    },
+    "Open Orca":{
+        "download_function": downloaders.download_open_orca,
+        "prepare_function": preparers.prepare_open_orca,
     }
 }
