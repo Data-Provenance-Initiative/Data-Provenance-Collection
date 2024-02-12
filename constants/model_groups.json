@@ -3,6 +3,7 @@
         "OpenAI ChatGPT",
         "OpenAI Codex",
         "OpenAI GPT-3",
+        "OpenAI GPT-3.5-Turbo",
         "OpenAI GPT-4",
         "OpenAI Playground"
     ],
@@ -10,6 +11,7 @@
         "Anthropic Internal Models",
         "CTRL",
         "Flan-T5",
+        "Google Cloud Translation API",
         "Grover",
         "Instruct-GPT-J",
         "StarCoder",

@@ -1,29 +1,31 @@
-import os
+# import os
 import re
 import json
-import random
+# import random
 import zipfile
 import multiprocessing
 import itertools as it
 
 from io import BytesIO
 from functools import partial
-from collections import Counter
+# from collections import Counter
 
 import chardet
 import requests
 import pandas as pd
 
-from datasets import load_dataset, list_datasets, Dataset
+from datasets import load_dataset, Dataset  # ,list_datasets
 
 # `HfFileSystem` requires the latest version of `huggingface_hub`
-from huggingface_hub import HfFileSystem, hf_hub_url, hf_hub_download, login
+from huggingface_hub import HfFileSystem, hf_hub_url, hf_hub_download  # , login
 
 from helpers import io
 
-###########################################################################
-############### Download Utils
-###########################################################################
+
+# ##########################################################################
+# ############## Download Utils
+# ##########################################################################
+
 
 def filter_dataset_on_task_name(ex, task_key, accepted_filter_ids):
     """ Filters a dataset based on the task name.
@@ -98,7 +100,7 @@ def huggingface_download(
     """
     assert not (data_dir and data_files)
 
-    num_proc = max(multiprocessing.cpu_count() // 2,1)
+    num_proc = max(multiprocessing.cpu_count() // 2, 1)
     if data_files:
         dset = load_dataset(data_address, data_files=data_files, num_proc=num_proc)
     elif data_dir:
@@ -113,7 +115,7 @@ def huggingface_download(
 
     try:
         dset = dset.to_list()
-    except:
+    except ValueError:
         print("Trouble converting Hugging Face dataset to list...")
         pass
     return dset
@@ -125,6 +127,7 @@ def detect_encoding(file_path):
     result = chardet.detect(rawdata)
     return result['encoding']
 
+
 def convert_to_utf8(file_path):
     encoding = detect_encoding(file_path)
     with open(file_path, 'r', encoding=encoding) as f:
@@ -132,21 +135,20 @@ def convert_to_utf8(file_path):
     utf8_content = content.encode('utf-8')
     return json.loads(utf8_content.decode('utf-8'))
 
+
 def process_zipped_file(zip_file):
     dset = []
     with zipfile.ZipFile(zip_file, 'r') as z:
-            for json_file in z.namelist():
-                if json_file.endswith(".json"):
-                    data = json.load(z.open(json_file))
-                    dset.append(data)
+        for json_file in z.namelist():
+            if json_file.endswith(".json"):
+                data = json.load(z.open(json_file))
+                dset.append(data)
     return dset
 
 
-
-
-###########################################################################
-############### Collection Downloader Functions
-###########################################################################
+# ##########################################################################
+# ############## Collection Downloader Functions
+# ##########################################################################
 
 
 def download_flan_collection_sni(accepted_filter_ids):
@@ -175,8 +177,7 @@ def download_flan_collection_p3(accepted_filter_ids):
 
 
 def download_xp3x(accepted_filter_ids, sample_threshold=100):
-
-    # The more accepted_filter_ids the longer it will take. So if it's too many switch to the sample (likely e.g. when people just choose everything). 
+    # The more accepted_filter_ids the longer it will take. So if it's too many switch to the sample (likely e.g. when people just choose everything).
     # Meanwhile if people just choose a few ids, maybe just one language or so, then use the big one.
     if len(accepted_filter_ids) > sample_threshold:
         print(f"xP3x: Detected {len(accepted_filter_ids)} filter IDs. Defaulting to xP3x-sample to reduce download size. Increase sample_threshold to download full dataset.")
@@ -245,8 +246,10 @@ def download_laion_oig(accepted_filter_ids):
 def download_self_instruct(accepted_filter_ids):
     return huggingface_download('yizhongw/self_instruct', split='train')
 
+
 def download_everything_lm(accepted_filter_ids):
     return huggingface_download('totally-not-an-llm/EverythingLM-data-V3', split='train')
+
 
 def download_anthropic_hh_rlhf(accepted_filter_ids):
     return huggingface_download('anthropic/hh-rlhf', split='train')
@@ -290,6 +293,7 @@ def download_gpteacher(accepted_filter_ids):
         dset += annotate_source(roleplay_dset, "gpteacher_roleplay")
     return dset
 
+
 def download_baize_data(accepted_filter_ids):
     dset = []
     if "alpaca_chat_data" in accepted_filter_ids:
@@ -325,6 +329,10 @@ def download_openai_webgpt(accepted_filter_ids):
 
 def download_alpaca(accepted_filter_ids):
     return huggingface_download('tatsu-lab/alpaca', split='train')
+
+def download_metamathqa(accepted_filter_ids):
+    dset = huggingface_download('meta-math/MetaMathQA', split='train')
+    return pool_filter(dset, "type", accepted_filter_ids)
 
 def download_pure_dove(accepted_filter_ids):
     return huggingface_download('LDJnr/Pure-Dove', split='train')
@@ -376,7 +384,6 @@ def download_hc3_zh(accepted_filter_ids):
     )
     dset = pd.read_json(dset_fpath, lines=True).to_dict('records')
     return pool_filter(dset, "source", accepted_filter_ids)
-
 
 
 def download_camel_science(accepted_filter_ids):
@@ -449,11 +456,14 @@ def download_tasksource_symbol_tuning(accepted_filter_ids):
     dset = huggingface_download('tasksource/icl-symbol-tuning-instruct', split='train')
     return pool_filter(dset, "task", accepted_filter_ids)
 
+
 def download_stack_exchange_instruction(accepted_filter_ids):
     return huggingface_download('ArmelR/stack-exchange-instruction', split='train')
 
+
 def download_unnatural_instructions(accepted_filter_ids):
     return huggingface_download('mrm8488/unnatural-instructions', name='core', split='train')
+
 
 def download_starcoder_self_instruct(accepted_filter_ids):
     return huggingface_download('codeparrot/self-instruct-starcoder', split='curated')
@@ -467,6 +477,7 @@ def download_tiny_stories(accepted_filter_ids):
 
 def download_joke_explanation(accepted_filter_ids):
     return huggingface_download('theblackcat102/joke_explaination', split='train')
+
 
 def download_book_summaries(accepted_filter_ids):
     dset = huggingface_download('emozilla/booksum-summary-analysis_gptneox-8192', split='train')
@@ -491,8 +502,9 @@ def download_lima(accepted_filter_ids):
     dset = huggingface_download('GAIR/lima', split='train')
     return pool_filter(dset, "source", accepted_filter_ids)
 
+
 def download_open_orca(accepeted_filter_ids):
-    dset =  huggingface_download('Open-Orca/OpenOrca', split='train')
+    dset = huggingface_download('Open-Orca/OpenOrca', split='train')
     dset = list(map(lambda x: {**x, 'source': x['id'].split('.')[0]}, dset))
     return pool_filter(dset, "source", accepeted_filter_ids)
 
@@ -564,6 +576,7 @@ def split_by_user(pairs):
 
     return groups
 
+
 def download_tool_llama(accepted_filter_ids):
     '''
     Download Tool-Llama data and parse into (context, instruction, response)
@@ -629,6 +642,7 @@ def download_tool_llama(accepted_filter_ids):
 
     return Dataset.from_dict(ret)
 
+
 def download_gorilla(accepted_filter_ids):
     '''
     Download Gorilla data from Huggingface, handle string manipulation issues,
@@ -674,3 +688,21 @@ def download_gorilla(accepted_filter_ids):
             ret[key] = ret.get(key, []) + [ex[key]]
 
     return Dataset.from_dict(ret)
+
+
+def download_agentinstruct(accepted_filter_ids):
+    dset = []
+    if 'alfworld' in accepted_filter_ids:
+        dset.append(huggingface_download('THUDM/AgentInstruct', split='alfworld'))
+    if 'db' in accepted_filter_ids:
+        dset.append(huggingface_download('THUDM/AgentInstruct', split='db'))
+    if 'os' in accepted_filter_ids:
+        dset.append(huggingface_download('THUDM/AgentInstruct', split='os'))
+    if 'kg' in accepted_filter_ids:
+        dset.append(huggingface_download('THUDM/AgentInstruct', split='kg'))
+    if 'webshop' in accepted_filter_ids:
+        dset.append(huggingface_download('THUDM/AgentInstruct', split='webshop'))
+    if 'mind2web' in accepted_filter_ids:
+        dset.append(huggingface_download('THUDM/AgentInstruct', split='mind2web'))
+
+    return dset
