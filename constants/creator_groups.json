@@ -85,6 +85,7 @@
         "Masaryk University",
         "Massachusetts Institute of Technology",
         "Max Planck Institute for Informatics",
+        "Max Planck Institute for Intelligent Systems",
         "McGill University",
         "Michigan State University",
         "Monash University",
@@ -135,6 +136,7 @@
         "Sofia University",
         "Sorbonne Universites",
         "South China University of Technology",
+        "Southern University of Science and Technology",
         "Stanford University",
         "Stony Brook University",
         "Sun Yat-Sen University",
@@ -317,6 +319,7 @@
         "Fudan-Aishu Cognitive Intelligence Joint Research Center",
         "Google Research",
         "Honda Research Institute",
+        "Huawei Noah’s Ark Lab",
         "ML Research at Allegro",
         "Megagon Labs",
         "MetaMind - A Salesforce Company",
@@ -389,6 +392,7 @@
         "OpenAI",
         "Snips",
         "Surge AI",
-        "TAUS"
+        "TAUS",
+        "Zhipu AI"
     ]
 }
