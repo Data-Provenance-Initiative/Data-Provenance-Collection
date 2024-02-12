@@ -483,17 +483,17 @@ def prepare_lima(row):
         })
         parent = i
     return messages
-
-def prepare_mathinstruct(row):
-    return convert_inputs_targets_to_messages(
-        row["instruction"], row["output"], row["_source"]
-    )
     
 def prepare_tool_llama(row):
     return convert_inputs_targets_to_messages(
         row['context'] + row['instruction'],
         row['response'],
         'toolbench',
+    )
+
+def prepare_mathinstruct(row):
+    return convert_inputs_targets_to_messages(
+        row["instruction"], row["output"], row["_source"]
     )
 
 def prepare_gorilla(row):
@@ -537,4 +537,3 @@ def prepare_open_orca(row):
         {"from": "user", "text": inputs.strip(), "parent": row['source']},
         {"from": "assistant", "text": outputs.strip(), "parent": 0},
     ]
-
