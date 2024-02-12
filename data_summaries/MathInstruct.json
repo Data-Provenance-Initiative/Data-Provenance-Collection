@@ -51,10 +51,14 @@
             {
                 "License": "MIT License",
                 "License URL": "https://github.com/TIGER-AI-Lab/MAmmoTH#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": ""
             }
         ],
         "License Notes": "The authors provided a table for licenses of the original datasets. Although one dataset has a cc-by-nc license, the authors chose an MIT license for their curated dataset",
-        "License Verified By": "",
+        "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
           "cot_MATH_train",
           "cot_TheoremQA",
