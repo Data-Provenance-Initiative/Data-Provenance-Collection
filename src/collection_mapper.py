@@ -190,6 +190,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_lima,
         "prepare_function": preparers.prepare_lima,
     },
+    "MathInstruct":{
+        "download_function": downloaders.download_mathinstruct,
+        "prepare_function": preparers.prepare_mathinstruct,
+    },
     "Tool-Llama": {
         "download_function": downloaders.download_tool_llama,
         "prepare_function": preparers.prepare_tool_llama,
@@ -202,10 +206,7 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_baize_data,
         "prepare_function": preparers.prepare_baize_data,
     },
-    "MathInstruct":{
-        "download_function": downloaders.download_mathinstruct,
-        "prepare_function": preparers.prepare_mathinstruct,
-    },
+    
     "Open Orca":{
         "download_function": downloaders.download_open_orca,
         "prepare_function": preparers.prepare_open_orca,
