@@ -136,7 +136,7 @@ def prepare_<your_collection>(row):
 
         'from' is either 'user' or 'assistant'
         'text' is the content of a single message
-        'parent' is the 0-indexed ID of the preceding message in the dialog list
+        'parent' is the 0-indexed ID of the preceding message in the dialog list, or the unique dataset identifier for the very first message in the list (followed by 0, then by 1, etc)
         'score' (optional) is the score of that response, if applicable
 
         You can also customize your own preparer processing function as long as they have the same output format.

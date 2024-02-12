@@ -1,0 +1,339 @@
+{
+    "thai_gen_ai_dolly-openqa": {
+        "Unique Dataset Identifier": "thai_gen_ai_dolly-openqa",
+        "Dataset Name": "open_qa",
+        "Collection": "Thai Gen AI (Dolly)",
+        "Collection URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Dataset URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": ["Google Cloud Translation API"],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "open_qa",
+            "general_qa"
+        ],
+        "Derived from Datasets": ["Dolly 15k"],
+        "Human Annotation": "Yes"
+    },
+    "thai_gen_ai_dolly-closedqa": {
+        "Unique Dataset Identifier": "thai_gen_ai_dolly-closedqa",
+        "Dataset Name": "closed_qa",
+        "Collection": "Thai Gen AI (Dolly)",
+        "Collection URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Dataset URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Closed-Book Question Answering"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": ["Google Cloud Translation API"],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "closed_qa"
+        ],
+        "Derived from Datasets": ["Dolly 15k"],
+        "Human Annotation": "Yes"
+    },
+    "thai_gen_ai_dolly-classification": {
+        "Unique Dataset Identifier": "thai_gen_ai_dolly-classification",
+        "Dataset Name": "classification",
+        "Collection": "Thai Gen AI (Dolly)",
+        "Collection URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Dataset URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Text Classification"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": ["Google Cloud Translation API"],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "classification"
+        ],
+        "Derived from Datasets": ["Dolly 15k"],
+        "Human Annotation": "Yes"
+    },
+    "thai_gen_ai_dolly-brainstorming": {
+        "Unique Dataset Identifier": "thai_gen_ai_dolly-brainstorming",
+        "Dataset Name": "brainstorming",
+        "Collection": "Thai Gen AI (Dolly)",
+        "Collection URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Dataset URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Brainstorming"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": ["Google Cloud Translation API"],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "brainstorming"
+        ],
+        "Derived from Datasets": ["Dolly 15k"],
+        "Human Annotation": "Yes"
+    },
+    "thai_gen_ai_dolly-infoextract": {
+        "Unique Dataset Identifier": "thai_gen_ai_dolly-infoextract",
+        "Dataset Name": "infoextract",
+        "Collection": "Thai Gen AI (Dolly)",
+        "Collection URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Dataset URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Information Extraction"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": ["Google Cloud Translation API"],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "information_extraction"
+        ],
+        "Derived from Datasets": ["Dolly 15k"],
+        "Human Annotation": "Yes"
+    },
+    "thai_gen_ai_dolly-summarization": {
+        "Unique Dataset Identifier": "thai_gen_ai_dolly-summarization",
+        "Dataset Name": "summarization",
+        "Collection": "Thai Gen AI (Dolly)",
+        "Collection URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Dataset URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Summarization"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": ["Google Cloud Translation API"],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "summarization"
+        ],
+        "Derived from Datasets": ["Dolly 15k"],
+        "Human Annotation": "Yes"
+    },
+    "thai_gen_ai_dolly-creative_writing": {
+        "Unique Dataset Identifier": "thai_gen_ai_dolly-creative_writing",
+        "Dataset Name": "creative_writing",
+        "Collection": "Thai Gen AI (Dolly)",
+        "Collection URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Dataset URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Creative Writing"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": ["Google Cloud Translation API"],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "creative_writing"
+        ],
+        "Derived from Datasets": ["Dolly 15k"],
+        "Human Annotation": "Yes"
+    }
+}

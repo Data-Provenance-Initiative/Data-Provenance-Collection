@@ -76,6 +76,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_alpaca,
         "prepare_function": preparers.prepare_alpaca,
     },
+    "MetaMathQA": {
+        "download_function": downloaders.download_metamathqa,
+        "prepare_function": preparers.prepare_metamathqa,
+    },
     "EverythingLM": {
         "download_function": downloaders.download_everything_lm,
         "prepare_function": preparers.prepare_everything_lm,
@@ -92,9 +96,21 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_evol_instruct_v2,
         "prepare_function": preparers.prepare_evol_instruct_v2,
     },
+    "Pure-Dove": {
+        "download_function": downloaders.download_pure_dove,
+        "prepare_function": preparers.prepare_pure_dove,
+    },
+    "Llama2-MedTuned-Instructions": {
+        "download_function": downloaders.download_llama2_med_tuned_instructions,
+        "prepare_function": preparers.prepare_llama2_med_tuned_instructions,
+    },
     "OIG": {
         "download_function": downloaders.download_laion_oig,
         "prepare_function": preparers.prepare_laion_oig,
+    },
+    "Thai Gen AI (Alpaca)": {
+        "download_function": downloaders.download_thai_gen_ai_alpaca,
+        "prepare_function": preparers.prepare_thai_gen_ai_alpaca,
     },
     "ShareGPT Vicuna": {
         "download_function": downloaders.download_sharegpt_vicuna,
@@ -132,10 +148,18 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_starcoder_self_instruct,
         "prepare_function": preparers.prepare_starcoder_self_instruct,
     },
+    "Thai Gen AI (GPTeacher)": {
+        "download_function": downloaders.download_thai_gen_ai_gpteacher,
+        "prepare_function": preparers.prepare_thai_gen_ai_gpteacher,
+    },
     "Tiny Stories": {
         "download_function": downloaders.download_tiny_stories,
         "prepare_function": preparers.prepare_tiny_stories,
         "custom_prepare": True,
+    },
+    "Thai Gen AI (Dolly)": {
+        "download_function": downloaders.download_thai_gen_ai_dolly,
+        "prepare_function": preparers.prepare_thai_gen_ai_dolly,
     },
     "Tasksource Instruct": {
         "download_function": downloaders.download_tasksource_instruct,
@@ -144,7 +168,7 @@ COLLECTION_FN_MAPPER = {
     "Tasksource Symbol-Tuning": {
         "download_function": downloaders.download_tasksource_symbol_tuning,
         "prepare_function": preparers.prepare_tasksource_instruct
-    },  
+    },
     "Stack Exchange Instruction": {
         "download_function": downloaders.download_stack_exchange_instruction,
         "prepare_function": preparers.prepare_stack_exchange_instruction,
@@ -153,7 +177,6 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_joke_explanation,
         "prepare_function": preparers.prepare_joke_explanation,
     },
-
     "Book Summaries": {
         "download_function": downloaders.download_book_summaries,
         "prepare_function": preparers.prepare_book_summaries,
@@ -189,5 +212,9 @@ COLLECTION_FN_MAPPER = {
     "ChatDoctor":{
         "download_function": downloaders.download_chatdoctor,
         "prepare_function": preparers.prepare_chatdoctor,
+    },
+    "AgentInstruct": {
+        "download_function": downloaders.download_agentinstruct,
+        "prepare_function": preparers.prepare_agentinstruct,
     }
 }
