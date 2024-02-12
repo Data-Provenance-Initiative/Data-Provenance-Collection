@@ -1,15 +1,15 @@
-import os
-import pandas as pd
+# import os
+# import pandas as pd
 import numpy as np
-from functools import partial
-from collections import Counter, defaultdict
-from helpers import io
+# from functools import partial
+# from collections import Counter, defaultdict
+# from helpers import io
 import re
 
 
-###########################################################################
-############### Data Preparer Utils
-###########################################################################
+# ##########################################################################
+# ############## Data Preparer Utils
+# ##########################################################################
 
 def convert_inputs_targets_to_messages(
     input_text,
@@ -25,25 +25,27 @@ def convert_inputs_targets_to_messages(
     ]
 
 
-###########################################################################
-############### Data Preparer Functions
-###########################################################################
+# ##########################################################################
+# ############## Data Preparer Functions
+# ##########################################################################
 
 def prepare_flan_collection(row):
     return convert_inputs_targets_to_messages(
         row["inputs"], row["targets"], row["task_name"]
     )
 
+
 def prepare_xp3x(row):
     # "xp3x-multi_eurlex-ron_latn"
     # task_name = "xp3x-" + row["dataset"].split("/")[-1] + "-" + row["language"].replace("-", "_")
     if row["dataset"] in ["clue"]:
-        task_name = row["config"] # Set task_name to e.g. `c3` without the clue
+        task_name = row["config"]  # Set task_name to e.g. `c3` without the clue
     else:
         task_name = row["dataset"].split("/")[-1]
     task_name = row["language"] + "/" + task_name
     return convert_inputs_targets_to_messages(
         row["inputs"], row["targets"], task_name)
+
 
 def prepare_commitpackft(row):
     lang_normalized = row["lang"].replace("'", "").replace("(", "").replace(")", "").replace(" ", "-").lower()
@@ -51,9 +53,10 @@ def prepare_commitpackft(row):
         # Could add some strong delimiters to separate the code from the text
         # e.g. ```prog_lang\n<old_contents>\n```\n\n<subject>
         row["old_contents"] + "\n\n" + row["subject"],
-        row["new_contents"], 
+        row["new_contents"],
         lang_normalized,
     )
+
 
 def prepare_dolly_15k(row):
     input_text = re.sub(r'\s*\[.*?\]\s*', '', "\n".join([row["context"], row["instruction"]]).strip())
@@ -62,12 +65,14 @@ def prepare_dolly_15k(row):
         input_text, target_text, row["category"]
     )
 
+
 def prepare_thai_gen_ai_dolly(row):
     input_text = "\n".join([row["context"], row["instruction"]]).strip() if row["context"] else row["instruction"]
     target_text = row["response"]
     return convert_inputs_targets_to_messages(
         input_text, target_text, row["category"]
     )
+
 
 def prepare_laion_oig(row):
     # Rosey is there since unified_joke_explanations uses this instead of <bot> marker.
@@ -102,10 +107,12 @@ def prepare_laion_oig(row):
             parent = i
     return messages
 
+
 def prepare_self_instuct(row):
     return convert_inputs_targets_to_messages(
         row["prompt"], row["completion"], "self_instruct",
     )
+
 
 def prepare_anthropic_hh_rlhf(row):
     SEPARATOR = "<*>"
@@ -154,6 +161,7 @@ def prepare_anthropic_hh_rlhf(row):
 
     return messages
 
+
 def prepare_stanford_human_preferences(row):
     return [
         {"from": "user", "text": row["history"].strip(), "parent": row["domain"]},
@@ -161,9 +169,10 @@ def prepare_stanford_human_preferences(row):
         {"from": "assistant", "text": row["human_ref_B"].strip(), "score": row["score_B"], "parent": 0},
     ]
 
+
 def prepare_open_assistant(dset):
     messages = []
-    current_message_tree = None # dset[0]["message_tree_id"]
+    current_message_tree = None  # dset[0]["message_tree_id"]
     messageid_to_idx, current_dialog = {}, []
     dialog_idx = 0
     for row in dset:
@@ -189,6 +198,7 @@ def prepare_open_assistant(dset):
         messageid_to_idx[row["message_id"]] = dialog_idx
     return messages
 
+
 def prepare_oasst_octopack(row):
     messages = []
     for i, segment in enumerate(row["conversations"]):
@@ -199,11 +209,13 @@ def prepare_oasst_octopack(row):
         })
     return messages
 
+
 def prepare_longform(row):
-    dset_id = row["source"] #.replace(" ", "").replace("-", "").lower()
+    dset_id = row["source"]  # .replace(" ", "").replace("-", "").lower()
     return convert_inputs_targets_to_messages(
         row["input"], row["output"], dset_id,
     )
+
 
 def prepare_gpteacher(row):
     inp = row["instruction"]
@@ -212,6 +224,7 @@ def prepare_gpteacher(row):
     return convert_inputs_targets_to_messages(
         inp, row["response"], row["_source"],
     )
+
 
 def prepare_openai_summarization(row):
     instruction = "Summarize the above article:"
@@ -222,6 +235,7 @@ def prepare_openai_summarization(row):
         {"from": "assistant", "text": text0, "score": int(np.abs(row["choice"] - 1)), "parent": 0},
         {"from": "assistant", "text": text1, "score": row["choice"], "parent": 0},
     ]
+
 
 def prepare_openai_webgpt(row):
     context0 = row["quotes_0"]["extract"][0].strip() + "\n\n\n" if row["quotes_0"]["extract"] else ""
@@ -235,11 +249,13 @@ def prepare_openai_webgpt(row):
         {"from": "assistant", "text": row["answer_1"].strip(), "score": row["score_1"], "parent": 1},
     ]
 
+
 def prepare_alpaca(row):
     inputs = " ".join([row["instruction"], row["input"]]).strip()
     return convert_inputs_targets_to_messages(
         inputs, row["output"], "alpaca",
     )
+
 
 def prepare_everything_lm(row):
     inputs = " ".join([row["instruction"], row["input"]]).strip()
@@ -247,16 +263,25 @@ def prepare_everything_lm(row):
         inputs, row["output"], "everything_lm",
     )
 
+
 def prepare_llama2_med_tuned_instructions(row):
     inputs = "\n".join([row["instruction"], row["input"]]).strip()
     return convert_inputs_targets_to_messages(
         inputs, row["output"], "llama2_med_tuned_instructions",
     )
 
+
 def prepare_evol_instruct(row):
     return convert_inputs_targets_to_messages(
         row['instruction'], row["output"], "evol_instruct",
     )
+
+
+def prepare_metamathqa(row):
+    return convert_inputs_targets_to_messages(
+        row["query"], row["response"], row["type"],
+    )
+
 
 def prepare_pure_dove(row):
     messages = []
@@ -277,7 +302,6 @@ def prepare_pure_dove(row):
         parent_id += 1
     return messages
 
-
 def prepare_sharegpt_vicuna(row):
     parent = "sharegpt_vicuna"
     messages = []
@@ -290,6 +314,7 @@ def prepare_sharegpt_vicuna(row):
         parent = i
     return messages
 
+
 def prepare_code_alpaca(row):
     inputs = row["instruction"].strip()
     if row["input"]:
@@ -297,6 +322,7 @@ def prepare_code_alpaca(row):
     return convert_inputs_targets_to_messages(
         inputs, row["output"], "code_alpaca",
     )
+
 
 def prepare_hc3(row, lang):
     # dset_id = f"hc3_{lang}-{row['source']}"
@@ -309,21 +335,26 @@ def prepare_hc3(row, lang):
         messages.append({"from": "assistant", "text": assistant_answer, "score": 0, "parent": 0})
     return messages
 
+
 def prepare_hc3_en(row):
     return prepare_hc3(row, "en")
 
+
 def prepare_hc3_zh(row):
     return prepare_hc3(row, "zh")
+
 
 def prepare_camel_science(row):
     return convert_inputs_targets_to_messages(
         row["message_1"], row["message_2"], row["_source"],
     )
 
+
 def prepare_cot_collection(row):
     return convert_inputs_targets_to_messages(
         row["source"], row["rationale"], row['_source']
     )
+
 
 def prepare_gpt4all(row):
     source_to_dsetid = {
@@ -344,10 +375,12 @@ def prepare_gpt4all(row):
         row["prompt"], row["response"], row['source']
     )
 
+
 def prepare_evol_instruct_v2(row):
     return convert_inputs_targets_to_messages(
         row['conversations'][0]["value"], row['conversations'][1]["value"], "evol_instruct_v2",
     )
+
 
 def prepare_gpt4_alpaca(row):
     inputs = row["instruction"].strip()
@@ -357,6 +390,7 @@ def prepare_gpt4_alpaca(row):
         inputs, row["output"], "gpt4alpaca",
     )
 
+
 def prepare_thai_gen_ai_alpaca(row):
     inputs = row["instruction"].strip()
     if row["input"]:
@@ -365,16 +399,19 @@ def prepare_thai_gen_ai_alpaca(row):
         inputs, row["output"], "thai_gen_ai_alpaca",
     )
 
+
 def prepare_tasksource_instruct(row):
     # task_name = "tsi-" + row['task'].replace("-", "_").replace("/", "-")
     return convert_inputs_targets_to_messages(
         row["inputs"], row["targets"], row['task'],
     )
 
+
 def prepare_stack_exchange_instruction(row):
     return convert_inputs_targets_to_messages(
         row["question"], row["response"], "stack-exchange-instruction",
     )
+
 
 def prepare_unnatural_instructions(row):
     return convert_inputs_targets_to_messages(
@@ -383,12 +420,14 @@ def prepare_unnatural_instructions(row):
         "unnatural_instructions",
     )
 
+
 def prepare_starcoder_self_instruct(row):
     return convert_inputs_targets_to_messages(
         row['instruction'], row['output'],
         'starcoder-self-instruct'
     )
 
+  
 def prepare_thai_gen_ai_gpteacher(row):
     inputs = row["instruction"].strip()
     if row["input"]:
@@ -396,6 +435,7 @@ def prepare_thai_gen_ai_gpteacher(row):
     return convert_inputs_targets_to_messages(
         inputs, row["output"], "thai_gen_ai_gpteacher",
     )
+
 
 def tinystories_get_example(it):
     buf = []
@@ -426,6 +466,7 @@ def tinystories_get_example(it):
 
     return convert_inputs_targets_to_messages(inpt_text, tgt_text, 'tiny-stories')
 
+
 def prepare_tiny_stories(dset):
     stories = []
     it = iter(dset)
@@ -438,9 +479,11 @@ def prepare_tiny_stories(dset):
 
     return stories
 
+
 def prepare_joke_explanation(row):
     inputs = row["joke"] + "\n\n" + "Explain this joke."
     return convert_inputs_targets_to_messages(inputs, row["explaination"], "joke-explanation")
+
 
 def prepare_book_summaries(row):
     instruction = "Summarize the above text:"
@@ -448,17 +491,19 @@ def prepare_book_summaries(row):
         row["input"].strip() + "\n\n\n" + instruction, row["output"].strip(), "summary"
     )
 
+
 def prepare_ultrachat(row):
-        parent = "ultrachat"
-        messages = []
-        for i, script in enumerate(row["data"]):
-            messages.append({
-                "from": "user" if i%2 == 0 else "assistant",
-                "text": script.strip(),
-                "parent": parent,
-            })
-            parent = i
-        return messages
+    parent = "ultrachat"
+    messages = []
+    for i, script in enumerate(row["data"]):
+        messages.append({
+            "from": "user" if i % 2 == 0 else "assistant",
+            "text": script.strip(),
+            "parent": parent,
+        })
+        parent = i
+    return messages
+
 
 def prepare_airoboros(row):
     parent = "airoboros"
@@ -472,17 +517,19 @@ def prepare_airoboros(row):
         parent = i
     return messages
 
+
 def prepare_lima(row):
     messages = []
     parent = row['source']
     for i, turn in enumerate(row['conversations']):
         messages.append({
-            "from": "assistant" if i%2 else "user",
+            "from": "assistant" if i % 2 else "user",
             "text": turn.strip(),
             "parent": parent
         })
         parent = i
     return messages
+
 
 def prepare_tool_llama(row):
     return convert_inputs_targets_to_messages(
@@ -491,12 +538,14 @@ def prepare_tool_llama(row):
         'toolbench',
     )
 
+
 def prepare_gorilla(row):
     return convert_inputs_targets_to_messages(
         row['instruction'],
         row['response'],
         'gorilla-apibench',
     )
+
 
 def prepare_baize_data(row):
     messages = []
@@ -525,6 +574,7 @@ def prepare_baize_data(row):
 
     return messages
 
+
 def prepare_open_orca(row):
     inputs = "".join([row['system_prompt'] + row['question']])
     outputs = row['response']
@@ -540,3 +590,15 @@ def prepare_medinstruct(row):
         row['output'],
         'medinstruct',
     )
+
+def prepare_agentinstruct(row):
+    datasets = row  # Based on the current structure, a row represents all datasets :TODO: might need to change this
+    messages = []
+    for dataset in datasets:
+        for i, turn in enumerate(dataset["conversations"], start=-1):
+            messages.append({
+                "from": "user" if turn["from"] == "human" else "assistant",
+                "text": turn["value"].strip(),
+                "parent": dataset['id'].split('_')[0] if i == -1 else i,
+            })
+    return messages
