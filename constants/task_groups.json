@@ -395,6 +395,9 @@
         "Unverifiable Claim Classification",
         "Word Sense Disambiguation"
     ],
+    "Token Classification": [
+        "Token Classification"
+    ],
     "Translation": [
         "Inverted Translation",
         "Translation"

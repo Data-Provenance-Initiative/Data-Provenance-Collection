@@ -484,6 +484,10 @@ def download_book_summaries(accepted_filter_ids):
     return pool_filter(dset, "type", accepted_filter_ids)
 
 
+def download_pii_masking_200k(accepted_filter_ids):
+    return huggingface_download('ai4privacy/pii-masking-200k', split='train')
+
+
 def download_ultrachat(accepted_filter_ids):
     return huggingface_download('stingning/ultrachat', split='train')
 
