@@ -1,0 +1,55 @@
+{
+    "pii-masking-200k": {
+        "Unique Dataset Identifier": "pii-masking-200k",
+        "Dataset Name": "pii-masking-200k",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/ai4privacy/pii-masking-200k",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/ai4privacy/pii-masking-200k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "PII-Masking-200k",
+        "Collection URL": "https://huggingface.co/ai4privacy",
+        "Languages": [
+            "English",
+            "French",
+            "German",
+            "Italian"
+        ],
+        "Task Categories": [
+            "Token Classification",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "business letters",
+            "education",
+            "psychology",
+            "huggingface.co/datasets/ai4privacy/pii-masking-43k",
+            "huggingface.co/datasets/ai4privacy/pii-masking-65k"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "huggingface.co/datasets/ai4privacy/pii-masking-43k",
+            "huggingface.co/datasets/ai4privacy/pii-masking-65k"
+        ],
+        "Creators": [
+            "AI4Privacy"
+        ],
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": "https://huggingface.co/datasets/ai4privacy/pii-masking-200k/blob/main/license.md"
+            }
+        ],
+        "License Notes": "Please refer to licensing@ai4privacy.com for details on licensing.",
+        "License Verified By": "Vu Minh Chien",
+        "Dataset Filter IDs": [
+            "pii-masking-200k"
+        ]
+    }
+}

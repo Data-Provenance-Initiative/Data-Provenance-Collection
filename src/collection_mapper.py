@@ -212,5 +212,9 @@ COLLECTION_FN_MAPPER = {
     "AgentInstruct": {
         "download_function": downloaders.download_agentinstruct,
         "prepare_function": preparers.prepare_agentinstruct,
+    },
+    "PII-Masking-200k": {
+        "download_function": downloaders.download_pii_masking_200k,
+        "prepare_function": preparers.prepare_pii_masking_200k,
     }
 }
