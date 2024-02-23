@@ -660,3 +660,15 @@ def download_agentinstruct(accepted_filter_ids):
         dset.append(huggingface_download('THUDM/AgentInstruct', split='mind2web'))
 
     return dset
+
+def download_lumos_planning(accepted_filter_ids):
+    dset = huggingface_download('ai2lumos/lumos_unified_plan_iterative', split='train')
+    return pool_filter(dset, "dataset", accepted_filter_ids)
+
+def download_lumos_grounding(accepted_filter_ids):
+    dset = huggingface_download('ai2lumos/lumos_unified_ground_iterative', split='train')
+    return pool_filter(dset, "dataset", accepted_filter_ids)
+
+def download_dynosaur(accepted_filter_ids):
+    dset = huggingface_download('Dynosaur/dynosaur-full', split='train')
+    return pool_filter(dset, "taskname", accepted_filter_ids)
