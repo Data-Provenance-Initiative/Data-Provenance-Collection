@@ -212,5 +212,17 @@ COLLECTION_FN_MAPPER = {
     "AgentInstruct": {
         "download_function": downloaders.download_agentinstruct,
         "prepare_function": preparers.prepare_agentinstruct,
+    },
+    "Lumos Planning":{
+        "download_function": downloaders.download_lumos_planning,
+        "prepare_function": preparers.prepare_lumos_planning,
+    },
+    "Lumos Grounding":{
+        "download_function": downloaders.download_lumos_grounding,
+        "prepare_function": preparers.prepare_lumos_grounding,
+    },
+    "Dynosaur":{
+        "download_function": downloaders.download_dynosaur,
+        "prepare_function": preparers.prepare_dynosaur,
     }
 }
