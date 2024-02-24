@@ -517,7 +517,6 @@ def prepare_airoboros(row):
         parent = i
     return messages
 
-
 def prepare_lima(row):
     messages = []
     parent = row['source']
@@ -529,15 +528,17 @@ def prepare_lima(row):
         })
         parent = i
     return messages
-
-
+    
 def prepare_tool_llama(row):
     return convert_inputs_targets_to_messages(
         row['context'] + row['instruction'],
         row['response'],
         'toolbench',
+ 
+def prepare_mathinstruct(row):
+    return convert_inputs_targets_to_messages(
+        row["instruction"], row["output"], row["_source"]
     )
-
 
 def prepare_gorilla(row):
     return convert_inputs_targets_to_messages(
@@ -545,7 +546,6 @@ def prepare_gorilla(row):
         row['response'],
         'gorilla-apibench',
     )
-
 
 def prepare_baize_data(row):
     messages = []
