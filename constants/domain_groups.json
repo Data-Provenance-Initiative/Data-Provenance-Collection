@@ -457,6 +457,8 @@
         "woz"
     ],
     "Models": [
+        "alpaca",
+        "dolly",
         "OpenAI ChatGPT",
         "OpenAI GPT-1",
         "OpenAI GPT-2",
@@ -605,7 +607,8 @@
         "verbosity",
         "videos",
         "wayne magnuson english idioms sayings & slang",
-        "yoruba proverbs"
+        "yoruba proverbs",
+        "translate.google.com"
     ],
     "Reviews": [
         "factcheck",

@@ -216,5 +216,9 @@ COLLECTION_FN_MAPPER = {
     "AgentInstruct": {
         "download_function": downloaders.download_agentinstruct,
         "prepare_function": preparers.prepare_agentinstruct,
+    },
+    "Bactrian-X": {
+        "download_function": downloaders.download_bactrianx,
+        "prepare_function": preparers.prepare_bactrianx,
     }
 }
