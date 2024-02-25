@@ -512,6 +512,52 @@ def download_open_orca(accepeted_filter_ids):
     dset = list(map(lambda x: {**x, 'source': x['id'].split('.')[0]}, dset))
     return pool_filter(dset, "source", accepeted_filter_ids)
 
+def download_mathinstruct(accepted_filter_ids):
+    mathinstruct = load_dataset('TIGER-Lab/MathInstruct', split='train')
+    dset = []
+    if 'cot_MATH_train' in accepted_filter_ids:
+        cot_MATH_train = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/MATH_train.json').to_list()
+        dset += annotate_source(cot_MATH_train, 'cot_MATH_train')
+    if 'cot_TheoremQA' in accepted_filter_ids:
+        cot_TheoremQA = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/TheoremQA.json').to_list()
+        dset += annotate_source(cot_TheoremQA, 'cot_TheoremQA')
+    if 'cot_aqua_rat' in accepted_filter_ids:
+        cot_aqua_rat = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/aqua_rat.json').to_list()
+        dset += annotate_source(cot_aqua_rat, 'cot_aqua_rat')
+    if 'cot_college_math' in accepted_filter_ids:
+        cot_college_math = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/college_math.json').to_list()
+        dset += annotate_source(cot_college_math, 'cot_college_math')
+    if 'cot_gsm_rft' in accepted_filter_ids:
+        cot_gsm_rft = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/gsm_rft.json').to_list()
+        dset += annotate_source(cot_gsm_rft, 'cot_gsm_rft')
+    if 'cot_gsm_train' in accepted_filter_ids:
+        cot_gsm_train = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/gsm_train.json').to_list()
+        dset += annotate_source(cot_gsm_train, 'cot_gsm_train')
+    if 'cot_math50k_camel' in accepted_filter_ids:
+        cot_math50k_camel = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/math50k_camel.json').to_list()
+        dset += annotate_source(cot_math50k_camel, 'cot_math50k_camel')
+    if 'cot_number_comparison' in accepted_filter_ids:
+        cot_number_comparison = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/number_comparison.json').to_list()
+        dset += annotate_source(cot_number_comparison, 'cot_number_comparison')
+    if 'pot_MATH_train' in accepted_filter_ids:
+        pot_MATH_train = mathinstruct.filter(lambda row: row['source'] == 'data/PoT/MATH_train.json').to_list()
+        dset += annotate_source(pot_MATH_train, 'pot_MATH_train')
+    if 'pot_TheoremQA' in accepted_filter_ids:
+        pot_TheoremQA = mathinstruct.filter(lambda row: row['source'] == 'data/PoT/TheoremQA.json').to_list()
+        dset += annotate_source(pot_TheoremQA, 'pot_TheoremQA')
+    if 'pot_aqua_rat_filtered' in accepted_filter_ids:
+        pot_aqua_rat_filtered = mathinstruct.filter(lambda row: row['source'] == 'data/PoT/aqua_rat_filtered.json').to_list()
+        dset += annotate_source(pot_aqua_rat_filtered, 'pot_aqua_rat_filtered')
+    if 'pot_gsm_gpt4' in accepted_filter_ids:
+        pot_gsm_gpt4 = mathinstruct.filter(lambda row: row['source'] == 'data/PoT/gsm_gpt4.json').to_list()
+        dset += annotate_source(pot_gsm_gpt4, 'pot_gsm_gpt4')
+    if 'pot_mathqa' in accepted_filter_ids:
+        pot_mathqa = mathinstruct.filter(lambda row: row['source'] == 'data/PoT/mathqa.json').to_list()
+        dset += annotate_source(pot_mathqa, 'pot_mathqa')
+    if 'pot_numglue' in accepted_filter_ids:
+        pot_numglue = mathinstruct.filter(lambda row: row['source'] == 'data/PoT/numglue.json').to_list()
+        dset += annotate_source(pot_numglue, 'pot_numglue')
+    return dset   
 
 def split_by_user(pairs):
     '''
