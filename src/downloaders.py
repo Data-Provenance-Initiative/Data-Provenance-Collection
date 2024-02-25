@@ -706,3 +706,14 @@ def download_agentinstruct(accepted_filter_ids):
         dset.append(huggingface_download('THUDM/AgentInstruct', split='mind2web'))
 
     return dset
+
+
+def download_bactrianx(accepted_filter_ids):
+    """Download Bactrian-X dataset from HuggingFace"""
+    dsets = []
+    for dset_name in accepted_filter_ids:
+        dset = huggingface_download('MBZUAI/Bactrian-X', name=dset_name, split="train")
+        # annotate each example with source
+        dset = annotate_source(dset, dset_name)
+        dsets.extend(dset)
+    return dsets

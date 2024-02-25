@@ -18,6 +18,8 @@
         "T5",
         "T5-XXL",
         "XLNet",
-        "wikisql"
+        "wikisql",
+        "BX LLaMa",
+        "BX BLOOM"
     ]
 }
