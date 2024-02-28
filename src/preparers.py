@@ -595,3 +595,10 @@ def prepare_agentinstruct(row):
                 "parent": dataset['id'].split('_')[0] if i == -1 else i,
             })
     return messages
+
+def prepare_cidar(row):
+    return convert_inputs_targets_to_messages(
+        row['instruction'],
+        row['output'],
+        'cidar',
+    )

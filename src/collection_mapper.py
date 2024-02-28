@@ -216,5 +216,9 @@ COLLECTION_FN_MAPPER = {
     "AgentInstruct": {
         "download_function": downloaders.download_agentinstruct,
         "prepare_function": preparers.prepare_agentinstruct,
+    },
+    "Cidar": {
+        "download_function": downloaders.download_cidar,
+        "prepare_function": preparers.prepare_cidar,
     }
 }
