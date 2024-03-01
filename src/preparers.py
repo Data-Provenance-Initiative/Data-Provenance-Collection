@@ -199,6 +199,35 @@ def prepare_open_assistant(dset):
     return messages
 
 
+def prepare_open_assistant_v2(dset):
+    messages = []
+    current_message_tree = None  # dset[0]["message_tree_id"]
+    messageid_to_idx, current_dialog = {}, []
+    dialog_idx = 0
+    for row in dset:
+        if current_message_tree != row["message_tree_id"]:
+            if current_dialog and len(current_dialog) > 1:
+                messages.append(current_dialog)
+            current_message_tree = row["message_tree_id"]
+            current_dialog = [{
+                "from": "user" if row["role"] == "prompter" else "assistant",
+                "text": row["text"].strip().replace("\"", ""),
+                "parent": row['lang'],
+            }]
+            dialog_idx = 0
+            messageid_to_idx = {}
+        else:
+            if row["parent_id"] in messageid_to_idx:
+                current_dialog.append({
+                    "from": "user" if row["role"] == "prompter" else "assistant",
+                    "text": row["text"].strip().replace("\"", ""),
+                    "parent": messageid_to_idx[row["parent_id"]],
+                })
+                dialog_idx += 1
+        messageid_to_idx[row["message_id"]] = dialog_idx
+    return messages
+
+
 def prepare_oasst_octopack(row):
     messages = []
     for i, segment in enumerate(row["conversations"]):
@@ -534,6 +563,7 @@ def prepare_tool_llama(row):
         row['context'] + row['instruction'],
         row['response'],
         'toolbench',
+    )
  
 def prepare_mathinstruct(row):
     return convert_inputs_targets_to_messages(
