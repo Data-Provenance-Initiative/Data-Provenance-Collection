@@ -266,6 +266,9 @@ def download_open_assistant(accepted_filter_ids):
     dset = huggingface_download("OpenAssistant/oasst1", split='train')
     return pool_filter(dset, "lang", accepted_filter_ids)
 
+def download_open_assistant_v2(accepted_filter_ids):
+    dset = huggingface_download("OpenAssistant/oasst2", split='train')
+    return pool_filter(dset, "lang", accepted_filter_ids)
 
 def download_open_assistant_octopack(accepted_filter_ids):
     return huggingface_download("bigcode/oasst-octopack", split='train')

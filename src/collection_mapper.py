@@ -52,6 +52,11 @@ COLLECTION_FN_MAPPER = {
         "prepare_function": preparers.prepare_open_assistant,
         "custom_prepare": True,
     },
+    "Open Assistant v2": {
+        "download_function": downloaders.download_open_assistant_v2,
+        "prepare_function": preparers.prepare_open_assistant_v2,
+        "custom_prepare": True,
+    },
     "Open Assistant OctoPack": {
         "download_function": downloaders.download_open_assistant_octopack,
         "prepare_function": preparers.prepare_oasst_octopack,
