@@ -1,0 +1,184 @@
+{
+  "indic_instruct_data_v0.1-en": {
+    "Unique Dataset Identifier": "indic_instruct_data_v0.1-en",
+    "Dataset Name": "indic-instruct-data-v0.1",
+    "Paper Title": "Airavata: Introducing Hindi Instruction-tuned LLM",
+    "Dataset URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicInstruct",
+    "Hugging Face URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2401.15006",
+    "Semantic Scholar Corpus ID": "267301288",
+    "Collection": "Airavata",
+    "Collection URL": "https://github.com/AI4Bharat/IndicInstruct",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Instructional Question Answering",
+      "Closed-Book Question Answering",
+      "Open-Ended Question Answering",
+      "Natural Language Classification",
+      "Open-Domain Question Answering",
+      "Brainstorming",
+      "Information Extraction",
+      "Summarization",
+      "Creative Writing",
+      "Instruction Following",
+      "Translation",
+      "Information Extraction"
+    ],
+    "Text Sources": [
+      "FLAN-v2",
+      "Anthropic-HHH",
+      "Dolly",
+      "OpenAssistant",
+      "LymSys-Chat",
+      "WikiHow",
+      "Anudesh"
+    ],
+    "Model Generated": [
+      "IndicTrans2"
+    ],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": [
+      "No"
+    ],
+    "Derived from Datasets": [],
+    "Creators": [
+      "AI4Bharat",
+      "Indian Institute of Technology Madras",
+      "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram",
+      "Flipkart",
+      "University Of Surrey",
+      "Agency for Science, Technology and Research",
+      "National Institute of Information and Communication Technology",
+      "IBM",
+      "Microsoft"
+    ],
+    "Licenses": [
+      {
+        "License": "Apache-2.0",
+        "License URL": "https://github.com/google-research/FLAN/blob/main/LICENSE"
+      },
+      {
+        "License": "MIT",
+        "License URL": "https://huggingface.co/datasets/Anthropic/hh-rlhf"
+      },
+      {
+        "License": "CC BY-SA-3.0",
+        "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k"
+      },
+      {
+        "License": "LMSYS-Chat-1M",
+        "License URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m#lmsys-chat-1m-dataset-license-agreement"
+      },
+      {
+        "License": "CC0",
+        "License URL": "https://ai4bharat.github.io/airavata/"
+      },
+      {
+        "License": "CC BY 4.0",
+        "License URL": "https://ai4bharat.github.io/airavata/"
+      }
+    ],
+    "License Notes": "They utilized a variety of existing datasets, adopting diverse licenses in accordance with the licenses of the source datasets.",
+    "License Verified By": "Vipul",
+    "Dataset Filter IDs": [
+      "en"
+    ]
+  },
+  "indic_instruct_data_v0.1-hi": {
+    "Unique Dataset Identifier": "indic_instruct_data_v0.1-hi",
+    "Dataset Name": "indic-instruct-data-v0.1",
+    "Paper Title": "Airavata: Introducing Hindi Instruction-tuned LLM",
+    "Dataset URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicInstruct",
+    "Hugging Face URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2401.15006",
+    "Semantic Scholar Corpus ID": "267301288",
+    "Collection": "Airavata",
+    "Collection URL": "https://github.com/AI4Bharat/IndicInstruct",
+    "Languages": [
+      "Hindi"
+    ],
+    "Task Categories": [
+      "Instructional Question Answering",
+      "Closed-Book Question Answering",
+      "Open-Ended Question Answering",
+      "Natural Language Classification",
+      "Open-Domain Question Answering",
+      "Brainstorming",
+      "Information Extraction",
+      "Summarization",
+      "Creative Writing",
+      "Instruction Following",
+      "Translation",
+      "Information Extraction"
+    ],
+    "Text Sources": [
+      "FLAN-v2",
+      "Anthropic-HHH",
+      "Dolly",
+      "OpenAssistant",
+      "LymSys-Chat",
+      "WikiHow",
+      "Anudesh"
+    ],
+    "Model Generated": [
+      "IndicTrans2"
+    ],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": [
+      "No"
+    ],
+    "Derived from Datasets": [],
+    "Creators": [
+      "AI4Bharat",
+      "Indian Institute of Technology Madras",
+      "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram",
+      "Flipkart",
+      "University Of Surrey",
+      "Agency for Science, Technology and Research",
+      "National Institute of Information and Communication Technology",
+      "IBM",
+      "Microsoft"
+    ],
+    "Licenses": [
+      {
+        "License": "Apache-2.0",
+        "License URL": "https://github.com/google-research/FLAN/blob/main/LICENSE"
+      },
+      {
+        "License": "MIT",
+        "License URL": "https://huggingface.co/datasets/Anthropic/hh-rlhf"
+      },
+      {
+        "License": "CC BY-SA-3.0",
+        "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k"
+      },
+      {
+        "License": "LMSYS-Chat-1M",
+        "License URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m#lmsys-chat-1m-dataset-license-agreement"
+      },
+      {
+        "License": "CC0",
+        "License URL": "https://ai4bharat.github.io/airavata/"
+      },
+      {
+        "License": "CC BY 4.0",
+        "License URL": "https://ai4bharat.github.io/airavata/"
+      }
+    ],
+    "License Notes": "They utilized a variety of existing datasets, adopting diverse licenses in accordance with the licenses of the source datasets.",
+    "License Verified By": "Vipul",
+    "Dataset Filter IDs": [
+      "hi"
+    ]
+  }
+}
