@@ -337,6 +337,9 @@ def download_metamathqa(accepted_filter_ids):
 def download_pure_dove(accepted_filter_ids):
     return huggingface_download('LDJnr/Pure-Dove', split='train')
 
+def download_nectar(accepted_filter_ids):
+    return huggingface_download('berkeley-nest/Nectar', split='train')
+
 def download_evol_instruct(accepted_filter_ids):
     return huggingface_download('WizardLM/evol_instruct_70k', split='train')
 
