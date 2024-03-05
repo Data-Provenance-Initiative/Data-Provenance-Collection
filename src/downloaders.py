@@ -706,3 +706,23 @@ def download_agentinstruct(accepted_filter_ids):
         dset.append(huggingface_download('THUDM/AgentInstruct', split='mind2web'))
 
     return dset
+
+
+def download_indic_instruct(accepted_filter_ids):
+    dset = []
+    ## Each dataset has a different format, thus storing dataset name info for next step
+    for data_name in accepted_filter_ids :
+        if data_name == 'nmt-seed' :
+            ##nmt-seed doesn't have en split, rest all datasets have 2 splits - en and hi
+            data_hi = huggingface_download('ai4bharat/indic-instruct-data-v0.1', name=data_name, split='hi')
+            data_hi = [{**d, 'dataset': data_name, 'language': 'hi'} for d in data_hi]
+            dset += data_hi
+        else : 
+            data_en = huggingface_download('ai4bharat/indic-instruct-data-v0.1', name=data_name, split='en')
+            data_en = [{**d, 'dataset': data_name, 'language': 'en'} for d in data_en]
+            data_hi = huggingface_download('ai4bharat/indic-instruct-data-v0.1', name=data_name, split='hi')
+            data_hi = [{**d, 'dataset': data_name, 'language': 'hi'} for d in data_hi]
+            dset += data_en
+            dset += data_hi
+
+    return dset
