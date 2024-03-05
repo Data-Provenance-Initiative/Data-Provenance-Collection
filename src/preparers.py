@@ -534,6 +534,7 @@ def prepare_tool_llama(row):
         row['context'] + row['instruction'],
         row['response'],
         'toolbench',
+    )
  
 def prepare_mathinstruct(row):
     return convert_inputs_targets_to_messages(
@@ -595,3 +596,70 @@ def prepare_agentinstruct(row):
                 "parent": dataset['id'].split('_')[0] if i == -1 else i,
             })
     return messages
+
+import pdb
+def prepare_indic_instruct(row):
+    #pdb.set_trace()
+    if row['dataset'] == 'anudesh' : 
+        return convert_inputs_targets_to_messages(
+            row['messages'][0]['content'], row['messages'][1]['content'], row['dataset']
+        )
+
+    if row['dataset'] == 'dolly' : 
+        input_text = re.sub(r'\s*\[.*?\]\s*', '', "\n".join([row["context"], row["instruction"]]).strip())
+        target_text = re.sub(r'\s*\[.*?\]\s*', '', row["response"])
+        return convert_inputs_targets_to_messages(
+            input_text, target_text, row["dataset"]
+        )
+
+    if row['dataset'] == 'flan_v2' : 
+        return convert_inputs_targets_to_messages(
+            row["inputs"], row["targets"], row['dataset']
+        )
+
+    if row['dataset'] in ['hh-rlhf', 'lm_sys', 'oasst1'] : 
+        messages = []
+        for i, turn in enumerate(row['messages']):
+            messages.append({
+                "from": turn["role"],
+                "text": turn["content"].strip(),
+                "parent": row['dataset'] if turn["role"]=='user' else 0,
+            })
+        return messages
+
+    #if row['dataset'] == 'lm_sys' : 
+    #    messages = []
+    #    for i, turn in enumerate(row['messages']):
+    #        messages.append({
+    #            "from": turn["role"],
+    #            "text": turn["content"].strip(),
+    #            "parent": row['id'] + '_' + str(i),
+    #        })
+    #    return messages
+
+    if row['dataset'] == 'nmt-seed' : 
+        return convert_inputs_targets_to_messages(
+            row["input_text"], row["output_text"], row['dataset']
+        )
+    #if row['dataset'] == 'oasst1' : 
+    #    messages = []
+    #    for i, turn in enumerate(row['messages']):
+    #        messages.append({
+    #            "from": turn["role"],
+    #            "text": turn["content"].strip(),
+    #            "parent": row['id'] + '_' + str(i),
+    #        })
+    #    return messages
+    if row['dataset'] == 'wikihow' : 
+        input_text = row["intro"]
+        for i, turn in enumerate(row["steps"]) : 
+            input_text += '\n' + turn['description']
+        input_text += row['messages'][0]['content']
+
+        target_text = row['messages'][1]['content']
+        return convert_inputs_targets_to_messages(
+            input_text, target_text, row["dataset"]
+        )
+
+
+
