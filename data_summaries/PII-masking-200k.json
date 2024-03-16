@@ -22,15 +22,11 @@
             "Text Generation"
         ],
         "Text Sources": [
-            "business letters",
-            "education",
-            "psychology",
-            "huggingface.co/datasets/ai4privacy/pii-masking-43k",
-            "huggingface.co/datasets/ai4privacy/pii-masking-65k"
+            "human-synthetic"
         ],
         "Model Generated": [],
         "Format": [
-            "Chain-of-Thought"
+            "Zero-shot"
         ],
         "Human Annotation": "Yes",
         "Derived from Datasets": [
@@ -42,7 +38,7 @@
         ],
         "Licenses": [
             {
-                "License": "Various",
+                "License": "NC",
                 "License URL": "https://huggingface.co/datasets/ai4privacy/pii-masking-200k/blob/main/license.md"
             }
         ],
