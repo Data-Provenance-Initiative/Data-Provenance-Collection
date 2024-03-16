@@ -194,7 +194,7 @@
                 "License URL": "https://huggingface.co/datasets/allenai/cord19"
             },
             {
-                "License": "CC BY-NC-ND 4.0",
+                "License": "CC BY-ND 4.0",
                 "License URL": "https://huggingface.co/datasets/allenai/cord19"
             }
         ],
@@ -243,8 +243,8 @@
         ],
         "Licenses": [
             {
-                "License": "GNU General Public License v3.0",
-                "License URL": "https://github.com/junwang4/causal-language-use-in-science/blob/master/LICENSE"
+                "License": "Unspecified",
+                "License URL": ""
             }
         ],
         "License Notes": "The license was provided in the github repo of the original dataset",
@@ -292,8 +292,8 @@
         ],
         "Licenses": [
             {
-                "License": "GNU General Public License v3.0",
-                "License URL": "https://github.com/junwang4/causal-language-use-in-science/blob/master/LICENSE"
+                "License": "Unspecified",
+                "License URL": ""
             }
         ],
         "License Notes": "The license was provided in the github repo of the original dataset",
