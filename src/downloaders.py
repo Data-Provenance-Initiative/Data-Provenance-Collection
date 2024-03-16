@@ -484,6 +484,10 @@ def download_book_summaries(accepted_filter_ids):
     return pool_filter(dset, "type", accepted_filter_ids)
 
 
+def download_help_steer(accepted_filter_ids):
+    return huggingface_download('nvidia/HelpSteer', split='train')
+
+
 def download_ultrachat(accepted_filter_ids):
     return huggingface_download('stingning/ultrachat', split='train')
 

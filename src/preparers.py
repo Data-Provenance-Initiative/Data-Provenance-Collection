@@ -534,7 +534,7 @@ def prepare_tool_llama(row):
         row['context'] + row['instruction'],
         row['response'],
         'toolbench',
- 
+    )
 def prepare_mathinstruct(row):
     return convert_inputs_targets_to_messages(
         row["instruction"], row["output"], row["_source"]
@@ -595,3 +595,11 @@ def prepare_agentinstruct(row):
                 "parent": dataset['id'].split('_')[0] if i == -1 else i,
             })
     return messages
+
+
+def prepare_help_steer(row):
+    return convert_inputs_targets_to_messages(
+        row["prompt"],
+        row["response"],
+        "HelpSteer"
+    )
