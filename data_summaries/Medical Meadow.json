@@ -76,9 +76,7 @@
         "Text Sources": [
             "wikidoc.org"
         ],
-        "Model Generated": [
-            "OpenAI GPT-3.5-turbo"
-        ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
@@ -127,9 +125,7 @@
         "Text Sources": [
             "Anki Medical Curriculum"
         ],
-        "Model Generated": [
-            "OpenAI GPT-3.5-turbo"
-        ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
@@ -172,11 +168,14 @@
             "Simplification"
         ],
         "Text Sources": [
-            "CORD-19"
+            "pubmed",
+            "arxiv.org",
+            "biorxiv.org",
+            "medrxiv.org",
+            "WHO Covid-19 Database"
+            
         ],
-        "Model Generated": [
-            "OpenAI GPT-3.5-turbo"
-        ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
@@ -191,7 +190,7 @@
         ],
         "Licenses": [
             {
-                "License": "CC BY-NC-SA 4.0",
+                "License": "CC BY-SA 4.0",
                 "License URL": "https://huggingface.co/datasets/allenai/cord19"
             },
             {
@@ -226,14 +225,14 @@
             "Medical Question Answering",
             "Question Answering"
         ],
-        "Text Sources": [],
-        "Model Generated": [
-            "OpenAI GPT-3.5-turbo"
+        "Text Sources": [
+            "pubmed"
         ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
-        "Human Annotation": "No",
+        "Human Annotation": "Yes",
         "Derived from Datasets": [
             "PubMed Causal Language Use"
         ],
@@ -275,14 +274,14 @@
             "Medical Question Answering",
             "Question Answering"
         ],
-        "Text Sources": [],
-        "Model Generated": [
-            "OpenAI GPT-3.5-turbo"
+        "Text Sources": [
+            "pubmed"
         ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
-        "Human Annotation": "No",
+        "Human Annotation": "Yes",
         "Derived from Datasets": [
             "PubMed Causal Language Use"
         ],
@@ -322,10 +321,10 @@
             "Instructional Question Answering",
             "Question Answering"
         ],
-        "Text Sources": [],
-        "Model Generated": [
-            "OpenAI GPT-3.5-turbo"
+        "Text Sources": [
+            "unknown"
         ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
@@ -374,9 +373,7 @@
         "Text Sources": [
             "Medical Exams"
         ],
-        "Model Generated": [
-            "OpenAI GPT-3.5-turbo"
-        ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
@@ -423,15 +420,15 @@
             "Medical Question Answering"
         ],
         "Text Sources": [
-            "National Library of Medicine (NLM)"
+            "National Library of Medicine (NLM)",
+            "pubmed",
+            "web"
         ],
-        "Model Generated": [
-            "OpenAI GPT-3.5-turbo"
-        ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
-        "Human Annotation": "No",
+        "Human Annotation": "Yes",
         "Derived from Datasets": [
             "MEDIQA"
         ],
