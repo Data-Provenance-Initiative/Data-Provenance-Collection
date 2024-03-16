@@ -8,8 +8,10 @@
         "OpenAI Playground"
     ],
     "Other": [
+        "alpaca",
         "Anthropic Internal Models",
         "CTRL",
+        "dolly",
         "Flan-T5",
         "Google Cloud Translation API",
         "Grover",

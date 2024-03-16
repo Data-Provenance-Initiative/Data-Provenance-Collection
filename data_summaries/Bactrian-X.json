@@ -19,12 +19,13 @@
             "Text Classification"
         ],
         "Text Sources": [
-            "alpaca",
-            "dolly"
+            "crowdsourced"
         ],
         "Model Generated": [
-            "BX LLaMa",
-            "BX BLOOM"
+            "alpaca",
+            "dolly",
+            "OpenAI ChatGPT",
+            "translate.google.com"
         ],
         "Format": [
             "Zero-shot"
@@ -76,12 +77,13 @@
             "Text Classification"
         ],
         "Text Sources": [
-            "alpaca",
-            "dolly"
+            "crowdsourced"
         ],
         "Model Generated": [
-            "BX LLaMa",
-            "BX BLOOM"
+            "alpaca",
+            "dolly",
+            "OpenAI ChatGPT",
+            "translate.google.com"
         ],
         "Format": [
             "Zero-shot"
@@ -133,12 +135,13 @@
             "Text Classification"
         ],
         "Text Sources": [
-            "alpaca",
-            "dolly"
+            "crowdsourced"
         ],
         "Model Generated": [
-            "BX LLaMa",
-            "BX BLOOM"
+            "alpaca",
+            "dolly",
+            "OpenAI ChatGPT",
+            "translate.google.com"
         ],
         "Format": [
             "Zero-shot"
@@ -190,12 +193,13 @@
             "Text Classification"
         ],
         "Text Sources": [
-            "alpaca",
-            "dolly"
+            "crowdsourced"
         ],
         "Model Generated": [
-            "BX LLaMa",
-            "BX BLOOM"
+            "alpaca",
+            "dolly",
+            "OpenAI ChatGPT",
+            "translate.google.com"
         ],
         "Format": [
             "Zero-shot"
@@ -247,12 +251,13 @@
             "Text Classification"
         ],
         "Text Sources": [
-            "alpaca",
-            "dolly"
+            "crowdsourced"
         ],
         "Model Generated": [
-            "BX LLaMa",
-            "BX BLOOM"
+            "alpaca",
+            "dolly",
+            "OpenAI ChatGPT",
+            "translate.google.com"
         ],
         "Format": [
             "Zero-shot"
@@ -304,12 +309,13 @@
             "Text Classification"
         ],
         "Text Sources": [
-            "alpaca",
-            "dolly"
+            "crowdsourced"
         ],
         "Model Generated": [
-            "BX LLaMa",
-            "BX BLOOM"
+            "alpaca",
+            "dolly",
+            "OpenAI ChatGPT",
+            "translate.google.com"
         ],
         "Format": [
             "Zero-shot"
