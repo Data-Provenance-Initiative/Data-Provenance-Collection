@@ -95,7 +95,7 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "No"
     },
     "chatdoctor-icliniq-10k": {
         "Unique Dataset Identifier": "chatdoctor-icliniq-10k",
@@ -193,7 +193,7 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "No"
     },
     "chatdoctor-genmedgpt-5k": {
         "Unique Dataset Identifier": "chatdoctor-genmedgpt-5k",
@@ -234,7 +234,9 @@
             "Max Dialog Turns": 1,
             "Mean Dialog Turns": 1
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "OpenAI ChatGPT"
+        ],
         "Model Generated": [
             "OpenAI ChatGPT"
         ],
