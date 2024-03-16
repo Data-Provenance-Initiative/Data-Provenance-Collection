@@ -598,7 +598,7 @@ def prepare_agentinstruct(row):
 
 
 def prepare_pii_masking_200k(row):
-    inputs = row["unmasked_text"] + "\n\n" + "Given the previous paragraph, please mask it any personally " \
+    inputs = row["unmasked_text"] + "\n\n" + "Given the previous paragraph, please mask any personally " \
                                              "identifiable information using masks, such as [FIRSTNAME_1], [AGE_2]," \
                                              " [GENDER_1], or [COUNTRY_2],.."
     return convert_inputs_targets_to_messages(

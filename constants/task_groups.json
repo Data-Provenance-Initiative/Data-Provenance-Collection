@@ -310,7 +310,8 @@
         "Semantic Role Labeling",
         "Sequence Tagging",
         "Synonym Identification and Retagging",
-        "Word Segmentation"
+        "Word Segmentation",
+        "Token Classification"
     ],
     "Short Text Generation": [
         "Basic Instruct",
@@ -394,9 +395,6 @@
         "Text Matching",
         "Unverifiable Claim Classification",
         "Word Sense Disambiguation"
-    ],
-    "Token Classification": [
-        "Token Classification"
     ],
     "Translation": [
         "Inverted Translation",
