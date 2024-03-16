@@ -38,7 +38,7 @@
         ],
         "Licenses": [
             {
-                "License": "NC",
+                "License": "Non Commercial",
                 "License URL": "https://huggingface.co/datasets/ai4privacy/pii-masking-200k/blob/main/license.md"
             }
         ],
