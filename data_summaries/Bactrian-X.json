@@ -20,8 +20,7 @@
         ],
         "Text Sources": [
             "alpaca",
-            "dolly",
-            "translate.google.com"
+            "dolly"
         ],
         "Model Generated": [
             "BX LLaMa",
@@ -45,12 +44,17 @@
                 "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE"
             }
         ],
-        "Dataset Filter IDs": ["en"],
+        "Dataset Filter IDs": [
+            "en"
+        ],
         "License Notes": "Contains 3.4M pairs of instructions and responses in 52 languages. Translated using Google Translate.",
         "Collection URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
         "Papers with Code URL": "https://paperswithcode.com/dataset/bactrian-x",
         "License Verified By": "Lester James V. Miranda",
-        "Derived from Datasets": ["dolly-openqa", "alpaca"]
+        "Derived from Datasets": [
+            "dolly-openqa",
+            "alpaca"
+        ]
     },
     "bactrian-x-id": {
         "Unique Dataset Identifier": "bactrian-x-id",
@@ -73,8 +77,7 @@
         ],
         "Text Sources": [
             "alpaca",
-            "dolly",
-            "translate.google.com"
+            "dolly"
         ],
         "Model Generated": [
             "BX LLaMa",
@@ -98,12 +101,17 @@
                 "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE"
             }
         ],
-        "Dataset Filter IDs": ["id"],
+        "Dataset Filter IDs": [
+            "id"
+        ],
         "License Notes": "Contains 3.4M pairs of instructions and responses in 52 languages. Translated using Google Translate.",
         "Collection URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
         "Papers with Code URL": "https://paperswithcode.com/dataset/bactrian-x",
         "License Verified By": "Lester James V. Miranda",
-        "Derived from Datasets": ["dolly-openqa", "alpaca"]
+        "Derived from Datasets": [
+            "dolly-openqa",
+            "alpaca"
+        ]
     },
     "bactrian-x-km": {
         "Unique Dataset Identifier": "bactrian-x-km",
@@ -126,8 +134,7 @@
         ],
         "Text Sources": [
             "alpaca",
-            "dolly",
-            "translate.google.com"
+            "dolly"
         ],
         "Model Generated": [
             "BX LLaMa",
@@ -151,12 +158,17 @@
                 "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE"
             }
         ],
-        "Dataset Filter IDs": ["km"],
+        "Dataset Filter IDs": [
+            "km"
+        ],
         "License Notes": "Contains 3.4M pairs of instructions and responses in 52 languages. Translated using Google Translate.",
         "Collection URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
         "Papers with Code URL": "https://paperswithcode.com/dataset/bactrian-x",
         "License Verified By": "Lester James V. Miranda",
-        "Derived from Datasets": ["dolly-openqa", "alpaca"]
+        "Derived from Datasets": [
+            "dolly-openqa",
+            "alpaca"
+        ]
     },
     "bactrian-x-my": {
         "Unique Dataset Identifier": "bactrian-x-my",
@@ -179,8 +191,7 @@
         ],
         "Text Sources": [
             "alpaca",
-            "dolly",
-            "translate.google.com"
+            "dolly"
         ],
         "Model Generated": [
             "BX LLaMa",
@@ -204,12 +215,17 @@
                 "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE"
             }
         ],
-        "Dataset Filter IDs": ["my"],
+        "Dataset Filter IDs": [
+            "my"
+        ],
         "License Notes": "Contains 3.4M pairs of instructions and responses in 52 languages. Translated using Google Translate.",
         "Collection URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
         "Papers with Code URL": "https://paperswithcode.com/dataset/bactrian-x",
         "License Verified By": "Lester James V. Miranda",
-        "Derived from Datasets": ["dolly-openqa", "alpaca"]
+        "Derived from Datasets": [
+            "dolly-openqa",
+            "alpaca"
+        ]
     },
     "bactrian-x-th": {
         "Unique Dataset Identifier": "bactrian-x-th",
@@ -232,8 +248,7 @@
         ],
         "Text Sources": [
             "alpaca",
-            "dolly",
-            "translate.google.com"
+            "dolly"
         ],
         "Model Generated": [
             "BX LLaMa",
@@ -257,12 +272,17 @@
                 "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE"
             }
         ],
-        "Dataset Filter IDs": ["th"],
+        "Dataset Filter IDs": [
+            "th"
+        ],
         "License Notes": "Contains 3.4M pairs of instructions and responses in 52 languages. Translated using Google Translate.",
         "Collection URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
         "Papers with Code URL": "https://paperswithcode.com/dataset/bactrian-x",
         "License Verified By": "Lester James V. Miranda",
-        "Derived from Datasets": ["dolly-openqa", "alpaca"]
+        "Derived from Datasets": [
+            "dolly-openqa",
+            "alpaca"
+        ]
     },
     "bactrian-x-tl": {
         "Unique Dataset Identifier": "bactrian-x-tl",
@@ -285,8 +305,7 @@
         ],
         "Text Sources": [
             "alpaca",
-            "dolly",
-            "translate.google.com"
+            "dolly"
         ],
         "Model Generated": [
             "BX LLaMa",
@@ -310,11 +329,16 @@
                 "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE"
             }
         ],
-        "Dataset Filter IDs": ["tl"],
+        "Dataset Filter IDs": [
+            "tl"
+        ],
         "License Notes": "Contains 3.4M pairs of instructions and responses in 52 languages. Translated using Google Translate.",
         "Collection URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
         "Papers with Code URL": "https://paperswithcode.com/dataset/bactrian-x",
         "License Verified By": "Lester James V. Miranda",
-        "Derived from Datasets": ["dolly-openqa", "alpaca"]
+        "Derived from Datasets": [
+            "dolly-openqa",
+            "alpaca"
+        ]
     }
 }
