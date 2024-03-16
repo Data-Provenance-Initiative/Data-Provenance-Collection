@@ -43,6 +43,10 @@
             {
                 "License": "Apache License 2.0",
                 "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://openai.com/policies/terms-of-use"
             }
         ],
         "Dataset Filter IDs": [
@@ -101,6 +105,10 @@
             {
                 "License": "Apache License 2.0",
                 "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://openai.com/policies/terms-of-use"
             }
         ],
         "Dataset Filter IDs": [
@@ -159,6 +167,10 @@
             {
                 "License": "Apache License 2.0",
                 "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://openai.com/policies/terms-of-use"
             }
         ],
         "Dataset Filter IDs": [
@@ -217,6 +229,10 @@
             {
                 "License": "Apache License 2.0",
                 "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://openai.com/policies/terms-of-use"
             }
         ],
         "Dataset Filter IDs": [
@@ -275,6 +291,10 @@
             {
                 "License": "Apache License 2.0",
                 "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://openai.com/policies/terms-of-use"
             }
         ],
         "Dataset Filter IDs": [
@@ -333,6 +353,10 @@
             {
                 "License": "Apache License 2.0",
                 "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://openai.com/policies/terms-of-use"
             }
         ],
         "Dataset Filter IDs": [
