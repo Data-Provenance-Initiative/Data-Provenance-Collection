@@ -25,6 +25,7 @@
         "BC2GM",
         "BC5CDR-chem",
         "BC5CDR-disease",
+        "biorxiv.org",
         "biomed articles",
         "cancer.gov",
         "ChatDoctor",
@@ -39,6 +40,7 @@
         "iclinic.com",
         "JNLPBA",
         "mcat tests",
+        "medrxiv.org",
         "Medical Exams",
         "medline.com",
         "medlineplus.gov",
@@ -53,6 +55,7 @@
         "pubmed articles",
         "rarediseases.info.nih.gov",
         "vol. 5: biology",
+        "WHO Covid-19 Database",
         "wikidoc.org"
     ],
     "Books": [
@@ -719,6 +722,8 @@
         "tep",
         "tiwall.com",
         "ukwac",
+        "unknown",
+        "web",
         "wenshu.court.gov.cn",
         "xhosanavy",
         "zhihu",
