@@ -17,6 +17,7 @@
         "StarCoder",
         "T5",
         "T5-XXL",
+        "translate.google.com",
         "XLNet",
         "wikisql",
         "BX LLaMa",
