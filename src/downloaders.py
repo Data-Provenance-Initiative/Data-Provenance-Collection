@@ -683,3 +683,21 @@ def download_gorilla(accepted_filter_ids):
             ret[key] = ret.get(key, []) + [ex[key]]
 
     return Dataset.from_dict(ret)
+
+
+def download_agentinstruct(accepted_filter_ids):
+    dset = []
+    if 'alfworld' in accepted_filter_ids:
+        dset.append(huggingface_download('THUDM/AgentInstruct', split='alfworld'))
+    if 'db' in accepted_filter_ids:
+        dset.append(huggingface_download('THUDM/AgentInstruct', split='db'))
+    if 'os' in accepted_filter_ids:
+        dset.append(huggingface_download('THUDM/AgentInstruct', split='os'))
+    if 'kg' in accepted_filter_ids:
+        dset.append(huggingface_download('THUDM/AgentInstruct', split='kg'))
+    if 'webshop' in accepted_filter_ids:
+        dset.append(huggingface_download('THUDM/AgentInstruct', split='webshop'))
+    if 'mind2web' in accepted_filter_ids:
+        dset.append(huggingface_download('THUDM/AgentInstruct', split='mind2web'))
+
+    return dset

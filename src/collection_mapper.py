@@ -215,6 +215,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_open_orca,
         "prepare_function": preparers.prepare_open_orca,
     },
+    "AgentInstruct": {
+            "download_function": downloaders.download_agentinstruct,
+            "prepare_function": preparers.prepare_agentinstruct,
+    },
     "No Robots": {
         "download_function": downloaders.download_no_robots,
         "prepare_function": preparers.prepare_no_robots,
