@@ -534,6 +534,7 @@ def prepare_tool_llama(row):
         row['context'] + row['instruction'],
         row['response'],
         'toolbench',
+    )
  
 def prepare_mathinstruct(row):
     return convert_inputs_targets_to_messages(
@@ -595,3 +596,11 @@ def prepare_agentinstruct(row):
                 "parent": dataset['id'].split('_')[0] if i == -1 else i,
             })
     return messages
+
+
+def prepare_no_robots(row):
+    return convert_inputs_targets_to_messages(
+        row["messages"][0]["content"],
+        row["messages"][1]["content"],
+        row["category"]
+    )
