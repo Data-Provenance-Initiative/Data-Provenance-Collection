@@ -213,7 +213,7 @@ def apply_filters(
             ]
         )
         filtered_df = filtered_df[
-            filtered_df["Languages"].apply(lambda x: lang_strs >= set(x))
+            filtered_df["Languages"].apply(lambda x: len(lang_strs.intersection(set(x))) > 0)
         ]
 
     if not filtered_df.empty and selected_task_categories:
@@ -225,7 +225,7 @@ def apply_filters(
             ]
         )
         filtered_df = filtered_df[
-            filtered_df["Task Categories"].apply(lambda x: taskcat_strs >= set(x))
+            filtered_df["Task Categories"].apply(lambda x: len(taskcat_strs.intersection(set(x))) > 0)
         ]
     if not filtered_df.empty and selected_domains:
         text_source_strs = set(
@@ -236,7 +236,7 @@ def apply_filters(
             ]
         )
         filtered_df = filtered_df[
-            filtered_df["Text Sources"].apply(lambda x: text_source_strs >= set(x))
+            filtered_df["Text Sources"].apply(lambda x: len(text_source_strs.intersection(set(x))) > 0)
         ]
     if not filtered_df.empty and (selected_start_time or selected_end_time):
 
