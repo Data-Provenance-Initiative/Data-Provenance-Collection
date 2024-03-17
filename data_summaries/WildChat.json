@@ -23,12 +23,21 @@
       "Italian",
       "Turkish"
     ],
-    "Task Categories": ["Conversational Question Answering", "Text Generation"],
-    "Text Sources": [],
+    "Task Categories": [
+      "Conversational Question Answering",
+      "Text Generation",
+      "Open-form Text Generation",
+      "Brainstorming",
+      "Code",
+      "Creativity",
+      "Creative Writing",
+      "Miscellaneous"
+    ],
+    "Text Sources": ["crowdsourced"],
     "Model Generated": ["OpenAI GPT-3"],
     "Format": ["Multi-turn Dialog"],
     "Human Annotation": "No",
-    "Derived from Datasets": ["crowdsourced"],
+    "Derived from Datasets": [],
     "Creators": [
       "Cornell University",
       "AI2",
@@ -74,7 +83,16 @@
       "Italian",
       "Turkish"
     ],
-    "Task Categories": ["Conversational Question Answering", "Text Generation"],
+    "Task Categories": [
+      "Conversational Question Answering",
+      "Text Generation",
+      "Open-form Text Generation",
+      "Brainstorming",
+      "Code",
+      "Creativity",
+      "Creative Writing",
+      "Miscellaneous"
+    ],
     "Text Sources": ["crowdsourced"],
     "Model Generated": ["OpenAI GPT-4"],
     "Format": ["Multi-turn Dialog"],
