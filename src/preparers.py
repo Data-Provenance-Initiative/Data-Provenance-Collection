@@ -591,6 +591,27 @@ def prepare_pmc_llama(row):
         row['output'],
         row['source']
     )
+  
+def prepare_medical_meadow(row):
+    inputs = "".join([row['instruction'] + row['input']])
+    return convert_inputs_targets_to_messages(
+        inputs,
+        row['output'],
+        row["_source"],
+    )
+
+def prepare_medinstruct(row):
+    inputs = "".join([row['instruction'] + row['input']])
+    return convert_inputs_targets_to_messages(
+        inputs,
+        row['output'],
+        'medinstruct',
+    )
+      
+def prepare_chatdoctor(row):
+    return convert_inputs_targets_to_messages(
+        row["inputs"], row["outputs"], row["_source"]
+    )
 
 def prepare_agentinstruct(row):
     datasets = row  # Based on the current structure, a row represents all datasets :TODO: might need to change this
