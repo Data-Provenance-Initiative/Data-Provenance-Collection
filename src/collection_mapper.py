@@ -209,6 +209,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_baize_data,
         "prepare_function": preparers.prepare_baize_data,
     },
+    "Medical Meadow": {
+        "download_function": downloaders.download_medical_meadow,
+        "prepare_function": preparers.prepare_medical_meadow,
+    },
     "MedInstruct": {
         "download_function": downloaders.download_medinstruct,
         "prepare_function": preparers.prepare_medinstruct,
