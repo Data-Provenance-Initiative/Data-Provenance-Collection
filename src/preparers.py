@@ -583,6 +583,14 @@ def prepare_open_orca(row):
         {"from": "assistant", "text": outputs.strip(), "parent": 0},
     ]
 
+def prepare_medinstruct(row):
+    inputs = "".join([row['instruction'] + row['input']])
+    return convert_inputs_targets_to_messages(
+        inputs,
+        row['output'],
+        'medinstruct',
+    )
+      
 def prepare_chatdoctor(row):
     return convert_inputs_targets_to_messages(
         row["inputs"], row["outputs"], row["_source"]

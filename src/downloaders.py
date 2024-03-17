@@ -508,6 +508,9 @@ def download_open_orca(accepeted_filter_ids):
     dset = list(map(lambda x: {**x, 'source': x['id'].split('.')[0]}, dset))
     return pool_filter(dset, "source", accepeted_filter_ids)
 
+def download_medinstruct(accepted_filter_ids):
+    return direct_data_request("https://raw.githubusercontent.com/XZhang97666/AlpaCare/master/data/MedInstruct-52k.json")
+
 def download_mathinstruct(accepted_filter_ids):
     mathinstruct = load_dataset('TIGER-Lab/MathInstruct', split='train')
     dset = []
