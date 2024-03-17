@@ -534,6 +534,7 @@ def prepare_tool_llama(row):
         row['context'] + row['instruction'],
         row['response'],
         'toolbench',
+    )
  
 def prepare_mathinstruct(row):
     return convert_inputs_targets_to_messages(
@@ -583,6 +584,14 @@ def prepare_open_orca(row):
         {"from": "assistant", "text": outputs.strip(), "parent": 0},
     ]
 
+def prepare_pmc_llama(row):
+    inputs = "".join([row['instruction'] + row['input']])
+    return convert_inputs_targets_to_messages(
+        inputs,
+        row['output'],
+        row['source']
+    )
+  
 def prepare_medical_meadow(row):
     inputs = "".join([row['instruction'] + row['input']])
     return convert_inputs_targets_to_messages(
