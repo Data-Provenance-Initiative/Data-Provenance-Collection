@@ -340,6 +340,7 @@
         "Word Reordering"
     ],
     "Summarization": [
+        "BioMedical Text Summarization",
         "Critical Review Summarization",
         "News Article Summarization",
         "Paper Review",

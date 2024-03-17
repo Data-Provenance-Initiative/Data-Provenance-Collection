@@ -213,9 +213,21 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_pmc_llama,
         "prepare_function": preparers.prepare_pmc_llama,
     },
+    "Medical Meadow": {
+        "download_function": downloaders.download_medical_meadow,
+        "prepare_function": preparers.prepare_medical_meadow,
+    },
+    "MedInstruct": {
+        "download_function": downloaders.download_medinstruct,
+        "prepare_function": preparers.prepare_medinstruct,
+    },   
     "Open Orca": {
         "download_function": downloaders.download_open_orca,
         "prepare_function": preparers.prepare_open_orca,
+    },
+    "ChatDoctor":{
+        "download_function": downloaders.download_chatdoctor,
+        "prepare_function": preparers.prepare_chatdoctor,
     },
     "AgentInstruct": {
         "download_function": downloaders.download_agentinstruct,
