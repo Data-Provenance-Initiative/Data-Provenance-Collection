@@ -583,6 +583,10 @@ def prepare_open_orca(row):
         {"from": "assistant", "text": outputs.strip(), "parent": 0},
     ]
 
+def prepare_chatdoctor(row):
+    return convert_inputs_targets_to_messages(
+        row["inputs"], row["outputs"], row["_source"]
+    )
 
 def prepare_agentinstruct(row):
     datasets = row  # Based on the current structure, a row represents all datasets :TODO: might need to change this
