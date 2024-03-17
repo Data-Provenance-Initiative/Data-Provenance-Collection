@@ -30,8 +30,10 @@
         "cancer.gov",
         "ChatDoctor",
         "CORD-19",
+        "Clinical Notes",
         "GAD",
         "hallmarks of cancer (HoC)",
+        "Hand-crafted Clinical Instructions",
         "haodf.com",
         "healthcaremagic.com",
         "healthtap.com",
@@ -56,7 +58,9 @@
         "rarediseases.info.nih.gov",
         "vol. 5: biology",
         "WHO Covid-19 Database",
-        "wikidoc.org"
+        "wikidoc.org",
+        "healthcaremagic.com",
+        "icliniq.com"
     ],
     "Books": [
         "Gutenberg Poetry Corpus",

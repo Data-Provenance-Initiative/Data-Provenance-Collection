@@ -508,6 +508,7 @@ def download_open_orca(accepeted_filter_ids):
     dset = list(map(lambda x: {**x, 'source': x['id'].split('.')[0]}, dset))
     return pool_filter(dset, "source", accepeted_filter_ids)
 
+  
 def download_medical_meadow(accepted_filter_ids):
     dset = []
     if "medical-meadow-med-flashcards" in accepted_filter_ids:
@@ -538,6 +539,10 @@ def download_medical_meadow(accepted_filter_ids):
         mediqa = huggingface_download("medalpaca/medical_meadow_mediqa", split='train')
         dset += annotate_source(mediqa, "medical-meadow-mediqa")
     return dset
+
+  
+def download_medinstruct(accepted_filter_ids):
+    return direct_data_request("https://raw.githubusercontent.com/XZhang97666/AlpaCare/master/data/MedInstruct-52k.json")
 
 def download_mathinstruct(accepted_filter_ids):
     mathinstruct = load_dataset('TIGER-Lab/MathInstruct', split='train')
@@ -720,6 +725,20 @@ def download_gorilla(accepted_filter_ids):
 
     return Dataset.from_dict(ret)
 
+def download_chatdoctor(accepted_filter_ids):
+    dset = []
+    if "chatdoctor-healthcaremagic-100k" in accepted_filter_ids:
+        healthcaremagic_dset = huggingface_download("lavita/ChatDoctor-HealthCareMagic-100k", split='train')
+        dset += annotate_source(healthcaremagic_dset, "chatdoctor-healthcaremagic-100k")
+    if "chatdoctor-icliniq-10k" in accepted_filter_ids:
+        icliniq_dset = load_dataset("lavita/ChatDoctor-iCliniq", split='train')
+        icliniq_dset = icliniq_dset.rename_column("answer_icliniq", "output")
+        icliniq_dset = icliniq_dset.to_list()
+        dset += annotate_source(icliniq_dset, "chatdoctor-icliniq-10k")
+    if "chatdoctor-genmedgpt-5k" in accepted_filter_ids:
+        genmedgpt_dset = huggingface_download("wangrongsheng/GenMedGPT-5k-en", split='train')
+        dset += annotate_source(genmedgpt_dset, "chatdoctor-genmedgpt-5k")
+    return dset
 
 def download_agentinstruct(accepted_filter_ids):
     dset = []
