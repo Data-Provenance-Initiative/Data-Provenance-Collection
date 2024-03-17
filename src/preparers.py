@@ -611,7 +611,7 @@ def prepare_lumos_planning(row):
             new_messages.append({
                 "from": message["role"],
                 "text": message["content"],
-                "parent": 0
+                "parent": i-1
             })
     return new_messages
 
@@ -630,7 +630,7 @@ def prepare_lumos_grounding(row):
             new_messages.append({
                 "from": message["role"],
                 "text": message["content"],
-                "parent": 0
+                "parent": i-1
             })
     return new_messages
 
