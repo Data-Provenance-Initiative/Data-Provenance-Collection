@@ -164,6 +164,7 @@ def apply_filters(
         [lang for langs in filtered_df["Languages"].tolist() for lang in langs]
     )
     assert all_langs >= option_langs, f"Missing Languages: {option_langs - all_langs}"
+
     all_tcats = set([v for vs in all_constants["TASK_GROUPS"].values() for v in vs])
     option_tcats = set(
         [tc for tcs in filtered_df["Task Categories"].tolist() for tc in tcs]
@@ -171,12 +172,21 @@ def apply_filters(
     assert (
             all_tcats >= option_tcats
     ), f"Missing Task Categories: {option_tcats - all_tcats}"
+
     all_sources = set([v for vs in all_constants["DOMAIN_GROUPS"].values() for v in vs])
     option_sources = set(
         [src for sources in filtered_df["Text Sources"].tolist() for src in sources]
     )
     assert all_sources >= option_sources, f"Missing Text Sources: {option_sources - all_sources}"
 
+    all_models = set([v for vs in all_constants["MODEL_GROUPS"].values() for v in vs])
+    option_models = set(
+        [model for models in filtered_df["Model Generated"].tolist() for model in models]
+    )
+    assert all_models >= option_models, f"Missing Models: {option_models - all_models}"
+
+
+    # Apply filters:
     if selected_collection:
         filtered_df = filtered_df[filtered_df["Collection"] == selected_collection]
 

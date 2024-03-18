@@ -534,9 +534,6 @@ def download_medical_meadow(accepted_filter_ids):
     if "medical-meadow-pubmed-causal" in accepted_filter_ids:
         pubmed_causal = huggingface_download("medalpaca/medical_meadow_pubmed_causal", split='train')
         dset += annotate_source(pubmed_causal, "medical-meadow-pubmed-causal")
-    if "medical-meadow-mmlu" in accepted_filter_ids:
-        mmlu = huggingface_download("medalpaca/medical_meadow_mmmlu", split='train')
-        dset += annotate_source(mmlu, "medical-meadow-mmlu")
     if "medical-meadow-medqa" in accepted_filter_ids:
         medqa = huggingface_download("medalpaca/medical_meadow_medqa", split='train')
         dset += annotate_source(medqa, "medical-meadow-medqa")
