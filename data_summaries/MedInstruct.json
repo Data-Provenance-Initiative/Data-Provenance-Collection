@@ -41,7 +41,11 @@
         "Licenses": [
             {
                 "License": "OpenAI",
-                "License URL": ""
+                "License URL": "https://github.com/XZhang97666/AlpaCare"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/XZhang97666/AlpaCare"
             }
         ],
         "License Notes": "No explicit license was provided in The Github or Huggingface repos. The chosen license is based on their use of OpenAI models to generate data",
