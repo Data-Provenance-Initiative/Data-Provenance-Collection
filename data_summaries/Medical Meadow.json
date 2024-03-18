@@ -40,12 +40,16 @@
         ],
         "Licenses": [
             {
-                "License": "CC BY 4.0",
-                "License URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_medical_flashcards"
+                "License": "Non Commercial",
+                "License URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_medical_flashcards/discussions/1"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://github.com/kbressem/medAlpaca"
             }
         ],
-        "License Notes": "The license is provided as a tag for the HF repo without even providing a version (just cc) and was not explicitly mentioned in the dataset card",
-        "License Verified By": "",
+        "License Notes": "HuggingFace discussion indicates it is Non Commercial, as well as OpenAI generated.",
+        "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "medical-meadow-med-flashcards"
         ]
@@ -76,7 +80,7 @@
         "Text Sources": [
             "wikidoc.org"
         ],
-        "Model Generated": [],
+        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
         "Format": [
             "Zero-shot"
         ],
@@ -89,12 +93,16 @@
         ],
         "Licenses": [
             {
-                "License": "CC BY 4.0",
+                "License": "OpenAI",
                 "License URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/kbressem/medAlpaca"
             }
         ],
-        "License Notes": "The license is provided as a tag for the HF repo without even providing a version (just cc) and was not explicitly mentioned in the dataset card",
-        "License Verified By": "",
+        "License Notes": "OpenAI re-phrased. Otherwise no explicit data license.",
+        "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "medical-meadow-wikidoc-living-textbook"
         ]
@@ -125,7 +133,7 @@
         "Text Sources": [
             "Anki Medical Curriculum"
         ],
-        "Model Generated": [],
+        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
         "Format": [
             "Zero-shot"
         ],
@@ -138,12 +146,16 @@
         ],
         "Licenses": [
             {
-                "License": "CC BY 4.0",
-                "License URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc_patient_information"
+                "License": "OpenAI",
+                "License URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/kbressem/medAlpaca"
             }
         ],
-        "License Notes": "The license is provided as a tag for the HF repo without even providing a version (just cc) and was not explicitly mentioned in the dataset card",
-        "License Verified By": "",
+        "License Notes": "OpenAI re-phrased. Otherwise no explicit data license.",
+        "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "medical-meadow-wikidoc-patient-information"
         ]
@@ -190,16 +202,12 @@
         ],
         "Licenses": [
             {
-                "License": "CC BY-SA 4.0",
-                "License URL": "https://huggingface.co/datasets/allenai/cord19"
-            },
-            {
-                "License": "CC BY-ND 4.0",
-                "License URL": "https://huggingface.co/datasets/allenai/cord19"
+                "License": "Various",
+                "License URL": "https://github.com/allenai/cord19?tab=readme-ov-file#metadatacsv-overview"
             }
         ],
-        "License Notes": "The licenses are provided as tags for the HF repo of original dataset without even providing a version and was not explicitly mentioned in the dataset card. In case of CC-BY-ND, this derived dataset is confusing. Also, the github repo of CORD-19 provides an Apache-2.0 license and containing only a README",
-        "License Verified By": "",
+        "License Notes": "Lots of licenses used for different subsets.",
+        "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "medical-meadow-cord19"
         ]
@@ -244,11 +252,11 @@
         "Licenses": [
             {
                 "License": "Unspecified",
-                "License URL": ""
+                "License URL": "https://github.com/junwang4/causal-language-use-in-science"
             }
         ],
-        "License Notes": "The license was provided in the github repo of the original dataset",
-        "License Verified By": "",
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "medical-meadow-health-advice"
         ]
@@ -296,57 +304,10 @@
                 "License URL": ""
             }
         ],
-        "License Notes": "The license was provided in the github repo of the original dataset",
-        "License Verified By": "",
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "medical-meadow-pubmed-causal"
-        ]
-    },
-    "medical-meadow-mmlu": {
-        "Unique Dataset Identifier": "medical-meadow-mmlu",
-        "Dataset Name": "mmlu",
-        "Paper Title": "Measuring Massive Multitask Language Understanding",
-        "Dataset URL": "https://huggingface.co/datasets/cais/mmlu",
-        "GitHub URL": "https://github.com/hendrycks/test",
-        "Hugging Face URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_mmmlu",
-        "Papers with Code URL": "https://paperswithcode.com/dataset/mmlu",
-        "ArXiv URL": "https://arxiv.org/abs/2009.03300",
-        "Semantic Scholar Corpus ID": 221516475,
-        "Collection": "Medical Meadow",
-        "Collection URL": "https://github.com/kbressem/medAlpaca",
-        "Languages": [
-            "English"
-        ],
-        "Task Categories": [
-            "Instructional Question Answering",
-            "Question Answering"
-        ],
-        "Text Sources": [
-            "unknown"
-        ],
-        "Model Generated": [],
-        "Format": [
-            "Zero-shot"
-        ],
-        "Human Annotation": "No",
-        "Derived from Datasets": [
-            "MMLU"
-        ],
-        "Creators": [
-            "University Hospital Aachen",
-            "Technische Universität München",
-            "Berliner Hochschule für Technik"
-        ],
-        "Licenses": [
-            {
-                "License": "MIT License",
-                "License URL": "https://huggingface.co/datasets/cais/mmlu"
-            }
-        ],
-        "License Notes": "The license given here is MMLU's. No license was provided by the processed dataset",
-        "License Verified By": "",
-        "Dataset Filter IDs": [
-            "medical-meadow-mmlu"
         ]
     },
     "medical-meadow-medqa": {
@@ -388,12 +349,12 @@
         ],
         "Licenses": [
             {
-                "License": "MIT License",
-                "License URL": "https://github.com/jind11/MedQA/blob/master/LICENSE"
+                "License": "Unspecified",
+                "License URL": "https://github.com/jind11/MedQA"
             }
         ],
-        "License Notes": "The license given here is MedQA's. No license was provided by the processed dataset",
-        "License Verified By": "",
+        "License Notes": "No data license found for MedQA.",
+        "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "medical-meadow-medqa"
         ]
@@ -443,7 +404,7 @@
                 "License URL": "https://osf.io/fyg46/"
             }
         ],
-        "License Notes": "The license given here is MEDIQA's. No license was provided by the processed dataset",
+        "License Notes": "The license given here is MEDIQA's.",
         "License Verified By": "",
         "Dataset Filter IDs": [
             "medical-meadow-mediqa"

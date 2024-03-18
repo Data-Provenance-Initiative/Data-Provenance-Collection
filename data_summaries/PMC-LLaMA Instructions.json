@@ -39,11 +39,11 @@
         "Licenses": [
             {
                 "License": "Unspecified",
-                "License URL": "https://chqa.nlm.nih.gov/licensing"
+                "License URL": "https://github.com/chaoyi-wu/PMC-LLaMA"
             }
         ],
         "License Notes": "",
-        "License Verified By": "",
+        "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "liveqa"
         ]
@@ -88,11 +88,11 @@
         "Licenses": [
             {
                 "License": "Unspecified",
-                "License URL": "https://chqa.nlm.nih.gov/licensing"
+                "License URL": "https://github.com/chaoyi-wu/PMC-LLaMA"
             }
         ],
         "License Notes": "",
-        "License Verified By": "",
+        "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "medicationqa"
         ]
@@ -138,10 +138,14 @@
             {
                 "License": "Apache License 2.0",
                 "License URL": "https://huggingface.co/datasets/medmcqa"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.14454"
             }
         ],
         "License Notes": "",
-        "License Verified By": "",
+        "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "medmcqa"
         ]
@@ -170,9 +174,7 @@
         "Text Sources": [
             "Medical Exams"
         ],
-        "Model Generated": [
-            "OpenAI ChatGPT"
-        ],
+        "Model Generated": ["OpenAI ChatGPT"],
         "Format": [
             "Zero-shot"
         ],
@@ -185,8 +187,12 @@
         ],
         "Licenses": [
             {
-                "License": "MIT License",
-                "License URL": "https://huggingface.co/datasets/GBaker/MedQA-USMLE-4-options"
+                "License": "Unspecified",
+                "License URL": "https://github.com/jind11/MedQA"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.14454"
             }
         ],
         "License Notes": "",
@@ -199,12 +205,12 @@
         "Unique Dataset Identifier": "pmc-llama-pubmedqa",
         "Dataset Name": "pubmedqa",
         "Paper Title": "PMC-LLaMA: Towards Building Open-source Language Models for Medicine",
-        "Dataset URL": "https://huggingface.co/datasets/axiong/pmc_llama_instructions",
+        "Dataset URL": "https://github.com/pubmedqa/pubmedqa",
         "GitHub URL": "https://github.com/chaoyi-wu/PMC-LLaMA",
         "Hugging Face URL": "https://huggingface.co/datasets/axiong/pmc_llama_instructions",
         "Papers with Code URL": "",
-        "ArXiv URL": "https://arxiv.org/abs/2304.14454",
-        "Semantic Scholar Corpus ID": 258417843,
+        "ArXiv URL": "https://arxiv.org/abs/1909.06146",
+        "Semantic Scholar Corpus ID": 202572622,
         "Collection": "PMC-LLaMA Instructions",
         "Collection URL": "https://github.com/chaoyi-wu/PMC-LLaMA",
         "Languages": [
@@ -219,9 +225,7 @@
         "Text Sources": [
             "pubmed"
         ],
-        "Model Generated": [
-            "OpenAI ChatGPT"
-        ],
+        "Model Generated": ["OpenAI ChatGPT"],
         "Format": [
             "Zero-shot"
         ],
@@ -234,12 +238,16 @@
         ],
         "Licenses": [
             {
-                "License": "MIT License",
-                "License URL": "https://huggingface.co/datasets/pubmed_qa"
+                "License": "Unspecified",
+                "License URL": "https://github.com/pubmedqa/pubmedqa"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.14454"
             }
         ],
         "License Notes": "",
-        "License Verified By": "",
+        "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "pubmedqa.ori_pqaa"
         ]
@@ -268,9 +276,7 @@
         "Text Sources": [
             "National Library of Medicine (NLM)"
         ],
-        "Model Generated": [
-            "OpenAI ChatGPT"
-        ],
+        "Model Generated": ["OpenAI ChatGPT"],
         "Format": [
             "Zero-shot"
         ],
@@ -284,11 +290,15 @@
         "Licenses": [
             {
                 "License": "Unspecified",
-                "License URL": "https://www.nlm.nih.gov/databases/umls.html"
+                "License URL": "https://github.com/chaoyi-wu/PMC-LLaMA"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.14454"
             }
         ],
         "License Notes": "",
-        "License Verified By": "",
+        "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "umls"
         ]
@@ -317,9 +327,7 @@
         "Text Sources": [
             "National Library of Medicine (NLM)"
         ],
-        "Model Generated": [
-            "OpenAI ChatGPT"
-        ],
+        "Model Generated": ["OpenAI ChatGPT"],
         "Format": [
             "Zero-shot"
         ],
@@ -333,11 +341,15 @@
         "Licenses": [
             {
                 "License": "Unspecified",
-                "License URL": "https://www.nlm.nih.gov/databases/umls.html"
+                "License URL": "https://github.com/chaoyi-wu/PMC-LLaMA"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.14454"
             }
         ],
         "License Notes": "",
-        "License Verified By": "",
+        "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "umls_relation"
         ]
