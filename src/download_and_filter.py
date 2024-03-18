@@ -179,9 +179,9 @@ def apply_filters(
     )
     assert all_sources >= option_sources, f"Missing Text Sources: {option_sources - all_sources}"
 
-    all_models = set([v for vs in all_constants["MODEL_GROUPS"].values() for v in vs])
+    all_models = set([v.lower() for vs in all_constants["MODEL_GROUPS"].values() for v in vs])
     option_models = set(
-        [model for models in filtered_df["Model Generated"].tolist() for model in models]
+        [model.lower() for models in filtered_df["Model Generated"].tolist() for model in models]
     )
     assert all_models >= option_models, f"Missing Models: {option_models - all_models}"
 
