@@ -25,7 +25,7 @@
             "alpaca",
             "dolly",
             "OpenAI ChatGPT",
-            "translate.google.com"
+            "Google Translate"
         ],
         "Format": [
             "Zero-shot"
@@ -37,12 +37,12 @@
         ],
         "Licenses": [
             {
-                "License": "CC BY-NC 4.0",
-                "License URL": "https://huggingface.co/datasets?license=license%3Acc-by-nc-4.0"
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
             },
             {
-                "License": "Apache License 2.0",
-                "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE"
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE"
             },
             {
                 "License": "OpenAI",
@@ -87,7 +87,7 @@
             "alpaca",
             "dolly",
             "OpenAI ChatGPT",
-            "translate.google.com"
+            "Google Translate"
         ],
         "Format": [
             "Zero-shot"
@@ -99,12 +99,12 @@
         ],
         "Licenses": [
             {
-                "License": "CC BY-NC 4.0",
-                "License URL": "https://huggingface.co/datasets?license=license%3Acc-by-nc-4.0"
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
             },
             {
-                "License": "Apache License 2.0",
-                "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE"
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE"
             },
             {
                 "License": "OpenAI",
@@ -149,7 +149,7 @@
             "alpaca",
             "dolly",
             "OpenAI ChatGPT",
-            "translate.google.com"
+            "Google Translate"
         ],
         "Format": [
             "Zero-shot"
@@ -161,12 +161,12 @@
         ],
         "Licenses": [
             {
-                "License": "CC BY-NC 4.0",
-                "License URL": "https://huggingface.co/datasets?license=license%3Acc-by-nc-4.0"
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
             },
             {
-                "License": "Apache License 2.0",
-                "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE"
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE"
             },
             {
                 "License": "OpenAI",
@@ -211,7 +211,7 @@
             "alpaca",
             "dolly",
             "OpenAI ChatGPT",
-            "translate.google.com"
+            "Google Translate"
         ],
         "Format": [
             "Zero-shot"
@@ -223,12 +223,12 @@
         ],
         "Licenses": [
             {
-                "License": "CC BY-NC 4.0",
-                "License URL": "https://huggingface.co/datasets?license=license%3Acc-by-nc-4.0"
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
             },
             {
-                "License": "Apache License 2.0",
-                "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE"
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE"
             },
             {
                 "License": "OpenAI",
@@ -273,7 +273,7 @@
             "alpaca",
             "dolly",
             "OpenAI ChatGPT",
-            "translate.google.com"
+            "Google Translate"
         ],
         "Format": [
             "Zero-shot"
@@ -285,12 +285,12 @@
         ],
         "Licenses": [
             {
-                "License": "CC BY-NC 4.0",
-                "License URL": "https://huggingface.co/datasets?license=license%3Acc-by-nc-4.0"
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
             },
             {
-                "License": "Apache License 2.0",
-                "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE"
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE"
             },
             {
                 "License": "OpenAI",
@@ -335,7 +335,7 @@
             "alpaca",
             "dolly",
             "OpenAI ChatGPT",
-            "translate.google.com"
+            "Google Translate"
         ],
         "Format": [
             "Zero-shot"
@@ -347,12 +347,12 @@
         ],
         "Licenses": [
             {
-                "License": "CC BY-NC 4.0",
-                "License URL": "https://huggingface.co/datasets?license=license%3Acc-by-nc-4.0"
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
             },
             {
-                "License": "Apache License 2.0",
-                "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE"
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE"
             },
             {
                 "License": "OpenAI",
