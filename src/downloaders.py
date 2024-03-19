@@ -769,6 +769,11 @@ def download_agentinstruct(accepted_filter_ids):
     return dset
 
 
+def download_open_platypus(accepted_filter_ids):
+    dset = huggingface_download("garage-bAInd/Open-Platypus", split="train")
+    return pool_filter(dset, "data_source", accepted_filter_ids)
+
+  
 def download_bactrianx(accepted_filter_ids):
     """Download Bactrian-X dataset from HuggingFace"""
     dsets = []
