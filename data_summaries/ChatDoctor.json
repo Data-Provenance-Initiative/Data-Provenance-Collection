@@ -1,0 +1,302 @@
+{
+    "chatdoctor-healthcaremagic-100k": {
+        "Unique Dataset Identifier": "chatdoctor-healthcaremagic-100k",
+        "Dataset Name": "HealthCareMagic-100k",
+        "Collection": "ChatDoctor",
+        "Collection URL": "https://github.com/Kent0n-Li/ChatDoctor",
+        "Dataset URL": "https://drive.google.com/file/d/1lyfqIwlLSClhgrCutWuEe_IACNq6XNUt/view?usp=sharing",
+        "GitHub URL": "https://github.com/Kent0n-Li/ChatDoctor",
+        "Hugging Face URL": "https://huggingface.co/datasets/lavita/ChatDoctor-HealthCareMagic-100k",
+        "Paper Title": "ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) Using Medical Domain Knowledge.",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2303.14070",
+        "Semantic Scholar Corpus ID": 259252045,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Diagnosis Question Answering",
+            "Medical Question Answering",
+            "Question Answering",
+            "Symptom Prediction Question Answering"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 112165,
+            "Mean Inputs Length": 420.5466,
+            "Mean Targets Length": 102.1110,
+            "Max Inputs Length": 11188,
+            "Max Targets Length": 591,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1
+        },
+        "Text Sources": [
+            "healthcaremagic.com"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "University of Texas at Dallas",
+            "University of Illinois Urbana-Champaign",
+            "The Ohio State University"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/Kent0n-Li/ChatDoctor?tab=readme-ov-file#limitations"
+            }
+        ],
+        "License Notes": "The model limitations in the README are based on the model, not the data. No data limitations are specified.",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "chatdoctor-healthcaremagic-100k"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (December 2023)": 0,
+            "HF Likes (December 2023)": 7,
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (December 2023)": 52,
+            "S2 Date": "",
+            "GitHub Stars": 3200,
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Health and Safety",
+                "Health and Wellness",
+                "Health and medication",
+                "Health and well-being",
+                "Health and wellness",
+                "Health-related topics",
+                "Healthcare",
+                "Medical advice",
+                "Medical condition and treatment options",
+                "Medical conditions",
+                "Medical conditions and diseases",
+                "Medical conditions and symptoms",
+                "Medical diagnosis",
+                "Medical symptoms",
+                "Medical symptoms and diagnosis",
+                "Medical terminology",
+                "Medical treatment",
+                "Medication",
+                "Medication and healthcare"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "chatdoctor-icliniq-10k": {
+        "Unique Dataset Identifier": "chatdoctor-icliniq-10k",
+        "Dataset Name": "iCliniq-10k",
+        "Collection": "ChatDoctor",
+        "Collection URL": "https://github.com/Kent0n-Li/ChatDoctor",
+        "Dataset URL": "https://drive.google.com/file/d/1ZKbqgYqWc7DJHs3N9TQYQVPdDQmZaClA/view?usp=sharing",
+        "GitHub URL": "https://github.com/Kent0n-Li/ChatDoctor",
+        "Hugging Face URL": "https://huggingface.co/datasets/lavita/ChatDoctor-iCliniq",
+        "Paper Title": "ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) Using Medical Domain Knowledge.",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2303.14070",
+        "Semantic Scholar Corpus ID": 259252045,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Diagnosis Question Answering",
+            "Medical Question Answering",
+            "Question Answering",
+            "Symptom Prediction Question Answering"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 7321,
+            "Mean Inputs Length": 453.1398,
+            "Mean Targets Length": 507.4380,
+            "Max Inputs Length": 4298,
+            "Max Targets Length": 2062,
+            "Min Inputs Length": 19,
+            "Min Targets Length": 20,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1
+        },
+        "Text Sources": [
+            "icliniq.com"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "University of Texas at Dallas",
+            "University of Illinois Urbana-Champaign",
+            "The Ohio State University"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/Kent0n-Li/ChatDoctor?tab=readme-ov-file#limitations"
+            }
+        ],
+        "License Notes": "The model limitations in the README are based on the model, not the data. No data limitations are specified.",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "chatdoctor-icliniq-10k"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (December 2023)": 0,
+            "HF Likes (December 2023)": 2,
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (December 2023)": 52,
+            "S2 Date": "",
+            "GitHub Stars": 3200,
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Health and Safety",
+                "Health and Wellness",
+                "Health and medication",
+                "Health and well-being",
+                "Health and wellness",
+                "Health-related topics",
+                "Healthcare",
+                "Medical advice",
+                "Medical condition and treatment options",
+                "Medical conditions",
+                "Medical conditions and diseases",
+                "Medical conditions and symptoms",
+                "Medical diagnosis",
+                "Medical symptoms",
+                "Medical symptoms and diagnosis",
+                "Medical terminology",
+                "Medical treatment",
+                "Medication",
+                "Medication and healthcare"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    },
+    "chatdoctor-genmedgpt-5k": {
+        "Unique Dataset Identifier": "chatdoctor-genmedgpt-5k",
+        "Dataset Name": "GenMedGPT-5k",
+        "Collection": "ChatDoctor",
+        "Collection URL": "https://github.com/Kent0n-Li/ChatDoctor",
+        "Dataset URL": "https://drive.google.com/file/d/1nDTKZ3wZbZWTkFMBkxlamrzbNz0frugg/view?usp=sharing",
+        "GitHub URL": "https://github.com/Kent0n-Li/ChatDoctor",
+        "Hugging Face URL": "https://huggingface.co/datasets/wangrongsheng/GenMedGPT-5k-en",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Diagnosis Question Answering",
+            "Medical Question Answering",
+            "Question Answering",
+            "Symptom Prediction Question Answering"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 5452,
+            "Mean Inputs Length": 132.1957,
+            "Mean Targets Length": 237.0750,
+            "Max Inputs Length": 357,
+            "Max Targets Length": 951,
+            "Min Inputs Length": 26,
+            "Min Targets Length": 7,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1
+        },
+        "Text Sources": [
+            "OpenAI ChatGPT"
+        ],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "University of Texas at Dallas",
+            "University of Illinois Urbana-Champaign",
+            "The Ohio State University"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/Kent0n-Li/ChatDoctor?tab=readme-ov-file#limitations"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://huggingface.co/datasets/wangrongsheng/GenMedGPT-5k-en"
+            }
+        ],
+        "License Notes": "OpenAI models used in generation. The model limitations in the README are based on the model, not the data. No data limitations are specified.",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "chatdoctor-genmedgpt-5k"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (December 2023)": 0,
+            "HF Likes (December 2023)": 1,
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (December 2023)": 52,
+            "S2 Date": "",
+            "GitHub Stars": 3200,
+            "GitHub Topics": [],
+            "Text Topics": [
+                "Health and Safety",
+                "Health and Wellness",
+                "Health and medication",
+                "Health and well-being",
+                "Health and wellness",
+                "Health-related topics",
+                "Healthcare",
+                "Medical advice",
+                "Medical condition and treatment options",
+                "Medical conditions",
+                "Medical conditions and diseases",
+                "Medical conditions and symptoms",
+                "Medical diagnosis",
+                "Medical symptoms",
+                "Medical symptoms and diagnosis",
+                "Medical terminology",
+                "Medical treatment",
+                "Medication",
+                "Medication and healthcare"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
+    }
+}
