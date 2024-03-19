@@ -530,7 +530,7 @@ def prepare_wildchat(row):
         messages.append({
             'from': script_dict['role'],
             'text': script_dict['content'].strip(),
-            'parent': row['model'] if i==0 else 0
+            'parent': row['model'] if i==0 else i-1
         })
     return messages
 
