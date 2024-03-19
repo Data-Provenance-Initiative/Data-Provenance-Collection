@@ -2,6 +2,8 @@
     "OpenAI": [
         "OpenAI ChatGPT",
         "OpenAI Codex",
+        "OpenAI GPT-1",
+        "OpenAI GPT-2",
         "OpenAI GPT-3",
         "OpenAI GPT-3.5-Turbo",
         "OpenAI GPT-4",
@@ -14,15 +16,23 @@
         "dolly",
         "Flan-T5",
         "Google Cloud Translation API",
+        "Google Translate",
         "Grover",
         "Instruct-GPT-J",
+        "Other",
+        "pplm_distil",
         "StarCoder",
+        "Templates",
+        "Transformer_xl",
         "T5",
         "T5-XXL",
-        "translate.google.com",
         "XLNet",
         "wikisql",
         "BX LLaMa",
-        "BX BLOOM"
+        "BX BLOOM",
+        "XLM",
+        "XLNet",
+        "wikisql",
+        "WMT"
     ]
 }
