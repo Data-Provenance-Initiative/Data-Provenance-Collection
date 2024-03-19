@@ -43,6 +43,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_self_instruct,
         "prepare_function": preparers.prepare_self_instuct,
     },
+    "Capybara": {
+        "download_function": downloaders.download_capybara,
+        "prepare_function": preparers.prepare_capybara,
+    },
     "Stanford Human Preferences": {
         "download_function": downloaders.download_stanford_human_preferences,
         "prepare_function": preparers.prepare_stanford_human_preferences,

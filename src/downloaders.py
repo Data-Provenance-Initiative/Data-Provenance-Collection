@@ -242,6 +242,9 @@ def download_laion_oig(accepted_filter_ids):
         dsets.extend(dset)
     return dsets
 
+def download_capybara(accepted_filter_ids):
+    dset = huggingface_download('LDJnr/Capybara', split='train')
+    return pool_filter(dset, "source", accepted_filter_ids)
 
 def download_self_instruct(accepted_filter_ids):
     return huggingface_download('yizhongw/self_instruct', split='train')
