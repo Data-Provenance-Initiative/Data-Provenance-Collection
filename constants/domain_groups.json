@@ -476,6 +476,8 @@
         "woz"
     ],
     "Models": [
+        "alpaca",
+        "dolly",
         "OpenAI ChatGPT",
         "OpenAI GPT-1",
         "OpenAI GPT-2",

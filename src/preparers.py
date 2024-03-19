@@ -653,3 +653,13 @@ def prepare_agentinstruct(row):
                 "parent": dataset['id'].split('_')[0] if i == -1 else i,
             })
     return messages
+
+
+def prepare_bactrianx(row):
+    input_col = row["input"] or ""  # input can be None
+    inputs = row["instruction"] + " " + input_col
+    outputs = row["output"]
+    return [
+        {"from": "user", "text": inputs, "parent": row["_source"]},
+        {"from": "assistant", "text": outputs, "parent": 0},
+    ]
