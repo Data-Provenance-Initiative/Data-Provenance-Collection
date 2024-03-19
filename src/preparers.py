@@ -524,6 +524,16 @@ def prepare_ultrachat(row):
     return messages
 
 
+def prepare_wildchat(row):
+    messages = []
+    for i, script_dict in enumerate(row['conversation']):
+        messages.append({
+            'from': script_dict['role'],
+            'text': script_dict['content'].strip(),
+            'parent': row['model'] if i==0 else 0
+        })
+    return messages
+
 def prepare_airoboros(row):
     parent = "airoboros"
     messages = []

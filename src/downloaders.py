@@ -490,6 +490,11 @@ def download_book_summaries(accepted_filter_ids):
 def download_ultrachat(accepted_filter_ids):
     return huggingface_download('stingning/ultrachat', split='train')
 
+def download_wildchat(accepted_filter_ids):
+    '''downloads in the wild chat dataset from hugging face'''
+    dset = huggingface_download('allenai/WildChat', split='train')
+    return pool_filter(dset, "model", accepted_filter_ids)
+
 
 def download_airoboros(accepted_filter_ids):
     dset_fpath = hf_hub_download(
