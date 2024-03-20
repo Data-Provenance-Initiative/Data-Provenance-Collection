@@ -2,6 +2,7 @@
     "Bias & Toxicicity Detection": [
         "Bias Detection",
         "Binary Classification of Hate Speech",
+        "Adversarial Hate Speech Detection",
         "Binary Classification of Racial Bias",
         "Ethical Judgment Question Answering",
         "Ethics Classification",
@@ -130,6 +131,7 @@
         "Linguistic Probing",
         "Literary Analysis",
         "Semantic Relation Classification",
+        "Discourse Relation Prediction",
         "Semantic Similarity Detection",
         "Semantic Similarity Identification",
         "Speaker Identification",
@@ -149,6 +151,7 @@
         "Logical Reasoning",
         "Logical and Mathematical Reasoning",
         "Logical Reasoning Question Answering",
+        "Logical and Mathematical Reasoning",
         "Mathematical Equation Generation",
         "Numerical Data Aggregation and Analysis",
         "Ordering Task",
@@ -292,7 +295,10 @@
         "Trick Question",
         "Vegetarian Recipe Modification Question Answering",
         "Visual Reasoning Question Answering",
-        "Webpage Content Retrieval"
+        "Webpage Content Retrieval",
+        "Trivia",
+        "Math"
+        
     ],
     "Response Ranking": [
         "Alignment",
@@ -341,6 +347,7 @@
         "Word Reordering"
     ],
     "Summarization": [
+        "BioMedical Text Summarization",
         "Critical Review Summarization",
         "News Article Summarization",
         "Paper Review",
@@ -367,6 +374,7 @@
         "Entity Matching",
         "Experiential Classification",
         "Fact Checking",
+        "Token Classification",
         "Factual Argumentation Resolution",
         "Grammar Error Detection",
         "Hashtag Classification",
@@ -389,6 +397,7 @@
         "Sentence Ordering",
         "Sentence Similarity Detection",
         "Sentiment Analysis",
+        "Adversarial Sentiment Analysis",
         "Single Word Classification",
         "Spam Classification",
         "Text Classification",

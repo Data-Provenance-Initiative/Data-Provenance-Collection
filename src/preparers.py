@@ -270,6 +270,25 @@ def prepare_llama2_med_tuned_instructions(row):
         inputs, row["output"], "llama2_med_tuned_instructions",
     )
 
+def prepare_capybara(row):
+    messages = []
+    parent_id = 0
+    dset = row["source"]
+    for i, turn in enumerate(row["conversation"]):
+        messages.append({
+            "from": "user",
+            "text": turn["input"].strip(),
+            "parent": dset if i == 0 else parent_id,
+        })
+        if parent_id != 0:
+            parent_id += 1
+        messages.append({
+            "from": "assistant",
+            "text": turn["output"].strip(),
+            "parent": parent_id,
+        })
+        parent_id += 1
+    return messages
 
 def prepare_evol_instruct(row):
     return convert_inputs_targets_to_messages(
@@ -505,6 +524,16 @@ def prepare_ultrachat(row):
     return messages
 
 
+def prepare_wildchat(row):
+    messages = []
+    for i, script_dict in enumerate(row['conversation']):
+        messages.append({
+            'from': script_dict['role'],
+            'text': script_dict['content'].strip(),
+            'parent': row['model'] if i==0 else i-1
+        })
+    return messages
+
 def prepare_airoboros(row):
     parent = "airoboros"
     messages = []
@@ -534,6 +563,7 @@ def prepare_tool_llama(row):
         row['context'] + row['instruction'],
         row['response'],
         'toolbench',
+    )
  
 def prepare_mathinstruct(row):
     return convert_inputs_targets_to_messages(
@@ -583,6 +613,34 @@ def prepare_open_orca(row):
         {"from": "assistant", "text": outputs.strip(), "parent": 0},
     ]
 
+def prepare_pmc_llama(row):
+    inputs = "".join([row['instruction'] + row['input']])
+    return convert_inputs_targets_to_messages(
+        inputs,
+        row['output'],
+        row['source']
+    )
+  
+def prepare_medical_meadow(row):
+    inputs = "".join([row['instruction'] + row['input']])
+    return convert_inputs_targets_to_messages(
+        inputs,
+        row['output'],
+        row["_source"],
+    )
+
+def prepare_medinstruct(row):
+    inputs = "".join([row['instruction'] + row['input']])
+    return convert_inputs_targets_to_messages(
+        inputs,
+        row['output'],
+        'medinstruct',
+    )
+      
+def prepare_chatdoctor(row):
+    return convert_inputs_targets_to_messages(
+        row["inputs"], row["outputs"], row["_source"]
+    )
 
 def prepare_agentinstruct(row):
     datasets = row  # Based on the current structure, a row represents all datasets :TODO: might need to change this
@@ -596,7 +654,6 @@ def prepare_agentinstruct(row):
             })
     return messages
 
-
 def prepare_pii_masking_200k(row):
     inputs = row["unmasked_text"] + "\n\n" + "Given the previous paragraph, please mask any personally " \
                                              "identifiable information using masks, such as [FIRSTNAME_1], [AGE_2]," \
@@ -606,3 +663,12 @@ def prepare_pii_masking_200k(row):
         row['masked_text'],
         'pii-masking-200k'
     )
+  
+def prepare_bactrianx(row):
+    input_col = row["input"] or ""  # input can be None
+    inputs = row["instruction"] + " " + input_col
+    outputs = row["output"]
+    return [
+        {"from": "user", "text": inputs, "parent": row["_source"]},
+        {"from": "assistant", "text": outputs, "parent": 0},
+    ]
