@@ -1,0 +1,557 @@
+{
+    "op-airoboros_1.4.1": {
+        "Unique Dataset Identifier": "op-airoboros_1.4.1",
+        "Dataset Name": "airoboros-gpt4-1.4.1",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/jondurbin/airoboros-gpt4-1.4.1",
+        "GitHub URL": "https://github.com/jondurbin/airoboros",
+        "Hugging Face URL": "https://huggingface.co/datasets/jondurbin/airoboros-gpt4-1.4.1",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "Code",
+            "English"
+        ],
+        "Task Categories": [
+            "Brainstorming",
+            "Code",
+            "Creative Writing",
+            "Question Answering",
+            "Question Understanding"
+        ],
+        "Text Sources": [],
+        "Model Generated": [
+            "OpenAI GPT-4",
+            "OpenAI ChatGPT"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://huggingface.co/datasets/jondurbin/airoboros-gpt4-1.4.1"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://github.com/jondurbin/airoboros"
+            }
+        ],
+        "License Notes": "Uses OpenAI to generate synthetic data.",
+        "License Verified By": "Ariel Lee",
+        "Dataset Filter IDs": [
+            "airoboros"
+        ]
+    },
+    "op-arb": {
+        "Unique Dataset Identifier": "op-arb",
+        "Dataset Name": "arb",
+        "Paper Title": "ARB: Advanced Reasoning Benchmark for Large Language Models",
+        "Dataset URL": "https://arb.duckai.org",
+        "GitHub URL": "https://github.com/TheDuckAI/arb",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.13692",
+        "Semantic Scholar Corpus ID": 260155126,
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Argumentative Reasoning",
+            "Commonsense Reasoning",
+            "Chain-of-Thought",
+            "Logical and Mathematical Reasoning",
+            "Question Answering"
+
+        ],
+        "Text Sources": [
+            "bar exam",
+            "berkeley problems in mathematics",
+            "major american universities ph.d. qualifying questions and solutions",
+            "mcat tests",
+            "textbook: putnam and beyond",
+            "undergraduate mathematics competitions (1995-2016)",
+            "world scientific: problems and solutions on electromagnetism, mechanics, optics, thermodynamics and statistical mechanics"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "DuckAI",
+            "Georgia Institute of Technology",
+            "ETH Zürich",
+            "Nomos AI",
+            "Stanford University",
+            "Montreal Institute of Learning Algorithms"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://arxiv.org/abs/2307.13692"
+            }
+        ],
+        "License Notes": "ARB dataset is licensed under CC BY 4.0, but code is under the MIT license.",
+        "License Verified By": "Ariel Lee",
+        "Dataset Filter IDs": [
+            "ARB"
+        ]
+    },
+    "op-ne_leetcode": {
+        "Unique Dataset Identifier": "op-ne_leetcode",
+        "Dataset Name": "leetcode-solutions-python-testgen-gpt4",
+        "Paper Title": "",
+        "Dataset URL": "",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "Code",
+            "English"
+        ],
+        "Task Categories": [
+            "Code",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "OpenAI GPT-4"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Northeastern University"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            },
+            {
+                "License": "OpenAI",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "The name of the dataset (no longer public on HF) implies that the solutions are GPT-4 generated.",
+        "License Verified By": "Ariel Lee",
+        "Dataset Filter IDs": [
+            "leetcode_ne"
+        ]
+    },
+    "op-openassistant_guanaco": {
+        "Unique Dataset Identifier": "op-openassistant_guanaco",
+        "Dataset Name": "openassistant-guanaco",
+        "Paper Title": "QLORA: Efficient Finetuning of Quantized LLMs",
+        "Dataset URL": "https://huggingface.co/datasets/timdettmers/openassistant-guanaco",
+        "GitHub URL": "https://github.com/artidoro/qlora",
+        "Hugging Face URL": "https://huggingface.co/datasets/timdettmers/openassistant-guanaco",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2305.14314",
+        "Semantic Scholar Corpus ID": 258841328,
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "Spanish",
+            "Russian",
+            "German",
+            "Polish",
+            "Thai",
+            "Vietnamese",
+            "Swedish",
+            "Bengali",
+            "Danish",
+            "Hebrew",
+            "Italian",
+            "Persian",
+            "Slovak",
+            "Indonesian",
+            "Norwegian Bokmål",
+            "Greek",
+            "Dutch",
+            "Hungarian",
+            "Basque",
+            "Chinese",
+            "Esperanto",
+            "Japanese",
+            "Catalan",
+            "Czech",
+            "Bulgarian",
+            "Finnish",
+            "Portuguese",
+            "Turkish",
+            "Romanian",
+            "Arabic",
+            "Ukrainian",
+            "Galician",
+            "French",
+            "Korean"
+        ],
+        "Task Categories": [
+            "Clarification Question Answering",
+            "Commonsense Reasoning",
+            "Instructional Question Answering",
+            "Logical and Mathematical Reasoning",
+            "Multiple Choice Question Answering",
+            "Open-Ended Question Answering",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "OpenAssistant Conversations Dataset"
+        ],
+        "Creators": [
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/OpenAssistant/oasst1"
+            }
+        ],
+        "License Notes": "Guanaco is a subset of OpenAssistant/oasst1, which is licensed under Apache License 2.0.",
+        "License Verified By": "Cole Hunter",
+        "Dataset Filter IDs": [
+            "guanaco"
+        ]
+    },
+    "op-prm800k": {
+        "Unique Dataset Identifier": "op-prm800k",
+        "Dataset Name": "prm800k",
+        "Paper Title": "Let's Verify Step by Step",
+        "Dataset URL": "https://github.com/openai/prm800k",
+        "GitHub URL": "https://github.com/openai/prm800k",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/prm800k",
+        "ArXiv URL": "https://arxiv.org/abs/2305.20050",
+        "Semantic Scholar Corpus ID": 258987659,
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Brainstorming",
+            "Chain-of-Thought",
+            "Explanation",
+            "Logical and Mathematical Reasoning",
+            "Question Answering",
+            "Step-by-Step Instruction Generation"
+        ],
+        "Text Sources": [
+            "mathematical association of america",
+            "OpenAI GPT-4"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
+        "Format": [
+            "Chain-of-Thought",
+            "Few-shot",
+            "Multi-turn Dialog",
+            "Zero-shot"
+    ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "MATH"
+        ],
+        "Creators": [
+            "OpenAI"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/openai/prm800k/blob/main/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2305.20050"
+            }
+        ],
+        "License Notes": "Uses GPT-4 to generate step by step solutions.",
+        "License Verified By": "Ariel Lee",
+        "Dataset Filter IDs": [
+            "MATH/PRM-800K"
+        ]
+    },
+    "op-reclor": {
+        "Unique Dataset Identifier": "op-reclor",
+        "Dataset Name": "reclor",
+        "Paper Title": "ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning",
+        "Dataset URL": "https://whyu.me/reclor",
+        "GitHub URL": "https://github.com/yuweihao/reclor",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/reclor",
+        "ArXiv URL": "https://arxiv.org/abs/2002.04326",
+        "Semantic Scholar Corpus ID": 209485573,
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Argumentative Reasoning",
+            "Commonsense Reasoning",
+            "Language Style Analysis",
+            "Multiple Choice Question Answering",
+            "Natural Language Inference",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "books",
+            "gmat",
+            "lsat",
+            "undisclosed web"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "National University of Singapore"
+        ],
+        "Licenses": [
+            {
+                "License": "Non Commercial",
+                "License URL": "https://whyu.me/reclor/"
+            }
+        ],
+        "License Notes": "Website states dataset is for non-commercial research purposes only.",
+        "License Verified By": "Ariel Lee",
+        "Dataset Filter IDs": [
+            "reclor"
+        ]
+    },
+    "op-scibench": {
+        "Unique Dataset Identifier": "op-scibench",
+        "Dataset Name": "scibench",
+        "Paper Title": "SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models",
+        "Dataset URL": "https://huggingface.co/datasets/xw27/scibench",
+        "GitHub URL": "https://github.com/mandyyyyii/scibench",
+        "Hugging Face URL": "https://huggingface.co/datasets/xw27/scibench",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/scibench",
+        "ArXiv URL": "https://arxiv.org/abs/2307.10635",
+        "Semantic Scholar Corpus ID": 259991511,
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Logical and Mathematical Reasoning",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "calculus: early transcendentals",
+            "classical dynamics of particles and systems",
+            "elementary differential equations and boundary value problems",
+            "fundamentals of physics",
+            "textbook: physical chemistry",
+            "textbook: physical chemistry, quanta, matter, and change",
+            "textbook: probability and statistical inference",
+            "textbook: quantum chemistry",
+            "statistical thermodynamics"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Chain-of-Thought",
+            "Few-shot",
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "UCLA",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "The license on GitHub is MIT and no license is provided on HF or in the paper.",
+        "License Verified By": "Ariel Lee",
+        "Dataset Filter IDs": [
+            "scibench"
+        ]
+    },
+    "op-scienceqa": {
+        "Unique Dataset Identifier": "op-scienceqa",
+        "Dataset Name": "science-qa",
+        "Paper Title": "Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering",
+        "Dataset URL": "https://huggingface.co/datasets/derek-thomas/ScienceQA",
+        "GitHub URL": "https://github.com/lupantech/ScienceQA",
+        "Hugging Face URL": "https://huggingface.co/datasets/derek-thomas/ScienceQA",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/scienceqa",
+        "ArXiv URL": "https://arxiv.org/abs/2209.09513",
+        "Semantic Scholar Corpus ID": 252383606,
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought",
+            "Explanation",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "Books",
+            "Exams"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Chain-of-Thought",
+            "Few-shot",
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "UCLA",
+            "Arizona State University",
+            "Allen Institute for AI"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "https://github.com/lupantech/ScienceQA/blob/main/LICENSE-DATA"
+            }
+        ],
+        "License Notes": "Both the paper and data license on GitHub are Attribution-NonCommercial-ShareAlike 4.0 International",
+        "License Verified By": "Cole Hunter",
+        "Dataset Filter IDs": [
+            "scienceqa"
+        ]
+    },
+    "op-theoremqa": {
+        "Unique Dataset Identifier": "op-theoremqa",
+        "Dataset Name": "theorem-qa",
+        "Paper Title": "TheoremQA: A Theorem-driven Question Answering Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/wenhu/TheoremQA",
+        "GitHub URL": "https://github.com/wenhuchen/TheoremQA",
+        "Hugging Face URL": "https://huggingface.co/datasets/wenhu/TheoremQA",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/theoremqa",
+        "ArXiv URL": "https://arxiv.org/abs/2305.12524",
+        "Semantic Scholar Corpus ID": 258833200,
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Logical and Mathematical Reasoning",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "Books",
+            "human",
+            "OpenAI GPT-4",
+            "undisclosed web"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
+        "Format": [
+            "Chain-of-Thought",
+            "Program of Thoughts"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "UCLA",
+            "UC Santa Barbara",
+            "University of Waterloo"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/wenhu/TheoremQA"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/pdf/2305.12524.pdf"
+            }
+        ],
+        "License Notes": "They used GPT-4 to generate university level theorems in STEM subfields and then a team of domain experts refined and reviewed the data.",
+        "License Verified By": "Ariel Lee",
+        "Dataset Filter IDs": [
+            "theoremqa"
+        ]
+    },
+    "op-tigerbot_leetcode": {
+        "Unique Dataset Identifier": "op-tigerbot_leetcode",
+        "Dataset Name": "tigerbot-kaggle-leetcodesolutions-en-2k",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/TigerResearch/tigerbot-kaggle-leetcodesolutions-en-2k",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/TigerResearch/tigerbot-kaggle-leetcodesolutions-en-2k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "English",
+            "Code"
+        ],
+        "Task Categories": [
+            "Code"
+        ],
+        "Text Sources": [
+            "leetcode"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "Kaggle Leetcode Solutions"
+        ],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/TigerResearch/tigerbot-kaggle-leetcodesolutions-en-2k"
+            },
+            {
+                "License": "GNU General Public License v3.0",
+                "License URL": "https://www.kaggle.com/datasets/erichartford/leetcode-solutions"
+            }
+        ],
+        "License Notes": "The original dataset from Kaggle lists GNU but the HF dataset lists Apache License 2.0. Looks like the kaggle dataset was first, and then a 3rd party uploaded to HF.",
+        "License Verified By": "Cole Hunter",
+        "Dataset Filter IDs": [
+            "tigerbot-kaggle"
+        ]
+    }
+}
