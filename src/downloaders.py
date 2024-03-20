@@ -242,6 +242,9 @@ def download_laion_oig(accepted_filter_ids):
         dsets.extend(dset)
     return dsets
 
+def download_capybara(accepted_filter_ids):
+    dset = huggingface_download('LDJnr/Capybara', split='train')
+    return pool_filter(dset, "source", accepted_filter_ids)
 
 def download_self_instruct(accepted_filter_ids):
     return huggingface_download('yizhongw/self_instruct', split='train')
@@ -491,6 +494,11 @@ def download_pii_masking_200k(accepted_filter_ids):
 def download_ultrachat(accepted_filter_ids):
     return huggingface_download('stingning/ultrachat', split='train')
 
+def download_wildchat(accepted_filter_ids):
+    '''downloads in the wild chat dataset from hugging face'''
+    dset = huggingface_download('allenai/WildChat', split='train')
+    return pool_filter(dset, "model", accepted_filter_ids)
+
 
 def download_airoboros(accepted_filter_ids):
     dset_fpath = hf_hub_download(
@@ -511,6 +519,45 @@ def download_open_orca(accepeted_filter_ids):
     dset = huggingface_download('Open-Orca/OpenOrca', split='train')
     dset = list(map(lambda x: {**x, 'source': x['id'].split('.')[0]}, dset))
     return pool_filter(dset, "source", accepeted_filter_ids)
+
+
+def download_pmc_llama(accepted_filter_ids):
+    dset = huggingface_download("axiong/pmc_llama_instructions", split="train")
+    return pool_filter(dset, "source", accepted_filter_ids)
+  
+  
+def download_medical_meadow(accepted_filter_ids):
+    dset = []
+    if "medical-meadow-med-flashcards" in accepted_filter_ids:
+        med_flashcards = huggingface_download("medalpaca/medical_meadow_medical_flashcards", split='train')
+        dset += annotate_source(med_flashcards, "medical-meadow-med-flashcards")
+    if "medical-meadow-wikidoc-living-textbook" in accepted_filter_ids:
+        wikidoc_living_textbook = huggingface_download("medalpaca/medical_meadow_wikidoc", split='train')
+        dset += annotate_source(wikidoc_living_textbook, "medical-meadow-wikidoc-living-textbook")
+    if "medical-meadow-wikidoc-patient-information" in accepted_filter_ids:
+        wikidoc_patient_information = huggingface_download("medalpaca/medical_meadow_wikidoc_patient_information", split='train')
+        dset += annotate_source(wikidoc_patient_information, "medical-meadow-wikidoc-patient-information")
+    if "medical-meadow-cord19" in accepted_filter_ids:
+        cord19 = huggingface_download("medalpaca/medical_meadow_cord19", split='train')
+        dset += annotate_source(cord19, "medical-meadow-cord19")
+    if "medical-meadow-health-advice" in accepted_filter_ids:
+        health_advice = huggingface_download("medalpaca/medical_meadow_health_advice", split='train')
+        dset += annotate_source(health_advice, "medical-meadow-health-advice")
+    if "medical-meadow-pubmed-causal" in accepted_filter_ids:
+        pubmed_causal = huggingface_download("medalpaca/medical_meadow_pubmed_causal", split='train')
+        dset += annotate_source(pubmed_causal, "medical-meadow-pubmed-causal")
+    if "medical-meadow-medqa" in accepted_filter_ids:
+        medqa = huggingface_download("medalpaca/medical_meadow_medqa", split='train')
+        dset += annotate_source(medqa, "medical-meadow-medqa")
+    if "medical-meadow-mediqa" in accepted_filter_ids:
+        mediqa = huggingface_download("medalpaca/medical_meadow_mediqa", split='train')
+        dset += annotate_source(mediqa, "medical-meadow-mediqa")
+    return dset
+
+  
+def download_medinstruct(accepted_filter_ids):
+    return direct_data_request("https://raw.githubusercontent.com/XZhang97666/AlpaCare/master/data/MedInstruct-52k.json")
+
 
 def download_mathinstruct(accepted_filter_ids):
     mathinstruct = load_dataset('TIGER-Lab/MathInstruct', split='train')
@@ -693,6 +740,20 @@ def download_gorilla(accepted_filter_ids):
 
     return Dataset.from_dict(ret)
 
+def download_chatdoctor(accepted_filter_ids):
+    dset = []
+    if "chatdoctor-healthcaremagic-100k" in accepted_filter_ids:
+        healthcaremagic_dset = huggingface_download("lavita/ChatDoctor-HealthCareMagic-100k", split='train')
+        dset += annotate_source(healthcaremagic_dset, "chatdoctor-healthcaremagic-100k")
+    if "chatdoctor-icliniq-10k" in accepted_filter_ids:
+        icliniq_dset = load_dataset("lavita/ChatDoctor-iCliniq", split='train')
+        icliniq_dset = icliniq_dset.rename_column("answer_icliniq", "output")
+        icliniq_dset = icliniq_dset.to_list()
+        dset += annotate_source(icliniq_dset, "chatdoctor-icliniq-10k")
+    if "chatdoctor-genmedgpt-5k" in accepted_filter_ids:
+        genmedgpt_dset = huggingface_download("wangrongsheng/GenMedGPT-5k-en", split='train')
+        dset += annotate_source(genmedgpt_dset, "chatdoctor-genmedgpt-5k")
+    return dset
 
 def download_agentinstruct(accepted_filter_ids):
     dset = []
@@ -710,3 +771,19 @@ def download_agentinstruct(accepted_filter_ids):
         dset.append(huggingface_download('THUDM/AgentInstruct', split='mind2web'))
 
     return dset
+
+
+def download_open_platypus(accepted_filter_ids):
+    dset = huggingface_download("garage-bAInd/Open-Platypus", split="train")
+    return pool_filter(dset, "data_source", accepted_filter_ids)
+
+  
+def download_bactrianx(accepted_filter_ids):
+    """Download Bactrian-X dataset from HuggingFace"""
+    dsets = []
+    for dset_name in accepted_filter_ids:
+        dset = huggingface_download('MBZUAI/Bactrian-X', name=dset_name, split="train")
+        # annotate each example with source
+        dset = annotate_source(dset, dset_name)
+        dsets.extend(dset)
+    return dsets

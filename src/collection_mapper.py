@@ -43,6 +43,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_self_instruct,
         "prepare_function": preparers.prepare_self_instuct,
     },
+    "Capybara": {
+        "download_function": downloaders.download_capybara,
+        "prepare_function": preparers.prepare_capybara,
+    },
     "Stanford Human Preferences": {
         "download_function": downloaders.download_stanford_human_preferences,
         "prepare_function": preparers.prepare_stanford_human_preferences,
@@ -209,9 +213,25 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_baize_data,
         "prepare_function": preparers.prepare_baize_data,
     },
+    "PMC-LLaMA Instructions": {
+        "download_function": downloaders.download_pmc_llama,
+        "prepare_function": preparers.prepare_pmc_llama,
+    },
+    "Medical Meadow": {
+        "download_function": downloaders.download_medical_meadow,
+        "prepare_function": preparers.prepare_medical_meadow,
+    },
+    "MedInstruct": {
+        "download_function": downloaders.download_medinstruct,
+        "prepare_function": preparers.prepare_medinstruct,
+    },   
     "Open Orca": {
         "download_function": downloaders.download_open_orca,
         "prepare_function": preparers.prepare_open_orca,
+    },
+    "ChatDoctor":{
+        "download_function": downloaders.download_chatdoctor,
+        "prepare_function": preparers.prepare_chatdoctor,
     },
     "AgentInstruct": {
         "download_function": downloaders.download_agentinstruct,
@@ -220,5 +240,12 @@ COLLECTION_FN_MAPPER = {
     "PII-Masking-200k": {
         "download_function": downloaders.download_pii_masking_200k,
         "prepare_function": preparers.prepare_pii_masking_200k,
+    "Bactrian-X": {
+        "download_function": downloaders.download_bactrianx,
+        "prepare_function": preparers.prepare_bactrianx,
+    },
+    "WildChat":{
+        "download_function": downloaders.download_wildchat,
+        "prepare_function": preparers.prepare_wildchat,
     }
 }
