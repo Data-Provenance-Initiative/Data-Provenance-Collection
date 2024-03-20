@@ -1,0 +1,57 @@
+{
+    "medinstruct": {
+        "Unique Dataset Identifier": "medinstruct",
+        "Dataset Name": "medinstruct",
+        "Paper Title": "AlpaCare:Instruction-tuned Large Language Models for Medical Application",
+        "Dataset URL": "https://github.com/XZhang97666/AlpaCare/blob/master/data/MedInstruct-52k.json",
+        "GitHub URL": "https://github.com/XZhang97666/AlpaCare",
+        "Hugging Face URL": "https://huggingface.co/datasets/casey-martin/MedInstruct",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2310.14558",
+        "Semantic Scholar Corpus ID": 264426685,
+        "Collection": "MedInstruct",
+        "Collection URL": "https://github.com/XZhang97666/AlpaCare",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Diagnosis Question Answering",
+            "Medical Question Answering",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "Hand-crafted Clinical Instructions",
+            "Clinical Notes"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4",
+            "OpenAI GPT-3.5-turbo"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "UC Santa Barbara"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://github.com/XZhang97666/AlpaCare"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/XZhang97666/AlpaCare"
+            }
+        ],
+        "License Notes": "No explicit license was provided in The Github or Huggingface repos. The chosen license is based on their use of OpenAI models to generate data",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "medinstruct"
+        ]
+    }
+}
