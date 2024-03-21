@@ -480,6 +480,10 @@ def download_book_summaries(accepted_filter_ids):
     return pool_filter(dset, "type", accepted_filter_ids)
 
 
+def download_pii_masking_200k(accepted_filter_ids):
+    return huggingface_download('ai4privacy/pii-masking-200k', split='train')
+
+  
 def download_no_robots(accepted_filter_ids):
     dset = huggingface_download('HuggingFaceH4/no_robots', split='train_sft')
     return pool_filter(dset, "category", accepted_filter_ids)
@@ -487,6 +491,7 @@ def download_no_robots(accepted_filter_ids):
 
 def download_help_steer(accepted_filter_ids):
     return huggingface_download('nvidia/HelpSteer', split='train')
+
 
 
 def download_ultrachat(accepted_filter_ids):
