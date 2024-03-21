@@ -485,6 +485,10 @@ def download_no_robots(accepted_filter_ids):
     return pool_filter(dset, "category", accepted_filter_ids)
 
 
+def download_help_steer(accepted_filter_ids):
+    return huggingface_download('nvidia/HelpSteer', split='train')
+
+
 def download_ultrachat(accepted_filter_ids):
     return huggingface_download('stingning/ultrachat', split='train')
 

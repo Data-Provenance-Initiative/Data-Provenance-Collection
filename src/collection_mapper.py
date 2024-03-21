@@ -242,6 +242,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_no_robots,
         "prepare_function": preparers.prepare_no_robots,
     },
+    "HelpSteer": {
+        "download_function": downloaders.download_help_steer,
+        "prepare_function": preparers.prepare_help_steer,
+    },
     "Bactrian-X": {
         "download_function": downloaders.download_bactrianx,
         "prepare_function": preparers.prepare_bactrianx,
