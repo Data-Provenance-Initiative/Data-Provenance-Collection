@@ -564,7 +564,7 @@ def prepare_tool_llama(row):
         row['response'],
         'toolbench',
     )
- 
+
 def prepare_mathinstruct(row):
     return convert_inputs_targets_to_messages(
         row["instruction"], row["output"], row["_source"]
@@ -654,6 +654,12 @@ def prepare_agentinstruct(row):
             })
     return messages
 
+def prepare_help_steer(row):
+    return convert_inputs_targets_to_messages(
+        row["prompt"],
+        row["response"],
+        "HelpSteer"
+    )
 
 def prepare_bactrianx(row):
     input_col = row["input"] or ""  # input can be None
