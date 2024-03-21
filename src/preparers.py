@@ -654,6 +654,15 @@ def prepare_agentinstruct(row):
             })
     return messages
 
+
+def prepare_no_robots(row):
+    return convert_inputs_targets_to_messages(
+        row["messages"][0]["content"],
+        row["messages"][1]["content"],
+        row["category"]
+    )
+  
+  
 def prepare_help_steer(row):
     return convert_inputs_targets_to_messages(
         row["prompt"],

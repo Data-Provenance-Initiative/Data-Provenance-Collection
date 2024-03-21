@@ -181,6 +181,7 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_joke_explanation,
         "prepare_function": preparers.prepare_joke_explanation,
     },
+
     "Book Summaries": {
         "download_function": downloaders.download_book_summaries,
         "prepare_function": preparers.prepare_book_summaries,
@@ -224,7 +225,7 @@ COLLECTION_FN_MAPPER = {
     "MedInstruct": {
         "download_function": downloaders.download_medinstruct,
         "prepare_function": preparers.prepare_medinstruct,
-    },   
+    },
     "Open Orca": {
         "download_function": downloaders.download_open_orca,
         "prepare_function": preparers.prepare_open_orca,
@@ -236,6 +237,10 @@ COLLECTION_FN_MAPPER = {
     "AgentInstruct": {
         "download_function": downloaders.download_agentinstruct,
         "prepare_function": preparers.prepare_agentinstruct,
+    },
+    "No Robots": {
+        "download_function": downloaders.download_no_robots,
+        "prepare_function": preparers.prepare_no_robots,
     },
     "HelpSteer": {
         "download_function": downloaders.download_help_steer,
