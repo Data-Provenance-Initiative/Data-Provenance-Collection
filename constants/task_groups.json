@@ -204,6 +204,7 @@
         "No Context Snippet",
         "Open-form Text Generation",
         "Recursive Function Generation",
+        "Rewrite",
         "Sentence Rewriting",
         "Speech Recognition",
         "Structured Data to Text",
@@ -231,6 +232,7 @@
         "Breach of Contract Question Answering",
         "Clarification Question Answering",
         "Clinical Diagnosis Question Answering",
+        "Closed Question Answering",
         "Closed-Book Question Answering",
         "Comparative Analysis Question Answering",
         "Comparative Question Answering",
@@ -269,6 +271,7 @@
         "Nutritional Information Retrieval",
         "Object Detection Question Answering",
         "Object Localization Question Answering",
+        "Open Question Answering",
         "Open-Domain Information Retrieval",
         "Open-Domain Name Retrieval",
         "Open-Domain Question Answering",
@@ -404,6 +407,9 @@
         "Text Matching",
         "Unverifiable Claim Classification",
         "Word Sense Disambiguation"
+    ],
+    "Token Classification": [
+        "Token Classification"
     ],
     "Translation": [
         "Inverted Translation",

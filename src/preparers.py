@@ -564,7 +564,7 @@ def prepare_tool_llama(row):
         row['response'],
         'toolbench',
     )
- 
+
 def prepare_mathinstruct(row):
     return convert_inputs_targets_to_messages(
         row["instruction"], row["output"], row["_source"]
@@ -654,6 +654,7 @@ def prepare_agentinstruct(row):
             })
     return messages
 
+
 def prepare_pii_masking_200k(row):
     inputs = row["unmasked_text"] + "\n\n" + "Given the previous paragraph, please mask any personally " \
                                              "identifiable information using masks, such as [FIRSTNAME_1], [AGE_2]," \
@@ -663,7 +664,24 @@ def prepare_pii_masking_200k(row):
         row['masked_text'],
         'pii-masking-200k'
     )
+
+
+def prepare_no_robots(row):
+    return convert_inputs_targets_to_messages(
+        row["messages"][0]["content"],
+        row["messages"][1]["content"],
+        row["category"]
+    )
   
+  
+def prepare_help_steer(row):
+    return convert_inputs_targets_to_messages(
+        row["prompt"],
+        row["response"],
+        "HelpSteer"
+    )
+
+
 def prepare_bactrianx(row):
     input_col = row["input"] or ""  # input can be None
     inputs = row["instruction"] + " " + input_col
