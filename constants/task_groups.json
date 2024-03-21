@@ -204,6 +204,7 @@
         "No Context Snippet",
         "Open-form Text Generation",
         "Recursive Function Generation",
+        "Rewrite",
         "Sentence Rewriting",
         "Speech Recognition",
         "Structured Data to Text",
