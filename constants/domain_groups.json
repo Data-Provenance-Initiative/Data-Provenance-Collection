@@ -700,7 +700,8 @@
     ],
     "Template Generated": [
         "grammar-based",
-        "templates"
+        "templates",
+        "human-synthetic"
     ],
     "Unsure": [
         "annotation from native speaker annotators",
