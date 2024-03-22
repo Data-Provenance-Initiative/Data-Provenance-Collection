@@ -653,6 +653,16 @@ def prepare_chatdoctor(row):
         row["inputs"], row["outputs"], row["_source"]
     )
 
+def prepare_seabench(row):
+    inputs = row["turns"][0].strip()
+    outputs = row["chatgpt_response"].strip() if row["chatgpt_response"] else ""
+
+    return [
+        {"from": "user", "text": inputs, "parent": row["lang"]},
+        {"from": "assistant", "text": outputs, "parent": 0},
+    ]
+
+  
 def prepare_agentinstruct(row):
     datasets = row  # Based on the current structure, a row represents all datasets :TODO: might need to change this
     messages = []

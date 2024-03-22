@@ -12,6 +12,8 @@
     "Other": [
         "alpaca",
         "Anthropic Internal Models",
+        "BX LLaMa",
+        "BX BLOOM",
         "CTRL",
         "dolly",
         "Flan-T5",
@@ -21,17 +23,14 @@
         "Instruct-GPT-J",
         "Other",
         "pplm_distil",
+        "SeaLLM",
         "StarCoder",
         "Templates",
         "Transformer_xl",
         "T5",
         "T5-XXL",
         "XLNet",
-        "wikisql",
-        "BX LLaMa",
-        "BX BLOOM",
         "XLM",
-        "XLNet",
         "wikisql",
         "WMT"
     ]
