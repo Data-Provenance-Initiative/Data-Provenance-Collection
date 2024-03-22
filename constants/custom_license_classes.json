@@ -1,8 +1,8 @@
 {
     "http://groups.di.unipi.it/~gulli/AG_corpus_of_news_articles.html": [
-        "0",
+        "Acad",
         "1",
-        "Acad"
+        "0"
     ],
     "http://help.sentiment140.com/for-students": [
         "?",
@@ -10,214 +10,214 @@
         "?"
     ],
     "http://korpus.uib.no/icame/brown/bcm.html#bc7": [
+        "Acad",
         "0",
-        "0",
-        "Acad"
+        "0"
     ],
     "http://nlp.cs.aueb.gr/software_and_datasets/EURLEX57K/read_me.txt": [
-        "0",
+        "All",
         "1",
-        "All"
+        "0"
     ],
     "http://sail.usc.edu/iemocap/Data_Release_Form_IEMOCAP.pdf, https://docs.google.com/forms/d/e/1FAIpQLScBecgI2K5bFTrXi_-05IYSSwOcqL5mX7dh57xcJV1m_NoznA/viewform?usp=sf_link": [
+        "All",
         "0",
-        "0",
-        "All"
+        "0"
     ],
     "http://scdb.wustl.edu/documentation.php?var=cite": [
+        "All",
         "0",
-        "0",
-        "All"
+        "0"
     ],
     "http://www.di.unipi.it/~gulli/AG_corpus_of_news_articles.html": [
-        "0",
+        "NC",
         "1",
-        "NC"
+        "0"
     ],
     "https://competitions.codalab.org/competitions/17751#learn_the_details-terms_and_conditions": [
+        "Acad",
         "0",
-        "0",
-        "Acad"
+        "0"
     ],
     "https://competitions.codalab.org/competitions/19938#learn_the_details-terms_and_conditions": [
-        "0",
+        "NC",
         "1",
-        "NC"
+        "0"
     ],
     "https://competitions.codalab.org/competitions/20970#learn_the_details-terms_and_conditions": [
-        "0",
+        "Acad",
         "1",
-        "Acad"
+        "0"
     ],
     "https://davis.wpi.edu/xmdv/datasets/ohsumed.html": [
+        "Acad",
         "0",
-        "0",
-        "Acad"
+        "0"
     ],
     "https://docs.opendata.aws/amazon-reviews-ml/license.txt, https://dl.fbaipublicfiles.com/glue/data/STS-B.zip, https://github.com/facebookresearch/XNLI/blob/main/LICENSE": [
+        "All",
         "0",
-        "0",
-        "All"
+        "0"
     ],
     "https://drive.google.com/file/d/1lOCbW8bfZxj1RIzKDxn8xKg99XyYNj7z/view?usp=sharing": [
-        "0",
+        "All",
         "1",
-        "All"
+        "0"
     ],
     "https://github.com/Alex-Fabbri/Multi-News/blob/master/LICENSE.txt": [
+        "Acad",
         "0",
-        "0",
-        "Acad"
+        "0"
     ],
     "https://github.com/CogComp/multirc/blob/master/LICENSE": [
+        "Acad",
         "1",
-        "1",
-        "Acad"
+        "1"
     ],
     "https://github.com/allenai/scruples#disclaimer": [
-        "0",
+        "Acad",
         "1",
-        "Acad"
+        "0"
     ],
     "https://github.com/allenai/semeval-2019-task-10#terms-and-conditions": [
+        "Acad",
         "0",
-        "0",
-        "Acad"
+        "0"
     ],
     "https://github.com/awslabs/open-data-docs/blob/main/docs/amazon-reviews-ml/license.txt": [
+        "Acad",
         "0",
-        "0",
-        "Acad"
+        "0"
     ],
     "https://github.com/dair-ai/emotion_dataset#usage": [
-        "0",
+        "Acad",
         "1",
-        "Acad"
+        "0"
     ],
     "https://github.com/google-research-datasets/paws": [
-        "0",
+        "All",
         "1",
-        "All"
+        "0"
     ],
     "https://github.com/google-research-datasets/paws/blob/master/LICENSE": [
-        "0",
+        "All",
         "1",
-        "All"
+        "0"
     ],
     "https://github.com/google-research-datasets/sentence-compression": [
+        "All",
         "0",
-        "0",
-        "All"
+        "0"
     ],
     "https://github.com/nlpdata/c3/blob/master/license.txt": [
+        "Acad",
         "0",
-        "0",
-        "Acad"
+        "0"
     ],
     "https://github.com/nlpdata/dream/blob/master/license.txt": [
+        "Acad",
         "0",
-        "0",
-        "Acad"
+        "0"
     ],
     "https://github.com/whipson/PoKi-Poems-by-Kids": [
-        "0",
+        "Acad",
         "1",
-        "Acad"
+        "0"
     ],
     "https://huggingface.co/datasets/stanfordnlp/SHP#license": [
+        "All",
         "0",
-        "0",
-        "All"
+        "0"
     ],
     "https://librivox.org/pages/public-domain/": [
+        "All",
         "0",
-        "0",
-        "All"
+        "0"
     ],
     "https://microsoft.github.io/msmarco/": [
+        "NC",
         "0",
-        "0",
-        "NC"
+        "0"
     ],
     "https://msropendata-web-api.azurewebsites.net/licenses/2f933be3-284d-500b-7ea3-2aa2fd0f1bb2/view": [
+        "NC",
         "0",
-        "0",
-        "NC"
+        "0"
     ],
     "https://msropendata-web-api.azurewebsites.net/licenses/f1f352a6-243f-4905-8e00-389edbca9e83/view": [
-        "0",
+        "All",
         "1",
-        "All"
+        "0"
     ],
     "https://opus.nlpl.eu/QED.php": [
-        "0",
+        "Acad",
         "1",
-        "Acad"
+        "0"
     ],
     "https://raw.githubusercontent.com/knowitall/ollie/master/LICENSE": [
+        "NC",
         "1",
-        "1",
-        "NC"
+        "1"
     ],
     "https://recipenlg.cs.put.poznan.pl/dataset": [
+        "Acad",
         "1",
-        "1",
-        "Acad"
+        "1"
     ],
     "https://s3-media0.fl.yelpcdn.com/assets/srv0/engineering_pages/dc1cabe7cb95/assets/vendor/Dataset_User_Agreement.pdf": [
+        "NC",
         "0",
-        "0",
-        "NC"
+        "0"
     ],
     "https://s3-media3.fl.yelpcdn.com/assets/srv0/engineering_pages/bea5c1e92bf3/assets/vendor/yelp-dataset-agreement.pdf": [
+        "NC",
         "0",
-        "0",
-        "NC"
+        "0"
     ],
     "https://s3.amazonaws.com/amazon-reviews-pds/license.txt": [
+        "Acad",
         "0",
-        "0",
-        "Acad"
+        "0"
     ],
     "https://sheng-z.github.io/ReCoRD-explorer/": [
+        "All",
         "0",
-        "0",
-        "All"
+        "0"
     ],
     "https://tac.nist.gov/data/forms/index.html": [
+        "Acad",
         "0",
-        "0",
-        "Acad"
+        "0"
     ],
     "https://u.cs.biu.ac.il/~koppel/BlogCorpus.htm": [
-        "0",
+        "Acad",
         "1",
-        "Acad"
+        "0"
     ],
     "https://wordnet.princeton.edu/license-and-commercial-use": [
-        "0",
+        "All",
         "1",
-        "All"
+        "0"
     ],
     "https://wt-public.emm4u.eu/Resources/ECDC-TM/2012_10_Terms-of-Use_ECDC-TM.pdf": [
-        "0",
+        "All",
         "1",
-        "All"
+        "0"
     ],
     "https://www.cs.cmu.edu/~glai1/data/race/#:~:text=notes": [
+        "Acad",
         "0",
-        "0",
-        "Acad"
+        "0"
     ],
     "https://www.ldc.upenn.edu/language-resources/data/obtaining": [
-        "0",
+        "Acad",
         "1",
-        "Acad"
+        "0"
     ],
     "https://www.microsoft.com/en-us/download/details.aspx?id=52419": [
+        "Acad",
         "1",
-        "1",
-        "Acad"
+        "1"
     ],
     "https://www.quora.com/about/tos": [
         "?",
@@ -225,13 +225,13 @@
         "?"
     ],
     "https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/": [
+        "All",
         "0",
-        "0",
-        "All"
+        "0"
     ],
     "https://www2.cs.sfu.ca/~anoop/students/jbirke/LICENSE.html": [
+        "Acad",
         "0",
-        "0",
-        "Acad"
+        "0"
     ]
 }
