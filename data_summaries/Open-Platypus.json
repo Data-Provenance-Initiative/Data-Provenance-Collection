@@ -323,7 +323,7 @@
             "Question Answering"
         ],
         "Text Sources": [
-            "books",
+            "science textbooks",
             "gmat",
             "lsat",
             "undisclosed web"
@@ -424,8 +424,8 @@
             "Question Answering"
         ],
         "Text Sources": [
-            "Books",
-            "Exams"
+            "science textbooks",
+            "exams"
         ],
         "Model Generated": [],
         "Format": [
@@ -472,7 +472,6 @@
             "Question Answering"
         ],
         "Text Sources": [
-            "Books",
             "human",
             "OpenAI GPT-4",
             "undisclosed web"
