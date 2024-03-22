@@ -241,6 +241,9 @@ def download_laion_oig(accepted_filter_ids):
         dsets.extend(dset)
     return dsets
 
+def download_capybara(accepted_filter_ids):
+    dset = huggingface_download('LDJnr/Capybara', split='train')
+    return pool_filter(dset, "source", accepted_filter_ids)
 
 def download_self_instruct(accepted_filter_ids):
     return huggingface_download('yizhongw/self_instruct', split='train')
@@ -326,9 +329,16 @@ def download_openai_webgpt(accepted_filter_ids):
 def download_alpaca(accepted_filter_ids):
     return huggingface_download('tatsu-lab/alpaca', split='train')
 
+
 def download_deita_10k(accepted_filter_ids):
     dset = huggingface_download("hkust-nlp/deita-10k-v0", split="train")
     return pool_filter(dset, "source", accepted_filter_ids)
+
+ 
+def download_metamathqa(accepted_filter_ids):
+    dset = huggingface_download('meta-math/MetaMathQA', split='train')
+    return pool_filter(dset, "type", accepted_filter_ids)
+
 
 def download_pure_dove(accepted_filter_ids):
     return huggingface_download('LDJnr/Pure-Dove', split='train')
@@ -477,8 +487,27 @@ def download_book_summaries(accepted_filter_ids):
     return pool_filter(dset, "type", accepted_filter_ids)
 
 
+def download_pii_masking_200k(accepted_filter_ids):
+    return huggingface_download('ai4privacy/pii-masking-200k', split='train')
+
+  
+def download_no_robots(accepted_filter_ids):
+    dset = huggingface_download('HuggingFaceH4/no_robots', split='train_sft')
+    return pool_filter(dset, "category", accepted_filter_ids)
+
+
+def download_help_steer(accepted_filter_ids):
+    return huggingface_download('nvidia/HelpSteer', split='train')
+
+
+
 def download_ultrachat(accepted_filter_ids):
     return huggingface_download('stingning/ultrachat', split='train')
+
+def download_wildchat(accepted_filter_ids):
+    '''downloads in the wild chat dataset from hugging face'''
+    dset = huggingface_download('allenai/WildChat', split='train')
+    return pool_filter(dset, "model", accepted_filter_ids)
 
 
 def download_airoboros(accepted_filter_ids):
@@ -500,6 +529,91 @@ def download_open_orca(accepeted_filter_ids):
     dset = list(map(lambda x: {**x, 'source': x['id'].split('.')[0]}, dset))
     return pool_filter(dset, "source", accepeted_filter_ids)
 
+
+def download_pmc_llama(accepted_filter_ids):
+    dset = huggingface_download("axiong/pmc_llama_instructions", split="train")
+    return pool_filter(dset, "source", accepted_filter_ids)
+  
+  
+def download_medical_meadow(accepted_filter_ids):
+    dset = []
+    if "medical-meadow-med-flashcards" in accepted_filter_ids:
+        med_flashcards = huggingface_download("medalpaca/medical_meadow_medical_flashcards", split='train')
+        dset += annotate_source(med_flashcards, "medical-meadow-med-flashcards")
+    if "medical-meadow-wikidoc-living-textbook" in accepted_filter_ids:
+        wikidoc_living_textbook = huggingface_download("medalpaca/medical_meadow_wikidoc", split='train')
+        dset += annotate_source(wikidoc_living_textbook, "medical-meadow-wikidoc-living-textbook")
+    if "medical-meadow-wikidoc-patient-information" in accepted_filter_ids:
+        wikidoc_patient_information = huggingface_download("medalpaca/medical_meadow_wikidoc_patient_information", split='train')
+        dset += annotate_source(wikidoc_patient_information, "medical-meadow-wikidoc-patient-information")
+    if "medical-meadow-cord19" in accepted_filter_ids:
+        cord19 = huggingface_download("medalpaca/medical_meadow_cord19", split='train')
+        dset += annotate_source(cord19, "medical-meadow-cord19")
+    if "medical-meadow-health-advice" in accepted_filter_ids:
+        health_advice = huggingface_download("medalpaca/medical_meadow_health_advice", split='train')
+        dset += annotate_source(health_advice, "medical-meadow-health-advice")
+    if "medical-meadow-pubmed-causal" in accepted_filter_ids:
+        pubmed_causal = huggingface_download("medalpaca/medical_meadow_pubmed_causal", split='train')
+        dset += annotate_source(pubmed_causal, "medical-meadow-pubmed-causal")
+    if "medical-meadow-medqa" in accepted_filter_ids:
+        medqa = huggingface_download("medalpaca/medical_meadow_medqa", split='train')
+        dset += annotate_source(medqa, "medical-meadow-medqa")
+    if "medical-meadow-mediqa" in accepted_filter_ids:
+        mediqa = huggingface_download("medalpaca/medical_meadow_mediqa", split='train')
+        dset += annotate_source(mediqa, "medical-meadow-mediqa")
+    return dset
+
+  
+def download_medinstruct(accepted_filter_ids):
+    return direct_data_request("https://raw.githubusercontent.com/XZhang97666/AlpaCare/master/data/MedInstruct-52k.json")
+
+
+def download_mathinstruct(accepted_filter_ids):
+    mathinstruct = load_dataset('TIGER-Lab/MathInstruct', split='train')
+    dset = []
+    if 'cot_MATH_train' in accepted_filter_ids:
+        cot_MATH_train = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/MATH_train.json').to_list()
+        dset += annotate_source(cot_MATH_train, 'cot_MATH_train')
+    if 'cot_TheoremQA' in accepted_filter_ids:
+        cot_TheoremQA = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/TheoremQA.json').to_list()
+        dset += annotate_source(cot_TheoremQA, 'cot_TheoremQA')
+    if 'cot_aqua_rat' in accepted_filter_ids:
+        cot_aqua_rat = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/aqua_rat.json').to_list()
+        dset += annotate_source(cot_aqua_rat, 'cot_aqua_rat')
+    if 'cot_college_math' in accepted_filter_ids:
+        cot_college_math = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/college_math.json').to_list()
+        dset += annotate_source(cot_college_math, 'cot_college_math')
+    if 'cot_gsm_rft' in accepted_filter_ids:
+        cot_gsm_rft = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/gsm_rft.json').to_list()
+        dset += annotate_source(cot_gsm_rft, 'cot_gsm_rft')
+    if 'cot_gsm_train' in accepted_filter_ids:
+        cot_gsm_train = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/gsm_train.json').to_list()
+        dset += annotate_source(cot_gsm_train, 'cot_gsm_train')
+    if 'cot_math50k_camel' in accepted_filter_ids:
+        cot_math50k_camel = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/math50k_camel.json').to_list()
+        dset += annotate_source(cot_math50k_camel, 'cot_math50k_camel')
+    if 'cot_number_comparison' in accepted_filter_ids:
+        cot_number_comparison = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/number_comparison.json').to_list()
+        dset += annotate_source(cot_number_comparison, 'cot_number_comparison')
+    if 'pot_MATH_train' in accepted_filter_ids:
+        pot_MATH_train = mathinstruct.filter(lambda row: row['source'] == 'data/PoT/MATH_train.json').to_list()
+        dset += annotate_source(pot_MATH_train, 'pot_MATH_train')
+    if 'pot_TheoremQA' in accepted_filter_ids:
+        pot_TheoremQA = mathinstruct.filter(lambda row: row['source'] == 'data/PoT/TheoremQA.json').to_list()
+        dset += annotate_source(pot_TheoremQA, 'pot_TheoremQA')
+    if 'pot_aqua_rat_filtered' in accepted_filter_ids:
+        pot_aqua_rat_filtered = mathinstruct.filter(lambda row: row['source'] == 'data/PoT/aqua_rat_filtered.json').to_list()
+        dset += annotate_source(pot_aqua_rat_filtered, 'pot_aqua_rat_filtered')
+    if 'pot_gsm_gpt4' in accepted_filter_ids:
+        pot_gsm_gpt4 = mathinstruct.filter(lambda row: row['source'] == 'data/PoT/gsm_gpt4.json').to_list()
+        dset += annotate_source(pot_gsm_gpt4, 'pot_gsm_gpt4')
+    if 'pot_mathqa' in accepted_filter_ids:
+        pot_mathqa = mathinstruct.filter(lambda row: row['source'] == 'data/PoT/mathqa.json').to_list()
+        dset += annotate_source(pot_mathqa, 'pot_mathqa')
+    if 'pot_numglue' in accepted_filter_ids:
+        pot_numglue = mathinstruct.filter(lambda row: row['source'] == 'data/PoT/numglue.json').to_list()
+        dset += annotate_source(pot_numglue, 'pot_numglue')
+    return dset   
 
 def split_by_user(pairs):
     '''
@@ -632,3 +746,51 @@ def download_gorilla(accepted_filter_ids):
             ret[key] = ret.get(key, []) + [ex[key]]
 
     return Dataset.from_dict(ret)
+
+def download_chatdoctor(accepted_filter_ids):
+    dset = []
+    if "chatdoctor-healthcaremagic-100k" in accepted_filter_ids:
+        healthcaremagic_dset = huggingface_download("lavita/ChatDoctor-HealthCareMagic-100k", split='train')
+        dset += annotate_source(healthcaremagic_dset, "chatdoctor-healthcaremagic-100k")
+    if "chatdoctor-icliniq-10k" in accepted_filter_ids:
+        icliniq_dset = load_dataset("lavita/ChatDoctor-iCliniq", split='train')
+        icliniq_dset = icliniq_dset.rename_column("answer_icliniq", "output")
+        icliniq_dset = icliniq_dset.to_list()
+        dset += annotate_source(icliniq_dset, "chatdoctor-icliniq-10k")
+    if "chatdoctor-genmedgpt-5k" in accepted_filter_ids:
+        genmedgpt_dset = huggingface_download("wangrongsheng/GenMedGPT-5k-en", split='train')
+        dset += annotate_source(genmedgpt_dset, "chatdoctor-genmedgpt-5k")
+    return dset
+
+def download_agentinstruct(accepted_filter_ids):
+    dset = []
+    if 'alfworld' in accepted_filter_ids:
+        dset.append(huggingface_download('THUDM/AgentInstruct', split='alfworld'))
+    if 'db' in accepted_filter_ids:
+        dset.append(huggingface_download('THUDM/AgentInstruct', split='db'))
+    if 'os' in accepted_filter_ids:
+        dset.append(huggingface_download('THUDM/AgentInstruct', split='os'))
+    if 'kg' in accepted_filter_ids:
+        dset.append(huggingface_download('THUDM/AgentInstruct', split='kg'))
+    if 'webshop' in accepted_filter_ids:
+        dset.append(huggingface_download('THUDM/AgentInstruct', split='webshop'))
+    if 'mind2web' in accepted_filter_ids:
+        dset.append(huggingface_download('THUDM/AgentInstruct', split='mind2web'))
+
+    return dset
+
+
+def download_open_platypus(accepted_filter_ids):
+    dset = huggingface_download("garage-bAInd/Open-Platypus", split="train")
+    return pool_filter(dset, "data_source", accepted_filter_ids)
+
+  
+def download_bactrianx(accepted_filter_ids):
+    """Download Bactrian-X dataset from HuggingFace"""
+    dsets = []
+    for dset_name in accepted_filter_ids:
+        dset = huggingface_download('MBZUAI/Bactrian-X', name=dset_name, split="train")
+        # annotate each example with source
+        dset = annotate_source(dset, dset_name)
+        dsets.extend(dset)
+    return dsets
