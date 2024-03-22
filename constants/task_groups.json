@@ -2,6 +2,7 @@
     "Bias & Toxicicity Detection": [
         "Bias Detection",
         "Binary Classification of Hate Speech",
+        "Adversarial Hate Speech Detection",
         "Binary Classification of Racial Bias",
         "Ethical Judgment Question Answering",
         "Ethics Classification",
@@ -130,6 +131,7 @@
         "Linguistic Probing",
         "Literary Analysis",
         "Semantic Relation Classification",
+        "Discourse Relation Prediction",
         "Semantic Similarity Detection",
         "Semantic Similarity Identification",
         "Speaker Identification",
@@ -149,6 +151,7 @@
         "Logical Reasoning",
         "Logical and Mathematical Reasoning",
         "Logical Reasoning Question Answering",
+        "Logical and Mathematical Reasoning",
         "Mathematical Equation Generation",
         "Numerical Data Aggregation and Analysis",
         "Ordering Task",
@@ -201,6 +204,7 @@
         "No Context Snippet",
         "Open-form Text Generation",
         "Recursive Function Generation",
+        "Rewrite",
         "Sentence Rewriting",
         "Speech Recognition",
         "Structured Data to Text",
@@ -228,6 +232,7 @@
         "Breach of Contract Question Answering",
         "Clarification Question Answering",
         "Clinical Diagnosis Question Answering",
+        "Closed Question Answering",
         "Closed-Book Question Answering",
         "Comparative Analysis Question Answering",
         "Comparative Question Answering",
@@ -266,6 +271,7 @@
         "Nutritional Information Retrieval",
         "Object Detection Question Answering",
         "Object Localization Question Answering",
+        "Open Question Answering",
         "Open-Domain Information Retrieval",
         "Open-Domain Name Retrieval",
         "Open-Domain Question Answering",
@@ -292,7 +298,10 @@
         "Trick Question",
         "Vegetarian Recipe Modification Question Answering",
         "Visual Reasoning Question Answering",
-        "Webpage Content Retrieval"
+        "Webpage Content Retrieval",
+        "Trivia",
+        "Math"
+        
     ],
     "Response Ranking": [
         "Alignment",
@@ -310,7 +319,8 @@
         "Semantic Role Labeling",
         "Sequence Tagging",
         "Synonym Identification and Retagging",
-        "Word Segmentation"
+        "Word Segmentation",
+        "Token Classification"
     ],
     "Short Text Generation": [
         "Basic Instruct",
@@ -340,6 +350,7 @@
         "Word Reordering"
     ],
     "Summarization": [
+        "BioMedical Text Summarization",
         "Critical Review Summarization",
         "News Article Summarization",
         "Paper Review",
@@ -366,6 +377,7 @@
         "Entity Matching",
         "Experiential Classification",
         "Fact Checking",
+        "Token Classification",
         "Factual Argumentation Resolution",
         "Grammar Error Detection",
         "Hashtag Classification",
@@ -388,12 +400,16 @@
         "Sentence Ordering",
         "Sentence Similarity Detection",
         "Sentiment Analysis",
+        "Adversarial Sentiment Analysis",
         "Single Word Classification",
         "Spam Classification",
         "Text Classification",
         "Text Matching",
         "Unverifiable Claim Classification",
         "Word Sense Disambiguation"
+    ],
+    "Token Classification": [
+        "Token Classification"
     ],
     "Translation": [
         "Inverted Translation",
