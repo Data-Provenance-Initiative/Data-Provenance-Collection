@@ -762,6 +762,11 @@ def download_chatdoctor(accepted_filter_ids):
         dset += annotate_source(genmedgpt_dset, "chatdoctor-genmedgpt-5k")
     return dset
 
+def download_seabench(accepted_filter_ids):
+    dset = huggingface_download('SeaLLMs/Sea-bench', split='train')
+    return pool_filter(dset, "lang", accepted_filter_ids)
+  
+
 def download_agentinstruct(accepted_filter_ids):
     dset = []
     if 'alfworld' in accepted_filter_ids:
