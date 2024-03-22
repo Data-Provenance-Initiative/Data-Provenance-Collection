@@ -1,0 +1,3452 @@
+{
+  "ds-ABCD": {
+    "Unique Dataset Identifier": "ds-ABCD",
+    "Dataset Name": "ABCD",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-AirDialogue": {
+    "Unique Dataset Identifier": "ds-AirDialogue",
+    "Dataset Name": "AirDialogue",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-BiTOD": {
+    "Unique Dataset Identifier": "ds-BiTOD",
+    "Dataset Name": "BiTOD",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-CaSiNo": {
+    "Unique Dataset Identifier": "ds-CaSiNo",
+    "Dataset Name": "CaSiNo",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-CraigslistBargains": {
+    "Unique Dataset Identifier": "ds-CraigslistBargains",
+    "Dataset Name": "CraigslistBargains",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-DSTC2-Clean": {
+    "Unique Dataset Identifier": "ds-DSTC2-Clean",
+    "Dataset Name": "DSTC2-Clean",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-DuRecDial-2.0": {
+    "Unique Dataset Identifier": "ds-DuRecDial-2.0",
+    "Dataset Name": "DuRecDial-2.0",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Motivational Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context Generation"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-FRAMES": {
+    "Unique Dataset Identifier": "ds-FRAMES",
+    "Dataset Name": "FRAMES",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-HDSA-Dialog": {
+    "Unique Dataset Identifier": "ds-HDSA-Dialog",
+    "Dataset Name": "HDSA-Dialog",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-KVRET": {
+    "Unique Dataset Identifier": "ds-KVRET",
+    "Dataset Name": "KVRET",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-MULTIWOZ2_2": {
+    "Unique Dataset Identifier": "ds-MULTIWOZ2_2",
+    "Dataset Name": "MULTIWOZ2_2",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-MetaLWOZ": {
+    "Unique Dataset Identifier": "ds-MetaLWOZ",
+    "Dataset Name": "MetaLWOZ",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-MuDoCo": {
+    "Unique Dataset Identifier": "ds-MuDoCo",
+    "Dataset Name": "MuDoCo",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-MulDoGO": {
+    "Unique Dataset Identifier": "ds-MulDoGO",
+    "Dataset Name": "MulDoGO",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-OpenDialKG": {
+    "Unique Dataset Identifier": "ds-OpenDialKG",
+    "Dataset Name": "OpenDialKG",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Motivational Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context Generation"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-SGD": {
+    "Unique Dataset Identifier": "ds-SGD",
+    "Dataset Name": "SGD",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-STAR": {
+    "Unique Dataset Identifier": "ds-STAR",
+    "Dataset Name": "STAR",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-SalesBot": {
+    "Unique Dataset Identifier": "ds-SalesBot",
+    "Dataset Name": "SalesBot",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Motivational Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context Generation"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-SimJointGEN": {
+    "Unique Dataset Identifier": "ds-SimJointGEN",
+    "Dataset Name": "SimJointGEN",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-SimJointMovie": {
+    "Unique Dataset Identifier": "ds-SimJointMovie",
+    "Dataset Name": "SimJointMovie",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-SimJointRestaurant": {
+    "Unique Dataset Identifier": "ds-SimJointRestaurant",
+    "Dataset Name": "SimJointRestaurant",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-Taskmaster1": {
+    "Unique Dataset Identifier": "ds-Taskmaster1",
+    "Dataset Name": "Taskmaster1",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-Taskmaster2": {
+    "Unique Dataset Identifier": "ds-Taskmaster2",
+    "Dataset Name": "Taskmaster2",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-Taskmaster3": {
+    "Unique Dataset Identifier": "ds-Taskmaster3",
+    "Dataset Name": "Taskmaster3",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-WOZ2_0": {
+    "Unique Dataset Identifier": "ds-WOZ2_0",
+    "Dataset Name": "WOZ2_0",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-README.md": {
+    "Unique Dataset Identifier": "ds-README.md",
+    "Dataset Name": "README.md",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-KETOD": {
+    "Unique Dataset Identifier": "ds-KETOD",
+    "Dataset Name": "KETOD",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-GECOR": {
+    "Unique Dataset Identifier": "ds-GECOR",
+    "Dataset Name": "GECOR",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-MultiWOZ_2.1": {
+    "Unique Dataset Identifier": "ds-MultiWOZ_2.1",
+    "Dataset Name": "MultiWOZ_2.1",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-Disambiguation": {
+    "Unique Dataset Identifier": "ds-Disambiguation",
+    "Dataset Name": "Disambiguation",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-AMI": {
+    "Unique Dataset Identifier": "ds-AMI",
+    "Dataset Name": "AMI",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-ECTSum": {
+    "Unique Dataset Identifier": "ds-ECTSum",
+    "Dataset Name": "ECTSum",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-ConvoSumm": {
+    "Unique Dataset Identifier": "ds-ConvoSumm",
+    "Dataset Name": "ConvoSumm",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-DialogSum": {
+    "Unique Dataset Identifier": "ds-DialogSum",
+    "Dataset Name": "DialogSum",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-ICSI": {
+    "Unique Dataset Identifier": "ds-ICSI",
+    "Dataset Name": "ICSI",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-MediaSum": {
+    "Unique Dataset Identifier": "ds-MediaSum",
+    "Dataset Name": "MediaSum",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-CRD3": {
+    "Unique Dataset Identifier": "ds-CRD3",
+    "Dataset Name": "CRD3",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-QMSum": {
+    "Unique Dataset Identifier": "ds-QMSum",
+    "Dataset Name": "QMSum",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-SAMSum": {
+    "Unique Dataset Identifier": "ds-SAMSum",
+    "Dataset Name": "SAMSum",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-SummScreen_ForeverDreaming": {
+    "Unique Dataset Identifier": "ds-SummScreen_ForeverDreaming",
+    "Dataset Name": "SummScreen_ForeverDreaming",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-SummScreen_TVMegaSite": {
+    "Unique Dataset Identifier": "ds-SummScreen_TVMegaSite",
+    "Dataset Name": "SummScreen_TVMegaSite",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-TweetSumm": {
+    "Unique Dataset Identifier": "ds-TweetSumm",
+    "Dataset Name": "TweetSumm",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-chitchat-dataset": {
+    "Unique Dataset Identifier": "ds-chitchat-dataset",
+    "Dataset Name": "chitchat-dataset",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Open-Domain Conversation Generation",
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context Generation"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-HH-RLHF": {
+    "Unique Dataset Identifier": "ds-HH-RLHF",
+    "Dataset Name": "HH-RLHF",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Open-Domain Conversation Generation",
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context Generation"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-PLACES3.5": {
+    "Unique Dataset Identifier": "ds-PLACES3.5",
+    "Dataset Name": "PLACES3.5",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Open-Domain Conversation Generation",
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context Generation"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-Prosocial": {
+    "Unique Dataset Identifier": "ds-Prosocial",
+    "Dataset Name": "Prosocial",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Open-Domain Conversation Generation",
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context Generation"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-ConvAI2": {
+    "Unique Dataset Identifier": "ds-ConvAI2",
+    "Dataset Name": "ConvAI2",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Open-Domain Conversation Generation",
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context Generation"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-Empathetic": {
+    "Unique Dataset Identifier": "ds-Empathetic",
+    "Dataset Name": "Empathetic",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Open-Domain Conversation Generation",
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context Generation"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-AntiScam": {
+    "Unique Dataset Identifier": "ds-AntiScam",
+    "Dataset Name": "AntiScam",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Open-Domain Conversation Generation",
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context Generation"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-CoQA": {
+    "Unique Dataset Identifier": "ds-CoQA",
+    "Dataset Name": "CoQA",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-CoSQL": {
+    "Unique Dataset Identifier": "ds-CoSQL",
+    "Dataset Name": "CoSQL",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-CompWebQ": {
+    "Unique Dataset Identifier": "ds-CompWebQ",
+    "Dataset Name": "CompWebQ",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-DART": {
+    "Unique Dataset Identifier": "ds-DART",
+    "Dataset Name": "DART",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-FeTaQA": {
+    "Unique Dataset Identifier": "ds-FeTaQA",
+    "Dataset Name": "FeTaQA",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-GrailQA": {
+    "Unique Dataset Identifier": "ds-GrailQA",
+    "Dataset Name": "GrailQA",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-HybridQA": {
+    "Unique Dataset Identifier": "ds-HybridQA",
+    "Dataset Name": "HybridQA",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-MMQA": {
+    "Unique Dataset Identifier": "ds-MMQA",
+    "Dataset Name": "MMQA",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-MTOP": {
+    "Unique Dataset Identifier": "ds-MTOP",
+    "Dataset Name": "MTOP",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-MultiModalQA": {
+    "Unique Dataset Identifier": "ds-MultiModalQA",
+    "Dataset Name": "MultiModalQA",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-SParC": {
+    "Unique Dataset Identifier": "ds-SParC",
+    "Dataset Name": "SParC",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-SQA": {
+    "Unique Dataset Identifier": "ds-SQA",
+    "Dataset Name": "SQA",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-Spider": {
+    "Unique Dataset Identifier": "ds-Spider",
+    "Dataset Name": "Spider",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-ToTTo": {
+    "Unique Dataset Identifier": "ds-ToTTo",
+    "Dataset Name": "ToTTo",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-WebQSP": {
+    "Unique Dataset Identifier": "ds-WebQSP",
+    "Dataset Name": "WebQSP",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-WikiSQL": {
+    "Unique Dataset Identifier": "ds-WikiSQL",
+    "Dataset Name": "WikiSQL",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-WikiTQ": {
+    "Unique Dataset Identifier": "ds-WikiTQ",
+    "Dataset Name": "WikiTQ",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-wizard_of_internet": {
+    "Unique Dataset Identifier": "ds-wizard_of_internet",
+    "Dataset Name": "wizard_of_internet",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-wizard_of_wikipedia": {
+    "Unique Dataset Identifier": "ds-wizard_of_wikipedia",
+    "Dataset Name": "wizard_of_wikipedia",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-ATIS": {
+    "Unique Dataset Identifier": "ds-ATIS",
+    "Dataset Name": "ATIS",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialogue Understanding",
+      "Natural Language Understanding"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-CLINC150": {
+    "Unique Dataset Identifier": "ds-CLINC150",
+    "Dataset Name": "CLINC150",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialogue Understanding",
+      "Natural Language Understanding"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-HWU64": {
+    "Unique Dataset Identifier": "ds-HWU64",
+    "Dataset Name": "HWU64",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialogue Understanding",
+      "Natural Language Understanding"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-MIT-Movie": {
+    "Unique Dataset Identifier": "ds-MIT-Movie",
+    "Dataset Name": "MIT-Movie",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialogue Understanding",
+      "Natural Language Understanding"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-MIT-Restaurant": {
+    "Unique Dataset Identifier": "ds-MIT-Restaurant",
+    "Dataset Name": "MIT-Restaurant",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialogue Understanding",
+      "Natural Language Understanding"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-ATIS-NER": {
+    "Unique Dataset Identifier": "ds-ATIS-NER",
+    "Dataset Name": "ATIS-NER",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialogue Understanding",
+      "Natural Language Understanding"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-RESTAURANTS8K": {
+    "Unique Dataset Identifier": "ds-RESTAURANTS8K",
+    "Dataset Name": "RESTAURANTS8K",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialogue Understanding",
+      "Natural Language Understanding"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-SNIPS": {
+    "Unique Dataset Identifier": "ds-SNIPS",
+    "Dataset Name": "SNIPS",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialogue Understanding",
+      "Natural Language Understanding"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-BANKING77-OOS": {
+    "Unique Dataset Identifier": "ds-BANKING77-OOS",
+    "Dataset Name": "BANKING77-OOS",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialogue Understanding",
+      "Natural Language Understanding"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-BANKING77": {
+    "Unique Dataset Identifier": "ds-BANKING77",
+    "Dataset Name": "BANKING77",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialogue Understanding",
+      "Natural Language Understanding"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-CLINC-Single-Domain-OOS-banking": {
+    "Unique Dataset Identifier": "ds-CLINC-Single-Domain-OOS-banking",
+    "Dataset Name": "CLINC-Single-Domain-OOS-banking",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialogue Understanding",
+      "Natural Language Understanding"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-CLINC-Single-Domain-OOS-credit_cards": {
+    "Unique Dataset Identifier": "ds-CLINC-Single-Domain-OOS-credit_cards",
+    "Dataset Name": "CLINC-Single-Domain-OOS-credit_cards",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialogue Understanding",
+      "Natural Language Understanding"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-DSTC8-SGD": {
+    "Unique Dataset Identifier": "ds-DSTC8-SGD",
+    "Dataset Name": "DSTC8-SGD",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialogue Understanding",
+      "Natural Language Understanding"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-SNIPS-NER": {
+    "Unique Dataset Identifier": "ds-SNIPS-NER",
+    "Dataset Name": "SNIPS-NER",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialogue Understanding",
+      "Natural Language Understanding"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-TOP-NER": {
+    "Unique Dataset Identifier": "ds-TOP-NER",
+    "Dataset Name": "TOP-NER",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialogue Understanding",
+      "Natural Language Understanding"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  },
+  "ds-TOP": {
+    "Unique Dataset Identifier": "ds-TOP",
+    "Dataset Name": "TOP",
+    "Paper Title": "",
+    "Dataset URL": "",
+    "GitHub URL": "",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Dialogue Understanding",
+      "Natural Language Understanding"
+    ],
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "Licenses": [
+      {
+        "License": "",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": []
+  }
+}
