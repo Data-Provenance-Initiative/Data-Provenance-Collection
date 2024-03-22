@@ -1,0 +1,62 @@
+{
+    "no-robots": {
+        "Unique Dataset Identifier": "no-robots",
+        "Dataset Name": "no-robots",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/HuggingFaceH4/no_robots",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/HuggingFaceH4/no_robots",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "No Robots",
+        "Collection URL": "https://huggingface.co/datasets/HuggingFaceH4/no_robots",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Open Question Answering",
+            "Brainstorming",
+            "Dialogue Generation",
+            "Basic Instruct",
+            "Summarization",
+            "Coding",
+            "Commonsense Classification",
+            "Closed Question Answering",
+            "Information Extraction"
+        ],
+        "Text Sources": [
+            "human"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Huggingface"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://huggingface.co/datasets/HuggingFaceH4/no_robots#licensing-information"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Vu Minh Chien",
+        "Dataset Filter IDs": [
+            "Generation",
+            "Open QA",
+            "Brainstorm",
+            "Chat",
+            "Rewrite",
+            "Summarize",
+            "Coding",
+            "Classify",
+            "Closed QA",
+            "Extract"
+        ]
+    }
+}

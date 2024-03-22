@@ -1,0 +1,413 @@
+{
+    "medical-meadow-med-flashcards": {
+        "Unique Dataset Identifier": "medical-meadow-med-flashcards",
+        "Dataset Name": "medical-flashcards",
+        "Paper Title": "MedAlpaca - An Open-Source Collection of Medical Conversational AI Models and Training Data",
+        "Dataset URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_medical_flashcards",
+        "GitHub URL": "https://github.com/kbressem/medAlpaca",
+        "Hugging Face URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_medical_flashcards",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.08247",
+        "Semantic Scholar Corpus ID": 258180068,
+        "Collection": "Medical Meadow",
+        "Collection URL": "https://github.com/kbressem/medAlpaca",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Diagnosis Question Answering",
+            "Medical Question Answering",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "Anki Medical Curriculum"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "University Hospital Aachen",
+            "Technische Universität München",
+            "Berliner Hochschule für Technik"
+        ],
+        "Licenses": [
+            {
+                "License": "Non Commercial",
+                "License URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_medical_flashcards/discussions/1"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://github.com/kbressem/medAlpaca"
+            }
+        ],
+        "License Notes": "HuggingFace discussion indicates it is Non Commercial, as well as OpenAI generated.",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "medical-meadow-med-flashcards"
+        ]
+    },
+    "medical-meadow-wikidoc-living-textbook": {
+        "Unique Dataset Identifier": "medical-meadow-wikidoc-living-textbook",
+        "Dataset Name": "wikidoc-living-textbook",
+        "Paper Title": "MedAlpaca - An Open-Source Collection of Medical Conversational AI Models and Training Data",
+        "Dataset URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc",
+        "GitHub URL": "https://github.com/kbressem/medAlpaca",
+        "Hugging Face URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.08247",
+        "Semantic Scholar Corpus ID": 258180068,
+        "Collection": "Medical Meadow",
+        "Collection URL": "https://github.com/kbressem/medAlpaca",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Diagnosis Question Answering",
+            "Medical Question Answering",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "wikidoc.org"
+        ],
+        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "University Hospital Aachen",
+            "Technische Universität München",
+            "Berliner Hochschule für Technik"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/kbressem/medAlpaca"
+            }
+        ],
+        "License Notes": "OpenAI re-phrased. Otherwise no explicit data license.",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "medical-meadow-wikidoc-living-textbook"
+        ]
+    },
+    "medical-meadow-wikidoc-patient-information": {
+        "Unique Dataset Identifier": "medical-meadow-wikidoc-patient-information",
+        "Dataset Name": "wikidoc-patient-information",
+        "Paper Title": "MedAlpaca - An Open-Source Collection of Medical Conversational AI Models and Training Data",
+        "Dataset URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc_patient_information",
+        "GitHub URL": "https://github.com/kbressem/medAlpaca",
+        "Hugging Face URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc_patient_information",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.08247",
+        "Semantic Scholar Corpus ID": 258180068,
+        "Collection": "Medical Meadow",
+        "Collection URL": "https://github.com/kbressem/medAlpaca",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Diagnosis Question Answering",
+            "Medical Question Answering",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "Anki Medical Curriculum"
+        ],
+        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "University Hospital Aachen",
+            "Technische Universität München",
+            "Berliner Hochschule für Technik"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/kbressem/medAlpaca"
+            }
+        ],
+        "License Notes": "OpenAI re-phrased. Otherwise no explicit data license.",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "medical-meadow-wikidoc-patient-information"
+        ]
+    },
+    "medical-meadow-cord19": {
+        "Unique Dataset Identifier": "medical-meadow-cord19",
+        "Dataset Name": "cord19",
+        "Paper Title": "CORD-19: The COVID-19 Open Research Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_cord19",
+        "GitHub URL": "https://github.com/allenai/cord19",
+        "Hugging Face URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_cord19",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2004.10706",
+        "Semantic Scholar Corpus ID": 216056360,
+        "Collection": "Medical Meadow",
+        "Collection URL": "https://github.com/kbressem/medAlpaca",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Text Summarization",
+            "Simplification"
+        ],
+        "Text Sources": [
+            "pubmed",
+            "arxiv.org",
+            "biorxiv.org",
+            "medrxiv.org",
+            "WHO Covid-19 Database"
+            
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "CORD-19"
+        ],
+        "Creators": [
+            "University Hospital Aachen",
+            "Technische Universität München",
+            "Berliner Hochschule für Technik"
+        ],
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": "https://github.com/allenai/cord19?tab=readme-ov-file#metadatacsv-overview"
+            }
+        ],
+        "License Notes": "Lots of licenses used for different subsets.",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "medical-meadow-cord19"
+        ]
+    },
+    "medical-meadow-health-advice": {
+        "Unique Dataset Identifier": "medical-meadow-health-advice",
+        "Dataset Name": "health-advice",
+        "Paper Title": "Detecting Causal Language Use in Science Findings",
+        "Dataset URL": "https://aclanthology.org/D19-1473/",
+        "GitHub URL": "https://github.com/junwang4/causal-language-use-in-science",
+        "Hugging Face URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_health_advice",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 202787823,
+        "Collection": "Medical Meadow",
+        "Collection URL": "https://github.com/kbressem/medAlpaca",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Instructional Question Answering",
+            "Medical Question Answering",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "pubmed"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "PubMed Causal Language Use"
+        ],
+        "Creators": [
+            "University Hospital Aachen",
+            "Technische Universität München",
+            "Berliner Hochschule für Technik"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/junwang4/causal-language-use-in-science"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "medical-meadow-health-advice"
+        ]
+    },
+    "medical-meadow-pubmed-causal": {
+        "Unique Dataset Identifier": "medical-meadow-pubmed-causal",
+        "Dataset Name": "pubmed-causal",
+        "Paper Title": "Detecting Causal Language Use in Science Findings",
+        "Dataset URL": "https://aclanthology.org/D19-1473/",
+        "GitHub URL": "https://github.com/junwang4/causal-language-use-in-science",
+        "Hugging Face URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_pubmed_causal",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 202787823,
+        "Collection": "Medical Meadow",
+        "Collection URL": "https://github.com/kbressem/medAlpaca",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Instructional Question Answering",
+            "Medical Question Answering",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "pubmed"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "PubMed Causal Language Use"
+        ],
+        "Creators": [
+            "University Hospital Aachen",
+            "Technische Universität München",
+            "Berliner Hochschule für Technik"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "medical-meadow-pubmed-causal"
+        ]
+    },
+    "medical-meadow-medqa": {
+        "Unique Dataset Identifier": "medical-meadow-medqa",
+        "Dataset Name": "medqa",
+        "Paper Title": "What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams",
+        "Dataset URL": "https://github.com/jind11/MedQA",
+        "GitHub URL": "https://github.com/jind11/MedQA",
+        "Hugging Face URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_medqa",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/medqa-usmle",
+        "ArXiv URL": "https://arxiv.org/abs/2009.13081",
+        "Semantic Scholar Corpus ID": 221970190,
+        "Collection": "Medical Meadow",
+        "Collection URL": "https://github.com/kbressem/medAlpaca",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Instructional Question Answering",
+            "Medical Question Answering",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "Medical Exams"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "MedQA"
+        ],
+        "Creators": [
+            "University Hospital Aachen",
+            "Technische Universität München",
+            "Berliner Hochschule für Technik"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/jind11/MedQA"
+            }
+        ],
+        "License Notes": "No data license found for MedQA.",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "medical-meadow-medqa"
+        ]
+    },
+    "medical-meadow-mediqa": {
+        "Unique Dataset Identifier": "medical-meadow-mediqa",
+        "Dataset Name": "mediqa",
+        "Paper Title": "Question-Driven Summarization of Answers to Consumer Health Questions",
+        "Dataset URL": "https://osf.io/fyg46/",
+        "GitHub URL": "https://github.com/abachaa/MEDIQA2021",
+        "Hugging Face URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_mediqa",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/mediqa-ans",
+        "ArXiv URL": "https://arxiv.org/abs/2005.09067",
+        "Semantic Scholar Corpus ID": 218685012,
+        "Collection": "Medical Meadow",
+        "Collection URL": "https://github.com/kbressem/medAlpaca",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "BioMedical Text Summarization",
+            "Instructional Question Answering",
+            "Medical Question Answering"
+        ],
+        "Text Sources": [
+            "National Library of Medicine (NLM)",
+            "pubmed",
+            "web"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "MEDIQA"
+        ],
+        "Creators": [
+            "University Hospital Aachen",
+            "Technische Universität München",
+            "Berliner Hochschule für Technik"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": "https://osf.io/fyg46/"
+            }
+        ],
+        "License Notes": "The license given here is MEDIQA's.",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "medical-meadow-mediqa"
+        ]
+    }
+}
