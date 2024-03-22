@@ -181,7 +181,6 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_joke_explanation,
         "prepare_function": preparers.prepare_joke_explanation,
     },
-
     "Book Summaries": {
         "download_function": downloaders.download_book_summaries,
         "prepare_function": preparers.prepare_book_summaries,
@@ -233,7 +232,8 @@ COLLECTION_FN_MAPPER = {
     "SeaBench": {
         "download_function": downloaders.download_seabench,
         "prepare_function": preparers.prepare_seabench,
-    "Deita 10K":{
+    },
+    "Deita 10K": {
         "download_function": downloaders.download_deita_10k,
         "prepare_function": preparers.prepare_deita_10k,
     },
@@ -261,7 +261,7 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_bactrianx,
         "prepare_function": preparers.prepare_bactrianx,
     },
-    "WildChat":{
+    "WildChat": {
         "download_function": downloaders.download_wildchat,
         "prepare_function": preparers.prepare_wildchat,
     }
