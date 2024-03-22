@@ -46,7 +46,7 @@
     ],
     "Licenses": [
       {
-        "License": "AI2 ImpACT",
+        "License": "AI2 ImpACT License - Low Risk",
         "License URL": "https://huggingface.co/datasets/allenai/WildChat"
       },
       {
@@ -106,7 +106,7 @@
     ],
     "Licenses": [
       {
-        "License": "AI2 ImpACT",
+        "License": "AI2 ImpACT License - Low Risk",
         "License URL": "https://huggingface.co/datasets/allenai/WildChat"
       },
       {
