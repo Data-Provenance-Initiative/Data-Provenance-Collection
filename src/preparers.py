@@ -296,6 +296,17 @@ def prepare_evol_instruct(row):
     )
 
 
+def prepare_deita_10k(row):
+    messages = []
+    for i, turn in enumerate(row["conversations"]):
+        messages.append({
+            "from": "user" if turn["from"] == "human" else "assistant",
+            "text": turn["value"].strip(),
+            "parent": row["source"] if i == 0 else i-1
+        })
+    return messages
+
+
 def prepare_metamathqa(row):
     return convert_inputs_targets_to_messages(
         row["query"], row["response"], row["type"],
