@@ -104,6 +104,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_pure_dove,
         "prepare_function": preparers.prepare_pure_dove,
     },
+    "Feedback-Collection": {
+        "download_function": downloaders.download_feedback_collection,
+        "prepare_function": preparers.prepare_feedback_collection,
+    },
     "Llama2-MedTuned-Instructions": {
         "download_function": downloaders.download_llama2_med_tuned_instructions,
         "prepare_function": preparers.prepare_llama2_med_tuned_instructions,
