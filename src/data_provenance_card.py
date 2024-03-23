@@ -78,7 +78,7 @@ def generate_datacard(
                 [
                     item,
                     f"{n_dsets} ({round(100 * n_dsets / total_datasets, 2)} %)",
-                    f"{n_exs} ({round(100 * n_exs / total_exs, 2)} %)",
+                    f"{n_exs} ({round(100 * n_exs / total_exs, 2) if n_exs else 0} %)",
                 ]
             )
         # <Item>: <num_datasets> (%) | <num exs> (%)
