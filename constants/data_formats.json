@@ -2,6 +2,8 @@
     "Zero-shot",
     "Few-shot",
     "Chain-of-Thought",
+    "Program-of-Thought",
     "Multi-turn Dialog",
+    "Program of Thoughts",
     "Response Ranking"
 ]
