@@ -1,7 +1,7 @@
 {
-    "coig-kun": {
-        "Unique Dataset Identifier": "coig-kun",
-        "Dataset Name": "COIG-Kun",
+    "coig-kun-skypile": {
+        "Unique Dataset Identifier": "coig-kun-skypile",
+        "Dataset Name": "COIG-Kun-skypile",
         "Paper Title": "Kun: Answer Polishment Saves Your Time for Using Intruction Backtranslation on Self-Alignment",
         "Dataset URL": "https://github.com/Zheng0428/COIG-Kun",
         "GitHub URL": "https://github.com/Zheng0428/COIG-Kun",
@@ -24,8 +24,100 @@
         ],
         "Human Annotation": "No",
         "Derived from Datasets": [
-            "skypile",
-            "wanjuan",
+            "skypile"
+        ],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://github.com/Zheng0428/COIG-Kun/blob/master/LICENSE"
+            },
+            {
+                "License": "Skywork Community License",
+                "License URL": "https://github.com/SkyworkAI/Skywork/blob/main/Skywork%20Community%20License.pdf"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-kun-skypile"
+        ]
+    },
+    "coig-kun-wanjuan": {
+        "Unique Dataset Identifier": "coig-kun-wanjuan",
+        "Dataset Name": "COIG-Kun-wanjuan",
+        "Paper Title": "Kun: Answer Polishment Saves Your Time for Using Intruction Backtranslation on Self-Alignment",
+        "Dataset URL": "https://github.com/Zheng0428/COIG-Kun",
+        "GitHub URL": "https://github.com/Zheng0428/COIG-Kun",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-Kun",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "COIG-Kun",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-Kun",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Sources": [],
+        "Model Generated": ["m-a-p/Kun-LabelModel", "01-ai/Yi-34B-Chat"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "wanjuan"
+        ],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://github.com/Zheng0428/COIG-Kun/blob/master/LICENSE"
+            },
+            {
+                "License": "CC-BY-4.0",
+                "License URL": "https://creativecommons.org/licenses/by/4.0"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-kun-wanjuan"
+        ]
+    },
+    "coig-kun-wudao": {
+        "Unique Dataset Identifier": "coig-kun-wudao",
+        "Dataset Name": "COIG-Kun-wudao",
+        "Paper Title": "Kun: Answer Polishment Saves Your Time for Using Intruction Backtranslation on Self-Alignment",
+        "Dataset URL": "https://github.com/Zheng0428/COIG-Kun",
+        "GitHub URL": "https://github.com/Zheng0428/COIG-Kun",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-Kun",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "COIG-Kun",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-Kun",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Sources": [],
+        "Model Generated": ["m-a-p/Kun-LabelModel", "01-ai/Yi-34B-Chat"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
             "wudao"
         ],
         "Creators": [
@@ -41,7 +133,7 @@
         "License Notes": "",
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
-            "coig-kun"
+            "coig-kun-wudao"
         ]
     }
 }
