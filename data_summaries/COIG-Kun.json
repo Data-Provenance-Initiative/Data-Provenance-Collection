@@ -40,7 +40,7 @@
                 "License URL": "https://github.com/SkyworkAI/Skywork/blob/main/Skywork%20Community%20License.pdf"
             }
         ],
-        "License Notes": "",
+        "License Notes": "Skywork Community License is defined by the SkyworkAI.",
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-kun-skypile"
@@ -83,7 +83,7 @@
                 "License URL": "https://github.com/Zheng0428/COIG-Kun/blob/master/LICENSE"
             },
             {
-                "License": "CC-BY-4.0",
+                "License": "CC BY 4.0",
                 "License URL": "https://creativecommons.org/licenses/by/4.0"
             }
         ],
