@@ -1,7 +1,7 @@
 {
     "coig-cqia": {
         "Unique Dataset Identifier": "coig-cqia",
-        "Dataset Name": "COIG Quality is All You Need",
+        "Dataset Name": "COIG-CQIA",
         "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
         "Dataset URL": "https://github.com/paralym/COIG-CQIA",
         "GitHub URL": "https://github.com/paralym/COIG-CQIA",
