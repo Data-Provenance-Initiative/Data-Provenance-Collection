@@ -101,7 +101,7 @@
         "GitHub URL": "https://github.com/Zheng0428/COIG-Kun",
         "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-Kun",
         "Papers with Code URL": "",
-        "ArXiv URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2401.06477",
         "Semantic Scholar Corpus ID": "",
         "Collection": "COIG-Kun",
         "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-Kun",
@@ -127,7 +127,7 @@
         "Licenses": [
             {
                 "License": "Apache License 2.0",
-                "License URL": "https://github.com/Zheng0428/COIG-Kun/blob/master/LICENSE"
+                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
             }
         ],
         "License Notes": "",
