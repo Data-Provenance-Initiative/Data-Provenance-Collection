@@ -198,7 +198,7 @@
     },
     "coig-leetcode": {
         "Unique Dataset Identifier": "coig-leetcode",
-        "Dataset Name": "COIG Counterfactual Correction Multi-round Chat",
+        "Dataset Name": "COIG LeetCode",
         "Paper Title": "Chinese Open Instruction Generalist: A Preliminary Release",
         "Dataset URL": "https://github.com/BAAI-Zlab/COIG",
         "GitHub URL": "https://github.com/BAAI-Zlab/COIG",
