@@ -54,6 +54,10 @@
       {
         "License": "CC BY 4.0",
         "License URL": "https://ai4bharat.github.io/airavata/"
+      },
+      {
+        "License": "MIT License",
+        "License URL": "https://github.com/AI4Bharat/IndicTrans2/blob/main/LICENSE"
       }
     ],
     "License Notes": "They utilized a variety of existing datasets, adopting diverse licenses in accordance with the licenses of the source datasets.",
@@ -120,6 +124,10 @@
       {
         "License": "CC BY-SA 3.0",
         "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k"
+      },
+      {
+        "License": "MIT License",
+        "License URL": "https://github.com/AI4Bharat/IndicTrans2/blob/main/LICENSE"
       }
     ],
     "License Notes": "They utilized a variety of existing datasets, adopting diverse licenses in accordance with the licenses of the source datasets.",
@@ -156,7 +164,9 @@
       "Translation",
       "Information Extraction"
     ],
-    "Text Sources": [],
+    "Text Sources": [
+      "Flan v2"
+    ],
     "Model Generated": [
       "IndicTrans2"
     ],
@@ -182,6 +192,14 @@
       {
         "License": "Apache License 2.0",
         "License URL": "https://github.com/google-research/FLAN/blob/main/LICENSE"
+      },
+      {
+        "License": "MIT License",
+        "License URL": "https://github.com/AI4Bharat/IndicTrans2/blob/main/LICENSE"
+      },
+      {
+        "License": "Various",
+        "License URL": "https://github.com/google-research/FLAN/tree/main/flan/v2"
       }
     ],
     "License Notes": "They utilized a variety of existing datasets, adopting diverse licenses in accordance with the licenses of the source datasets.",
@@ -237,6 +255,10 @@
       {
         "License": "MIT License",
         "License URL": "https://huggingface.co/datasets/Anthropic/hh-rlhf"
+      },
+      {
+        "License": "MIT License",
+        "License URL": "https://github.com/AI4Bharat/IndicTrans2/blob/main/LICENSE"
       }
     ],
     "License Notes": "They utilized a variety of existing datasets, adopting diverse licenses in accordance with the licenses of the source datasets.",
@@ -301,6 +323,10 @@
       {
         "License": "LMSYS-Chat-1M",
         "License URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m#lmsys-chat-1m-dataset-license-agreement"
+      },
+      {
+        "License": "MIT License",
+        "License URL": "https://github.com/AI4Bharat/IndicTrans2/blob/main/LICENSE"
       }
     ],
     "License Notes": "They utilized a variety of existing datasets, adopting diverse licenses in accordance with the licenses of the source datasets.",
@@ -354,6 +380,10 @@
       {
         "License": "CC BY 4.0",
         "License URL": "https://ai4bharat.github.io/airavata/"
+      },
+      {
+        "License": "MIT License",
+        "License URL": "https://github.com/AI4Bharat/IndicTrans2/blob/main/LICENSE"
       }
     ],
     "License Notes": "They utilized a variety of existing datasets, adopting diverse licenses in accordance with the licenses of the source datasets.",
@@ -392,7 +422,9 @@
       "Translation",
       "Information Extraction"
     ],
-    "Text Sources": [],
+    "Text Sources": [
+      "crowdsourced"
+    ],
     "Model Generated": [
       "IndicTrans2"
     ],
@@ -418,6 +450,10 @@
       {
         "License": "Apache License 2.0",
         "License URL": "https://github.com/google-research/FLAN/blob/main/LICENSE"
+      },
+      {
+        "License": "MIT License",
+        "License URL": "https://github.com/AI4Bharat/IndicTrans2/blob/main/LICENSE"
       }
     ],
     "License Notes": "They utilized a variety of existing datasets, adopting diverse licenses in accordance with the licenses of the source datasets.",
@@ -448,7 +484,9 @@
       "Open-Ended Question Answering",
       "Open-Domain Question Answering"
     ],
-    "Text Sources": [],
+    "Text Sources": [
+      "wikihow"
+    ],
     "Model Generated": [
       "IndicTrans2"
     ],
@@ -472,6 +510,10 @@
       {
         "License": "CC0 1.0",
         "License URL": "https://ai4bharat.github.io/airavata/"
+      },
+      {
+        "License": "MIT License",
+        "License URL": "https://github.com/AI4Bharat/IndicTrans2/blob/main/LICENSE"
       }
     ],
     "License Notes": "They utilized a variety of existing datasets, adopting diverse licenses in accordance with the licenses of the source datasets.",
