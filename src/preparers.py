@@ -597,9 +597,10 @@ def prepare_agentinstruct(row):
             })
     return messages
 
-import pdb
 def prepare_indic_instruct(row):
-    #pdb.set_trace()
+    ''' This dataset conatins lots of other datasets, each having their own format. A different prepare method is needed for each sub-dataset 
+    Some datasets such as 'hh-rlhf', 'lm_sys', 'oasst1' have same forrmat and thus they have the prepare method below
+    '''
     if row['dataset'] == 'anudesh' : 
         return convert_inputs_targets_to_messages(
             row['messages'][0]['content'], row['messages'][1]['content'], row['dataset']
@@ -627,29 +628,11 @@ def prepare_indic_instruct(row):
             })
         return messages
 
-    #if row['dataset'] == 'lm_sys' : 
-    #    messages = []
-    #    for i, turn in enumerate(row['messages']):
-    #        messages.append({
-    #            "from": turn["role"],
-    #            "text": turn["content"].strip(),
-    #            "parent": row['id'] + '_' + str(i),
-    #        })
-    #    return messages
-
     if row['dataset'] == 'nmt-seed' : 
         return convert_inputs_targets_to_messages(
             row["input_text"], row["output_text"], row['dataset']
         )
-    #if row['dataset'] == 'oasst1' : 
-    #    messages = []
-    #    for i, turn in enumerate(row['messages']):
-    #        messages.append({
-    #            "from": turn["role"],
-    #            "text": turn["content"].strip(),
-    #            "parent": row['id'] + '_' + str(i),
-    #        })
-    #    return messages
+
     if row['dataset'] == 'wikihow' : 
         input_text = row["intro"]
         for i, turn in enumerate(row["steps"]) : 
