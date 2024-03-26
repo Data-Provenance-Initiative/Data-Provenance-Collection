@@ -1,7 +1,7 @@
 {
-    "coig-cqia": {
-        "Unique Dataset Identifier": "coig-cqia",
-        "Dataset Name": "COIG-CQIA",
+    "coig-cqia-chinese-traditional": {
+        "Unique Dataset Identifier": "coig-cqia-chinese-traditional",
+        "Dataset Name": "COIG-CQIA Chinese Traditional",
         "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
         "Dataset URL": "https://github.com/paralym/COIG-CQIA",
         "GitHub URL": "https://github.com/paralym/COIG-CQIA",
@@ -15,19 +15,25 @@
             "Chinese"
         ],
         "Task Categories": [
-            "Question Answering"
+            "Question Answering",
+            "Multiple Choice Question Answering",
+            "Sentence Completion",
+            "Basic Instruct",
+            "Sentence Completion",
+            "Translation"
         ],
-        "Text Sources": [],
-        "Model Generated": ["m-a-p/Kun-LabelModel", "01-ai/Yi-34B-Chat"],
+        "Text Sources": [
+            "https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M"
+        ],
+        "Model Generated": [
+            "m-a-p/Kun-LabelModel",
+            "01-ai/Yi-34B-Chat"
+        ],
         "Format": [
             "Zero-shot"
         ],
         "Human Annotation": "Yes",
         "Derived from Datasets": [
-            "coig-translated-instruction",
-            "coig-exam-instruction",
-            "coig-alignment-instruction",
-            "cavalues",
             "firefly"
         ],
         "Creators": [
@@ -44,7 +50,601 @@
         "License Notes": "",
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
-            "coig-cqia"
+            "coig-cqia-chinese-traditional"
+        ]
+    },
+    "coig-cqia-coig-pc": {
+        "Unique Dataset Identifier": "coig-cqia-coig-pc",
+        "Dataset Name": "COIG-CQIA COIG-PC",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "https://huggingface.co/datasets/BAAI/COIG-PC-core"
+        ],
+        "Model Generated": [
+            "m-a-p/Kun-LabelModel",
+            "01-ai/Yi-34B-Chat"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "COIG-PC-core"
+        ],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-coig-pc"
+        ]
+    },
+    "coig-cqia-douban": {
+        "Unique Dataset Identifier": "coig-cqia-douban",
+        "Dataset Name": "COIG-CQIA Douban",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Basic Instruct",
+            "Creative Writing"
+        ],
+        "Text Sources": [
+            "https://www.douban.com/"
+        ],
+        "Model Generated": [
+            "m-a-p/Kun-LabelModel",
+            "01-ai/Yi-34B-Chat"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            },
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-douban"
+        ]
+    },
+    "coig-cqia-exam": {
+        "Unique Dataset Identifier": "coig-cqia-exam",
+        "Dataset Name": "COIG-CQIA Exam",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Multiple Choice Question Answering",
+            "Commonsense Reasoning"
+        ],
+        "Text Sources": [
+            "https://huggingface.co/datasets/BAAI/COIG"
+        ],
+        "Model Generated": [
+            "m-a-p/Kun-LabelModel",
+            "01-ai/Yi-34B-Chat"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "coig-exam-instruction"
+        ],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-exam"
+        ]
+    },
+    "coig-cqia-finance": {
+        "Unique Dataset Identifier": "coig-cqia-finance",
+        "Dataset Name": "COIG-CQIA Finance",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Open-form Text Generation",
+            "Data to Text",
+            "Basic Instruct"
+        ],
+        "Text Sources": [
+            "https://wiki.mbalib.com/wiki/%E9%A6%96%E9%A1%B5",
+            "https://huggingface.co/datasets/BAAI/COIG-PC"
+        ],
+        "Model Generated": [
+            "m-a-p/Kun-LabelModel",
+            "01-ai/Yi-34B-Chat"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "COIG-PC"
+        ],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-finance"
+        ]
+    },
+    "coig-cqia-human-value": {
+        "Unique Dataset Identifier": "coig-cqia-human-value",
+        "Dataset Name": "COIG-CQIA Human Value",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Argumentative Question Answering",
+            "Multiple Choice Question Answering"
+        ],
+        "Text Sources": [
+            "https://modelscope.cn/datasets/damo/100PoisonMpts/summary",
+            "https://huggingface.co/datasets/BAAI/COIG"
+        ],
+        "Model Generated": [
+            "m-a-p/Kun-LabelModel",
+            "01-ai/Yi-34B-Chat"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "100PoisonMpts",
+            "COIG-PC"
+        ],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-human-value"
+        ]
+    },
+    "coig-cqia-logi-qa": {
+        "Unique Dataset Identifier": "coig-cqia-logi-qa",
+        "Dataset Name": "COIG-CQIA Logical QA",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Logical Reasoning Question Answering",
+            "Numerical Data Aggregation and Analysis"
+        ],
+        "Text Sources": [],
+        "Model Generated": [
+            "m-a-p/Kun-LabelModel",
+            "01-ai/Yi-34B-Chat"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-logi-qa"
+        ]
+    },
+    "coig-cqia-ruozhiba": {
+        "Unique Dataset Identifier": "coig-cqia-ruozhiba",
+        "Dataset Name": "COIG-CQIA Ruozhiba",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Argumentative Question Answering",
+            "Metaphor Explanation Question Answering"
+        ],
+        "Text Sources": [],
+        "Model Generated": [
+            "m-a-p/Kun-LabelModel",
+            "01-ai/Yi-34B-Chat"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-ruozhiba"
+        ]
+    },
+    "coig-cqia-segmentfault": {
+        "Unique Dataset Identifier": "coig-cqia-segmentfault",
+        "Dataset Name": "COIG-CQIA Segmentfault",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Basic Instruct",
+            "Code Generation",
+            "Code Summarization"
+        ],
+        "Text Sources": [
+            "https://segmentfault.com/"
+        ],
+        "Model Generated": [
+            "m-a-p/Kun-LabelModel",
+            "01-ai/Yi-34B-Chat"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-segmentfault"
+        ]
+    },
+    "coig-cqia-wiki": {
+        "Unique Dataset Identifier": "coig-cqia-wiki",
+        "Dataset Name": "COIG-CQIA WIKI",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Word Semantics"
+        ],
+        "Text Sources": [
+            "https://10why.net/",
+            "https://www.eetree.cn/wiki/eebaike",
+            "https://www.nongyie.com/",
+            "https://www.gkket.com/gkwk/",
+            "https://www.zgbk.com/"
+        ],
+        "Model Generated": [
+            "m-a-p/Kun-LabelModel",
+            "01-ai/Yi-34B-Chat"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-wiki"
+        ]
+    },
+    "coig-cqia-wikihow": {
+        "Unique Dataset Identifier": "coig-cqia-wikihow",
+        "Dataset Name": "COIG-CQIA Wikihow",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "https://zh.wikihow.com/%E9%A6%96%E9%A1%B5",
+            "https://github.com/esbatmop/MNBVC/tree/main"
+        ],
+        "Model Generated": [
+            "m-a-p/Kun-LabelModel",
+            "01-ai/Yi-34B-Chat"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-wikihow"
+        ]
+    },
+    "coig-cqia-xhs": {
+        "Unique Dataset Identifier": "coig-cqia-xhs",
+        "Dataset Name": "COIG-CQIA XHS",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Basic Instruct",
+            "Creative Writing"
+        ],
+        "Text Sources": [
+            "https://www.xiaohongshu.com/explore"
+        ],
+        "Model Generated": [
+            "m-a-p/Kun-LabelModel",
+            "01-ai/Yi-34B-Chat"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-xhs"
+        ]
+    },
+    "coig-cqia-zhihu": {
+        "Unique Dataset Identifier": "coig-cqia-zhihu",
+        "Dataset Name": "COIG-CQIA Zhihu",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Basic Instruct",
+            "Creative Writing"
+        ],
+        "Text Sources": [
+            "https://www.zhihu.com/"
+        ],
+        "Model Generated": [
+            "m-a-p/Kun-LabelModel",
+            "01-ai/Yi-34B-Chat"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-zhihu"
         ]
     }
 }
