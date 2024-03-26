@@ -36,6 +36,7 @@
         "Czech Technical University",
         "DAMO Academy Alibaba Group",
         "DFKI GmBH",
+        "Dartmouth University",
         "Data Science Institute",
         "Dublin City University",
         "EPFL",
@@ -318,9 +319,11 @@
         "WeChat AI",
         "Wind Information Co.",
         "Yahoo! Inc.",
-        "Zhihu Inc"
+        "Zhihu Inc",
+        "01.ai"
     ],
     "Industry Lab": [
+        "Beijing Academy of Artificial Intelligence",
         "Chinese Academy of Sciences",
         "DeepMind",
         "Facebook AI Research",
@@ -338,6 +341,7 @@
         "Saama AI Research Chennai",
         "Salesforce Research",
         "Samsung R&D Institute",
+        "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences",
         "Tencent AI Lab",
         "iFLYTEK Research"
     ],
@@ -384,7 +388,8 @@
         "The Institute for Human & Machine Cognition",
         "U.S. Army Research Laboratory",
         "Vietnam Institute of Information Technology",
-        "pyThaiNLP"
+        "pyThaiNLP",
+        "Multimodal Art Projection (M-A-P)"
     ],
     "Startup": [
         "AI4Bharat",

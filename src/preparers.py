@@ -631,6 +631,41 @@ def prepare_open_orca(row):
         {"from": "assistant", "text": outputs.strip(), "parent": 0},
     ]
 
+def prepare_coig(row):
+    messages = []
+    parent = row['source']
+    parent_id = -1
+    for i, turn in enumerate(row['conversations']):
+        human_turn_item = {
+            "from": "user",
+            "text": row['instruction']+ turn['question'] if parent_id == -1 else turn['question'],
+            "parent": parent if parent_id == -1 else parent_id,
+        }
+        messages.append(human_turn_item)
+        parent_id += 1
+        agent_turn_item = {
+            "from": "assistant",
+            "text": turn['answer'],
+            "parent": parent_id,
+        }
+        messages.append(agent_turn_item)
+        parent_id += 1
+    return messages
+
+def prepare_coig_kun(row):
+    inputs = row['instruction']
+    outputs = row['output']
+    return [
+        {"from": "user", "text": inputs, "parent": row['_source']},
+        {"from": "assistant", "text": outputs, "parent": 0},
+    ]
+
+def prepare_coig_cqia(row):
+    inputs = "".join([row['instruction'] + row['input']])
+    outputs = row['output']
+    return [
+        {"from": "user", "text": inputs, "parent": row['_source']},
+
 def prepare_pmc_llama(row):
     inputs = "".join([row['instruction'] + row['input']])
     return convert_inputs_targets_to_messages(

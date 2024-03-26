@@ -30,6 +30,10 @@
         "T5",
         "T5-XXL",
         "XLNet",
+        "wikisql",
+        "DeepL",
+        "m-a-p/Kun-LabelModel",
+        "01-ai/Yi-34B-Chat"
         "XLM",
         "wikisql",
         "WMT"
