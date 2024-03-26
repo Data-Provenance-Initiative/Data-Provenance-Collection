@@ -231,7 +231,6 @@ def test_outputs(collection, collection_info, error_handler):
             error_handler.handle(f"{uid} there does not appear to be a response to the original input in this dialog.")
             return
 
-
     #  Check number of examples and text statistics
     # if not config["Text Metrics"]["Num Dialogs"] or len(output) != cconfig["Text Metrics"]["Num Dialogs"]:
     #     error_handler.handle("Error: Number of examples does not match the number specified in the json config")
