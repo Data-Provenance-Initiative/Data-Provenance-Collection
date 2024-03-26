@@ -45,18 +45,31 @@
         ],
         "Text Sources": [],
         "Model Generated": [
-            "OpenAI GPT-4"
+            "OpenAI GPT-4",
+            "Google Cloud Translation API"
         ],
         "Format": [
             "Zero-shot"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": [],
+        "Derived from Datasets": ["GPTeacher"],
         "Creators": [],
         "Licenses": [
             {
                 "License": "CC BY-SA 3.0",
                 "License URL": "https://huggingface.co/datasets/Thaweewat/gpteacher-20k-th"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://github.com/teknium1/GPTeacher"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/teknium1/GPTeacher/blob/main/LICENSE"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
             }
         ],
         "License Notes": "",
