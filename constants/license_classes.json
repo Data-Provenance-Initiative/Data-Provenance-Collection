@@ -1,197 +1,200 @@
 {
-    "Academic Free License v3.0": [
-        "0",
-        "1",
-        "All"
-    ],
-    "Academic Research Purposes Only": [
-        "1",
-        "1",
-        "Acad"
-    ],
-    "All Uses-Attribution": [
-        "0",
-        "1",
-        "All"
-    ],
-    "Apache License 2.0": [
-        "0",
-        "1",
-        "All"
-    ],
-    "Artistic License 2.0": [
-        "0",
-        "1",
-        "All"
-    ],
-    "BSD 2-Clause License": [
-        "0",
-        "1",
-        "All"
-    ],
-    "BSD 3-Clause License": [
-        "0",
-        "1",
-        "All"
-    ],
-    "BigScience OpenRAIL-M": [
-        "1",
-        "1",
-        "All"
-    ],
-    "C-UDA": [
-        "1",
-        "1",
-        "All"
-    ],
-    "CC BY 2.5": [
-        "0",
-        "1",
-        "All"
-    ],
-    "CC BY 3.0": [
-        "0",
-        "1",
-        "All"
-    ],
-    "CC BY 4.0": [
-        "0",
-        "1",
-        "All"
-    ],
-    "CC BY-NC 2.0": [
-        "0",
-        "1",
-        "NC"
-    ],
-    "CC BY-NC 3.0": [
-        "0",
-        "1",
-        "NC"
-    ],
-    "CC BY-NC 4.0": [
-        "0",
-        "1",
-        "NC"
-    ],
-    "CC BY-NC-ND 4.0": [
-        "0",
-        "1",
-        "NC"
-    ],
-    "CC BY-NC-SA 3.0": [
-        "1",
-        "1",
-        "NC"
-    ],
-    "CC BY-NC-SA 4.0": [
-        "1",
-        "1",
-        "NC"
-    ],
-    "CC BY-SA 3.0": [
-        "1",
-        "1",
-        "All"
-    ],
-    "CC BY-SA 4.0": [
-        "1",
-        "1",
-        "All"
-    ],
-    "CC0 1.0": [
-        "0",
-        "0",
-        "All"
-    ],
-    "CDLA Permissive 2.0": [
-        "0",
-        "1",
-        "All"
-    ],
-    "CDLA Sharing 1.0": [
-        "1",
-        "1",
-        "All"
-    ],
-    "EPL 1.0": [
-        "0",
-        "1",
-        "All"
-    ],
-    "GNU General Public License v3.0": [
-        "1",
-        "1",
-        "All"
-    ],
-    "ISC License": [
-        "0",
-        "1",
-        "All"
-    ],
-    "LGPL 2.1": [
-        "0",
-        "1",
-        "All"
-    ],
-    "LGPL 3.0": [
-        "0",
-        "1",
-        "All"
-    ],
-    "MIT License": [
-        "0",
-        "1",
-        "All"
-    ],
-    "MPL 2.0": [
-        "0",
-        "1",
-        "All"
-    ],
-    "Microsoft Data Licensing Agreement": [
-        "1",
-        "1",
-        "Acad"
-    ],
-    "No License": [
-        "0",
-        "0",
-        "All"
-    ],
-    "Non Commercial": [
-        "0",
-        "0",
-        "NC"
-    ],
-    "OANC": [
-        "0",
-        "1",
-        "All"
-    ],
-    "OpenAI": [
-        "?",
-        "?",
-        "NC"
-    ],
-    "Google Cloud Translation API": [
-        "?",
-        "?",
-        "NC"
-    ],
-    "Request Form": [
-        "?",
-        "?",
-        "Acad"
-    ],
-    "Unspecified": [
-        "0",
-        "0",
-        "Unspecified"
-    ],
-    "Various": [
-        "?",
-        "?",
-        "Acad"
-    ]
+  "Academic Free License v3.0": [
+    "0",
+    "1",
+    "All"
+  ],
+  "Academic Research Purposes Only": [
+    "1",
+    "1",
+    "Acad"
+  ],
+  "All Uses-Attribution": [
+    "0",
+    "1",
+    "All"
+  ],
+  "Apache License 2.0": [
+    "0",
+    "1",
+    "All"
+  ],
+  "Artistic License 2.0": [
+    "0",
+    "1",
+    "All"
+  ],
+  "BSD 2-Clause License": [
+    "0",
+    "1",
+    "All"
+  ],
+  "BSD 3-Clause License": [
+    "0",
+    "1",
+    "All"
+  ],
+  "BigScience OpenRAIL-M": [
+    "1",
+    "1",
+    "All"
+  ],
+  "C-UDA": [
+    "1",
+    "1",
+    "All"
+  ],
+  "CC BY 2.5": [
+    "0",
+    "1",
+    "All"
+  ],
+  "CC BY 3.0": [
+    "0",
+    "1",
+    "All"
+  ],
+  "CC BY 4.0": [
+    "0",
+    "1",
+    "All"
+  ],
+  "CC BY-NC 2.0": [
+    "0",
+    "1",
+    "NC"
+  ],
+  "CC BY-NC 3.0": [
+    "0",
+    "1",
+    "NC"
+  ],
+  "CC BY-NC 4.0": [
+    "0",
+    "1",
+    "NC"
+  ],
+  "CC BY-NC-ND 4.0": [
+    "0",
+    "1",
+    "NC"
+  ],
+  "CC BY-NC-SA 3.0": [
+    "1",
+    "1",
+    "NC"
+  ],
+  "CC BY-NC-SA 4.0": [
+    "1",
+    "1",
+    "NC"
+  ],
+  "CC BY-SA 3.0": [
+    "1",
+    "1",
+    "All"
+  ],
+  "CC BY-SA 4.0": [
+    "1",
+    "1",
+    "All"
+  ],
+  "CC0 1.0": [
+    "0",
+    "0",
+    "All"
+  ],
+  "CDLA Permissive 2.0": [
+    "0",
+    "1",
+    "All"
+  ],
+  "CDLA Sharing 1.0": [
+    "1",
+    "1",
+    "All"
+  ],
+  "EPL 1.0": [
+    "0",
+    "1",
+    "All"
+  ],
+  "GNU General Public License v3.0": [
+    "1",
+    "1",
+    "All"
+  ],
+  "ISC License": [
+    "0",
+    "1",
+    "All"
+  ],
+  "LGPL 2.1": [
+    "0",
+    "1",
+    "All"
+  ],
+  "LGPL 3.0": [
+    "0",
+    "1",
+    "All"
+  ],
+  "MIT License": [
+    "0",
+    "1",
+    "All"
+  ],
+  "MPL 2.0": [
+    "0",
+    "1",
+    "All"
+  ],
+  "Microsoft Data Licensing Agreement": [
+    "1",
+    "1",
+    "Acad"
+  ],
+  "No License": [
+    "0",
+    "0",
+    "All"
+  ],
+  "Non Commercial": [
+    "0",
+    "0",
+    "NC"
+  ],
+  "OANC": [
+    "0",
+    "1",
+    "All"
+  ],
+  "OpenAI": [
+    "?",
+    "?",
+    "NC"
+  ],
+  "Google Cloud Translation API": [
+    "?",
+    "?",
+    "NC"
+  ],
+  "Request Form": [
+    "?",
+    "?",
+    "Acad"
+  ],
+  "Unspecified": [
+    "0",
+    "0",
+    "Unspecified"
+  ],
+  "Various": [
+    "?",
+    "?",
+    "Acad"
+  ],
+  "LMSYS-Chat-1M": [
+    "0"
+  ]
 }
