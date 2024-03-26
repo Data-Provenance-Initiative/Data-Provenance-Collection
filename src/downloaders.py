@@ -766,6 +766,15 @@ def download_coig_kun(accepted_filter_ids):
     return dset
 
 def download_coig_cqia(accepted_filter_ids):
-    dset = huggingface_download('m-a-p/COIG-CQIA', split='train')
-    dset = annotate_source(dset, "COIG-CQIA")
+    if accepted_filter_ids is None:
+        accepted_filter_ids = [
+            "coig-cqia-chinese-traditional", "coig-cqia-coig-pc", "coig-cqia-douban", "coig-cqia-exam",
+            "coig-cqia-finance",  "coig-cqia-human-value", "coig-cqia-logi-qa",  "coig-cqia-ruozhiba",
+            "coig-cqia-segmentfault",  "coig-cqia-wiki", "coig-cqia-wikihow", "coig-cqia-xhs",  "coig-cqia-zhihu"]
+    dset = []
+    for split in accepted_filter_ids:
+        id = split.replace('coig-cqia-','').replace('-','_')
+        dset_tmp = load_dataset('m-a-p/COIG-CQIA', id)['train']
+        dset_tmp = annotate_source(dset_tmp.to_list(), split)
+        dset = dset  + dset_tmp
     return dset
