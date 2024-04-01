@@ -11,6 +11,7 @@ from ast import literal_eval
 import pandas as pd
 import typing
 from collections import defaultdict
+from semanticscholar import SemanticScholar
 
 
 #############################################################################
@@ -127,3 +128,9 @@ def read_all_constants():
         "TOPICS": topic_groups,
         "DOMAIN_GROUPS": domain_groups,
     }
+
+
+def get_bibtex_from_paper(paper: str):
+    sch = SemanticScholar(timeout=50)
+    result = sch.get_paper(paper)
+    return result.citationStyles["bibtex"]
