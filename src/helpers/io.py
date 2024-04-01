@@ -133,4 +133,5 @@ def read_all_constants():
 def get_bibtex_from_paper(paper: str):
     sch = SemanticScholar(timeout=50)
     result = sch.get_paper(paper)
-    return result.citationStyles["bibtex"]
+    bibtex = result.citationStyles.get("bibtex", None)
+    return bibtex
