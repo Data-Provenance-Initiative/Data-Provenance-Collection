@@ -1,0 +1,357 @@
+{
+    "pmc-llama-liveqa": {
+        "Unique Dataset Identifier": "pmc-llama-liveqa",
+        "Dataset Name": "liveqa",
+        "Paper Title": "PMC-LLaMA: Towards Building Open-source Language Models for Medicine",
+        "Dataset URL": "https://huggingface.co/datasets/axiong/pmc_llama_instructions",
+        "GitHub URL": "https://github.com/chaoyi-wu/PMC-LLaMA",
+        "Hugging Face URL": "https://huggingface.co/datasets/axiong/pmc_llama_instructions",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.14454",
+        "Semantic Scholar Corpus ID": 258417843,
+        "Collection": "PMC-LLaMA Instructions",
+        "Collection URL": "https://github.com/chaoyi-wu/PMC-LLaMA",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Question Answering"
+        ],
+        "Text Sources": [
+            "National Library of Medicine (NLM)",
+            "pubmed",
+            "web"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "LiveQA"
+        ],
+        "Creators": [
+            "Shanghai Jiao Tong University"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/chaoyi-wu/PMC-LLaMA"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "liveqa"
+        ]
+    },
+    "pmc-llama-medicationqa": {
+        "Unique Dataset Identifier": "pmc-llama-medicationqa",
+        "Dataset Name": "medicationqa",
+        "Paper Title": "PMC-LLaMA: Towards Building Open-source Language Models for Medicine",
+        "Dataset URL": "https://huggingface.co/datasets/axiong/pmc_llama_instructions",
+        "GitHub URL": "https://github.com/chaoyi-wu/PMC-LLaMA",
+        "Hugging Face URL": "https://huggingface.co/datasets/axiong/pmc_llama_instructions",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.14454",
+        "Semantic Scholar Corpus ID": 258417843,
+        "Collection": "PMC-LLaMA Instructions",
+        "Collection URL": "https://github.com/chaoyi-wu/PMC-LLaMA",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Question Answering"
+        ],
+        "Text Sources": [
+            "medlineplus.gov",
+            "DailyMed",
+            "web"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "MedicationQA"
+        ],
+        "Creators": [
+            "Shanghai Jiao Tong University"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/chaoyi-wu/PMC-LLaMA"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "medicationqa"
+        ]
+    },
+    "pmc-llama-medmcqa": {
+        "Unique Dataset Identifier": "pmc-llama-medmcqa",
+        "Dataset Name": "medmcqa",
+        "Paper Title": "PMC-LLaMA: Towards Building Open-source Language Models for Medicine",
+        "Dataset URL": "https://huggingface.co/datasets/axiong/pmc_llama_instructions",
+        "GitHub URL": "https://github.com/chaoyi-wu/PMC-LLaMA",
+        "Hugging Face URL": "https://huggingface.co/datasets/axiong/pmc_llama_instructions",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.14454",
+        "Semantic Scholar Corpus ID": 258417843,
+        "Collection": "PMC-LLaMA Instructions",
+        "Collection URL": "https://github.com/chaoyi-wu/PMC-LLaMA",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Question Answering"
+        ],
+        "Text Sources": [
+            "Medical Exams"
+        ],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "MedMCQA"
+        ],
+        "Creators": [
+            "Shanghai Jiao Tong University"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/medmcqa"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.14454"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "medmcqa"
+        ]
+    },
+    "pmc-llama-medqa_train": {
+        "Unique Dataset Identifier": "pmc-llama-medqa_train",
+        "Dataset Name": "medqa_train",
+        "Paper Title": "PMC-LLaMA: Towards Building Open-source Language Models for Medicine",
+        "Dataset URL": "https://huggingface.co/datasets/axiong/pmc_llama_instructions",
+        "GitHub URL": "https://github.com/chaoyi-wu/PMC-LLaMA",
+        "Hugging Face URL": "https://huggingface.co/datasets/axiong/pmc_llama_instructions",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.14454",
+        "Semantic Scholar Corpus ID": 258417843,
+        "Collection": "PMC-LLaMA Instructions",
+        "Collection URL": "https://github.com/chaoyi-wu/PMC-LLaMA",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Question Answering"
+        ],
+        "Text Sources": [
+            "Medical Exams"
+        ],
+        "Model Generated": ["OpenAI ChatGPT"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "MedQA"
+        ],
+        "Creators": [
+            "Shanghai Jiao Tong University"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/jind11/MedQA"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.14454"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "medqa_train"
+        ]
+    },
+    "pmc-llama-pubmedqa": {
+        "Unique Dataset Identifier": "pmc-llama-pubmedqa",
+        "Dataset Name": "pubmedqa",
+        "Paper Title": "PMC-LLaMA: Towards Building Open-source Language Models for Medicine",
+        "Dataset URL": "https://github.com/pubmedqa/pubmedqa",
+        "GitHub URL": "https://github.com/chaoyi-wu/PMC-LLaMA",
+        "Hugging Face URL": "https://huggingface.co/datasets/axiong/pmc_llama_instructions",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/1909.06146",
+        "Semantic Scholar Corpus ID": 202572622,
+        "Collection": "PMC-LLaMA Instructions",
+        "Collection URL": "https://github.com/chaoyi-wu/PMC-LLaMA",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Question Answering"
+        ],
+        "Text Sources": [
+            "pubmed"
+        ],
+        "Model Generated": ["OpenAI ChatGPT"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "PubmedQA"
+        ],
+        "Creators": [
+            "Shanghai Jiao Tong University"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/pubmedqa/pubmedqa"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.14454"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "pubmedqa.ori_pqaa"
+        ]
+    },
+    "pmc-llama-umls": {
+        "Unique Dataset Identifier": "pmc-llama-umls",
+        "Dataset Name": "umls",
+        "Paper Title": "PMC-LLaMA: Towards Building Open-source Language Models for Medicine",
+        "Dataset URL": "https://huggingface.co/datasets/axiong/pmc_llama_instructions",
+        "GitHub URL": "https://github.com/chaoyi-wu/PMC-LLaMA",
+        "Hugging Face URL": "https://huggingface.co/datasets/axiong/pmc_llama_instructions",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.14454",
+        "Semantic Scholar Corpus ID": 258417843,
+        "Collection": "PMC-LLaMA Instructions",
+        "Collection URL": "https://github.com/chaoyi-wu/PMC-LLaMA",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Question Answering"
+        ],
+        "Text Sources": [
+            "National Library of Medicine (NLM)"
+        ],
+        "Model Generated": ["OpenAI ChatGPT"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "UMLS"
+        ],
+        "Creators": [
+            "Shanghai Jiao Tong University"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/chaoyi-wu/PMC-LLaMA"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.14454"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "umls"
+        ]
+    },
+    "pmc-llama-umls_relation": {
+        "Unique Dataset Identifier": "pmc-llama-umls_relation",
+        "Dataset Name": "umls_relation",
+        "Paper Title": "PMC-LLaMA: Towards Building Open-source Language Models for Medicine",
+        "Dataset URL": "https://huggingface.co/datasets/axiong/pmc_llama_instructions",
+        "GitHub URL": "https://github.com/chaoyi-wu/PMC-LLaMA",
+        "Hugging Face URL": "https://huggingface.co/datasets/axiong/pmc_llama_instructions",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.14454",
+        "Semantic Scholar Corpus ID": 258417843,
+        "Collection": "PMC-LLaMA Instructions",
+        "Collection URL": "https://github.com/chaoyi-wu/PMC-LLaMA",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Question Answering"
+        ],
+        "Text Sources": [
+            "National Library of Medicine (NLM)"
+        ],
+        "Model Generated": ["OpenAI ChatGPT"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "UMLS"
+        ],
+        "Creators": [
+            "Shanghai Jiao Tong University"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/chaoyi-wu/PMC-LLaMA"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.14454"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "umls_relation"
+        ]
+    }
+}

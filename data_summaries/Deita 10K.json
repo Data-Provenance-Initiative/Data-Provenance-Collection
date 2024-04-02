@@ -1,0 +1,131 @@
+{
+    "deita-10k-sharegpt": {
+        "Unique Dataset Identifier": "deita-10k-sharegpt",
+        "Dataset Name": "deita-10k",
+        "Paper Title": "What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning",
+        "Dataset URL": "https://huggingface.co/datasets/hkust-nlp/deita-10k-v0",
+        "GitHub URL": "https://github.com/hkust-nlp/deita",
+        "Hugging Face URL": "https://huggingface.co/datasets/hkust-nlp/deita-10k-v0",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2312.15685",
+        "Semantic Scholar Corpus ID": "266551413",
+        "Collection": "Deita 10K",
+        "Collection URL": "https://huggingface.co/collections/hkust-nlp/deita-6569c198c174808d94cf5bd4",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Essay Generation",
+            "Creative Writing",
+            "Data Analysis",
+            "Email Drafting",
+            "Dialog Generation",
+            "Creativity",
+            "Literary Analysis",
+            "Argumentative Essay Generation",
+            "Summarization",
+            "Logical Reasoning",
+            "Brainstorming",
+            "Miscellaneous"
+        ],
+        "Text Sources": [
+            "sharegpt.com",
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "OpenAI Playground"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "ShareGPT"
+        ],
+        "Creators": [
+            "Beijing University of Posts and Telecommunications",
+            "Alibaba Group",
+            "The Hong Kong University of Science and Technology",
+            "ShanghaiTech University",
+            "Meituan"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/hkust-nlp/deita-10k-v0"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://sharegpt.com/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "An",
+        "Dataset Filter IDs": [
+            "ShareGPT"
+        ]
+    },
+    "deita-10k-ultrachat": {
+        "Unique Dataset Identifier": "deita-10k-ultrachat",
+        "Dataset Name": "deita-10k",
+        "Paper Title": "What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning",
+        "Dataset URL": "https://huggingface.co/datasets/hkust-nlp/deita-10k-v0",
+        "GitHub URL": "https://github.com/hkust-nlp/deita",
+        "Hugging Face URL": "https://huggingface.co/datasets/hkust-nlp/deita-10k-v0",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2312.15685",
+        "Semantic Scholar Corpus ID": "266551413",
+        "Collection": "Deita 10K",
+        "Collection URL": "https://huggingface.co/collections/hkust-nlp/deita-6569c198c174808d94cf5bd4",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Dialogue Generation",
+            "Creative Writing",
+            "Open-form Text Generation",
+            "Brainstorming",
+            "Roleplay",
+            "Creativity",
+            "Explanation Generation"
+        ],
+        "Text Sources": [
+            "wikidata",
+            "wikipedia.org",
+            "commoncrawl.org"
+        ],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "UltraChat"
+        ],
+        "Creators": [
+            "Beijing University of Posts and Telecommunications",
+            "Alibaba Group",
+            "The Hong Kong University of Science and Technology",
+            "ShanghaiTech University",
+            "Meituan"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2009.01325"
+            },
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/thunlp/UltraChat#data"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "An",
+        "Dataset Filter IDs": [
+            "UltraChat"
+        ]
+    }
+}
