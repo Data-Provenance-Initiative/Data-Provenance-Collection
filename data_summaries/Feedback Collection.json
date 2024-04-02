@@ -1,0 +1,51 @@
+{
+    "feedback_collection": {
+        "Unique Dataset Identifier": "feedback_collection",
+        "Dataset Name": "feedback_collection",
+        "Paper Title": "Prometheus: Inducing Fine-grained Evaluation Capability in Language Models",
+        "Dataset URL": "https://huggingface.co/datasets/kaist-ai/Feedback-Collection",
+        "GitHub URL": "https://github.com/kaistAI/prometheus",
+        "Hugging Face URL": "https://huggingface.co/datasets/kaist-ai/Feedback-Collection",
+        "Papers with Code URL": "https://paperswithcode.com/paper/prometheus-inducing-fine-grained-evaluation",
+        "ArXiv URL": "https://arxiv.org/abs/2310.08491",
+        "Semantic Scholar Corpus ID": "https://www.semanticscholar.org/paper/Prometheus%3A-Inducing-Fine-grained-Evaluation-in-Kim-Shin/9ebf47129c15f61f4b77bbfe305c522480c20347",
+        "Collection": "Feedback Collection",
+        "Collection URL": "https://huggingface.co/datasets/kaist-ai/Feedback-Collection",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Long-form Response Evaluation",
+            "Text Quality Evaluation"
+        ],
+        "Text Sources": [],
+        "Model Generated": ["OpenAI GPT-4"],
+        "Format": [
+            "Zero-shot",
+            "Evaluation"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "KAIST AI",
+            "NAVER AI Lab",
+            "University of Washington",
+            "MIT"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/kaistAI/prometheus"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://github.com/kaistAI/prometheus"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Seungone Kim",
+        "Dataset Filter IDs": [
+            "feedback_collection"
+        ]
+    }
+}
