@@ -65,6 +65,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_open_assistant_octopack,
         "prepare_function": preparers.prepare_oasst_octopack,
     },
+    "Indic-Instruct": {
+        "download_function": downloaders.download_indic_instruct,
+        "prepare_function": preparers.prepare_indic_instruct,
+    },
     "OpenAI (Summarize from Feedback)": {
         "download_function": downloaders.download_openai_summarization,
         "prepare_function": preparers.prepare_openai_summarization,
