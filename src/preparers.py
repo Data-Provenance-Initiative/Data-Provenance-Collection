@@ -631,6 +631,22 @@ def prepare_open_orca(row):
         {"from": "assistant", "text": outputs.strip(), "parent": 0},
     ]
 
+
+def prepare_selfee(row):
+    outputs = row["outputs"]
+    parsed_outputs = ''
+    for index, elem in enumerate(outputs):
+        feedback = elem["feedback"]
+        output = elem["output"]
+        feedback_number = index + 1 
+        revision_number = index
+        if index != 0:
+            output = "\n\n### Revision {number}:\n{revision}".format(number=revision_number, revision=output) 
+        parsed_outputs += output + "\n\n### Feedback {number}:\n{feedback}".format(number=feedback_number, feedback=feedback)
+    return convert_inputs_targets_to_messages(
+        row['instruction'], parsed_outputs, "selfee",
+    )
+
 def prepare_pmc_llama(row):
     inputs = "".join([row['instruction'] + row['input']])
     return convert_inputs_targets_to_messages(
