@@ -238,6 +238,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_open_orca,
         "prepare_function": preparers.prepare_open_orca,
     },
+    "SelFee":{
+        "download_function": downloaders.download_selfee,
+        "prepare_function": preparers.prepare_selfee,
+    },
     "SeaBench": {
         "download_function": downloaders.download_seabench,
         "prepare_function": preparers.prepare_seabench,
