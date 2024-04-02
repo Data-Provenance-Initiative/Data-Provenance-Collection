@@ -297,9 +297,11 @@
       "Translation",
       "Information Extraction"
     ],
-    "Text Sources": [],
+    "Text Sources": ["crowdsourced"],
     "Model Generated": [
-      "IndicTrans2"
+      "IndicTrans2",
+      "OpenAI GPT-3.5-Turbo",
+      "OpenAI GPT-4"
     ],
     "Format": [
       "Zero-shot"
@@ -321,13 +323,17 @@
     ],
     "Licenses": [
       {
-        "License": "LMSYS-Chat-1M",
+        "License": "Custom",
         "License URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m#lmsys-chat-1m-dataset-license-agreement"
       },
       {
         "License": "MIT License",
         "License URL": "https://github.com/AI4Bharat/IndicTrans2/blob/main/LICENSE"
-      }
+      },
+      {
+        "License": "OpenAI",
+        "License URL": "https://arxiv.org/abs/2304.03277"
+    }
     ],
     "License Notes": "They utilized a variety of existing datasets, adopting diverse licenses in accordance with the licenses of the source datasets.",
     "License Verified By": "Vipul",
@@ -485,7 +491,7 @@
       "Open-Domain Question Answering"
     ],
     "Text Sources": [
-      "wikihow"
+      "wikihow.com"
     ],
     "Model Generated": [
       "IndicTrans2"
