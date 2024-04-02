@@ -43,12 +43,21 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_self_instruct,
         "prepare_function": preparers.prepare_self_instuct,
     },
+    "Capybara": {
+        "download_function": downloaders.download_capybara,
+        "prepare_function": preparers.prepare_capybara,
+    },
     "Stanford Human Preferences": {
         "download_function": downloaders.download_stanford_human_preferences,
         "prepare_function": preparers.prepare_stanford_human_preferences,
     },
     "Open Assistant": {
         "download_function": downloaders.download_open_assistant,
+        "prepare_function": preparers.prepare_open_assistant,
+        "custom_prepare": True,
+    },
+    "Open Assistant v2": {
+        "download_function": downloaders.download_open_assistant_v2,
         "prepare_function": preparers.prepare_open_assistant,
         "custom_prepare": True,
     },
@@ -76,6 +85,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_alpaca,
         "prepare_function": preparers.prepare_alpaca,
     },
+    "MetaMathQA": {
+        "download_function": downloaders.download_metamathqa,
+        "prepare_function": preparers.prepare_metamathqa,
+    },
     "EverythingLM": {
         "download_function": downloaders.download_everything_lm,
         "prepare_function": preparers.prepare_everything_lm,
@@ -95,6 +108,14 @@ COLLECTION_FN_MAPPER = {
     "Pure-Dove": {
         "download_function": downloaders.download_pure_dove,
         "prepare_function": preparers.prepare_pure_dove,
+    },
+    "Feedback-Collection": {
+        "download_function": downloaders.download_feedback_collection,
+        "prepare_function": preparers.prepare_feedback_collection,
+    },
+    "Llama2-MedTuned-Instructions": {
+        "download_function": downloaders.download_llama2_med_tuned_instructions,
+        "prepare_function": preparers.prepare_llama2_med_tuned_instructions,
     },
     "OIG": {
         "download_function": downloaders.download_laion_oig,
@@ -160,7 +181,7 @@ COLLECTION_FN_MAPPER = {
     "Tasksource Symbol-Tuning": {
         "download_function": downloaders.download_tasksource_symbol_tuning,
         "prepare_function": preparers.prepare_tasksource_instruct
-    },  
+    },
     "Stack Exchange Instruction": {
         "download_function": downloaders.download_stack_exchange_instruction,
         "prepare_function": preparers.prepare_stack_exchange_instruction,
@@ -169,7 +190,6 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_joke_explanation,
         "prepare_function": preparers.prepare_joke_explanation,
     },
-
     "Book Summaries": {
         "download_function": downloaders.download_book_summaries,
         "prepare_function": preparers.prepare_book_summaries,
@@ -186,6 +206,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_lima,
         "prepare_function": preparers.prepare_lima,
     },
+    "MathInstruct":{
+        "download_function": downloaders.download_mathinstruct,
+        "prepare_function": preparers.prepare_mathinstruct,
+    },
     "Tool-Llama": {
         "download_function": downloaders.download_tool_llama,
         "prepare_function": preparers.prepare_tool_llama,
@@ -198,13 +222,60 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_baize_data,
         "prepare_function": preparers.prepare_baize_data,
     },
-    
-    "Open Orca":{
+    "PMC-LLaMA Instructions": {
+        "download_function": downloaders.download_pmc_llama,
+        "prepare_function": preparers.prepare_pmc_llama,
+    },
+    "Medical Meadow": {
+        "download_function": downloaders.download_medical_meadow,
+        "prepare_function": preparers.prepare_medical_meadow,
+    },
+    "MedInstruct": {
+        "download_function": downloaders.download_medinstruct,
+        "prepare_function": preparers.prepare_medinstruct,
+    },
+    "Open Orca": {
         "download_function": downloaders.download_open_orca,
         "prepare_function": preparers.prepare_open_orca,
     },
     "SelFee":{
         "download_function": downloaders.download_selfee,
         "prepare_function": preparers.prepare_selfee,
+    },
+    "SeaBench": {
+        "download_function": downloaders.download_seabench,
+        "prepare_function": preparers.prepare_seabench,
+    },
+    "Deita 10K": {
+        "download_function": downloaders.download_deita_10k,
+        "prepare_function": preparers.prepare_deita_10k,
+    },
+    "ChatDoctor":{
+        "download_function": downloaders.download_chatdoctor,
+        "prepare_function": preparers.prepare_chatdoctor,
+    },
+    "AgentInstruct": {
+        "download_function": downloaders.download_agentinstruct,
+        "prepare_function": preparers.prepare_agentinstruct,
+    },
+    "PII-Masking-200k": {
+        "download_function": downloaders.download_pii_masking_200k,
+        "prepare_function": preparers.prepare_pii_masking_200k,
+    },
+    "No Robots": {
+        "download_function": downloaders.download_no_robots,
+        "prepare_function": preparers.prepare_no_robots,
+    },
+    "HelpSteer": {
+        "download_function": downloaders.download_help_steer,
+        "prepare_function": preparers.prepare_help_steer,
+    },
+    "Bactrian-X": {
+        "download_function": downloaders.download_bactrianx,
+        "prepare_function": preparers.prepare_bactrianx,
+    },
+    "WildChat": {
+        "download_function": downloaders.download_wildchat,
+        "prepare_function": preparers.prepare_wildchat,
     }
 }
