@@ -24,7 +24,9 @@
             "sharegpt.com",
             "chat.lmsys.org"
         ],
-        "Model Generated": ["OpenAI GPT-4"],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -140,7 +142,9 @@
             "Multi-turn Dialog"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["know_logic"],
+        "Derived from Datasets": [
+            "know_logic"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -193,13 +197,17 @@
             "Trick Question"
         ],
         "Text Sources": [],
-        "Model Generated": ["OpenAI GPT-4"],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
         "Format": [
             "Zero-shot",
             "Multi-turn Dialog"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["EverythingLM"],
+        "Derived from Datasets": [
+            "EverythingLM"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -245,7 +253,9 @@
             "Multi-turn Dialog"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["GOAT"],
+        "Derived from Datasets": [
+            "GOAT"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -299,7 +309,9 @@
             "Multi-turn Dialog"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["TaskSource"],
+        "Derived from Datasets": [
+            "TaskSource"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -340,13 +352,17 @@
             "Text Classification"
         ],
         "Text Sources": [],
-        "Model Generated": ["OpenAI GPT-4"],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
         "Format": [
             "Zero-shot",
             "Multi-turn Dialog"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["GPTeacher-General-Instruct"],
+        "Derived from Datasets": [
+            "GPTeacher-General-Instruct"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -403,12 +419,16 @@
             "Sentence Completion"
         ],
         "Text Sources": [],
-        "Model Generated": ["OpenAI GPT-4"],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
         "Format": [
             "Multi-turn Dialog"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["GPT4LLM"],
+        "Derived from Datasets": [
+            "GPT4LLM"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -454,7 +474,9 @@
             "Multi-turn Dialog"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["TheoremQA"],
+        "Derived from Datasets": [
+            "TheoremQA"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -491,13 +513,19 @@
             "Chain-of-Thought"
         ],
         "Text Sources": [],
-        "Model Generated": ["OpenAI GPT-4"],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
         "Format": [
             "Multi-turn Dialog"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["LessWrong-Amplify-Instruct"],
-        "Creators": ["Nous Research"],
+        "Derived from Datasets": [
+            "LessWrong-Amplify-Instruct"
+        ],
+        "Creators": [
+            "Nous Research"
+        ],
         "Licenses": [
             {
                 "License": "OpenAI",
@@ -545,7 +573,9 @@
             "Multi-turn Dialog"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["SuperCOT"],
+        "Derived from Datasets": [
+            "SuperCOT"
+        ],
         "Creators": [],
         "Licenses": [
             {

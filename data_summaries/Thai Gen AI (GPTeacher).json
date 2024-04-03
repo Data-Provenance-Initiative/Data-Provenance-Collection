@@ -52,7 +52,9 @@
             "Zero-shot"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["GPTeacher"],
+        "Derived from Datasets": [
+            "GPTeacher"
+        ],
         "Creators": [],
         "Licenses": [
             {

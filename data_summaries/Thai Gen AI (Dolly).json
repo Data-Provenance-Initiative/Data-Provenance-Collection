@@ -23,7 +23,9 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": ["Google Cloud Translation API"],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -45,7 +47,9 @@
             "open_qa",
             "general_qa"
         ],
-        "Derived from Datasets": ["Dolly 15k"],
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
         "Human Annotation": "Yes"
     },
     "thai_gen_ai_dolly-closedqa": {
@@ -72,7 +76,9 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": ["Google Cloud Translation API"],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -93,7 +99,9 @@
         "Dataset Filter IDs": [
             "closed_qa"
         ],
-        "Derived from Datasets": ["Dolly 15k"],
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
         "Human Annotation": "Yes"
     },
     "thai_gen_ai_dolly-classification": {
@@ -120,7 +128,9 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": ["Google Cloud Translation API"],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -141,7 +151,9 @@
         "Dataset Filter IDs": [
             "classification"
         ],
-        "Derived from Datasets": ["Dolly 15k"],
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
         "Human Annotation": "Yes"
     },
     "thai_gen_ai_dolly-brainstorming": {
@@ -168,7 +180,9 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": ["Google Cloud Translation API"],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -189,7 +203,9 @@
         "Dataset Filter IDs": [
             "brainstorming"
         ],
-        "Derived from Datasets": ["Dolly 15k"],
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
         "Human Annotation": "Yes"
     },
     "thai_gen_ai_dolly-infoextract": {
@@ -216,7 +232,9 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": ["Google Cloud Translation API"],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -237,7 +255,9 @@
         "Dataset Filter IDs": [
             "information_extraction"
         ],
-        "Derived from Datasets": ["Dolly 15k"],
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
         "Human Annotation": "Yes"
     },
     "thai_gen_ai_dolly-summarization": {
@@ -264,7 +284,9 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": ["Google Cloud Translation API"],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -285,7 +307,9 @@
         "Dataset Filter IDs": [
             "summarization"
         ],
-        "Derived from Datasets": ["Dolly 15k"],
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
         "Human Annotation": "Yes"
     },
     "thai_gen_ai_dolly-creative_writing": {
@@ -312,7 +336,9 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": ["Google Cloud Translation API"],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -333,7 +359,9 @@
         "Dataset Filter IDs": [
             "creative_writing"
         ],
-        "Derived from Datasets": ["Dolly 15k"],
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
         "Human Annotation": "Yes"
     }
 }

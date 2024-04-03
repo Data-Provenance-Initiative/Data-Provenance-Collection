@@ -104,7 +104,7 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_pure_dove,
         "prepare_function": preparers.prepare_pure_dove,
     },
-    "Feedback-Collection": {
+    "Feedback Collection": {
         "download_function": downloaders.download_feedback_collection,
         "prepare_function": preparers.prepare_feedback_collection,
     },
@@ -249,7 +249,7 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_agentinstruct,
         "prepare_function": preparers.prepare_agentinstruct,
     },
-    "PII-Masking-200k": {
+    "PII-masking-200k": {
         "download_function": downloaders.download_pii_masking_200k,
         "prepare_function": preparers.prepare_pii_masking_200k,
     },

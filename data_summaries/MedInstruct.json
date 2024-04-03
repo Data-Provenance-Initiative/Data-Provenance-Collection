@@ -52,6 +52,7 @@
         "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "medinstruct"
-        ]
+        ],
+        "Bibtex": "@Article{Zhang2023AlpaCareIL,\n author = {Xinlu Zhang and Chenxin Tian and Xianjun Yang and Lichang Chen and Zekun Li and L. Petzold},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {AlpaCare: Instruction-tuned Large Language Models for Medical Application},\n volume = {abs/2310.14558},\n year = {2023}\n}\n"
     }
 }

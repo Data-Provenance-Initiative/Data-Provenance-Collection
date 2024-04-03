@@ -34,7 +34,9 @@
             "Trick Question"
         ],
         "Text Sources": [],
-        "Model Generated": ["OpenAI GPT-4"],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
         "Format": [
             "Zero-shot"
         ],
