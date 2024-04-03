@@ -50,13 +50,25 @@
             {
                 "License": "CC BY-NC 4.0",
                 "License URL": "https://huggingface.co/datasets/berkeley-nest/Nectar"
-              },
-              {
-                  "License": "OpenAI",
-                  "License URL": "https://huggingface.co/datasets/berkeley-nest/Nectar"
-              }
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://huggingface.co/datasets/berkeley-nest/Nectar"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/domeccleston/sharegpt/blob/main/license.md"
+            },
+            {
+                "License": "Llama 2",
+                "License URL": "https://github.com/meta-llama/llama/blob/main/LICENSE"
+            },
+            {
+                "License": "Various",
+                "License URL": "https://github.com/google-research/FLAN/tree/main/flan/v2"
+            }
         ],
-        "License Notes": "",
+        "License Notes": "FLAN v2 contains large mix of NC and Academic-Only licenses",
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "nectar"
