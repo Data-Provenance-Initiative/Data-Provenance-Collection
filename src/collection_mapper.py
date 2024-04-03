@@ -89,6 +89,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_alpaca,
         "prepare_function": preparers.prepare_alpaca,
     },
+    "Glaive Code Assistant": {
+        "download_function": downloaders.download_glaive_code_assistant,
+        "prepare_function": preparers.prepare_glaive_code_assistant,
+    },
     "MetaMathQA": {
         "download_function": downloaders.download_metamathqa,
         "prepare_function": preparers.prepare_metamathqa,
