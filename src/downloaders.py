@@ -346,6 +346,9 @@ def download_metamathqa(accepted_filter_ids):
 def download_pure_dove(accepted_filter_ids):
     return huggingface_download('LDJnr/Pure-Dove', split='train')
 
+def download_riddle_sense(accepted_filter_ids):
+    return huggingface_download('riddle_sense', split='train')    
+
 def download_feedback_collection(accepted_filter_ids):
     return huggingface_download('kaist-ai/Feedback-Collection')
 
