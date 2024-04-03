@@ -100,6 +100,7 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Ding2023EnhancingCL,\n author = {Ning Ding and Yulin Chen and Bokai Xu and Yujia Qin and Zhi Zheng and Shengding Hu and Zhiyuan Liu and Maosong Sun and Bowen Zhou},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {3029-3051},\n title = {Enhancing Chat Language Models by Scaling High-quality Instructional Conversations},\n year = {2023}\n}\n"
     }
 }
