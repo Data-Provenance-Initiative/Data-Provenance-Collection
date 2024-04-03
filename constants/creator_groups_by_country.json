@@ -51,6 +51,7 @@
         "Fudan University",
         "Fudan-Aishu Cognitive Intelligence Joint Research Center",
         "Harbin Institute of Technology",
+        "Meituan",
         "ModelBest Inc",
         "Peking University",
         "Peng Cheng Laboratory",
@@ -58,6 +59,7 @@
         "Shandong University",
         "Shanghai Key Laboratory of Data Science",
         "Shanghai University of Finance and Economics",
+        "ShanghaiTech University",
         "Shenzhen International Graduate School",
         "Sinovation Ventures",
         "South China University of Technology",
@@ -155,10 +157,13 @@
         "AI4Bharat",
         "BITS Pilani",
         "Goa Campus",
+        "Flipkart",
         "Indian Institute of Technology",
+        "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram",
         "Indian Institute of Technology (BHU)",
         "Indian Institute of Technology - Kanpur",
         "Indian Institute of Technology Bombay",
+        "Indian Institute of Technology Madras",
         "International Institute of Information Technology",
         "International Institute of Information Technology - Hyderabad",
         "Saama AI Research Chennai",
@@ -269,6 +274,7 @@
         "University of Glasgow"
     ],
     "Singapore": [
+        "Agency for Science, Technology and Research",
         "ASUS Intelligent Cloud Services (AICS)",
         "Alibaba-NTU Singapore Joint Research Institute",
         "Joint NTU-UBC Research Centre of Excellence in Active Living for the Elderly",
@@ -339,6 +345,7 @@
         "University of Manchester",
         "University of Oxford",
         "University of Sheffield",
+        "University Of Surrey",
         "University of Warwick"
     ],
     "United States of America": [
