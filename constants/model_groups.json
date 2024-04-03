@@ -2,6 +2,8 @@
     "OpenAI": [
         "OpenAI ChatGPT",
         "OpenAI Codex",
+        "OpenAI GPT-1",
+        "OpenAI GPT-2",
         "OpenAI GPT-3",
         "OpenAI GPT-3.5-turbo-instruct",
         "OpenAI GPT-3.5-Turbo",
@@ -9,18 +11,31 @@
         "OpenAI Playground"
     ],
     "Other": [
+        "alpaca",
         "Anthropic Internal Models",
+        "BX LLaMa",
+        "BX BLOOM",
         "CTRL",
+        "dolly",
         "Flan-T5",
         "Google Cloud Translation API",
+        "Google Translate",
         "Grover",
+        "IndicTrans2",
         "Instruct-GPT-J",
         "LLama-2-7B-chat",
         "Mistral-7B-Instruct",
+        "Other",
+        "pplm_distil",
+        "SeaLLM",
         "StarCoder",
+        "Templates",
+        "Transformer_xl",
         "T5",
         "T5-XXL",
         "XLNet",
-        "wikisql"
+        "XLM",
+        "wikisql",
+        "WMT"
     ]
 }
