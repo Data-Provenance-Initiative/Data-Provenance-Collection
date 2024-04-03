@@ -254,6 +254,9 @@ def download_everything_lm(accepted_filter_ids):
 def download_anthropic_hh_rlhf(accepted_filter_ids):
     return huggingface_download('anthropic/hh-rlhf', split='train')
 
+def download_glaive_code_assistant(accepted_filter_ids):
+    return huggingface_download('glaiveai/glaive-code-assistant', split='train')
+
 def download_thai_gen_ai_alpaca(accepted_filter_ids):
     return huggingface_download('Thaweewat/alpaca-cleaned-52k-th', split='train')
 
