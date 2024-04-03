@@ -1,0 +1,44 @@
+{
+    "riddle_sense": {
+        "Unique Dataset Identifier": "riddle_sense",
+        "Dataset Name": "riddle_sense",
+        "Paper Title": "RiddleSense: Reasoning about Riddle Questions Featuring Linguistic Creativity and Commonsense Knowledge",
+        "Dataset URL": "https://huggingface.co/datasets/riddle_sense",
+        "GitHub URL": "https://github.com/INK-USC/RiddleSense/",
+        "Hugging Face URL": "https://huggingface.co/datasets/riddle_sense",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/riddle-sense",
+        "ArXiv URL": "https://arxiv.org/abs/2101.00376",
+        "Semantic Scholar Corpus ID": "235731975",
+        "Collection": "RiddleSense",
+        "Collection URL": "https://inklab.usc.edu/RiddleSense/",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Commonsense Reasoning",
+            "Natural Language Understanding",
+            "Question Answering"
+        ],
+        "Text Sources": [],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "University of Southern California"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/INK-USC/RiddleSense/blob/main/LICENSE"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "riddle_sense"
+        ]
+    }
+}

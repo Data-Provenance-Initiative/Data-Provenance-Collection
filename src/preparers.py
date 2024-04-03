@@ -360,6 +360,14 @@ def prepare_code_alpaca(row):
         inputs, row["output"], "code_alpaca",
     )
 
+def prepare_riddle_sense(row):
+    options = ""
+    for label, text in zip(row["choices"]["label"], row["choices"]["text"]):
+        options += f"{label}: {text}, "
+    inputs = row["question"].strip() + "\n" + options
+    return convert_inputs_targets_to_messages(
+        inputs, row["answerKey"], "riddle_sense",
+    )
 
 def prepare_hc3(row, lang):
     # dset_id = f"hc3_{lang}-{row['source']}"
