@@ -21,7 +21,8 @@
             "https://collectivecognition.ai"
         ],
         "Model Generated": [
-            "Other"
+            "OpenAI GPT-3.5-Turbo",
+            "OpenAI GPT-4"
         ],
         "Format": [
             "Multi-turn Dialog"
