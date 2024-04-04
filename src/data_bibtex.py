@@ -5,7 +5,7 @@ from collection_mapper import COLLECTION_FN_MAPPER
 from helpers import io
 
 
-def generate_bibtex(collection_name: str):
+def generate_bibtex(collection_name: str, save_to_file: bool = False, output_dir: str = None):
     """
     Generate BibTeX citations for all datasets in a collection.
     """
@@ -16,19 +16,41 @@ def generate_bibtex(collection_name: str):
     collection_info = io.read_json(collection_filepath)
 
     all_successful = True
+    bibtex_entries = ""
     for dataset_uid, dataset_info in collection_info.items():
+        if 'Bibtex' in dataset_info:
+            if save_to_file:
+                # Use existing BibTeX entry if available
+                bibtex_entries += dataset_info['Bibtex'] + '\n\n'
+                continue
+            else:
+                print(f"Skipping {dataset_uid} as it already has a BibTeX citation")
+                continue
+
         corpus_id = dataset_info.get('Semantic Scholar Corpus ID')
-        if 'Bibtex' in dataset_info or isinstance(corpus_id, str):
-            print(f"Skipping {dataset_uid} as it already has a BibTeX citation or no Corpus ID found.")
+
+        if isinstance(corpus_id, str):
+            print(f"No Semantic Scholar Corpus ID found for {dataset_uid}")
             continue
-        else:
-            try:
-                bibtex = io.get_bibtex_from_paper("CorpusId:{}".format(corpus_id))
+
+        try:
+            bibtex = io.get_bibtex_from_paper("CorpusId:{}".format(corpus_id))
+            if save_to_file:
+                # Accumulate BibTeX entries in a string
+                bibtex_entries += bibtex + '\n\n'
+            else:
                 dataset_info['Bibtex'] = bibtex
-            except Exception as e:
-                all_successful = False
-                print(f"Error generating BibTeX for {dataset_uid}: {e}")
-    io.write_json(collection_info, collection_filepath)
+        except Exception as e:
+            all_successful = False
+            print(f"Error generating BibTeX for {dataset_uid}: {e}")
+
+    if save_to_file and bibtex_entries:
+        # Adjust the write_bib function call to include the output directory
+        output_path = os.path.join(output_dir if output_dir else '.', 'refs.bib')
+        io.write_bib(bibtex_entries, append=True, save_dir=output_path)
+    elif not save_to_file:
+        io.write_json(collection_info, collection_filepath)
+
     if all_successful:
         return f"Successfully generated BibTeX citations for all datasets in the {collection_name} collection."
     else:
@@ -39,7 +61,7 @@ if __name__ == '__main__':
     """
     Example run:
 
-    python src/generate_bibtex.py --collection "Alpaca"
+    python src/data_bibtex.py --collection "Alpaca"
 
     """
     parser = argparse.ArgumentParser(description='Generate bibtex for a collection')
@@ -54,7 +76,7 @@ if __name__ == '__main__':
     collections = [args.collection]
     collections = COLLECTION_FN_MAPPER.keys() if args.collection is None else [args.collection]
 
-    for collection in tqdm(list(collections)[60:]):
+    for collection in tqdm(list(collections)):
         print(f"Generating bibtex for {collection} collection")
         result = generate_bibtex(collection)
         print(result)

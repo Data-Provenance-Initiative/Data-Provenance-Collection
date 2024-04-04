@@ -9,6 +9,7 @@ from collection_mapper import COLLECTION_FN_MAPPER
 import constants
 import data_provenance_card as data_provenance_card
 from downloader import Downloader
+import data_bibtex as data_bibtex
 
 
 def check_args(args):
@@ -435,3 +436,4 @@ if __name__ == "__main__":
             savedir=args.savedir,
             debug=args.debug
         )
+        data_bibtex.generate_bibtex(collection_key, save_to_file=True, output_dir=args.savedir)
