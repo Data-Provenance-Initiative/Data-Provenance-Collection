@@ -135,3 +135,20 @@ def get_bibtex_from_paper(paper: str):
     result = sch.get_paper(paper)
     bibtex = result.citationStyles.get("bibtex", None)
     return bibtex
+
+
+def write_bib(bibtex_entries: str, append: bool = True, save_dir: str = None):
+    """
+    Writes BibTeX entries to a .bib file. By default, appends entries to the existing file.
+
+    :param bibtex_entries: The BibTeX entries to write.
+    :param append: If True, append entries to the file. If False, overwrite the file.
+    :param save_dir: The directory to save the .bib file.
+    """
+    mode = 'a' if append else 'w'
+    dirname = os.path.dirname(save_dir)
+
+    if not os.path.exists(dirname):
+        os.makedirs(dirname, exist_ok=True)
+    with open(save_dir, mode, encoding="utf8") as bib_file:
+        bib_file.write(bibtex_entries + '\n\n')
