@@ -736,6 +736,13 @@ def prepare_agentinstruct(row):
     return messages
 
 
+def prepare_cidar(row):
+    return convert_inputs_targets_to_messages(
+        row['instruction'],
+        row['output'],
+        'cidar',
+    )
+
 def prepare_indic_instruct(row):
     ''' This dataset conatins lots of other datasets, each having their own format. A different prepare method is needed for each sub-dataset 
     Some datasets such as 'hh-rlhf', 'lm_sys', 'oasst1' have same forrmat and thus they have the prepare method below

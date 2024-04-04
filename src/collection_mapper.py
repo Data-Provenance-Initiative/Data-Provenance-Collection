@@ -266,6 +266,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_agentinstruct,
         "prepare_function": preparers.prepare_agentinstruct,
     },
+    "Cidar": {
+        "download_function": downloaders.download_cidar,
+        "prepare_function": preparers.prepare_cidar,
+    },
     "PII-Masking-200k": {
         "download_function": downloaders.download_pii_masking_200k,
         "prepare_function": preparers.prepare_pii_masking_200k,

@@ -800,6 +800,9 @@ def download_agentinstruct(accepted_filter_ids):
     return dset
 
 
+def download_cidar(accepted_filter_ids):
+    return huggingface_download('arbml/CIDAR', split='train')
+
 def download_indic_instruct(accepted_filter_ids):
     dset = []
     ## Each dataset has a different format, thus storing dataset name info for next step
