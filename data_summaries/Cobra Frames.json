@@ -43,10 +43,14 @@
             {
                 "License": "BigScience OpenRAIL-M",
                 "License URL": "https://huggingface.co/blog/open_rail"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://openai.com/policies/terms-of-use"
             }
         ],
-        "License Notes": "string (''): Any notes from the human annotator regarding the license information they retrieved.",
-        "License Verified By": "string (''): The name of the human annotator who verified the license information.",
+        "License Notes": "",
+        "License Verified By": "Xuhui Zhou",
         "Dataset Filter IDs": [
             "CobraFrames-gpt3.5"
         ]
