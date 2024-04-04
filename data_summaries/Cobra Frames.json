@@ -27,12 +27,12 @@
             "crowdsourced",
             "text-davinci-003"
         ],
-        "Model Generated": ["text-davinci-003"],
+        "Model Generated": ["OpenAI GPT-3"],
         "Format": [
             "Zero-shot",
             "Few-shot"
         ],
-        "Human Annotation": ["Yes"],
+        "Human Annotation": "Yes",
         "Derived from Datasets": [
             "ToxiGen"],
         "Creators": [
@@ -49,59 +49,6 @@
         "License Verified By": "string (''): The name of the human annotator who verified the license information.",
         "Dataset Filter IDs": [
             "CobraFrames-gpt3.5"
-        ]
-    },
-    "CobraFrames-gpt3.5-adv": {
-        "Unique Dataset Identifier": "CobraFrames-gpt3.5-adv",
-        "Dataset Name": "CobraFrames-gpt3.5-adv",
-        "Paper Title": "COBRA Frames: Contextual Reasoning about Effects and Harms of Offensive Statements",
-        "GitHub URL": "https://github.com/XuhuiZhou/cobra-frames",
-        "Dataset URL": "https://huggingface.co/datasets/cmu-lti/cobracorpus/blob/main/advContexts_explanations.csv",
-        "Hugging Face URL": "https://huggingface.co/datasets/cmu-lti/cobracorpus/blob/main/advContexts_explanations.csv",
-        "Papers with Code URL": "",
-        "ArXiv URL": "https://arxiv.org/abs/2306.01985",
-        "Semantic Scholar Corpus ID": "259075355",
-        "Collection": "Cobra Frames",
-        "Collection URL": "https://cobra.xuhuiz.com",
-        "Languages": [
-            "English"
-        ],
-        "Task Categories": [
-            "Bias Detection",
-            "Binary Classification of Hate Speech",
-            "Binary Classification of Racial Bias",
-            "Offensive Language Detection",
-            "Toxicity Detection",
-            "Sarcasm Detection",
-            "Stereotype Detection",
-            "Adversarial Hate Speech Detection"
-        ],
-        "Text Sources": [
-            "crowdsourced",
-            "text-davinci-003"
-        ],
-        "Model Generated": ["text-davinci-003"],
-        "Format": [
-            "Zero-shot",
-            "Few-shot"
-        ],
-        "Human Annotation": ["Yes"],
-        "Derived from Datasets": [
-            "ToxiGen"],
-        "Creators": [
-            "Carnegie Mellon University",
-            "Allen Institute for AI"
-        ],
-        "Licenses": [
-            {
-                "License": "BigScience OpenRAIL-M",
-                "License URL": "https://huggingface.co/blog/open_rail"
-            }
-        ],
-        "License Notes": "string (''): Any notes from the human annotator regarding the license information they retrieved.",
-        "License Verified By": "string (''): The name of the human annotator who verified the license information.",
-        "Dataset Filter IDs": [
-            "CobraFrames-gpt3.5-adv"
         ]
     }
 }
