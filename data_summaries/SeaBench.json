@@ -1,0 +1,524 @@
+{
+    "seabench-en": {
+        "Unique Dataset Identifier": "seabench-en",
+        "Dataset Name": "SeaBench (English)",
+        "Paper Title": "SeaLLMs - Large Language Models for Southeast Asia",
+        "Dataset URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench/raw/main/question.jsonl",
+        "GitHub URL": "https://github.com/DAMO-NLP-SG/SeaLLMs",
+        "Hugging Face URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
+        "ArXiv URL": "https://arxiv.org/abs/2312.00738",
+        "Semantic Scholar Corpus ID": 265551745,
+        "Collection": "SeaBench",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Summarization",
+            "Translation",
+            "Question Answering",
+            "Open-Domain Question Answering",
+            "Advice Seeking Question Answering",
+            "Factual Knowledge Question Answering",
+            "Multiple Choice Question Answering",
+            "Natural Language Processing Question Answering",
+            "Logical Reasoning",
+            "Logical Reasoning Question Answering"
+        ],
+        "Text Sources": [
+            "commoncrawl.org",
+            "wikipedia.org",
+            "academic papers",
+            "cc news",
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "SeaLLM"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Creators": [
+            "DAMO Academy Alibaba Group"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench"
+            }
+        ],
+        "Dataset Filter IDs": [
+            "en"
+        ],
+        "License Notes": "Multilingual set with instructions that cover 9 Southeast Asian Languages",
+        "Collection URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
+        "Papers with Code URL": "",
+        "License Verified By": "Lester James V. Miranda",
+        "Derived from Datasets": []
+    },
+    "seabench-th": {
+        "Unique Dataset Identifier": "seabench-th",
+        "Dataset Name": "SeaBench (Thai)",
+        "Paper Title": "SeaLLMs - Large Language Models for Southeast Asia",
+        "Dataset URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench/raw/main/question.jsonl",
+        "GitHub URL": "https://github.com/DAMO-NLP-SG/SeaLLMs",
+        "Hugging Face URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
+        "ArXiv URL": "https://arxiv.org/abs/2312.00738",
+        "Semantic Scholar Corpus ID": 265551745,
+        "Collection": "SeaBench",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Summarization",
+            "Translation",
+            "Question Answering",
+            "Open-Domain Question Answering",
+            "Advice Seeking Question Answering",
+            "Factual Knowledge Question Answering",
+            "Multiple Choice Question Answering",
+            "Natural Language Processing Question Answering",
+            "Logical Reasoning",
+            "Logical Reasoning Question Answering"
+        ],
+        "Text Sources": [
+            "commoncrawl.org",
+            "wikipedia.org",
+            "academic papers",
+            "cc news",
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "SeaLLM"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Creators": [
+            "DAMO Academy Alibaba Group"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench"
+            }
+        ],
+        "Dataset Filter IDs": [
+            "th"
+        ],
+        "License Notes": "Multilingual set with instructions that cover 9 Southeast Asian Languages",
+        "Collection URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
+        "Papers with Code URL": "",
+        "License Verified By": "Lester James V. Miranda",
+        "Derived from Datasets": []
+    },
+    "seabench-id": {
+        "Unique Dataset Identifier": "seabench-id",
+        "Dataset Name": "SeaBench (Indonesian)",
+        "Paper Title": "SeaLLMs - Large Language Models for Southeast Asia",
+        "Dataset URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench/raw/main/question.jsonl",
+        "GitHub URL": "https://github.com/DAMO-NLP-SG/SeaLLMs",
+        "Hugging Face URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
+        "ArXiv URL": "https://arxiv.org/abs/2312.00738",
+        "Semantic Scholar Corpus ID": 265551745,
+        "Collection": "SeaBench",
+        "Languages": [
+            "Indonesian"
+        ],
+        "Task Categories": [
+            "Summarization",
+            "Translation",
+            "Question Answering",
+            "Open-Domain Question Answering",
+            "Advice Seeking Question Answering",
+            "Factual Knowledge Question Answering",
+            "Multiple Choice Question Answering",
+            "Natural Language Processing Question Answering",
+            "Logical Reasoning",
+            "Logical Reasoning Question Answering"
+        ],
+        "Text Sources": [
+            "commoncrawl.org",
+            "wikipedia.org",
+            "academic papers",
+            "cc news",
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "SeaLLM"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Creators": [
+            "DAMO Academy Alibaba Group"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench"
+            }
+        ],
+        "Dataset Filter IDs": [
+            "id"
+        ],
+        "License Notes": "Multilingual set with instructions that cover 9 Southeast Asian Languages",
+        "Collection URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
+        "Papers with Code URL": "",
+        "License Verified By": "Lester James V. Miranda",
+        "Derived from Datasets": []
+    },
+    "seabench-vi": {
+        "Unique Dataset Identifier": "seabench-vi",
+        "Dataset Name": "SeaBench (Vietnamese)",
+        "Paper Title": "SeaLLMs - Large Language Models for Southeast Asia",
+        "Dataset URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench/raw/main/question.jsonl",
+        "GitHub URL": "https://github.com/DAMO-NLP-SG/SeaLLMs",
+        "Hugging Face URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
+        "ArXiv URL": "https://arxiv.org/abs/2312.00738",
+        "Semantic Scholar Corpus ID": 265551745,
+        "Collection": "SeaBench",
+        "Languages": [
+            "Vietnamese"
+        ],
+        "Task Categories": [
+            "Summarization",
+            "Translation",
+            "Question Answering",
+            "Open-Domain Question Answering",
+            "Advice Seeking Question Answering",
+            "Factual Knowledge Question Answering",
+            "Multiple Choice Question Answering",
+            "Natural Language Processing Question Answering",
+            "Logical Reasoning",
+            "Logical Reasoning Question Answering"
+        ],
+        "Text Sources": [
+            "commoncrawl.org",
+            "wikipedia.org",
+            "academic papers",
+            "cc news",
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "SeaLLM"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Creators": [
+            "DAMO Academy Alibaba Group"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench"
+            }
+        ],
+        "Dataset Filter IDs": [
+            "vi"
+        ],
+        "License Notes": "Multilingual set with instructions that cover 9 Southeast Asian Languages",
+        "Collection URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
+        "Papers with Code URL": "",
+        "License Verified By": "Lester James V. Miranda",
+        "Derived from Datasets": []
+    },
+    "seabench-tl": {
+        "Unique Dataset Identifier": "seabench-tl",
+        "Dataset Name": "SeaBench (Tagalog)",
+        "Paper Title": "SeaLLMs - Large Language Models for Southeast Asia",
+        "Dataset URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench/raw/main/question.jsonl",
+        "GitHub URL": "https://github.com/DAMO-NLP-SG/SeaLLMs",
+        "Hugging Face URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
+        "ArXiv URL": "https://arxiv.org/abs/2312.00738",
+        "Semantic Scholar Corpus ID": 265551745,
+        "Collection": "SeaBench",
+        "Languages": [
+            "Tagalog"
+        ],
+        "Task Categories": [
+            "Summarization",
+            "Translation",
+            "Question Answering",
+            "Open-Domain Question Answering",
+            "Advice Seeking Question Answering",
+            "Factual Knowledge Question Answering",
+            "Multiple Choice Question Answering",
+            "Natural Language Processing Question Answering",
+            "Logical Reasoning",
+            "Logical Reasoning Question Answering"
+        ],
+        "Text Sources": [
+            "commoncrawl.org",
+            "wikipedia.org",
+            "academic papers",
+            "cc news",
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "SeaLLM"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Creators": [
+            "DAMO Academy Alibaba Group"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench"
+            }
+        ],
+        "Dataset Filter IDs": [
+            "tl"
+        ],
+        "License Notes": "Multilingual set with instructions that cover 9 Southeast Asian Languages",
+        "Collection URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
+        "Papers with Code URL": "",
+        "License Verified By": "Lester James V. Miranda",
+        "Derived from Datasets": []
+    },
+    "seabench-lo": {
+        "Unique Dataset Identifier": "seabench-lo",
+        "Dataset Name": "SeaBench (Lao)",
+        "Paper Title": "SeaLLMs - Large Language Models for Southeast Asia",
+        "Dataset URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench/raw/main/question.jsonl",
+        "GitHub URL": "https://github.com/DAMO-NLP-SG/SeaLLMs",
+        "Hugging Face URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
+        "ArXiv URL": "https://arxiv.org/abs/2312.00738",
+        "Semantic Scholar Corpus ID": 265551745,
+        "Collection": "SeaBench",
+        "Languages": [
+            "Lao"
+        ],
+        "Task Categories": [
+            "Summarization",
+            "Translation",
+            "Question Answering",
+            "Open-Domain Question Answering",
+            "Advice Seeking Question Answering",
+            "Factual Knowledge Question Answering",
+            "Multiple Choice Question Answering",
+            "Natural Language Processing Question Answering",
+            "Logical Reasoning",
+            "Logical Reasoning Question Answering"
+        ],
+        "Text Sources": [
+            "commoncrawl.org",
+            "wikipedia.org",
+            "academic papers",
+            "cc news",
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "SeaLLM"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Creators": [
+            "DAMO Academy Alibaba Group"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench"
+            }
+        ],
+        "Dataset Filter IDs": [
+            "lo"
+        ],
+        "License Notes": "Multilingual set with instructions that cover 9 Southeast Asian Languages",
+        "Collection URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
+        "Papers with Code URL": "",
+        "License Verified By": "Lester James V. Miranda",
+        "Derived from Datasets": []
+    },
+    "seabench-km": {
+        "Unique Dataset Identifier": "seabench-km",
+        "Dataset Name": "SeaBench (Khmer)",
+        "Paper Title": "SeaLLMs - Large Language Models for Southeast Asia",
+        "Dataset URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench/raw/main/question.jsonl",
+        "GitHub URL": "https://github.com/DAMO-NLP-SG/SeaLLMs",
+        "Hugging Face URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
+        "ArXiv URL": "https://arxiv.org/abs/2312.00738",
+        "Semantic Scholar Corpus ID": 265551745,
+        "Collection": "SeaBench",
+        "Languages": [
+            "Khmer"
+        ],
+        "Task Categories": [
+            "Summarization",
+            "Translation",
+            "Question Answering",
+            "Open-Domain Question Answering",
+            "Advice Seeking Question Answering",
+            "Factual Knowledge Question Answering",
+            "Multiple Choice Question Answering",
+            "Natural Language Processing Question Answering",
+            "Logical Reasoning",
+            "Logical Reasoning Question Answering"
+        ],
+        "Text Sources": [
+            "commoncrawl.org",
+            "wikipedia.org",
+            "academic papers",
+            "cc news",
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "SeaLLM"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Creators": [
+            "DAMO Academy Alibaba Group"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench"
+            }
+        ],
+        "Dataset Filter IDs": [
+            "km"
+        ],
+        "License Notes": "Multilingual set with instructions that cover 9 Southeast Asian Languages",
+        "Collection URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
+        "Papers with Code URL": "",
+        "License Verified By": "Lester James V. Miranda",
+        "Derived from Datasets": []
+    },
+    "seabench-ms": {
+        "Unique Dataset Identifier": "seabench-ms",
+        "Dataset Name": "SeaBench (Standard Malay)",
+        "Paper Title": "SeaLLMs - Large Language Models for Southeast Asia",
+        "Dataset URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench/raw/main/question.jsonl",
+        "GitHub URL": "https://github.com/DAMO-NLP-SG/SeaLLMs",
+        "Hugging Face URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
+        "ArXiv URL": "https://arxiv.org/abs/2312.00738",
+        "Semantic Scholar Corpus ID": 265551745,
+        "Collection": "SeaBench",
+        "Languages": [
+            "Standard Malay"
+        ],
+        "Task Categories": [
+            "Summarization",
+            "Translation",
+            "Question Answering",
+            "Open-Domain Question Answering",
+            "Advice Seeking Question Answering",
+            "Factual Knowledge Question Answering",
+            "Multiple Choice Question Answering",
+            "Natural Language Processing Question Answering",
+            "Logical Reasoning",
+            "Logical Reasoning Question Answering"
+        ],
+        "Text Sources": [
+            "commoncrawl.org",
+            "wikipedia.org",
+            "academic papers",
+            "cc news",
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "SeaLLM"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Creators": [
+            "DAMO Academy Alibaba Group"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench"
+            }
+        ],
+        "Dataset Filter IDs": [
+            "ms"
+        ],
+        "License Notes": "Multilingual set with instructions that cover 9 Southeast Asian Languages",
+        "Collection URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
+        "Papers with Code URL": "",
+        "License Verified By": "Lester James V. Miranda",
+        "Derived from Datasets": []
+    },
+    "seabench-my": {
+        "Unique Dataset Identifier": "seabench-my",
+        "Dataset Name": "SeaBench (Burmese)",
+        "Paper Title": "SeaLLMs - Large Language Models for Southeast Asia",
+        "Dataset URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench/raw/main/question.jsonl",
+        "GitHub URL": "https://github.com/DAMO-NLP-SG/SeaLLMs",
+        "Hugging Face URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
+        "ArXiv URL": "https://arxiv.org/abs/2312.00738",
+        "Semantic Scholar Corpus ID": 265551745,
+        "Collection": "SeaBench",
+        "Languages": [
+            "Burmese"
+        ],
+        "Task Categories": [
+            "Summarization",
+            "Translation",
+            "Question Answering",
+            "Open-Domain Question Answering",
+            "Advice Seeking Question Answering",
+            "Factual Knowledge Question Answering",
+            "Multiple Choice Question Answering",
+            "Natural Language Processing Question Answering",
+            "Logical Reasoning",
+            "Logical Reasoning Question Answering"
+        ],
+        "Text Sources": [
+            "commoncrawl.org",
+            "wikipedia.org",
+            "academic papers",
+            "cc news",
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "SeaLLM"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Creators": [
+            "DAMO Academy Alibaba Group"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench"
+            }
+        ],
+        "Dataset Filter IDs": [
+            "my"
+        ],
+        "License Notes": "Multilingual set with instructions that cover 9 Southeast Asian Languages",
+        "Collection URL": "https://huggingface.co/datasets/SeaLLMs/Sea-bench",
+        "Papers with Code URL": "",
+        "License Verified By": "Lester James V. Miranda",
+        "Derived from Datasets": []
+    }
+}
