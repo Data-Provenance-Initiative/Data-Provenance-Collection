@@ -1,0 +1,51 @@
+{
+    "HelpSteer": {
+        "Unique Dataset Identifier": "HelpSteer",
+        "Dataset Name": "Helpfulness SteerLM",
+        "Paper Title": "HelpSteer: Multi-attribute Helpfulness Dataset for SteerLM",
+        "Dataset URL": "https://huggingface.co/datasets/nvidia/HelpSteer",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/nvidia/HelpSteer",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2311.09528.",
+        "Semantic Scholar Corpus ID": 265220723,
+        "Collection": "HelpSteer",
+        "Collection URL": "https://huggingface.co/collections/nvidia/steerlm-65d3b18640a4c2b0032c4263",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Rewrite",
+            "Summarization",
+            "Classification",
+            "Brainstorming",
+            "Information Extraction",
+            "Open Question Answering",
+            "Closed Question Answering"
+        ],
+        "Text Sources": [
+            "scale.com",
+            "human"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Nvidia"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://huggingface.co/datasets/nvidia/HelpSteer"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Vu Minh Chien",
+        "Dataset Filter IDs": [
+            "HelpSteer"
+        ]
+    }
+}

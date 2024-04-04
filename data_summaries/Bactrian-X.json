@@ -1,0 +1,374 @@
+{
+    "bactrian-x-en": {
+        "Unique Dataset Identifier": "bactrian-x-en",
+        "Dataset Name": "Bactrian-X (English)",
+        "Paper Title": "Bactrian-X: Multilingual Replicable Instruction-Following Models with Low-Rank Adaptation",
+        "Dataset URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+        "GitHub URL": "https://github.com/mbzuai-nlp/bactrian-x",
+        "Hugging Face URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+        "ArXiv URL": "https://arxiv.org/abs/2305.15011",
+        "Semantic Scholar Corpus ID": 258865265,
+        "Collection": "Bactrian-X",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Summarization",
+            "Open-Domain Relation Extraction",
+            "Text Classification"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "alpaca",
+            "dolly",
+            "OpenAI ChatGPT",
+            "Google Translate"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Creators": [
+            "MBZUAI",
+            "University of Melbourne"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://openai.com/policies/terms-of-use"
+            }
+        ],
+        "Dataset Filter IDs": [
+            "en"
+        ],
+        "License Notes": "Contains 3.4M pairs of instructions and responses in 52 languages. Translated using Google Translate.",
+        "Collection URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/bactrian-x",
+        "License Verified By": "Lester James V. Miranda",
+        "Derived from Datasets": [
+            "dolly-openqa",
+            "alpaca"
+        ]
+    },
+    "bactrian-x-id": {
+        "Unique Dataset Identifier": "bactrian-x-id",
+        "Dataset Name": "Bactrian-X (Indonesian)",
+        "Paper Title": "Bactrian-X: Multilingual Replicable Instruction-Following Models with Low-Rank Adaptation",
+        "Dataset URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+        "GitHub URL": "https://github.com/mbzuai-nlp/bactrian-x",
+        "Hugging Face URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+        "ArXiv URL": "https://arxiv.org/abs/2305.15011",
+        "Semantic Scholar Corpus ID": 258865265,
+        "Collection": "Bactrian-X",
+        "Languages": [
+            "Indonesian"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Summarization",
+            "Open-Domain Relation Extraction",
+            "Text Classification"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "alpaca",
+            "dolly",
+            "OpenAI ChatGPT",
+            "Google Translate"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Creators": [
+            "MBZUAI",
+            "University of Melbourne"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://openai.com/policies/terms-of-use"
+            }
+        ],
+        "Dataset Filter IDs": [
+            "id"
+        ],
+        "License Notes": "Contains 3.4M pairs of instructions and responses in 52 languages. Translated using Google Translate.",
+        "Collection URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/bactrian-x",
+        "License Verified By": "Lester James V. Miranda",
+        "Derived from Datasets": [
+            "dolly-openqa",
+            "alpaca"
+        ]
+    },
+    "bactrian-x-km": {
+        "Unique Dataset Identifier": "bactrian-x-km",
+        "Dataset Name": "Bactrian-X (Central Khmer)",
+        "Paper Title": "Bactrian-X: Multilingual Replicable Instruction-Following Models with Low-Rank Adaptation",
+        "Dataset URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+        "GitHub URL": "https://github.com/mbzuai-nlp/bactrian-x",
+        "Hugging Face URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+        "ArXiv URL": "https://arxiv.org/abs/2305.15011",
+        "Semantic Scholar Corpus ID": 258865265,
+        "Collection": "Bactrian-X",
+        "Languages": [
+            "Khmer"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Summarization",
+            "Open-Domain Relation Extraction",
+            "Text Classification"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "alpaca",
+            "dolly",
+            "OpenAI ChatGPT",
+            "Google Translate"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Creators": [
+            "MBZUAI",
+            "University of Melbourne"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://openai.com/policies/terms-of-use"
+            }
+        ],
+        "Dataset Filter IDs": [
+            "km"
+        ],
+        "License Notes": "Contains 3.4M pairs of instructions and responses in 52 languages. Translated using Google Translate.",
+        "Collection URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/bactrian-x",
+        "License Verified By": "Lester James V. Miranda",
+        "Derived from Datasets": [
+            "dolly-openqa",
+            "alpaca"
+        ]
+    },
+    "bactrian-x-my": {
+        "Unique Dataset Identifier": "bactrian-x-my",
+        "Dataset Name": "Bactrian-X (Burmese)",
+        "Paper Title": "Bactrian-X: Multilingual Replicable Instruction-Following Models with Low-Rank Adaptation",
+        "Dataset URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+        "GitHub URL": "https://github.com/mbzuai-nlp/bactrian-x",
+        "Hugging Face URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+        "ArXiv URL": "https://arxiv.org/abs/2305.15011",
+        "Semantic Scholar Corpus ID": 258865265,
+        "Collection": "Bactrian-X",
+        "Languages": [
+            "Burmese"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Summarization",
+            "Open-Domain Relation Extraction",
+            "Text Classification"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "alpaca",
+            "dolly",
+            "OpenAI ChatGPT",
+            "Google Translate"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Creators": [
+            "MBZUAI",
+            "University of Melbourne"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://openai.com/policies/terms-of-use"
+            }
+        ],
+        "Dataset Filter IDs": [
+            "my"
+        ],
+        "License Notes": "Contains 3.4M pairs of instructions and responses in 52 languages. Translated using Google Translate.",
+        "Collection URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/bactrian-x",
+        "License Verified By": "Lester James V. Miranda",
+        "Derived from Datasets": [
+            "dolly-openqa",
+            "alpaca"
+        ]
+    },
+    "bactrian-x-th": {
+        "Unique Dataset Identifier": "bactrian-x-th",
+        "Dataset Name": "Bactrian-X (Thai)",
+        "Paper Title": "Bactrian-X: Multilingual Replicable Instruction-Following Models with Low-Rank Adaptation",
+        "Dataset URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+        "GitHub URL": "https://github.com/mbzuai-nlp/bactrian-x",
+        "Hugging Face URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+        "ArXiv URL": "https://arxiv.org/abs/2305.15011",
+        "Semantic Scholar Corpus ID": 258865265,
+        "Collection": "Bactrian-X",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Summarization",
+            "Open-Domain Relation Extraction",
+            "Text Classification"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "alpaca",
+            "dolly",
+            "OpenAI ChatGPT",
+            "Google Translate"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Creators": [
+            "MBZUAI",
+            "University of Melbourne"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://openai.com/policies/terms-of-use"
+            }
+        ],
+        "Dataset Filter IDs": [
+            "th"
+        ],
+        "License Notes": "Contains 3.4M pairs of instructions and responses in 52 languages. Translated using Google Translate.",
+        "Collection URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/bactrian-x",
+        "License Verified By": "Lester James V. Miranda",
+        "Derived from Datasets": [
+            "dolly-openqa",
+            "alpaca"
+        ]
+    },
+    "bactrian-x-tl": {
+        "Unique Dataset Identifier": "bactrian-x-tl",
+        "Dataset Name": "Bactrian X (Tagalog)",
+        "Paper Title": "Bactrian-X: Multilingual Replicable Instruction-Following Models with Low-Rank Adaptation",
+        "Dataset URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+        "GitHub URL": "https://github.com/mbzuai-nlp/bactrian-x",
+        "Hugging Face URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+        "ArXiv URL": "https://arxiv.org/abs/2305.15011",
+        "Semantic Scholar Corpus ID": 258865265,
+        "Collection": "Bactrian-X",
+        "Languages": [
+            "Tagalog"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Summarization",
+            "Open-Domain Relation Extraction",
+            "Text Classification"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "alpaca",
+            "dolly",
+            "OpenAI ChatGPT",
+            "Google Translate"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Creators": [
+            "MBZUAI",
+            "University of Melbourne"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://openai.com/policies/terms-of-use"
+            }
+        ],
+        "Dataset Filter IDs": [
+            "tl"
+        ],
+        "License Notes": "Contains 3.4M pairs of instructions and responses in 52 languages. Translated using Google Translate.",
+        "Collection URL": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/bactrian-x",
+        "License Verified By": "Lester James V. Miranda",
+        "Derived from Datasets": [
+            "dolly-openqa",
+            "alpaca"
+        ]
+    }
+}
