@@ -89,6 +89,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_alpaca,
         "prepare_function": preparers.prepare_alpaca,
     },
+    "Nectar": {
+        "download_function": downloaders.download_nectar,
+        "prepare_function": preparers.prepare_nectar,
+    },
     "MetaMathQA": {
         "download_function": downloaders.download_metamathqa,
         "prepare_function": preparers.prepare_metamathqa,
