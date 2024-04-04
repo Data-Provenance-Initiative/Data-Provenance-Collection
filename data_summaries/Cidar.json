@@ -12,10 +12,21 @@
     "Collection": "Cidar",
     "Collection URL": "https://hf.co/datasets/arbml/CIDAR",
     "Languages": ["Arabic"],
-    "Task Categories": ["Instruction Generation"],
+    "Task Categories": [
+      "Instruction Generation",
+      "Binary Classification Question Answering",
+      "Goal Setting Question Answering",
+      "Shopping List Generation",
+      "Instruction Following",
+      "Narrative Generation",
+      "Summarization",
+      "Multiple Choice Necessity Classification",
+      "Interpretive Art Analysis",
+      "Open-Domain Question Answering",
+      "Hypernym Classification"
+    ],
     "Text Sources": [
-      "huggingface.co/datasets/mlabonne/alpagasus",
-      "https://learning.aljazeera.net/ar/asktheteacher"
+      "learning.aljazeera.net/ar/asktheteacher"
     ],
     "Model Generated": ["OpenAI GPT-3.5-Turbo"],
     "Format": ["Zero-shot"],
