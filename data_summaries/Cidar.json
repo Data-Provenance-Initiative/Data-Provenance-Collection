@@ -1,5 +1,5 @@
 {
-  "dataset-name (must match unique identifier)": {
+  "cidar": {
     "Unique Dataset Identifier": "cidar",
     "Dataset Name": "cidar",
     "Paper Title": "CIDAR: Culturally Relevant Instruction Dataset For Arabic",
@@ -13,8 +13,11 @@
     "Collection URL": "https://hf.co/datasets/arbml/CIDAR",
     "Languages": ["Arabic"],
     "Task Categories": ["Instruction Generation"],
-    "Text Sources": ["huggingface.co/datasets/mlabonne/alpagasus"],
-    "Model Generated": ["GPT-3.5 Turbo"],
+    "Text Sources": [
+      "huggingface.co/datasets/mlabonne/alpagasus",
+      "https://learning.aljazeera.net/ar/asktheteacher"
+    ],
+    "Model Generated": ["OpenAI GPT-3.5-Turbo"],
     "Format": ["Zero-shot"],
     "Human Annotation": "Yes",
     "Derived from Datasets": ["Alpagasus"],
