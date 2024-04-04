@@ -575,7 +575,7 @@ def prepare_lima(row):
         })
         parent = i
     return messages
-    
+   
 def prepare_tool_llama(row):
     return convert_inputs_targets_to_messages(
         row['context'] + row['instruction'],
@@ -631,6 +631,22 @@ def prepare_open_orca(row):
         {"from": "assistant", "text": outputs.strip(), "parent": 0},
     ]
 
+
+def prepare_selfee(row):
+    outputs = row["outputs"]
+    parsed_outputs = ''
+    for index, elem in enumerate(outputs):
+        feedback = elem["feedback"]
+        output = elem["output"]
+        feedback_number = index + 1 
+        revision_number = index
+        if index != 0:
+            output = "\n\n### Revision {number}:\n{revision}".format(number=revision_number, revision=output) 
+        parsed_outputs += output + "\n\n### Feedback {number}:\n{feedback}".format(number=feedback_number, feedback=feedback)
+    return convert_inputs_targets_to_messages(
+        row['instruction'], parsed_outputs, "selfee",
+    )
+
 def prepare_pmc_llama(row):
     inputs = "".join([row['instruction'] + row['input']])
     return convert_inputs_targets_to_messages(
@@ -681,6 +697,54 @@ def prepare_agentinstruct(row):
                 "parent": dataset['id'].split('_')[0] if i == -1 else i,
             })
     return messages
+
+
+def prepare_indic_instruct(row):
+    ''' This dataset conatins lots of other datasets, each having their own format. A different prepare method is needed for each sub-dataset 
+    Some datasets such as 'hh-rlhf', 'lm_sys', 'oasst1' have same forrmat and thus they have the prepare method below
+    '''
+    if row['dataset'] == 'anudesh' : 
+        return convert_inputs_targets_to_messages(
+            row['messages'][0]['content'], row['messages'][1]['content'], row['dataset']
+        )
+
+    if row['dataset'] == 'dolly' : 
+        input_text = re.sub(r'\s*\[.*?\]\s*', '', "\n".join([row["context"], row["instruction"]]).strip())
+        target_text = re.sub(r'\s*\[.*?\]\s*', '', row["response"])
+        return convert_inputs_targets_to_messages(
+            input_text, target_text, row["dataset"]
+        )
+
+    if row['dataset'] == 'flan_v2' : 
+        return convert_inputs_targets_to_messages(
+            row["inputs"], row["targets"], row['dataset']
+        )
+
+    if row['dataset'] in ['hh-rlhf', 'lm_sys', 'oasst1'] : 
+        messages = []
+        for i, turn in enumerate(row['messages']):
+            messages.append({
+                "from": turn["role"],
+                "text": turn["content"].strip(),
+                "parent": row['dataset'] if turn["role"]=='user' else 0,
+            })
+        return messages
+
+    if row['dataset'] == 'nmt-seed' : 
+        return convert_inputs_targets_to_messages(
+            row["input_text"], row["output_text"], row['dataset']
+        )
+
+    if row['dataset'] == 'wikihow' : 
+        input_text = row["intro"]
+        for i, turn in enumerate(row["steps"]) : 
+            input_text += '\n' + turn['description']
+        input_text += row['messages'][0]['content']
+
+        target_text = row['messages'][1]['content']
+        return convert_inputs_targets_to_messages(
+            input_text, target_text, row["dataset"]
+        )
 
 
 def prepare_pii_masking_200k(row):

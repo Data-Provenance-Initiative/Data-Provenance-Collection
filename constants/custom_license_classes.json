@@ -233,5 +233,10 @@
         "Acad",
         "0",
         "0"
+    ],
+    "https://huggingface.co/datasets/lmsys/lmsys-chat-1m#lmsys-chat-1m-dataset-license-agreement":[
+        "All",
+        "0",
+        "0"
     ]
 }

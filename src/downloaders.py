@@ -266,6 +266,9 @@ def download_open_assistant(accepted_filter_ids):
     dset = huggingface_download("OpenAssistant/oasst1", split='train')
     return pool_filter(dset, "lang", accepted_filter_ids)
 
+def download_open_assistant_v2(accepted_filter_ids):
+    dset = huggingface_download("OpenAssistant/oasst2", split='train')
+    return pool_filter(dset, "lang", accepted_filter_ids)
 
 def download_open_assistant_octopack(accepted_filter_ids):
     return huggingface_download("bigcode/oasst-octopack", split='train')
@@ -349,8 +352,14 @@ def download_feedback_collection(accepted_filter_ids):
 def download_evol_instruct(accepted_filter_ids):
     return huggingface_download('WizardLM/evol_instruct_70k', split='train')
 
+  
+def download_selfee(accepted_filter_ids):
+    return huggingface_download('kaist-ai/selfee-train', split='train')
+
+
 def download_llama2_med_tuned_instructions(accepted_filter_ids):
     return huggingface_download('nlpie/Llama2-MedTuned-Instructions', split='train')
+
 
 def download_sharegpt_vicuna(accepted_filter_ids):
     sharegpt_dir = "anon8231489123/ShareGPT_Vicuna_unfiltered"
@@ -788,6 +797,26 @@ def download_agentinstruct(accepted_filter_ids):
     return dset
 
 
+def download_indic_instruct(accepted_filter_ids):
+    dset = []
+    ## Each dataset has a different format, thus storing dataset name info for next step
+    for data_name in accepted_filter_ids :
+        if data_name == 'nmt-seed' :
+            ##nmt-seed doesn't have en split, rest all datasets have 2 splits - en and hi
+            data_hi = huggingface_download('ai4bharat/indic-instruct-data-v0.1', name=data_name, split='hi')
+            data_hi = [{**d, 'dataset': data_name, 'language': 'hi'} for d in data_hi]
+            dset += data_hi
+        else : 
+            data_en = huggingface_download('ai4bharat/indic-instruct-data-v0.1', name=data_name, split='en')
+            data_en = [{**d, 'dataset': data_name, 'language': 'en'} for d in data_en]
+            data_hi = huggingface_download('ai4bharat/indic-instruct-data-v0.1', name=data_name, split='hi')
+            data_hi = [{**d, 'dataset': data_name, 'language': 'hi'} for d in data_hi]
+            dset += data_en
+            dset += data_hi
+
+    return dset
+
+  
 def download_open_platypus(accepted_filter_ids):
     dset = huggingface_download("garage-bAInd/Open-Platypus", split="train")
     return pool_filter(dset, "data_source", accepted_filter_ids)
@@ -802,3 +831,4 @@ def download_bactrianx(accepted_filter_ids):
         dset = annotate_source(dset, dset_name)
         dsets.extend(dset)
     return dsets
+
