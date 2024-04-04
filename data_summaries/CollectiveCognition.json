@@ -1,0 +1,46 @@
+{
+    "CollectiveCognition": {
+        "Unique Dataset Identifier": "CollectiveCognition",
+        "Dataset Name": "Collective Cognition Chat Data",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/CollectiveCognition/chats-data-2023-10-16",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/CollectiveCognition/chats-data-2023-10-16",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 0,
+        "Collection": "CollectiveCognition",
+        "Collection URL": "https://huggingface.co/datasets/CollectiveCognition/chats-data-2023-10-16",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Natural Language Processing Question Answering"
+        ],
+        "Text Sources": [
+            "https://collectivecognition.ai"
+        ],
+        "Model Generated": [
+            "Other"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "CollectiveCognition"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "The MIT license allows for almost unrestricted freedom in how the dataset is used, as long as the original license and copyright notice is included with any substantial portion of the dataset.",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "CC-chats-data-2023-10-16"
+        ]
+    }
+}
