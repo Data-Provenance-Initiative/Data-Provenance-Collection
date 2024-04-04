@@ -56,9 +56,18 @@ COLLECTION_FN_MAPPER = {
         "prepare_function": preparers.prepare_open_assistant,
         "custom_prepare": True,
     },
+    "Open Assistant v2": {
+        "download_function": downloaders.download_open_assistant_v2,
+        "prepare_function": preparers.prepare_open_assistant,
+        "custom_prepare": True,
+    },
     "Open Assistant OctoPack": {
         "download_function": downloaders.download_open_assistant_octopack,
         "prepare_function": preparers.prepare_oasst_octopack,
+    },
+    "Indic-Instruct": {
+        "download_function": downloaders.download_indic_instruct,
+        "prepare_function": preparers.prepare_indic_instruct,
     },
     "OpenAI (Summarize from Feedback)": {
         "download_function": downloaders.download_openai_summarization,
@@ -232,6 +241,10 @@ COLLECTION_FN_MAPPER = {
     "Open Orca": {
         "download_function": downloaders.download_open_orca,
         "prepare_function": preparers.prepare_open_orca,
+    },
+    "SelFee":{
+        "download_function": downloaders.download_selfee,
+        "prepare_function": preparers.prepare_selfee,
     },
     "SeaBench": {
         "download_function": downloaders.download_seabench,
