@@ -89,6 +89,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_alpaca,
         "prepare_function": preparers.prepare_alpaca,
     },
+    "Nectar": {
+        "download_function": downloaders.download_nectar,
+        "prepare_function": preparers.prepare_nectar,
+    },
     "MetaMathQA": {
         "download_function": downloaders.download_metamathqa,
         "prepare_function": preparers.prepare_metamathqa,
@@ -262,7 +266,11 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_agentinstruct,
         "prepare_function": preparers.prepare_agentinstruct,
     },
-    "PII-masking-200k": {
+    "Cidar": {
+        "download_function": downloaders.download_cidar,
+        "prepare_function": preparers.prepare_cidar,
+    },
+    "PII-Masking-200k": {
         "download_function": downloaders.download_pii_masking_200k,
         "prepare_function": preparers.prepare_pii_masking_200k,
     },

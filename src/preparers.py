@@ -332,6 +332,43 @@ def prepare_pure_dove(row):
         parent_id += 1
     return messages
 
+def prepare_nectar(row):
+    human = []
+    assistant = []
+    messages = []
+
+    if row["turns"] == 1:
+        input = row["prompt"].split("Assistant:")[0].strip()
+        output = row["answers"][0]["answer"]
+        return convert_inputs_targets_to_messages(
+            input, output, "nectar",
+        )
+    else:
+        # Split the conversation based on "Human:" and "Assistant:" tags
+        segments = row["prompt"].split("Human: ")[1:]
+        # Extract human and assistant texts
+        for segment in segments:
+            parts = segment.split("Assistant:")
+            human.append(parts[0].strip())
+            if len(parts) > 1:
+                assistant.append(parts[1].strip())
+        assistant.append(row["answers"][0]["answer"])
+        parent_id = 0
+        for index, (h, a) in enumerate(zip(human, assistant)):
+            messages.append({
+                "from": "user",
+                "text": h.strip(),
+                "parent": "nectar" if index == 0 else parent_id,
+            })
+            if parent_id != 0:
+                parent_id += 1
+            messages.append({
+                "from": "assistant",
+                "text": a.strip(),
+                "parent": parent_id,
+            })
+            parent_id += 1
+        return messages
 
 def prepare_feedback_collection(row):
     return convert_inputs_targets_to_messages(
@@ -698,6 +735,13 @@ def prepare_agentinstruct(row):
             })
     return messages
 
+
+def prepare_cidar(row):
+    return convert_inputs_targets_to_messages(
+        row['instruction'],
+        row['output'],
+        'cidar',
+    )
 
 def prepare_indic_instruct(row):
     ''' This dataset conatins lots of other datasets, each having their own format. A different prepare method is needed for each sub-dataset 
