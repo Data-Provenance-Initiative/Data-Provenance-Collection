@@ -838,3 +838,12 @@ def download_bactrianx(accepted_filter_ids):
         dsets.extend(dset)
     return dsets
 
+
+def download_cobra_frames(accepted_filter_ids):
+    mapping = {
+        'normal': accepted_filter_ids[0],
+    }
+    dset = huggingface_download('cmu-lti/cobracorpus', data_files={'normal': 'toxigen_explanations.csv'})
+    dset = annotate_source(dset['normal'], mapping['normal'])
+    return dset
+
