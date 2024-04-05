@@ -847,3 +847,24 @@ def download_cobra_frames(accepted_filter_ids):
     dset = annotate_source(dset['normal'], mapping['normal'])
     return dset
 
+
+def download_megawika(accepeted_filter_ids):
+
+    def generate_exs(row, lang):
+        context = row["article_title"] + "\n\n" + row["article_text"]
+        exs = []
+        for qa_pairs in row["entries"]["qa_pairs"]:
+            for i, question in enumerate(qa_pairs["question"]):
+                exs.append({
+                    "input": context + "\n\n\n" + question, 
+                    "output": "Answer: " + qa_pairs["en_answer"][i], 
+                    "source": lang
+                })
+        return exs
+
+    exs = []
+    for filter_id in accepeted_filter_ids:
+        dset = huggingface_download("hltcoe/megawika", name=filter_id, split=filter_id)
+        for row in dset:
+            exs.extend(generate_exs(row, filter_id))
+    return exs

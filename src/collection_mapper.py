@@ -293,5 +293,9 @@ COLLECTION_FN_MAPPER = {
     "Cobra Frames": {
         "download_function": downloaders.download_cobra_frames,
         "prepare_function": preparers.prepare_cobra_frames,
+    },
+    "MegaWika": {
+        "download_function": downloaders.download_megawika,
+        "prepare_function": preparers.prepare_megawika,
     }
 }

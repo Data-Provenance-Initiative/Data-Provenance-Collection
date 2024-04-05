@@ -864,3 +864,11 @@ def prepare_bactrianx(row):
         {"from": "user", "text": inputs, "parent": row["_source"]},
         {"from": "assistant", "text": outputs, "parent": 0},
     ]
+
+
+def prepare_megawika(row):
+    return convert_inputs_targets_to_messages(
+        row["input"],
+        row["output"],
+        row["source"]
+    )
