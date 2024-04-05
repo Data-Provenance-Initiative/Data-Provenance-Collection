@@ -346,6 +346,9 @@ def download_metamathqa(accepted_filter_ids):
 def download_pure_dove(accepted_filter_ids):
     return huggingface_download('LDJnr/Pure-Dove', split='train')
 
+def download_nectar(accepted_filter_ids):
+    return huggingface_download('berkeley-nest/Nectar', split='train')
+    
 def download_feedback_collection(accepted_filter_ids):
     return huggingface_download('kaist-ai/Feedback-Collection')
 
@@ -796,6 +799,9 @@ def download_agentinstruct(accepted_filter_ids):
 
     return dset
 
+
+def download_cidar(accepted_filter_ids):
+    return huggingface_download('arbml/CIDAR', split='train')
 
 def download_indic_instruct(accepted_filter_ids):
     dset = []

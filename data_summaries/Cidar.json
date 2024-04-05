@@ -1,0 +1,50 @@
+{
+  "cidar": {
+    "Unique Dataset Identifier": "cidar",
+    "Dataset Name": "cidar",
+    "Paper Title": "CIDAR: Culturally Relevant Instruction Dataset For Arabic",
+    "Dataset URL": "https://github.com/ARBML/CIDAR",
+    "GitHub URL": "https://github.com/ARBML/CIDAR",
+    "Hugging Face URL": "https://hf.co/datasets/arbml/CIDAR",
+    "Papers with Code URL": "https://paperswithcode.com/dataset/cidar",
+    "ArXiv URL": "https://arxiv.org/abs/2402.03177",
+    "Semantic Scholar Corpus ID": "267413026",
+    "Collection": "Cidar",
+    "Collection URL": "https://hf.co/datasets/arbml/CIDAR",
+    "Languages": ["Arabic"],
+    "Task Categories": [
+      "Instruction Generation",
+      "Binary Classification Question Answering",
+      "Goal Setting Question Answering",
+      "Shopping List Generation",
+      "Instruction Following",
+      "Narrative Generation",
+      "Summarization",
+      "Multiple Choice Necessity Classification",
+      "Interpretive Art Analysis",
+      "Open-Domain Question Answering",
+      "Hypernym Classification"
+    ],
+    "Text Sources": [
+      "learning.aljazeera.net/ar/asktheteacher"
+    ],
+    "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+    "Format": ["Zero-shot"],
+    "Human Annotation": "Yes",
+    "Derived from Datasets": ["Alpagasus"],
+    "Creators": ["ArbML"],
+    "Licenses": [
+      {
+        "License": "CC BY-NC 4.0",
+        "License URL": "https://github.com/ARBML/CIDAR?tab=readme-ov-file#-license"
+      },
+      {
+        "License": "OpenAI",
+        "License URL": "https://crfm.stanford.edu/2023/03/13/alpaca.html"
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "Emad Alghamdi",
+    "Dataset Filter IDs": ["cidar"]
+  }
+}
