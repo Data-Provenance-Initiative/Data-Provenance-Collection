@@ -127,6 +127,7 @@
         "Discourse Analysis",
         "Grammatical Acceptability",
         "Interpretive Art Analysis",
+        "Language Style Analysis",
         "Linguistic Analysis",
         "Linguistic Probing",
         "Literary Analysis",
@@ -213,7 +214,8 @@
         "Text Modification",
         "Title Generation",
         "User Interface Design Suggestion",
-        "Wrong Candidate Generation"
+        "Wrong Candidate Generation",
+        "Long-form Response Evaluation"
     ],
     "Question Answering": [
         "API Endpoint Creation Question Answering",

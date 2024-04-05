@@ -1,0 +1,56 @@
+{
+    "selfee": {
+        "Unique Dataset Identifier": "selfee",
+        "Dataset Name": "selfee",
+        "Paper Title": "SelFee: Iterative Self-Revising LLM Empowered by Self-Feedback Generation",
+        "Dataset URL": "https://huggingface.co/datasets/kaist-ai/selfee-train",
+        "GitHub URL": "https://github.com/kaistAI/SelFee",
+        "Hugging Face URL": "https://huggingface.co/datasets/kaist-ai/selfee-train",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "SelFee",
+        "Collection URL": "https://huggingface.co/datasets/kaist-ai/selfee-train",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Explanation Generation",
+            "Instruction Following",
+            "Logical Reasoning",
+            "Code Completion",
+            "Code Modification Question Answering",
+            "Answer Verification",
+            "Open-form Text Generation"
+        ],
+        "Text Sources": [],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "KAIST"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/kaistAI/SelFee"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://github.com/kaistAI/SelFee"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Seonghyeon Ye",
+        "Dataset Filter IDs": [
+            "selfee"
+        ],
+        "Bibtex": ""
+    }
+}
