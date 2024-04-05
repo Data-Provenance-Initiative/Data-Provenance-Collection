@@ -21,7 +21,9 @@
         "Text Sources": [
             "math"
         ],
-        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo"
+        ],
         "Format": [
             "Few-shot",
             "Chain-of-Thought",
@@ -57,8 +59,10 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "MATH_Rephrased"
-        ]
-    },"metamathqa-MATH_AnsAug": {
+        ],
+        "Bibtex": ""
+    },
+    "metamathqa-MATH_AnsAug": {
         "Unique Dataset Identifier": "metamathqa-MATH_AnsAug",
         "Dataset Name": "metamathqa_MATH_AnsAug",
         "Paper Title": "MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models",
@@ -80,7 +84,9 @@
         "Text Sources": [
             "math"
         ],
-        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo"
+        ],
         "Format": [
             "Few-shot",
             "Chain-of-Thought",
@@ -116,7 +122,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "MATH_AnsAug"
-        ]
+        ],
+        "Bibtex": ""
     },
     "metamathqa-MATH_FOBAR": {
         "Unique Dataset Identifier": "metamathqa-MATH_FOBAR",
@@ -140,7 +147,9 @@
         "Text Sources": [
             "math"
         ],
-        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo"
+        ],
         "Format": [
             "Few-shot",
             "Chain-of-Thought",
@@ -176,7 +185,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "MATH_FOBAR"
-        ]
+        ],
+        "Bibtex": ""
     },
     "metamathqa-MATH_SV": {
         "Unique Dataset Identifier": "metamathqa-MATH_SV",
@@ -200,7 +210,9 @@
         "Text Sources": [
             "math"
         ],
-        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo"
+        ],
         "Format": [
             "Few-shot",
             "Chain-of-Thought",
@@ -236,7 +248,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "MATH_SV"
-        ]
+        ],
+        "Bibtex": ""
     },
     "metamathqa-GSM_Rephrased": {
         "Unique Dataset Identifier": "metamathqa-GSM_Rephrased",
@@ -260,7 +273,9 @@
         "Text Sources": [
             "gsm8k"
         ],
-        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo"
+        ],
         "Format": [
             "Few-shot",
             "Chain-of-Thought",
@@ -296,7 +311,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "GSM_Rephrased"
-        ]
+        ],
+        "Bibtex": ""
     },
     "metamathqa-GSM_AnsAug": {
         "Unique Dataset Identifier": "metamathqa-GSM_AnsAug",
@@ -320,7 +336,9 @@
         "Text Sources": [
             "gsm8k"
         ],
-        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo"
+        ],
         "Format": [
             "Few-shot",
             "Chain-of-Thought",
@@ -356,7 +374,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "GSM_AnsAug"
-        ]
+        ],
+        "Bibtex": ""
     },
     "metamathqa-GSM_FOBAR": {
         "Unique Dataset Identifier": "metamathqa-GSM_FOBAR",
@@ -380,7 +399,9 @@
         "Text Sources": [
             "gsm8k"
         ],
-        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo"
+        ],
         "Format": [
             "Few-shot",
             "Chain-of-Thought",
@@ -416,7 +437,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "GSM_FOBAR"
-        ]
+        ],
+        "Bibtex": ""
     },
     "metamathqa-GSM_SV": {
         "Unique Dataset Identifier": "metamathqa-GSM_SV",
@@ -440,7 +462,9 @@
         "Text Sources": [
             "gsm8k"
         ],
-        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo"
+        ],
         "Format": [
             "Few-shot",
             "Chain-of-Thought",
@@ -476,6 +500,7 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "GSM_SV"
-        ]
+        ],
+        "Bibtex": ""
     }
 }
