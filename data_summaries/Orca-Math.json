@@ -1,0 +1,66 @@
+{
+    "orca-math": {
+        "Unique Dataset Identifier": "orca-math-word-problems",
+        "Dataset Name": "orca-math-word-problems",
+        "Paper Title": "Orca-Math: Unlocking the potential of SLMs in Grade School Math",
+        "Dataset URL": "https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2402.14830",
+        "Semantic Scholar Corpus ID": 267897618,
+        "Collection": "Orca-Math",
+        "Collection URL": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Logical and Mathematical Reasoning",
+            "Logical Reasoning Question Answering"
+        ],
+        "Text Sources": [
+            "arithmetic word problems",
+            "Grade School Math"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4-Turbo"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "NumGLUE",
+            "AddSub",
+            "ALGES",
+            "ASDiv",
+            "DRAW",
+            "GSM8K",
+            "MATHQA",
+            "MultiArith",
+            "SingeOP",
+            "SingleEQ",
+            "SVAMP",
+            "Lila",
+            "DMath"
+        ],
+        "Creators": [
+            "Microsoft"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "orca-math-word-problems"
+        ]
+    }
+}
