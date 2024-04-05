@@ -102,7 +102,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Li2023CAMELCA,\n author = {G. Li and Hasan Hammoud and Hani Itani and Dmitrii Khizbullin and Bernard Ghanem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society},\n volume = {abs/2303.17760},\n year = {2023}\n}\n"
     },
     "camelai-chemistry": {
         "Unique Dataset Identifier": "camelai-chemistry",
@@ -207,7 +208,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Li2023CAMELCA,\n author = {G. Li and Hasan Hammoud and Hani Itani and Dmitrii Khizbullin and Bernard Ghanem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society},\n volume = {abs/2303.17760},\n year = {2023}\n}\n"
     },
     "camelai-biology": {
         "Unique Dataset Identifier": "camelai-biology",
@@ -312,6 +314,7 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Li2023CAMELCA,\n author = {G. Li and Hasan Hammoud and Hani Itani and Dmitrii Khizbullin and Bernard Ghanem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society},\n volume = {abs/2303.17760},\n year = {2023}\n}\n"
     }
 }

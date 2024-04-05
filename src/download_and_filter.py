@@ -9,6 +9,7 @@ from collection_mapper import COLLECTION_FN_MAPPER
 import constants
 import data_provenance_card as data_provenance_card
 from downloader import Downloader
+import data_bibtex as data_bibtex
 
 
 def check_args(args):
@@ -415,6 +416,7 @@ if __name__ == "__main__":
         args.tasks,
         args.savedir,
     )
+    data_bibtex.generate_bibtex(filtered_data_summary, save_to_file=True, output_dir=args.savedir)
 
     collection_to_keys = get_collection_to_uid_and_filter_ids(filtered_data_summary)
     for collection_key, uid_task_keys in collection_to_keys.items():

@@ -58,6 +58,44 @@ def prepare_commitpackft(row):
     )
 
 
+def prepare_cobra_frames(row):
+    """
+    CobraFrames dataset has a structure where each row is one of the elements in the frame for harmful statement.
+    fomatting foces on the structure of the input and output given the row.
+    The first 4 elements are context, speaker, listener, and statement check, serving as the context for the statement.
+    The rest of the elements are the structured explanation for the statement
+    """
+
+    formatting = {
+    "speechContext": "[Context of statement] {}[/]",
+    "speakerIdentity": "[Speaker identity/characteristics] {}[/]",
+    "listenerIdentity": "[Listener identity/characteristics] {}[/]",
+    "statementCheck": "[The statement is complete and understandable] {}[/]",
+    "relevantPowerDynamics": "[Relevant power dynamics] {}[/]",
+    "conversationContext": "[Conversational context] {}[/]",
+    "statement": "[Statement] {}[/]",
+    "intent": "[Intent] {}[/]",
+    "offensiveness": "[Offensiveness] {}[/]",
+    "targetGroup": "[Targeted/referenced minority group] {}[/]",
+    "implication": "[Implied meaning/stereotype] {}[/]",
+    "targetGroupEmotionalReaction": "[Targeted minority group emotional reaction] {}[/]",
+    "targetGroupCognitiveReaction": "[Targeted minority group cognitive reaction] {}[/]",
+    }
+
+    f = [   
+            formatting[v].format(row[v])
+            for v in row.keys() if v in formatting
+        ]
+    input_instructions = "Following the examples and complete the structured explanation for the given statement.\n\n" + row['examples'] 
+    input_context = "\n".join(f[1:5])
+    output = "\n".join(f[5:])
+    return convert_inputs_targets_to_messages(
+        input_instructions + "\n" + input_context,
+        output,
+        row["_source"]
+    )
+
+
 def prepare_dolly_15k(row):
     input_text = re.sub(r'\s*\[.*?\]\s*', '', "\n".join([row["context"], row["instruction"]]).strip())
     target_text = re.sub(r'\s*\[.*?\]\s*', '', row["response"])

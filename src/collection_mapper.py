@@ -117,7 +117,7 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_pure_dove,
         "prepare_function": preparers.prepare_pure_dove,
     },
-    "Feedback-Collection": {
+    "Feedback Collection": {
         "download_function": downloaders.download_feedback_collection,
         "prepare_function": preparers.prepare_feedback_collection,
     },
@@ -294,4 +294,8 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_orca_math,
         "prepare_function": preparers.prepare_orca_math,
     },
+    "Cobra Frames": {
+        "download_function": downloaders.download_cobra_frames,
+        "prepare_function": preparers.prepare_cobra_frames,
+    }
 }
