@@ -78,7 +78,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-ade_corpus_v2": {
         "Unique Dataset Identifier": "fc-sni-ade_corpus_v2",
@@ -164,7 +165,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Gurulingappa2012DevelopmentOA,\n author = {H. Gurulingappa and A. Rajput and A. Roberts and J. Fluck and M. Hofmann-Apitius and L. Toldo},\n booktitle = {Journal of Biomedical Informatics},\n journal = {Journal of biomedical informatics},\n pages = {\n          885-92\n        },\n title = {Development of a benchmark corpus to support the automatic extraction of drug-related adverse effects from medical case reports},\n volume = {45 5},\n year = {2012}\n}\n"
     },
     "fc-sni-adversarial_qa": {
         "Unique Dataset Identifier": "fc-sni-adversarial_qa",
@@ -251,7 +253,8 @@
         "Derived from Datasets": [
             "SQuADv1"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Bartolo2020BeatTA,\n author = {Max Bartolo and A. Roberts and Johannes Welbl and Sebastian Riedel and Pontus Stenetorp},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {662-678},\n title = {Beat the AI: Investigating Adversarial Human Annotation for Reading Comprehension},\n volume = {8},\n year = {2020}\n}\n"
     },
     "fc-sni-adverserial_qa": {
         "Unique Dataset Identifier": "fc-sni-adverserial_qa",
@@ -329,7 +332,8 @@
         "Derived from Datasets": [
             "SQuADv1"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Bartolo2020BeatTA,\n author = {Max Bartolo and A. Roberts and Johannes Welbl and Sebastian Riedel and Pontus Stenetorp},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {662-678},\n title = {Beat the AI: Investigating Adversarial Human Annotation for Reading Comprehension},\n volume = {8},\n year = {2020}\n}\n"
     },
     "fc-sni-afs": {
         "Unique Dataset Identifier": "fc-sni-afs",
@@ -412,7 +416,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-ag_news": {
         "Unique Dataset Identifier": "fc-sni-ag_news",
@@ -499,7 +504,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Zhang2015CharacterlevelCN,\n author = {Xiang Zhang and J. Zhao and Yann LeCun},\n booktitle = {Neural Information Processing Systems},\n pages = {649-657},\n title = {Character-level Convolutional Networks for Text Classification},\n year = {2015}\n}\n"
     },
     "fc-sni-ai2_arithmetic_questions": {
         "Unique Dataset Identifier": "fc-sni-ai2_arithmetic_questions",
@@ -583,7 +589,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Koncel-Kedziorski2015ParsingAW,\n author = {Rik Koncel-Kedziorski and Hannaneh Hajishirzi and Ashish Sabharwal and Oren Etzioni and S. Ang},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {585-597},\n title = {Parsing Algebraic Word Problems into Equations},\n volume = {3},\n year = {2015}\n}\n"
     },
     "fc-sni-air_dialogue": {
         "Unique Dataset Identifier": "fc-sni-air_dialogue",
@@ -670,7 +677,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wei2018AirDialogueAE,\n author = {Wei Wei and Quoc V. Le and Andrew M. Dai and Jia Li},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {3844-3854},\n title = {AirDialogue: An Environment for Goal-Oriented Dialogue Research},\n year = {2018}\n}\n"
     },
     "fc-sni-ajgt_twitter_ar": {
         "Unique Dataset Identifier": "fc-sni-ajgt_twitter_ar",
@@ -753,7 +761,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Alomari2017ArabicTS,\n author = {K. Alomari and H. M. Elsherif and K. Shaalan},\n booktitle = {International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems},\n pages = {602-610},\n title = {Arabic Tweets Sentimental Analysis Using Machine Learning},\n year = {2017}\n}\n"
     },
     "fc-sni-allegro_reviews": {
         "Unique Dataset Identifier": "fc-sni-allegro_reviews",
@@ -834,7 +843,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Rybak2020KLEJCB,\n author = {Piotr Rybak and Robert Mroczkowski and Janusz Tracz and Ireneusz Gawlik},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {KLEJ: Comprehensive Benchmark for Polish Language Understanding},\n volume = {abs/2005.00630},\n year = {2020}\n}\n"
     },
     "fc-sni-allocine": {
         "Unique Dataset Identifier": "fc-sni-allocine",
@@ -916,7 +926,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-amazon_and_yelp_summarization_dataset": {
         "Unique Dataset Identifier": "fc-sni-amazon_and_yelp_summarization_dataset",
@@ -1009,7 +1020,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Bravzinskas2020FewShotLF,\n author = {Arthur Bravzinskas and Mirella Lapata and Ivan Titov},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {4119-4135},\n title = {Few-Shot Learning for Opinion Summarization},\n year = {2020}\n}\n"
     },
     "fc-sni-amazon_fine_food_reviews": {
         "Unique Dataset Identifier": "fc-sni-amazon_fine_food_reviews",
@@ -1090,7 +1102,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-amazon_polarity": {
         "Unique Dataset Identifier": "fc-sni-amazon_polarity",
@@ -1182,7 +1195,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Zhang2015CharacterlevelCN,\n author = {Xiang Zhang and J. Zhao and Yann LeCun},\n booktitle = {Neural Information Processing Systems},\n pages = {649-657},\n title = {Character-level Convolutional Networks for Text Classification},\n year = {2015}\n}\n"
     },
     "fc-sni-amazon_us_reviews": {
         "Unique Dataset Identifier": "fc-sni-amazon_us_reviews",
@@ -1265,7 +1279,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-ambigqa": {
         "Unique Dataset Identifier": "fc-sni-ambigqa",
@@ -1353,7 +1368,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Min2020AmbigQAAA,\n author = {Sewon Min and Julian Michael and Hannaneh Hajishirzi and Luke Zettlemoyer},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {5783-5797},\n title = {AmbigQA: Answering Ambiguous Open-domain Questions},\n year = {2020}\n}\n"
     },
     "fc-sni-ancora_ca_ner": {
         "Unique Dataset Identifier": "fc-sni-ancora_ca_ner",
@@ -1425,7 +1441,8 @@
             "Text Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-anem": {
         "Unique Dataset Identifier": "fc-sni-anem",
@@ -1515,7 +1532,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Inproceedings{Ohta2012OpendomainAE,\n author = {Tomoko Ohta and Sampo Pyysalo and Junichi Tsujii and S. Ananiadou},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {27-36},\n title = {Open-domain Anatomical Entity Mention Detection},\n year = {2012}\n}\n"
     },
     "fc-sni-anli": {
         "Unique Dataset Identifier": "fc-sni-anli",
@@ -1609,7 +1627,8 @@
             "RTE5",
             "Manually Annotated Sub-Corpus (MASC) of the Open American National Corpus"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Nie2019AdversarialNA,\n author = {Yixin Nie and Adina Williams and Emily Dinan and Mohit Bansal and J. Weston and Douwe Kiela},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Adversarial NLI: A New Benchmark for Natural Language Understanding},\n volume = {abs/1910.14599},\n year = {2019}\n}\n"
     },
     "fc-sni-app_reviews": {
         "Unique Dataset Identifier": "fc-sni-app_reviews",
@@ -1690,7 +1709,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-aqua": {
         "Unique Dataset Identifier": "fc-sni-aqua",
@@ -1773,7 +1793,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Ling2017ProgramIB,\n author = {Wang Ling and Dani Yogatama and Chris Dyer and Phil Blunsom},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {158-167},\n title = {Program Induction by Rationale Generation: Learning to Solve and Explain Algebraic Word Problems},\n year = {2017}\n}\n"
     },
     "fc-sni-aquamuse": {
         "Unique Dataset Identifier": "fc-sni-aquamuse",
@@ -1856,7 +1877,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Kulkarni2020AQuaMuSeAG,\n author = {Sayali Kulkarni and Sheide Chammas and Wan Zhu and Fei Sha and Eugene Ie},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {AQuaMuSe: Automatically Generating Datasets for Query-Based Multi-Document Summarization},\n volume = {abs/2010.12694},\n year = {2020}\n}\n"
     },
     "fc-sni-arc": {
         "Unique Dataset Identifier": "fc-sni-arc",
@@ -1938,7 +1960,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Clark2018ThinkYH,\n author = {Peter Clark and Isaac Cowhey and Oren Etzioni and Tushar Khot and Ashish Sabharwal and Carissa Schoenick and Oyvind Tafjord},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge},\n volume = {abs/1803.05457},\n year = {2018}\n}\n"
     },
     "fc-sni-argkp": {
         "Unique Dataset Identifier": "fc-sni-argkp",
@@ -2020,7 +2043,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Bar-Haim2020QuantitativeAS,\n author = {Roy Bar-Haim and Yoav Kantor and Lilach Eden and Roni Friedman and Dan Lahav and N. Slonim},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {39-49},\n title = {Quantitative Argument Summarization and beyond: Cross-Domain Key Point Analysis},\n year = {2020}\n}\n"
     },
     "fc-sni-asian_language_treebank": {
         "Unique Dataset Identifier": "fc-sni-asian_language_treebank",
@@ -2107,7 +2131,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Conference{Riza2016IntroductionOT,\n author = {Hammam Riza and Michael Purwoadi and Gunarso and Teduh Uliniansyah and Aw Ai Ti and Sharifah Mahani Aljunied and Luong Chi Mai and V. Thang and N. Thai and Vichet Chea and Rapid Sun and Sethserey Sam and Sopheap Seng and K. Soe and K. Nwet and M. Utiyama and Chenchen Ding},\n booktitle = {Oriental COCOSDA International Conference on Speech Database and Assessments},\n journal = {2016 Conference of The Oriental Chapter of International Committee for Coordination and Standardization of Speech Databases and Assessment Techniques (O-COCOSDA)},\n pages = {1-6},\n title = {Introduction of the Asian Language Treebank},\n year = {2016}\n}\n"
     },
     "fc-sni-asset": {
         "Unique Dataset Identifier": "fc-sni-asset",
@@ -2198,7 +2223,8 @@
         "Derived from Datasets": [
             "TurkCorpus"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Alva-Manchego2020ASSETAD,\n author = {Fernando Alva-Manchego and Louis Martin and Antoine Bordes and Carolina Scarton and Benoît Sagot and Lucia Specia},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {4668-4679},\n title = {ASSET: A Dataset for Tuning and Evaluation of Sentence Simplification Models with Multiple Rewriting Transformations},\n year = {2020}\n}\n"
     },
     "fc-sni-atomic": {
         "Unique Dataset Identifier": "fc-sni-atomic",
@@ -2289,7 +2315,8 @@
         "Derived from Datasets": [
             "Atomic (Sap et al 2019)"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Hwang2020COMETATOMIC2O,\n author = {Jena D. Hwang and Chandra Bhagavatula and Ronan Le Bras and Jeff Da and Keisuke Sakaguchi and Antoine Bosselut and Yejin Choi},\n booktitle = {AAAI Conference on Artificial Intelligence},\n pages = {6384-6392},\n title = {COMET-ATOMIC 2020: On Symbolic and Neural Commonsense Knowledge Graphs},\n year = {2020}\n}\n"
     },
     "fc-sni-babi": {
         "Unique Dataset Identifier": "fc-sni-babi",
@@ -2374,7 +2401,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weston2015TowardsAQ,\n author = {J. Weston and Antoine Bordes and S. Chopra and Tomas Mikolov},\n booktitle = {International Conference on Learning Representations},\n journal = {arXiv: Artificial Intelligence},\n title = {Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks},\n year = {2015}\n}\n"
     },
     "fc-sni-bard": {
         "Unique Dataset Identifier": "fc-sni-bard",
@@ -2466,7 +2494,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Fulda2017HarvestingCN,\n author = {Nancy Fulda and Nathan Tibbetts and Zachary Brown and D. Wingate},\n booktitle = {Conference on Robot Learning},\n pages = {525-534},\n title = {Harvesting Common-sense Navigational Knowledge for Robotics from Uncurated Text Corpora},\n year = {2017}\n}\n"
     },
     "fc-sni-bc2gm_corpus": {
         "Unique Dataset Identifier": "fc-sni-bc2gm_corpus",
@@ -2545,7 +2574,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Smith2008OverviewOB,\n author = {Larry L. Smith and L. Tanabe and Rie Ando and Cheng-Ju Kuo and I. Chung and Chun-Nan Hsu and Yu-Shi Lin and Roman Klinger and C. Friedrich and Kuzman Ganchev and Manabu Torii and Hongfang Liu and B. Haddow and C. Struble and R. Povinelli and Andreas Vlachos and W. Baumgartner and L. Hunter and Bob Carpenter and Richard Tzong-Han Tsai and Hong-Jie Dai and Feng Liu and Yifei Chen and Chengjie Sun and S. Katrenko and P. Adriaans and C. Blaschke and Rafael Torres and M. Neves and Preslav Nakov and A. Divoli and M. Maña-López and J. Mata and W. Wilbur},\n booktitle = {Genome Biology},\n journal = {Genome Biology},\n pages = {S2 - S2},\n title = {Overview of BioCreative II gene mention recognition},\n volume = {9},\n year = {2008}\n}\n"
     },
     "fc-sni-bengali_hate_speech_dataset": {
         "Unique Dataset Identifier": "fc-sni-bengali_hate_speech_dataset",
@@ -2655,7 +2685,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Karim2020ClassificationBF,\n author = {Md. Rezaul Karim and Bharathi Raja Chakravarthi and Mihael Arcan and John P. McCrae and Michael Cochez},\n booktitle = {International Conference on Data Science and Advanced Analytics},\n journal = {2020 IEEE 7th International Conference on Data Science and Advanced Analytics (DSAA)},\n pages = {390-399},\n title = {Classification Benchmarks for Under-resourced Bengali Language based on Multichannel Convolutional-LSTM Network},\n year = {2020}\n}\n"
     },
     "fc-sni-bengali_restaurant_reviews": {
         "Unique Dataset Identifier": "fc-sni-bengali_restaurant_reviews",
@@ -2747,7 +2778,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Conference{Sharif2019SentimentAO,\n author = {Omar Sharif and M. M. Hoque and E. Hossain},\n booktitle = {2019 1st International Conference on Advances in Science, Engineering and Robotics Technology (ICASERT)},\n journal = {2019 1st International Conference on Advances in Science, Engineering and Robotics Technology (ICASERT)},\n pages = {1-6},\n title = {Sentiment Analysis of Bengali Texts on Online Restaurant Reviews Using Multinomial Naïve Bayes},\n year = {2019}\n}\n"
     },
     "fc-sni-bianet": {
         "Unique Dataset Identifier": "fc-sni-bianet",
@@ -2828,7 +2860,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ataman2018BianetAP,\n author = {Duygu Ataman},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Bianet: A Parallel News Corpus in Turkish, Kurdish and English},\n volume = {abs/1805.05095},\n year = {2018}\n}\n"
     },
     "fc-sni-billsum": {
         "Unique Dataset Identifier": "fc-sni-billsum",
@@ -2915,7 +2948,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Kornilova2019BillSumAC,\n author = {Anastassia Kornilova and Vladimir Eidelman},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {BillSum: A Corpus for Automatic Summarization of US Legislation},\n volume = {abs/1910.00523},\n year = {2019}\n}\n"
     },
     "fc-sni-biocreative_v": {
         "Unique Dataset Identifier": "fc-sni-biocreative_v",
@@ -2998,7 +3032,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-bless": {
         "Unique Dataset Identifier": "fc-sni-bless",
@@ -3085,7 +3120,8 @@
         "Derived from Datasets": [
             "McRae Norms collection"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Baroni2011HowWB,\n author = {Marco Baroni and Alessandro Lenci},\n booktitle = {GEometrical Models of Natural Language Semantics},\n pages = {1-10},\n title = {How we BLESSed distributional semantic evaluation},\n year = {2011}\n}\n"
     },
     "fc-sni-blimp": {
         "Unique Dataset Identifier": "fc-sni-blimp",
@@ -3171,7 +3207,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Warstadt2019BLiMPTB,\n author = {Alex Warstadt and Alicia Parrish and Haokun Liu and Anhad Mohananey and Wei Peng and Sheng-Fu Wang and Samuel R. Bowman},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {377-392},\n title = {BLiMP: The Benchmark of Linguistic Minimal Pairs for English},\n volume = {8},\n year = {2019}\n}\n"
     },
     "fc-sni-boolq": {
         "Unique Dataset Identifier": "fc-sni-boolq",
@@ -3257,7 +3294,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Clark2019BoolQET,\n author = {Christopher Clark and Kenton Lee and Ming-Wei Chang and T. Kwiatkowski and Michael Collins and Kristina Toutanova},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {BoolQ: Exploring the Surprising Difficulty of Natural Yes/No Questions},\n volume = {abs/1905.10044},\n year = {2019}\n}\n"
     },
     "fc-sni-break": {
         "Unique Dataset Identifier": "fc-sni-break",
@@ -3353,7 +3391,8 @@
             "DROP",
             "HotPotQA-Hard"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Wolfson2020BreakID,\n author = {Tomer Wolfson and Mor Geva and Ankit Gupta and Matt Gardner and Yoav Goldberg and Daniel Deutch and Jonathan Berant},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {183-198},\n title = {Break It Down: A Question Understanding Benchmark},\n volume = {8},\n year = {2020}\n}\n"
     },
     "fc-sni-broad_twitter_corpus": {
         "Unique Dataset Identifier": "fc-sni-broad_twitter_corpus",
@@ -3448,7 +3487,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Derczynski2016BroadTC,\n author = {Leon Derczynski and Kalina Bontcheva and Ian Roberts},\n booktitle = {International Conference on Computational Linguistics},\n pages = {1169-1179},\n title = {Broad Twitter Corpus: A Diverse Named Entity Recognition Resource},\n year = {2016}\n}\n"
     },
     "fc-sni-brown_corpus": {
         "Unique Dataset Identifier": "fc-sni-brown_corpus",
@@ -3532,7 +3572,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ebert2020AVD,\n author = {Dylan Ebert and Ellie Pavlick},\n booktitle = {STARSEM},\n pages = {143-153},\n title = {A Visuospatial Dataset for Naturalistic Verb Learning},\n year = {2020}\n}\n"
     },
     "fc-sni-cad": {
         "Unique Dataset Identifier": "fc-sni-cad",
@@ -3620,7 +3661,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Vidgen2021IntroducingCT,\n author = {Bertie Vidgen and Dong Nguyen and H. Margetts and Patrícia G. C. Rossini and Rebekah Tromble},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n pages = {2289-2303},\n title = {Introducing CAD: the Contextual Abuse Dataset},\n year = {2021}\n}\n"
     },
     "fc-sni-cail2018": {
         "Unique Dataset Identifier": "fc-sni-cail2018",
@@ -3709,7 +3751,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Xiao2018CAIL2018AL,\n author = {Chaojun Xiao and Haoxiang Zhong and Zhipeng Guo and Cunchao Tu and Zhiyuan Liu and Maosong Sun and Yansong Feng and Xianpei Han and Zhen Hu and Heng Wang and Jianfeng Xu},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction},\n volume = {abs/1807.02478},\n year = {2018}\n}\n"
     },
     "fc-sni-casehold": {
         "Unique Dataset Identifier": "fc-sni-casehold",
@@ -3792,7 +3835,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Zheng2021WhenDP,\n author = {Lucia Zheng and Neel Guha and Brandon R. Anderson and Peter Henderson and Daniel E. Ho},\n booktitle = {International Conference on Artificial Intelligence and Law},\n journal = {Proceedings of the Eighteenth International Conference on Artificial Intelligence and Law},\n title = {When does pretraining help?: assessing self-supervised learning for law and the CaseHOLD dataset of 53,000+ legal holdings},\n year = {2021}\n}\n"
     },
     "fc-sni-casino": {
         "Unique Dataset Identifier": "fc-sni-casino",
@@ -3878,7 +3922,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Chawla2021CaSiNoAC,\n author = {Kushal Chawla and Jaysa Ramirez and Rene Clever and Gale M. Lucas and Jonathan May and J. Gratch},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {CaSiNo: A Corpus of Campsite Negotiation Dialogues for Automatic Negotiation Systems},\n volume = {abs/2103.15721},\n year = {2021}\n}\n"
     },
     "fc-sni-catalonia_independence_corpus": {
         "Unique Dataset Identifier": "fc-sni-catalonia_independence_corpus",
@@ -3967,7 +4012,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Zotova2020MultilingualSD,\n author = {Elena Zotova and Rodrigo Agerri and Manuel Núñez and German Rigau},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {1368-1375},\n title = {Multilingual Stance Detection in Tweets: The Catalonia Independence Corpus},\n year = {2020}\n}\n"
     },
     "fc-sni-ccaligned_multilingual": {
         "Unique Dataset Identifier": "fc-sni-ccaligned_multilingual",
@@ -4054,7 +4100,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{El-Kishky2019AMC,\n author = {Ahmed El-Kishky and Vishrav Chaudhary and Francisco Guzmán and Philipp Koehn},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {A Massive Collection of Cross-Lingual Web-Document Pairs},\n volume = {abs/1911.06154},\n year = {2019}\n}\n"
     },
     "fc-sni-cdt": {
         "Unique Dataset Identifier": "fc-sni-cdt",
@@ -4140,7 +4187,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Rybak2020KLEJCB,\n author = {Piotr Rybak and Robert Mroczkowski and Janusz Tracz and Ireneusz Gawlik},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {KLEJ: Comprehensive Benchmark for Polish Language Understanding},\n volume = {abs/2005.00630},\n year = {2020}\n}\n"
     },
     "fc-sni-cedr": {
         "Unique Dataset Identifier": "fc-sni-cedr",
@@ -4225,7 +4273,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Sboev2020DataDrivenMF,\n author = {A. Sboev and A. Naumov and R. Rybka},\n booktitle = {BICA*AI},\n pages = {637-642},\n title = {Data-Driven Model for Emotion Detection in Russian Texts},\n year = {2020}\n}\n"
     },
     "fc-sni-cfq_mcd1": {
         "Unique Dataset Identifier": "fc-sni-cfq_mcd1",
@@ -4309,7 +4358,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Keysers2019MeasuringCG,\n author = {Daniel Keysers and Nathanael Schärli and Nathan Scales and Hylke Buisman and Daniel Furrer and S. Kashubin and Nikola Momchev and Danila Sinopalnikov and Lukasz Stafiniak and Tibor Tihon and Dmitry Tsarkov and Xiao Wang and Marc van Zee and O. Bousquet},\n booktitle = {International Conference on Learning Representations},\n journal = {ArXiv},\n title = {Measuring Compositional Generalization: A Comprehensive Method on Realistic Data},\n volume = {abs/1912.09713},\n year = {2019}\n}\n"
     },
     "fc-sni-chemprot_corpus": {
         "Unique Dataset Identifier": "fc-sni-chemprot_corpus",
@@ -4389,7 +4439,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-circa": {
         "Unique Dataset Identifier": "fc-sni-circa",
@@ -4474,7 +4525,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Louis2020IDRJ,\n author = {Annie Louis and D. Roth and Filip Radlinski},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {“I’D Rather Just Go to Bed”: Understanding Indirect Answers},\n volume = {abs/2010.03450},\n year = {2020}\n}\n"
     },
     "fc-sni-civil_comments": {
         "Unique Dataset Identifier": "fc-sni-civil_comments",
@@ -4560,7 +4612,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Book{Borkan2019NuancedMF,\n author = {Daniel Borkan and Lucas Dixon and Jeffrey Scott Sorensen and Nithum Thain and Lucy Vasserman},\n booktitle = {The Web Conference},\n journal = {Companion Proceedings of The 2019 World Wide Web Conference},\n title = {Nuanced Metrics for Measuring Unintended Bias with Real Data for Text Classification},\n year = {2019}\n}\n"
     },
     "fc-sni-clariq": {
         "Unique Dataset Identifier": "fc-sni-clariq",
@@ -4649,7 +4702,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Aliannejadi2020ConvAI3GC,\n author = {Mohammad Aliannejadi and Julia Kiseleva and A. Chuklin and Jeffrey Dalton and M. Burtsev},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {ConvAI3: Generating Clarifying Questions for Open-Domain Dialogue Systems (ClariQ)},\n volume = {abs/2009.11352},\n year = {2020}\n}\n"
     },
     "fc-sni-clickbait_news_bg": {
         "Unique Dataset Identifier": "fc-sni-clickbait_news_bg",
@@ -4735,7 +4789,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Karadzhov2017WeBA,\n author = {Georgi Karadzhov and Pepa Gencheva and Preslav Nakov and Ivan Koychev},\n booktitle = {Recent Advances in Natural Language Processing},\n journal = {ArXiv},\n title = {We Built a Fake News / Click Bait Filter: What Happened Next Will Blow Your Mind!},\n volume = {abs/1803.03786},\n year = {2017}\n}\n"
     },
     "fc-sni-cls": {
         "Unique Dataset Identifier": "fc-sni-cls",
@@ -4821,7 +4876,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Prettenhofer2010CrossLanguageTC,\n author = {P. Prettenhofer and Benno Stein},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {1118-1127},\n title = {Cross-Language Text Classification Using Structural Correspondence Learning},\n year = {2010}\n}\n"
     },
     "fc-sni-clue_cmrc2018": {
         "Unique Dataset Identifier": "fc-sni-clue_cmrc2018",
@@ -4913,7 +4969,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Cui2019ASD,\n author = {Yiming Cui and Ting Liu and Li Xiao and Zhipeng Chen and Wentao Ma and Wanxiang Che and Shijin Wang and Guoping Hu},\n booktitle = {EMNLP-IJCNLP},\n pages = {5882-5888},\n title = {A Span-Extraction Dataset for Chinese Machine Reading Comprehension},\n year = {2019}\n}\n"
     },
     "fc-sni-cmrc2018": {
         "Unique Dataset Identifier": "fc-sni-cmrc2018",
@@ -4995,7 +5052,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Zhang2020ChrEnCM,\n author = {Shiyue Zhang and B. Frey and Mohit Bansal},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {577-595},\n title = {ChrEn: Cherokee-English Machine Translation for Endangered Language Revitalization},\n year = {2020}\n}\n"
     },
     "fc-sni-coached_conv_pref": {
         "Unique Dataset Identifier": "fc-sni-coached_conv_pref",
@@ -5079,7 +5137,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Radlinski2019CoachedCP,\n author = {Filip Radlinski and K. Balog and B. Byrne and K. Krishnamoorthi},\n booktitle = {SIGDIAL Conferences},\n pages = {353-360},\n title = {Coached Conversational Preference Elicitation: A Case Study in Understanding Movie Preferences},\n year = {2019}\n}\n"
     },
     "fc-sni-cod3s": {
         "Unique Dataset Identifier": "fc-sni-cod3s",
@@ -5163,7 +5222,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weir2020COD3SDG,\n author = {Nathaniel Weir and João Sedoc and Benjamin Van Durme},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {5199-5211},\n title = {COD3S: Diverse Generation with Discrete Semantic Signatures},\n year = {2020}\n}\n"
     },
     "fc-sni-coda_19": {
         "Unique Dataset Identifier": "fc-sni-coda_19",
@@ -5252,7 +5312,8 @@
         "Derived from Datasets": [
             "CORD-19 dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Huang2020CODA19UA,\n author = {Ting-Hao 'Kenneth' Huang and Huang Chieh-Yang and C. C. Ding and Yen-Chia Hsu and C. Lee Giles},\n booktitle = {NLPCOVID19},\n journal = {arXiv: Computation and Language},\n title = {CODA-19: Using a Non-Expert Crowd to Annotate Research Aspects on 10,000+ Abstracts in the COVID-19 Open Research Dataset},\n year = {2020}\n}\n"
     },
     "fc-sni-codah": {
         "Unique Dataset Identifier": "fc-sni-codah",
@@ -5338,7 +5399,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "fc-sni-codexglue": {
         "Unique Dataset Identifier": "fc-sni-codexglue",
@@ -5425,7 +5487,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Lu2021CodeXGLUEAM,\n author = {Shuai Lu and Daya Guo and Shuo Ren and Junjie Huang and Alexey Svyatkovskiy and Ambrosio Blanco and Colin B. Clement and Dawn Drain and Daxin Jiang and Duyu Tang and Ge Li and Lidong Zhou and Linjun Shou and Long Zhou and Michele Tufano and Ming Gong and Ming Zhou and Nan Duan and Neel Sundaresan and Shao Kun Deng and Shengyu Fu and Shujie Liu},\n booktitle = {NeurIPS Datasets and Benchmarks},\n journal = {ArXiv},\n title = {CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation},\n volume = {abs/2102.04664},\n year = {2021}\n}\n"
     },
     "fc-sni-com_qa": {
         "Unique Dataset Identifier": "fc-sni-com_qa",
@@ -5510,7 +5573,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Abujabal2018ComQAAC,\n author = {Abdalghani Abujabal and Rishiraj Saha Roy and Mohamed Yahya and G. Weikum},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {ComQA: A Community-sourced Dataset for Complex Factoid Question Answering with Paraphrase Clusters},\n volume = {abs/1809.09528},\n year = {2018}\n}\n"
     },
     "fc-sni-com2sense": {
         "Unique Dataset Identifier": "fc-sni-com2sense",
@@ -5598,7 +5662,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Singh2021COM2SENSEAC,\n author = {Shikhar Singh and Nuan Wen and Yu Hou and Pegah Alipoormolabashi and Te-Lin Wu and Xuezhe Ma and Nanyun Peng},\n booktitle = {Findings},\n pages = {883-898},\n title = {COM2SENSE: A Commonsense Reasoning Benchmark with Complementary Sentences},\n year = {2021}\n}\n"
     },
     "fc-sni-commongen": {
         "Unique Dataset Identifier": "fc-sni-commongen",
@@ -5694,7 +5759,8 @@
             "ActivityNet",
             "VATEX"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Lin2020CommonGenAC,\n author = {Bill Yuchen Lin and Minghan Shen and Wangchunshu Zhou and Pei Zhou and Chandra Bhagavatula and Yejin Choi and Xiang Ren},\n booktitle = {Findings},\n pages = {1823-1840},\n title = {CommonGen: A Constrained Text Generation Challenge for Generative Commonsense Reasoning},\n year = {2020}\n}\n"
     },
     "fc-sni-commonsenseqa": {
         "Unique Dataset Identifier": "fc-sni-commonsenseqa",
@@ -5779,7 +5845,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Talmor2019CommonsenseQAAQ,\n author = {Alon Talmor and Jonathan Herzig and Nicholas Lourie and Jonathan Berant},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge},\n volume = {abs/1811.00937},\n year = {2019}\n}\n"
     },
     "fc-sni-conala": {
         "Unique Dataset Identifier": "fc-sni-conala",
@@ -5865,7 +5932,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Yin2018LearningTM,\n author = {Pengcheng Yin and Bowen Deng and Edgar Chen and Bogdan Vasilescu and Graham Neubig},\n booktitle = {IEEE Working Conference on Mining Software Repositories},\n journal = {2018 IEEE/ACM 15th International Conference on Mining Software Repositories (MSR)},\n pages = {476-486},\n title = {Learning to Mine Aligned Code and Natural Language Pairs from Stack Overflow},\n year = {2018}\n}\n"
     },
     "fc-sni-conll2022": {
         "Unique Dataset Identifier": "fc-sni-conll2022",
@@ -5950,7 +6018,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Sang2002IntroductionTT,\n author = {E. T. K. Sang},\n booktitle = {Conference on Computational Natural Language Learning},\n journal = {ArXiv},\n title = {Introduction to the CoNLL-2002 Shared Task: Language-Independent Named Entity Recognition},\n volume = {cs.CL/0209010},\n year = {2002}\n}\n"
     },
     "fc-sni-conllpp": {
         "Unique Dataset Identifier": "fc-sni-conllpp",
@@ -6039,7 +6108,8 @@
         "Derived from Datasets": [
             "CoNLL2003 NER dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Wang2019CrossWeighTN,\n author = {Zihan Wang and Jingbo Shang and Liyuan Liu and Lihao Lu and Jiacheng Liu and Jiawei Han},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {5153-5162},\n title = {CrossWeigh: Training Named Entity Tagger from Imperfect Annotations},\n year = {2019}\n}\n"
     },
     "fc-sni-conv_ai_2": {
         "Unique Dataset Identifier": "fc-sni-conv_ai_2",
@@ -6130,7 +6200,8 @@
         "Derived from Datasets": [
             "Persona-chat dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Dinan2019TheSC,\n author = {Emily Dinan and V. Logacheva and Valentin Malykh and Alexander H. Miller and Kurt Shuster and Jack Urbanek and Douwe Kiela and Arthur Szlam and Iulian Serban and Ryan Lowe and Shrimai Prabhumoye and A. Black and Alexander I. Rudnicky and Jason Williams and Joelle Pineau and M. Burtsev and J. Weston},\n booktitle = {The NeurIPS '18 Competition},\n journal = {ArXiv},\n title = {The Second Conversational Intelligence Challenge (ConvAI2)},\n volume = {abs/1902.00098},\n year = {2019}\n}\n"
     },
     "fc-sni-copa_hr": {
         "Unique Dataset Identifier": "fc-sni-copa_hr",
@@ -6220,7 +6291,8 @@
         "Derived from Datasets": [
             "COPA dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Ljubešić2021BERTićT,\n author = {N. Ljubešić and D. Lauc},\n booktitle = {Workshop on Balto-Slavic Natural Language Processing},\n journal = {ArXiv},\n title = {BERTić - The Transformer Language Model for Bosnian, Croatian, Montenegrin and Serbian},\n volume = {abs/2104.09243},\n year = {2021}\n}\n"
     },
     "fc-sni-cosmosqa": {
         "Unique Dataset Identifier": "fc-sni-cosmosqa",
@@ -6309,7 +6381,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Huang2019CosmosQM,\n author = {Lifu Huang and Ronan Le Bras and Chandra Bhagavatula and Yejin Choi},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {2391-2401},\n title = {Cosmos QA: Machine Reading Comprehension with Contextual Commonsense Reasoning},\n year = {2019}\n}\n"
     },
     "fc-sni-country_abbreviation_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_abbreviation_dataset",
@@ -6392,7 +6465,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-country_barcode_prefix_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_barcode_prefix_dataset",
@@ -6474,7 +6548,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-country_calling_code_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_calling_code_dataset",
@@ -6556,7 +6631,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-country_capital_city_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_capital_city_dataset",
@@ -6638,7 +6714,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-country_continent_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_continent_dataset",
@@ -6721,7 +6798,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-country_currency_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_currency_dataset",
@@ -6802,7 +6880,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-country_domain_tld_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_domain_tld_dataset",
@@ -6886,7 +6965,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-country_government_type_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_government_type_dataset",
@@ -6972,7 +7052,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-country_independence_year_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_independence_year_dataset",
@@ -7052,7 +7133,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-country_iso_numeric_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_iso_numeric_dataset",
@@ -7132,7 +7214,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-country_national_dish_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_national_dish_dataset",
@@ -7217,7 +7300,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-country_region_in_world_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_region_in_world_dataset",
@@ -7297,7 +7381,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-craigslist_bargains": {
         "Unique Dataset Identifier": "fc-sni-craigslist_bargains",
@@ -7379,7 +7464,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{He2018DecouplingSA,\n author = {He He and Derek Chen and Anusha Balakrishnan and Percy Liang},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {Decoupling Strategy and Generation in Negotiation Dialogues},\n volume = {abs/1808.09637},\n year = {2018}\n}\n"
     },
     "fc-sni-creak_2018": {
         "Unique Dataset Identifier": "fc-sni-creak_2018",
@@ -7462,7 +7548,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Onoe2021CREAKAD,\n author = {Yasumasa Onoe and Michael J.Q. Zhang and Eunsol Choi and Greg Durrett},\n booktitle = {NeurIPS Datasets and Benchmarks},\n journal = {ArXiv},\n title = {CREAK: A Dataset for Commonsense Reasoning over Entity Knowledge},\n volume = {abs/2109.01653},\n year = {2021}\n}\n"
     },
     "fc-sni-crows_pairs": {
         "Unique Dataset Identifier": "fc-sni-crows_pairs",
@@ -7537,7 +7624,8 @@
             "Text Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Nangia2020CrowSPairsAC,\n author = {Nikita Nangia and Clara Vania and Rasika Bhalerao and Samuel R. Bowman},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {1953-1967},\n title = {CrowS-Pairs: A Challenge Dataset for Measuring Social Biases in Masked Language Models},\n year = {2020}\n}\n"
     },
     "fc-sni-cuad": {
         "Unique Dataset Identifier": "fc-sni-cuad",
@@ -7623,7 +7711,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Hendrycks2021CUADAE,\n author = {Dan Hendrycks and Collin Burns and Anya Chen and Spencer Ball},\n booktitle = {NeurIPS Datasets and Benchmarks},\n journal = {ArXiv},\n title = {CUAD: An Expert-Annotated NLP Dataset for Legal Contract Review},\n volume = {abs/2103.06268},\n year = {2021}\n}\n"
     },
     "fc-sni-curated_from_stack_overflow___english.": {
         "Unique Dataset Identifier": "fc-sni-curated_from_stack_overflow___english.",
@@ -7707,7 +7796,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-curiosity_dialogs": {
         "Unique Dataset Identifier": "fc-sni-curiosity_dialogs",
@@ -7794,7 +7884,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Rodriguez2020InformationSI,\n author = {Pedro Rodriguez and Paul A. Crook and Seungwhan Moon and Zhiguang Wang},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {8153-8172},\n title = {Information Seeking in the Spirit of Learning: A Dataset for Conversational Curiosity},\n year = {2020}\n}\n"
     },
     "fc-sni-dailydialog": {
         "Unique Dataset Identifier": "fc-sni-dailydialog",
@@ -7879,7 +7970,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Li2017DailyDialogAM,\n author = {Yanran Li and Hui Su and Xiaoyu Shen and Wenjie Li and Ziqiang Cao and Shuzi Niu},\n booktitle = {International Joint Conference on Natural Language Processing},\n journal = {ArXiv},\n title = {DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset},\n volume = {abs/1710.03957},\n year = {2017}\n}\n"
     },
     "fc-sni-dais": {
         "Unique Dataset Identifier": "fc-sni-dais",
@@ -7966,7 +8058,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Hawkins2020InvestigatingRO,\n author = {Robert D. Hawkins and Takateru Yamakoshi and T. Griffiths and A. Goldberg},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {4653-4663},\n title = {Investigating Representations of Verb Bias in Neural Language Models},\n year = {2020}\n}\n"
     },
     "fc-sni-dbpedia_14": {
         "Unique Dataset Identifier": "fc-sni-dbpedia_14",
@@ -8056,7 +8149,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Lehmann2015DBpediaA,\n author = {Jens Lehmann and Robert Isele and Max Jakob and Anja Jentzsch and D. Kontokostas and Pablo N. Mendes and Sebastian Hellmann and M. Morsey and Patrick van Kleef and S. Auer and Christian Bizer},\n booktitle = {Semantic Web},\n journal = {Semantic Web},\n pages = {167-195},\n title = {DBpedia - A large-scale, multilingual knowledge base extracted from Wikipedia},\n volume = {6},\n year = {2015}\n}\n"
     },
     "fc-sni-ddo": {
         "Unique Dataset Identifier": "fc-sni-ddo",
@@ -8142,7 +8236,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Durmus2019ACF,\n author = {Esin Durmus and Claire Cardie},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {A Corpus for Modeling User and Language Effects in Argumentation on Online Debating},\n volume = {abs/1906.11310},\n year = {2019}\n}\n"
     },
     "fc-sni-deal_or_no_dialog": {
         "Unique Dataset Identifier": "fc-sni-deal_or_no_dialog",
@@ -8227,7 +8322,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Lewis2017DealON,\n author = {M. Lewis and Denis Yarats and Yann Dauphin and Devi Parikh and Dhruv Batra},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {Deal or No Deal? End-to-End Learning of Negotiation Dialogues},\n volume = {abs/1706.05125},\n year = {2017}\n}\n"
     },
     "fc-sni-deceptive_opinion_spam_dataset": {
         "Unique Dataset Identifier": "fc-sni-deceptive_opinion_spam_dataset",
@@ -8306,7 +8402,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-defeasible_nli_atomic": {
         "Unique Dataset Identifier": "fc-sni-defeasible_nli_atomic",
@@ -8397,7 +8494,8 @@
             "social chemestry",
             "ATOMIC"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Rudinger2020ThinkingLA,\n author = {Rachel Rudinger and Vered Shwartz and Jena D. Hwang and Chandra Bhagavatula and Maxwell Forbes and Ronan Le Bras and Noah A. Smith and Yejin Choi},\n booktitle = {Findings},\n pages = {4661-4675},\n title = {Thinking Like a Skeptic: Defeasible Inference in Natural Language},\n year = {2020}\n}\n"
     },
     "fc-sni-detoxifying_lms": {
         "Unique Dataset Identifier": "fc-sni-detoxifying_lms",
@@ -8475,7 +8573,8 @@
             "Text Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Xu2021DetoxifyingLM,\n author = {Albert Xu and Eshaan Pathak and Eric Wallace and Suchin Gururangan and Maarten Sap and D. Klein},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n pages = {2390-2397},\n title = {Detoxifying Language Models Risks Marginalizing Minority Voices},\n year = {2021}\n}\n"
     },
     "fc-sni-dialogre": {
         "Unique Dataset Identifier": "fc-sni-dialogre",
@@ -8561,7 +8660,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Yu2020DialogueBasedRE,\n author = {Dian Yu and Kai Sun and Claire Cardie and Dong Yu},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Dialogue-Based Relation Extraction},\n volume = {abs/2004.08056},\n year = {2020}\n}\n"
     },
     "fc-sni-diplomacy_detection": {
         "Unique Dataset Identifier": "fc-sni-diplomacy_detection",
@@ -8645,7 +8745,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Peskov2020ItTT,\n author = {Denis Peskov and Benny Cheng and Ahmed Elgohary and Joe Barrow and Cristian Danescu-Niculescu-Mizil and Jordan L. Boyd-Graber},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {3811-3854},\n title = {It Takes Two to Lie: One to Lie, and One to Listen},\n year = {2020}\n}\n"
     },
     "fc-sni-discofuse": {
         "Unique Dataset Identifier": "fc-sni-discofuse",
@@ -8731,7 +8832,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Geva2019DiscoFuseAL,\n author = {Mor Geva and Eric Malmi and Idan Szpektor and Jonathan Berant},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {DiscoFuse: A Large-Scale Dataset for Discourse-Based Sentence Fusion},\n volume = {abs/1902.10526},\n year = {2019}\n}\n"
     },
     "fc-sni-disfl_qa": {
         "Unique Dataset Identifier": "fc-sni-disfl_qa",
@@ -8821,7 +8923,8 @@
         "Derived from Datasets": [
             "SQuADv2"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Gupta2021DisflQAAB,\n author = {Aditya Gupta and Jiacheng Xu and Shyam Upadhyay and Diyi Yang and Manaal Faruqui},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {Disfl-QA: A Benchmark Dataset for Understanding Disfluencies in Question Answering},\n volume = {abs/2106.04016},\n year = {2021}\n}\n"
     },
     "fc-sni-doqa": {
         "Unique Dataset Identifier": "fc-sni-doqa",
@@ -8908,7 +9011,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Campos2020DoQAA,\n author = {Jon Ander Campos and Arantxa Otegi and Aitor Soroa Etxabe and Jan Deriu and Mark Cieliebak and Eneko Agirre},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {DoQA - Accessing Domain-Specific FAQs via Conversational QA},\n volume = {abs/2005.01328},\n year = {2020}\n}\n"
     },
     "fc-sni-dream": {
         "Unique Dataset Identifier": "fc-sni-dream",
@@ -8999,7 +9103,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Sun2019DREAMAC,\n author = {Kai Sun and Dian Yu and Jianshu Chen and Dong Yu and Yejin Choi and Claire Cardie},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {217-231},\n title = {DREAM: A Challenge Data Set and Models for Dialogue-Based Reading Comprehension},\n volume = {7},\n year = {2019}\n}\n"
     },
     "fc-sni-dstc3": {
         "Unique Dataset Identifier": "fc-sni-dstc3",
@@ -9091,7 +9196,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Durmus2019ACF,\n author = {Esin Durmus and Claire Cardie},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {A Corpus for Modeling User and Language Effects in Argumentation on Online Debating},\n volume = {abs/1906.11310},\n year = {2019}\n}\n"
     },
     "fc-sni-dualrl": {
         "Unique Dataset Identifier": "fc-sni-dualrl",
@@ -9183,7 +9289,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Luo2019ADR,\n author = {Fuli Luo and Peng Li and Jie Zhou and Pengcheng Yang and Baobao Chang and Zhifang Sui and Xu Sun},\n booktitle = {International Joint Conference on Artificial Intelligence},\n journal = {ArXiv},\n title = {A Dual Reinforcement Learning Framework for Unsupervised Text Style Transfer},\n volume = {abs/1905.10060},\n year = {2019}\n}\n"
     },
     "fc-sni-duorc": {
         "Unique Dataset Identifier": "fc-sni-duorc",
@@ -9275,7 +9382,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Saha2018DuoRCTC,\n author = {Amrita Saha and Rahul Aralikatte and Mitesh M. Khapra and Karthik Sankaranarayanan},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {1683-1693},\n title = {DuoRC: Towards Complex Language Understanding with Paraphrased Reading Comprehension},\n year = {2018}\n}\n"
     },
     "fc-sni-e_snli": {
         "Unique Dataset Identifier": "fc-sni-e_snli",
@@ -9365,7 +9473,8 @@
         "Derived from Datasets": [
             "snli"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Camburu2018eSNLINL,\n author = {Oana-Maria Camburu and Tim Rocktäschel and Thomas Lukasiewicz and Phil Blunsom},\n booktitle = {Neural Information Processing Systems},\n pages = {9560-9572},\n title = {e-SNLI: Natural Language Inference with Natural Language Explanations},\n year = {2018}\n}\n"
     },
     "fc-sni-e2e": {
         "Unique Dataset Identifier": "fc-sni-e2e",
@@ -9448,7 +9557,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Novikova2017TheED,\n author = {Jekaterina Novikova and Ondrej Dusek and Verena Rieser},\n booktitle = {SIGDIAL Conference},\n journal = {ArXiv},\n title = {The E2E Dataset: New Challenges For End-to-End Generation},\n volume = {abs/1706.09254},\n year = {2017}\n}\n"
     },
     "fc-sni-emea_fr_sk": {
         "Unique Dataset Identifier": "fc-sni-emea_fr_sk",
@@ -9540,7 +9650,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Tiedemann2012ParallelDT,\n author = {J. Tiedemann},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {2214-2218},\n title = {Parallel Data, Tools and Interfaces in OPUS},\n year = {2012}\n}\n"
     },
     "fc-sni-emo": {
         "Unique Dataset Identifier": "fc-sni-emo",
@@ -9624,7 +9735,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Chatterjee2019SemEval2019T3,\n author = {Ankush Chatterjee and Kedhar Nath Narahari and Meghana Joshi and Puneet Agrawal},\n booktitle = {International Workshop on Semantic Evaluation},\n pages = {39-48},\n title = {SemEval-2019 Task 3: EmoContext Contextual Emotion Detection in Text},\n year = {2019}\n}\n"
     },
     "fc-sni-emotion": {
         "Unique Dataset Identifier": "fc-sni-emotion",
@@ -9707,7 +9819,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Saravia2018CARERCA,\n author = {Elvis Saravia and Hsien-Chi Toby Liu and Yen-Hao Huang and Junlin Wu and Yi-Shin Chen},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {3687-3697},\n title = {CARER: Contextualized Affect Representations for Emotion Recognition},\n year = {2018}\n}\n"
     },
     "fc-sni-eng_guj_parallel_corpus": {
         "Unique Dataset Identifier": "fc-sni-eng_guj_parallel_corpus",
@@ -9802,7 +9915,8 @@
         "Derived from Datasets": [
             "OPUS Collection"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Shah2019NeuralMT,\n author = {Parth Shah and Vishvajit Bakrola},\n booktitle = {2019 Second International Conference on Advanced Computational and Communication Paradigms (ICACCP)},\n journal = {2019 Second International Conference on Advanced Computational and Communication Paradigms (ICACCP)},\n pages = {1-5},\n title = {Neural Machine Translation System of Indic Languages - An Attention based Approach},\n year = {2019}\n}\n"
     },
     "fc-sni-enhanced_wsc": {
         "Unique Dataset Identifier": "fc-sni-enhanced_wsc",
@@ -9894,7 +10008,8 @@
         "Derived from Datasets": [
             "WSC"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Abdou2020TheSO,\n author = {Mostafa Abdou and Vinit Ravishankar and Maria Barrett and Yonatan Belinkov and Desmond Elliott and Anders Søgaard},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {7590-7604},\n title = {The Sensitivity of Language Models and Humans to Winograd Schema Perturbations},\n year = {2020}\n}\n"
     },
     "fc-sni-eqasc": {
         "Unique Dataset Identifier": "fc-sni-eqasc",
@@ -9971,7 +10086,8 @@
             "Text Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Jhamtani2020LearningTE,\n author = {Harsh Jhamtani and Peter Clark},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {137-150},\n title = {Learning to Explain: Datasets and Models for Identifying Valid Reasoning Chains in Multihop Question-Answering},\n year = {2020}\n}\n"
     },
     "fc-sni-equity_evaluation_corpus": {
         "Unique Dataset Identifier": "fc-sni-equity_evaluation_corpus",
@@ -10051,7 +10167,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-essential": {
         "Unique Dataset Identifier": "fc-sni-essential",
@@ -10129,7 +10246,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-ethos": {
         "Unique Dataset Identifier": "fc-sni-ethos",
@@ -10213,7 +10331,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Conference{Chhabra2023ATS,\n author = {A. Chhabra and D. Vishwakarma},\n booktitle = {2023 4th International Conference on Innovative Trends in Information Technology (ICITIIT)},\n journal = {2023 4th International Conference on Innovative Trends in Information Technology (ICITIIT)},\n pages = {1-4},\n title = {A Truncated SVD Framework for Online Hate Speech Detection on the ETHOS Dataset},\n year = {2023}\n}\n"
     },
     "fc-sni-eurlex": {
         "Unique Dataset Identifier": "fc-sni-eurlex",
@@ -10299,7 +10418,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Chalkidis2019LargeScaleMT,\n author = {Ilias Chalkidis and Manos Fergadiotis and Prodromos Malakasiotis and Ion Androutsopoulos},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {6314-6322},\n title = {Large-Scale Multi-Label Text Classification on EU Legislation},\n year = {2019}\n}\n"
     },
     "fc-sni-europa_ecdc_tm": {
         "Unique Dataset Identifier": "fc-sni-europa_ecdc_tm",
@@ -10380,7 +10500,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-europarl": {
         "Unique Dataset Identifier": "fc-sni-europarl",
@@ -10461,7 +10582,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-evalution": {
         "Unique Dataset Identifier": "fc-sni-evalution",
@@ -10548,7 +10670,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Santus2015EVALution1A,\n author = {Enrico Santus and Frances Yung and Alessandro Lenci and Chu-Ren Huang},\n booktitle = {LDL@IJCNLP},\n pages = {64-69},\n title = {EVALution 1.0: an Evolving Semantic Dataset for Training and Evaluation of Distributional Semantic Models},\n year = {2015}\n}\n"
     },
     "fc-sni-event2mind": {
         "Unique Dataset Identifier": "fc-sni-event2mind",
@@ -10639,7 +10762,8 @@
             "ROC Story dataset",
             "Spinn3r corpus"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Rashkin2018Event2MindCI,\n author = {Hannah Rashkin and Maarten Sap and Emily Allaway and Noah A. Smith and Yejin Choi},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Event2Mind: Commonsense Inference on Events, Intents, and Reactions},\n volume = {abs/1805.06939},\n year = {2018}\n}\n"
     },
     "fc-sni-facts2story": {
         "Unique Dataset Identifier": "fc-sni-facts2story",
@@ -10725,7 +10849,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Orbach2020Facts2StoryCT,\n author = {Eyal Orbach and Yoav Goldberg},\n booktitle = {International Conference on Computational Linguistics},\n journal = {ArXiv},\n title = {Facts2Story: Controlling Text Generation by Key Facts},\n volume = {abs/2012.04332},\n year = {2020}\n}\n"
     },
     "fc-sni-farstail": {
         "Unique Dataset Identifier": "fc-sni-farstail",
@@ -10819,7 +10944,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Amirkhani2023FarsTailAP,\n author = {Hossein Amirkhani and Mohammad AzariJafari and Zohreh Pourjafari and Soroush Faridan-Jahromi and Zeinab Kouhkan and Azadeh Amirak},\n booktitle = {Soft Computing - A Fusion of Foundations, Methodologies and Applications},\n journal = {ArXiv},\n title = {FarsTail: A Persian Natural Language Inference Dataset},\n volume = {abs/2009.08820},\n year = {2023}\n}\n"
     },
     "fc-sni-financial_phrasebank": {
         "Unique Dataset Identifier": "fc-sni-financial_phrasebank",
@@ -10904,7 +11030,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Malo2013GoodDO,\n author = {P. Malo and Ankur Sinha and P. Korhonen and J. Wallenius and P. Takala},\n booktitle = {J. Assoc. Inf. Sci. Technol.},\n journal = {Journal of the Association for Information Science and Technology},\n title = {Good debt or bad debt: Detecting semantic orientations in economic texts},\n volume = {65},\n year = {2013}\n}\n"
     },
     "fc-sni-flores": {
         "Unique Dataset Identifier": "fc-sni-flores",
@@ -10995,7 +11122,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Guzmán2019TwoNE,\n author = {Francisco Guzmán and Peng-Jen Chen and Myle Ott and J. Pino and Guillaume Lample and Philipp Koehn and Vishrav Chaudhary and Marc'Aurelio Ranzato},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Two New Evaluation Datasets for Low-Resource Machine Translation: Nepali-English and Sinhala-English},\n volume = {abs/1902.01382},\n year = {2019}\n}\n"
     },
     "fc-sni-freebase_qa": {
         "Unique Dataset Identifier": "fc-sni-freebase_qa",
@@ -11079,7 +11207,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Jiang2019FreebaseQAAN,\n author = {Kelvin Jiang and Dekun Wu and Hui Jiang},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n pages = {318-323},\n title = {FreebaseQA: A New Factoid QA Data Set Matching Trivia-Style Question-Answer Pairs with Freebase},\n year = {2019}\n}\n"
     },
     "fc-sni-gap": {
         "Unique Dataset Identifier": "fc-sni-gap",
@@ -11160,7 +11289,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Webster2019ResolvingGA,\n author = {Kellie Webster and Marta Recasens and Vera Axelrod and Jason Baldridge},\n booktitle = {Proceedings of the First Workshop on Gender Bias in Natural Language Processing},\n journal = {ArXiv},\n title = {Resolving Gendered Ambiguous Pronouns with BERT},\n volume = {abs/1906.01161},\n year = {2019}\n}\n"
     },
     "fc-sni-generated_reviews_enth": {
         "Unique Dataset Identifier": "fc-sni-generated_reviews_enth",
@@ -11257,7 +11387,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Lowphansirikul2020ALE,\n author = {Lalita Lowphansirikul and Charin Polpanumas and Attapol T. Rutherford and Sarana Nutanong},\n booktitle = {Language Resources and Evaluation},\n journal = {Language Resources and Evaluation},\n pages = {477 - 499},\n title = {A large English–Thai parallel corpus from the web and machine-generated text},\n volume = {56},\n year = {2020}\n}\n"
     },
     "fc-sni-giga_fren": {
         "Unique Dataset Identifier": "fc-sni-giga_fren",
@@ -11351,7 +11482,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Tiedemann2012ParallelDT,\n author = {J. Tiedemann},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {2214-2218},\n title = {Parallel Data, Tools and Interfaces in OPUS},\n year = {2012}\n}\n"
     },
     "fc-sni-glucose": {
         "Unique Dataset Identifier": "fc-sni-glucose",
@@ -11439,7 +11571,8 @@
         "Derived from Datasets": [
             "ROCStories"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Mostafazadeh2020GLUCOSEGA,\n author = {N. Mostafazadeh and Aditya Kalyanpur and Lori Moon and David W. Buchanan and Lauren Berkowitz and Or Biran and Jennifer Chu-Carroll},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {4569-4586},\n title = {GLUCOSE: GeneraLized and COntextualized Story Explanations},\n year = {2020}\n}\n"
     },
     "fc-sni-go_emotions": {
         "Unique Dataset Identifier": "fc-sni-go_emotions",
@@ -11527,7 +11660,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Demszky2020GoEmotionsAD,\n author = {Dorottya Demszky and Dana Movshovitz-Attias and Jeongwoo Ko and Alan S. Cowen and Gaurav Nemade and Sujith Ravi},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {4040-4054},\n title = {GoEmotions: A Dataset of Fine-Grained Emotions},\n year = {2020}\n}\n"
     },
     "fc-sni-gooaq": {
         "Unique Dataset Identifier": "fc-sni-gooaq",
@@ -11615,7 +11749,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Khashabi2021GooAQOQ,\n author = {Daniel Khashabi and Amos Ng and Tushar Khot and Ashish Sabharwal and Hannaneh Hajishirzi and Chris Callison-Burch},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {GooAQ: Open Question Answering with Diverse Answer Types},\n volume = {abs/2104.08727},\n year = {2021}\n}\n"
     },
     "fc-sni-google_wellformed_query": {
         "Unique Dataset Identifier": "fc-sni-google_wellformed_query",
@@ -11702,7 +11837,8 @@
         "Derived from Datasets": [
             "Paralex dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Faruqui2018IdentifyingWN,\n author = {Manaal Faruqui and Dipanjan Das},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {798-803},\n title = {Identifying Well-formed Natural Language Questions},\n year = {2018}\n}\n"
     },
     "fc-sni-grailqa": {
         "Unique Dataset Identifier": "fc-sni-grailqa",
@@ -11791,7 +11927,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Gu2020BeyondIT,\n author = {Yu Gu and Sue E. Kase and M. Vanni and Brian M. Sadler and Percy Liang and Xifeng Yan and Yu Su},\n booktitle = {The Web Conference},\n journal = {Proceedings of the Web Conference 2021},\n title = {Beyond I.I.D.: Three Levels of Generalization for Question Answering on Knowledge Bases},\n year = {2020}\n}\n"
     },
     "fc-sni-gwsd": {
         "Unique Dataset Identifier": "fc-sni-gwsd",
@@ -11871,7 +12008,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Luo2020DeSMOGDS,\n author = {Yiwei Luo and Dallas Card and Dan Jurafsky},\n booktitle = {Findings},\n pages = {3296-3315},\n title = {DeSMOG: Detecting Stance in Media On Global Warming},\n year = {2020}\n}\n"
     },
     "fc-sni-hans": {
         "Unique Dataset Identifier": "fc-sni-hans",
@@ -11958,7 +12096,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{McCoy2019RightFT,\n author = {R. Thomas McCoy and Ellie Pavlick and Tal Linzen},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {3428-3448},\n title = {Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference},\n year = {2019}\n}\n"
     },
     "fc-sni-haspart_kb": {
         "Unique Dataset Identifier": "fc-sni-haspart_kb",
@@ -12046,7 +12185,8 @@
         "Derived from Datasets": [
             "GenericsKB"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Bhakthavatsalam2020DoDH,\n author = {Sumithra Bhakthavatsalam and Kyle Richardson and Niket Tandon and Peter Clark},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Do Dogs have Whiskers? A New Knowledge Base of hasPart Relations},\n volume = {abs/2006.07510},\n year = {2020}\n}\n"
     },
     "fc-sni-hate_speech_offensive": {
         "Unique Dataset Identifier": "fc-sni-hate_speech_offensive",
@@ -12133,7 +12273,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Davidson2017AutomatedHS,\n author = {Thomas Davidson and Dana Warmsley and M. Macy and Ingmar Weber},\n booktitle = {International Conference on Web and Social Media},\n pages = {512-515},\n title = {Automated Hate Speech Detection and the Problem of Offensive Language},\n year = {2017}\n}\n"
     },
     "fc-sni-hateeval": {
         "Unique Dataset Identifier": "fc-sni-hateeval",
@@ -12213,7 +12354,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Basile2019SemEval2019T5,\n author = {Valerio Basile and C. Bosco and E. Fersini and Debora Nozza and V. Patti and F. M. R. Pardo and Paolo Rosso and M. Sanguinetti},\n booktitle = {International Workshop on Semantic Evaluation},\n pages = {54-63},\n title = {SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter},\n year = {2019}\n}\n"
     },
     "fc-sni-hatexplain": {
         "Unique Dataset Identifier": "fc-sni-hatexplain",
@@ -12312,7 +12454,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Mathew2020HateXplainAB,\n author = {Binny Mathew and Punyajoy Saha and Seid Muhie Yimam and Chris Biemann and Pawan Goyal and Animesh Mukherjee},\n booktitle = {AAAI Conference on Artificial Intelligence},\n pages = {14867-14875},\n title = {HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection},\n year = {2020}\n}\n"
     },
     "fc-sni-head_qa": {
         "Unique Dataset Identifier": "fc-sni-head_qa",
@@ -12397,7 +12540,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Vilares2019HEADQAAH,\n author = {David Vilares and Carlos Gómez-Rodríguez},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {HEAD-QA: A Healthcare Dataset for Complex Reasoning},\n volume = {abs/1906.04701},\n year = {2019}\n}\n"
     },
     "fc-sni-health_fact": {
         "Unique Dataset Identifier": "fc-sni-health_fact",
@@ -12488,7 +12632,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kotonya2020ExplainableAF,\n author = {Neema Kotonya and Francesca Toni},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {7740-7754},\n title = {Explainable Automated Fact-Checking for Public Health Claims},\n year = {2020}\n}\n"
     },
     "fc-sni-help!_need_advice_on_identifying_advice": {
         "Unique Dataset Identifier": "fc-sni-help!_need_advice_on_identifying_advice",
@@ -12577,7 +12722,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Govindarajan2020HelpNA,\n author = {Venkata S Govindarajan and Benjamin Chen and Rebecca Warholic and K. Erk and Junyi Jessy Li},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {Help! Need Advice on Identifying Advice},\n volume = {abs/2010.02494},\n year = {2020}\n}\n"
     },
     "fc-sni-hind_encorp": {
         "Unique Dataset Identifier": "fc-sni-hind_encorp",
@@ -12663,7 +12809,8 @@
             "Indic multi-parallel corpus",
             "Intercorp"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Bojar2014HindEnCorpH,\n author = {Ondrej Bojar and Vojtech Diatka and P. Rychlý and P. Stranák and Vít Suchomel and A. Tamchyna and Daniel Zeman},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {3550-3555},\n title = {HindEnCorp - Hindi-English and Hindi-only Corpus for Machine Translation},\n year = {2014}\n}\n"
     },
     "fc-sni-hindienglish_corpora": {
         "Unique Dataset Identifier": "fc-sni-hindienglish_corpora",
@@ -12743,7 +12890,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-hippocorpus": {
         "Unique Dataset Identifier": "fc-sni-hippocorpus",
@@ -12832,7 +12980,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Sap2020RecollectionVI,\n author = {Maarten Sap and E. Horvitz and Yejin Choi and Noah A. Smith and J. Pennebaker},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {1970-1978},\n title = {Recollection versus Imagination: Exploring Human Memory and Cognition via Neural Language Models},\n year = {2020}\n}\n"
     },
     "fc-sni-hope_edi": {
         "Unique Dataset Identifier": "fc-sni-hope_edi",
@@ -12917,7 +13066,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Inproceedings{Chakravarthi2020HopeEDIAM,\n author = {Bharathi Raja Chakravarthi},\n booktitle = {Workshop on Computational Modeling of People's Opinions, Personality, and Emotions in Social Media},\n title = {HopeEDI: A Multilingual Hope Speech Detection Dataset for Equality, Diversity, and Inclusion},\n year = {2020}\n}\n"
     },
     "fc-sni-hotpotqa": {
         "Unique Dataset Identifier": "fc-sni-hotpotqa",
@@ -13007,7 +13157,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Yang2018HotpotQAAD,\n author = {Zhilin Yang and Peng Qi and Saizheng Zhang and Yoshua Bengio and William W. Cohen and R. Salakhutdinov and Christopher D. Manning},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {2369-2380},\n title = {HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering},\n year = {2018}\n}\n"
     },
     "fc-sni-human_ratings_of_natural_language_generation_outputs": {
         "Unique Dataset Identifier": "fc-sni-human_ratings_of_natural_language_generation_outputs",
@@ -13086,7 +13237,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-hybridqa": {
         "Unique Dataset Identifier": "fc-sni-hybridqa",
@@ -13172,7 +13324,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Chen2020HybridQAAD,\n author = {Wenhu Chen and Hanwen Zha and Zhiyu Chen and Wenhan Xiong and Hong Wang and W. Wang},\n booktitle = {Findings},\n pages = {1026-1036},\n title = {HybridQA: A Dataset of Multi-Hop Question Answering over Tabular and Textual Data},\n year = {2020}\n}\n"
     },
     "fc-sni-iirc": {
         "Unique Dataset Identifier": "fc-sni-iirc",
@@ -13258,7 +13411,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Ferguson2020IIRCAD,\n author = {James Ferguson and Matt Gardner and Tushar Khot and Pradeep Dasigi},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {1137-1147},\n title = {IIRC: A Dataset of Incomplete Information Reading Comprehension Questions},\n year = {2020}\n}\n"
     },
     "fc-sni-imdb": {
         "Unique Dataset Identifier": "fc-sni-imdb",
@@ -13337,7 +13491,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Maas2011LearningWV,\n author = {Andrew L. Maas and Raymond E. Daly and Peter T. Pham and Dan Huang and A. Ng and Christopher Potts},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {142-150},\n title = {Learning Word Vectors for Sentiment Analysis},\n year = {2011}\n}\n"
     },
     "fc-sni-imppres": {
         "Unique Dataset Identifier": "fc-sni-imppres",
@@ -13424,7 +13579,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "fc-sni-indian_food_101": {
         "Unique Dataset Identifier": "fc-sni-indian_food_101",
@@ -13508,7 +13664,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-indicnlp": {
         "Unique Dataset Identifier": "fc-sni-indicnlp",
@@ -13597,7 +13754,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Kakwani2020iNLPSuiteMC,\n author = {Divyanshu Kakwani and Anoop Kunchukuttan and S. Golla and Gokul N.C. and Avik Bhattacharyya and Mitesh M. Khapra and Pratyush Kumar},\n booktitle = {Findings},\n journal = {Findings of the Association for Computational Linguistics: EMNLP 2020},\n title = {iNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages},\n year = {2020}\n}\n"
     },
     "fc-sni-inquisitive": {
         "Unique Dataset Identifier": "fc-sni-inquisitive",
@@ -13684,7 +13842,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Ko2020InquisitiveQG,\n author = {Wei-Jen Ko and Tengyang Chen and Yiyan Huang and Greg Durrett and Junyi Jessy Li},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {6544-6555},\n title = {Inquisitive Question Generation for High Level Text Comprehension},\n year = {2020}\n}\n"
     },
     "fc-sni-jeopardy": {
         "Unique Dataset Identifier": "fc-sni-jeopardy",
@@ -13766,7 +13925,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-jfleg": {
         "Unique Dataset Identifier": "fc-sni-jfleg",
@@ -13855,7 +14015,8 @@
         "Derived from Datasets": [
             "GUG corpus"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Tetreault2017JFLEGAF,\n author = {Joel R. Tetreault and Keisuke Sakaguchi and Courtney Napoles},\n booktitle = {Conference of the European Chapter of the Association for Computational Linguistics},\n pages = {229-234},\n title = {JFLEG: A Fluency Corpus and Benchmark for Grammatical Error Correction},\n year = {2017}\n}\n"
     },
     "fc-sni-jigsaw": {
         "Unique Dataset Identifier": "fc-sni-jigsaw",
@@ -13939,7 +14100,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-jnlpba_corpus": {
         "Unique Dataset Identifier": "fc-sni-jnlpba_corpus",
@@ -14030,7 +14192,8 @@
         "Derived from Datasets": [
             "Genia dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Collier2004IntroductionTT,\n author = {Nigel Collier and Jin-Dong Kim},\n booktitle = {NLPBA/BioNLP},\n pages = {70-75},\n title = {Introduction to the Bio-entity Recognition Task at JNLPBA},\n year = {2004}\n}\n"
     },
     "fc-sni-kde4": {
         "Unique Dataset Identifier": "fc-sni-kde4",
@@ -14122,7 +14285,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Tiedemann2012ParallelDT,\n author = {J. Tiedemann},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {2214-2218},\n title = {Parallel Data, Tools and Interfaces in OPUS},\n year = {2012}\n}\n"
     },
     "fc-sni-leetcode": {
         "Unique Dataset Identifier": "fc-sni-leetcode",
@@ -14201,7 +14365,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-liar": {
         "Unique Dataset Identifier": "fc-sni-liar",
@@ -14284,7 +14449,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Wang2017LiarLP,\n author = {William Yang Wang},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {422-426},\n title = {“Liar, Liar Pants on Fire”: A New Benchmark Dataset for Fake News Detection},\n year = {2017}\n}\n"
     },
     "fc-sni-librispeech_asr,": {
         "Unique Dataset Identifier": "fc-sni-librispeech_asr,",
@@ -14365,7 +14531,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Panayotov2015LibrispeechAA,\n author = {Vassil Panayotov and Guoguo Chen and Daniel Povey and S. Khudanpur},\n booktitle = {IEEE International Conference on Acoustics, Speech, and Signal Processing},\n journal = {2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},\n pages = {5206-5210},\n title = {Librispeech: An ASR corpus based on public domain audio books},\n year = {2015}\n}\n"
     },
     "fc-sni-limit": {
         "Unique Dataset Identifier": "fc-sni-limit",
@@ -14451,7 +14618,8 @@
         "Derived from Datasets": [
             "Net Activity Captions dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Manotas2020LiMiTTL,\n author = {Irene Manotas and Ngoc Phuoc An Vo and V. Sheinin},\n booktitle = {Findings},\n pages = {991-1000},\n title = {LiMiT: The Literal Motion in Text Dataset},\n year = {2020}\n}\n"
     },
     "fc-sni-linnaeus_corpus": {
         "Unique Dataset Identifier": "fc-sni-linnaeus_corpus",
@@ -14532,7 +14700,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Gerner2010LINNAEUSAS,\n author = {Martin Gerner and G. Nenadic and C. Bergman},\n booktitle = {BMC Bioinformatics},\n journal = {BMC Bioinformatics},\n pages = {85 - 85},\n title = {LINNAEUS: A species name identification system for biomedical literature},\n volume = {11},\n year = {2010}\n}\n"
     },
     "fc-sni-lj_speec": {
         "Unique Dataset Identifier": "fc-sni-lj_speec",
@@ -14626,7 +14795,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Maniati2022SOMOSTS,\n author = {Georgia Maniati and Alexandra Vioni and Nikolaos Ellinas and Karolos Nikitaras and Konstantinos Klapsas and June Sig Sung and Gunu Jho and Aimilios Chalamandaris and Pirros Tsiakoulis},\n booktitle = {Interspeech},\n pages = {2388-2392},\n title = {SOMOS: The Samsung Open MOS Dataset for the Evaluation of Neural Text-to-Speech Synthesis},\n year = {2022}\n}\n"
     },
     "fc-sni-logic2text": {
         "Unique Dataset Identifier": "fc-sni-logic2text",
@@ -14715,7 +14885,8 @@
         "Derived from Datasets": [
             "WikiTables"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Chen2020Logic2TextHN,\n author = {Zhiyu Chen and Wenhu Chen and Hanwen Zha and Xiyou Zhou and Yunkai Zhang and Sairam Sundaresan and William Yang Wang},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {Logic2Text: High-Fidelity Natural Language Generation from Logical Forms},\n volume = {abs/2004.14579},\n year = {2020}\n}\n"
     },
     "fc-sni-math_qa": {
         "Unique Dataset Identifier": "fc-sni-math_qa",
@@ -14805,7 +14976,8 @@
         "Derived from Datasets": [
             "AQuA dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Amini2019MathQATI,\n author = {Aida Amini and Saadia Gabriel and Shanchuan Lin and Rik Koncel-Kedziorski and Yejin Choi and Hannaneh Hajishirzi},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n pages = {2357-2367},\n title = {MathQA: Towards Interpretable Math Word Problem Solving with Operation-Based Formalisms},\n year = {2019}\n}\n"
     },
     "fc-sni-mathmatics_dataset": {
         "Unique Dataset Identifier": "fc-sni-mathmatics_dataset",
@@ -14886,7 +15058,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Saxton2019AnalysingMR,\n author = {D. Saxton and Edward Grefenstette and Felix Hill and Pushmeet Kohli},\n booktitle = {International Conference on Learning Representations},\n journal = {ArXiv},\n title = {Analysing Mathematical Reasoning Abilities of Neural Models},\n volume = {abs/1904.01557},\n year = {2019}\n}\n"
     },
     "fc-sni-mathqa": {
         "Unique Dataset Identifier": "fc-sni-mathqa",
@@ -14975,7 +15148,8 @@
         "Derived from Datasets": [
             "AQuA dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Amini2019MathQATI,\n author = {Aida Amini and Saadia Gabriel and Shanchuan Lin and Rik Koncel-Kedziorski and Yejin Choi and Hannaneh Hajishirzi},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n pages = {2357-2367},\n title = {MathQA: Towards Interpretable Math Word Problem Solving with Operation-Based Formalisms},\n year = {2019}\n}\n"
     },
     "fc-sni-matres": {
         "Unique Dataset Identifier": "fc-sni-matres",
@@ -15058,7 +15232,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Ning2018AMA,\n author = {Qiang Ning and Hao Wu and D. Roth},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {A Multi-Axis Annotation Scheme for Event Temporal Relations},\n volume = {abs/1804.07828},\n year = {2018}\n}\n"
     },
     "fc-sni-mcscript": {
         "Unique Dataset Identifier": "fc-sni-mcscript",
@@ -15141,7 +15316,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "fc-sni-mctaco": {
         "Unique Dataset Identifier": "fc-sni-mctaco",
@@ -15238,7 +15414,8 @@
         "Derived from Datasets": [
             "MultiRC"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Zhou2019GoingOA,\n author = {Ben Zhou and Daniel Khashabi and Qiang Ning and D. Roth},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {“Going on a vacation” takes longer than “Going for a walk”: A Study of Temporal Commonsense Understanding},\n volume = {abs/1909.03065},\n year = {2019}\n}\n"
     },
     "fc-sni-md_gender_bias": {
         "Unique Dataset Identifier": "fc-sni-md_gender_bias",
@@ -15331,7 +15508,8 @@
             "ImageChat",
             "LIGHT"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Dinan2020MultiDimensionalGB,\n author = {Emily Dinan and Angela Fan and Ledell Yu Wu and J. Weston and Douwe Kiela and Adina Williams},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {314-331},\n title = {Multi-Dimensional Gender Bias Classification},\n year = {2020}\n}\n"
     },
     "fc-sni-medical_question_pair_dataset": {
         "Unique Dataset Identifier": "fc-sni-medical_question_pair_dataset",
@@ -15419,7 +15597,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{McCreery2020EffectiveTL,\n author = {Clara H. McCreery and Namit Katariya and A. Kannan and Manish Chablani and X. Amatriain},\n booktitle = {Knowledge Discovery and Data Mining},\n journal = {Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining},\n title = {Effective Transfer Learning for Identifying Similar Questions: Matching User Questions to COVID-19 FAQs},\n year = {2020}\n}\n"
     },
     "fc-sni-menyo20k_mt": {
         "Unique Dataset Identifier": "fc-sni-menyo20k_mt",
@@ -15519,7 +15698,8 @@
             "Text Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Adelani2021TheEO,\n author = {David Ifeoluwa Adelani and Dana Ruiter and Jesujoba Oluwadara Alabi and Damilola Adebonojo and Adesina Ayeni and Mofetoluwa Adeyemi and Ayodele Awokoya and C. España-Bonet},\n booktitle = {Machine Translation Summit},\n pages = {61-75},\n title = {The Effect of Domain and Diacritics in Yoruba–English Neural Machine Translation},\n year = {2021}\n}\n"
     },
     "fc-sni-meta_woz": {
         "Unique Dataset Identifier": "fc-sni-meta_woz",
@@ -15600,7 +15780,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Shalyminov2020FastDA,\n author = {Igor Shalyminov and Alessandro Sordoni and Adam Atkinson and Hannes Schulz},\n booktitle = {IEEE International Conference on Acoustics, Speech, and Signal Processing},\n journal = {ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},\n pages = {8039-8043},\n title = {Fast Domain Adaptation for Goal-Oriented Dialogue Using a Hybrid Generative-Retrieval Transformer},\n year = {2020}\n}\n"
     },
     "fc-sni-miam": {
         "Unique Dataset Identifier": "fc-sni-miam",
@@ -15699,7 +15880,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Chapuis2021CodeswitchedIL,\n author = {E. Chapuis and Pierre Colombo and Matthieu Labeau and Chloe Clave},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {8320-8337},\n title = {Code-switched inspired losses for spoken dialog representations},\n year = {2021}\n}\n"
     },
     "fc-sni-missing": {
         "Unique Dataset Identifier": "fc-sni-missing",
@@ -15780,7 +15962,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-mkb": {
         "Unique Dataset Identifier": "fc-sni-mkb",
@@ -15867,7 +16050,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Siripragrada2020AMP,\n author = {Shashank Siripragrada and Jerin Philip and Vinay P. Namboodiri and C. V. Jawahar},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {3743-3751},\n title = {A Multilingual Parallel Corpora Collection Effort for Indian Languages},\n year = {2020}\n}\n"
     },
     "fc-sni-mocha": {
         "Unique Dataset Identifier": "fc-sni-mocha",
@@ -15967,7 +16151,8 @@
             "DROP",
             "Quoref"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Chen2020MOCHAAD,\n author = {Anthony Chen and Gabriel Stanovsky and Sameer Singh and Matt Gardner},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {6521-6532},\n title = {MOCHA: A Dataset for Training and Evaluating Generative Reading Comprehension Metrics},\n year = {2020}\n}\n"
     },
     "fc-sni-movie_rationales": {
         "Unique Dataset Identifier": "fc-sni-movie_rationales",
@@ -16075,7 +16260,8 @@
             "CoS-E",
             "e-SNLI"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{DeYoung2019ERASERAB,\n author = {Jay DeYoung and Sarthak Jain and Nazneen Rajani and Eric P. Lehman and Caiming Xiong and R. Socher and Byron C. Wallace},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {4443-4458},\n title = {ERASER: A Benchmark to Evaluate Rationalized NLP Models},\n year = {2019}\n}\n"
     },
     "fc-sni-mrpc": {
         "Unique Dataset Identifier": "fc-sni-mrpc",
@@ -16161,7 +16347,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Dolan2005AutomaticallyCA,\n author = {W. Dolan and Chris Brockett},\n booktitle = {International Joint Conference on Natural Language Processing},\n title = {Automatically Constructing a Corpus of Sentential Paraphrases},\n year = {2005}\n}\n"
     },
     "fc-sni-mrqa": {
         "Unique Dataset Identifier": "fc-sni-mrqa",
@@ -16279,7 +16466,8 @@
             "QAST",
             "TREC"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Fisch2019MRQA2S,\n author = {Adam Fisch and Alon Talmor and Robin Jia and Minjoon Seo and Eunsol Choi and Danqi Chen},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {1-13},\n title = {MRQA 2019 Shared Task: Evaluating Generalization in Reading Comprehension},\n year = {2019}\n}\n"
     },
     "fc-sni-ms_marco": {
         "Unique Dataset Identifier": "fc-sni-ms_marco",
@@ -16363,7 +16551,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Campos2016MSMA,\n author = {Daniel Fernando Campos and Tri Nguyen and Mir Rosenberg and Xia Song and Jianfeng Gao and Saurabh Tiwary and Rangan Majumder and L. Deng and Bhaskar Mitra},\n booktitle = {CoCo@NIPS},\n journal = {ArXiv},\n title = {MS MARCO: A Human Generated MAchine Reading COmprehension Dataset},\n volume = {abs/1611.09268},\n year = {2016}\n}\n"
     },
     "fc-sni-msr_sqa": {
         "Unique Dataset Identifier": "fc-sni-msr_sqa",
@@ -16451,7 +16640,8 @@
         "Derived from Datasets": [
             "WikiTableQuestions"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Iyyer2017SearchbasedNS,\n author = {Mohit Iyyer and Wen-tau Yih and Ming-Wei Chang},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {1821-1831},\n title = {Search-based Neural Structured Learning for Sequential Question Answering},\n year = {2017}\n}\n"
     },
     "fc-sni-msr_text_compression": {
         "Unique Dataset Identifier": "fc-sni-msr_text_compression",
@@ -16537,7 +16727,8 @@
         "Derived from Datasets": [
             "WikiTableQuestions"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Iyyer2017SearchbasedNS,\n author = {Mohit Iyyer and Wen-tau Yih and Ming-Wei Chang},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {1821-1831},\n title = {Search-based Neural Structured Learning for Sequential Question Answering},\n year = {2017}\n}\n"
     },
     "fc-sni-multi_woz_v22": {
         "Unique Dataset Identifier": "fc-sni-multi_woz_v22",
@@ -16622,7 +16813,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Ramadan2018LargeScaleMB,\n author = {Osman Ramadan and Paweł Budzianowski and Milica Gasic},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {432-437},\n title = {Large-Scale Multi-Domain Belief Tracking with Knowledge Sharing},\n year = {2018}\n}\n"
     },
     "fc-sni-multilingual_amazon_reviews": {
         "Unique Dataset Identifier": "fc-sni-multilingual_amazon_reviews",
@@ -16708,7 +16900,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Keung2020TheMA,\n author = {Phillip Keung and Y. Lu and György Szarvas and Noah A. Smith},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {4563-4568},\n title = {The Multilingual Amazon Reviews Corpus},\n year = {2020}\n}\n"
     },
     "fc-sni-multilingual_ted": {
         "Unique Dataset Identifier": "fc-sni-multilingual_ted",
@@ -16792,7 +16985,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Qi2018WhenAW,\n author = {Ye Qi and Devendra Singh Sachan and Matthieu Felix and Sarguna Padmanabhan and Graham Neubig},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {When and Why Are Pre-Trained Word Embeddings Useful for Neural Machine Translation?},\n volume = {abs/1804.06323},\n year = {2018}\n}\n"
     },
     "fc-sni-multinli": {
         "Unique Dataset Identifier": "fc-sni-multinli",
@@ -16876,7 +17070,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Williams2017ABC,\n author = {Adina Williams and Nikita Nangia and Samuel R. Bowman},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n pages = {1112-1122},\n title = {A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference},\n year = {2017}\n}\n"
     },
     "fc-sni-mutual": {
         "Unique Dataset Identifier": "fc-sni-mutual",
@@ -16962,7 +17157,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Cui2020MuTualAD,\n author = {Leyang Cui and Yu Wu and Shujie Liu and Yue Zhang and Ming Zhou},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {MuTual: A Dataset for Multi-Turn Dialogue Reasoning},\n volume = {abs/2004.04494},\n year = {2020}\n}\n"
     },
     "fc-sni-mwsc": {
         "Unique Dataset Identifier": "fc-sni-mwsc",
@@ -17073,7 +17269,8 @@
             "WikiSQL",
             "MWSC"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{McCann2018TheNL,\n author = {Bryan McCann and N. Keskar and Caiming Xiong and R. Socher},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {The Natural Language Decathlon: Multitask Learning as Question Answering},\n volume = {abs/1806.08730},\n year = {2018}\n}\n"
     },
     "fc-sni-narrativeqa": {
         "Unique Dataset Identifier": "fc-sni-narrativeqa",
@@ -17160,7 +17357,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kociský2017TheNR,\n author = {Tomás Kociský and Jonathan Schwarz and Phil Blunsom and Chris Dyer and K. Hermann and Gábor Melis and Edward Grefenstette},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {317-328},\n title = {The NarrativeQA Reading Comprehension Challenge},\n volume = {6},\n year = {2017}\n}\n"
     },
     "fc-sni-ncbi_disease_corpus": {
         "Unique Dataset Identifier": "fc-sni-ncbi_disease_corpus",
@@ -17241,7 +17439,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Dogan2014NCBIDC,\n author = {R. Dogan and Robert Leaman and Zhiyong Lu},\n booktitle = {Journal of Biomedical Informatics},\n journal = {Journal of biomedical informatics},\n pages = {\n          1-10\n        },\n title = {NCBI disease corpus: A resource for disease name recognition and concept normalization},\n volume = {47},\n year = {2014}\n}\n"
     },
     "fc-sni-news_commentary": {
         "Unique Dataset Identifier": "fc-sni-news_commentary",
@@ -17340,7 +17539,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Tiedemann2012ParallelDT,\n author = {J. Tiedemann},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {2214-2218},\n title = {Parallel Data, Tools and Interfaces in OPUS},\n year = {2012}\n}\n"
     },
     "fc-sni-news_editorials": {
         "Unique Dataset Identifier": "fc-sni-news_editorials",
@@ -17421,7 +17621,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-news_headlines_dataset_for_sarcasm_detection": {
         "Unique Dataset Identifier": "fc-sni-news_headlines_dataset_for_sarcasm_detection",
@@ -17508,7 +17709,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Misra2023SarcasmDU,\n author = {Rishabh Misra and Prahal Arora},\n booktitle = {AI Open},\n journal = {AI Open},\n pages = {13-18},\n title = {Sarcasm detection using news headlines dataset},\n volume = {4},\n year = {2023}\n}\n"
     },
     "fc-sni-nlg_bias": {
         "Unique Dataset Identifier": "fc-sni-nlg_bias",
@@ -17592,7 +17794,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-nlu_asdiv_dataset": {
         "Unique Dataset Identifier": "fc-sni-nlu_asdiv_dataset",
@@ -17676,7 +17879,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Miao2020ADC,\n author = {Shen-Yun Miao and Chao-Chun Liang and Keh-Yih Su},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {975-984},\n title = {A Diverse Corpus for Evaluating and Developing English Math Word Problem Solvers},\n year = {2020}\n}\n"
     },
     "fc-sni-numeric_fused_head": {
         "Unique Dataset Identifier": "fc-sni-numeric_fused_head",
@@ -17764,7 +17968,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Elazar2019WheresMH,\n author = {Yanai Elazar and Yoav Goldberg},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {519-535},\n title = {Where’s My Head? Definition, Data Set, and Models for Numeric Fused-Head Identification and Resolution},\n volume = {7},\n year = {2019}\n}\n"
     },
     "fc-sni-numersense": {
         "Unique Dataset Identifier": "fc-sni-numersense",
@@ -17850,7 +18055,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Lin2020BirdsHF,\n author = {Bill Yuchen Lin and Seyeon Lee and Rahul Khanna and Xiang Ren},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {6862-6868},\n title = {Birds Have Four Legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-trained Language Models},\n year = {2020}\n}\n"
     },
     "fc-sni-nyc": {
         "Unique Dataset Identifier": "fc-sni-nyc",
@@ -17934,7 +18140,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Reed2020LearningFM,\n author = {Lena Reed and Vrindavan Harrison and Shereen Oraby and Dilek Z. Hakkani-Tür and M. Walker},\n booktitle = {SIGDIAL Conferences},\n pages = {21-34},\n title = {Learning from Mistakes: Combining Ontologies via Self-Training for Dialogue Generation},\n year = {2020}\n}\n"
     },
     "fc-sni-odd_man_out": {
         "Unique Dataset Identifier": "fc-sni-odd_man_out",
@@ -18011,7 +18218,8 @@
             "Text Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Stanovsky2018SpotTO,\n author = {Gabriel Stanovsky and Mark Hopkins},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {1533-1542},\n title = {Spot the Odd Man Out: Exploring the Associative Power of Lexical Resources},\n year = {2018}\n}\n"
     },
     "fc-sni-offenseval_dravidian": {
         "Unique Dataset Identifier": "fc-sni-offenseval_dravidian",
@@ -18090,7 +18298,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-ohsumed": {
         "Unique Dataset Identifier": "fc-sni-ohsumed",
@@ -18171,7 +18380,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Hersh1994OHSUMEDAI,\n author = {W. Hersh and C. Buckley and T. J. Leone and D. Hickam},\n booktitle = {Annual International ACM SIGIR Conference on Research and Development in Information Retrieval},\n pages = {192-201},\n title = {OHSUMED: an interactive retrieval evaluation and new large test collection for research},\n year = {1994}\n}\n"
     },
     "fc-sni-olid": {
         "Unique Dataset Identifier": "fc-sni-olid",
@@ -18256,7 +18466,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Dai2020KungfupandaAS,\n author = {Wenliang Dai and Tiezheng Yu and Zihan Liu and Pascale Fung},\n booktitle = {International Workshop on Semantic Evaluation},\n pages = {2060-2066},\n title = {Kungfupanda at SemEval-2020 Task 12: BERT-Based Multi-TaskLearning for Offensive Language Detection},\n year = {2020}\n}\n"
     },
     "fc-sni-ollie": {
         "Unique Dataset Identifier": "fc-sni-ollie",
@@ -18345,7 +18556,8 @@
         "Derived from Datasets": [
             "ClueWeb09 Dataset"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Mausam2012OpenLL,\n author = {Mausam and Michael Schmitz and S. Soderland and Robert Bart and Oren Etzioni},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {523-534},\n title = {Open Language Learning for Information Extraction},\n year = {2012}\n}\n"
     },
     "fc-sni-open_pi": {
         "Unique Dataset Identifier": "fc-sni-open_pi",
@@ -18432,7 +18644,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Tandon2020ADF,\n author = {Niket Tandon and Keisuke Sakaguchi and Bhavana Dalvi and Dheeraj Rajagopal and Peter Clark and Michal Guerquin and Kyle Richardson and E. Hovy},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {A Dataset for Tracking Entities in Open Domain Procedural Text},\n volume = {abs/2011.08092},\n year = {2020}\n}\n"
     },
     "fc-sni-opensubtitles": {
         "Unique Dataset Identifier": "fc-sni-opensubtitles",
@@ -18520,7 +18733,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Lison2016OpenSubtitles2016EL,\n author = {Pierre Lison and J. Tiedemann},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {923-929},\n title = {OpenSubtitles2016: Extracting Large Parallel Corpora from Movie and TV Subtitles},\n year = {2016}\n}\n"
     },
     "fc-sni-opp_115": {
         "Unique Dataset Identifier": "fc-sni-opp_115",
@@ -18599,7 +18813,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-opus_100": {
         "Unique Dataset Identifier": "fc-sni-opus_100",
@@ -18690,7 +18905,8 @@
         "Derived from Datasets": [
             "OPUS Collection"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Zhang2020ImprovingMM,\n author = {Biao Zhang and P. Williams and Ivan Titov and Rico Sennrich},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Improving Massively Multilingual Neural Machine Translation and Zero-Shot Translation},\n volume = {abs/2004.11867},\n year = {2020}\n}\n"
     },
     "fc-sni-opus_books": {
         "Unique Dataset Identifier": "fc-sni-opus_books",
@@ -18773,7 +18989,8 @@
             "Text Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Tiedemann2012ParallelDT,\n author = {J. Tiedemann},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {2214-2218},\n title = {Parallel Data, Tools and Interfaces in OPUS},\n year = {2012}\n}\n"
     },
     "fc-sni-opus_paracrawl": {
         "Unique Dataset Identifier": "fc-sni-opus_paracrawl",
@@ -18862,7 +19079,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Bañón2020ParaCrawlWA,\n author = {Marta Bañón and Pinzhen Chen and B. Haddow and Kenneth Heafield and Hieu D. Hoang and Miquel Esplà-GomisF and Mikel ForcadaF and Amir Kamran and Faheem Kirefu and Philipp Koehn and Sergio Ortiz-Rojas and Leopoldo PlaF and Gema Ramírez-Sánchez and Elsa Sarrı́asF and Marek Střelec and Brian Thompson and W. Waites and Dion WigginsN and Jaume Zaragoza},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {4555-4567},\n title = {ParaCrawl: Web-Scale Acquisition of Parallel Corpora},\n year = {2020}\n}\n"
     },
     "fc-sni-opus_ted_talks": {
         "Unique Dataset Identifier": "fc-sni-opus_ted_talks",
@@ -18945,7 +19163,8 @@
             "Text Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Tiedemann2012ParallelDT,\n author = {J. Tiedemann},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {2214-2218},\n title = {Parallel Data, Tools and Interfaces in OPUS},\n year = {2012}\n}\n"
     },
     "fc-sni-opus_xhosanavy": {
         "Unique Dataset Identifier": "fc-sni-opus_xhosanavy",
@@ -19036,7 +19255,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Tiedemann2012ParallelDT,\n author = {J. Tiedemann},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {2214-2218},\n title = {Parallel Data, Tools and Interfaces in OPUS},\n year = {2012}\n}\n"
     },
     "fc-sni-overruling": {
         "Unique Dataset Identifier": "fc-sni-overruling",
@@ -19118,7 +19338,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Zheng2021WhenDP,\n author = {Lucia Zheng and Neel Guha and Brandon R. Anderson and Peter Henderson and Daniel E. Ho},\n booktitle = {International Conference on Artificial Intelligence and Law},\n journal = {Proceedings of the Eighteenth International Conference on Artificial Intelligence and Law},\n title = {When does pretraining help?: assessing self-supervised learning for law and the CaseHOLD dataset of 53,000+ legal holdings},\n year = {2021}\n}\n"
     },
     "fc-sni-paper_reviews_data_set": {
         "Unique Dataset Identifier": "fc-sni-paper_reviews_data_set",
@@ -19200,7 +19421,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-para_nmt": {
         "Unique Dataset Identifier": "fc-sni-para_nmt",
@@ -19274,7 +19496,8 @@
             "Text Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Wieting2017PushingTL,\n author = {J. Wieting and Kevin Gimpel},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Pushing the Limits of Paraphrastic Sentence Embeddings with Millions of Machine Translations},\n volume = {abs/1711.05732},\n year = {2017}\n}\n"
     },
     "fc-sni-para_pat": {
         "Unique Dataset Identifier": "fc-sni-para_pat",
@@ -19363,7 +19586,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Soares2020ParaPatTM,\n author = {Felipe Soares and Mark Stevenson and Diego Bartolomé and A. Zaretskaya},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {3769-3774},\n title = {ParaPat: The Multi-Million Sentences Parallel Corpus of Patents Abstracts},\n year = {2020}\n}\n"
     },
     "fc-sni-parsinlu": {
         "Unique Dataset Identifier": "fc-sni-parsinlu",
@@ -19494,7 +19718,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Khashabi2020ParsiNLUAS,\n author = {Daniel Khashabi and Arman Cohan and Siamak Shakeri and Pedram Hosseini and Pouya Pezeshkpour and Malihe Alikhani and Moin Aminnaseri and Marzieh Bitaab and Faeze Brahman and Sarik Ghazarian and Mozhdeh Gheini and Arman Kabiri and Rabeeh Karimi Mahabadi and Omid Memarrast and Ahmadreza Mosallanezhad and Erfan Noury and Shahab Raji and Mohammad Sadegh Rasooli and Sepideh Sadeghi and Erfan Sadeqi Azer and Niloofar Safi Samghabadi and Mahsa Shafaei and Saber Sheybani and Ali Tazarv and Yadollah Yaghoobzadeh},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {1147-1162},\n title = {ParsiNLU: A Suite of Language Understanding Challenges for Persian},\n volume = {9},\n year = {2020}\n}\n"
     },
     "fc-sni-pasinlu": {
         "Unique Dataset Identifier": "fc-sni-pasinlu",
@@ -19626,7 +19851,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Khashabi2020ParsiNLUAS,\n author = {Daniel Khashabi and Arman Cohan and Siamak Shakeri and Pedram Hosseini and Pouya Pezeshkpour and Malihe Alikhani and Moin Aminnaseri and Marzieh Bitaab and Faeze Brahman and Sarik Ghazarian and Mozhdeh Gheini and Arman Kabiri and Rabeeh Karimi Mahabadi and Omid Memarrast and Ahmadreza Mosallanezhad and Erfan Noury and Shahab Raji and Mohammad Sadegh Rasooli and Sepideh Sadeghi and Erfan Sadeqi Azer and Niloofar Safi Samghabadi and Mahsa Shafaei and Saber Sheybani and Ali Tazarv and Yadollah Yaghoobzadeh},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {1147-1162},\n title = {ParsiNLU: A Suite of Language Understanding Challenges for Persian},\n volume = {9},\n year = {2020}\n}\n"
     },
     "fc-sni-paws": {
         "Unique Dataset Identifier": "fc-sni-paws",
@@ -19714,7 +19940,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Zhang2019PAWSPA,\n author = {Yuan Zhang and Jason Baldridge and Luheng He},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {PAWS: Paraphrase Adversaries from Word Scrambling},\n volume = {abs/1904.01130},\n year = {2019}\n}\n"
     },
     "fc-sni-paws_x": {
         "Unique Dataset Identifier": "fc-sni-paws_x",
@@ -19802,7 +20029,8 @@
         "Derived from Datasets": [
             "PAWS dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Yang2019PAWSXAC,\n author = {Yinfei Yang and Y. Zhang and Chris Tar and Jason Baldridge},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {3685-3690},\n title = {PAWS-X: A Cross-lingual Adversarial Dataset for Paraphrase Identification},\n year = {2019}\n}\n"
     },
     "fc-sni-pec": {
         "Unique Dataset Identifier": "fc-sni-pec",
@@ -19891,7 +20119,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Zhong2020TowardsPE,\n author = {Peixiang Zhong and Yan Lindsay Sun and Yong Liu and Chen Zhang and Hao Wang and Zaiqing Nie and Chun Miao},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {6556-6566},\n title = {Towards Persona-Based Empathetic Conversational Models},\n year = {2020}\n}\n"
     },
     "fc-sni-peer_read": {
         "Unique Dataset Identifier": "fc-sni-peer_read",
@@ -19976,7 +20205,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kang2018ADO,\n author = {Dongyeop Kang and Waleed Ammar and Bhavana Dalvi and Madeleine van Zuylen and Sebastian Kohlmeier and E. Hovy and Roy Schwartz},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {A Dataset of Peer Reviews (PeerRead): Collection, Insights and NLP Applications},\n volume = {abs/1804.09635},\n year = {2018}\n}\n"
     },
     "fc-sni-penn_treebank": {
         "Unique Dataset Identifier": "fc-sni-penn_treebank",
@@ -20055,7 +20285,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-persent": {
         "Unique Dataset Identifier": "fc-sni-persent",
@@ -20147,7 +20378,8 @@
             "TAC 2014 KBP Challenge dataset",
             "Media Rank"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Bastan2020AuthorsSP,\n author = {Mohaddeseh Bastan and Mahnaz Koupaee and Youngseo Son and Richard Sicoli and Niranjan Balasubramanian},\n booktitle = {International Conference on Computational Linguistics},\n pages = {604-615},\n title = {Author’s Sentiment Prediction},\n year = {2020}\n}\n"
     },
     "fc-sni-persianqa": {
         "Unique Dataset Identifier": "fc-sni-persianqa",
@@ -20242,7 +20474,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-personachat": {
         "Unique Dataset Identifier": "fc-sni-personachat",
@@ -20329,7 +20562,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Zhang2018PersonalizingDA,\n author = {Saizheng Zhang and Emily Dinan and Jack Urbanek and Arthur Szlam and Douwe Kiela and J. Weston},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Personalizing Dialogue Agents: I have a dog, do you have pets too?},\n volume = {abs/1801.07243},\n year = {2018}\n}\n"
     },
     "fc-sni-perspectrum": {
         "Unique Dataset Identifier": "fc-sni-perspectrum",
@@ -20418,7 +20652,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Chen2019SeeingTF,\n author = {Sihao Chen and Daniel Khashabi and Wenpeng Yin and Chris Callison-Burch and D. Roth},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n pages = {542-557},\n title = {Seeing Things from a Different Angle:Discovering Diverse Perspectives about Claims},\n year = {2019}\n}\n"
     },
     "fc-sni-pib": {
         "Unique Dataset Identifier": "fc-sni-pib",
@@ -20506,7 +20741,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Siripragrada2020AMP,\n author = {Shashank Siripragrada and Jerin Philip and Vinay P. Namboodiri and C. V. Jawahar},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {3743-3751},\n title = {A Multilingual Parallel Corpora Collection Effort for Indian Languages},\n year = {2020}\n}\n"
     },
     "fc-sni-pico": {
         "Unique Dataset Identifier": "fc-sni-pico",
@@ -20595,7 +20831,8 @@
         "Derived from Datasets": [
             "EBM-NLP corpus (Nye et al 2018)"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Zlabinger2020EffectiveCO,\n author = {Markus Zlabinger and M. Sabou and Sebastian Hofstätter and A. Hanbury},\n booktitle = {Findings},\n pages = {3064-3074},\n title = {Effective Crowd-Annotation of Participants, Interventions, and Outcomes in the Text of Clinical Trial Reports},\n year = {2020}\n}\n"
     },
     "fc-sni-poem_sentiment": {
         "Unique Dataset Identifier": "fc-sni-poem_sentiment",
@@ -20683,7 +20920,8 @@
         "Derived from Datasets": [
             "Gutenberg Poem Dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Sheng2020InvestigatingSB,\n author = {Emily Sheng and David C. Uthus},\n booktitle = {GEBNLP},\n journal = {ArXiv},\n title = {Investigating Societal Biases in a Poetry Composition System},\n volume = {abs/2011.02686},\n year = {2020}\n}\n"
     },
     "fc-sni-points_of_correspondence": {
         "Unique Dataset Identifier": "fc-sni-points_of_correspondence",
@@ -20771,7 +21009,8 @@
         "Derived from Datasets": [
             "CNN/DailyMail corpus"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Lebanoff2020UnderstandingPO,\n author = {Logan Lebanoff and John Muchovej and Franck Dernoncourt and Doo Soon Kim and Lidan Wang and Walter Chang and Fei Liu},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Understanding Points of Correspondence between Sentences for Abstractive Summarization},\n volume = {abs/2006.05621},\n year = {2020}\n}\n"
     },
     "fc-sni-poki": {
         "Unique Dataset Identifier": "fc-sni-poki",
@@ -20856,7 +21095,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Hipson2020PoKiAL,\n author = {Will E. Hipson and Saif M. Mohammad},\n booktitle = {International Conference on Language Resources and Evaluation},\n journal = {ArXiv},\n title = {PoKi: A Large Dataset of Poems by Children},\n volume = {abs/2004.06188},\n year = {2020}\n}\n"
     },
     "fc-sni-poleval2019_mt": {
         "Unique Dataset Identifier": "fc-sni-poleval2019_mt",
@@ -20936,7 +21176,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-prepositional_paraprasing": {
         "Unique Dataset Identifier": "fc-sni-prepositional_paraprasing",
@@ -21021,7 +21262,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Ponkiya2018TreatUL,\n author = {Girishkumar Ponkiya and Kevin Patel and P. Bhattacharyya and Girish Keshav Palshikar},\n booktitle = {International Conference on Computational Linguistics},\n pages = {1827-1836},\n title = {Treat us like the sequences we are: Prepositional Paraphrasing of Noun Compounds using LSTM},\n year = {2018}\n}\n"
     },
     "fc-sni-propara": {
         "Unique Dataset Identifier": "fc-sni-propara",
@@ -21105,7 +21347,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Dalvi2018TrackingSC,\n author = {Bhavana Dalvi and Lifu Huang and Niket Tandon and Wen-tau Yih and Peter Clark},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n pages = {1595-1604},\n title = {Tracking State Changes in Procedural Text: a Challenge Dataset and Models for Process Paragraph Comprehension},\n year = {2018}\n}\n"
     },
     "fc-sni-prost": {
         "Unique Dataset Identifier": "fc-sni-prost",
@@ -21188,7 +21431,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Aroca-Ouellette2021PROSTPR,\n author = {Stephane T Aroca-Ouellette and Cory Paik and A. Roncone and Katharina Kann},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {PROST: Physical Reasoning about Objects through Space and Time},\n volume = {abs/2106.03634},\n year = {2021}\n}\n"
     },
     "fc-sni-proto_qa": {
         "Unique Dataset Identifier": "fc-sni-proto_qa",
@@ -21274,7 +21518,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Boratko2020ProtoQAAQ,\n author = {Michael Boratko and Xiang Lorraine Li and Rajarshi Das and Timothy J. O'Gorman and Daniel Le and A. McCallum},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {ProtoQA: A Question Answering Dataset for Prototypical Common-Sense Reasoning},\n volume = {abs/2005.00771},\n year = {2020}\n}\n"
     },
     "fc-sni-pubmed_qa": {
         "Unique Dataset Identifier": "fc-sni-pubmed_qa",
@@ -21362,7 +21607,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Jin2019PubMedQAAD,\n author = {Qiao Jin and Bhuwan Dhingra and Zhengping Liu and William W. Cohen and Xinghua Lu},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {2567-2577},\n title = {PubMedQA: A Dataset for Biomedical Research Question Answering},\n year = {2019}\n}\n"
     },
     "fc-sni-qa_srl": {
         "Unique Dataset Identifier": "fc-sni-qa_srl",
@@ -21461,7 +21707,8 @@
         "Derived from Datasets": [
             "PropBank"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{He2015QuestionAnswerDS,\n author = {Luheng He and M. Lewis and Luke Zettlemoyer},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {643-653},\n title = {Question-Answer Driven Semantic Role Labeling: Using Natural Language to Annotate Natural Language},\n year = {2015}\n}\n"
     },
     "fc-sni-qanta": {
         "Unique Dataset Identifier": "fc-sni-qanta",
@@ -21550,7 +21797,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Rodriguez2019QuizbowlTC,\n author = {Pedro Rodriguez and Shi Feng and Mohit Iyyer and He He and Jordan L. Boyd-Graber},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Quizbowl: The Case for Incremental Question Answering},\n volume = {abs/1904.04792},\n year = {2019}\n}\n"
     },
     "fc-sni-qasc": {
         "Unique Dataset Identifier": "fc-sni-qasc",
@@ -21638,7 +21886,8 @@
         "Derived from Datasets": [
             "WorldTree corpus"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Khot2019QASCAD,\n author = {Tushar Khot and Peter Clark and Michal Guerquin and Peter Alexander Jansen and Ashish Sabharwal},\n booktitle = {AAAI Conference on Artificial Intelligence},\n journal = {ArXiv},\n title = {QASC: A Dataset for Question Answering via Sentence Composition},\n volume = {abs/1910.11473},\n year = {2019}\n}\n"
     },
     "fc-sni-qasper": {
         "Unique Dataset Identifier": "fc-sni-qasper",
@@ -21724,7 +21973,8 @@
         "Derived from Datasets": [
             "S2ORC"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Dasigi2021ADO,\n author = {Pradeep Dasigi and Kyle Lo and Iz Beltagy and Arman Cohan and Noah A. Smith and Matt Gardner},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {A Dataset of Information-Seeking Questions and Answers Anchored in Research Papers},\n volume = {abs/2105.03011},\n year = {2021}\n}\n"
     },
     "fc-sni-qed": {
         "Unique Dataset Identifier": "fc-sni-qed",
@@ -21813,7 +22063,8 @@
         "Derived from Datasets": [
             "Natural Questions dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Lamm2020QEDAF,\n author = {Matthew Lamm and J. Palomaki and Chris Alberti and D. Andor and Eunsol Choi and Livio Baldini Soares and Michael Collins},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {790-806},\n title = {QED: A Framework and Dataset for Explanations in Question Answering},\n volume = {9},\n year = {2020}\n}\n"
     },
     "fc-sni-qed_amara": {
         "Unique Dataset Identifier": "fc-sni-qed_amara",
@@ -21900,7 +22151,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Abdelali2014TheAC,\n author = {Ahmed Abdelali and Francisco Guzmán and Hassan Sajjad and S. Vogel},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {1856-1862},\n title = {The AMARA Corpus: Building Parallel Language Resources for the Educational Domain},\n year = {2014}\n}\n"
     },
     "fc-sni-qqp": {
         "Unique Dataset Identifier": "fc-sni-qqp",
@@ -21982,7 +22234,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-quail": {
         "Unique Dataset Identifier": "fc-sni-quail",
@@ -22063,7 +22316,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Rogers2020GettingCT,\n author = {Anna Rogers and Olga Kovaleva and Matthew Downey and Anna Rumshisky},\n booktitle = {AAAI Conference on Artificial Intelligence},\n pages = {8722-8731},\n title = {Getting Closer to AI Complete Question Answering: A Set of Prerequisite Real Tasks},\n year = {2020}\n}\n"
     },
     "fc-sni-quarel": {
         "Unique Dataset Identifier": "fc-sni-quarel",
@@ -22147,7 +22401,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Rogers2020GettingCT,\n author = {Anna Rogers and Olga Kovaleva and Matthew Downey and Anna Rumshisky},\n booktitle = {AAAI Conference on Artificial Intelligence},\n pages = {8722-8731},\n title = {Getting Closer to AI Complete Question Answering: A Set of Prerequisite Real Tasks},\n year = {2020}\n}\n"
     },
     "fc-sni-quartz": {
         "Unique Dataset Identifier": "fc-sni-quartz",
@@ -22233,7 +22488,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Tafjord2019QuaRTzAO,\n author = {Oyvind Tafjord and Matt Gardner and Kevin Lin and Peter Clark},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {QuaRTz: An Open-Domain Dataset of Qualitative Relationship Questions},\n volume = {abs/1909.03553},\n year = {2019}\n}\n"
     },
     "fc-sni-question_&_answer_zre": {
         "Unique Dataset Identifier": "fc-sni-question_&_answer_zre",
@@ -22322,7 +22578,8 @@
         "Derived from Datasets": [
             "Wikireading dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Levy2017ZeroShotRE,\n author = {Omer Levy and Minjoon Seo and Eunsol Choi and Luke Zettlemoyer},\n booktitle = {Conference on Computational Natural Language Learning},\n journal = {ArXiv},\n title = {Zero-Shot Relation Extraction via Reading Comprehension},\n volume = {abs/1706.04115},\n year = {2017}\n}\n"
     },
     "fc-sni-quoref": {
         "Unique Dataset Identifier": "fc-sni-quoref",
@@ -22407,7 +22664,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Dasigi2019QuorefAR,\n author = {Pradeep Dasigi and Nelson F. Liu and Ana Marasović and Noah A. Smith and Matt Gardner},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {Quoref: A Reading Comprehension Dataset with Questions Requiring Coreferential Reasoning},\n volume = {abs/1908.05803},\n year = {2019}\n}\n"
     },
     "fc-sni-race": {
         "Unique Dataset Identifier": "fc-sni-race",
@@ -22491,7 +22749,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Lai2017RACELR,\n author = {Guokun Lai and Qizhe Xie and Hanxiao Liu and Yiming Yang and E. Hovy},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {RACE: Large-scale ReAding Comprehension Dataset From Examinations},\n volume = {abs/1704.04683},\n year = {2017}\n}\n"
     },
     "fc-sni-recipe_nlg": {
         "Unique Dataset Identifier": "fc-sni-recipe_nlg",
@@ -22577,7 +22836,8 @@
         "Derived from Datasets": [
             "Recipe1M"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Bień2020RecipeNLGAC,\n author = {Michał Bień and Michał Gilski and M. Maciejewska and Wojciech Taisner and Dawid Wisniewski and Agnieszka Lawrynowicz},\n booktitle = {International Conference on Natural Language Generation},\n pages = {22-28},\n title = {RecipeNLG: A Cooking Recipes Dataset for Semi-Structured Text Generation},\n year = {2020}\n}\n"
     },
     "fc-sni-reddit_tifu_dataset": {
         "Unique Dataset Identifier": "fc-sni-reddit_tifu_dataset",
@@ -22661,7 +22921,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Kim2018AbstractiveSO,\n author = {Byeongchang Kim and Hyunwoo Kim and Gunhee Kim},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Abstractive Summarization of Reddit Posts with Multi-level Memory Networks},\n volume = {abs/1811.00783},\n year = {2018}\n}\n"
     },
     "fc-sni-refresd": {
         "Unique Dataset Identifier": "fc-sni-refresd",
@@ -22758,7 +23019,8 @@
         "Derived from Datasets": [
             "Wikimatrix dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Briakou2020DetectingFC,\n author = {Eleftheria Briakou and Marine Carpuat},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {1563-1580},\n title = {Detecting Fine-Grained Cross-Lingual Semantic Divergences without Supervision by Learning to Rank},\n year = {2020}\n}\n"
     },
     "fc-sni-ro_sts_parallel": {
         "Unique Dataset Identifier": "fc-sni-ro_sts_parallel",
@@ -22841,7 +23103,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Dumitrescu2021LiRoBA,\n author = {S. Dumitrescu and Petru Rebeja and Beáta Lőrincz and Mihaela Găman and M. Ilie and Andrei Pruteanu and Adriana Stan and Luciana Morogan and Traian Rebedea and Sebastian Ruder},\n booktitle = {NeurIPS Datasets and Benchmarks},\n title = {LiRo: Benchmark and leaderboard for Romanian language tasks},\n year = {2021}\n}\n"
     },
     "fc-sni-roc_stories": {
         "Unique Dataset Identifier": "fc-sni-roc_stories",
@@ -22920,7 +23183,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-rocstories": {
         "Unique Dataset Identifier": "fc-sni-rocstories",
@@ -23005,7 +23269,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "fc-sni-root09": {
         "Unique Dataset Identifier": "fc-sni-root09",
@@ -23089,7 +23354,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Shwartz2016PathbasedVD,\n author = {Vered Shwartz and Ido Dagan},\n booktitle = {CogALex@COLING},\n pages = {24-29},\n title = {Path-based vs. Distributional Information in Recognizing Lexical Semantic Relations},\n year = {2016}\n}\n"
     },
     "fc-sni-ropes": {
         "Unique Dataset Identifier": "fc-sni-ropes",
@@ -23174,7 +23440,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Lin2019ReasoningOP,\n author = {Kevin Lin and Oyvind Tafjord and Peter Clark and Matt Gardner},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {58-62},\n title = {Reasoning Over Paragraph Effects in Situations},\n year = {2019}\n}\n"
     },
     "fc-sni-rotten_tomatoe": {
         "Unique Dataset Identifier": "fc-sni-rotten_tomatoe",
@@ -23261,7 +23528,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Pang2005SeeingSE,\n author = {B. Pang and Lillian Lee},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {115-124},\n title = {Seeing Stars: Exploiting Class Relationships for Sentiment Categorization with Respect to Rating Scales},\n year = {2005}\n}\n"
     },
     "fc-sni-rtgender": {
         "Unique Dataset Identifier": "fc-sni-rtgender",
@@ -23332,7 +23600,8 @@
             "Text Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-ruletaker": {
         "Unique Dataset Identifier": "fc-sni-ruletaker",
@@ -23417,7 +23686,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Clark2020TransformersAS,\n author = {Peter Clark and Oyvind Tafjord and Kyle Richardson},\n booktitle = {International Joint Conference on Artificial Intelligence},\n pages = {3882-3890},\n title = {Transformers as Soft Reasoners over Language},\n year = {2020}\n}\n"
     },
     "fc-sni-sarcasm_in_twitter": {
         "Unique Dataset Identifier": "fc-sni-sarcasm_in_twitter",
@@ -23500,7 +23770,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-sbic": {
         "Unique Dataset Identifier": "fc-sni-sbic",
@@ -23590,7 +23861,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Sap2019SocialBF,\n author = {Maarten Sap and Saadia Gabriel and Lianhui Qin and Dan Jurafsky and Noah A. Smith and Yejin Choi},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Social Bias Frames: Reasoning about Social and Power Implications of Language},\n volume = {abs/1911.03891},\n year = {2019}\n}\n"
     },
     "fc-sni-scan": {
         "Unique Dataset Identifier": "fc-sni-scan",
@@ -23676,7 +23948,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Lake2017GeneralizationWS,\n author = {B. Lake and Marco Baroni},\n booktitle = {International Conference on Machine Learning},\n pages = {2879-2888},\n title = {Generalization without Systematicity: On the Compositional Skills of Sequence-to-Sequence Recurrent Networks},\n year = {2017}\n}\n"
     },
     "fc-sni-schema_guided_dstc8": {
         "Unique Dataset Identifier": "fc-sni-schema_guided_dstc8",
@@ -23758,7 +24031,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Rastogi2020SchemaGuidedDS,\n author = {Abhinav Rastogi and Xiaoxue Zang and Srinivas Sunkara and Raghav Gupta and Pranav Khaitan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Schema-Guided Dialogue State Tracking Task at DSTC8},\n volume = {abs/2002.01359},\n year = {2020}\n}\n"
     },
     "fc-sni-scifact": {
         "Unique Dataset Identifier": "fc-sni-scifact",
@@ -23844,7 +24118,8 @@
         "Derived from Datasets": [
             "S2ORC"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Wadden2020FactOF,\n author = {David Wadden and Kyle Lo and Lucy Lu Wang and Shanchuan Lin and Madeleine van Zuylen and Arman Cohan and Hannaneh Hajishirzi},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {Fact or Fiction: Verifying Scientific Claims},\n volume = {abs/2004.14974},\n year = {2020}\n}\n"
     },
     "fc-sni-sciq": {
         "Unique Dataset Identifier": "fc-sni-sciq",
@@ -23932,7 +24207,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Welbl2017CrowdsourcingMC,\n author = {Johannes Welbl and Nelson F. Liu and Matt Gardner},\n booktitle = {NUT@EMNLP},\n journal = {ArXiv},\n title = {Crowdsourcing Multiple Choice Science Questions},\n volume = {abs/1707.06209},\n year = {2017}\n}\n"
     },
     "fc-sni-scitail": {
         "Unique Dataset Identifier": "fc-sni-scitail",
@@ -24017,7 +24293,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Khot2018SciTaiLAT,\n author = {Tushar Khot and Ashish Sabharwal and Peter Clark},\n booktitle = {AAAI Conference on Artificial Intelligence},\n pages = {5189-5197},\n title = {SciTaiL: A Textual Entailment Dataset from Science Question Answering},\n year = {2018}\n}\n"
     },
     "fc-sni-scitailv1.1": {
         "Unique Dataset Identifier": "fc-sni-scitailv1.1",
@@ -24092,7 +24369,8 @@
             "Text Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Khot2018SciTaiLAT,\n author = {Tushar Khot and Ashish Sabharwal and Peter Clark},\n booktitle = {AAAI Conference on Artificial Intelligence},\n pages = {5189-5197},\n title = {SciTaiL: A Textual Entailment Dataset from Science Question Answering},\n year = {2018}\n}\n"
     },
     "fc-sni-scitldr": {
         "Unique Dataset Identifier": "fc-sni-scitldr",
@@ -24177,7 +24455,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Cachola2020TLDRES,\n author = {Isabel Cachola and Kyle Lo and Arman Cohan and Daniel S. Weld},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {TLDR: Extreme Summarization of Scientific Documents},\n volume = {abs/2004.15011},\n year = {2020}\n}\n"
     },
     "fc-sni-scruples": {
         "Unique Dataset Identifier": "fc-sni-scruples",
@@ -24258,7 +24537,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Lourie2020ScruplesAC,\n author = {Nicholas Lourie and Ronan Le Bras and Yejin Choi},\n booktitle = {AAAI Conference on Artificial Intelligence},\n journal = {ArXiv},\n title = {Scruples: A Corpus of Community Ethical Judgments on 32, 000 Real-Life Anecdotes},\n volume = {abs/2008.09094},\n year = {2020}\n}\n"
     },
     "fc-sni-semantic_parser_localizer": {
         "Unique Dataset Identifier": "fc-sni-semantic_parser_localizer",
@@ -24347,7 +24627,8 @@
         "Derived from Datasets": [
             "Schema2QA dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Moradshahi2020LocalizingQS,\n author = {M. Moradshahi and Giovanni Campagna and Sina J. Semnani and Silei Xu and M. Lam},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {5970-5983},\n title = {Localizing Q&A Semantic Parsers for Any Language in a Day},\n year = {2020}\n}\n"
     },
     "fc-sni-semeval_2018_task1": {
         "Unique Dataset Identifier": "fc-sni-semeval_2018_task1",
@@ -24436,7 +24717,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Mohammad2018SemEval2018T1,\n author = {Saif M. Mohammad and Felipe Bravo-Marquez and Mohammad Salameh and S. Kiritchenko},\n booktitle = {International Workshop on Semantic Evaluation},\n pages = {1-17},\n title = {SemEval-2018 Task 1: Affect in Tweets},\n year = {2018}\n}\n"
     },
     "fc-sni-semeval_2018_task3": {
         "Unique Dataset Identifier": "fc-sni-semeval_2018_task3",
@@ -24526,7 +24808,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Hee2018SemEval2018T3,\n author = {Cynthia Van Hee and Els Lefever and Veronique Hoste},\n booktitle = {International Workshop on Semantic Evaluation},\n pages = {39-50},\n title = {SemEval-2018 Task 3: Irony Detection in English Tweets},\n year = {2018}\n}\n"
     },
     "fc-sni-semeval_2019_task_10": {
         "Unique Dataset Identifier": "fc-sni-semeval_2019_task_10",
@@ -24608,7 +24891,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Hopkins2019SemEval2019T1,\n author = {Mark Hopkins and Ronan Le Bras and Cristian Petrescu-Prahova and Gabriel Stanovsky and Hannaneh Hajishirzi and Rik Koncel-Kedziorski},\n booktitle = {International Workshop on Semantic Evaluation},\n pages = {893-899},\n title = {SemEval-2019 Task 10: Math Question Answering},\n year = {2019}\n}\n"
     },
     "fc-sni-semeval_2020_task_7": {
         "Unique Dataset Identifier": "fc-sni-semeval_2020_task_7",
@@ -24695,7 +24979,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Hossain2019PresidentVT,\n author = {Nabil Hossain and John Krumm and Michael Gamon},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {“President Vows to Cut  Hair”: Dataset and Analysis of Creative Text Editing for Humorous Headlines},\n volume = {abs/1906.00274},\n year = {2019}\n}\n"
     },
     "fc-sni-semeval_2020_task4": {
         "Unique Dataset Identifier": "fc-sni-semeval_2020_task4",
@@ -24784,7 +25069,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "fc-sni-sentence_compression": {
         "Unique Dataset Identifier": "fc-sni-sentence_compression",
@@ -24867,7 +25153,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Filippova2013OvercomingTL,\n author = {Katja Filippova and Y. Altun},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {1481-1491},\n title = {Overcoming the Lack of Parallel Data in Sentence Compression},\n year = {2013}\n}\n"
     },
     "fc-sni-senteval": {
         "Unique Dataset Identifier": "fc-sni-senteval",
@@ -24966,7 +25253,8 @@
             "COCO",
             "SNLI"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Conneau2018WhatYC,\n author = {Alexis Conneau and Germán Kruszewski and Guillaume Lample and Loïc Barrault and Marco Baroni},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {2126-2136},\n title = {What you can cram into a single $&!#* vector: Probing sentence embeddings for linguistic properties},\n year = {2018}\n}\n"
     },
     "fc-sni-sherliic": {
         "Unique Dataset Identifier": "fc-sni-sherliic",
@@ -25057,7 +25345,8 @@
         "Derived from Datasets": [
             "ClueWeb09"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Schmitt2019SherLIiCAT,\n author = {Martin Schmitt and Hinrich Schütze},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {902-914},\n title = {SherLIiC: A Typed Event-Focused Lexical Inference Benchmark for Evaluating Natural Language Inference},\n year = {2019}\n}\n"
     },
     "fc-sni-sick": {
         "Unique Dataset Identifier": "fc-sni-sick",
@@ -25147,7 +25436,8 @@
             "MRPC",
             "MSR-Video Descriptions dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Marelli2014ASC,\n author = {M. Marelli and S. Menini and Marco Baroni and L. Bentivogli and R. Bernardi and Roberto Zamparelli},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {216-223},\n title = {A SICK cure for the evaluation of compositional distributional semantic models},\n year = {2014}\n}\n"
     },
     "fc-sni-smcalflow": {
         "Unique Dataset Identifier": "fc-sni-smcalflow",
@@ -25232,7 +25522,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Andreas2020TaskOrientedDA,\n author = {Jacob Andreas and J. Bufe and David Burkett and Charles C. Chen and Joshua Clausman and J. Crawford and Kate Crim and Jordan DeLoach and Leah Dorner and Jason Eisner and Hao Fang and Alan Guo and David Leo Wright Hall and K. Hayes and Kellie Hill and Diana Ho and Wendy Iwaszuk and Smriti Jha and D. Klein and Jayant Krishnamurthy and Theo Lanman and P. Liang and C. H. Lin and Ilya Lintsbakh and Andy McGovern and Aleksandr Nisnevich and Adam Pauls and Dmitrij Petters and Brent Read and D. Roth and Subhro Roy and Jesse Rusak and B. Short and Div Slomin and B. Snyder and Stephon Striplin and Yu Su and Zachary Tellman and Sam Thomson and A. Vorobev and Izabela Witoszko and Jason Wolfe and A. Wray and Yuchen Zhang and Alexander Zotov},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {556-571},\n title = {Task-Oriented Dialogue as Dataflow Synthesis},\n volume = {8},\n year = {2020}\n}\n"
     },
     "fc-sni-sms_spam_collection_v.1": {
         "Unique Dataset Identifier": "fc-sni-sms_spam_collection_v.1",
@@ -25311,7 +25602,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-social_iqa": {
         "Unique Dataset Identifier": "fc-sni-social_iqa",
@@ -25396,7 +25688,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "fc-sni-splash": {
         "Unique Dataset Identifier": "fc-sni-splash",
@@ -25480,7 +25773,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-spolin": {
         "Unique Dataset Identifier": "fc-sni-spolin",
@@ -25563,7 +25857,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Cho2020GroundingCW,\n author = {Hyundong Justin Cho and Jonathan May},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {2398-2413},\n title = {Grounding Conversations with Improvised Dialogues},\n year = {2020}\n}\n"
     },
     "fc-sni-sqac": {
         "Unique Dataset Identifier": "fc-sni-sqac",
@@ -25662,7 +25957,8 @@
         "Derived from Datasets": [
             "Spanish section of the AnCora corpus"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Gutiérrez-Fandiño2021MarIASL,\n author = {Asier Gutiérrez-Fandiño and Jordi Armengol-Estap'e and Marc Pàmies and Joan Llop-Palao and Joaquín Silveira-Ocampo and C. Carrino and Carme Armentano-Oller and C. R. Penagos and Aitor Gonzalez-Agirre and Marta Villegas},\n booktitle = {Proces. del Leng. Natural},\n journal = {Proces. del Leng. Natural},\n pages = {39-60},\n title = {MarIA: Spanish Language Models},\n volume = {68},\n year = {2021}\n}\n"
     },
     "fc-sni-squad_1.1": {
         "Unique Dataset Identifier": "fc-sni-squad_1.1",
@@ -25737,7 +26033,8 @@
             "Text Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Rajpurkar2016SQuAD1Q,\n author = {Pranav Rajpurkar and Jian Zhang and Konstantin Lopyrev and Percy Liang},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {2383-2392},\n title = {SQuAD: 100,000+ Questions for Machine Comprehension of Text},\n year = {2016}\n}\n"
     },
     "fc-sni-squad2.0": {
         "Unique Dataset Identifier": "fc-sni-squad2.0",
@@ -25812,7 +26109,8 @@
             "Text Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Rajpurkar2018KnowWY,\n author = {Pranav Rajpurkar and Robin Jia and Percy Liang},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Know What You Don’t Know: Unanswerable Questions for SQuAD},\n volume = {abs/1806.03822},\n year = {2018}\n}\n"
     },
     "fc-sni-starcon": {
         "Unique Dataset Identifier": "fc-sni-starcon",
@@ -25895,7 +26193,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kobbe2020UnsupervisedSD,\n author = {J. Kobbe and Ioana Hulpus and H. Stuckenschmidt},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {50-60},\n title = {Unsupervised Stance Detection for Arguments from Consequences},\n year = {2020}\n}\n"
     },
     "fc-sni-stereoset": {
         "Unique Dataset Identifier": "fc-sni-stereoset",
@@ -25982,7 +26281,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Nadeem2020StereoSetMS,\n author = {Moin Nadeem and Anna Bethke and Siva Reddy},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {5356-5371},\n title = {StereoSet: Measuring stereotypical bias in pretrained language models},\n year = {2020}\n}\n"
     },
     "fc-sni-storycommonsense": {
         "Unique Dataset Identifier": "fc-sni-storycommonsense",
@@ -26069,7 +26369,8 @@
         "Derived from Datasets": [
             "StoryCloze"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Rashkin2018ModelingNP,\n author = {Hannah Rashkin and Antoine Bosselut and Maarten Sap and Kevin Knight and Yejin Choi},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Modeling Naive Psychology of Characters in Simple Commonsense Stories},\n volume = {abs/1805.06533},\n year = {2018}\n}\n"
     },
     "fc-sni-strategyqa": {
         "Unique Dataset Identifier": "fc-sni-strategyqa",
@@ -26159,7 +26460,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Geva2021DidAU,\n author = {Mor Geva and Daniel Khashabi and Elad Segal and Tushar Khot and D. Roth and Jonathan Berant},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {346-361},\n title = {Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies},\n volume = {9},\n year = {2021}\n}\n"
     },
     "fc-sni-sts_b": {
         "Unique Dataset Identifier": "fc-sni-sts_b",
@@ -26240,7 +26542,8 @@
         "Derived from Datasets": [
             "SNLI"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Wang2018GLUEAM,\n author = {Alex Wang and Amanpreet Singh and Julian Michael and Felix Hill and Omer Levy and Samuel R. Bowman},\n booktitle = {BlackboxNLP@EMNLP},\n pages = {353-355},\n title = {GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding},\n year = {2018}\n}\n"
     },
     "fc-sni-subjqa": {
         "Unique Dataset Identifier": "fc-sni-subjqa",
@@ -26331,7 +26634,8 @@
             "Wang et al. 2010",
             "McAuley and Yang 2016"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Bjerva2020SubjQAAD,\n author = {Johannes Bjerva and Nikita Bhutani and Behzad Golshan and W. Tan and Isabelle Augenstein},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {5480-5494},\n title = {SubjQA: A Dataset for Subjectivity and Review Comprehension},\n year = {2020}\n}\n"
     },
     "fc-sni-svamp": {
         "Unique Dataset Identifier": "fc-sni-svamp",
@@ -26417,7 +26721,8 @@
         "Derived from Datasets": [
             "ASDiv-A dataset (Miao et al 2020)"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Patel2021AreNM,\n author = {Arkil Patel and S. Bhattamishra and Navin Goyal},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n pages = {2080-2094},\n title = {Are NLP Models really able to Solve Simple Math Word Problems?},\n year = {2021}\n}\n"
     },
     "fc-sni-swag": {
         "Unique Dataset Identifier": "fc-sni-swag",
@@ -26515,7 +26820,8 @@
             "ActivityNet Captions dataset",
             "Large Scale Movie Description Challenge (LSMDC) dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Zellers2018SWAGAL,\n author = {Rowan Zellers and Yonatan Bisk and Roy Schwartz and Yejin Choi},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {93-104},\n title = {SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference},\n year = {2018}\n}\n"
     },
     "fc-sni-tecla": {
         "Unique Dataset Identifier": "fc-sni-tecla",
@@ -26606,7 +26912,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Armengol-Estap'e2021AreMM,\n author = {Jordi Armengol-Estap'e and C. Carrino and Carlos Rodríguez-Penagos and Ona de Gibert Bonet and Carme Armentano-Oller and Aitor Gonzalez-Agirre and Maite Melero and Marta Villegas},\n booktitle = {Findings},\n pages = {4933-4946},\n title = {Are Multilingual Models the Best Choice for Moderately Under-resourced Languages? A Comprehensive Assessment for Catalan},\n year = {2021}\n}\n"
     },
     "fc-sni-tellmewhy": {
         "Unique Dataset Identifier": "fc-sni-tellmewhy",
@@ -26691,7 +26998,8 @@
         "Derived from Datasets": [
             "ROCStories"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Lal2021TellMeWhyAD,\n author = {Yash Kumar Lal and Nathanael Chambers and R. Mooney and Niranjan Balasubramanian},\n booktitle = {Findings},\n pages = {596-610},\n title = {TellMeWhy: A Dataset for Answering Why-Questions in Narratives},\n year = {2021}\n}\n"
     },
     "fc-sni-timetravel": {
         "Unique Dataset Identifier": "fc-sni-timetravel",
@@ -26778,7 +27086,8 @@
         "Derived from Datasets": [
             "ROCStories corpus"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Qin2019CounterfactualSR,\n author = {Lianhui Qin and Antoine Bosselut and Ari Holtzman and Chandra Bhagavatula and Elizabeth Clark and Yejin Choi},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {5042-5052},\n title = {Counterfactual Story Reasoning and Generation},\n year = {2019}\n}\n"
     },
     "fc-sni-tom_qa": {
         "Unique Dataset Identifier": "fc-sni-tom_qa",
@@ -26866,7 +27175,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Nematzadeh2018EvaluatingTO,\n author = {Aida Nematzadeh and Kaylee Burns and Erin Grant and A. Gopnik and T. Griffiths},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {Evaluating Theory of Mind in Question Answering},\n volume = {abs/1808.09352},\n year = {2018}\n}\n"
     },
     "fc-sni-torque": {
         "Unique Dataset Identifier": "fc-sni-torque",
@@ -26964,7 +27274,8 @@
         "Derived from Datasets": [
             "TempEval3"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Ning2020TORQUEAR,\n author = {Qiang Ning and Hao Wu and Rujun Han and Nanyun Peng and Matt Gardner and D. Roth},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {1158-1172},\n title = {TORQUE: A Reading Comprehension Dataset of Temporal Ordering Questions},\n year = {2020}\n}\n"
     },
     "fc-sni-trianglecopa": {
         "Unique Dataset Identifier": "fc-sni-trianglecopa",
@@ -27043,7 +27354,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-triviaqa": {
         "Unique Dataset Identifier": "fc-sni-triviaqa",
@@ -27129,7 +27441,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Joshi2017TriviaQAAL,\n author = {Mandar Joshi and Eunsol Choi and Daniel S. Weld and Luke Zettlemoyer},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension},\n volume = {abs/1705.03551},\n year = {2017}\n}\n"
     },
     "fc-sni-turk": {
         "Unique Dataset Identifier": "fc-sni-turk",
@@ -27217,7 +27530,8 @@
         "Derived from Datasets": [
             "Parallel Wikipedia Simplification (PWKP) corpus (Zhu et al., 2010)"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Xu2016OptimizingSM,\n author = {W. Xu and Courtney Napoles and Ellie Pavlick and Quan Ze Chen and Chris Callison-Burch},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {401-415},\n title = {Optimizing Statistical Machine Translation for Text Simplification},\n volume = {4},\n year = {2016}\n}\n"
     },
     "fc-sni-tweetqa": {
         "Unique Dataset Identifier": "fc-sni-tweetqa",
@@ -27303,7 +27617,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Xiong2019TWEETQAAS,\n author = {Wenhan Xiong and Jiawei Wu and Hong Wang and Vivek Kulkarni and Mo Yu and Shiyu Chang and Xiaoxiao Guo and William Yang Wang},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {TWEETQA: A Social Media Focused Question Answering Dataset},\n volume = {abs/1907.06292},\n year = {2019}\n}\n"
     },
     "fc-sni-universal_dependencies___english_dependency_treebank": {
         "Unique Dataset Identifier": "fc-sni-universal_dependencies___english_dependency_treebank",
@@ -27383,7 +27698,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-viquiquad": {
         "Unique Dataset Identifier": "fc-sni-viquiquad",
@@ -27473,7 +27789,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Armengol-Estap'e2021AreMM,\n author = {Jordi Armengol-Estap'e and C. Carrino and Carlos Rodríguez-Penagos and Ona de Gibert Bonet and Carme Armentano-Oller and Aitor Gonzalez-Agirre and Maite Melero and Marta Villegas},\n booktitle = {Findings},\n pages = {4933-4946},\n title = {Are Multilingual Models the Best Choice for Moderately Under-resourced Languages? A Comprehensive Assessment for Catalan},\n year = {2021}\n}\n"
     },
     "fc-sni-web_nlg": {
         "Unique Dataset Identifier": "fc-sni-web_nlg",
@@ -27559,7 +27876,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Gardent2017CreatingTC,\n author = {Claire Gardent and Anastasia Shimorina and Shashi Narayan and Laura Perez-Beltrachini},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {179-188},\n title = {Creating Training Corpora for NLG Micro-Planners},\n year = {2017}\n}\n"
     },
     "fc-sni-web_questions": {
         "Unique Dataset Identifier": "fc-sni-web_questions",
@@ -27642,7 +27960,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Berant2013SemanticPO,\n author = {Jonathan Berant and A. Chou and Roy Frostig and Percy Liang},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {1533-1544},\n title = {Semantic Parsing on Freebase from Question-Answer Pairs},\n year = {2013}\n}\n"
     },
     "fc-sni-wiki_auto": {
         "Unique Dataset Identifier": "fc-sni-wiki_auto",
@@ -27733,7 +28052,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Jiang2020NeuralCM,\n author = {Chao Jiang and Mounica Maddela and Wuwei Lan and Yang Zhong and W. Xu},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Neural CRF Model for Sentence Alignment in Text Simplification},\n volume = {abs/2005.02324},\n year = {2020}\n}\n"
     },
     "fc-sni-wiki_auto_all_data": {
         "Unique Dataset Identifier": "fc-sni-wiki_auto_all_data",
@@ -27818,7 +28138,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-wiki_hop": {
         "Unique Dataset Identifier": "fc-sni-wiki_hop",
@@ -27905,7 +28226,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Lebret2016NeuralTG,\n author = {R. Lebret and David Grangier and Michael Auli},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {1203-1213},\n title = {Neural Text Generation from Structured Data with Application to the Biography Domain},\n year = {2016}\n}\n"
     },
     "fc-sni-wiki_movies": {
         "Unique Dataset Identifier": "fc-sni-wiki_movies",
@@ -27994,7 +28316,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Miller2016KeyValueMN,\n author = {Alexander H. Miller and Adam Fisch and Jesse Dodge and Amir-Hossein Karimi and Antoine Bordes and J. Weston},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {Key-Value Memory Networks for Directly Reading Documents},\n volume = {abs/1606.03126},\n year = {2016}\n}\n"
     },
     "fc-sni-wiki_qa": {
         "Unique Dataset Identifier": "fc-sni-wiki_qa",
@@ -28080,7 +28403,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Yang2015WikiQAAC,\n author = {Yi Yang and Wen-tau Yih and Christopher Meek},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {2013-2018},\n title = {WikiQA: A Challenge Dataset for Open-Domain Question Answering},\n year = {2015}\n}\n"
     },
     "fc-sni-wikitext": {
         "Unique Dataset Identifier": "fc-sni-wikitext",
@@ -28155,7 +28479,8 @@
             "Text Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Merity2016PointerSM,\n author = {Stephen Merity and Caiming Xiong and James Bradbury and R. Socher},\n booktitle = {International Conference on Learning Representations},\n journal = {ArXiv},\n title = {Pointer Sentinel Mixture Models},\n volume = {abs/1609.07843},\n year = {2016}\n}\n"
     },
     "fc-sni-wino_bias": {
         "Unique Dataset Identifier": "fc-sni-wino_bias",
@@ -28242,7 +28567,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Zhao2018GenderBI,\n author = {Jieyu Zhao and Tianlu Wang and Mark Yatskar and Vicente Ordonez and Kai-Wei Chang},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n pages = {15-20},\n title = {Gender Bias in Coreference Resolution: Evaluation and Debiasing Methods},\n year = {2018}\n}\n"
     },
     "fc-sni-winograd_wsc": {
         "Unique Dataset Identifier": "fc-sni-winograd_wsc",
@@ -28324,7 +28650,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Levesque2011TheWS,\n author = {H. Levesque and E. Davis and L. Morgenstern},\n booktitle = {AAAI Spring Symposium: Logical Formalizations of Commonsense Reasoning},\n title = {The Winograd Schema Challenge},\n year = {2011}\n}\n"
     },
     "fc-sni-winomt": {
         "Unique Dataset Identifier": "fc-sni-winomt",
@@ -28411,7 +28738,8 @@
             "Winogender",
             "WinoBias"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Stanovsky2019EvaluatingGB,\n author = {Gabriel Stanovsky and Noah A. Smith and Luke Zettlemoyer},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Evaluating Gender Bias in Machine Translation},\n volume = {abs/1906.00591},\n year = {2019}\n}\n"
     },
     "fc-sni-winowhy": {
         "Unique Dataset Identifier": "fc-sni-winowhy",
@@ -28497,7 +28825,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Zhang2020WinoWhyAD,\n author = {Hongming Zhang and Xinran Zhao and Yangqiu Song},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {5736-5745},\n title = {WinoWhy: A Deep Diagnosis of Essential Commonsense Knowledge for Answering Winograd Schema Challenge},\n year = {2020}\n}\n"
     },
     "fc-sni-wiqa": {
         "Unique Dataset Identifier": "fc-sni-wiqa",
@@ -28580,7 +28909,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Tandon2019WIQAAD,\n author = {Niket Tandon and Bhavana Dalvi and Keisuke Sakaguchi and Antoine Bosselut and Peter Clark},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {WIQA: A dataset for “What if...” reasoning over procedural text},\n volume = {abs/1909.04739},\n year = {2019}\n}\n"
     },
     "fc-sni-wordnet": {
         "Unique Dataset Identifier": "fc-sni-wordnet",
@@ -28661,7 +28991,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-wsc_fiexed": {
         "Unique Dataset Identifier": "fc-sni-wsc_fiexed",
@@ -28740,7 +29071,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-wsc; enhanced_wsc": {
         "Unique Dataset Identifier": "fc-sni-wsc; enhanced_wsc",
@@ -28821,7 +29153,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-x_csr": {
         "Unique Dataset Identifier": "fc-sni-x_csr",
@@ -28913,7 +29246,8 @@
         "Derived from Datasets": [
             "OMCS corpus"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Lin2021CommonSB,\n author = {Bill Yuchen Lin and Seyeon Lee and Xiaoyang Qiao and Xiang Ren},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Common Sense Beyond English: Evaluating and Improving Multilingual Language Models for Commonsense Reasoning},\n volume = {abs/2106.06937},\n year = {2021}\n}\n"
     },
     "fc-sni-xcopa": {
         "Unique Dataset Identifier": "fc-sni-xcopa",
@@ -29001,7 +29335,8 @@
         "Derived from Datasets": [
             "COPA dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Ponti2020XCOPAAM,\n author = {E. Ponti and Goran Glavavs and Olga Majewska and Qianchu Liu and Ivan Vulic and A. Korhonen},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {2362-2376},\n title = {XCOPA: A Multilingual Dataset for Causal Commonsense Reasoning},\n year = {2020}\n}\n"
     },
     "fc-sni-xcsr": {
         "Unique Dataset Identifier": "fc-sni-xcsr",
@@ -29094,7 +29429,8 @@
         "Derived from Datasets": [
             "OMCS corpus"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Lin2021CommonSB,\n author = {Bill Yuchen Lin and Seyeon Lee and Xiaoyang Qiao and Xiang Ren},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Common Sense Beyond English: Evaluating and Improving Multilingual Language Models for Commonsense Reasoning},\n volume = {abs/2106.06937},\n year = {2021}\n}\n"
     },
     "fc-sni-xl_wic": {
         "Unique Dataset Identifier": "fc-sni-xl_wic",
@@ -29182,7 +29518,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Raganato2020XLWiCAM,\n author = {Alessandro Raganato and Tommaso Pasini and José Camacho-Collados and Mohammad Taher Pilehvar},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {XL-WiC: A Multilingual Benchmark for Evaluating Semantic Contextualization},\n volume = {abs/2010.06478},\n year = {2020}\n}\n"
     },
     "fc-sni-xlsum": {
         "Unique Dataset Identifier": "fc-sni-xlsum",
@@ -29269,7 +29606,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Hasan2021XLSumLM,\n author = {Tahmid Hasan and Abhik Bhattacharjee and Md Saiful Islam and Kazi Samin Mubasshir and Yuan-Fang Li and Yong-Bin Kang and M. Rahman and Rifat Shahriyar},\n booktitle = {Findings},\n pages = {4693-4703},\n title = {XL-Sum: Large-Scale Multilingual Abstractive Summarization for 44 Languages},\n year = {2021}\n}\n"
     },
     "fc-sni-xquad": {
         "Unique Dataset Identifier": "fc-sni-xquad",
@@ -29356,7 +29694,8 @@
         "Derived from Datasets": [
             "Squad"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Artetxe2019OnTC,\n author = {Mikel Artetxe and Sebastian Ruder and Dani Yogatama},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {4623-4637},\n title = {On the Cross-lingual Transferability of Monolingual Representations},\n year = {2019}\n}\n"
     },
     "fc-sni-yahoo_answers_topics": {
         "Unique Dataset Identifier": "fc-sni-yahoo_answers_topics",
@@ -29444,7 +29783,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-yelp_polarity": {
         "Unique Dataset Identifier": "fc-sni-yelp_polarity",
@@ -29535,7 +29875,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Zhang2015CharacterlevelCN,\n author = {Xiang Zhang and J. Zhao and Yann LeCun},\n booktitle = {Neural Information Processing Systems},\n pages = {649-657},\n title = {Character-level Convolutional Networks for Text Classification},\n year = {2015}\n}\n"
     },
     "fc-sni-yelp_restaurant_review": {
         "Unique Dataset Identifier": "fc-sni-yelp_restaurant_review",
@@ -29618,7 +29959,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-yelp_review_full": {
         "Unique Dataset Identifier": "fc-sni-yelp_review_full",
@@ -29710,7 +30052,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Zhang2015CharacterlevelCN,\n author = {Xiang Zhang and J. Zhao and Yann LeCun},\n booktitle = {Neural Information Processing Systems},\n pages = {649-657},\n title = {Character-level Convolutional Networks for Text Classification},\n year = {2015}\n}\n"
     },
     "fc-sni-yoruba_bbc_topics": {
         "Unique Dataset Identifier": "fc-sni-yoruba_bbc_topics",
@@ -29804,7 +30147,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Hedderich2020TransferLA,\n author = {Michael A. Hedderich and David Ifeoluwa Adelani and D. Zhu and Jesujoba Oluwadara Alabi and Udia Markus and D. Klakow},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {2580-2591},\n title = {Transfer Learning and Distant Supervision for Multilingual Transformer Models: A Study on African Languages},\n year = {2020}\n}\n"
     },
     "fc-sni-youtube_caption_corrections": {
         "Unique Dataset Identifier": "fc-sni-youtube_caption_corrections",
@@ -29887,7 +30231,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-sni-zest": {
         "Unique Dataset Identifier": "fc-sni-zest",
@@ -29975,6 +30320,7 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Weller2020LearningFT,\n author = {Orion Weller and Nicholas Lourie and Matt Gardner and Matthew E. Peters},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {Learning from Task Descriptions},\n volume = {abs/2011.08115},\n year = {2020}\n}\n"
     }
 }

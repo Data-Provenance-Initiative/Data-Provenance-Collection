@@ -63,7 +63,8 @@
         "License Verified By": "An",
         "Dataset Filter IDs": [
             "ShareGPT"
-        ]
+        ],
+        "Bibtex": ""
     },
     "deita-10k-ultrachat": {
         "Unique Dataset Identifier": "deita-10k-ultrachat",
@@ -126,6 +127,7 @@
         "License Verified By": "An",
         "Dataset Filter IDs": [
             "UltraChat"
-        ]
+        ],
+        "Bibtex": ""
     }
 }

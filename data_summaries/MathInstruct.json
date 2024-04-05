@@ -60,20 +60,21 @@
         "License Notes": "The authors provided a table for licenses of the original datasets. Although one dataset has a cc-by-nc license, the authors chose an MIT license for their curated dataset",
         "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
-          "cot_MATH_train",
-          "cot_TheoremQA",
-          "cot_aqua_rat",
-          "cot_college_math",
-          "cot_gsm_rft",
-          "cot_gsm_train",
-          "cot_math50k_camel",
-          "cot_number_comparison",
-          "pot_MATH_train",
-          "pot_TheoremQA",
-          "pot_aqua_rat_filtered",
-          "pot_gsm_gpt4",
-          "pot_mathqa",
-          "pot_numglue"
-        ]
+            "cot_MATH_train",
+            "cot_TheoremQA",
+            "cot_aqua_rat",
+            "cot_college_math",
+            "cot_gsm_rft",
+            "cot_gsm_train",
+            "cot_math50k_camel",
+            "cot_number_comparison",
+            "pot_MATH_train",
+            "pot_TheoremQA",
+            "pot_aqua_rat_filtered",
+            "pot_gsm_gpt4",
+            "pot_mathqa",
+            "pot_numglue"
+        ],
+        "Bibtex": "@Article{Yue2023MAmmoTHBM,\n author = {Xiang Yue and Xingwei Qu and Ge Zhang and Yao Fu and Wenhao Huang and Huan Sun and Yu Su and Wenhu Chen},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MAmmoTH: Building Math Generalist Models through Hybrid Instruction Tuning},\n volume = {abs/2309.05653},\n year = {2023}\n}\n"
     }
 }
