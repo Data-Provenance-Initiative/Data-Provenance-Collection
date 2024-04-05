@@ -284,7 +284,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-p3-cos_e": {
         "Unique Dataset Identifier": "fc-p3-cos_e",
@@ -1731,7 +1732,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "fc-p3-web_questions": {
         "Unique Dataset Identifier": "fc-p3-web_questions",

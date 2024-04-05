@@ -416,6 +416,7 @@ if __name__ == "__main__":
         args.tasks,
         args.savedir,
     )
+    data_bibtex.generate_bibtex(filtered_data_summary, save_to_file=True, output_dir=args.savedir)
 
     collection_to_keys = get_collection_to_uid_and_filter_ids(filtered_data_summary)
     for collection_key, uid_task_keys in collection_to_keys.items():
@@ -436,4 +437,3 @@ if __name__ == "__main__":
             savedir=args.savedir,
             debug=args.debug
         )
-        data_bibtex.generate_bibtex(collection_key, save_to_file=True, output_dir=args.savedir)

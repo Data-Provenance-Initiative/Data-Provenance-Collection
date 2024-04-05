@@ -64,7 +64,8 @@
         "License Verified By": "Minnie",
         "Dataset Filter IDs": [
             "gpt-3.5-turbo"
-        ]
+        ],
+        "Bibtex": ""
     },
     "wildchat-gpt_4": {
         "Unique Dataset Identifier": "wildchat-gpt_4",
@@ -131,6 +132,7 @@
         "License Verified By": "Minnie",
         "Dataset Filter IDs": [
             "gpt-4"
-        ]
+        ],
+        "Bibtex": ""
     }
 }

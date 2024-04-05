@@ -78,6 +78,7 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "thai_gen_ai_gpteacher"
-        ]
+        ],
+        "Bibtex": ""
     }
 }

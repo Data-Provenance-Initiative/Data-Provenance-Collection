@@ -1855,7 +1855,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-recast-recast_verbcorner": {
         "Unique Dataset Identifier": "tsi-recast-recast_verbcorner",
@@ -1935,7 +1936,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-recast-recast_ner": {
         "Unique Dataset Identifier": "tsi-recast-recast_ner",
@@ -2015,7 +2017,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-recast-recast_sentiment": {
         "Unique Dataset Identifier": "tsi-recast-recast_sentiment",
@@ -2097,7 +2100,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-recast-recast_puns": {
         "Unique Dataset Identifier": "tsi-recast-recast_puns",
@@ -2179,7 +2183,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-recast-recast_factuality": {
         "Unique Dataset Identifier": "tsi-recast-recast_factuality",
@@ -2261,7 +2266,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-recast-recast_megaveridicality": {
         "Unique Dataset Identifier": "tsi-recast-recast_megaveridicality",
@@ -2343,7 +2349,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-probability_words_nli-reasoning_1hop": {
         "Unique Dataset Identifier": "tsi-probability_words_nli-reasoning_1hop",
@@ -3423,7 +3430,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-recast_white-sprl": {
         "Unique Dataset Identifier": "tsi-recast_white-sprl",
@@ -3506,7 +3514,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-recast_white-dpr": {
         "Unique Dataset Identifier": "tsi-recast_white-dpr",
@@ -3588,7 +3597,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-robust_nli-is_cs": {
         "Unique Dataset Identifier": "tsi-robust_nli-is_cs",
@@ -8258,7 +8268,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "tsi-balanced_copa": {
         "Unique Dataset Identifier": "tsi-balanced_copa",
@@ -8517,7 +8528,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-turingbench": {
         "Unique Dataset Identifier": "tsi-turingbench",
@@ -11660,7 +11672,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-rotten_tomatoes": {
         "Unique Dataset Identifier": "tsi-rotten_tomatoes",
@@ -12261,7 +12274,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-sciie": {
         "Unique Dataset Identifier": "tsi-sciie",
@@ -12424,7 +12438,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-scicite": {
         "Unique Dataset Identifier": "tsi-scicite",
@@ -14201,7 +14216,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-wnut_17-wnut_17": {
         "Unique Dataset Identifier": "tsi-wnut_17-wnut_17",
@@ -15359,7 +15375,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-phrase_similarity": {
         "Unique Dataset Identifier": "tsi-phrase_similarity",
@@ -17657,7 +17674,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-scruples": {
         "Unique Dataset Identifier": "tsi-scruples",
@@ -17742,7 +17760,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "tsi-wouldyourather": {
         "Unique Dataset Identifier": "tsi-wouldyourather",
@@ -17823,7 +17842,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-attempto_nli": {
         "Unique Dataset Identifier": "tsi-attempto_nli",
@@ -18629,7 +18649,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-summarize_from_feedback-comparisons": {
         "Unique Dataset Identifier": "tsi-summarize_from_feedback-comparisons",
@@ -19497,7 +19518,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-quote_repetition": {
         "Unique Dataset Identifier": "tsi-quote_repetition",
@@ -19577,7 +19599,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-redefine_math": {
         "Unique Dataset Identifier": "tsi-redefine_math",
@@ -19655,7 +19678,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-puzzte": {
         "Unique Dataset Identifier": "tsi-puzzte",
@@ -20428,7 +20452,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-reclor": {
         "Unique Dataset Identifier": "tsi-reclor",
@@ -22260,7 +22285,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "tsi-oasst1_pairwise_rlhf_reward": {
         "Unique Dataset Identifier": "tsi-oasst1_pairwise_rlhf_reward",
@@ -24322,7 +24348,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "tsi-v1-gen_train234_test2to10": {
         "Unique Dataset Identifier": "tsi-v1-gen_train234_test2to10",
@@ -24412,7 +24439,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "tsi-logical_fallacy": {
         "Unique Dataset Identifier": "tsi-logical_fallacy",
@@ -24668,7 +24696,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-subjectivity": {
         "Unique Dataset Identifier": "tsi-subjectivity",

@@ -355,7 +355,8 @@
         "Human Annotation": "No",
         "Derived from Datasets": [
             "Flan Collection"
-        ]
+        ],
+        "Bibtex": ""
     },
     "open-orca-t0": {
         "Unique Dataset Identifier": "open-orca-t0",
@@ -472,7 +473,8 @@
         "Human Annotation": "No",
         "Derived from Datasets": [
             "Flan Collection"
-        ]
+        ],
+        "Bibtex": ""
     },
     "open-orca-cot": {
         "Unique Dataset Identifier": "open-orca-cot",
@@ -583,7 +585,8 @@
         "Human Annotation": "No",
         "Derived from Datasets": [
             "Flan Collection"
-        ]
+        ],
+        "Bibtex": ""
     },
     "open-orca-flan": {
         "Unique Dataset Identifier": "open-orca-flan",
@@ -751,6 +754,7 @@
         "Human Annotation": "No",
         "Derived from Datasets": [
             "Flan Collection"
-        ]
+        ],
+        "Bibtex": ""
     }
 }

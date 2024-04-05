@@ -4328,7 +4328,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-flan-unified_qa_science_inst": {
         "Unique Dataset Identifier": "fc-flan-unified_qa_science_inst",
@@ -4410,7 +4411,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-flan-web_nlg_en": {
         "Unique Dataset Identifier": "fc-flan-web_nlg_en",
@@ -5584,7 +5586,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-flan-wsc": {
         "Unique Dataset Identifier": "fc-flan-wsc",

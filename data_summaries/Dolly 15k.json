@@ -83,7 +83,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "dolly-closedqa": {
         "Unique Dataset Identifier": "dolly-closedqa",
@@ -168,7 +169,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "dolly-classification": {
         "Unique Dataset Identifier": "dolly-classification",
@@ -253,7 +255,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "dolly-brainstorming": {
         "Unique Dataset Identifier": "dolly-brainstorming",
@@ -338,7 +341,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "dolly-infoextract": {
         "Unique Dataset Identifier": "dolly-infoextract",
@@ -423,7 +427,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "dolly-summarization": {
         "Unique Dataset Identifier": "dolly-summarization",
@@ -508,7 +513,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "dolly-creative_writing": {
         "Unique Dataset Identifier": "dolly-creative_writing",
@@ -593,6 +599,7 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     }
 }
