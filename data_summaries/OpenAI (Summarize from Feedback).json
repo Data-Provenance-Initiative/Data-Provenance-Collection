@@ -92,6 +92,7 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Stiennon2020LearningTS,\n author = {Nisan Stiennon and Long Ouyang and Jeff Wu and Daniel M. Ziegler and Ryan J. Lowe and Chelsea Voss and Alec Radford and Dario Amodei and Paul Christiano},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {Learning to summarize from human feedback},\n volume = {abs/2009.01325},\n year = {2020}\n}\n"
     }
 }

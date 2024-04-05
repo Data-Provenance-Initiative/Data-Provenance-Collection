@@ -58,6 +58,44 @@ def prepare_commitpackft(row):
     )
 
 
+def prepare_cobra_frames(row):
+    """
+    CobraFrames dataset has a structure where each row is one of the elements in the frame for harmful statement.
+    fomatting foces on the structure of the input and output given the row.
+    The first 4 elements are context, speaker, listener, and statement check, serving as the context for the statement.
+    The rest of the elements are the structured explanation for the statement
+    """
+
+    formatting = {
+    "speechContext": "[Context of statement] {}[/]",
+    "speakerIdentity": "[Speaker identity/characteristics] {}[/]",
+    "listenerIdentity": "[Listener identity/characteristics] {}[/]",
+    "statementCheck": "[The statement is complete and understandable] {}[/]",
+    "relevantPowerDynamics": "[Relevant power dynamics] {}[/]",
+    "conversationContext": "[Conversational context] {}[/]",
+    "statement": "[Statement] {}[/]",
+    "intent": "[Intent] {}[/]",
+    "offensiveness": "[Offensiveness] {}[/]",
+    "targetGroup": "[Targeted/referenced minority group] {}[/]",
+    "implication": "[Implied meaning/stereotype] {}[/]",
+    "targetGroupEmotionalReaction": "[Targeted minority group emotional reaction] {}[/]",
+    "targetGroupCognitiveReaction": "[Targeted minority group cognitive reaction] {}[/]",
+    }
+
+    f = [   
+            formatting[v].format(row[v])
+            for v in row.keys() if v in formatting
+        ]
+    input_instructions = "Following the examples and complete the structured explanation for the given statement.\n\n" + row['examples'] 
+    input_context = "\n".join(f[1:5])
+    output = "\n".join(f[5:])
+    return convert_inputs_targets_to_messages(
+        input_instructions + "\n" + input_context,
+        output,
+        row["_source"]
+    )
+
+
 def prepare_dolly_15k(row):
     input_text = re.sub(r'\s*\[.*?\]\s*', '', "\n".join([row["context"], row["instruction"]]).strip())
     target_text = re.sub(r'\s*\[.*?\]\s*', '', row["response"])
@@ -296,6 +334,17 @@ def prepare_evol_instruct(row):
     )
 
 
+def prepare_deita_10k(row):
+    messages = []
+    for i, turn in enumerate(row["conversations"]):
+        messages.append({
+            "from": "user" if turn["from"] == "human" else "assistant",
+            "text": turn["value"].strip(),
+            "parent": row["source"] if i == 0 else i-1
+        })
+    return messages
+
+
 def prepare_metamathqa(row):
     return convert_inputs_targets_to_messages(
         row["query"], row["response"], row["type"],
@@ -320,6 +369,50 @@ def prepare_pure_dove(row):
         })
         parent_id += 1
     return messages
+
+def prepare_nectar(row):
+    human = []
+    assistant = []
+    messages = []
+
+    if row["turns"] == 1:
+        input = row["prompt"].split("Assistant:")[0].strip()
+        output = row["answers"][0]["answer"]
+        return convert_inputs_targets_to_messages(
+            input, output, "nectar",
+        )
+    else:
+        # Split the conversation based on "Human:" and "Assistant:" tags
+        segments = row["prompt"].split("Human: ")[1:]
+        # Extract human and assistant texts
+        for segment in segments:
+            parts = segment.split("Assistant:")
+            human.append(parts[0].strip())
+            if len(parts) > 1:
+                assistant.append(parts[1].strip())
+        assistant.append(row["answers"][0]["answer"])
+        parent_id = 0
+        for index, (h, a) in enumerate(zip(human, assistant)):
+            messages.append({
+                "from": "user",
+                "text": h.strip(),
+                "parent": "nectar" if index == 0 else parent_id,
+            })
+            if parent_id != 0:
+                parent_id += 1
+            messages.append({
+                "from": "assistant",
+                "text": a.strip(),
+                "parent": parent_id,
+            })
+            parent_id += 1
+        return messages
+
+def prepare_feedback_collection(row):
+    return convert_inputs_targets_to_messages(
+        row['instruction'], row["output"], "feedback_collection",
+    )
+
 
 def prepare_sharegpt_vicuna(row):
     parent = "sharegpt_vicuna"
@@ -557,7 +650,7 @@ def prepare_lima(row):
         })
         parent = i
     return messages
-    
+   
 def prepare_tool_llama(row):
     return convert_inputs_targets_to_messages(
         row['context'] + row['instruction'],
@@ -613,6 +706,22 @@ def prepare_open_orca(row):
         {"from": "assistant", "text": outputs.strip(), "parent": 0},
     ]
 
+
+def prepare_selfee(row):
+    outputs = row["outputs"]
+    parsed_outputs = ''
+    for index, elem in enumerate(outputs):
+        feedback = elem["feedback"]
+        output = elem["output"]
+        feedback_number = index + 1 
+        revision_number = index
+        if index != 0:
+            output = "\n\n### Revision {number}:\n{revision}".format(number=revision_number, revision=output) 
+        parsed_outputs += output + "\n\n### Feedback {number}:\n{feedback}".format(number=feedback_number, feedback=feedback)
+    return convert_inputs_targets_to_messages(
+        row['instruction'], parsed_outputs, "selfee",
+    )
+
 def prepare_pmc_llama(row):
     inputs = "".join([row['instruction'] + row['input']])
     return convert_inputs_targets_to_messages(
@@ -642,6 +751,16 @@ def prepare_chatdoctor(row):
         row["inputs"], row["outputs"], row["_source"]
     )
 
+def prepare_seabench(row):
+    inputs = row["turns"][0].strip()
+    outputs = row["chatgpt_response"].strip() if row["chatgpt_response"] else ""
+
+    return [
+        {"from": "user", "text": inputs, "parent": row["lang"]},
+        {"from": "assistant", "text": outputs, "parent": 0},
+    ]
+
+  
 def prepare_agentinstruct(row):
     datasets = row  # Based on the current structure, a row represents all datasets :TODO: might need to change this
     messages = []
@@ -653,6 +772,61 @@ def prepare_agentinstruct(row):
                 "parent": dataset['id'].split('_')[0] if i == -1 else i,
             })
     return messages
+
+
+def prepare_cidar(row):
+    return convert_inputs_targets_to_messages(
+        row['instruction'],
+        row['output'],
+        'cidar',
+    )
+
+def prepare_indic_instruct(row):
+    ''' This dataset conatins lots of other datasets, each having their own format. A different prepare method is needed for each sub-dataset 
+    Some datasets such as 'hh-rlhf', 'lm_sys', 'oasst1' have same forrmat and thus they have the prepare method below
+    '''
+    if row['dataset'] == 'anudesh' : 
+        return convert_inputs_targets_to_messages(
+            row['messages'][0]['content'], row['messages'][1]['content'], row['dataset']
+        )
+
+    if row['dataset'] == 'dolly' : 
+        input_text = re.sub(r'\s*\[.*?\]\s*', '', "\n".join([row["context"], row["instruction"]]).strip())
+        target_text = re.sub(r'\s*\[.*?\]\s*', '', row["response"])
+        return convert_inputs_targets_to_messages(
+            input_text, target_text, row["dataset"]
+        )
+
+    if row['dataset'] == 'flan_v2' : 
+        return convert_inputs_targets_to_messages(
+            row["inputs"], row["targets"], row['dataset']
+        )
+
+    if row['dataset'] in ['hh-rlhf', 'lm_sys', 'oasst1'] : 
+        messages = []
+        for i, turn in enumerate(row['messages']):
+            messages.append({
+                "from": turn["role"],
+                "text": turn["content"].strip(),
+                "parent": row['dataset'] if turn["role"]=='user' else 0,
+            })
+        return messages
+
+    if row['dataset'] == 'nmt-seed' : 
+        return convert_inputs_targets_to_messages(
+            row["input_text"], row["output_text"], row['dataset']
+        )
+
+    if row['dataset'] == 'wikihow' : 
+        input_text = row["intro"]
+        for i, turn in enumerate(row["steps"]) : 
+            input_text += '\n' + turn['description']
+        input_text += row['messages'][0]['content']
+
+        target_text = row['messages'][1]['content']
+        return convert_inputs_targets_to_messages(
+            input_text, target_text, row["dataset"]
+        )
 
 
 def prepare_pii_masking_200k(row):
