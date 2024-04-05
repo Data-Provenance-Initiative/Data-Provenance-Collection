@@ -289,5 +289,9 @@ COLLECTION_FN_MAPPER = {
     "WildChat": {
         "download_function": downloaders.download_wildchat,
         "prepare_function": preparers.prepare_wildchat,
+    },
+    "Cobra Frames": {
+        "download_function": downloaders.download_cobra_frames,
+        "prepare_function": preparers.prepare_cobra_frames,
     }
 }
