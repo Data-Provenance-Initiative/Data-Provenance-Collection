@@ -59,7 +59,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "MATH_Rephrased"
-        ]
+        ],
+        "Bibtex": ""
     },
     "metamathqa-MATH_AnsAug": {
         "Unique Dataset Identifier": "metamathqa-MATH_AnsAug",
@@ -121,7 +122,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "MATH_AnsAug"
-        ]
+        ],
+        "Bibtex": ""
     },
     "metamathqa-MATH_FOBAR": {
         "Unique Dataset Identifier": "metamathqa-MATH_FOBAR",
@@ -183,7 +185,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "MATH_FOBAR"
-        ]
+        ],
+        "Bibtex": ""
     },
     "metamathqa-MATH_SV": {
         "Unique Dataset Identifier": "metamathqa-MATH_SV",
@@ -245,7 +248,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "MATH_SV"
-        ]
+        ],
+        "Bibtex": ""
     },
     "metamathqa-GSM_Rephrased": {
         "Unique Dataset Identifier": "metamathqa-GSM_Rephrased",
@@ -307,7 +311,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "GSM_Rephrased"
-        ]
+        ],
+        "Bibtex": ""
     },
     "metamathqa-GSM_AnsAug": {
         "Unique Dataset Identifier": "metamathqa-GSM_AnsAug",
@@ -369,7 +374,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "GSM_AnsAug"
-        ]
+        ],
+        "Bibtex": ""
     },
     "metamathqa-GSM_FOBAR": {
         "Unique Dataset Identifier": "metamathqa-GSM_FOBAR",
@@ -431,7 +437,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "GSM_FOBAR"
-        ]
+        ],
+        "Bibtex": ""
     },
     "metamathqa-GSM_SV": {
         "Unique Dataset Identifier": "metamathqa-GSM_SV",
@@ -493,6 +500,7 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "GSM_SV"
-        ]
+        ],
+        "Bibtex": ""
     }
 }

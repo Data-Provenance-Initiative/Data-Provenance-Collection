@@ -55,7 +55,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "Dove"
-        ]
+        ],
+        "Bibtex": ""
     },
     "capybara-Airoboros": {
         "Unique Dataset Identifier": "capybara-Airoboros",
@@ -112,7 +113,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "Airoboros"
-        ]
+        ],
+        "Bibtex": ""
     },
     "capybara-Know-Logic": {
         "Unique Dataset Identifier": "capybara-Know-Logic",
@@ -160,7 +162,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "Know-Logic"
-        ]
+        ],
+        "Bibtex": ""
     },
     "capybara-EverythingLM": {
         "Unique Dataset Identifier": "capybara-EverythingLM",
@@ -227,7 +230,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "EverythingLM"
-        ]
+        ],
+        "Bibtex": ""
     },
     "capybara-GOAT": {
         "Unique Dataset Identifier": "capybara-GOAT",
@@ -271,7 +275,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "GOAT"
-        ]
+        ],
+        "Bibtex": ""
     },
     "capybara-TaskSource": {
         "Unique Dataset Identifier": "capybara-TaskSource",
@@ -327,7 +332,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "TaskSource"
-        ]
+        ],
+        "Bibtex": ""
     },
     "capybara-General-Instruct": {
         "Unique Dataset Identifier": "capybara-General-Instruct",
@@ -382,7 +388,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "General-Instruct"
-        ]
+        ],
+        "Bibtex": ""
     },
     "capybara-GPT4LLM": {
         "Unique Dataset Identifier": "capybara-GPT4LLM",
@@ -448,7 +455,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "GPT4LLM"
-        ]
+        ],
+        "Bibtex": ""
     },
     "capybara-TheoremQA": {
         "Unique Dataset Identifier": "capybara-TheoremQA",
@@ -492,7 +500,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "TheoremQA"
-        ]
+        ],
+        "Bibtex": ""
     },
     "capybara-Less-Wrong": {
         "Unique Dataset Identifier": "capybara-Less-Wrong",
@@ -544,7 +553,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "Less-Wrong"
-        ]
+        ],
+        "Bibtex": ""
     },
     "capybara-SuperCOT": {
         "Unique Dataset Identifier": "capybara-SuperCOT",
@@ -591,6 +601,7 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "SuperCOT"
-        ]
+        ],
+        "Bibtex": ""
     }
 }

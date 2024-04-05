@@ -1857,7 +1857,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsy-recast-recast_verbcorner": {
         "Unique Dataset Identifier": "tsy-recast-recast_verbcorner",
@@ -1937,7 +1938,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsy-recast-recast_ner": {
         "Unique Dataset Identifier": "tsy-recast-recast_ner",
@@ -2018,7 +2020,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsy-recast-recast_sentiment": {
         "Unique Dataset Identifier": "tsy-recast-recast_sentiment",
@@ -2101,7 +2104,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsy-recast-recast_puns": {
         "Unique Dataset Identifier": "tsy-recast-recast_puns",
@@ -2183,7 +2187,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsy-recast-recast_factuality": {
         "Unique Dataset Identifier": "tsy-recast-recast_factuality",
@@ -2264,7 +2269,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsy-recast-recast_megaveridicality": {
         "Unique Dataset Identifier": "tsy-recast-recast_megaveridicality",
@@ -2345,7 +2351,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsy-probability_words_nli-reasoning_1hop": {
         "Unique Dataset Identifier": "tsy-probability_words_nli-reasoning_1hop",
@@ -3430,7 +3437,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsy-recast_white-sprl": {
         "Unique Dataset Identifier": "tsy-recast_white-sprl",
@@ -3512,7 +3520,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsy-recast_white-dpr": {
         "Unique Dataset Identifier": "tsy-recast_white-dpr",
@@ -3594,7 +3603,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsy-robust_nli-is_cs": {
         "Unique Dataset Identifier": "tsy-robust_nli-is_cs",
@@ -7648,7 +7658,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsy-turingbench": {
         "Unique Dataset Identifier": "tsy-turingbench",
@@ -10678,7 +10689,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsy-rotten_tomatoes": {
         "Unique Dataset Identifier": "tsy-rotten_tomatoes",
@@ -11292,7 +11304,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsy-sciie": {
         "Unique Dataset Identifier": "tsy-sciie",
@@ -11456,7 +11469,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsy-scicite": {
         "Unique Dataset Identifier": "tsy-scicite",
@@ -13271,7 +13285,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsy-blog_authorship_corpus-gender": {
         "Unique Dataset Identifier": "tsy-blog_authorship_corpus-gender",
@@ -15348,7 +15363,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "tsy-attempto_nli": {
         "Unique Dataset Identifier": "tsy-attempto_nli",
@@ -16173,7 +16189,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsy-folio": {
         "Unique Dataset Identifier": "tsy-folio",
@@ -16889,7 +16906,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsy-counterfactually_augmented_imdb": {
         "Unique Dataset Identifier": "tsy-counterfactually_augmented_imdb",
@@ -19574,7 +19592,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "tsy-v1-gen_train234_test2to10": {
         "Unique Dataset Identifier": "tsy-v1-gen_train234_test2to10",
@@ -19664,7 +19683,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "tsy-logical_fallacy": {
         "Unique Dataset Identifier": "tsy-logical_fallacy",
@@ -19927,7 +19947,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsy-subjectivity": {
         "Unique Dataset Identifier": "tsy-subjectivity",
