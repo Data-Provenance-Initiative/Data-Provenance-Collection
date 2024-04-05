@@ -13,6 +13,7 @@
     "Other": [
         "alpaca",
         "Anthropic Internal Models",
+        "BART",
         "BX LLaMa",
         "BX BLOOM",
         "CTRL",
