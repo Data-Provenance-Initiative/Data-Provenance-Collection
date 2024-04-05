@@ -85,7 +85,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "nomicai-gpt4allj-nomic": {
         "Unique Dataset Identifier": "nomicai-gpt4allj-nomic",
@@ -174,7 +175,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "nomicai-gpt4allj-chip2": {
         "Unique Dataset Identifier": "nomicai-gpt4allj-chip2",
@@ -273,7 +275,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "nomicai-gpt4allj-unifiedskg": {
         "Unique Dataset Identifier": "nomicai-gpt4allj-unifiedskg",
@@ -370,7 +373,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "nomicai-gpt4allj-unifiedmultisum": {
         "Unique Dataset Identifier": "nomicai-gpt4allj-unifiedmultisum",
@@ -459,7 +463,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "nomicai-gpt4allj-abstractinfill": {
         "Unique Dataset Identifier": "nomicai-gpt4allj-abstractinfill",
@@ -549,7 +554,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "nomicai-gpt4allj-hc3": {
         "Unique Dataset Identifier": "nomicai-gpt4allj-hc3",
@@ -646,6 +652,7 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     }
 }

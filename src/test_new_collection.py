@@ -259,6 +259,15 @@ def test_filter_id(collection, uid_task_keys, error_handler):
             error_handler.handle(f"{uid} `Dataset Filter Ids` {filter_ids} do not correspond to any examples. They may be misspelt.")
 
 
+def test_bibtex_semanticscholar(collection_info, error_handler):
+    for uid, dset_info in collection_info.items():
+        if dset_info["Semantic Scholar Corpus ID"] and dset_info["ArXiv URL"]:
+            CorpusId = dset_info["Semantic Scholar Corpus ID"]
+            result = io.get_bibtex_from_paper("CorpusId:{}".format(CorpusId))
+            if not result:
+                error_handler.handle(f"{uid} Semantic Scholar Corpus ID {CorpusId} is not valid.")
+
+
 def test_downloader_and_preparer(
     data_summary,
     collection_info,
@@ -319,6 +328,12 @@ def run_tests(
     # Test the collection json file entries are valid
     test_collection_summary(
         collection_name,
+        collection_info,
+        error_handler
+    )
+
+    # Test the bibtex and semantic scholar ids are valid
+    test_bibtex_semanticscholar(
         collection_info,
         error_handler
     )
