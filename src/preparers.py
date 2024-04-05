@@ -826,3 +826,10 @@ def prepare_bactrianx(row):
         {"from": "user", "text": inputs, "parent": row["_source"]},
         {"from": "assistant", "text": outputs, "parent": 0},
     ]
+
+def prepare_orca_math(row):
+    return convert_inputs_targets_to_messages(
+        row["question"],
+        row["answer"],
+        "orca-math"
+    )
