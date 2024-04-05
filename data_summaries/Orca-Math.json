@@ -1,7 +1,7 @@
 {
     "orca-math": {
-        "Unique Dataset Identifier": "orca-math-word-problems",
-        "Dataset Name": "orca-math-word-problems",
+        "Unique Dataset Identifier": "orca-math",
+        "Dataset Name": "orca-math",
         "Paper Title": "Orca-Math: Unlocking the potential of SLMs in Grade School Math",
         "Dataset URL": "https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k",
         "GitHub URL": "",
@@ -60,7 +60,7 @@
         "License Notes": "",
         "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
-            "orca-math-word-problems"
+            "orca-math"
         ]
     }
 }
