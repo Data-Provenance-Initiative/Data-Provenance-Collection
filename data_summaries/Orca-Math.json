@@ -10,7 +10,7 @@
         "ArXiv URL": "https://arxiv.org/abs/2402.14830",
         "Semantic Scholar Corpus ID": 267897618,
         "Collection": "Orca-Math",
-        "Collection URL": "",
+        "Collection URL": "https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k",
         "Languages": [
             "English"
         ],
