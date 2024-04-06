@@ -847,3 +847,5 @@ def download_cobra_frames(accepted_filter_ids):
     dset = annotate_source(dset['normal'], mapping['normal'])
     return dset
 
+def download_mathdial(accepted_filter_ids):
+    return direct_data_request("https://raw.githubusercontent.com/eth-nlped/mathdial/main/data/train.jsonl")
