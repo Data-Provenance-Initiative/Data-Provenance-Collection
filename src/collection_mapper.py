@@ -297,5 +297,9 @@ COLLECTION_FN_MAPPER = {
     "MegaWika": {
         "download_function": downloaders.download_megawika,
         "prepare_function": preparers.prepare_megawika,
+    },
+    "Gretel Text-to-SQL": {
+        "download_function": downloaders.download_gretel_text_to_sql,
+        "prepare_function": preparers.prepare_gretel_text_to_sql,
     }
 }
