@@ -82,11 +82,11 @@ def prepare_cobra_frames(row):
     "targetGroupCognitiveReaction": "[Targeted minority group cognitive reaction] {}[/]",
     }
 
-    f = [   
+    f = [
             formatting[v].format(row[v])
             for v in row.keys() if v in formatting
         ]
-    input_instructions = "Following the examples and complete the structured explanation for the given statement.\n\n" + row['examples'] 
+    input_instructions = "Following the examples and complete the structured explanation for the given statement.\n\n" + row['examples']
     input_context = "\n".join(f[1:5])
     output = "\n".join(f[5:])
     return convert_inputs_targets_to_messages(
@@ -457,9 +457,33 @@ def prepare_hc3_zh(row):
 
 
 def prepare_camel_science(row):
-    return convert_inputs_targets_to_messages(
-        row["message_1"], row["message_2"], row["_source"],
-    )
+    if row["_source"] != "code" and row["_source"] != "ai-society-translated":
+        return convert_inputs_targets_to_messages(
+            row["message_1"], row["message_2"], row["_source"],
+        )
+    else:
+        messages = []
+        total_messages = row['num_messages']
+        if total_messages == 0:
+            messages.append({
+                "from": "user",
+                "text": row["specified_task"],
+                "parent": row["_source"]
+            })
+            messages.append({
+                "from": "assistant",
+                "text": row["termination_reason"],
+                "parent": 0
+            })
+        else:
+            for i in range(1, total_messages + 1):
+                if len(row[f"message_{i}"].get("content")) != 0:
+                    messages.append({
+                        "from": "assistant" if row[f"message_{i}"].get("role_type") == "ASSISTANT" else "user",
+                        "text": row[f"message_{i}"].get("content"),
+                        "parent": 0 if row[f"message_{i}"].get("role_type") == "ASSISTANT" else row["_source"]
+                    })
+        return messages
 
 
 def prepare_cot_collection(row):
@@ -650,7 +674,7 @@ def prepare_lima(row):
         })
         parent = i
     return messages
-   
+
 def prepare_tool_llama(row):
     return convert_inputs_targets_to_messages(
         row['context'] + row['instruction'],
@@ -713,10 +737,10 @@ def prepare_selfee(row):
     for index, elem in enumerate(outputs):
         feedback = elem["feedback"]
         output = elem["output"]
-        feedback_number = index + 1 
+        feedback_number = index + 1
         revision_number = index
         if index != 0:
-            output = "\n\n### Revision {number}:\n{revision}".format(number=revision_number, revision=output) 
+            output = "\n\n### Revision {number}:\n{revision}".format(number=revision_number, revision=output)
         parsed_outputs += output + "\n\n### Feedback {number}:\n{feedback}".format(number=feedback_number, feedback=feedback)
     return convert_inputs_targets_to_messages(
         row['instruction'], parsed_outputs, "selfee",
@@ -782,27 +806,27 @@ def prepare_cidar(row):
     )
 
 def prepare_indic_instruct(row):
-    ''' This dataset conatins lots of other datasets, each having their own format. A different prepare method is needed for each sub-dataset 
+    ''' This dataset conatins lots of other datasets, each having their own format. A different prepare method is needed for each sub-dataset
     Some datasets such as 'hh-rlhf', 'lm_sys', 'oasst1' have same forrmat and thus they have the prepare method below
     '''
-    if row['dataset'] == 'anudesh' : 
+    if row['dataset'] == 'anudesh' :
         return convert_inputs_targets_to_messages(
             row['messages'][0]['content'], row['messages'][1]['content'], row['dataset']
         )
 
-    if row['dataset'] == 'dolly' : 
+    if row['dataset'] == 'dolly' :
         input_text = re.sub(r'\s*\[.*?\]\s*', '', "\n".join([row["context"], row["instruction"]]).strip())
         target_text = re.sub(r'\s*\[.*?\]\s*', '', row["response"])
         return convert_inputs_targets_to_messages(
             input_text, target_text, row["dataset"]
         )
 
-    if row['dataset'] == 'flan_v2' : 
+    if row['dataset'] == 'flan_v2' :
         return convert_inputs_targets_to_messages(
             row["inputs"], row["targets"], row['dataset']
         )
 
-    if row['dataset'] in ['hh-rlhf', 'lm_sys', 'oasst1'] : 
+    if row['dataset'] in ['hh-rlhf', 'lm_sys', 'oasst1'] :
         messages = []
         for i, turn in enumerate(row['messages']):
             messages.append({
@@ -812,14 +836,14 @@ def prepare_indic_instruct(row):
             })
         return messages
 
-    if row['dataset'] == 'nmt-seed' : 
+    if row['dataset'] == 'nmt-seed' :
         return convert_inputs_targets_to_messages(
             row["input_text"], row["output_text"], row['dataset']
         )
 
-    if row['dataset'] == 'wikihow' : 
+    if row['dataset'] == 'wikihow' :
         input_text = row["intro"]
-        for i, turn in enumerate(row["steps"]) : 
+        for i, turn in enumerate(row["steps"]) :
             input_text += '\n' + turn['description']
         input_text += row['messages'][0]['content']
 
