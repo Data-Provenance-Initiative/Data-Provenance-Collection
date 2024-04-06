@@ -293,5 +293,9 @@ COLLECTION_FN_MAPPER = {
     "Cobra Frames": {
         "download_function": downloaders.download_cobra_frames,
         "prepare_function": preparers.prepare_cobra_frames,
+    },
+    "MathDial": {
+        "download_function": downloaders.download_mathdial,
+        "prepare_function": preparers.prepare_mathdial,
     }
 }
