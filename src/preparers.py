@@ -872,3 +872,11 @@ def prepare_megawika(row):
         row["output"],
         row["source"]
     )
+
+
+def prepare_gretel_text_to_sql(row):
+    return convert_inputs_targets_to_messages(
+        "Here is how the SQL table was created:\n\n" + row["sql_context"] + "\n\n" + row["sql_prompt"],
+        row["sql"],
+        "gretel_text_to_sql"
+    )
