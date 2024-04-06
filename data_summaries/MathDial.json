@@ -1,0 +1,57 @@
+{
+    "mathdial": {
+        "Unique Dataset Identifier": "mathdial",
+        "Dataset Name": "mathdial",
+        "Paper Title": "MathDial: A Dialogue Tutoring Dataset with Rich Pedagogical Properties Grounded in Math Reasoning Problems",
+        "Dataset URL": "https://github.com/eth-nlped/mathdial/blob/main/data/train.jsonl",
+        "GitHub URL": "https://github.com/eth-nlped/mathdial",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2305.14536",
+        "Semantic Scholar Corpus ID": 258865403,
+        "Collection": "MathDial",
+        "Collection URL": "https://eth-nlped.github.io/mathdial/",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Logical and Mathematical Reasoning",
+            "Dialogue Generation",
+            "Dialogue Tutoring"
+        ],
+        "Text Sources": [
+            "Math Word Problems"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "GSM8K"
+        ],
+        "Creators": [
+            "ETH Zürich",
+            "Technische Universitat Darmstadt",
+            "Nanyang Technological University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://github.com/eth-nlped/mathdial#example"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "mathdial"
+        ],
+        "Bibtex": "@article{Macina2023MathDialAD,\n title={MathDial: A Dialogue Tutoring Dataset with Rich Pedagogical Properties Grounded in Math Reasoning Problems},\n author={Jakub Macina and Nico Daheim and Sankalan Pal Chowdhury and Tanmay Sinha and Manu Kapur and Iryna Gurevych and Mrinmaya Sachan},\n journal={ArXiv},\n year={2023},\n volume={abs/2305.14536},\n url={https://api.semanticscholar.org/CorpusID:258865403}\n }"
+    }
+}
