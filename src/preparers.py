@@ -864,3 +864,17 @@ def prepare_bactrianx(row):
         {"from": "user", "text": inputs, "parent": row["_source"]},
         {"from": "assistant", "text": outputs, "parent": 0},
     ]
+
+def prepare_mathdial(row):
+    conversation = row["conversation"].split("|EOM|")
+    parent = "mathdial"
+    messages = []
+    for i, turn in enumerate(conversation):
+        colon_index = turn.find(":")
+        messages.append({
+            "from": turn[:colon_index].strip(),
+            "text": turn[colon_index+1:].strip(),
+            "parent": parent,
+        })
+        parent = i
+    return messages
