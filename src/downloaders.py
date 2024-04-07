@@ -848,4 +848,6 @@ def download_cobra_frames(accepted_filter_ids):
     return dset
 
 def download_mathdial(accepted_filter_ids):
-    return direct_data_request("https://raw.githubusercontent.com/eth-nlped/mathdial/main/data/train.jsonl")
+    data_url = "https://raw.githubusercontent.com/eth-nlped/mathdial/main/data/train.csv"
+    train_data = pd.read_csv(data_url)
+    return train_data.to_dict(orient='records')
