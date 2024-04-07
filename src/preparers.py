@@ -665,6 +665,8 @@ def prepare_coig_cqia(row):
     outputs = row['output']
     return [
         {"from": "user", "text": inputs, "parent": row['_source']},
+        {"from": "assistant", "text": outputs, "parent": 0},
+    ]
 
 def prepare_pmc_llama(row):
     inputs = "".join([row['instruction'] + row['input']])

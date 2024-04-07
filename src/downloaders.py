@@ -751,6 +751,7 @@ def download_gorilla(accepted_filter_ids):
     return Dataset.from_dict(ret)
 
 def download_coig(accepted_filter_ids):
+    dset = []
     from datasets.utils import DownloadManager
 
     dl_manager = DownloadManager()
@@ -768,14 +769,13 @@ def download_coig(accepted_filter_ids):
         for fn in v:
             filenames_to_filter_ids[fn] = k
     
-    if accepted_filter_ids is None:
-        accepted_filter_ids = filter_id_to_filenames.keys()
     filenames = []
     for id in accepted_filter_ids:
         filenames.extend(filter_id_to_filenames[id])
     fileurls = [f"{base_url}/{fn}" for fn in filenames]
     
-    local_datafiles = dl_manager.download(fileurls)
+    if len(fileurls) > 0:
+        local_datafiles = dl_manager.download(fileurls)
     for i in range(len(filenames)):
         if filenames[i].endswith(".tar.gz"):
             if dl_manager.is_streaming:
@@ -873,12 +873,11 @@ def download_coig(accepted_filter_ids):
                             }]}
                     sample['source'] = filenames_to_filter_ids[fn]
                     all_data_list.append(sample)
-    dset = Dataset.from_list(all_data_list)
+    if len(all_data_list) > 0:
+        dset = Dataset.from_list(all_data_list)
     return dset
 
 def download_coig_kun(accepted_filter_ids):
-    if accepted_filter_ids is None:
-        accepted_filter_ids = ["coig-kun-skypile", "coig-kun-wanjuan", "coig-kun-wudao" ]
     dset = []
     for split in accepted_filter_ids:
         dset_tmp = huggingface_download('m-a-p/COIG-Kun', split=split.replace('coig-kun-',''))
@@ -887,11 +886,6 @@ def download_coig_kun(accepted_filter_ids):
     return dset
 
 def download_coig_cqia(accepted_filter_ids):
-    if accepted_filter_ids is None:
-        accepted_filter_ids = [
-            "coig-cqia-chinese-traditional", "coig-cqia-coig-pc", "coig-cqia-douban", "coig-cqia-exam",
-            "coig-cqia-finance",  "coig-cqia-human-value", "coig-cqia-logi-qa",  "coig-cqia-ruozhiba",
-            "coig-cqia-segmentfault",  "coig-cqia-wiki", "coig-cqia-wikihow", "coig-cqia-xhs",  "coig-cqia-zhihu"]
     dset = []
     for split in accepted_filter_ids:
         id = split.replace('coig-cqia-','').replace('-','_')

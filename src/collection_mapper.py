@@ -244,6 +244,7 @@ COLLECTION_FN_MAPPER = {
     "COIG-CQIA":{
         "download_function": downloaders.download_coig_cqia,
         "prepare_function": preparers.prepare_coig_cqia,
+    },
     "SeaBench": {
         "download_function": downloaders.download_seabench,
         "prepare_function": preparers.prepare_seabench,
