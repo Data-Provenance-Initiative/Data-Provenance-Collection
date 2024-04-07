@@ -42,7 +42,8 @@
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-kun-skypile"
-        ]
+        ],
+        "Bibtex": "@misc{wei2023skywork,\n      title={Skywork: A More Open Bilingual Foundation Model}, \n      author={Tianwen Wei and Liang Zhao and Lichang Zhang and Bo Zhu and Lijie Wang and Haihua Yang and Biye Li and Cheng Cheng and Weiwei Lü and Rui Hu and Chenxia Li and Liu Yang and Xilin Luo and Xuejie Wu and Lunan Liu and Wenjun Cheng and Peng Cheng and Jianhao Zhang and Xiaoyu Zhang and Lei Lin and Xiaokun Wang and Yutuan Ma and Chuanhai Dong and Yanqi Sun and Yifu Chen and Yongyi Peng and Xiaojuan Liang and Shuicheng Yan and Han Fang and Yahui Zhou},\n      year={2023},\n      eprint={2310.19341},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}"
     },
     "coig-kun-wanjuan": {
         "Unique Dataset Identifier": "coig-kun-wanjuan",
@@ -87,7 +88,8 @@
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-kun-wanjuan"
-        ]
+        ],
+        "Bibtex": "@misc{he2023wanjuan,\n      title={WanJuan: A Comprehensive Multimodal Dataset for Advancing English and Chinese Large Models}, \n      author={Conghui He and Zhenjiang Jin and Chao Xu and Jiantao Qiu and Bin Wang and Wei Li and Hang Yan and Jiaqi Wang and Dahua Lin},\n      year={2023},\n      eprint={2308.10755},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}"
     },
     "coig-kun-wudao": {
         "Unique Dataset Identifier": "coig-kun-wudao",
@@ -132,6 +134,7 @@
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-kun-wudao"
-        ]
+        ],
+        "Bibtex": "@misc{WuDaoCorporaText,\n  author       = {Zhao Xue and Hanyu Zhao and Sha Yuan and Yequan Wang},\n  title        = {{WuDaoCorpora Text}},\n  year         = 2022,\n  month        = dec,\n  publisher    = {Science Data Bank},\n  version      = {V1},\n  doi          = {10.57760/sciencedb.o00126.00004},\n  url          = https://doi.org/10.57760/sciencedb.o00126.00004\n}"
     }
 }

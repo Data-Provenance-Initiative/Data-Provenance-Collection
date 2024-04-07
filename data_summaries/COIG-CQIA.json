@@ -51,7 +51,8 @@
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-cqia-chinese-traditional"
-        ]
+        ],
+        "Bibtex": "@misc{Firefly,\n  author = {Jianxin Yang},\n  title = {Firefly(流萤): 中文对话式大语言模型},\n  year = {2023},\n  publisher = {GitHub},\n  journal = {GitHub repository},\n howpublished = {\\url{https://github.com/yangjianxin1/Firefly}},\n}"
     },
     "coig-cqia-coig-pc": {
         "Unique Dataset Identifier": "coig-cqia-coig-pc",
@@ -100,7 +101,8 @@
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-cqia-coig-pc"
-        ]
+        ],
+        "Bibtex": ""
     },
     "coig-cqia-douban": {
         "Unique Dataset Identifier": "coig-cqia-douban",
@@ -148,7 +150,8 @@
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-cqia-douban"
-        ]
+        ],
+        "Bibtex": ""
     },
     "coig-cqia-exam": {
         "Unique Dataset Identifier": "coig-cqia-exam",
@@ -198,7 +201,8 @@
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-cqia-exam"
-        ]
+        ],
+        "Bibtex": "@misc{zhang2023chinese,\n      title={Chinese Open Instruction Generalist: A Preliminary Release}, \n      author={Ge Zhang and Yemin Shi and Ruibo Liu and Ruibin Yuan and Yizhi Li and Siwei Dong and Yu Shu and Zhaoqun Li and Zekun Wang and Chenghua Lin and Wenhao Huang and Jie Fu},\n      year={2023},\n      eprint={2304.07987},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}"
     },
     "coig-cqia-finance": {
         "Unique Dataset Identifier": "coig-cqia-finance",
@@ -250,7 +254,8 @@
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-cqia-finance"
-        ]
+        ],
+        "Bibtex": ""
     },
     "coig-cqia-human-value": {
         "Unique Dataset Identifier": "coig-cqia-human-value",
@@ -303,7 +308,8 @@
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-cqia-human-value"
-        ]
+        ],
+        "Bibtex": "@misc{xu2023cvalues,\n      title={CValues: Measuring the Values of Chinese Large Language Models from Safety to Responsibility}, \n      author={Guohai Xu and Jiayi Liu and Ming Yan and Haotian Xu and Jinghui Si and Zhuoran Zhou and Peng Yi and Xing Gao and Jitao Sang and Rong Zhang and Ji Zhang and Chao Peng and Fei Huang and Jingren Zhou},\n      year={2023},\n      eprint={2307.09705},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n@misc{zhang2023chinese,\n      title={Chinese Open Instruction Generalist: A Preliminary Release}, \n      author={Ge Zhang and Yemin Shi and Ruibo Liu and Ruibin Yuan and Yizhi Li and Siwei Dong and Yu Shu and Zhaoqun Li and Zekun Wang and Chenghua Lin and Wenhao Huang and Jie Fu},\n      year={2023},\n      eprint={2304.07987},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}"
     },
     "coig-cqia-logi-qa": {
         "Unique Dataset Identifier": "coig-cqia-logi-qa",
@@ -351,7 +357,8 @@
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-cqia-logi-qa"
-        ]
+        ],
+        "Bibtex": ""
     },
     "coig-cqia-ruozhiba": {
         "Unique Dataset Identifier": "coig-cqia-ruozhiba",
@@ -400,7 +407,8 @@
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-cqia-ruozhiba"
-        ]
+        ],
+        "Bibtex": "@misc{2023Leymore,\n\ttitle = {Leymore/ruozhiba},\n\turl = {https://github.com/Leymore/ruozhiba},\n\tdate = {2023-05-01},\n\tyear = {2023},\n\tmonth = {5},\n\tday = {1},\n}"
     },
     "coig-cqia-segmentfault": {
         "Unique Dataset Identifier": "coig-cqia-segmentfault",
@@ -449,7 +457,8 @@
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-cqia-segmentfault"
-        ]
+        ],
+        "Bibtex": ""
     },
     "coig-cqia-wiki": {
         "Unique Dataset Identifier": "coig-cqia-wiki",
@@ -501,7 +510,8 @@
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-cqia-wiki"
-        ]
+        ],
+        "Bibtex": ""
     },
     "coig-cqia-wikihow": {
         "Unique Dataset Identifier": "coig-cqia-wikihow",
@@ -549,7 +559,8 @@
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-cqia-wikihow"
-        ]
+        ],
+        "Bibtex": "@misc{mnbvc,\n  author = {{MOP-LIWU Community} and {MNBVC Team}},\n  title = {MNBVC: Massive Never-ending BT Vast Chinese corpus},\n  year = {2023},\n  publisher = {GitHub},\n  journal = {GitHub repository},\n  howpublished = {\\url{https://github.com/esbatmop/MNBVC}},\n}"
     },
     "coig-cqia-xhs": {
         "Unique Dataset Identifier": "coig-cqia-xhs",
@@ -597,7 +608,8 @@
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-cqia-xhs"
-        ]
+        ],
+        "Bibtex": ""
     },
     "coig-cqia-zhihu": {
         "Unique Dataset Identifier": "coig-cqia-zhihu",
@@ -645,6 +657,7 @@
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-cqia-zhihu"
-        ]
+        ],
+        "Bibtex": ""
     }
 }
