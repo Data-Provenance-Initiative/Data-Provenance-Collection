@@ -43,11 +43,11 @@
         ],
         "Licenses": [
             {
-                "License": "Unspecified",
-                "License URL": ""
+                "License": "Various",
+                "License URL": "Unspecified"
             }
         ],
-        "License Notes": "",
+        "License Notes": "The authors claim that they collect 23 common Chinese instruction tuning datasets.",
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-cqia-chinese-traditional"
@@ -92,8 +92,8 @@
         ],
         "Licenses": [
             {
-                "License": "Apache License 2.0",
-                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
+                "License": "Various",
+                "License URL": "https://huggingface.co/datasets/BAAI/COIG-PC-core"
             }
         ],
         "License Notes": "",
@@ -141,11 +141,7 @@
         "Licenses": [
             {
                 "License": "Unspecified",
-                "License URL": ""
-            },
-            {
-                "License": "Apache License 2.0",
-                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
+                "License URL": "Unspecified"
             }
         ],
         "License Notes": "",
@@ -247,7 +243,7 @@
         "Licenses": [
             {
                 "License": "Unspecified",
-                "License URL": ""
+                "License URL": "Unspecified"
             }
         ],
         "License Notes": "",
@@ -328,7 +324,9 @@
             "Logical Reasoning Question Answering",
             "Numerical Data Aggregation and Analysis"
         ],
-        "Text Sources": [],
+        "Text Sources": [
+            "https://huggingface.co/datasets/BAAI/COIG-PC-core"
+        ],
         "Model Generated": [
             "m-a-p/Kun-LabelModel",
             "01-ai/Yi-34B-Chat"
@@ -345,8 +343,8 @@
         ],
         "Licenses": [
             {
-                "License": "Unspecified",
-                "License URL": ""
+                "License": "Various",
+                "License URL": "Unspecified"
             }
         ],
         "License Notes": "",
@@ -375,7 +373,9 @@
             "Argumentative Question Answering",
             "Metaphor Explanation Question Answering"
         ],
-        "Text Sources": [],
+        "Text Sources": [
+            "https://github.com/Leymore/ruozhiba"
+        ],
         "Model Generated": [
             "m-a-p/Kun-LabelModel",
             "01-ai/Yi-34B-Chat"
@@ -392,8 +392,8 @@
         ],
         "Licenses": [
             {
-                "License": "Apache License 2.0",
-                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
+                "License": "Unspecified",
+                "License URL": "Unspecified"
             }
         ],
         "License Notes": "",
@@ -442,7 +442,7 @@
         "Licenses": [
             {
                 "License": "Unspecified",
-                "License URL": ""
+                "License URL": "Unspecified"
             }
         ],
         "License Notes": "",
@@ -494,7 +494,7 @@
         "Licenses": [
             {
                 "License": "Unspecified",
-                "License URL": ""
+                "License URL": "Unspecified"
             }
         ],
         "License Notes": "",
@@ -541,8 +541,8 @@
         ],
         "Licenses": [
             {
-                "License": "CC BY-NC-SA 4.0",
-                "License URL": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                "License": "Various",
+                "License URL": "Unspecified"
             }
         ],
         "License Notes": "",
@@ -590,7 +590,7 @@
         "Licenses": [
             {
                 "License": "Unspecified",
-                "License URL": ""
+                "License URL": "Unspecified"
             }
         ],
         "License Notes": "",
@@ -638,7 +638,7 @@
         "Licenses": [
             {
                 "License": "Unspecified",
-                "License URL": ""
+                "License URL": "Unspecified"
             }
         ],
         "License Notes": "",
