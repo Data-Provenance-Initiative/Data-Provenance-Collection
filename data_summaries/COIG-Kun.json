@@ -17,7 +17,9 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Sources": [],
+        "Text Sources": [
+            "https://huggingface.co/datasets/Skywork/SkyPile-150B"
+        ],
         "Model Generated": ["m-a-p/Kun-LabelModel", "01-ai/Yi-34B-Chat"],
         "Format": [
             "Zero-shot"
@@ -31,10 +33,6 @@
             "Multimodal Art Projection (M-A-P)"
         ],
         "Licenses": [
-            {
-                "License": "Apache License 2.0",
-                "License URL": "https://github.com/Zheng0428/COIG-Kun/blob/master/LICENSE"
-            },
             {
                 "License": "Skywork Community License",
                 "License URL": "https://github.com/SkyworkAI/Skywork/blob/main/Skywork%20Community%20License.pdf"
@@ -64,7 +62,9 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Sources": [],
+        "Text Sources": [
+            "https://github.com/opendatalab/WanJuan1.0"
+        ],
         "Model Generated": ["m-a-p/Kun-LabelModel", "01-ai/Yi-34B-Chat"],
         "Format": [
             "Zero-shot"
@@ -79,15 +79,11 @@
         ],
         "Licenses": [
             {
-                "License": "Apache License 2.0",
-                "License URL": "https://github.com/Zheng0428/COIG-Kun/blob/master/LICENSE"
-            },
-            {
                 "License": "CC BY 4.0",
                 "License URL": "https://creativecommons.org/licenses/by/4.0"
             }
         ],
-        "License Notes": "",
+        "License Notes": "License information from Github page.",
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-kun-wanjuan"
@@ -111,7 +107,9 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Sources": [],
+        "Text Sources": [
+            "https://www.scidb.cn/en/detail?dataSetId=c6a3fe684227415a9db8e21bac4a15ab"
+        ],
         "Model Generated": ["m-a-p/Kun-LabelModel", "01-ai/Yi-34B-Chat"],
         "Format": [
             "Zero-shot"
@@ -126,11 +124,11 @@
         ],
         "Licenses": [
             {
-                "License": "Apache License 2.0",
-                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://creativecommons.org/licenses/by-sa/4.0"
             }
         ],
-        "License Notes": "",
+        "License Notes": "License information from the dataset page, uploaded by the authors.",
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-kun-wudao"

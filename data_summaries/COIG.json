@@ -39,8 +39,8 @@
         ],
         "Licenses": [
             {
-                "License": "Apache License 2.0",
-                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
+                "License": "Various",
+                "License URL": "Unspecified"
             }
         ],
         "License Notes": "",
@@ -166,7 +166,9 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Sources": [],
+        "Text Sources": [
+            "http://kw.fudan.edu.cn/cndbpedia"
+        ],
         "Model Generated": ["OpenAI ChatGPT"],
         "Format": [
             "Multi-turn Dialog"
@@ -186,8 +188,8 @@
         ],
         "Licenses": [
             {
-                "License": "Apache License 2.0",
-                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
+                "License": "Unspecified",
+                "License URL": "Unspecified"
             }
         ],
         "License Notes": "",
@@ -236,10 +238,6 @@
             "Zhejiang University"
         ],
         "Licenses": [
-            {
-                "License": "Apache License 2.0",
-                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
-            },
             {
                 "License": "CC BY-SA 4.0",
                 "License URL": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
