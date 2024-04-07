@@ -47,6 +47,7 @@
             "list[string] (''): A list of the dataset filter IDs associated with the dataset.",
             "applicable when the same collection has multiple sources and they need to be separated.",
             "If no extra filter id is needed, please put the unique identifier of the dataset here."
-        ]
+        ],
+        "Bibtex": "string (''): The bibtex citation for the dataset if Semantic Scholar Corpus ID is available, if not, please leave this field empty string. It can be generated using script src/data_bibtex.py"
     }
 }

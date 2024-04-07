@@ -12,7 +12,7 @@
     "AI2 ImpACT License - Low Risk": [
         "All",
         "1",
-        "0"
+        "1"
     ],
     "All Uses-Attribution": [
         "All",
@@ -210,6 +210,10 @@
         "All",
         "1",
         "1"
+    ],
+    "Llama 2": [
+        "All",
+        "1",
+        "0"
     ]
 }
-
