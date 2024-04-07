@@ -6,7 +6,7 @@
         "Dataset URL": "https://huggingface.co/datasets/TIGER-Lab/MathInstruct",
         "GitHub URL": "https://github.com/TIGER-AI-Lab/MAmmoTH",
         "Hugging Face URL": "https://huggingface.co/datasets/TIGER-Lab/MathInstruct",
-        "Papers with Code URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/mathinstruct",
         "ArXiv URL": "https://arxiv.org/abs/2309.05653",
         "Semantic Scholar Corpus ID": 261696697,
         "Collection": "MathInstruct",
