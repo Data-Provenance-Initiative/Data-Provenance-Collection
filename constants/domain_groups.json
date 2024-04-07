@@ -158,6 +158,7 @@
         "ck12.org",
         "coursera.org",
         "khanacademy.org",
+        "learning.aljazeera.net/ar/asktheteacher",
         "udacity.com"
     ],
     "Encyclopedias": [
@@ -385,6 +386,7 @@
         "finqa (chen et al 2021)",
         "fiqa dataset",
         "firefly",
+        "Flan v2",
         "giga-fren",
         "google syntactic n-grams",
         "grailqa",
@@ -400,6 +402,10 @@
         "huggingface.co/datasets/story_cloze",
         "huggingface.co/datasets/trec",
         "huggingface.co/datasets/winograd_wsc",
+        "huggingface.co/datasets/Anthropic/hh-rlhf",
+        "huggingface.co/datasets/openbmb/UltraFeedback",
+        "huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k",
+        "huggingface.co/datasets/SirNeural/flan_v2",
         "hybridqa",
         "ibm-rank-30k",
         "ilisten",
