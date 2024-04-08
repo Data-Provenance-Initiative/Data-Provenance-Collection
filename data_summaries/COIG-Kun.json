@@ -20,7 +20,7 @@
         "Text Sources": [
             "https://huggingface.co/datasets/Skywork/SkyPile-150B"
         ],
-        "Model Generated": ["m-a-p/Kun-LabelModel", "01-ai/Yi-34B-Chat"],
+        "Model Generated": ["m-a-p/Kun-LabelModel", "01-ai/Yi-6B"],
         "Format": [
             "Zero-shot"
         ],
@@ -66,7 +66,7 @@
         "Text Sources": [
             "https://github.com/opendatalab/WanJuan1.0"
         ],
-        "Model Generated": ["m-a-p/Kun-LabelModel", "01-ai/Yi-34B-Chat"],
+        "Model Generated": ["m-a-p/Kun-LabelModel", "01-ai/Yi-6B"],
         "Format": [
             "Zero-shot"
         ],
@@ -112,7 +112,7 @@
         "Text Sources": [
             "https://www.scidb.cn/en/detail?dataSetId=c6a3fe684227415a9db8e21bac4a15ab"
         ],
-        "Model Generated": ["m-a-p/Kun-LabelModel", "01-ai/Yi-34B-Chat"],
+        "Model Generated": ["m-a-p/Kun-LabelModel", "01-ai/Yi-6B"],
         "Format": [
             "Zero-shot"
         ],
