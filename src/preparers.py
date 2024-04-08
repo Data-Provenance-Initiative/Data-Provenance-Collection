@@ -954,7 +954,6 @@ def prepare_chatbot_arena_conversations(row):
                     parent_id if idx == 0 else len(messages) - 1
                 ),  # Link to previous message or set to dataset ID
             }
-
             # For assistant messages, add model name and score
             if msg["role"] == "assistant":
                 message["model"] = model_name
