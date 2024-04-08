@@ -82,7 +82,7 @@ python src/download_and_filter.py -c src/configs/default.yaml
 ## Generate Bibtex
 
 We collect bibtex entries for every dataset that has an associated paper in the Data Provenance Collection.
-These can be found in `data_summaries/`, and you can also automatically generate the full bibtex file for an subset of the data, just by [running](#run) the data preparation script.
+These can be found in `data_summaries/`, and you **can also automatically generate the full bibtex file for any subset of the data**, just by [running](#run) the data preparation script.
 
 To generate the bibtex without the data, simply run the data download and filter script, but stop after this line of code: https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection/blob/main/src/download_and_filter.py#L419.
 
