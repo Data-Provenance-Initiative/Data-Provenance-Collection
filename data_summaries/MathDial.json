@@ -43,6 +43,10 @@
                 "License URL": "https://github.com/eth-nlped/mathdial#example"
             },
             {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/gsm8k#licensing-information"
+            },
+            {
                 "License": "OpenAI",
                 "License URL": ""
             }
