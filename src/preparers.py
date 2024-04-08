@@ -880,3 +880,11 @@ def prepare_gretel_text_to_sql(row):
         row["sql"],
         "gretel_text_to_sql"
     )
+
+
+def prepare_expertqa(row):
+    return convert_inputs_targets_to_messages(
+        row["question"],
+        row["answer"],
+        "expert_qa"
+    )

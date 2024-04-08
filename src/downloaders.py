@@ -871,3 +871,6 @@ def download_megawika(accepted_filter_ids):
 
 def download_gretel_text_to_sql(accepted_filter_ids):
     return huggingface_download("gretelai/synthetic_text_to_sql", split="train")
+
+def download_expertqa(accepted_filter_ids):
+    return huggingface_download("cmalaviya/expertqa", "lfqa_domain", split="train")
