@@ -199,8 +199,8 @@ def test_outputs(collection, collection_info, error_handler):
         if not all([key in ex for dialog in dset for ex in dialog for key in ['from', 'text', 'parent']]):
             error_handler.handle(f"{uid} output does not have the correct keys: {['from', 'text', 'parent']}")
 
+        message_parents = []
         for dialog in dset:
-            message_parents = []
             for midx, message in enumerate(dialog):
                 if midx == 0:
                     if not isinstance(message['parent'], str):
@@ -227,6 +227,7 @@ def test_outputs(collection, collection_info, error_handler):
                         error_handler.handle(f"{uid} message's from 'assistants' should have a 'score' field, that is an int or float, not `{message['score']}`.")
                         return
                 message_parents.append(message["parent"])
+
         if not any([parent == 0 for parent in message_parents]):
             error_handler.handle(f"{uid} there does not appear to be a response to the original input in this dialog.")
             return
