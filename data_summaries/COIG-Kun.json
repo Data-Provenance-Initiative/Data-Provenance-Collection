@@ -7,8 +7,8 @@
         "GitHub URL": "https://github.com/Zheng0428/COIG-Kun",
         "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-Kun",
         "Papers with Code URL": "",
-        "ArXiv URL": "",
-        "Semantic Scholar Corpus ID": "",
+        "ArXiv URL": "https://arxiv.org/abs/2401.06477",
+        "Semantic Scholar Corpus ID": "266977233",
         "Collection": "COIG-Kun",
         "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-Kun",
         "Languages": [
@@ -18,9 +18,10 @@
             "Question Answering"
         ],
         "Text Sources": [
+            "undisclosed web",
             "https://huggingface.co/datasets/Skywork/SkyPile-150B"
         ],
-        "Model Generated": ["m-a-p/Kun-LabelModel", "01-ai/Yi-6B"],
+        "Model Generated": ["m-a-p/Kun-LabelModel", "m-a-p/Kun-PrimaryChatModel"],
         "Format": [
             "Zero-shot"
         ],
@@ -53,8 +54,8 @@
         "GitHub URL": "https://github.com/Zheng0428/COIG-Kun",
         "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-Kun",
         "Papers with Code URL": "",
-        "ArXiv URL": "",
-        "Semantic Scholar Corpus ID": "",
+        "ArXiv URL": "https://arxiv.org/abs/2401.06477",
+        "Semantic Scholar Corpus ID": "266977233",
         "Collection": "COIG-Kun",
         "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-Kun",
         "Languages": [
@@ -66,7 +67,7 @@
         "Text Sources": [
             "https://github.com/opendatalab/WanJuan1.0"
         ],
-        "Model Generated": ["m-a-p/Kun-LabelModel", "01-ai/Yi-6B"],
+        "Model Generated": ["m-a-p/Kun-LabelModel", "m-a-p/Kun-PrimaryChatModel"],
         "Format": [
             "Zero-shot"
         ],
@@ -81,7 +82,7 @@
         "Licenses": [
             {
                 "License": "CC BY 4.0",
-                "License URL": "https://creativecommons.org/licenses/by/4.0"
+                "License URL": "https://github.com/opendatalab/WanJuan1.0?tab=readme-ov-file#license"
             }
         ],
         "License Notes": "License information from Github page.",
@@ -100,7 +101,7 @@
         "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-Kun",
         "Papers with Code URL": "",
         "ArXiv URL": "https://arxiv.org/abs/2401.06477",
-        "Semantic Scholar Corpus ID": "",
+        "Semantic Scholar Corpus ID": "266977233",
         "Collection": "COIG-Kun",
         "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-Kun",
         "Languages": [
@@ -112,7 +113,7 @@
         "Text Sources": [
             "https://www.scidb.cn/en/detail?dataSetId=c6a3fe684227415a9db8e21bac4a15ab"
         ],
-        "Model Generated": ["m-a-p/Kun-LabelModel", "01-ai/Yi-6B"],
+        "Model Generated": ["m-a-p/Kun-LabelModel", "m-a-p/Kun-PrimaryChatModel"],
         "Format": [
             "Zero-shot"
         ],
