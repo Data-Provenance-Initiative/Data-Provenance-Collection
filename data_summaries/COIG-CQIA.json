@@ -25,10 +25,7 @@
         "Text Sources": [
             "https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M"
         ],
-        "Model Generated": [
-            "m-a-p/Kun-LabelModel",
-            "01-ai/Yi-34B-Chat"
-        ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
@@ -75,10 +72,7 @@
         "Text Sources": [
             "https://huggingface.co/datasets/BAAI/COIG-PC-core"
         ],
-        "Model Generated": [
-            "m-a-p/Kun-LabelModel",
-            "01-ai/Yi-34B-Chat"
-        ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
@@ -126,10 +120,7 @@
         "Text Sources": [
             "https://www.douban.com/"
         ],
-        "Model Generated": [
-            "m-a-p/Kun-LabelModel",
-            "01-ai/Yi-34B-Chat"
-        ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
@@ -175,10 +166,7 @@
         "Text Sources": [
             "https://huggingface.co/datasets/BAAI/COIG"
         ],
-        "Model Generated": [
-            "m-a-p/Kun-LabelModel",
-            "01-ai/Yi-34B-Chat"
-        ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
@@ -228,10 +216,7 @@
             "https://wiki.mbalib.com/wiki/%E9%A6%96%E9%A1%B5",
             "https://huggingface.co/datasets/BAAI/COIG-PC"
         ],
-        "Model Generated": [
-            "m-a-p/Kun-LabelModel",
-            "01-ai/Yi-34B-Chat"
-        ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
@@ -281,10 +266,7 @@
             "https://modelscope.cn/datasets/damo/100PoisonMpts/summary",
             "https://huggingface.co/datasets/BAAI/COIG"
         ],
-        "Model Generated": [
-            "m-a-p/Kun-LabelModel",
-            "01-ai/Yi-34B-Chat"
-        ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
@@ -333,10 +315,7 @@
         "Text Sources": [
             "https://huggingface.co/datasets/BAAI/COIG-PC-core"
         ],
-        "Model Generated": [
-            "m-a-p/Kun-LabelModel",
-            "01-ai/Yi-34B-Chat"
-        ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
@@ -383,10 +362,7 @@
         "Text Sources": [
             "https://github.com/Leymore/ruozhiba"
         ],
-        "Model Generated": [
-            "m-a-p/Kun-LabelModel",
-            "01-ai/Yi-34B-Chat"
-        ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
@@ -433,10 +409,7 @@
         "Text Sources": [
             "https://segmentfault.com/"
         ],
-        "Model Generated": [
-            "m-a-p/Kun-LabelModel",
-            "01-ai/Yi-34B-Chat"
-        ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
@@ -486,10 +459,7 @@
             "https://www.gkket.com/gkwk/",
             "https://www.zgbk.com/"
         ],
-        "Model Generated": [
-            "m-a-p/Kun-LabelModel",
-            "01-ai/Yi-34B-Chat"
-        ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
@@ -535,10 +505,7 @@
             "https://zh.wikihow.com/%E9%A6%96%E9%A1%B5",
             "https://github.com/esbatmop/MNBVC/tree/main"
         ],
-        "Model Generated": [
-            "m-a-p/Kun-LabelModel",
-            "01-ai/Yi-34B-Chat"
-        ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
@@ -584,10 +551,7 @@
         "Text Sources": [
             "https://www.xiaohongshu.com/explore"
         ],
-        "Model Generated": [
-            "m-a-p/Kun-LabelModel",
-            "01-ai/Yi-34B-Chat"
-        ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
@@ -633,10 +597,7 @@
         "Text Sources": [
             "https://www.zhihu.com/"
         ],
-        "Model Generated": [
-            "m-a-p/Kun-LabelModel",
-            "01-ai/Yi-34B-Chat"
-        ],
+        "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
