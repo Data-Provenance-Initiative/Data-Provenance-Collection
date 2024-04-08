@@ -301,5 +301,9 @@ COLLECTION_FN_MAPPER = {
     "Gretel Text-to-SQL": {
         "download_function": downloaders.download_gretel_text_to_sql,
         "prepare_function": preparers.prepare_gretel_text_to_sql,
+    },
+    "ExpertQA": {
+        "download_function": downloaders.download_expertqa,
+        "prepare_function": preparers.prepare_expertqa,
     }
 }
