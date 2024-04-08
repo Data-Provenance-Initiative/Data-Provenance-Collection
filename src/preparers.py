@@ -872,7 +872,7 @@ def prepare_mathdial(row):
     for i, turn in enumerate(conversation):
         colon_index = turn.find(":")
         messages.append({
-            "from": "user" if turn[:colon_index].strip() == "Teacher" else "assistant",
+            "from": "assistant" if turn[:colon_index].strip() == "Teacher" else "user",
             "text": turn[colon_index+1:].strip(),
             "parent": parent,
         })
