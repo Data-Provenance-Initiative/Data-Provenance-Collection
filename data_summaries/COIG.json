@@ -43,7 +43,7 @@
                 "License URL": "Unspecified"
             }
         ],
-        "License Notes": "",
+        "License Notes": "Because it translates from multiple datasets (NaturalInstructions, Super-NaturalInstructions), there are many restrictive licenses",
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-translated-instruction"
@@ -219,7 +219,9 @@
             "Code"
         ],
         "Task Categories": [
-            "Question Answering"
+            "Question Answering",
+            "Code",
+            "Code Generation"
         ],
         "Text Sources": [
             "leetcode.com"
@@ -244,7 +246,7 @@
         "Licenses": [
             {
                 "License": "CC BY-SA 4.0",
-                "License URL": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+                "License URL": "https://github.com/doocs/leetcode?tab=CC-BY-SA-4.0-1-ov-file"
             }
         ],
         "License Notes": "",
