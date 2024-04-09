@@ -13,6 +13,8 @@
     "Other": [
         "alpaca",
         "Anthropic Internal Models",
+        "BART",
+        "Bing Chat",
         "BX LLaMa",
         "BX BLOOM",
         "CTRL",
@@ -20,6 +22,7 @@
         "Flan-T5",
         "Google Cloud Translation API",
         "Google Translate",
+        "Gretel Navigator",
         "Grover",
         "IndicTrans2",
         "Instruct-GPT-J",
