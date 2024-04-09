@@ -46,7 +46,7 @@
         "Creators": [],
         "Licenses": [
             {
-                "License": "CC BY-NC 4.0",
+                "License": "Various",
                 "License URL": "https://huggingface.co/datasets/jondurbin/airoboros-3.2"
             },
             {
@@ -54,7 +54,7 @@
                 "License URL": "https://github.com/facebookresearch/llama/blob/main/LICENSE"
             }
         ],
-        "License Notes": "A variarion of implementing method on https://arxiv.org/abs/2212.10560 ",
+        "License Notes": "A variation of implementing method on https://arxiv.org/abs/2212.10560 ",
         "License Verified By": "Alexis Wu",
         "Dataset Filter IDs": [
             "airoboros"
