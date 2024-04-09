@@ -869,5 +869,5 @@ def prepare_aya_dataset(row):
     return convert_inputs_targets_to_messages(
         row["inputs"],
         row["targets"],
-        row["language"],
+        row["language_code"],
     )
