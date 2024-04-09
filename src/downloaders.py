@@ -847,3 +847,6 @@ def download_cobra_frames(accepted_filter_ids):
     dset = annotate_source(dset['normal'], mapping['normal'])
     return dset
 
+
+def download_10k_prompt_ranked(accepted_filter_ids):
+    return huggingface_download('DIBT/10k_prompts_ranked', split='train')

@@ -83,7 +83,14 @@
         "Scene Generation",
         "Song Generation",
         "Story Arc Construction",
-        "Taxpayer Receipt Generation"
+        "Taxpayer Receipt Generation",
+        "Travel and Leisure",
+        "Environmental Issues",
+        "Business and Marketing",
+        "Legal and Government",
+        "Health and Wellness",
+        "Science and Technology",
+        "Software Development"
     ],
     "Creativity": [
         "Cooking Instruction Understanding",
@@ -94,7 +101,8 @@
         "Pun Detection",
         "Word Analogy",
         "Word Association",
-        "Wordplay Detection"
+        "Wordplay Detection",
+        "Literature and Arts"
     ],
     "Dialog Generation": [
         "Argumentative Dialogue Generation",
