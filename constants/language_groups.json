@@ -368,6 +368,7 @@
         "Afrikaans",
         "Akan",
         "Albanian",
+        "Albanian (Tosk)",
         "Amharic",
         "Armenian",
         "Asturian",
@@ -470,6 +471,7 @@
         "Pangasinan",
         "Papiamento",
         "Pashto",
+        "Pashto (Southern)",
         "Plateau Malagasy",
         "Pushto",
         "Quechua",
@@ -479,6 +481,7 @@
         "Santali",
         "Sardinian",
         "Scottish Gaelic",
+        "Serbian",
         "Serbian (Latin script)",
         "Shan",
         "Shona",
@@ -562,6 +565,7 @@
     ],
     "Persian": [
         "Farsi",
+        "Iranian Persian",
         "Persian",
         "Western Persian"
     ],
