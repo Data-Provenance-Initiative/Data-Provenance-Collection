@@ -457,7 +457,7 @@ def prepare_hc3_zh(row):
 
 
 def prepare_camel_science(row):
-    if row["_source"] != "code" and row["_source"] != "ai-society-translated":
+    if row["_source"] != "code" and "ai-society-translated" not in row["_source"]:
         return convert_inputs_targets_to_messages(
             row["message_1"], row["message_2"], row["_source"],
         )

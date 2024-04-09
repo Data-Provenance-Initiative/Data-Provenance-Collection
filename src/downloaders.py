@@ -472,16 +472,86 @@ def download_camel_science(accepted_filter_ids):
         )
         code_dset = process_zipped_file(code_zip)
         dset += annotate_source(code_dset, "code")
-    if "ai-society-translated" in accepted_filter_ids:
-        language_code = ["ar", "zh", "ko", "ja", "hi", "ru", "es", "fr", "de", "it"]
-        for language in language_code:
-            language_zip = hf_hub_download(
-                repo_id="camel-ai/ai_society_translated",
-                filename=f"ai_society_chat_{language}.zip",
-                repo_type="dataset",
-            )
-            language_dset = process_zipped_file(language_zip)
-            dset += annotate_source(language_dset, "ai-society-translated")
+    if "ai-society-translated-ar" in accepted_filter_ids:
+        language_ar_zip = hf_hub_download(
+            repo_id="camel-ai/ai_society_translated",
+            filename="ai_society_chat_ar.zip",
+            repo_type="dataset",
+        )
+        language_ar_dset = process_zipped_file(language_ar_zip)
+        dset += annotate_source(language_ar_dset, "ai-society-translated-ar")
+    if "ai-society-translated-zh" in accepted_filter_ids:
+        language_zh_zip = hf_hub_download(
+            repo_id="camel-ai/ai_society_translated",
+            filename="ai_society_chat_zh.zip",
+            repo_type="dataset",
+        )
+        language_zh_dset = process_zipped_file(language_zh_zip)
+        dset += annotate_source(language_zh_dset, "ai-society-translated-zh")
+    if "ai-society-translated-ko" in accepted_filter_ids:
+        language_ko_zip = hf_hub_download(
+            repo_id="camel-ai/ai_society_translated",
+            filename="ai_society_chat_ko.zip",
+            repo_type="dataset",
+        )
+        language_ko_dset = process_zipped_file(language_ko_zip)
+        dset += annotate_source(language_ko_dset, "ai-society-translated-ko")
+    if "ai-society-translated-ja" in accepted_filter_ids:
+        language_ja_zip = hf_hub_download(
+            repo_id="camel-ai/ai_society_translated",
+            filename="ai_society_chat_ja.zip",
+            repo_type="dataset",
+        )
+        language_ja_dset = process_zipped_file(language_ja_zip)
+        dset += annotate_source(language_ja_dset, "ai-society-translated-ja")
+    if "ai-society-translated-hi" in accepted_filter_ids:
+        language_hi_zip = hf_hub_download(
+            repo_id="camel-ai/ai_society_translated",
+            filename="ai_society_chat_hi.zip",
+            repo_type="dataset",
+        )
+        language_hi_dset = process_zipped_file(language_hi_zip)
+        dset += annotate_source(language_hi_dset, "ai-society-translated-hi")
+    if "ai-society-translated-ru" in accepted_filter_ids:
+        language_ru_zip = hf_hub_download(
+            repo_id="camel-ai/ai_society_translated",
+            filename="ai_society_chat_ru.zip",
+            repo_type="dataset",
+        )
+        language_ru_dset = process_zipped_file(language_ru_zip)
+        dset += annotate_source(language_ru_dset, "ai-society-translated-ru")
+    if "ai-society-translated-es" in accepted_filter_ids:
+        language_es_zip = hf_hub_download(
+            repo_id="camel-ai/ai_society_translated",
+            filename="ai_society_chat_es.zip",
+            repo_type="dataset",
+        )
+        language_es_dset = process_zipped_file(language_es_zip)
+        dset += annotate_source(language_es_dset, "ai-society-translated-es")
+    if "ai-society-translated-fr" in accepted_filter_ids:
+        language_fr_zip = hf_hub_download(
+            repo_id="camel-ai/ai_society_translated",
+            filename="ai_society_chat_fr.zip",
+            repo_type="dataset",
+        )
+        language_fr_dset = process_zipped_file(language_fr_zip)
+        dset += annotate_source(language_fr_dset, "ai-society-translated-fr")
+    if "ai-society-translated-de" in accepted_filter_ids:
+        language_de_zip = hf_hub_download(
+            repo_id="camel-ai/ai_society_translated",
+            filename="ai_society_chat_de.zip",
+            repo_type="dataset",
+        )
+        language_de_dset = process_zipped_file(language_de_zip)
+        dset += annotate_source(language_de_dset, "ai-society-translated-de")
+    if "ai-society-translated-it" in accepted_filter_ids:
+        language_it_zip = hf_hub_download(
+            repo_id="camel-ai/ai_society_translated",
+            filename="ai_society_chat_it.zip",
+            repo_type="dataset",
+        )
+        language_it_dset = process_zipped_file(language_it_zip)
+        dset += annotate_source(language_it_dset, "ai-society-translated-it")
 
     return dset
 
