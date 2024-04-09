@@ -293,5 +293,9 @@ COLLECTION_FN_MAPPER = {
     "Cobra Frames": {
         "download_function": downloaders.download_cobra_frames,
         "prepare_function": preparers.prepare_cobra_frames,
+    },
+    "Aya Dataset": {
+        "download_function": downloaders.download_aya_dataset,
+        "prepare_function": preparers.prepare_aya_dataset,
     }
 }
