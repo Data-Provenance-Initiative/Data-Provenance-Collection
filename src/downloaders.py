@@ -847,3 +847,16 @@ def download_cobra_frames(accepted_filter_ids):
     dset = annotate_source(dset['normal'], mapping['normal'])
     return dset
 
+def download_aya_dataset(accepted_filter_ids):
+    aya_dataset = huggingface_download("CohereForAI/aya_dataset", split="train")
+    dset = []
+    if "zhs" in accepted_filter_ids:
+        zhs_data = load_dataset("CohereForAI/aya_dataset", split="train")\
+            .filter(lambda row: row["language"] == "Simplified Chinese").to_list()
+        dset += zhs_data
+        accepted_filter_ids.remove("zhs")
+        aya_dataset = load_dataset("CohereForAI/aya_dataset", split="train")\
+            .filter(lambda row: row["language"] != "Simplified Chinese").to_list()
+
+    dset += pool_filter(aya_dataset, "language_code", accepted_filter_ids)
+    return dset
