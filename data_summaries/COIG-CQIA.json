@@ -88,7 +88,7 @@
         "Licenses": [
             {
                 "License": "Various",
-                "License URL": "https://huggingface.co/datasets/BAAI/COIG-PC-core"
+                "License URL": "https://huggingface.co/datasets/BAAI/COIG-PC-core#license"
             }
         ],
         "License Notes": "",
@@ -181,11 +181,11 @@
         ],
         "Licenses": [
             {
-                "License": "Apache License 2.0",
-                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
+                "License": "Various",
+                "License URL": "https://huggingface.co/datasets/BAAI/COIG#license"
             }
         ],
-        "License Notes": "",
+        "License Notes": "The authors of COIG claim that the license of the dataset is Apache License 2.0, while the license of the source dataset is various.",
         "License Verified By": "Yizhi Li",
         "Dataset Filter IDs": [
             "coig-cqia-exam"
@@ -233,6 +233,10 @@
             {
                 "License": "Unspecified",
                 "License URL": "Unspecified"
+            },
+            {
+                "License": "Various",
+                "License URL": "https://huggingface.co/datasets/BAAI/COIG#license"
             }
         ],
         "License Notes": "",
@@ -263,7 +267,7 @@
             "Multiple Choice Question Answering"
         ],
         "Text Sources": [
-            "https://modelscope.cn/datasets/damo/100PoisonMpts/summary",
+            "https://github.com/X-PLUG/CValues",
             "https://huggingface.co/datasets/BAAI/COIG"
         ],
         "Model Generated": [],
@@ -283,7 +287,11 @@
         "Licenses": [
             {
                 "License": "Apache License 2.0",
-                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
+                "License URL": "https://github.com/X-PLUG/CValues/tree/main?tab=Apache-2.0-1-ov-file"
+            },
+            {
+                "License": "Various",
+                "License URL": "https://huggingface.co/datasets/BAAI/COIG#license"
             }
         ],
         "License Notes": "",
