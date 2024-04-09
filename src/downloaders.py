@@ -861,3 +861,31 @@ def download_aya_dataset(accepted_filter_ids):
 
     return pool_filter(aya_dataset, "language_code", accepted_filter_ids)
 
+
+def download_megawika(accepted_filter_ids):
+
+    def generate_exs(row, lang):
+        context = row["article_title"] + "\n\n" + row["article_text"]
+        exs = []
+        for qa_pairs in row["entries"]["qa_pairs"]:
+            for i, question in enumerate(qa_pairs["question"]):
+                exs.append({
+                    "input": context + "\n\n\n" + question, 
+                    "output": "Answer: " + qa_pairs["en_answer"][i], 
+                    "source": lang
+                })
+        return exs
+
+    exs = []
+    for filter_id in accepted_filter_ids:
+        dset = huggingface_download("hltcoe/megawika", name=filter_id, split=filter_id)
+        for row in dset:
+            exs.extend(generate_exs(row, filter_id))
+    return exs
+
+def download_gretel_text_to_sql(accepted_filter_ids):
+    return huggingface_download("gretelai/synthetic_text_to_sql", split="train")
+
+def download_expertqa(accepted_filter_ids):
+    return huggingface_download("cmalaviya/expertqa", "lfqa_domain", split="train")
+
