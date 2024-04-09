@@ -1,0 +1,69 @@
+{
+    "10k Prompt Ranked": {
+        "Unique Dataset Identifier": "10k Prompt Ranked",
+        "Dataset Name": "10k Prompts Ranked",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/DIBT/10k_prompts_ranked",
+        "GitHub URL": "https://github.com/huggingface/data-is-better-together",
+        "Hugging Face URL": "https://huggingface.co/datasets/DIBT/10k_prompts_ranked",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "10k Prompt Ranked",
+        "Collection URL": "https://huggingface.co/collections/DIBT/dibt-prompt-collective-outputs-65f09c87c9e8ee4b8bca5566",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Math",
+            "Travel and Leisure",
+            "Literature and Arts",
+            "Environmental Issues",
+            "Business and Marketing",
+            "Legal and Government",
+            "Health and Wellness",
+            "Science and Technology",
+            "Software Development"
+        ],
+        "Text Sources": [
+            "huggingface.co/datasets/ewof/sharegpt-instruct-unfiltered-deduped",
+            "huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_70k",
+            "huggingface.co/datasets/stingning/ultrachat",
+            "huggingface.co/datasets/OpenAssistant/oasst2",
+            "huggingface.co/datasets/diabolic6045/flanv2_cot_alpeca",
+            "huggingface.co/datasets/argilla/distilabel-reasoning-prompts",
+            "huggingface.co/datasets/argilla/distilabel-evol-prompt-collective",
+            "huggingface.co/datasets/LDJnr/Capybara",
+            "huggingface.co/datasets/ProlificAI/social-reasoning-rlhf",
+            "huggingface.co/datasets/LDJnr/Capybara",
+            "huggingface.co/datasets/fka/awesome-chatgpt-prompts"
+        ],
+        "Model Generated": [
+            "Nous-Hermes-2-Yi-34B",
+            "Mistral-7B-Instruct-v0.2",
+            "Llama-2-70b-chat-hf"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Chain-of-Thought"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Huggingface",
+            "Argilla"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "string (''): The URL to the webpage where this license is mentioned in association with this dataset."
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "string (''): The name of the human annotator who verified the license information.",
+        "Dataset Filter IDs": [
+            "10k-prompt-ranked"
+        ],
+        "Bibtex": ""
+    }
+}
