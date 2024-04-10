@@ -891,19 +891,11 @@ def prepare_expertqa(row):
 
 def prepare_opengpt_healthcare(row):
     text = row["text"].split("<|eos|>")[:-1]
-    messages = []
 
-    if row["_source"] != "opengpt-nhs-conversations":
-        inputs = text[0][text[0].find(">")+1:].strip()
-        outputs = text[1][text[1].find(">")+1:].strip()
-        message = convert_inputs_targets_to_messages(
-            inputs, 
-            outputs, 
-            row["_source"]
-        )
-        messages.append(message)
-    else:
+    if row["_source"] == "opengpt-nhs-conversations":
         parent = row["_source"]
+        messages = []
+
         for i, turn in enumerate(text):
             indicator_index = turn.find(">")
             messages.append({
@@ -912,6 +904,17 @@ def prepare_opengpt_healthcare(row):
                 "parent": parent,
             })
             parent = i
+
+        return messages
     
-    return messages
+    else:
+        inputs = text[0][text[0].find(">")+1:].strip()
+        outputs = text[1][text[1].find(">")+1:].strip()
+        return convert_inputs_targets_to_messages(
+            inputs, 
+            outputs, 
+            row["_source"]
+        )
+    
+
     
