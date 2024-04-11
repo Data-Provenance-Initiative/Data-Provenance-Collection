@@ -851,3 +851,49 @@ def download_cobra_frames(accepted_filter_ids):
     dset = annotate_source(dset['normal'], mapping['normal'])
     return dset
 
+def download_aya_dataset(accepted_filter_ids):
+    # The language code for both Simplified and Traditional Chinese is currently zho.
+    # This function updates Simplified Chinese to zhs, but this is not an official ISO code and I couldn't 
+    # find an official one.
+    def update_simplified_chinese_langcode(row):
+        row["language_code"] = "zhs" if row["language"] == "Simplified Chinese" else row["language_code"]
+        return row
+
+    aya_dataset = load_dataset("CohereForAI/aya_dataset", split="train")\
+            .map(update_simplified_chinese_langcode)\
+            .to_list()
+
+    return pool_filter(aya_dataset, "language_code", accepted_filter_ids)
+
+
+def download_megawika(accepted_filter_ids):
+
+    def generate_exs(row, lang):
+        context = row["article_title"] + "\n\n" + row["article_text"]
+        exs = []
+        for qa_pairs in row["entries"]["qa_pairs"]:
+            for i, question in enumerate(qa_pairs["question"]):
+                exs.append({
+                    "input": context + "\n\n\n" + question, 
+                    "output": "Answer: " + qa_pairs["en_answer"][i], 
+                    "source": lang
+                })
+        return exs
+
+    exs = []
+    for filter_id in accepted_filter_ids:
+        dset = huggingface_download("hltcoe/megawika", name=filter_id, split=filter_id)
+        for row in dset:
+            exs.extend(generate_exs(row, filter_id))
+    return exs
+
+def download_gretel_text_to_sql(accepted_filter_ids):
+    return huggingface_download("gretelai/synthetic_text_to_sql", split="train")
+
+def download_expertqa(accepted_filter_ids):
+    return huggingface_download("cmalaviya/expertqa", "lfqa_domain", split="train")
+
+def download_conifer(accepted_filter_ids):
+    dset = huggingface_download("ConiferLM/Conifer", split="train_sft")
+    return dset
+
