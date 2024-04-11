@@ -889,3 +889,7 @@ def download_gretel_text_to_sql(accepted_filter_ids):
 def download_expertqa(accepted_filter_ids):
     return huggingface_download("cmalaviya/expertqa", "lfqa_domain", split="train")
 
+def download_conifer(accepted_filter_ids):
+    dset = huggingface_download("ConiferLM/Conifer", split="train_sft")
+    return dset
+
