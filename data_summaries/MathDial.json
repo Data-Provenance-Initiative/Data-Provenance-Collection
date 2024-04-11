@@ -20,7 +20,9 @@
             "Dialogue Tutoring"
         ],
         "Text Sources": [
-            "Math Word Problems"
+            "arithmetic word problems",
+            "Math Word Problems",
+            "gsm8k"
         ],
         "Model Generated": [
             "OpenAI GPT-3.5-Turbo"
