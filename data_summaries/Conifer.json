@@ -1,0 +1,62 @@
+{
+    "conifer": {
+        "Unique Dataset Identifier": "conifer",
+        "Dataset Name": "conifer",
+        "Paper Title": "Conifer: Improving Complex Constrained Instruction-Following Ability of Large Language Models",
+        "Dataset URL": "https://huggingface.co/datasets/ConiferLM/Conifer/viewer/default/train_sft",
+        "GitHub URL": "https://github.com/ConiferLM/Conifer",
+        "Hugging Face URL": "https://huggingface.co/datasets/ConiferLM/Conifer",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2404.02823",
+        "Semantic Scholar Corpus ID": 268876020,
+        "Collection": "Conifer",
+        "Collection URL": "https://github.com/ConiferLM/Conifer",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Brainstorming",
+            "Creative Writing",
+            "Coding",
+            "Explanation",
+            "Instruction Following",
+            "Logical Reasoning",
+            "Question Answering",
+            "Open Question Answering",
+            "Miscellaneous",
+            "Trivia"
+        ],
+        "Text Sources": [
+            "sharegpt.com"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4-Turbo"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "ShareGPT"
+        ],
+        "Creators": [
+            "Alibaba Group"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/ConiferLM/Conifer"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://sharegpt.com"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "conifer"
+        ],
+        "Bibtex": "@inproceedings{Sun2024ConiferIC,\n title={Conifer: Improving Complex Constrained Instruction-Following Ability of Large Language Models},\n author={Haoran Sun and Lixin Liu and Junjie Li and Fengyu Wang and Baohua Dong and Ran Lin and Ruohui Huang},\n year={2024},\n url={https://api.semanticscholar.org/CorpusID:268876020}\n }"
+    }
+}
