@@ -28,6 +28,7 @@
         "Instruct-GPT-J",
         "LLama-2-7B-chat",
         "Mistral-7B-Instruct",
+        "Mixtral-8x7B",
         "Other",
         "pplm_distil",
         "SeaLLM",
