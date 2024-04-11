@@ -888,3 +888,16 @@ def prepare_expertqa(row):
         row["answer"],
         "expert_qa"
     )
+
+def prepare_conifer(row):
+    conversation = row["messages"]
+    parent = "conifer"
+    messages = []
+    for i, turn in enumerate(conversation):
+        messages.append({
+            "from": "user" if turn["role"] == "user" else "assistant",
+            "text": turn["content"],
+            "parent": parent,
+        })
+        parent = i
+    return messages
