@@ -309,5 +309,9 @@ COLLECTION_FN_MAPPER = {
     "ExpertQA": {
         "download_function": downloaders.download_expertqa,
         "prepare_function": preparers.prepare_expertqa,
+    },
+    "Conifer": {
+        "download_function": downloaders.download_conifer,
+        "prepare_function": preparers.prepare_conifer,
     }
 }
