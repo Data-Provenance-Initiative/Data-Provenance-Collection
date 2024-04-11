@@ -897,6 +897,25 @@ def prepare_expertqa(row):
         "expert_qa"
     )
 
+
+def prepare_opengpt_healthcare(row):
+    text = row["text"].split("<|eos|>")[:-1]
+    parent = row["_source"]
+    messages = []
+
+    for i, turn in enumerate(text):
+        indicator_index = turn.find(">")
+        messages.append({
+            "from": "user" if turn[:indicator_index+1].strip() == "<|user|>" else "assistant",
+            "text": turn[indicator_index+1:].strip(),
+            "parent": parent,
+        })
+        parent = i
+
+    return messages
+        
+    
+
 def prepare_conifer(row):
     conversation = row["messages"]
     parent = "conifer"
