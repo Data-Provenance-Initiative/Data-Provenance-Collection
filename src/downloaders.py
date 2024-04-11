@@ -847,6 +847,20 @@ def download_cobra_frames(accepted_filter_ids):
     dset = annotate_source(dset['normal'], mapping['normal'])
     return dset
 
+def download_aya_dataset(accepted_filter_ids):
+    # The language code for both Simplified and Traditional Chinese is currently zho.
+    # This function updates Simplified Chinese to zhs, but this is not an official ISO code and I couldn't 
+    # find an official one.
+    def update_simplified_chinese_langcode(row):
+        row["language_code"] = "zhs" if row["language"] == "Simplified Chinese" else row["language_code"]
+        return row
+
+    aya_dataset = load_dataset("CohereForAI/aya_dataset", split="train")\
+            .map(update_simplified_chinese_langcode)\
+            .to_list()
+
+    return pool_filter(aya_dataset, "language_code", accepted_filter_ids)
+
 
 def download_megawika(accepted_filter_ids):
 
@@ -878,3 +892,4 @@ def download_expertqa(accepted_filter_ids):
 def download_conifer(accepted_filter_ids):
     dset = huggingface_download("ConiferLM/Conifer", split="train_sft")
     return dset
+
