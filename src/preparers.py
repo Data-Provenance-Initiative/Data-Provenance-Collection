@@ -866,6 +866,14 @@ def prepare_bactrianx(row):
     ]
 
 
+def prepare_aya_dataset(row):
+    return convert_inputs_targets_to_messages(
+        row["inputs"],
+        row["targets"],
+        row["language_code"],
+    )
+
+
 def prepare_megawika(row):
     return convert_inputs_targets_to_messages(
         row["input"],
@@ -889,6 +897,7 @@ def prepare_expertqa(row):
         "expert_qa"
     )
 
+
 def prepare_opengpt_healthcare(row):
     text = row["text"].split("<|eos|>")[:-1]
     parent = row["_source"]
@@ -907,4 +916,15 @@ def prepare_opengpt_healthcare(row):
         
     
 
-    
+def prepare_conifer(row):
+    conversation = row["messages"]
+    parent = "conifer"
+    messages = []
+    for i, turn in enumerate(conversation):
+        messages.append({
+            "from": "user" if turn["role"] == "user" else "assistant",
+            "text": turn["content"],
+            "parent": parent,
+        })
+        parent = i
+    return messages
