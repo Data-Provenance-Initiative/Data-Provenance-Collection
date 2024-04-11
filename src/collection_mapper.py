@@ -297,5 +297,25 @@ COLLECTION_FN_MAPPER = {
     "Cobra Frames": {
         "download_function": downloaders.download_cobra_frames,
         "prepare_function": preparers.prepare_cobra_frames,
+    },
+    "Aya Dataset": {
+        "download_function": downloaders.download_aya_dataset,
+        "prepare_function": preparers.prepare_aya_dataset,
+    },
+    "MegaWika": {
+        "download_function": downloaders.download_megawika,
+        "prepare_function": preparers.prepare_megawika,
+    },
+    "Gretel Text-to-SQL": {
+        "download_function": downloaders.download_gretel_text_to_sql,
+        "prepare_function": preparers.prepare_gretel_text_to_sql,
+    },
+    "ExpertQA": {
+        "download_function": downloaders.download_expertqa,
+        "prepare_function": preparers.prepare_expertqa,
+    },
+    "Conifer": {
+        "download_function": downloaders.download_conifer,
+        "prepare_function": preparers.prepare_conifer,
     }
 }
