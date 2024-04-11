@@ -18,11 +18,13 @@
             "Brainstorming",
             "Creative Writing",
             "Coding",
+            "Dialog Generation",
             "Explanation",
             "Instruction Following",
             "Logical Reasoning",
             "Question Answering",
             "Open Question Answering",
+            "Conversational Question Answering",
             "Miscellaneous",
             "Trivia"
         ],
@@ -33,7 +35,7 @@
             "OpenAI GPT-4-Turbo"
         ],
         "Format": [
-            "Zero-shot"
+            "Multi-turn Dialog"
         ],
         "Human Annotation": "No",
         "Derived from Datasets": [
