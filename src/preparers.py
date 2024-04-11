@@ -866,6 +866,14 @@ def prepare_bactrianx(row):
     ]
 
 
+def prepare_aya_dataset(row):
+    return convert_inputs_targets_to_messages(
+        row["inputs"],
+        row["targets"],
+        row["language_code"],
+    )
+
+
 def prepare_megawika(row):
     return convert_inputs_targets_to_messages(
         row["input"],
