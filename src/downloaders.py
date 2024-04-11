@@ -874,3 +874,7 @@ def download_gretel_text_to_sql(accepted_filter_ids):
 
 def download_expertqa(accepted_filter_ids):
     return huggingface_download("cmalaviya/expertqa", "lfqa_domain", split="train")
+
+def download_openmath_instruct(accepted_filter_ids):
+    dset = huggingface_download("nvidia/OpenMathInstruct-1", split="train")
+    return pool_filter(dset, "dataset", accepted_filter_ids)
