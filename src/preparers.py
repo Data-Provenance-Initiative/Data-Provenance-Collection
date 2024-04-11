@@ -888,3 +888,10 @@ def prepare_expertqa(row):
         row["answer"],
         "expert_qa"
     )
+
+def prepare_openmath_instruct(row):
+    return convert_inputs_targets_to_messages(
+        row["question"],
+        row["generated_solution"],
+        row["dataset"]
+    )
