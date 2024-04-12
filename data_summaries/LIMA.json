@@ -99,7 +99,8 @@
         "Derived from Datasets": [
             "Natural Questions"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Zhou2023LIMALI,\n author = {Chunting Zhou and Pengfei Liu and Puxin Xu and Srini Iyer and Jiao Sun and Yuning Mao and Xuezhe Ma and Avia Efrat and Ping Yu and L. Yu and Susan Zhang and Gargi Ghosh and M. Lewis and Luke Zettlemoyer and Omer Levy},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {LIMA: Less Is More for Alignment},\n volume = {abs/2305.11206},\n year = {2023}\n}\n"
     },
     "lima-authors": {
         "Unique Dataset Identifier": "lima-authors",
@@ -191,7 +192,8 @@
         "Derived from Datasets": [
             "Natural Questions"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Zhou2023LIMALI,\n author = {Chunting Zhou and Pengfei Liu and Puxin Xu and Srini Iyer and Jiao Sun and Yuning Mao and Xuezhe Ma and Avia Efrat and Ping Yu and L. Yu and Susan Zhang and Gargi Ghosh and M. Lewis and Luke Zettlemoyer and Omer Levy},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {LIMA: Less Is More for Alignment},\n volume = {abs/2305.11206},\n year = {2023}\n}\n"
     },
     "lima-writingprompts": {
         "Unique Dataset Identifier": "lima-writingprompts",
@@ -283,7 +285,8 @@
         "Derived from Datasets": [
             "Natural Questions"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Zhou2023LIMALI,\n author = {Chunting Zhou and Pengfei Liu and Puxin Xu and Srini Iyer and Jiao Sun and Yuning Mao and Xuezhe Ma and Avia Efrat and Ping Yu and L. Yu and Susan Zhang and Gargi Ghosh and M. Lewis and Luke Zettlemoyer and Omer Levy},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {LIMA: Less Is More for Alignment},\n volume = {abs/2305.11206},\n year = {2023}\n}\n"
     },
     "lima-wikihow": {
         "Unique Dataset Identifier": "lima-wikihow",
@@ -375,7 +378,8 @@
         "Derived from Datasets": [
             "Natural Questions"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Zhou2023LIMALI,\n author = {Chunting Zhou and Pengfei Liu and Puxin Xu and Srini Iyer and Jiao Sun and Yuning Mao and Xuezhe Ma and Avia Efrat and Ping Yu and L. Yu and Susan Zhang and Gargi Ghosh and M. Lewis and Luke Zettlemoyer and Omer Levy},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {LIMA: Less Is More for Alignment},\n volume = {abs/2305.11206},\n year = {2023}\n}\n"
     },
     "lima-nlp": {
         "Unique Dataset Identifier": "lima-nlp",
@@ -467,6 +471,7 @@
         "Derived from Datasets": [
             "Natural Questions"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Zhou2023LIMALI,\n author = {Chunting Zhou and Pengfei Liu and Puxin Xu and Srini Iyer and Jiao Sun and Yuning Mao and Xuezhe Ma and Avia Efrat and Ping Yu and L. Yu and Susan Zhang and Gargi Ghosh and M. Lewis and Luke Zettlemoyer and Omer Levy},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {LIMA: Less Is More for Alignment},\n volume = {abs/2305.11206},\n year = {2023}\n}\n"
     }
 }

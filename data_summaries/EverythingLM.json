@@ -34,7 +34,9 @@
             "Trick Question"
         ],
         "Text Sources": [],
-        "Model Generated": ["OpenAI GPT-4"],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
         "Format": [
             "Zero-shot"
         ],
@@ -55,6 +57,7 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "everything_lm"
-        ]
+        ],
+        "Bibtex": ""
     }
 }

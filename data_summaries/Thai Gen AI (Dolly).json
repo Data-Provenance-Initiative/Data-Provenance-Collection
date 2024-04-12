@@ -23,7 +23,9 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": ["Google Cloud Translation API"],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -45,8 +47,11 @@
             "open_qa",
             "general_qa"
         ],
-        "Derived from Datasets": ["Dolly 15k"],
-        "Human Annotation": "Yes"
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "thai_gen_ai_dolly-closedqa": {
         "Unique Dataset Identifier": "thai_gen_ai_dolly-closedqa",
@@ -72,7 +77,9 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": ["Google Cloud Translation API"],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -93,8 +100,11 @@
         "Dataset Filter IDs": [
             "closed_qa"
         ],
-        "Derived from Datasets": ["Dolly 15k"],
-        "Human Annotation": "Yes"
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "thai_gen_ai_dolly-classification": {
         "Unique Dataset Identifier": "thai_gen_ai_dolly-classification",
@@ -120,7 +130,9 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": ["Google Cloud Translation API"],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -141,8 +153,11 @@
         "Dataset Filter IDs": [
             "classification"
         ],
-        "Derived from Datasets": ["Dolly 15k"],
-        "Human Annotation": "Yes"
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "thai_gen_ai_dolly-brainstorming": {
         "Unique Dataset Identifier": "thai_gen_ai_dolly-brainstorming",
@@ -168,7 +183,9 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": ["Google Cloud Translation API"],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -189,8 +206,11 @@
         "Dataset Filter IDs": [
             "brainstorming"
         ],
-        "Derived from Datasets": ["Dolly 15k"],
-        "Human Annotation": "Yes"
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "thai_gen_ai_dolly-infoextract": {
         "Unique Dataset Identifier": "thai_gen_ai_dolly-infoextract",
@@ -216,7 +236,9 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": ["Google Cloud Translation API"],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -237,8 +259,11 @@
         "Dataset Filter IDs": [
             "information_extraction"
         ],
-        "Derived from Datasets": ["Dolly 15k"],
-        "Human Annotation": "Yes"
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "thai_gen_ai_dolly-summarization": {
         "Unique Dataset Identifier": "thai_gen_ai_dolly-summarization",
@@ -264,7 +289,9 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": ["Google Cloud Translation API"],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -285,8 +312,11 @@
         "Dataset Filter IDs": [
             "summarization"
         ],
-        "Derived from Datasets": ["Dolly 15k"],
-        "Human Annotation": "Yes"
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "thai_gen_ai_dolly-creative_writing": {
         "Unique Dataset Identifier": "thai_gen_ai_dolly-creative_writing",
@@ -312,7 +342,9 @@
         "Text Sources": [
             "crowdsourced"
         ],
-        "Model Generated": ["Google Cloud Translation API"],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -333,7 +365,10 @@
         "Dataset Filter IDs": [
             "creative_writing"
         ],
-        "Derived from Datasets": ["Dolly 15k"],
-        "Human Annotation": "Yes"
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     }
 }

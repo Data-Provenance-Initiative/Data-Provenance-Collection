@@ -199,8 +199,8 @@ def test_outputs(collection, collection_info, error_handler):
         if not all([key in ex for dialog in dset for ex in dialog for key in ['from', 'text', 'parent']]):
             error_handler.handle(f"{uid} output does not have the correct keys: {['from', 'text', 'parent']}")
 
+        message_parents = []
         for dialog in dset:
-            message_parents = []
             for midx, message in enumerate(dialog):
                 if midx == 0:
                     if not isinstance(message['parent'], str):
@@ -227,6 +227,7 @@ def test_outputs(collection, collection_info, error_handler):
                         error_handler.handle(f"{uid} message's from 'assistants' should have a 'score' field, that is an int or float, not `{message['score']}`.")
                         return
                 message_parents.append(message["parent"])
+
         if not any([parent == 0 for parent in message_parents]):
             error_handler.handle(f"{uid} there does not appear to be a response to the original input in this dialog.")
             return
@@ -257,6 +258,15 @@ def test_filter_id(collection, uid_task_keys, error_handler):
     for uid, filter_ids in uid_task_keys.items():
         if uid not in dset_slice_counts:
             error_handler.handle(f"{uid} `Dataset Filter Ids` {filter_ids} do not correspond to any examples. They may be misspelt.")
+
+
+def test_bibtex_semanticscholar(collection_info, error_handler):
+    for uid, dset_info in collection_info.items():
+        if dset_info["Semantic Scholar Corpus ID"] and dset_info["ArXiv URL"]:
+            CorpusId = dset_info["Semantic Scholar Corpus ID"]
+            result = io.get_bibtex_from_paper("CorpusId:{}".format(CorpusId))
+            if not result:
+                error_handler.handle(f"{uid} Semantic Scholar Corpus ID {CorpusId} is not valid.")
 
 
 def test_downloader_and_preparer(
@@ -319,6 +329,12 @@ def run_tests(
     # Test the collection json file entries are valid
     test_collection_summary(
         collection_name,
+        collection_info,
+        error_handler
+    )
+
+    # Test the bibtex and semantic scholar ids are valid
+    test_bibtex_semanticscholar(
         collection_info,
         error_handler
     )

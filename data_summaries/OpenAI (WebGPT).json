@@ -91,7 +91,8 @@
         "Derived from Datasets": [
             "TriviaQA"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Nakano2021WebGPTBQ,\n author = {Reiichiro Nakano and Jacob Hilton and S. Balaji and Jeff Wu and Ouyang Long and Christina Kim and Christopher Hesse and Shantanu Jain and V. Kosaraju and W. Saunders and Xu Jiang and Karl Cobbe and Tyna Eloundou and Gretchen Krueger and Kevin Button and Matthew Knight and B. Chess and John Schulman},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {WebGPT: Browser-assisted question-answering with human feedback},\n volume = {abs/2112.09332},\n year = {2021}\n}\n"
     },
     "openai-webgpt-triviaqa": {
         "Unique Dataset Identifier": "openai-webgpt-triviaqa",
@@ -189,7 +190,8 @@
         "Derived from Datasets": [
             "TriviaQA"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Nakano2021WebGPTBQ,\n author = {Reiichiro Nakano and Jacob Hilton and S. Balaji and Jeff Wu and Ouyang Long and Christina Kim and Christopher Hesse and Shantanu Jain and V. Kosaraju and W. Saunders and Xu Jiang and Karl Cobbe and Tyna Eloundou and Gretchen Krueger and Kevin Button and Matthew Knight and B. Chess and John Schulman},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {WebGPT: Browser-assisted question-answering with human feedback},\n volume = {abs/2112.09332},\n year = {2021}\n}\n"
     },
     "openai-webgpt-critique_eli5": {
         "Unique Dataset Identifier": "openai-webgpt-critique_eli5",
@@ -283,7 +285,8 @@
         "Derived from Datasets": [
             "TriviaQA"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Nakano2021WebGPTBQ,\n author = {Reiichiro Nakano and Jacob Hilton and S. Balaji and Jeff Wu and Ouyang Long and Christina Kim and Christopher Hesse and Shantanu Jain and V. Kosaraju and W. Saunders and Xu Jiang and Karl Cobbe and Tyna Eloundou and Gretchen Krueger and Kevin Button and Matthew Knight and B. Chess and John Schulman},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {WebGPT: Browser-assisted question-answering with human feedback},\n volume = {abs/2112.09332},\n year = {2021}\n}\n"
     },
     "openai-webgpt-arc_challenge": {
         "Unique Dataset Identifier": "openai-webgpt-arc_challenge",
@@ -382,7 +385,8 @@
         "Derived from Datasets": [
             "TriviaQA"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Nakano2021WebGPTBQ,\n author = {Reiichiro Nakano and Jacob Hilton and S. Balaji and Jeff Wu and Ouyang Long and Christina Kim and Christopher Hesse and Shantanu Jain and V. Kosaraju and W. Saunders and Xu Jiang and Karl Cobbe and Tyna Eloundou and Gretchen Krueger and Kevin Button and Matthew Knight and B. Chess and John Schulman},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {WebGPT: Browser-assisted question-answering with human feedback},\n volume = {abs/2112.09332},\n year = {2021}\n}\n"
     },
     "openai-webgpt-arc_easy": {
         "Unique Dataset Identifier": "openai-webgpt-arc_easy",
@@ -481,6 +485,7 @@
         "Derived from Datasets": [
             "TriviaQA"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Nakano2021WebGPTBQ,\n author = {Reiichiro Nakano and Jacob Hilton and S. Balaji and Jeff Wu and Ouyang Long and Christina Kim and Christopher Hesse and Shantanu Jain and V. Kosaraju and W. Saunders and Xu Jiang and Karl Cobbe and Tyna Eloundou and Gretchen Krueger and Kevin Button and Matthew Knight and B. Chess and John Schulman},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {WebGPT: Browser-assisted question-answering with human feedback},\n volume = {abs/2112.09332},\n year = {2021}\n}\n"
     }
 }

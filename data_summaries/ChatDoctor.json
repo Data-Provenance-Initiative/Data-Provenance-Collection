@@ -29,7 +29,7 @@
         "Text Metrics": {
             "Num Dialogs": 112165,
             "Mean Inputs Length": 420.5466,
-            "Mean Targets Length": 102.1110,
+            "Mean Targets Length": 102.111,
             "Max Inputs Length": 11188,
             "Max Targets Length": 591,
             "Min Inputs Length": 0,
@@ -95,7 +95,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Li2023ChatDoctorAM,\n author = {Yunxiang Li and Zihan Li and Kai Zhang and Ruilong Dan and Steven Jiang and You Zhang},\n booktitle = {Cureus},\n journal = {Cureus},\n title = {ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) Using Medical Domain Knowledge},\n volume = {15},\n year = {2023}\n}\n"
     },
     "chatdoctor-icliniq-10k": {
         "Unique Dataset Identifier": "chatdoctor-icliniq-10k",
@@ -127,7 +128,7 @@
         "Text Metrics": {
             "Num Dialogs": 7321,
             "Mean Inputs Length": 453.1398,
-            "Mean Targets Length": 507.4380,
+            "Mean Targets Length": 507.438,
             "Max Inputs Length": 4298,
             "Max Targets Length": 2062,
             "Min Inputs Length": 19,
@@ -193,7 +194,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Li2023ChatDoctorAM,\n author = {Yunxiang Li and Zihan Li and Kai Zhang and Ruilong Dan and Steven Jiang and You Zhang},\n booktitle = {Cureus},\n journal = {Cureus},\n title = {ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) Using Medical Domain Knowledge},\n volume = {15},\n year = {2023}\n}\n"
     },
     "chatdoctor-genmedgpt-5k": {
         "Unique Dataset Identifier": "chatdoctor-genmedgpt-5k",
@@ -225,7 +227,7 @@
         "Text Metrics": {
             "Num Dialogs": 5452,
             "Mean Inputs Length": 132.1957,
-            "Mean Targets Length": 237.0750,
+            "Mean Targets Length": 237.075,
             "Max Inputs Length": 357,
             "Max Targets Length": 951,
             "Min Inputs Length": 26,
@@ -297,6 +299,7 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     }
 }
