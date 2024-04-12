@@ -20,7 +20,7 @@
             "Question Answering"
         ],
         "Text Sources": [],
-        "Model Generated": [],
+        "Model Generated": ["In-House Glaive AI"],
         "Format": [
             "Zero-shot"
         ],
