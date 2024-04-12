@@ -129,7 +129,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-ruby": {
         "Unique Dataset Identifier": "commitpackft-ruby",
@@ -260,7 +261,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-yaml": {
         "Unique Dataset Identifier": "commitpackft-yaml",
@@ -393,7 +395,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-markdown": {
         "Unique Dataset Identifier": "commitpackft-markdown",
@@ -527,7 +530,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-javascript": {
         "Unique Dataset Identifier": "commitpackft-javascript",
@@ -659,7 +663,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-json": {
         "Unique Dataset Identifier": "commitpackft-json",
@@ -792,7 +797,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-shell": {
         "Unique Dataset Identifier": "commitpackft-shell",
@@ -924,7 +930,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-text": {
         "Unique Dataset Identifier": "commitpackft-text",
@@ -1055,7 +1062,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-php": {
         "Unique Dataset Identifier": "commitpackft-php",
@@ -1189,7 +1197,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-java": {
         "Unique Dataset Identifier": "commitpackft-java",
@@ -1322,7 +1331,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-html": {
         "Unique Dataset Identifier": "commitpackft-html",
@@ -1455,7 +1465,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-c#": {
         "Unique Dataset Identifier": "commitpackft-c#",
@@ -1586,7 +1597,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-xml": {
         "Unique Dataset Identifier": "commitpackft-xml",
@@ -1718,7 +1730,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-html+erb": {
         "Unique Dataset Identifier": "commitpackft-html+erb",
@@ -1852,7 +1865,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-c": {
         "Unique Dataset Identifier": "commitpackft-c",
@@ -1985,7 +1999,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-ini": {
         "Unique Dataset Identifier": "commitpackft-ini",
@@ -2115,7 +2130,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-coffeescript": {
         "Unique Dataset Identifier": "commitpackft-coffeescript",
@@ -2247,7 +2263,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-swift": {
         "Unique Dataset Identifier": "commitpackft-swift",
@@ -2368,7 +2385,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-restructuredtext": {
         "Unique Dataset Identifier": "commitpackft-restructuredtext",
@@ -2499,7 +2517,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-typescript": {
         "Unique Dataset Identifier": "commitpackft-typescript",
@@ -2626,7 +2645,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-c++": {
         "Unique Dataset Identifier": "commitpackft-c++",
@@ -2757,7 +2777,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-scss": {
         "Unique Dataset Identifier": "commitpackft-scss",
@@ -2889,7 +2910,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-go": {
         "Unique Dataset Identifier": "commitpackft-go",
@@ -3021,7 +3043,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-scala": {
         "Unique Dataset Identifier": "commitpackft-scala",
@@ -3149,7 +3172,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-haml": {
         "Unique Dataset Identifier": "commitpackft-haml",
@@ -3278,7 +3302,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-css": {
         "Unique Dataset Identifier": "commitpackft-css",
@@ -3412,7 +3437,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-rust": {
         "Unique Dataset Identifier": "commitpackft-rust",
@@ -3535,7 +3561,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-toml": {
         "Unique Dataset Identifier": "commitpackft-toml",
@@ -3669,7 +3696,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-jsx": {
         "Unique Dataset Identifier": "commitpackft-jsx",
@@ -3799,7 +3827,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-kotlin": {
         "Unique Dataset Identifier": "commitpackft-kotlin",
@@ -3920,7 +3949,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-clojure": {
         "Unique Dataset Identifier": "commitpackft-clojure",
@@ -4047,7 +4077,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-perl": {
         "Unique Dataset Identifier": "commitpackft-perl",
@@ -4181,7 +4212,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-bitbake": {
         "Unique Dataset Identifier": "commitpackft-bitbake",
@@ -4276,7 +4308,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-groovy": {
         "Unique Dataset Identifier": "commitpackft-groovy",
@@ -4405,7 +4438,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-twig": {
         "Unique Dataset Identifier": "commitpackft-twig",
@@ -4524,7 +4558,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-nix": {
         "Unique Dataset Identifier": "commitpackft-nix",
@@ -4643,7 +4678,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-sql": {
         "Unique Dataset Identifier": "commitpackft-sql",
@@ -4772,7 +4808,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-less": {
         "Unique Dataset Identifier": "commitpackft-less",
@@ -4895,7 +4932,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-haskell": {
         "Unique Dataset Identifier": "commitpackft-haskell",
@@ -5017,7 +5055,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-handlebars": {
         "Unique Dataset Identifier": "commitpackft-handlebars",
@@ -5132,7 +5171,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-unknown": {
         "Unique Dataset Identifier": "commitpackft-unknown",
@@ -5255,7 +5295,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-batchfile": {
         "Unique Dataset Identifier": "commitpackft-batchfile",
@@ -5386,7 +5427,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-cucumber": {
         "Unique Dataset Identifier": "commitpackft-cucumber",
@@ -5505,7 +5547,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-makefile": {
         "Unique Dataset Identifier": "commitpackft-makefile",
@@ -5635,7 +5678,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-elixir": {
         "Unique Dataset Identifier": "commitpackft-elixir",
@@ -5760,7 +5804,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-jade": {
         "Unique Dataset Identifier": "commitpackft-jade",
@@ -5885,7 +5930,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-cmake": {
         "Unique Dataset Identifier": "commitpackft-cmake",
@@ -6010,7 +6056,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-powershell": {
         "Unique Dataset Identifier": "commitpackft-powershell",
@@ -6133,7 +6180,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-slim": {
         "Unique Dataset Identifier": "commitpackft-slim",
@@ -6246,7 +6294,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-emacs-lisp": {
         "Unique Dataset Identifier": "commitpackft-emacs-lisp",
@@ -6369,7 +6418,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-dart": {
         "Unique Dataset Identifier": "commitpackft-dart",
@@ -6483,7 +6533,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-viml": {
         "Unique Dataset Identifier": "commitpackft-viml",
@@ -6596,7 +6647,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-asciidoc": {
         "Unique Dataset Identifier": "commitpackft-asciidoc",
@@ -6726,7 +6778,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-lua": {
         "Unique Dataset Identifier": "commitpackft-lua",
@@ -6850,7 +6903,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-llvm": {
         "Unique Dataset Identifier": "commitpackft-llvm",
@@ -6948,7 +7002,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-smarty": {
         "Unique Dataset Identifier": "commitpackft-smarty",
@@ -7064,7 +7119,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-diff": {
         "Unique Dataset Identifier": "commitpackft-diff",
@@ -7194,7 +7250,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-common-lisp": {
         "Unique Dataset Identifier": "commitpackft-common-lisp",
@@ -7314,7 +7371,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-saltstack": {
         "Unique Dataset Identifier": "commitpackft-saltstack",
@@ -7430,7 +7488,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-vue": {
         "Unique Dataset Identifier": "commitpackft-vue",
@@ -7548,7 +7607,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-sass": {
         "Unique Dataset Identifier": "commitpackft-sass",
@@ -7660,7 +7720,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-fish": {
         "Unique Dataset Identifier": "commitpackft-fish",
@@ -7778,7 +7839,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-erlang": {
         "Unique Dataset Identifier": "commitpackft-erlang",
@@ -7895,7 +7957,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-freemarker": {
         "Unique Dataset Identifier": "commitpackft-freemarker",
@@ -8002,7 +8065,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-stylus": {
         "Unique Dataset Identifier": "commitpackft-stylus",
@@ -8120,7 +8184,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-qml": {
         "Unique Dataset Identifier": "commitpackft-qml",
@@ -8235,7 +8300,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-hcl": {
         "Unique Dataset Identifier": "commitpackft-hcl",
@@ -8344,7 +8410,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-html+django": {
         "Unique Dataset Identifier": "commitpackft-html+django",
@@ -8466,7 +8533,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-mako": {
         "Unique Dataset Identifier": "commitpackft-mako",
@@ -8573,7 +8641,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-ada": {
         "Unique Dataset Identifier": "commitpackft-ada",
@@ -8676,7 +8745,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-ocaml": {
         "Unique Dataset Identifier": "commitpackft-ocaml",
@@ -8789,7 +8859,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-f#": {
         "Unique Dataset Identifier": "commitpackft-f#",
@@ -8912,7 +8983,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-elm": {
         "Unique Dataset Identifier": "commitpackft-elm",
@@ -9019,7 +9091,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-tex": {
         "Unique Dataset Identifier": "commitpackft-tex",
@@ -9145,7 +9218,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-rdoc": {
         "Unique Dataset Identifier": "commitpackft-rdoc",
@@ -9255,7 +9329,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-csv": {
         "Unique Dataset Identifier": "commitpackft-csv",
@@ -9383,7 +9458,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-protocol-buffer": {
         "Unique Dataset Identifier": "commitpackft-protocol-buffer",
@@ -9498,7 +9574,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-smalltalk": {
         "Unique Dataset Identifier": "commitpackft-smalltalk",
@@ -9595,7 +9672,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-arduino": {
         "Unique Dataset Identifier": "commitpackft-arduino",
@@ -9715,7 +9793,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-java-server-pages": {
         "Unique Dataset Identifier": "commitpackft-java-server-pages",
@@ -9824,7 +9903,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-scheme": {
         "Unique Dataset Identifier": "commitpackft-scheme",
@@ -9933,7 +10013,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-groff": {
         "Unique Dataset Identifier": "commitpackft-groff",
@@ -10053,7 +10134,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-objective-c++": {
         "Unique Dataset Identifier": "commitpackft-objective-c++",
@@ -10163,7 +10245,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-desktop": {
         "Unique Dataset Identifier": "commitpackft-desktop",
@@ -10281,7 +10364,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-factor": {
         "Unique Dataset Identifier": "commitpackft-factor",
@@ -10370,7 +10454,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-crystal": {
         "Unique Dataset Identifier": "commitpackft-crystal",
@@ -10457,7 +10542,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-rhtml": {
         "Unique Dataset Identifier": "commitpackft-rhtml",
@@ -10552,7 +10638,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-haxe": {
         "Unique Dataset Identifier": "commitpackft-haxe",
@@ -10654,7 +10741,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-glsl": {
         "Unique Dataset Identifier": "commitpackft-glsl",
@@ -10769,7 +10857,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-gas": {
         "Unique Dataset Identifier": "commitpackft-gas",
@@ -10879,7 +10968,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-html+php": {
         "Unique Dataset Identifier": "commitpackft-html+php",
@@ -10988,7 +11078,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-qmake": {
         "Unique Dataset Identifier": "commitpackft-qmake",
@@ -11100,7 +11191,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-julia": {
         "Unique Dataset Identifier": "commitpackft-julia",
@@ -11213,7 +11305,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-cython": {
         "Unique Dataset Identifier": "commitpackft-cython",
@@ -11325,7 +11418,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-html+eex": {
         "Unique Dataset Identifier": "commitpackft-html+eex",
@@ -11430,7 +11524,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-tcl": {
         "Unique Dataset Identifier": "commitpackft-tcl",
@@ -11544,7 +11639,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-org": {
         "Unique Dataset Identifier": "commitpackft-org",
@@ -11666,7 +11762,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-perl6": {
         "Unique Dataset Identifier": "commitpackft-perl6",
@@ -11776,7 +11873,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-m4": {
         "Unique Dataset Identifier": "commitpackft-m4",
@@ -11887,7 +11985,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-xslt": {
         "Unique Dataset Identifier": "commitpackft-xslt",
@@ -12003,7 +12102,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-svg": {
         "Unique Dataset Identifier": "commitpackft-svg",
@@ -12125,7 +12225,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-nimrod": {
         "Unique Dataset Identifier": "commitpackft-nimrod",
@@ -12228,7 +12329,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-r": {
         "Unique Dataset Identifier": "commitpackft-r",
@@ -12332,7 +12434,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-robotframework": {
         "Unique Dataset Identifier": "commitpackft-robotframework",
@@ -12428,7 +12531,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-racket": {
         "Unique Dataset Identifier": "commitpackft-racket",
@@ -12535,7 +12639,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-textile": {
         "Unique Dataset Identifier": "commitpackft-textile",
@@ -12641,7 +12746,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-assembly": {
         "Unique Dataset Identifier": "commitpackft-assembly",
@@ -12745,7 +12851,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-purescript": {
         "Unique Dataset Identifier": "commitpackft-purescript",
@@ -12837,7 +12944,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-unity3d-asset": {
         "Unique Dataset Identifier": "commitpackft-unity3d-asset",
@@ -12947,7 +13055,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-visual-basic": {
         "Unique Dataset Identifier": "commitpackft-visual-basic",
@@ -13055,7 +13164,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-dm": {
         "Unique Dataset Identifier": "commitpackft-dm",
@@ -13138,7 +13248,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-pod": {
         "Unique Dataset Identifier": "commitpackft-pod",
@@ -13238,7 +13349,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-standard-ml": {
         "Unique Dataset Identifier": "commitpackft-standard-ml",
@@ -13339,7 +13451,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-fortran": {
         "Unique Dataset Identifier": "commitpackft-fortran",
@@ -13440,7 +13553,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-gettext-catalog": {
         "Unique Dataset Identifier": "commitpackft-gettext-catalog",
@@ -13545,7 +13659,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-idris": {
         "Unique Dataset Identifier": "commitpackft-idris",
@@ -13638,7 +13753,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-livescript": {
         "Unique Dataset Identifier": "commitpackft-livescript",
@@ -13743,7 +13859,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-xtend": {
         "Unique Dataset Identifier": "commitpackft-xtend",
@@ -13842,7 +13959,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-actionscript": {
         "Unique Dataset Identifier": "commitpackft-actionscript",
@@ -13950,7 +14068,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-vala": {
         "Unique Dataset Identifier": "commitpackft-vala",
@@ -14042,7 +14161,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-awk": {
         "Unique Dataset Identifier": "commitpackft-awk",
@@ -14156,7 +14276,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-ceylon": {
         "Unique Dataset Identifier": "commitpackft-ceylon",
@@ -14245,7 +14366,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-jupyter-notebook": {
         "Unique Dataset Identifier": "commitpackft-jupyter-notebook",
@@ -14354,7 +14476,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-dockerfile": {
         "Unique Dataset Identifier": "commitpackft-dockerfile",
@@ -14457,7 +14580,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-rouge": {
         "Unique Dataset Identifier": "commitpackft-rouge",
@@ -14540,7 +14664,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-asp": {
         "Unique Dataset Identifier": "commitpackft-asp",
@@ -14637,7 +14762,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-sqf": {
         "Unique Dataset Identifier": "commitpackft-sqf",
@@ -14729,7 +14855,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-edn": {
         "Unique Dataset Identifier": "commitpackft-edn",
@@ -14840,7 +14967,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-liquid": {
         "Unique Dataset Identifier": "commitpackft-liquid",
@@ -14933,7 +15061,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-xquery": {
         "Unique Dataset Identifier": "commitpackft-xquery",
@@ -15030,7 +15159,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-linker-script": {
         "Unique Dataset Identifier": "commitpackft-linker-script",
@@ -15137,7 +15267,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-mediawiki": {
         "Unique Dataset Identifier": "commitpackft-mediawiki",
@@ -15230,7 +15361,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-parrot-internal-representation": {
         "Unique Dataset Identifier": "commitpackft-parrot-internal-representation",
@@ -15314,7 +15446,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-solidity": {
         "Unique Dataset Identifier": "commitpackft-solidity",
@@ -15405,7 +15538,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-json5": {
         "Unique Dataset Identifier": "commitpackft-json5",
@@ -15496,7 +15630,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-systemverilog": {
         "Unique Dataset Identifier": "commitpackft-systemverilog",
@@ -15588,7 +15723,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-thrift": {
         "Unique Dataset Identifier": "commitpackft-thrift",
@@ -15689,7 +15825,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-groovy-server-pages": {
         "Unique Dataset Identifier": "commitpackft-groovy-server-pages",
@@ -15786,7 +15923,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-processing": {
         "Unique Dataset Identifier": "commitpackft-processing",
@@ -15885,7 +16023,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-cuda": {
         "Unique Dataset Identifier": "commitpackft-cuda",
@@ -15987,7 +16126,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-graphviz-dot": {
         "Unique Dataset Identifier": "commitpackft-graphviz-dot",
@@ -16094,7 +16234,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-inno-setup": {
         "Unique Dataset Identifier": "commitpackft-inno-setup",
@@ -16190,7 +16331,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-api-blueprint": {
         "Unique Dataset Identifier": "commitpackft-api-blueprint",
@@ -16282,7 +16424,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-nsis": {
         "Unique Dataset Identifier": "commitpackft-nsis",
@@ -16387,7 +16530,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-gentoo-ebuild": {
         "Unique Dataset Identifier": "commitpackft-gentoo-ebuild",
@@ -16484,7 +16628,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-logtalk": {
         "Unique Dataset Identifier": "commitpackft-logtalk",
@@ -16573,7 +16718,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-jasmin": {
         "Unique Dataset Identifier": "commitpackft-jasmin",
@@ -16660,7 +16806,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-literate-coffeescript": {
         "Unique Dataset Identifier": "commitpackft-literate-coffeescript",
@@ -16744,7 +16891,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-webidl": {
         "Unique Dataset Identifier": "commitpackft-webidl",
@@ -16834,7 +16982,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-coldfusion-cfc": {
         "Unique Dataset Identifier": "commitpackft-coldfusion-cfc",
@@ -16926,7 +17075,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-opencl": {
         "Unique Dataset Identifier": "commitpackft-opencl",
@@ -17032,7 +17182,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-openscad": {
         "Unique Dataset Identifier": "commitpackft-openscad",
@@ -17125,7 +17276,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-pan": {
         "Unique Dataset Identifier": "commitpackft-pan",
@@ -17211,7 +17363,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-pascal": {
         "Unique Dataset Identifier": "commitpackft-pascal",
@@ -17324,7 +17477,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-pony": {
         "Unique Dataset Identifier": "commitpackft-pony",
@@ -17414,7 +17568,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-turtle": {
         "Unique Dataset Identifier": "commitpackft-turtle",
@@ -17521,7 +17676,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-chapel": {
         "Unique Dataset Identifier": "commitpackft-chapel",
@@ -17609,7 +17765,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-ioke": {
         "Unique Dataset Identifier": "commitpackft-ioke",
@@ -17695,7 +17852,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-ooc": {
         "Unique Dataset Identifier": "commitpackft-ooc",
@@ -17781,7 +17939,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-sparql": {
         "Unique Dataset Identifier": "commitpackft-sparql",
@@ -17890,7 +18049,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-applescript": {
         "Unique Dataset Identifier": "commitpackft-applescript",
@@ -17986,7 +18146,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-augeas": {
         "Unique Dataset Identifier": "commitpackft-augeas",
@@ -18073,7 +18234,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-g-code": {
         "Unique Dataset Identifier": "commitpackft-g-code",
@@ -18166,7 +18328,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-mirah": {
         "Unique Dataset Identifier": "commitpackft-mirah",
@@ -18249,7 +18412,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-capn-proto": {
         "Unique Dataset Identifier": "commitpackft-capn-proto",
@@ -18337,7 +18501,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-digital-command-language": {
         "Unique Dataset Identifier": "commitpackft-digital-command-language",
@@ -18433,7 +18598,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-hy": {
         "Unique Dataset Identifier": "commitpackft-hy",
@@ -18532,7 +18698,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-logos": {
         "Unique Dataset Identifier": "commitpackft-logos",
@@ -18631,7 +18798,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-modelica": {
         "Unique Dataset Identifier": "commitpackft-modelica",
@@ -18725,7 +18893,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-vcl": {
         "Unique Dataset Identifier": "commitpackft-vcl",
@@ -18818,7 +18987,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-antlr": {
         "Unique Dataset Identifier": "commitpackft-antlr",
@@ -18910,7 +19080,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-gdscript": {
         "Unique Dataset Identifier": "commitpackft-gdscript",
@@ -19002,7 +19173,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-graphql": {
         "Unique Dataset Identifier": "commitpackft-graphql",
@@ -19100,7 +19272,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-hlsl": {
         "Unique Dataset Identifier": "commitpackft-hlsl",
@@ -19190,7 +19363,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-gnuplot": {
         "Unique Dataset Identifier": "commitpackft-gnuplot",
@@ -19298,7 +19472,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-http": {
         "Unique Dataset Identifier": "commitpackft-http",
@@ -19386,7 +19561,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-ninja": {
         "Unique Dataset Identifier": "commitpackft-ninja",
@@ -19477,7 +19653,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-oz": {
         "Unique Dataset Identifier": "commitpackft-oz",
@@ -19560,7 +19737,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-raml": {
         "Unique Dataset Identifier": "commitpackft-raml",
@@ -19654,7 +19832,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-aspectj": {
         "Unique Dataset Identifier": "commitpackft-aspectj",
@@ -19747,7 +19926,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-autohotkey": {
         "Unique Dataset Identifier": "commitpackft-autohotkey",
@@ -19839,7 +20019,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-fancy": {
         "Unique Dataset Identifier": "commitpackft-fancy",
@@ -19925,7 +20106,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-moonscript": {
         "Unique Dataset Identifier": "commitpackft-moonscript",
@@ -20011,7 +20193,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-piglatin": {
         "Unique Dataset Identifier": "commitpackft-piglatin",
@@ -20100,7 +20283,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-stata": {
         "Unique Dataset Identifier": "commitpackft-stata",
@@ -20195,7 +20379,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-urweb": {
         "Unique Dataset Identifier": "commitpackft-urweb",
@@ -20274,7 +20459,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-xs": {
         "Unique Dataset Identifier": "commitpackft-xs",
@@ -20375,7 +20561,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-yang": {
         "Unique Dataset Identifier": "commitpackft-yang",
@@ -20468,7 +20655,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-agda": {
         "Unique Dataset Identifier": "commitpackft-agda",
@@ -20557,7 +20745,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-coldfusion": {
         "Unique Dataset Identifier": "commitpackft-coldfusion",
@@ -20645,7 +20834,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-emberscript": {
         "Unique Dataset Identifier": "commitpackft-emberscript",
@@ -20738,7 +20928,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-latte": {
         "Unique Dataset Identifier": "commitpackft-latte",
@@ -20823,7 +21014,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-literate-haskell": {
         "Unique Dataset Identifier": "commitpackft-literate-haskell",
@@ -20910,7 +21102,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-postscript": {
         "Unique Dataset Identifier": "commitpackft-postscript",
@@ -21000,7 +21193,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-scilab": {
         "Unique Dataset Identifier": "commitpackft-scilab",
@@ -21087,7 +21281,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-tcsh": {
         "Unique Dataset Identifier": "commitpackft-tcsh",
@@ -21188,7 +21383,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-volt": {
         "Unique Dataset Identifier": "commitpackft-volt",
@@ -21281,7 +21477,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-apl": {
         "Unique Dataset Identifier": "commitpackft-apl",
@@ -21368,7 +21565,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-genshi": {
         "Unique Dataset Identifier": "commitpackft-genshi",
@@ -21450,7 +21648,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-jsonld": {
         "Unique Dataset Identifier": "commitpackft-jsonld",
@@ -21552,7 +21751,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-krl": {
         "Unique Dataset Identifier": "commitpackft-krl",
@@ -21635,7 +21835,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-lean": {
         "Unique Dataset Identifier": "commitpackft-lean",
@@ -21716,7 +21917,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-lfe": {
         "Unique Dataset Identifier": "commitpackft-lfe",
@@ -21804,7 +22006,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-metal": {
         "Unique Dataset Identifier": "commitpackft-metal",
@@ -21892,7 +22095,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-monkey": {
         "Unique Dataset Identifier": "commitpackft-monkey",
@@ -21971,7 +22175,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-mupad": {
         "Unique Dataset Identifier": "commitpackft-mupad",
@@ -22064,7 +22269,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-nesc": {
         "Unique Dataset Identifier": "commitpackft-nesc",
@@ -22149,7 +22355,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-nit": {
         "Unique Dataset Identifier": "commitpackft-nit",
@@ -22230,7 +22437,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-pike": {
         "Unique Dataset Identifier": "commitpackft-pike",
@@ -22317,7 +22525,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-purebasic": {
         "Unique Dataset Identifier": "commitpackft-purebasic",
@@ -22404,7 +22613,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-renpy": {
         "Unique Dataset Identifier": "commitpackft-renpy",
@@ -22490,7 +22700,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-vhdl": {
         "Unique Dataset Identifier": "commitpackft-vhdl",
@@ -22581,7 +22792,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-xproc": {
         "Unique Dataset Identifier": "commitpackft-xproc",
@@ -22664,7 +22876,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-zephir": {
         "Unique Dataset Identifier": "commitpackft-zephir",
@@ -22750,7 +22963,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-apacheconf": {
         "Unique Dataset Identifier": "commitpackft-apacheconf",
@@ -22835,7 +23049,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-boo": {
         "Unique Dataset Identifier": "commitpackft-boo",
@@ -22917,7 +23132,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-brainfuck": {
         "Unique Dataset Identifier": "commitpackft-brainfuck",
@@ -23003,7 +23219,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-bro": {
         "Unique Dataset Identifier": "commitpackft-bro",
@@ -23085,7 +23302,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-cartocss": {
         "Unique Dataset Identifier": "commitpackft-cartocss",
@@ -23166,7 +23384,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-creole": {
         "Unique Dataset Identifier": "commitpackft-creole",
@@ -23253,7 +23472,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-csound": {
         "Unique Dataset Identifier": "commitpackft-csound",
@@ -23332,7 +23552,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-dylan": {
         "Unique Dataset Identifier": "commitpackft-dylan",
@@ -23415,7 +23636,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-eagle": {
         "Unique Dataset Identifier": "commitpackft-eagle",
@@ -23503,7 +23725,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-ecl": {
         "Unique Dataset Identifier": "commitpackft-ecl",
@@ -23585,7 +23808,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-eiffel": {
         "Unique Dataset Identifier": "commitpackft-eiffel",
@@ -23667,7 +23891,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-flux": {
         "Unique Dataset Identifier": "commitpackft-flux",
@@ -23751,7 +23976,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-io": {
         "Unique Dataset Identifier": "commitpackft-io",
@@ -23840,7 +24066,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-jsoniq": {
         "Unique Dataset Identifier": "commitpackft-jsoniq",
@@ -23933,7 +24160,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-lilypond": {
         "Unique Dataset Identifier": "commitpackft-lilypond",
@@ -24018,7 +24246,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-lsl": {
         "Unique Dataset Identifier": "commitpackft-lsl",
@@ -24101,7 +24330,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-mask": {
         "Unique Dataset Identifier": "commitpackft-mask",
@@ -24187,7 +24417,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-nginx": {
         "Unique Dataset Identifier": "commitpackft-nginx",
@@ -24270,7 +24501,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-nu": {
         "Unique Dataset Identifier": "commitpackft-nu",
@@ -24349,7 +24581,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-pov-ray-sdl": {
         "Unique Dataset Identifier": "commitpackft-pov-ray-sdl",
@@ -24434,7 +24667,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-ragel-in-ruby-host": {
         "Unique Dataset Identifier": "commitpackft-ragel-in-ruby-host",
@@ -24518,7 +24752,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-slash": {
         "Unique Dataset Identifier": "commitpackft-slash",
@@ -24607,7 +24842,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-sourcepawn": {
         "Unique Dataset Identifier": "commitpackft-sourcepawn",
@@ -24695,7 +24931,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-squirrel": {
         "Unique Dataset Identifier": "commitpackft-squirrel",
@@ -24778,7 +25015,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-ston": {
         "Unique Dataset Identifier": "commitpackft-ston",
@@ -24861,7 +25099,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-uno": {
         "Unique Dataset Identifier": "commitpackft-uno",
@@ -24940,7 +25179,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-wisp": {
         "Unique Dataset Identifier": "commitpackft-wisp",
@@ -25025,7 +25265,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-xbase": {
         "Unique Dataset Identifier": "commitpackft-xbase",
@@ -25109,7 +25350,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-yacc": {
         "Unique Dataset Identifier": "commitpackft-yacc",
@@ -25201,7 +25443,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-zig": {
         "Unique Dataset Identifier": "commitpackft-zig",
@@ -25287,7 +25530,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-abap": {
         "Unique Dataset Identifier": "commitpackft-abap",
@@ -25368,7 +25612,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-arc": {
         "Unique Dataset Identifier": "commitpackft-arc",
@@ -25448,7 +25693,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-ats": {
         "Unique Dataset Identifier": "commitpackft-ats",
@@ -25533,7 +25779,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-blitzmax": {
         "Unique Dataset Identifier": "commitpackft-blitzmax",
@@ -25614,7 +25861,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-bluespec": {
         "Unique Dataset Identifier": "commitpackft-bluespec",
@@ -25697,7 +25945,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-c2hs-haskell": {
         "Unique Dataset Identifier": "commitpackft-c2hs-haskell",
@@ -25780,7 +26029,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-clean": {
         "Unique Dataset Identifier": "commitpackft-clean",
@@ -25861,7 +26111,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-dns-zone": {
         "Unique Dataset Identifier": "commitpackft-dns-zone",
@@ -25944,7 +26195,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-forth": {
         "Unique Dataset Identifier": "commitpackft-forth",
@@ -26023,7 +26275,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-harbour": {
         "Unique Dataset Identifier": "commitpackft-harbour",
@@ -26104,7 +26357,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-igor-pro": {
         "Unique Dataset Identifier": "commitpackft-igor-pro",
@@ -26185,7 +26439,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-inform-7": {
         "Unique Dataset Identifier": "commitpackft-inform-7",
@@ -26264,7 +26519,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-isabelle": {
         "Unique Dataset Identifier": "commitpackft-isabelle",
@@ -26347,7 +26603,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-jflex": {
         "Unique Dataset Identifier": "commitpackft-jflex",
@@ -26428,7 +26685,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-literate-agda": {
         "Unique Dataset Identifier": "commitpackft-literate-agda",
@@ -26509,7 +26767,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-maple": {
         "Unique Dataset Identifier": "commitpackft-maple",
@@ -26592,7 +26851,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-mathematica": {
         "Unique Dataset Identifier": "commitpackft-mathematica",
@@ -26673,7 +26933,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-module-management-system": {
         "Unique Dataset Identifier": "commitpackft-module-management-system",
@@ -26754,7 +27015,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-mtml": {
         "Unique Dataset Identifier": "commitpackft-mtml",
@@ -26836,7 +27098,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-netlinx": {
         "Unique Dataset Identifier": "commitpackft-netlinx",
@@ -26917,7 +27180,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-parrot-assembly": {
         "Unique Dataset Identifier": "commitpackft-parrot-assembly",
@@ -26998,7 +27262,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-pawn": {
         "Unique Dataset Identifier": "commitpackft-pawn",
@@ -27085,7 +27350,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-propeller-spin": {
         "Unique Dataset Identifier": "commitpackft-propeller-spin",
@@ -27166,7 +27432,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-pure-data": {
         "Unique Dataset Identifier": "commitpackft-pure-data",
@@ -27247,7 +27514,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-rebol": {
         "Unique Dataset Identifier": "commitpackft-rebol",
@@ -27327,7 +27595,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-red": {
         "Unique Dataset Identifier": "commitpackft-red",
@@ -27408,7 +27677,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-sage": {
         "Unique Dataset Identifier": "commitpackft-sage",
@@ -27489,7 +27759,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-sas": {
         "Unique Dataset Identifier": "commitpackft-sas",
@@ -27570,7 +27841,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-scaml": {
         "Unique Dataset Identifier": "commitpackft-scaml",
@@ -27651,7 +27923,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-smt": {
         "Unique Dataset Identifier": "commitpackft-smt",
@@ -27738,7 +28011,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-supercollider": {
         "Unique Dataset Identifier": "commitpackft-supercollider",
@@ -27824,7 +28098,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-unrealscript": {
         "Unique Dataset Identifier": "commitpackft-unrealscript",
@@ -27905,7 +28180,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "commitpackft-xpages": {
         "Unique Dataset Identifier": "commitpackft-xpages",
@@ -27986,6 +28262,7 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     }
 }

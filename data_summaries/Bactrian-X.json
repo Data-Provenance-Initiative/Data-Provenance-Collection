@@ -59,7 +59,8 @@
         "Derived from Datasets": [
             "dolly-openqa",
             "alpaca"
-        ]
+        ],
+        "Bibtex": "@Article{Li2023BactrianXA,\n author = {Haonan Li and Fajri Koto and Minghao Wu and Alham Fikri Aji and Timothy Baldwin},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Bactrian-X : A Multilingual Replicable Instruction-Following Model with Low-Rank Adaptation},\n volume = {abs/2305.15011},\n year = {2023}\n}\n"
     },
     "bactrian-x-id": {
         "Unique Dataset Identifier": "bactrian-x-id",
@@ -121,7 +122,8 @@
         "Derived from Datasets": [
             "dolly-openqa",
             "alpaca"
-        ]
+        ],
+        "Bibtex": "@Article{Li2023BactrianXA,\n author = {Haonan Li and Fajri Koto and Minghao Wu and Alham Fikri Aji and Timothy Baldwin},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Bactrian-X : A Multilingual Replicable Instruction-Following Model with Low-Rank Adaptation},\n volume = {abs/2305.15011},\n year = {2023}\n}\n"
     },
     "bactrian-x-km": {
         "Unique Dataset Identifier": "bactrian-x-km",
@@ -183,7 +185,8 @@
         "Derived from Datasets": [
             "dolly-openqa",
             "alpaca"
-        ]
+        ],
+        "Bibtex": "@Article{Li2023BactrianXA,\n author = {Haonan Li and Fajri Koto and Minghao Wu and Alham Fikri Aji and Timothy Baldwin},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Bactrian-X : A Multilingual Replicable Instruction-Following Model with Low-Rank Adaptation},\n volume = {abs/2305.15011},\n year = {2023}\n}\n"
     },
     "bactrian-x-my": {
         "Unique Dataset Identifier": "bactrian-x-my",
@@ -245,7 +248,8 @@
         "Derived from Datasets": [
             "dolly-openqa",
             "alpaca"
-        ]
+        ],
+        "Bibtex": "@Article{Li2023BactrianXA,\n author = {Haonan Li and Fajri Koto and Minghao Wu and Alham Fikri Aji and Timothy Baldwin},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Bactrian-X : A Multilingual Replicable Instruction-Following Model with Low-Rank Adaptation},\n volume = {abs/2305.15011},\n year = {2023}\n}\n"
     },
     "bactrian-x-th": {
         "Unique Dataset Identifier": "bactrian-x-th",
@@ -307,7 +311,8 @@
         "Derived from Datasets": [
             "dolly-openqa",
             "alpaca"
-        ]
+        ],
+        "Bibtex": "@Article{Li2023BactrianXA,\n author = {Haonan Li and Fajri Koto and Minghao Wu and Alham Fikri Aji and Timothy Baldwin},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Bactrian-X : A Multilingual Replicable Instruction-Following Model with Low-Rank Adaptation},\n volume = {abs/2305.15011},\n year = {2023}\n}\n"
     },
     "bactrian-x-tl": {
         "Unique Dataset Identifier": "bactrian-x-tl",
@@ -369,6 +374,7 @@
         "Derived from Datasets": [
             "dolly-openqa",
             "alpaca"
-        ]
+        ],
+        "Bibtex": "@Article{Li2023BactrianXA,\n author = {Haonan Li and Fajri Koto and Minghao Wu and Alham Fikri Aji and Timothy Baldwin},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Bactrian-X : A Multilingual Replicable Instruction-Following Model with Low-Rank Adaptation},\n volume = {abs/2305.15011},\n year = {2023}\n}\n"
     }
 }

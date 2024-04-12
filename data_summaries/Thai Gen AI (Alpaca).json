@@ -26,13 +26,20 @@
             "Literary Analysis"
         ],
         "Text Sources": [],
-        "Model Generated": ["OpenAI GPT-3", "Google Cloud Translation API"],
+        "Model Generated": [
+            "OpenAI GPT-3",
+            "Google Cloud Translation API"
+        ],
         "Format": [
             "Zero-shot"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["Alpaca"],
-        "Creators": ["Stanford University"],
+        "Derived from Datasets": [
+            "Alpaca"
+        ],
+        "Creators": [
+            "Stanford University"
+        ],
         "Licenses": [
             {
                 "License": "OpenAI",
@@ -55,6 +62,7 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "thai_gen_ai_alpaca"
-        ]
+        ],
+        "Bibtex": ""
     }
 }

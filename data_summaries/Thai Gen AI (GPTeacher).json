@@ -52,7 +52,9 @@
             "Zero-shot"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["GPTeacher"],
+        "Derived from Datasets": [
+            "GPTeacher"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -76,6 +78,7 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "thai_gen_ai_gpteacher"
-        ]
+        ],
+        "Bibtex": ""
     }
 }

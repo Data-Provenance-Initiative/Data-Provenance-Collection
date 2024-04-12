@@ -58,6 +58,44 @@ def prepare_commitpackft(row):
     )
 
 
+def prepare_cobra_frames(row):
+    """
+    CobraFrames dataset has a structure where each row is one of the elements in the frame for harmful statement.
+    fomatting foces on the structure of the input and output given the row.
+    The first 4 elements are context, speaker, listener, and statement check, serving as the context for the statement.
+    The rest of the elements are the structured explanation for the statement
+    """
+
+    formatting = {
+    "speechContext": "[Context of statement] {}[/]",
+    "speakerIdentity": "[Speaker identity/characteristics] {}[/]",
+    "listenerIdentity": "[Listener identity/characteristics] {}[/]",
+    "statementCheck": "[The statement is complete and understandable] {}[/]",
+    "relevantPowerDynamics": "[Relevant power dynamics] {}[/]",
+    "conversationContext": "[Conversational context] {}[/]",
+    "statement": "[Statement] {}[/]",
+    "intent": "[Intent] {}[/]",
+    "offensiveness": "[Offensiveness] {}[/]",
+    "targetGroup": "[Targeted/referenced minority group] {}[/]",
+    "implication": "[Implied meaning/stereotype] {}[/]",
+    "targetGroupEmotionalReaction": "[Targeted minority group emotional reaction] {}[/]",
+    "targetGroupCognitiveReaction": "[Targeted minority group cognitive reaction] {}[/]",
+    }
+
+    f = [   
+            formatting[v].format(row[v])
+            for v in row.keys() if v in formatting
+        ]
+    input_instructions = "Following the examples and complete the structured explanation for the given statement.\n\n" + row['examples'] 
+    input_context = "\n".join(f[1:5])
+    output = "\n".join(f[5:])
+    return convert_inputs_targets_to_messages(
+        input_instructions + "\n" + input_context,
+        output,
+        row["_source"]
+    )
+
+
 def prepare_dolly_15k(row):
     input_text = re.sub(r'\s*\[.*?\]\s*', '', "\n".join([row["context"], row["instruction"]]).strip())
     target_text = re.sub(r'\s*\[.*?\]\s*', '', row["response"])
@@ -332,6 +370,43 @@ def prepare_pure_dove(row):
         parent_id += 1
     return messages
 
+def prepare_nectar(row):
+    human = []
+    assistant = []
+    messages = []
+
+    if row["turns"] == 1:
+        input = row["prompt"].split("Assistant:")[0].strip()
+        output = row["answers"][0]["answer"]
+        return convert_inputs_targets_to_messages(
+            input, output, "nectar",
+        )
+    else:
+        # Split the conversation based on "Human:" and "Assistant:" tags
+        segments = row["prompt"].split("Human: ")[1:]
+        # Extract human and assistant texts
+        for segment in segments:
+            parts = segment.split("Assistant:")
+            human.append(parts[0].strip())
+            if len(parts) > 1:
+                assistant.append(parts[1].strip())
+        assistant.append(row["answers"][0]["answer"])
+        parent_id = 0
+        for index, (h, a) in enumerate(zip(human, assistant)):
+            messages.append({
+                "from": "user",
+                "text": h.strip(),
+                "parent": "nectar" if index == 0 else parent_id,
+            })
+            if parent_id != 0:
+                parent_id += 1
+            messages.append({
+                "from": "assistant",
+                "text": a.strip(),
+                "parent": parent_id,
+            })
+            parent_id += 1
+        return messages
 
 def prepare_feedback_collection(row):
     return convert_inputs_targets_to_messages(
@@ -707,6 +782,13 @@ def prepare_agentinstruct(row):
     return messages
 
 
+def prepare_cidar(row):
+    return convert_inputs_targets_to_messages(
+        row['instruction'],
+        row['output'],
+        'cidar',
+    )
+
 def prepare_indic_instruct(row):
     ''' This dataset conatins lots of other datasets, each having their own format. A different prepare method is needed for each sub-dataset 
     Some datasets such as 'hh-rlhf', 'lm_sys', 'oasst1' have same forrmat and thus they have the prepare method below
@@ -790,3 +872,67 @@ def prepare_bactrianx(row):
         {"from": "user", "text": inputs, "parent": row["_source"]},
         {"from": "assistant", "text": outputs, "parent": 0},
     ]
+
+
+def prepare_aya_dataset(row):
+    return convert_inputs_targets_to_messages(
+        row["inputs"],
+        row["targets"],
+        row["language_code"],
+    )
+
+
+def prepare_megawika(row):
+    return convert_inputs_targets_to_messages(
+        row["input"],
+        row["output"],
+        row["source"]
+    )
+
+
+def prepare_gretel_text_to_sql(row):
+    return convert_inputs_targets_to_messages(
+        "Here is how the SQL table was created:\n\n" + row["sql_context"] + "\n\n" + row["sql_prompt"],
+        row["sql"],
+        "gretel_text_to_sql"
+    )
+
+
+def prepare_expertqa(row):
+    return convert_inputs_targets_to_messages(
+        row["question"],
+        row["answer"],
+        "expert_qa"
+    )
+
+
+def prepare_opengpt_healthcare(row):
+    text = row["text"].split("<|eos|>")[:-1]
+    parent = row["_source"]
+    messages = []
+
+    for i, turn in enumerate(text):
+        indicator_index = turn.find(">")
+        messages.append({
+            "from": "user" if turn[:indicator_index+1].strip() == "<|user|>" else "assistant",
+            "text": turn[indicator_index+1:].strip(),
+            "parent": parent,
+        })
+        parent = i
+
+    return messages
+        
+    
+
+def prepare_conifer(row):
+    conversation = row["messages"]
+    parent = "conifer"
+    messages = []
+    for i, turn in enumerate(conversation):
+        messages.append({
+            "from": "user" if turn["role"] == "user" else "assistant",
+            "text": turn["content"],
+            "parent": parent,
+        })
+        parent = i
+    return messages

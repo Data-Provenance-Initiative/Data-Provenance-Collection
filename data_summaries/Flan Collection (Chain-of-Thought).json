@@ -80,7 +80,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Cobbe2021TrainingVT,\n author = {Karl Cobbe and V. Kosaraju and Mohammad Bavarian and Mark Chen and Heewoo Jun and Lukasz Kaiser and Matthias Plappert and Jerry Tworek and Jacob Hilton and Reiichiro Nakano and Christopher Hesse and John Schulman},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Training Verifiers to Solve Math Word Problems},\n volume = {abs/2110.14168},\n year = {2021}\n}\n"
     },
     "fc-cot-cot_strategyqa": {
         "Unique Dataset Identifier": "fc-cot-cot_strategyqa",
@@ -166,7 +167,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Geva2021DidAU,\n author = {Mor Geva and Daniel Khashabi and Elad Segal and Tushar Khot and D. Roth and Jonathan Berant},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {346-361},\n title = {Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies},\n volume = {9},\n year = {2021}\n}\n"
     },
     "fc-cot-stream_aqua": {
         "Unique Dataset Identifier": "fc-cot-stream_aqua",
@@ -253,7 +255,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Ling2017ProgramIB,\n author = {Wang Ling and Dani Yogatama and Chris Dyer and Phil Blunsom},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {158-167},\n title = {Program Induction by Rationale Generation: Learning to Solve and Explain Algebraic Word Problems},\n year = {2017}\n}\n"
     },
     "fc-cot-stream_creak": {
         "Unique Dataset Identifier": "fc-cot-stream_creak",
@@ -337,7 +340,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Onoe2021CREAKAD,\n author = {Yasumasa Onoe and Michael J.Q. Zhang and Eunsol Choi and Greg Durrett},\n booktitle = {NeurIPS Datasets and Benchmarks},\n journal = {ArXiv},\n title = {CREAK: A Dataset for Commonsense Reasoning over Entity Knowledge},\n volume = {abs/2109.01653},\n year = {2021}\n}\n"
     },
     "fc-cot-stream_ecqa": {
         "Unique Dataset Identifier": "fc-cot-stream_ecqa",
@@ -427,7 +431,8 @@
         "Derived from Datasets": [
             "CommonSenseQA"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Aggarwal2021ExplanationsFC,\n author = {Shourya Aggarwal and Divyanshu Mandowara and Vishwajeet Agrawal and Dinesh Khandelwal and Parag Singla and Dinesh Garg},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {3050-3065},\n title = {Explanations for CommonsenseQA: New Dataset and Models},\n year = {2021}\n}\n"
     },
     "fc-cot-stream_esnli": {
         "Unique Dataset Identifier": "fc-cot-stream_esnli",
@@ -516,7 +521,8 @@
         "Derived from Datasets": [
             "snli"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Camburu2018eSNLINL,\n author = {Oana-Maria Camburu and Tim Rocktäschel and Thomas Lukasiewicz and Phil Blunsom},\n booktitle = {Neural Information Processing Systems},\n pages = {9560-9572},\n title = {e-SNLI: Natural Language Inference with Natural Language Explanations},\n year = {2018}\n}\n"
     },
     "fc-cot-stream_qasc": {
         "Unique Dataset Identifier": "fc-cot-stream_qasc",
@@ -605,7 +611,8 @@
         "Derived from Datasets": [
             "WorldTree corpus"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Khot2019QASCAD,\n author = {Tushar Khot and Peter Clark and Michal Guerquin and Peter Alexander Jansen and Ashish Sabharwal},\n booktitle = {AAAI Conference on Artificial Intelligence},\n journal = {ArXiv},\n title = {QASC: A Dataset for Question Answering via Sentence Composition},\n volume = {abs/1910.11473},\n year = {2019}\n}\n"
     },
     "fc-cot-stream_qed": {
         "Unique Dataset Identifier": "fc-cot-stream_qed",
@@ -697,7 +704,8 @@
         "Derived from Datasets": [
             "WorldTree corpus"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Lamm2020QEDAF,\n author = {Matthew Lamm and J. Palomaki and Chris Alberti and D. Andor and Eunsol Choi and Livio Baldini Soares and Michael Collins},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {790-806},\n title = {QED: A Framework and Dataset for Explanations in Question Answering},\n volume = {9},\n year = {2020}\n}\n"
     },
     "fc-cot-stream_sensemaking": {
         "Unique Dataset Identifier": "fc-cot-stream_sensemaking",
@@ -784,6 +792,7 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Marasović2021FewShotSW,\n author = {Ana Marasović and Iz Beltagy and Doug Downey and Matthew E. Peters},\n booktitle = {NAACL-HLT},\n pages = {410-424},\n title = {Few-Shot Self-Rationalization with Natural Language Prompts},\n year = {2021}\n}\n"
     }
 }

@@ -52,7 +52,8 @@
         "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "medical-meadow-med-flashcards"
-        ]
+        ],
+        "Bibtex": "@Article{Han2023MedAlpacaA,\n author = {T. Han and Lisa C. Adams and Jens-Michalis Papaioannou and Paul Grundmann and Tom Oberhauser and Alexander Löser and D. Truhn and K. Bressem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MedAlpaca - An Open-Source Collection of Medical Conversational AI Models and Training Data},\n volume = {abs/2304.08247},\n year = {2023}\n}\n"
     },
     "medical-meadow-wikidoc-living-textbook": {
         "Unique Dataset Identifier": "medical-meadow-wikidoc-living-textbook",
@@ -80,7 +81,9 @@
         "Text Sources": [
             "wikidoc.org"
         ],
-        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo"
+        ],
         "Format": [
             "Zero-shot"
         ],
@@ -105,7 +108,8 @@
         "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "medical-meadow-wikidoc-living-textbook"
-        ]
+        ],
+        "Bibtex": "@Article{Han2023MedAlpacaA,\n author = {T. Han and Lisa C. Adams and Jens-Michalis Papaioannou and Paul Grundmann and Tom Oberhauser and Alexander Löser and D. Truhn and K. Bressem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MedAlpaca - An Open-Source Collection of Medical Conversational AI Models and Training Data},\n volume = {abs/2304.08247},\n year = {2023}\n}\n"
     },
     "medical-meadow-wikidoc-patient-information": {
         "Unique Dataset Identifier": "medical-meadow-wikidoc-patient-information",
@@ -133,7 +137,9 @@
         "Text Sources": [
             "Anki Medical Curriculum"
         ],
-        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo"
+        ],
         "Format": [
             "Zero-shot"
         ],
@@ -158,7 +164,8 @@
         "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "medical-meadow-wikidoc-patient-information"
-        ]
+        ],
+        "Bibtex": "@Article{Han2023MedAlpacaA,\n author = {T. Han and Lisa C. Adams and Jens-Michalis Papaioannou and Paul Grundmann and Tom Oberhauser and Alexander Löser and D. Truhn and K. Bressem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MedAlpaca - An Open-Source Collection of Medical Conversational AI Models and Training Data},\n volume = {abs/2304.08247},\n year = {2023}\n}\n"
     },
     "medical-meadow-cord19": {
         "Unique Dataset Identifier": "medical-meadow-cord19",
@@ -185,7 +192,6 @@
             "biorxiv.org",
             "medrxiv.org",
             "WHO Covid-19 Database"
-            
         ],
         "Model Generated": [],
         "Format": [
@@ -210,7 +216,8 @@
         "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "medical-meadow-cord19"
-        ]
+        ],
+        "Bibtex": "@Article{Wang2020CORD19TC,\n author = {Lucy Lu Wang and Kyle Lo and Yoganand Chandrasekhar and Russell Reas and Jiangjiang Yang and Darrin Eide and Kathryn Funk and Rodney Michael Kinney and Ziyang Liu and William Merrill and P. Mooney and D. Murdick and Devvret Rishi and J. Sheehan and Zhihong Shen and Brandon Stilson and Alex D Wade and Kuansan Wang and Christopher Wilhelm and Boya Xie and Douglas A. Raymond and Daniel S. Weld and Oren Etzioni and Sebastian Kohlmeier},\n booktitle = {NLPCOVID19},\n journal = {ArXiv},\n title = {CORD-19: The Covid-19 Open Research Dataset},\n year = {2020}\n}\n"
     },
     "medical-meadow-health-advice": {
         "Unique Dataset Identifier": "medical-meadow-health-advice",
@@ -259,7 +266,8 @@
         "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "medical-meadow-health-advice"
-        ]
+        ],
+        "Bibtex": "@Article{Yu2019DetectingCL,\n author = {Bei Yu and Yingya Li and Jun Wang},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {4663-4673},\n title = {Detecting Causal Language Use in Science Findings},\n year = {2019}\n}\n"
     },
     "medical-meadow-pubmed-causal": {
         "Unique Dataset Identifier": "medical-meadow-pubmed-causal",
@@ -308,7 +316,8 @@
         "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "medical-meadow-pubmed-causal"
-        ]
+        ],
+        "Bibtex": "@Article{Yu2019DetectingCL,\n author = {Bei Yu and Yingya Li and Jun Wang},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {4663-4673},\n title = {Detecting Causal Language Use in Science Findings},\n year = {2019}\n}\n"
     },
     "medical-meadow-medqa": {
         "Unique Dataset Identifier": "medical-meadow-medqa",
@@ -357,7 +366,8 @@
         "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "medical-meadow-medqa"
-        ]
+        ],
+        "Bibtex": "@Article{Jin2020WhatDD,\n author = {Di Jin and Eileen Pan and Nassim Oufattole and W. Weng and Hanyi Fang and Peter Szolovits},\n booktitle = {Applied Sciences},\n journal = {ArXiv},\n title = {What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams},\n volume = {abs/2009.13081},\n year = {2020}\n}\n"
     },
     "medical-meadow-mediqa": {
         "Unique Dataset Identifier": "medical-meadow-mediqa",
@@ -408,6 +418,7 @@
         "License Verified By": "",
         "Dataset Filter IDs": [
             "medical-meadow-mediqa"
-        ]
+        ],
+        "Bibtex": "@Article{Savery2020QuestiondrivenSO,\n author = {Max E. Savery and Asma Ben Abacha and Soumya Gayen and Dina Demner-Fushman},\n booktitle = {Scientific Data},\n journal = {Scientific Data},\n title = {Question-driven summarization of answers to consumer health questions},\n volume = {7},\n year = {2020}\n}\n"
     }
 }
