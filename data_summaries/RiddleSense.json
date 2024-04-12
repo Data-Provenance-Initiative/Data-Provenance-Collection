@@ -19,7 +19,10 @@
             "Natural Language Understanding",
             "Question Answering"
         ],
-        "Text Sources": [],
+        "Text Sources": [
+            "brainzilla.com",
+            "riddlewot.com"
+        ],
         "Model Generated": [],
         "Format": [
             "Zero-shot"
