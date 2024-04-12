@@ -24,7 +24,9 @@
             "sharegpt.com",
             "chat.lmsys.org"
         ],
-        "Model Generated": ["OpenAI GPT-4"],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -53,7 +55,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "Dove"
-        ]
+        ],
+        "Bibtex": ""
     },
     "capybara-Airoboros": {
         "Unique Dataset Identifier": "capybara-Airoboros",
@@ -110,7 +113,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "Airoboros"
-        ]
+        ],
+        "Bibtex": ""
     },
     "capybara-Know-Logic": {
         "Unique Dataset Identifier": "capybara-Know-Logic",
@@ -140,7 +144,9 @@
             "Multi-turn Dialog"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["know_logic"],
+        "Derived from Datasets": [
+            "know_logic"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -156,7 +162,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "Know-Logic"
-        ]
+        ],
+        "Bibtex": ""
     },
     "capybara-EverythingLM": {
         "Unique Dataset Identifier": "capybara-EverythingLM",
@@ -193,13 +200,17 @@
             "Trick Question"
         ],
         "Text Sources": [],
-        "Model Generated": ["OpenAI GPT-4"],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
         "Format": [
             "Zero-shot",
             "Multi-turn Dialog"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["EverythingLM"],
+        "Derived from Datasets": [
+            "EverythingLM"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -219,7 +230,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "EverythingLM"
-        ]
+        ],
+        "Bibtex": ""
     },
     "capybara-GOAT": {
         "Unique Dataset Identifier": "capybara-GOAT",
@@ -245,7 +257,9 @@
             "Multi-turn Dialog"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["GOAT"],
+        "Derived from Datasets": [
+            "GOAT"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -261,7 +275,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "GOAT"
-        ]
+        ],
+        "Bibtex": ""
     },
     "capybara-TaskSource": {
         "Unique Dataset Identifier": "capybara-TaskSource",
@@ -299,7 +314,9 @@
             "Multi-turn Dialog"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["TaskSource"],
+        "Derived from Datasets": [
+            "TaskSource"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -315,7 +332,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "TaskSource"
-        ]
+        ],
+        "Bibtex": ""
     },
     "capybara-General-Instruct": {
         "Unique Dataset Identifier": "capybara-General-Instruct",
@@ -340,13 +358,17 @@
             "Text Classification"
         ],
         "Text Sources": [],
-        "Model Generated": ["OpenAI GPT-4"],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
         "Format": [
             "Zero-shot",
             "Multi-turn Dialog"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["GPTeacher-General-Instruct"],
+        "Derived from Datasets": [
+            "GPTeacher-General-Instruct"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -366,7 +388,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "General-Instruct"
-        ]
+        ],
+        "Bibtex": ""
     },
     "capybara-GPT4LLM": {
         "Unique Dataset Identifier": "capybara-GPT4LLM",
@@ -403,12 +426,16 @@
             "Sentence Completion"
         ],
         "Text Sources": [],
-        "Model Generated": ["OpenAI GPT-4"],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
         "Format": [
             "Multi-turn Dialog"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["GPT4LLM"],
+        "Derived from Datasets": [
+            "GPT4LLM"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -428,7 +455,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "GPT4LLM"
-        ]
+        ],
+        "Bibtex": ""
     },
     "capybara-TheoremQA": {
         "Unique Dataset Identifier": "capybara-TheoremQA",
@@ -454,7 +482,9 @@
             "Multi-turn Dialog"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["TheoremQA"],
+        "Derived from Datasets": [
+            "TheoremQA"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -470,7 +500,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "TheoremQA"
-        ]
+        ],
+        "Bibtex": ""
     },
     "capybara-Less-Wrong": {
         "Unique Dataset Identifier": "capybara-Less-Wrong",
@@ -491,13 +522,19 @@
             "Chain-of-Thought"
         ],
         "Text Sources": [],
-        "Model Generated": ["OpenAI GPT-4"],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
         "Format": [
             "Multi-turn Dialog"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["LessWrong-Amplify-Instruct"],
-        "Creators": ["Nous Research"],
+        "Derived from Datasets": [
+            "LessWrong-Amplify-Instruct"
+        ],
+        "Creators": [
+            "Nous Research"
+        ],
         "Licenses": [
             {
                 "License": "OpenAI",
@@ -516,7 +553,8 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "Less-Wrong"
-        ]
+        ],
+        "Bibtex": ""
     },
     "capybara-SuperCOT": {
         "Unique Dataset Identifier": "capybara-SuperCOT",
@@ -545,7 +583,9 @@
             "Multi-turn Dialog"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": ["SuperCOT"],
+        "Derived from Datasets": [
+            "SuperCOT"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -561,6 +601,7 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "SuperCOT"
-        ]
+        ],
+        "Bibtex": ""
     }
 }

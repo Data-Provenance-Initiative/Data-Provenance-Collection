@@ -106,7 +106,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Kim2023TheCC,\n author = {Seungone Kim and Se June Joo and Doyoung Kim and Joel Jang and Seonghyeon Ye and Jamin Shin and Minjoon Seo},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning},\n volume = {abs/2305.14045},\n year = {2023}\n}\n"
     },
     "cotcollection-fr": {
         "Unique Dataset Identifier": "cotcollection-fr",
@@ -215,7 +216,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Kim2023TheCC,\n author = {Seungone Kim and Se June Joo and Doyoung Kim and Joel Jang and Seonghyeon Ye and Jamin Shin and Minjoon Seo},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning},\n volume = {abs/2305.14045},\n year = {2023}\n}\n"
     },
     "cotcollection-ja": {
         "Unique Dataset Identifier": "cotcollection-ja",
@@ -324,7 +326,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Kim2023TheCC,\n author = {Seungone Kim and Se June Joo and Doyoung Kim and Joel Jang and Seonghyeon Ye and Jamin Shin and Minjoon Seo},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning},\n volume = {abs/2305.14045},\n year = {2023}\n}\n"
     },
     "cotcollection-ko": {
         "Unique Dataset Identifier": "cotcollection-ko",
@@ -433,7 +436,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Kim2023TheCC,\n author = {Seungone Kim and Se June Joo and Doyoung Kim and Joel Jang and Seonghyeon Ye and Jamin Shin and Minjoon Seo},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning},\n volume = {abs/2305.14045},\n year = {2023}\n}\n"
     },
     "cotcollection-ru": {
         "Unique Dataset Identifier": "cotcollection-ru",
@@ -542,7 +546,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Kim2023TheCC,\n author = {Seungone Kim and Se June Joo and Doyoung Kim and Joel Jang and Seonghyeon Ye and Jamin Shin and Minjoon Seo},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning},\n volume = {abs/2305.14045},\n year = {2023}\n}\n"
     },
     "cotcollection-zh": {
         "Unique Dataset Identifier": "cotcollection-zh",
@@ -651,6 +656,7 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Kim2023TheCC,\n author = {Seungone Kim and Se June Joo and Doyoung Kim and Joel Jang and Seonghyeon Ye and Jamin Shin and Minjoon Seo},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning},\n volume = {abs/2305.14045},\n year = {2023}\n}\n"
     }
 }

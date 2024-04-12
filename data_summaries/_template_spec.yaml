@@ -10,6 +10,7 @@
     "Papers with Code URL": [str, True, False],
     "ArXiv URL": [str, True, False],
     "Semantic Scholar Corpus ID": [int, True, False],
+    "Bibtex": [str, True, False],
 
     "Languages": [list, True, True],
     "Task Categories": [list, True, True],
