@@ -2,7 +2,7 @@
 
 [**Paper**](https://www.dataprovenance.org/paper.pdf) | [**Data Provenance Explorer**](https://www.dataprovenance.org/)
 
-[**Setup**](#setup) | [**Run**](#run) | [**Collected Information**](#collected-information) | [**Add Collection**](#add-a-collection) | [**Data Format**](#dataset-format) | [**Legal Notice & Limitations**](#legal-notice-and-limitations) | [**Contact**](#contact-and-citation)
+[**Setup**](#setup) | [**Run**](#run) | [**Collected Information**](#collected-information) | [**Generate Bibtex**](#generate-bibtex) | [**Add Collection**](#add-a-collection) | [**Data Format**](#dataset-format) | [**Legal Notice & Limitations**](#legal-notice-and-limitations) | [**Contact**](#contact-and-citation)
 
 
 <p align="center">
@@ -79,6 +79,12 @@ python src/download_and_filter.py -c src/configs/default.yaml
 * **License Conditions** --- Using the above, and `constants/license_classes.json` we categorize every licenses use restrictions, attribution and sharealike requirements.
 * **License Notes** --- Any notes from the human annotator regarding the license information they retrieved.
 
+## Generate Bibtex
+
+We collect bibtex entries for every dataset that has an associated paper in the Data Provenance Collection.
+These can be found in `data_summaries/`, and you **can also automatically generate the full bibtex file for any subset of the data**, just by [running](#run) the data preparation script.
+
+To generate the bibtex without the data, simply run the data download and filter script, but stop after this line of code: https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection/blob/main/src/download_and_filter.py#L419.
 
 ## Add a Collection
 
