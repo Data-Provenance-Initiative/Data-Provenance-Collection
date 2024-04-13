@@ -22,6 +22,7 @@
         "Grover",
         "IndicTrans2",
         "Instruct-GPT-J",
+        "LLaMA-2-chat-70b",
         "Other",
         "pplm_distil",
         "SeaLLM",
