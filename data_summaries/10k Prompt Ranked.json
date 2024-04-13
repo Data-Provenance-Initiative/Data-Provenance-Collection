@@ -15,27 +15,49 @@
             "English"
         ],
         "Task Categories": [
+            "Argumentative Essay Generation",
+            "Brainstorming",
+            "Clarification Question Answering",
+            "Code Generation",
+            "Code Modification Question Answering",
+            "Command Line Output Generation",
+            "Creative Writing",
+            "Creativity",
+            "Data Analysis",
+            "Dialog Generation",
+            "Email Drafting",
+            "Essay Generation",
+            "Explanation Generation",
+            "Humor Generation",
+            "Instruction Following",
+            "Instructional Question Answering",
+            "Literary Analysis",
+            "Logical Reasoning",
             "Math",
-            "Travel and Leisure",
-            "Literature and Arts",
-            "Environmental Issues",
-            "Business and Marketing",
-            "Legal and Government",
-            "Health and Wellness",
-            "Science and Technology",
-            "Software Development"
+            "Mathematical Equation Generation",
+            "Miscellaneous",
+            "Motivational Dialogue Generation",
+            "Multiple Choice Question Answering",
+            "Narrative Generation",
+            "Open-Domain Natural Language Understanding (NLU)",
+            "Open-Domain Question Answering",
+            "Open-Ended Question Answering",
+            "Open-form Text Generation",
+            "Quadratic Equation Solving using MIPS Assembly Programming",
+            "Question Answering",
+            "Roleplay",
+            "Story Arc Construction",
+            "Summarization",
+            "Timeline Memory Resolution Question Answering"
         ],
         "Text Sources": [
-            "huggingface.co/datasets/ewof/sharegpt-instruct-unfiltered-deduped",
-            "huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_70k",
-            "huggingface.co/datasets/stingning/ultrachat",
-            "huggingface.co/datasets/OpenAssistant/oasst2",
-            "huggingface.co/datasets/diabolic6045/flanv2_cot_alpeca",
-            "huggingface.co/datasets/argilla/distilabel-reasoning-prompts",
-            "huggingface.co/datasets/argilla/distilabel-evol-prompt-collective",
-            "huggingface.co/datasets/LDJnr/Capybara",
-            "huggingface.co/datasets/ProlificAI/social-reasoning-rlhf",
-            "huggingface.co/datasets/LDJnr/Capybara",
+            "sharegpt.com",
+            "crowdsourced",
+            "chat.lmsys.org",
+            "OpenAI GPT-3",
+            "OpenAI ChatGPT",
+            "wikidata",
+            "wikipedia.org",
             "huggingface.co/datasets/fka/awesome-chatgpt-prompts"
         ],
         "Model Generated": [
@@ -44,11 +66,20 @@
             "Llama-2-70b-chat-hf"
         ],
         "Format": [
-            "Zero-shot",
-            "Chain-of-Thought"
+            "Zero-shot"
         ],
         "Human Annotation": "Yes",
-        "Derived from Datasets": [],
+        "Derived from Datasets": [
+            "huggingface.co/datasets/ewof/sharegpt-instruct-unfiltered-deduped",
+            "huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_70k",
+            "huggingface.co/datasets/stingning/ultrachat",
+            "huggingface.co/datasets/OpenAssistant/oasst2",
+            "huggingface.co/datasets/diabolic6045/flanv2_cot_alpeca",
+            "huggingface.co/datasets/argilla/distilabel-reasoning-prompts",
+            "huggingface.co/datasets/argilla/distilabel-evol-prompt-collective",
+            "huggingface.co/datasets/LDJnr/Capybara",
+            "huggingface.co/datasets/ProlificAI/social-reasoning-rlhf"
+        ],
         "Creators": [
             "Huggingface",
             "Argilla"
@@ -56,11 +87,15 @@
         "Licenses": [
             {
                 "License": "Unspecified",
-                "License URL": "string (''): The URL to the webpage where this license is mentioned in association with this dataset."
+                "License URL": "None"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://sharegpt.com/"
             }
         ],
         "License Notes": "",
-        "License Verified By": "string (''): The name of the human annotator who verified the license information.",
+        "License Verified By": "Vu Minh Chien",
         "Dataset Filter IDs": [
             "10k-prompt-ranked"
         ],
