@@ -900,3 +900,67 @@ def prepare_bactrianx(row):
         {"from": "user", "text": inputs, "parent": row["_source"]},
         {"from": "assistant", "text": outputs, "parent": 0},
     ]
+
+
+def prepare_aya_dataset(row):
+    return convert_inputs_targets_to_messages(
+        row["inputs"],
+        row["targets"],
+        row["language_code"],
+    )
+
+
+def prepare_megawika(row):
+    return convert_inputs_targets_to_messages(
+        row["input"],
+        row["output"],
+        row["source"]
+    )
+
+
+def prepare_gretel_text_to_sql(row):
+    return convert_inputs_targets_to_messages(
+        "Here is how the SQL table was created:\n\n" + row["sql_context"] + "\n\n" + row["sql_prompt"],
+        row["sql"],
+        "gretel_text_to_sql"
+    )
+
+
+def prepare_expertqa(row):
+    return convert_inputs_targets_to_messages(
+        row["question"],
+        row["answer"],
+        "expert_qa"
+    )
+
+
+def prepare_opengpt_healthcare(row):
+    text = row["text"].split("<|eos|>")[:-1]
+    parent = row["_source"]
+    messages = []
+
+    for i, turn in enumerate(text):
+        indicator_index = turn.find(">")
+        messages.append({
+            "from": "user" if turn[:indicator_index+1].strip() == "<|user|>" else "assistant",
+            "text": turn[indicator_index+1:].strip(),
+            "parent": parent,
+        })
+        parent = i
+
+    return messages
+        
+    
+
+def prepare_conifer(row):
+    conversation = row["messages"]
+    parent = "conifer"
+    messages = []
+    for i, turn in enumerate(conversation):
+        messages.append({
+            "from": "user" if turn["role"] == "user" else "assistant",
+            "text": turn["content"],
+            "parent": parent,
+        })
+        parent = i
+    return messages
