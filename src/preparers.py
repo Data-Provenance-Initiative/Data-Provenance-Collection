@@ -935,4 +935,38 @@ def prepare_bactrianx(row):
 
 
 def prepare_kiwi(row):
-    print(f"\n \n {row['interaction']} \n \n ")
+    messages = []
+    parent_id = "KIWI"
+    interactions = row["interaction"]
+
+    for idx, turn in enumerate(interactions):
+
+        messages.append(
+            {
+                "from": "user",
+                "text": turn["instruction"],
+                "parent": (parent_id if idx == 0 else len(messages) - 1),
+            }
+        )
+
+        messages.append(
+            {
+                "from": "assistant",
+                "text": turn["answer_1"],
+                "parent": len(messages) - 1,
+            }
+        )
+
+        if turn["answer_2"]:
+            messages.append(
+                {
+                    "from": "assistant",
+                    "text": turn["answer_2"],
+                    "parent": len(messages) - 1,
+                    "edited": True,
+                }
+            )
+        messages[-1]["rating"] = turn["rating"]
+        messages[-1]["comment"] = turn["comment"]
+
+    return messages
