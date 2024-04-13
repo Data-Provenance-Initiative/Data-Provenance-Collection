@@ -983,6 +983,22 @@ def download_cobra_frames(accepted_filter_ids):
     dset = annotate_source(dset['normal'], mapping['normal'])
     return dset
 
+
+def download_aya_dataset(accepted_filter_ids):
+    # The language code for both Simplified and Traditional Chinese is currently zho.
+    # This function updates Simplified Chinese to zhs, but this is not an official ISO code and I couldn't 
+    # find an official one.
+    def update_simplified_chinese_langcode(row):
+        row["language_code"] = "zhs" if row["language"] == "Simplified Chinese" else row["language_code"]
+        return row
+
+    aya_dataset = load_dataset("CohereForAI/aya_dataset", split="train")\
+            .map(update_simplified_chinese_langcode)\
+            .to_list()
+
+    return pool_filter(aya_dataset, "language_code", accepted_filter_ids)
+
+
 def download_megawika(accepted_filter_ids):
 
     def generate_exs(row, lang):
@@ -1010,3 +1026,36 @@ def download_gretel_text_to_sql(accepted_filter_ids):
 def download_expertqa(accepted_filter_ids):
     return huggingface_download("cmalaviya/expertqa", "lfqa_domain", split="train")
 
+
+def download_opengpt_healthcare(accepted_filter_ids):
+    dset = []
+    if "opengpt-nhs-qa" in accepted_filter_ids:
+        nhs_qa_url = "https://raw.githubusercontent.com/CogStack/OpenGPT/main/data/nhs_uk_full/prepared_generated_data_for_nhs_uk_qa.csv"
+        nhs_qa = pd.read_csv(nhs_qa_url)\
+            .to_dict(orient='records')
+        for record in nhs_qa:
+            record["_source"] = "opengpt-nhs-qa"
+            dset.append(record)
+
+    if "opengpt-nhs-conversations" in accepted_filter_ids:
+        nhs_conversations_url = "https://raw.githubusercontent.com/CogStack/OpenGPT/main/data/nhs_uk_full/prepared_generated_data_for_nhs_uk_conversations.csv"
+        nhs_conversations = pd.read_csv(nhs_conversations_url)\
+            .to_dict(orient='records')
+        for record in nhs_conversations:
+            record["_source"] = "opengpt-nhs-conversations"
+            dset.append(record)
+        
+    if "opengpt-med-tasks" in accepted_filter_ids:
+        med_tasks_url = "https://raw.githubusercontent.com/CogStack/OpenGPT/main/data/medical_tasks_gpt4/prepared_generated_data_for_medical_tasks.csv"
+        med_tasks = pd.read_csv(med_tasks_url)\
+            .to_dict(orient='records')
+        for record in med_tasks:
+            record["_source"] = "opengpt-med-tasks"
+            dset.append(record)
+
+    return dset
+
+  
+def download_conifer(accepted_filter_ids):
+    dset = huggingface_download("ConiferLM/Conifer", split="train_sft")
+    return dset

@@ -294,6 +294,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_cobra_frames,
         "prepare_function": preparers.prepare_cobra_frames,
     },
+    "Aya Dataset": {
+        "download_function": downloaders.download_aya_dataset,
+        "prepare_function": preparers.prepare_aya_dataset,
+    },
     "MegaWika": {
         "download_function": downloaders.download_megawika,
         "prepare_function": preparers.prepare_megawika,
@@ -305,5 +309,13 @@ COLLECTION_FN_MAPPER = {
     "ExpertQA": {
         "download_function": downloaders.download_expertqa,
         "prepare_function": preparers.prepare_expertqa,
+    },
+    "OpenGPT Healthcare": {
+        "download_function": downloaders.download_opengpt_healthcare,
+        "prepare_function": preparers.prepare_opengpt_healthcare,
+    },
+    "Conifer": {
+        "download_function": downloaders.download_conifer,
+        "prepare_function": preparers.prepare_conifer,
     }
 }
