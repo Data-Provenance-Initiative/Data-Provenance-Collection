@@ -49,6 +49,8 @@
         "medlineplus.gov",
         "MedNLI",
         "National Library of Medicine (NLM)",
+        "National Health Service (NHS)",
+        "www.nhs.uk/conditions/",
         "NCBI-disease",
         "nlm.nih.gov/databases/download/pubmed_medline.html",
         "plos articles",
@@ -328,7 +330,8 @@
         "crowdsourced (amt)",
         "crowdsourced (daemo)",
         "human",
-        "scale.com"
+        "scale.com",
+        "volunteer annotations"
     ],
     "Legal": [
         "bar exam",

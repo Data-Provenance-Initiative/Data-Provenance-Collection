@@ -1,0 +1,189 @@
+{
+    "opengpt-nhs-qa": {
+        "Unique Dataset Identifier": "opengpt-nhs-qa",
+        "Dataset Name": "opengpt-nhs-qa",
+        "Paper Title": "",
+        "Dataset URL": "https://github.com/CogStack/OpenGPT/blob/main/data/nhs_uk_full/prepared_generated_data_for_nhs_uk_qa.csv",
+        "GitHub URL": "https://github.com/CogStack/OpenGPT",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenGPT Healthcare",
+        "Collection URL": "https://aiforhealthcare.substack.com/p/a-large-language-model-for-healthcare",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Medical Question Answering",
+            "Medical Diagnosis Question Answering",
+            "Symptom Prediction Question Answering"
+        ],
+        "Text Sources": [
+            "biomed articles",
+            "National Health Service (NHS)",
+            "www.nhs.uk/conditions/"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "CogStack"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            },
+            {
+                "License": "OGL 3.0",
+                "License URL": "https://www.nhs.uk/our-policies/terms-and-conditions/"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "opengpt-nhs-qa"
+        ],
+        "Bibtex": ""
+    },
+    "opengpt-nhs-conversations": {
+        "Unique Dataset Identifier": "opengpt-nhs-conversations",
+        "Dataset Name": "opengpt-nhs-conversations",
+        "Paper Title": "",
+        "Dataset URL": "https://github.com/CogStack/OpenGPT/blob/main/data/nhs_uk_full/prepared_generated_data_for_nhs_uk_conversations.csv",
+        "GitHub URL": "https://github.com/CogStack/OpenGPT",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenGPT Healthcare",
+        "Collection URL": "https://aiforhealthcare.substack.com/p/a-large-language-model-for-healthcare",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "BioMedical Question Answering",
+            "Conversational Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Medical Question Answering",
+            "Medical Diagnosis Question Answering",
+            "Symptom Prediction Question Answering"
+        ],
+        "Text Sources": [
+            "biomed articles",
+            "National Health Service (NHS)",
+            "www.nhs.uk/conditions/"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "CogStack"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            },
+            {
+                "License": "OGL 3.0",
+                "License URL": "https://www.nhs.uk/our-policies/terms-and-conditions/"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "opengpt-nhs-conversations"
+        ],
+        "Bibtex": ""
+    },
+    "opengpt-med-tasks": {
+        "Unique Dataset Identifier": "opengpt-med-tasks",
+        "Dataset Name": "opengpt-med-tasks",
+        "Paper Title": "",
+        "Dataset URL": "https://github.com/CogStack/OpenGPT/blob/main/data/medical_tasks_gpt4/prepared_generated_data_for_medical_tasks.csv",
+        "GitHub URL": "https://github.com/CogStack/OpenGPT",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenGPT Healthcare",
+        "Collection URL": "https://aiforhealthcare.substack.com/p/a-large-language-model-for-healthcare",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Explanation",
+            "Description Generation",
+            "Question Answering",
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instruction Following",
+            "Instructional Question Answering",
+            "Medical Question Answering",
+            "Medical Diagnosis Question Answering",
+            "Symptom Prediction Question Answering",
+            "Rewrite",
+            "Sentence Rewriting"
+        ],
+        "Text Sources": [
+            "biomed articles",
+            "National Health Service (NHS)",
+            "www.nhs.uk/conditions/"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "CogStack"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            },
+            {
+                "License": "OGL 3.0",
+                "License URL": "https://www.nhs.uk/our-policies/terms-and-conditions/"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "opengpt-med-tasks"
+        ],
+        "Bibtex": ""
+    }
+}
