@@ -313,6 +313,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_cobra_frames,
         "prepare_function": preparers.prepare_cobra_frames,
     },
+    "10k Prompt Ranked": {
+        "download_function": downloaders.download_10k_prompt_ranked,
+        "prepare_function": preparers.prepare_10k_prompt_ranked,
+    },
     "Aya Dataset": {
         "download_function": downloaders.download_aya_dataset,
         "prepare_function": preparers.prepare_aya_dataset,

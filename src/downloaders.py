@@ -1131,6 +1131,10 @@ def download_cobra_frames(accepted_filter_ids):
     dset = annotate_source(dset['normal'], mapping['normal'])
     return dset
 
+  
+def download_10k_prompt_ranked(accepted_filter_ids):
+    return huggingface_download('DIBT/10k_prompts_ranked', split='train')
+
 
 def download_aya_dataset(accepted_filter_ids):
     # The language code for both Simplified and Traditional Chinese is currently zho.
@@ -1212,5 +1216,4 @@ def download_opengpt_healthcare(accepted_filter_ids):
 def download_conifer(accepted_filter_ids):
     dset = huggingface_download("ConiferLM/Conifer", split="train_sft")
     return dset
-
 
