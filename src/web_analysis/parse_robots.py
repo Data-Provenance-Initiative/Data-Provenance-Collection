@@ -88,9 +88,8 @@ if __name__ == "__main__":
     python src/web_analysis/parse_robots.py data/robots-test.json.gz data/robots-analysis.csv 
 
     Process:
-        1. Reads the txt/csv of URLs from your input path
-        2. Pulls the robots.txt for any URLs that are not already in the <output-path> if it exists
-        3. Saves a new mapping from base-url to robots.txt text at the <output-path>
+        1. Reads the json.gz mapping base-url to robots.txt
+        2. Parse all the robots.txt so they can be analyzed on aggregate
     """
     parser = argparse.ArgumentParser(description="Parse and analyze robots.txt.")
     parser.add_argument("file_path", type=str, help="Path to the JSON.GZ file mapping urls to robots.txt text.")
