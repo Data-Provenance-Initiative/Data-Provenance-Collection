@@ -89,6 +89,9 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_alpaca,
         "prepare_function": preparers.prepare_alpaca,
     },
+    "Glaive Code Assistant": {
+        "download_function": downloaders.download_glaive_code_assistant,
+        "prepare_function": preparers.prepare_glaive_code_assistant,
     "Nectar": {
         "download_function": downloaders.download_nectar,
         "prepare_function": preparers.prepare_nectar,
@@ -246,6 +249,18 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_open_orca,
         "prepare_function": preparers.prepare_open_orca,
     },
+    "COIG":{
+        "download_function": downloaders.download_coig,
+        "prepare_function": preparers.prepare_coig,
+    },
+    "COIG-Kun":{
+        "download_function": downloaders.download_coig_kun,
+        "prepare_function": preparers.prepare_coig_kun,
+    },
+    "COIG-CQIA":{
+        "download_function": downloaders.download_coig_cqia,
+        "prepare_function": preparers.prepare_coig_cqia,
+    },
     "SelFee":{
         "download_function": downloaders.download_selfee,
         "prepare_function": preparers.prepare_selfee,
@@ -313,6 +328,10 @@ COLLECTION_FN_MAPPER = {
     "ExpertQA": {
         "download_function": downloaders.download_expertqa,
         "prepare_function": preparers.prepare_expertqa,
+    },
+    "OpenGPT Healthcare": {
+        "download_function": downloaders.download_opengpt_healthcare,
+        "prepare_function": preparers.prepare_opengpt_healthcare,
     },
     "Conifer": {
         "download_function": downloaders.download_conifer,
