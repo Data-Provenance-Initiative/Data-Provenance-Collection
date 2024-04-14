@@ -8,6 +8,7 @@
         "OpenAI GPT-3.5-turbo-instruct",
         "OpenAI GPT-3.5-Turbo",
         "OpenAI GPT-4",
+        "OpenAI GPT-4-Turbo",
         "OpenAI Playground"
     ],
     "Other": [
