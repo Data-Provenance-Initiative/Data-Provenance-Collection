@@ -246,6 +246,18 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_open_orca,
         "prepare_function": preparers.prepare_open_orca,
     },
+    "COIG":{
+        "download_function": downloaders.download_coig,
+        "prepare_function": preparers.prepare_coig,
+    },
+    "COIG-Kun":{
+        "download_function": downloaders.download_coig_kun,
+        "prepare_function": preparers.prepare_coig_kun,
+    },
+    "COIG-CQIA":{
+        "download_function": downloaders.download_coig_cqia,
+        "prepare_function": preparers.prepare_coig_cqia,
+    },
     "SelFee":{
         "download_function": downloaders.download_selfee,
         "prepare_function": preparers.prepare_selfee,
