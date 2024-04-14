@@ -89,7 +89,7 @@
             "HF Likes (September 2023)": 17,
             "PwC Description": "",
             "S2 Citation Count (September 2023)": 32,
-            "GitHub Stars": 2904,
+            "GitHub Stars": 4338,
             "GitHub Topics": [
                 "ai-societies",
                 "artificial-intelligence",
@@ -195,7 +195,7 @@
             "HF Likes (September 2023)": 17,
             "PwC Description": "",
             "S2 Citation Count (September 2023)": 32,
-            "GitHub Stars": 2904,
+            "GitHub Stars": 4338,
             "GitHub Topics": [
                 "ai-societies",
                 "artificial-intelligence",
@@ -301,7 +301,1125 @@
             "HF Likes (September 2023)": 17,
             "PwC Description": "",
             "S2 Citation Count (September 2023)": 32,
-            "GitHub Stars": 2904,
+            "GitHub Stars": 4338,
+            "GitHub Topics": [
+                "ai-societies",
+                "artificial-intelligence",
+                "communicative-ai",
+                "cooperative-ai",
+                "deep-learning",
+                "large-language-models",
+                "multi-agent-systems",
+                "natural-language-processing"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Li2023CAMELCA,\n author = {G. Li and Hasan Hammoud and Hani Itani and Dmitrii Khizbullin and Bernard Ghanem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society},\n volume = {abs/2303.17760},\n year = {2023}\n}\n"
+    },
+    "camelai-math": {
+        "Unique Dataset Identifier": "camelai-math",
+        "Dataset Name": "camelai_math",
+        "Collection": "Camel-AI Science",
+        "Collection URL": "https://github.com/camel-ai/camel",
+        "Dataset URL": "https://github.com/camel-ai/camel",
+        "GitHub URL": "https://github.com/camel-ai/camel",
+        "Hugging Face URL": "https://huggingface.co/datasets/camel-ai/math",
+        "Paper Title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2303.17760",
+        "Semantic Scholar Corpus ID": 257900712,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Scientific Knowledge Retrieval",
+            "Data Analysis",
+            "Factual Knowledge Question Answering",
+            "Logical Reasoning"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 50000,
+            "Mean Inputs Length": 244.6883,
+            "Mean Targets Length": 1141.1335,
+            "Max Inputs Length": 3579,
+            "Max Targets Length": 6333,
+            "Min Inputs Length": 21,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Text Sources": [
+            "templates"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4",
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "King Abdullah University of Science and Technology (KAUST)"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/camel-ai/camel#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2303.17760"
+            }
+        ],
+        "License Notes": "Uses GPT-4 to generate responses",
+        "License Verified By": "Vu Minh Chien",
+        "Dataset Filter IDs": [
+            "math"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "camel-ai/math",
+            "HF Config": "camel-ai--math",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2023-03-31",
+            "GitHub License": "Apache License 2.0",
+            "Text Topics": [
+                "Chaos theory",
+                "Cryptography",
+                "Differential equations",
+                "Calculus",
+                "Fourier analysis",
+                "Geometry",
+                "Topology",
+                "Set theory",
+                "Combinatorics",
+                "Fractal geometry",
+                "Trigonometry",
+                "Statistics",
+                "Optimization",
+                "Linear algebra",
+                "Algebraic geometry",
+                "Graph theory",
+                "Number theory",
+                "Complex analysis",
+                "Group theory",
+                "Numerical analysis",
+                "Differential geometry",
+                "Logic",
+                "Game theory",
+                "Probability"
+            ],
+            "Github Date": "",
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 32,
+            "GitHub Stars": 4338,
+            "GitHub Topics": [
+                "ai-societies",
+                "artificial-intelligence",
+                "communicative-ai",
+                "cooperative-ai",
+                "deep-learning",
+                "large-language-models",
+                "multi-agent-systems",
+                "natural-language-processing"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Li2023CAMELCA,\n author = {G. Li and Hasan Hammoud and Hani Itani and Dmitrii Khizbullin and Bernard Ghanem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society},\n volume = {abs/2303.17760},\n year = {2023}\n}\n"
+    },
+    "camelai-code": {
+        "Unique Dataset Identifier": "camelai-code",
+        "Dataset Name": "camelai_code",
+        "Collection": "Camel-AI Science",
+        "Collection URL": "https://github.com/camel-ai/camel",
+        "Dataset URL": "https://github.com/camel-ai/camel",
+        "GitHub URL": "https://github.com/camel-ai/camel",
+        "Hugging Face URL": "https://huggingface.co/datasets/camel-ai/code",
+        "Paper Title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2303.17760",
+        "Semantic Scholar Corpus ID": 257900712,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Scientific Knowledge Retrieval",
+            "Data Analysis",
+            "Factual Knowledge Question Answering",
+            "Logical Reasoning"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 50000,
+            "Mean Inputs Length": 153.8271,
+            "Mean Targets Length": 857.1557,
+            "Max Inputs Length": 12710,
+            "Max Targets Length": 35557,
+            "Min Inputs Length": 2,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 40,
+            "Mean Dialog Turns": 20.53208
+        },
+        "Text Sources": [
+            "templates"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4",
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "King Abdullah University of Science and Technology (KAUST)"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/camel-ai/camel#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2303.17760"
+            }
+        ],
+        "License Notes": "Uses GPT-4 to generate responses",
+        "License Verified By": "Vu Minh Chien",
+        "Dataset Filter IDs": [
+            "code"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "camel-ai/code",
+            "HF Config": "camel-ai--code",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2023-03-31",
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 32,
+            "GitHub Stars": 4338,
+            "GitHub Topics": [
+                "ai-societies",
+                "artificial-intelligence",
+                "communicative-ai",
+                "cooperative-ai",
+                "deep-learning",
+                "large-language-models",
+                "multi-agent-systems",
+                "natural-language-processing"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Li2023CAMELCA,\n author = {G. Li and Hasan Hammoud and Hani Itani and Dmitrii Khizbullin and Bernard Ghanem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society},\n volume = {abs/2303.17760},\n year = {2023}\n}\n"
+    },
+    "camelai-ai-society-translated-ar": {
+        "Unique Dataset Identifier": "camelai-ai-society-translated-ar",
+        "Dataset Name": "camelai-ai-society-translated-ar",
+        "Collection": "Camel-AI Science",
+        "Collection URL": "https://github.com/camel-ai/camel",
+        "Dataset URL": "https://github.com/camel-ai/camel",
+        "GitHub URL": "https://github.com/camel-ai/camel",
+        "Hugging Face URL": "https://huggingface.co/datasets/camel-ai/ai_society_translated",
+        "Paper Title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2303.17760",
+        "Semantic Scholar Corpus ID": 257900712,
+        "Languages": [
+            "Arabic"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Scientific Knowledge Retrieval",
+            "Data Analysis",
+            "Factual Knowledge Question Answering",
+            "Logical Reasoning"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 275000,
+            "Mean Inputs Length": 135.3661,
+            "Mean Targets Length": 421.2312,
+            "Max Inputs Length": 9881,
+            "Max Targets Length": 25553,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 40,
+            "Mean Dialog Turns": 14.4399
+        },
+        "Text Sources": [
+            "templates"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4",
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "King Abdullah University of Science and Technology (KAUST)"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/camel-ai/camel#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2303.17760"
+            }
+        ],
+        "License Notes": "Uses GPT-4 to generate responses",
+        "License Verified By": "Vu Minh Chien",
+        "Dataset Filter IDs": [
+            "ai-society-translated-ar"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "camel-ai/ai_society_translated",
+            "HF Config": "camel-ai--ai-society-translated",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2023-03-31",
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 32,
+            "GitHub Stars": 4338,
+            "GitHub Topics": [
+                "ai-societies",
+                "artificial-intelligence",
+                "communicative-ai",
+                "cooperative-ai",
+                "deep-learning",
+                "large-language-models",
+                "multi-agent-systems",
+                "natural-language-processing"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Li2023CAMELCA,\n author = {G. Li and Hasan Hammoud and Hani Itani and Dmitrii Khizbullin and Bernard Ghanem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society},\n volume = {abs/2303.17760},\n year = {2023}\n}\n"
+    },
+    "camelai-ai-society-translated-zh": {
+        "Unique Dataset Identifier": "camelai-ai-society-translated-zh",
+        "Dataset Name": "camelai-ai-society-translated-zh",
+        "Collection": "Camel-AI Science",
+        "Collection URL": "https://github.com/camel-ai/camel",
+        "Dataset URL": "https://github.com/camel-ai/camel",
+        "GitHub URL": "https://github.com/camel-ai/camel",
+        "Hugging Face URL": "https://huggingface.co/datasets/camel-ai/ai_society_translated",
+        "Paper Title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2303.17760",
+        "Semantic Scholar Corpus ID": 257900712,
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Scientific Knowledge Retrieval",
+            "Data Analysis",
+            "Factual Knowledge Question Answering",
+            "Logical Reasoning"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 25000,
+            "Mean Inputs Length": 45.9744,
+            "Mean Targets Length": 141.8916,
+            "Max Inputs Length": 7898,
+            "Max Targets Length": 2903,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 40,
+            "Mean Dialog Turns": 14.4399
+        },
+        "Text Sources": [
+            "templates"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4",
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "King Abdullah University of Science and Technology (KAUST)"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/camel-ai/camel#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2303.17760"
+            }
+        ],
+        "License Notes": "Uses GPT-4 to generate responses",
+        "License Verified By": "Vu Minh Chien",
+        "Dataset Filter IDs": [
+            "ai-society-translated-zh"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "camel-ai/ai_society_translated",
+            "HF Config": "camel-ai--ai-society-translated",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2023-03-31",
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 32,
+            "GitHub Stars": 4338,
+            "GitHub Topics": [
+                "ai-societies",
+                "artificial-intelligence",
+                "communicative-ai",
+                "cooperative-ai",
+                "deep-learning",
+                "large-language-models",
+                "multi-agent-systems",
+                "natural-language-processing"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Li2023CAMELCA,\n author = {G. Li and Hasan Hammoud and Hani Itani and Dmitrii Khizbullin and Bernard Ghanem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society},\n volume = {abs/2303.17760},\n year = {2023}\n}\n"
+    },
+    "camelai-ai-society-translated-ko": {
+        "Unique Dataset Identifier": "camelai-ai-society-translated-ko",
+        "Dataset Name": "camelai-ai-society-translated-ko",
+        "Collection": "Camel-AI Science",
+        "Collection URL": "https://github.com/camel-ai/camel",
+        "Dataset URL": "https://github.com/camel-ai/camel",
+        "GitHub URL": "https://github.com/camel-ai/camel",
+        "Hugging Face URL": "https://huggingface.co/datasets/camel-ai/ai_society_translated",
+        "Paper Title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2303.17760",
+        "Semantic Scholar Corpus ID": 257900712,
+        "Languages": [
+            "Korean"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Scientific Knowledge Retrieval",
+            "Data Analysis",
+            "Factual Knowledge Question Answering",
+            "Logical Reasoning"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 25000,
+            "Mean Inputs Length": 77.8122,
+            "Mean Targets Length": 235.3158,
+            "Max Inputs Length": 5238,
+            "Max Targets Length": 7807,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 40,
+            "Mean Dialog Turns": 14.4399
+        },
+        "Text Sources": [
+            "templates"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4",
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "King Abdullah University of Science and Technology (KAUST)"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/camel-ai/camel#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2303.17760"
+            }
+        ],
+        "License Notes": "Uses GPT-4 to generate responses",
+        "License Verified By": "Vu Minh Chien",
+        "Dataset Filter IDs": [
+            "ai-society-translated-ko"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "camel-ai/ai_society_translated",
+            "HF Config": "camel-ai--ai-society-translated",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2023-03-31",
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 32,
+            "GitHub Stars": 4338,
+            "GitHub Topics": [
+                "ai-societies",
+                "artificial-intelligence",
+                "communicative-ai",
+                "cooperative-ai",
+                "deep-learning",
+                "large-language-models",
+                "multi-agent-systems",
+                "natural-language-processing"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Li2023CAMELCA,\n author = {G. Li and Hasan Hammoud and Hani Itani and Dmitrii Khizbullin and Bernard Ghanem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society},\n volume = {abs/2303.17760},\n year = {2023}\n}\n"
+    },
+    "camelai-ai-society-translated-ja": {
+        "Unique Dataset Identifier": "camelai-ai-society-translated-ja",
+        "Dataset Name": "camelai-ai-society-translated-ja",
+        "Collection": "Camel-AI Science",
+        "Collection URL": "https://github.com/camel-ai/camel",
+        "Dataset URL": "https://github.com/camel-ai/camel",
+        "GitHub URL": "https://github.com/camel-ai/camel",
+        "Hugging Face URL": "https://huggingface.co/datasets/camel-ai/ai_society_translated",
+        "Paper Title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2303.17760",
+        "Semantic Scholar Corpus ID": 257900712,
+        "Languages": [
+            "Japanese"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Scientific Knowledge Retrieval",
+            "Data Analysis",
+            "Factual Knowledge Question Answering",
+            "Logical Reasoning"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 25000,
+            "Mean Inputs Length": 78.6202,
+            "Mean Targets Length": 217.6317,
+            "Max Inputs Length": 2299,
+            "Max Targets Length": 25553,
+            "Min Inputs Length": 2,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 40,
+            "Mean Dialog Turns": 14.4399
+        },
+        "Text Sources": [
+            "templates"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4",
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "King Abdullah University of Science and Technology (KAUST)"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/camel-ai/camel#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2303.17760"
+            }
+        ],
+        "License Notes": "Uses GPT-4 to generate responses",
+        "License Verified By": "Vu Minh Chien",
+        "Dataset Filter IDs": [
+            "ai-society-translated-ja"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "camel-ai/ai_society_translated",
+            "HF Config": "camel-ai--ai-society-translated",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2023-03-31",
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 32,
+            "GitHub Stars": 4338,
+            "GitHub Topics": [
+                "ai-societies",
+                "artificial-intelligence",
+                "communicative-ai",
+                "cooperative-ai",
+                "deep-learning",
+                "large-language-models",
+                "multi-agent-systems",
+                "natural-language-processing"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Li2023CAMELCA,\n author = {G. Li and Hasan Hammoud and Hani Itani and Dmitrii Khizbullin and Bernard Ghanem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society},\n volume = {abs/2303.17760},\n year = {2023}\n}\n"
+    },
+    "camelai-ai-society-translated-hi": {
+        "Unique Dataset Identifier": "camelai-ai-society-translated-hi",
+        "Dataset Name": "camelai-ai-society-translated-hi",
+        "Collection": "Camel-AI Science",
+        "Collection URL": "https://github.com/camel-ai/camel",
+        "Dataset URL": "https://github.com/camel-ai/camel",
+        "GitHub URL": "https://github.com/camel-ai/camel",
+        "Hugging Face URL": "https://huggingface.co/datasets/camel-ai/ai_society_translated",
+        "Paper Title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2303.17760",
+        "Semantic Scholar Corpus ID": 257900712,
+        "Languages": [
+            "Hindi"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Scientific Knowledge Retrieval",
+            "Data Analysis",
+            "Factual Knowledge Question Answering",
+            "Logical Reasoning"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 25000,
+            "Mean Inputs Length": 150.0968,
+            "Mean Targets Length": 477.2464,
+            "Max Inputs Length": 4507,
+            "Max Targets Length": 4536,
+            "Min Inputs Length": 4,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 40,
+            "Mean Dialog Turns": 14.4399
+        },
+        "Text Sources": [
+            "templates"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4",
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "King Abdullah University of Science and Technology (KAUST)"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/camel-ai/camel#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2303.17760"
+            }
+        ],
+        "License Notes": "Uses GPT-4 to generate responses",
+        "License Verified By": "Vu Minh Chien",
+        "Dataset Filter IDs": [
+            "ai-society-translated-hi"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "camel-ai/ai_society_translated",
+            "HF Config": "camel-ai--ai-society-translated",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2023-03-31",
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 32,
+            "GitHub Stars": 4338,
+            "GitHub Topics": [
+                "ai-societies",
+                "artificial-intelligence",
+                "communicative-ai",
+                "cooperative-ai",
+                "deep-learning",
+                "large-language-models",
+                "multi-agent-systems",
+                "natural-language-processing"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Li2023CAMELCA,\n author = {G. Li and Hasan Hammoud and Hani Itani and Dmitrii Khizbullin and Bernard Ghanem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society},\n volume = {abs/2303.17760},\n year = {2023}\n}\n"
+    },
+    "camelai-ai-society-translated-ru": {
+        "Unique Dataset Identifier": "camelai-ai-society-translated-ru",
+        "Dataset Name": "camelai-ai-society-translated-ru",
+        "Collection": "Camel-AI Science",
+        "Collection URL": "https://github.com/camel-ai/camel",
+        "Dataset URL": "https://github.com/camel-ai/camel",
+        "GitHub URL": "https://github.com/camel-ai/camel",
+        "Hugging Face URL": "https://huggingface.co/datasets/camel-ai/ai_society_translated",
+        "Paper Title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2303.17760",
+        "Semantic Scholar Corpus ID": 257900712,
+        "Languages": [
+            "Russian"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Scientific Knowledge Retrieval",
+            "Data Analysis",
+            "Factual Knowledge Question Answering",
+            "Logical Reasoning"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 25000,
+            "Mean Inputs Length": 165.3896,
+            "Mean Targets Length": 520.7974,
+            "Max Inputs Length": 4500,
+            "Max Targets Length": 6123,
+            "Min Inputs Length": 4,
+            "Min Targets Length": 3,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 40,
+            "Mean Dialog Turns": 14.4399
+        },
+        "Text Sources": [
+            "templates"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4",
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "King Abdullah University of Science and Technology (KAUST)"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/camel-ai/camel#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2303.17760"
+            }
+        ],
+        "License Notes": "Uses GPT-4 to generate responses",
+        "License Verified By": "Vu Minh Chien",
+        "Dataset Filter IDs": [
+            "ai-society-translated-ru"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "camel-ai/ai_society_translated",
+            "HF Config": "camel-ai--ai-society-translated",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2023-03-31",
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 32,
+            "GitHub Stars": 4338,
+            "GitHub Topics": [
+                "ai-societies",
+                "artificial-intelligence",
+                "communicative-ai",
+                "cooperative-ai",
+                "deep-learning",
+                "large-language-models",
+                "multi-agent-systems",
+                "natural-language-processing"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Li2023CAMELCA,\n author = {G. Li and Hasan Hammoud and Hani Itani and Dmitrii Khizbullin and Bernard Ghanem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society},\n volume = {abs/2303.17760},\n year = {2023}\n}\n"
+    },
+    "camelai-ai-society-translated-es": {
+        "Unique Dataset Identifier": "camelai-ai-society-translated-es",
+        "Dataset Name": "camelai-ai-society-translated-es",
+        "Collection": "Camel-AI Science",
+        "Collection URL": "https://github.com/camel-ai/camel",
+        "Dataset URL": "https://github.com/camel-ai/camel",
+        "GitHub URL": "https://github.com/camel-ai/camel",
+        "Hugging Face URL": "https://huggingface.co/datasets/camel-ai/ai_society_translated",
+        "Paper Title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2303.17760",
+        "Semantic Scholar Corpus ID": 257900712,
+        "Languages": [
+            "Spanish"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Scientific Knowledge Retrieval",
+            "Data Analysis",
+            "Factual Knowledge Question Answering",
+            "Logical Reasoning"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 25000,
+            "Mean Inputs Length": 177.7447,
+            "Mean Targets Length": 555.4952,
+            "Max Inputs Length": 6310,
+            "Max Targets Length": 6642,
+            "Min Inputs Length": 7,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 40,
+            "Mean Dialog Turns": 14.4399
+        },
+        "Text Sources": [
+            "templates"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4",
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "King Abdullah University of Science and Technology (KAUST)"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/camel-ai/camel#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2303.17760"
+            }
+        ],
+        "License Notes": "Uses GPT-4 to generate responses",
+        "License Verified By": "Vu Minh Chien",
+        "Dataset Filter IDs": [
+            "ai-society-translated-es"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "camel-ai/ai_society_translated",
+            "HF Config": "camel-ai--ai-society-translated",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2023-03-31",
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 32,
+            "GitHub Stars": 4338,
+            "GitHub Topics": [
+                "ai-societies",
+                "artificial-intelligence",
+                "communicative-ai",
+                "cooperative-ai",
+                "deep-learning",
+                "large-language-models",
+                "multi-agent-systems",
+                "natural-language-processing"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Li2023CAMELCA,\n author = {G. Li and Hasan Hammoud and Hani Itani and Dmitrii Khizbullin and Bernard Ghanem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society},\n volume = {abs/2303.17760},\n year = {2023}\n}\n"
+    },
+    "camelai-ai-society-translated-fr": {
+        "Unique Dataset Identifier": "camelai-ai-society-translated-fr",
+        "Dataset Name": "camelai-ai-society-translated-fr",
+        "Collection": "Camel-AI Science",
+        "Collection URL": "https://github.com/camel-ai/camel",
+        "Dataset URL": "https://github.com/camel-ai/camel",
+        "GitHub URL": "https://github.com/camel-ai/camel",
+        "Hugging Face URL": "https://huggingface.co/datasets/camel-ai/ai_society_translated",
+        "Paper Title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2303.17760",
+        "Semantic Scholar Corpus ID": 257900712,
+        "Languages": [
+            "French"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Scientific Knowledge Retrieval",
+            "Data Analysis",
+            "Factual Knowledge Question Answering",
+            "Logical Reasoning"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 25000,
+            "Mean Inputs Length": 186.7137,
+            "Mean Targets Length": 581.0839,
+            "Max Inputs Length": 6313,
+            "Max Targets Length": 6888,
+            "Min Inputs Length": 5,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 40,
+            "Mean Dialog Turns": 14.4399
+        },
+        "Text Sources": [
+            "templates"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4",
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "King Abdullah University of Science and Technology (KAUST)"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/camel-ai/camel#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2303.17760"
+            }
+        ],
+        "License Notes": "Uses GPT-4 to generate responses",
+        "License Verified By": "Vu Minh Chien",
+        "Dataset Filter IDs": [
+            "ai-society-translated-fr"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "camel-ai/ai_society_translated",
+            "HF Config": "camel-ai--ai-society-translated",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2023-03-31",
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 32,
+            "GitHub Stars": 4338,
+            "GitHub Topics": [
+                "ai-societies",
+                "artificial-intelligence",
+                "communicative-ai",
+                "cooperative-ai",
+                "deep-learning",
+                "large-language-models",
+                "multi-agent-systems",
+                "natural-language-processing"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Li2023CAMELCA,\n author = {G. Li and Hasan Hammoud and Hani Itani and Dmitrii Khizbullin and Bernard Ghanem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society},\n volume = {abs/2303.17760},\n year = {2023}\n}\n"
+    },
+    "camelai-ai-society-translated-de": {
+        "Unique Dataset Identifier": "camelai-ai-society-translated-de",
+        "Dataset Name": "camelai-ai-society-translated-de",
+        "Collection": "Camel-AI Science",
+        "Collection URL": "https://github.com/camel-ai/camel",
+        "Dataset URL": "https://github.com/camel-ai/camel",
+        "GitHub URL": "https://github.com/camel-ai/camel",
+        "Hugging Face URL": "https://huggingface.co/datasets/camel-ai/ai_society_translated",
+        "Paper Title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2303.17760",
+        "Semantic Scholar Corpus ID": 257900712,
+        "Languages": [
+            "German"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Scientific Knowledge Retrieval",
+            "Data Analysis",
+            "Factual Knowledge Question Answering",
+            "Logical Reasoning"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 25000,
+            "Mean Inputs Length": 180.6826,
+            "Mean Targets Length": 568.5094,
+            "Max Inputs Length": 5995,
+            "Max Targets Length": 6489,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 3,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 40,
+            "Mean Dialog Turns": 14.4399
+        },
+        "Text Sources": [
+            "templates"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4",
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "King Abdullah University of Science and Technology (KAUST)"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/camel-ai/camel#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2303.17760"
+            }
+        ],
+        "License Notes": "Uses GPT-4 to generate responses",
+        "License Verified By": "Vu Minh Chien",
+        "Dataset Filter IDs": [
+            "ai-society-translated-de"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "camel-ai/ai_society_translated",
+            "HF Config": "camel-ai--ai-society-translated",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2023-03-31",
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 32,
+            "GitHub Stars": 4338,
+            "GitHub Topics": [
+                "ai-societies",
+                "artificial-intelligence",
+                "communicative-ai",
+                "cooperative-ai",
+                "deep-learning",
+                "large-language-models",
+                "multi-agent-systems",
+                "natural-language-processing"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Li2023CAMELCA,\n author = {G. Li and Hasan Hammoud and Hani Itani and Dmitrii Khizbullin and Bernard Ghanem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society},\n volume = {abs/2303.17760},\n year = {2023}\n}\n"
+    },
+    "camelai-ai-society-translated-it": {
+        "Unique Dataset Identifier": "camelai-ai-society-translated-it",
+        "Dataset Name": "camelai-ai-society-translated-it",
+        "Collection": "Camel-AI Science",
+        "Collection URL": "https://github.com/camel-ai/camel",
+        "Dataset URL": "https://github.com/camel-ai/camel",
+        "GitHub URL": "https://github.com/camel-ai/camel",
+        "Hugging Face URL": "https://huggingface.co/datasets/camel-ai/ai_society_translated",
+        "Paper Title": "CAMEL: Communicative Agents for \"Mind\" Exploration of Large Scale Language Model Society",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2303.17760",
+        "Semantic Scholar Corpus ID": 257900712,
+        "Languages": [
+            "Italian"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Scientific Knowledge Retrieval",
+            "Data Analysis",
+            "Factual Knowledge Question Answering",
+            "Logical Reasoning"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {
+            "Num Dialogs": 25000,
+            "Mean Inputs Length": 172.6666,
+            "Mean Targets Length": 551.3027,
+            "Max Inputs Length": 6273,
+            "Max Targets Length": 6683,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 40,
+            "Mean Dialog Turns": 14.4399
+        },
+        "Text Sources": [
+            "templates"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4",
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "King Abdullah University of Science and Technology (KAUST)"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/camel-ai/camel#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2303.17760"
+            }
+        ],
+        "License Notes": "Uses GPT-4 to generate responses",
+        "License Verified By": "Vu Minh Chien",
+        "Dataset Filter IDs": [
+            "ai-society-translated-it"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "camel-ai/ai_society_translated",
+            "HF Config": "camel-ai--ai-society-translated",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Date": "2023-03-31",
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 32,
+            "GitHub Stars": 4338,
             "GitHub Topics": [
                 "ai-societies",
                 "artificial-intelligence",
