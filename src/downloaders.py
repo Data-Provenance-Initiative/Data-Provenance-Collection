@@ -979,6 +979,12 @@ def download_bactrianx(accepted_filter_ids):
         dsets.extend(dset)
     return dsets
 
+
+def download_orca_math(accepted_filter_ids):
+    dset = huggingface_download("microsoft/orca-math-word-problems-200k", split="train")
+    return dset
+
+
 def download_cobra_frames(accepted_filter_ids):
     mapping = {
         'normal': accepted_filter_ids[0],

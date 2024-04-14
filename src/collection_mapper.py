@@ -305,6 +305,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_wildchat,
         "prepare_function": preparers.prepare_wildchat,
     },
+    "Orca-Math": {
+        "download_function": downloaders.download_orca_math,
+        "prepare_function": preparers.prepare_orca_math,
+    },
     "Cobra Frames": {
         "download_function": downloaders.download_cobra_frames,
         "prepare_function": preparers.prepare_cobra_frames,

@@ -908,6 +908,14 @@ def prepare_bactrianx(row):
     ]
 
 
+def prepare_orca_math(row):
+    return convert_inputs_targets_to_messages(
+        row["question"],
+        row["answer"],
+        "orca-math"
+    )
+
+
 def prepare_aya_dataset(row):
     return convert_inputs_targets_to_messages(
         row["inputs"],
@@ -970,3 +978,4 @@ def prepare_conifer(row):
         })
         parent = i
     return messages
+
