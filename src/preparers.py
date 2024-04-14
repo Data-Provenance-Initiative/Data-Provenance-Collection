@@ -435,6 +435,12 @@ def prepare_code_alpaca(row):
         inputs, row["output"], "code_alpaca",
     )
 
+def prepare_glaive_code_assistant(row):
+    inputs = row["question"].strip()
+    return convert_inputs_targets_to_messages(
+        inputs, row["answer"], "glaive_code_assistant",
+    )
+
 
 def prepare_hc3(row, lang):
     # dset_id = f"hc3_{lang}-{row['source']}"
@@ -706,6 +712,42 @@ def prepare_open_orca(row):
         {"from": "assistant", "text": outputs.strip(), "parent": 0},
     ]
 
+def prepare_coig(row):
+    messages = []
+    parent = row['source']
+    parent_id = -1
+    for i, turn in enumerate(row['conversations']):
+        human_turn_item = {
+            "from": "user",
+            "text": row['instruction']+ turn['question'] if parent_id == -1 else turn['question'],
+            "parent": parent if parent_id == -1 else parent_id,
+        }
+        messages.append(human_turn_item)
+        parent_id += 1
+        agent_turn_item = {
+            "from": "assistant",
+            "text": turn['answer'],
+            "parent": parent_id,
+        }
+        messages.append(agent_turn_item)
+        parent_id += 1
+    return messages
+
+def prepare_coig_kun(row):
+    inputs = row['instruction']
+    outputs = row['output']
+    return [
+        {"from": "user", "text": inputs, "parent": row['_source']},
+        {"from": "assistant", "text": outputs, "parent": 0},
+    ]
+
+def prepare_coig_cqia(row):
+    inputs = "".join([row['instruction'] + row['input']])
+    outputs = row['output']
+    return [
+        {"from": "user", "text": inputs, "parent": row['_source']},
+        {"from": "assistant", "text": outputs, "parent": 0},
+    ]
 
 def prepare_selfee(row):
     outputs = row["outputs"]
@@ -904,6 +946,25 @@ def prepare_expertqa(row):
         row["answer"],
         "expert_qa"
     )
+
+
+def prepare_opengpt_healthcare(row):
+    text = row["text"].split("<|eos|>")[:-1]
+    parent = row["_source"]
+    messages = []
+
+    for i, turn in enumerate(text):
+        indicator_index = turn.find(">")
+        messages.append({
+            "from": "user" if turn[:indicator_index+1].strip() == "<|user|>" else "assistant",
+            "text": turn[indicator_index+1:].strip(),
+            "parent": parent,
+        })
+        parent = i
+
+    return messages
+        
+    
 
 def prepare_conifer(row):
     conversation = row["messages"]
