@@ -972,6 +972,14 @@ def prepare_expertqa(row):
     )
 
 
+def prepare_openmath_instruct(row):
+    return convert_inputs_targets_to_messages(
+        row["question"],
+        row["generated_solution"],
+        row["dataset"]
+    )
+
+
 def prepare_opengpt_healthcare(row):
     text = row["text"].split("<|eos|>")[:-1]
     parent = row["_source"]

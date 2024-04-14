@@ -329,6 +329,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_expertqa,
         "prepare_function": preparers.prepare_expertqa,
     },
+    "OpenMathInstruct-1": {
+        "download_function": downloaders.download_openmath_instruct,
+        "prepare_function": preparers.prepare_openmath_instruct,
+    },
     "OpenGPT Healthcare": {
         "download_function": downloaders.download_opengpt_healthcare,
         "prepare_function": preparers.prepare_opengpt_healthcare,
