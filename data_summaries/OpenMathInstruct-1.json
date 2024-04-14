@@ -44,7 +44,7 @@
         ],
         "Licenses": [
             {
-                "License": "NVIDIA License",
+                "License": "Custom",
                 "License URL": "https://huggingface.co/datasets/nvidia/OpenMathInstruct-1#license"
             },
             {
