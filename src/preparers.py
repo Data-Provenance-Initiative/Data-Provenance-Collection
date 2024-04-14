@@ -12,9 +12,9 @@ import re
 # ##########################################################################
 
 def convert_inputs_targets_to_messages(
-    input_text,
-    target_text,
-    dset,
+        input_text,
+        target_text,
+        dset,
 ):
     """
     Converts standard [input/output] type rows into the universal messages format.
@@ -67,22 +67,27 @@ def prepare_cobra_frames(row):
     """
 
     formatting = {
-    "speechContext": "[Context of statement] {}[/]",
-    "speakerIdentity": "[Speaker identity/characteristics] {}[/]",
-    "listenerIdentity": "[Listener identity/characteristics] {}[/]",
-    "statementCheck": "[The statement is complete and understandable] {}[/]",
-    "relevantPowerDynamics": "[Relevant power dynamics] {}[/]",
-    "conversationContext": "[Conversational context] {}[/]",
-    "statement": "[Statement] {}[/]",
-    "intent": "[Intent] {}[/]",
-    "offensiveness": "[Offensiveness] {}[/]",
-    "targetGroup": "[Targeted/referenced minority group] {}[/]",
-    "implication": "[Implied meaning/stereotype] {}[/]",
-    "targetGroupEmotionalReaction": "[Targeted minority group emotional reaction] {}[/]",
-    "targetGroupCognitiveReaction": "[Targeted minority group cognitive reaction] {}[/]",
+        "speechContext": "[Context of statement] {}[/]",
+        "speakerIdentity": "[Speaker identity/characteristics] {}[/]",
+        "listenerIdentity": "[Listener identity/characteristics] {}[/]",
+        "statementCheck": "[The statement is complete and understandable] {}[/]",
+        "relevantPowerDynamics": "[Relevant power dynamics] {}[/]",
+        "conversationContext": "[Conversational context] {}[/]",
+        "statement": "[Statement] {}[/]",
+        "intent": "[Intent] {}[/]",
+        "offensiveness": "[Offensiveness] {}[/]",
+        "targetGroup": "[Targeted/referenced minority group] {}[/]",
+        "implication": "[Implied meaning/stereotype] {}[/]",
+        "targetGroupEmotionalReaction": "[Targeted minority group emotional reaction] {}[/]",
+        "targetGroupCognitiveReaction": "[Targeted minority group cognitive reaction] {}[/]",
     }
 
     f = [
+        formatting[v].format(row[v])
+        for v in row.keys() if v in formatting
+    ]
+    input_instructions = "Following the examples and complete the structured explanation for the given statement.\n\n" + \
+                         row['examples']
             formatting[v].format(row[v])
             for v in row.keys() if v in formatting
         ]
@@ -159,8 +164,10 @@ def prepare_anthropic_hh_rlhf(row):
     # [(text, user, score)]
 
     # Add placeholder markers for splitting.
-    marked_chosen = chosen_text.replace('\n\nHuman:', f'{SEPARATOR}USER{SEPARATOR}').replace('\n\nAssistant:', f'{SEPARATOR}ASSISTANT{SEPARATOR}')
-    marked_rejected = rejected_text.replace('\n\nHuman:', f'{SEPARATOR}USER{SEPARATOR}').replace('\n\nAssistant:', f'{SEPARATOR}ASSISTANT{SEPARATOR}')
+    marked_chosen = chosen_text.replace('\n\nHuman:', f'{SEPARATOR}USER{SEPARATOR}').replace('\n\nAssistant:',
+                                                                                             f'{SEPARATOR}ASSISTANT{SEPARATOR}')
+    marked_rejected = rejected_text.replace('\n\nHuman:', f'{SEPARATOR}USER{SEPARATOR}').replace('\n\nAssistant:',
+                                                                                                 f'{SEPARATOR}ASSISTANT{SEPARATOR}')
 
     # Split the transcript into statements using the placeholder markers.
     chosen_seq = marked_chosen.split(SEPARATOR)[1:]
@@ -243,7 +250,7 @@ def prepare_oasst_octopack(row):
         messages.append({
             "from": "user" if segment["role"] == "prompter" else "assistant",
             "text": segment["text"].strip().replace("\"", ""),
-            "parent": i-1 if i else "octopack",
+            "parent": i - 1 if i else "octopack",
         })
     return messages
 
@@ -308,6 +315,7 @@ def prepare_llama2_med_tuned_instructions(row):
         inputs, row["output"], "llama2_med_tuned_instructions",
     )
 
+
 def prepare_capybara(row):
     messages = []
     parent_id = 0
@@ -328,6 +336,7 @@ def prepare_capybara(row):
         parent_id += 1
     return messages
 
+
 def prepare_evol_instruct(row):
     return convert_inputs_targets_to_messages(
         row['instruction'], row["output"], "evol_instruct",
@@ -340,7 +349,7 @@ def prepare_deita_10k(row):
         messages.append({
             "from": "user" if turn["from"] == "human" else "assistant",
             "text": turn["value"].strip(),
-            "parent": row["source"] if i == 0 else i-1
+            "parent": row["source"] if i == 0 else i - 1
         })
     return messages
 
@@ -369,6 +378,7 @@ def prepare_pure_dove(row):
         })
         parent_id += 1
     return messages
+
 
 def prepare_nectar(row):
     human = []
@@ -407,6 +417,7 @@ def prepare_nectar(row):
             })
             parent_id += 1
         return messages
+
 
 def prepare_feedback_collection(row):
     return convert_inputs_targets_to_messages(
@@ -569,7 +580,7 @@ def prepare_starcoder_self_instruct(row):
         'starcoder-self-instruct'
     )
 
-  
+
 def prepare_thai_gen_ai_gpteacher(row):
     inputs = row["instruction"].strip()
     if row["input"]:
@@ -653,9 +664,10 @@ def prepare_wildchat(row):
         messages.append({
             'from': script_dict['role'],
             'text': script_dict['content'].strip(),
-            'parent': row['model'] if i==0 else i-1
+            'parent': row['model'] if i == 0 else i - 1
         })
     return messages
+
 
 def prepare_airoboros(row):
     parent = "airoboros"
@@ -669,6 +681,7 @@ def prepare_airoboros(row):
         parent = i
     return messages
 
+
 def prepare_lima(row):
     messages = []
     parent = row['source']
@@ -681,6 +694,7 @@ def prepare_lima(row):
         parent = i
     return messages
 
+  
 def prepare_tool_llama(row):
     return convert_inputs_targets_to_messages(
         row['context'] + row['instruction'],
@@ -688,10 +702,12 @@ def prepare_tool_llama(row):
         'toolbench',
     )
 
+
 def prepare_mathinstruct(row):
     return convert_inputs_targets_to_messages(
         row["instruction"], row["output"], row["_source"]
     )
+
 
 def prepare_gorilla(row):
     return convert_inputs_targets_to_messages(
@@ -699,6 +715,7 @@ def prepare_gorilla(row):
         row['response'],
         'gorilla-apibench',
     )
+
 
 def prepare_baize_data(row):
     messages = []
@@ -788,6 +805,7 @@ def prepare_selfee(row):
         row['instruction'], parsed_outputs, "selfee",
     )
 
+
 def prepare_pmc_llama(row):
     inputs = "".join([row['instruction'] + row['input']])
     return convert_inputs_targets_to_messages(
@@ -795,7 +813,8 @@ def prepare_pmc_llama(row):
         row['output'],
         row['source']
     )
-  
+
+
 def prepare_medical_meadow(row):
     inputs = "".join([row['instruction'] + row['input']])
     return convert_inputs_targets_to_messages(
@@ -804,6 +823,7 @@ def prepare_medical_meadow(row):
         row["_source"],
     )
 
+
 def prepare_medinstruct(row):
     inputs = "".join([row['instruction'] + row['input']])
     return convert_inputs_targets_to_messages(
@@ -811,11 +831,13 @@ def prepare_medinstruct(row):
         row['output'],
         'medinstruct',
     )
-      
+
+
 def prepare_chatdoctor(row):
     return convert_inputs_targets_to_messages(
         row["inputs"], row["outputs"], row["_source"]
     )
+
 
 def prepare_seabench(row):
     inputs = row["turns"][0].strip()
@@ -826,7 +848,7 @@ def prepare_seabench(row):
         {"from": "assistant", "text": outputs, "parent": 0},
     ]
 
-  
+
 def prepare_agentinstruct(row):
     datasets = row  # Based on the current structure, a row represents all datasets :TODO: might need to change this
     messages = []
@@ -847,45 +869,47 @@ def prepare_cidar(row):
         'cidar',
     )
 
+
 def prepare_indic_instruct(row):
     ''' This dataset conatins lots of other datasets, each having their own format. A different prepare method is needed for each sub-dataset
     Some datasets such as 'hh-rlhf', 'lm_sys', 'oasst1' have same forrmat and thus they have the prepare method below
     '''
-    if row['dataset'] == 'anudesh' :
+    if row['dataset'] == 'anudesh':
         return convert_inputs_targets_to_messages(
             row['messages'][0]['content'], row['messages'][1]['content'], row['dataset']
         )
 
-    if row['dataset'] == 'dolly' :
+    if row['dataset'] == 'dolly':
         input_text = re.sub(r'\s*\[.*?\]\s*', '', "\n".join([row["context"], row["instruction"]]).strip())
         target_text = re.sub(r'\s*\[.*?\]\s*', '', row["response"])
         return convert_inputs_targets_to_messages(
             input_text, target_text, row["dataset"]
         )
 
-    if row['dataset'] == 'flan_v2' :
+    if row['dataset'] == 'flan_v2':
         return convert_inputs_targets_to_messages(
             row["inputs"], row["targets"], row['dataset']
         )
 
-    if row['dataset'] in ['hh-rlhf', 'lm_sys', 'oasst1'] :
+    if row['dataset'] in ['hh-rlhf', 'lm_sys', 'oasst1']:
         messages = []
         for i, turn in enumerate(row['messages']):
             messages.append({
                 "from": turn["role"],
                 "text": turn["content"].strip(),
-                "parent": row['dataset'] if turn["role"]=='user' else 0,
+                "parent": row['dataset'] if turn["role"] == 'user' else 0,
             })
         return messages
 
-    if row['dataset'] == 'nmt-seed' :
+    if row['dataset'] == 'nmt-seed':
         return convert_inputs_targets_to_messages(
             row["input_text"], row["output_text"], row['dataset']
         )
 
-    if row['dataset'] == 'wikihow' :
+
+    if row['dataset'] == 'wikihow':
         input_text = row["intro"]
-        for i, turn in enumerate(row["steps"]) :
+        for i, turn in enumerate(row["steps"]):
             input_text += '\n' + turn['description']
         input_text += row['messages'][0]['content']
 
@@ -912,8 +936,8 @@ def prepare_no_robots(row):
         row["messages"][1]["content"],
         row["category"]
     )
-  
-  
+
+
 def prepare_help_steer(row):
     return convert_inputs_targets_to_messages(
         row["prompt"],
@@ -932,6 +956,23 @@ def prepare_bactrianx(row):
     ]
 
 
+def prepare_10k_prompt_ranked(row):
+    inputs = row["prompt"] + "\n\n" + "Considering the previous paragraph, rate the quality of its content on a scale " \
+                                      "of 1 to 5. Here are the criteria to consider: \n Grammar and mechanics: Are " \
+                                      "there any grammatical errors, typos, or punctuation mistakes? (1 = Many errors, " \
+                                      "5 = Flawless) \n Clarity: Is the paragraph easy to understand? Is the writing " \
+                                      "clear and concise? (1 = Difficult to understand, 5 = Crystal clear) " \
+                                      "\n Specificity of information: Does the paragraph provide specific details and " \
+                                      "examples to support its claims? (1 = Very vague, 5 = Highly specific) \n " \
+                                      "Organization: Does the paragraph flow logically and smoothly from sentence to " \
+                                      "sentence? (1 = Disorganized, 5 = Well-organized)"
+    outputs = f"The rating for the above paragraph is {str(row['avg_rating'])}."
+    return convert_inputs_targets_to_messages(
+        inputs,
+        outputs,
+        '10k-prompt-ranked'
+
+      
 def prepare_orca_math(row):
     return convert_inputs_targets_to_messages(
         row["question"],
@@ -996,7 +1037,6 @@ def prepare_opengpt_healthcare(row):
 
     return messages
         
-    
 
 def prepare_conifer(row):
     conversation = row["messages"]
