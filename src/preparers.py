@@ -435,6 +435,12 @@ def prepare_code_alpaca(row):
         inputs, row["output"], "code_alpaca",
     )
 
+def prepare_glaive_code_assistant(row):
+    inputs = row["question"].strip()
+    return convert_inputs_targets_to_messages(
+        inputs, row["answer"], "glaive_code_assistant",
+    )
+
 
 def prepare_hc3(row, lang):
     # dset_id = f"hc3_{lang}-{row['source']}"

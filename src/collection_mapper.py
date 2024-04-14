@@ -89,6 +89,9 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_alpaca,
         "prepare_function": preparers.prepare_alpaca,
     },
+    "Glaive Code Assistant": {
+        "download_function": downloaders.download_glaive_code_assistant,
+        "prepare_function": preparers.prepare_glaive_code_assistant,
     "Nectar": {
         "download_function": downloaders.download_nectar,
         "prepare_function": preparers.prepare_nectar,
