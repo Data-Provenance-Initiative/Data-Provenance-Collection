@@ -529,13 +529,7 @@ def download_wildchat(accepted_filter_ids):
 
 
 def download_airoboros(accepted_filter_ids):
-    dset_fpath = hf_hub_download(
-        repo_id="jondurbin/airoboros-gpt4-1.2",
-        filename="as_conversations.json",
-        repo_type="dataset"
-    )
-    dset = convert_to_utf8(dset_fpath)
-    return dset
+    return huggingface_download('jondurbin/airoboros-3.2', split='train')
 
 
 def download_lima(accepted_filter_ids):
