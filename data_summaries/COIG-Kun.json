@@ -1,0 +1,141 @@
+{
+    "coig-kun-skypile": {
+        "Unique Dataset Identifier": "coig-kun-skypile",
+        "Dataset Name": "COIG-Kun-skypile",
+        "Paper Title": "Kun: Answer Polishment Saves Your Time for Using Intruction Backtranslation on Self-Alignment",
+        "Dataset URL": "https://github.com/Zheng0428/COIG-Kun",
+        "GitHub URL": "https://github.com/Zheng0428/COIG-Kun",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-Kun",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2401.06477",
+        "Semantic Scholar Corpus ID": "266977233",
+        "Collection": "COIG-Kun",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-Kun",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "undisclosed web",
+            "https://huggingface.co/datasets/Skywork/SkyPile-150B"
+        ],
+        "Model Generated": ["m-a-p/Kun-LabelModel", "m-a-p/Kun-PrimaryChatModel"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "skypile"
+        ],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)"
+        ],
+        "Licenses": [
+            {
+                "License": "Skywork Community License",
+                "License URL": "https://github.com/SkyworkAI/Skywork/blob/main/Skywork%20Community%20License.pdf"
+            }
+        ],
+        "License Notes": "Skywork Community License is defined by the SkyworkAI.",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-kun-skypile"
+        ],
+        "Bibtex": "@misc{wei2023skywork,\n      title={Skywork: A More Open Bilingual Foundation Model}, \n      author={Tianwen Wei and Liang Zhao and Lichang Zhang and Bo Zhu and Lijie Wang and Haihua Yang and Biye Li and Cheng Cheng and Weiwei Lü and Rui Hu and Chenxia Li and Liu Yang and Xilin Luo and Xuejie Wu and Lunan Liu and Wenjun Cheng and Peng Cheng and Jianhao Zhang and Xiaoyu Zhang and Lei Lin and Xiaokun Wang and Yutuan Ma and Chuanhai Dong and Yanqi Sun and Yifu Chen and Yongyi Peng and Xiaojuan Liang and Shuicheng Yan and Han Fang and Yahui Zhou},\n      year={2023},\n      eprint={2310.19341},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}"
+    },
+    "coig-kun-wanjuan": {
+        "Unique Dataset Identifier": "coig-kun-wanjuan",
+        "Dataset Name": "COIG-Kun-wanjuan",
+        "Paper Title": "Kun: Answer Polishment Saves Your Time for Using Intruction Backtranslation on Self-Alignment",
+        "Dataset URL": "https://github.com/Zheng0428/COIG-Kun",
+        "GitHub URL": "https://github.com/Zheng0428/COIG-Kun",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-Kun",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2401.06477",
+        "Semantic Scholar Corpus ID": "266977233",
+        "Collection": "COIG-Kun",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-Kun",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "https://github.com/opendatalab/WanJuan1.0"
+        ],
+        "Model Generated": ["m-a-p/Kun-LabelModel", "m-a-p/Kun-PrimaryChatModel"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "wanjuan"
+        ],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://github.com/opendatalab/WanJuan1.0?tab=readme-ov-file#license"
+            }
+        ],
+        "License Notes": "License information from Github page.",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-kun-wanjuan"
+        ],
+        "Bibtex": "@misc{he2023wanjuan,\n      title={WanJuan: A Comprehensive Multimodal Dataset for Advancing English and Chinese Large Models}, \n      author={Conghui He and Zhenjiang Jin and Chao Xu and Jiantao Qiu and Bin Wang and Wei Li and Hang Yan and Jiaqi Wang and Dahua Lin},\n      year={2023},\n      eprint={2308.10755},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}"
+    },
+    "coig-kun-wudao": {
+        "Unique Dataset Identifier": "coig-kun-wudao",
+        "Dataset Name": "COIG-Kun-wudao",
+        "Paper Title": "Kun: Answer Polishment Saves Your Time for Using Intruction Backtranslation on Self-Alignment",
+        "Dataset URL": "https://github.com/Zheng0428/COIG-Kun",
+        "GitHub URL": "https://github.com/Zheng0428/COIG-Kun",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-Kun",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2401.06477",
+        "Semantic Scholar Corpus ID": "266977233",
+        "Collection": "COIG-Kun",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-Kun",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "https://www.scidb.cn/en/detail?dataSetId=c6a3fe684227415a9db8e21bac4a15ab"
+        ],
+        "Model Generated": ["m-a-p/Kun-LabelModel", "m-a-p/Kun-PrimaryChatModel"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "wudao"
+        ],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://creativecommons.org/licenses/by-sa/4.0"
+            }
+        ],
+        "License Notes": "License information from the dataset page, uploaded by the authors.",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-kun-wudao"
+        ],
+        "Bibtex": "@misc{WuDaoCorporaText,\n  author       = {Zhao Xue and Hanyu Zhao and Sha Yuan and Yequan Wang},\n  title        = {{WuDaoCorpora Text}},\n  year         = 2022,\n  month        = dec,\n  publisher    = {Science Data Bank},\n  version      = {V1},\n  doi          = {10.57760/sciencedb.o00126.00004},\n  url          = https://doi.org/10.57760/sciencedb.o00126.00004\n}"
+    }
+}
