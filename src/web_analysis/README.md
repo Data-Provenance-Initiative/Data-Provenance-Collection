@@ -1,4 +1,4 @@
-## Web Analysis
+# Web Analysis
 
 This portion of the repository has scripts for analyzing web scrapes.
 
@@ -16,6 +16,18 @@ This script collects historical versions of webpages and extracts their raw text
 
 ```
 <run command>
+```
+
+### Robots.txt Extraction & Parsing
+
+These scripts (a) extract the robots.txt from a list of websites, and (b) interpret the robots.txt, producing aggregate statistics.
+
+```
+python src/web_analysis/extract_robots.py <in-path> <out-path>
+```
+
+```
+python src/web_analysis/parse_robots.py <in-path> <out-path>
 ```
 
 ### Pretrain Corpora Analysis
