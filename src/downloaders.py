@@ -765,6 +765,150 @@ def download_gorilla(accepted_filter_ids):
 
     return Dataset.from_dict(ret)
 
+def download_coig(accepted_filter_ids):
+    dset = []
+    from datasets.utils import DownloadManager
+
+    dl_manager = DownloadManager()
+
+    base_url = "https://huggingface.co/datasets/BAAI/COIG/resolve/main"
+    filter_id_to_filenames = {
+        "coig-translated-instruction" : ["translated_instructions.jsonl"],
+        "coig-exam-instruction" : ["exam_instructions.jsonl"],
+        "coig-alignment-instruction" : ["human_value_alignment_instructions_part1.json", "human_value_alignment_instructions_part2.json"],
+        "coig-counterfactual-correction" : ["counterfactural_correction_multi_round_chat.tar.gz"],
+        "coig-leetcode" : ["leetcode_instructions.jsonl"],
+    }
+    filenames_to_filter_ids = {}
+    for k, v in filter_id_to_filenames.items():
+        for fn in v:
+            filenames_to_filter_ids[fn] = k
+    
+    filenames = []
+    for id in accepted_filter_ids:
+        filenames.extend(filter_id_to_filenames[id])
+    fileurls = [f"{base_url}/{fn}" for fn in filenames]
+    
+    if len(fileurls) > 0:
+        local_datafiles = dl_manager.download(fileurls)
+    for i in range(len(filenames)):
+        if filenames[i].endswith(".tar.gz"):
+            if dl_manager.is_streaming:
+                local_datafiles[i] = dl_manager.iter_archive(local_datafiles[i])
+            else:
+                extracted_path = dl_manager.extract(local_datafiles[i])
+                extracted_path = os.path.join(extracted_path, filenames[i][:-len(".tar.gz")])
+                def get_file_iter():
+                    for json_file in os.listdir(extracted_path):
+                        json_path = os.path.join(extracted_path, json_file)
+                        with open(json_path, "rb") as jfp:
+                            yield json_path, jfp
+                local_datafiles[i] = get_file_iter()
+    
+    all_data_list = []
+    for fi, fn in enumerate(filenames):
+        if fn == "counterfactural_correction_multi_round_chat.tar.gz":
+            max_rounds = 10
+            for json_file, jfp in local_datafiles[fi]:
+                sample = {"instruction": "", "conversations": []}
+                legal_convs = True
+                data = json.loads(jfp.read().decode('utf8'))
+                for ri in range(max_rounds):
+                    if f"round_{ri}" not in data:
+                        continue
+                    conv = json.loads(data[f"round_{ri}"]["response"])
+                    sample["conversations"].append({"question": conv["Q"], "answer": conv["A"]})
+                    if not(isinstance(conv["Q"], str) and isinstance(conv["A"], str)):
+                        legal_convs = False
+                if legal_convs and len(sample["conversations"]) > 0:
+                    sample['source'] = filenames_to_filter_ids[fn]
+                    all_data_list.append(sample)
+        elif fn == "exam_instructions.jsonl" or fn == "human_value_alignment_instructions_part2.json":
+            with open(local_datafiles[fi], "r") as jfp:
+                for line in jfp:
+                    sample = {"instruction": "", "conversations": []}
+                    data = json.loads(line.strip(" \n"))
+                    sample["instruction"] = data["textbox_q_instruction"]
+                    question = ""
+                    if "textbox_q_context" in data and len(data["textbox_q_context"]) > 0:
+                        question += data["textbox_q_context"] + "\n"
+                    question += data["textbox_question"]
+                    if "textbox_answer_analysis" in data and len(data["textbox_answer_analysis"]) > 0:
+                        answer = data["textbox_answer_analysis"]
+                    else:
+                        answer = data["textbox_answer"]
+                    sample["conversations"].append({"question": question, "answer": answer})
+                    sample['source'] = filenames_to_filter_ids[fn]
+                    all_data_list.append(sample)
+        elif fn == "human_value_alignment_instructions_part1.json":
+                with open(local_datafiles[fi], "r") as jfp:
+                    all_data = json.load(jfp)
+                for data in all_data:
+                    if len(data["input"]) > 0:
+                        sample = {"instruction": data["instruction"], "conversations": [{
+                            "question": data["input"],
+                            "answer": data["output"],
+                            }]}
+                    else:
+                        sample = {"instruction": "", "conversations": [{
+                            "question": data["instruction"],
+                            "answer": data["output"],
+                            }]}
+                    sample['source'] = filenames_to_filter_ids[fn]
+                    all_data_list.append(sample)
+        elif fn == "leetcode_instructions.jsonl":
+            with open(local_datafiles[fi], "r") as jfp:
+                for line in jfp:
+                    data = json.loads(line.strip(" \n"))
+                    if len(data["input"]) > 0:
+                        sample = {"instruction": data["instruction"], "conversations": [{
+                            "question": data["input"],
+                            "answer": data["output"],
+                            }]}
+                    else:
+                        sample = {"instruction": "", "conversations": [{
+                            "question": data["instruction"],
+                            "answer": data["output"],
+                            }]}
+                    sample['source'] = filenames_to_filter_ids[fn]
+                    all_data_list.append(sample)
+        elif fn == "translated_instructions.jsonl":
+            with open(local_datafiles[fi], "r") as jfp:
+                for line in jfp:
+                    data = json.loads(line.strip(" \n"))
+                    if len(data["trans_input"]) > 0:
+                        sample = {"instruction": data["trans_instruction"], "conversations": [{
+                            "question": data["trans_input"],
+                            "answer": data["trans_output"],
+                            }]}
+                    else:
+                        sample = {"instruction": "", "conversations": [{
+                            "question": data["trans_instruction"],
+                            "answer": data["trans_output"],
+                            }]}
+                    sample['source'] = filenames_to_filter_ids[fn]
+                    all_data_list.append(sample)
+    if len(all_data_list) > 0:
+        dset = Dataset.from_list(all_data_list)
+    return dset
+
+def download_coig_kun(accepted_filter_ids):
+    dset = []
+    for split in accepted_filter_ids:
+        dset_tmp = huggingface_download('m-a-p/COIG-Kun', split=split.replace('coig-kun-',''))
+        dset_tmp = annotate_source(dset_tmp, split)
+        dset = dset  + dset_tmp
+    return dset
+
+def download_coig_cqia(accepted_filter_ids):
+    dset = []
+    for split in accepted_filter_ids:
+        id = split.replace('coig-cqia-','').replace('-','_')
+        dset_tmp = load_dataset('m-a-p/COIG-CQIA', id)['train']
+        dset_tmp = annotate_source(dset_tmp.to_list(), split)
+        dset = dset  + dset_tmp
+    return dset
+
 def download_chatdoctor(accepted_filter_ids):
     dset = []
     if "chatdoctor-healthcaremagic-100k" in accepted_filter_ids:
@@ -840,7 +984,6 @@ def download_bactrianx(accepted_filter_ids):
         dset = annotate_source(dset, dset_name)
         dsets.extend(dset)
     return dsets
-
 
 def download_cobra_frames(accepted_filter_ids):
     mapping = {
@@ -925,4 +1068,3 @@ def download_opengpt_healthcare(accepted_filter_ids):
 def download_conifer(accepted_filter_ids):
     dset = huggingface_download("ConiferLM/Conifer", split="train_sft")
     return dset
-
