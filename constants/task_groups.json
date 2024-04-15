@@ -94,7 +94,8 @@
         "Pun Detection",
         "Word Analogy",
         "Word Association",
-        "Wordplay Detection"
+        "Wordplay Detection",
+        "Literature and Arts"
     ],
     "Dialog Generation": [
         "Argumentative Dialogue Generation",
@@ -153,7 +154,6 @@
         "Logical Reasoning",
         "Logical and Mathematical Reasoning",
         "Logical Reasoning Question Answering",
-        "Logical and Mathematical Reasoning",
         "Mathematical Equation Generation",
         "Numerical Data Aggregation and Analysis",
         "Ordering Task",
