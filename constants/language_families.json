@@ -18,7 +18,7 @@
         "Oromo",
         "Somali",
         "South Levantine Arabic",
-        "Ta’izzi-Adeni Arabic",
+        "Ta'izzi-Adeni Arabic",
         "Tigrinya",
         "Tunisian Arabic",
         "West Central Oromo"
@@ -58,6 +58,7 @@
         "Cebuano",
         "Chamorro",
         "Fijian",
+        "Filipino",
         "Hawaiian",
         "Ilocano",
         "Indonesian",
@@ -362,9 +363,26 @@
         "Telugu",
         "Tulu"
     ],
+    "French": [
+        "French"
+    ],
+    "Germanic": [
+        "Danish",
+        "Dutch",
+        "English",
+        "German",
+        "Icelandic",
+        "Norwegian",
+        "Swedish"
+    ],
+    "Hindustani": [
+        "Hindi",
+        "Urdu"
+    ],
     "Indo-European": [
         "Afrikaans",
         "Albanian",
+        "Albanian (Tosk)",
         "Armenian",
         "Assamese",
         "Asturian",
@@ -406,6 +424,7 @@
         "Hindi",
         "Hungarian",
         "Icelandic",
+        "Iranian Persian",
         "Irish",
         "Italian",
         "Kashmiri (Arabic script)",
@@ -432,6 +451,7 @@
         "Odia",
         "Panjabi",
         "Pashto",
+        "Pashto (Southern)",
         "Persian",
         "Polish",
         "Portugese (Brazilian)",
@@ -472,6 +492,9 @@
         "Western Frisian",
         "Western Persian",
         "Yiddish"
+    ],
+    "Italian": [
+        "Italian"
     ],
     "Japonic": [
         "Japanese"
@@ -547,6 +570,9 @@
         "Volapük",
         "Zulu"
     ],
+    "Russian": [
+        "Russian"
+    ],
     "Sino-Tibetan": [
         "Burmese",
         "Burmese",
@@ -560,6 +586,9 @@
         "Mizo",
         "Standard Tibetan",
         "Yue Chinese"
+    ],
+    "Spanish": [
+        "Spanish"
     ],
     "Turkic": [
         "Azerbaijani",

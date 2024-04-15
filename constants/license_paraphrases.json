@@ -138,7 +138,8 @@
         "https://github.com/nlpdata/dialogre/blob/master/license.txt",
         "https://raw.githubusercontent.com/duorc/duorc/master/LICENSE",
         "https://raw.githubusercontent.com/knowitall/ollie/master/LICENSE",
-        "https://s3-media3.fl.yelpcdn.com/assets/srv0/engineering_pages/bea5c1e92bf3/assets/vendor/yelp-dataset-agreement.pdf"
+        "https://s3-media3.fl.yelpcdn.com/assets/srv0/engineering_pages/bea5c1e92bf3/assets/vendor/yelp-dataset-agreement.pdf",
+        "https://huggingface.co/datasets/nvidia/OpenMathInstruct-1#license"
     ],
     "GNU General Public License v3.0": [
         "GNU Affero General Public License v3.0",
