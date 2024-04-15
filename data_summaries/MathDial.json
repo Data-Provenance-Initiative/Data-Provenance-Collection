@@ -22,7 +22,10 @@
         "Text Sources": [
             "arithmetic word problems",
             "Math Word Problems",
-            "gsm8k"
+            "Grade School Math",
+            "gsm8k",
+            "crowdsourced",
+            "human"
         ],
         "Model Generated": [
             "OpenAI GPT-3.5-Turbo"
