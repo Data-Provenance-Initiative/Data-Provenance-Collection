@@ -46,6 +46,13 @@ def interpret_agent(rules):
 
 
 def interpret_robots(agent_rules, all_agents):
+    """Given the robots.txt agent rules, and a list of relevant agents 
+    (a superset of the robots.txt), determine whether they are:
+
+    (1) blocked from scraping all parts of the website
+    (2) blocked from scraping part of the website
+    (3) NOT blocked from scraping at all
+    """
     # agent --> "all", "some", or "none" blocked.
     agent_to_judgement = {}
 
@@ -61,11 +68,17 @@ def interpret_robots(agent_rules, all_agents):
 
         
 def aggregate_robots(url_to_rules, all_agents):
+    """Across all robots.txt, determine basic stats:
+    (1) For each agent, how often it is explicitly mentioned
+    (2) For each agent, how often it is blocked from scraping all parts of the website
+    (3) For each agent, how often it is blocked from scraping part of the website
+    (4) For each agent, how often it is NOT blocked from scraping at all
+    """
     robots_stats = defaultdict(lambda: {'counter': 0, 'all': 0, 'some': 0, 'none': 0})
 
     for url, robots in url_to_rules.items():
         agent_to_judgement = interpret_robots(robots, all_agents)
-        for agent in all_agents.union(set(["*"])):
+        for agent in all_agents + ["*"]:
             judgement = agent_to_judgement[agent]
             robots_stats[agent][judgement] += 1
             if agent in robots: # Missing robots.txt means nothing blocked
@@ -96,8 +109,8 @@ def main(args):
                 print(f"Error processing {url}: {e}")
 
     # Collect all agents
-    all_agents = set([agent for url, rules in url_to_rules.items() 
-                      for agent, _ in rules.items() if agent not in ["ERRORS", "Sitemaps", "*"]])
+    all_agents = list(set([agent for url, rules in url_to_rules.items() 
+                      for agent, _ in rules.items() if agent not in ["ERRORS", "Sitemaps", "*"]]))
 
     robots_stats = aggregate_robots(url_to_rules, all_agents)
 
