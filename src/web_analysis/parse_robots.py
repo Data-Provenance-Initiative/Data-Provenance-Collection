@@ -30,14 +30,62 @@ def parse_robots_txt(robots_txt):
     
     return rules
 
-def summarize_rules(rules):
-    summary = defaultdict(lambda: {'total': 0, 'disallow_all': 0})
-    for agent, rule in rules.items():
-        if agent not in ["ERRORS", "Sitemaps"]:
-            summary[agent]['total'] += 1
-            if any('/' == x.strip() for x in rule['Disallow:']):
-                summary[agent]['disallow_all'] += 1
-    return summary
+def interpret_agent(rules):
+
+    agent_disallow = rules.get("Disallow", [])
+    agent_allow = rules.get("Allow", [])
+
+    if any('/' == x.strip() for x in agent_disallow):
+        disallow_type = "all"
+    elif len(agent_disallow) == 0 or agent_disallow == [""]:
+        disallow_type = "none"
+    else:
+        disallow_type = "some"
+
+    return disallow_type
+
+
+def interpret_robots(agent_rules, all_agents):
+    """Given the robots.txt agent rules, and a list of relevant agents 
+    (a superset of the robots.txt), determine whether they are:
+
+    (1) blocked from scraping all parts of the website
+    (2) blocked from scraping part of the website
+    (3) NOT blocked from scraping at all
+    """
+    # agent --> "all", "some", or "none" blocked.
+    agent_to_judgement = {}
+
+    star_judgement = interpret_agent(agent_rules.get("*", {}))
+    agent_to_judgement["*"] = star_judgement
+
+    for agent in all_agents:
+        rule = agent_rules.get(agent)
+        judgement = interpret_agent(rule) if rule is not None else agent_to_judgement["*"]
+        agent_to_judgement[agent] = judgement
+
+    return agent_to_judgement
+
+        
+def aggregate_robots(url_to_rules, all_agents):
+    """Across all robots.txt, determine basic stats:
+    (1) For each agent, how often it is explicitly mentioned
+    (2) For each agent, how often it is blocked from scraping all parts of the website
+    (3) For each agent, how often it is blocked from scraping part of the website
+    (4) For each agent, how often it is NOT blocked from scraping at all
+    """
+    robots_stats = defaultdict(lambda: {'counter': 0, 'all': 0, 'some': 0, 'none': 0})
+
+    for url, robots in url_to_rules.items():
+        agent_to_judgement = interpret_robots(robots, all_agents)
+        for agent in all_agents + ["*"]:
+            judgement = agent_to_judgement[agent]
+            robots_stats[agent][judgement] += 1
+            if agent in robots: # Missing robots.txt means nothing blocked
+                robots_stats[agent]["counter"] += 1
+
+    return robots_stats
+
 
 def read_robots_file(file_path):
     with gzip.open(file_path, 'rt') as file:
@@ -48,7 +96,9 @@ def main(args):
     print(f"Total URLs: {len(data)}")
     print(f"URLs with robots.txt: {sum(1 for robots_txt in data.values() if robots_txt)}")
 
-    url_to_rules = {}
+    # populate the empty rules (missing robots.txt)
+    url_to_rules = {url: {} for url, txt in data.items() if not txt}
+    # interpret the robots.txt
     with ThreadPoolExecutor(max_workers=10) as executor:
         future_to_url = {executor.submit(parse_robots_txt, txt): url for url, txt in data.items() if txt}
         for future in as_completed(future_to_url):
@@ -57,26 +107,32 @@ def main(args):
                 url_to_rules[url] = future.result()
             except Exception as e:
                 print(f"Error processing {url}: {e}")
-    
-    summary = defaultdict(lambda: {'total': 0, 'disallow_all': 0})
-    for result in url_to_rules.values():
-        for agent, details in summarize_rules(result).items():
-            summary[agent]['total'] += details['total']
-            summary[agent]['disallow_all'] += details['disallow_all']
 
-    # Create a sorted list of agents based on the percentage of total URLs
-    sorted_summary = sorted(summary.items(), key=lambda x: x[1]['total'] / len(data) if len(data) > 0 else 0, reverse=True)
+    # Collect all agents
+    all_agents = list(set([agent for url, rules in url_to_rules.items() 
+                      for agent, _ in rules.items() if agent not in ["ERRORS", "Sitemaps", "*"]]))
 
-    # Print the results in a tabular format
-    print(f"{'Agent':<30} {'Total (%)':>15} {'Disallow All (%)':>20}")
-    for i, (agent, counts) in enumerate(sorted_summary):
-        total_percent = counts['total'] / len(data) * 100 if len(data) > 0 else 0
-        disallow_all_percent = counts['disallow_all'] / len(data) * 100 if len(data) > 0 else 0
-        print(f"{agent:<20} {counts['total']:>5} ({total_percent:6.2f}%) {'':>5} {counts['disallow_all']:>5} ({disallow_all_percent:6.2f}%)")
+    robots_stats = aggregate_robots(url_to_rules, all_agents)
+
+    sorted_robots_stats = sorted(robots_stats.items(), key=lambda x: x[1]['counter'] / len(data) if len(data) > 0 else 0, reverse=True)
+
+    print(f"{'Agent':<30} {'Observed': <10} {'Blocked All': >15} {'Blocked Some': >15} {'Blocked None': >15}")
+    for i, (agent, stats) in enumerate(sorted_robots_stats):
+        counter_pct = stats['counter'] / len(data) * 100 if len(data) > 0 else 0
+        all_pct = stats['all'] / len(data) * 100 if len(data) > 0 else 0
+        some_pct = stats['some'] / len(data) * 100 if len(data) > 0 else 0
+        none_pct = stats['none'] / len(data) * 100 if len(data) > 0 else 0
+        print_outs = [
+            f"{agent:<20}",
+            f"{stats['counter']:>5} ({counter_pct:5.1f}%) {'':>5} ",
+            f"{stats['all']:>5} ({all_pct:5.1f}%) {'':>5} ",
+            f"{stats['some']:>5} ({some_pct:5.1f}%) {'':>5} ",
+            f"{stats['none']:>5} ({none_pct:5.1f}%)",
+        ]
+        print(" ".join(print_outs))
         if i > 15:
             print(f"........")
             break
-
 
 
 if __name__ == "__main__":
