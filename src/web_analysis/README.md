@@ -27,6 +27,8 @@ python src/web_analysis/wayback_cdx.py --url-file <in-path> --start-date <YYYYMM
 - `--stats-folder` (optional): Directory to save statistical data (default is "stats").
 - `--debug` (optional): Enable detailed logging and/or debugging.
 
+NOTE: The Wayback CDX API does not allow for filtering by week, so if you choose "weekly" the script will filtr using daily granularity and then aggregate the results into weeks manually in the post-processing step.
+
 **Example**
 
 Here's a concrete example using the `urls_example.txt` file in this folder: 
@@ -60,6 +62,13 @@ This indicates that the content of the website changed 4 times within the specif
 To avoid overwhelming sites and respect rate limits, this script uses the `ratelimit` library to limit the number of requests to 3 requests per second. 
 
 If you need to adjust the rate limit, modify the `@limits` decorator in the `get_pages`, `get_snapshot_content`, and `count_site_changes` methods.
+
+**Basic Plotting (WIP)**
+
+Plot of basic output statistics after running historical extraction.
+```
+python src/web_analysis/plot.py <data-in-path> <png-out-path>
+```
 
 
 ### Robots.txt Extraction & Parsing

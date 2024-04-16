@@ -109,7 +109,7 @@ class WaybackMachineClient:
         """
         Counts the number of unique changes of a site within a given date range.
         To do this we use the collapse=digest feature to count unique snapshots only.
-        ! NOTE: For the CDX API, only adjacent digest are collapsed, duplicates elsewhere in the cdx set are not affected.
+        ! NOTE: For the CDX API, only adjacent digests are collapsed, duplicates elsewhere in the CDX set are not affected.
         """
         api_url = f"{BASE_URL}/cdx/search/cdx?url={url}&from={start_date}&to={end_date}&output=json&filter=mimetype:text/html&collapse=digest"
 
