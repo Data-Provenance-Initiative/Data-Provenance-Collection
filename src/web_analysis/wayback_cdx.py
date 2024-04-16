@@ -64,7 +64,6 @@ class WaybackMachineClient:
         """
         results = []
         unique_digests = defaultdict(set)  # if no change in digest, we do not save the snapshot
-        stats = {"url": url}
 
         # use the CDX API collapse feature to get unique snapshots based on frequency
         collapse_filter, date_format, delta = FREQUENCY_MAP[frequency]
@@ -101,7 +100,7 @@ class WaybackMachineClient:
                 break
             api_url = data["next_page_url"]
 
-        return results, stats
+        return results
 
     @sleep_and_retry
     @limits(calls=3, period=1)
@@ -138,7 +137,8 @@ class WaybackMachineClient:
     def process_url(
         self, url: str, start_date: str, end_date: str, frequency: str
     ) -> None:
-        results, stats = self.get_pages(url, start_date, end_date, frequency)
+        stats = {"url": url}
+        results = self.get_pages(url, start_date, end_date, frequency)
         if results:
             for snapshot_date, snapshot_url, snapshot_content in results:
                 logging.debug(f"Snapshot Date: {snapshot_date}")
@@ -210,7 +210,7 @@ class WaybackMachineClient:
         stats_path = os.path.join(self.stats_folder, stats_filename)
         with open(stats_path, "w") as file:
             json.dump(stats, file, indent=4)
-        logging.debug(f"Stats saved as {stats_path}")
+        logging.info(f"Stats saved as {stats_path}")
 
     @staticmethod
     def sanitize_url(url: str) -> str:
