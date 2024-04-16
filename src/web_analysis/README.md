@@ -4,10 +4,26 @@ This portion of the repository has scripts for analyzing web scrapes.
 
 ### Website Geolocation
 
-This script identifies the IP address and country of origin for a web domain.
+This script identifies the IP address and country of origin for a list of web domains. Given a list of domains, it converts each URL to an IP address and matches that address to its host country. `website_geolocation.py` uses the IP2Location LITE database for [IP geolocation](https://lite.ip2location.com). To install the required dependencies, use the `requirements_website_geolocation.txt` file.
+
+Example usage - 
+
+Running the default URL list and writing the output to a file: 
 
 ```
-<run command>
+python website_geolocation.py --write_file
+```
+
+Using a CSV file containing custom domains (note - URLs must be in the first column with no header):
+
+```
+python website_geolocation.py --url_csv "path/to/your/url_file.csv"
+```
+
+Manually specifying a custom list of URLs: 
+
+```
+python website_geolocation.py --custom_url_list "http://example.com" "http://example.org"
 ```
 
 ### Website Temporal Extraction
