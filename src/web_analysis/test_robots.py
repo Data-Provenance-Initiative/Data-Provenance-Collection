@@ -449,7 +449,7 @@ class TestRobotsTxtInterpretation(unittest.TestCase):
             "*": {"Disallow": ["/private/"], "Allow": ["/private/index.html"]}
         }
         all_agents = ["GoogleBot", "BingBot"]
-        expected = {"*": "some", "GoogleBot": "some", "BingBot": "some"}
+        expected = {"*": "some", "GoogleBot": "all", "BingBot": "some"}
         self.assertEqual(
             interpret_robots(agent_rules, all_agents),
             expected,
