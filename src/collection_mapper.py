@@ -89,6 +89,13 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_alpaca,
         "prepare_function": preparers.prepare_alpaca,
     },
+    "Glaive Code Assistant": {
+        "download_function": downloaders.download_glaive_code_assistant,
+        "prepare_function": preparers.prepare_glaive_code_assistant,
+    "Nectar": {
+        "download_function": downloaders.download_nectar,
+        "prepare_function": preparers.prepare_nectar,
+    },
     "MetaMathQA": {
         "download_function": downloaders.download_metamathqa,
         "prepare_function": preparers.prepare_metamathqa,
@@ -117,7 +124,7 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_pure_dove,
         "prepare_function": preparers.prepare_pure_dove,
     },
-    "Feedback-Collection": {
+    "Feedback Collection": {
         "download_function": downloaders.download_feedback_collection,
         "prepare_function": preparers.prepare_feedback_collection,
     },
@@ -246,6 +253,18 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_open_orca,
         "prepare_function": preparers.prepare_open_orca,
     },
+    "COIG":{
+        "download_function": downloaders.download_coig,
+        "prepare_function": preparers.prepare_coig,
+    },
+    "COIG-Kun":{
+        "download_function": downloaders.download_coig_kun,
+        "prepare_function": preparers.prepare_coig_kun,
+    },
+    "COIG-CQIA":{
+        "download_function": downloaders.download_coig_cqia,
+        "prepare_function": preparers.prepare_coig_cqia,
+    },
     "SelFee":{
         "download_function": downloaders.download_selfee,
         "prepare_function": preparers.prepare_selfee,
@@ -266,6 +285,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_agentinstruct,
         "prepare_function": preparers.prepare_agentinstruct,
     },
+    "Cidar": {
+        "download_function": downloaders.download_cidar,
+        "prepare_function": preparers.prepare_cidar,
+    },
     "PII-Masking-200k": {
         "download_function": downloaders.download_pii_masking_200k,
         "prepare_function": preparers.prepare_pii_masking_200k,
@@ -285,5 +308,45 @@ COLLECTION_FN_MAPPER = {
     "WildChat": {
         "download_function": downloaders.download_wildchat,
         "prepare_function": preparers.prepare_wildchat,
+    },
+    "Orca-Math": {
+        "download_function": downloaders.download_orca_math,
+        "prepare_function": preparers.prepare_orca_math,
+    },
+    "Cobra Frames": {
+        "download_function": downloaders.download_cobra_frames,
+        "prepare_function": preparers.prepare_cobra_frames,
+    },
+    "10k Prompt Ranked": {
+        "download_function": downloaders.download_10k_prompt_ranked,
+        "prepare_function": preparers.prepare_10k_prompt_ranked,
+    },
+    "Aya Dataset": {
+        "download_function": downloaders.download_aya_dataset,
+        "prepare_function": preparers.prepare_aya_dataset,
+    },
+    "MegaWika": {
+        "download_function": downloaders.download_megawika,
+        "prepare_function": preparers.prepare_megawika,
+    },
+    "Gretel Text-to-SQL": {
+        "download_function": downloaders.download_gretel_text_to_sql,
+        "prepare_function": preparers.prepare_gretel_text_to_sql,
+    },
+    "ExpertQA": {
+        "download_function": downloaders.download_expertqa,
+        "prepare_function": preparers.prepare_expertqa,
+    },
+    "OpenMathInstruct-1": {
+        "download_function": downloaders.download_openmath_instruct,
+        "prepare_function": preparers.prepare_openmath_instruct,
+    },
+    "OpenGPT Healthcare": {
+        "download_function": downloaders.download_opengpt_healthcare,
+        "prepare_function": preparers.prepare_opengpt_healthcare,
+    },
+    "Conifer": {
+        "download_function": downloaders.download_conifer,
+        "prepare_function": preparers.prepare_conifer,
     }
 }

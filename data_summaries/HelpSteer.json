@@ -46,6 +46,7 @@
         "License Verified By": "Vu Minh Chien",
         "Dataset Filter IDs": [
             "HelpSteer"
-        ]
+        ],
+        "Bibtex": "@Article{Wang2023HelpSteerMH,\n author = {Zhilin Wang and Yi Dong and Jiaqi Zeng and Virginia Adams and Makesh Narsimhan Sreedhar and Daniel Egert and Olivier Delalleau and Jane Polak Scowcroft and Neel Kant and Aidan Swope and Oleksii Kuchaiev},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {HelpSteer: Multi-attribute Helpfulness Dataset for SteerLM},\n volume = {abs/2311.09528},\n year = {2023}\n}\n"
     }
 }

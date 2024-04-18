@@ -105,6 +105,7 @@
         "Derived from Datasets": [
             "Alpaca instructions dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Xu2023WizardLMEL,\n author = {Can Xu and Qingfeng Sun and Kai Zheng and Xiubo Geng and Pu Zhao and Jiazhan Feng and Chongyang Tao and Daxin Jiang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {WizardLM: Empowering Large Language Models to Follow Complex Instructions},\n volume = {abs/2304.12244},\n year = {2023}\n}\n"
     }
 }

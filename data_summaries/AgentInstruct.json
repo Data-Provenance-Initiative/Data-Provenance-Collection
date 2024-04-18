@@ -53,7 +53,8 @@
         "License Verified By": "Christopher",
         "Dataset Filter IDs": [
             "alfworld"
-        ]
+        ],
+        "Bibtex": "@Article{Shridhar2020ALFWorldAT,\n author = {Mohit Shridhar and Xingdi Yuan and Marc-Alexandre Côté and Yonatan Bisk and Adam Trischler and Matthew J. Hausknecht},\n booktitle = {International Conference on Learning Representations},\n journal = {ArXiv},\n title = {ALFWorld: Aligning Text and Embodied Environments for Interactive Learning},\n volume = {abs/2010.03768},\n year = {2020}\n}\n"
     },
     "AgentInstruct-webshop": {
         "Unique Dataset Identifier": "AgentInstruct-webshop",
@@ -99,7 +100,8 @@
         "License Verified By": "Christopher",
         "Dataset Filter IDs": [
             "webshop"
-        ]
+        ],
+        "Bibtex": "@Article{Yao2022WebShopTS,\n author = {Shunyu Yao and Howard Chen and John Yang and Karthik Narasimhan},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents},\n volume = {abs/2207.01206},\n year = {2022}\n}\n"
     },
     "AgentInstruct-knowledgegraph": {
         "Unique Dataset Identifier": "AgentInstruct-knowledgegraph",
@@ -153,7 +155,8 @@
         "License Verified By": "Christopher",
         "Dataset Filter IDs": [
             "kg"
-        ]
+        ],
+        "Bibtex": "@Article{Liu2023AgentBenchEL,\n author = {Xiao Liu and Hao Yu and Hanchen Zhang and Yifan Xu and Xuanyu Lei and Hanyu Lai and Yu Gu and Yuxian Gu and Hangliang Ding and Kai Men and Kejuan Yang and Shudan Zhang and Xiang Deng and Aohan Zeng and Zhengxiao Du and Chenhui Zhang and S. Shen and Tianjun Zhang and Yu Su and Huan Sun and Minlie Huang and Yuxiao Dong and Jie Tang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {AgentBench: Evaluating LLMs as Agents},\n volume = {abs/2308.03688},\n year = {2023}\n}\n"
     },
     "AgentInstruct-operatingsystem": {
         "Unique Dataset Identifier": "AgentInstruct-operatingsystem",
@@ -207,7 +210,8 @@
         "License Verified By": "Christopher",
         "Dataset Filter IDs": [
             "os"
-        ]
+        ],
+        "Bibtex": "@Article{Liu2023AgentBenchEL,\n author = {Xiao Liu and Hao Yu and Hanchen Zhang and Yifan Xu and Xuanyu Lei and Hanyu Lai and Yu Gu and Yuxian Gu and Hangliang Ding and Kai Men and Kejuan Yang and Shudan Zhang and Xiang Deng and Aohan Zeng and Zhengxiao Du and Chenhui Zhang and S. Shen and Tianjun Zhang and Yu Su and Huan Sun and Minlie Huang and Yuxiao Dong and Jie Tang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {AgentBench: Evaluating LLMs as Agents},\n volume = {abs/2308.03688},\n year = {2023}\n}\n"
     },
     "AgentInstruct-database": {
         "Unique Dataset Identifier": "AgentInstruct-database",
@@ -261,7 +265,8 @@
         "License Verified By": "Christopher",
         "Dataset Filter IDs": [
             "db"
-        ]
+        ],
+        "Bibtex": "@Article{Liu2023AgentBenchEL,\n author = {Xiao Liu and Hao Yu and Hanchen Zhang and Yifan Xu and Xuanyu Lei and Hanyu Lai and Yu Gu and Yuxian Gu and Hangliang Ding and Kai Men and Kejuan Yang and Shudan Zhang and Xiang Deng and Aohan Zeng and Zhengxiao Du and Chenhui Zhang and S. Shen and Tianjun Zhang and Yu Su and Huan Sun and Minlie Huang and Yuxiao Dong and Jie Tang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {AgentBench: Evaluating LLMs as Agents},\n volume = {abs/2308.03688},\n year = {2023}\n}\n"
     },
     "AgentInstruct-mind2web": {
         "Unique Dataset Identifier": "AgentInstruct-mind2web",
@@ -320,6 +325,7 @@
         "License Verified By": "Christopher",
         "Dataset Filter IDs": [
             "mind2web"
-        ]
+        ],
+        "Bibtex": "@Article{Deng2023Mind2WebTA,\n author = {Xiang Deng and Yu Gu and Boyuan Zheng and Shijie Chen and Samuel Stevens and Boshi Wang and Huan Sun and Yu Su},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {Mind2Web: Towards a Generalist Agent for the Web},\n volume = {abs/2306.06070},\n year = {2023}\n}\n"
     }
 }

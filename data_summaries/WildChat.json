@@ -1,121 +1,138 @@
 {
-  "wildchat-gpt_turbo": {
-    "Unique Dataset Identifier": "wildchat-gpt_turbo",
-    "Dataset Name": "gpt-3.5-turbo",
-    "Paper Title": "(InThe)WildChat: 570K ChatGPT Interaction Logs In The Wild",
-    "Dataset URL": "https://huggingface.co/datasets/allenai/WildChat",
-    "GitHub URL": "",
-    "Hugging Face URL": "https://huggingface.co/datasets/allenai/WildChat",
-    "Papers with Code URL": "",
-    "ArXiv URL": "",
-    "Semantic Scholar Corpus ID": "",
-    "Collection": "WildChat",
-    "Collection URL": "https://huggingface.co/datasets/allenai/WildChat",
-    "Languages": [
-      "English",
-      "Chinese",
-      "Russian",
-      "French",
-      "Spanish",
-      "German",
-      "Arabic",
-      "Portuguese",
-      "Italian",
-      "Turkish"
-    ],
-    "Task Categories": [
-      "Conversational Question Answering",
-      "Text Generation",
-      "Open-form Text Generation",
-      "Brainstorming",
-      "Code",
-      "Creativity",
-      "Creative Writing",
-      "Miscellaneous"
-    ],
-    "Text Sources": ["crowdsourced"],
-    "Model Generated": ["OpenAI GPT-3"],
-    "Format": ["Multi-turn Dialog"],
-    "Human Annotation": "No",
-    "Derived from Datasets": [],
-    "Creators": [
-      "Cornell University",
-      "AI2",
-      "University of Southern California",
-      "University of Washington"
-    ],
-    "Licenses": [
-      {
-        "License": "AI2 ImpACT License - Low Risk",
-        "License URL": "https://huggingface.co/datasets/allenai/WildChat"
-      },
-      {
-        "License": "OpenAI",
-        "License URL": "https://huggingface.co/datasets/allenai/WildChat"
-      }
-    ],
-    "License Notes": "",
-    "License Verified By": "Minnie",
-    "Dataset Filter IDs": ["gpt-3.5-turbo"]
-  },
-
-  "wildchat-gpt_4": {
-    "Unique Dataset Identifier": "wildchat-gpt_4",
-    "Dataset Name": "gpt-4",
-    "Paper Title": "(InThe)WildChat: 570K ChatGPT Interaction Logs In The Wild",
-    "Dataset URL": "https://huggingface.co/datasets/allenai/WildChat",
-    "GitHub URL": "",
-    "Hugging Face URL": "https://huggingface.co/datasets/allenai/WildChat",
-    "Papers with Code URL": "",
-    "ArXiv URL": "",
-    "Semantic Scholar Corpus ID": "",
-    "Collection": "WildChat",
-    "Collection URL": "https://huggingface.co/datasets/allenai/WildChat",
-    "Languages": [
-      "English",
-      "Chinese",
-      "Russian",
-      "French",
-      "Spanish",
-      "German",
-      "Arabic",
-      "Portuguese",
-      "Italian",
-      "Turkish"
-    ],
-    "Task Categories": [
-      "Conversational Question Answering",
-      "Text Generation",
-      "Open-form Text Generation",
-      "Brainstorming",
-      "Code",
-      "Creativity",
-      "Creative Writing",
-      "Miscellaneous"
-    ],
-    "Text Sources": ["crowdsourced"],
-    "Model Generated": ["OpenAI GPT-4"],
-    "Format": ["Multi-turn Dialog"],
-    "Human Annotation": "No",
-    "Derived from Datasets": [],
-    "Creators": [
-      "Cornell University",
-      "AI2",
-      "University of Southern California",
-      "University of Washington"
-    ],
-    "Licenses": [
-      {
-        "License": "AI2 ImpACT License - Low Risk",
-        "License URL": "https://huggingface.co/datasets/allenai/WildChat"
-      },
-      {
-        "License": "OpenAI",
-        "License URL": "https://huggingface.co/datasets/allenai/WildChat"
-      }
-    ],
-    "License Notes": "",
-    "License Verified By": "Minnie",
-    "Dataset Filter IDs": ["gpt-4"]
-  }
+    "wildchat-gpt_turbo": {
+        "Unique Dataset Identifier": "wildchat-gpt_turbo",
+        "Dataset Name": "gpt-3.5-turbo",
+        "Paper Title": "(InThe)WildChat: 570K ChatGPT Interaction Logs In The Wild",
+        "Dataset URL": "https://huggingface.co/datasets/allenai/WildChat",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/allenai/WildChat",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "WildChat",
+        "Collection URL": "https://huggingface.co/datasets/allenai/WildChat",
+        "Languages": [
+            "English",
+            "Chinese",
+            "Russian",
+            "French",
+            "Spanish",
+            "German",
+            "Arabic",
+            "Portuguese",
+            "Italian",
+            "Turkish"
+        ],
+        "Task Categories": [
+            "Conversational Question Answering",
+            "Text Generation",
+            "Open-form Text Generation",
+            "Brainstorming",
+            "Code",
+            "Creativity",
+            "Creative Writing",
+            "Miscellaneous"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Cornell University",
+            "AI2",
+            "University of Southern California",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "AI2 ImpACT License - Low Risk",
+                "License URL": "https://huggingface.co/datasets/allenai/WildChat"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://huggingface.co/datasets/allenai/WildChat"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie",
+        "Dataset Filter IDs": [
+            "gpt-3.5-turbo"
+        ],
+        "Bibtex": ""
+    },
+    "wildchat-gpt_4": {
+        "Unique Dataset Identifier": "wildchat-gpt_4",
+        "Dataset Name": "gpt-4",
+        "Paper Title": "(InThe)WildChat: 570K ChatGPT Interaction Logs In The Wild",
+        "Dataset URL": "https://huggingface.co/datasets/allenai/WildChat",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/allenai/WildChat",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "WildChat",
+        "Collection URL": "https://huggingface.co/datasets/allenai/WildChat",
+        "Languages": [
+            "English",
+            "Chinese",
+            "Russian",
+            "French",
+            "Spanish",
+            "German",
+            "Arabic",
+            "Portuguese",
+            "Italian",
+            "Turkish"
+        ],
+        "Task Categories": [
+            "Conversational Question Answering",
+            "Text Generation",
+            "Open-form Text Generation",
+            "Brainstorming",
+            "Code",
+            "Creativity",
+            "Creative Writing",
+            "Miscellaneous"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Cornell University",
+            "AI2",
+            "University of Southern California",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "AI2 ImpACT License - Low Risk",
+                "License URL": "https://huggingface.co/datasets/allenai/WildChat"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://huggingface.co/datasets/allenai/WildChat"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie",
+        "Dataset Filter IDs": [
+            "gpt-4"
+        ],
+        "Bibtex": ""
+    }
 }

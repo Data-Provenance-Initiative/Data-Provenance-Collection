@@ -12,7 +12,7 @@
     "AI2 ImpACT License - Low Risk": [
         "All",
         "1",
-        "0"
+        "1"
     ],
     "All Uses-Attribution": [
         "All",
@@ -179,6 +179,16 @@
         "1",
         "0"
     ],
+    "ODC BY 1.0": [
+        "All",
+        "1",
+        "0"
+    ],
+    "OGL 3.0": [
+        "All",
+        "1",
+        "0"
+    ],
     "OpenAI": [
         "NC",
         "?",
@@ -197,12 +207,24 @@
     "Various": [
         "Acad",
         "?",
+        "?",
+        "Acad"
+    ],
+    "Skywork Community License":[
+        "?",
+        "?",
+        "?",
         "?"
     ],
     "BigScience OpenRAIL-M": [
         "All",
         "1",
         "1"
+    ],
+    "Llama 2": [
+        "All",
+        "1",
+        "0"
     ],
     "LMSYS-Chat-1M Dataset License":[
         "NC",
