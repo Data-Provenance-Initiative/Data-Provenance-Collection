@@ -332,6 +332,15 @@ def prepare_pure_dove(row):
         parent_id += 1
     return messages
 
+def prepare_lmsys_chat_1m(row):
+    messages = []
+    for i, turn in enumerate(row["conversation"]):
+        messages.append({
+            "from": turn["role"].strip(),
+            "text": turn["content"].strip(),
+            "parent": "lmsys_chat_1m" if i == 0 else i - 1,
+        })
+    return messages
 
 def prepare_feedback_collection(row):
     return convert_inputs_targets_to_messages(
