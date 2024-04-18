@@ -1,0 +1,44 @@
+{
+    "Glaive Code Assistant": {
+        "Unique Dataset Identifier": "Glaive Code Assistant",
+        "Dataset Name": "glaive_code_assistant",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/glaiveai/glaive-code-assistant",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/glaiveai/glaive-code-assistant",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "Glaive Code Assistant",
+        "Collection URL": "https://huggingface.co/datasets/glaiveai/glaive-code-assistant",
+        "Languages": [
+            "English",
+            "Code"
+        ],
+        "Task Categories": [
+            "Coding",
+            "Question Answering"
+        ],
+        "Text Sources": [],
+        "Model Generated": ["In-House Glaive AI"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Glaive AI"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/glaiveai/glaive-code-assistant"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "glaive_code_assistant"
+        ]
+    }
+}
