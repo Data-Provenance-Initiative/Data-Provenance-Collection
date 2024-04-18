@@ -1,0 +1,46 @@
+{
+    "LongAlign-10k": {
+        "Unique Dataset Identifier": "LongAlign-10k",
+        "Dataset Name": "LongAlign-10k",
+        "Paper Title": "LongAlign: A Recipe for Long Context Alignment of Large Language Models",
+        "Dataset URL": "https://huggingface.co/datasets/THUDM/LongAlign-10k",
+        "GitHub URL": "https://github.com/THUDM/LongAlign",
+        "Hugging Face URL": "https://huggingface.co/datasets/THUDM/LongAlign-10k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2401.18058",
+        "Semantic Scholar Corpus ID": 267335080,
+        "Collection": "LongAlign-10k",
+        "Collection URL": "https://huggingface.co/datasets/THUDM/LongAlign-10k",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Summarization",
+            "Reasoning over Natural Language",
+            "Question Answering"
+        ],
+        "Text Sources": [],
+        "Model Generated": ["Anthropic Internal Models"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Tsinghua University",
+            "Zhipu AI"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://github.com/THUDM/LongAlign"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "LongAlign-10k"
+        ],
+        "Bibtex": ""
+    }
+}

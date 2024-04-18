@@ -61,7 +61,7 @@ def prepare_commitpackft(row):
 def prepare_cobra_frames(row):
     """
     CobraFrames dataset has a structure where each row is one of the elements in the frame for harmful statement.
-    fomatting foces on the structure of the input and output given the row.
+    Formatting focuses on the structure of the input and output given the row.
     The first 4 elements are context, speaker, listener, and statement check, serving as the context for the statement.
     The rest of the elements are the structured explanation for the statement
     """
@@ -86,12 +86,10 @@ def prepare_cobra_frames(row):
         formatting[v].format(row[v])
         for v in row.keys() if v in formatting
     ]
+
     input_instructions = "Following the examples and complete the structured explanation for the given statement.\n\n" + \
                          row['examples']
-            formatting[v].format(row[v])
-            for v in row.keys() if v in formatting
-        ]
-    input_instructions = "Following the examples and complete the structured explanation for the given statement.\n\n" + row['examples']
+
     input_context = "\n".join(f[1:5])
     output = "\n".join(f[5:])
     return convert_inputs_targets_to_messages(
@@ -359,6 +357,15 @@ def prepare_metamathqa(row):
         row["query"], row["response"], row["type"],
     )
 
+def prepare_longalign_10k(row):
+    messages = []
+    for i, turn in enumerate(row["messages"]):
+        messages.append({
+            "from": turn["role"],
+            "text": turn["content"].strip(),
+            "parent": "LongAlign-10k" if i == 0 else i - 1
+        })
+    return messages
 
 def prepare_pure_dove(row):
     messages = []
@@ -971,7 +978,7 @@ def prepare_10k_prompt_ranked(row):
         inputs,
         outputs,
         '10k-prompt-ranked'
-
+    )
       
 def prepare_orca_math(row):
     return convert_inputs_targets_to_messages(
