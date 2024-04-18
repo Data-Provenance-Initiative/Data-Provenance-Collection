@@ -61,7 +61,7 @@ def prepare_commitpackft(row):
 def prepare_cobra_frames(row):
     """
     CobraFrames dataset has a structure where each row is one of the elements in the frame for harmful statement.
-    fomatting foces on the structure of the input and output given the row.
+    Formatting focuses on the structure of the input and output given the row.
     The first 4 elements are context, speaker, listener, and statement check, serving as the context for the statement.
     The rest of the elements are the structured explanation for the statement
     """
@@ -86,12 +86,10 @@ def prepare_cobra_frames(row):
         formatting[v].format(row[v])
         for v in row.keys() if v in formatting
     ]
+
     input_instructions = "Following the examples and complete the structured explanation for the given statement.\n\n" + \
                          row['examples']
-            formatting[v].format(row[v])
-            for v in row.keys() if v in formatting
-        ]
-    input_instructions = "Following the examples and complete the structured explanation for the given statement.\n\n" + row['examples']
+
     input_context = "\n".join(f[1:5])
     output = "\n".join(f[5:])
     return convert_inputs_targets_to_messages(
@@ -99,7 +97,6 @@ def prepare_cobra_frames(row):
         output,
         row["_source"]
     )
-
 
 def prepare_dolly_15k(row):
     input_text = re.sub(r'\s*\[.*?\]\s*', '', "\n".join([row["context"], row["instruction"]]).strip())
@@ -359,6 +356,10 @@ def prepare_metamathqa(row):
         row["query"], row["response"], row["type"],
     )
 
+def prepare_ultraFeedback_argilla(row):
+    return convert_inputs_targets_to_messages(
+        row["instruction"], row["chosen_response"], "ultraFeedback_argilla",
+    )
 
 def prepare_pure_dove(row):
     messages = []
@@ -970,7 +971,8 @@ def prepare_10k_prompt_ranked(row):
     return convert_inputs_targets_to_messages(
         inputs,
         outputs,
-        '10k-prompt-ranked'
+        "10k-prompt-ranked"
+    )
 
       
 def prepare_orca_math(row):
@@ -979,7 +981,6 @@ def prepare_orca_math(row):
         row["answer"],
         "orca-math"
     )
-
 
 def prepare_aya_dataset(row):
     return convert_inputs_targets_to_messages(

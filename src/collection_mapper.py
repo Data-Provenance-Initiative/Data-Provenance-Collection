@@ -92,6 +92,7 @@ COLLECTION_FN_MAPPER = {
     "Glaive Code Assistant": {
         "download_function": downloaders.download_glaive_code_assistant,
         "prepare_function": preparers.prepare_glaive_code_assistant,
+    },
     "Nectar": {
         "download_function": downloaders.download_nectar,
         "prepare_function": preparers.prepare_nectar,
@@ -344,5 +345,9 @@ COLLECTION_FN_MAPPER = {
     "Conifer": {
         "download_function": downloaders.download_conifer,
         "prepare_function": preparers.prepare_conifer,
+    },
+    "UltraFeedback Argilla": {
+        "download_function": downloaders.download_ultraFeedback_argilla,
+        "prepare_function": preparers.prepare_ultraFeedback_argilla,
     }
 }

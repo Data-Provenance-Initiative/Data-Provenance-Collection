@@ -1,0 +1,43 @@
+{
+    "ultraFeedback_argilla": {
+        "Unique Dataset Identifier": "ultraFeedback_argilla",
+        "Dataset Name": "ultraFeedback_argilla",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "UltraFeedback Argilla",
+        "Collection URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Sources": [],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Argilla"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "ultraFeedback_argilla"
+        ],
+        "Bibtex": ""
+    }
+}
