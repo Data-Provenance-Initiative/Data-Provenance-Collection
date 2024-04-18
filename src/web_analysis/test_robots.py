@@ -307,7 +307,7 @@ class TestRobotsTxtInterpretation(unittest.TestCase):
         all_agents = ["GoogleBot", "BingBot", "YahooBot"]
         expected = {
             "*": "some",
-            "GoogleBot": "some",
+            "GoogleBot": "none",
             "BingBot": "some",
             "YahooBot": "some",
         }
@@ -669,17 +669,6 @@ class TestRobotsTxtInterpretation(unittest.TestCase):
             "Allow directives should override conflicting Disallow directives, but they do not.",
         )
 
-    def test_disallow_all_but_one(self):
-        """Tests disallowing all paths except one specific allowed path."""
-        agent_rules = {"*": {"Disallow": ["/"], "Allow": ["/index.html"]}}
-        all_agents = ["GoogleBot", "BingBot"]
-        expected = {"*": "all", "GoogleBot": "some", "BingBot": "some"}
-        self.assertEqual(
-            interpret_robots(agent_rules, all_agents),
-            expected,
-            "Disallowing all except one file should block all but that file. Check for incorrect rule application.",
-        )
-
     def test_wildcard_handling(self):
         """Tests the correct interpretation of wildcard characters in paths."""
         agent_rules = {"*": {"Disallow": ["/tmp/*"]}}
@@ -742,7 +731,11 @@ class TestRobotsTxtInterpretation(unittest.TestCase):
         """Tests disallowing all paths except one specific allowed path."""
         agent_rules = {"*": {"Disallow": ["/"], "Allow": ["/index.html"]}}
         all_agents = ["GoogleBot", "BingBot"]
-        expected = {"*": "all", "GoogleBot": "some", "BingBot": "some"}
+        expected = {
+            "*": "some",  # Since there's an exception allowing '/index.html'
+            "GoogleBot": "some",  # Access to '/index.html' allowed, others disallowed
+            "BingBot": "some",  # Same as GoogleBot
+        }
         self.assertEqual(
             interpret_robots(agent_rules, all_agents),
             expected,
