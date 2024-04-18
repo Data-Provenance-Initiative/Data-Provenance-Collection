@@ -24,7 +24,9 @@
             "Open-form Text Generation"
         ],
         "Text Sources": [],
-        "Model Generated": ["OpenAI ChatGPT"],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
         "Format": [
             "Zero-shot",
             "Multi-turn Dialog"
@@ -48,6 +50,7 @@
         "License Verified By": "Seonghyeon Ye",
         "Dataset Filter IDs": [
             "selfee"
-        ]
+        ],
+        "Bibtex": ""
     }
 }

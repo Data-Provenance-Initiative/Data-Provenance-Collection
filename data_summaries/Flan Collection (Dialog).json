@@ -92,7 +92,8 @@
             "CAsT",
             "NQ"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Anantha2020OpenDomainQA,\n author = {R. Anantha and Svitlana Vakulenko and Zhucheng Tu and S. Longpre and S. Pulman and Srinivas Chappidi},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n pages = {520-534},\n title = {Open-Domain Question Answering Goes Conversational via Question Rewriting},\n year = {2020}\n}\n"
     },
     "fc-dialog-wiki_dialog": {
         "Unique Dataset Identifier": "fc-dialog-wiki_dialog",
@@ -185,6 +186,7 @@
         "Derived from Datasets": [
             "MS Marco retrieval corpus"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Dai2022DialogIT,\n author = {Zhuyun Dai and Arun Tejasvi Chaganty and Vincent Zhao and Aida Amini and Q. Rashid and Mike Green and Kelvin Guu},\n booktitle = {International Conference on Machine Learning},\n journal = {ArXiv},\n title = {Dialog Inpainting: Turning Documents into Dialogs},\n volume = {abs/2205.09073},\n year = {2022}\n}\n"
     }
 }

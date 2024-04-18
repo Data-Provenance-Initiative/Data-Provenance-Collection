@@ -19,7 +19,9 @@
             "Text Quality Evaluation"
         ],
         "Text Sources": [],
-        "Model Generated": ["OpenAI GPT-4"],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
         "Format": [
             "Zero-shot",
             "Evaluation"
@@ -46,6 +48,7 @@
         "License Verified By": "Seungone Kim",
         "Dataset Filter IDs": [
             "feedback_collection"
-        ]
+        ],
+        "Bibtex": ""
     }
 }
