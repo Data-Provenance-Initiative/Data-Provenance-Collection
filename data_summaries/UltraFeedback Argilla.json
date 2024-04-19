@@ -1,7 +1,7 @@
 {
-    "ultraFeedback_argilla": {
-        "Unique Dataset Identifier": "ultraFeedback_argilla",
-        "Dataset Name": "ultraFeedback_argilla",
+    "ultraFeedback_argilla-sharegpt": {
+        "Unique Dataset Identifier": "ultraFeedback_argilla-sharegpt",
+        "Dataset Name": "ultraFeedback_argilla-sharegpt",
         "Paper Title": "",
         "Dataset URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
         "GitHub URL": "",
@@ -15,6 +15,360 @@
             "English"
         ],
         "Task Categories": [
+            "Essay Generation",
+            "Creative Writing",
+            "Data Analysis",
+            "Email Drafting",
+            "Dialog Generation",
+            "Creativity",
+            "Literary Analysis",
+            "Argumentative Essay Generation",
+            "Summarization",
+            "Logical Reasoning",
+            "Brainstorming",
+            "Miscellaneous"
+        ],
+        "Text Sources": [
+            "sharegpt.com",
+            "crowdsourced"],
+        "Model Generated": ["OpenAI Playground"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Argilla"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "None"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://sharegpt.com/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "sharegpt"
+        ],
+        "Bibtex": ""
+    },
+    "ultraFeedback_argilla-flan_v2_niv2": {
+        "Unique Dataset Identifier": "ultraFeedback_argilla-flan_v2_niv2",
+        "Dataset Name": "ultraFeedback_argilla-flan_v2_niv2",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "UltraFeedback Argilla",
+        "Collection URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Classification",
+            "Question Answering",
+            "Information Extraction",
+            "Question Understanding",
+            "Sentiment Analysis",
+            "Summarization",
+            "Translation",
+            "Commonsense Reasoning"
+        ],
+        "Text Sources": [
+            "project gutenberg",
+            "united nations",
+            "ai2 science questions",
+            "image descriptions",
+            "student answers",
+            "news commentary",
+            "sogou news",
+            "reddit",
+            "czeng v1.6pre",
+            "web exams",
+            "mctest",
+            "forum posts",
+            "verbnet",
+            "activitynet",
+            "crowdsourced",
+            "yelp",
+            "nytmes",
+            "race exams",
+            "rottentomatoes.com",
+            "opus news-commentary",
+            "opensubtitles.org",
+            "quora",
+            "wikipedia.org",
+            "wsj",
+            "articles on society",
+            "flickr",
+            "grammar-based",
+            "enron corporation",
+            "bloomberg news",
+            "imdb.com",
+            "model generated negative candidates using adversarial filtering",
+            "google search",
+            "dailymail.co.uk",
+            "wiktionary.org",
+            "cmu movie plots",
+            "wikihow.com",
+            "european parliament proceedings",
+            "wordnet",
+            "dbpedia",
+            "u.s. government reports",
+            "yandex",
+            "bbc",
+            "original",
+            "yahoo! answers",
+            "glosses",
+            "twitter",
+            "syntax textbooks",
+            "ap news",
+            "articles on history and anthropology",
+            "amazon.com",
+            "ck12.org",
+            "icwsm.org/data",
+            "washington post",
+            "law and justice",
+            "instructables.com",
+            "ag news",
+            "cnn.com",
+            "central news agency of taiwan",
+            "videos",
+            "9/11 reports",
+            "commoncrawl.org",
+            "anc.org",
+            "xinhua news agency",
+            "crowdsourced (daemo)",
+            "los angeles times",
+            "agence france-presse",
+            "wikipedia headlines",
+            "undisclosed web"    
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3",
+            "OpenAI GPT-4"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Argilla"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences"
+            },
+            {
+                "License": "Various",
+                "License URL": "https://github.com/google-research/FLAN/tree/main/flan/v2"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "flan_v2_niv2"
+        ],
+        "Bibtex": ""
+    },
+    "ultraFeedback_argilla-evol_instruct": {
+        "Unique Dataset Identifier": "ultraFeedback_argilla-evol_instruct",
+        "Dataset Name": "ultraFeedback_argilla-evol_instruct",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "UltraFeedback Argilla",
+        "Collection URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Instruction Generation",
+            "Question Answering"
+        ],
+        "Text Sources": [],
+        "Model Generated": [
+            "OpenAI ChatGPT",
+            "BX LLaMa"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Argilla"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences"
+            },
+            {
+                "License": "Llama 2",
+                "License URL": "https://arxiv.org/abs/2304.12244"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.12244"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "evol_instruct"
+        ],
+        "Bibtex": ""
+    },
+    "ultraFeedback_argilla-ultrachat": {
+        "Unique Dataset Identifier": "ultraFeedback_argilla-ultrachat",
+        "Dataset Name": "ultraFeedback_argilla-ultrachat",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "UltraFeedback Argilla",
+        "Collection URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Dialogue Generation",
+            "Creative Writing",
+            "Open-form Text Generation",
+            "Brainstorming",
+            "Roleplay",
+            "Creativity",
+            "Explanation Generation"
+        ],
+        "Text Sources": [
+            "wikidata",
+            "wikipedia.org",
+            "commoncrawl.org"
+        ],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Argilla"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2009.01325"
+            },
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/thunlp/UltraChat#data"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "ultrachat"
+        ],
+        "Bibtex": ""
+    },
+    "ultraFeedback_argilla-flan_v2_cot": {
+        "Unique Dataset Identifier": "ultraFeedback_argilla-flan_v2_cot",
+        "Dataset Name": "ultraFeedback_argilla-flan_v2_cot",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "UltraFeedback Argilla",
+        "Collection URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Argilla"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/gsm8k#licensing-information"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "flan_v2_cot"
+        ],
+        "Bibtex": ""
+    },
+    "ultraFeedback_argilla-false_qa": {
+        "Unique Dataset Identifier": "ultraFeedback_argilla-false_qa",
+        "Dataset Name": "ultraFeedback_argilla-false_qa",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "UltraFeedback Argilla",
+        "Collection URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Factual Question Answering",
+            "Causal Question Answering",
+            "Logical Reasoning Question Answering",
             "Question Answering"
         ],
         "Text Sources": [],
@@ -22,7 +376,7 @@
         "Format": [
             "Zero-shot"
         ],
-        "Human Annotation": "No",
+        "Human Annotation": "Yes",
         "Derived from Datasets": [],
         "Creators": [
             "Argilla"
@@ -36,7 +390,179 @@
         "License Notes": "",
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
-            "ultraFeedback_argilla"
+            "false_qa"
+        ],
+        "Bibtex": ""
+    },
+    "ultraFeedback_argilla-flan_v2_p3": {
+        "Unique Dataset Identifier": "ultraFeedback_argilla-flan_v2_p3",
+        "Dataset Name": "ultraFeedback_argilla-flan_v2_p3",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "UltraFeedback Argilla",
+        "Collection URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Adversarial Question Answering",
+            "Question Generation",
+            "Question Answering",
+            "Sentiment Analysis",
+            "Context Generation",
+            "Explanation Generation",
+            "Multiple Choice Question Answering",
+            "Text Classification",
+            "Dialog Turn Prediction",
+            "Wrong Candidate Generation",
+            "Span Selection Question Answering",
+            "Title Generation",
+            "Closed-Book Question Answering",
+            "Explanation"
+        ],
+        "Text Sources": [
+            "wikipedia.org",
+            "crowdsourced",
+            "undisclosed web",
+            "amazon.com",
+            "yelp",
+            "sogou news",
+            "dbpedia",
+            "yahoo! answers",
+            "ag news",
+            "conceptnet",
+            "undisclosed web"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "SQuADv1",
+            "CommonSenseQA"
+
+        ],
+        "Creators": [
+            "Argilla"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences"
+            },
+            {
+                "License": "Various",
+                "License URL": "https://github.com/bigscience-workshop/promptsource?tab=Apache-2.0-1-ov-file#readme"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "flan_v2_p3"
+        ],
+        "Bibtex": ""
+    },
+    "ultraFeedback_argilla-truthful_qa": {
+        "Unique Dataset Identifier": "ultraFeedback_argilla-truthful_qa",
+        "Dataset Name": "ultraFeedback_argilla-truthful_qa",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "UltraFeedback Argilla",
+        "Collection URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Adversarial Question Answering",
+            "Question Answering"
+        ],
+        "Text Sources": [],
+        "Model Generated": [
+            "OpenAI GPT-3"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Argilla"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences"
+            },
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/truthful_qa"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "truthful_qa"
+        ],
+        "Bibtex": ""
+    },
+    "ultraFeedback_argilla-flan_v2_flan2021": {
+        "Unique Dataset Identifier": "ultraFeedback_argilla-flan_v2_flan2021",
+        "Dataset Name": "ultraFeedback_argilla-flan_v2_flan2021",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "UltraFeedback Argilla",
+        "Collection URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Summarization",
+            "Inverted Summarization"
+        ],
+        "Text Sources": [
+            "enron corporation"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Argilla"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://huggingface.co/datasets/argilla/ultrafeedback-binarized-preferences"
+            },
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "https://github.com/ryanzhumich/AESLC"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "flan_v2_flan2021"
         ],
         "Bibtex": ""
     }

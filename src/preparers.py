@@ -358,7 +358,7 @@ def prepare_metamathqa(row):
 
 def prepare_ultraFeedback_argilla(row):
     return convert_inputs_targets_to_messages(
-        row["instruction"], row["chosen_response"], "ultraFeedback_argilla",
+        row["instruction"], row["chosen_response"], row["source"],
     )
 
 def prepare_pure_dove(row):
