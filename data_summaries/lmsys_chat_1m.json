@@ -12,12 +12,26 @@
         "Collection": "lmsys_chat_1m",
         "Collection URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",
         "Languages": [
-            "English"
+            "English", "Portuguese", "Russian", "Chinese", "Spanish"
         ],
         "Task Categories": [
-            "Question Answering"
+            "Question Answering",
+            "Code",
+            "Coding",
+            "Summarization",
+            "Creative Writing",
+            "Brainstorming",
+            "Code Generation",
+            "Code Summarization",
+            "Commonsense Reasoning",
+            "Explanation Generation",
+            "Logical Reasoning Question Answering",
+            "Text Generation",
+            "Natural Language Generation",
+            "Geographical Map Making Question Answering",
+            "Academic Tasks"
         ],
-        "Text Sources": [],
+        "Text Sources": ["crowdsourced"],
         "Model Generated": [
             "OpenAI GPT-3.5-Turbo",
             "OpenAI GPT-4",
@@ -35,6 +49,18 @@
         "Licenses": [
             {
                 "License": "LMSYS-Chat-1M Dataset License",
+                "License URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m"
+            },
+            {
+                "License": "Anthropic",
+                "License URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m"
+            },
+            {
+                "License": "Llama 2",
                 "License URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m"
             }
         ],
