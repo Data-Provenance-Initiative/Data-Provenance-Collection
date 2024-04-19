@@ -20,11 +20,11 @@
             "Question Answering"
         ],
         "Text Sources": [],
-        "Model Generated": ["Anthropic Internal Models"],
+        "Model Generated": ["Claude 2.1", "OpenAI GPT-4"],
         "Format": [
             "Zero-shot"
         ],
-        "Human Annotation": "No",
+        "Human Annotation": "Yes",
         "Derived from Datasets": [],
         "Creators": [
             "Tsinghua University",
@@ -33,6 +33,14 @@
         "Licenses": [
             {
                 "License": "Apache License 2.0",
+                "License URL": "https://github.com/THUDM/LongAlign"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://github.com/THUDM/LongAlign"
+            },
+            {
+                "License": "Anthropic",
                 "License URL": "https://github.com/THUDM/LongAlign"
             }
         ],
