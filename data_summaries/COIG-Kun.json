@@ -18,8 +18,7 @@
             "Question Answering"
         ],
         "Text Sources": [
-            "undisclosed web",
-            "https://huggingface.co/datasets/Skywork/SkyPile-150B"
+            "undisclosed web"
         ],
         "Model Generated": ["m-a-p/Kun-LabelModel", "m-a-p/Kun-PrimaryChatModel"],
         "Format": [
@@ -27,7 +26,7 @@
         ],
         "Human Annotation": "No",
         "Derived from Datasets": [
-            "skypile"
+            "https://huggingface.co/datasets/Skywork/SkyPile-150B"
         ],
         "Creators": [
             "01.ai",
@@ -65,7 +64,7 @@
             "Question Answering"
         ],
         "Text Sources": [
-            "https://github.com/opendatalab/WanJuan1.0"
+            "undisclosed web"
         ],
         "Model Generated": ["m-a-p/Kun-LabelModel", "m-a-p/Kun-PrimaryChatModel"],
         "Format": [
@@ -73,7 +72,7 @@
         ],
         "Human Annotation": "No",
         "Derived from Datasets": [
-            "wanjuan"
+            "https://github.com/opendatalab/WanJuan1.0"
         ],
         "Creators": [
             "01.ai",
@@ -111,7 +110,8 @@
             "Question Answering"
         ],
         "Text Sources": [
-            "https://www.scidb.cn/en/detail?dataSetId=c6a3fe684227415a9db8e21bac4a15ab"
+            "scidb.cn/en/detail?dataSetId=c6a3fe684227415a9db8e21bac4a15ab",
+            "undisclosed web"
         ],
         "Model Generated": ["m-a-p/Kun-LabelModel", "m-a-p/Kun-PrimaryChatModel"],
         "Format": [
