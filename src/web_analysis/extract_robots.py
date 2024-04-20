@@ -59,7 +59,7 @@ def get_robots_txt(url):
         return None
 
 # Function to process multiple URLs in parallel
-def parse_robots_txt(urls, max_workers=10):
+def read_robots_txt(urls, max_workers=10):
     results = {}
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         future_to_url = {executor.submit(get_robots_txt, url): url for url in urls}
@@ -112,7 +112,7 @@ def main(args):
     urls_to_fetch = [url for url in normalized_urls if url not in existing_results]
 
     # Fetch robots.txt content
-    new_results = parse_robots_txt(urls_to_fetch)
+    new_results = read_robots_txt(urls_to_fetch)
     successful_fetches = sum(1 for result in new_results.values() if result is not None)
     failed_fetches = len(new_results) - successful_fetches
     print(f"Successfully fetched: {successful_fetches}")
