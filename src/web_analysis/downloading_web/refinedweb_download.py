@@ -7,7 +7,7 @@ from urllib.parse import urlparse
 from tqdm import tqdm
 import pandas as pd
 import time
-import os
+import os, re
     
 # If the dataset is gated/private, make sure you have run huggingface-cli login
 dataset = load_dataset("tiiuae/falcon-refinedweb", split='train') # You might want to choose where you download this. 
@@ -18,7 +18,7 @@ def word_tokenize(text):
     return len(words.findall(text)) # 15.3 ms on M2
 
 counts_dict_en = defaultdict(lambda: {'t':0,'c':0}) 
-for i, row in enumerate(tqdm(dataset_skipped, total=len(dataset_skipped), smoothing=0)):
+for i, row in enumerate(tqdm(dataset, total=len(dataset), smoothing=0)):
     try:
         tokenscount = word_tokenize(row['content'])
         netloc = urlparse(row['url']).netloc
