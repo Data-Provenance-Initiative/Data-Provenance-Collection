@@ -254,10 +254,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_coig,
         "prepare_function": preparers.prepare_coig,
     },
-    "COIG-Kun":{
-        "download_function": downloaders.download_coig_kun,
-        "prepare_function": preparers.prepare_coig_kun,
-    },
+    # "COIG-Kun":{
+    #     "download_function": downloaders.download_coig_kun,
+    #     "prepare_function": preparers.prepare_coig_kun,
+    # },
     "COIG-CQIA":{
         "download_function": downloaders.download_coig_cqia,
         "prepare_function": preparers.prepare_coig_cqia,
