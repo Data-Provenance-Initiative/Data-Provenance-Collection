@@ -1,19 +1,16 @@
-import argparse
 import json
 import logging
 import os
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
-from pathlib import Path
 from typing import Optional
 
 import requests
 from dateutil.relativedelta import relativedelta
 from ratelimit import limits, sleep_and_retry
 
-from .utils import extract_urls, sanitize_url
-
+from file_utils import sanitize_url
 
 BASE_URL = "https://web.archive.org"
 
@@ -21,10 +18,8 @@ FREQUENCY_MAP = {
     "daily": ("timestamp:8", "%Y-%m-%d", relativedelta(days=1)),
     "weekly": ("timestamp:6", "%Y-%W", relativedelta(weeks=1)),
     "monthly": ("timestamp:6", "%Y-%m", relativedelta(months=1)),
-    "annual": ("timestamp:4", "%Y", relativedelta(years=1)),
+    "annually": ("timestamp:4", "%Y", relativedelta(years=1)),
 }
-
-DEFAULT_FREQUENCY = "monthly"
 
 
 class WaybackMachineClient:
@@ -32,6 +27,7 @@ class WaybackMachineClient:
         self.num_workers = num_workers
         self.snapshots_folder = snapshots_folder
         self.stats_folder = stats_folder
+        self.failed_urls = set()
         self.session = requests.Session()
 
     @sleep_and_retry
@@ -71,6 +67,7 @@ class WaybackMachineClient:
         while True:
             response = self.session.get(api_url)
             if response.status_code != 200:
+                self.failed_urls.add(url)
                 break
 
             data = response.json()
@@ -111,6 +108,7 @@ class WaybackMachineClient:
         """
         api_url = f"{BASE_URL}/cdx/search/cdx?url={url}&from={start_date}&to={end_date}&output=json&filter=mimetype:text/html&collapse=digest"
 
+        response = None
         try:
             response = self.session.get(api_url)
             response.raise_for_status()
@@ -128,6 +126,7 @@ class WaybackMachineClient:
             response.raise_for_status()
             return response.text
         except requests.exceptions.RequestException as e:
+            self.failed_urls.add(snapshot_url)
             logging.error(
                 f"Failed to retrieve content for {snapshot_url}. Error: {str(e)}"
             )
@@ -140,12 +139,11 @@ class WaybackMachineClient:
         end_date: str,
         frequency: str,
         count_changes: bool = False,
-        skip_processed: bool = True,
     ) -> None:
-        sanitized_url = self.sanitize_url(url)
+        sanitized_url = sanitize_url(url)
         url_folder = os.path.join(self.snapshots_folder, sanitized_url)
 
-        if skip_processed and os.path.exists(url_folder):
+        if os.path.exists(url_folder):
             logging.info(f"Skipping {url} as it has already been processed.")
             return
 
@@ -156,6 +154,8 @@ class WaybackMachineClient:
                 logging.debug(f"Snapshot Date: {snapshot_date}")
                 logging.debug(f"Snapshot URL: {snapshot_url}")
                 self.save_snapshot(url, snapshot_date, snapshot_content)
+        else:
+            self.failed_urls.add(url)
 
         start_datetime = datetime.strptime(start_date, "%Y%m%d")
         end_datetime = datetime.strptime(end_date, "%Y%m%d")
@@ -167,9 +167,7 @@ class WaybackMachineClient:
         if count_changes:
             while current_date <= end_datetime:
                 frequency_start = current_date.strftime("%Y%m%d")
-                frequency_end = (current_date + delta - relativedelta(days=1)).strftime(
-                    "%Y%m%d"
-                )
+                frequency_end = (current_date + delta - relativedelta(days=1)).strftime("%Y%m%d")
 
                 frequency_change_count = self.count_site_changes(
                     url, frequency_start, frequency_end
@@ -185,6 +183,7 @@ class WaybackMachineClient:
         end_date_formatted = end_datetime.strftime("%m-%d-%Y")
 
         if not results:
+            self.failed_urls.add(url)
             logging.info(
                 f"No snapshots available for {url} between {start_date_formatted} and {end_date_formatted}"
             )
@@ -200,7 +199,6 @@ class WaybackMachineClient:
         end_date: str,
         frequency: str,
         count_changes: bool = False,
-        skip_processed: bool = True,
     ) -> None:
         with ThreadPoolExecutor(max_workers=self.num_workers) as executor:
             futures = []
@@ -213,7 +211,6 @@ class WaybackMachineClient:
                     end_date,
                     frequency,
                     count_changes,
-                    skip_processed,
                 )
                 futures.append(future)
 
@@ -221,7 +218,8 @@ class WaybackMachineClient:
                 try:
                     future.result()
                 except Exception as e:
-                    logging.error(f"Error processing URL: {e}")
+                    self.failed_urls.add(url)
+                    logging.error(f"Error processing {url}: {e}")
 
     def save_snapshot(
         self, url: str, snapshot_date: datetime, snapshot_content: str
@@ -233,7 +231,7 @@ class WaybackMachineClient:
         snapshot_path = os.path.join(url_folder, snapshot_filename)
         with open(snapshot_path, "w", encoding="utf-8") as file:
             file.write(snapshot_content)
-        logging.debug(f"Snapshot saved as {snapshot_path}")
+        logging.info(f"Snapshot saved as {snapshot_path}")
 
     def save_stats(self, url: str, stats: dict) -> None:
         os.makedirs(self.stats_folder, exist_ok=True)
@@ -244,89 +242,11 @@ class WaybackMachineClient:
             json.dump(stats, file, indent=4)
         logging.info(f"Stats saved as {stats_path}")
 
-
-def parse_arguments() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(
-        description="Retrieve and save snapshots from the Wayback Machine for temporal analysis."
-    )
-    parser.add_argument(
-        "--input-path",
-        type=Path,
-        required=True,
-        help="Path to a directory of CSV and/or text files containing URLs, or a single CSV or text file.",
-    )
-    parser.add_argument(
-        "--start-date",
-        type=str,
-        required=True,
-        help="Start date in YYYYMMDD format.",
-    )
-    parser.add_argument(
-        "--end-date",
-        type=str,
-        required=True,
-        help="End date in YYYYMMDD format.",
-    )
-    parser.add_argument(
-        "--frequency",
-        choices=list(FREQUENCY_MAP.keys()),
-        default=DEFAULT_FREQUENCY,
-        help="Frequency of collecting snapshots. Default is monthly.",
-    )
-    parser.add_argument(
-        "--num-workers",
-        type=int,
-        default=10,
-        help="Number of worker threads.",
-    )
-    parser.add_argument(
-        "--snapshots-folder",
-        type=Path,
-        default="snapshots",
-        help="Path to the folder where snapshots will be saved.",
-    )
-    parser.add_argument(
-        "--stats-folder",
-        type=Path,
-        default="stats",
-        help="Path to the folder where stats will be saved.",
-    )
-    parser.add_argument(
-        "--count-changes",
-        action="store_true",
-        help="Count the number of unique changes for each site in the date range.",
-    )
-    parser.add_argument(
-        "--skip-processed",
-        action="store_true",
-        default=True,
-        help="Skip URLs that have already been fully processed.",
-    )
-    parser.add_argument(
-        "--debug",
-        action="store_true",
-        help="Extra logging statements used to debug.",
-    )
-    return parser.parse_args()
-
-
-if __name__ == "__main__":
-    args = parse_arguments()
-    logging.basicConfig(
-        level=logging.DEBUG if args.debug else logging.INFO,
-        format="%(asctime)s - %(levelname)s - %(message)s",
-    )
-
-    urls = extract_urls(args.input_path)
-
-    client = WaybackMachineClient(
-        args.num_workers, args.snapshots_folder, args.stats_folder
-    )
-    client.process_urls(
-        urls,
-        args.start_date,
-        args.end_date,
-        args.frequency,
-        args.count_changes,
-        args.skip_processed,
-    )
+    def save_failed_urls(self, filename: str = "failed_urls.txt") -> None:
+        if self.failed_urls:
+            with open(filename, "w") as f:
+                for url in self.failed_urls:
+                    f.write(url + "\n")
+            logging.info(f"Failed URLs saved to {filename}")
+        else:
+            logging.info("No failed URLs to save.")
