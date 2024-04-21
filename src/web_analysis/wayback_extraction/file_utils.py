@@ -1,14 +1,15 @@
 import csv
+import json
+import logging
+import os
 import re
 import urllib.parse
-from pathlib import Path
-import os
-import json
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
-import logging
+from pathlib import Path
+
 import chardet
 from bs4 import BeautifulSoup
-from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
 def sanitize_url(url: str) -> str:
