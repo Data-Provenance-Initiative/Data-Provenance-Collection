@@ -45,7 +45,7 @@
         "Licenses": [
             {
                 "License": "Custom",
-                "License URL": "https://huggingface.co/datasets/nvidia/OpenMathInstruct-1#license"
+                "License URL": "https://huggingface.co/datasets/nvidia/OpenMathInstruct-1/blob/main/LICENSE"
             },
             {
                 "License": "MIT License",
@@ -103,8 +103,8 @@
         ],
         "Licenses": [
             {
-                "License": "NVIDIA License",
-                "License URL": "https://huggingface.co/datasets/nvidia/OpenMathInstruct-1#license"
+                "License": "Custom",
+                "License URL": "https://huggingface.co/datasets/nvidia/OpenMathInstruct-1/blob/main/LICENSE"
             },
             {
                 "License": "MIT License",

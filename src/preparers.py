@@ -86,10 +86,7 @@ def prepare_cobra_frames(row):
         formatting[v].format(row[v])
         for v in row.keys() if v in formatting
     ]
-
-    input_instructions = "Following the examples and complete the structured explanation for the given statement.\n\n" + \
-                         row['examples']
-
+    input_instructions = "Following the examples and complete the structured explanation for the given statement.\n\n" + row['examples']
     input_context = "\n".join(f[1:5])
     output = "\n".join(f[5:])
     return convert_inputs_targets_to_messages(
