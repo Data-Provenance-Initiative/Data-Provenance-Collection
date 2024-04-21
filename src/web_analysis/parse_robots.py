@@ -38,7 +38,7 @@ def interpret_agent(rules):
     longest_disallow = max([len(x) for x in agent_disallow]) if len(agent_disallow) else 0
     longest_allow = max([len(x) for x in agent_allow]) if len(agent_allow) else 0
 
-    if len(agent_disallow) == 0 or agent_disallow == [""] or (agent_allow == agent_disallow) or (longest_allow > longest_disallow):
+    if len(agent_disallow) == 0 or agent_disallow == [""] or (agent_allow == agent_disallow):
         disallow_type = "none"
     elif any('/' == x.strip() for x in agent_disallow):
         disallow_type = "all"
