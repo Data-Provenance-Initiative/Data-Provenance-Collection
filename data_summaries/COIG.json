@@ -170,7 +170,7 @@
             "Question Answering"
         ],
         "Text Sources": [
-            "http://kw.fudan.edu.cn/cndbpedia"
+            "kw.fudan.edu.cn/cndbpedia"
         ],
         "Model Generated": ["OpenAI ChatGPT"],
         "Format": [
