@@ -92,6 +92,7 @@ COLLECTION_FN_MAPPER = {
     "Glaive Code Assistant": {
         "download_function": downloaders.download_glaive_code_assistant,
         "prepare_function": preparers.prepare_glaive_code_assistant,
+    },
     "Nectar": {
         "download_function": downloaders.download_nectar,
         "prepare_function": preparers.prepare_nectar,
@@ -257,10 +258,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_coig,
         "prepare_function": preparers.prepare_coig,
     },
-    "COIG-Kun":{
-        "download_function": downloaders.download_coig_kun,
-        "prepare_function": preparers.prepare_coig_kun,
-    },
+    # "COIG-Kun":{
+    #     "download_function": downloaders.download_coig_kun,
+    #     "prepare_function": preparers.prepare_coig_kun,
+    # },
     "COIG-CQIA":{
         "download_function": downloaders.download_coig_cqia,
         "prepare_function": preparers.prepare_coig_cqia,
