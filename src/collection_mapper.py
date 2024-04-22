@@ -345,5 +345,9 @@ COLLECTION_FN_MAPPER = {
     "Conifer": {
         "download_function": downloaders.download_conifer,
         "prepare_function": preparers.prepare_conifer,
+    },
+    "DialogStudio": {
+        "download_function": downloaders.download_dialogstudio,
+        "prepare_function": preparers.prepare_dialogstudio,
     }
 }
