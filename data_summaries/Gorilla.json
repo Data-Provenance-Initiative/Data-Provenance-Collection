@@ -4,7 +4,7 @@
         "Dataset Name": "gorilla-apibench",
         "Collection": "Gorilla",
         "Collection URL": "https://gorilla.cs.berkeley.edu/",
-        "Dataset URL": "https://huggingface.co/datasets/gorilla-llm/Berkeley-Function-Calling-Leaderboard",
+        "Dataset URL": "https://gorilla.cs.berkeley.edu/",
         "GitHub URL": "https://github.com/ShishirPatil/gorilla",
         "Hugging Face URL": "https://huggingface.co/datasets/gorilla-llm/Berkeley-Function-Calling-Leaderboard",
         "Paper Title": "Gorilla: Large Language Model Connected with Massive APIs",

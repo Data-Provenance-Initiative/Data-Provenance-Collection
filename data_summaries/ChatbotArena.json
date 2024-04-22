@@ -20,7 +20,8 @@
             "RLHF",
             "Response Ranking",
             "Text Quality Evaluation",
-            "Long-form Response Evaluation"
+            "Long-form Response Evaluation",
+            "Crowdsourced"
         ],
         "Text Sources": [
             "https://huggingface.co/datasets/lmsys/chatbot_arena_conversations"
@@ -56,6 +57,9 @@
             {
                 "License": "CC BY-NC 4.0",
                 "License URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            {
+                "License": "OpenAI"
             }
         ],
         "License Notes": "User prompts are licensed under CC-BY-4.0, while model outputs are under CC-BY-NC-4.0.",
