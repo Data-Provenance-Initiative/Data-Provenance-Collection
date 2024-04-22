@@ -653,32 +653,29 @@ def prepare_book_summaries(row):
 
 
 def prepare_ultrachat(row):
-    parent = "ultrachat"
     messages = []
-    for i, script in enumerate(row["data"]):
-        messages.append(
-            {
-                "from": "user" if i % 2 == 0 else "assistant",
-                "text": script.strip(),
-                "parent": parent,
-            }
-        )
-        parent = i
-    return messages
-
-
-def prepare_ultrachat_200k(row):
-    parent = "ultrachat_200k"
-    messages = []
-    for i, script in enumerate(row):
-        messages.append(
-            {
-                "from": "user" if i % 2 == 0 else "assistant",
-                "text": script.strip(),
-                "parent": parent,
-            }
-        )
-        parent = i
+    if row["_source"] == "UltraChat":
+        parent = "ultrachat"
+        for i, script in enumerate(row["data"]):
+            messages.append(
+                {
+                    "from": "user" if i % 2 == 0 else "assistant",
+                    "text": script.strip(),
+                    "parent": parent,
+                }
+            )
+            parent = i
+    elif row["_source"] == "UltraChat_200k":
+        parent = "ultrachat_200k"
+        for i, script in enumerate(row):
+            messages.append(
+                {
+                    "from": "user" if i % 2 == 0 else "assistant",
+                    "text": script.strip(),
+                    "parent": parent,
+                }
+            )
+            parent = i
     return messages
 
 
