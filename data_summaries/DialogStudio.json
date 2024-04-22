@@ -12,33 +12,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "MIT License",
-    "License URL": "https://github.com/asappresearch/abcd/blob/master/LICENSE",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "MIT License",
@@ -59,33 +51,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "Apache License Version 2.0",
-    "License URL": "https://github.com/google/airdialogue/blob/master/LICENSE",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "Apache License Version 2.0",
@@ -106,33 +90,26 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English",
+      "Chinese"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "Apache License 2.0",
-    "License URL": "https://github.com/HLTCHKUST/BiToD/blob/main/LICENSE",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "Apache License 2.0",
@@ -153,33 +130,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC BY 4.0",
-    "License URL": "https://github.com/kushalchawla/CaSiNo/blob/main/LICENSE",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "CC BY 4.0",
@@ -200,33 +169,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "MIT License",
-    "License URL": "https://github.com/stanfordnlp/cocoa/blob/master/LICENSE.md",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "MIT License",
@@ -247,33 +208,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007",
-    "License URL": "https://github.com/matthen/dstc/blob/master/LICENSE",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007",
@@ -294,79 +247,64 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "No License",
-    "License URL": "",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "No License",
-      "License URL": ""
+      "License": "MIT License",
+      "License URL": "https://github.com/qbetterk/ParlAI/blob/disambiguation/LICENSE"
     },
     "Dataset Filter IDs": ""
   },
   "ds-DuRecDial-2.0": {
     "Unique Dataset Identifier": "ds-DuRecDial-2.0",
     "Dataset Name": "DuRecDial-2.0",
-    "Paper Title": "",
-    "Dataset URL": "",
-    "GitHub URL": "",
+    "Paper Title": "DuRecDial 2.0: A Bilingual Parallel Corpus for Conversational Recommendation",
+    "Dataset URL": "https://github.com/liuzeming01/Research/tree/master/NLP/ACL2020-DuRecDial",
+    "GitHub URL": "https://github.com/liuzeming01/DuRecDial",
     "Hugging Face URL": "",
     "Papers with Code URL": "",
-    "ArXiv URL": "",
+    "ArXiv URL": "https://aclanthology.org/2021.emnlp-main.356/",
     "Semantic Scholar Corpus ID": "",
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English",
+      "Chinese"
     ],
     "Task Categories": [
-      "'Motivational Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context Generation'"
+      "Motivational Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context Generation"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "No License",
-    "License URL": "",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "No License",
@@ -387,33 +325,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007",
-    "License URL": "https://github.com/NathanDuran/FRAMES-Corpus/blob/master/LICENSE",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007",
@@ -434,33 +364,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC BY 4.0",
-    "License URL": "https://creativecommons.org/licenses/by/4.0/",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "CC BY 4.0",
@@ -481,33 +403,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "MIT License",
-    "License URL": "https://github.com/wenhuchen/HDSA-Dialog/blob/master/LICENSE",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "MIT License",
@@ -528,33 +442,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "MiT License",
-    "License URL": "https://github.com/facebookresearch/ketod/blob/main/LICENSE",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "MiT License",
@@ -567,7 +473,7 @@
     "Dataset Name": "KVRET",
     "Paper Title": "A New Multi-Turn, Multi-Domain, Task-Oriented Dialogue Dataset",
     "Dataset URL": "https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/",
-    "GitHub URL": "https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/",
+    "GitHub URL": "",
     "Hugging Face URL": "",
     "Papers with Code URL": "",
     "ArXiv URL": "",
@@ -575,33 +481,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "No License",
-    "License URL": "",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "No License",
@@ -622,33 +520,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "Mit License",
-    "License URL": "https://github.com/budzianowski/multiwoz/blob/master/LICENSE",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "Mit License",
@@ -669,33 +559,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "MICROSOFT RESEARCH OPEN DATA LICENSE TERMS",
-    "License URL": "https://msropendata-web-api.azurewebsites.net/licenses/2f933be3-284d-500b-7ea3-2aa2fd0f1bb2/view",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "MICROSOFT RESEARCH OPEN DATA LICENSE TERMS",
@@ -716,36 +598,28 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "Attribution-NonCommercial 4.0 International",
-    "License URL": "https://github.com/facebookresearch/mudoco/blob/main/LICENSE.md",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "Attribution-NonCommercial 4.0 International",
+      "License": "CC BY-NC 4.0",
       "License URL": "https://github.com/facebookresearch/mudoco/blob/main/LICENSE.md"
     },
     "Dataset Filter IDs": ""
@@ -763,37 +637,29 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "Community Data License Agreement \u2013 Permissive \u2013 Version 1.0",
-    "License URL": "",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "Community Data License Agreement \u2013 Permissive \u2013 Version 1.0",
-      "License URL": ""
+      "License URL": "https://github.com/awslabs/multi-domain-goal-oriented-dialogues-dataset/blob/master/LICENSE.txt"
     },
     "Dataset Filter IDs": ""
   },
@@ -810,33 +676,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "Mit License",
-    "License URL": "https://github.com/budzianowski/multiwoz/blob/master/LICENSE",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "Mit License",
@@ -847,46 +705,38 @@
   "ds-OpenDialKG": {
     "Unique Dataset Identifier": "ds-OpenDialKG",
     "Dataset Name": "OpenDialKG",
-    "Paper Title": "",
-    "Dataset URL": "",
-    "GitHub URL": "",
+    "Paper Title": "OpenDialKG: Explainable Conversational Reasoning with Attention-based Walks over Knowledge Graphs",
+    "Dataset URL": "https://github.com/facebookresearch/opendialkg",
+    "GitHub URL": "https://github.com/facebookresearch/opendialkg",
     "Hugging Face URL": "",
-    "Papers with Code URL": "",
-    "ArXiv URL": "",
+    "Papers with Code URL": "https://paperswithcode.com/dataset/opendialkg",
+    "ArXiv URL": "https://aclanthology.org/P19-1081.pdf",
     "Semantic Scholar Corpus ID": "",
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Motivational Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context Generation'"
+      "Motivational Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context Generation"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "No License",
-    "License URL": "",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "No License",
-      "License URL": ""
+      "License": "CC BY-NC 4.0",
+      "License URL": "https://github.com/facebookresearch/opendialkg/blob/main/LICENSE"
     },
     "Dataset Filter IDs": ""
   },
@@ -903,33 +753,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC BY-SA 4.0",
-    "License URL": "https://github.com/google-research-datasets/dstc8-schema-guided-dialogue/blob/master/LICENSE.txt",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "CC BY-SA 4.0",
@@ -950,33 +792,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "MIT License",
-    "License URL": "https://github.com/RasaHQ/STAR/blob/master/LICENSE.txt",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "MIT License",
@@ -997,32 +831,24 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Motivational Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context Generation'"
+      "Motivational Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context Generation"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "No License",
-    "License URL": "",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "No License",
@@ -1043,36 +869,28 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "custom model/code generated"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "No license",
-    "License URL": "",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "No license",
+      "License": "No License",
       "License URL": ""
     },
     "Dataset Filter IDs": ""
@@ -1090,36 +908,28 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "custom model/code generated"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "No license",
-    "License URL": "",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "No license",
+      "License": "No License",
       "License URL": ""
     },
     "Dataset Filter IDs": ""
@@ -1137,36 +947,28 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "custom model/code generated"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "No license",
-    "License URL": "",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "No license",
+      "License": "No License",
       "License URL": ""
     },
     "Dataset Filter IDs": ""
@@ -1184,37 +986,29 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "Attribution 4.0 International (CC BY 4.0)",
-    "License URL": "https://github.com/google-research-datasets/Taskmaster/blob/master/TM-1-2019/README.md",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "Attribution 4.0 International (CC BY 4.0)",
-      "License URL": "https://github.com/google-research-datasets/Taskmaster/blob/master/TM-1-2019/README.md"
+      "License": "CC BY 4.0",
+      "License URL": "https://creativecommons.org/licenses/by/4.0/"
     },
     "Dataset Filter IDs": ""
   },
@@ -1222,8 +1016,8 @@
     "Unique Dataset Identifier": "ds-Taskmaster2",
     "Dataset Name": "Taskmaster2",
     "Paper Title": "",
-    "Dataset URL": "https://github.com/google-research-datasets/Taskmaster",
-    "GitHub URL": "https://github.com/google-research-datasets/Taskmaster",
+    "Dataset URL": "https://github.com/google-research-datasets/Taskmaster/tree/master/TM-2-2020",
+    "GitHub URL": "https://github.com/google-research-datasets/Taskmaster/tree/master/TM-2-2020",
     "Hugging Face URL": "",
     "Papers with Code URL": "",
     "ArXiv URL": "",
@@ -1231,36 +1025,28 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "Creative Commons Attribution 4.0 License (CC BY 4.0)",
-    "License URL": "https://creativecommons.org/licenses/by/4.0/",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "Creative Commons Attribution 4.0 License (CC BY 4.0)",
+      "License": "CC BY 4.0",
       "License URL": "https://creativecommons.org/licenses/by/4.0/"
     },
     "Dataset Filter IDs": ""
@@ -1269,8 +1055,8 @@
     "Unique Dataset Identifier": "ds-Taskmaster3",
     "Dataset Name": "Taskmaster3",
     "Paper Title": "",
-    "Dataset URL": "https://github.com/google-research-datasets/Taskmaster",
-    "GitHub URL": "https://github.com/google-research-datasets/Taskmaster",
+    "Dataset URL": "https://github.com/google-research-datasets/Taskmaster/tree/master/TM-3-2020",
+    "GitHub URL": "https://github.com/google-research-datasets/Taskmaster/tree/master/TM-3-2020",
     "Hugging Face URL": "",
     "Papers with Code URL": "",
     "ArXiv URL": "",
@@ -1278,36 +1064,28 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "Creative Commons Attribution 4.0 License (CC BY 4.0)",
-    "License URL": "https://creativecommons.org/licenses/by/4.0/",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "Creative Commons Attribution 4.0 License (CC BY 4.0)",
+      "License": "CC BY 4.0",
       "License URL": "https://creativecommons.org/licenses/by/4.0/"
     },
     "Dataset Filter IDs": ""
@@ -1325,33 +1103,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue State Tracking'",
-      "'Dialogue Act Recognition'"
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction",
+      "Dialogue State Tracking",
+      "Dialogue Act Recognition"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "Apache License 2.0",
-    "License URL": "https://github.com/nmrksic/neural-belief-tracker/blob/master/LICENSE",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "Apache License 2.0",
@@ -1372,36 +1142,28 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Summarization'",
-      "'Dialogue Summarization'",
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'"
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "Creative Commons Attribution 4.0 International Licence (CC BY 4.0)",
-    "License URL": "https://groups.inf.ed.ac.uk/ami/",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "Creative Commons Attribution 4.0 International Licence (CC BY 4.0)",
+      "License": "CC BY 4.0",
       "License URL": "https://groups.inf.ed.ac.uk/ami/"
     },
     "Dataset Filter IDs": ""
@@ -1419,33 +1181,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Summarization'",
-      "'Dialogue Summarization'",
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'"
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC BY-SA 4.0",
-    "License URL": "https://github.com/RevanthRameshkumar/CRD3/blob/master/LICENSE",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "CC BY-SA 4.0",
@@ -1466,33 +1220,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Summarization'",
-      "'Dialogue Summarization'",
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'"
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC BY-SA 4.0",
-    "License URL": "https://github.com/Yale-LILY/ConvoSumm/blob/master/LICENSE",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "CC BY-SA 4.0",
@@ -1503,43 +1249,35 @@
   "ds-DialogSum": {
     "Unique Dataset Identifier": "ds-DialogSum",
     "Dataset Name": "DialogSum",
-    "Paper Title": "",
-    "Dataset URL": "",
-    "GitHub URL": "",
-    "Hugging Face URL": "",
+    "Paper Title": "DialogSum: A Real-Life Scenario Dialogue Summarization Dataset",
+    "Dataset URL": "https://github.com/cylnlp/dialogsum?tab=readme-ov-file",
+    "GitHub URL": "https://github.com/cylnlp/dialogsum?tab=readme-ov-file",
+    "Hugging Face URL": "https://huggingface.co/datasets/knkarthick/dialogsum",
     "Papers with Code URL": "",
-    "ArXiv URL": "",
+    "ArXiv URL": "https://aclanthology.org/2021.findings-acl.449/",
     "Semantic Scholar Corpus ID": "",
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Summarization'",
-      "'Dialogue Summarization'",
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'"
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "MIT License",
-    "License URL": "https://github.com/cylnlp/dialogsum/blob/main/LICENSE",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "MIT License",
@@ -1560,33 +1298,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Summarization'",
-      "'Dialogue Summarization'",
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'"
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "No License",
-    "License URL": "",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "No License",
@@ -1607,36 +1337,28 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Summarization'",
-      "'Dialogue Summarization'",
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'"
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "Creative Commons Attribution 4.0 International Licence (CC BY 4.0)",
-    "License URL": "https://groups.inf.ed.ac.uk/ami/",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "Creative Commons Attribution 4.0 International Licence (CC BY 4.0)",
+      "License": "CC BY 4.0",
       "License URL": "https://groups.inf.ed.ac.uk/ami/"
     },
     "Dataset Filter IDs": ""
@@ -1654,33 +1376,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Summarization'",
-      "'Dialogue Summarization'",
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'"
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "No license",
-    "License URL": "",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "No license",
@@ -1701,33 +1415,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Summarization'",
-      "'Dialogue Summarization'",
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'"
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "MIT License",
-    "License URL": "https://github.com/Yale-LILY/QMSum/blob/main/LICENSE",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "MIT License",
@@ -1748,36 +1454,28 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Summarization'",
-      "'Dialogue Summarization'",
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'"
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "non-commercial licence: CC BY-NC-ND 4.0",
-    "License URL": "https://huggingface.co/datasets/samsum",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "non-commercial licence: CC BY-NC-ND 4.0",
+      "License": "CC BY-NC-ND 4.0",
       "License URL": "https://huggingface.co/datasets/samsum"
     },
     "Dataset Filter IDs": ""
@@ -1795,33 +1493,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Summarization'",
-      "'Dialogue Summarization'",
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'"
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "No License",
-    "License URL": "",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "No License",
@@ -1842,33 +1532,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Summarization'",
-      "'Dialogue Summarization'",
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'"
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "No License",
-    "License URL": "",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "No License",
@@ -1889,36 +1571,28 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Summarization'",
-      "'Dialogue Summarization'",
-      "'Context Generation'",
-      "'Dialogue Generation'",
-      "'Dialog Turn Prediction'"
+      "Summarization",
+      "Dialogue Summarization",
+      "Context Generation",
+      "Dialogue Generation",
+      "Dialog Turn Prediction"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "Creative Commons Zero v1.0 Universal",
-    "License URL": "https://github.com/guyfe/Tweetsumm/blob/main/LICENSE",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "Creative Commons Zero v1.0 Universal",
+      "License": "CC0 1.0 Universal",
       "License URL": "https://github.com/guyfe/Tweetsumm/blob/main/LICENSE"
     },
     "Dataset Filter IDs": ""
@@ -1936,36 +1610,28 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Open-Domain Conversation Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context Generation'"
+      "Open-Domain Conversation Generation",
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context Generation"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "No License",
-    "License URL": "",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "No License",
-      "License URL": ""
+      "License": "CC0 1.0 Universal",
+      "License URL": "https://gitlab.com/ucdavisnlp/antiscam"
     },
     "Dataset Filter IDs": ""
   },
@@ -1982,36 +1648,28 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Open-Domain Conversation Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context Generation'"
+      "Open-Domain Conversation Generation",
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context Generation"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "Apache 2.0",
-    "License URL": "",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "Apache 2.0",
-      "License URL": ""
+      "License": "Apache License 2.0",
+      "License URL": "https://github.com/DeepPavlovAdmin/convai/tree/master/2017"
     },
     "Dataset Filter IDs": ""
   },
@@ -2028,36 +1686,28 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Open-Domain Conversation Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context Generation'"
+      "Open-Domain Conversation Generation",
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context Generation"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "cc-by-nc-4.0",
-    "License URL": "https://huggingface.co/datasets?license=license:cc-by-nc-4.0",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "cc-by-nc-4.0",
-      "License URL": "https://huggingface.co/datasets?license=license:cc-by-nc-4.0"
+      "License": "CC BY-NC 4.0",
+      "License URL": "https://github.com/facebookresearch/EmpatheticDialogues/blob/main/LICENSE"
     },
     "Dataset Filter IDs": ""
   },
@@ -2074,32 +1724,24 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Open-Domain Conversation Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context Generation'"
+      "Open-Domain Conversation Generation",
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context Generation"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "MiT License",
-    "License URL": "https://huggingface.co/datasets/Anthropic/hh-rlhf",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "MiT License",
@@ -2120,32 +1762,26 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Open-Domain Conversation Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context Generation'"
+      "Open-Domain Conversation Generation",
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context Generation"
     ],
     "Text Sources": [
-      "'human'"
+      "OpenAI ChatGPT"
     ],
     "Model Generated": [
-      ""
+      "OpenAI ChatGPT"
     ],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC BY-NC 4.0",
-    "License URL": "https://github.com/alexa/places/blob/main/LICENSE",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "CC BY-NC 4.0",
@@ -2166,32 +1802,24 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Open-Domain Conversation Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context Generation'"
+      "Open-Domain Conversation Generation",
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context Generation"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "MiT License",
-    "License URL": "https://github.com/skywalker023/prosocial-dialog/blob/main/LICENSE",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "MiT License",
@@ -2202,42 +1830,34 @@
   "ds-chitchat-dataset": {
     "Unique Dataset Identifier": "ds-chitchat-dataset",
     "Dataset Name": "chitchat-dataset",
-    "Paper Title": "",
-    "Dataset URL": "",
-    "GitHub URL": "",
+    "Paper Title": "Conversational Scaffolding: An Analogy-based Approach to Response Prioritization in Open-domain Dialogs",
+    "Dataset URL": "https://github.com/BYU-PCCL/chitchat-dataset",
+    "GitHub URL": "https://github.com/BYU-PCCL/chitchat-dataset",
     "Hugging Face URL": "",
     "Papers with Code URL": "",
     "ArXiv URL": "",
-    "Semantic Scholar Corpus ID": "",
+    "Semantic Scholar Corpus ID": "https://www.semanticscholar.org/paper/Conversational-Scaffolding%3A-An-Analogy-based-to-in-Myers-Etchart/1596495949073d27a373141eaeb60691b6de09cb",
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Open-Domain Conversation Generation'",
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context Generation'"
+      "Open-Domain Conversation Generation",
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context Generation"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "MiT License",
-    "License URL": "https://github.com/BYU-PCCL/chitchat-dataset",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
     "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "MiT License",
@@ -2248,7 +1868,7 @@
   "ds-CoQA": {
     "Unique Dataset Identifier": "ds-CoQA",
     "Dataset Name": "CoQA",
-    "Paper Title": "",
+    "Paper Title": "CoQA: A Conversational Question Answering Challenge",
     "Dataset URL": "https://github.com/stanfordnlp/coqa-baselines",
     "GitHub URL": "https://github.com/stanfordnlp/coqa-baselines",
     "Hugging Face URL": "",
@@ -2258,33 +1878,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context GenerationDialog Turn Prediction'",
-      "'Relationship Conflict Resolution Question Answering'"
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "MiT License",
-    "License URL": "https://github.com/stanfordnlp/coqa-baselines/blob/master/LICENSE",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "MiT License",
       "License URL": "https://github.com/stanfordnlp/coqa-baselines/blob/master/LICENSE"
@@ -2294,7 +1906,7 @@
   "ds-CoSQL": {
     "Unique Dataset Identifier": "ds-CoSQL",
     "Dataset Name": "CoSQL",
-    "Paper Title": "",
+    "Paper Title": "CoSQL: A Conversational Text-to-SQL Challenge Towards Cross-Domain Natural Language Interfaces to Databases",
     "Dataset URL": "https://yale-lily.github.io/cosql",
     "GitHub URL": "",
     "Hugging Face URL": "",
@@ -2304,33 +1916,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context GenerationDialog Turn Prediction'",
-      "'Relationship Conflict Resolution Question Answering'"
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC BY-SA 4.0",
-    "License URL": "https://creativecommons.org/licenses/by-sa/4.0/legalcode",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "CC BY-SA 4.0",
       "License URL": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
@@ -2340,7 +1944,7 @@
   "ds-CompWebQ": {
     "Unique Dataset Identifier": "ds-CompWebQ",
     "Dataset Name": "CompWebQ",
-    "Paper Title": "",
+    "Paper Title": "The Web as a Knowledge-Base for Answering Complex Questions",
     "Dataset URL": "https://www.tau-nlp.sites.tau.ac.il/compwebq",
     "GitHub URL": "",
     "Hugging Face URL": "",
@@ -2350,33 +1954,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context GenerationDialog Turn Prediction'",
-      "'Relationship Conflict Resolution Question Answering'"
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "GNU General Public License, version 2",
-    "License URL": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "GNU General Public License, version 2",
       "License URL": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html"
@@ -2386,43 +1982,35 @@
   "ds-DART": {
     "Unique Dataset Identifier": "ds-DART",
     "Dataset Name": "DART",
-    "Paper Title": "",
-    "Dataset URL": "https://github.com/alexa/PLACES",
-    "GitHub URL": "https://github.com/alexa/PLACES",
-    "Hugging Face URL": "",
+    "Paper Title": "DART: Open-Domain Structured Data Record to Text Generation",
+    "Dataset URL": "https://github.com/Yale-LILY/dart",
+    "GitHub URL": "https://github.com/Yale-LILY/dart",
+    "Hugging Face URL": "https://huggingface.co/datasets/dart",
     "Papers with Code URL": "",
     "ArXiv URL": "https://aclanthology.org/2021.naacl-main.37/",
     "Semantic Scholar Corpus ID": "",
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context GenerationDialog Turn Prediction'",
-      "'Relationship Conflict Resolution Question Answering'"
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "MIT License",
-    "License URL": "https://github.com/Yale-LILY/dart/blob/master/LICENSE",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "MIT License",
       "License URL": "https://github.com/Yale-LILY/dart/blob/master/LICENSE"
@@ -2432,43 +2020,35 @@
   "ds-FeTaQA": {
     "Unique Dataset Identifier": "ds-FeTaQA",
     "Dataset Name": "FeTaQA",
-    "Paper Title": "",
-    "Dataset URL": "https://github.com/skywalker023/prosocial-dialog",
-    "GitHub URL": "https://github.com/skywalker023/prosocial-dialog",
+    "Paper Title": "FeTaQA: Free-form Table Question Answering",
+    "Dataset URL": "https://github.com/Yale-LILY/FeTaQA",
+    "GitHub URL": "https://github.com/Yale-LILY/FeTaQA",
     "Hugging Face URL": "",
     "Papers with Code URL": "",
-    "ArXiv URL": "https://aclanthology.org/2021.naacl-main.37/",
+    "ArXiv URL": "https://aclanthology.org/2022.tacl-1.3/",
     "Semantic Scholar Corpus ID": "",
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context GenerationDialog Turn Prediction'",
-      "'Relationship Conflict Resolution Question Answering'"
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC BY-SA 4.0",
-    "License URL": "https://github.com/Yale-LILY/FeTaQA/blob/main/LICENSE",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "CC BY-SA 4.0",
       "License URL": "https://github.com/Yale-LILY/FeTaQA/blob/main/LICENSE"
@@ -2478,43 +2058,35 @@
   "ds-GrailQA": {
     "Unique Dataset Identifier": "ds-GrailQA",
     "Dataset Name": "GrailQA",
-    "Paper Title": "",
-    "Dataset URL": "https://github.com/skywalker023/prosocial-dialog",
-    "GitHub URL": "https://github.com/skywalker023/prosocial-dialog",
+    "Paper Title": "Beyond I.I.D.: Three Levels of Generalization for Question Answering on Knowledge Bases",
+    "Dataset URL": "https://dki-lab.github.io/GrailQA/",
+    "GitHub URL": "https://github.com/dki-lab/GrailQA",
     "Hugging Face URL": "",
     "Papers with Code URL": "",
-    "ArXiv URL": "https://aclanthology.org/2022.tacl-1.3/",
+    "ArXiv URL": "https://arxiv.org/abs/2011.07743",
     "Semantic Scholar Corpus ID": "",
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context GenerationDialog Turn Prediction'",
-      "'Relationship Conflict Resolution Question Answering'"
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "Apache License 2.0",
-    "License URL": "https://github.com/dki-lab/GrailQA/blob/main/LICENSE",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "Apache License 2.0",
       "License URL": "https://github.com/dki-lab/GrailQA/blob/main/LICENSE"
@@ -2524,43 +2096,35 @@
   "ds-HybridQA": {
     "Unique Dataset Identifier": "ds-HybridQA",
     "Dataset Name": "HybridQA",
-    "Paper Title": "",
-    "Dataset URL": "https://github.com/stanfordnlp/coqa-baselines",
-    "GitHub URL": "https://github.com/stanfordnlp/coqa-baselines",
+    "Paper Title": "HybridQA: A Dataset of Multi-Hop Question Answering over Tabular and Textual Data",
+    "Dataset URL": "https://hybridqa.github.io/",
+    "GitHub URL": "https://github.com/wenhuchen/HybridQA",
     "Hugging Face URL": "",
     "Papers with Code URL": "",
-    "ArXiv URL": "https://arxiv.org/abs/2011.07743",
+    "ArXiv URL": "https://aclanthology.org/2020.findings-emnlp.91/",
     "Semantic Scholar Corpus ID": "",
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context GenerationDialog Turn Prediction'",
-      "'Relationship Conflict Resolution Question Answering'"
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "MIT License",
-    "License URL": "https://github.com/wenhuchen/HybridQA/blob/master/LICENSE",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "MIT License",
       "License URL": "https://github.com/wenhuchen/HybridQA/blob/master/LICENSE"
@@ -2570,53 +2134,46 @@
   "ds-MMQA": {
     "Unique Dataset Identifier": "ds-MMQA",
     "Dataset Name": "MMQA",
-    "Paper Title": "",
-    "Dataset URL": "",
-    "GitHub URL": "",
+    "Paper Title": "MMQA: A Multi-domain Multi-lingual Question-Answering Framework for English and Hindi",
+    "Dataset URL": "https://www.iitp.ac.in/~ai-nlp-ml/resources.html",
+    "GitHub URL": "https://github.com/deepaknlp/MMQA",
     "Hugging Face URL": "",
-    "Papers with Code URL": "",
-    "ArXiv URL": "",
+    "Papers with Code URL": "https://paperswithcode.com/paper/mmqa-a-multi-domain-multi-lingual-question",
+    "ArXiv URL": "https://aclanthology.org/L18-1440/",
     "Semantic Scholar Corpus ID": "",
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English",
+      "Hindi"
     ],
     "Task Categories": [
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context GenerationDialog Turn Prediction'",
-      "'Relationship Conflict Resolution Question Answering'"
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "No License",
-    "License URL": "",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "No License",
-      "License URL": ""
+      "License": "CC BY-NC-SA 4.0",
+      "License URL": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
     },
     "Dataset Filter IDs": ""
   },
   "ds-MTOP": {
     "Unique Dataset Identifier": "ds-MTOP",
     "Dataset Name": "MTOP",
-    "Paper Title": "",
+    "Paper Title": "MTOP: A Comprehensive Multilingual Task-Oriented Semantic Parsing Benchmark",
     "Dataset URL": "https://github.com/awslabs/multilingual-top",
     "GitHub URL": "https://github.com/awslabs/multilingual-top",
     "Hugging Face URL": "",
@@ -2626,33 +2183,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English,Italian,Japanese"
     ],
     "Task Categories": [
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context GenerationDialog Turn Prediction'",
-      "'Relationship Conflict Resolution Question Answering'"
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC BY-SA 4.0",
-    "License URL": "https://github.com/awslabs/multilingual-top/blob/main/LICENSE",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "CC BY-SA 4.0",
       "License URL": "https://github.com/awslabs/multilingual-top/blob/main/LICENSE"
@@ -2662,7 +2211,7 @@
   "ds-MultiModalQA": {
     "Unique Dataset Identifier": "ds-MultiModalQA",
     "Dataset Name": "MultiModalQA",
-    "Paper Title": "",
+    "Paper Title": "MultiModalQA: Complex Question Answering over Text, Tables and Images",
     "Dataset URL": "https://github.com/allenai/multimodalqa",
     "GitHub URL": "https://github.com/allenai/multimodalqa",
     "Hugging Face URL": "",
@@ -2672,33 +2221,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context GenerationDialog Turn Prediction'",
-      "'Relationship Conflict Resolution Question Answering'"
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "No License",
-    "License URL": "",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "No License",
       "License URL": ""
@@ -2708,7 +2249,7 @@
   "ds-SParC": {
     "Unique Dataset Identifier": "ds-SParC",
     "Dataset Name": "SParC",
-    "Paper Title": "",
+    "Paper Title": "SParC: Cross-Domain Semantic Parsing in Context",
     "Dataset URL": "https://yale-lily.github.io/sparc",
     "GitHub URL": "",
     "Hugging Face URL": "",
@@ -2718,33 +2259,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context GenerationDialog Turn Prediction'",
-      "'Relationship Conflict Resolution Question Answering'"
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC BY-SA 4.0",
-    "License URL": "https://creativecommons.org/licenses/by-sa/4.0/legalcode",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "CC BY-SA 4.0",
       "License URL": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
@@ -2754,53 +2287,7 @@
   "ds-SQA": {
     "Unique Dataset Identifier": "ds-SQA",
     "Dataset Name": "SQA",
-    "Paper Title": "",
-    "Dataset URL": "https://github.com/taoyds/spider",
-    "GitHub URL": "https://github.com/taoyds/spider",
-    "Hugging Face URL": "",
-    "Papers with Code URL": "",
-    "ArXiv URL": "https://arxiv.org/abs/1809.08887",
-    "Semantic Scholar Corpus ID": "",
-    "Collection": "DialogStudio",
-    "Collection URL": "https://github.com/salesforce/DialogStudio",
-    "Languages": [
-      "'English'"
-    ],
-    "Task Categories": [
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context GenerationDialog Turn Prediction'",
-      "'Relationship Conflict Resolution Question Answering'"
-    ],
-    "Text Sources": [
-      "'human'"
-    ],
-    "Model Generated": [
-      ""
-    ],
-    "Format": [
-      "'Multi-turn Dialog'"
-    ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC BY-SA 4.0",
-    "License URL": "https://creativecommons.org/licenses/by-sa/4.0/legalcode",
-    "License Verified By": "Jianguo Zhang",
-    "Licenses": {
-      "License": "CC BY-SA 4.0",
-      "License URL": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
-    },
-    "Dataset Filter IDs": ""
-  },
-  "ds-Spider": {
-    "Unique Dataset Identifier": "ds-Spider",
-    "Dataset Name": "Spider",
-    "Paper Title": "",
+    "Paper Title": "Search-based Neural Structured Learning for Sequential Question Answering",
     "Dataset URL": "https://www.microsoft.com/en-us/download/details.aspx?id=54253",
     "GitHub URL": "",
     "Hugging Face URL": "",
@@ -2810,33 +2297,63 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context GenerationDialog Turn Prediction'",
-      "'Relationship Conflict Resolution Question Answering'"
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
+    "Licenses": {
+      "License": "CC BY-SA 4.0",
+      "License URL": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+    },
+    "Dataset Filter IDs": ""
+  },
+  "ds-Spider": {
+    "Unique Dataset Identifier": "ds-Spider",
+    "Dataset Name": "Spider",
+    "Paper Title": "Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task",
+    "Dataset URL": "https://github.com/taoyds/spider",
+    "GitHub URL": "https://github.com/taoyds/spider",
+    "Hugging Face URL": "",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/1809.08887",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "DialogStudio",
+    "Collection URL": "https://github.com/salesforce/DialogStudio",
+    "Languages": [
+      "English"
     ],
-    "Creators": [
-      ""
+    "Task Categories": [
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
     ],
-    "License": "CC BY-SA 4.0",
-    "License URL": "https://creativecommons.org/licenses/by-sa/4.0/legalcode",
-    "License Verified By": "Jianguo Zhang",
+    "Text Sources": [
+      "human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-turn Dialog"
+    ],
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "CC BY-SA 4.0",
       "License URL": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
@@ -2846,7 +2363,7 @@
   "ds-ToTTo": {
     "Unique Dataset Identifier": "ds-ToTTo",
     "Dataset Name": "ToTTo",
-    "Paper Title": "",
+    "Paper Title": "ToTTo: A Controlled Table-To-Text Generation Dataset",
     "Dataset URL": "https://github.com/google-research-datasets/ToTTo",
     "GitHub URL": "https://github.com/google-research-datasets/ToTTo",
     "Hugging Face URL": "",
@@ -2856,33 +2373,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context GenerationDialog Turn Prediction'",
-      "'Relationship Conflict Resolution Question Answering'"
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC BY-SA 3.0",
-    "License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "CC BY-SA 3.0",
       "License URL": "https://creativecommons.org/licenses/by-sa/3.0/"
@@ -2892,53 +2401,45 @@
   "ds-WebQSP": {
     "Unique Dataset Identifier": "ds-WebQSP",
     "Dataset Name": "WebQSP",
-    "Paper Title": "",
-    "Dataset URL": "https://kgqa.github.io/leaderboard/freebase/web_questions_sp.html",
+    "Paper Title": "The Value of Semantic Parse Labeling for Knowledge Base Question Answering",
+    "Dataset URL": "https://www.microsoft.com/en-us/research/publication/the-value-of-semantic-parse-labeling-for-knowledge-base-question-answering-2/",
     "GitHub URL": "",
     "Hugging Face URL": "",
-    "Papers with Code URL": "",
+    "Papers with Code URL": "https://paperswithcode.com/dataset/webquestionssp",
     "ArXiv URL": "https://aclanthology.org/P16-2033/",
     "Semantic Scholar Corpus ID": "",
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context GenerationDialog Turn Prediction'",
-      "'Relationship Conflict Resolution Question Answering'"
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "No License",
-    "License URL": "",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "No License",
-      "License URL": ""
+      "License": "CC BY 4.0",
+      "License URL": "https://creativecommons.org/licenses/by/4.0/"
     },
     "Dataset Filter IDs": ""
   },
   "ds-WikiSQL": {
     "Unique Dataset Identifier": "ds-WikiSQL",
     "Dataset Name": "WikiSQL",
-    "Paper Title": "",
+    "Paper Title": "Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning",
     "Dataset URL": "https://github.com/salesforce/WikiSQL",
     "GitHub URL": "https://github.com/salesforce/WikiSQL",
     "Hugging Face URL": "",
@@ -2948,33 +2449,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context GenerationDialog Turn Prediction'",
-      "'Relationship Conflict Resolution Question Answering'"
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "BSD 3-Clause License",
-    "License URL": "https://github.com/salesforce/WikiSQL/blob/master/LICENSE",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "BSD 3-Clause License",
       "License URL": "https://github.com/salesforce/WikiSQL/blob/master/LICENSE"
@@ -2984,7 +2477,7 @@
   "ds-WikiTQ": {
     "Unique Dataset Identifier": "ds-WikiTQ",
     "Dataset Name": "WikiTQ",
-    "Paper Title": "",
+    "Paper Title": "Compositional Semantic Parsing on Semi-Structured Tables",
     "Dataset URL": "https://github.com/ppasupat/WikiTableQuestions",
     "GitHub URL": "https://github.com/ppasupat/WikiTableQuestions",
     "Hugging Face URL": "",
@@ -2994,33 +2487,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context GenerationDialog Turn Prediction'",
-      "'Relationship Conflict Resolution Question Answering'"
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC BY-SA 4.0",
-    "License URL": "https://github.com/ppasupat/WikiTableQuestions/blob/master/LICENSE",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "CC BY-SA 4.0",
       "License URL": "https://github.com/ppasupat/WikiTableQuestions/blob/master/LICENSE"
@@ -3030,7 +2515,7 @@
   "ds-wizard_of_internet": {
     "Unique Dataset Identifier": "ds-wizard_of_internet",
     "Dataset Name": "wizard_of_internet",
-    "Paper Title": "",
+    "Paper Title": "Internet-Augmented Dialogue Generation",
     "Dataset URL": "https://parl.ai/projects/sea/",
     "GitHub URL": "",
     "Hugging Face URL": "",
@@ -3040,33 +2525,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context GenerationDialog Turn Prediction'",
-      "'Relationship Conflict Resolution Question Answering'"
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC BY 4.0",
-    "License URL": "https://creativecommons.org/licenses/by/4.0/",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "CC BY 4.0",
       "License URL": "https://creativecommons.org/licenses/by/4.0/"
@@ -3076,7 +2553,7 @@
   "ds-wizard_of_wikipedia": {
     "Unique Dataset Identifier": "ds-wizard_of_wikipedia",
     "Dataset Name": "wizard_of_wikipedia",
-    "Paper Title": "",
+    "Paper Title": "Wizard of Wikipedia: Knowledge-Powered Conversational agents",
     "Dataset URL": "https://parl.ai/projects/wizard_of_wikipedia/",
     "GitHub URL": "",
     "Hugging Face URL": "",
@@ -3086,33 +2563,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialog Turn Prediction'",
-      "'Dialogue Generation'",
-      "'Context GenerationDialog Turn Prediction'",
-      "'Relationship Conflict Resolution Question Answering'"
+      "Dialog Turn Prediction",
+      "Dialogue Generation",
+      "Context GenerationDialog Turn Prediction",
+      "Relationship Conflict Resolution Question Answering"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC BY 4.0",
-    "License URL": "https://creativecommons.org/licenses/by/4.0/",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "CC BY 4.0",
       "License URL": "https://creativecommons.org/licenses/by/4.0/"
@@ -3122,7 +2591,7 @@
   "ds-ATIS": {
     "Unique Dataset Identifier": "ds-ATIS",
     "Dataset Name": "ATIS",
-    "Paper Title": "",
+    "Paper Title": "The ATIS Spoken Language Systems Pilot Corpus",
     "Dataset URL": "https://github.com/PolyAI-LDN/task-specific-datasets",
     "GitHub URL": "https://github.com/PolyAI-LDN/task-specific-datasets",
     "Hugging Face URL": "",
@@ -3132,41 +2601,33 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialogue Understanding'",
-      "'Natural Language Understanding'"
+      "Dialogue Understanding",
+      "Natural Language Understanding"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Single-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "No License",
-    "License URL": "",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "No License",
-      "License URL": ""
+      "License": "CC BY 4.0",
+      "License URL": "https://github.com/PolyAI-LDN/task-specific-datasets/blob/master/LICENSE"
     },
     "Dataset Filter IDs": ""
   },
   "ds-ATIS-NER": {
     "Unique Dataset Identifier": "ds-ATIS-NER",
     "Dataset Name": "ATIS-NER",
-    "Paper Title": "",
+    "Paper Title": "The ATIS Spoken Language Systems Pilot Corpus",
     "Dataset URL": "https://github.com/PolyAI-LDN/task-specific-datasets",
     "GitHub URL": "https://github.com/PolyAI-LDN/task-specific-datasets",
     "Hugging Face URL": "",
@@ -3176,41 +2637,33 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialogue Understanding'",
-      "'Natural Language Understanding'"
+      "Dialogue Understanding",
+      "Natural Language Understanding"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Single-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC-BY-SA",
-    "License URL": "",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "CC-BY-SA",
-      "License URL": ""
+      "License": "CC BY 4.0",
+      "License URL": "https://github.com/PolyAI-LDN/task-specific-datasets/blob/master/LICENSE"
     },
     "Dataset Filter IDs": ""
   },
   "ds-BANKING77": {
     "Unique Dataset Identifier": "ds-BANKING77",
     "Dataset Name": "BANKING77",
-    "Paper Title": "",
+    "Paper Title": "Efficient Intent Detection with Dual Sentence Encoders",
     "Dataset URL": "https://github.com/PolyAI-LDN/task-specific-datasets",
     "GitHub URL": "https://github.com/PolyAI-LDN/task-specific-datasets",
     "Hugging Face URL": "",
@@ -3220,33 +2673,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialogue Understanding'",
-      "'Natural Language Understanding'"
+      "Dialogue Understanding",
+      "Natural Language Understanding"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Single-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC-BY-4.0",
-    "License URL": "https://github.com/PolyAI-LDN/task-specific-datasets/commit/3bf93de788b9362c34d06cba1d271bc23dd1bcb6",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "CC-BY-4.0",
+      "License": "CC BY 4.0",
       "License URL": "https://github.com/PolyAI-LDN/task-specific-datasets/commit/3bf93de788b9362c34d06cba1d271bc23dd1bcb6"
     },
     "Dataset Filter IDs": ""
@@ -3254,7 +2699,7 @@
   "ds-BANKING77-OOS": {
     "Unique Dataset Identifier": "ds-BANKING77-OOS",
     "Dataset Name": "BANKING77-OOS",
-    "Paper Title": "",
+    "Paper Title": "Efficient Intent Detection with Dual Sentence Encoders",
     "Dataset URL": "https://github.com/PolyAI-LDN/task-specific-datasets",
     "GitHub URL": "https://github.com/PolyAI-LDN/task-specific-datasets",
     "Hugging Face URL": "",
@@ -3264,33 +2709,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialogue Understanding'",
-      "'Natural Language Understanding'"
+      "Dialogue Understanding",
+      "Natural Language Understanding"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Single-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC-BY-4.0",
-    "License URL": "https://github.com/PolyAI-LDN/task-specific-datasets/commit/3bf93de788b9362c34d06cba1d271bc23dd1bcb6",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "CC-BY-4.0",
+      "License": "CC BY 4.0",
       "License URL": "https://github.com/PolyAI-LDN/task-specific-datasets/commit/3bf93de788b9362c34d06cba1d271bc23dd1bcb6"
     },
     "Dataset Filter IDs": ""
@@ -3298,9 +2735,9 @@
   "ds-CLINC-Single-Domain-OOS-banking": {
     "Unique Dataset Identifier": "ds-CLINC-Single-Domain-OOS-banking",
     "Dataset Name": "CLINC-Single-Domain-OOS-banking",
-    "Paper Title": "",
-    "Dataset URL": "https://github.com/clinc/oos-eval",
-    "GitHub URL": "https://github.com/clinc/oos-eval",
+    "Paper Title": "Are Pretrained Transformers Robust in Intent Classification? A Missing Ingredient in Evaluation of Out-of-Scope Intent Detection",
+    "Dataset URL": "https://github.com/jianguoz/Few-Shot-Intent-Detection",
+    "GitHub URL": "https://github.com/jianguoz/Few-Shot-Intent-Detection",
     "Hugging Face URL": "",
     "Papers with Code URL": "",
     "ArXiv URL": "https://arxiv.org/abs/2106.04564",
@@ -3308,41 +2745,33 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialogue Understanding'",
-      "'Natural Language Understanding'"
+      "Dialogue Understanding",
+      "Natural Language Understanding"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Single-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC BY 3.0",
-    "License URL": "https://github.com/clinc/oos-eval/blob/master/LICENSE",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "CC BY 3.0",
-      "License URL": "https://github.com/clinc/oos-eval/blob/master/LICENSE"
+      "License URL": "https://github.com/jianguoz/Few-Shot-Intent-Detection"
     },
     "Dataset Filter IDs": ""
   },
   "ds-CLINC-Single-Domain-OOS-credit_cards": {
     "Unique Dataset Identifier": "ds-CLINC-Single-Domain-OOS-credit_cards",
     "Dataset Name": "CLINC-Single-Domain-OOS-credit_cards",
-    "Paper Title": "",
+    "Paper Title": "Are Pretrained Transformers Robust in Intent Classification? A Missing Ingredient in Evaluation of Out-of-Scope Intent Detection",
     "Dataset URL": "https://github.com/jianguoz/Few-Shot-Intent-Detection",
     "GitHub URL": "https://github.com/jianguoz/Few-Shot-Intent-Detection",
     "Hugging Face URL": "",
@@ -3352,43 +2781,35 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialogue Understanding'",
-      "'Natural Language Understanding'"
+      "Dialogue Understanding",
+      "Natural Language Understanding"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Single-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC BY 3.0",
-    "License URL": "https://github.com/clinc/oos-eval/blob/master/LICENSE",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "CC BY 3.0",
-      "License URL": "https://github.com/clinc/oos-eval/blob/master/LICENSE"
+      "License URL": "https://github.com/jianguoz/Few-Shot-Intent-Detection"
     },
     "Dataset Filter IDs": ""
   },
   "ds-CLINC150": {
     "Unique Dataset Identifier": "ds-CLINC150",
     "Dataset Name": "CLINC150",
-    "Paper Title": "",
-    "Dataset URL": "https://github.com/jianguoz/Few-Shot-Intent-Detection",
-    "GitHub URL": "https://github.com/jianguoz/Few-Shot-Intent-Detection",
+    "Paper Title": "An Evaluation Dataset for Intent Classification and Out-of-Scope Prediction",
+    "Dataset URL": "https://github.com/clinc/oos-eval",
+    "GitHub URL": "https://github.com/clinc/oos-eval",
     "Hugging Face URL": "",
     "Papers with Code URL": "",
     "ArXiv URL": "https://aclanthology.org/D19-1131/",
@@ -3396,33 +2817,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialogue Understanding'",
-      "'Natural Language Understanding'"
+      "Dialogue Understanding",
+      "Natural Language Understanding"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Single-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC BY 3.0",
-    "License URL": "https://github.com/clinc/oos-eval/blob/master/LICENSE",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "CC BY 3.0",
+      "License": "CC BY-SA 3.0",
       "License URL": "https://github.com/clinc/oos-eval/blob/master/LICENSE"
     },
     "Dataset Filter IDs": ""
@@ -3430,41 +2843,33 @@
   "ds-DSTC8-SGD": {
     "Unique Dataset Identifier": "ds-DSTC8-SGD",
     "Dataset Name": "DSTC8-SGD",
-    "Paper Title": "",
-    "Dataset URL": "https://github.com/xliuhw/NLU-Evaluation-Data",
-    "GitHub URL": "https://github.com/xliuhw/NLU-Evaluation-Data",
+    "Paper Title": "Towards Scalable Multi-domain Conversational Agents: The Schema-Guided Dialogue Dataset",
+    "Dataset URL": "https://github.com/google-research-datasets/dstc8-schema-guided-dialogue",
+    "GitHub URL": "https://github.com/google-research-datasets/dstc8-schema-guided-dialogue",
     "Hugging Face URL": "",
     "Papers with Code URL": "",
-    "ArXiv URL": "https://aclanthology.org/2020.acl-main.11.pdf",
+    "ArXiv URL": "https://arxiv.org/abs/1909.05855",
     "Semantic Scholar Corpus ID": "",
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialogue Understanding'",
-      "'Natural Language Understanding'"
+      "Dialogue Understanding",
+      "Natural Language Understanding"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC BY-SA 4.0",
-    "License URL": "https://github.com/google-research-datasets/dstc8-schema-guided-dialogue/blob/master/LICENSE.txt",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "CC BY-SA 4.0",
       "License URL": "https://github.com/google-research-datasets/dstc8-schema-guided-dialogue/blob/master/LICENSE.txt"
@@ -3474,9 +2879,9 @@
   "ds-HWU64": {
     "Unique Dataset Identifier": "ds-HWU64",
     "Dataset Name": "HWU64",
-    "Paper Title": "",
-    "Dataset URL": "https://github.com/snipsco/snips-nlu",
-    "GitHub URL": "https://github.com/snipsco/snips-nlu",
+    "Paper Title": "Benchmarking Natural Language Understanding Services for building Conversational Agents",
+    "Dataset URL": "https://github.com/alexa/dialoglue",
+    "GitHub URL": "https://github.com/alexa/dialoglue",
     "Hugging Face URL": "",
     "Papers with Code URL": "",
     "ArXiv URL": "https://arxiv.org/abs/1903.05566",
@@ -3484,41 +2889,33 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialogue Understanding'",
-      "'Natural Language Understanding'"
+      "Dialogue Understanding",
+      "Natural Language Understanding"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Single-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC BY 4.0",
-    "License URL": "https://github.com/xliuhw/NLU-Evaluation-Data/blob/master/LICENSE",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "CC BY 4.0",
-      "License URL": "https://github.com/xliuhw/NLU-Evaluation-Data/blob/master/LICENSE"
+      "License": "CC BY-SA 3.0",
+      "License URL": "https://github.com/alexa/dialoglue?tab=readme-ov-file"
     },
     "Dataset Filter IDs": ""
   },
   "ds-MIT-Movie": {
     "Unique Dataset Identifier": "ds-MIT-Movie",
     "Dataset Name": "MIT-Movie",
-    "Paper Title": "",
+    "Paper Title": "ASGARD: A PORTABLE ARCHITECTURE FOR MULTILINGUAL DIALOGUE SYSTEMS",
     "Dataset URL": "https://groups.csail.mit.edu/sls/downloads/",
     "GitHub URL": "",
     "Hugging Face URL": "",
@@ -3528,31 +2925,24 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English",
+      "Chinese"
     ],
     "Task Categories": [
-      "'Dialogue Understanding'",
-      "'Natural Language Understanding'"
+      "Dialogue Understanding",
+      "Natural Language Understanding"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Single-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "BSD license",
-    "License URL": "https://groups.csail.mit.edu/sls/downloads/",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "BSD license",
       "License URL": "https://groups.csail.mit.edu/sls/downloads/"
@@ -3562,7 +2952,7 @@
   "ds-MIT-Restaurant": {
     "Unique Dataset Identifier": "ds-MIT-Restaurant",
     "Dataset Name": "MIT-Restaurant",
-    "Paper Title": "",
+    "Paper Title": "ASGARD: A PORTABLE ARCHITECTURE FOR MULTILINGUAL DIALOGUE SYSTEMS",
     "Dataset URL": "https://groups.csail.mit.edu/sls/downloads/",
     "GitHub URL": "",
     "Hugging Face URL": "",
@@ -3572,31 +2962,24 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English",
+      "Chinese"
     ],
     "Task Categories": [
-      "'Dialogue Understanding'",
-      "'Natural Language Understanding'"
+      "Dialogue Understanding",
+      "Natural Language Understanding"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Single-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "BSD license",
-    "License URL": "https://groups.csail.mit.edu/sls/downloads/",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "BSD license",
       "License URL": "https://groups.csail.mit.edu/sls/downloads/"
@@ -3606,9 +2989,9 @@
   "ds-RESTAURANTS8K": {
     "Unique Dataset Identifier": "ds-RESTAURANTS8K",
     "Dataset Name": "RESTAURANTS8K",
-    "Paper Title": "",
-    "Dataset URL": "https://github.com/alexa/dialoglue",
-    "GitHub URL": "https://github.com/alexa/dialoglue",
+    "Paper Title": "Span-ConveRT: Few-shot Span Extraction for Dialog with Pretrained Conversational Representations",
+    "Dataset URL": "https://github.com/PolyAI-LDN/task-specific-datasets",
+    "GitHub URL": "https://github.com/PolyAI-LDN/task-specific-datasets",
     "Hugging Face URL": "",
     "Papers with Code URL": "",
     "ArXiv URL": "https://arxiv.org/abs/2005.08866",
@@ -3616,33 +2999,25 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialogue Understanding'",
-      "'Natural Language Understanding'"
+      "Dialogue Understanding",
+      "Natural Language Understanding"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Multi-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC-BY-4.0",
-    "License URL": "https://github.com/PolyAI-LDN/task-specific-datasets/commit/3bf93de788b9362c34d06cba1d271bc23dd1bcb6",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
-      "License": "CC-BY-4.0",
+      "License": "CC BY 4.0",
       "License URL": "https://github.com/PolyAI-LDN/task-specific-datasets/commit/3bf93de788b9362c34d06cba1d271bc23dd1bcb6"
     },
     "Dataset Filter IDs": ""
@@ -3650,41 +3025,33 @@
   "ds-SNIPS": {
     "Unique Dataset Identifier": "ds-SNIPS",
     "Dataset Name": "SNIPS",
-    "Paper Title": "",
-    "Dataset URL": "https://github.com/alexa/dialoglue",
-    "GitHub URL": "https://github.com/alexa/dialoglue",
+    "Paper Title": "Snips Voice Platform: an embedded Spoken Language Understanding system for private-by-design voice interfaces",
+    "Dataset URL": "https://github.com/snipsco/snips-nlu",
+    "GitHub URL": "https://github.com/snipsco/snips-nlu",
     "Hugging Face URL": "",
     "Papers with Code URL": "",
-    "ArXiv URL": "https://github.com/snipsco/snips-nlu",
+    "ArXiv URL": "https://arxiv.org/abs/1805.10190",
     "Semantic Scholar Corpus ID": "",
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialogue Understanding'",
-      "'Natural Language Understanding'"
+      "Dialogue Understanding",
+      "Natural Language Understanding"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Single-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "Apache License 2.0",
-    "License URL": "https://github.com/snipsco/snips-nlu/blob/master/LICENSE",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "Apache License 2.0",
       "License URL": "https://github.com/snipsco/snips-nlu/blob/master/LICENSE"
@@ -3694,41 +3061,33 @@
   "ds-SNIPS-NER": {
     "Unique Dataset Identifier": "ds-SNIPS-NER",
     "Dataset Name": "SNIPS-NER",
-    "Paper Title": "",
-    "Dataset URL": "https://github.com/howl-anderson/ATIS_dataset/tree/master",
-    "GitHub URL": "https://github.com/howl-anderson/ATIS_dataset/tree/master",
+    "Paper Title": "Snips Voice Platform: an embedded Spoken Language Understanding system for private-by-design voice interfaces",
+    "Dataset URL": "https://github.com/snipsco/snips-nlu",
+    "GitHub URL": "https://github.com/snipsco/snips-nlu",
     "Hugging Face URL": "",
     "Papers with Code URL": "",
-    "ArXiv URL": "https://github.com/snipsco/snips-nlu",
+    "ArXiv URL": "https://arxiv.org/abs/1805.10190",
     "Semantic Scholar Corpus ID": "",
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialogue Understanding'",
-      "'Natural Language Understanding'"
+      "Dialogue Understanding",
+      "Natural Language Understanding"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Single-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "Apache License 2.0",
-    "License URL": "https://github.com/snipsco/snips-nlu/blob/master/LICENSE",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "Apache License 2.0",
       "License URL": "https://github.com/snipsco/snips-nlu/blob/master/LICENSE"
@@ -3738,7 +3097,7 @@
   "ds-TOP": {
     "Unique Dataset Identifier": "ds-TOP",
     "Dataset Name": "TOP",
-    "Paper Title": "",
+    "Paper Title": "Semantic Parsing for Task Oriented Dialog using Hierarchical Representations",
     "Dataset URL": "https://github.com/alexa/dialoglue",
     "GitHub URL": "https://github.com/alexa/dialoglue",
     "Hugging Face URL": "",
@@ -3748,41 +3107,33 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialogue Understanding'",
-      "'Natural Language Understanding'"
+      "Dialogue Understanding",
+      "Natural Language Understanding"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Single-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC-BY-SA",
-    "License URL": "",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "CC-BY-SA",
-      "License URL": ""
+      "License URL": "https://github.com/alexa/dialoglue"
     },
     "Dataset Filter IDs": ""
   },
   "ds-TOP-NER": {
     "Unique Dataset Identifier": "ds-TOP-NER",
     "Dataset Name": "TOP-NER",
-    "Paper Title": "",
+    "Paper Title": "Semantic Parsing for Task Oriented Dialog using Hierarchical Representations",
     "Dataset URL": "https://github.com/alexa/dialoglue",
     "GitHub URL": "https://github.com/alexa/dialoglue",
     "Hugging Face URL": "",
@@ -3792,34 +3143,26 @@
     "Collection": "DialogStudio",
     "Collection URL": "https://github.com/salesforce/DialogStudio",
     "Languages": [
-      "'English'"
+      "English"
     ],
     "Task Categories": [
-      "'Dialogue Understanding'",
-      "'Natural Language Understanding'"
+      "Dialogue Understanding",
+      "Natural Language Understanding"
     ],
     "Text Sources": [
-      "'human'"
+      "human"
     ],
-    "Model Generated": [
-      ""
-    ],
+    "Model Generated": [],
     "Format": [
-      "'Multi-turn Dialog'"
+      "Single-turn Dialog"
     ],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": [
-      ""
-    ],
-    "Creators": [
-      ""
-    ],
-    "License": "CC-BY-SA",
-    "License URL": "",
-    "License Verified By": "Jianguo Zhang",
+    "Human Annotation": [],
+    "Derived from Datasets": [],
+    "Creators": [],
+    "License Verified By": "Kun Qian",
     "Licenses": {
       "License": "CC-BY-SA",
-      "License URL": ""
+      "License URL": "https://github.com/alexa/dialoglue"
     },
     "Dataset Filter IDs": ""
   }
