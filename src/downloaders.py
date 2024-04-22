@@ -575,11 +575,17 @@ def download_help_steer(accepted_filter_ids):
 
 
 def download_ultrachat_200k(accepted_filter_ids):
-    return huggingface_download("HuggingFaceH4/ultrachat_200k", split="train_sft")
+    return annotate_source(
+        huggingface_download("HuggingFaceH4/ultrachat_200k", split="train_sft"),
+        "UltraChat_200k",
+    )
 
 
 def download_ultrachat(accepted_filter_ids):
-    return huggingface_download("stingning/ultrachat", split="train")
+    return annotate_source(
+        huggingface_download("stingning/ultrachat", split="train"),
+        "UltraChat",
+    )
 
 
 def download_wildchat(accepted_filter_ids):

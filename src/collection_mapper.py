@@ -204,7 +204,7 @@ COLLECTION_FN_MAPPER = {
     },
     "UltraChat_200k": {
         "download_function": downloaders.download_ultrachat_200k,
-        "prepare_function": preparers.prepare_ultrachat_200k,
+        "prepare_function": preparers.prepare_ultrachat,
     },
     "Airoboros": {
         "download_function": downloaders.download_airoboros,
