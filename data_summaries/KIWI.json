@@ -22,8 +22,8 @@
             "Academic Tasks"
         ],
         "Text Sources": [
-            "User interactions",
-            "Generated text"
+            "Governments",
+            "User interactions"
         ],
         "Model Generated": [
             "OpenAI GPT-3.5-Turbo",
@@ -42,7 +42,10 @@
         "Licenses": [
             {
                 "License": "CC BY-SA 4.0",
-                "License URL": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+                "License URL": "https://huggingface.co/datasets/fangyuan/kiwi#licensing-information"
+            },
+            {
+                "License": "OpenAI"
             }
         ],
         "License Notes": "",

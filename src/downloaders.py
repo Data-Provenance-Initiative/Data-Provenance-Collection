@@ -957,6 +957,5 @@ def download_bactrianx(accepted_filter_ids):
 
 
 def download_kiwi(accepted_filter_ids):
-    # dset = huggingface_download("internlm/Agent-FLAN")
     dset = huggingface_download("fangyuan/kiwi", split="train")
     return dset
