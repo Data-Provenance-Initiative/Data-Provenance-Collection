@@ -16,21 +16,21 @@
         ],
         "Task Categories": [
             "Conversational Question Answering",
-            "Roleplay"
+            "Roleplay",
+            "Dialogue Understanding"
         ],
         "Text Sources": [
             "https://character.ai"
         ],
         "Model Generated": [
+            "Character AI",
             "Other"
         ],
         "Format": [
             "Multi-turn Dialog"
         ],
         "Human Annotation": "Yes",
-        "Derived from Datasets": [
-            "null"
-        ],
+        "Derived from Datasets": [],
         "Creators": [
             "PygmalionAI"
         ],
@@ -41,7 +41,7 @@
             }
         ],
         "License Notes": "PIPPA contains NSFW and heavily disturbing content. Models trained purely with PIPPA may generate X-rated output.",
-        "License Verified By": "",
+        "License Verified By": "Nayan Saxena",
         "Dataset Filter IDs": [
             "PygmalionAI-PIPPA"
         ]
