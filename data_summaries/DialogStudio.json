@@ -42,7 +42,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-ABCD"
+    "Dataset Filter IDs": [
+      "ds-ABCD"
+    ]
   },
   "ds-AirDialogue": {
     "Unique Dataset Identifier": "ds-AirDialogue",
@@ -87,7 +89,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-AirDialogue"
+    "Dataset Filter IDs": [
+      "ds-AirDialogue"
+    ]
   },
   "ds-BiTOD": {
     "Unique Dataset Identifier": "ds-BiTOD",
@@ -133,7 +137,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-BiTOD"
+    "Dataset Filter IDs": [
+      "ds-BiTOD"
+    ]
   },
   "ds-CaSiNo": {
     "Unique Dataset Identifier": "ds-CaSiNo",
@@ -178,7 +184,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-CaSiNo"
+    "Dataset Filter IDs": [
+      "ds-CaSiNo"
+    ]
   },
   "ds-CraigslistBargains": {
     "Unique Dataset Identifier": "ds-CraigslistBargains",
@@ -223,7 +231,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-CraigslistBargains"
+    "Dataset Filter IDs": [
+      "ds-CraigslistBargains"
+    ]
   },
   "ds-DSTC2-Clean": {
     "Unique Dataset Identifier": "ds-DSTC2-Clean",
@@ -268,7 +278,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-DSTC2-Clean"
+    "Dataset Filter IDs": [
+      "ds-DSTC2-Clean"
+    ]
   },
   "ds-Disambiguation": {
     "Unique Dataset Identifier": "ds-Disambiguation",
@@ -313,7 +325,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-Disambiguation"
+    "Dataset Filter IDs": [
+      "ds-Disambiguation"
+    ]
   },
   "ds-DuRecDial-2.0": {
     "Unique Dataset Identifier": "ds-DuRecDial-2.0",
@@ -358,7 +372,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-DuRecDial-2.0"
+    "Dataset Filter IDs": [
+      "ds-DuRecDial-2.0"
+    ]
   },
   "ds-FRAMES": {
     "Unique Dataset Identifier": "ds-FRAMES",
@@ -403,7 +419,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-FRAMES"
+    "Dataset Filter IDs": [
+      "ds-FRAMES"
+    ]
   },
   "ds-GECOR": {
     "Unique Dataset Identifier": "ds-GECOR",
@@ -448,7 +466,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-GECOR"
+    "Dataset Filter IDs": [
+      "ds-GECOR"
+    ]
   },
   "ds-HDSA-Dialog": {
     "Unique Dataset Identifier": "ds-HDSA-Dialog",
@@ -493,7 +513,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-HDSA-Dialog"
+    "Dataset Filter IDs": [
+      "ds-HDSA-Dialog"
+    ]
   },
   "ds-KETOD": {
     "Unique Dataset Identifier": "ds-KETOD",
@@ -538,7 +560,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-KETOD"
+    "Dataset Filter IDs": [
+      "ds-KETOD"
+    ]
   },
   "ds-KVRET": {
     "Unique Dataset Identifier": "ds-KVRET",
@@ -583,7 +607,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-KVRET"
+    "Dataset Filter IDs": [
+      "ds-KVRET"
+    ]
   },
   "ds-MULTIWOZ2_2": {
     "Unique Dataset Identifier": "ds-MULTIWOZ2_2",
@@ -628,7 +654,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-MULTIWOZ2_2"
+    "Dataset Filter IDs": [
+      "ds-MULTIWOZ2_2"
+    ]
   },
   "ds-MetaLWOZ": {
     "Unique Dataset Identifier": "ds-MetaLWOZ",
@@ -673,7 +701,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-MetaLWOZ"
+    "Dataset Filter IDs": [
+      "ds-MetaLWOZ"
+    ]
   },
   "ds-MuDoCo": {
     "Unique Dataset Identifier": "ds-MuDoCo",
@@ -718,7 +748,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-MuDoCo"
+    "Dataset Filter IDs": [
+      "ds-MuDoCo"
+    ]
   },
   "ds-MulDoGO": {
     "Unique Dataset Identifier": "ds-MulDoGO",
@@ -763,7 +795,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-MulDoGO"
+    "Dataset Filter IDs": [
+      "ds-MulDoGO"
+    ]
   },
   "ds-MultiWOZ_2.1": {
     "Unique Dataset Identifier": "ds-MultiWOZ_2.1",
@@ -808,7 +842,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-MultiWOZ_2.1"
+    "Dataset Filter IDs": [
+      "ds-MultiWOZ_2.1"
+    ]
   },
   "ds-OpenDialKG": {
     "Unique Dataset Identifier": "ds-OpenDialKG",
@@ -852,7 +888,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-OpenDialKG"
+    "Dataset Filter IDs": [
+      "ds-OpenDialKG"
+    ]
   },
   "ds-SGD": {
     "Unique Dataset Identifier": "ds-SGD",
@@ -897,7 +935,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-SGD"
+    "Dataset Filter IDs": [
+      "ds-SGD"
+    ]
   },
   "ds-STAR": {
     "Unique Dataset Identifier": "ds-STAR",
@@ -942,7 +982,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-STAR"
+    "Dataset Filter IDs": [
+      "ds-STAR"
+    ]
   },
   "ds-SalesBot": {
     "Unique Dataset Identifier": "ds-SalesBot",
@@ -986,7 +1028,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-SalesBot"
+    "Dataset Filter IDs": [
+      "ds-SalesBot"
+    ]
   },
   "ds-SimJointGEN": {
     "Unique Dataset Identifier": "ds-SimJointGEN",
@@ -1031,7 +1075,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-SimJointGEN"
+    "Dataset Filter IDs": [
+      "ds-SimJointGEN"
+    ]
   },
   "ds-SimJointMovie": {
     "Unique Dataset Identifier": "ds-SimJointMovie",
@@ -1076,7 +1122,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-SimJointMovie"
+    "Dataset Filter IDs": [
+      "ds-SimJointMovie"
+    ]
   },
   "ds-SimJointRestaurant": {
     "Unique Dataset Identifier": "ds-SimJointRestaurant",
@@ -1121,7 +1169,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-SimJointRestaurant"
+    "Dataset Filter IDs": [
+      "ds-SimJointRestaurant"
+    ]
   },
   "ds-Taskmaster1": {
     "Unique Dataset Identifier": "ds-Taskmaster1",
@@ -1166,7 +1216,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-Taskmaster1"
+    "Dataset Filter IDs": [
+      "ds-Taskmaster1"
+    ]
   },
   "ds-Taskmaster2": {
     "Unique Dataset Identifier": "ds-Taskmaster2",
@@ -1211,7 +1263,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-Taskmaster2"
+    "Dataset Filter IDs": [
+      "ds-Taskmaster2"
+    ]
   },
   "ds-Taskmaster3": {
     "Unique Dataset Identifier": "ds-Taskmaster3",
@@ -1256,7 +1310,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-Taskmaster3"
+    "Dataset Filter IDs": [
+      "ds-Taskmaster3"
+    ]
   },
   "ds-WOZ2_0": {
     "Unique Dataset Identifier": "ds-WOZ2_0",
@@ -1301,7 +1357,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-WOZ2_0"
+    "Dataset Filter IDs": [
+      "ds-WOZ2_0"
+    ]
   },
   "ds-AMI": {
     "Unique Dataset Identifier": "ds-AMI",
@@ -1346,7 +1404,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-AMI"
+    "Dataset Filter IDs": [
+      "ds-AMI"
+    ]
   },
   "ds-CRD3": {
     "Unique Dataset Identifier": "ds-CRD3",
@@ -1391,7 +1451,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-CRD3"
+    "Dataset Filter IDs": [
+      "ds-CRD3"
+    ]
   },
   "ds-ConvoSumm": {
     "Unique Dataset Identifier": "ds-ConvoSumm",
@@ -1436,7 +1498,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-ConvoSumm"
+    "Dataset Filter IDs": [
+      "ds-ConvoSumm"
+    ]
   },
   "ds-DialogSum": {
     "Unique Dataset Identifier": "ds-DialogSum",
@@ -1481,7 +1545,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-DialogSum"
+    "Dataset Filter IDs": [
+      "ds-DialogSum"
+    ]
   },
   "ds-ECTSum": {
     "Unique Dataset Identifier": "ds-ECTSum",
@@ -1526,7 +1592,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-ECTSum"
+    "Dataset Filter IDs": [
+      "ds-ECTSum"
+    ]
   },
   "ds-ICSI": {
     "Unique Dataset Identifier": "ds-ICSI",
@@ -1571,7 +1639,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-ICSI"
+    "Dataset Filter IDs": [
+      "ds-ICSI"
+    ]
   },
   "ds-MediaSum": {
     "Unique Dataset Identifier": "ds-MediaSum",
@@ -1616,7 +1686,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-MediaSum"
+    "Dataset Filter IDs": [
+      "ds-MediaSum"
+    ]
   },
   "ds-QMSum": {
     "Unique Dataset Identifier": "ds-QMSum",
@@ -1661,7 +1733,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-QMSum"
+    "Dataset Filter IDs": [
+      "ds-QMSum"
+    ]
   },
   "ds-SAMSum": {
     "Unique Dataset Identifier": "ds-SAMSum",
@@ -1706,7 +1780,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-SAMSum"
+    "Dataset Filter IDs": [
+      "ds-SAMSum"
+    ]
   },
   "ds-SummScreen_ForeverDreaming": {
     "Unique Dataset Identifier": "ds-SummScreen_ForeverDreaming",
@@ -1751,7 +1827,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-SummScreen_ForeverDreaming"
+    "Dataset Filter IDs": [
+      "ds-SummScreen_ForeverDreaming"
+    ]
   },
   "ds-SummScreen_TVMegaSite": {
     "Unique Dataset Identifier": "ds-SummScreen_TVMegaSite",
@@ -1796,7 +1874,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-SummScreen_TVMegaSite"
+    "Dataset Filter IDs": [
+      "ds-SummScreen_TVMegaSite"
+    ]
   },
   "ds-TweetSumm": {
     "Unique Dataset Identifier": "ds-TweetSumm",
@@ -1841,7 +1921,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-TweetSumm"
+    "Dataset Filter IDs": [
+      "ds-TweetSumm"
+    ]
   },
   "ds-AntiScam": {
     "Unique Dataset Identifier": "ds-AntiScam",
@@ -1885,7 +1967,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-AntiScam"
+    "Dataset Filter IDs": [
+      "ds-AntiScam"
+    ]
   },
   "ds-ConvAI2": {
     "Unique Dataset Identifier": "ds-ConvAI2",
@@ -1929,7 +2013,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-ConvAI2"
+    "Dataset Filter IDs": [
+      "ds-ConvAI2"
+    ]
   },
   "ds-Empathetic": {
     "Unique Dataset Identifier": "ds-Empathetic",
@@ -1973,7 +2059,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-Empathetic"
+    "Dataset Filter IDs": [
+      "ds-Empathetic"
+    ]
   },
   "ds-HH-RLHF": {
     "Unique Dataset Identifier": "ds-HH-RLHF",
@@ -2017,7 +2105,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-HH-RLHF"
+    "Dataset Filter IDs": [
+      "ds-HH-RLHF"
+    ]
   },
   "ds-PLACES3.5": {
     "Unique Dataset Identifier": "ds-PLACES3.5",
@@ -2063,7 +2153,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-PLACES3.5"
+    "Dataset Filter IDs": [
+      "ds-PLACES3.5"
+    ]
   },
   "ds-Prosocial": {
     "Unique Dataset Identifier": "ds-Prosocial",
@@ -2107,7 +2199,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-Prosocial"
+    "Dataset Filter IDs": [
+      "ds-Prosocial"
+    ]
   },
   "ds-chitchat-dataset": {
     "Unique Dataset Identifier": "ds-chitchat-dataset",
@@ -2151,7 +2245,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-chitchat-dataset"
+    "Dataset Filter IDs": [
+      "ds-chitchat-dataset"
+    ]
   },
   "ds-CoQA": {
     "Unique Dataset Identifier": "ds-CoQA",
@@ -2195,7 +2291,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-CoQA"
+    "Dataset Filter IDs": [
+      "ds-CoQA"
+    ]
   },
   "ds-CoSQL": {
     "Unique Dataset Identifier": "ds-CoSQL",
@@ -2239,7 +2337,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-CoSQL"
+    "Dataset Filter IDs": [
+      "ds-CoSQL"
+    ]
   },
   "ds-CompWebQ": {
     "Unique Dataset Identifier": "ds-CompWebQ",
@@ -2283,7 +2383,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-CompWebQ"
+    "Dataset Filter IDs": [
+      "ds-CompWebQ"
+    ]
   },
   "ds-DART": {
     "Unique Dataset Identifier": "ds-DART",
@@ -2327,7 +2429,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-DART"
+    "Dataset Filter IDs": [
+      "ds-DART"
+    ]
   },
   "ds-FeTaQA": {
     "Unique Dataset Identifier": "ds-FeTaQA",
@@ -2371,7 +2475,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-FeTaQA"
+    "Dataset Filter IDs": [
+      "ds-FeTaQA"
+    ]
   },
   "ds-GrailQA": {
     "Unique Dataset Identifier": "ds-GrailQA",
@@ -2415,7 +2521,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-GrailQA"
+    "Dataset Filter IDs": [
+      "ds-GrailQA"
+    ]
   },
   "ds-HybridQA": {
     "Unique Dataset Identifier": "ds-HybridQA",
@@ -2459,7 +2567,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-HybridQA"
+    "Dataset Filter IDs": [
+      "ds-HybridQA"
+    ]
   },
   "ds-MMQA": {
     "Unique Dataset Identifier": "ds-MMQA",
@@ -2504,7 +2614,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-MMQA"
+    "Dataset Filter IDs": [
+      "ds-MMQA"
+    ]
   },
   "ds-MTOP": {
     "Unique Dataset Identifier": "ds-MTOP",
@@ -2548,7 +2660,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-MTOP"
+    "Dataset Filter IDs": [
+      "ds-MTOP"
+    ]
   },
   "ds-MultiModalQA": {
     "Unique Dataset Identifier": "ds-MultiModalQA",
@@ -2592,7 +2706,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-MultiModalQA"
+    "Dataset Filter IDs": [
+      "ds-MultiModalQA"
+    ]
   },
   "ds-SParC": {
     "Unique Dataset Identifier": "ds-SParC",
@@ -2636,7 +2752,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-SParC"
+    "Dataset Filter IDs": [
+      "ds-SParC"
+    ]
   },
   "ds-SQA": {
     "Unique Dataset Identifier": "ds-SQA",
@@ -2680,7 +2798,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-SQA"
+    "Dataset Filter IDs": [
+      "ds-SQA"
+    ]
   },
   "ds-Spider": {
     "Unique Dataset Identifier": "ds-Spider",
@@ -2724,7 +2844,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-Spider"
+    "Dataset Filter IDs": [
+      "ds-Spider"
+    ]
   },
   "ds-ToTTo": {
     "Unique Dataset Identifier": "ds-ToTTo",
@@ -2768,7 +2890,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-ToTTo"
+    "Dataset Filter IDs": [
+      "ds-ToTTo"
+    ]
   },
   "ds-WebQSP": {
     "Unique Dataset Identifier": "ds-WebQSP",
@@ -2812,7 +2936,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-WebQSP"
+    "Dataset Filter IDs": [
+      "ds-WebQSP"
+    ]
   },
   "ds-WikiSQL": {
     "Unique Dataset Identifier": "ds-WikiSQL",
@@ -2856,7 +2982,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-WikiSQL"
+    "Dataset Filter IDs": [
+      "ds-WikiSQL"
+    ]
   },
   "ds-WikiTQ": {
     "Unique Dataset Identifier": "ds-WikiTQ",
@@ -2900,7 +3028,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-WikiTQ"
+    "Dataset Filter IDs": [
+      "ds-WikiTQ"
+    ]
   },
   "ds-wizard_of_internet": {
     "Unique Dataset Identifier": "ds-wizard_of_internet",
@@ -2944,7 +3074,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-wizard_of_internet"
+    "Dataset Filter IDs": [
+      "ds-wizard_of_internet"
+    ]
   },
   "ds-wizard_of_wikipedia": {
     "Unique Dataset Identifier": "ds-wizard_of_wikipedia",
@@ -2988,7 +3120,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-wizard_of_wikipedia"
+    "Dataset Filter IDs": [
+      "ds-wizard_of_wikipedia"
+    ]
   },
   "ds-ATIS": {
     "Unique Dataset Identifier": "ds-ATIS",
@@ -3030,7 +3164,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-ATIS"
+    "Dataset Filter IDs": [
+      "ds-ATIS"
+    ]
   },
   "ds-ATIS-NER": {
     "Unique Dataset Identifier": "ds-ATIS-NER",
@@ -3072,7 +3208,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-ATIS-NER"
+    "Dataset Filter IDs": [
+      "ds-ATIS-NER"
+    ]
   },
   "ds-BANKING77": {
     "Unique Dataset Identifier": "ds-BANKING77",
@@ -3114,7 +3252,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-BANKING77"
+    "Dataset Filter IDs": [
+      "ds-BANKING77"
+    ]
   },
   "ds-BANKING77-OOS": {
     "Unique Dataset Identifier": "ds-BANKING77-OOS",
@@ -3156,7 +3296,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-BANKING77-OOS"
+    "Dataset Filter IDs": [
+      "ds-BANKING77-OOS"
+    ]
   },
   "ds-CLINC-Single-Domain-OOS-banking": {
     "Unique Dataset Identifier": "ds-CLINC-Single-Domain-OOS-banking",
@@ -3198,7 +3340,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-CLINC-Single-Domain-OOS-banking"
+    "Dataset Filter IDs": [
+      "ds-CLINC-Single-Domain-OOS-banking"
+    ]
   },
   "ds-CLINC-Single-Domain-OOS-credit_cards": {
     "Unique Dataset Identifier": "ds-CLINC-Single-Domain-OOS-credit_cards",
@@ -3240,7 +3384,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-CLINC-Single-Domain-OOS-credit_cards"
+    "Dataset Filter IDs": [
+      "ds-CLINC-Single-Domain-OOS-credit_cards"
+    ]
   },
   "ds-CLINC150": {
     "Unique Dataset Identifier": "ds-CLINC150",
@@ -3282,7 +3428,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-CLINC150"
+    "Dataset Filter IDs": [
+      "ds-CLINC150"
+    ]
   },
   "ds-DSTC8-SGD": {
     "Unique Dataset Identifier": "ds-DSTC8-SGD",
@@ -3324,7 +3472,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-DSTC8-SGD"
+    "Dataset Filter IDs": [
+      "ds-DSTC8-SGD"
+    ]
   },
   "ds-HWU64": {
     "Unique Dataset Identifier": "ds-HWU64",
@@ -3366,7 +3516,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-HWU64"
+    "Dataset Filter IDs": [
+      "ds-HWU64"
+    ]
   },
   "ds-MIT-Movie": {
     "Unique Dataset Identifier": "ds-MIT-Movie",
@@ -3409,7 +3561,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-MIT-Movie"
+    "Dataset Filter IDs": [
+      "ds-MIT-Movie"
+    ]
   },
   "ds-MIT-Restaurant": {
     "Unique Dataset Identifier": "ds-MIT-Restaurant",
@@ -3452,7 +3606,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-MIT-Restaurant"
+    "Dataset Filter IDs": [
+      "ds-MIT-Restaurant"
+    ]
   },
   "ds-RESTAURANTS8K": {
     "Unique Dataset Identifier": "ds-RESTAURANTS8K",
@@ -3494,7 +3650,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-RESTAURANTS8K"
+    "Dataset Filter IDs": [
+      "ds-RESTAURANTS8K"
+    ]
   },
   "ds-SNIPS": {
     "Unique Dataset Identifier": "ds-SNIPS",
@@ -3536,7 +3694,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-SNIPS"
+    "Dataset Filter IDs": [
+      "ds-SNIPS"
+    ]
   },
   "ds-SNIPS-NER": {
     "Unique Dataset Identifier": "ds-SNIPS-NER",
@@ -3578,7 +3738,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-SNIPS-NER"
+    "Dataset Filter IDs": [
+      "ds-SNIPS-NER"
+    ]
   },
   "ds-TOP": {
     "Unique Dataset Identifier": "ds-TOP",
@@ -3620,7 +3782,9 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-TOP"
+    "Dataset Filter IDs": [
+      "ds-TOP"
+    ]
   },
   "ds-TOP-NER": {
     "Unique Dataset Identifier": "ds-TOP-NER",
@@ -3662,6 +3826,8 @@
         "License URL": "https://github.com/salesforce/DialogStudio/blob/main/LICENSE.txt"
       }
     ],
-    "Dataset Filter IDs": "ds-TOP-NER"
+    "Dataset Filter IDs": [
+      "ds-TOP-NER"
+    ]
   }
 }
