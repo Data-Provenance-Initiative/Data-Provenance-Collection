@@ -14,7 +14,7 @@ import chardet
 import requests
 import pandas as pd
 
-from datasets import load_dataset, list_datasets, Dataset, concatenate_datasets
+from datasets import load_dataset, list_datasets, Dataset
 
 # `HfFileSystem` requires the latest version of `huggingface_hub`
 from huggingface_hub import HfFileSystem, hf_hub_url, hf_hub_download, login
