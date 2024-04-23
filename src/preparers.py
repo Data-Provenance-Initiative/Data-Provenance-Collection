@@ -1049,7 +1049,7 @@ def prepare_conifer(row):
 
 def prepare_dialogstudio(row):
     conversation = row["log"]
-    parent = "dialogstudio"
+    parent = row["_source"]
     messages = []
     for i, turn in enumerate(conversation):
         usr_utt = turn["user utterance"]
