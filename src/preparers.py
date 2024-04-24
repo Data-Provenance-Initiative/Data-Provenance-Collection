@@ -61,7 +61,7 @@ def prepare_commitpackft(row):
 def prepare_cobra_frames(row):
     """
     CobraFrames dataset has a structure where each row is one of the elements in the frame for harmful statement.
-    fomatting foces on the structure of the input and output given the row.
+    Formatting focuses on the structure of the input and output given the row.
     The first 4 elements are context, speaker, listener, and statement check, serving as the context for the statement.
     The rest of the elements are the structured explanation for the statement
     """
@@ -354,6 +354,15 @@ def prepare_metamathqa(row):
         row["query"], row["response"], row["type"],
     )
 
+def prepare_longalign_10k(row):
+    messages = []
+    for i, turn in enumerate(row["messages"]):
+        messages.append({
+            "from": turn["role"],
+            "text": turn["content"].strip(),
+            "parent": "LongAlign-10k" if i == 0 else i - 1
+        })
+    return messages
 
 def prepare_pure_dove(row):
     messages = []

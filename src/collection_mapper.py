@@ -349,5 +349,9 @@ COLLECTION_FN_MAPPER = {
     "Conifer": {
         "download_function": downloaders.download_conifer,
         "prepare_function": preparers.prepare_conifer,
+    },
+    "LongAlign-10k": {
+        "download_function": downloaders.download_longalign_10k,
+        "prepare_function": preparers.prepare_longalign_10k,
     }
 }
