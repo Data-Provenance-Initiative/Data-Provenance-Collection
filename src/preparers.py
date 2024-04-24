@@ -982,6 +982,21 @@ def prepare_bactrianx(row):
     ]
 
 
+def prepare_mathdial(row):
+    conversation = row["conversation"].split("|EOM|")
+    parent = "mathdial"
+    messages = []
+    for i, turn in enumerate(conversation):
+        colon_index = turn.find(":")
+        messages.append({
+            "from": "assistant" if turn[:colon_index].strip() == "Teacher" else "user",
+            "text": turn[colon_index+1:].strip(),
+            "parent": parent,
+        })
+        parent = i
+    return messages
+  
+
 def prepare_10k_prompt_ranked(row):
     inputs = row["prompt"] + "\n\n" + "Considering the previous paragraph, rate the quality of its content on a scale " \
                                       "of 1 to 5. Here are the criteria to consider: \n Grammar and mechanics: Are " \
@@ -1075,4 +1090,3 @@ def prepare_conifer(row):
         })
         parent = i
     return messages
-
