@@ -322,6 +322,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_cobra_frames,
         "prepare_function": preparers.prepare_cobra_frames,
     },
+    "MathDial": {
+        "download_function": downloaders.download_mathdial,
+        "prepare_function": preparers.prepare_mathdial,
+    },
     "10k Prompt Ranked": {
         "download_function": downloaders.download_10k_prompt_ranked,
         "prepare_function": preparers.prepare_10k_prompt_ranked,

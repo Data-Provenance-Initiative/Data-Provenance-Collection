@@ -1144,6 +1144,12 @@ def download_cobra_frames(accepted_filter_ids):
     dset = annotate_source(dset['normal'], mapping['normal'])
     return dset
 
+
+def download_mathdial(accepted_filter_ids):
+    data_url = "https://raw.githubusercontent.com/eth-nlped/mathdial/main/data/train.csv"
+    train_data = pd.read_csv(data_url)
+    return train_data.to_dict(orient='records')
+
   
 def download_10k_prompt_ranked(accepted_filter_ids):
     return huggingface_download('DIBT/10k_prompts_ranked', split='train')
