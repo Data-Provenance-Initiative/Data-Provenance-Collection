@@ -232,6 +232,7 @@
         "Binary Question Answering",
         "BioMedical Question Answering",
         "Breach of Contract Question Answering",
+        "Causal Question Answering",
         "Clarification Question Answering",
         "Clinical Diagnosis Question Answering",
         "Closed Question Answering",
