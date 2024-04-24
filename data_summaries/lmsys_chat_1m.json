@@ -1,0 +1,73 @@
+{
+    "lmsys_chat_1m": {
+        "Unique Dataset Identifier": "lmsys_chat_1m",
+        "Dataset Name": "lmsys_chat_1m",
+        "Paper Title": "LMSYS-Chat-1M: A Large-Scale Real-World LLM Conversation Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2309.11998",
+        "Semantic Scholar Corpus ID": 262084217,
+        "Collection": "lmsys_chat_1m",
+        "Collection URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",
+        "Languages": [
+            "English", "Portuguese", "Russian", "Chinese", "Spanish"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Code",
+            "Coding",
+            "Summarization",
+            "Creative Writing",
+            "Brainstorming",
+            "Code Generation",
+            "Code Summarization",
+            "Commonsense Reasoning",
+            "Explanation Generation",
+            "Logical Reasoning Question Answering",
+            "Text Generation",
+            "Natural Language Generation",
+            "Geographical Map Making Question Answering",
+            "Academic Tasks"
+        ],
+        "Text Sources": ["crowdsourced"],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo",
+            "OpenAI GPT-4",
+            "Anthropic Internal Models",
+            "BX LLaMa"
+        ],
+        "Format": [
+            "Multi-turn Dialog",
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": ["UC Berkeley", "UC San Diego", "Carnegie Mellon University", "Stanford University", "MBZUAI"
+        ],
+        "Licenses": [
+            {
+                "License": "LMSYS-Chat-1M Dataset License",
+                "License URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m"
+            },
+            {
+                "License": "Anthropic",
+                "License URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m"
+            },
+            {
+                "License": "Llama 2",
+                "License URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "lmsys_chat_1m"
+        ]
+    }
+}

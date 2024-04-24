@@ -113,6 +113,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_gpt4_alpaca,
         "prepare_function": preparers.prepare_gpt4_alpaca,
     },
+    "lmsys_chat_1m": {
+        "download_function": downloaders.download_lmsys_chat_1m,
+        "prepare_function": preparers.prepare_lmsys_chat_1m,
+    },
     "WizardLM Evol-Instruct": {
         "download_function": downloaders.download_evol_instruct,
         "prepare_function": preparers.prepare_evol_instruct,
