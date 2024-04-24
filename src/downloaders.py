@@ -370,6 +370,8 @@ def download_metamathqa(accepted_filter_ids):
 def download_pure_dove(accepted_filter_ids):
     return huggingface_download('LDJnr/Pure-Dove', split='train')
 
+def download_riddle_sense(accepted_filter_ids):
+    return huggingface_download('riddle_sense', split='train')    
 
 def download_nectar(accepted_filter_ids):
     return huggingface_download('berkeley-nest/Nectar', split='train')

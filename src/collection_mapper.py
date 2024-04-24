@@ -101,6 +101,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_metamathqa,
         "prepare_function": preparers.prepare_metamathqa,
     },
+    "RiddleSense": {
+        "download_function": downloaders.download_riddle_sense,
+        "prepare_function": preparers.prepare_riddle_sense,
+    },
     "EverythingLM": {
         "download_function": downloaders.download_everything_lm,
         "prepare_function": preparers.prepare_everything_lm,
