@@ -627,8 +627,15 @@ def download_tiny_stories(accepted_filter_ids):
 def download_joke_explanation(accepted_filter_ids):
     return huggingface_download('theblackcat102/joke_explaination', split='train')
 
+
+def download_ultraFeedback_argilla(accepted_filter_ids):
+    dset = huggingface_download('argilla/ultrafeedback-binarized-preferences', split='train')
+    return pool_filter(dset, "source", accepted_filter_ids)
+
+  
 def download_longalign_10k(accepted_filter_ids):
     return huggingface_download('THUDM/LongAlign-10k', split='train')
+
 
 def download_book_summaries(accepted_filter_ids):
     dset = huggingface_download('emozilla/booksum-summary-analysis_gptneox-8192', split='train')

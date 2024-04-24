@@ -95,7 +95,6 @@ def prepare_cobra_frames(row):
         row["_source"]
     )
 
-
 def prepare_dolly_15k(row):
     input_text = re.sub(r'\s*\[.*?\]\s*', '', "\n".join([row["context"], row["instruction"]]).strip())
     target_text = re.sub(r'\s*\[.*?\]\s*', '', row["response"])
@@ -352,6 +351,12 @@ def prepare_deita_10k(row):
 def prepare_metamathqa(row):
     return convert_inputs_targets_to_messages(
         row["query"], row["response"], row["type"],
+    )
+
+
+def prepare_ultraFeedback_argilla(row):
+    return convert_inputs_targets_to_messages(
+        row["instruction"], row["chosen_response"], row["source"],
     )
 
 def prepare_longalign_10k(row):
@@ -991,7 +996,6 @@ def prepare_orca_math(row):
         row["answer"],
         "orca-math"
     )
-
 
 def prepare_aya_dataset(row):
     return convert_inputs_targets_to_messages(

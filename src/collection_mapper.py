@@ -350,6 +350,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_conifer,
         "prepare_function": preparers.prepare_conifer,
     },
+    "UltraFeedback Argilla": {
+        "download_function": downloaders.download_ultraFeedback_argilla,
+        "prepare_function": preparers.prepare_ultraFeedback_argilla,
+    },
     "LongAlign-10k": {
         "download_function": downloaders.download_longalign_10k,
         "prepare_function": preparers.prepare_longalign_10k,
