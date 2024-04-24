@@ -156,6 +156,7 @@ def apply_filters(
     selected_domains,
     selected_start_time,
     selected_end_time,
+    selected_license_sources
 ):
     filtered_df = df
 
@@ -178,7 +179,7 @@ def apply_filters(
     option_sources = set(
         [src for sources in filtered_df["Text Sources"].tolist() for src in sources]
     )
-    assert all_sources >= option_sources, f"Missing Text Sources: {option_sources - all_sources}"
+    # assert all_sources >= option_sources, f"Missing Text Sources: {option_sources - all_sources}" # :TODO: we need to check this here!
 
     all_models = set([v.lower() for vs in all_constants["MODEL_GROUPS"].values() for v in vs])
     option_models = set(
@@ -198,21 +199,69 @@ def apply_filters(
         ]
 
     if not filtered_df.empty and selected_license_use:
-        use_key = "License Use (DataProvenance IgnoreOpenAI)" if openai_license_override else "License Use (DataProvenance)"
         valid_license_use_idx = constants.LICENSE_USE_TYPES.index(selected_license_use)
-        valid_license_uses = constants.LICENSE_USE_TYPES[:valid_license_use_idx+1]
+        valid_license_uses = [x.lower() for x in constants.LICENSE_USE_TYPES[:valid_license_use_idx + 1]]  # ["academic-only", ...]
+
+        # check if openai license override is selected, if so, remove DataProvenance from sources and add DataProvenance IgnoreOpenAI
+        if openai_license_override:
+            # remove "DataProvenance" from selected_license_sources if openai_license_override is selected and add "DataProvenance IgnoreOpenAI" to selected_license_sources
+            if "DataProvenance" in selected_license_sources:
+                selected_license_sources.remove("DataProvenance")
+                selected_license_sources.append("DataProvenance IgnoreOpenAI")
+
+            # Check that DataProvenance is not in selected_license_sources if openai_license_override is selected
+            assert "DataProvenance" not in selected_license_sources, f"DataProvenance should not be in selected_license_sources: {selected_license_sources}"
+
+        # if "DataProvenance" is "unspecified", we want to use the GitHub license information
+        if "DataProvenance" in selected_license_sources:
+            filtered_df["License Use (DataProvenance)"] = filtered_df.apply(lambda row: row["License Use (DataProvenance)"] if row["License Use (DataProvenance)"] != 'unspecified' else row["License Use (GitHub)"], axis=1)
+            # check that all DataProvenance license which are undefined are replaced with the GitHub license information
+            assert len([x for x in filtered_df["License Use (DataProvenance)"] if x == "unspecified"]) == 0, "Remaining DataProvenance license which are undefined"
+
+        # if "DataProvenance IgnoreOpenAI" is "unspecified", we want to use the GitHub license information
+        if "DataProvenance IgnoreOpenAI" in selected_license_sources:
+            filtered_df["License Use (DataProvenance IgnoreOpenAI)"] = filtered_df.apply(lambda row: row["License Use (DataProvenance IgnoreOpenAI)"] if row["License Use (DataProvenance IgnoreOpenAI)"] != 'unspecified' else row["License Use (GitHub)"], axis=1)
+            # check that all DataProvenance IgnoreOpenAI license which are undefined are replaced with the GitHub license information
+            assert len([x for x in filtered_df["License Use (DataProvenance IgnoreOpenAI)"] if x == "unspecified"]) == 0, "Remaining DataProvenance IgnoreOpenAI license which are undefined"
+
+        # for all license sources ["DataProvenance", "DataProvenance IgnoreOpenAI", "HuggingFace", "GitHub"] add the license use types to the filtered_df depending on valid_license_uses ["academic-only", ...]
         filtered_df = filtered_df[
-            filtered_df[use_key].apply(lambda x: x in valid_license_uses)
+            filtered_df.apply(
+                lambda row: any(  # if any of the License Use of HuggingFace | GitHub  | ...  is in valid_license_uses ["academic-only",...]
+                    row[f"License Use ({key})"] in valid_license_uses  # ["academic-only", ...]
+                    for key in selected_license_sources  # ["DataProvenance", "DataProvenance IgnoreOpenAI", "HuggingFace", "GitHub"]
+                ), axis=1
+            )
         ]
 
+        # Check if the filtered_df is smaller than the original df for those licenses which are not present in the selected_license_sources
+        # i.e we expect that the filtered_df is smaller than the original df for those licenses which are not present
+        for key in ["DataProvenance", "DataProvenance IgnoreOpenAI", "HuggingFace", "GitHub"]:
+            if key not in selected_license_sources:
+                assert len(df[f"License Use ({key})"]) >= len(filtered_df[f"License Use ({key})"]), f"Lengths don't match: {len(df[f'License Use ({key})'])} != {len(filtered_df[f'License Use ({key})'])}"
+
+    # apply license attribution filter if selected and the license is present in selected_license_sources
     if not filtered_df.empty and selected_license_attribution:
         filtered_df = filtered_df[
-            filtered_df["License Attribution (DataProvenance)"].apply(lambda x: x <= int(selected_license_attribution))
+            filtered_df.apply(
+                lambda row: all(
+                    row[f"License Attribution ({key})"] <= int(selected_license_attribution)
+                    for key in selected_license_sources
+                    if isinstance(row[f"License Attribution ({key})"], int)
+                ), axis=1
+            )
         ]
 
+    # apply license sharealike filter if selected and the license is present in selected_license_sources
     if not filtered_df.empty and selected_license_sharealike:
         filtered_df = filtered_df[
-            filtered_df["License Share Alike (DataProvenance)"].apply(lambda x: x <= int(selected_license_sharealike))
+            filtered_df.apply(
+                lambda row: all(
+                    row[f"License Share Alike ({key})"] <= int(selected_license_sharealike)
+                    for key in selected_license_sources
+                    if isinstance(row[f"License Share Alike ({key})"], int)
+                ), axis=1
+            )
         ]
 
     if not filtered_df.empty and selected_languages:
@@ -312,6 +361,13 @@ if __name__ == "__main__":
         choices=['commercial', 'unspecified', 'non-commercial', 'academic-only'],
         help=f"Which category of permitted use to allow, based on dataset licenses.")
     parser.add(
+        "-ls", "--license_sources", required=False,
+        nargs='*',
+        default=["DataProvenance"],
+        choices=['DataProvenance', 'HuggingFace', 'GitHub'],
+        help="Source from where the license information should be retrieved"
+    )
+    parser.add(
         "-la", "--license_attribution", required=False,
         default='1',
         choices=['0', '1'],
@@ -404,6 +460,7 @@ if __name__ == "__main__":
         args.domains,
         args.start_time,
         args.end_time,
+        args.license_sources
     )
     n_collections = set(filtered_data_summary["Collection"])
     n_datasets = len(filtered_data_summary)

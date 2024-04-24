@@ -1,0 +1,30 @@
+# The name of a collection in `src/collection_mapper.py` to restrict to
+collection: null
+# Select one of ['commercial', 'unspecified', 'non-commercial', 'academic-only']
+# Where `commercial` includes only commercially licensed datasets, `unspecified`
+# includes commercially licensed or datasets without any found license, `non-commericial`
+# includes commerically licensed, unspecified, and non-commerically licensed datasets.
+# `academic-only` includes all datasets, even those with academic-only restrictions.
+license_use: "academic-only"
+# a list of license sources from where the license information should be retrieved
+license_sources: ["HuggingFace"]
+# If 1, OpenAI generated data will be included even if license_use would have excluded it
+openai-license-override: 0
+# 1 means datasets with attribution requirements are fine, 0 excludes them
+license_attribution: 1
+# 1 means datasets with share-alike requirements are fine, 0 excludes them
+license_sharealike: 1
+# To restrict the number of languages, specify keys or values from `constants/language_groups.json`
+languages: []
+# To restrict the number of languages, specify keys or values from `constants/task_groups.json`
+tasks: []
+# To restrict the number of languages, specify keys or values from `constants/domain_groups.json`
+domains: []
+# Start time as `YYYY-MM-DD`. Excludes datasets created before this time
+start-time: null
+# End time as `YYYY-MM-DD`. Excludes datasets created after this time
+end-time: null
+data-limit: 0
+output-format: "messages" # "messages" or "supervised"
+savedir: "data/"
+# debug: True
