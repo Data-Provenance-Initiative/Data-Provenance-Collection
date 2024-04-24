@@ -353,10 +353,21 @@ def prepare_metamathqa(row):
         row["query"], row["response"], row["type"],
     )
 
+
 def prepare_ultraFeedback_argilla(row):
     return convert_inputs_targets_to_messages(
         row["instruction"], row["chosen_response"], row["source"],
     )
+
+def prepare_longalign_10k(row):
+    messages = []
+    for i, turn in enumerate(row["messages"]):
+        messages.append({
+            "from": turn["role"],
+            "text": turn["content"].strip(),
+            "parent": "LongAlign-10k" if i == 0 else i - 1
+        })
+    return messages
 
 def prepare_pure_dove(row):
     messages = []
@@ -444,6 +455,14 @@ def prepare_code_alpaca(row):
         inputs, row["output"], "code_alpaca",
     )
 
+def prepare_riddle_sense(row):
+    options = ""
+    for label, text in zip(row["choices"]["label"], row["choices"]["text"]):
+        options += f"{label}: {text}, "
+    inputs = row["question"].strip() + "\n" + options
+    return convert_inputs_targets_to_messages(
+        inputs, row["answerKey"], "riddle_sense",
+    )
 def prepare_glaive_code_assistant(row):
     inputs = row["question"].strip()
     return convert_inputs_targets_to_messages(
