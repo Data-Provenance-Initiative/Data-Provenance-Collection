@@ -101,6 +101,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_metamathqa,
         "prepare_function": preparers.prepare_metamathqa,
     },
+    "RiddleSense": {
+        "download_function": downloaders.download_riddle_sense,
+        "prepare_function": preparers.prepare_riddle_sense,
+    },
     "EverythingLM": {
         "download_function": downloaders.download_everything_lm,
         "prepare_function": preparers.prepare_everything_lm,
@@ -108,6 +112,10 @@ COLLECTION_FN_MAPPER = {
     "GPT-4-Alpaca": {
         "download_function": downloaders.download_gpt4_alpaca,
         "prepare_function": preparers.prepare_gpt4_alpaca,
+    },
+    "lmsys_chat_1m": {
+        "download_function": downloaders.download_lmsys_chat_1m,
+        "prepare_function": preparers.prepare_lmsys_chat_1m,
     },
     "WizardLM Evol-Instruct": {
         "download_function": downloaders.download_evol_instruct,
@@ -314,6 +322,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_cobra_frames,
         "prepare_function": preparers.prepare_cobra_frames,
     },
+    "MathDial": {
+        "download_function": downloaders.download_mathdial,
+        "prepare_function": preparers.prepare_mathdial,
+    },
     "10k Prompt Ranked": {
         "download_function": downloaders.download_10k_prompt_ranked,
         "prepare_function": preparers.prepare_10k_prompt_ranked,
@@ -349,5 +361,13 @@ COLLECTION_FN_MAPPER = {
     "DialogStudio": {
         "download_function": downloaders.download_dialogstudio,
         "prepare_function": preparers.prepare_dialogstudio,
+    },
+    "UltraFeedback Argilla": {
+        "download_function": downloaders.download_ultraFeedback_argilla,
+        "prepare_function": preparers.prepare_ultraFeedback_argilla,
+    },
+    "LongAlign-10k": {
+        "download_function": downloaders.download_longalign_10k,
+        "prepare_function": preparers.prepare_longalign_10k,
     }
 }

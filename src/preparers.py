@@ -61,7 +61,7 @@ def prepare_commitpackft(row):
 def prepare_cobra_frames(row):
     """
     CobraFrames dataset has a structure where each row is one of the elements in the frame for harmful statement.
-    fomatting foces on the structure of the input and output given the row.
+    Formatting focuses on the structure of the input and output given the row.
     The first 4 elements are context, speaker, listener, and statement check, serving as the context for the statement.
     The rest of the elements are the structured explanation for the statement
     """
@@ -94,7 +94,6 @@ def prepare_cobra_frames(row):
         output,
         row["_source"]
     )
-
 
 def prepare_dolly_15k(row):
     input_text = re.sub(r'\s*\[.*?\]\s*', '', "\n".join([row["context"], row["instruction"]]).strip())
@@ -355,6 +354,21 @@ def prepare_metamathqa(row):
     )
 
 
+def prepare_ultraFeedback_argilla(row):
+    return convert_inputs_targets_to_messages(
+        row["instruction"], row["chosen_response"], row["source"],
+    )
+
+def prepare_longalign_10k(row):
+    messages = []
+    for i, turn in enumerate(row["messages"]):
+        messages.append({
+            "from": turn["role"],
+            "text": turn["content"].strip(),
+            "parent": "LongAlign-10k" if i == 0 else i - 1
+        })
+    return messages
+
 def prepare_pure_dove(row):
     messages = []
     parent_id = 0
@@ -374,6 +388,15 @@ def prepare_pure_dove(row):
         parent_id += 1
     return messages
 
+def prepare_lmsys_chat_1m(row):
+    messages = []
+    for i, turn in enumerate(row["conversation"]):
+        messages.append({
+            "from": turn["role"].strip(),
+            "text": turn["content"].strip(),
+            "parent": "lmsys_chat_1m" if i == 0 else i - 1,
+        })
+    return messages
 
 def prepare_nectar(row):
     human = []
@@ -441,6 +464,14 @@ def prepare_code_alpaca(row):
         inputs, row["output"], "code_alpaca",
     )
 
+def prepare_riddle_sense(row):
+    options = ""
+    for label, text in zip(row["choices"]["label"], row["choices"]["text"]):
+        options += f"{label}: {text}, "
+    inputs = row["question"].strip() + "\n" + options
+    return convert_inputs_targets_to_messages(
+        inputs, row["answerKey"], "riddle_sense",
+    )
 def prepare_glaive_code_assistant(row):
     inputs = row["question"].strip()
     return convert_inputs_targets_to_messages(
@@ -951,6 +982,21 @@ def prepare_bactrianx(row):
     ]
 
 
+def prepare_mathdial(row):
+    conversation = row["conversation"].split("|EOM|")
+    parent = "mathdial"
+    messages = []
+    for i, turn in enumerate(conversation):
+        colon_index = turn.find(":")
+        messages.append({
+            "from": "assistant" if turn[:colon_index].strip() == "Teacher" else "user",
+            "text": turn[colon_index+1:].strip(),
+            "parent": parent,
+        })
+        parent = i
+    return messages
+  
+
 def prepare_10k_prompt_ranked(row):
     inputs = row["prompt"] + "\n\n" + "Considering the previous paragraph, rate the quality of its content on a scale " \
                                       "of 1 to 5. Here are the criteria to consider: \n Grammar and mechanics: Are " \
@@ -974,7 +1020,6 @@ def prepare_orca_math(row):
         row["answer"],
         "orca-math"
     )
-
 
 def prepare_aya_dataset(row):
     return convert_inputs_targets_to_messages(

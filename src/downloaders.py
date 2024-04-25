@@ -370,6 +370,8 @@ def download_metamathqa(accepted_filter_ids):
 def download_pure_dove(accepted_filter_ids):
     return huggingface_download('LDJnr/Pure-Dove', split='train')
 
+def download_riddle_sense(accepted_filter_ids):
+    return huggingface_download('riddle_sense', split='train')    
 
 def download_nectar(accepted_filter_ids):
     return huggingface_download('berkeley-nest/Nectar', split='train')
@@ -617,6 +619,8 @@ def download_starcoder_self_instruct(accepted_filter_ids):
 def download_thai_gen_ai_gpteacher(accepted_filter_ids):
     return huggingface_download('Thaweewat/gpteacher-20k-th', split='train')
 
+def download_lmsys_chat_1m(accepted_filter_ids):
+    return huggingface_download('lmsys/lmsys-chat-1m', split='train')
 
 def download_tiny_stories(accepted_filter_ids):
     return huggingface_download('roneneldan/TinyStoriesInstruct', split='train')
@@ -624,6 +628,15 @@ def download_tiny_stories(accepted_filter_ids):
 
 def download_joke_explanation(accepted_filter_ids):
     return huggingface_download('theblackcat102/joke_explaination', split='train')
+
+
+def download_ultraFeedback_argilla(accepted_filter_ids):
+    dset = huggingface_download('argilla/ultrafeedback-binarized-preferences', split='train')
+    return pool_filter(dset, "source", accepted_filter_ids)
+
+  
+def download_longalign_10k(accepted_filter_ids):
+    return huggingface_download('THUDM/LongAlign-10k', split='train')
 
 
 def download_book_summaries(accepted_filter_ids):
@@ -1130,6 +1143,12 @@ def download_cobra_frames(accepted_filter_ids):
     dset = huggingface_download('cmu-lti/cobracorpus', data_files={'normal': 'toxigen_explanations.csv'})
     dset = annotate_source(dset['normal'], mapping['normal'])
     return dset
+
+
+def download_mathdial(accepted_filter_ids):
+    data_url = "https://raw.githubusercontent.com/eth-nlped/mathdial/main/data/train.csv"
+    train_data = pd.read_csv(data_url)
+    return train_data.to_dict(orient='records')
 
   
 def download_10k_prompt_ranked(accepted_filter_ids):

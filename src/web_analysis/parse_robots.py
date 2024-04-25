@@ -35,10 +35,13 @@ def interpret_agent(rules):
     agent_disallow = rules.get("Disallow", [])
     agent_allow = rules.get("Allow", [])
 
-    if any('/' == x.strip() for x in agent_disallow):
-        disallow_type = "all"
-    elif len(agent_disallow) == 0 or agent_disallow == [""]:
+    longest_disallow = max([len(x) for x in agent_disallow]) if len(agent_disallow) else 0
+    longest_allow = max([len(x) for x in agent_allow]) if len(agent_allow) else 0
+
+    if len(agent_disallow) == 0 or agent_disallow == [""] or (agent_allow == agent_disallow):
         disallow_type = "none"
+    elif any('/' == x.strip() for x in agent_disallow):
+        disallow_type = "all"
     else:
         disallow_type = "some"
 
@@ -78,12 +81,23 @@ def aggregate_robots(url_to_rules, all_agents):
 
     for url, robots in url_to_rules.items():
         agent_to_judgement = interpret_robots(robots, all_agents)
+        # Trace individual agents and wildcard agent
         for agent in all_agents + ["*"]:
             judgement = agent_to_judgement[agent]
             robots_stats[agent][judgement] += 1
             if agent in robots: # Missing robots.txt means nothing blocked
                 robots_stats[agent]["counter"] += 1
 
+        # See if *All Agents* together are given 'all', 'some', or 'none' rules.
+        if "all" in agent_to_judgement.values():
+            agg_judgement = "all"
+        elif "some" in agent_to_judgement.values():
+            agg_judgement = "some"
+        else:
+            agg_judgement = "none"
+        robots_stats["*All Agents*"]["counter"] += 1
+        robots_stats["*All Agents*"][agg_judgement] += 1
+        
     return robots_stats
 
 
