@@ -155,6 +155,7 @@ def apply_filters(
     selected_task_categories,
     selected_domains,
     no_synthetic_data,
+    text_source_allow_list,
     selected_start_time,
     selected_end_time,
     selected_license_sources,
@@ -189,6 +190,9 @@ def apply_filters(
     )
     assert all_models >= option_models, f"Missing Models: {option_models - all_models}"
 
+    # Load text sources allow list if available
+    if text_source_allow_list:
+        text_sources_allow_list = io.read_txt(text_source_allow_list)
 
     # Apply filters:
     if selected_collection:
@@ -320,6 +324,11 @@ def apply_filters(
             filtered_df["Model Generated"].apply(lambda x: len(x) == 0)
         ]
 
+    if not filtered_df.empty and text_sources_allow_list:
+        filtered_df = filtered_df[
+            filtered_df["Text Sources"].apply(lambda x: len(x) == 0 or set(x) <= text_sources_allow_list)
+        ]
+
     if not filtered_df.empty and (selected_start_time or selected_end_time):
 
         def get_min_date(metadata):
@@ -429,11 +438,16 @@ if __name__ == "__main__":
         nargs='*', default=[],
         choices=list(ALL_CONSTANTS["DOMAIN_GROUPS"].keys()),
         help=f"A list of source domains we would confine our datasets to.")
-    # Whether to exclude any synthetic (model-generated) data in
+    # Whether to exclude any synthetic (model-generated) data
     parser.add(
         "-sd", "--synthetic-data", required=False,
         default=1, choices=['0', '1'],
         help="Whether to include/exclude synthetic (model-generated) data. '1' is include, '0' is explicitly exclude.")
+    # Whether to only allow datasets from certain text sources (including no text source). null or txt file path.
+    parser.add(
+        "-ts", "--text-sources", required=False,
+        default="",
+        help="Points to a txt file path to an allow list of text sources (including no text source), or null.")
     # Start time boundary
     parser.add(
         "-ts", "--start-time", required=False,
@@ -492,6 +506,7 @@ if __name__ == "__main__":
         args.tasks,
         args.domains,
         False if int(args.synthetic_data) else True,
+        args.text_sources,
         args.start_time,
         args.end_time,
         args.license_sources,
