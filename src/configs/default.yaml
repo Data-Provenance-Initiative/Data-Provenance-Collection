@@ -8,6 +8,8 @@ collection: null
 license_use: "academic-only"
 # If 1, OpenAI generated data will be included even if license_use would have excluded it
 openai-license-override: 0
+# If 1, GitHub license information will be used if no information (‚undefined‘) is available for our Data Provenance source
+dpi-undefined-license-override: 0
 # 1 means datasets with attribution requirements are fine, 0 excludes them
 license_attribution: 1
 # 1 means datasets with share-alike requirements are fine, 0 excludes them

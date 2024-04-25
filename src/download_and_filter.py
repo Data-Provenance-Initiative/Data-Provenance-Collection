@@ -156,7 +156,8 @@ def apply_filters(
     selected_domains,
     selected_start_time,
     selected_end_time,
-    selected_license_sources
+    selected_license_sources,
+    dpi_undefined_license_override
 ):
     filtered_df = df
 
@@ -212,17 +213,19 @@ def apply_filters(
             # Check that DataProvenance is not in selected_license_sources if openai_license_override is selected
             assert "DataProvenance" not in selected_license_sources, f"DataProvenance should not be in selected_license_sources: {selected_license_sources}"
 
-        # if "DataProvenance" is "unspecified", we want to use the GitHub license information
-        if "DataProvenance" in selected_license_sources:
-            filtered_df["License Use (DataProvenance)"] = filtered_df.apply(lambda row: row["License Use (DataProvenance)"] if row["License Use (DataProvenance)"] != 'unspecified' else row["License Use (GitHub)"], axis=1)
-            # check that all DataProvenance license which are undefined are replaced with the GitHub license information
-            assert len([x for x in filtered_df["License Use (DataProvenance)"] if x == "unspecified"]) == 0, "Remaining DataProvenance license which are undefined"
+        # we have a flag to indicate if we want to use the GitHub license information if the DataProvenance or DataProvenance IgnoreOpenAI license is unspecified
+        if dpi_undefined_license_override:
+            # if "DataProvenance" is "unspecified", we want to use the GitHub license information
+            if "DataProvenance" in selected_license_sources:
+                filtered_df["License Use (DataProvenance)"] = filtered_df.apply(lambda row: row["License Use (DataProvenance)"] if row["License Use (DataProvenance)"] != 'unspecified' else row["License Use (GitHub)"], axis=1)
+                # check that all DataProvenance license which are undefined are replaced with the GitHub license information
+                assert len([x for x in filtered_df["License Use (DataProvenance)"] if x == "unspecified"]) == 0, "Remaining DataProvenance license which are undefined"
 
-        # if "DataProvenance IgnoreOpenAI" is "unspecified", we want to use the GitHub license information
-        if "DataProvenance IgnoreOpenAI" in selected_license_sources:
-            filtered_df["License Use (DataProvenance IgnoreOpenAI)"] = filtered_df.apply(lambda row: row["License Use (DataProvenance IgnoreOpenAI)"] if row["License Use (DataProvenance IgnoreOpenAI)"] != 'unspecified' else row["License Use (GitHub)"], axis=1)
-            # check that all DataProvenance IgnoreOpenAI license which are undefined are replaced with the GitHub license information
-            assert len([x for x in filtered_df["License Use (DataProvenance IgnoreOpenAI)"] if x == "unspecified"]) == 0, "Remaining DataProvenance IgnoreOpenAI license which are undefined"
+            # if "DataProvenance IgnoreOpenAI" is "unspecified", we want to use the GitHub license information
+            if "DataProvenance IgnoreOpenAI" in selected_license_sources:
+                filtered_df["License Use (DataProvenance IgnoreOpenAI)"] = filtered_df.apply(lambda row: row["License Use (DataProvenance IgnoreOpenAI)"] if row["License Use (DataProvenance IgnoreOpenAI)"] != 'unspecified' else row["License Use (GitHub)"], axis=1)
+                # check that all DataProvenance IgnoreOpenAI license which are undefined are replaced with the GitHub license information
+                assert len([x for x in filtered_df["License Use (DataProvenance IgnoreOpenAI)"] if x == "unspecified"]) == 0, "Remaining DataProvenance IgnoreOpenAI license which are undefined"
 
         # for all license sources ["DataProvenance", "DataProvenance IgnoreOpenAI", "HuggingFace", "GitHub"] add the license use types to the filtered_df depending on valid_license_uses ["academic-only", ...]
         filtered_df = filtered_df[
