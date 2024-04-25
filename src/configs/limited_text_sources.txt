@@ -3,6 +3,7 @@ crowdsourced (amt)
 wordnet
 crowdsourced (daemo)
 human
+volunteer annotations
 grammar-based
 wikipedia.org
 stackexchange.com
@@ -21,6 +22,7 @@ globalvoices.org
 conceptnet
 semeval 2012 task 2
 crowdflower.com
+scale.com
 yahoo! answers
 wiktionary.org
 winograd schema challenge dataset
