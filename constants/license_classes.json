@@ -209,6 +209,11 @@
         "?",
         "?"
     ],
+    "Anthropic": [
+        "NC",
+        "?",
+        "?"
+    ],
     "Request Form": [
         "Acad",
         "?",
@@ -225,9 +230,9 @@
         "?"
     ],
     "Skywork Community License":[
-        "?",
-        "?",
-        "?"
+        "All",
+        "1",
+        "0"
     ],
     "BigScience OpenRAIL-M": [
         "All",
@@ -237,6 +242,11 @@
     "Llama 2": [
         "All",
         "1",
+        "0"
+    ],
+    "LMSYS-Chat-1M Dataset License":[
+        "All",
+        "0",
         "0"
     ]
 }
