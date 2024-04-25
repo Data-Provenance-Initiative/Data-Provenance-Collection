@@ -14452,8 +14452,8 @@
         "Human Annotation": "Yes",
         "Bibtex": "@Article{Wang2017LiarLP,\n author = {William Yang Wang},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {422-426},\n title = {“Liar, Liar Pants on Fire”: A New Benchmark Dataset for Fake News Detection},\n year = {2017}\n}\n"
     },
-    "fc-sni-librispeech_asr,": {
-        "Unique Dataset Identifier": "fc-sni-librispeech_asr,",
+    "fc-sni-librispeech_asr": {
+        "Unique Dataset Identifier": "fc-sni-librispeech_asr",
         "Dataset Name": "librispeech_asr,",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
