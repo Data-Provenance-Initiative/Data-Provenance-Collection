@@ -14,12 +14,16 @@ openai-license-override: 0
 license_attribution: 1
 # 1 means datasets with share-alike requirements are fine, 0 excludes them
 license_sharealike: 1
+# 1 means allow any model generated content, 0 means do not allow model generated content
+model-generated: 1
 # To restrict the number of languages, specify keys or values from `constants/language_groups.json`
 languages: []
 # To restrict the number of languages, specify keys or values from `constants/task_groups.json`
 tasks: []
 # To restrict the number of languages, specify keys or values from `constants/domain_groups.json`
 domains: []
+# Specific text sources to constrain our selection to (including no text sources). Points to a txt file of sources, or null.
+text-sources: null
 # Start time as `YYYY-MM-DD`. Excludes datasets created before this time
 start-time: null
 # End time as `YYYY-MM-DD`. Excludes datasets created after this time
