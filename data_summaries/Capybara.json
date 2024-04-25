@@ -139,7 +139,7 @@
             "Question Answering"
         ],
         "Text Sources": [],
-        "Model Generated": [],
+        "Model Generated": ["OpenAI GPT-4"],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -252,7 +252,7 @@
             "Logical and Mathematical Reasoning"
         ],
         "Text Sources": [],
-        "Model Generated": [],
+        "Model Generated": ["OpenAI GPT-4"],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -309,7 +309,7 @@
             "Closed-Book Question Answering"
         ],
         "Text Sources": [],
-        "Model Generated": [],
+        "Model Generated": ["OpenAI GPT-4"],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -477,7 +477,7 @@
             "Question Answering"
         ],
         "Text Sources": [],
-        "Model Generated": [],
+        "Model Generated": ["OpenAI GPT-4"],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -578,7 +578,7 @@
             "Question Answering"
         ],
         "Text Sources": [],
-        "Model Generated": [],
+        "Model Generated": ["OpenAI GPT-4"],
         "Format": [
             "Multi-turn Dialog"
         ],
