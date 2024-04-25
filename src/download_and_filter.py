@@ -517,8 +517,9 @@ if __name__ == "__main__":
     print(f"{n_datasets} datasets from {n_collections} after filtering.")
 
     # IGNORE:
-    # cols = ['Unique Dataset Identifier', 'Collection', 'Dataset Name', 'Text Sources','Model Generated', 
-    #         'Derived from Datasets', 'License Use (DataProvenance)', 'License Use (GitHub)', 'Licenses']
+    # cols = ['Unique Dataset Identifier', 'Collection', 'Dataset Name', 'Languages', 'Text Sources','Model Generated', 
+    #         'Derived from Datasets', 'License Use (DataProvenance)', 'License Use (GitHub)', 'Licenses', 'Dataset URL',
+    #         'GitHub URL', 'ArXiv URL']
     # filtered_data_summary[cols].to_csv("pile_v2.csv", index=False)
 
     data_provenance_card.generate_datacard(
