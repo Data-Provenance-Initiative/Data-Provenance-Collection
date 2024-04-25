@@ -154,6 +154,7 @@ def apply_filters(
     selected_languages,
     selected_task_categories,
     selected_domains,
+    no_synthetic_data,
     selected_start_time,
     selected_end_time,
     selected_license_sources,
@@ -313,6 +314,12 @@ def apply_filters(
         filtered_df = filtered_df[
             filtered_df["Text Sources"].apply(lambda x: len(text_source_strs.intersection(set(x))) > 0)
         ]
+
+    if not filtered_df.empty and no_synthetic_data:
+        filtered_df = filtered_df[
+            filtered_df["Model Generated"].apply(lambda x: len(x) == 0)
+        ]
+
     if not filtered_df.empty and (selected_start_time or selected_end_time):
 
         def get_min_date(metadata):
@@ -422,6 +429,11 @@ if __name__ == "__main__":
         nargs='*', default=[],
         choices=list(ALL_CONSTANTS["DOMAIN_GROUPS"].keys()),
         help=f"A list of source domains we would confine our datasets to.")
+    # Whether to exclude any synthetic (model-generated) data in
+    parser.add(
+        "-sd", "--synthetic-data", required=False,
+        default=1, choices=['0', '1'],
+        help="Whether to include/exclude synthetic (model-generated) data. '1' is include, '0' is explicitly exclude.")
     # Start time boundary
     parser.add(
         "-ts", "--start-time", required=False,
@@ -479,6 +491,7 @@ if __name__ == "__main__":
         args.languages,
         args.tasks,
         args.domains,
+        False if int(args.synthetic_data) else True,
         args.start_time,
         args.end_time,
         args.license_sources,
