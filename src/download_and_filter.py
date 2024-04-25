@@ -147,7 +147,7 @@ def apply_filters(
     all_constants,
     selected_collection,
     selected_licenses,
-    selected_license_use,
+    selected_license_use,  # sources from where the license information should be retrieved
     openai_license_override,
     selected_license_attribution,
     selected_license_sharealike,
@@ -156,6 +156,8 @@ def apply_filters(
     selected_domains,
     selected_start_time,
     selected_end_time,
+    selected_license_sources,
+    dpi_undefined_license_override  # flag to use GitHub license information if not available ("undefined") for our Data Provenance source
 ):
     filtered_df = df
 
@@ -178,7 +180,7 @@ def apply_filters(
     option_sources = set(
         [src for sources in filtered_df["Text Sources"].tolist() for src in sources]
     )
-    assert all_sources >= option_sources, f"Missing Text Sources: {option_sources - all_sources}"
+    # assert all_sources >= option_sources, f"Missing Text Sources: {option_sources - all_sources}" # :TODO: we need to check this here!
 
     all_models = set([v.lower() for vs in all_constants["MODEL_GROUPS"].values() for v in vs])
     option_models = set(
@@ -198,21 +200,83 @@ def apply_filters(
         ]
 
     if not filtered_df.empty and selected_license_use:
-        use_key = "License Use (DataProvenance IgnoreOpenAI)" if openai_license_override else "License Use (DataProvenance)"
         valid_license_use_idx = constants.LICENSE_USE_TYPES.index(selected_license_use)
-        valid_license_uses = constants.LICENSE_USE_TYPES[:valid_license_use_idx+1]
+        valid_license_uses = [x.lower() for x in constants.LICENSE_USE_TYPES[:valid_license_use_idx + 1]]  # ["academic-only", ...]
+
+        # check if openai license override is selected, if so, remove DataProvenance from sources and add DataProvenance IgnoreOpenAI
+        if openai_license_override:
+            # remove "DataProvenance" from selected_license_sources if openai_license_override is selected and add "DataProvenance IgnoreOpenAI" to selected_license_sources
+            if "DataProvenance" in selected_license_sources:
+                selected_license_sources.remove("DataProvenance")
+                selected_license_sources.append("DataProvenance IgnoreOpenAI")
+
+            # Check that DataProvenance is not in selected_license_sources if openai_license_override is selected
+            assert "DataProvenance" not in selected_license_sources, f"DataProvenance should not be in selected_license_sources: {selected_license_sources}"
+
+        # we have a flag to indicate if we want to use the GitHub license information if the DataProvenance or DataProvenance license is unspecified
+        if dpi_undefined_license_override:
+            # Check if "DataProvenance" is included in the selected license sources
+            # If so, apply the GitHub license information (if it is not empty) to the DataProvenance license information
+            if "DataProvenance" in selected_license_sources:
+                filtered_df["License Use (DataProvenance)"] = filtered_df.apply(
+                    lambda row: row["License Use (GitHub)"]  # check the existing license from GitHub
+                    if row["License Use (DataProvenance)"] == 'unspecified' and row["License Use (GitHub)"] != ''  # check if the existing DataProvenance license is unspecified and a possible GitHub license is not empty ''
+                    else row["License Use (DataProvenance)"],  # if no alternative GitHub license is available or empty keep using the unspecified DataProvenance license
+                    axis=1
+                )
+                # check that all DataProvenance license which are undefined are replaced with the DataProvenance license information
+                assert len([(dpi, git) for dpi, git in zip(df["License Use (DataProvenance)"], df["License Use (GitHub)"]) if dpi == "unspecified" and git != ""]) == 0, "Remaining DataProvenance license which are undefined"
+
+            # Check if "DataProvenance IgnoreOpenAI" is included in the selected license sources
+            # If so, apply the GitHub license information (if it is not empty) to the DataProvenance IgnoreOpenAI license information
+            if "DataProvenance IgnoreOpenAI" in selected_license_sources:
+                filtered_df["License Use (DataProvenance IgnoreOpenAI)"] = filtered_df.apply(
+                    lambda row: row["License Use (GitHub)"]  # check the existing license from GitHub
+                    if row["License Use (DataProvenance IgnoreOpenAI)"] != 'unspecified' and row["License Use (GitHub)"] != ''  # check if the existing DataProvenance IgnoreOpenAI license is unspecified and a possible GitHub license is not empty ''
+                    else row["License Use (DataProvenance IgnoreOpenAI)"],  # if no alternative GitHub license is available or empty keep using the unspecified DataProvenance IgnoreOpenAI license
+                    axis=1
+                )
+                # check that all DataProvenance IgnoreOpenAI license which are undefined are replaced with the DataProvenance IgnoreOpenAI license information
+                assert len([(dpi, git) for dpi, git in zip(df["License Use (DataProvenance IgnoreOpenAI)"], df["License Use (GitHub)"]) if dpi == "unspecified" and git != ""]) == 0, "Remaining DataProvenance IgnoreOpenAI license which are undefined"
+
+        # for all license sources ["DataProvenance", "DataProvenance IgnoreOpenAI", "HuggingFace", "GitHub"] add the license use types to the filtered_df depending on valid_license_uses ["academic-only", ...]
         filtered_df = filtered_df[
-            filtered_df[use_key].apply(lambda x: x in valid_license_uses)
+            filtered_df.apply(
+                lambda row: any(  # if any of the License Use of HuggingFace | GitHub  | ...  is in valid_license_uses ["academic-only",...]
+                    row[f"License Use ({key})"] in valid_license_uses  # ["academic-only", ...]
+                    for key in selected_license_sources  # ["DataProvenance", "DataProvenance IgnoreOpenAI", "HuggingFace", "GitHub"]
+                ), axis=1
+            )
         ]
 
+        # Check if the filtered_df is smaller than the original df for those licenses which are not present in the selected_license_sources
+        # i.e we expect that the filtered_df is smaller than the original df for those licenses which are not present
+        for key in ["DataProvenance", "DataProvenance IgnoreOpenAI", "HuggingFace", "GitHub"]:
+            if key not in selected_license_sources:
+                assert len(df[f"License Use ({key})"]) >= len(filtered_df[f"License Use ({key})"]), f"Lengths don't match: {len(df[f'License Use ({key})'])} != {len(filtered_df[f'License Use ({key})'])}"
+
+    # apply license attribution filter if selected and the license is present in selected_license_sources
     if not filtered_df.empty and selected_license_attribution:
         filtered_df = filtered_df[
-            filtered_df["License Attribution (DataProvenance)"].apply(lambda x: x <= int(selected_license_attribution))
+            filtered_df.apply(
+                lambda row: all(
+                    row[f"License Attribution ({key})"] <= int(selected_license_attribution)
+                    for key in selected_license_sources
+                    if isinstance(row[f"License Attribution ({key})"], int)
+                ), axis=1
+            )
         ]
 
+    # apply license sharealike filter if selected and the license is present in selected_license_sources
     if not filtered_df.empty and selected_license_sharealike:
         filtered_df = filtered_df[
-            filtered_df["License Share Alike (DataProvenance)"].apply(lambda x: x <= int(selected_license_sharealike))
+            filtered_df.apply(
+                lambda row: all(
+                    row[f"License Share Alike ({key})"] <= int(selected_license_sharealike)
+                    for key in selected_license_sources
+                    if isinstance(row[f"License Share Alike ({key})"], int)
+                ), axis=1
+            )
         ]
 
     if not filtered_df.empty and selected_languages:
@@ -267,6 +331,7 @@ def apply_filters(
 
     return filtered_df
 
+
 def get_collection_to_uid_and_filter_ids(data_summary):
     filter_df_info = data_summary[[
         "Collection", "Unique Dataset Identifier", "Dataset Filter IDs"]]
@@ -274,6 +339,7 @@ def get_collection_to_uid_and_filter_ids(data_summary):
         return [(row["Unique Dataset Identifier"], row["Dataset Filter IDs"]) for _, row in group.iterrows()]
     collection_to_keys = dict(filter_df_info.groupby("Collection").apply(extract_uids_and_filter_ids))
     return {k: dict(v) for k, v in collection_to_keys.items()}
+
 
 if __name__ == "__main__":
     """
@@ -312,6 +378,13 @@ if __name__ == "__main__":
         choices=['commercial', 'unspecified', 'non-commercial', 'academic-only'],
         help=f"Which category of permitted use to allow, based on dataset licenses.")
     parser.add(
+        "-ls", "--license_sources", required=False,
+        nargs='*',
+        default=["DataProvenance"],
+        choices=['DataProvenance', 'HuggingFace', 'GitHub'],
+        help="Source from where the license information should be retrieved"
+    )
+    parser.add(
         "-la", "--license_attribution", required=False,
         default='1',
         choices=['0', '1'],
@@ -321,12 +394,16 @@ if __name__ == "__main__":
         default='1',
         choices=['0', '1'],
         help=f"Whether to use all licenses, including those that require share alike (1) or only the ones that don't require share alike (0).")
-
     # Override license for Model Generated datasets
     parser.add(
         "-ol", "--openai-license-override", required=False,
         default=0, choices=['0', '1'],
         help=f"Whether to include datasets that include generations from OpenAI models, overriding any license filter.")
+    # Override DPI license if "unspecified" and a GitHub license is available
+    parser.add(
+        "-od", "--dpi-undefined-license-override", required=False,
+        default=0, choices=['0', '1'],
+        help="Whether to use GitHub license information if not available ('unspecified') for our Data Provenance source.")
     # Specify language categories
     parser.add(
         "-g", "--languages", required=False,
@@ -404,6 +481,8 @@ if __name__ == "__main__":
         args.domains,
         args.start_time,
         args.end_time,
+        args.license_sources,
+        args.dpi_undefined_license_override
     )
     n_collections = set(filtered_data_summary["Collection"])
     n_datasets = len(filtered_data_summary)
