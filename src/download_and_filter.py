@@ -516,19 +516,19 @@ if __name__ == "__main__":
     n_datasets = len(filtered_data_summary)
     print(f"{n_datasets} datasets from {n_collections} after filtering.")
 
-    cols = ['Unique Dataset Identifier', 'Collection', 'Dataset Name', 'Text Sources','Model Generated', 
-            'Derived from Datasets', 'License Use (DataProvenance)', 'License Use (GitHub)', 'Licenses']
-    filtered_data_summary[cols].to_csv("pile_v2.csv", index=False)
-    # print(filtered_data_summary.columns)
-    assert 1 == 0
-    # data_provenance_card.generate_datacard(
-    #     filtered_data_summary,
-    #     args.licenses,
-    #     args.languages,
-    #     args.tasks,
-    #     args.savedir,
-    # )
-    # data_bibtex.generate_bibtex(filtered_data_summary, save_to_file=True, output_dir=args.savedir)
+    # IGNORE:
+    # cols = ['Unique Dataset Identifier', 'Collection', 'Dataset Name', 'Text Sources','Model Generated', 
+    #         'Derived from Datasets', 'License Use (DataProvenance)', 'License Use (GitHub)', 'Licenses']
+    # filtered_data_summary[cols].to_csv("pile_v2.csv", index=False)
+
+    data_provenance_card.generate_datacard(
+        filtered_data_summary,
+        args.licenses,
+        args.languages,
+        args.tasks,
+        args.savedir,
+    )
+    data_bibtex.generate_bibtex(filtered_data_summary, save_to_file=True, output_dir=args.savedir)
 
     collection_to_keys = get_collection_to_uid_and_filter_ids(filtered_data_summary)
     for collection_key, uid_task_keys in collection_to_keys.items():
