@@ -7,7 +7,7 @@ collection: null
 # `academic-only` includes all datasets, even those with academic-only restrictions.
 license_use: "commercial"
 # a list of license sources from where the license information should be retrieved
-license_sources: ["HuggingFace"]
+license_sources: ["DataProvenance", "HuggingFace", "GitHub"]
 # If 1, OpenAI generated data will be included even if license_use would have excluded it
 openai-license-override: 0
 # If 1, GitHub license information will be used if no information (unspecified) is available for our Data Provenance source
