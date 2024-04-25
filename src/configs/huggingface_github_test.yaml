@@ -22,6 +22,8 @@ languages: []
 tasks: []
 # To restrict the number of languages, specify keys or values from `constants/domain_groups.json`
 domains: []
+# Specific text sources to constrain our selection to (including no text sources). Points to a txt file of sources, or null.
+text-sources: null
 # Start time as `YYYY-MM-DD`. Excludes datasets created before this time
 start-time: null
 # End time as `YYYY-MM-DD`. Excludes datasets created after this time
