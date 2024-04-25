@@ -358,6 +358,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_conifer,
         "prepare_function": preparers.prepare_conifer,
     },
+    "DialogStudio": {
+        "download_function": downloaders.download_dialogstudio,
+        "prepare_function": preparers.prepare_dialogstudio,
+    },
     "UltraFeedback Argilla": {
         "download_function": downloaders.download_ultraFeedback_argilla,
         "prepare_function": preparers.prepare_ultraFeedback_argilla,

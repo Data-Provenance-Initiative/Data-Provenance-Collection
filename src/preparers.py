@@ -1090,3 +1090,26 @@ def prepare_conifer(row):
         })
         parent = i
     return messages
+
+
+def prepare_dialogstudio(row):
+    conversation = row["log"]
+    parent = row["_source"]
+    messages = []
+    for i, turn in enumerate(conversation):
+        usr_utt = turn["user utterance"]
+        sys_utt = turn["system response"]
+        messages.append({
+            "from": "user",
+            "text": usr_utt,
+            "parent": parent,
+        })
+        parent = 2 * i
+        messages.append({
+            "from": "system",
+            "text": sys_utt,
+            "parent": parent,
+        })
+        parent = 2 * i + 1
+    return messages
+
