@@ -326,7 +326,7 @@ def apply_filters(
 
     if not filtered_df.empty and text_sources_allow_list:
         filtered_df = filtered_df[
-            filtered_df["Text Sources"].apply(lambda x: len(x) == 0 or set(x) <= text_sources_allow_list)
+            filtered_df["Text Sources"].apply(lambda x: len(x) == 0 or set(x) <= set(text_sources_allow_list))
         ]
 
     if not filtered_df.empty and (selected_start_time or selected_end_time):
@@ -434,18 +434,18 @@ if __name__ == "__main__":
         help=f"A list of tasks categories we would confine our datasets to.")
     # Specify source domains
     parser.add(
-        "-sd", "--domains", required=False,
+        "-dd", "--domains", required=False,
         nargs='*', default=[],
         choices=list(ALL_CONSTANTS["DOMAIN_GROUPS"].keys()),
         help=f"A list of source domains we would confine our datasets to.")
     # Whether to exclude any synthetic (model-generated) data
     parser.add(
-        "-sd", "--synthetic-data", required=False,
+        "-mg", "--model-generated", required=False,
         default=1, choices=['0', '1'],
         help="Whether to include/exclude synthetic (model-generated) data. '1' is include, '0' is explicitly exclude.")
     # Whether to only allow datasets from certain text sources (including no text source). null or txt file path.
     parser.add(
-        "-ts", "--text-sources", required=False,
+        "-tts", "--text-sources", required=False,
         default="",
         help="Points to a txt file path to an allow list of text sources (including no text source), or null.")
     # Start time boundary
@@ -505,7 +505,7 @@ if __name__ == "__main__":
         args.languages,
         args.tasks,
         args.domains,
-        False if int(args.synthetic_data) else True,
+        False if int(args.model_generated) else True,
         args.text_sources,
         args.start_time,
         args.end_time,
@@ -516,14 +516,19 @@ if __name__ == "__main__":
     n_datasets = len(filtered_data_summary)
     print(f"{n_datasets} datasets from {n_collections} after filtering.")
 
-    data_provenance_card.generate_datacard(
-        filtered_data_summary,
-        args.licenses,
-        args.languages,
-        args.tasks,
-        args.savedir,
-    )
-    data_bibtex.generate_bibtex(filtered_data_summary, save_to_file=True, output_dir=args.savedir)
+    cols = ['Unique Dataset Identifier', 'Collection', 'Dataset Name', 'Text Sources','Model Generated', 
+            'Derived from Datasets', 'License Use (DataProvenance)', 'License Use (GitHub)', 'Licenses']
+    filtered_data_summary[cols].to_csv("pile_v2.csv", index=False)
+    # print(filtered_data_summary.columns)
+    assert 1 == 0
+    # data_provenance_card.generate_datacard(
+    #     filtered_data_summary,
+    #     args.licenses,
+    #     args.languages,
+    #     args.tasks,
+    #     args.savedir,
+    # )
+    # data_bibtex.generate_bibtex(filtered_data_summary, save_to_file=True, output_dir=args.savedir)
 
     collection_to_keys = get_collection_to_uid_and_filter_ids(filtered_data_summary)
     for collection_key, uid_task_keys in collection_to_keys.items():
