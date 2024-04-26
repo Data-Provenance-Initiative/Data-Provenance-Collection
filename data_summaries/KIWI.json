@@ -52,6 +52,7 @@
         "License Verified By": "Nayan Saxena",
         "Dataset Filter IDs": [
             "KIWI"
-        ]
+        ],
+        "Bibtex": "@article{xu2024kiwi, title={KIWI: A Dataset of Knowledge-Intensive Writing Instructions for Answering Research Questions}, author={Xu, Fangyuan and Lo, Kyle and Soldaini, Luca and Kuehl, Bailey and Choi, Eunsol and Wadden, David}, journal={arXiv preprint arXiv:2403.03866}, year={2024}}"
     }
 }
