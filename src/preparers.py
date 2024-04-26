@@ -422,11 +422,13 @@ def prepare_evol_instruct(row):
 def prepare_deita_10k(row):
     messages = []
     for i, turn in enumerate(row["conversations"]):
+
         messages.append({
             "from": "user" if turn["from"] == "human" else "assistant",
             "text": turn["value"].strip(),
             "parent": row["source"] if i == 0 else i - 1
         })
+
     return messages
 
 
@@ -630,6 +632,7 @@ def prepare_camel_science(row):
         return messages
 
 
+
 def prepare_cot_collection(row):
     return convert_inputs_targets_to_messages(
         row["source"], row["rationale"], row["_source"]
@@ -804,12 +807,14 @@ def prepare_ultrachat(row):
 
 def prepare_wildchat(row):
     messages = []
+
     for i, script_dict in enumerate(row['conversation']):
         messages.append({
             'from': script_dict['role'],
             'text': script_dict['content'].strip(),
             'parent': row['model'] if i == 0 else i - 1
         })
+
     return messages
 
 
@@ -841,6 +846,7 @@ def prepare_lima(row):
         )
         parent = i
     return messages
+
 
 def prepare_tool_llama(row):
     return convert_inputs_targets_to_messages(
@@ -946,8 +952,10 @@ def prepare_selfee(row):
         feedback_number = index + 1
         revision_number = index
         if index != 0:
+
             output = "\n\n### Revision {number}:\n{revision}".format(number=revision_number, revision=output)
         parsed_outputs += output + "\n\n### Feedback {number}:\n{feedback}".format(number=feedback_number, feedback=feedback)
+
     return convert_inputs_targets_to_messages(
         row["instruction"],
         parsed_outputs,
@@ -956,6 +964,7 @@ def prepare_selfee(row):
 
 
 def prepare_pmc_llama(row):
+
     inputs = "".join([row['instruction'] + row['input']])
     return convert_inputs_targets_to_messages(
         inputs,
@@ -1021,10 +1030,12 @@ def prepare_cidar(row):
 
 
 def prepare_indic_instruct(row):
+
     ''' This dataset conatins lots of other datasets, each having their own format. A different prepare method is needed for each sub-dataset
     Some datasets such as 'hh-rlhf', 'lm_sys', 'oasst1' have same forrmat and thus they have the prepare method below
     '''
     if row['dataset'] == 'anudesh':
+
         return convert_inputs_targets_to_messages(
             row["messages"][0]["content"], row["messages"][1]["content"], row["dataset"]
         )
@@ -1104,6 +1115,32 @@ def prepare_bactrianx(row):
 
 
 
+def prepare_pippa(row):
+    messages = []
+    parent_id = "PygmalionAI-PIPPA"  # Initial parent ID for the first message
+
+    # Iterate through each message and its corresponding 'is_human' value
+    for i, (message, is_human) in enumerate(
+        zip(row["conversation"]["message"], row["conversation"]["is_human"])
+    ):
+        from_field = "user" if is_human else "assistant"
+
+        # The parent for the first message is the dataset identifier; for others, it's the index of the previous message
+        parent_field = parent_id if i == 0 else i - 1
+
+        # Append the formatted message to the list
+        messages.append(
+            {
+                "from": from_field,
+                "text": message.strip(),
+                "parent": parent_field,
+            }
+        )
+
+        # Update the parent ID to the current message's index for the next iteration
+        parent_id = i
+    return messages
+        
 def prepare_collective_cognition(row):
     """
     Prepares a dataset row by converting conversation parts into a standardized messages format.
