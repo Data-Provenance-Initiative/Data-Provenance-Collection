@@ -1,0 +1,54 @@
+{
+    "expert_qa": {
+        "Unique Dataset Identifier": "expert_qa",
+        "Dataset Name": "expert_qa",
+        "Paper Title": "EXPERTQA: Expert-Curated Questions and Attributed Answers",
+        "Dataset URL": "https://huggingface.co/datasets/cmalaviya/expertqa",
+        "GitHub URL": "https://github.com/chaitanyamalaviya/ExpertQA",
+        "Hugging Face URL": "https://huggingface.co/datasets/cmalaviya/expertqa",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2309.07852",
+        "Semantic Scholar Corpus ID": 261823130,
+        "Collection": "ExpertQA",
+        "Collection URL": "https://huggingface.co/datasets/cmalaviya/expertqa",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Factual Knowledge Question Answering",
+            "General Knowledge",
+            "Commonsense Reasoning",
+            "Explanation Question Answering"
+        ],
+        "Text Sources": ["crowdsourced"],
+        "Model Generated": [
+            "OpenAI GPT-4",
+            "Bing Chat"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "University of Pennsylvania",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/chaitanyamalaviya/ExpertQA?tab=readme-ov-file#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2309.07852"
+              }
+        ],
+        "License Notes": "Expert crowdsourced questions, synthetically generated answers. License applies to the whole 'project', which we interpret as including the data.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "expert_qa"
+        ],
+        "Bibtex": ""
+    }
+}

@@ -57,6 +57,7 @@
             "Classify",
             "Closed QA",
             "Extract"
-        ]
+        ],
+        "Bibtex": ""
     }
 }

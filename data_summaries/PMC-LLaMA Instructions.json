@@ -46,7 +46,8 @@
         "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "liveqa"
-        ]
+        ],
+        "Bibtex": "@Inproceedings{Wu2023PMCLLaMATB,\n author = {Chaoyi Wu and Xiaoman Zhang and Ya Zhang and Yanfeng Wang and Weidi Xie},\n title = {PMC-LLaMA: Towards Building Open-source Language Models for Medicine},\n year = {2023}\n}\n"
     },
     "pmc-llama-medicationqa": {
         "Unique Dataset Identifier": "pmc-llama-medicationqa",
@@ -95,7 +96,8 @@
         "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "medicationqa"
-        ]
+        ],
+        "Bibtex": "@Inproceedings{Wu2023PMCLLaMATB,\n author = {Chaoyi Wu and Xiaoman Zhang and Ya Zhang and Yanfeng Wang and Weidi Xie},\n title = {PMC-LLaMA: Towards Building Open-source Language Models for Medicine},\n year = {2023}\n}\n"
     },
     "pmc-llama-medmcqa": {
         "Unique Dataset Identifier": "pmc-llama-medmcqa",
@@ -148,7 +150,8 @@
         "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "medmcqa"
-        ]
+        ],
+        "Bibtex": "@Inproceedings{Wu2023PMCLLaMATB,\n author = {Chaoyi Wu and Xiaoman Zhang and Ya Zhang and Yanfeng Wang and Weidi Xie},\n title = {PMC-LLaMA: Towards Building Open-source Language Models for Medicine},\n year = {2023}\n}\n"
     },
     "pmc-llama-medqa_train": {
         "Unique Dataset Identifier": "pmc-llama-medqa_train",
@@ -174,7 +177,9 @@
         "Text Sources": [
             "Medical Exams"
         ],
-        "Model Generated": ["OpenAI ChatGPT"],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
         "Format": [
             "Zero-shot"
         ],
@@ -199,7 +204,8 @@
         "License Verified By": "",
         "Dataset Filter IDs": [
             "medqa_train"
-        ]
+        ],
+        "Bibtex": "@Inproceedings{Wu2023PMCLLaMATB,\n author = {Chaoyi Wu and Xiaoman Zhang and Ya Zhang and Yanfeng Wang and Weidi Xie},\n title = {PMC-LLaMA: Towards Building Open-source Language Models for Medicine},\n year = {2023}\n}\n"
     },
     "pmc-llama-pubmedqa": {
         "Unique Dataset Identifier": "pmc-llama-pubmedqa",
@@ -225,7 +231,9 @@
         "Text Sources": [
             "pubmed"
         ],
-        "Model Generated": ["OpenAI ChatGPT"],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
         "Format": [
             "Zero-shot"
         ],
@@ -250,7 +258,8 @@
         "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "pubmedqa.ori_pqaa"
-        ]
+        ],
+        "Bibtex": "@Article{Jin2019PubMedQAAD,\n author = {Qiao Jin and Bhuwan Dhingra and Zhengping Liu and William W. Cohen and Xinghua Lu},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {2567-2577},\n title = {PubMedQA: A Dataset for Biomedical Research Question Answering},\n year = {2019}\n}\n"
     },
     "pmc-llama-umls": {
         "Unique Dataset Identifier": "pmc-llama-umls",
@@ -276,7 +285,9 @@
         "Text Sources": [
             "National Library of Medicine (NLM)"
         ],
-        "Model Generated": ["OpenAI ChatGPT"],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
         "Format": [
             "Zero-shot"
         ],
@@ -301,7 +312,8 @@
         "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "umls"
-        ]
+        ],
+        "Bibtex": "@Inproceedings{Wu2023PMCLLaMATB,\n author = {Chaoyi Wu and Xiaoman Zhang and Ya Zhang and Yanfeng Wang and Weidi Xie},\n title = {PMC-LLaMA: Towards Building Open-source Language Models for Medicine},\n year = {2023}\n}\n"
     },
     "pmc-llama-umls_relation": {
         "Unique Dataset Identifier": "pmc-llama-umls_relation",
@@ -327,7 +339,9 @@
         "Text Sources": [
             "National Library of Medicine (NLM)"
         ],
-        "Model Generated": ["OpenAI ChatGPT"],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
         "Format": [
             "Zero-shot"
         ],
@@ -352,6 +366,7 @@
         "License Verified By": "Mohammed Hamdy",
         "Dataset Filter IDs": [
             "umls_relation"
-        ]
+        ],
+        "Bibtex": "@Inproceedings{Wu2023PMCLLaMATB,\n author = {Chaoyi Wu and Xiaoman Zhang and Ya Zhang and Yanfeng Wang and Weidi Xie},\n title = {PMC-LLaMA: Towards Building Open-source Language Models for Medicine},\n year = {2023}\n}\n"
     }
 }

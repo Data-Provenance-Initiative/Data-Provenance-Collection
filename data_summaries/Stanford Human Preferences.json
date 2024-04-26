@@ -88,7 +88,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ethayarajh2021UnderstandingDD,\n author = {Kawin Ethayarajh and Yejin Choi and Swabha Swayamdipta},\n booktitle = {International Conference on Machine Learning},\n pages = {5988-6008},\n title = {Understanding Dataset Difficulty with V-Usable Information},\n year = {2021}\n}\n"
     },
     "shp-askculinary": {
         "Unique Dataset Identifier": "shp-askculinary",
@@ -178,7 +179,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ethayarajh2021UnderstandingDD,\n author = {Kawin Ethayarajh and Yejin Choi and Swabha Swayamdipta},\n booktitle = {International Conference on Machine Learning},\n pages = {5988-6008},\n title = {Understanding Dataset Difficulty with V-Usable Information},\n year = {2021}\n}\n"
     },
     "shp-askbaking": {
         "Unique Dataset Identifier": "shp-askbaking",
@@ -268,7 +270,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ethayarajh2021UnderstandingDD,\n author = {Kawin Ethayarajh and Yejin Choi and Swabha Swayamdipta},\n booktitle = {International Conference on Machine Learning},\n pages = {5988-6008},\n title = {Understanding Dataset Difficulty with V-Usable Information},\n year = {2021}\n}\n"
     },
     "shp-changemyview": {
         "Unique Dataset Identifier": "shp-changemyview",
@@ -357,7 +360,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ethayarajh2021UnderstandingDD,\n author = {Kawin Ethayarajh and Yejin Choi and Swabha Swayamdipta},\n booktitle = {International Conference on Machine Learning},\n pages = {5988-6008},\n title = {Understanding Dataset Difficulty with V-Usable Information},\n year = {2021}\n}\n"
     },
     "shp-askacademia": {
         "Unique Dataset Identifier": "shp-askacademia",
@@ -446,7 +450,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ethayarajh2021UnderstandingDD,\n author = {Kawin Ethayarajh and Yejin Choi and Swabha Swayamdipta},\n booktitle = {International Conference on Machine Learning},\n pages = {5988-6008},\n title = {Understanding Dataset Difficulty with V-Usable Information},\n year = {2021}\n}\n"
     },
     "shp-asksciencefiction": {
         "Unique Dataset Identifier": "shp-asksciencefiction",
@@ -535,7 +540,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ethayarajh2021UnderstandingDD,\n author = {Kawin Ethayarajh and Yejin Choi and Swabha Swayamdipta},\n booktitle = {International Conference on Machine Learning},\n pages = {5988-6008},\n title = {Understanding Dataset Difficulty with V-Usable Information},\n year = {2021}\n}\n"
     },
     "shp-legaladvice": {
         "Unique Dataset Identifier": "shp-legaladvice",
@@ -624,7 +630,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ethayarajh2021UnderstandingDD,\n author = {Kawin Ethayarajh and Yejin Choi and Swabha Swayamdipta},\n booktitle = {International Conference on Machine Learning},\n pages = {5988-6008},\n title = {Understanding Dataset Difficulty with V-Usable Information},\n year = {2021}\n}\n"
     },
     "shp-explainlikeimfive": {
         "Unique Dataset Identifier": "shp-explainlikeimfive",
@@ -713,7 +720,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ethayarajh2021UnderstandingDD,\n author = {Kawin Ethayarajh and Yejin Choi and Swabha Swayamdipta},\n booktitle = {International Conference on Machine Learning},\n pages = {5988-6008},\n title = {Understanding Dataset Difficulty with V-Usable Information},\n year = {2021}\n}\n"
     },
     "shp-askscience": {
         "Unique Dataset Identifier": "shp-askscience",
@@ -803,7 +811,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ethayarajh2021UnderstandingDD,\n author = {Kawin Ethayarajh and Yejin Choi and Swabha Swayamdipta},\n booktitle = {International Conference on Machine Learning},\n pages = {5988-6008},\n title = {Understanding Dataset Difficulty with V-Usable Information},\n year = {2021}\n}\n"
     },
     "shp-askphilosophy": {
         "Unique Dataset Identifier": "shp-askphilosophy",
@@ -893,7 +902,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ethayarajh2021UnderstandingDD,\n author = {Kawin Ethayarajh and Yejin Choi and Swabha Swayamdipta},\n booktitle = {International Conference on Machine Learning},\n pages = {5988-6008},\n title = {Understanding Dataset Difficulty with V-Usable Information},\n year = {2021}\n}\n"
     },
     "shp-askhr": {
         "Unique Dataset Identifier": "shp-askhr",
@@ -982,7 +992,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ethayarajh2021UnderstandingDD,\n author = {Kawin Ethayarajh and Yejin Choi and Swabha Swayamdipta},\n booktitle = {International Conference on Machine Learning},\n pages = {5988-6008},\n title = {Understanding Dataset Difficulty with V-Usable Information},\n year = {2021}\n}\n"
     },
     "shp-askphysics": {
         "Unique Dataset Identifier": "shp-askphysics",
@@ -1071,7 +1082,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ethayarajh2021UnderstandingDD,\n author = {Kawin Ethayarajh and Yejin Choi and Swabha Swayamdipta},\n booktitle = {International Conference on Machine Learning},\n pages = {5988-6008},\n title = {Understanding Dataset Difficulty with V-Usable Information},\n year = {2021}\n}\n"
     },
     "shp-askdocs": {
         "Unique Dataset Identifier": "shp-askdocs",
@@ -1160,7 +1172,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ethayarajh2021UnderstandingDD,\n author = {Kawin Ethayarajh and Yejin Choi and Swabha Swayamdipta},\n booktitle = {International Conference on Machine Learning},\n pages = {5988-6008},\n title = {Understanding Dataset Difficulty with V-Usable Information},\n year = {2021}\n}\n"
     },
     "shp-askanthropology": {
         "Unique Dataset Identifier": "shp-askanthropology",
@@ -1249,7 +1262,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ethayarajh2021UnderstandingDD,\n author = {Kawin Ethayarajh and Yejin Choi and Swabha Swayamdipta},\n booktitle = {International Conference on Machine Learning},\n pages = {5988-6008},\n title = {Understanding Dataset Difficulty with V-Usable Information},\n year = {2021}\n}\n"
     },
     "shp-askvet": {
         "Unique Dataset Identifier": "shp-askvet",
@@ -1338,7 +1352,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ethayarajh2021UnderstandingDD,\n author = {Kawin Ethayarajh and Yejin Choi and Swabha Swayamdipta},\n booktitle = {International Conference on Machine Learning},\n pages = {5988-6008},\n title = {Understanding Dataset Difficulty with V-Usable Information},\n year = {2021}\n}\n"
     },
     "shp-askhistorians": {
         "Unique Dataset Identifier": "shp-askhistorians",
@@ -1427,7 +1442,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ethayarajh2021UnderstandingDD,\n author = {Kawin Ethayarajh and Yejin Choi and Swabha Swayamdipta},\n booktitle = {International Conference on Machine Learning},\n pages = {5988-6008},\n title = {Understanding Dataset Difficulty with V-Usable Information},\n year = {2021}\n}\n"
     },
     "shp-askcarguys": {
         "Unique Dataset Identifier": "shp-askcarguys",
@@ -1516,7 +1532,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ethayarajh2021UnderstandingDD,\n author = {Kawin Ethayarajh and Yejin Choi and Swabha Swayamdipta},\n booktitle = {International Conference on Machine Learning},\n pages = {5988-6008},\n title = {Understanding Dataset Difficulty with V-Usable Information},\n year = {2021}\n}\n"
     },
     "shp-asksocialscience": {
         "Unique Dataset Identifier": "shp-asksocialscience",
@@ -1605,6 +1622,7 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ethayarajh2021UnderstandingDD,\n author = {Kawin Ethayarajh and Yejin Choi and Swabha Swayamdipta},\n booktitle = {International Conference on Machine Learning},\n pages = {5988-6008},\n title = {Understanding Dataset Difficulty with V-Usable Information},\n year = {2021}\n}\n"
     }
 }
