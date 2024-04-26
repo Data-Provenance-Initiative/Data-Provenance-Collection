@@ -773,6 +773,7 @@ def download_medinstruct(accepted_filter_ids):
 def download_mathinstruct(accepted_filter_ids):
     mathinstruct = load_dataset("TIGER-Lab/MathInstruct", split="train")
     dset = []
+
     if 'cot_MATH_train' in accepted_filter_ids:
         cot_MATH_train = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/MATH_train.json').to_list()
         dset += annotate_source(cot_MATH_train, 'cot_MATH_train')
@@ -1187,6 +1188,14 @@ def download_bactrianx(accepted_filter_ids):
     return dsets
 
 
+def download_collective_cognition(accepted_filter_ids):
+    dset = huggingface_download(
+        "CollectiveCognition/chats-data-2023-10-16",
+        split="train",
+    )
+    return dset
+
+    
 def download_chatbot_arena_conversations(accepted_filter_ids):
     # Dataset is gated, needs login first
     login()
@@ -1196,6 +1205,7 @@ def download_chatbot_arena_conversations(accepted_filter_ids):
         "lmsys/chatbot_arena_conversations",
         split="train",
     )
+    return dset
 
     
 def download_kiwi(accepted_filter_ids):
@@ -1324,3 +1334,4 @@ def download_dialogstudio(accepted_filter_ids):
             dset = annotate_source(dset, f"ds-{data_name}")
             dsets.extend(dset)
     return dsets
+

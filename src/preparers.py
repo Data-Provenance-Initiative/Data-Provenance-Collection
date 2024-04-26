@@ -278,6 +278,7 @@ def prepare_open_assistant(dset):
 def prepare_oasst_octopack(row):
     messages = []
     for i, segment in enumerate(row["conversations"]):
+
         messages.append({
             "from": "user" if segment["role"] == "prompter" else "assistant",
             "text": segment["text"].strip().replace("\"", ""),
@@ -599,6 +600,7 @@ def prepare_hc3_zh(row):
 
 
 def prepare_camel_science(row):
+
     if row["_source"] != "code" and "ai-society-translated" not in row["_source"]:
         return convert_inputs_targets_to_messages(
             row["message_1"], row["message_2"], row["_source"],
@@ -840,7 +842,6 @@ def prepare_lima(row):
         parent = i
     return messages
 
-  
 def prepare_tool_llama(row):
     return convert_inputs_targets_to_messages(
         row["context"] + row["instruction"],
@@ -1030,15 +1031,16 @@ def prepare_indic_instruct(row):
     if row['dataset'] == 'dolly':
         input_text = re.sub(r'\s*\[.*?\]\s*', '', "\n".join([row["context"], row["instruction"]]).strip())
         target_text = re.sub(r'\s*\[.*?\]\s*', '', row["response"])
+
         return convert_inputs_targets_to_messages(
             input_text, target_text, row["dataset"]
         )
+
 
     if row['dataset'] == 'flan_v2':
         return convert_inputs_targets_to_messages(
             row["inputs"], row["targets"], row["dataset"]
         )
-
 
     if row['dataset'] in ['hh-rlhf', 'lm_sys', 'oasst1']:
         messages = []
@@ -1101,6 +1103,31 @@ def prepare_bactrianx(row):
     ]
 
 
+
+def prepare_collective_cognition(row):
+    """
+    Prepares a dataset row by converting conversation parts into a standardized messages format.
+
+    Args:
+        row (dict): A single dataset row containing model information and conversations.
+
+    Returns:
+        list: A list of messages formatted as specified, with inputs and targets converted to messages.
+    """
+    messages = []
+    conversations = row.get("conversations", [])
+
+    if conversations:
+        for i, conversation in enumerate(conversations):
+            speaker = "user" if conversation["from"] == "human" else "assistant"
+            text = conversation["value"]
+            parent = "CC-chats-data-2023-10-16" if i == 0 else i - 1
+            if text is not None:
+                text = text.strip()
+            else:
+                text = ""
+            messages.append({"from": speaker, "text": text, "parent": parent})
+    return messages
 
 def prepare_chatbot_arena_conversations(row):
     messages = []

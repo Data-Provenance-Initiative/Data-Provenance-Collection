@@ -314,6 +314,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_wildchat,
         "prepare_function": preparers.prepare_wildchat,
     },
+    "CollectiveCognition": {
+        "download_function": downloaders.download_collective_cognition,
+        "prepare_function": preparers.prepare_collective_cognition,
+    },
     "ChatbotArena": {
         "download_function": downloaders.download_chatbot_arena_conversations,
         "prepare_function": preparers.prepare_chatbot_arena_conversations,
