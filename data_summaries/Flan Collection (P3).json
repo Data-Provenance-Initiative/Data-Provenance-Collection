@@ -100,7 +100,8 @@
         "Derived from Datasets": [
             "SQuADv1"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Bartolo2020BeatTA,\n author = {Max Bartolo and A. Roberts and Johannes Welbl and Sebastian Riedel and Pontus Stenetorp},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {662-678},\n title = {Beat the AI: Investigating Adversarial Human Annotation for Reading Comprehension},\n volume = {8},\n year = {2020}\n}\n"
     },
     "fc-p3-amazon_polarity": {
         "Unique Dataset Identifier": "fc-p3-amazon_polarity",
@@ -197,7 +198,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Zhang2015CharacterlevelCN,\n author = {Xiang Zhang and J. Zhao and Yann LeCun},\n booktitle = {Neural Information Processing Systems},\n pages = {649-657},\n title = {Character-level Convolutional Networks for Text Classification},\n year = {2015}\n}\n"
     },
     "fc-p3-app_reviews": {
         "Unique Dataset Identifier": "fc-p3-app_reviews",
@@ -282,7 +284,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "fc-p3-cos_e": {
         "Unique Dataset Identifier": "fc-p3-cos_e",
@@ -381,7 +384,8 @@
         "Derived from Datasets": [
             "CommonSenseQA"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Rajani2019ExplainYL,\n author = {Nazneen Rajani and Bryan McCann and Caiming Xiong and R. Socher},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Explain Yourself! Leveraging Language Models for Commonsense Reasoning},\n volume = {abs/1906.02361},\n year = {2019}\n}\n"
     },
     "fc-p3-dbpedia_14": {
         "Unique Dataset Identifier": "fc-p3-dbpedia_14",
@@ -474,7 +478,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Lehmann2015DBpediaA,\n author = {Jens Lehmann and Robert Isele and Max Jakob and Anja Jentzsch and D. Kontokostas and Pablo N. Mendes and Sebastian Hellmann and M. Morsey and Patrick van Kleef and S. Auer and Christian Bizer},\n booktitle = {Semantic Web},\n journal = {Semantic Web},\n pages = {167-195},\n title = {DBpedia - A large-scale, multilingual knowledge base extracted from Wikipedia},\n volume = {6},\n year = {2015}\n}\n"
     },
     "fc-p3-dream": {
         "Unique Dataset Identifier": "fc-p3-dream",
@@ -571,7 +576,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Sun2019DREAMAC,\n author = {Kai Sun and Dian Yu and Jianshu Chen and Dong Yu and Yejin Choi and Claire Cardie},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {217-231},\n title = {DREAM: A Challenge Data Set and Models for Dialogue-Based Reading Comprehension},\n volume = {7},\n year = {2019}\n}\n"
     },
     "fc-p3-duorc_paraphraserc": {
         "Unique Dataset Identifier": "fc-p3-duorc_paraphraserc",
@@ -673,7 +679,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Saha2018DuoRCTC,\n author = {Amrita Saha and Rahul Aralikatte and Mitesh M. Khapra and Karthik Sankaranarayanan},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {1683-1693},\n title = {DuoRC: Towards Complex Language Understanding with Paraphrased Reading Comprehension},\n year = {2018}\n}\n"
     },
     "fc-p3-duorc_selfrc": {
         "Unique Dataset Identifier": "fc-p3-duorc_selfrc",
@@ -773,7 +780,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Saha2018DuoRCTC,\n author = {Amrita Saha and Rahul Aralikatte and Mitesh M. Khapra and Karthik Sankaranarayanan},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {1683-1693},\n title = {DuoRC: Towards Complex Language Understanding with Paraphrased Reading Comprehension},\n year = {2018}\n}\n"
     },
     "fc-p3-hotpotqa": {
         "Unique Dataset Identifier": "fc-p3-hotpotqa",
@@ -868,7 +876,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Yang2018HotpotQAAD,\n author = {Zhilin Yang and Peng Qi and Saizheng Zhang and Yoshua Bengio and William W. Cohen and R. Salakhutdinov and Christopher D. Manning},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {2369-2380},\n title = {HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering},\n year = {2018}\n}\n"
     },
     "fc-p3-qasc": {
         "Unique Dataset Identifier": "fc-p3-qasc",
@@ -964,7 +973,8 @@
         "Derived from Datasets": [
             "WorldTree corpus"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Khot2019QASCAD,\n author = {Tushar Khot and Peter Clark and Michal Guerquin and Peter Alexander Jansen and Ashish Sabharwal},\n booktitle = {AAAI Conference on Artificial Intelligence},\n journal = {ArXiv},\n title = {QASC: A Dataset for Question Answering via Sentence Composition},\n volume = {abs/1910.11473},\n year = {2019}\n}\n"
     },
     "fc-p3-quail": {
         "Unique Dataset Identifier": "fc-p3-quail",
@@ -1058,7 +1068,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Rogers2020GettingCT,\n author = {Anna Rogers and Olga Kovaleva and Matthew Downey and Anna Rumshisky},\n booktitle = {AAAI Conference on Artificial Intelligence},\n pages = {8722-8731},\n title = {Getting Closer to AI Complete Question Answering: A Set of Prerequisite Real Tasks},\n year = {2020}\n}\n"
     },
     "fc-p3-quarel": {
         "Unique Dataset Identifier": "fc-p3-quarel",
@@ -1145,7 +1156,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Rogers2020GettingCT,\n author = {Anna Rogers and Olga Kovaleva and Matthew Downey and Anna Rumshisky},\n booktitle = {AAAI Conference on Artificial Intelligence},\n pages = {8722-8731},\n title = {Getting Closer to AI Complete Question Answering: A Set of Prerequisite Real Tasks},\n year = {2020}\n}\n"
     },
     "fc-p3-quartz": {
         "Unique Dataset Identifier": "fc-p3-quartz",
@@ -1236,7 +1248,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Tafjord2019QuaRTzAO,\n author = {Oyvind Tafjord and Matt Gardner and Kevin Lin and Peter Clark},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {QuaRTz: An Open-Domain Dataset of Qualitative Relationship Questions},\n volume = {abs/1909.03553},\n year = {2019}\n}\n"
     },
     "fc-p3-quoref": {
         "Unique Dataset Identifier": "fc-p3-quoref",
@@ -1332,7 +1345,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Dasigi2019QuorefAR,\n author = {Pradeep Dasigi and Nelson F. Liu and Ana Marasović and Noah A. Smith and Matt Gardner},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {Quoref: A Reading Comprehension Dataset with Questions Requiring Coreferential Reasoning},\n volume = {abs/1908.05803},\n year = {2019}\n}\n"
     },
     "fc-p3-race": {
         "Unique Dataset Identifier": "fc-p3-race",
@@ -1432,7 +1446,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Lai2017RACELR,\n author = {Guokun Lai and Qizhe Xie and Hanxiao Liu and Yiming Yang and E. Hovy},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {RACE: Large-scale ReAding Comprehension Dataset From Examinations},\n volume = {abs/1704.04683},\n year = {2017}\n}\n"
     },
     "fc-p3-ropes": {
         "Unique Dataset Identifier": "fc-p3-ropes",
@@ -1532,7 +1547,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Lin2019ReasoningOP,\n author = {Kevin Lin and Oyvind Tafjord and Peter Clark and Matt Gardner},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {58-62},\n title = {Reasoning Over Paragraph Effects in Situations},\n year = {2019}\n}\n"
     },
     "fc-p3-sciq": {
         "Unique Dataset Identifier": "fc-p3-sciq",
@@ -1624,7 +1640,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Welbl2017CrowdsourcingMC,\n author = {Johannes Welbl and Nelson F. Liu and Matt Gardner},\n booktitle = {NUT@EMNLP},\n journal = {ArXiv},\n title = {Crowdsourcing Multiple Choice Science Questions},\n volume = {abs/1707.06209},\n year = {2017}\n}\n"
     },
     "fc-p3-social_iqa": {
         "Unique Dataset Identifier": "fc-p3-social_iqa",
@@ -1715,7 +1732,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "fc-p3-web_questions": {
         "Unique Dataset Identifier": "fc-p3-web_questions",
@@ -1804,7 +1822,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Berant2013SemanticPO,\n author = {Jonathan Berant and A. Chou and Roy Frostig and Percy Liang},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {1533-1544},\n title = {Semantic Parsing on Freebase from Question-Answer Pairs},\n year = {2013}\n}\n"
     },
     "fc-p3-wiki_bio": {
         "Unique Dataset Identifier": "fc-p3-wiki_bio",
@@ -1895,7 +1914,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Lebret2016NeuralTG,\n author = {R. Lebret and David Grangier and Michael Auli},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {1203-1213},\n title = {Neural Text Generation from Structured Data with Application to the Biography Domain},\n year = {2016}\n}\n"
     },
     "fc-p3-wiki_hop": {
         "Unique Dataset Identifier": "fc-p3-wiki_hop",
@@ -1990,7 +2010,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Lebret2016NeuralTG,\n author = {R. Lebret and David Grangier and Michael Auli},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {1203-1213},\n title = {Neural Text Generation from Structured Data with Application to the Biography Domain},\n year = {2016}\n}\n"
     },
     "fc-p3-wiki_qa": {
         "Unique Dataset Identifier": "fc-p3-wiki_qa",
@@ -2090,7 +2111,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Yang2015WikiQAAC,\n author = {Yi Yang and Wen-tau Yih and Christopher Meek},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {2013-2018},\n title = {WikiQA: A Challenge Dataset for Open-Domain Question Answering},\n year = {2015}\n}\n"
     },
     "fc-p3-wiqa": {
         "Unique Dataset Identifier": "fc-p3-wiqa",
@@ -2183,6 +2205,7 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Tandon2019WIQAAD,\n author = {Niket Tandon and Bhavana Dalvi and Keisuke Sakaguchi and Antoine Bosselut and Peter Clark},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {WIQA: A dataset for “What if...” reasoning over procedural text},\n volume = {abs/1909.04739},\n year = {2019}\n}\n"
     }
 }
