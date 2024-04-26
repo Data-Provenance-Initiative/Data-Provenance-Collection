@@ -102,7 +102,8 @@
             "Alpaca",
             "MedQuAD"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Xu2023BaizeAO,\n author = {Canwen Xu and Daya Guo and Nan Duan and Julian McAuley},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data},\n volume = {abs/2304.01196},\n year = {2023}\n}\n"
     },
     "baize-medical-chat": {
         "Unique Dataset Identifier": "baize-medical-chat",
@@ -203,7 +204,8 @@
             "Alpaca",
             "MedQuAD"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Xu2023BaizeAO,\n author = {Canwen Xu and Daya Guo and Nan Duan and Julian McAuley},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data},\n volume = {abs/2304.01196},\n year = {2023}\n}\n"
     },
     "baize-quora-chat": {
         "Unique Dataset Identifier": "baize-quora-chat",
@@ -306,7 +308,8 @@
             "Alpaca",
             "MedQuAD"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Xu2023BaizeAO,\n author = {Canwen Xu and Daya Guo and Nan Duan and Julian McAuley},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data},\n volume = {abs/2304.01196},\n year = {2023}\n}\n"
     },
     "baize-stackoverflow-chat": {
         "Unique Dataset Identifier": "baize-stackoverflow-chat",
@@ -408,6 +411,7 @@
             "Alpaca",
             "MedQuAD"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Xu2023BaizeAO,\n author = {Canwen Xu and Daya Guo and Nan Duan and Julian McAuley},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data},\n volume = {abs/2304.01196},\n year = {2023}\n}\n"
     }
 }
