@@ -1,0 +1,50 @@
+{
+    "PygmalionAI-PIPPA": {
+        "Unique Dataset Identifier": "PygmalionAI-PIPPA",
+        "Dataset Name": "PIPPA - Personal Interaction Pairs between People and AI",
+        "Paper Title": "PIPPA: A Partially Synthetic Conversational Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/PygmalionAI/PIPPA",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/PygmalionAI/PIPPA",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/pippa",
+        "ArXiv URL": "https://arxiv.org/abs/2308.05884",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "PygmalionAI-PIPPA",
+        "Collection URL": "https://huggingface.co/PygmalionAI",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Conversational Question Answering",
+            "Roleplay",
+            "Dialogue Understanding"
+        ],
+        "Text Sources": [
+            "https://character.ai"
+        ],
+        "Model Generated": [
+            "Character AI",
+            "Other"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "PygmalionAI"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://www.apache.org/licenses/LICENSE-2.0"
+            }
+        ],
+        "License Notes": "PIPPA contains NSFW and heavily disturbing content. Models trained purely with PIPPA may generate X-rated output.",
+        "License Verified By": "Nayan Saxena",
+        "Dataset Filter IDs": [
+            "PygmalionAI-PIPPA"
+        ],
+        "Bibtex": "@misc{gosling2023pippa, title={PIPPA: A Partially Synthetic Conversational Dataset}, author={Tear Gosling and Alpin Dale and Yinhe Zheng}, year={2023}, eprint={2308.05884}, archivePrefix={arXiv}, primaryClass={cs.CL}}"
+    }
+}
