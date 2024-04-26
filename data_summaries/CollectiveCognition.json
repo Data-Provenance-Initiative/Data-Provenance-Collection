@@ -8,7 +8,7 @@
         "Hugging Face URL": "https://huggingface.co/datasets/CollectiveCognition/chats-data-2023-10-16",
         "Papers with Code URL": "",
         "ArXiv URL": "",
-        "Semantic Scholar Corpus ID": 0,
+        "Semantic Scholar Corpus ID": "",
         "Collection": "CollectiveCognition",
         "Collection URL": "https://huggingface.co/datasets/CollectiveCognition/chats-data-2023-10-16",
         "Languages": [
@@ -35,7 +35,7 @@
         "Human Annotation": "No",
         "Derived from Datasets": [],
         "Creators": [
-            "CollectiveCognition"
+            "Collective Cognition"
         ],
         "Licenses": [
             {
@@ -50,6 +50,7 @@
         "License Verified By": "Nayan Saxena",
         "Dataset Filter IDs": [
             "CC-chats-data-2023-10-16"
-        ]
+        ],
+        "Bibtex": ""
     }
 }
