@@ -318,7 +318,18 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_pippa,
         "prepare_function": preparers.prepare_pippa,
     },
-
+    "CollectiveCognition": {
+        "download_function": downloaders.download_collective_cognition,
+        "prepare_function": preparers.prepare_collective_cognition,
+    },
+    "ChatbotArena": {
+        "download_function": downloaders.download_chatbot_arena_conversations,
+        "prepare_function": preparers.prepare_chatbot_arena_conversations,
+    },
+    "KIWI": {
+        "download_function": downloaders.download_kiwi,
+        "prepare_function": preparers.prepare_kiwi,
+    },
     "Orca-Math": {
         "download_function": downloaders.download_orca_math,
         "prepare_function": preparers.prepare_orca_math,
