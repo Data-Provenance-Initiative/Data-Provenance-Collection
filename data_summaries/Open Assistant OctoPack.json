@@ -118,6 +118,7 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     }
 }
