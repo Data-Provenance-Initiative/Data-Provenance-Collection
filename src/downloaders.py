@@ -417,6 +417,8 @@ def download_feedback_collection(accepted_filter_ids):
     return huggingface_download("kaist-ai/Feedback-Collection")
 
 
+def download_evol_instruct(accepted_filter_ids):
+    return huggingface_download("WizardLM/evol_instruct_70k", split="train")
 
 def download_evol_instruct(accepted_filter_ids):
     return huggingface_download("WizardLM/evol_instruct_70k", split="train")
@@ -708,7 +710,6 @@ def download_airoboros(accepted_filter_ids):
     return huggingface_download('jondurbin/airoboros-3.2', split='train')
 
 
-
 def download_lima(accepted_filter_ids):
     dset = huggingface_download("GAIR/lima", split="train")
     return pool_filter(dset, "source", accepted_filter_ids)
@@ -768,7 +769,6 @@ def download_medical_meadow(accepted_filter_ids):
 def download_medinstruct(accepted_filter_ids):
     return direct_data_request(
         "https://raw.githubusercontent.com/XZhang97666/AlpaCare/master/data/MedInstruct-52k.json")
-
 
 def download_mathinstruct(accepted_filter_ids):
     mathinstruct = load_dataset("TIGER-Lab/MathInstruct", split="train")
@@ -954,6 +954,7 @@ def download_gorilla(accepted_filter_ids):
             ret[key] = ret.get(key, []) + [ex[key]]
 
     return Dataset.from_dict(ret)
+
 
 
 def download_coig(accepted_filter_ids):
@@ -1195,6 +1196,10 @@ def download_chatbot_arena_conversations(accepted_filter_ids):
         "lmsys/chatbot_arena_conversations",
         split="train",
     )
+
+    
+def download_kiwi(accepted_filter_ids):
+    dset = huggingface_download("fangyuan/kiwi", split="train")
     return dset
 
 def download_orca_math(accepted_filter_ids):

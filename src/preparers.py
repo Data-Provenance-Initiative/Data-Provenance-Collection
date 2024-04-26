@@ -173,6 +173,7 @@ def prepare_anthropic_hh_rlhf(row):
     # [(text, user, score)]
 
     # Add placeholder markers for splitting.
+
     marked_chosen = chosen_text.replace('\n\nHuman:', f'{SEPARATOR}USER{SEPARATOR}').replace('\n\nAssistant:',
                                                                                              f'{SEPARATOR}ASSISTANT{SEPARATOR}')
     marked_rejected = rejected_text.replace('\n\nHuman:', f'{SEPARATOR}USER{SEPARATOR}').replace('\n\nAssistant:',
@@ -839,6 +840,7 @@ def prepare_lima(row):
         parent = i
     return messages
 
+  
 def prepare_tool_llama(row):
     return convert_inputs_targets_to_messages(
         row["context"] + row["instruction"],
@@ -1025,7 +1027,6 @@ def prepare_indic_instruct(row):
         return convert_inputs_targets_to_messages(
             row["messages"][0]["content"], row["messages"][1]["content"], row["dataset"]
         )
-
     if row['dataset'] == 'dolly':
         input_text = re.sub(r'\s*\[.*?\]\s*', '', "\n".join([row["context"], row["instruction"]]).strip())
         target_text = re.sub(r'\s*\[.*?\]\s*', '', row["response"])
@@ -1059,7 +1060,6 @@ def prepare_indic_instruct(row):
         for i, turn in enumerate(row["steps"]):
             input_text += '\n' + turn['description']
         input_text += row['messages'][0]['content']
-
         target_text = row["messages"][1]["content"]
         return convert_inputs_targets_to_messages(
             input_text, target_text, row["dataset"]
@@ -1128,6 +1128,44 @@ def prepare_chatbot_arena_conversations(row):
                 message["score"] = 1 if model_name == winner_model else 0
 
             messages.append(message)
+            
+    return messages
+    
+
+def prepare_kiwi(row):
+    messages = []
+    parent_id = "KIWI"
+    interactions = row["interaction"]
+
+    for idx, turn in enumerate(interactions):
+
+        messages.append(
+            {
+                "from": "user",
+                "text": turn["instruction"],
+                "parent": (parent_id if idx == 0 else len(messages) - 1),
+            }
+        )
+
+        messages.append(
+            {
+                "from": "assistant",
+                "text": turn["answer_1"],
+                "parent": len(messages) - 1,
+            }
+        )
+
+        if turn["answer_2"]:
+            messages.append(
+                {
+                    "from": "assistant",
+                    "text": turn["answer_2"],
+                    "parent": len(messages) - 1,
+                    "edited": True,
+                }
+            )
+        messages[-1]["rating"] = turn["rating"]
+        messages[-1]["comment"] = turn["comment"]
 
     return messages
 
