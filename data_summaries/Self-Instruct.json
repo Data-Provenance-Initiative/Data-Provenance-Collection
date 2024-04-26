@@ -107,6 +107,7 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wang2022SelfInstructAL,\n author = {Yizhong Wang and Yeganeh Kordi and Swaroop Mishra and Alisa Liu and Noah A. Smith and Daniel Khashabi and Hannaneh Hajishirzi},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {13484-13508},\n title = {Self-Instruct: Aligning Language Models with Self-Generated Instructions},\n year = {2022}\n}\n"
     }
 }

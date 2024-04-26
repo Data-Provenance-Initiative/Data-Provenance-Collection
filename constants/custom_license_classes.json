@@ -238,5 +238,15 @@
         "All",
         "0",
         "0"
+    ],
+    "https://huggingface.co/datasets/nvidia/OpenMathInstruct-1#license": [
+        "All",
+        "1",
+        "1"
+    ],
+    "https://huggingface.co/datasets/nvidia/OpenMathInstruct-1/blob/main/LICENSE": [
+        "All",
+        "1",
+        "1"
     ]
 }
