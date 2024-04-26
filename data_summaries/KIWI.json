@@ -1,0 +1,58 @@
+{
+    "KIWI": {
+        "Unique Dataset Identifier": "KIWI",
+        "Dataset Name": "KIWI",
+        "Paper Title": "KIWI: A Dataset of Knowledge-Intensive Writing Instructions for Answering Research Questions",
+        "Dataset URL": "https://www.cs.utexas.edu/~fxu/kiwi/",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/fangyuan/kiwi",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2403.03866",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "KIWI",
+        "Collection URL": "https://www.cs.utexas.edu/~fxu/kiwi/",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Scientific Knowledge Retrieval",
+            "Question Understanding",
+            "Open Question Answering",
+            "Academic Tasks"
+        ],
+        "Text Sources": [
+            "Governments",
+            "User interactions"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo",
+            "OpenAI GPT-4",
+            "LLaMA-2-chat-70b"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "The University of Texas at Austin",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/fangyuan/kiwi#licensing-information"
+            },
+            {
+                "License": "OpenAI"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Nayan Saxena",
+        "Dataset Filter IDs": [
+            "KIWI"
+        ],
+        "Bibtex": "@article{xu2024kiwi, title={KIWI: A Dataset of Knowledge-Intensive Writing Instructions for Answering Research Questions}, author={Xu, Fangyuan and Lo, Kyle and Soldaini, Luca and Kuehl, Bailey and Choi, Eunsol and Wadden, David}, journal={arXiv preprint arXiv:2403.03866}, year={2024}}"
+    }
+}
