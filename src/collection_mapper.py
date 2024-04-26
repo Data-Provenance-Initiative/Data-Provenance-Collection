@@ -314,7 +314,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_wildchat,
         "prepare_function": preparers.prepare_wildchat,
     },
-
+    "ChatbotArena": {
+        "download_function": downloaders.download_chatbot_arena_conversations,
+        "prepare_function": preparers.prepare_chatbot_arena_conversations,
+    },
     "KIWI": {
         "download_function": downloaders.download_kiwi,
         "prepare_function": preparers.prepare_kiwi,

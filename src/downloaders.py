@@ -417,10 +417,11 @@ def download_feedback_collection(accepted_filter_ids):
     return huggingface_download("kaist-ai/Feedback-Collection")
 
 
-
 def download_evol_instruct(accepted_filter_ids):
     return huggingface_download("WizardLM/evol_instruct_70k", split="train")
 
+def download_evol_instruct(accepted_filter_ids):
+    return huggingface_download("WizardLM/evol_instruct_70k", split="train")
 
 def download_selfee(accepted_filter_ids):
     return huggingface_download("kaist-ai/selfee-train", split="train")
@@ -707,6 +708,7 @@ def download_wildchat(accepted_filter_ids):
 
 def download_airoboros(accepted_filter_ids):
     return huggingface_download('jondurbin/airoboros-3.2', split='train')
+
 
 def download_lima(accepted_filter_ids):
     dset = huggingface_download("GAIR/lima", split="train")
@@ -1185,6 +1187,17 @@ def download_bactrianx(accepted_filter_ids):
     return dsets
 
 
+def download_chatbot_arena_conversations(accepted_filter_ids):
+    # Dataset is gated, needs login first
+    login()
+
+    # Standard download
+    dset = huggingface_download(
+        "lmsys/chatbot_arena_conversations",
+        split="train",
+    )
+
+    
 def download_kiwi(accepted_filter_ids):
     dset = huggingface_download("fangyuan/kiwi", split="train")
     return dset
@@ -1311,4 +1324,3 @@ def download_dialogstudio(accepted_filter_ids):
             dset = annotate_source(dset, f"ds-{data_name}")
             dsets.extend(dset)
     return dsets
-

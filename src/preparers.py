@@ -179,6 +179,7 @@ def prepare_anthropic_hh_rlhf(row):
     marked_rejected = rejected_text.replace('\n\nHuman:', f'{SEPARATOR}USER{SEPARATOR}').replace('\n\nAssistant:',
                                                                                                  f'{SEPARATOR}ASSISTANT{SEPARATOR}')
 
+
     # Split the transcript into statements using the placeholder markers.
     chosen_seq = marked_chosen.split(SEPARATOR)[1:]
     reject_seq = marked_rejected.split(SEPARATOR)[1:]
@@ -282,6 +283,7 @@ def prepare_oasst_octopack(row):
             "text": segment["text"].strip().replace("\"", ""),
             "parent": i - 1 if i else "octopack",
         })
+
     return messages
 
 
@@ -838,7 +840,7 @@ def prepare_lima(row):
         parent = i
     return messages
 
-
+  
 def prepare_tool_llama(row):
     return convert_inputs_targets_to_messages(
         row["context"] + row["instruction"],
@@ -960,7 +962,6 @@ def prepare_pmc_llama(row):
         row['source']
     )
 
-
 def prepare_medical_meadow(row):
     inputs = "".join([row["instruction"] + row["input"]])
     return convert_inputs_targets_to_messages(
@@ -1038,6 +1039,7 @@ def prepare_indic_instruct(row):
             row["inputs"], row["targets"], row["dataset"]
         )
 
+
     if row['dataset'] in ['hh-rlhf', 'lm_sys', 'oasst1']:
         messages = []
         for i, turn in enumerate(row['messages']):
@@ -1099,6 +1101,36 @@ def prepare_bactrianx(row):
     ]
 
 
+
+def prepare_chatbot_arena_conversations(row):
+    messages = []
+    parent_id = "chatbot_arena_conversations"
+
+    # Loop through both conversations
+    for conversation_key in ["conversation_a", "conversation_b"]:
+        conversation = row[conversation_key]
+        model_name = (
+            row["model_a"] if conversation_key == "conversation_a" else row["model_b"]
+        )
+        winner_model = row["winner"]
+
+        for idx, msg in enumerate(conversation):
+            message = {
+                "from": "assistant" if msg["role"] == "assistant" else "user",
+                "text": msg["content"],
+                "parent": (
+                    parent_id if idx == 0 else len(messages) - 1
+                ),  # Link to previous message or set to dataset ID
+            }
+            # For assistant messages, add model name and score
+            if msg["role"] == "assistant":
+                message["model"] = model_name
+                message["score"] = 1 if model_name == winner_model else 0
+
+            messages.append(message)
+            
+    return messages
+    
 
 def prepare_kiwi(row):
     messages = []

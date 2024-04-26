@@ -1,0 +1,72 @@
+{
+    "chatbot_arena_conversations": {
+        "Unique Dataset Identifier": "chatbot_arena_conversations",
+        "Dataset Name": "Chatbot Arena Conversations Dataset",
+        "Paper Title": "Judging LLM-as-a-judge with MT-Bench and Chatbot Arena",
+        "Dataset URL": "https://lmsys.org/blog/2023-07-20-dataset/",
+        "Hugging Face URL": "https://huggingface.co/datasets/lmsys/chatbot_arena_conversations",
+        "ArXiv URL": "https://arxiv.org/abs/2306.05685",
+        "Semantic Scholar Corpus ID": 259129398,
+        "GitHub URL": "",
+        "Papers with Code URL": "",
+        "Collection": "ChatbotArena",
+        "Collection URL": "https://huggingface.co/datasets/lmsys/chatbot_arena_conversations",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Natural Language Processing Question Answering",
+            "Alignment",
+            "RLHF",
+            "Response Ranking",
+            "Text Quality Evaluation",
+            "Long-form Response Evaluation",
+            "Crowdsourced"
+        ],
+        "Text Sources": [
+            "https://huggingface.co/datasets/lmsys/chatbot_arena_conversations"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo",
+            "OpenAI GPT-4",
+            "Anthropic Internal Models",
+            "T5",
+            "T5-XXL",
+            "Vicuna 13b",
+            "Vicuna 7b",
+            "alpaca",
+            "dolly",
+            "Llama 13B"
+        ],
+        "Format": [
+            "Response Ranking"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "UC Berkeley",
+            "UC San Diego",
+            "Stanford University",
+            "MBZUAI"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://creativecommons.org/licenses/by/4.0/"
+            },
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+            },
+            {
+                "License": "OpenAI"
+            }
+        ],
+        "License Notes": "User prompts are licensed under CC-BY-4.0, while model outputs are under CC-BY-NC-4.0.",
+        "License Verified By": "Nayan Saxena",
+        "Dataset Filter IDs": [
+            "chatbot_arena_conversations"
+        ],
+        "Bibtex": "@misc{zheng2023judging, title={Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena}, author={Lianmin Zheng and Wei-Lin Chiang and Ying Sheng and Siyuan Zhuang and Zhanghao Wu and Yonghao Zhuang and Zi Lin and Zhuohan Li and Dacheng Li and Eric P. Xing and Hao Zhang and Joseph E. Gonzalez and Ion Stoica}, year={2023}, eprint={2306.05685}, archivePrefix={arXiv}, primaryClass={cs.CL}}"
+    }
+}
