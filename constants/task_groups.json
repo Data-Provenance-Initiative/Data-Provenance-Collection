@@ -310,10 +310,10 @@
         "Webpage Content Retrieval",
         "Trivia",
         "Math"
-        
     ],
     "Response Ranking": [
         "Alignment",
+        "Crowdsourced",
         "RLHF",
         "Response Ranking"
     ],
