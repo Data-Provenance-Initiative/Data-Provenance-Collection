@@ -417,10 +417,11 @@ def download_feedback_collection(accepted_filter_ids):
     return huggingface_download("kaist-ai/Feedback-Collection")
 
 
-
 def download_evol_instruct(accepted_filter_ids):
     return huggingface_download("WizardLM/evol_instruct_70k", split="train")
 
+def download_evol_instruct(accepted_filter_ids):
+    return huggingface_download("WizardLM/evol_instruct_70k", split="train")
 
 def download_selfee(accepted_filter_ids):
     return huggingface_download("kaist-ai/selfee-train", split="train")
@@ -769,7 +770,6 @@ def download_medinstruct(accepted_filter_ids):
     return direct_data_request(
         "https://raw.githubusercontent.com/XZhang97666/AlpaCare/master/data/MedInstruct-52k.json")
 
-
 def download_mathinstruct(accepted_filter_ids):
     mathinstruct = load_dataset("TIGER-Lab/MathInstruct", split="train")
     dset = []
@@ -955,6 +955,7 @@ def download_gorilla(accepted_filter_ids):
             ret[key] = ret.get(key, []) + [ex[key]]
 
     return Dataset.from_dict(ret)
+
 
 
 def download_coig(accepted_filter_ids):
@@ -1187,12 +1188,28 @@ def download_bactrianx(accepted_filter_ids):
     return dsets
 
 
-
 def download_collective_cognition(accepted_filter_ids):
     dset = huggingface_download(
         "CollectiveCognition/chats-data-2023-10-16",
         split="train",
     )
+    return dset
+
+    
+def download_chatbot_arena_conversations(accepted_filter_ids):
+    # Dataset is gated, needs login first
+    login()
+
+    # Standard download
+    dset = huggingface_download(
+        "lmsys/chatbot_arena_conversations",
+        split="train",
+    )
+    return dset
+
+    
+def download_kiwi(accepted_filter_ids):
+    dset = huggingface_download("fangyuan/kiwi", split="train")
     return dset
 
 def download_orca_math(accepted_filter_ids):
@@ -1317,3 +1334,4 @@ def download_dialogstudio(accepted_filter_ids):
             dset = annotate_source(dset, f"ds-{data_name}")
             dsets.extend(dset)
     return dsets
+

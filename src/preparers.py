@@ -173,10 +173,12 @@ def prepare_anthropic_hh_rlhf(row):
     # [(text, user, score)]
 
     # Add placeholder markers for splitting.
+
     marked_chosen = chosen_text.replace('\n\nHuman:', f'{SEPARATOR}USER{SEPARATOR}').replace('\n\nAssistant:',
                                                                                              f'{SEPARATOR}ASSISTANT{SEPARATOR}')
     marked_rejected = rejected_text.replace('\n\nHuman:', f'{SEPARATOR}USER{SEPARATOR}').replace('\n\nAssistant:',
                                                                                                  f'{SEPARATOR}ASSISTANT{SEPARATOR}')
+
 
     # Split the transcript into statements using the placeholder markers.
     chosen_seq = marked_chosen.split(SEPARATOR)[1:]
@@ -282,6 +284,7 @@ def prepare_oasst_octopack(row):
             "text": segment["text"].strip().replace("\"", ""),
             "parent": i - 1 if i else "octopack",
         })
+
     return messages
 
 
@@ -960,7 +963,6 @@ def prepare_pmc_llama(row):
         row['source']
     )
 
-
 def prepare_medical_meadow(row):
     inputs = "".join([row["instruction"] + row["input"]])
     return convert_inputs_targets_to_messages(
@@ -1039,7 +1041,7 @@ def prepare_indic_instruct(row):
         return convert_inputs_targets_to_messages(
             row["inputs"], row["targets"], row["dataset"]
         )
-      
+
     if row['dataset'] in ['hh-rlhf', 'lm_sys', 'oasst1']:
         messages = []
         for i, turn in enumerate(row['messages']):
@@ -1055,13 +1057,11 @@ def prepare_indic_instruct(row):
             row["input_text"], row["output_text"], row["dataset"]
         )
 
-
     if row['dataset'] == 'wikihow':
         input_text = row["intro"]
         for i, turn in enumerate(row["steps"]):
             input_text += '\n' + turn['description']
         input_text += row['messages'][0]['content']
-
         target_text = row["messages"][1]["content"]
         return convert_inputs_targets_to_messages(
             input_text, target_text, row["dataset"]
@@ -1103,6 +1103,7 @@ def prepare_bactrianx(row):
     ]
 
 
+
 def prepare_collective_cognition(row):
     """
     Prepares a dataset row by converting conversation parts into a standardized messages format.
@@ -1126,6 +1127,72 @@ def prepare_collective_cognition(row):
             else:
                 text = ""
             messages.append({"from": speaker, "text": text, "parent": parent})
+    return messages
+
+def prepare_chatbot_arena_conversations(row):
+    messages = []
+    parent_id = "chatbot_arena_conversations"
+
+    # Loop through both conversations
+    for conversation_key in ["conversation_a", "conversation_b"]:
+        conversation = row[conversation_key]
+        model_name = (
+            row["model_a"] if conversation_key == "conversation_a" else row["model_b"]
+        )
+        winner_model = row["winner"]
+
+        for idx, msg in enumerate(conversation):
+            message = {
+                "from": "assistant" if msg["role"] == "assistant" else "user",
+                "text": msg["content"],
+                "parent": (
+                    parent_id if idx == 0 else len(messages) - 1
+                ),  # Link to previous message or set to dataset ID
+            }
+            # For assistant messages, add model name and score
+            if msg["role"] == "assistant":
+                message["model"] = model_name
+                message["score"] = 1 if model_name == winner_model else 0
+
+            messages.append(message)
+            
+    return messages
+    
+
+def prepare_kiwi(row):
+    messages = []
+    parent_id = "KIWI"
+    interactions = row["interaction"]
+
+    for idx, turn in enumerate(interactions):
+
+        messages.append(
+            {
+                "from": "user",
+                "text": turn["instruction"],
+                "parent": (parent_id if idx == 0 else len(messages) - 1),
+            }
+        )
+
+        messages.append(
+            {
+                "from": "assistant",
+                "text": turn["answer_1"],
+                "parent": len(messages) - 1,
+            }
+        )
+
+        if turn["answer_2"]:
+            messages.append(
+                {
+                    "from": "assistant",
+                    "text": turn["answer_2"],
+                    "parent": len(messages) - 1,
+                    "edited": True,
+                }
+            )
+        messages[-1]["rating"] = turn["rating"]
+        messages[-1]["comment"] = turn["comment"]
 
     return messages
 
