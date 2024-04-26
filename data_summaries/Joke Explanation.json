@@ -81,6 +81,7 @@
             "Mean Dialog Turns": 2.0
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     }
 }

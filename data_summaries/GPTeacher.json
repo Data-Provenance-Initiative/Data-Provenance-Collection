@@ -92,7 +92,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "gpteacher-codegen": {
         "Unique Dataset Identifier": "gpteacher-codegen",
@@ -188,7 +189,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "gpteacher-toolformer": {
         "Unique Dataset Identifier": "gpteacher-toolformer",
@@ -283,7 +285,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "gpteacher-roleplay": {
         "Unique Dataset Identifier": "gpteacher-roleplay",
@@ -370,6 +373,7 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     }
 }

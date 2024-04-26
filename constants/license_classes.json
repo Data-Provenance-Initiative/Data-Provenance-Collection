@@ -12,7 +12,7 @@
     "AI2 ImpACT License - Low Risk": [
         "All",
         "1",
-        "0"
+        "1"
     ],
     "All Uses-Attribution": [
         "All",
@@ -94,6 +94,11 @@
         "1",
         "1"
     ],
+    "CC BY-SA": [
+        "All",
+        "1",
+        "1"
+    ],
     "CC BY-SA 3.0": [
         "All",
         "1",
@@ -114,6 +119,11 @@
         "1",
         "0"
     ],
+    "CDLA Permissive 1.0": [
+        "All",
+        "1",
+        "0"
+    ],
     "CDLA Sharing 1.0": [
         "All",
         "1",
@@ -123,6 +133,11 @@
         "All",
         "1",
         "0"
+    ],
+    "GNU General Public License v2.0": [
+        "All",
+        "1",
+        "1"
     ],
     "GNU General Public License v3.0": [
         "All",
@@ -179,7 +194,22 @@
         "1",
         "0"
     ],
+    "ODC BY 1.0": [
+        "All",
+        "1",
+        "0"
+    ],
+    "OGL 3.0": [
+        "All",
+        "1",
+        "0"
+    ],
     "OpenAI": [
+        "NC",
+        "?",
+        "?"
+    ],
+    "Anthropic": [
         "NC",
         "?",
         "?"
@@ -199,9 +229,24 @@
         "?",
         "?"
     ],
+    "Skywork Community License":[
+        "All",
+        "1",
+        "0"
+    ],
     "BigScience OpenRAIL-M": [
         "All",
         "1",
         "1"
+    ],
+    "Llama 2": [
+        "All",
+        "1",
+        "0"
+    ],
+    "LMSYS-Chat-1M Dataset License":[
+        "All",
+        "0",
+        "0"
     ]
 }
