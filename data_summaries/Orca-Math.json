@@ -1,0 +1,92 @@
+{
+    "orca-math": {
+        "Unique Dataset Identifier": "orca-math",
+        "Dataset Name": "orca-math",
+        "Paper Title": "Orca-Math: Unlocking the potential of SLMs in Grade School Math",
+        "Dataset URL": "https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2402.14830",
+        "Semantic Scholar Corpus ID": 267897618,
+        "Collection": "Orca-Math",
+        "Collection URL": "https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Logical and Mathematical Reasoning",
+            "Logical Reasoning Question Answering",
+            "Algebraic Expression Evaluation"
+        ],
+        "Text Sources": [
+            "arithmetic word problems",
+            "algebra.com",
+            "ixl.com",
+            "k5learning.com",
+            "math-aids.com",
+            "Grade School Math",
+            "gsm8k"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4-Turbo"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "NumGLUE",
+            "AddSub",
+            "ALGES",
+            "ASDiv",
+            "DRAW",
+            "GSM8K",
+            "MATHQA",
+            "MultiArith",
+            "SingeOP",
+            "SingleEQ",
+            "SVAMP",
+            "Lila",
+            "DMath"
+        ],
+        "Creators": [
+            "Microsoft"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/gsm8k#licensing-information"
+            },
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/math_qa#licensing-information"
+            },
+            {
+                "License": "ODC BY 1.0",
+                "License URL": "https://github.com/allenai/numglue/blob/main/license.txt"
+            },
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://huggingface.co/datasets/allenai/lila#licensing-information"
+            },
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/chaochun/nlu-asdiv-dataset#citation"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "orca-math"
+        ]
+    }
+}

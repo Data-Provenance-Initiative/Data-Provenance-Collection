@@ -83,7 +83,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weston2015TowardsAQ,\n author = {J. Weston and Antoine Bordes and S. Chopra and Tomas Mikolov},\n booktitle = {International Conference on Learning Representations},\n journal = {arXiv: Artificial Intelligence},\n title = {Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks},\n year = {2015}\n}\n"
     },
     "tsi-babi_nli-three_supporting_facts": {
         "Unique Dataset Identifier": "tsi-babi_nli-three_supporting_facts",
@@ -169,7 +170,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weston2015TowardsAQ,\n author = {J. Weston and Antoine Bordes and S. Chopra and Tomas Mikolov},\n booktitle = {International Conference on Learning Representations},\n journal = {arXiv: Artificial Intelligence},\n title = {Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks},\n year = {2015}\n}\n"
     },
     "tsi-babi_nli-indefinite_knowledge": {
         "Unique Dataset Identifier": "tsi-babi_nli-indefinite_knowledge",
@@ -256,7 +258,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weston2015TowardsAQ,\n author = {J. Weston and Antoine Bordes and S. Chopra and Tomas Mikolov},\n booktitle = {International Conference on Learning Representations},\n journal = {arXiv: Artificial Intelligence},\n title = {Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks},\n year = {2015}\n}\n"
     },
     "tsi-babi_nli-time_reasoning": {
         "Unique Dataset Identifier": "tsi-babi_nli-time_reasoning",
@@ -344,7 +347,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weston2015TowardsAQ,\n author = {J. Weston and Antoine Bordes and S. Chopra and Tomas Mikolov},\n booktitle = {International Conference on Learning Representations},\n journal = {arXiv: Artificial Intelligence},\n title = {Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks},\n year = {2015}\n}\n"
     },
     "tsi-babi_nli-two_supporting_facts": {
         "Unique Dataset Identifier": "tsi-babi_nli-two_supporting_facts",
@@ -432,7 +436,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weston2015TowardsAQ,\n author = {J. Weston and Antoine Bordes and S. Chopra and Tomas Mikolov},\n booktitle = {International Conference on Learning Representations},\n journal = {arXiv: Artificial Intelligence},\n title = {Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks},\n year = {2015}\n}\n"
     },
     "tsi-babi_nli-path_finding": {
         "Unique Dataset Identifier": "tsi-babi_nli-path_finding",
@@ -519,7 +524,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weston2015TowardsAQ,\n author = {J. Weston and Antoine Bordes and S. Chopra and Tomas Mikolov},\n booktitle = {International Conference on Learning Representations},\n journal = {arXiv: Artificial Intelligence},\n title = {Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks},\n year = {2015}\n}\n"
     },
     "tsi-babi_nli-yes_no_questions": {
         "Unique Dataset Identifier": "tsi-babi_nli-yes_no_questions",
@@ -608,7 +614,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weston2015TowardsAQ,\n author = {J. Weston and Antoine Bordes and S. Chopra and Tomas Mikolov},\n booktitle = {International Conference on Learning Representations},\n journal = {arXiv: Artificial Intelligence},\n title = {Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks},\n year = {2015}\n}\n"
     },
     "tsi-babi_nli-basic_coreference": {
         "Unique Dataset Identifier": "tsi-babi_nli-basic_coreference",
@@ -697,7 +704,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weston2015TowardsAQ,\n author = {J. Weston and Antoine Bordes and S. Chopra and Tomas Mikolov},\n booktitle = {International Conference on Learning Representations},\n journal = {arXiv: Artificial Intelligence},\n title = {Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks},\n year = {2015}\n}\n"
     },
     "tsi-babi_nli-counting": {
         "Unique Dataset Identifier": "tsi-babi_nli-counting",
@@ -784,7 +792,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weston2015TowardsAQ,\n author = {J. Weston and Antoine Bordes and S. Chopra and Tomas Mikolov},\n booktitle = {International Conference on Learning Representations},\n journal = {arXiv: Artificial Intelligence},\n title = {Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks},\n year = {2015}\n}\n"
     },
     "tsi-babi_nli-compound_coreference": {
         "Unique Dataset Identifier": "tsi-babi_nli-compound_coreference",
@@ -873,7 +882,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weston2015TowardsAQ,\n author = {J. Weston and Antoine Bordes and S. Chopra and Tomas Mikolov},\n booktitle = {International Conference on Learning Representations},\n journal = {arXiv: Artificial Intelligence},\n title = {Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks},\n year = {2015}\n}\n"
     },
     "tsi-babi_nli-three_arg_relations": {
         "Unique Dataset Identifier": "tsi-babi_nli-three_arg_relations",
@@ -961,7 +971,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weston2015TowardsAQ,\n author = {J. Weston and Antoine Bordes and S. Chopra and Tomas Mikolov},\n booktitle = {International Conference on Learning Representations},\n journal = {arXiv: Artificial Intelligence},\n title = {Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks},\n year = {2015}\n}\n"
     },
     "tsi-babi_nli-single_supporting_fact": {
         "Unique Dataset Identifier": "tsi-babi_nli-single_supporting_fact",
@@ -1047,7 +1058,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weston2015TowardsAQ,\n author = {J. Weston and Antoine Bordes and S. Chopra and Tomas Mikolov},\n booktitle = {International Conference on Learning Representations},\n journal = {arXiv: Artificial Intelligence},\n title = {Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks},\n year = {2015}\n}\n"
     },
     "tsi-babi_nli-simple_negation": {
         "Unique Dataset Identifier": "tsi-babi_nli-simple_negation",
@@ -1134,7 +1146,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weston2015TowardsAQ,\n author = {J. Weston and Antoine Bordes and S. Chopra and Tomas Mikolov},\n booktitle = {International Conference on Learning Representations},\n journal = {arXiv: Artificial Intelligence},\n title = {Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks},\n year = {2015}\n}\n"
     },
     "tsi-babi_nli-lists_sets": {
         "Unique Dataset Identifier": "tsi-babi_nli-lists_sets",
@@ -1220,7 +1233,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weston2015TowardsAQ,\n author = {J. Weston and Antoine Bordes and S. Chopra and Tomas Mikolov},\n booktitle = {International Conference on Learning Representations},\n journal = {arXiv: Artificial Intelligence},\n title = {Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks},\n year = {2015}\n}\n"
     },
     "tsi-babi_nli-basic_induction": {
         "Unique Dataset Identifier": "tsi-babi_nli-basic_induction",
@@ -1306,7 +1320,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weston2015TowardsAQ,\n author = {J. Weston and Antoine Bordes and S. Chopra and Tomas Mikolov},\n booktitle = {International Conference on Learning Representations},\n journal = {arXiv: Artificial Intelligence},\n title = {Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks},\n year = {2015}\n}\n"
     },
     "tsi-babi_nli-size_reasoning": {
         "Unique Dataset Identifier": "tsi-babi_nli-size_reasoning",
@@ -1394,7 +1409,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weston2015TowardsAQ,\n author = {J. Weston and Antoine Bordes and S. Chopra and Tomas Mikolov},\n booktitle = {International Conference on Learning Representations},\n journal = {arXiv: Artificial Intelligence},\n title = {Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks},\n year = {2015}\n}\n"
     },
     "tsi-babi_nli-conjunction": {
         "Unique Dataset Identifier": "tsi-babi_nli-conjunction",
@@ -1482,7 +1498,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weston2015TowardsAQ,\n author = {J. Weston and Antoine Bordes and S. Chopra and Tomas Mikolov},\n booktitle = {International Conference on Learning Representations},\n journal = {arXiv: Artificial Intelligence},\n title = {Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks},\n year = {2015}\n}\n"
     },
     "tsi-babi_nli-basic_deduction": {
         "Unique Dataset Identifier": "tsi-babi_nli-basic_deduction",
@@ -1571,7 +1588,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weston2015TowardsAQ,\n author = {J. Weston and Antoine Bordes and S. Chopra and Tomas Mikolov},\n booktitle = {International Conference on Learning Representations},\n journal = {arXiv: Artificial Intelligence},\n title = {Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks},\n year = {2015}\n}\n"
     },
     "tsi-babi_nli-positional_reasoning": {
         "Unique Dataset Identifier": "tsi-babi_nli-positional_reasoning",
@@ -1655,7 +1673,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Weston2015TowardsAQ,\n author = {J. Weston and Antoine Bordes and S. Chopra and Tomas Mikolov},\n booktitle = {International Conference on Learning Representations},\n journal = {arXiv: Artificial Intelligence},\n title = {Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks},\n year = {2015}\n}\n"
     },
     "tsi-wanli": {
         "Unique Dataset Identifier": "tsi-wanli",
@@ -1755,7 +1774,8 @@
         "Derived from Datasets": [
             "MNLI"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Liu2022WANLIWA,\n author = {Alisa Liu and Swabha Swayamdipta and Noah A. Smith and Yejin Choi},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {6826-6847},\n title = {WANLI: Worker and AI Collaboration for Natural Language Inference Dataset Creation},\n year = {2022}\n}\n"
     },
     "tsi-recast-recast_verbnet": {
         "Unique Dataset Identifier": "tsi-recast-recast_verbnet",
@@ -1835,7 +1855,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-recast-recast_verbcorner": {
         "Unique Dataset Identifier": "tsi-recast-recast_verbcorner",
@@ -1915,7 +1936,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-recast-recast_ner": {
         "Unique Dataset Identifier": "tsi-recast-recast_ner",
@@ -1995,7 +2017,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-recast-recast_sentiment": {
         "Unique Dataset Identifier": "tsi-recast-recast_sentiment",
@@ -2077,7 +2100,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-recast-recast_puns": {
         "Unique Dataset Identifier": "tsi-recast-recast_puns",
@@ -2159,7 +2183,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-recast-recast_factuality": {
         "Unique Dataset Identifier": "tsi-recast-recast_factuality",
@@ -2241,7 +2266,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-recast-recast_megaveridicality": {
         "Unique Dataset Identifier": "tsi-recast-recast_megaveridicality",
@@ -2323,7 +2349,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-probability_words_nli-reasoning_1hop": {
         "Unique Dataset Identifier": "tsi-probability_words_nli-reasoning_1hop",
@@ -2435,7 +2462,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Sileo2022ProbingNL,\n author = {Damien Sileo and M. Moens},\n booktitle = {STARSEM},\n pages = {469-476},\n title = {Probing neural language models for understanding of words of estimative probability},\n year = {2022}\n}\n"
     },
     "tsi-probability_words_nli-usnli": {
         "Unique Dataset Identifier": "tsi-probability_words_nli-usnli",
@@ -2527,7 +2555,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Sileo2022ProbingNL,\n author = {Damien Sileo and M. Moens},\n booktitle = {STARSEM},\n pages = {469-476},\n title = {Probing neural language models for understanding of words of estimative probability},\n year = {2022}\n}\n"
     },
     "tsi-probability_words_nli-reasoning_2hop": {
         "Unique Dataset Identifier": "tsi-probability_words_nli-reasoning_2hop",
@@ -2622,7 +2651,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Sileo2022ProbingNL,\n author = {Damien Sileo and M. Moens},\n booktitle = {STARSEM},\n pages = {469-476},\n title = {Probing neural language models for understanding of words of estimative probability},\n year = {2022}\n}\n"
     },
     "tsi-nan_nli-joey234__nan_nli": {
         "Unique Dataset Identifier": "tsi-nan_nli-joey234__nan_nli",
@@ -2711,7 +2741,8 @@
         "Derived from Datasets": [
             "Pullum and Huddleston 2002"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Truong2022NotAN,\n author = {Thinh Hung Truong and Yulia Otmakhova and Tim Baldwin and Trevor Cohn and Karin M. Verspoor and Jey Han Lau},\n booktitle = {AACL},\n pages = {883-894},\n title = {Not another Negation Benchmark: The NaN-NLI Test Suite for Sub-clausal Negation},\n year = {2022}\n}\n"
     },
     "tsi-nli_fever": {
         "Unique Dataset Identifier": "tsi-nli_fever",
@@ -2805,7 +2836,8 @@
             "RTE5",
             "Manually Annotated Sub-Corpus (MASC) of the Open American National Corpus"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Nie2019AdversarialNA,\n author = {Yixin Nie and Adina Williams and Emily Dinan and Mohit Bansal and J. Weston and Douwe Kiela},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Adversarial NLI: A New Benchmark for Natural Language Understanding},\n volume = {abs/1910.14599},\n year = {2019}\n}\n"
     },
     "tsi-breaking_nli": {
         "Unique Dataset Identifier": "tsi-breaking_nli",
@@ -2891,7 +2923,8 @@
         "Derived from Datasets": [
             "SNLI"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Glockner2018BreakingNS,\n author = {Max Glockner and Vered Shwartz and Yoav Goldberg},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Breaking NLI Systems with Sentences that Require Simple Lexical Inferences},\n volume = {abs/1805.02266},\n year = {2018}\n}\n"
     },
     "tsi-conj_nli": {
         "Unique Dataset Identifier": "tsi-conj_nli",
@@ -2974,7 +3007,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Saha2020ConjNLINL,\n author = {Swarnadeep Saha and Yixin Nie and Mohit Bansal},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {8240-8252},\n title = {ConjNLI: Natural Language Inference over Conjunctive Sentences},\n year = {2020}\n}\n"
     },
     "tsi-fracas": {
         "Unique Dataset Identifier": "tsi-fracas",
@@ -3054,7 +3088,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Gale2013UsingTF,\n author = {N. Gale and G. Heath and E. Cameron and S. Rashid and S. Redwood},\n booktitle = {BMC Medical Research Methodology},\n journal = {BMC Medical Research Methodology},\n pages = {117 - 117},\n title = {Using the framework method for the analysis of qualitative data in multi-disciplinary health research},\n volume = {13},\n year = {2013}\n}\n"
     },
     "tsi-dialogue_nli": {
         "Unique Dataset Identifier": "tsi-dialogue_nli",
@@ -3141,7 +3176,8 @@
         "Derived from Datasets": [
             "Persona-Chat dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Welleck2018DialogueNL,\n author = {S. Welleck and J. Weston and Arthur Szlam and Kyunghyun Cho},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {3731-3741},\n title = {Dialogue Natural Language Inference},\n year = {2018}\n}\n"
     },
     "tsi-mpe": {
         "Unique Dataset Identifier": "tsi-mpe",
@@ -3225,7 +3261,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Lai2017NaturalLI,\n author = {Alice Lai and Yonatan Bisk and J. Hockenmaier},\n booktitle = {International Joint Conference on Natural Language Processing},\n journal = {ArXiv},\n title = {Natural Language Inference from Multiple Premises},\n volume = {abs/1710.02925},\n year = {2017}\n}\n"
     },
     "tsi-dnc": {
         "Unique Dataset Identifier": "tsi-dnc",
@@ -3310,7 +3347,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Poliak2018CollectingDN,\n author = {Adam Poliak and Aparajita Haldar and Rachel Rudinger and J. E. Hu and Ellie Pavlick and Aaron Steven White and Benjamin Van Durme},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {67-81},\n title = {Collecting Diverse Natural Language Inference Problems for Sentence Representation Evaluation},\n year = {2018}\n}\n"
     },
     "tsi-recast_white-fnplus": {
         "Unique Dataset Identifier": "tsi-recast_white-fnplus",
@@ -3392,7 +3430,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-recast_white-sprl": {
         "Unique Dataset Identifier": "tsi-recast_white-sprl",
@@ -3475,7 +3514,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-recast_white-dpr": {
         "Unique Dataset Identifier": "tsi-recast_white-dpr",
@@ -3557,7 +3597,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-robust_nli-is_cs": {
         "Unique Dataset Identifier": "tsi-robust_nli-is_cs",
@@ -3660,7 +3701,8 @@
             "anli",
             "https://huggingface.co/datasets/metaeval/recast"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Liu2020AnES,\n author = {Tianyu Liu and Xin Zheng and Xiaoan Ding and Baobao Chang and Zhifang Sui},\n booktitle = {Conference on Computational Natural Language Learning},\n journal = {ArXiv},\n title = {An Empirical Study on Model-agnostic Debiasing Strategies for Robust Natural Language Inference},\n volume = {abs/2010.03777},\n year = {2020}\n}\n"
     },
     "tsi-robust_nli-li_li": {
         "Unique Dataset Identifier": "tsi-robust_nli-li_li",
@@ -3755,7 +3797,8 @@
             "anli",
             "https://huggingface.co/datasets/metaeval/recast"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Liu2020AnES,\n author = {Tianyu Liu and Xin Zheng and Xiaoan Ding and Baobao Chang and Zhifang Sui},\n booktitle = {Conference on Computational Natural Language Learning},\n journal = {ArXiv},\n title = {An Empirical Study on Model-agnostic Debiasing Strategies for Robust Natural Language Inference},\n volume = {abs/2010.03777},\n year = {2020}\n}\n"
     },
     "tsi-robust_nli-st_wo": {
         "Unique Dataset Identifier": "tsi-robust_nli-st_wo",
@@ -3848,7 +3891,8 @@
             "anli",
             "https://huggingface.co/datasets/metaeval/recast"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Liu2020AnES,\n author = {Tianyu Liu and Xin Zheng and Xiaoan Ding and Baobao Chang and Zhifang Sui},\n booktitle = {Conference on Computational Natural Language Learning},\n journal = {ArXiv},\n title = {An Empirical Study on Model-agnostic Debiasing Strategies for Robust Natural Language Inference},\n volume = {abs/2010.03777},\n year = {2020}\n}\n"
     },
     "tsi-robust_nli-pi_sp": {
         "Unique Dataset Identifier": "tsi-robust_nli-pi_sp",
@@ -3947,7 +3991,8 @@
             "anli",
             "https://huggingface.co/datasets/metaeval/recast"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Liu2020AnES,\n author = {Tianyu Liu and Xin Zheng and Xiaoan Ding and Baobao Chang and Zhifang Sui},\n booktitle = {Conference on Computational Natural Language Learning},\n journal = {ArXiv},\n title = {An Empirical Study on Model-agnostic Debiasing Strategies for Robust Natural Language Inference},\n volume = {abs/2010.03777},\n year = {2020}\n}\n"
     },
     "tsi-robust_nli-pi_cd": {
         "Unique Dataset Identifier": "tsi-robust_nli-pi_cd",
@@ -4045,7 +4090,8 @@
             "anli",
             "https://huggingface.co/datasets/metaeval/recast"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Liu2020AnES,\n author = {Tianyu Liu and Xin Zheng and Xiaoan Ding and Baobao Chang and Zhifang Sui},\n booktitle = {Conference on Computational Natural Language Learning},\n journal = {ArXiv},\n title = {An Empirical Study on Model-agnostic Debiasing Strategies for Robust Natural Language Inference},\n volume = {abs/2010.03777},\n year = {2020}\n}\n"
     },
     "tsi-robust_nli-st_se": {
         "Unique Dataset Identifier": "tsi-robust_nli-st_se",
@@ -4139,7 +4185,8 @@
             "anli",
             "https://huggingface.co/datasets/metaeval/recast"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Liu2020AnES,\n author = {Tianyu Liu and Xin Zheng and Xiaoan Ding and Baobao Chang and Zhifang Sui},\n booktitle = {Conference on Computational Natural Language Learning},\n journal = {ArXiv},\n title = {An Empirical Study on Model-agnostic Debiasing Strategies for Robust Natural Language Inference},\n volume = {abs/2010.03777},\n year = {2020}\n}\n"
     },
     "tsi-robust_nli-st_ne": {
         "Unique Dataset Identifier": "tsi-robust_nli-st_ne",
@@ -4231,7 +4278,8 @@
             "anli",
             "https://huggingface.co/datasets/metaeval/recast"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Liu2020AnES,\n author = {Tianyu Liu and Xin Zheng and Xiaoan Ding and Baobao Chang and Zhifang Sui},\n booktitle = {Conference on Computational Natural Language Learning},\n journal = {ArXiv},\n title = {An Empirical Study on Model-agnostic Debiasing Strategies for Robust Natural Language Inference},\n volume = {abs/2010.03777},\n year = {2020}\n}\n"
     },
     "tsi-robust_nli-st_lm": {
         "Unique Dataset Identifier": "tsi-robust_nli-st_lm",
@@ -4325,7 +4373,8 @@
             "anli",
             "https://huggingface.co/datasets/metaeval/recast"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Liu2020AnES,\n author = {Tianyu Liu and Xin Zheng and Xiaoan Ding and Baobao Chang and Zhifang Sui},\n booktitle = {Conference on Computational Natural Language Learning},\n journal = {ArXiv},\n title = {An Empirical Study on Model-agnostic Debiasing Strategies for Robust Natural Language Inference},\n volume = {abs/2010.03777},\n year = {2020}\n}\n"
     },
     "tsi-robust_nli_is_sd": {
         "Unique Dataset Identifier": "tsi-robust_nli_is_sd",
@@ -4420,7 +4469,8 @@
             "anli",
             "https://huggingface.co/datasets/metaeval/recast"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Liu2020AnES,\n author = {Tianyu Liu and Xin Zheng and Xiaoan Ding and Baobao Chang and Zhifang Sui},\n booktitle = {Conference on Computational Natural Language Learning},\n journal = {ArXiv},\n title = {An Empirical Study on Model-agnostic Debiasing Strategies for Robust Natural Language Inference},\n volume = {abs/2010.03777},\n year = {2020}\n}\n"
     },
     "tsi-robust_nli_li_ts": {
         "Unique Dataset Identifier": "tsi-robust_nli_li_ts",
@@ -4518,7 +4568,8 @@
             "anli",
             "https://huggingface.co/datasets/metaeval/recast"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Liu2020AnES,\n author = {Tianyu Liu and Xin Zheng and Xiaoan Ding and Baobao Chang and Zhifang Sui},\n booktitle = {Conference on Computational Natural Language Learning},\n journal = {ArXiv},\n title = {An Empirical Study on Model-agnostic Debiasing Strategies for Robust Natural Language Inference},\n volume = {abs/2010.03777},\n year = {2020}\n}\n"
     },
     "tsi-gen_debiased_nli-snli_seq_z": {
         "Unique Dataset Identifier": "tsi-gen_debiased_nli-snli_seq_z",
@@ -4618,7 +4669,8 @@
             "SNLI",
             "MNLI"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wu2022GeneratingDT,\n author = {Yuxiang Wu and Matt Gardner and Pontus Stenetorp and Pradeep Dasigi},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Generating Data to Mitigate Spurious Correlations in Natural Language Inference Datasets},\n volume = {abs/2203.12942},\n year = {2022}\n}\n"
     },
     "tsi-gen_debiased_nli-snli_z_aug": {
         "Unique Dataset Identifier": "tsi-gen_debiased_nli-snli_z_aug",
@@ -4719,7 +4771,8 @@
             "SNLI",
             "MNLI"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wu2022GeneratingDT,\n author = {Yuxiang Wu and Matt Gardner and Pontus Stenetorp and Pradeep Dasigi},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Generating Data to Mitigate Spurious Correlations in Natural Language Inference Datasets},\n volume = {abs/2203.12942},\n year = {2022}\n}\n"
     },
     "tsi-gen_debiased_nli-snli_par_z": {
         "Unique Dataset Identifier": "tsi-gen_debiased_nli-snli_par_z",
@@ -4821,7 +4874,8 @@
             "SNLI",
             "MNLI"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wu2022GeneratingDT,\n author = {Yuxiang Wu and Matt Gardner and Pontus Stenetorp and Pradeep Dasigi},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Generating Data to Mitigate Spurious Correlations in Natural Language Inference Datasets},\n volume = {abs/2203.12942},\n year = {2022}\n}\n"
     },
     "tsi-gen_debiased_nli-mnli_par_z": {
         "Unique Dataset Identifier": "tsi-gen_debiased_nli-mnli_par_z",
@@ -4922,7 +4976,8 @@
             "SNLI",
             "MNLI"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wu2022GeneratingDT,\n author = {Yuxiang Wu and Matt Gardner and Pontus Stenetorp and Pradeep Dasigi},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Generating Data to Mitigate Spurious Correlations in Natural Language Inference Datasets},\n volume = {abs/2203.12942},\n year = {2022}\n}\n"
     },
     "tsi-gen_debiased_nli-mnli_z_aug": {
         "Unique Dataset Identifier": "tsi-gen_debiased_nli-mnli_z_aug",
@@ -5024,7 +5079,8 @@
             "SNLI",
             "MNLI"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wu2022GeneratingDT,\n author = {Yuxiang Wu and Matt Gardner and Pontus Stenetorp and Pradeep Dasigi},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Generating Data to Mitigate Spurious Correlations in Natural Language Inference Datasets},\n volume = {abs/2203.12942},\n year = {2022}\n}\n"
     },
     "tsi-gen_debiased_nli-mnli_seq_z": {
         "Unique Dataset Identifier": "tsi-gen_debiased_nli-mnli_seq_z",
@@ -5126,7 +5182,8 @@
             "SNLI",
             "MNLI"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wu2022GeneratingDT,\n author = {Yuxiang Wu and Matt Gardner and Pontus Stenetorp and Pradeep Dasigi},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Generating Data to Mitigate Spurious Correlations in Natural Language Inference Datasets},\n volume = {abs/2203.12942},\n year = {2022}\n}\n"
     },
     "tsi-add_one_rte": {
         "Unique Dataset Identifier": "tsi-add_one_rte",
@@ -5216,7 +5273,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Mahabadi2019EndtoEndBM,\n author = {Rabeeh Karimi Mahabadi and Yonatan Belinkov and J. Henderson},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8706-8716},\n title = {End-to-End Bias Mitigation by Modelling Biases in Corpora},\n year = {2019}\n}\n"
     },
     "tsi-imppres-presupposition_all_n_presupposition-presupposition": {
         "Unique Dataset Identifier": "tsi-imppres-presupposition_all_n_presupposition-presupposition",
@@ -5301,7 +5359,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-presupposition_both_presupposition-presupposition": {
         "Unique Dataset Identifier": "tsi-imppres-presupposition_both_presupposition-presupposition",
@@ -5389,7 +5448,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-presupposition_change_of_state-presupposition": {
         "Unique Dataset Identifier": "tsi-imppres-presupposition_change_of_state-presupposition",
@@ -5477,7 +5537,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-presupposition_cleft_existence-presupposition": {
         "Unique Dataset Identifier": "tsi-imppres-presupposition_cleft_existence-presupposition",
@@ -5562,7 +5623,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-presupposition_only_presupposition-presupposition": {
         "Unique Dataset Identifier": "tsi-imppres-presupposition_only_presupposition-presupposition",
@@ -5648,7 +5710,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-presupposition_possessed_definites_existence-presupposition": {
         "Unique Dataset Identifier": "tsi-imppres-presupposition_possessed_definites_existence-presupposition",
@@ -5734,7 +5797,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-presupposition_possessed_definites_uniqueness-presupposition": {
         "Unique Dataset Identifier": "tsi-imppres-presupposition_possessed_definites_uniqueness-presupposition",
@@ -5820,7 +5884,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-presupposition_question_presupposition-presupposition": {
         "Unique Dataset Identifier": "tsi-imppres-presupposition_question_presupposition-presupposition",
@@ -5906,7 +5971,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-presupposition_cleft_uniqueness-presupposition": {
         "Unique Dataset Identifier": "tsi-imppres-presupposition_cleft_uniqueness-presupposition",
@@ -5991,7 +6057,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-implicature_connectives-prag": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_connectives-prag",
@@ -6076,7 +6143,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-implicature_gradable_adjective-prag": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_gradable_adjective-prag",
@@ -6162,7 +6230,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-implicature_numerals_2_3-prag": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_numerals_2_3-prag",
@@ -6250,7 +6319,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-implicature_gradable_verb-prag": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_gradable_verb-prag",
@@ -6338,7 +6408,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-implicature_numerals_10_100-prag": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_numerals_10_100-prag",
@@ -6423,7 +6494,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-implicature_modals-prag": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_modals-prag",
@@ -6511,7 +6583,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-implicature_quantifiers-prag": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_quantifiers-prag",
@@ -6599,7 +6672,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-implicature_connectives-log": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_connectives-log",
@@ -6685,7 +6759,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-implicature_gradable_adjective-log": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_gradable_adjective-log",
@@ -6773,7 +6848,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-implicature_gradable_verb-log": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_gradable_verb-log",
@@ -6859,7 +6935,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-implicature_quantifiers-log": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_quantifiers-log",
@@ -6945,7 +7022,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-implicature_numerals_2_3-log": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_numerals_2_3-log",
@@ -7031,7 +7109,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-implicature_modals-log": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_modals-log",
@@ -7119,7 +7198,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-imppres-implicature_numerals_10_100-log": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_numerals_10_100-log",
@@ -7205,7 +7285,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jeretic2020AreNL,\n author = {Paloma Jeretic and Alex Warstadt and Suvrat Bhooshan and Adina Williams},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8690-8705},\n title = {Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition},\n year = {2020}\n}\n"
     },
     "tsi-glue_diagnostics-diagnostics": {
         "Unique Dataset Identifier": "tsi-glue_diagnostics-diagnostics",
@@ -7295,7 +7376,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Wang2018GLUEAM,\n author = {Alex Wang and Amanpreet Singh and Julian Michael and Felix Hill and Omer Levy and Samuel R. Bowman},\n booktitle = {BlackboxNLP@EMNLP},\n pages = {353-355},\n title = {GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding},\n year = {2018}\n}\n"
     },
     "tsi-hlgd": {
         "Unique Dataset Identifier": "tsi-hlgd",
@@ -7389,7 +7471,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Laban2021NewsHG,\n author = {Philippe Laban and Lucas Bandarkar and Marti A. Hearst},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {News Headline Grouping as a Challenging NLU Task},\n volume = {abs/2105.05391},\n year = {2021}\n}\n"
     },
     "tsi-medical_questions_pairs": {
         "Unique Dataset Identifier": "tsi-medical_questions_pairs",
@@ -7478,7 +7561,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{McCreery2020EffectiveTL,\n author = {Clara H. McCreery and Namit Katariya and A. Kannan and Manish Chablani and X. Amatriain},\n booktitle = {Knowledge Discovery and Data Mining},\n journal = {Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining},\n title = {Effective Transfer Learning for Identifying Similar Questions: Matching User Questions to COVID-19 FAQs},\n year = {2020}\n}\n"
     },
     "tsi-conll2003-pos_tags": {
         "Unique Dataset Identifier": "tsi-conll2003-pos_tags",
@@ -7570,7 +7654,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Sang2003IntroductionTT,\n author = {E. T. K. Sang and F. D. Meulder},\n booktitle = {Conference on Computational Natural Language Learning},\n pages = {142-147},\n title = {Introduction to the CoNLL-2003 Shared Task: Language-Independent Named Entity Recognition},\n year = {2003}\n}\n"
     },
     "tsi-conll2003-chunk_tags": {
         "Unique Dataset Identifier": "tsi-conll2003-chunk_tags",
@@ -7662,7 +7747,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Sang2003IntroductionTT,\n author = {E. T. K. Sang and F. D. Meulder},\n booktitle = {Conference on Computational Natural Language Learning},\n pages = {142-147},\n title = {Introduction to the CoNLL-2003 Shared Task: Language-Independent Named Entity Recognition},\n year = {2003}\n}\n"
     },
     "tsi-conll2003-ner_tags": {
         "Unique Dataset Identifier": "tsi-conll2003-ner_tags",
@@ -7750,7 +7836,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Sang2003IntroductionTT,\n author = {E. T. K. Sang and F. D. Meulder},\n booktitle = {Conference on Computational Natural Language Learning},\n pages = {142-147},\n title = {Introduction to the CoNLL-2003 Shared Task: Language-Independent Named Entity Recognition},\n year = {2003}\n}\n"
     },
     "tsi-hh_rlhf": {
         "Unique Dataset Identifier": "tsi-hh_rlhf",
@@ -7835,7 +7922,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Bai2022TrainingAH,\n author = {Yuntao Bai and Andy Jones and Kamal Ndousse and Amanda Askell and Anna Chen and Nova DasSarma and Dawn Drain and Stanislav Fort and Deep Ganguli and T. Henighan and Nicholas Joseph and Saurav Kadavath and John Kernion and Tom Conerly and S. El-Showk and Nelson Elhage and Zac Hatfield-Dodds and Danny Hernandez and Tristan Hume and Scott Johnston and S. Kravec and Liane Lovitt and Neel Nanda and Catherine Olsson and Dario Amodei and Tom B. Brown and Jack Clark and Sam McCandlish and C. Olah and Benjamin Mann and Jared Kaplan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback},\n volume = {abs/2204.05862},\n year = {2022}\n}\n"
     },
     "tsi-model_written_evals": {
         "Unique Dataset Identifier": "tsi-model_written_evals",
@@ -7924,7 +8012,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Perez2022DiscoveringLM,\n author = {Ethan Perez and Sam Ringer and Kamilė Lukošiūtė and Karina Nguyen and Edwin Chen and Scott Heiner and Craig Pettit and Catherine Olsson and Sandipan Kundu and Saurav Kadavath and Andy Jones and Anna Chen and Benjamin Mann and Brian Israel and Bryan Seethor and C. McKinnon and C. Olah and Daisong Yan and D. Amodei and Dario Amodei and Dawn Drain and Dustin Li and Eli Tran-Johnson and G. Khundadze and John Kernion and J. Landis and Jamie Kerr and J. Mueller and Jeeyoon Hyun and J. Landau and Kamal Ndousse and L. Goldberg and Liane Lovitt and Martin Lucas and Michael Sellitto and Miranda Zhang and Neerav Kingsland and Nelson Elhage and Nicholas Joseph and Noem'i Mercado and Nova DasSarma and Oliver Rausch and Robin Larson and Sam McCandlish and Scott Johnston and S. Kravec and S. E. Showk and Tamera Lanham and Timothy Telleen-Lawton and Tom B. Brown and T. Henighan and Tristan Hume and Yuntao Bai and Zac Hatfield-Dodds and Jack Clark and Sam Bowman and Amanda Askell and Roger C. Grosse and Danny Hernandez and Deep Ganguli and Evan Hubinger and Nicholas Schiefer and Jared Kaplan},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Discovering Language Model Behaviors with Model-Written Evaluations},\n volume = {abs/2212.09251},\n year = {2022}\n}\n"
     },
     "tsi-truthful_qa-multiple_choice": {
         "Unique Dataset Identifier": "tsi-truthful_qa-multiple_choice",
@@ -8008,7 +8097,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Lin2021TruthfulQAMH,\n author = {Stephanie C. Lin and Jacob Hilton and Owain Evans},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {3214-3252},\n title = {TruthfulQA: Measuring How Models Mimic Human Falsehoods},\n year = {2021}\n}\n"
     },
     "tsi-fig_qa": {
         "Unique Dataset Identifier": "tsi-fig_qa",
@@ -8091,7 +8181,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Liu2022TestingTA,\n author = {Emmy Liu and Chenxuan Cui and Kenneth Zheng and Graham Neubig},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Testing the Ability of Language Models to Interpret Figurative Language},\n volume = {abs/2204.12632},\n year = {2022}\n}\n"
     },
     "tsi-social_i_qa": {
         "Unique Dataset Identifier": "tsi-social_i_qa",
@@ -8177,7 +8268,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "tsi-balanced_copa": {
         "Unique Dataset Identifier": "tsi-balanced_copa",
@@ -8264,7 +8356,8 @@
         "Derived from Datasets": [
             "COPA dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kavumba2019WhenCP,\n author = {Pride Kavumba and Naoya Inoue and Benjamin Heinzerling and Keshav Singh and Paul Reisert and Kentaro Inui},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {When Choosing Plausible Alternatives, Clever Hans can be Clever},\n volume = {abs/1911.00225},\n year = {2019}\n}\n"
     },
     "tsi-e_care": {
         "Unique Dataset Identifier": "tsi-e_care",
@@ -8353,7 +8446,8 @@
         "Derived from Datasets": [
             "GenericsKB"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Du2022eCAREAN,\n author = {Li Du and Xiao Ding and Kai Xiong and Ting Liu and Bing Qin},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {e-CARE: a New Dataset for Exploring Explainable Causal Reasoning},\n volume = {abs/2205.05849},\n year = {2022}\n}\n"
     },
     "tsi-insincere_questions": {
         "Unique Dataset Identifier": "tsi-insincere_questions",
@@ -8434,7 +8528,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-turingbench": {
         "Unique Dataset Identifier": "tsi-turingbench",
@@ -8529,7 +8624,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Uchendu2021TURINGBENCHAB,\n author = {Adaku Uchendu and Zeyu Ma and Thai Le and Rui Zhang and Dongwon Lee},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {2001-2016},\n title = {TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation},\n year = {2021}\n}\n"
     },
     "tsi-vitaminc-tals__vitaminc": {
         "Unique Dataset Identifier": "tsi-vitaminc-tals__vitaminc",
@@ -8621,7 +8717,8 @@
         "Derived from Datasets": [
             "FEVER"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Schuster2021GetYV,\n author = {Tal Schuster and Adam Fisch and R. Barzilay},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n pages = {624-643},\n title = {Get Your Vitamin C! Robust Fact Verification with Contrastive Evidence},\n year = {2021}\n}\n"
     },
     "tsi-rumoureval_2019-rumoureval2019": {
         "Unique Dataset Identifier": "tsi-rumoureval_2019-rumoureval2019",
@@ -8710,7 +8807,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Gorrell2018SemEval2019T7,\n author = {G. Gorrell and Kalina Bontcheva and Leon Derczynski and E. Kochkina and Maria Liakata and A. Zubiaga},\n booktitle = {International Workshop on Semantic Evaluation},\n journal = {ArXiv},\n title = {SemEval-2019 Task 7: RumourEval, Determining Rumour Veracity and Support for Rumours},\n volume = {abs/1809.06683},\n year = {2018}\n}\n"
     },
     "tsi-tweet_eval-irony": {
         "Unique Dataset Identifier": "tsi-tweet_eval-irony",
@@ -8797,7 +8895,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Barbieri2020TweetEvalUB,\n author = {Francesco Barbieri and José Camacho-Collados and Leonardo Neves and Luis Espinosa-Anke},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {TweetEval: Unified Benchmark and Comparative Evaluation for Tweet Classification},\n volume = {abs/2010.12421},\n year = {2020}\n}\n"
     },
     "tsi-tweet_eval-stance_abortion": {
         "Unique Dataset Identifier": "tsi-tweet_eval-stance_abortion",
@@ -8886,7 +8985,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Barbieri2020TweetEvalUB,\n author = {Francesco Barbieri and José Camacho-Collados and Leonardo Neves and Luis Espinosa-Anke},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {TweetEval: Unified Benchmark and Comparative Evaluation for Tweet Classification},\n volume = {abs/2010.12421},\n year = {2020}\n}\n"
     },
     "tsi-tweet_eval-hate": {
         "Unique Dataset Identifier": "tsi-tweet_eval-hate",
@@ -8980,7 +9080,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Barbieri2020TweetEvalUB,\n author = {Francesco Barbieri and José Camacho-Collados and Leonardo Neves and Luis Espinosa-Anke},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {TweetEval: Unified Benchmark and Comparative Evaluation for Tweet Classification},\n volume = {abs/2010.12421},\n year = {2020}\n}\n"
     },
     "tsi-tweet_eval-stance_atheism": {
         "Unique Dataset Identifier": "tsi-tweet_eval-stance_atheism",
@@ -9069,7 +9170,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Barbieri2020TweetEvalUB,\n author = {Francesco Barbieri and José Camacho-Collados and Leonardo Neves and Luis Espinosa-Anke},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {TweetEval: Unified Benchmark and Comparative Evaluation for Tweet Classification},\n volume = {abs/2010.12421},\n year = {2020}\n}\n"
     },
     "tsi-tweet_eval-stance_climate": {
         "Unique Dataset Identifier": "tsi-tweet_eval-stance_climate",
@@ -9160,7 +9262,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Barbieri2020TweetEvalUB,\n author = {Francesco Barbieri and José Camacho-Collados and Leonardo Neves and Luis Espinosa-Anke},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {TweetEval: Unified Benchmark and Comparative Evaluation for Tweet Classification},\n volume = {abs/2010.12421},\n year = {2020}\n}\n"
     },
     "tsi-tweet_eval-emoji": {
         "Unique Dataset Identifier": "tsi-tweet_eval-emoji",
@@ -9250,7 +9353,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Barbieri2020TweetEvalUB,\n author = {Francesco Barbieri and José Camacho-Collados and Leonardo Neves and Luis Espinosa-Anke},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {TweetEval: Unified Benchmark and Comparative Evaluation for Tweet Classification},\n volume = {abs/2010.12421},\n year = {2020}\n}\n"
     },
     "tsi-tweet_eval-offensive": {
         "Unique Dataset Identifier": "tsi-tweet_eval-offensive",
@@ -9344,7 +9448,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Barbieri2020TweetEvalUB,\n author = {Francesco Barbieri and José Camacho-Collados and Leonardo Neves and Luis Espinosa-Anke},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {TweetEval: Unified Benchmark and Comparative Evaluation for Tweet Classification},\n volume = {abs/2010.12421},\n year = {2020}\n}\n"
     },
     "tsi-tweet_eval-sentiment": {
         "Unique Dataset Identifier": "tsi-tweet_eval-sentiment",
@@ -9434,7 +9539,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Barbieri2020TweetEvalUB,\n author = {Francesco Barbieri and José Camacho-Collados and Leonardo Neves and Luis Espinosa-Anke},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {TweetEval: Unified Benchmark and Comparative Evaluation for Tweet Classification},\n volume = {abs/2010.12421},\n year = {2020}\n}\n"
     },
     "tsi-tweet_eval-emotion": {
         "Unique Dataset Identifier": "tsi-tweet_eval-emotion",
@@ -9522,7 +9628,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Barbieri2020TweetEvalUB,\n author = {Francesco Barbieri and José Camacho-Collados and Leonardo Neves and Luis Espinosa-Anke},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {TweetEval: Unified Benchmark and Comparative Evaluation for Tweet Classification},\n volume = {abs/2010.12421},\n year = {2020}\n}\n"
     },
     "tsi-tweet_eval-stance_feminist": {
         "Unique Dataset Identifier": "tsi-tweet_eval-stance_feminist",
@@ -9613,7 +9720,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Barbieri2020TweetEvalUB,\n author = {Francesco Barbieri and José Camacho-Collados and Leonardo Neves and Luis Espinosa-Anke},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {TweetEval: Unified Benchmark and Comparative Evaluation for Tweet Classification},\n volume = {abs/2010.12421},\n year = {2020}\n}\n"
     },
     "tsi-tweet_eval-stance_hillary": {
         "Unique Dataset Identifier": "tsi-tweet_eval-stance_hillary",
@@ -9706,7 +9814,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Barbieri2020TweetEvalUB,\n author = {Francesco Barbieri and José Camacho-Collados and Leonardo Neves and Luis Espinosa-Anke},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {TweetEval: Unified Benchmark and Comparative Evaluation for Tweet Classification},\n volume = {abs/2010.12421},\n year = {2020}\n}\n"
     },
     "tsi-discovery-discovery": {
         "Unique Dataset Identifier": "tsi-discovery-discovery",
@@ -9808,7 +9917,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Sileo2019MiningDM,\n author = {Damien Sileo and T. V. D. Cruys and Camille Pradel and Philippe Muller},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n pages = {3477-3486},\n title = {Mining Discourse Markers for Unsupervised Sentence Representation Learning},\n year = {2019}\n}\n"
     },
     "tsi-pragmeval-verifiability": {
         "Unique Dataset Identifier": "tsi-pragmeval-verifiability",
@@ -9894,7 +10004,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Sileo2019APE,\n author = {Damien Sileo and Philippe Muller and T. V. D. Cruys and Camille Pradel},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {2382-2394},\n title = {A Pragmatics-Centered Evaluation Framework for Natural Language Understanding},\n year = {2019}\n}\n"
     },
     "tsi-pragmeval-mrda": {
         "Unique Dataset Identifier": "tsi-pragmeval-mrda",
@@ -9978,7 +10089,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Sileo2019APE,\n author = {Damien Sileo and Philippe Muller and T. V. D. Cruys and Camille Pradel},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {2382-2394},\n title = {A Pragmatics-Centered Evaluation Framework for Natural Language Understanding},\n year = {2019}\n}\n"
     },
     "tsi-pragmeval-switchboard": {
         "Unique Dataset Identifier": "tsi-pragmeval-switchboard",
@@ -10063,7 +10175,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Sileo2019APE,\n author = {Damien Sileo and Philippe Muller and T. V. D. Cruys and Camille Pradel},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {2382-2394},\n title = {A Pragmatics-Centered Evaluation Framework for Natural Language Understanding},\n year = {2019}\n}\n"
     },
     "tsi-pragmeval-emergent": {
         "Unique Dataset Identifier": "tsi-pragmeval-emergent",
@@ -10151,7 +10264,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Sileo2019APE,\n author = {Damien Sileo and Philippe Muller and T. V. D. Cruys and Camille Pradel},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {2382-2394},\n title = {A Pragmatics-Centered Evaluation Framework for Natural Language Understanding},\n year = {2019}\n}\n"
     },
     "tsi-pragmeval-gum": {
         "Unique Dataset Identifier": "tsi-pragmeval-gum",
@@ -10237,7 +10351,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Sileo2019APE,\n author = {Damien Sileo and Philippe Muller and T. V. D. Cruys and Camille Pradel},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {2382-2394},\n title = {A Pragmatics-Centered Evaluation Framework for Natural Language Understanding},\n year = {2019}\n}\n"
     },
     "tsi-pragmeval-sarcasm": {
         "Unique Dataset Identifier": "tsi-pragmeval-sarcasm",
@@ -10328,7 +10443,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Sileo2019APE,\n author = {Damien Sileo and Philippe Muller and T. V. D. Cruys and Camille Pradel},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {2382-2394},\n title = {A Pragmatics-Centered Evaluation Framework for Natural Language Understanding},\n year = {2019}\n}\n"
     },
     "tsi-pragmeval-stac": {
         "Unique Dataset Identifier": "tsi-pragmeval-stac",
@@ -10413,7 +10529,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Sileo2019APE,\n author = {Damien Sileo and Philippe Muller and T. V. D. Cruys and Camille Pradel},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {2382-2394},\n title = {A Pragmatics-Centered Evaluation Framework for Natural Language Understanding},\n year = {2019}\n}\n"
     },
     "tsi-pragmeval-pdtb": {
         "Unique Dataset Identifier": "tsi-pragmeval-pdtb",
@@ -10497,7 +10614,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Sileo2019APE,\n author = {Damien Sileo and Philippe Muller and T. V. D. Cruys and Camille Pradel},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {2382-2394},\n title = {A Pragmatics-Centered Evaluation Framework for Natural Language Understanding},\n year = {2019}\n}\n"
     },
     "tsi-silicone-dyda_e": {
         "Unique Dataset Identifier": "tsi-silicone-dyda_e",
@@ -10586,7 +10704,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Chapuis2020HierarchicalPF,\n author = {E. Chapuis and Pierre Colombo and Matteo Manica and Matthieu Labeau and C. Clavel},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {Hierarchical Pre-training for Sequence Labelling in Spoken Dialog},\n volume = {abs/2009.11152},\n year = {2020}\n}\n"
     },
     "tsi-silicone-oasis": {
         "Unique Dataset Identifier": "tsi-silicone-oasis",
@@ -10672,7 +10791,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Chapuis2020HierarchicalPF,\n author = {E. Chapuis and Pierre Colombo and Matteo Manica and Matthieu Labeau and C. Clavel},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {Hierarchical Pre-training for Sequence Labelling in Spoken Dialog},\n volume = {abs/2009.11152},\n year = {2020}\n}\n"
     },
     "tsi-silicone-meld_s": {
         "Unique Dataset Identifier": "tsi-silicone-meld_s",
@@ -10759,7 +10879,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Chapuis2020HierarchicalPF,\n author = {E. Chapuis and Pierre Colombo and Matteo Manica and Matthieu Labeau and C. Clavel},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {Hierarchical Pre-training for Sequence Labelling in Spoken Dialog},\n volume = {abs/2009.11152},\n year = {2020}\n}\n"
     },
     "tsi-silicone-meld_e": {
         "Unique Dataset Identifier": "tsi-silicone-meld_e",
@@ -10843,7 +10964,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Chapuis2020HierarchicalPF,\n author = {E. Chapuis and Pierre Colombo and Matteo Manica and Matthieu Labeau and C. Clavel},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {Hierarchical Pre-training for Sequence Labelling in Spoken Dialog},\n volume = {abs/2009.11152},\n year = {2020}\n}\n"
     },
     "tsi-silicone-maptask": {
         "Unique Dataset Identifier": "tsi-silicone-maptask",
@@ -10930,7 +11052,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Chapuis2020HierarchicalPF,\n author = {E. Chapuis and Pierre Colombo and Matteo Manica and Matthieu Labeau and C. Clavel},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {Hierarchical Pre-training for Sequence Labelling in Spoken Dialog},\n volume = {abs/2009.11152},\n year = {2020}\n}\n"
     },
     "tsi-silicone-dyda_da": {
         "Unique Dataset Identifier": "tsi-silicone-dyda_da",
@@ -11015,7 +11138,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Chapuis2020HierarchicalPF,\n author = {E. Chapuis and Pierre Colombo and Matteo Manica and Matthieu Labeau and C. Clavel},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {Hierarchical Pre-training for Sequence Labelling in Spoken Dialog},\n volume = {abs/2009.11152},\n year = {2020}\n}\n"
     },
     "tsi-silicone-sem": {
         "Unique Dataset Identifier": "tsi-silicone-sem",
@@ -11104,7 +11228,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Chapuis2020HierarchicalPF,\n author = {E. Chapuis and Pierre Colombo and Matteo Manica and Matthieu Labeau and C. Clavel},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {Hierarchical Pre-training for Sequence Labelling in Spoken Dialog},\n volume = {abs/2009.11152},\n year = {2020}\n}\n"
     },
     "tsi-silicone-iemocap": {
         "Unique Dataset Identifier": "tsi-silicone-iemocap",
@@ -11192,7 +11317,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Chapuis2020HierarchicalPF,\n author = {E. Chapuis and Pierre Colombo and Matteo Manica and Matthieu Labeau and C. Clavel},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {Hierarchical Pre-training for Sequence Labelling in Spoken Dialog},\n volume = {abs/2009.11152},\n year = {2020}\n}\n"
     },
     "tsi-lex_glue-scotus": {
         "Unique Dataset Identifier": "tsi-lex_glue-scotus",
@@ -11279,7 +11405,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Chalkidis2021LexGLUEAB,\n author = {Ilias Chalkidis and Abhik Jana and D. Hartung and M. Bommarito and Ion Androutsopoulos and D. Katz and Nikolaos Aletras},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {4310-4330},\n title = {LexGLUE: A Benchmark Dataset for Legal Language Understanding in English},\n year = {2021}\n}\n"
     },
     "tsi-lex_glue-ledgar": {
         "Unique Dataset Identifier": "tsi-lex_glue-ledgar",
@@ -11367,7 +11494,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Chalkidis2021LexGLUEAB,\n author = {Ilias Chalkidis and Abhik Jana and D. Hartung and M. Bommarito and Ion Androutsopoulos and D. Katz and Nikolaos Aletras},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {4310-4330},\n title = {LexGLUE: A Benchmark Dataset for Legal Language Understanding in English},\n year = {2021}\n}\n"
     },
     "tsi-lex_glue-case_hold": {
         "Unique Dataset Identifier": "tsi-lex_glue-case_hold",
@@ -11455,7 +11583,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Chalkidis2021LexGLUEAB,\n author = {Ilias Chalkidis and Abhik Jana and D. Hartung and M. Bommarito and Ion Androutsopoulos and D. Katz and Nikolaos Aletras},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {4310-4330},\n title = {LexGLUE: A Benchmark Dataset for Legal Language Understanding in English},\n year = {2021}\n}\n"
     },
     "tsi-language_identification": {
         "Unique Dataset Identifier": "tsi-language_identification",
@@ -11543,7 +11672,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-rotten_tomatoes": {
         "Unique Dataset Identifier": "tsi-rotten_tomatoes",
@@ -11629,7 +11759,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Pang2005SeeingSE,\n author = {B. Pang and Lillian Lee},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {115-124},\n title = {Seeing Stars: Exploiting Class Relationships for Sentiment Categorization with Respect to Rating Scales},\n year = {2005}\n}\n"
     },
     "tsi-hate_speech18": {
         "Unique Dataset Identifier": "tsi-hate_speech18",
@@ -11714,7 +11845,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Gibert2018HateSD,\n author = {Ona de Gibert and Naiara Pérez and Aitor García-Pablos and Montse Cuadros},\n booktitle = {Workshop on Abusive Language Online},\n journal = {ArXiv},\n title = {Hate Speech Dataset from a White Supremacy Forum},\n volume = {abs/1809.04444},\n year = {2018}\n}\n"
     },
     "tsi-sms_spam": {
         "Unique Dataset Identifier": "tsi-sms_spam",
@@ -11800,7 +11932,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Almeida2011ContributionsTT,\n author = {Tiago A. Almeida and J. M. G. Hidalgo and A. Yamakami},\n booktitle = {ACM Symposium on Document Engineering},\n pages = {259-262},\n title = {Contributions to the study of SMS spam filtering: new collection and results},\n year = {2011}\n}\n"
     },
     "tsi-humicroedit-subtask_2": {
         "Unique Dataset Identifier": "tsi-humicroedit-subtask_2",
@@ -11887,7 +12020,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Hossain2019PresidentVT,\n author = {Nabil Hossain and John Krumm and Michael Gamon},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {“President Vows to Cut  Hair”: Dataset and Analysis of Creative Text Editing for Humorous Headlines},\n volume = {abs/1906.00274},\n year = {2019}\n}\n"
     },
     "tsi-snips_built_in_intents": {
         "Unique Dataset Identifier": "tsi-snips_built_in_intents",
@@ -11972,7 +12106,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Coucke2018SnipsVP,\n author = {A. Coucke and Alaa Saade and Adrien Ball and Théodore Bluche and A. Caulier and David Leroy and Clément Doumouro and Thibault Gisselbrecht and F. Caltagirone and Thibaut Lavril and Maël Primet and J. Dureau},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Snips Voice Platform: an embedded Spoken Language Understanding system for private-by-design voice interfaces},\n volume = {abs/1805.10190},\n year = {2018}\n}\n"
     },
     "tsi-hate_speech_offensive": {
         "Unique Dataset Identifier": "tsi-hate_speech_offensive",
@@ -12054,7 +12189,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Gibert2018HateSD,\n author = {Ona de Gibert and Naiara Pérez and Aitor García-Pablos and Montse Cuadros},\n booktitle = {Workshop on Abusive Language Online},\n journal = {ArXiv},\n title = {Hate Speech Dataset from a White Supremacy Forum},\n volume = {abs/1809.04444},\n year = {2018}\n}\n"
     },
     "tsi-hyperpartisan_news": {
         "Unique Dataset Identifier": "tsi-hyperpartisan_news",
@@ -12138,7 +12274,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-sciie": {
         "Unique Dataset Identifier": "tsi-sciie",
@@ -12221,7 +12358,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Luan2018MultiTaskIO,\n author = {Yi Luan and Luheng He and Mari Ostendorf and Hannaneh Hajishirzi},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {3219-3232},\n title = {Multi-Task Identification of Entities, Relations, and Coreference for Scientific Knowledge Graph Construction},\n year = {2018}\n}\n"
     },
     "tsi-citation_intent": {
         "Unique Dataset Identifier": "tsi-citation_intent",
@@ -12300,7 +12438,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-scicite": {
         "Unique Dataset Identifier": "tsi-scicite",
@@ -12385,7 +12524,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Cohan2019StructuralSF,\n author = {Arman Cohan and Waleed Ammar and Madeleine van Zuylen and Field Cady},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Structural Scaffolds for Citation Intent Classification in Scientific Publications},\n volume = {abs/1904.01608},\n year = {2019}\n}\n"
     },
     "tsi-lexical_relation_classification-root09": {
         "Unique Dataset Identifier": "tsi-lexical_relation_classification-root09",
@@ -12478,7 +12618,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wang2019SphereREDL,\n author = {Chengyu Wang and Xiaofeng He and Aoying Zhou},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {1727-1737},\n title = {SphereRE: Distinguishing Lexical Relations with Hyperspherical Relation Embeddings},\n year = {2019}\n}\n"
     },
     "tsi-lexical_relation_classification-cogalexv": {
         "Unique Dataset Identifier": "tsi-lexical_relation_classification-cogalexv",
@@ -12565,7 +12706,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wang2019SphereREDL,\n author = {Chengyu Wang and Xiaofeng He and Aoying Zhou},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {1727-1737},\n title = {SphereRE: Distinguishing Lexical Relations with Hyperspherical Relation Embeddings},\n year = {2019}\n}\n"
     },
     "tsi-lexical_relation_classification-k&h+n": {
         "Unique Dataset Identifier": "tsi-lexical_relation_classification-k&h+n",
@@ -12654,7 +12796,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wang2019SphereREDL,\n author = {Chengyu Wang and Xiaofeng He and Aoying Zhou},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {1727-1737},\n title = {SphereRE: Distinguishing Lexical Relations with Hyperspherical Relation Embeddings},\n year = {2019}\n}\n"
     },
     "tsi-lexical_relation_classification-bless": {
         "Unique Dataset Identifier": "tsi-lexical_relation_classification-bless",
@@ -12743,7 +12886,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wang2019SphereREDL,\n author = {Chengyu Wang and Xiaofeng He and Aoying Zhou},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {1727-1737},\n title = {SphereRE: Distinguishing Lexical Relations with Hyperspherical Relation Embeddings},\n year = {2019}\n}\n"
     },
     "tsi-lexical_relation_classification-evalution": {
         "Unique Dataset Identifier": "tsi-lexical_relation_classification-evalution",
@@ -12830,7 +12974,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wang2019SphereREDL,\n author = {Chengyu Wang and Xiaofeng He and Aoying Zhou},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {1727-1737},\n title = {SphereRE: Distinguishing Lexical Relations with Hyperspherical Relation Embeddings},\n year = {2019}\n}\n"
     },
     "tsi-crowdflower-political_media_bias": {
         "Unique Dataset Identifier": "tsi-crowdflower-political_media_bias",
@@ -12913,7 +13058,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Pelt2012DesigningAS,\n author = {C. V. Pelt and A. Sorokin},\n booktitle = {SIGMOD Conference},\n journal = {Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data},\n title = {Designing a scalable crowdsourcing platform},\n year = {2012}\n}\n"
     },
     "tsi-crowdflower-tweet_global_warming": {
         "Unique Dataset Identifier": "tsi-crowdflower-tweet_global_warming",
@@ -12997,7 +13143,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Pelt2012DesigningAS,\n author = {C. V. Pelt and A. Sorokin},\n booktitle = {SIGMOD Conference},\n journal = {Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data},\n title = {Designing a scalable crowdsourcing platform},\n year = {2012}\n}\n"
     },
     "tsi-crowdflower-text_emotion": {
         "Unique Dataset Identifier": "tsi-crowdflower-text_emotion",
@@ -13080,7 +13227,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Pelt2012DesigningAS,\n author = {C. V. Pelt and A. Sorokin},\n booktitle = {SIGMOD Conference},\n journal = {Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data},\n title = {Designing a scalable crowdsourcing platform},\n year = {2012}\n}\n"
     },
     "tsi-crowdflower-political_media_message": {
         "Unique Dataset Identifier": "tsi-crowdflower-political_media_message",
@@ -13161,7 +13309,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Pelt2012DesigningAS,\n author = {C. V. Pelt and A. Sorokin},\n booktitle = {SIGMOD Conference},\n journal = {Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data},\n title = {Designing a scalable crowdsourcing platform},\n year = {2012}\n}\n"
     },
     "tsi-crowdflower-political_media_audience": {
         "Unique Dataset Identifier": "tsi-crowdflower-political_media_audience",
@@ -13245,7 +13394,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Pelt2012DesigningAS,\n author = {C. V. Pelt and A. Sorokin},\n booktitle = {SIGMOD Conference},\n journal = {Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data},\n title = {Designing a scalable crowdsourcing platform},\n year = {2012}\n}\n"
     },
     "tsi-crowdflower-economic_news": {
         "Unique Dataset Identifier": "tsi-crowdflower-economic_news",
@@ -13330,7 +13480,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Pelt2012DesigningAS,\n author = {C. V. Pelt and A. Sorokin},\n booktitle = {SIGMOD Conference},\n journal = {Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data},\n title = {Designing a scalable crowdsourcing platform},\n year = {2012}\n}\n"
     },
     "tsi-crowdflower-corporate_messaging": {
         "Unique Dataset Identifier": "tsi-crowdflower-corporate_messaging",
@@ -13413,7 +13564,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Pelt2012DesigningAS,\n author = {C. V. Pelt and A. Sorokin},\n booktitle = {SIGMOD Conference},\n journal = {Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data},\n title = {Designing a scalable crowdsourcing platform},\n year = {2012}\n}\n"
     },
     "tsi-crowdflower-airline_sentiment": {
         "Unique Dataset Identifier": "tsi-crowdflower-airline_sentiment",
@@ -13493,7 +13645,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Pelt2012DesigningAS,\n author = {C. V. Pelt and A. Sorokin},\n booktitle = {SIGMOD Conference},\n journal = {Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data},\n title = {Designing a scalable crowdsourcing platform},\n year = {2012}\n}\n"
     },
     "tsi-crowdflower-sentiment_nuclear_power": {
         "Unique Dataset Identifier": "tsi-crowdflower-sentiment_nuclear_power",
@@ -13573,7 +13726,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Pelt2012DesigningAS,\n author = {C. V. Pelt and A. Sorokin},\n booktitle = {SIGMOD Conference},\n journal = {Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data},\n title = {Designing a scalable crowdsourcing platform},\n year = {2012}\n}\n"
     },
     "tsi-ethics-commonsense": {
         "Unique Dataset Identifier": "tsi-ethics-commonsense",
@@ -13672,7 +13826,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Hendrycks2020AligningAW,\n author = {Dan Hendrycks and Collin Burns and Steven Basart and Andrew Critch and J. Li and D. Song and J. Steinhardt},\n booktitle = {International Conference on Learning Representations},\n journal = {ArXiv},\n title = {Aligning AI With Shared Human Values},\n volume = {abs/2008.02275},\n year = {2020}\n}\n"
     },
     "tsi-ethics-deontology": {
         "Unique Dataset Identifier": "tsi-ethics-deontology",
@@ -13770,7 +13925,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Hendrycks2020AligningAW,\n author = {Dan Hendrycks and Collin Burns and Steven Basart and Andrew Critch and J. Li and D. Song and J. Steinhardt},\n booktitle = {International Conference on Learning Representations},\n journal = {ArXiv},\n title = {Aligning AI With Shared Human Values},\n volume = {abs/2008.02275},\n year = {2020}\n}\n"
     },
     "tsi-ethics-justice": {
         "Unique Dataset Identifier": "tsi-ethics-justice",
@@ -13865,7 +14021,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Hendrycks2020AligningAW,\n author = {Dan Hendrycks and Collin Burns and Steven Basart and Andrew Critch and J. Li and D. Song and J. Steinhardt},\n booktitle = {International Conference on Learning Representations},\n journal = {ArXiv},\n title = {Aligning AI With Shared Human Values},\n volume = {abs/2008.02275},\n year = {2020}\n}\n"
     },
     "tsi-ethics-virtue": {
         "Unique Dataset Identifier": "tsi-ethics-virtue",
@@ -13962,7 +14119,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Hendrycks2020AligningAW,\n author = {Dan Hendrycks and Collin Burns and Steven Basart and Andrew Critch and J. Li and D. Song and J. Steinhardt},\n booktitle = {International Conference on Learning Representations},\n journal = {ArXiv},\n title = {Aligning AI With Shared Human Values},\n volume = {abs/2008.02275},\n year = {2020}\n}\n"
     },
     "tsi-tweets_hate_speech_detection": {
         "Unique Dataset Identifier": "tsi-tweets_hate_speech_detection",
@@ -14058,7 +14216,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-wnut_17-wnut_17": {
         "Unique Dataset Identifier": "tsi-wnut_17-wnut_17",
@@ -14150,7 +14309,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Derczynski2017ResultsOT,\n author = {Leon Derczynski and Eric Nichols and M. Erp and Nut Limsopatham},\n booktitle = {NUT@EMNLP},\n pages = {140-147},\n title = {Results of the WNUT2017 Shared Task on Novel and Emerging Entity Recognition},\n year = {2017}\n}\n"
     },
     "tsi-ncbi_disease-ncbi_disease": {
         "Unique Dataset Identifier": "tsi-ncbi_disease-ncbi_disease",
@@ -14233,7 +14393,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Dogan2014NCBIDC,\n author = {R. Dogan and Robert Leaman and Zhiyong Lu},\n booktitle = {Journal of Biomedical Informatics},\n journal = {Journal of biomedical informatics},\n pages = {\n          1-10\n        },\n title = {NCBI disease corpus: A resource for disease name recognition and concept normalization},\n volume = {47},\n year = {2014}\n}\n"
     },
     "tsi-acronym_identification": {
         "Unique Dataset Identifier": "tsi-acronym_identification",
@@ -14326,7 +14487,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Veyseh2020WhatDT,\n author = {Amir Pouran Ben Veyseh and Franck Dernoncourt and Quan Hung Tran and Thien Huu Nguyen},\n booktitle = {International Conference on Computational Linguistics},\n pages = {3285-3301},\n title = {What Does This Acronym Mean? Introducing a New Dataset for Acronym Identification and Disambiguation},\n year = {2020}\n}\n"
     },
     "tsi-jnlpba-jnlpba": {
         "Unique Dataset Identifier": "tsi-jnlpba-jnlpba",
@@ -14412,7 +14574,8 @@
         "Derived from Datasets": [
             "Genia dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Collier2004IntroductionTT,\n author = {Nigel Collier and Jin-Dong Kim},\n booktitle = {NLPBA/BioNLP},\n pages = {70-75},\n title = {Introduction to the Bio-entity Recognition Task at JNLPBA},\n year = {2004}\n}\n"
     },
     "tsi-ontonotes_english-speedofmagic__ontonotes_english": {
         "Unique Dataset Identifier": "tsi-ontonotes_english-speedofmagic__ontonotes_english",
@@ -14509,7 +14672,8 @@
         "Derived from Datasets": [
             "OntoNotes corpus"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Pradhan2013TowardsRL,\n author = {Sameer Pradhan and Alessandro Moschitti and Nianwen Xue and H. Ng and Anders Björkelund and Olga Uryupina and Yuchen Zhang and Z. Zhong},\n booktitle = {Conference on Computational Natural Language Learning},\n pages = {143-152},\n title = {Towards Robust Linguistic Analysis using OntoNotes},\n year = {2013}\n}\n"
     },
     "tsi-blog_authorship_corpus-gender": {
         "Unique Dataset Identifier": "tsi-blog_authorship_corpus-gender",
@@ -14598,7 +14762,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Schler2006EffectsOA,\n author = {Jonathan Schler and Moshe Koppel and S. Argamon and J. Pennebaker},\n booktitle = {AAAI Spring Symposium: Computational Approaches to Analyzing Weblogs},\n pages = {199-205},\n title = {Effects of Age and Gender on Blogging},\n year = {2006}\n}\n"
     },
     "tsi-blog_authorship_corpus-horoscope": {
         "Unique Dataset Identifier": "tsi-blog_authorship_corpus-horoscope",
@@ -14681,7 +14846,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Schler2006EffectsOA,\n author = {Jonathan Schler and Moshe Koppel and S. Argamon and J. Pennebaker},\n booktitle = {AAAI Spring Symposium: Computational Approaches to Analyzing Weblogs},\n pages = {199-205},\n title = {Effects of Age and Gender on Blogging},\n year = {2006}\n}\n"
     },
     "tsi-blog_authorship_corpus-job": {
         "Unique Dataset Identifier": "tsi-blog_authorship_corpus-job",
@@ -14766,7 +14932,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Schler2006EffectsOA,\n author = {Jonathan Schler and Moshe Koppel and S. Argamon and J. Pennebaker},\n booktitle = {AAAI Spring Symposium: Computational Approaches to Analyzing Weblogs},\n pages = {199-205},\n title = {Effects of Age and Gender on Blogging},\n year = {2006}\n}\n"
     },
     "tsi-open_question_type": {
         "Unique Dataset Identifier": "tsi-open_question_type",
@@ -14850,7 +15017,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Cao2021ControllableOQ,\n author = {Shuyang Cao and Lu Wang},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Controllable Open-ended Question Generation with A New Question Type Ontology},\n volume = {abs/2107.00152},\n year = {2021}\n}\n"
     },
     "tsi-commonsense_qa": {
         "Unique Dataset Identifier": "tsi-commonsense_qa",
@@ -14934,7 +15102,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Talmor2019CommonsenseQAAQ,\n author = {Alon Talmor and Jonathan Herzig and Nicholas Lourie and Jonathan Berant},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge},\n volume = {abs/1811.00937},\n year = {2019}\n}\n"
     },
     "tsi-mc_taco": {
         "Unique Dataset Identifier": "tsi-mc_taco",
@@ -15030,7 +15199,8 @@
         "Derived from Datasets": [
             "MultiRC"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Zhou2019GoingOA,\n author = {Ben Zhou and Daniel Khashabi and Qiang Ning and D. Roth},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {“Going on a vacation” takes longer than “Going for a walk”: A Study of Temporal Commonsense Understanding},\n volume = {abs/1909.03065},\n year = {2019}\n}\n"
     },
     "tsi-discosense": {
         "Unique Dataset Identifier": "tsi-discosense",
@@ -15121,7 +15291,8 @@
             "Discovery dataset",
             "Discofuse dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Bhargava2022DiscoSenseCR,\n author = {Prajjwal Bhargava and Vincent Ng},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {10295-10310},\n title = {DiscoSense: Commonsense Reasoning with Discourse Connectives},\n year = {2022}\n}\n"
     },
     "tsi-effectivefeedbackstudentwriting": {
         "Unique Dataset Identifier": "tsi-effectivefeedbackstudentwriting",
@@ -15204,7 +15375,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-phrase_similarity": {
         "Unique Dataset Identifier": "tsi-phrase_similarity",
@@ -15287,7 +15459,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Pham2022PiCAP,\n author = {Thang M. Pham and Seunghyun Yoon and Trung Bui and Anh M Nguyen},\n booktitle = {Conference of the European Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {PiC: A Phrase-in-Context Dataset for Phrase Understanding and Semantic Search},\n volume = {abs/2207.09068},\n year = {2022}\n}\n"
     },
     "tsi-scientific_exaggeration_detection": {
         "Unique Dataset Identifier": "tsi-scientific_exaggeration_detection",
@@ -15378,7 +15551,8 @@
             "Sumner et al 2014",
             "Bratton et al 2019"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Wright2021SemiSupervisedED,\n author = {Dustin Wright and Isabelle Augenstein},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {10824-10836},\n title = {Semi-Supervised Exaggeration Detection of Health Science Press Releases},\n year = {2021}\n}\n"
     },
     "tsi-fever_evidence_related-mwong__fever_related": {
         "Unique Dataset Identifier": "tsi-fever_evidence_related-mwong__fever_related",
@@ -15469,7 +15643,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Thorne2018FEVERAL,\n author = {James Thorne and Andreas Vlachos and Christos Christodoulopoulos and Arpit Mittal},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {FEVER: a Large-scale Dataset for Fact Extraction and VERification},\n volume = {abs/1803.05355},\n year = {2018}\n}\n"
     },
     "tsi-numer_sense": {
         "Unique Dataset Identifier": "tsi-numer_sense",
@@ -15554,7 +15729,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Lin2020BirdsHF,\n author = {Bill Yuchen Lin and Seyeon Lee and Rahul Khanna and Xiang Ren},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {6862-6868},\n title = {Birds Have Four Legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-trained Language Models},\n year = {2020}\n}\n"
     },
     "tsi-dynasent-dynabench.dynasent.r1.all-r1": {
         "Unique Dataset Identifier": "tsi-dynasent-dynabench.dynasent.r1.all-r1",
@@ -15637,7 +15813,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Potts2020DynaSentAD,\n author = {Christopher Potts and Zhengxuan Wu and Atticus Geiger and Douwe Kiela},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {DynaSent: A Dynamic Benchmark for Sentiment Analysis},\n volume = {abs/2012.15349},\n year = {2020}\n}\n"
     },
     "tsi-dynasent-dynabench.dynasent.r2.all-r2": {
         "Unique Dataset Identifier": "tsi-dynasent-dynabench.dynasent.r2.all-r2",
@@ -15723,7 +15900,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Potts2020DynaSentAD,\n author = {Christopher Potts and Zhengxuan Wu and Atticus Geiger and Douwe Kiela},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {DynaSent: A Dynamic Benchmark for Sentiment Analysis},\n volume = {abs/2012.15349},\n year = {2020}\n}\n"
     },
     "tsi-sem_eval_2010_task_8": {
         "Unique Dataset Identifier": "tsi-sem_eval_2010_task_8",
@@ -15816,7 +15994,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Hendrickx2009SemEval2010T8,\n author = {Iris Hendrickx and Su Nam Kim and Zornitsa Kozareva and Preslav Nakov and Diarmuid Ó Séaghdha and Sebastian Padó and M. Pennacchiotti and Lorenza Romano and Stan Szpakowicz},\n booktitle = {SEW@NAACL-HLT},\n pages = {94-99},\n title = {SemEval-2010 Task 8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals},\n year = {2009}\n}\n"
     },
     "tsi-medmcqa": {
         "Unique Dataset Identifier": "tsi-medmcqa",
@@ -15899,7 +16078,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Pal2022MedMCQAA,\n author = {Ankit Pal and Logesh Kumar Umapathi and Malaikannan Sankarasubbu},\n booktitle = {ACM Conference on Health, Inference, and Learning},\n pages = {248-260},\n title = {MedMCQA : A Large-scale Multi-Subject Multi-Choice Dataset for Medical domain Question Answering},\n year = {2022}\n}\n"
     },
     "tsi-logiqa": {
         "Unique Dataset Identifier": "tsi-logiqa",
@@ -15984,7 +16164,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Liu2020LogiQAAC,\n author = {Jian Liu and Leyang Cui and Hanmeng Liu and Dandan Huang and Yile Wang and Yue Zhang},\n booktitle = {International Joint Conference on Artificial Intelligence},\n journal = {ArXiv},\n title = {LogiQA: A Challenge Dataset for Machine Reading Comprehension with Logical Reasoning},\n volume = {abs/2007.08124},\n year = {2020}\n}\n"
     },
     "tsi-cycic_classification": {
         "Unique Dataset Identifier": "tsi-cycic_classification",
@@ -16066,7 +16247,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Kejriwal2020DoFC,\n author = {M. Kejriwal and Ke Shen},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Do Fine-tuned Commonsense Language Models Really Generalize?},\n volume = {abs/2011.09159},\n year = {2020}\n}\n"
     },
     "tsi-cycic_multiplechoice": {
         "Unique Dataset Identifier": "tsi-cycic_multiplechoice",
@@ -16151,7 +16333,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Kejriwal2020DoFC,\n author = {M. Kejriwal and Ke Shen},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Do Fine-tuned Commonsense Language Models Really Generalize?},\n volume = {abs/2011.09159},\n year = {2020}\n}\n"
     },
     "tsi-commonsense_qa_2.0": {
         "Unique Dataset Identifier": "tsi-commonsense_qa_2.0",
@@ -16237,7 +16420,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Talmor2019CommonsenseQAAQ,\n author = {Alon Talmor and Jonathan Herzig and Nicholas Lourie and Jonathan Berant},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge},\n volume = {abs/1811.00937},\n year = {2019}\n}\n"
     },
     "tsi-lingnli": {
         "Unique Dataset Identifier": "tsi-lingnli",
@@ -16324,7 +16508,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Parrish2021DoesPA,\n author = {Alicia Parrish and William Huang and Omar Agha and Soo-hwan Lee and Nikita Nangia and Alex Warstadt and Karmanya Aggarwal and Emily Allaway and Tal Linzen and Samuel R. Bowman},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {Does Putting a Linguist in the Loop Improve NLU Data Collection?},\n volume = {abs/2104.07179},\n year = {2021}\n}\n"
     },
     "tsi-monotonicity_entailment": {
         "Unique Dataset Identifier": "tsi-monotonicity_entailment",
@@ -16412,7 +16597,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Yanaka2019CanNN,\n author = {Hitomi Yanaka and K. Mineshima and D. Bekki and Kentaro Inui and S. Sekine and Lasha Abzianidze and Johan Bos},\n booktitle = {BlackboxNLP@ACL},\n pages = {31-40},\n title = {Can Neural Networks Understand Monotonicity Reasoning?},\n year = {2019}\n}\n"
     },
     "tsi-arct": {
         "Unique Dataset Identifier": "tsi-arct",
@@ -16502,7 +16688,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Habernal2017TheAR,\n author = {Ivan Habernal and Henning Wachsmuth and Iryna Gurevych and Benno Stein},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {The Argument Reasoning Comprehension Task: Identification and Reconstruction of Implicit Warrants},\n volume = {abs/1708.01425},\n year = {2017}\n}\n"
     },
     "tsi-scinli": {
         "Unique Dataset Identifier": "tsi-scinli",
@@ -16584,7 +16771,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Sadat2022SciNLIAC,\n author = {Mobashir Sadat and Cornelia Caragea},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {SciNLI: A Corpus for Natural Language Inference on Scientific Text},\n volume = {abs/2203.06728},\n year = {2022}\n}\n"
     },
     "tsi-naturallogic": {
         "Unique Dataset Identifier": "tsi-naturallogic",
@@ -16671,7 +16859,8 @@
         "Derived from Datasets": [
             "MED Dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Feng2020ExploringED,\n author = {Yufei Feng and Zi'ou Zheng and QUAN LIU and M. Greenspan and Xiaodan Zhu},\n booktitle = {International Conference on Computational Linguistics},\n pages = {1172-1185},\n title = {Exploring End-to-End Differentiable Natural Logic Modeling},\n year = {2020}\n}\n"
     },
     "tsi-onestop_qa": {
         "Unique Dataset Identifier": "tsi-onestop_qa",
@@ -16755,7 +16944,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Berzak2020STARCSA,\n author = {Yevgeni Berzak and J. Malmaud and R. Levy},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {5726-5735},\n title = {STARC: Structured Annotations for Reading Comprehension},\n year = {2020}\n}\n"
     },
     "tsi-moral_stories-full": {
         "Unique Dataset Identifier": "tsi-moral_stories-full",
@@ -16852,7 +17042,8 @@
         "Derived from Datasets": [
             "SOCIAL-CHEM-101 dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Emelin2020MoralSS,\n author = {Denis Emelin and Ronan Le Bras and Jena D. Hwang and Maxwell Forbes and Yejin Choi},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {Moral Stories: Situated Reasoning about Norms, Intents, Actions, and their Consequences},\n volume = {abs/2012.15738},\n year = {2020}\n}\n"
     },
     "tsi-prost": {
         "Unique Dataset Identifier": "tsi-prost",
@@ -16934,7 +17125,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Aroca-Ouellette2021PROSTPR,\n author = {Stephane T Aroca-Ouellette and Cory Paik and A. Roncone and Katharina Kann},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {PROST: Physical Reasoning about Objects through Space and Time},\n volume = {abs/2106.03634},\n year = {2021}\n}\n"
     },
     "tsi-dynahate": {
         "Unique Dataset Identifier": "tsi-dynahate",
@@ -17020,7 +17212,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Vidgen2021LearningFT,\n author = {Bertie Vidgen and Tristan Thrush and Zeerak Talat and Douwe Kiela},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Learning from the Worst: Dynamically Generated Datasets to Improve Online Hate Detection},\n volume = {abs/2012.15761},\n year = {2021}\n}\n"
     },
     "tsi-syntactic_augmentation_nli": {
         "Unique Dataset Identifier": "tsi-syntactic_augmentation_nli",
@@ -17117,7 +17310,8 @@
         "Derived from Datasets": [
             "MNLI"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Min2020SyntacticDA,\n author = {Junghyun Min and R. Thomas McCoy and Dipanjan Das and Emily Pitler and Tal Linzen},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {2339-2352},\n title = {Syntactic Data Augmentation Increases Robustness to Inference Heuristics},\n year = {2020}\n}\n"
     },
     "tsi-autotnli": {
         "Unique Dataset Identifier": "tsi-autotnli",
@@ -17221,7 +17415,8 @@
         "Derived from Datasets": [
             "InfoTabs dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kumar2022RealisticDA,\n author = {D. K. Santhosh Kumar and Vivek Gupta and Soumya Sharma and Shuo Zhang},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {Realistic Data Augmentation Framework for Enhancing Tabular Reasoning},\n volume = {abs/2210.12795},\n year = {2022}\n}\n"
     },
     "tsi-condaqa": {
         "Unique Dataset Identifier": "tsi-condaqa",
@@ -17307,7 +17502,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Ravichander2022CONDAQAAC,\n author = {Abhilasha Ravichander and Matt Gardner and Ana Marasović},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {CONDAQA: A Contrastive Reading Comprehension Dataset for Reasoning about Negation},\n volume = {abs/2211.00295},\n year = {2022}\n}\n"
     },
     "tsi-webgpt_comparisons": {
         "Unique Dataset Identifier": "tsi-webgpt_comparisons",
@@ -17397,7 +17593,8 @@
         "Derived from Datasets": [
             "TriviaQA"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Nakano2021WebGPTBQ,\n author = {Reiichiro Nakano and Jacob Hilton and S. Balaji and Jeff Wu and Ouyang Long and Christina Kim and Christopher Hesse and Shantanu Jain and V. Kosaraju and W. Saunders and Xu Jiang and Karl Cobbe and Tyna Eloundou and Gretchen Krueger and Kevin Button and Matthew Knight and B. Chess and John Schulman},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {WebGPT: Browser-assisted question-answering with human feedback},\n volume = {abs/2112.09332},\n year = {2021}\n}\n"
     },
     "tsi-synthetic_instruct_gptj_pairwise": {
         "Unique Dataset Identifier": "tsi-synthetic_instruct_gptj_pairwise",
@@ -17477,7 +17674,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-scruples": {
         "Unique Dataset Identifier": "tsi-scruples",
@@ -17562,7 +17760,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "tsi-wouldyourather": {
         "Unique Dataset Identifier": "tsi-wouldyourather",
@@ -17643,7 +17842,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-attempto_nli": {
         "Unique Dataset Identifier": "tsi-attempto_nli",
@@ -17729,7 +17929,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Fuchs2010FirstOrderRF,\n author = {Norbert E. Fuchs},\n booktitle = {Controlled Natural Language},\n pages = {73-94},\n title = {First-Order Reasoning for Attempto Controlled English},\n year = {2010}\n}\n"
     },
     "tsi-defeasible_nli-snli": {
         "Unique Dataset Identifier": "tsi-defeasible_nli-snli",
@@ -17820,7 +18021,8 @@
             "social chemestry",
             "ATOMIC"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Rudinger2020ThinkingLA,\n author = {Rachel Rudinger and Vered Shwartz and Jena D. Hwang and Chandra Bhagavatula and Maxwell Forbes and Ronan Le Bras and Noah A. Smith and Yejin Choi},\n booktitle = {Findings},\n pages = {4661-4675},\n title = {Thinking Like a Skeptic: Defeasible Inference in Natural Language},\n year = {2020}\n}\n"
     },
     "tsi-defeasible_nli-atomic": {
         "Unique Dataset Identifier": "tsi-defeasible_nli-atomic",
@@ -17913,7 +18115,8 @@
             "social chemestry",
             "ATOMIC"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Rudinger2020ThinkingLA,\n author = {Rachel Rudinger and Vered Shwartz and Jena D. Hwang and Chandra Bhagavatula and Maxwell Forbes and Ronan Le Bras and Noah A. Smith and Yejin Choi},\n booktitle = {Findings},\n pages = {4661-4675},\n title = {Thinking Like a Skeptic: Defeasible Inference in Natural Language},\n year = {2020}\n}\n"
     },
     "tsi-help_nli": {
         "Unique Dataset Identifier": "tsi-help_nli",
@@ -18000,7 +18203,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Yanaka2019HELPAD,\n author = {Hitomi Yanaka and K. Mineshima and D. Bekki and Kentaro Inui and S. Sekine and Lasha Abzianidze and Johan Bos},\n booktitle = {International Workshop on Semantic Evaluation},\n journal = {ArXiv},\n title = {HELP: A Dataset for Identifying Shortcomings of Neural Models in Monotonicity Reasoning},\n volume = {abs/1904.12166},\n year = {2019}\n}\n"
     },
     "tsi-nli_veridicality_transitivity": {
         "Unique Dataset Identifier": "tsi-nli_veridicality_transitivity",
@@ -18091,7 +18295,8 @@
             "MegaVeridicality2",
             "Verb veridicality dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Nie2019AdversarialNA,\n author = {Yixin Nie and Adina Williams and Emily Dinan and Mohit Bansal and J. Weston and Douwe Kiela},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Adversarial NLI: A New Benchmark for Natural Language Understanding},\n volume = {abs/1910.14599},\n year = {2019}\n}\n"
     },
     "tsi-natural_language_satisfiability": {
         "Unique Dataset Identifier": "tsi-natural_language_satisfiability",
@@ -18181,7 +18386,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Schlegel2022CanTR,\n author = {Viktor Schlegel and Kamen V. Pavlov and Ian Pratt-Hartmann},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {11184-11199},\n title = {Can Transformers Reason in Fragments of Natural Language?},\n year = {2022}\n}\n"
     },
     "tsi-lonli": {
         "Unique Dataset Identifier": "tsi-lonli",
@@ -18271,7 +18477,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Tarunesh2021TrustingRO,\n author = {Ishan Tarunesh and Somak Aditya and M. Choudhury},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Trusting RoBERTa over BERT: Insights from CheckListing the Natural Language Inference Task},\n volume = {abs/2107.07229},\n year = {2021}\n}\n"
     },
     "tsi-dadc_limit_nli": {
         "Unique Dataset Identifier": "tsi-dadc_limit_nli",
@@ -18357,7 +18564,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Wallace2021AnalyzingDA,\n author = {Eric Wallace and Adina Williams and Robin Jia and Douwe Kiela},\n booktitle = {Findings},\n pages = {202-217},\n title = {Analyzing Dynamic Adversarial Training Data in the Limit},\n year = {2021}\n}\n"
     },
     "tsi-flute": {
         "Unique Dataset Identifier": "tsi-flute",
@@ -18441,7 +18649,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-summarize_from_feedback-comparisons": {
         "Unique Dataset Identifier": "tsi-summarize_from_feedback-comparisons",
@@ -18524,7 +18733,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Stiennon2020LearningTS,\n author = {Nisan Stiennon and Long Ouyang and Jeff Wu and Daniel M. Ziegler and Ryan J. Lowe and Chelsea Voss and Alec Radford and Dario Amodei and Paul Christiano},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {Learning to summarize from human feedback},\n volume = {abs/2009.01325},\n year = {2020}\n}\n"
     },
     "tsi-folio": {
         "Unique Dataset Identifier": "tsi-folio",
@@ -18616,7 +18826,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Han2022FOLIONL,\n author = {Simeng Han and Hailey Schoelkopf and Yilun Zhao and Zhenting Qi and Martin Riddell and Luke Benson and Lucy Sun and E. Zubova and Yujie Qiao and Matthew Burtell and David Peng and Jonathan Fan and Yixin Liu and Brian Wong and Malcolm Sailor and Ansong Ni and Linyong Nan and Jungo Kasai and Tao Yu and Rui Zhang and Shafiq R. Joty and Alexander R. Fabbri and Wojciech Kryscinski and Xi Victoria Lin and Caiming Xiong and Dragomir R. Radev},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {FOLIO: Natural Language Reasoning with First-Order Logic},\n volume = {abs/2209.00840},\n year = {2022}\n}\n"
     },
     "tsi-tomi_nli": {
         "Unique Dataset Identifier": "tsi-tomi_nli",
@@ -18695,7 +18906,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Sileo2023tasksourceSD,\n author = {Damien Sileo},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {tasksource: Structured Dataset Preprocessing Annotations for Frictionless Extreme Multi-Task Learning and Evaluation},\n volume = {abs/2301.05948},\n year = {2023}\n}\n"
     },
     "tsi-avicenna": {
         "Unique Dataset Identifier": "tsi-avicenna",
@@ -18777,7 +18989,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Aghahadi2022AvicennaAC,\n author = {Zeinab Aghahadi and A. Talebpour},\n booktitle = {J. Appl. Non Class. Logics},\n journal = {Journal of Applied Non-Classical Logics},\n pages = {55 - 71},\n title = {Avicenna: a challenge dataset for natural language generation toward commonsense syllogistic reasoning},\n volume = {32},\n year = {2022}\n}\n"
     },
     "tsi-shp": {
         "Unique Dataset Identifier": "tsi-shp",
@@ -18864,7 +19077,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Ethayarajh2021UnderstandingDD,\n author = {Kawin Ethayarajh and Yejin Choi and Swabha Swayamdipta},\n booktitle = {International Conference on Machine Learning},\n pages = {5988-6008},\n title = {Understanding Dataset Difficulty with V-Usable Information},\n year = {2021}\n}\n"
     },
     "tsi-medqa_usmle_4_options_hf": {
         "Unique Dataset Identifier": "tsi-medqa_usmle_4_options_hf",
@@ -18950,7 +19164,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Jin2020WhatDD,\n author = {Di Jin and Eileen Pan and Nassim Oufattole and W. Weng and Hanyi Fang and Peter Szolovits},\n booktitle = {Applied Sciences},\n journal = {ArXiv},\n title = {What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams},\n volume = {abs/2009.13081},\n year = {2020}\n}\n"
     },
     "tsi-wikimedqa-medwiki": {
         "Unique Dataset Identifier": "tsi-wikimedqa-medwiki",
@@ -19037,7 +19252,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Sileo2023GeneratingMQ,\n author = {Damien Sileo and Kanimozhi Uma and M. Moens},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Generating multiple-choice questions for medical question answering with distractors and cue-masking},\n volume = {abs/2303.07069},\n year = {2023}\n}\n"
     },
     "tsi-cicero": {
         "Unique Dataset Identifier": "tsi-cicero",
@@ -19135,7 +19351,8 @@
             "MuTual dataset",
             "DREAM dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Ghosal2022CICEROAD,\n author = {Deepanway Ghosal and Siqi Shen and Navonil Majumder and Rada Mihalcea and Soujanya Poria},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {5010-5028},\n title = {CICERO: A Dataset for Contextualized Commonsense Inference in Dialogues},\n year = {2022}\n}\n"
     },
     "tsi-mutual": {
         "Unique Dataset Identifier": "tsi-mutual",
@@ -19220,7 +19437,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Cui2020MuTualAD,\n author = {Leyang Cui and Yu Wu and Shujie Liu and Yue Zhang and Ming Zhou},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {MuTual: A Dataset for Multi-Turn Dialogue Reasoning},\n volume = {abs/2004.04494},\n year = {2020}\n}\n"
     },
     "tsi-neqa": {
         "Unique Dataset Identifier": "tsi-neqa",
@@ -19300,7 +19518,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-quote_repetition": {
         "Unique Dataset Identifier": "tsi-quote_repetition",
@@ -19380,7 +19599,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-redefine_math": {
         "Unique Dataset Identifier": "tsi-redefine_math",
@@ -19458,7 +19678,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-puzzte": {
         "Unique Dataset Identifier": "tsi-puzzte",
@@ -19543,7 +19764,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Szomiu2021APD,\n author = {Roxana Szomiu and Adrian Groza},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {A Puzzle-Based Dataset for Natural Language Inference},\n volume = {abs/2112.05742},\n year = {2021}\n}\n"
     },
     "tsi-implicatures": {
         "Unique Dataset Identifier": "tsi-implicatures",
@@ -19630,7 +19852,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{George2019ConversationalII,\n author = {Elizabeth Jasmi George and R. Mamidi},\n booktitle = {Procedia Computer Science},\n journal = {ArXiv},\n title = {Conversational implicatures in English dialogue: Annotated dataset},\n volume = {abs/1911.10704},\n year = {2019}\n}\n"
     },
     "tsi-race_c": {
         "Unique Dataset Identifier": "tsi-race_c",
@@ -19711,7 +19934,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Liang2019ANM,\n author = {Yinlong Liang and Jianheng Li and Jian Yin},\n booktitle = {Asian Conference on Machine Learning},\n pages = {742-757},\n title = {A New Multi-choice Reading Comprehension Dataset for Curriculum Learning},\n year = {2019}\n}\n"
     },
     "tsi-spartqa_yn": {
         "Unique Dataset Identifier": "tsi-spartqa_yn",
@@ -19797,7 +20021,8 @@
         "Derived from Datasets": [
             "NLVR dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Mirzaee2021SPARTQAAT,\n author = {Roshanak Mirzaee and Hossein Rajaby Faghihi and Qiang Ning and Parisa Kordjmashidi},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {SPARTQA: A Textual Question Answering Benchmark for Spatial Reasoning},\n volume = {abs/2104.05832},\n year = {2021}\n}\n"
     },
     "tsi-spartqa_mchoice": {
         "Unique Dataset Identifier": "tsi-spartqa_mchoice",
@@ -19882,7 +20107,8 @@
         "Derived from Datasets": [
             "NLVR dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Mirzaee2021SPARTQAAT,\n author = {Roshanak Mirzaee and Hossein Rajaby Faghihi and Qiang Ning and Parisa Kordjmashidi},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {SPARTQA: A Textual Question Answering Benchmark for Spatial Reasoning},\n volume = {abs/2104.05832},\n year = {2021}\n}\n"
     },
     "tsi-temporal_nli": {
         "Unique Dataset Identifier": "tsi-temporal_nli",
@@ -19968,7 +20194,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Thukral2021ProbingLM,\n author = {Shivin Thukral and Kunal Kukreja and Christian Kavouras},\n booktitle = {BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP},\n pages = {396-406},\n title = {Probing Language Models for Understanding of Temporal Expressions},\n year = {2021}\n}\n"
     },
     "tsi-riddle_sense": {
         "Unique Dataset Identifier": "tsi-riddle_sense",
@@ -20052,7 +20279,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Lin2021RiddleSenseRA,\n author = {Bill Yuchen Lin and Ziyi Wu and Yichi Yang and Dong-Ho Lee and Xiang Ren},\n booktitle = {Findings},\n pages = {1504-1515},\n title = {RiddleSense: Reasoning about Riddle Questions Featuring Linguistic Creativity and Commonsense Knowledge},\n year = {2021}\n}\n"
     },
     "tsi-clcd_english": {
         "Unique Dataset Identifier": "tsi-clcd_english",
@@ -20139,7 +20367,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Salvatore2019ALC,\n author = {Felipe Salvatore and M. Finger and R. Hirata},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {22-30},\n title = {A logical-based corpus for cross-lingual evaluation},\n year = {2019}\n}\n"
     },
     "tsi-twentyquestions": {
         "Unique Dataset Identifier": "tsi-twentyquestions",
@@ -20223,7 +20452,8 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-reclor": {
         "Unique Dataset Identifier": "tsi-reclor",
@@ -20309,7 +20539,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Yu2020ReClorAR,\n author = {Weihao Yu and Zihang Jiang and Yanfei Dong and Jiashi Feng},\n booktitle = {International Conference on Learning Representations},\n journal = {ArXiv},\n title = {ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning},\n volume = {abs/2002.04326},\n year = {2020}\n}\n"
     },
     "tsi-counterfactually_augmented_imdb": {
         "Unique Dataset Identifier": "tsi-counterfactually_augmented_imdb",
@@ -20401,7 +20632,8 @@
             "imdb",
             "snli"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kaushik2019LearningTD,\n author = {Divyansh Kaushik and E. Hovy and Zachary Chase Lipton},\n booktitle = {International Conference on Learning Representations},\n journal = {ArXiv},\n title = {Learning the Difference that Makes a Difference with Counterfactually-Augmented Data},\n volume = {abs/1909.12434},\n year = {2019}\n}\n"
     },
     "tsi-counterfactually_augmented_snli": {
         "Unique Dataset Identifier": "tsi-counterfactually_augmented_snli",
@@ -20489,7 +20721,8 @@
             "imdb",
             "snli"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kaushik2019LearningTD,\n author = {Divyansh Kaushik and E. Hovy and Zachary Chase Lipton},\n booktitle = {International Conference on Learning Representations},\n journal = {ArXiv},\n title = {Learning the Difference that Makes a Difference with Counterfactually-Augmented Data},\n volume = {abs/1909.12434},\n year = {2019}\n}\n"
     },
     "tsi-cnli": {
         "Unique Dataset Identifier": "tsi-cnli",
@@ -20573,7 +20806,8 @@
         "Derived from Datasets": [
             "SNLI"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Huang2020CounterfactuallyAugmentedST,\n author = {William Huang and Haokun Liu and Samuel R. Bowman},\n booktitle = {First Workshop on Insights from Negative Results in NLP},\n pages = {82-87},\n title = {Counterfactually-Augmented SNLI Training Data Does Not Yield Better Generalization Than Unaugmented Data},\n year = {2020}\n}\n"
     },
     "tsi-boolq_natural_perturbations": {
         "Unique Dataset Identifier": "tsi-boolq_natural_perturbations",
@@ -20656,7 +20890,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Khashabi2020NaturalPF,\n author = {Daniel Khashabi and Tushar Khot and Ashish Sabharwal},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Natural Perturbation for Robust Question Answering},\n volume = {abs/2004.04849},\n year = {2020}\n}\n"
     },
     "tsi-equate": {
         "Unique Dataset Identifier": "tsi-equate",
@@ -20750,7 +20985,8 @@
             "StressTest",
             "AwpNLI"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Ravichander2019EQUATEAB,\n author = {Abhilasha Ravichander and Aakanksha Naik and C. Rosé and E. Hovy},\n booktitle = {Conference on Computational Natural Language Learning},\n pages = {349-361},\n title = {EQUATE: A Benchmark Evaluation Framework for Quantitative Reasoning in Natural Language Inference},\n year = {2019}\n}\n"
     },
     "tsi-scienceqa_text_only": {
         "Unique Dataset Identifier": "tsi-scienceqa_text_only",
@@ -20831,7 +21067,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Saikh2022ScienceQAAN,\n author = {Tanik Saikh and Tirthankar Ghosal and Amish Mittal and Asif Ekbal and P. Bhattacharyya},\n booktitle = {International Journal on Digital Libraries},\n journal = {International Journal on Digital Libraries},\n pages = {289 - 301},\n title = {ScienceQA: a novel resource for question answering on scholarly articles},\n volume = {23},\n year = {2022}\n}\n"
     },
     "tsi-ekar_english": {
         "Unique Dataset Identifier": "tsi-ekar_english",
@@ -20922,7 +21159,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Chen2022EKARAB,\n author = {Jiangjie Chen and Rui Xu and Ziquan Fu and Wei Shi and Zhongqiao Li and Xinbo Zhang and Changzhi Sun and Lei Li and Yanghua Xiao and Hao Zhou},\n booktitle = {Findings},\n journal = {ArXiv},\n title = {E-KAR: A Benchmark for Rationalizing Natural Language Analogical Reasoning},\n volume = {abs/2203.08480},\n year = {2022}\n}\n"
     },
     "tsi-implicit_hate_stg1": {
         "Unique Dataset Identifier": "tsi-implicit_hate_stg1",
@@ -21005,7 +21243,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Elsherief2021LatentHA,\n author = {Mai Elsherief and Caleb Ziems and D. Muchlinski and Vaishnavi Anupindi and Jordyn Seybolt and M. Choudhury and Diyi Yang},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {345-363},\n title = {Latent Hatred: A Benchmark for Understanding Implicit Hate Speech},\n year = {2021}\n}\n"
     },
     "tsi-logiqa_2.0_nli": {
         "Unique Dataset Identifier": "tsi-logiqa_2.0_nli",
@@ -21088,7 +21327,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Liu2020LogiQAAC,\n author = {Jian Liu and Leyang Cui and Hanmeng Liu and Dandan Huang and Yile Wang and Yue Zhang},\n booktitle = {International Joint Conference on Artificial Intelligence},\n journal = {ArXiv},\n title = {LogiQA: A Challenge Dataset for Machine Reading Comprehension with Logical Reasoning},\n volume = {abs/2007.08124},\n year = {2020}\n}\n"
     },
     "tsi-pararule_plus": {
         "Unique Dataset Identifier": "tsi-pararule_plus",
@@ -21172,7 +21412,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Bao2022MultiStepDR,\n author = {Qiming Bao and A. Peng and Tim Hartill and N. Tan and Zhenyun Deng and M. Witbrock and Jiamou Liu},\n booktitle = {International Workshop on Neural-Symbolic Learning and Reasoning},\n journal = {ArXiv},\n title = {Multi-Step Deductive Reasoning Over Natural Language: An Empirical Study on Out-of-Distribution Generalisation},\n volume = {abs/2207.14000},\n year = {2022}\n}\n"
     },
     "tsi-mindgames": {
         "Unique Dataset Identifier": "tsi-mindgames",
@@ -21277,7 +21518,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Sileo2023MindGamesTT,\n author = {Damien Sileo and Antoine Lernould},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {MindGames: Targeting Theory of Mind in Large Language Models with Dynamic Epistemic Modal Logic},\n volume = {abs/2305.03353},\n year = {2023}\n}\n"
     },
     "tsi-universal_dependencies-en_partut-deprel": {
         "Unique Dataset Identifier": "tsi-universal_dependencies-en_partut-deprel",
@@ -21371,7 +21613,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Nivre2016UniversalDV,\n author = {Joakim Nivre and M. Marneffe and Filip Ginter and Yoav Goldberg and Jan Hajic and Christopher D. Manning and Ryan T. McDonald and Slav Petrov and Sampo Pyysalo and Natalia Silveira and Reut Tsarfaty and Daniel Zeman},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {1659-1666},\n title = {Universal Dependencies v1: A Multilingual Treebank Collection},\n year = {2016}\n}\n"
     },
     "tsi-universal_dependencies-en_lines-deprel": {
         "Unique Dataset Identifier": "tsi-universal_dependencies-en_lines-deprel",
@@ -21465,7 +21708,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Nivre2016UniversalDV,\n author = {Joakim Nivre and M. Marneffe and Filip Ginter and Yoav Goldberg and Jan Hajic and Christopher D. Manning and Ryan T. McDonald and Slav Petrov and Sampo Pyysalo and Natalia Silveira and Reut Tsarfaty and Daniel Zeman},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {1659-1666},\n title = {Universal Dependencies v1: A Multilingual Treebank Collection},\n year = {2016}\n}\n"
     },
     "tsi-universal_dependencies-en_gum-deprel": {
         "Unique Dataset Identifier": "tsi-universal_dependencies-en_gum-deprel",
@@ -21562,7 +21806,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Nivre2016UniversalDV,\n author = {Joakim Nivre and M. Marneffe and Filip Ginter and Yoav Goldberg and Jan Hajic and Christopher D. Manning and Ryan T. McDonald and Slav Petrov and Sampo Pyysalo and Natalia Silveira and Reut Tsarfaty and Daniel Zeman},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {1659-1666},\n title = {Universal Dependencies v1: A Multilingual Treebank Collection},\n year = {2016}\n}\n"
     },
     "tsi-universal_dependencies-en_ewt-deprel": {
         "Unique Dataset Identifier": "tsi-universal_dependencies-en_ewt-deprel",
@@ -21658,7 +21903,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Nivre2016UniversalDV,\n author = {Joakim Nivre and M. Marneffe and Filip Ginter and Yoav Goldberg and Jan Hajic and Christopher D. Manning and Ryan T. McDonald and Slav Petrov and Sampo Pyysalo and Natalia Silveira and Reut Tsarfaty and Daniel Zeman},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {1659-1666},\n title = {Universal Dependencies v1: A Multilingual Treebank Collection},\n year = {2016}\n}\n"
     },
     "tsi-ambient": {
         "Unique Dataset Identifier": "tsi-ambient",
@@ -21770,7 +22016,8 @@
             "MNLI",
             "WaNLI"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Liu2023WereAL,\n author = {Alisa Liu and Zhaofeng Wu and Julian Michael and Alane Suhr and Peter West and Alexander Koller and Swabha Swayamdipta and Noah A. Smith and Yejin Choi},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {We're Afraid Language Models Aren't Modeling Ambiguity},\n volume = {abs/2304.14399},\n year = {2023}\n}\n"
     },
     "tsi-path_naturalness_prediction": {
         "Unique Dataset Identifier": "tsi-path_naturalness_prediction",
@@ -21865,7 +22112,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Zhou2019PredictingCP,\n author = {Yilun Zhou and Steven Schockaert and J. Shah},\n booktitle = {The Web Conference},\n journal = {The World Wide Web Conference},\n title = {Predicting ConceptNet Path Quality Using Crowdsourced Assessments of Naturalness},\n year = {2019}\n}\n"
     },
     "tsi-cloth": {
         "Unique Dataset Identifier": "tsi-cloth",
@@ -21951,7 +22199,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Xie2017LargescaleCT,\n author = {Qizhe Xie and Guokun Lai and Zihang Dai and E. Hovy},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {2344-2356},\n title = {Large-scale Cloze Test Dataset Created by Teachers},\n year = {2017}\n}\n"
     },
     "tsi-dgen": {
         "Unique Dataset Identifier": "tsi-dgen",
@@ -22036,7 +22285,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "tsi-oasst1_pairwise_rlhf_reward": {
         "Unique Dataset Identifier": "tsi-oasst1_pairwise_rlhf_reward",
@@ -22116,7 +22366,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     },
     "tsi-i2d2": {
         "Unique Dataset Identifier": "tsi-i2d2",
@@ -22208,7 +22459,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Bhagavatula2022I2D2IK,\n author = {Chandra Bhagavatula and Jena D. Hwang and Doug Downey and Ronan Le Bras and Ximing Lu and Keisuke Sakaguchi and Swabha Swayamdipta and Peter West and Yejin Choi},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {9614-9630},\n title = {I2D2: Inductive Knowledge Distillation with NeuroLogic and Self-Imitation},\n year = {2022}\n}\n"
     },
     "tsi-args_me": {
         "Unique Dataset Identifier": "tsi-args_me",
@@ -22297,7 +22549,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Ajjour2019DataAF,\n author = {Yamen Ajjour and Henning Wachsmuth and Johannes Kiesel and Martin Potthast and Matthias Hagen and Benno Stein},\n booktitle = {Deutsche Jahrestagung für Künstliche Intelligenz},\n pages = {48-59},\n title = {Data Acquisition for Argument Search: The args.me Corpus},\n year = {2019}\n}\n"
     },
     "tsi-touche23_valueeval": {
         "Unique Dataset Identifier": "tsi-touche23_valueeval",
@@ -22399,7 +22652,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Mirzakhmedova2023TheTD,\n author = {Nailia Mirzakhmedova and Johannes Kiesel and Milad Alshomary and Maximilian Heinrich and Nicolas Handke and Xiaoni Cai and Barriere Valentin and D. Dastgheib and Omid Ghahroodi and Mohammad Ali Sadraei and Ehsaneddin Asgari and Lea Kawaletz and Henning Wachsmuth and Benno Stein},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {The Touché23-ValueEval Dataset for Identifying Human Values behind Arguments},\n volume = {abs/2301.13771},\n year = {2023}\n}\n"
     },
     "tsi-starcon": {
         "Unique Dataset Identifier": "tsi-starcon",
@@ -22486,7 +22740,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kobbe2020UnsupervisedSD,\n author = {J. Kobbe and Ioana Hulpus and H. Stuckenschmidt},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {50-60},\n title = {Unsupervised Stance Detection for Arguments from Consequences},\n year = {2020}\n}\n"
     },
     "tsi-banking77": {
         "Unique Dataset Identifier": "tsi-banking77",
@@ -22571,7 +22826,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Casanueva2020EfficientID,\n author = {I. Casanueva and Tadas Temvcinas and D. Gerz and Matthew Henderson and Ivan Vulic},\n booktitle = {NLP4CONVAI},\n journal = {ArXiv},\n title = {Efficient Intent Detection with Dual Sentence Encoders},\n volume = {abs/2003.04807},\n year = {2020}\n}\n"
     },
     "tsi-ruletaker": {
         "Unique Dataset Identifier": "tsi-ruletaker",
@@ -22658,7 +22914,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Clark2020TransformersAS,\n author = {Peter Clark and Oyvind Tafjord and Kyle Richardson},\n booktitle = {International Joint Conference on Artificial Intelligence},\n pages = {3882-3890},\n title = {Transformers as Soft Reasoners over Language},\n year = {2020}\n}\n"
     },
     "tsi-lsat_qa-all": {
         "Unique Dataset Identifier": "tsi-lsat_qa-all",
@@ -22745,7 +23002,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wang2021FromLT,\n author = {Siyuan Wang and Zhongkun Liu and Wanjun Zhong and Ming Zhou and Zhongyu Wei and Zhumin Chen and Nan Duan},\n booktitle = {IEEE/ACM Transactions on Audio Speech and Language Processing},\n journal = {IEEE/ACM Transactions on Audio, Speech, and Language Processing},\n pages = {2201-2216},\n title = {From LSAT: The Progress and Challenges of Complex Reasoning},\n volume = {30},\n year = {2021}\n}\n"
     },
     "tsi-control_nli": {
         "Unique Dataset Identifier": "tsi-control_nli",
@@ -22834,7 +23092,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Liu2020NaturalLI,\n author = {Hanmeng Liu and Leyang Cui and Jian Liu and Yue Zhang},\n booktitle = {AAAI Conference on Artificial Intelligence},\n pages = {13388-13396},\n title = {Natural Language Inference in Context - Investigating Contextual Reasoning over Long Texts},\n year = {2020}\n}\n"
     },
     "tsi-tracie": {
         "Unique Dataset Identifier": "tsi-tracie",
@@ -22921,7 +23180,8 @@
         "Derived from Datasets": [
             "ROCStories dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Zhou2020TemporalRO,\n author = {Ben Zhou and Kyle Richardson and Qiang Ning and Tushar Khot and Ashish Sabharwal and D. Roth},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Temporal Reasoning on Implicit Events from Distant Supervision},\n volume = {abs/2010.12753},\n year = {2020}\n}\n"
     },
     "tsi-sherliic": {
         "Unique Dataset Identifier": "tsi-sherliic",
@@ -23009,7 +23269,8 @@
         "Derived from Datasets": [
             "ClueWeb09"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Schmitt2019SherLIiCAT,\n author = {Martin Schmitt and Hinrich Schütze},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {902-914},\n title = {SherLIiC: A Typed Event-Focused Lexical Inference Benchmark for Evaluating Natural Language Inference},\n year = {2019}\n}\n"
     },
     "tsi-sen_making-1": {
         "Unique Dataset Identifier": "tsi-sen_making-1",
@@ -23094,7 +23355,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Wang2019DoesIM,\n author = {Cunxiang Wang and Shuailong Liang and Yue Zhang and Xiaonan Li and Tian Gao},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Does it Make Sense? And Why? A Pilot Study for Sense Making and Explanation},\n volume = {abs/1906.00363},\n year = {2019}\n}\n"
     },
     "tsi-sen_making-2": {
         "Unique Dataset Identifier": "tsi-sen_making-2",
@@ -23181,7 +23443,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Wang2019DoesIM,\n author = {Cunxiang Wang and Shuailong Liang and Yue Zhang and Xiaonan Li and Tian Gao},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Does it Make Sense? And Why? A Pilot Study for Sense Making and Explanation},\n volume = {abs/1906.00363},\n year = {2019}\n}\n"
     },
     "tsi-winowhy": {
         "Unique Dataset Identifier": "tsi-winowhy",
@@ -23270,7 +23533,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Zhang2020WinoWhyAD,\n author = {Hongming Zhang and Xinran Zhao and Yangqiu Song},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {5736-5745},\n title = {WinoWhy: A Deep Diagnosis of Essential Commonsense Knowledge for Answering Winograd Schema Challenge},\n year = {2020}\n}\n"
     },
     "tsi-mbib_base-cognitive_bias": {
         "Unique Dataset Identifier": "tsi-mbib_base-cognitive_bias",
@@ -23359,7 +23623,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wessel2023IntroducingM,\n author = {M. Wessel and Tom'avs Horych and Terry Ruas and Akiko Aizawa and Bela Gipp and Timo Spinde},\n booktitle = {Annual International ACM SIGIR Conference on Research and Development in Information Retrieval},\n journal = {Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval},\n title = {Introducing MBIB - The First Media Bias Identification Benchmark Task and Dataset Collection},\n year = {2023}\n}\n"
     },
     "tsi-mbib_base-fake_news": {
         "Unique Dataset Identifier": "tsi-mbib_base-fake_news",
@@ -23448,7 +23713,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wessel2023IntroducingM,\n author = {M. Wessel and Tom'avs Horych and Terry Ruas and Akiko Aizawa and Bela Gipp and Timo Spinde},\n booktitle = {Annual International ACM SIGIR Conference on Research and Development in Information Retrieval},\n journal = {Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval},\n title = {Introducing MBIB - The First Media Bias Identification Benchmark Task and Dataset Collection},\n year = {2023}\n}\n"
     },
     "tsi-mbib_base-gender_bias": {
         "Unique Dataset Identifier": "tsi-mbib_base-gender_bias",
@@ -23539,7 +23805,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wessel2023IntroducingM,\n author = {M. Wessel and Tom'avs Horych and Terry Ruas and Akiko Aizawa and Bela Gipp and Timo Spinde},\n booktitle = {Annual International ACM SIGIR Conference on Research and Development in Information Retrieval},\n journal = {Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval},\n title = {Introducing MBIB - The First Media Bias Identification Benchmark Task and Dataset Collection},\n year = {2023}\n}\n"
     },
     "tsi-mbib_base-hate_speech": {
         "Unique Dataset Identifier": "tsi-mbib_base-hate_speech",
@@ -23629,7 +23896,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wessel2023IntroducingM,\n author = {M. Wessel and Tom'avs Horych and Terry Ruas and Akiko Aizawa and Bela Gipp and Timo Spinde},\n booktitle = {Annual International ACM SIGIR Conference on Research and Development in Information Retrieval},\n journal = {Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval},\n title = {Introducing MBIB - The First Media Bias Identification Benchmark Task and Dataset Collection},\n year = {2023}\n}\n"
     },
     "tsi-mbib_base-linguistic_bias": {
         "Unique Dataset Identifier": "tsi-mbib_base-linguistic_bias",
@@ -23718,7 +23986,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wessel2023IntroducingM,\n author = {M. Wessel and Tom'avs Horych and Terry Ruas and Akiko Aizawa and Bela Gipp and Timo Spinde},\n booktitle = {Annual International ACM SIGIR Conference on Research and Development in Information Retrieval},\n journal = {Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval},\n title = {Introducing MBIB - The First Media Bias Identification Benchmark Task and Dataset Collection},\n year = {2023}\n}\n"
     },
     "tsi-mbib_base-political_bias": {
         "Unique Dataset Identifier": "tsi-mbib_base-political_bias",
@@ -23808,7 +24077,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wessel2023IntroducingM,\n author = {M. Wessel and Tom'avs Horych and Terry Ruas and Akiko Aizawa and Bela Gipp and Timo Spinde},\n booktitle = {Annual International ACM SIGIR Conference on Research and Development in Information Retrieval},\n journal = {Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval},\n title = {Introducing MBIB - The First Media Bias Identification Benchmark Task and Dataset Collection},\n year = {2023}\n}\n"
     },
     "tsi-mbib_base-racial_bias": {
         "Unique Dataset Identifier": "tsi-mbib_base-racial_bias",
@@ -23897,7 +24167,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wessel2023IntroducingM,\n author = {M. Wessel and Tom'avs Horych and Terry Ruas and Akiko Aizawa and Bela Gipp and Timo Spinde},\n booktitle = {Annual International ACM SIGIR Conference on Research and Development in Information Retrieval},\n journal = {Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval},\n title = {Introducing MBIB - The First Media Bias Identification Benchmark Task and Dataset Collection},\n year = {2023}\n}\n"
     },
     "tsi-mbib_base-text_level_bias": {
         "Unique Dataset Identifier": "tsi-mbib_base-text_level_bias",
@@ -23989,7 +24260,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Wessel2023IntroducingM,\n author = {M. Wessel and Tom'avs Horych and Terry Ruas and Akiko Aizawa and Bela Gipp and Timo Spinde},\n booktitle = {Annual International ACM SIGIR Conference on Research and Development in Information Retrieval},\n journal = {Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval},\n title = {Introducing MBIB - The First Media Bias Identification Benchmark Task and Dataset Collection},\n year = {2023}\n}\n"
     },
     "tsi-robustlr": {
         "Unique Dataset Identifier": "tsi-robustlr",
@@ -24076,7 +24348,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "tsi-v1-gen_train234_test2to10": {
         "Unique Dataset Identifier": "tsi-v1-gen_train234_test2to10",
@@ -24166,7 +24439,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "tsi-logical_fallacy": {
         "Unique Dataset Identifier": "tsi-logical_fallacy",
@@ -24257,7 +24531,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Jin2022LogicalFD,\n author = {Zhijing Jin and Abhinav Lalwani and Tejas Vaidhya and Xiaoyu Shen and Yiwen Ding and Zhiheng Lyu and Mrinmaya Sachan and Rada Mihalcea and B. Scholkopf},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {Logical Fallacy Detection},\n volume = {abs/2202.13758},\n year = {2022}\n}\n"
     },
     "tsi-parade": {
         "Unique Dataset Identifier": "tsi-parade",
@@ -24340,7 +24615,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{He2020PARADEAN,\n author = {Yun He and Zhuoer Wang and Yin Zhang and Ruihong Huang and James Caverlee},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {PARADE: A New Dataset for Paraphrase Identification Requiring Computer Science Domain Knowledge},\n volume = {abs/2010.03725},\n year = {2020}\n}\n"
     },
     "tsi-cladder": {
         "Unique Dataset Identifier": "tsi-cladder",
@@ -24420,7 +24696,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     },
     "tsi-subjectivity": {
         "Unique Dataset Identifier": "tsi-subjectivity",
@@ -24513,7 +24790,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Antici2023ACF,\n author = {Francesco Antici and Andrea Galassi and Federico Ruggeri and Katerina Korre and Arianna Muti and Alessandra Bardi and Alice Fedotova and A. Barr'on-Cedeno},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {A Corpus for Sentence-level Subjectivity Detection on English News Articles},\n volume = {abs/2305.18034},\n year = {2023}\n}\n"
     },
     "tsi-moh": {
         "Unique Dataset Identifier": "tsi-moh",
@@ -24602,7 +24880,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Mohammad2016MetaphorAA,\n author = {Saif M. Mohammad and Ekaterina Shutova and Peter D. Turney},\n booktitle = {International Workshop on Semantic Evaluation},\n pages = {23-33},\n title = {Metaphor as a Medium for Emotion: An Empirical Study},\n year = {2016}\n}\n"
     },
     "tsi-vuac": {
         "Unique Dataset Identifier": "tsi-vuac",
@@ -24686,7 +24965,8 @@
             "GitHub Topics": []
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Inproceedings{Steen2010AMF,\n author = {G. Steen},\n title = {A method for linguistic metaphor identification : from MIP to MIPVU},\n year = {2010}\n}\n"
     },
     "tsi-trofi": {
         "Unique Dataset Identifier": "tsi-trofi",
@@ -24777,7 +25057,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Birke2007ActiveLF,\n author = {Julia Birke and Anoop Sarkar},\n booktitle = {Proceedings of the Workshop on Computational Approaches to Figurative Language - FigLanguages '07},\n journal = {Proceedings of the Workshop on Computational Approaches to Figurative Language - FigLanguages '07},\n title = {Active Learning for the Identification of Nonliteral Language},\n year = {2007}\n}\n"
     },
     "tsi-sharc_modified-mod": {
         "Unique Dataset Identifier": "tsi-sharc_modified-mod",
@@ -24864,7 +25145,8 @@
         "Derived from Datasets": [
             "ShARC"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Lamm2020QEDAF,\n author = {Matthew Lamm and J. Palomaki and Chris Alberti and D. Andor and Eunsol Choi and Livio Baldini Soares and Michael Collins},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {790-806},\n title = {QED: A Framework and Dataset for Explanations in Question Answering},\n volume = {9},\n year = {2020}\n}\n"
     },
     "tsi-conceptrules_v2": {
         "Unique Dataset Identifier": "tsi-conceptrules_v2",
@@ -24950,7 +25232,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Article{Bao2022MultiStepDR,\n author = {Qiming Bao and A. Peng and Tim Hartill and N. Tan and Zhenyun Deng and M. Witbrock and Jiamou Liu},\n booktitle = {International Workshop on Neural-Symbolic Learning and Reasoning},\n journal = {ArXiv},\n title = {Multi-Step Deductive Reasoning Over Natural Language: An Empirical Study on Out-of-Distribution Generalisation},\n volume = {abs/2207.14000},\n year = {2022}\n}\n"
     },
     "tsi-disrpt-eng.dep.scidtb": {
         "Unique Dataset Identifier": "tsi-disrpt-eng.dep.scidtb",
@@ -25032,7 +25315,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Yang2018SciDTBDD,\n author = {An Yang and Sujian Li},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {444-449},\n title = {SciDTB: Discourse Dependency TreeBank for Scientific Abstracts},\n year = {2018}\n}\n"
     },
     "tsi-conll2000": {
         "Unique Dataset Identifier": "tsi-conll2000",
@@ -25120,7 +25404,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Sang2000IntroductionTT,\n author = {E. T. K. Sang and S. Buchholz},\n booktitle = {CoNLL/LLL},\n journal = {ArXiv},\n title = {Introduction to the CoNLL-2000 Shared Task Chunking},\n volume = {cs.CL/0009008},\n year = {2000}\n}\n"
     },
     "tsi-few_nerd-supervised": {
         "Unique Dataset Identifier": "tsi-few_nerd-supervised",
@@ -25209,7 +25494,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Ding2021FewNERDAF,\n author = {Ning Ding and Guangwei Xu and Yulin Chen and Xiaobin Wang and Xu Han and Pengjun Xie and Haitao Zheng and Zhiyuan Liu},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Few-NERD: A Few-shot Named Entity Recognition Dataset},\n volume = {abs/2105.07464},\n year = {2021}\n}\n"
     },
     "tsi-zero_shot_label_nli": {
         "Unique Dataset Identifier": "tsi-zero_shot_label_nli",
@@ -25313,7 +25599,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": "@Inproceedings{Sileo2023tasksourceAD,\n author = {Damien Sileo},\n title = {tasksource: A Dataset Harmonization Framework for Streamlined NLP Multi-Task Learning and Evaluation},\n year = {2023}\n}\n"
     },
     "tsi-com2sense": {
         "Unique Dataset Identifier": "tsi-com2sense",
@@ -25402,6 +25689,7 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Singh2021COM2SENSEAC,\n author = {Shikhar Singh and Nuan Wen and Yu Hou and Pegah Alipoormolabashi and Te-Lin Wu and Xuezhe Ma and Nanyun Peng},\n booktitle = {Findings},\n pages = {883-898},\n title = {COM2SENSE: A Commonsense Reasoning Benchmark with Complementary Sentences},\n year = {2021}\n}\n"
     }
 }

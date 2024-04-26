@@ -104,7 +104,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_abstract_infill": {
         "Unique Dataset Identifier": "oig-unified_abstract_infill",
@@ -197,7 +198,8 @@
         "Derived from Datasets": [
             "MS Marco retrieval corpus"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "oig-unified_unnatural_instructions": {
         "Unique Dataset Identifier": "oig-unified_unnatural_instructions",
@@ -289,7 +291,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "oig-unified_mathqa_flanv2_kojma_cot": {
         "Unique Dataset Identifier": "oig-unified_mathqa_flanv2_kojma_cot",
@@ -380,7 +383,8 @@
         "Derived from Datasets": [
             "AQuA dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "oig-unified_poetry_instructions": {
         "Unique Dataset Identifier": "oig-unified_poetry_instructions",
@@ -466,7 +470,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_poetry_2_song": {
         "Unique Dataset Identifier": "oig-unified_poetry_2_song",
@@ -552,7 +557,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_ul2_plus_oscar_en_sample_dialog": {
         "Unique Dataset Identifier": "oig-unified_ul2_plus_oscar_en_sample_dialog",
@@ -633,7 +639,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_multi_news": {
         "Unique Dataset Identifier": "oig-unified_multi_news",
@@ -718,7 +725,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "oig-unified_rallio_safety_and_prosocial": {
         "Unique Dataset Identifier": "oig-unified_rallio_safety_and_prosocial",
@@ -802,7 +810,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_oscar_en_sample_dialog": {
         "Unique Dataset Identifier": "oig-unified_oscar_en_sample_dialog",
@@ -887,7 +896,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_grade_school_math_instructions": {
         "Unique Dataset Identifier": "oig-unified_grade_school_math_instructions",
@@ -974,7 +984,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "oig-unified_sqlv2": {
         "Unique Dataset Identifier": "oig-unified_sqlv2",
@@ -1071,7 +1082,8 @@
             "SPARC",
             "COSQL"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_chip2": {
         "Unique Dataset Identifier": "oig-unified_chip2",
@@ -1168,7 +1180,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_nq": {
         "Unique Dataset Identifier": "oig-unified_nq",
@@ -1251,7 +1264,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_joke_explanations": {
         "Unique Dataset Identifier": "oig-unified_joke_explanations",
@@ -1334,7 +1348,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_openai_summarize_tldr": {
         "Unique Dataset Identifier": "oig-unified_openai_summarize_tldr",
@@ -1419,7 +1434,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_unifiedskg_instructions": {
         "Unique Dataset Identifier": "oig-unified_unifiedskg_instructions",
@@ -1540,7 +1556,8 @@
             "SQL2Text",
             "Logic2Text"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "oig-unified_sqlv1": {
         "Unique Dataset Identifier": "oig-unified_sqlv1",
@@ -1637,7 +1654,8 @@
             "SPARC",
             "COSQL"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_canadian_parliament": {
         "Unique Dataset Identifier": "oig-unified_canadian_parliament",
@@ -1716,7 +1734,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_plot_screenplay_books_dialog": {
         "Unique Dataset Identifier": "oig-unified_plot_screenplay_books_dialog",
@@ -1801,7 +1820,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_essays": {
         "Unique Dataset Identifier": "oig-unified_essays",
@@ -1887,7 +1907,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_conv_finqa": {
         "Unique Dataset Identifier": "oig-unified_conv_finqa",
@@ -1978,7 +1999,8 @@
         "Derived from Datasets": [
             "FinQA"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "oig-unified_hc3_human": {
         "Unique Dataset Identifier": "oig-unified_hc3_human",
@@ -2093,7 +2115,8 @@
             "LegalQA dataset",
             "FinanceZhidao dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "oig-unified_cuad": {
         "Unique Dataset Identifier": "oig-unified_cuad",
@@ -2179,7 +2202,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "oig-unified_squad_v2_more_neg": {
         "Unique Dataset Identifier": "oig-unified_squad_v2_more_neg",
@@ -2265,7 +2289,8 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "oig-unified_squad_v2": {
         "Unique Dataset Identifier": "oig-unified_squad_v2",
@@ -2351,6 +2376,7 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     }
 }

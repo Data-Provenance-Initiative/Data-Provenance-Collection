@@ -99,7 +99,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     },
     "oasst-es": {
         "Unique Dataset Identifier": "oasst-es",
@@ -192,7 +193,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     },
     "oasst-ru": {
         "Unique Dataset Identifier": "oasst-ru",
@@ -285,7 +287,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     },
     "oasst-zh": {
         "Unique Dataset Identifier": "oasst-zh",
@@ -378,7 +381,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     },
     "oasst-de": {
         "Unique Dataset Identifier": "oasst-de",
@@ -471,7 +475,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     },
     "oasst-fr": {
         "Unique Dataset Identifier": "oasst-fr",
@@ -564,7 +569,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     },
     "oasst-th": {
         "Unique Dataset Identifier": "oasst-th",
@@ -657,7 +663,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     },
     "oasst-pt-br": {
         "Unique Dataset Identifier": "oasst-pt-br",
@@ -750,7 +757,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     },
     "oasst-ca": {
         "Unique Dataset Identifier": "oasst-ca",
@@ -843,7 +851,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     },
     "oasst-uk-ua": {
         "Unique Dataset Identifier": "oasst-uk-ua",
@@ -936,7 +945,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     },
     "oasst-it": {
         "Unique Dataset Identifier": "oasst-it",
@@ -1029,7 +1039,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     },
     "oasst-ja": {
         "Unique Dataset Identifier": "oasst-ja",
@@ -1122,7 +1133,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     },
     "oasst-pl": {
         "Unique Dataset Identifier": "oasst-pl",
@@ -1215,7 +1227,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     },
     "oasst-eu": {
         "Unique Dataset Identifier": "oasst-eu",
@@ -1308,7 +1321,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     },
     "oasst-vi": {
         "Unique Dataset Identifier": "oasst-vi",
@@ -1401,7 +1415,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     },
     "oasst-hu": {
         "Unique Dataset Identifier": "oasst-hu",
@@ -1494,7 +1509,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     },
     "oasst-ar": {
         "Unique Dataset Identifier": "oasst-ar",
@@ -1587,7 +1603,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     },
     "oasst-da": {
         "Unique Dataset Identifier": "oasst-da",
@@ -1680,7 +1697,8 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     },
     "oasst-tr": {
         "Unique Dataset Identifier": "oasst-tr",
@@ -1773,6 +1791,7 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Kopf2023OpenAssistantC,\n author = {Andreas Kopf and Yannic Kilcher and Dimitri von Rutte and Sotiris Anagnostidis and Zhi Rui Tam and K. Stevens and Abdullah Barhoum and Nguyen Minh Duc and Oliver Stanley and Rich'ard Nagyfi and ES Shahul and Sameer Suri and David Glushkov and Arnav Dantuluri and Andrew Maguire and Christoph Schuhmann and Huu Nguyen and A. Mattick},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {OpenAssistant Conversations - Democratizing Large Language Model Alignment},\n volume = {abs/2304.07327},\n year = {2023}\n}\n"
     }
 }

@@ -58,6 +58,7 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "llama2_med_tuned_instructions"
-        ]
+        ],
+        "Bibtex": "@Article{Rohanian2023ExploringTE,\n author = {Omid Rohanian and Mohammadmahdi Nouriborji and David A. Clifton},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Exploring the Effectiveness of Instruction Tuning in Biomedical Language Processing},\n volume = {abs/2401.00579},\n year = {2023}\n}\n"
     }
 }
