@@ -1,0 +1,77 @@
+{
+    "nectar": {
+        "Unique Dataset Identifier": "nectar",
+        "Dataset Name": "nectar",
+        "Paper Title": "Starling-7B: Improving LLM Helpfulness & Harmlessness with RLAIF",
+        "Dataset URL": "https://huggingface.co/datasets/berkeley-nest/Nectar",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/berkeley-nest/Nectar",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "Nectar",
+        "Collection URL": "https://starling.cs.berkeley.edu/",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": ["RLHF"],
+        "Text Sources": [
+            "chat.lmsys.org",
+            "sharegpt.com",
+            "huggingface.co/datasets/Anthropic/hh-rlhf",
+            "huggingface.co/datasets/openbmb/UltraFeedback",
+            "huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k",
+            "huggingface.co/datasets/SirNeural/flan_v2"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo",
+            "OpenAI GPT-3.5-turbo-instruct",
+            "OpenAI GPT-4",
+            "LLama-2-7B-chat",
+            "Mistral-7B-Instruct"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Chain-of-Thought"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "chat.lmsys.org",
+            "sharegpt.com",
+            "huggingface.co/datasets/Anthropic/hh-rlhf",
+            "huggingface.co/datasets/openbmb/UltraFeedback",
+            "huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k",
+            "huggingface.co/datasets/SirNeural/flan_v2"    
+        ],
+        "Creators": [
+            "UC Berkeley"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://huggingface.co/datasets/berkeley-nest/Nectar"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://huggingface.co/datasets/berkeley-nest/Nectar"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/domeccleston/sharegpt/blob/main/license.md"
+            },
+            {
+                "License": "Llama 2",
+                "License URL": "https://github.com/meta-llama/llama/blob/main/LICENSE"
+            },
+            {
+                "License": "Various",
+                "License URL": "https://github.com/google-research/FLAN/tree/main/flan/v2"
+            }
+        ],
+        "License Notes": "FLAN v2 contains large mix of NC and Academic-Only licenses",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "nectar"
+        ]
+    }
+}

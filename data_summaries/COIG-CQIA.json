@@ -1,0 +1,953 @@
+{
+    "coig-cqia-chinese-traditional": {
+        "Unique Dataset Identifier": "coig-cqia-chinese-traditional",
+        "Dataset Name": "COIG-CQIA Chinese Traditional",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2403.18058v1",
+        "Semantic Scholar Corpus ID": "268724242",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Code",
+            "Question Answering",
+            "Named Entity Recognition (NER)",
+            "Textual Entailment/Inference/Reasoning",
+            "Multiple Choice Question Answering",
+            "Sentence Completion",
+            "Basic Instruct",
+            "Sentence Completion",
+            "Chain-of-Thought",
+            "Summarization",
+            "Poem Generation",
+            "Generative Storytelling",
+            "Translation"
+        ],
+        "Text Sources": [
+            "e-snli",
+            "ecqa",
+            "comve",
+            "sbic",
+            "conceptnet",
+            "wikipedia.org",
+            "gre exams",
+            "gmat",
+            "crowdsourced",
+            "control.blog.sina.com.cn",
+            "national college entrance examination",
+            "fiction e-books",
+            "undisclosed web",
+            "poetry",
+            "icrc.hitsz.edu.cn",
+            "chinese math competitions"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "firefly",
+            "https://github.com/yangjianxin1/CPM",
+            "https://github.com/CLUEbenchmark/OCNLI",
+            "https://github.com/CLUEbenchmark/CLUENER2020",
+            "https://github.com/InsaneLife/ChineseNLPCorpus/tree/master/NER/renMinRiBao",
+            "https://github.com/brightmart/nlp_chinese_corpus",
+            "https://github.com/wb14123/couplet-dataset",
+            "https://github.com/zhangsheng93/cMedQA2",
+            "https://github.com/pluto-junzeng/ChineseSquad",
+            "https://github.com/alumik/cail2019",
+            "https://aistudio.baidu.com/datasetdetail/177185",
+            "https://github.com/ymcui/cmrc2018",
+            "https://tianchi.aliyun.com/dataset/9717?spm=a2c22.28136470.0.0.4fa84a0aJiCsLu&from=search-list",
+            "https://modelscope.cn/datasets/lvjianjin/AdvertiseGen/summary",
+            "https://github.com/ydli-ai/CSL",
+            "http://cssci.nju.edu.cn/",
+            "https://github.com/Werneror/Poetry",
+            "https://github.com/yangjianxin1/QQMusicSpider",
+            "https://github.com/NiuTrans/Classical-Modern",
+            "https://github.com/onebula/sighan_raw",
+            "https://github.com/wdimmy/Automatic-Corpus-Generation",
+            "https://github.com/destwang/CTCResources",
+            "https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/yf_dianping/intro.ipynb",
+            "https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/yf_amazon/intro.ipynb",
+            "https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/ChnSentiCorp_htl_all/intro.ipynb",
+            "https://www.luge.ai/#/luge/dataDetail?id=22",
+            "https://github.com/pwxcoo/chinese-xinhua",
+            "https://github.com/yangjianxin1/CPM",
+            "https://github.com/google-research/google-research/tree/master/mbpp",
+            "https://dqwang122.github.io/projects/CNewSum/",
+            "http://home.ustc.edu.cn/~zhouh156/dataset/csl-daily/",
+            "https://tianchi.aliyun.com/dataset/106411",
+            "https://github.com/ShuaichiLi/Chinese-sentence-similarity-task",
+            "https://www.biendata.xyz/competition/chip2019/"
+        ],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "The authors claim that they collect 23 common Chinese instruction tuning datasets.",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-chinese-traditional"
+        ],
+        "Bibtex": "@misc{Firefly,\n  author = {Jianxin Yang},\n  title = {Firefly(流萤): 中文对话式大语言模型},\n  year = {2023},\n  publisher = {GitHub},\n  journal = {GitHub repository},\n howpublished = {\\url{https://github.com/yangjianxin1/Firefly}},\n}"
+    },
+    "coig-cqia-coig-pc": {
+        "Unique Dataset Identifier": "coig-cqia-coig-pc",
+        "Dataset Name": "COIG-CQIA COIG-PC",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2403.18058v1",
+        "Semantic Scholar Corpus ID": "268724242",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "stardust.ai",
+            "undisclosed web"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "COIG-PC-core"
+        ],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": "https://huggingface.co/datasets/BAAI/COIG-PC-core#license"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-coig-pc"
+        ],
+        "Bibtex": ""
+    },
+    "coig-cqia-douban": {
+        "Unique Dataset Identifier": "coig-cqia-douban",
+        "Dataset Name": "COIG-CQIA Douban",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2403.18058v1",
+        "Semantic Scholar Corpus ID": "268724242",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Basic Instruct",
+            "Creative Writing"
+        ],
+        "Text Sources": [
+            "douban.com"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-douban"
+        ],
+        "Bibtex": ""
+    },
+    "coig-cqia-exam": {
+        "Unique Dataset Identifier": "coig-cqia-exam",
+        "Dataset Name": "COIG-CQIA Exam",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2403.18058v1",
+        "Semantic Scholar Corpus ID": "268724242",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Multiple Choice Question Answering",
+            "Commonsense Reasoning"
+        ],
+        "Text Sources": [
+            "project gutenberg",
+            "jigsaw civil comments",
+            "stormfront.org",
+            "huffpost.com",
+            "ohchr.org",
+            "acn.cat",
+            "reddit",
+            "translated movie subtitiles",
+            "web exams",
+            "verbnet",
+            "european central bank",
+            "politifact.com",
+            "yelp",
+            "worldtree",
+            "propara",
+            "conversations",
+            "sat exams",
+            "opus movie subtitles",
+            "rottentomatoes.com",
+            "moniteur belge/belgisch staatsblad",
+            "github.com/miras-tech/mirastext",
+            "amara.org",
+            "sadilar",
+            "github.com/christos-c/bible-corpus",
+            "daily nayadiganta",
+            "harvard caselaw project",
+            "dailymail.co.uk",
+            "theonion.com",
+            "wikihow.com",
+            "de morgen newspaper",
+            "fiction books",
+            "craigslist.org",
+            "movies.stackexchange.com",
+            "cooking.stackexchange.com",
+            "wikisource",
+            "the chronicles of newgate",
+            "marion harland's cookery for beginners",
+            "semantic scholar articles",
+            "last.fm",
+            "pri",
+            "ted.com",
+            "non-fiction books",
+            "anandabazar patrika",
+            "udacity.com",
+            "amazon.com",
+            "thai government documents",
+            "factcheck",
+            "loria",
+            "us congressional bills",
+            "dihana",
+            "khanacademy.org",
+            "jeopardy",
+            "javabkoo.com",
+            "debatepedia.org",
+            "gv news",
+            "healthtap.com",
+            "travel.stackexchange.com",
+            "freebase",
+            "globalvoices.org",
+            "quizdb.org",
+            "gmat",
+            "bbc",
+            "moniteur belge newspaper",
+            "cnn.com",
+            "sports web articles",
+            "frankfurter rundshau newspaper",
+            "taskmaster-1 dataset",
+            "von news",
+            "masc dataset",
+            "movies",
+            "opus dogc corpus",
+            "cawac corpus",
+            "winograd schema challenge dataset",
+            "eu legistlative texts",
+            "youtube",
+            "huggingface.co/datasets/facebook/babi_qa",
+            "drupal.org/project/civilcomments",
+            "ag news",
+            "amazon.com",
+            "dbpedia",
+            "sogou news",
+            "yahoo! answers",
+            "yahoo review",
+            "national commission on terrorist attacks reports",
+            "crowdsourced (amt)",
+            "callhome spanish",
+            "the science - history of the universe",
+            "bing search queries",
+            "iranian university exams",
+            "creative commons license textbooks",
+            "stories",
+            "patents.google.com",
+            "books",
+            "nytmes",
+            "reuters.com",
+            "templates",
+            "eur-lex portal",
+            "california state bills",
+            "webdunia.com",
+            "paracrawl",
+            "yelp",
+            "imdb.com",
+            "google search",
+            "tripadvisor",
+            "the national university of singapore (nus) sms corpus",
+            "sports portal",
+            "wordnet",
+            "wikipedia.org",
+            "sec.gov/edgar/about",
+            "ap news",
+            "maptask",
+            "idebate.org",
+            "out of his mind (book)",
+            "cooking websites",
+            "wikinews",
+            "blogs",
+            "createdebate.com",
+            "4forums.com",
+            "convinceme.net",
+            "hyatt.com",
+            "academic paper reviews",
+            "hosted by scholastic corporation.",
+            "zee news",
+            "trivia websites",
+            "debate.org",
+            "crowdsourced (daemo)",
+            "wenshu.court.gov.cn",
+            "sogou news",
+            "9/11 reports",
+            "microsoft research paraphrase identification corpus",
+            "online novels",
+            "government speeches",
+            "gab.com",
+            "friends tv show",
+            "sentences written by english language learners for the toefl exam",
+            "pib.gov.in/indexd.aspx",
+            "mozilla common voice dataset",
+            "poems written by children in grades 1 to 12",
+            "etv bangla",
+            "protobowl.com",
+            "spanish efe news agency",
+            "human",
+            "online newspaper articles",
+            "arts and crafts essays",
+            "bapra.bg",
+            "daily jugontor",
+            "digikala.com",
+            "spontaneanation podcast",
+            "newswire",
+            "catalan open subtitles",
+            "slate magazine",
+            "vol. 5: biology",
+            "gre exams",
+            "bond fm radio",
+            "ukwac",
+            "quora",
+            "flickr",
+            "facebook",
+            "grammar-based",
+            "fullfact",
+            "dime",
+            "conceptnet",
+            "textbooks",
+            "dbpedia",
+            "yahoo! answers",
+            "original",
+            "twitter",
+            "family feud",
+            "google syntactic n-grams",
+            "quran",
+            "debatewise.org",
+            "youtube",
+            "github.com/commonsense/omcs",
+            "the president's commission report on the JFK assassination",
+            "tehran english-persian parallel corpus",
+            "catalan government crawling",
+            "diplomacy (online game)",
+            "icwsm.org/data",
+            "ntv",
+            "fiction e-books",
+            "ag news",
+            "truthorfiction",
+            "custom model/code generated",
+            "linkedin",
+            "commoncrawl.org",
+            "wiktionary.org",
+            "anc.org",
+            "movie scripts",
+            "academic papers",
+            "nps.gov",
+            "letters",
+            "opus software projects",
+            "search-engine(google) auto-complete",
+            "stackexchange.com",
+            "yahoo",
+            "coursera.org",
+            "yoruba proverbs",
+            "press releases",
+            "mctest",
+            "pmindia.gov.in/en/mann-ki-baat",
+            "wikidata",
+            "crowdsourced",
+            "openreview.net",
+            "arc corpus",
+            "ilisten",
+            "encyclopedic articles",
+            "abc",
+            "deutsche welle",
+            "allegro.pl",
+            "opensubtitles.org",
+            "web search queries",
+            "wsj",
+            "wikipedia.org",
+            "voa",
+            "answers.com",
+            "verbmobil",
+            "jeopardy",
+            "pubmed articles",
+            "casetext company",
+            "whitehouse.gov",
+            "procon.org",
+            "eurovoc thesaurus",
+            "the fireside chats of franklin delano roosevelt",
+            "travel guides",
+            "sanidad.gob.es",
+            "snopes.com",
+            "lexisnexis database",
+            "telephone conversations",
+            "select thai websites",
+            "newsela",
+            "european union",
+            "pubmed",
+            "spinn3r blogs",
+            "ck12.org",
+            "opus",
+            "the seven wonders of the ancient world",
+            "editorials",
+            "ict localisation data",
+            "goodreads.com",
+            "creative commons license texts",
+            "allocine.fr",
+            "chat with agent",
+            "launchpad.net",
+            "health news reviews (hnr)",
+            "wikianswers",
+            "anc corpus",
+            "virtual reality collection",
+            "tiwall.com",
+            "google play store",
+            "open movie database",
+            "jw news",
+            "daily prothom alo",
+            "dainik jugasankha",
+            "discussion forums",
+            "jon.dehdari.org/corpora",
+            "biomed articles",
+            "undisclosed web",
+            "leetcode"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "coig-exam-instruction",
+            "flan v2"
+        ],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": "https://huggingface.co/datasets/BAAI/COIG#license"
+            }
+        ],
+        "License Notes": "The authors of COIG claim that the license of the dataset is Apache License 2.0, while the license of the source dataset is various.",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-exam"
+        ],
+        "Bibtex": "@misc{zhang2023chinese,\n      title={Chinese Open Instruction Generalist: A Preliminary Release}, \n      author={Ge Zhang and Yemin Shi and Ruibo Liu and Ruibin Yuan and Yizhi Li and Siwei Dong and Yu Shu and Zhaoqun Li and Zekun Wang and Chenghua Lin and Wenhao Huang and Jie Fu},\n      year={2023},\n      eprint={2304.07987},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}"
+    },
+    "coig-cqia-finance": {
+        "Unique Dataset Identifier": "coig-cqia-finance",
+        "Dataset Name": "COIG-CQIA Finance",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2403.18058v1",
+        "Semantic Scholar Corpus ID": "268724242",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Open-form Text Generation",
+            "Data to Text",
+            "Basic Instruct"
+        ],
+        "Text Sources": [
+            "stardust.ai",
+            "undisclosed web",
+            "wiki.mbalib.com/wiki"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "COIG-PC"
+        ],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            },
+            {
+                "License": "Various",
+                "License URL": "https://huggingface.co/datasets/BAAI/COIG#license"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-finance"
+        ],
+        "Bibtex": ""
+    },
+    "coig-cqia-human-value": {
+        "Unique Dataset Identifier": "coig-cqia-human-value",
+        "Dataset Name": "COIG-CQIA Human Value",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2403.18058v1",
+        "Semantic Scholar Corpus ID": "268724242",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Argumentative Question Answering",
+            "Multiple Choice Question Answering"
+        ],
+        "Text Sources": [
+            "stardust.ai",
+            "undisclosed web"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "https://github.com/X-PLUG/CValues",
+            "100PoisonMpts",
+            "COIG-PC"
+        ],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://github.com/X-PLUG/CValues/tree/main?tab=Apache-2.0-1-ov-file"
+            },
+            {
+                "License": "Various",
+                "License URL": "https://huggingface.co/datasets/BAAI/COIG#license"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-human-value"
+        ],
+        "Bibtex": "@misc{xu2023cvalues,\n      title={CValues: Measuring the Values of Chinese Large Language Models from Safety to Responsibility}, \n      author={Guohai Xu and Jiayi Liu and Ming Yan and Haotian Xu and Jinghui Si and Zhuoran Zhou and Peng Yi and Xing Gao and Jitao Sang and Rong Zhang and Ji Zhang and Chao Peng and Fei Huang and Jingren Zhou},\n      year={2023},\n      eprint={2307.09705},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n@misc{zhang2023chinese,\n      title={Chinese Open Instruction Generalist: A Preliminary Release}, \n      author={Ge Zhang and Yemin Shi and Ruibo Liu and Ruibin Yuan and Yizhi Li and Siwei Dong and Yu Shu and Zhaoqun Li and Zekun Wang and Chenghua Lin and Wenhao Huang and Jie Fu},\n      year={2023},\n      eprint={2304.07987},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}"
+    },
+    "coig-cqia-logi-qa": {
+        "Unique Dataset Identifier": "coig-cqia-logi-qa",
+        "Dataset Name": "COIG-CQIA Logical QA",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2403.18058v1",
+        "Semantic Scholar Corpus ID": "268724242",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Logical Reasoning Question Answering",
+            "Numerical Data Aggregation and Analysis"
+        ],
+        "Text Sources": [
+            "undisclosed web",
+            "stardust.ai"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": ["COIG-PC-core"],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-logi-qa"
+        ],
+        "Bibtex": ""
+    },
+    "coig-cqia-ruozhiba": {
+        "Unique Dataset Identifier": "coig-cqia-ruozhiba",
+        "Dataset Name": "COIG-CQIA Ruozhiba",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2403.18058v1",
+        "Semantic Scholar Corpus ID": "268724242",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Argumentative Question Answering",
+            "Metaphor Explanation Question Answering"
+        ],
+        "Text Sources": [
+            "tieba.baidu.com/f?kw=%E5%BC%B1%E6%99%BA"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-ruozhiba"
+        ],
+        "Bibtex": "@misc{2023Leymore,\n\ttitle = {Leymore/ruozhiba},\n\turl = {https://github.com/Leymore/ruozhiba},\n\tdate = {2023-05-01},\n\tyear = {2023},\n\tmonth = {5},\n\tday = {1},\n}"
+    },
+    "coig-cqia-segmentfault": {
+        "Unique Dataset Identifier": "coig-cqia-segmentfault",
+        "Dataset Name": "COIG-CQIA Segmentfault",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2403.18058v1",
+        "Semantic Scholar Corpus ID": "268724242",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Basic Instruct",
+            "Code Generation",
+            "Code Summarization"
+        ],
+        "Text Sources": [
+            "segmentfault.com"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-segmentfault"
+        ],
+        "Bibtex": ""
+    },
+    "coig-cqia-wiki": {
+        "Unique Dataset Identifier": "coig-cqia-wiki",
+        "Dataset Name": "COIG-CQIA WIKI",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2403.18058v1",
+        "Semantic Scholar Corpus ID": "268724242",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Word Semantics"
+        ],
+        "Text Sources": [
+            "10why.net",
+            "eetree.cn",
+            "nongyie.com",
+            "zgbk.com"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-wiki"
+        ],
+        "Bibtex": ""
+    },
+    "coig-cqia-wikihow": {
+        "Unique Dataset Identifier": "coig-cqia-wikihow",
+        "Dataset Name": "COIG-CQIA Wikihow",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2403.18058v1",
+        "Semantic Scholar Corpus ID": "268724242",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "zh.wikihow.com",
+            "undisclosed web",
+            "news",
+            "books",
+            "wikipedia.org"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "https://github.com/esbatmop/MNBVC/tree/main"
+        ],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-wikihow"
+        ],
+        "Bibtex": "@misc{mnbvc,\n  author = {{MOP-LIWU Community} and {MNBVC Team}},\n  title = {MNBVC: Massive Never-ending BT Vast Chinese corpus},\n  year = {2023},\n  publisher = {GitHub},\n  journal = {GitHub repository},\n  howpublished = {\\url{https://github.com/esbatmop/MNBVC}},\n}"
+    },
+    "coig-cqia-xhs": {
+        "Unique Dataset Identifier": "coig-cqia-xhs",
+        "Dataset Name": "COIG-CQIA XHS",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2403.18058v1",
+        "Semantic Scholar Corpus ID": "268724242",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Basic Instruct",
+            "Creative Writing"
+        ],
+        "Text Sources": [
+            "xiaohongshu.com/explore"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-xhs"
+        ],
+        "Bibtex": ""
+    },
+    "coig-cqia-zhihu": {
+        "Unique Dataset Identifier": "coig-cqia-zhihu",
+        "Dataset Name": "COIG-CQIA Zhihu",
+        "Paper Title": "COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning",
+        "Dataset URL": "https://github.com/paralym/COIG-CQIA",
+        "GitHub URL": "https://github.com/paralym/COIG-CQIA",
+        "Hugging Face URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2403.18058v1",
+        "Semantic Scholar Corpus ID": "268724242",
+        "Collection": "COIG-CQIA",
+        "Collection URL": "https://huggingface.co/datasets/m-a-p/COIG-CQIA",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Basic Instruct",
+            "Creative Writing"
+        ],
+        "Text Sources": [
+            "zhihu.com"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "01.ai",
+            "Multimodal Art Projection (M-A-P)",
+            "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Yizhi Li",
+        "Dataset Filter IDs": [
+            "coig-cqia-zhihu"
+        ],
+        "Bibtex": ""
+    }
+}
