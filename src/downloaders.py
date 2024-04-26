@@ -1162,6 +1162,14 @@ def download_indic_instruct(accepted_filter_ids):
             data_hi = [{**d, "dataset": data_name, "language": "hi"} for d in data_hi]
             dset += data_hi
         else:
+            data_en = huggingface_download(
+                "ai4bharat/indic-instruct-data-v0.1", name=data_name, split="en"
+            )
+            data_en = [{**d, "dataset": data_name, "language": "en"} for d in data_en]
+            data_hi = huggingface_download(
+                "ai4bharat/indic-instruct-data-v0.1", name=data_name, split="hi"
+            )
+            data_hi = [{**d, "dataset": data_name, "language": "hi"} for d in data_hi]
             data_en = huggingface_download('ai4bharat/indic-instruct-data-v0.1', name=data_name, split='en')
             data_en = [{**d, 'dataset': data_name, 'language': 'en'} for d in data_en]
             data_hi = huggingface_download('ai4bharat/indic-instruct-data-v0.1', name=data_name, split='hi')
@@ -1188,6 +1196,20 @@ def download_bactrianx(accepted_filter_ids):
     return dsets
 
 
+def download_pippa(accepted_filter_ids):
+    """Downloads PygmalionAI datasets and filters to the subsets in `accepted_filter_ids`.
+
+    accepted_filter_ids: A list of `"Dataset Filter IDs"` from the dataset summary files
+        whose `"Unique Dataset Identifier"` that passed the filters applied at
+        runtime on license/language/task/etc. Use these to partition the downloaded
+        dataset into just the relevant data points.
+
+    Returns a list of rows (in dictionary format), representing the dataset.
+    """
+    # Initialize an empty list to hold the filtered dataset entries
+    return huggingface_download("PygmalionAI/PIPPA", split="train")
+
+  
 def download_collective_cognition(accepted_filter_ids):
     dset = huggingface_download(
         "CollectiveCognition/chats-data-2023-10-16",

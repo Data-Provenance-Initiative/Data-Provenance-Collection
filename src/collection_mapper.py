@@ -314,6 +314,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_wildchat,
         "prepare_function": preparers.prepare_wildchat,
     },
+    "PygmalionAI-PIPPA": {
+        "download_function": downloaders.download_pippa,
+        "prepare_function": preparers.prepare_pippa,
+    },
     "CollectiveCognition": {
         "download_function": downloaders.download_collective_cognition,
         "prepare_function": preparers.prepare_collective_cognition,
