@@ -791,8 +791,29 @@ def prepare_book_summaries(row):
 
 
 def prepare_ultrachat(row):
-    parent = "ultrachat"
     messages = []
+    if row["_source"] == "UltraChat":
+        parent = "ultrachat"
+        for i, script in enumerate(row["data"]):
+            messages.append(
+                {
+                    "from": "user" if i % 2 == 0 else "assistant",
+                    "text": script.strip(),
+                    "parent": parent,
+                }
+            )
+            parent = i
+    elif row["_source"] == "UltraChat_200k":
+        parent = "ultrachat_200k"
+        for i, script in enumerate(row):
+            messages.append(
+                {
+                    "from": "user" if i % 2 == 0 else "assistant",
+                    "text": script.strip(),
+                    "parent": parent,
+                }
+            )
+            parent = i
     for i, script in enumerate(row["data"]):
         messages.append(
             {
@@ -972,6 +993,7 @@ def prepare_pmc_llama(row):
         row['source']
     )
 
+
 def prepare_medical_meadow(row):
     inputs = "".join([row["instruction"] + row["input"]])
     return convert_inputs_targets_to_messages(
@@ -1067,6 +1089,12 @@ def prepare_indic_instruct(row):
         return convert_inputs_targets_to_messages(
             row["input_text"], row["output_text"], row["dataset"]
         )
+
+    if row["dataset"] == "wikihow":
+        input_text = row["intro"]
+        for i, turn in enumerate(row["steps"]):
+            input_text += "\n" + turn["description"]
+        input_text += row["messages"][0]["content"]
 
     if row['dataset'] == 'wikihow':
         input_text = row["intro"]

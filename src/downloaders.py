@@ -695,6 +695,18 @@ def download_no_robots(accepted_filter_ids):
 def download_help_steer(accepted_filter_ids):
     return huggingface_download("nvidia/HelpSteer", split="train")
 
+def download_ultrachat_200k(accepted_filter_ids):
+    return annotate_source(
+        huggingface_download("HuggingFaceH4/ultrachat_200k", split="train_sft"),
+        "UltraChat_200k",
+    )
+
+def download_ultrachat(accepted_filter_ids):
+    return annotate_source(
+        huggingface_download("stingning/ultrachat", split="train"),
+        "UltraChat",
+    )
+
 def download_ultrachat(accepted_filter_ids):
     return huggingface_download("stingning/ultrachat", split="train")
 
@@ -708,7 +720,6 @@ def download_wildchat(accepted_filter_ids):
 
 def download_airoboros(accepted_filter_ids):
     return huggingface_download('jondurbin/airoboros-3.2', split='train')
-
 
 def download_lima(accepted_filter_ids):
     dset = huggingface_download("GAIR/lima", split="train")
