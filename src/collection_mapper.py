@@ -200,7 +200,7 @@ COLLECTION_FN_MAPPER = {
     },
     "Tasksource Symbol-Tuning": {
         "download_function": downloaders.download_tasksource_symbol_tuning,
-        "prepare_function": preparers.prepare_tasksource_instruct
+        "prepare_function": preparers.prepare_tasksource_instruct,
     },
     "Stack Exchange Instruction": {
         "download_function": downloaders.download_stack_exchange_instruction,
@@ -226,7 +226,7 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_lima,
         "prepare_function": preparers.prepare_lima,
     },
-    "MathInstruct":{
+    "MathInstruct": {
         "download_function": downloaders.download_mathinstruct,
         "prepare_function": preparers.prepare_mathinstruct,
     },
@@ -282,7 +282,7 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_deita_10k,
         "prepare_function": preparers.prepare_deita_10k,
     },
-    "ChatDoctor":{
+    "ChatDoctor": {
         "download_function": downloaders.download_chatdoctor,
         "prepare_function": preparers.prepare_chatdoctor,
     },
@@ -313,6 +313,11 @@ COLLECTION_FN_MAPPER = {
     "WildChat": {
         "download_function": downloaders.download_wildchat,
         "prepare_function": preparers.prepare_wildchat,
+    },
+
+    "KIWI": {
+        "download_function": downloaders.download_kiwi,
+        "prepare_function": preparers.prepare_kiwi,
     },
     "Orca-Math": {
         "download_function": downloaders.download_orca_math,
