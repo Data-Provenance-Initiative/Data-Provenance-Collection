@@ -44,6 +44,7 @@
         "License Verified By": "Nayan Saxena",
         "Dataset Filter IDs": [
             "PygmalionAI-PIPPA"
-        ]
+        ],
+        "Bibtex": "@misc{gosling2023pippa, title={PIPPA: A Partially Synthetic Conversational Dataset}, author={Tear Gosling and Alpin Dale and Yinhe Zheng}, year={2023}, eprint={2308.05884}, archivePrefix={arXiv}, primaryClass={cs.CL}}"
     }
 }
