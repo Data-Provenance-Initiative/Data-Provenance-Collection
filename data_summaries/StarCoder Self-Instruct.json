@@ -91,6 +91,7 @@
             "Mean Dialog Turns": 2.0
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": "@Article{Li2023StarCoderMT,\n author = {Raymond Li and Loubna Ben Allal and Yangtian Zi and Niklas Muennighoff and Denis Kocetkov and Chenghao Mou and Marc Marone and Christopher Akiki and Jia Li and Jenny Chim and Qian Liu and Evgenii Zheltonozhskii and Terry Yue Zhuo and Thomas Wang and Olivier Dehaene and Mishig Davaadorj and J. Lamy-Poirier and João Monteiro and Oleh Shliazhko and Nicolas Gontier and Nicholas Meade and Armel Zebaze and Ming-Ho Yee and Logesh Kumar Umapathi and Jian Zhu and Benjamin Lipkin and Muhtasham Oblokulov and Zhiruo Wang and Rudra Murthy and J. Stillerman and S. Patel and Dmitry Abulkhanov and Marco Zocca and Manan Dey and Zhihan Zhang and N. Fahmy and Urvashi Bhattacharyya and W. Yu and Swayam Singh and Sasha Luccioni and Paulo Villegas and M. Kunakov and Fedor Zhdanov and Manuel Romero and Tony Lee and Nadav Timor and Jennifer Ding and Claire Schlesinger and Hailey Schoelkopf and Jana Ebert and Tri Dao and Mayank Mishra and A. Gu and Jennifer Robinson and Carolyn Jane Anderson and Brendan Dolan-Gavitt and Danish Contractor and Siva Reddy and Daniel Fried and Dzmitry Bahdanau and Yacine Jernite and Carlos Muñoz Ferrandis and Sean M. Hughes and Thomas Wolf and Arjun Guha and Leandro von Werra and H. D. Vries},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {StarCoder: may the source be with you!},\n volume = {abs/2305.06161},\n year = {2023}\n}\n"
     }
 }
