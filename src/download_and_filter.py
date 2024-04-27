@@ -197,7 +197,7 @@ def apply_filters(
 
     # Load text sources allow list if available
     if text_source_allow_list:
-        text_sources_allow_list = io.read_txt(text_source_allow_list)
+        text_source_allow_list = io.read_txt(text_source_allow_list)
 
     # Apply filters:
     if selected_collection:
@@ -329,9 +329,9 @@ def apply_filters(
             filtered_df["Model Generated"].apply(lambda x: len(x) == 0)
         ]
 
-    if not filtered_df.empty and text_sources_allow_list:
+    if not filtered_df.empty and text_source_allow_list:
         filtered_df = filtered_df[
-            filtered_df["Text Sources"].apply(lambda x: len(x) == 0 or set(x) <= set(text_sources_allow_list))
+            filtered_df["Text Sources"].apply(lambda x: len(x) == 0 or set(x) <= set(text_source_allow_list))
         ]
 
     if not filtered_df.empty and (selected_start_time or selected_end_time):
@@ -515,7 +515,7 @@ if __name__ == "__main__":
         args.start_time,
         args.end_time,
         args.license_sources,
-        args.dpi_undefined_license_override
+        int(args.dpi_undefined_license_override)
     )
     n_collections = set(filtered_data_summary["Collection"])
     n_datasets = len(filtered_data_summary)
