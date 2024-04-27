@@ -104,6 +104,11 @@ def map_license_criteria(data_summary, all_constants):
         if pwc_license:
             pwc_uid_to_license_infos[uid].append((pwc_license, None))
 
+        row["GitHub License"] = gh_license
+        row["HF Yaml License"] = hfy_license
+        row["HF Config License"] = hfc_license
+        row["PwC License"] = pwc_license
+
     # valid_licenses = list(all_constants["LICENSE_CLASSES"].keys())
     # print(set([v for vs in pwc_uid_to_license_infos.values() for (v, _) in vs]) - set(valid_licenses))
     # print(set([v for vs in github_uid_to_license_infos.values() for (v, _) in vs]) - set(valid_licenses))
@@ -517,10 +522,10 @@ if __name__ == "__main__":
     print(f"{n_datasets} datasets from {n_collections} after filtering.")
 
     # IGNORE:
-    # cols = ['Unique Dataset Identifier', 'Collection', 'Dataset Name', 'Languages', 'Text Sources','Model Generated', 
-    #         'Derived from Datasets', 'License Use (DataProvenance)', 'License Use (GitHub)', 'Licenses', 'Dataset URL',
-    #         'GitHub URL', 'ArXiv URL']
-    # filtered_data_summary[cols].to_csv("pile_v2.csv", index=False)
+    cols = ['Unique Dataset Identifier', 'Collection', 'Dataset Name', 'Languages', 'Text Sources','Model Generated', 
+            'Derived from Datasets', 'License Use (DataProvenance)', 'License Use (GitHub)', 'Licenses', 'GitHub License',
+            'Dataset URL', 'GitHub URL', 'ArXiv URL']
+    filtered_data_summary[cols].to_csv("pile_v2.csv", index=False)
 
     data_provenance_card.generate_datacard(
         filtered_data_summary,
