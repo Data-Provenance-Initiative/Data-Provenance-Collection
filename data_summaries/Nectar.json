@@ -14,7 +14,9 @@
         "Languages": [
             "English"
         ],
-        "Task Categories": ["RLHF"],
+        "Task Categories": [
+            "RLHF"
+        ],
         "Text Sources": [
             "chat.lmsys.org",
             "sharegpt.com",
@@ -41,7 +43,7 @@
             "huggingface.co/datasets/Anthropic/hh-rlhf",
             "huggingface.co/datasets/openbmb/UltraFeedback",
             "huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k",
-            "huggingface.co/datasets/SirNeural/flan_v2"    
+            "huggingface.co/datasets/SirNeural/flan_v2"
         ],
         "Creators": [
             "UC Berkeley"

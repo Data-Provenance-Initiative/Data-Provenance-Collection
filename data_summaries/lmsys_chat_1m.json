@@ -12,7 +12,11 @@
         "Collection": "lmsys_chat_1m",
         "Collection URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",
         "Languages": [
-            "English", "Portuguese", "Russian", "Chinese", "Spanish"
+            "English",
+            "Portuguese",
+            "Russian",
+            "Chinese",
+            "Spanish"
         ],
         "Task Categories": [
             "Question Answering",
@@ -31,7 +35,9 @@
             "Geographical Map Making Question Answering",
             "Academic Tasks"
         ],
-        "Text Sources": ["crowdsourced"],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [
             "OpenAI GPT-3.5-Turbo",
             "OpenAI GPT-4",
@@ -44,7 +50,12 @@
         ],
         "Human Annotation": "No",
         "Derived from Datasets": [],
-        "Creators": ["UC Berkeley", "UC San Diego", "Carnegie Mellon University", "Stanford University", "MBZUAI"
+        "Creators": [
+            "UC Berkeley",
+            "UC San Diego",
+            "Carnegie Mellon University",
+            "Stanford University",
+            "MBZUAI"
         ],
         "Licenses": [
             {

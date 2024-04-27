@@ -645,7 +645,9 @@
             "Zero-shot"
         ],
         "Human Annotation": "Yes",
-        "Derived from Datasets": ["COIG-PC-core"],
+        "Derived from Datasets": [
+            "COIG-PC-core"
+        ],
         "Creators": [
             "01.ai",
             "Multimodal Art Projection (M-A-P)",

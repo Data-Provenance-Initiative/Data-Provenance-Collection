@@ -18,7 +18,9 @@
             "Question Answering"
         ],
         "Text Sources": [],
-        "Model Generated": ["DeepL"],
+        "Model Generated": [
+            "DeepL"
+        ],
         "Format": [
             "Zero-shot"
         ],
@@ -120,10 +122,12 @@
             "Question Answering"
         ],
         "Text Sources": [
-            "textbooks", 
+            "textbooks",
             "exams"
         ],
-        "Model Generated": ["OpenAI GPT-3"],
+        "Model Generated": [
+            "OpenAI GPT-3"
+        ],
         "Format": [
             "Zero-shot"
         ],
@@ -172,7 +176,9 @@
         "Text Sources": [
             "kw.fudan.edu.cn/cndbpedia"
         ],
-        "Model Generated": ["OpenAI ChatGPT"],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -226,7 +232,9 @@
         "Text Sources": [
             "leetcode.com"
         ],
-        "Model Generated": ["OpenAI ChatGPT"],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
         "Format": [
             "Zero-shot"
         ],
