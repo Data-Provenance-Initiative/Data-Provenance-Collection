@@ -32,15 +32,12 @@ def parse_robots_txt(robots_txt):
 
 def interpret_agent(rules):
 
-    agent_disallow = rules.get("Disallow", [])
-    agent_allow = rules.get("Allow", [])
-
-    longest_disallow = max([len(x) for x in agent_disallow]) if len(agent_disallow) else 0
-    longest_allow = max([len(x) for x in agent_allow]) if len(agent_allow) else 0
+    agent_disallow = [x for x in rules.get("Disallow", []) if "?" not in x]
+    agent_allow = [x for x in rules.get("Allow", []) if "?" not in x]
 
     if len(agent_disallow) == 0 or agent_disallow == [""] or (agent_allow == agent_disallow):
         disallow_type = "none"
-    elif any('/' == x.strip() for x in agent_disallow):
+    elif any('/' == x.strip() for x in agent_disallow) and len(agent_allow) == 0:
         disallow_type = "all"
     else:
         disallow_type = "some"
