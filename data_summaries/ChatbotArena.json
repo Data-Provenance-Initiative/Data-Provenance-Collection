@@ -59,7 +59,8 @@
                 "License URL": "https://creativecommons.org/licenses/by-nc/4.0/"
             },
             {
-                "License": "OpenAI"
+                "License": "OpenAI",
+                "License URL": ""
             }
         ],
         "License Notes": "User prompts are licensed under CC-BY-4.0, while model outputs are under CC-BY-NC-4.0.",

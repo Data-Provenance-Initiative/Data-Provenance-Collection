@@ -45,7 +45,8 @@
                 "License URL": "https://huggingface.co/datasets/fangyuan/kiwi#licensing-information"
             },
             {
-                "License": "OpenAI"
+                "License": "OpenAI",
+                "License URL": ""
             }
         ],
         "License Notes": "",
