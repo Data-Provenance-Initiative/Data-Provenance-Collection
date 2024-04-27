@@ -101,18 +101,5 @@ python src/web_analysis/parse_robots.py <in-path> <out-path>
 
 ### Pretrain Corpora Analysis
 
-These scripts process a dump of pretraining text data (C4, RefinedWeb, and Dolma). We map the high-level base domains (e.g. www.en.wikpiedia.org) to the number of scraped paths (e.g. www.en.wikipedia.org/wiki/The_Shawshank_Redemption) and the total number of text tokens across those paths.
-
-```
-<C4 run command>
-```
-
-
-```
-<RefinedWeb run command>
-```
-
-
-```
-<Dolma run command>
-```
+See the `src/web_analysis/downloading_web/` folder for the scripts that process pretraining text data (C4, RefinedWeb, and Dolma).
+These scripts map the high-level base domains (e.g. www.en.wikpiedia.org) to the number of scraped paths (e.g. www.en.wikipedia.org/wiki/The_Shawshank_Redemption) and the total number of text tokens across those paths.
