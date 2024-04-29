@@ -1,7 +1,7 @@
 {
     "tsy-babi_nli-two_arg_relations": {
         "Unique Dataset Identifier": "tsy-babi_nli-two_arg_relations",
-        "Dataset Name": "babi_nli-two_arg_relations",
+        "Dataset Name": "tsy-babi_nli-two_arg_relations",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -90,7 +90,7 @@
     },
     "tsy-babi_nli-three_supporting_facts": {
         "Unique Dataset Identifier": "tsy-babi_nli-three_supporting_facts",
-        "Dataset Name": "babi_nli-three_supporting_facts",
+        "Dataset Name": "tsy-babi_nli-three_supporting_facts",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -180,7 +180,7 @@
     },
     "tsy-babi_nli-indefinite_knowledge": {
         "Unique Dataset Identifier": "tsy-babi_nli-indefinite_knowledge",
-        "Dataset Name": "babi_nli-indefinite_knowledge",
+        "Dataset Name": "tsy-babi_nli-indefinite_knowledge",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -269,7 +269,7 @@
     },
     "tsy-babi_nli-time_reasoning": {
         "Unique Dataset Identifier": "tsy-babi_nli-time_reasoning",
-        "Dataset Name": "babi_nli-time_reasoning",
+        "Dataset Name": "tsy-babi_nli-time_reasoning",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -357,7 +357,7 @@
     },
     "tsy-babi_nli-two_supporting_facts": {
         "Unique Dataset Identifier": "tsy-babi_nli-two_supporting_facts",
-        "Dataset Name": "babi_nli-two_supporting_facts",
+        "Dataset Name": "tsy-babi_nli-two_supporting_facts",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -445,7 +445,7 @@
     },
     "tsy-babi_nli-path_finding": {
         "Unique Dataset Identifier": "tsy-babi_nli-path_finding",
-        "Dataset Name": "babi_nli-path_finding",
+        "Dataset Name": "tsy-babi_nli-path_finding",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -532,7 +532,7 @@
     },
     "tsy-babi_nli-yes_no_questions": {
         "Unique Dataset Identifier": "tsy-babi_nli-yes_no_questions",
-        "Dataset Name": "babi_nli-yes_no_questions",
+        "Dataset Name": "tsy-babi_nli-yes_no_questions",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -621,7 +621,7 @@
     },
     "tsy-babi_nli-basic_coreference": {
         "Unique Dataset Identifier": "tsy-babi_nli-basic_coreference",
-        "Dataset Name": "babi_nli-basic_coreference",
+        "Dataset Name": "tsy-babi_nli-basic_coreference",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -711,7 +711,7 @@
     },
     "tsy-babi_nli-counting": {
         "Unique Dataset Identifier": "tsy-babi_nli-counting",
-        "Dataset Name": "babi_nli-counting",
+        "Dataset Name": "tsy-babi_nli-counting",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -799,7 +799,7 @@
     },
     "tsy-babi_nli-compound_coreference": {
         "Unique Dataset Identifier": "tsy-babi_nli-compound_coreference",
-        "Dataset Name": "babi_nli-compound_coreference",
+        "Dataset Name": "tsy-babi_nli-compound_coreference",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -888,7 +888,7 @@
     },
     "tsy-babi_nli-three_arg_relations": {
         "Unique Dataset Identifier": "tsy-babi_nli-three_arg_relations",
-        "Dataset Name": "babi_nli-three_arg_relations",
+        "Dataset Name": "tsy-babi_nli-three_arg_relations",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -977,7 +977,7 @@
     },
     "tsy-babi_nli-single_supporting_fact": {
         "Unique Dataset Identifier": "tsy-babi_nli-single_supporting_fact",
-        "Dataset Name": "babi_nli-single_supporting_fact",
+        "Dataset Name": "tsy-babi_nli-single_supporting_fact",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -1067,7 +1067,7 @@
     },
     "tsy-babi_nli-simple_negation": {
         "Unique Dataset Identifier": "tsy-babi_nli-simple_negation",
-        "Dataset Name": "babi_nli-simple_negation",
+        "Dataset Name": "tsy-babi_nli-simple_negation",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -1154,7 +1154,7 @@
     },
     "tsy-babi_nli-lists_sets": {
         "Unique Dataset Identifier": "tsy-babi_nli-lists_sets",
-        "Dataset Name": "babi_nli-lists_sets",
+        "Dataset Name": "tsy-babi_nli-lists_sets",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -1241,7 +1241,7 @@
     },
     "tsy-babi_nli-basic_induction": {
         "Unique Dataset Identifier": "tsy-babi_nli-basic_induction",
-        "Dataset Name": "babi_nli-basic_induction",
+        "Dataset Name": "tsy-babi_nli-basic_induction",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -1331,7 +1331,7 @@
     },
     "tsy-babi_nli-size_reasoning": {
         "Unique Dataset Identifier": "tsy-babi_nli-size_reasoning",
-        "Dataset Name": "babi_nli-size_reasoning",
+        "Dataset Name": "tsy-babi_nli-size_reasoning",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -1419,7 +1419,7 @@
     },
     "tsy-babi_nli-conjunction": {
         "Unique Dataset Identifier": "tsy-babi_nli-conjunction",
-        "Dataset Name": "babi_nli-conjunction",
+        "Dataset Name": "tsy-babi_nli-conjunction",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -1507,7 +1507,7 @@
     },
     "tsy-babi_nli-basic_deduction": {
         "Unique Dataset Identifier": "tsy-babi_nli-basic_deduction",
-        "Dataset Name": "babi_nli-basic_deduction",
+        "Dataset Name": "tsy-babi_nli-basic_deduction",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -1594,7 +1594,7 @@
     },
     "tsy-babi_nli-positional_reasoning": {
         "Unique Dataset Identifier": "tsy-babi_nli-positional_reasoning",
-        "Dataset Name": "babi_nli-positional_reasoning",
+        "Dataset Name": "tsy-babi_nli-positional_reasoning",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -1679,7 +1679,7 @@
     },
     "tsy-wanli": {
         "Unique Dataset Identifier": "tsy-wanli",
-        "Dataset Name": "wanli",
+        "Dataset Name": "tsy-wanli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/alisawuffles/wanli",
@@ -1780,7 +1780,7 @@
     },
     "tsy-recast-recast_verbnet": {
         "Unique Dataset Identifier": "tsy-recast-recast_verbnet",
-        "Dataset Name": "recast-recast_verbnet",
+        "Dataset Name": "tsy-recast-recast_verbnet",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "http://decomp.io/",
@@ -1862,7 +1862,7 @@
     },
     "tsy-recast-recast_verbcorner": {
         "Unique Dataset Identifier": "tsy-recast-recast_verbcorner",
-        "Dataset Name": "recast-recast_verbcorner",
+        "Dataset Name": "tsy-recast-recast_verbcorner",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/recast",
@@ -1943,7 +1943,7 @@
     },
     "tsy-recast-recast_ner": {
         "Unique Dataset Identifier": "tsy-recast-recast_ner",
-        "Dataset Name": "recast-recast_ner",
+        "Dataset Name": "tsy-recast-recast_ner",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/recast",
@@ -2025,7 +2025,7 @@
     },
     "tsy-recast-recast_sentiment": {
         "Unique Dataset Identifier": "tsy-recast-recast_sentiment",
-        "Dataset Name": "recast-recast_sentiment",
+        "Dataset Name": "tsy-recast-recast_sentiment",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/recast",
@@ -2109,7 +2109,7 @@
     },
     "tsy-recast-recast_puns": {
         "Unique Dataset Identifier": "tsy-recast-recast_puns",
-        "Dataset Name": "recast-recast_puns",
+        "Dataset Name": "tsy-recast-recast_puns",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/recast",
@@ -2192,7 +2192,7 @@
     },
     "tsy-recast-recast_factuality": {
         "Unique Dataset Identifier": "tsy-recast-recast_factuality",
-        "Dataset Name": "recast-recast_factuality",
+        "Dataset Name": "tsy-recast-recast_factuality",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/recast",
@@ -2274,7 +2274,7 @@
     },
     "tsy-recast-recast_megaveridicality": {
         "Unique Dataset Identifier": "tsy-recast-recast_megaveridicality",
-        "Dataset Name": "recast-recast_megaveridicality",
+        "Dataset Name": "tsy-recast-recast_megaveridicality",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/recast",
@@ -2356,7 +2356,7 @@
     },
     "tsy-probability_words_nli-reasoning_1hop": {
         "Unique Dataset Identifier": "tsy-probability_words_nli-reasoning_1hop",
-        "Dataset Name": "probability_words_nli-reasoning_1hop",
+        "Dataset Name": "tsy-probability_words_nli-reasoning_1hop",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/nlp-verbal-probabilities",
@@ -2471,7 +2471,7 @@
     },
     "tsy-probability_words_nli-usnli": {
         "Unique Dataset Identifier": "tsy-probability_words_nli-usnli",
-        "Dataset Name": "probability_words_nli-usnli",
+        "Dataset Name": "tsy-probability_words_nli-usnli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://sileod.s3.eu-west-3.amazonaws.com/probability_words/",
@@ -2569,7 +2569,7 @@
     },
     "tsy-probability_words_nli-reasoning_2hop": {
         "Unique Dataset Identifier": "tsy-probability_words_nli-reasoning_2hop",
-        "Dataset Name": "probability_words_nli-reasoning_2hop",
+        "Dataset Name": "tsy-probability_words_nli-reasoning_2hop",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://sileod.s3.eu-west-3.amazonaws.com/probability_words/",
@@ -2667,7 +2667,7 @@
     },
     "tsy-nan_nli-joey234__nan_nli": {
         "Unique Dataset Identifier": "tsy-nan_nli-joey234__nan_nli",
-        "Dataset Name": "nan_nli-joey234__nan_nli",
+        "Dataset Name": "tsy-nan_nli-joey234__nan_nli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/joey234/nan-nli",
@@ -2758,7 +2758,7 @@
     },
     "tsy-nli_fever": {
         "Unique Dataset Identifier": "tsy-nli_fever",
-        "Dataset Name": "nli_fever",
+        "Dataset Name": "tsy-nli_fever",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/easonnie/combine-FEVER-NSMN/blob/master/other_resources/nli_fever.md",
@@ -2854,7 +2854,7 @@
     },
     "tsy-breaking_nli": {
         "Unique Dataset Identifier": "tsy-breaking_nli",
-        "Dataset Name": "breaking_nli",
+        "Dataset Name": "tsy-breaking_nli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/BIU-NLP/Breaking_NLI",
@@ -2940,7 +2940,7 @@
     },
     "tsy-conj_nli": {
         "Unique Dataset Identifier": "tsy-conj_nli",
-        "Dataset Name": "conj_nli",
+        "Dataset Name": "tsy-conj_nli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/swarnaHub/ConjNLI",
@@ -3023,7 +3023,7 @@
     },
     "tsy-fracas": {
         "Unique Dataset Identifier": "tsy-fracas",
-        "Dataset Name": "fracas",
+        "Dataset Name": "tsy-fracas",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/felipessalvatore/NLI_datasets",
@@ -3102,7 +3102,7 @@
     },
     "tsy-dialogue_nli": {
         "Unique Dataset Identifier": "tsy-dialogue_nli",
-        "Dataset Name": "dialogue_nli",
+        "Dataset Name": "tsy-dialogue_nli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://wellecks.github.io/dialogue_nli/",
@@ -3189,7 +3189,7 @@
     },
     "tsy-mpe": {
         "Unique Dataset Identifier": "tsy-mpe",
-        "Dataset Name": "mpe",
+        "Dataset Name": "tsy-mpe",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/aylai/MultiPremiseEntailment",
@@ -3274,7 +3274,7 @@
     },
     "tsy-dnc": {
         "Unique Dataset Identifier": "tsy-dnc",
-        "Dataset Name": "dnc",
+        "Dataset Name": "tsy-dnc",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/decompositional-semantics-initiative/DNC",
@@ -3361,7 +3361,7 @@
     },
     "tsy-recast_white-fnplus": {
         "Unique Dataset Identifier": "tsy-recast_white-fnplus",
-        "Dataset Name": "recast_white-fnplus",
+        "Dataset Name": "tsy-recast_white-fnplus",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/decompositional-semantics-initiative/DNC/",
@@ -3442,7 +3442,7 @@
     },
     "tsy-recast_white-sprl": {
         "Unique Dataset Identifier": "tsy-recast_white-sprl",
-        "Dataset Name": "recast_white-sprl",
+        "Dataset Name": "tsy-recast_white-sprl",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/decompositional-semantics-initiative/DNC/",
@@ -3525,7 +3525,7 @@
     },
     "tsy-recast_white-dpr": {
         "Unique Dataset Identifier": "tsy-recast_white-dpr",
-        "Dataset Name": "recast_white-dpr",
+        "Dataset Name": "tsy-recast_white-dpr",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/decompositional-semantics-initiative/DNC/",
@@ -3608,7 +3608,7 @@
     },
     "tsy-robust_nli-is_cs": {
         "Unique Dataset Identifier": "tsy-robust_nli-is_cs",
-        "Dataset Name": "robust_nli-is_cs",
+        "Dataset Name": "tsy-robust_nli-is_cs",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/tyliupku/nli-debiasing-datasets",
@@ -3710,7 +3710,7 @@
     },
     "tsy-robust_nli-li_li": {
         "Unique Dataset Identifier": "tsy-robust_nli-li_li",
-        "Dataset Name": "robust_nli-li_li",
+        "Dataset Name": "tsy-robust_nli-li_li",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/tyliupku/nli-debiasing-datasets",
@@ -3805,7 +3805,7 @@
     },
     "tsy-robust_nli-st_wo": {
         "Unique Dataset Identifier": "tsy-robust_nli-st_wo",
-        "Dataset Name": "robust_nli-st_wo",
+        "Dataset Name": "tsy-robust_nli-st_wo",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/tyliupku/nli-debiasing-datasets",
@@ -3899,7 +3899,7 @@
     },
     "tsy-robust_nli-pi_sp": {
         "Unique Dataset Identifier": "tsy-robust_nli-pi_sp",
-        "Dataset Name": "robust_nli-pi_sp",
+        "Dataset Name": "tsy-robust_nli-pi_sp",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/tyliupku/nli-debiasing-datasets",
@@ -3997,7 +3997,7 @@
     },
     "tsy-robust_nli-pi_cd": {
         "Unique Dataset Identifier": "tsy-robust_nli-pi_cd",
-        "Dataset Name": "robust_nli-pi_cd",
+        "Dataset Name": "tsy-robust_nli-pi_cd",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/tyliupku/nli-debiasing-datasets",
@@ -4094,7 +4094,7 @@
     },
     "tsy-robust_nli-st_se": {
         "Unique Dataset Identifier": "tsy-robust_nli-st_se",
-        "Dataset Name": "robust_nli-st_se",
+        "Dataset Name": "tsy-robust_nli-st_se",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/tyliupku/nli-debiasing-datasets",
@@ -4189,7 +4189,7 @@
     },
     "tsy-robust_nli-st_ne": {
         "Unique Dataset Identifier": "tsy-robust_nli-st_ne",
-        "Dataset Name": "robust_nli-st_ne",
+        "Dataset Name": "tsy-robust_nli-st_ne",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/tyliupku/nli-debiasing-datasets",
@@ -4285,7 +4285,7 @@
     },
     "tsy-robust_nli-st_lm": {
         "Unique Dataset Identifier": "tsy-robust_nli-st_lm",
-        "Dataset Name": "robust_nli-st_lm",
+        "Dataset Name": "tsy-robust_nli-st_lm",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/tyliupku/nli-debiasing-datasets",
@@ -4379,7 +4379,7 @@
     },
     "tsy-robust_nli_is_sd": {
         "Unique Dataset Identifier": "tsy-robust_nli_is_sd",
-        "Dataset Name": "robust_nli_is_sd",
+        "Dataset Name": "tsy-robust_nli_is_sd",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/pietrolesci/robust_nli_is_sd",
@@ -4473,7 +4473,7 @@
     },
     "tsy-robust_nli_li_ts": {
         "Unique Dataset Identifier": "tsy-robust_nli_li_ts",
-        "Dataset Name": "robust_nli_li_ts",
+        "Dataset Name": "tsy-robust_nli_li_ts",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/pietrolesci/robust_nli_is_sd",
@@ -4575,7 +4575,7 @@
     },
     "tsy-gen_debiased_nli-snli_seq_z": {
         "Unique Dataset Identifier": "tsy-gen_debiased_nli-snli_seq_z",
-        "Dataset Name": "gen_debiased_nli-snli_seq_z",
+        "Dataset Name": "tsy-gen_debiased_nli-snli_seq_z",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/jimmycode/gen-debiased-nli#training-with-our-datasets",
@@ -4677,7 +4677,7 @@
     },
     "tsy-gen_debiased_nli-snli_z_aug": {
         "Unique Dataset Identifier": "tsy-gen_debiased_nli-snli_z_aug",
-        "Dataset Name": "gen_debiased_nli-snli_z_aug",
+        "Dataset Name": "tsy-gen_debiased_nli-snli_z_aug",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/jimmycode/gen-debiased-nli#training-with-our-datasets",
@@ -4778,7 +4778,7 @@
     },
     "tsy-gen_debiased_nli-snli_par_z": {
         "Unique Dataset Identifier": "tsy-gen_debiased_nli-snli_par_z",
-        "Dataset Name": "gen_debiased_nli-snli_par_z",
+        "Dataset Name": "tsy-gen_debiased_nli-snli_par_z",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/jimmycode/gen-debiased-nli#training-with-our-datasets",
@@ -4881,7 +4881,7 @@
     },
     "tsy-gen_debiased_nli-mnli_par_z": {
         "Unique Dataset Identifier": "tsy-gen_debiased_nli-mnli_par_z",
-        "Dataset Name": "gen_debiased_nli-mnli_par_z",
+        "Dataset Name": "tsy-gen_debiased_nli-mnli_par_z",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/jimmycode/gen-debiased-nli",
@@ -4984,7 +4984,7 @@
     },
     "tsy-gen_debiased_nli-mnli_z_aug": {
         "Unique Dataset Identifier": "tsy-gen_debiased_nli-mnli_z_aug",
-        "Dataset Name": "gen_debiased_nli-mnli_z_aug",
+        "Dataset Name": "tsy-gen_debiased_nli-mnli_z_aug",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/jimmycode/gen-debiased-nli",
@@ -5085,7 +5085,7 @@
     },
     "tsy-gen_debiased_nli-mnli_seq_z": {
         "Unique Dataset Identifier": "tsy-gen_debiased_nli-mnli_seq_z",
-        "Dataset Name": "gen_debiased_nli-mnli_seq_z",
+        "Dataset Name": "tsy-gen_debiased_nli-mnli_seq_z",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/jimmycode/gen-debiased-nli",
@@ -5187,7 +5187,7 @@
     },
     "tsy-add_one_rte": {
         "Unique Dataset Identifier": "tsy-add_one_rte",
-        "Dataset Name": "add_one_rte",
+        "Dataset Name": "tsy-add_one_rte",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/rabeehk/robust-nli/blob/c32ff958d4df68ac2fad9bf990f70d30eab9f297/data/scripts/add_one_rte.py",
@@ -5279,7 +5279,7 @@
     },
     "tsy-imppres-presupposition_all_n_presupposition-presupposition": {
         "Unique Dataset Identifier": "tsy-imppres-presupposition_all_n_presupposition-presupposition",
-        "Dataset Name": "imppres-presupposition_all_n_presupposition-presupposition",
+        "Dataset Name": "tsy-imppres-presupposition_all_n_presupposition-presupposition",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -5368,7 +5368,7 @@
     },
     "tsy-imppres-presupposition_both_presupposition-presupposition": {
         "Unique Dataset Identifier": "tsy-imppres-presupposition_both_presupposition-presupposition",
-        "Dataset Name": "imppres-presupposition_both_presupposition-presupposition",
+        "Dataset Name": "tsy-imppres-presupposition_both_presupposition-presupposition",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -5456,7 +5456,7 @@
     },
     "tsy-imppres-presupposition_change_of_state-presupposition": {
         "Unique Dataset Identifier": "tsy-imppres-presupposition_change_of_state-presupposition",
-        "Dataset Name": "imppres-presupposition_change_of_state-presupposition",
+        "Dataset Name": "tsy-imppres-presupposition_change_of_state-presupposition",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -5543,7 +5543,7 @@
     },
     "tsy-imppres-presupposition_cleft_existence-presupposition": {
         "Unique Dataset Identifier": "tsy-imppres-presupposition_cleft_existence-presupposition",
-        "Dataset Name": "imppres-presupposition_cleft_existence-presupposition",
+        "Dataset Name": "tsy-imppres-presupposition_cleft_existence-presupposition",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -5631,7 +5631,7 @@
     },
     "tsy-imppres-presupposition_only_presupposition-presupposition": {
         "Unique Dataset Identifier": "tsy-imppres-presupposition_only_presupposition-presupposition",
-        "Dataset Name": "imppres-presupposition_only_presupposition-presupposition",
+        "Dataset Name": "tsy-imppres-presupposition_only_presupposition-presupposition",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -5720,7 +5720,7 @@
     },
     "tsy-imppres-presupposition_possessed_definites_existence-presupposition": {
         "Unique Dataset Identifier": "tsy-imppres-presupposition_possessed_definites_existence-presupposition",
-        "Dataset Name": "imppres-presupposition_possessed_definites_existence-presupposition",
+        "Dataset Name": "tsy-imppres-presupposition_possessed_definites_existence-presupposition",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -5808,7 +5808,7 @@
     },
     "tsy-imppres-presupposition_possessed_definites_uniqueness-presupposition": {
         "Unique Dataset Identifier": "tsy-imppres-presupposition_possessed_definites_uniqueness-presupposition",
-        "Dataset Name": "imppres-presupposition_possessed_definites_uniqueness-presupposition",
+        "Dataset Name": "tsy-imppres-presupposition_possessed_definites_uniqueness-presupposition",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -5895,7 +5895,7 @@
     },
     "tsy-imppres-presupposition_question_presupposition-presupposition": {
         "Unique Dataset Identifier": "tsy-imppres-presupposition_question_presupposition-presupposition",
-        "Dataset Name": "imppres-presupposition_question_presupposition-presupposition",
+        "Dataset Name": "tsy-imppres-presupposition_question_presupposition-presupposition",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -5983,7 +5983,7 @@
     },
     "tsy-imppres-presupposition_cleft_uniqueness-presupposition": {
         "Unique Dataset Identifier": "tsy-imppres-presupposition_cleft_uniqueness-presupposition",
-        "Dataset Name": "imppres-presupposition_cleft_uniqueness-presupposition",
+        "Dataset Name": "tsy-imppres-presupposition_cleft_uniqueness-presupposition",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6069,7 +6069,7 @@
     },
     "tsy-imppres-implicature_connectives-prag": {
         "Unique Dataset Identifier": "tsy-imppres-implicature_connectives-prag",
-        "Dataset Name": "imppres-implicature_connectives-prag",
+        "Dataset Name": "tsy-imppres-implicature_connectives-prag",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6158,7 +6158,7 @@
     },
     "tsy-imppres-implicature_gradable_adjective-prag": {
         "Unique Dataset Identifier": "tsy-imppres-implicature_gradable_adjective-prag",
-        "Dataset Name": "imppres-implicature_gradable_adjective-prag",
+        "Dataset Name": "tsy-imppres-implicature_gradable_adjective-prag",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6247,7 +6247,7 @@
     },
     "tsy-imppres-implicature_numerals_2_3-prag": {
         "Unique Dataset Identifier": "tsy-imppres-implicature_numerals_2_3-prag",
-        "Dataset Name": "imppres-implicature_numerals_2_3-prag",
+        "Dataset Name": "tsy-imppres-implicature_numerals_2_3-prag",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6336,7 +6336,7 @@
     },
     "tsy-imppres-implicature_gradable_verb-prag": {
         "Unique Dataset Identifier": "tsy-imppres-implicature_gradable_verb-prag",
-        "Dataset Name": "imppres-implicature_gradable_verb-prag",
+        "Dataset Name": "tsy-imppres-implicature_gradable_verb-prag",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6422,7 +6422,7 @@
     },
     "tsy-imppres-implicature_numerals_10_100-prag": {
         "Unique Dataset Identifier": "tsy-imppres-implicature_numerals_10_100-prag",
-        "Dataset Name": "imppres-implicature_numerals_10_100-prag",
+        "Dataset Name": "tsy-imppres-implicature_numerals_10_100-prag",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6508,7 +6508,7 @@
     },
     "tsy-imppres-implicature_modals-prag": {
         "Unique Dataset Identifier": "tsy-imppres-implicature_modals-prag",
-        "Dataset Name": "imppres-implicature_modals-prag",
+        "Dataset Name": "tsy-imppres-implicature_modals-prag",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6594,7 +6594,7 @@
     },
     "tsy-imppres-implicature_quantifiers-prag": {
         "Unique Dataset Identifier": "tsy-imppres-implicature_quantifiers-prag",
-        "Dataset Name": "imppres-implicature_quantifiers-prag",
+        "Dataset Name": "tsy-imppres-implicature_quantifiers-prag",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6683,7 +6683,7 @@
     },
     "tsy-imppres-implicature_connectives-log": {
         "Unique Dataset Identifier": "tsy-imppres-implicature_connectives-log",
-        "Dataset Name": "imppres-implicature_connectives-log",
+        "Dataset Name": "tsy-imppres-implicature_connectives-log",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6770,7 +6770,7 @@
     },
     "tsy-imppres-implicature_gradable_adjective-log": {
         "Unique Dataset Identifier": "tsy-imppres-implicature_gradable_adjective-log",
-        "Dataset Name": "imppres-implicature_gradable_adjective-log",
+        "Dataset Name": "tsy-imppres-implicature_gradable_adjective-log",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6857,7 +6857,7 @@
     },
     "tsy-imppres-implicature_gradable_verb-log": {
         "Unique Dataset Identifier": "tsy-imppres-implicature_gradable_verb-log",
-        "Dataset Name": "imppres-implicature_gradable_verb-log",
+        "Dataset Name": "tsy-imppres-implicature_gradable_verb-log",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6946,7 +6946,7 @@
     },
     "tsy-imppres-implicature_quantifiers-log": {
         "Unique Dataset Identifier": "tsy-imppres-implicature_quantifiers-log",
-        "Dataset Name": "imppres-implicature_quantifiers-log",
+        "Dataset Name": "tsy-imppres-implicature_quantifiers-log",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -7034,7 +7034,7 @@
     },
     "tsy-imppres-implicature_numerals_2_3-log": {
         "Unique Dataset Identifier": "tsy-imppres-implicature_numerals_2_3-log",
-        "Dataset Name": "imppres-implicature_numerals_2_3-log",
+        "Dataset Name": "tsy-imppres-implicature_numerals_2_3-log",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -7121,7 +7121,7 @@
     },
     "tsy-imppres-implicature_modals-log": {
         "Unique Dataset Identifier": "tsy-imppres-implicature_modals-log",
-        "Dataset Name": "imppres-implicature_modals-log",
+        "Dataset Name": "tsy-imppres-implicature_modals-log",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -7208,7 +7208,7 @@
     },
     "tsy-imppres-implicature_numerals_10_100-log": {
         "Unique Dataset Identifier": "tsy-imppres-implicature_numerals_10_100-log",
-        "Dataset Name": "imppres-implicature_numerals_10_100-log",
+        "Dataset Name": "tsy-imppres-implicature_numerals_10_100-log",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -7295,7 +7295,7 @@
     },
     "tsy-glue_diagnostics-diagnostics": {
         "Unique Dataset Identifier": "tsy-glue_diagnostics-diagnostics",
-        "Dataset Name": "glue_diagnostics-diagnostics",
+        "Dataset Name": "tsy-glue_diagnostics-diagnostics",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://gluebenchmark.com/diagnostics",
@@ -7387,7 +7387,7 @@
     },
     "tsy-hlgd": {
         "Unique Dataset Identifier": "tsy-hlgd",
-        "Dataset Name": "hlgd",
+        "Dataset Name": "tsy-hlgd",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/tingofurro/headline_grouping",
@@ -7481,7 +7481,7 @@
     },
     "tsy-medical_questions_pairs": {
         "Unique Dataset Identifier": "tsy-medical_questions_pairs",
-        "Dataset Name": "medical_questions_pairs",
+        "Dataset Name": "tsy-medical_questions_pairs",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/curai/medical-question-pair-dataset",
@@ -7575,7 +7575,7 @@
     },
     "tsy-insincere_questions": {
         "Unique Dataset Identifier": "tsy-insincere_questions",
-        "Dataset Name": "insincere_questions",
+        "Dataset Name": "tsy-insincere_questions",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://www.kaggle.com/c/quora-insincere-questions-classification",
@@ -7663,7 +7663,7 @@
     },
     "tsy-turingbench": {
         "Unique Dataset Identifier": "tsy-turingbench",
-        "Dataset Name": "turingbench",
+        "Dataset Name": "tsy-turingbench",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/TuringBench/TuringBench",
@@ -7760,7 +7760,7 @@
     },
     "tsy-vitaminc-tals__vitaminc": {
         "Unique Dataset Identifier": "tsy-vitaminc-tals__vitaminc",
-        "Dataset Name": "vitaminc-tals__vitaminc",
+        "Dataset Name": "tsy-vitaminc-tals__vitaminc",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/TalSchuster/VitaminC",
@@ -7856,7 +7856,7 @@
     },
     "tsy-rumoureval_2019-rumoureval2019": {
         "Unique Dataset Identifier": "tsy-rumoureval_2019-rumoureval2019",
-        "Dataset Name": "rumoureval_2019-rumoureval2019",
+        "Dataset Name": "tsy-rumoureval_2019-rumoureval2019",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/leondz",
@@ -7948,7 +7948,7 @@
     },
     "tsy-tweet_eval-irony": {
         "Unique Dataset Identifier": "tsy-tweet_eval-irony",
-        "Dataset Name": "tweet_eval-irony",
+        "Dataset Name": "tsy-tweet_eval-irony",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -8038,7 +8038,7 @@
     },
     "tsy-tweet_eval-stance_abortion": {
         "Unique Dataset Identifier": "tsy-tweet_eval-stance_abortion",
-        "Dataset Name": "tweet_eval-stance_abortion",
+        "Dataset Name": "tsy-tweet_eval-stance_abortion",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -8133,7 +8133,7 @@
     },
     "tsy-tweet_eval-hate": {
         "Unique Dataset Identifier": "tsy-tweet_eval-hate",
-        "Dataset Name": "tweet_eval-hate",
+        "Dataset Name": "tsy-tweet_eval-hate",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -8231,7 +8231,7 @@
     },
     "tsy-tweet_eval-stance_atheism": {
         "Unique Dataset Identifier": "tsy-tweet_eval-stance_atheism",
-        "Dataset Name": "tweet_eval-stance_atheism",
+        "Dataset Name": "tsy-tweet_eval-stance_atheism",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -8327,7 +8327,7 @@
     },
     "tsy-tweet_eval-stance_climate": {
         "Unique Dataset Identifier": "tsy-tweet_eval-stance_climate",
-        "Dataset Name": "tweet_eval-stance_climate",
+        "Dataset Name": "tsy-tweet_eval-stance_climate",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -8426,7 +8426,7 @@
     },
     "tsy-tweet_eval-emoji": {
         "Unique Dataset Identifier": "tsy-tweet_eval-emoji",
-        "Dataset Name": "tweet_eval-emoji",
+        "Dataset Name": "tsy-tweet_eval-emoji",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -8517,7 +8517,7 @@
     },
     "tsy-tweet_eval-offensive": {
         "Unique Dataset Identifier": "tsy-tweet_eval-offensive",
-        "Dataset Name": "tweet_eval-offensive",
+        "Dataset Name": "tsy-tweet_eval-offensive",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -8614,7 +8614,7 @@
     },
     "tsy-tweet_eval-sentiment": {
         "Unique Dataset Identifier": "tsy-tweet_eval-sentiment",
-        "Dataset Name": "tweet_eval-sentiment",
+        "Dataset Name": "tsy-tweet_eval-sentiment",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -8703,7 +8703,7 @@
     },
     "tsy-tweet_eval-emotion": {
         "Unique Dataset Identifier": "tsy-tweet_eval-emotion",
-        "Dataset Name": "tweet_eval-emotion",
+        "Dataset Name": "tsy-tweet_eval-emotion",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -8791,7 +8791,7 @@
     },
     "tsy-tweet_eval-stance_feminist": {
         "Unique Dataset Identifier": "tsy-tweet_eval-stance_feminist",
-        "Dataset Name": "tweet_eval-stance_feminist",
+        "Dataset Name": "tsy-tweet_eval-stance_feminist",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -8887,7 +8887,7 @@
     },
     "tsy-tweet_eval-stance_hillary": {
         "Unique Dataset Identifier": "tsy-tweet_eval-stance_hillary",
-        "Dataset Name": "tweet_eval-stance_hillary",
+        "Dataset Name": "tsy-tweet_eval-stance_hillary",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -8984,7 +8984,7 @@
     },
     "tsy-discovery-discovery": {
         "Unique Dataset Identifier": "tsy-discovery-discovery",
-        "Dataset Name": "discovery-discovery",
+        "Dataset Name": "tsy-discovery-discovery",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/Discovery",
@@ -9084,7 +9084,7 @@
     },
     "tsy-pragmeval-verifiability": {
         "Unique Dataset Identifier": "tsy-pragmeval-verifiability",
-        "Dataset Name": "pragmeval-verifiability",
+        "Dataset Name": "tsy-pragmeval-verifiability",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/pragmeval",
@@ -9178,7 +9178,7 @@
     },
     "tsy-pragmeval-mrda": {
         "Unique Dataset Identifier": "tsy-pragmeval-mrda",
-        "Dataset Name": "pragmeval-mrda",
+        "Dataset Name": "tsy-pragmeval-mrda",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/pragmeval",
@@ -9266,7 +9266,7 @@
     },
     "tsy-pragmeval-switchboard": {
         "Unique Dataset Identifier": "tsy-pragmeval-switchboard",
-        "Dataset Name": "pragmeval-switchboard",
+        "Dataset Name": "tsy-pragmeval-switchboard",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/pragmeval",
@@ -9352,7 +9352,7 @@
     },
     "tsy-pragmeval-emergent": {
         "Unique Dataset Identifier": "tsy-pragmeval-emergent",
-        "Dataset Name": "pragmeval-emergent",
+        "Dataset Name": "tsy-pragmeval-emergent",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/pragmeval",
@@ -9446,7 +9446,7 @@
     },
     "tsy-pragmeval-gum": {
         "Unique Dataset Identifier": "tsy-pragmeval-gum",
-        "Dataset Name": "pragmeval-gum",
+        "Dataset Name": "tsy-pragmeval-gum",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/pragmeval",
@@ -9534,7 +9534,7 @@
     },
     "tsy-pragmeval-sarcasm": {
         "Unique Dataset Identifier": "tsy-pragmeval-sarcasm",
-        "Dataset Name": "pragmeval-sarcasm",
+        "Dataset Name": "tsy-pragmeval-sarcasm",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/pragmeval",
@@ -9629,7 +9629,7 @@
     },
     "tsy-pragmeval-stac": {
         "Unique Dataset Identifier": "tsy-pragmeval-stac",
-        "Dataset Name": "pragmeval-stac",
+        "Dataset Name": "tsy-pragmeval-stac",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/pragmeval",
@@ -9714,7 +9714,7 @@
     },
     "tsy-pragmeval-pdtb": {
         "Unique Dataset Identifier": "tsy-pragmeval-pdtb",
-        "Dataset Name": "pragmeval-pdtb",
+        "Dataset Name": "tsy-pragmeval-pdtb",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/pragmeval",
@@ -9801,7 +9801,7 @@
     },
     "tsy-silicone-dyda_e": {
         "Unique Dataset Identifier": "tsy-silicone-dyda_e",
-        "Dataset Name": "silicone-dyda_e",
+        "Dataset Name": "tsy-silicone-dyda_e",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "http://yanran.li/dailydialog.html",
@@ -9892,7 +9892,7 @@
     },
     "tsy-silicone-oasis": {
         "Unique Dataset Identifier": "tsy-silicone-oasis",
-        "Dataset Name": "silicone-oasis",
+        "Dataset Name": "tsy-silicone-oasis",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/silicone",
@@ -9978,7 +9978,7 @@
     },
     "tsy-silicone-meld_s": {
         "Unique Dataset Identifier": "tsy-silicone-meld_s",
-        "Dataset Name": "silicone-meld_s",
+        "Dataset Name": "tsy-silicone-meld_s",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://affective-meld.github.io/",
@@ -10065,7 +10065,7 @@
     },
     "tsy-silicone-meld_e": {
         "Unique Dataset Identifier": "tsy-silicone-meld_e",
-        "Dataset Name": "silicone-meld_e",
+        "Dataset Name": "tsy-silicone-meld_e",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://affective-meld.github.io/",
@@ -10153,7 +10153,7 @@
     },
     "tsy-silicone-maptask": {
         "Unique Dataset Identifier": "tsy-silicone-maptask",
-        "Dataset Name": "silicone-maptask",
+        "Dataset Name": "tsy-silicone-maptask",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "http://groups.inf.ed.ac.uk/maptask/",
@@ -10239,7 +10239,7 @@
     },
     "tsy-silicone-dyda_da": {
         "Unique Dataset Identifier": "tsy-silicone-dyda_da",
-        "Dataset Name": "silicone-dyda_da",
+        "Dataset Name": "tsy-silicone-dyda_da",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "http://yanran.li/dailydialog.html",
@@ -10326,7 +10326,7 @@
     },
     "tsy-silicone-sem": {
         "Unique Dataset Identifier": "tsy-silicone-sem",
-        "Dataset Name": "silicone-sem",
+        "Dataset Name": "tsy-silicone-sem",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://ieeexplore.ieee.org/document/5959155",
@@ -10421,7 +10421,7 @@
     },
     "tsy-silicone-iemocap": {
         "Unique Dataset Identifier": "tsy-silicone-iemocap",
-        "Dataset Name": "silicone-iemocap",
+        "Dataset Name": "tsy-silicone-iemocap",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://sail.usc.edu/iemocap/",
@@ -10513,7 +10513,7 @@
     },
     "tsy-lex_glue-ledgar": {
         "Unique Dataset Identifier": "tsy-lex_glue-ledgar",
-        "Dataset Name": "lex_glue-ledgar",
+        "Dataset Name": "tsy-lex_glue-ledgar",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://metatext.io/datasets/ledgar",
@@ -10604,7 +10604,7 @@
     },
     "tsy-language_identification": {
         "Unique Dataset Identifier": "tsy-language_identification",
-        "Dataset Name": "language_identification",
+        "Dataset Name": "tsy-language_identification",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/papluca/language-identification",
@@ -10694,7 +10694,7 @@
     },
     "tsy-rotten_tomatoes": {
         "Unique Dataset Identifier": "tsy-rotten_tomatoes",
-        "Dataset Name": "rotten_tomatoes",
+        "Dataset Name": "tsy-rotten_tomatoes",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "http://www.cs.cornell.edu/people/pabo/movie-review-data/",
@@ -10781,7 +10781,7 @@
     },
     "tsy-hate_speech18": {
         "Unique Dataset Identifier": "tsy-hate_speech18",
-        "Dataset Name": "hate_speech18",
+        "Dataset Name": "tsy-hate_speech18",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Vicomtech/hate-speech-dataset",
@@ -10867,7 +10867,7 @@
     },
     "tsy-sms_spam": {
         "Unique Dataset Identifier": "tsy-sms_spam",
-        "Dataset Name": "sms_spam",
+        "Dataset Name": "tsy-sms_spam",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "http://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection",
@@ -10958,7 +10958,7 @@
     },
     "tsy-humicroedit-subtask_2": {
         "Unique Dataset Identifier": "tsy-humicroedit-subtask_2",
-        "Dataset Name": "humicroedit-subtask_2",
+        "Dataset Name": "tsy-humicroedit-subtask_2",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://www.cs.rochester.edu/u/nhossain/humicroedit.html",
@@ -11047,7 +11047,7 @@
     },
     "tsy-snips_built_in_intents": {
         "Unique Dataset Identifier": "tsy-snips_built_in_intents",
-        "Dataset Name": "snips_built_in_intents",
+        "Dataset Name": "tsy-snips_built_in_intents",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sonos/nlu-benchmark/tree/master/2016-12-built-in-intents",
@@ -11135,7 +11135,7 @@
     },
     "tsy-hate_speech_offensive": {
         "Unique Dataset Identifier": "tsy-hate_speech_offensive",
-        "Dataset Name": "hate_speech_offensive",
+        "Dataset Name": "tsy-hate_speech_offensive",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/t-davidson/hate-speech-and-offensive-language",
@@ -11221,7 +11221,7 @@
     },
     "tsy-hyperpartisan_news": {
         "Unique Dataset Identifier": "tsy-hyperpartisan_news",
-        "Dataset Name": "hyperpartisan_news",
+        "Dataset Name": "tsy-hyperpartisan_news",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/hyperpartisan_news_detection",
@@ -11309,7 +11309,7 @@
     },
     "tsy-sciie": {
         "Unique Dataset Identifier": "tsy-sciie",
-        "Dataset Name": "sciie",
+        "Dataset Name": "tsy-sciie",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "http://nlp.cs.washington.edu/sciIE/",
@@ -11392,7 +11392,7 @@
     },
     "tsy-citation_intent": {
         "Unique Dataset Identifier": "tsy-citation_intent",
-        "Dataset Name": "citation_intent",
+        "Dataset Name": "tsy-citation_intent",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/zapsdcn/citation_intent",
@@ -11474,7 +11474,7 @@
     },
     "tsy-scicite": {
         "Unique Dataset Identifier": "tsy-scicite",
-        "Dataset Name": "scicite",
+        "Dataset Name": "tsy-scicite",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/allenai/scicite",
@@ -11566,7 +11566,7 @@
     },
     "tsy-lexical_relation_classification-root09": {
         "Unique Dataset Identifier": "tsy-lexical_relation_classification-root09",
-        "Dataset Name": "lexical_relation_classification-root09",
+        "Dataset Name": "tsy-lexical_relation_classification-root09",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/asahi417/relbert",
@@ -11661,7 +11661,7 @@
     },
     "tsy-lexical_relation_classification-cogalexv": {
         "Unique Dataset Identifier": "tsy-lexical_relation_classification-cogalexv",
-        "Dataset Name": "lexical_relation_classification-cogalexv",
+        "Dataset Name": "tsy-lexical_relation_classification-cogalexv",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/asahi417/relbert",
@@ -11750,7 +11750,7 @@
     },
     "tsy-lexical_relation_classification-k&h+n": {
         "Unique Dataset Identifier": "tsy-lexical_relation_classification-k&h+n",
-        "Dataset Name": "lexical_relation_classification-k&h+n",
+        "Dataset Name": "tsy-lexical_relation_classification-k&h+n",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/asahi417/relbert",
@@ -11840,7 +11840,7 @@
     },
     "tsy-lexical_relation_classification-bless": {
         "Unique Dataset Identifier": "tsy-lexical_relation_classification-bless",
-        "Dataset Name": "lexical_relation_classification-bless",
+        "Dataset Name": "tsy-lexical_relation_classification-bless",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/asahi417/relbert",
@@ -11928,7 +11928,7 @@
     },
     "tsy-lexical_relation_classification-evalution": {
         "Unique Dataset Identifier": "tsy-lexical_relation_classification-evalution",
-        "Dataset Name": "lexical_relation_classification-evalution",
+        "Dataset Name": "tsy-lexical_relation_classification-evalution",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/asahi417/relbert",
@@ -12017,7 +12017,7 @@
     },
     "tsy-crowdflower-political_media_bias": {
         "Unique Dataset Identifier": "tsy-crowdflower-political_media_bias",
-        "Dataset Name": "crowdflower-political_media_bias",
+        "Dataset Name": "tsy-crowdflower-political_media_bias",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/crowdflower",
@@ -12107,7 +12107,7 @@
     },
     "tsy-crowdflower-tweet_global_warming": {
         "Unique Dataset Identifier": "tsy-crowdflower-tweet_global_warming",
-        "Dataset Name": "crowdflower-tweet_global_warming",
+        "Dataset Name": "tsy-crowdflower-tweet_global_warming",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/crowdflower",
@@ -12197,7 +12197,7 @@
     },
     "tsy-crowdflower-text_emotion": {
         "Unique Dataset Identifier": "tsy-crowdflower-text_emotion",
-        "Dataset Name": "crowdflower-text_emotion",
+        "Dataset Name": "tsy-crowdflower-text_emotion",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/crowdflower",
@@ -12279,7 +12279,7 @@
     },
     "tsy-crowdflower-political_media_message": {
         "Unique Dataset Identifier": "tsy-crowdflower-political_media_message",
-        "Dataset Name": "crowdflower-political_media_message",
+        "Dataset Name": "tsy-crowdflower-political_media_message",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/crowdflower",
@@ -12361,7 +12361,7 @@
     },
     "tsy-crowdflower-political_media_audience": {
         "Unique Dataset Identifier": "tsy-crowdflower-political_media_audience",
-        "Dataset Name": "crowdflower-political_media_audience",
+        "Dataset Name": "tsy-crowdflower-political_media_audience",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/crowdflower",
@@ -12452,7 +12452,7 @@
     },
     "tsy-crowdflower-economic_news": {
         "Unique Dataset Identifier": "tsy-crowdflower-economic_news",
-        "Dataset Name": "crowdflower-economic_news",
+        "Dataset Name": "tsy-crowdflower-economic_news",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/crowdflower",
@@ -12543,7 +12543,7 @@
     },
     "tsy-crowdflower-corporate_messaging": {
         "Unique Dataset Identifier": "tsy-crowdflower-corporate_messaging",
-        "Dataset Name": "crowdflower-corporate_messaging",
+        "Dataset Name": "tsy-crowdflower-corporate_messaging",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/crowdflower",
@@ -12627,7 +12627,7 @@
     },
     "tsy-crowdflower-airline_sentiment": {
         "Unique Dataset Identifier": "tsy-crowdflower-airline_sentiment",
-        "Dataset Name": "crowdflower-airline_sentiment",
+        "Dataset Name": "tsy-crowdflower-airline_sentiment",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/crowdflower",
@@ -12710,7 +12710,7 @@
     },
     "tsy-crowdflower-sentiment_nuclear_power": {
         "Unique Dataset Identifier": "tsy-crowdflower-sentiment_nuclear_power",
-        "Dataset Name": "crowdflower-sentiment_nuclear_power",
+        "Dataset Name": "tsy-crowdflower-sentiment_nuclear_power",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/crowdflower",
@@ -12791,7 +12791,7 @@
     },
     "tsy-ethics-commonsense": {
         "Unique Dataset Identifier": "tsy-ethics-commonsense",
-        "Dataset Name": "ethics-commonsense",
+        "Dataset Name": "tsy-ethics-commonsense",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/hendrycks/ethics",
@@ -12893,7 +12893,7 @@
     },
     "tsy-ethics-deontology": {
         "Unique Dataset Identifier": "tsy-ethics-deontology",
-        "Dataset Name": "ethics-deontology",
+        "Dataset Name": "tsy-ethics-deontology",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/hendrycks/ethics",
@@ -12992,7 +12992,7 @@
     },
     "tsy-ethics-justice": {
         "Unique Dataset Identifier": "tsy-ethics-justice",
-        "Dataset Name": "ethics-justice",
+        "Dataset Name": "tsy-ethics-justice",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/hendrycks/ethics",
@@ -13091,7 +13091,7 @@
     },
     "tsy-ethics-virtue": {
         "Unique Dataset Identifier": "tsy-ethics-virtue",
-        "Dataset Name": "ethics-virtue",
+        "Dataset Name": "tsy-ethics-virtue",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/hendrycks/ethics",
@@ -13192,7 +13192,7 @@
     },
     "tsy-tweets_hate_speech_detection": {
         "Unique Dataset Identifier": "tsy-tweets_hate_speech_detection",
-        "Dataset Name": "tweets_hate_speech_detection",
+        "Dataset Name": "tsy-tweets_hate_speech_detection",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sharmaroshan/Twitter-Sentiment-Analysis",
@@ -13290,7 +13290,7 @@
     },
     "tsy-blog_authorship_corpus-gender": {
         "Unique Dataset Identifier": "tsy-blog_authorship_corpus-gender",
-        "Dataset Name": "blog_authorship_corpus-gender",
+        "Dataset Name": "tsy-blog_authorship_corpus-gender",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://lingcog.blogspot.com/p/datasets.html",
@@ -13385,7 +13385,7 @@
     },
     "tsy-blog_authorship_corpus-horoscope": {
         "Unique Dataset Identifier": "tsy-blog_authorship_corpus-horoscope",
-        "Dataset Name": "blog_authorship_corpus-horoscope",
+        "Dataset Name": "tsy-blog_authorship_corpus-horoscope",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://lingcog.blogspot.com/p/datasets.html",
@@ -13472,7 +13472,7 @@
     },
     "tsy-blog_authorship_corpus-job": {
         "Unique Dataset Identifier": "tsy-blog_authorship_corpus-job",
-        "Dataset Name": "blog_authorship_corpus-job",
+        "Dataset Name": "tsy-blog_authorship_corpus-job",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://lingcog.blogspot.com/p/datasets.html",
@@ -13556,7 +13556,7 @@
     },
     "tsy-open_question_type": {
         "Unique Dataset Identifier": "tsy-open_question_type",
-        "Dataset Name": "open_question_type",
+        "Dataset Name": "tsy-open_question_type",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://shuyangcao.github.io/projects/ontology_open_ended_question/",
@@ -13642,7 +13642,7 @@
     },
     "tsy-mc_taco": {
         "Unique Dataset Identifier": "tsy-mc_taco",
-        "Dataset Name": "mc_taco",
+        "Dataset Name": "tsy-mc_taco",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://cogcomp.seas.upenn.edu/page/resource_view/125",
@@ -13746,7 +13746,7 @@
     },
     "tsy-phrase_similarity": {
         "Unique Dataset Identifier": "tsy-phrase_similarity",
-        "Dataset Name": "phrase_similarity",
+        "Dataset Name": "tsy-phrase_similarity",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://phrase-in-context.github.io/",
@@ -13830,7 +13830,7 @@
     },
     "tsy-scientific_exaggeration_detection": {
         "Unique Dataset Identifier": "tsy-scientific_exaggeration_detection",
-        "Dataset Name": "scientific_exaggeration_detection",
+        "Dataset Name": "tsy-scientific_exaggeration_detection",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/copenlu/scientific-exaggeration-detection",
@@ -13927,7 +13927,7 @@
     },
     "tsy-fever_evidence_related-mwong__fever_related": {
         "Unique Dataset Identifier": "tsy-fever_evidence_related-mwong__fever_related",
-        "Dataset Name": "fever_evidence_related-mwong__fever_related",
+        "Dataset Name": "tsy-fever_evidence_related-mwong__fever_related",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/mwong/fever-evidence-related",
@@ -14019,7 +14019,7 @@
     },
     "tsy-numer_sense": {
         "Unique Dataset Identifier": "tsy-numer_sense",
-        "Dataset Name": "numer_sense",
+        "Dataset Name": "tsy-numer_sense",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://inklab.usc.edu/NumerSense/",
@@ -14105,7 +14105,7 @@
     },
     "tsy-dynasent-dynabench.dynasent.r1.all-r1": {
         "Unique Dataset Identifier": "tsy-dynasent-dynabench.dynasent.r1.all-r1",
-        "Dataset Name": "dynasent-dynabench.dynasent.r1.all-r1",
+        "Dataset Name": "tsy-dynasent-dynabench.dynasent.r1.all-r1",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://dynabench.org/tasks/3",
@@ -14191,7 +14191,7 @@
     },
     "tsy-dynasent-dynabench.dynasent.r2.all-r2": {
         "Unique Dataset Identifier": "tsy-dynasent-dynabench.dynasent.r2.all-r2",
-        "Dataset Name": "dynasent-dynabench.dynasent.r2.all-r2",
+        "Dataset Name": "tsy-dynasent-dynabench.dynasent.r2.all-r2",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://dynabench.org/tasks/3",
@@ -14275,7 +14275,7 @@
     },
     "tsy-sem_eval_2010_task_8": {
         "Unique Dataset Identifier": "tsy-sem_eval_2010_task_8",
-        "Dataset Name": "sem_eval_2010_task_8",
+        "Dataset Name": "tsy-sem_eval_2010_task_8",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://semeval2.fbk.eu/semeval2.php?location=tasks&taskid=11",
@@ -14368,7 +14368,7 @@
     },
     "tsy-cycic_classification": {
         "Unique Dataset Identifier": "tsy-cycic_classification",
-        "Dataset Name": "cycic_classification",
+        "Dataset Name": "tsy-cycic_classification",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/cycic_classification",
@@ -14455,7 +14455,7 @@
     },
     "tsy-commonsense_qa_2.0": {
         "Unique Dataset Identifier": "tsy-commonsense_qa_2.0",
-        "Dataset Name": "commonsense_qa_2.0",
+        "Dataset Name": "tsy-commonsense_qa_2.0",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/commonsense_qa_2.0",
@@ -14542,7 +14542,7 @@
     },
     "tsy-lingnli": {
         "Unique Dataset Identifier": "tsy-lingnli",
-        "Dataset Name": "lingnli",
+        "Dataset Name": "tsy-lingnli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Alicia-Parrish/ling_in_loop/",
@@ -14628,7 +14628,7 @@
     },
     "tsy-monotonicity_entailment": {
         "Unique Dataset Identifier": "tsy-monotonicity_entailment",
-        "Dataset Name": "monotonicity_entailment",
+        "Dataset Name": "tsy-monotonicity_entailment",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/monotonicity-entailment",
@@ -14718,7 +14718,7 @@
     },
     "tsy-scinli": {
         "Unique Dataset Identifier": "tsy-scinli",
-        "Dataset Name": "scinli",
+        "Dataset Name": "tsy-scinli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/msadat3/SciNLI",
@@ -14804,7 +14804,7 @@
     },
     "tsy-naturallogic": {
         "Unique Dataset Identifier": "tsy-naturallogic",
-        "Dataset Name": "naturallogic",
+        "Dataset Name": "tsy-naturallogic",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/feng-yufei/Neural-Natural-Logic",
@@ -14893,7 +14893,7 @@
     },
     "tsy-dynahate": {
         "Unique Dataset Identifier": "tsy-dynahate",
-        "Dataset Name": "dynahate",
+        "Dataset Name": "tsy-dynahate",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://arxiv.org/abs/2012.15761",
@@ -14978,7 +14978,7 @@
     },
     "tsy-syntactic_augmentation_nli": {
         "Unique Dataset Identifier": "tsy-syntactic_augmentation_nli",
-        "Dataset Name": "syntactic_augmentation_nli",
+        "Dataset Name": "tsy-syntactic_augmentation_nli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/syntactic-augmentation-nli",
@@ -15078,7 +15078,7 @@
     },
     "tsy-autotnli": {
         "Unique Dataset Identifier": "tsy-autotnli",
-        "Dataset Name": "autotnli",
+        "Dataset Name": "tsy-autotnli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Dibyakanti/AutoTNLI-code",
@@ -15182,7 +15182,7 @@
     },
     "tsy-condaqa": {
         "Unique Dataset Identifier": "tsy-condaqa",
-        "Dataset Name": "condaqa",
+        "Dataset Name": "tsy-condaqa",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/AbhilashaRavichander/CondaQA",
@@ -15273,7 +15273,7 @@
     },
     "tsy-scruples": {
         "Unique Dataset Identifier": "tsy-scruples",
-        "Dataset Name": "scruples",
+        "Dataset Name": "tsy-scruples",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/scruples",
@@ -15368,7 +15368,7 @@
     },
     "tsy-attempto_nli": {
         "Unique Dataset Identifier": "tsy-attempto_nli",
-        "Dataset Name": "attempto_nli",
+        "Dataset Name": "tsy-attempto_nli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/sileod/attempto-nli",
@@ -15456,7 +15456,7 @@
     },
     "tsy-defeasible_nli-snli": {
         "Unique Dataset Identifier": "tsy-defeasible_nli-snli",
-        "Dataset Name": "defeasible_nli-snli",
+        "Dataset Name": "tsy-defeasible_nli-snli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/defeasible-nli",
@@ -15556,7 +15556,7 @@
     },
     "tsy-defeasible_nli-atomic": {
         "Unique Dataset Identifier": "tsy-defeasible_nli-atomic",
-        "Dataset Name": "defeasible_nli-atomic",
+        "Dataset Name": "tsy-defeasible_nli-atomic",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/defeasible-nli",
@@ -15652,7 +15652,7 @@
     },
     "tsy-help_nli": {
         "Unique Dataset Identifier": "tsy-help_nli",
-        "Dataset Name": "help_nli",
+        "Dataset Name": "tsy-help_nli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/verypluming/HELP",
@@ -15741,7 +15741,7 @@
     },
     "tsy-nli_veridicality_transitivity": {
         "Unique Dataset Identifier": "tsy-nli_veridicality_transitivity",
-        "Dataset Name": "nli_veridicality_transitivity",
+        "Dataset Name": "tsy-nli_veridicality_transitivity",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/nli-veridicality-transitivity",
@@ -15833,7 +15833,7 @@
     },
     "tsy-natural_language_satisfiability": {
         "Unique Dataset Identifier": "tsy-natural_language_satisfiability",
-        "Dataset Name": "natural_language_satisfiability",
+        "Dataset Name": "tsy-natural_language_satisfiability",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/natural-language-satisfiability",
@@ -15925,7 +15925,7 @@
     },
     "tsy-lonli": {
         "Unique Dataset Identifier": "tsy-lonli",
-        "Dataset Name": "lonli",
+        "Dataset Name": "tsy-lonli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/microsoft/LoNLI",
@@ -16018,7 +16018,7 @@
     },
     "tsy-dadc_limit_nli": {
         "Unique Dataset Identifier": "tsy-dadc_limit_nli",
-        "Dataset Name": "dadc_limit_nli",
+        "Dataset Name": "tsy-dadc_limit_nli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/dadc-limit",
@@ -16107,7 +16107,7 @@
     },
     "tsy-flute": {
         "Unique Dataset Identifier": "tsy-flute",
-        "Dataset Name": "flute",
+        "Dataset Name": "tsy-flute",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://figlang2022sharedtask.github.io/",
@@ -16194,7 +16194,7 @@
     },
     "tsy-folio": {
         "Unique Dataset Identifier": "tsy-folio",
-        "Dataset Name": "folio",
+        "Dataset Name": "tsy-folio",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Yale-LILY/FOLIO",
@@ -16294,7 +16294,7 @@
     },
     "tsy-tomi_nli": {
         "Unique Dataset Identifier": "tsy-tomi_nli",
-        "Dataset Name": "tomi_nli",
+        "Dataset Name": "tsy-tomi_nli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/tomi-nli",
@@ -16375,7 +16375,7 @@
     },
     "tsy-avicenna": {
         "Unique Dataset Identifier": "tsy-avicenna",
-        "Dataset Name": "avicenna",
+        "Dataset Name": "tsy-avicenna",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/avicenna",
@@ -16463,7 +16463,7 @@
     },
     "tsy-puzzte": {
         "Unique Dataset Identifier": "tsy-puzzte",
-        "Dataset Name": "puzzte",
+        "Dataset Name": "tsy-puzzte",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/puzzte",
@@ -16550,7 +16550,7 @@
     },
     "tsy-spartqa_yn": {
         "Unique Dataset Identifier": "tsy-spartqa_yn",
-        "Dataset Name": "spartqa_yn",
+        "Dataset Name": "tsy-spartqa_yn",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/spartqa-yn",
@@ -16643,7 +16643,7 @@
     },
     "tsy-temporal_nli": {
         "Unique Dataset Identifier": "tsy-temporal_nli",
-        "Dataset Name": "temporal_nli",
+        "Dataset Name": "tsy-temporal_nli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/temporal-nli",
@@ -16728,7 +16728,7 @@
     },
     "tsy-clcd_english": {
         "Unique Dataset Identifier": "tsy-clcd_english",
-        "Dataset Name": "clcd_english",
+        "Dataset Name": "tsy-clcd_english",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/clcd-english",
@@ -16822,7 +16822,7 @@
     },
     "tsy-twentyquestions": {
         "Unique Dataset Identifier": "tsy-twentyquestions",
-        "Dataset Name": "twentyquestions",
+        "Dataset Name": "tsy-twentyquestions",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/huggingface/datasets/blob/main/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards",
@@ -16911,7 +16911,7 @@
     },
     "tsy-counterfactually_augmented_imdb": {
         "Unique Dataset Identifier": "tsy-counterfactually_augmented_imdb",
-        "Dataset Name": "counterfactually_augmented_imdb",
+        "Dataset Name": "tsy-counterfactually_augmented_imdb",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/counterfactually-augmented-imdb",
@@ -17006,7 +17006,7 @@
     },
     "tsy-counterfactually_augmented_snli": {
         "Unique Dataset Identifier": "tsy-counterfactually_augmented_snli",
-        "Dataset Name": "counterfactually_augmented_snli",
+        "Dataset Name": "tsy-counterfactually_augmented_snli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/counterfactually-augmented-snli",
@@ -17094,7 +17094,7 @@
     },
     "tsy-cnli": {
         "Unique Dataset Identifier": "tsy-cnli",
-        "Dataset Name": "cnli",
+        "Dataset Name": "tsy-cnli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/cnli",
@@ -17179,7 +17179,7 @@
     },
     "tsy-boolq_natural_perturbations": {
         "Unique Dataset Identifier": "tsy-boolq_natural_perturbations",
-        "Dataset Name": "boolq_natural_perturbations",
+        "Dataset Name": "tsy-boolq_natural_perturbations",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/boolq-natural-perturbations",
@@ -17268,7 +17268,7 @@
     },
     "tsy-equate": {
         "Unique Dataset Identifier": "tsy-equate",
-        "Dataset Name": "equate",
+        "Dataset Name": "tsy-equate",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/equate",
@@ -17362,7 +17362,7 @@
     },
     "tsy-implicit_hate_stg1": {
         "Unique Dataset Identifier": "tsy-implicit_hate_stg1",
-        "Dataset Name": "implicit_hate_stg1",
+        "Dataset Name": "tsy-implicit_hate_stg1",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/SALT-NLP/implicit-hate",
@@ -17448,7 +17448,7 @@
     },
     "tsy-logiqa_2.0_nli": {
         "Unique Dataset Identifier": "tsy-logiqa_2.0_nli",
-        "Dataset Name": "logiqa_2.0_nli",
+        "Dataset Name": "tsy-logiqa_2.0_nli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/csitfun/LogiQA2.0",
@@ -17532,7 +17532,7 @@
     },
     "tsy-pararule_plus": {
         "Unique Dataset Identifier": "tsy-pararule_plus",
-        "Dataset Name": "pararule_plus",
+        "Dataset Name": "tsy-pararule_plus",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Strong-AI-Lab/Multi-Step-Deductive-Reasoning-Over-Natural-Language",
@@ -17621,7 +17621,7 @@
     },
     "tsy-mindgames": {
         "Unique Dataset Identifier": "tsy-mindgames",
-        "Dataset Name": "mindgames",
+        "Dataset Name": "tsy-mindgames",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/llm-theory-of-mind",
@@ -17729,7 +17729,7 @@
     },
     "tsy-ambient": {
         "Unique Dataset Identifier": "tsy-ambient",
-        "Dataset Name": "ambient",
+        "Dataset Name": "tsy-ambient",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/ambient",
@@ -17846,7 +17846,7 @@
     },
     "tsy-i2d2": {
         "Unique Dataset Identifier": "tsy-i2d2",
-        "Dataset Name": "i2d2",
+        "Dataset Name": "tsy-i2d2",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/tasksource/I2D2",
@@ -17939,7 +17939,7 @@
     },
     "tsy-args_me": {
         "Unique Dataset Identifier": "tsy-args_me",
-        "Dataset Name": "args_me",
+        "Dataset Name": "tsy-args_me",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://zenodo.org/record/4139439",
@@ -18033,7 +18033,7 @@
     },
     "tsy-touche23_valueeval": {
         "Unique Dataset Identifier": "tsy-touche23_valueeval",
-        "Dataset Name": "touche23_valueeval",
+        "Dataset Name": "tsy-touche23_valueeval",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://webis.de/data/touche23-valueeval.html",
@@ -18138,7 +18138,7 @@
     },
     "tsy-starcon": {
         "Unique Dataset Identifier": "tsy-starcon",
-        "Dataset Name": "starcon",
+        "Dataset Name": "tsy-starcon",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/dwslab/StArCon",
@@ -18230,7 +18230,7 @@
     },
     "tsy-banking77": {
         "Unique Dataset Identifier": "tsy-banking77",
-        "Dataset Name": "banking77",
+        "Dataset Name": "tsy-banking77",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/PolyAI-LDN/task-specific-datasets",
@@ -18315,7 +18315,7 @@
     },
     "tsy-ruletaker": {
         "Unique Dataset Identifier": "tsy-ruletaker",
-        "Dataset Name": "ruletaker",
+        "Dataset Name": "tsy-ruletaker",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/allenai/ruletaker",
@@ -18401,7 +18401,7 @@
     },
     "tsy-control_nli": {
         "Unique Dataset Identifier": "tsy-control_nli",
-        "Dataset Name": "control_nli",
+        "Dataset Name": "tsy-control_nli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/csitfun/ConTRoL-dataset",
@@ -18489,7 +18489,7 @@
     },
     "tsy-tracie": {
         "Unique Dataset Identifier": "tsy-tracie",
-        "Dataset Name": "tracie",
+        "Dataset Name": "tsy-tracie",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/allenai/aristo-leaderboard/tree/master/tracie/data",
@@ -18576,7 +18576,7 @@
     },
     "tsy-sherliic": {
         "Unique Dataset Identifier": "tsy-sherliic",
-        "Dataset Name": "sherliic",
+        "Dataset Name": "tsy-sherliic",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/mnschmit/SherLIiC",
@@ -18665,7 +18665,7 @@
     },
     "tsy-winowhy": {
         "Unique Dataset Identifier": "tsy-winowhy",
-        "Dataset Name": "winowhy",
+        "Dataset Name": "tsy-winowhy",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/HKUST-KnowComp/WinoWhy",
@@ -18753,7 +18753,7 @@
     },
     "tsy-mbib_base-cognitive_bias": {
         "Unique Dataset Identifier": "tsy-mbib_base-cognitive_bias",
-        "Dataset Name": "mbib_base-cognitive_bias",
+        "Dataset Name": "tsy-mbib_base-cognitive_bias",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Media-Bias-Group/Media-Bias-Identification-Benchmark",
@@ -18848,7 +18848,7 @@
     },
     "tsy-mbib_base-fake_news": {
         "Unique Dataset Identifier": "tsy-mbib_base-fake_news",
-        "Dataset Name": "mbib_base-fake_news",
+        "Dataset Name": "tsy-mbib_base-fake_news",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Media-Bias-Group/Media-Bias-Identification-Benchmark",
@@ -18940,7 +18940,7 @@
     },
     "tsy-mbib_base-gender_bias": {
         "Unique Dataset Identifier": "tsy-mbib_base-gender_bias",
-        "Dataset Name": "mbib_base-gender_bias",
+        "Dataset Name": "tsy-mbib_base-gender_bias",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Media-Bias-Group/Media-Bias-Identification-Benchmark",
@@ -19036,7 +19036,7 @@
     },
     "tsy-mbib_base-hate_speech": {
         "Unique Dataset Identifier": "tsy-mbib_base-hate_speech",
-        "Dataset Name": "mbib_base-hate_speech",
+        "Dataset Name": "tsy-mbib_base-hate_speech",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Media-Bias-Group/Media-Bias-Identification-Benchmark",
@@ -19128,7 +19128,7 @@
     },
     "tsy-mbib_base-linguistic_bias": {
         "Unique Dataset Identifier": "tsy-mbib_base-linguistic_bias",
-        "Dataset Name": "mbib_base-linguistic_bias",
+        "Dataset Name": "tsy-mbib_base-linguistic_bias",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Media-Bias-Group/Media-Bias-Identification-Benchmark",
@@ -19223,7 +19223,7 @@
     },
     "tsy-mbib_base-political_bias": {
         "Unique Dataset Identifier": "tsy-mbib_base-political_bias",
-        "Dataset Name": "mbib_base-political_bias",
+        "Dataset Name": "tsy-mbib_base-political_bias",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Media-Bias-Group/Media-Bias-Identification-Benchmark",
@@ -19318,7 +19318,7 @@
     },
     "tsy-mbib_base-racial_bias": {
         "Unique Dataset Identifier": "tsy-mbib_base-racial_bias",
-        "Dataset Name": "mbib_base-racial_bias",
+        "Dataset Name": "tsy-mbib_base-racial_bias",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Media-Bias-Group/Media-Bias-Identification-Benchmark",
@@ -19411,7 +19411,7 @@
     },
     "tsy-mbib_base-text_level_bias": {
         "Unique Dataset Identifier": "tsy-mbib_base-text_level_bias",
-        "Dataset Name": "mbib_base-text_level_bias",
+        "Dataset Name": "tsy-mbib_base-text_level_bias",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Media-Bias-Group/Media-Bias-Identification-Benchmark",
@@ -19508,7 +19508,7 @@
     },
     "tsy-robustlr": {
         "Unique Dataset Identifier": "tsy-robustlr",
-        "Dataset Name": "robustlr",
+        "Dataset Name": "tsy-robustlr",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/INK-USC/RobustLR",
@@ -19597,7 +19597,7 @@
     },
     "tsy-v1-gen_train234_test2to10": {
         "Unique Dataset Identifier": "tsy-v1-gen_train234_test2to10",
-        "Dataset Name": "v1-gen_train234_test2to10",
+        "Dataset Name": "tsy-v1-gen_train234_test2to10",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://www.cs.mcgill.ca/~ksinha4/clutrr/",
@@ -19688,7 +19688,7 @@
     },
     "tsy-logical_fallacy": {
         "Unique Dataset Identifier": "tsy-logical_fallacy",
-        "Dataset Name": "logical_fallacy",
+        "Dataset Name": "tsy-logical_fallacy",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/causalNLP/logical-fallacy",
@@ -19782,7 +19782,7 @@
     },
     "tsy-parade": {
         "Unique Dataset Identifier": "tsy-parade",
-        "Dataset Name": "parade",
+        "Dataset Name": "tsy-parade",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/heyunh2015/PARADE_dataset",
@@ -19867,7 +19867,7 @@
     },
     "tsy-cladder": {
         "Unique Dataset Identifier": "tsy-cladder",
-        "Dataset Name": "cladder",
+        "Dataset Name": "tsy-cladder",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/causalNLP/cladder",
@@ -19952,7 +19952,7 @@
     },
     "tsy-subjectivity": {
         "Unique Dataset Identifier": "tsy-subjectivity",
-        "Dataset Name": "subjectivity",
+        "Dataset Name": "tsy-subjectivity",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/tasksource/subjectivity",
@@ -20052,7 +20052,7 @@
     },
     "tsy-moh": {
         "Unique Dataset Identifier": "tsy-moh",
-        "Dataset Name": "moh",
+        "Dataset Name": "tsy-moh",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/tasksource/MOH",
@@ -20145,7 +20145,7 @@
     },
     "tsy-vuac": {
         "Unique Dataset Identifier": "tsy-vuac",
-        "Dataset Name": "vuac",
+        "Dataset Name": "tsy-vuac",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/tasksource/VUAC",
@@ -20233,7 +20233,7 @@
     },
     "tsy-trofi": {
         "Unique Dataset Identifier": "tsy-trofi",
-        "Dataset Name": "trofi",
+        "Dataset Name": "tsy-trofi",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/tasksource/TroFi",
@@ -20330,7 +20330,7 @@
     },
     "tsy-sharc_modified-mod": {
         "Unique Dataset Identifier": "tsy-sharc_modified-mod",
-        "Dataset Name": "sharc_modified-mod",
+        "Dataset Name": "tsy-sharc_modified-mod",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/nikhilweee/neural-conv-qa",
@@ -20425,7 +20425,7 @@
     },
     "tsy-conceptrules_v2": {
         "Unique Dataset Identifier": "tsy-conceptrules_v2",
-        "Dataset Name": "conceptrules_v2",
+        "Dataset Name": "tsy-conceptrules_v2",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Strong-AI-Lab/Multi-Step-Deductive-Reasoning-Over-Natural-Language",
@@ -20514,7 +20514,7 @@
     },
     "tsy-disrpt-eng.dep.scidtb": {
         "Unique Dataset Identifier": "tsy-disrpt-eng.dep.scidtb",
-        "Dataset Name": "disrpt-eng.dep.scidtb",
+        "Dataset Name": "tsy-disrpt-eng.dep.scidtb",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/disrpt",
@@ -20598,7 +20598,7 @@
     },
     "tsy-zero_shot_label_nli": {
         "Unique Dataset Identifier": "tsy-zero_shot_label_nli",
-        "Dataset Name": "zero_shot_label_nli",
+        "Dataset Name": "tsy-zero_shot_label_nli",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/tasksource",
@@ -20703,7 +20703,7 @@
     },
     "tsy-com2sense": {
         "Unique Dataset Identifier": "tsy-com2sense",
-        "Dataset Name": "com2sense",
+        "Dataset Name": "tsy-com2sense",
         "Collection": "Tasksource Symbol-Tuning",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/PlusLabNLP/Com2Sense",
