@@ -1,7 +1,7 @@
 {
     "tsi-babi_nli-two_arg_relations": {
         "Unique Dataset Identifier": "tsi-babi_nli-two_arg_relations",
-        "Dataset Name": "babi_nli-two_arg_relations",
+        "Dataset Name": "tsi-babi_nli-two_arg_relations",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -88,7 +88,7 @@
     },
     "tsi-babi_nli-three_supporting_facts": {
         "Unique Dataset Identifier": "tsi-babi_nli-three_supporting_facts",
-        "Dataset Name": "babi_nli-three_supporting_facts",
+        "Dataset Name": "tsi-babi_nli-three_supporting_facts",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -175,7 +175,7 @@
     },
     "tsi-babi_nli-indefinite_knowledge": {
         "Unique Dataset Identifier": "tsi-babi_nli-indefinite_knowledge",
-        "Dataset Name": "babi_nli-indefinite_knowledge",
+        "Dataset Name": "tsi-babi_nli-indefinite_knowledge",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -263,7 +263,7 @@
     },
     "tsi-babi_nli-time_reasoning": {
         "Unique Dataset Identifier": "tsi-babi_nli-time_reasoning",
-        "Dataset Name": "babi_nli-time_reasoning",
+        "Dataset Name": "tsi-babi_nli-time_reasoning",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -352,7 +352,7 @@
     },
     "tsi-babi_nli-two_supporting_facts": {
         "Unique Dataset Identifier": "tsi-babi_nli-two_supporting_facts",
-        "Dataset Name": "babi_nli-two_supporting_facts",
+        "Dataset Name": "tsi-babi_nli-two_supporting_facts",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -441,7 +441,7 @@
     },
     "tsi-babi_nli-path_finding": {
         "Unique Dataset Identifier": "tsi-babi_nli-path_finding",
-        "Dataset Name": "babi_nli-path_finding",
+        "Dataset Name": "tsi-babi_nli-path_finding",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -529,7 +529,7 @@
     },
     "tsi-babi_nli-yes_no_questions": {
         "Unique Dataset Identifier": "tsi-babi_nli-yes_no_questions",
-        "Dataset Name": "babi_nli-yes_no_questions",
+        "Dataset Name": "tsi-babi_nli-yes_no_questions",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -619,7 +619,7 @@
     },
     "tsi-babi_nli-basic_coreference": {
         "Unique Dataset Identifier": "tsi-babi_nli-basic_coreference",
-        "Dataset Name": "babi_nli-basic_coreference",
+        "Dataset Name": "tsi-babi_nli-basic_coreference",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -709,7 +709,7 @@
     },
     "tsi-babi_nli-counting": {
         "Unique Dataset Identifier": "tsi-babi_nli-counting",
-        "Dataset Name": "babi_nli-counting",
+        "Dataset Name": "tsi-babi_nli-counting",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -797,7 +797,7 @@
     },
     "tsi-babi_nli-compound_coreference": {
         "Unique Dataset Identifier": "tsi-babi_nli-compound_coreference",
-        "Dataset Name": "babi_nli-compound_coreference",
+        "Dataset Name": "tsi-babi_nli-compound_coreference",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -887,7 +887,7 @@
     },
     "tsi-babi_nli-three_arg_relations": {
         "Unique Dataset Identifier": "tsi-babi_nli-three_arg_relations",
-        "Dataset Name": "babi_nli-three_arg_relations",
+        "Dataset Name": "tsi-babi_nli-three_arg_relations",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -976,7 +976,7 @@
     },
     "tsi-babi_nli-single_supporting_fact": {
         "Unique Dataset Identifier": "tsi-babi_nli-single_supporting_fact",
-        "Dataset Name": "babi_nli-single_supporting_fact",
+        "Dataset Name": "tsi-babi_nli-single_supporting_fact",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -1063,7 +1063,7 @@
     },
     "tsi-babi_nli-simple_negation": {
         "Unique Dataset Identifier": "tsi-babi_nli-simple_negation",
-        "Dataset Name": "babi_nli-simple_negation",
+        "Dataset Name": "tsi-babi_nli-simple_negation",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -1151,7 +1151,7 @@
     },
     "tsi-babi_nli-lists_sets": {
         "Unique Dataset Identifier": "tsi-babi_nli-lists_sets",
-        "Dataset Name": "babi_nli-lists_sets",
+        "Dataset Name": "tsi-babi_nli-lists_sets",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -1238,7 +1238,7 @@
     },
     "tsi-babi_nli-basic_induction": {
         "Unique Dataset Identifier": "tsi-babi_nli-basic_induction",
-        "Dataset Name": "babi_nli-basic_induction",
+        "Dataset Name": "tsi-babi_nli-basic_induction",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -1325,7 +1325,7 @@
     },
     "tsi-babi_nli-size_reasoning": {
         "Unique Dataset Identifier": "tsi-babi_nli-size_reasoning",
-        "Dataset Name": "babi_nli-size_reasoning",
+        "Dataset Name": "tsi-babi_nli-size_reasoning",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -1414,7 +1414,7 @@
     },
     "tsi-babi_nli-conjunction": {
         "Unique Dataset Identifier": "tsi-babi_nli-conjunction",
-        "Dataset Name": "babi_nli-conjunction",
+        "Dataset Name": "tsi-babi_nli-conjunction",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -1503,7 +1503,7 @@
     },
     "tsi-babi_nli-basic_deduction": {
         "Unique Dataset Identifier": "tsi-babi_nli-basic_deduction",
-        "Dataset Name": "babi_nli-basic_deduction",
+        "Dataset Name": "tsi-babi_nli-basic_deduction",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -1593,7 +1593,7 @@
     },
     "tsi-babi_nli-positional_reasoning": {
         "Unique Dataset Identifier": "tsi-babi_nli-positional_reasoning",
-        "Dataset Name": "babi_nli-positional_reasoning",
+        "Dataset Name": "tsi-babi_nli-positional_reasoning",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookarchive/bAbI-tasks/blob/master/LICENSE.md",
@@ -1678,7 +1678,7 @@
     },
     "tsi-wanli": {
         "Unique Dataset Identifier": "tsi-wanli",
-        "Dataset Name": "wanli",
+        "Dataset Name": "tsi-wanli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/alisawuffles/wanli",
@@ -1779,7 +1779,7 @@
     },
     "tsi-recast-recast_verbnet": {
         "Unique Dataset Identifier": "tsi-recast-recast_verbnet",
-        "Dataset Name": "recast-recast_verbnet",
+        "Dataset Name": "tsi-recast-recast_verbnet",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "http://decomp.io/",
@@ -1860,7 +1860,7 @@
     },
     "tsi-recast-recast_verbcorner": {
         "Unique Dataset Identifier": "tsi-recast-recast_verbcorner",
-        "Dataset Name": "recast-recast_verbcorner",
+        "Dataset Name": "tsi-recast-recast_verbcorner",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/recast",
@@ -1941,7 +1941,7 @@
     },
     "tsi-recast-recast_ner": {
         "Unique Dataset Identifier": "tsi-recast-recast_ner",
-        "Dataset Name": "recast-recast_ner",
+        "Dataset Name": "tsi-recast-recast_ner",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/recast",
@@ -2022,7 +2022,7 @@
     },
     "tsi-recast-recast_sentiment": {
         "Unique Dataset Identifier": "tsi-recast-recast_sentiment",
-        "Dataset Name": "recast-recast_sentiment",
+        "Dataset Name": "tsi-recast-recast_sentiment",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/recast",
@@ -2105,7 +2105,7 @@
     },
     "tsi-recast-recast_puns": {
         "Unique Dataset Identifier": "tsi-recast-recast_puns",
-        "Dataset Name": "recast-recast_puns",
+        "Dataset Name": "tsi-recast-recast_puns",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/recast",
@@ -2188,7 +2188,7 @@
     },
     "tsi-recast-recast_factuality": {
         "Unique Dataset Identifier": "tsi-recast-recast_factuality",
-        "Dataset Name": "recast-recast_factuality",
+        "Dataset Name": "tsi-recast-recast_factuality",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/recast",
@@ -2271,7 +2271,7 @@
     },
     "tsi-recast-recast_megaveridicality": {
         "Unique Dataset Identifier": "tsi-recast-recast_megaveridicality",
-        "Dataset Name": "recast-recast_megaveridicality",
+        "Dataset Name": "tsi-recast-recast_megaveridicality",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/recast",
@@ -2354,7 +2354,7 @@
     },
     "tsi-probability_words_nli-reasoning_1hop": {
         "Unique Dataset Identifier": "tsi-probability_words_nli-reasoning_1hop",
-        "Dataset Name": "probability_words_nli-reasoning_1hop",
+        "Dataset Name": "tsi-probability_words_nli-reasoning_1hop",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/nlp-verbal-probabilities",
@@ -2467,7 +2467,7 @@
     },
     "tsi-probability_words_nli-usnli": {
         "Unique Dataset Identifier": "tsi-probability_words_nli-usnli",
-        "Dataset Name": "probability_words_nli-usnli",
+        "Dataset Name": "tsi-probability_words_nli-usnli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://sileod.s3.eu-west-3.amazonaws.com/probability_words/",
@@ -2560,7 +2560,7 @@
     },
     "tsi-probability_words_nli-reasoning_2hop": {
         "Unique Dataset Identifier": "tsi-probability_words_nli-reasoning_2hop",
-        "Dataset Name": "probability_words_nli-reasoning_2hop",
+        "Dataset Name": "tsi-probability_words_nli-reasoning_2hop",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://sileod.s3.eu-west-3.amazonaws.com/probability_words/",
@@ -2656,7 +2656,7 @@
     },
     "tsi-nan_nli-joey234__nan_nli": {
         "Unique Dataset Identifier": "tsi-nan_nli-joey234__nan_nli",
-        "Dataset Name": "nan_nli-joey234__nan_nli",
+        "Dataset Name": "tsi-nan_nli-joey234__nan_nli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/joey234/nan-nli",
@@ -2746,7 +2746,7 @@
     },
     "tsi-nli_fever": {
         "Unique Dataset Identifier": "tsi-nli_fever",
-        "Dataset Name": "nli_fever",
+        "Dataset Name": "tsi-nli_fever",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/easonnie/combine-FEVER-NSMN/blob/master/other_resources/nli_fever.md",
@@ -2841,7 +2841,7 @@
     },
     "tsi-breaking_nli": {
         "Unique Dataset Identifier": "tsi-breaking_nli",
-        "Dataset Name": "breaking_nli",
+        "Dataset Name": "tsi-breaking_nli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/BIU-NLP/Breaking_NLI",
@@ -2928,7 +2928,7 @@
     },
     "tsi-conj_nli": {
         "Unique Dataset Identifier": "tsi-conj_nli",
-        "Dataset Name": "conj_nli",
+        "Dataset Name": "tsi-conj_nli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/swarnaHub/ConjNLI",
@@ -3012,7 +3012,7 @@
     },
     "tsi-fracas": {
         "Unique Dataset Identifier": "tsi-fracas",
-        "Dataset Name": "fracas",
+        "Dataset Name": "tsi-fracas",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/felipessalvatore/NLI_datasets",
@@ -3093,7 +3093,7 @@
     },
     "tsi-dialogue_nli": {
         "Unique Dataset Identifier": "tsi-dialogue_nli",
-        "Dataset Name": "dialogue_nli",
+        "Dataset Name": "tsi-dialogue_nli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://wellecks.github.io/dialogue_nli/",
@@ -3181,7 +3181,7 @@
     },
     "tsi-mpe": {
         "Unique Dataset Identifier": "tsi-mpe",
-        "Dataset Name": "mpe",
+        "Dataset Name": "tsi-mpe",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/aylai/MultiPremiseEntailment",
@@ -3266,7 +3266,7 @@
     },
     "tsi-dnc": {
         "Unique Dataset Identifier": "tsi-dnc",
-        "Dataset Name": "dnc",
+        "Dataset Name": "tsi-dnc",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/decompositional-semantics-initiative/DNC",
@@ -3352,7 +3352,7 @@
     },
     "tsi-recast_white-fnplus": {
         "Unique Dataset Identifier": "tsi-recast_white-fnplus",
-        "Dataset Name": "recast_white-fnplus",
+        "Dataset Name": "tsi-recast_white-fnplus",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/decompositional-semantics-initiative/DNC/",
@@ -3435,7 +3435,7 @@
     },
     "tsi-recast_white-sprl": {
         "Unique Dataset Identifier": "tsi-recast_white-sprl",
-        "Dataset Name": "recast_white-sprl",
+        "Dataset Name": "tsi-recast_white-sprl",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/decompositional-semantics-initiative/DNC/",
@@ -3519,7 +3519,7 @@
     },
     "tsi-recast_white-dpr": {
         "Unique Dataset Identifier": "tsi-recast_white-dpr",
-        "Dataset Name": "recast_white-dpr",
+        "Dataset Name": "tsi-recast_white-dpr",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/decompositional-semantics-initiative/DNC/",
@@ -3602,7 +3602,7 @@
     },
     "tsi-robust_nli-is_cs": {
         "Unique Dataset Identifier": "tsi-robust_nli-is_cs",
-        "Dataset Name": "robust_nli-is_cs",
+        "Dataset Name": "tsi-robust_nli-is_cs",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/tyliupku/nli-debiasing-datasets",
@@ -3706,7 +3706,7 @@
     },
     "tsi-robust_nli-li_li": {
         "Unique Dataset Identifier": "tsi-robust_nli-li_li",
-        "Dataset Name": "robust_nli-li_li",
+        "Dataset Name": "tsi-robust_nli-li_li",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/tyliupku/nli-debiasing-datasets",
@@ -3802,7 +3802,7 @@
     },
     "tsi-robust_nli-st_wo": {
         "Unique Dataset Identifier": "tsi-robust_nli-st_wo",
-        "Dataset Name": "robust_nli-st_wo",
+        "Dataset Name": "tsi-robust_nli-st_wo",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/tyliupku/nli-debiasing-datasets",
@@ -3896,7 +3896,7 @@
     },
     "tsi-robust_nli-pi_sp": {
         "Unique Dataset Identifier": "tsi-robust_nli-pi_sp",
-        "Dataset Name": "robust_nli-pi_sp",
+        "Dataset Name": "tsi-robust_nli-pi_sp",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/tyliupku/nli-debiasing-datasets",
@@ -3996,7 +3996,7 @@
     },
     "tsi-robust_nli-pi_cd": {
         "Unique Dataset Identifier": "tsi-robust_nli-pi_cd",
-        "Dataset Name": "robust_nli-pi_cd",
+        "Dataset Name": "tsi-robust_nli-pi_cd",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/tyliupku/nli-debiasing-datasets",
@@ -4095,7 +4095,7 @@
     },
     "tsi-robust_nli-st_se": {
         "Unique Dataset Identifier": "tsi-robust_nli-st_se",
-        "Dataset Name": "robust_nli-st_se",
+        "Dataset Name": "tsi-robust_nli-st_se",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/tyliupku/nli-debiasing-datasets",
@@ -4190,7 +4190,7 @@
     },
     "tsi-robust_nli-st_ne": {
         "Unique Dataset Identifier": "tsi-robust_nli-st_ne",
-        "Dataset Name": "robust_nli-st_ne",
+        "Dataset Name": "tsi-robust_nli-st_ne",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/tyliupku/nli-debiasing-datasets",
@@ -4283,7 +4283,7 @@
     },
     "tsi-robust_nli-st_lm": {
         "Unique Dataset Identifier": "tsi-robust_nli-st_lm",
-        "Dataset Name": "robust_nli-st_lm",
+        "Dataset Name": "tsi-robust_nli-st_lm",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/tyliupku/nli-debiasing-datasets",
@@ -4378,7 +4378,7 @@
     },
     "tsi-robust_nli_is_sd": {
         "Unique Dataset Identifier": "tsi-robust_nli_is_sd",
-        "Dataset Name": "robust_nli_is_sd",
+        "Dataset Name": "tsi-robust_nli_is_sd",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/pietrolesci/robust_nli_is_sd",
@@ -4474,7 +4474,7 @@
     },
     "tsi-robust_nli_li_ts": {
         "Unique Dataset Identifier": "tsi-robust_nli_li_ts",
-        "Dataset Name": "robust_nli_li_ts",
+        "Dataset Name": "tsi-robust_nli_li_ts",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/pietrolesci/robust_nli_is_sd",
@@ -4573,7 +4573,7 @@
     },
     "tsi-gen_debiased_nli-snli_seq_z": {
         "Unique Dataset Identifier": "tsi-gen_debiased_nli-snli_seq_z",
-        "Dataset Name": "gen_debiased_nli-snli_seq_z",
+        "Dataset Name": "tsi-gen_debiased_nli-snli_seq_z",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/jimmycode/gen-debiased-nli#training-with-our-datasets",
@@ -4674,7 +4674,7 @@
     },
     "tsi-gen_debiased_nli-snli_z_aug": {
         "Unique Dataset Identifier": "tsi-gen_debiased_nli-snli_z_aug",
-        "Dataset Name": "gen_debiased_nli-snli_z_aug",
+        "Dataset Name": "tsi-gen_debiased_nli-snli_z_aug",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/jimmycode/gen-debiased-nli#training-with-our-datasets",
@@ -4776,7 +4776,7 @@
     },
     "tsi-gen_debiased_nli-snli_par_z": {
         "Unique Dataset Identifier": "tsi-gen_debiased_nli-snli_par_z",
-        "Dataset Name": "gen_debiased_nli-snli_par_z",
+        "Dataset Name": "tsi-gen_debiased_nli-snli_par_z",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/jimmycode/gen-debiased-nli#training-with-our-datasets",
@@ -4879,7 +4879,7 @@
     },
     "tsi-gen_debiased_nli-mnli_par_z": {
         "Unique Dataset Identifier": "tsi-gen_debiased_nli-mnli_par_z",
-        "Dataset Name": "gen_debiased_nli-mnli_par_z",
+        "Dataset Name": "tsi-gen_debiased_nli-mnli_par_z",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/jimmycode/gen-debiased-nli",
@@ -4981,7 +4981,7 @@
     },
     "tsi-gen_debiased_nli-mnli_z_aug": {
         "Unique Dataset Identifier": "tsi-gen_debiased_nli-mnli_z_aug",
-        "Dataset Name": "gen_debiased_nli-mnli_z_aug",
+        "Dataset Name": "tsi-gen_debiased_nli-mnli_z_aug",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/jimmycode/gen-debiased-nli",
@@ -5084,7 +5084,7 @@
     },
     "tsi-gen_debiased_nli-mnli_seq_z": {
         "Unique Dataset Identifier": "tsi-gen_debiased_nli-mnli_seq_z",
-        "Dataset Name": "gen_debiased_nli-mnli_seq_z",
+        "Dataset Name": "tsi-gen_debiased_nli-mnli_seq_z",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/jimmycode/gen-debiased-nli",
@@ -5187,7 +5187,7 @@
     },
     "tsi-add_one_rte": {
         "Unique Dataset Identifier": "tsi-add_one_rte",
-        "Dataset Name": "add_one_rte",
+        "Dataset Name": "tsi-add_one_rte",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/rabeehk/robust-nli/blob/c32ff958d4df68ac2fad9bf990f70d30eab9f297/data/scripts/add_one_rte.py",
@@ -5278,7 +5278,7 @@
     },
     "tsi-imppres-presupposition_all_n_presupposition-presupposition": {
         "Unique Dataset Identifier": "tsi-imppres-presupposition_all_n_presupposition-presupposition",
-        "Dataset Name": "imppres-presupposition_all_n_presupposition-presupposition",
+        "Dataset Name": "tsi-imppres-presupposition_all_n_presupposition-presupposition",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -5364,7 +5364,7 @@
     },
     "tsi-imppres-presupposition_both_presupposition-presupposition": {
         "Unique Dataset Identifier": "tsi-imppres-presupposition_both_presupposition-presupposition",
-        "Dataset Name": "imppres-presupposition_both_presupposition-presupposition",
+        "Dataset Name": "tsi-imppres-presupposition_both_presupposition-presupposition",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -5453,7 +5453,7 @@
     },
     "tsi-imppres-presupposition_change_of_state-presupposition": {
         "Unique Dataset Identifier": "tsi-imppres-presupposition_change_of_state-presupposition",
-        "Dataset Name": "imppres-presupposition_change_of_state-presupposition",
+        "Dataset Name": "tsi-imppres-presupposition_change_of_state-presupposition",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -5542,7 +5542,7 @@
     },
     "tsi-imppres-presupposition_cleft_existence-presupposition": {
         "Unique Dataset Identifier": "tsi-imppres-presupposition_cleft_existence-presupposition",
-        "Dataset Name": "imppres-presupposition_cleft_existence-presupposition",
+        "Dataset Name": "tsi-imppres-presupposition_cleft_existence-presupposition",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -5628,7 +5628,7 @@
     },
     "tsi-imppres-presupposition_only_presupposition-presupposition": {
         "Unique Dataset Identifier": "tsi-imppres-presupposition_only_presupposition-presupposition",
-        "Dataset Name": "imppres-presupposition_only_presupposition-presupposition",
+        "Dataset Name": "tsi-imppres-presupposition_only_presupposition-presupposition",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -5715,7 +5715,7 @@
     },
     "tsi-imppres-presupposition_possessed_definites_existence-presupposition": {
         "Unique Dataset Identifier": "tsi-imppres-presupposition_possessed_definites_existence-presupposition",
-        "Dataset Name": "imppres-presupposition_possessed_definites_existence-presupposition",
+        "Dataset Name": "tsi-imppres-presupposition_possessed_definites_existence-presupposition",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -5802,7 +5802,7 @@
     },
     "tsi-imppres-presupposition_possessed_definites_uniqueness-presupposition": {
         "Unique Dataset Identifier": "tsi-imppres-presupposition_possessed_definites_uniqueness-presupposition",
-        "Dataset Name": "imppres-presupposition_possessed_definites_uniqueness-presupposition",
+        "Dataset Name": "tsi-imppres-presupposition_possessed_definites_uniqueness-presupposition",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -5889,7 +5889,7 @@
     },
     "tsi-imppres-presupposition_question_presupposition-presupposition": {
         "Unique Dataset Identifier": "tsi-imppres-presupposition_question_presupposition-presupposition",
-        "Dataset Name": "imppres-presupposition_question_presupposition-presupposition",
+        "Dataset Name": "tsi-imppres-presupposition_question_presupposition-presupposition",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -5976,7 +5976,7 @@
     },
     "tsi-imppres-presupposition_cleft_uniqueness-presupposition": {
         "Unique Dataset Identifier": "tsi-imppres-presupposition_cleft_uniqueness-presupposition",
-        "Dataset Name": "imppres-presupposition_cleft_uniqueness-presupposition",
+        "Dataset Name": "tsi-imppres-presupposition_cleft_uniqueness-presupposition",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6062,7 +6062,7 @@
     },
     "tsi-imppres-implicature_connectives-prag": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_connectives-prag",
-        "Dataset Name": "imppres-implicature_connectives-prag",
+        "Dataset Name": "tsi-imppres-implicature_connectives-prag",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6148,7 +6148,7 @@
     },
     "tsi-imppres-implicature_gradable_adjective-prag": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_gradable_adjective-prag",
-        "Dataset Name": "imppres-implicature_gradable_adjective-prag",
+        "Dataset Name": "tsi-imppres-implicature_gradable_adjective-prag",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6235,7 +6235,7 @@
     },
     "tsi-imppres-implicature_numerals_2_3-prag": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_numerals_2_3-prag",
-        "Dataset Name": "imppres-implicature_numerals_2_3-prag",
+        "Dataset Name": "tsi-imppres-implicature_numerals_2_3-prag",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6324,7 +6324,7 @@
     },
     "tsi-imppres-implicature_gradable_verb-prag": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_gradable_verb-prag",
-        "Dataset Name": "imppres-implicature_gradable_verb-prag",
+        "Dataset Name": "tsi-imppres-implicature_gradable_verb-prag",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6413,7 +6413,7 @@
     },
     "tsi-imppres-implicature_numerals_10_100-prag": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_numerals_10_100-prag",
-        "Dataset Name": "imppres-implicature_numerals_10_100-prag",
+        "Dataset Name": "tsi-imppres-implicature_numerals_10_100-prag",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6499,7 +6499,7 @@
     },
     "tsi-imppres-implicature_modals-prag": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_modals-prag",
-        "Dataset Name": "imppres-implicature_modals-prag",
+        "Dataset Name": "tsi-imppres-implicature_modals-prag",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6588,7 +6588,7 @@
     },
     "tsi-imppres-implicature_quantifiers-prag": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_quantifiers-prag",
-        "Dataset Name": "imppres-implicature_quantifiers-prag",
+        "Dataset Name": "tsi-imppres-implicature_quantifiers-prag",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6677,7 +6677,7 @@
     },
     "tsi-imppres-implicature_connectives-log": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_connectives-log",
-        "Dataset Name": "imppres-implicature_connectives-log",
+        "Dataset Name": "tsi-imppres-implicature_connectives-log",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6764,7 +6764,7 @@
     },
     "tsi-imppres-implicature_gradable_adjective-log": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_gradable_adjective-log",
-        "Dataset Name": "imppres-implicature_gradable_adjective-log",
+        "Dataset Name": "tsi-imppres-implicature_gradable_adjective-log",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6853,7 +6853,7 @@
     },
     "tsi-imppres-implicature_gradable_verb-log": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_gradable_verb-log",
-        "Dataset Name": "imppres-implicature_gradable_verb-log",
+        "Dataset Name": "tsi-imppres-implicature_gradable_verb-log",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -6940,7 +6940,7 @@
     },
     "tsi-imppres-implicature_quantifiers-log": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_quantifiers-log",
-        "Dataset Name": "imppres-implicature_quantifiers-log",
+        "Dataset Name": "tsi-imppres-implicature_quantifiers-log",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -7027,7 +7027,7 @@
     },
     "tsi-imppres-implicature_numerals_2_3-log": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_numerals_2_3-log",
-        "Dataset Name": "imppres-implicature_numerals_2_3-log",
+        "Dataset Name": "tsi-imppres-implicature_numerals_2_3-log",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -7114,7 +7114,7 @@
     },
     "tsi-imppres-implicature_modals-log": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_modals-log",
-        "Dataset Name": "imppres-implicature_modals-log",
+        "Dataset Name": "tsi-imppres-implicature_modals-log",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -7203,7 +7203,7 @@
     },
     "tsi-imppres-implicature_numerals_10_100-log": {
         "Unique Dataset Identifier": "tsi-imppres-implicature_numerals_10_100-log",
-        "Dataset Name": "imppres-implicature_numerals_10_100-log",
+        "Dataset Name": "tsi-imppres-implicature_numerals_10_100-log",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/Imppres",
@@ -7290,7 +7290,7 @@
     },
     "tsi-glue_diagnostics-diagnostics": {
         "Unique Dataset Identifier": "tsi-glue_diagnostics-diagnostics",
-        "Dataset Name": "glue_diagnostics-diagnostics",
+        "Dataset Name": "tsi-glue_diagnostics-diagnostics",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://gluebenchmark.com/diagnostics",
@@ -7381,7 +7381,7 @@
     },
     "tsi-hlgd": {
         "Unique Dataset Identifier": "tsi-hlgd",
-        "Dataset Name": "hlgd",
+        "Dataset Name": "tsi-hlgd",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/tingofurro/headline_grouping",
@@ -7476,7 +7476,7 @@
     },
     "tsi-medical_questions_pairs": {
         "Unique Dataset Identifier": "tsi-medical_questions_pairs",
-        "Dataset Name": "medical_questions_pairs",
+        "Dataset Name": "tsi-medical_questions_pairs",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/curai/medical-question-pair-dataset",
@@ -7566,7 +7566,7 @@
     },
     "tsi-conll2003-pos_tags": {
         "Unique Dataset Identifier": "tsi-conll2003-pos_tags",
-        "Dataset Name": "conll2003-pos_tags",
+        "Dataset Name": "tsi-conll2003-pos_tags",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://www.aclweb.org/anthology/W03-0419/",
@@ -7659,7 +7659,7 @@
     },
     "tsi-conll2003-chunk_tags": {
         "Unique Dataset Identifier": "tsi-conll2003-chunk_tags",
-        "Dataset Name": "conll2003-chunk_tags",
+        "Dataset Name": "tsi-conll2003-chunk_tags",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://www.aclweb.org/anthology/W03-0419/",
@@ -7752,7 +7752,7 @@
     },
     "tsi-conll2003-ner_tags": {
         "Unique Dataset Identifier": "tsi-conll2003-ner_tags",
-        "Dataset Name": "conll2003-ner_tags",
+        "Dataset Name": "tsi-conll2003-ner_tags",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://www.aclweb.org/anthology/W03-0419/",
@@ -7841,7 +7841,7 @@
     },
     "tsi-hh_rlhf": {
         "Unique Dataset Identifier": "tsi-hh_rlhf",
-        "Dataset Name": "hh_rlhf",
+        "Dataset Name": "tsi-hh_rlhf",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/anthropics/hh-rlhf",
@@ -7927,7 +7927,7 @@
     },
     "tsi-model_written_evals": {
         "Unique Dataset Identifier": "tsi-model_written_evals",
-        "Dataset Name": "model_written_evals",
+        "Dataset Name": "tsi-model_written_evals",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/Anthropic/model-written-evals",
@@ -8017,7 +8017,7 @@
     },
     "tsi-truthful_qa-multiple_choice": {
         "Unique Dataset Identifier": "tsi-truthful_qa-multiple_choice",
-        "Dataset Name": "truthful_qa-multiple_choice",
+        "Dataset Name": "tsi-truthful_qa-multiple_choice",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sylinrl/TruthfulQA",
@@ -8102,7 +8102,7 @@
     },
     "tsi-fig_qa": {
         "Unique Dataset Identifier": "tsi-fig_qa",
-        "Dataset Name": "fig_qa",
+        "Dataset Name": "tsi-fig_qa",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/nightingal3/Fig-QA",
@@ -8186,7 +8186,7 @@
     },
     "tsi-social_i_qa": {
         "Unique Dataset Identifier": "tsi-social_i_qa",
-        "Dataset Name": "social_i_qa",
+        "Dataset Name": "tsi-social_i_qa",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://allenai.org/data/socialiqa",
@@ -8273,7 +8273,7 @@
     },
     "tsi-balanced_copa": {
         "Unique Dataset Identifier": "tsi-balanced_copa",
-        "Dataset Name": "balanced_copa",
+        "Dataset Name": "tsi-balanced_copa",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://balanced-copa.github.io/",
@@ -8361,7 +8361,7 @@
     },
     "tsi-e_care": {
         "Unique Dataset Identifier": "tsi-e_care",
-        "Dataset Name": "e_care",
+        "Dataset Name": "tsi-e_care",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/waste-wood/e-care",
@@ -8451,7 +8451,7 @@
     },
     "tsi-insincere_questions": {
         "Unique Dataset Identifier": "tsi-insincere_questions",
-        "Dataset Name": "insincere_questions",
+        "Dataset Name": "tsi-insincere_questions",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://www.kaggle.com/c/quora-insincere-questions-classification",
@@ -8533,7 +8533,7 @@
     },
     "tsi-turingbench": {
         "Unique Dataset Identifier": "tsi-turingbench",
-        "Dataset Name": "turingbench",
+        "Dataset Name": "tsi-turingbench",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/TuringBench/TuringBench",
@@ -8629,7 +8629,7 @@
     },
     "tsi-vitaminc-tals__vitaminc": {
         "Unique Dataset Identifier": "tsi-vitaminc-tals__vitaminc",
-        "Dataset Name": "vitaminc-tals__vitaminc",
+        "Dataset Name": "tsi-vitaminc-tals__vitaminc",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/TalSchuster/VitaminC",
@@ -8722,7 +8722,7 @@
     },
     "tsi-rumoureval_2019-rumoureval2019": {
         "Unique Dataset Identifier": "tsi-rumoureval_2019-rumoureval2019",
-        "Dataset Name": "rumoureval_2019-rumoureval2019",
+        "Dataset Name": "tsi-rumoureval_2019-rumoureval2019",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/leondz",
@@ -8812,7 +8812,7 @@
     },
     "tsi-tweet_eval-irony": {
         "Unique Dataset Identifier": "tsi-tweet_eval-irony",
-        "Dataset Name": "tweet_eval-irony",
+        "Dataset Name": "tsi-tweet_eval-irony",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -8900,7 +8900,7 @@
     },
     "tsi-tweet_eval-stance_abortion": {
         "Unique Dataset Identifier": "tsi-tweet_eval-stance_abortion",
-        "Dataset Name": "tweet_eval-stance_abortion",
+        "Dataset Name": "tsi-tweet_eval-stance_abortion",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -8990,7 +8990,7 @@
     },
     "tsi-tweet_eval-hate": {
         "Unique Dataset Identifier": "tsi-tweet_eval-hate",
-        "Dataset Name": "tweet_eval-hate",
+        "Dataset Name": "tsi-tweet_eval-hate",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -9085,7 +9085,7 @@
     },
     "tsi-tweet_eval-stance_atheism": {
         "Unique Dataset Identifier": "tsi-tweet_eval-stance_atheism",
-        "Dataset Name": "tweet_eval-stance_atheism",
+        "Dataset Name": "tsi-tweet_eval-stance_atheism",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -9175,7 +9175,7 @@
     },
     "tsi-tweet_eval-stance_climate": {
         "Unique Dataset Identifier": "tsi-tweet_eval-stance_climate",
-        "Dataset Name": "tweet_eval-stance_climate",
+        "Dataset Name": "tsi-tweet_eval-stance_climate",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -9267,7 +9267,7 @@
     },
     "tsi-tweet_eval-emoji": {
         "Unique Dataset Identifier": "tsi-tweet_eval-emoji",
-        "Dataset Name": "tweet_eval-emoji",
+        "Dataset Name": "tsi-tweet_eval-emoji",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -9358,7 +9358,7 @@
     },
     "tsi-tweet_eval-offensive": {
         "Unique Dataset Identifier": "tsi-tweet_eval-offensive",
-        "Dataset Name": "tweet_eval-offensive",
+        "Dataset Name": "tsi-tweet_eval-offensive",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -9453,7 +9453,7 @@
     },
     "tsi-tweet_eval-sentiment": {
         "Unique Dataset Identifier": "tsi-tweet_eval-sentiment",
-        "Dataset Name": "tweet_eval-sentiment",
+        "Dataset Name": "tsi-tweet_eval-sentiment",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -9544,7 +9544,7 @@
     },
     "tsi-tweet_eval-emotion": {
         "Unique Dataset Identifier": "tsi-tweet_eval-emotion",
-        "Dataset Name": "tweet_eval-emotion",
+        "Dataset Name": "tsi-tweet_eval-emotion",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -9633,7 +9633,7 @@
     },
     "tsi-tweet_eval-stance_feminist": {
         "Unique Dataset Identifier": "tsi-tweet_eval-stance_feminist",
-        "Dataset Name": "tweet_eval-stance_feminist",
+        "Dataset Name": "tsi-tweet_eval-stance_feminist",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -9725,7 +9725,7 @@
     },
     "tsi-tweet_eval-stance_hillary": {
         "Unique Dataset Identifier": "tsi-tweet_eval-stance_hillary",
-        "Dataset Name": "tweet_eval-stance_hillary",
+        "Dataset Name": "tsi-tweet_eval-stance_hillary",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/cardiffnlp/tweeteval",
@@ -9819,7 +9819,7 @@
     },
     "tsi-discovery-discovery": {
         "Unique Dataset Identifier": "tsi-discovery-discovery",
-        "Dataset Name": "discovery-discovery",
+        "Dataset Name": "tsi-discovery-discovery",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/Discovery",
@@ -9922,7 +9922,7 @@
     },
     "tsi-pragmeval-verifiability": {
         "Unique Dataset Identifier": "tsi-pragmeval-verifiability",
-        "Dataset Name": "pragmeval-verifiability",
+        "Dataset Name": "tsi-pragmeval-verifiability",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/pragmeval",
@@ -10009,7 +10009,7 @@
     },
     "tsi-pragmeval-mrda": {
         "Unique Dataset Identifier": "tsi-pragmeval-mrda",
-        "Dataset Name": "pragmeval-mrda",
+        "Dataset Name": "tsi-pragmeval-mrda",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/pragmeval",
@@ -10094,7 +10094,7 @@
     },
     "tsi-pragmeval-switchboard": {
         "Unique Dataset Identifier": "tsi-pragmeval-switchboard",
-        "Dataset Name": "pragmeval-switchboard",
+        "Dataset Name": "tsi-pragmeval-switchboard",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/pragmeval",
@@ -10180,7 +10180,7 @@
     },
     "tsi-pragmeval-emergent": {
         "Unique Dataset Identifier": "tsi-pragmeval-emergent",
-        "Dataset Name": "pragmeval-emergent",
+        "Dataset Name": "tsi-pragmeval-emergent",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/pragmeval",
@@ -10269,7 +10269,7 @@
     },
     "tsi-pragmeval-gum": {
         "Unique Dataset Identifier": "tsi-pragmeval-gum",
-        "Dataset Name": "pragmeval-gum",
+        "Dataset Name": "tsi-pragmeval-gum",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/pragmeval",
@@ -10356,7 +10356,7 @@
     },
     "tsi-pragmeval-sarcasm": {
         "Unique Dataset Identifier": "tsi-pragmeval-sarcasm",
-        "Dataset Name": "pragmeval-sarcasm",
+        "Dataset Name": "tsi-pragmeval-sarcasm",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/pragmeval",
@@ -10448,7 +10448,7 @@
     },
     "tsi-pragmeval-stac": {
         "Unique Dataset Identifier": "tsi-pragmeval-stac",
-        "Dataset Name": "pragmeval-stac",
+        "Dataset Name": "tsi-pragmeval-stac",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/pragmeval",
@@ -10534,7 +10534,7 @@
     },
     "tsi-pragmeval-pdtb": {
         "Unique Dataset Identifier": "tsi-pragmeval-pdtb",
-        "Dataset Name": "pragmeval-pdtb",
+        "Dataset Name": "tsi-pragmeval-pdtb",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/pragmeval",
@@ -10619,7 +10619,7 @@
     },
     "tsi-silicone-dyda_e": {
         "Unique Dataset Identifier": "tsi-silicone-dyda_e",
-        "Dataset Name": "silicone-dyda_e",
+        "Dataset Name": "tsi-silicone-dyda_e",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "http://yanran.li/dailydialog.html",
@@ -10709,7 +10709,7 @@
     },
     "tsi-silicone-oasis": {
         "Unique Dataset Identifier": "tsi-silicone-oasis",
-        "Dataset Name": "silicone-oasis",
+        "Dataset Name": "tsi-silicone-oasis",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/silicone",
@@ -10796,7 +10796,7 @@
     },
     "tsi-silicone-meld_s": {
         "Unique Dataset Identifier": "tsi-silicone-meld_s",
-        "Dataset Name": "silicone-meld_s",
+        "Dataset Name": "tsi-silicone-meld_s",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://affective-meld.github.io/",
@@ -10884,7 +10884,7 @@
     },
     "tsi-silicone-meld_e": {
         "Unique Dataset Identifier": "tsi-silicone-meld_e",
-        "Dataset Name": "silicone-meld_e",
+        "Dataset Name": "tsi-silicone-meld_e",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://affective-meld.github.io/",
@@ -10969,7 +10969,7 @@
     },
     "tsi-silicone-maptask": {
         "Unique Dataset Identifier": "tsi-silicone-maptask",
-        "Dataset Name": "silicone-maptask",
+        "Dataset Name": "tsi-silicone-maptask",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "http://groups.inf.ed.ac.uk/maptask/",
@@ -11057,7 +11057,7 @@
     },
     "tsi-silicone-dyda_da": {
         "Unique Dataset Identifier": "tsi-silicone-dyda_da",
-        "Dataset Name": "silicone-dyda_da",
+        "Dataset Name": "tsi-silicone-dyda_da",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "http://yanran.li/dailydialog.html",
@@ -11143,7 +11143,7 @@
     },
     "tsi-silicone-sem": {
         "Unique Dataset Identifier": "tsi-silicone-sem",
-        "Dataset Name": "silicone-sem",
+        "Dataset Name": "tsi-silicone-sem",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://ieeexplore.ieee.org/document/5959155",
@@ -11233,7 +11233,7 @@
     },
     "tsi-silicone-iemocap": {
         "Unique Dataset Identifier": "tsi-silicone-iemocap",
-        "Dataset Name": "silicone-iemocap",
+        "Dataset Name": "tsi-silicone-iemocap",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://sail.usc.edu/iemocap/",
@@ -11322,7 +11322,7 @@
     },
     "tsi-lex_glue-scotus": {
         "Unique Dataset Identifier": "tsi-lex_glue-scotus",
-        "Dataset Name": "lex_glue-scotus",
+        "Dataset Name": "tsi-lex_glue-scotus",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/coastalcph/lex-glue",
@@ -11410,7 +11410,7 @@
     },
     "tsi-lex_glue-ledgar": {
         "Unique Dataset Identifier": "tsi-lex_glue-ledgar",
-        "Dataset Name": "lex_glue-ledgar",
+        "Dataset Name": "tsi-lex_glue-ledgar",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://metatext.io/datasets/ledgar",
@@ -11499,7 +11499,7 @@
     },
     "tsi-lex_glue-case_hold": {
         "Unique Dataset Identifier": "tsi-lex_glue-case_hold",
-        "Dataset Name": "lex_glue-case_hold",
+        "Dataset Name": "tsi-lex_glue-case_hold",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/reglab/casehold",
@@ -11588,7 +11588,7 @@
     },
     "tsi-language_identification": {
         "Unique Dataset Identifier": "tsi-language_identification",
-        "Dataset Name": "language_identification",
+        "Dataset Name": "tsi-language_identification",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/papluca/language-identification",
@@ -11677,7 +11677,7 @@
     },
     "tsi-rotten_tomatoes": {
         "Unique Dataset Identifier": "tsi-rotten_tomatoes",
-        "Dataset Name": "rotten_tomatoes",
+        "Dataset Name": "tsi-rotten_tomatoes",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "http://www.cs.cornell.edu/people/pabo/movie-review-data/",
@@ -11764,7 +11764,7 @@
     },
     "tsi-hate_speech18": {
         "Unique Dataset Identifier": "tsi-hate_speech18",
-        "Dataset Name": "hate_speech18",
+        "Dataset Name": "tsi-hate_speech18",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Vicomtech/hate-speech-dataset",
@@ -11850,7 +11850,7 @@
     },
     "tsi-sms_spam": {
         "Unique Dataset Identifier": "tsi-sms_spam",
-        "Dataset Name": "sms_spam",
+        "Dataset Name": "tsi-sms_spam",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "http://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection",
@@ -11937,7 +11937,7 @@
     },
     "tsi-humicroedit-subtask_2": {
         "Unique Dataset Identifier": "tsi-humicroedit-subtask_2",
-        "Dataset Name": "humicroedit-subtask_2",
+        "Dataset Name": "tsi-humicroedit-subtask_2",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://www.cs.rochester.edu/u/nhossain/humicroedit.html",
@@ -12025,7 +12025,7 @@
     },
     "tsi-snips_built_in_intents": {
         "Unique Dataset Identifier": "tsi-snips_built_in_intents",
-        "Dataset Name": "snips_built_in_intents",
+        "Dataset Name": "tsi-snips_built_in_intents",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sonos/nlu-benchmark/tree/master/2016-12-built-in-intents",
@@ -12111,7 +12111,7 @@
     },
     "tsi-hate_speech_offensive": {
         "Unique Dataset Identifier": "tsi-hate_speech_offensive",
-        "Dataset Name": "hate_speech_offensive",
+        "Dataset Name": "tsi-hate_speech_offensive",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/t-davidson/hate-speech-and-offensive-language",
@@ -12194,7 +12194,7 @@
     },
     "tsi-hyperpartisan_news": {
         "Unique Dataset Identifier": "tsi-hyperpartisan_news",
-        "Dataset Name": "hyperpartisan_news",
+        "Dataset Name": "tsi-hyperpartisan_news",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/hyperpartisan_news_detection",
@@ -12279,7 +12279,7 @@
     },
     "tsi-sciie": {
         "Unique Dataset Identifier": "tsi-sciie",
-        "Dataset Name": "sciie",
+        "Dataset Name": "tsi-sciie",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "http://nlp.cs.washington.edu/sciIE/",
@@ -12363,7 +12363,7 @@
     },
     "tsi-citation_intent": {
         "Unique Dataset Identifier": "tsi-citation_intent",
-        "Dataset Name": "citation_intent",
+        "Dataset Name": "tsi-citation_intent",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/zapsdcn/citation_intent",
@@ -12443,7 +12443,7 @@
     },
     "tsi-scicite": {
         "Unique Dataset Identifier": "tsi-scicite",
-        "Dataset Name": "scicite",
+        "Dataset Name": "tsi-scicite",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/allenai/scicite",
@@ -12529,7 +12529,7 @@
     },
     "tsi-lexical_relation_classification-root09": {
         "Unique Dataset Identifier": "tsi-lexical_relation_classification-root09",
-        "Dataset Name": "lexical_relation_classification-root09",
+        "Dataset Name": "tsi-lexical_relation_classification-root09",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/asahi417/relbert",
@@ -12623,7 +12623,7 @@
     },
     "tsi-lexical_relation_classification-cogalexv": {
         "Unique Dataset Identifier": "tsi-lexical_relation_classification-cogalexv",
-        "Dataset Name": "lexical_relation_classification-cogalexv",
+        "Dataset Name": "tsi-lexical_relation_classification-cogalexv",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/asahi417/relbert",
@@ -12711,7 +12711,7 @@
     },
     "tsi-lexical_relation_classification-k&h+n": {
         "Unique Dataset Identifier": "tsi-lexical_relation_classification-k&h+n",
-        "Dataset Name": "lexical_relation_classification-k&h+n",
+        "Dataset Name": "tsi-lexical_relation_classification-k&h+n",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/asahi417/relbert",
@@ -12801,7 +12801,7 @@
     },
     "tsi-lexical_relation_classification-bless": {
         "Unique Dataset Identifier": "tsi-lexical_relation_classification-bless",
-        "Dataset Name": "lexical_relation_classification-bless",
+        "Dataset Name": "tsi-lexical_relation_classification-bless",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/asahi417/relbert",
@@ -12891,7 +12891,7 @@
     },
     "tsi-lexical_relation_classification-evalution": {
         "Unique Dataset Identifier": "tsi-lexical_relation_classification-evalution",
-        "Dataset Name": "lexical_relation_classification-evalution",
+        "Dataset Name": "tsi-lexical_relation_classification-evalution",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/asahi417/relbert",
@@ -12979,7 +12979,7 @@
     },
     "tsi-crowdflower-political_media_bias": {
         "Unique Dataset Identifier": "tsi-crowdflower-political_media_bias",
-        "Dataset Name": "crowdflower-political_media_bias",
+        "Dataset Name": "tsi-crowdflower-political_media_bias",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/crowdflower",
@@ -13063,7 +13063,7 @@
     },
     "tsi-crowdflower-tweet_global_warming": {
         "Unique Dataset Identifier": "tsi-crowdflower-tweet_global_warming",
-        "Dataset Name": "crowdflower-tweet_global_warming",
+        "Dataset Name": "tsi-crowdflower-tweet_global_warming",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/crowdflower",
@@ -13148,7 +13148,7 @@
     },
     "tsi-crowdflower-text_emotion": {
         "Unique Dataset Identifier": "tsi-crowdflower-text_emotion",
-        "Dataset Name": "crowdflower-text_emotion",
+        "Dataset Name": "tsi-crowdflower-text_emotion",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/crowdflower",
@@ -13232,7 +13232,7 @@
     },
     "tsi-crowdflower-political_media_message": {
         "Unique Dataset Identifier": "tsi-crowdflower-political_media_message",
-        "Dataset Name": "crowdflower-political_media_message",
+        "Dataset Name": "tsi-crowdflower-political_media_message",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/crowdflower",
@@ -13314,7 +13314,7 @@
     },
     "tsi-crowdflower-political_media_audience": {
         "Unique Dataset Identifier": "tsi-crowdflower-political_media_audience",
-        "Dataset Name": "crowdflower-political_media_audience",
+        "Dataset Name": "tsi-crowdflower-political_media_audience",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/crowdflower",
@@ -13399,7 +13399,7 @@
     },
     "tsi-crowdflower-economic_news": {
         "Unique Dataset Identifier": "tsi-crowdflower-economic_news",
-        "Dataset Name": "crowdflower-economic_news",
+        "Dataset Name": "tsi-crowdflower-economic_news",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/crowdflower",
@@ -13485,7 +13485,7 @@
     },
     "tsi-crowdflower-corporate_messaging": {
         "Unique Dataset Identifier": "tsi-crowdflower-corporate_messaging",
-        "Dataset Name": "crowdflower-corporate_messaging",
+        "Dataset Name": "tsi-crowdflower-corporate_messaging",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/crowdflower",
@@ -13569,7 +13569,7 @@
     },
     "tsi-crowdflower-airline_sentiment": {
         "Unique Dataset Identifier": "tsi-crowdflower-airline_sentiment",
-        "Dataset Name": "crowdflower-airline_sentiment",
+        "Dataset Name": "tsi-crowdflower-airline_sentiment",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/crowdflower",
@@ -13650,7 +13650,7 @@
     },
     "tsi-crowdflower-sentiment_nuclear_power": {
         "Unique Dataset Identifier": "tsi-crowdflower-sentiment_nuclear_power",
-        "Dataset Name": "crowdflower-sentiment_nuclear_power",
+        "Dataset Name": "tsi-crowdflower-sentiment_nuclear_power",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/crowdflower",
@@ -13731,7 +13731,7 @@
     },
     "tsi-ethics-commonsense": {
         "Unique Dataset Identifier": "tsi-ethics-commonsense",
-        "Dataset Name": "ethics-commonsense",
+        "Dataset Name": "tsi-ethics-commonsense",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/hendrycks/ethics",
@@ -13831,7 +13831,7 @@
     },
     "tsi-ethics-deontology": {
         "Unique Dataset Identifier": "tsi-ethics-deontology",
-        "Dataset Name": "ethics-deontology",
+        "Dataset Name": "tsi-ethics-deontology",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/hendrycks/ethics",
@@ -13930,7 +13930,7 @@
     },
     "tsi-ethics-justice": {
         "Unique Dataset Identifier": "tsi-ethics-justice",
-        "Dataset Name": "ethics-justice",
+        "Dataset Name": "tsi-ethics-justice",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/hendrycks/ethics",
@@ -14026,7 +14026,7 @@
     },
     "tsi-ethics-virtue": {
         "Unique Dataset Identifier": "tsi-ethics-virtue",
-        "Dataset Name": "ethics-virtue",
+        "Dataset Name": "tsi-ethics-virtue",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/hendrycks/ethics",
@@ -14124,7 +14124,7 @@
     },
     "tsi-tweets_hate_speech_detection": {
         "Unique Dataset Identifier": "tsi-tweets_hate_speech_detection",
-        "Dataset Name": "tweets_hate_speech_detection",
+        "Dataset Name": "tsi-tweets_hate_speech_detection",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sharmaroshan/Twitter-Sentiment-Analysis",
@@ -14221,7 +14221,7 @@
     },
     "tsi-wnut_17-wnut_17": {
         "Unique Dataset Identifier": "tsi-wnut_17-wnut_17",
-        "Dataset Name": "wnut_17-wnut_17",
+        "Dataset Name": "tsi-wnut_17-wnut_17",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "http://noisy-text.github.io/2017/emerging-rare-entities.html",
@@ -14314,7 +14314,7 @@
     },
     "tsi-ncbi_disease-ncbi_disease": {
         "Unique Dataset Identifier": "tsi-ncbi_disease-ncbi_disease",
-        "Dataset Name": "ncbi_disease-ncbi_disease",
+        "Dataset Name": "tsi-ncbi_disease-ncbi_disease",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3951655/",
@@ -14398,7 +14398,7 @@
     },
     "tsi-acronym_identification": {
         "Unique Dataset Identifier": "tsi-acronym_identification",
-        "Dataset Name": "acronym_identification",
+        "Dataset Name": "tsi-acronym_identification",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/amirveyseh/AAAI-21-SDU-shared-task-1-AI",
@@ -14492,7 +14492,7 @@
     },
     "tsi-jnlpba-jnlpba": {
         "Unique Dataset Identifier": "tsi-jnlpba-jnlpba",
-        "Dataset Name": "jnlpba-jnlpba",
+        "Dataset Name": "tsi-jnlpba-jnlpba",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "http://www.geniaproject.org/shared-tasks/bionlp-jnlpba-shared-task-2004",
@@ -14579,7 +14579,7 @@
     },
     "tsi-ontonotes_english-speedofmagic__ontonotes_english": {
         "Unique Dataset Identifier": "tsi-ontonotes_english-speedofmagic__ontonotes_english",
-        "Dataset Name": "ontonotes_english-speedofmagic__ontonotes_english",
+        "Dataset Name": "tsi-ontonotes_english-speedofmagic__ontonotes_english",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://www.aclweb.org/anthology/W03-0419/",
@@ -14677,7 +14677,7 @@
     },
     "tsi-blog_authorship_corpus-gender": {
         "Unique Dataset Identifier": "tsi-blog_authorship_corpus-gender",
-        "Dataset Name": "blog_authorship_corpus-gender",
+        "Dataset Name": "tsi-blog_authorship_corpus-gender",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://lingcog.blogspot.com/p/datasets.html",
@@ -14767,7 +14767,7 @@
     },
     "tsi-blog_authorship_corpus-horoscope": {
         "Unique Dataset Identifier": "tsi-blog_authorship_corpus-horoscope",
-        "Dataset Name": "blog_authorship_corpus-horoscope",
+        "Dataset Name": "tsi-blog_authorship_corpus-horoscope",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://lingcog.blogspot.com/p/datasets.html",
@@ -14851,7 +14851,7 @@
     },
     "tsi-blog_authorship_corpus-job": {
         "Unique Dataset Identifier": "tsi-blog_authorship_corpus-job",
-        "Dataset Name": "blog_authorship_corpus-job",
+        "Dataset Name": "tsi-blog_authorship_corpus-job",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://lingcog.blogspot.com/p/datasets.html",
@@ -14937,7 +14937,7 @@
     },
     "tsi-open_question_type": {
         "Unique Dataset Identifier": "tsi-open_question_type",
-        "Dataset Name": "open_question_type",
+        "Dataset Name": "tsi-open_question_type",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://shuyangcao.github.io/projects/ontology_open_ended_question/",
@@ -15022,7 +15022,7 @@
     },
     "tsi-commonsense_qa": {
         "Unique Dataset Identifier": "tsi-commonsense_qa",
-        "Dataset Name": "commonsense_qa",
+        "Dataset Name": "tsi-commonsense_qa",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://www.tau-nlp.org/commonsenseqa",
@@ -15107,7 +15107,7 @@
     },
     "tsi-mc_taco": {
         "Unique Dataset Identifier": "tsi-mc_taco",
-        "Dataset Name": "mc_taco",
+        "Dataset Name": "tsi-mc_taco",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://cogcomp.seas.upenn.edu/page/resource_view/125",
@@ -15204,7 +15204,7 @@
     },
     "tsi-discosense": {
         "Unique Dataset Identifier": "tsi-discosense",
-        "Dataset Name": "discosense",
+        "Dataset Name": "tsi-discosense",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/prajjwal1/discosense",
@@ -15296,7 +15296,7 @@
     },
     "tsi-effectivefeedbackstudentwriting": {
         "Unique Dataset Identifier": "tsi-effectivefeedbackstudentwriting",
-        "Dataset Name": "effectivefeedbackstudentwriting",
+        "Dataset Name": "tsi-effectivefeedbackstudentwriting",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/YaHi/EffectiveFeedbackStudentWriting",
@@ -15380,7 +15380,7 @@
     },
     "tsi-phrase_similarity": {
         "Unique Dataset Identifier": "tsi-phrase_similarity",
-        "Dataset Name": "phrase_similarity",
+        "Dataset Name": "tsi-phrase_similarity",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://phrase-in-context.github.io/",
@@ -15464,7 +15464,7 @@
     },
     "tsi-scientific_exaggeration_detection": {
         "Unique Dataset Identifier": "tsi-scientific_exaggeration_detection",
-        "Dataset Name": "scientific_exaggeration_detection",
+        "Dataset Name": "tsi-scientific_exaggeration_detection",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/copenlu/scientific-exaggeration-detection",
@@ -15556,7 +15556,7 @@
     },
     "tsi-fever_evidence_related-mwong__fever_related": {
         "Unique Dataset Identifier": "tsi-fever_evidence_related-mwong__fever_related",
-        "Dataset Name": "fever_evidence_related-mwong__fever_related",
+        "Dataset Name": "tsi-fever_evidence_related-mwong__fever_related",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/mwong/fever-evidence-related",
@@ -15648,7 +15648,7 @@
     },
     "tsi-numer_sense": {
         "Unique Dataset Identifier": "tsi-numer_sense",
-        "Dataset Name": "numer_sense",
+        "Dataset Name": "tsi-numer_sense",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://inklab.usc.edu/NumerSense/",
@@ -15734,7 +15734,7 @@
     },
     "tsi-dynasent-dynabench.dynasent.r1.all-r1": {
         "Unique Dataset Identifier": "tsi-dynasent-dynabench.dynasent.r1.all-r1",
-        "Dataset Name": "dynasent-dynabench.dynasent.r1.all-r1",
+        "Dataset Name": "tsi-dynasent-dynabench.dynasent.r1.all-r1",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://dynabench.org/tasks/3",
@@ -15818,7 +15818,7 @@
     },
     "tsi-dynasent-dynabench.dynasent.r2.all-r2": {
         "Unique Dataset Identifier": "tsi-dynasent-dynabench.dynasent.r2.all-r2",
-        "Dataset Name": "dynasent-dynabench.dynasent.r2.all-r2",
+        "Dataset Name": "tsi-dynasent-dynabench.dynasent.r2.all-r2",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://dynabench.org/tasks/3",
@@ -15905,7 +15905,7 @@
     },
     "tsi-sem_eval_2010_task_8": {
         "Unique Dataset Identifier": "tsi-sem_eval_2010_task_8",
-        "Dataset Name": "sem_eval_2010_task_8",
+        "Dataset Name": "tsi-sem_eval_2010_task_8",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://semeval2.fbk.eu/semeval2.php?location=tasks&taskid=11",
@@ -15999,7 +15999,7 @@
     },
     "tsi-medmcqa": {
         "Unique Dataset Identifier": "tsi-medmcqa",
-        "Dataset Name": "medmcqa",
+        "Dataset Name": "tsi-medmcqa",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://medmcqa.github.io",
@@ -16083,7 +16083,7 @@
     },
     "tsi-logiqa": {
         "Unique Dataset Identifier": "tsi-logiqa",
-        "Dataset Name": "logiqa",
+        "Dataset Name": "tsi-logiqa",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/lgw863/LogiQA-dataset",
@@ -16169,7 +16169,7 @@
     },
     "tsi-cycic_classification": {
         "Unique Dataset Identifier": "tsi-cycic_classification",
-        "Dataset Name": "cycic_classification",
+        "Dataset Name": "tsi-cycic_classification",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/cycic_classification",
@@ -16252,7 +16252,7 @@
     },
     "tsi-cycic_multiplechoice": {
         "Unique Dataset Identifier": "tsi-cycic_multiplechoice",
-        "Dataset Name": "cycic_multiplechoice",
+        "Dataset Name": "tsi-cycic_multiplechoice",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/cycic_multiplechoice",
@@ -16338,7 +16338,7 @@
     },
     "tsi-commonsense_qa_2.0": {
         "Unique Dataset Identifier": "tsi-commonsense_qa_2.0",
-        "Dataset Name": "commonsense_qa_2.0",
+        "Dataset Name": "tsi-commonsense_qa_2.0",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/commonsense_qa_2.0",
@@ -16425,7 +16425,7 @@
     },
     "tsi-lingnli": {
         "Unique Dataset Identifier": "tsi-lingnli",
-        "Dataset Name": "lingnli",
+        "Dataset Name": "tsi-lingnli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Alicia-Parrish/ling_in_loop/",
@@ -16513,7 +16513,7 @@
     },
     "tsi-monotonicity_entailment": {
         "Unique Dataset Identifier": "tsi-monotonicity_entailment",
-        "Dataset Name": "monotonicity_entailment",
+        "Dataset Name": "tsi-monotonicity_entailment",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/monotonicity-entailment",
@@ -16602,7 +16602,7 @@
     },
     "tsi-arct": {
         "Unique Dataset Identifier": "tsi-arct",
-        "Dataset Name": "arct",
+        "Dataset Name": "tsi-arct",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/UKPLab/argument-reasoning-comprehension-task",
@@ -16693,7 +16693,7 @@
     },
     "tsi-scinli": {
         "Unique Dataset Identifier": "tsi-scinli",
-        "Dataset Name": "scinli",
+        "Dataset Name": "tsi-scinli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/msadat3/SciNLI",
@@ -16776,7 +16776,7 @@
     },
     "tsi-naturallogic": {
         "Unique Dataset Identifier": "tsi-naturallogic",
-        "Dataset Name": "naturallogic",
+        "Dataset Name": "tsi-naturallogic",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/feng-yufei/Neural-Natural-Logic",
@@ -16864,7 +16864,7 @@
     },
     "tsi-onestop_qa": {
         "Unique Dataset Identifier": "tsi-onestop_qa",
-        "Dataset Name": "onestop_qa",
+        "Dataset Name": "tsi-onestop_qa",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/berzak/onestop-qa",
@@ -16949,7 +16949,7 @@
     },
     "tsi-moral_stories-full": {
         "Unique Dataset Identifier": "tsi-moral_stories-full",
-        "Dataset Name": "moral_stories-full",
+        "Dataset Name": "tsi-moral_stories-full",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/demelin/moral_stories",
@@ -17047,7 +17047,7 @@
     },
     "tsi-prost": {
         "Unique Dataset Identifier": "tsi-prost",
-        "Dataset Name": "prost",
+        "Dataset Name": "tsi-prost",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/nala-cub/prost",
@@ -17130,7 +17130,7 @@
     },
     "tsi-dynahate": {
         "Unique Dataset Identifier": "tsi-dynahate",
-        "Dataset Name": "dynahate",
+        "Dataset Name": "tsi-dynahate",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://arxiv.org/abs/2012.15761",
@@ -17217,7 +17217,7 @@
     },
     "tsi-syntactic_augmentation_nli": {
         "Unique Dataset Identifier": "tsi-syntactic_augmentation_nli",
-        "Dataset Name": "syntactic_augmentation_nli",
+        "Dataset Name": "tsi-syntactic_augmentation_nli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/syntactic-augmentation-nli",
@@ -17315,7 +17315,7 @@
     },
     "tsi-autotnli": {
         "Unique Dataset Identifier": "tsi-autotnli",
-        "Dataset Name": "autotnli",
+        "Dataset Name": "tsi-autotnli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Dibyakanti/AutoTNLI-code",
@@ -17420,7 +17420,7 @@
     },
     "tsi-condaqa": {
         "Unique Dataset Identifier": "tsi-condaqa",
-        "Dataset Name": "condaqa",
+        "Dataset Name": "tsi-condaqa",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/AbhilashaRavichander/CondaQA",
@@ -17507,7 +17507,7 @@
     },
     "tsi-webgpt_comparisons": {
         "Unique Dataset Identifier": "tsi-webgpt_comparisons",
-        "Dataset Name": "webgpt_comparisons",
+        "Dataset Name": "tsi-webgpt_comparisons",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://openaipublic.blob.core.windows.net/webgpt-answer-viewer/comparisons.jsonl",
@@ -17598,7 +17598,7 @@
     },
     "tsi-synthetic_instruct_gptj_pairwise": {
         "Unique Dataset Identifier": "tsi-synthetic_instruct_gptj_pairwise",
-        "Dataset Name": "synthetic_instruct_gptj_pairwise",
+        "Dataset Name": "tsi-synthetic_instruct_gptj_pairwise",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/Dahoas/synthetic-instruct-gptj-pairwise",
@@ -17679,7 +17679,7 @@
     },
     "tsi-scruples": {
         "Unique Dataset Identifier": "tsi-scruples",
-        "Dataset Name": "scruples",
+        "Dataset Name": "tsi-scruples",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/scruples",
@@ -17765,7 +17765,7 @@
     },
     "tsi-wouldyourather": {
         "Unique Dataset Identifier": "tsi-wouldyourather",
-        "Dataset Name": "wouldyourather",
+        "Dataset Name": "tsi-wouldyourather",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/wouldyourather",
@@ -17847,7 +17847,7 @@
     },
     "tsi-attempto_nli": {
         "Unique Dataset Identifier": "tsi-attempto_nli",
-        "Dataset Name": "attempto_nli",
+        "Dataset Name": "tsi-attempto_nli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/sileod/attempto-nli",
@@ -17934,7 +17934,7 @@
     },
     "tsi-defeasible_nli-snli": {
         "Unique Dataset Identifier": "tsi-defeasible_nli-snli",
-        "Dataset Name": "defeasible_nli-snli",
+        "Dataset Name": "tsi-defeasible_nli-snli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/defeasible-nli",
@@ -18026,7 +18026,7 @@
     },
     "tsi-defeasible_nli-atomic": {
         "Unique Dataset Identifier": "tsi-defeasible_nli-atomic",
-        "Dataset Name": "defeasible_nli-atomic",
+        "Dataset Name": "tsi-defeasible_nli-atomic",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/defeasible-nli",
@@ -18120,7 +18120,7 @@
     },
     "tsi-help_nli": {
         "Unique Dataset Identifier": "tsi-help_nli",
-        "Dataset Name": "help_nli",
+        "Dataset Name": "tsi-help_nli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/verypluming/HELP",
@@ -18208,7 +18208,7 @@
     },
     "tsi-nli_veridicality_transitivity": {
         "Unique Dataset Identifier": "tsi-nli_veridicality_transitivity",
-        "Dataset Name": "nli_veridicality_transitivity",
+        "Dataset Name": "tsi-nli_veridicality_transitivity",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/nli-veridicality-transitivity",
@@ -18300,7 +18300,7 @@
     },
     "tsi-natural_language_satisfiability": {
         "Unique Dataset Identifier": "tsi-natural_language_satisfiability",
-        "Dataset Name": "natural_language_satisfiability",
+        "Dataset Name": "tsi-natural_language_satisfiability",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/natural-language-satisfiability",
@@ -18391,7 +18391,7 @@
     },
     "tsi-lonli": {
         "Unique Dataset Identifier": "tsi-lonli",
-        "Dataset Name": "lonli",
+        "Dataset Name": "tsi-lonli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/microsoft/LoNLI",
@@ -18482,7 +18482,7 @@
     },
     "tsi-dadc_limit_nli": {
         "Unique Dataset Identifier": "tsi-dadc_limit_nli",
-        "Dataset Name": "dadc_limit_nli",
+        "Dataset Name": "tsi-dadc_limit_nli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/facebookresearch/dadc-limit",
@@ -18569,7 +18569,7 @@
     },
     "tsi-flute": {
         "Unique Dataset Identifier": "tsi-flute",
-        "Dataset Name": "flute",
+        "Dataset Name": "tsi-flute",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://figlang2022sharedtask.github.io/",
@@ -18654,7 +18654,7 @@
     },
     "tsi-summarize_from_feedback-comparisons": {
         "Unique Dataset Identifier": "tsi-summarize_from_feedback-comparisons",
-        "Dataset Name": "summarize_from_feedback-comparisons",
+        "Dataset Name": "tsi-summarize_from_feedback-comparisons",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://openaipublic.blob.core.windows.net/summarize-from-feedback/dataset",
@@ -18738,7 +18738,7 @@
     },
     "tsi-folio": {
         "Unique Dataset Identifier": "tsi-folio",
-        "Dataset Name": "folio",
+        "Dataset Name": "tsi-folio",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Yale-LILY/FOLIO",
@@ -18831,7 +18831,7 @@
     },
     "tsi-tomi_nli": {
         "Unique Dataset Identifier": "tsi-tomi_nli",
-        "Dataset Name": "tomi_nli",
+        "Dataset Name": "tsi-tomi_nli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/tomi-nli",
@@ -18911,7 +18911,7 @@
     },
     "tsi-avicenna": {
         "Unique Dataset Identifier": "tsi-avicenna",
-        "Dataset Name": "avicenna",
+        "Dataset Name": "tsi-avicenna",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/avicenna",
@@ -18994,7 +18994,7 @@
     },
     "tsi-shp": {
         "Unique Dataset Identifier": "tsi-shp",
-        "Dataset Name": "shp",
+        "Dataset Name": "tsi-shp",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
@@ -19082,7 +19082,7 @@
     },
     "tsi-medqa_usmle_4_options_hf": {
         "Unique Dataset Identifier": "tsi-medqa_usmle_4_options_hf",
-        "Dataset Name": "medqa_usmle_4_options_hf",
+        "Dataset Name": "tsi-medqa_usmle_4_options_hf",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/GBaker/MedQA-USMLE-4-options-hf",
@@ -19169,7 +19169,7 @@
     },
     "tsi-wikimedqa-medwiki": {
         "Unique Dataset Identifier": "tsi-wikimedqa-medwiki",
-        "Dataset Name": "wikimedqa-medwiki",
+        "Dataset Name": "tsi-wikimedqa-medwiki",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://sileod.s3.eu-west-3.amazonaws.com/wikimedqa/",
@@ -19257,7 +19257,7 @@
     },
     "tsi-cicero": {
         "Unique Dataset Identifier": "tsi-cicero",
-        "Dataset Name": "cicero",
+        "Dataset Name": "tsi-cicero",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/declare-lab/CICERO",
@@ -19356,7 +19356,7 @@
     },
     "tsi-mutual": {
         "Unique Dataset Identifier": "tsi-mutual",
-        "Dataset Name": "mutual",
+        "Dataset Name": "tsi-mutual",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/mutual",
@@ -19442,7 +19442,7 @@
     },
     "tsi-neqa": {
         "Unique Dataset Identifier": "tsi-neqa",
-        "Dataset Name": "neqa",
+        "Dataset Name": "tsi-neqa",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/inverse-scaling/NeQA",
@@ -19523,7 +19523,7 @@
     },
     "tsi-quote_repetition": {
         "Unique Dataset Identifier": "tsi-quote_repetition",
-        "Dataset Name": "quote_repetition",
+        "Dataset Name": "tsi-quote_repetition",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/inverse-scaling/quote-repetition",
@@ -19604,7 +19604,7 @@
     },
     "tsi-redefine_math": {
         "Unique Dataset Identifier": "tsi-redefine_math",
-        "Dataset Name": "redefine_math",
+        "Dataset Name": "tsi-redefine_math",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/inverse-scaling/redefine-math",
@@ -19683,7 +19683,7 @@
     },
     "tsi-puzzte": {
         "Unique Dataset Identifier": "tsi-puzzte",
-        "Dataset Name": "puzzte",
+        "Dataset Name": "tsi-puzzte",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/puzzte",
@@ -19769,7 +19769,7 @@
     },
     "tsi-implicatures": {
         "Unique Dataset Identifier": "tsi-implicatures",
-        "Dataset Name": "implicatures",
+        "Dataset Name": "tsi-implicatures",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/implicatures",
@@ -19857,7 +19857,7 @@
     },
     "tsi-race_c": {
         "Unique Dataset Identifier": "tsi-race_c",
-        "Dataset Name": "race_c",
+        "Dataset Name": "tsi-race_c",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/mrcdata/race-c",
@@ -19939,7 +19939,7 @@
     },
     "tsi-spartqa_yn": {
         "Unique Dataset Identifier": "tsi-spartqa_yn",
-        "Dataset Name": "spartqa_yn",
+        "Dataset Name": "tsi-spartqa_yn",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/spartqa-yn",
@@ -20026,7 +20026,7 @@
     },
     "tsi-spartqa_mchoice": {
         "Unique Dataset Identifier": "tsi-spartqa_mchoice",
-        "Dataset Name": "spartqa_mchoice",
+        "Dataset Name": "tsi-spartqa_mchoice",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/spartqa-mchoice",
@@ -20112,7 +20112,7 @@
     },
     "tsi-temporal_nli": {
         "Unique Dataset Identifier": "tsi-temporal_nli",
-        "Dataset Name": "temporal_nli",
+        "Dataset Name": "tsi-temporal_nli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/temporal-nli",
@@ -20199,7 +20199,7 @@
     },
     "tsi-riddle_sense": {
         "Unique Dataset Identifier": "tsi-riddle_sense",
-        "Dataset Name": "riddle_sense",
+        "Dataset Name": "tsi-riddle_sense",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://inklab.usc.edu/RiddleSense/",
@@ -20284,7 +20284,7 @@
     },
     "tsi-clcd_english": {
         "Unique Dataset Identifier": "tsi-clcd_english",
-        "Dataset Name": "clcd_english",
+        "Dataset Name": "tsi-clcd_english",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/clcd-english",
@@ -20372,7 +20372,7 @@
     },
     "tsi-twentyquestions": {
         "Unique Dataset Identifier": "tsi-twentyquestions",
-        "Dataset Name": "twentyquestions",
+        "Dataset Name": "tsi-twentyquestions",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/huggingface/datasets/blob/main/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards",
@@ -20457,7 +20457,7 @@
     },
     "tsi-reclor": {
         "Unique Dataset Identifier": "tsi-reclor",
-        "Dataset Name": "reclor",
+        "Dataset Name": "tsi-reclor",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/reclor",
@@ -20544,7 +20544,7 @@
     },
     "tsi-counterfactually_augmented_imdb": {
         "Unique Dataset Identifier": "tsi-counterfactually_augmented_imdb",
-        "Dataset Name": "counterfactually_augmented_imdb",
+        "Dataset Name": "tsi-counterfactually_augmented_imdb",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/counterfactually-augmented-imdb",
@@ -20637,7 +20637,7 @@
     },
     "tsi-counterfactually_augmented_snli": {
         "Unique Dataset Identifier": "tsi-counterfactually_augmented_snli",
-        "Dataset Name": "counterfactually_augmented_snli",
+        "Dataset Name": "tsi-counterfactually_augmented_snli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/counterfactually-augmented-snli",
@@ -20726,7 +20726,7 @@
     },
     "tsi-cnli": {
         "Unique Dataset Identifier": "tsi-cnli",
-        "Dataset Name": "cnli",
+        "Dataset Name": "tsi-cnli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/cnli",
@@ -20811,7 +20811,7 @@
     },
     "tsi-boolq_natural_perturbations": {
         "Unique Dataset Identifier": "tsi-boolq_natural_perturbations",
-        "Dataset Name": "boolq_natural_perturbations",
+        "Dataset Name": "tsi-boolq_natural_perturbations",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/boolq-natural-perturbations",
@@ -20895,7 +20895,7 @@
     },
     "tsi-equate": {
         "Unique Dataset Identifier": "tsi-equate",
-        "Dataset Name": "equate",
+        "Dataset Name": "tsi-equate",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/equate",
@@ -20990,7 +20990,7 @@
     },
     "tsi-scienceqa_text_only": {
         "Unique Dataset Identifier": "tsi-scienceqa_text_only",
-        "Dataset Name": "scienceqa_text_only",
+        "Dataset Name": "tsi-scienceqa_text_only",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/ScienceQA_text_only",
@@ -21072,7 +21072,7 @@
     },
     "tsi-ekar_english": {
         "Unique Dataset Identifier": "tsi-ekar_english",
-        "Dataset Name": "ekar_english",
+        "Dataset Name": "tsi-ekar_english",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://ekar-leaderboard.github.io",
@@ -21164,7 +21164,7 @@
     },
     "tsi-implicit_hate_stg1": {
         "Unique Dataset Identifier": "tsi-implicit_hate_stg1",
-        "Dataset Name": "implicit_hate_stg1",
+        "Dataset Name": "tsi-implicit_hate_stg1",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/SALT-NLP/implicit-hate",
@@ -21248,7 +21248,7 @@
     },
     "tsi-logiqa_2.0_nli": {
         "Unique Dataset Identifier": "tsi-logiqa_2.0_nli",
-        "Dataset Name": "logiqa_2.0_nli",
+        "Dataset Name": "tsi-logiqa_2.0_nli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/csitfun/LogiQA2.0",
@@ -21332,7 +21332,7 @@
     },
     "tsi-pararule_plus": {
         "Unique Dataset Identifier": "tsi-pararule_plus",
-        "Dataset Name": "pararule_plus",
+        "Dataset Name": "tsi-pararule_plus",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Strong-AI-Lab/Multi-Step-Deductive-Reasoning-Over-Natural-Language",
@@ -21417,7 +21417,7 @@
     },
     "tsi-mindgames": {
         "Unique Dataset Identifier": "tsi-mindgames",
-        "Dataset Name": "mindgames",
+        "Dataset Name": "tsi-mindgames",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/llm-theory-of-mind",
@@ -21523,7 +21523,7 @@
     },
     "tsi-universal_dependencies-en_partut-deprel": {
         "Unique Dataset Identifier": "tsi-universal_dependencies-en_partut-deprel",
-        "Dataset Name": "universal_dependencies-en_partut-deprel",
+        "Dataset Name": "tsi-universal_dependencies-en_partut-deprel",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://universaldependencies.org/",
@@ -21618,7 +21618,7 @@
     },
     "tsi-universal_dependencies-en_lines-deprel": {
         "Unique Dataset Identifier": "tsi-universal_dependencies-en_lines-deprel",
-        "Dataset Name": "universal_dependencies-en_lines-deprel",
+        "Dataset Name": "tsi-universal_dependencies-en_lines-deprel",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://universaldependencies.org/",
@@ -21713,7 +21713,7 @@
     },
     "tsi-universal_dependencies-en_gum-deprel": {
         "Unique Dataset Identifier": "tsi-universal_dependencies-en_gum-deprel",
-        "Dataset Name": "universal_dependencies-en_gum-deprel",
+        "Dataset Name": "tsi-universal_dependencies-en_gum-deprel",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://universaldependencies.org/",
@@ -21811,7 +21811,7 @@
     },
     "tsi-universal_dependencies-en_ewt-deprel": {
         "Unique Dataset Identifier": "tsi-universal_dependencies-en_ewt-deprel",
-        "Dataset Name": "universal_dependencies-en_ewt-deprel",
+        "Dataset Name": "tsi-universal_dependencies-en_ewt-deprel",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://universaldependencies.org/",
@@ -21908,7 +21908,7 @@
     },
     "tsi-ambient": {
         "Unique Dataset Identifier": "tsi-ambient",
-        "Dataset Name": "ambient",
+        "Dataset Name": "tsi-ambient",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/ambient",
@@ -22021,7 +22021,7 @@
     },
     "tsi-path_naturalness_prediction": {
         "Unique Dataset Identifier": "tsi-path_naturalness_prediction",
-        "Dataset Name": "path_naturalness_prediction",
+        "Dataset Name": "tsi-path_naturalness_prediction",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/huggingface/datasets/blob/main/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards",
@@ -22117,7 +22117,7 @@
     },
     "tsi-cloth": {
         "Unique Dataset Identifier": "tsi-cloth",
-        "Dataset Name": "cloth",
+        "Dataset Name": "tsi-cloth",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://www.cs.cmu.edu/~glai1/data/cloth/",
@@ -22204,7 +22204,7 @@
     },
     "tsi-dgen": {
         "Unique Dataset Identifier": "tsi-dgen",
-        "Dataset Name": "dgen",
+        "Dataset Name": "tsi-dgen",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/DRSY/DGen",
@@ -22290,7 +22290,7 @@
     },
     "tsi-oasst1_pairwise_rlhf_reward": {
         "Unique Dataset Identifier": "tsi-oasst1_pairwise_rlhf_reward",
-        "Dataset Name": "oasst1_pairwise_rlhf_reward",
+        "Dataset Name": "tsi-oasst1_pairwise_rlhf_reward",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/tasksource/oasst1_pairwise_rlhf_reward",
@@ -22371,7 +22371,7 @@
     },
     "tsi-i2d2": {
         "Unique Dataset Identifier": "tsi-i2d2",
-        "Dataset Name": "i2d2",
+        "Dataset Name": "tsi-i2d2",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/tasksource/I2D2",
@@ -22464,7 +22464,7 @@
     },
     "tsi-args_me": {
         "Unique Dataset Identifier": "tsi-args_me",
-        "Dataset Name": "args_me",
+        "Dataset Name": "tsi-args_me",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://zenodo.org/record/4139439",
@@ -22554,7 +22554,7 @@
     },
     "tsi-touche23_valueeval": {
         "Unique Dataset Identifier": "tsi-touche23_valueeval",
-        "Dataset Name": "touche23_valueeval",
+        "Dataset Name": "tsi-touche23_valueeval",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://webis.de/data/touche23-valueeval.html",
@@ -22657,7 +22657,7 @@
     },
     "tsi-starcon": {
         "Unique Dataset Identifier": "tsi-starcon",
-        "Dataset Name": "starcon",
+        "Dataset Name": "tsi-starcon",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/dwslab/StArCon",
@@ -22745,7 +22745,7 @@
     },
     "tsi-banking77": {
         "Unique Dataset Identifier": "tsi-banking77",
-        "Dataset Name": "banking77",
+        "Dataset Name": "tsi-banking77",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/PolyAI-LDN/task-specific-datasets",
@@ -22831,7 +22831,7 @@
     },
     "tsi-ruletaker": {
         "Unique Dataset Identifier": "tsi-ruletaker",
-        "Dataset Name": "ruletaker",
+        "Dataset Name": "tsi-ruletaker",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/allenai/ruletaker",
@@ -22919,7 +22919,7 @@
     },
     "tsi-lsat_qa-all": {
         "Unique Dataset Identifier": "tsi-lsat_qa-all",
-        "Dataset Name": "lsat_qa-all",
+        "Dataset Name": "tsi-lsat_qa-all",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/lighteval/lsat_qa",
@@ -23007,7 +23007,7 @@
     },
     "tsi-control_nli": {
         "Unique Dataset Identifier": "tsi-control_nli",
-        "Dataset Name": "control_nli",
+        "Dataset Name": "tsi-control_nli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/csitfun/ConTRoL-dataset",
@@ -23097,7 +23097,7 @@
     },
     "tsi-tracie": {
         "Unique Dataset Identifier": "tsi-tracie",
-        "Dataset Name": "tracie",
+        "Dataset Name": "tsi-tracie",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/allenai/aristo-leaderboard/tree/master/tracie/data",
@@ -23185,7 +23185,7 @@
     },
     "tsi-sherliic": {
         "Unique Dataset Identifier": "tsi-sherliic",
-        "Dataset Name": "sherliic",
+        "Dataset Name": "tsi-sherliic",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/mnschmit/SherLIiC",
@@ -23274,7 +23274,7 @@
     },
     "tsi-sen_making-1": {
         "Unique Dataset Identifier": "tsi-sen_making-1",
-        "Dataset Name": "sen_making-1",
+        "Dataset Name": "tsi-sen_making-1",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/wangcunxiang/Sen-Making-and-Explanation",
@@ -23360,7 +23360,7 @@
     },
     "tsi-sen_making-2": {
         "Unique Dataset Identifier": "tsi-sen_making-2",
-        "Dataset Name": "sen_making-2",
+        "Dataset Name": "tsi-sen_making-2",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/wangcunxiang/Sen-Making-and-Explanation",
@@ -23448,7 +23448,7 @@
     },
     "tsi-winowhy": {
         "Unique Dataset Identifier": "tsi-winowhy",
-        "Dataset Name": "winowhy",
+        "Dataset Name": "tsi-winowhy",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/HKUST-KnowComp/WinoWhy",
@@ -23538,7 +23538,7 @@
     },
     "tsi-mbib_base-cognitive_bias": {
         "Unique Dataset Identifier": "tsi-mbib_base-cognitive_bias",
-        "Dataset Name": "mbib_base-cognitive_bias",
+        "Dataset Name": "tsi-mbib_base-cognitive_bias",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Media-Bias-Group/Media-Bias-Identification-Benchmark",
@@ -23628,7 +23628,7 @@
     },
     "tsi-mbib_base-fake_news": {
         "Unique Dataset Identifier": "tsi-mbib_base-fake_news",
-        "Dataset Name": "mbib_base-fake_news",
+        "Dataset Name": "tsi-mbib_base-fake_news",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Media-Bias-Group/Media-Bias-Identification-Benchmark",
@@ -23718,7 +23718,7 @@
     },
     "tsi-mbib_base-gender_bias": {
         "Unique Dataset Identifier": "tsi-mbib_base-gender_bias",
-        "Dataset Name": "mbib_base-gender_bias",
+        "Dataset Name": "tsi-mbib_base-gender_bias",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Media-Bias-Group/Media-Bias-Identification-Benchmark",
@@ -23810,7 +23810,7 @@
     },
     "tsi-mbib_base-hate_speech": {
         "Unique Dataset Identifier": "tsi-mbib_base-hate_speech",
-        "Dataset Name": "mbib_base-hate_speech",
+        "Dataset Name": "tsi-mbib_base-hate_speech",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Media-Bias-Group/Media-Bias-Identification-Benchmark",
@@ -23901,7 +23901,7 @@
     },
     "tsi-mbib_base-linguistic_bias": {
         "Unique Dataset Identifier": "tsi-mbib_base-linguistic_bias",
-        "Dataset Name": "mbib_base-linguistic_bias",
+        "Dataset Name": "tsi-mbib_base-linguistic_bias",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Media-Bias-Group/Media-Bias-Identification-Benchmark",
@@ -23991,7 +23991,7 @@
     },
     "tsi-mbib_base-political_bias": {
         "Unique Dataset Identifier": "tsi-mbib_base-political_bias",
-        "Dataset Name": "mbib_base-political_bias",
+        "Dataset Name": "tsi-mbib_base-political_bias",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Media-Bias-Group/Media-Bias-Identification-Benchmark",
@@ -24082,7 +24082,7 @@
     },
     "tsi-mbib_base-racial_bias": {
         "Unique Dataset Identifier": "tsi-mbib_base-racial_bias",
-        "Dataset Name": "mbib_base-racial_bias",
+        "Dataset Name": "tsi-mbib_base-racial_bias",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Media-Bias-Group/Media-Bias-Identification-Benchmark",
@@ -24172,7 +24172,7 @@
     },
     "tsi-mbib_base-text_level_bias": {
         "Unique Dataset Identifier": "tsi-mbib_base-text_level_bias",
-        "Dataset Name": "mbib_base-text_level_bias",
+        "Dataset Name": "tsi-mbib_base-text_level_bias",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Media-Bias-Group/Media-Bias-Identification-Benchmark",
@@ -24265,7 +24265,7 @@
     },
     "tsi-robustlr": {
         "Unique Dataset Identifier": "tsi-robustlr",
-        "Dataset Name": "robustlr",
+        "Dataset Name": "tsi-robustlr",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/INK-USC/RobustLR",
@@ -24353,7 +24353,7 @@
     },
     "tsi-v1-gen_train234_test2to10": {
         "Unique Dataset Identifier": "tsi-v1-gen_train234_test2to10",
-        "Dataset Name": "v1-gen_train234_test2to10",
+        "Dataset Name": "tsi-v1-gen_train234_test2to10",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://www.cs.mcgill.ca/~ksinha4/clutrr/",
@@ -24444,7 +24444,7 @@
     },
     "tsi-logical_fallacy": {
         "Unique Dataset Identifier": "tsi-logical_fallacy",
-        "Dataset Name": "logical_fallacy",
+        "Dataset Name": "tsi-logical_fallacy",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/causalNLP/logical-fallacy",
@@ -24536,7 +24536,7 @@
     },
     "tsi-parade": {
         "Unique Dataset Identifier": "tsi-parade",
-        "Dataset Name": "parade",
+        "Dataset Name": "tsi-parade",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/heyunh2015/PARADE_dataset",
@@ -24620,7 +24620,7 @@
     },
     "tsi-cladder": {
         "Unique Dataset Identifier": "tsi-cladder",
-        "Dataset Name": "cladder",
+        "Dataset Name": "tsi-cladder",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/causalNLP/cladder",
@@ -24701,7 +24701,7 @@
     },
     "tsi-subjectivity": {
         "Unique Dataset Identifier": "tsi-subjectivity",
-        "Dataset Name": "subjectivity",
+        "Dataset Name": "tsi-subjectivity",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/tasksource/subjectivity",
@@ -24795,7 +24795,7 @@
     },
     "tsi-moh": {
         "Unique Dataset Identifier": "tsi-moh",
-        "Dataset Name": "moh",
+        "Dataset Name": "tsi-moh",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/tasksource/MOH",
@@ -24885,7 +24885,7 @@
     },
     "tsi-vuac": {
         "Unique Dataset Identifier": "tsi-vuac",
-        "Dataset Name": "vuac",
+        "Dataset Name": "tsi-vuac",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/tasksource/VUAC",
@@ -24970,7 +24970,7 @@
     },
     "tsi-trofi": {
         "Unique Dataset Identifier": "tsi-trofi",
-        "Dataset Name": "trofi",
+        "Dataset Name": "tsi-trofi",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/tasksource/TroFi",
@@ -25062,7 +25062,7 @@
     },
     "tsi-sharc_modified-mod": {
         "Unique Dataset Identifier": "tsi-sharc_modified-mod",
-        "Dataset Name": "sharc_modified-mod",
+        "Dataset Name": "tsi-sharc_modified-mod",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/nikhilweee/neural-conv-qa",
@@ -25150,7 +25150,7 @@
     },
     "tsi-conceptrules_v2": {
         "Unique Dataset Identifier": "tsi-conceptrules_v2",
-        "Dataset Name": "conceptrules_v2",
+        "Dataset Name": "tsi-conceptrules_v2",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/Strong-AI-Lab/Multi-Step-Deductive-Reasoning-Over-Natural-Language",
@@ -25237,7 +25237,7 @@
     },
     "tsi-disrpt-eng.dep.scidtb": {
         "Unique Dataset Identifier": "tsi-disrpt-eng.dep.scidtb",
-        "Dataset Name": "disrpt-eng.dep.scidtb",
+        "Dataset Name": "tsi-disrpt-eng.dep.scidtb",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://huggingface.co/datasets/metaeval/disrpt",
@@ -25320,7 +25320,7 @@
     },
     "tsi-conll2000": {
         "Unique Dataset Identifier": "tsi-conll2000",
-        "Dataset Name": "conll2000",
+        "Dataset Name": "tsi-conll2000",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://www.clips.uantwerpen.be/conll2000/chunking/",
@@ -25409,7 +25409,7 @@
     },
     "tsi-few_nerd-supervised": {
         "Unique Dataset Identifier": "tsi-few_nerd-supervised",
-        "Dataset Name": "few_nerd-supervised",
+        "Dataset Name": "tsi-few_nerd-supervised",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://ningding97.github.io/fewnerd/",
@@ -25499,7 +25499,7 @@
     },
     "tsi-zero_shot_label_nli": {
         "Unique Dataset Identifier": "tsi-zero_shot_label_nli",
-        "Dataset Name": "zero_shot_label_nli",
+        "Dataset Name": "tsi-zero_shot_label_nli",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/sileod/tasksource",
@@ -25604,7 +25604,7 @@
     },
     "tsi-com2sense": {
         "Unique Dataset Identifier": "tsi-com2sense",
-        "Dataset Name": "com2sense",
+        "Dataset Name": "tsi-com2sense",
         "Collection": "Tasksource Instruct",
         "Collection URL": "https://github.com/sileod/tasksource",
         "Dataset URL": "https://github.com/PlusLabNLP/Com2Sense",
