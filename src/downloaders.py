@@ -863,7 +863,7 @@ def download_tool_llama(accepted_filter_ids):
 
     # The data is distributed as a Google Drive file in the Github readme,
     # rather than via e.g. Huggingface
-    url = "https://docs.google.com/uc"
+    url = "https://drive.usercontent.google.com/download"
     params = {
         "export": "download",
         "id": "1Vis-RxBstXLKC1W1agIQUJNuumPJrrw0",
