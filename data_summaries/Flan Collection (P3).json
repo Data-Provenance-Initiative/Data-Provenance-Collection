@@ -421,7 +421,7 @@
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
         },
-        "Text Sources": [],
+        "Text Sources": ["dbpedia"],
         "Model Generated": [],
         "Creators": [
             "University of Leipzig",

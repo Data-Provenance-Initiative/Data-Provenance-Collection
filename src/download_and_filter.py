@@ -81,6 +81,7 @@ def main(args):
     #         'Derived from Datasets', 'License Use (DataProvenance)', 'License Use (GitHub)', 'Licenses', 'GitHub License',
     #         'Dataset URL', 'GitHub URL', 'ArXiv URL']
     # filtered_data_summary[cols].to_csv("pile_v2.csv", index=False)
+    # assert 0 == 1
 
     data_provenance_card.generate_datacard(
         filtered_data_summary,

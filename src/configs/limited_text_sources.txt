@@ -1,36 +1,23 @@
+crowdflower.com
 crowdsourced
 crowdsourced (amt)
-wordnet
 crowdsourced (daemo)
 human
+User interactions
 volunteer annotations
 grammar-based
+wikidata
 wikipedia.org
+wikihow.com
+wikisource
+wiktionary.org
+wordnet
 stackexchange.com
 github
-wikihow.com
 dbpedia
 verbnet
-creative commons license textbooks
-pubmed articles
-pubmed
 project gutenberg
-eur-lex portal
-arc corpus
-wikisource
-globalvoices.org
 conceptnet
-semeval 2012 task 2
-crowdflower.com
 scale.com
-yahoo! answers
-wiktionary.org
 winograd schema challenge dataset
 sec.gov/edgar/about
-aclanthology.org
-parallel meaning bank
-headlines
-freebase
-eu legistlative texts
-search-engine(google) auto-complete
-wikidata

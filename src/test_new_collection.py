@@ -48,7 +48,7 @@ def test_collection_summary(
     error_handler,
 ):
     """Tests the collection's data summary entries are valid."""
-    CONSTANTS = io.read_all_constants()
+    CONSTANTS = io.read_all_constants("constants/")
 
     # All acceptable licenses
     all_licenses = set(list(CONSTANTS["LICENSE_CLASSES"].keys()) + ["Custom"])
