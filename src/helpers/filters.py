@@ -4,7 +4,7 @@ import pandas as pd
 
 
 # import src.helpers.constants as constants
-from . import constants
+from . import io, constants
 
 
 def classify_license(license_name, license_url, all_constants):
