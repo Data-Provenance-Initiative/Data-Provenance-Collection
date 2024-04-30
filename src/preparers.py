@@ -839,6 +839,14 @@ def prepare_wildchat(row):
     return messages
 
 
+def prepare_seacrowd(row):
+    return convert_inputs_targets_to_messages(
+        row["question"],
+        row["answer"],
+        row["user_parent"],
+    )
+
+
 def prepare_airoboros(row):
     parent = "airoboros"
     messages = []

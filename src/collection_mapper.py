@@ -145,6 +145,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_thai_gen_ai_alpaca,
         "prepare_function": preparers.prepare_thai_gen_ai_alpaca,
     },
+    "SEACrowd": {
+        "download_function": downloaders.download_seacrowd,
+        "prepare_function": preparers.prepare_seacrowd,
+    },
     "ShareGPT Vicuna": {
         "download_function": downloaders.download_sharegpt_vicuna,
         "prepare_function": preparers.prepare_sharegpt_vicuna,
