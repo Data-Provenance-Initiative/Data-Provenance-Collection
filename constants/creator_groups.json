@@ -274,7 +274,28 @@
     "Yonsei University",
     "York University",
     "Zhejiang University",
-    "Zurich University of Applied Sciences"
+    "Universitas Gadjah Mada",
+    "Universitas Kristen Satya Wacana",
+    "Universitas Kristen Duta Wacana",
+    "Zurich University of Applied Sciences",
+    "Silliman University",
+    "Bicol University",
+    "National University Philippines",
+    "University of Bath",
+    "De La Salle University",
+    "University of the Philippines Diliman",
+    "Institut Teknologi Sepuluh Nopember (ITS)",
+    "Universitas Kristen Satya Wacana",
+    "Universitas Islam Indonesia",
+    "Universitas Teknologi Yogyakarta",
+    "Bina Nusantara University",
+    "Cambodia Academy of Digital Technology",
+    "University of Makati",
+    "Mahidol University",
+    "Tokyo Metropolitan University",
+    "Vietnam National University Ho Chi Minh City",
+    "Max Planck School of Cognition",
+    "Tianjin University"
   ],
   "Corporation": [
     "ASUS Intelligent Cloud Services (AICS)",
@@ -324,7 +345,10 @@
     "WeChat AI",
     "Wind Information Co.",
     "Yahoo! Inc.",
-    "Zhihu Inc"
+    "Zhihu Inc",
+    "Backyard Co., Ltd",
+    "Bank of Ayudhya",
+    "LINE MAN Wongnai"
   ],
   "Industry Lab": [
     "Chinese Academy of Sciences",
@@ -362,7 +386,8 @@
     "Agency for Science, Technology and Research",
     "China Justice Big Data Institute",
     "Defence Space Administration",
-    "Supreme People’s Court"
+    "Supreme People’s Court",
+    "NECTEC"
   ],
   "Research Group": [
     "AI2",
@@ -397,7 +422,9 @@
     "The Institute for Human & Machine Cognition",
     "U.S. Army Research Laboratory",
     "Vietnam Institute of Information Technology",
-    "pyThaiNLP"
+    "pyThaiNLP",
+    "Advanced Speech Translation Research and Development Promotion Center",
+    "ADAPT Centre"
   ],
   "Startup": [
     "01.ai",
@@ -423,6 +450,7 @@
     "Snips",
     "Surge AI",
     "TAUS",
-    "Zhipu AI"
+    "Zhipu AI",
+    "Rootroo Ltd"
   ]
 }

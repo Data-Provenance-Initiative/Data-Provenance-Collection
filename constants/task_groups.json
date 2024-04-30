@@ -143,6 +143,7 @@
         "Semantic Similarity Detection",
         "Semantic Similarity Identification",
         "Speaker Identification",
+        "Spelling Correction",
         "Stance Detection"
     ],
     "Logical and Mathematical Reasoning": [
@@ -173,6 +174,7 @@
     "Natural Language Inference": [
         "Answer Verification",
         "Contextual Word Sense Disambiguation",
+        "Cross-lingual Language Understanding (XLU)",
         "Discourse-level Decision Making",
         "Fact Verification",
         "Factual Statement Classification",
@@ -258,6 +260,7 @@
         "General Knowledge",
         "Generative Question Answering",
         "Geographical Map Making Question Answering",
+        "Healthcare Question Answering",
         "Historical Fact Retrieval",
         "Historical Image Retrieval",
         "Information Extraction",
@@ -272,6 +275,7 @@
         "Medical Question Answering",
         "Moral Dilemma Question Answering",
         "Mortgage Loan Satisfaction Question Answering",
+        "Multilingual Question Answering",
         "Multiple Choice Necessity Classification",
         "Multiple Choice Question Answering",
         "Natural Language Processing Question Answering",
@@ -377,9 +381,12 @@
         "Classification",
         "Comparative Analysis of Cultural Features",
         "Comparative Sentence Classification",
+        "Constructive Speech Detection",
+        "Complaint Detection",
         "Coreference Resolution",
         "Critical Analysis of Traditional Chinese Culture",
         "Date Prediction",
+        "Depression Detection",
         "Diagnosis of Plant Disease using Natural Language Processing",
         "Document Classification",
         "Entity Linking",
@@ -388,6 +395,7 @@
         "Fact Checking",
         "Token Classification",
         "Factual Argumentation Resolution",
+        "Fake News Detection",
         "Grammar Error Detection",
         "Hashtag Classification",
         "Historical Event Extraction",
@@ -396,6 +404,7 @@
         "Irony Detection",
         "Irrelevant Question Detection",
         "Lexical Semantic Relation Classification",
+        "Moral Text Categorization",
         "Named Entity Recognition",
         "Narrative Understanding",
         "Natural Language Classification",
@@ -422,6 +431,6 @@
     ],
     "Translation": [
         "Inverted Translation",
-        "Translation"
+        "Translation", "Name Romanization"
     ]
 }
