@@ -418,10 +418,8 @@ def download_feedback_collection(accepted_filter_ids):
 
 
 def download_evol_instruct(accepted_filter_ids):
-    return huggingface_download("WizardLM/evol_instruct_70k", split="train")
+    return huggingface_download("mlabonne/WizardLM_evol_instruct_70k-ShareGPT", split="train")
 
-def download_evol_instruct(accepted_filter_ids):
-    return huggingface_download("WizardLM/evol_instruct_70k", split="train")
 
 def download_selfee(accepted_filter_ids):
     return huggingface_download("kaist-ai/selfee-train", split="train")
@@ -616,7 +614,7 @@ def download_gpt4all(accepted_filter_ids):
 
 def download_evol_instruct_v2(accepted_filter_ids):
     return huggingface_download(
-        "WizardLM/WizardLM_evol_instruct_V2_196k", split="train"
+        "MaziyarPanahi/WizardLM_evol_instruct_V2_196k", split="train"
     )
 
 
