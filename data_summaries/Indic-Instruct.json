@@ -1,7 +1,7 @@
 {
     "indic-instruct-anudesh": {
         "Unique Dataset Identifier": "indic-instruct-anudesh",
-        "Dataset Name": "indic-instruct-data-v0.1",
+        "Dataset Name": "indic-instruct-data-v0.1-anudesh",
         "Paper Title": "Airavata: Introducing Hindi Instruction-tuned LLM",
         "Dataset URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1",
         "GitHub URL": "https://github.com/AI4Bharat/IndicInstruct",
@@ -69,7 +69,7 @@
     },
     "indic-instruct-dolly": {
         "Unique Dataset Identifier": "indic-instruct-dolly",
-        "Dataset Name": "indic-instruct-data-v0.1",
+        "Dataset Name": "indic-instruct-data-v0.1-dolly",
         "Paper Title": "Airavata: Introducing Hindi Instruction-tuned LLM",
         "Dataset URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1",
         "GitHub URL": "https://github.com/AI4Bharat/IndicInstruct",
@@ -140,7 +140,7 @@
     },
     "indic-instruct-flan_v2": {
         "Unique Dataset Identifier": "indic-instruct-flan_v2",
-        "Dataset Name": "indic-instruct-data-v0.1",
+        "Dataset Name": "indic-instruct-data-v0.1-flanv2",
         "Paper Title": "Airavata: Introducing Hindi Instruction-tuned LLM",
         "Dataset URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1",
         "GitHub URL": "https://github.com/AI4Bharat/IndicInstruct",
@@ -213,7 +213,7 @@
     },
     "indic-instruct-hh-rlhf": {
         "Unique Dataset Identifier": "indic-instruct-hh-rlhf",
-        "Dataset Name": "indic-instruct-data-v0.1",
+        "Dataset Name": "indic-instruct-data-v0.1-hhrlhf",
         "Paper Title": "Airavata: Introducing Hindi Instruction-tuned LLM",
         "Dataset URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1",
         "GitHub URL": "https://github.com/AI4Bharat/IndicInstruct",
@@ -273,7 +273,7 @@
     },
     "indic-instruct-lm_sys": {
         "Unique Dataset Identifier": "indic-instruct-lm_sys",
-        "Dataset Name": "indic-instruct-data-v0.1",
+        "Dataset Name": "indic-instruct-data-v0.1-lmsys",
         "Paper Title": "Airavata: Introducing Hindi Instruction-tuned LLM",
         "Dataset URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1",
         "GitHub URL": "https://github.com/AI4Bharat/IndicInstruct",
@@ -350,7 +350,7 @@
     },
     "indic-instruct-nmt-seed": {
         "Unique Dataset Identifier": "indic-instruct-nmt-seed",
-        "Dataset Name": "indic-instruct-data-v0.1",
+        "Dataset Name": "indic-instruct-data-v0.1-nmt",
         "Paper Title": "Airavata: Introducing Hindi Instruction-tuned LLM",
         "Dataset URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1",
         "GitHub URL": "https://github.com/AI4Bharat/IndicInstruct",
@@ -408,7 +408,7 @@
     },
     "indic-instruct-oasst1": {
         "Unique Dataset Identifier": "indic-instruct-oasst1",
-        "Dataset Name": "indic-instruct-data-v0.1",
+        "Dataset Name": "indic-instruct-data-v0.1-oasst1",
         "Paper Title": "Airavata: Introducing Hindi Instruction-tuned LLM",
         "Dataset URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1",
         "GitHub URL": "https://github.com/AI4Bharat/IndicInstruct",
@@ -479,7 +479,7 @@
     },
     "indic-instruct-wikihow": {
         "Unique Dataset Identifier": "indic-instruct-wikihow",
-        "Dataset Name": "indic-instruct-data-v0.1",
+        "Dataset Name": "indic-instruct-data-v0.1-wikihow",
         "Paper Title": "Airavata: Introducing Hindi Instruction-tuned LLM",
         "Dataset URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1",
         "GitHub URL": "https://github.com/AI4Bharat/IndicInstruct",

@@ -94,6 +94,11 @@
         "1",
         "1"
     ],
+    "CC BY-SA": [
+        "All",
+        "1",
+        "1"
+    ],
     "CC BY-SA 3.0": [
         "All",
         "1",
@@ -114,6 +119,11 @@
         "1",
         "0"
     ],
+    "CDLA Permissive 1.0": [
+        "All",
+        "1",
+        "0"
+    ],
     "CDLA Sharing 1.0": [
         "All",
         "1",
@@ -123,6 +133,11 @@
         "All",
         "1",
         "0"
+    ],
+    "GNU General Public License v2.0": [
+        "All",
+        "1",
+        "1"
     ],
     "GNU General Public License v3.0": [
         "All",
@@ -194,6 +209,11 @@
         "?",
         "?"
     ],
+    "Anthropic": [
+        "NC",
+        "?",
+        "?"
+    ],
     "Request Form": [
         "Acad",
         "?",
@@ -210,9 +230,9 @@
         "?"
     ],
     "Skywork Community License":[
-        "?",
-        "?",
-        "?"
+        "All",
+        "1",
+        "0"
     ],
     "BigScience OpenRAIL-M": [
         "All",
@@ -222,6 +242,11 @@
     "Llama 2": [
         "All",
         "1",
+        "0"
+    ],
+    "LMSYS-Chat-1M Dataset License":[
+        "All",
+        "0",
         "0"
     ]
 }
