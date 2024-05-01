@@ -1,7 +1,7 @@
 {
     "deita-10k-sharegpt": {
         "Unique Dataset Identifier": "deita-10k-sharegpt",
-        "Dataset Name": "deita-10k",
+        "Dataset Name": "deita-10k-sharegpt",
         "Paper Title": "What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning",
         "Dataset URL": "https://huggingface.co/datasets/hkust-nlp/deita-10k-v0",
         "GitHub URL": "https://github.com/hkust-nlp/deita",
@@ -68,7 +68,7 @@
     },
     "deita-10k-ultrachat": {
         "Unique Dataset Identifier": "deita-10k-ultrachat",
-        "Dataset Name": "deita-10k",
+        "Dataset Name": "deita-10k-ultrachat",
         "Paper Title": "What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning",
         "Dataset URL": "https://huggingface.co/datasets/hkust-nlp/deita-10k-v0",
         "GitHub URL": "https://github.com/hkust-nlp/deita",

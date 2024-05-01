@@ -23,14 +23,17 @@
             "list[string]: A list of sources from which the text was scraped/derived, including online/offline sources, if applicable.",
             "Please use source URLs listed in `constants/domain_groups.json` or add to it."
         ],
-        "Model Generated": ["list[str] (null): The model(s) used to generate this dataset if applicable."],
+        "Model Generated": [
+            "list[str] (null): The model(s) used to generate this dataset if applicable."
+        ],
         "Format": [
             "list[string]: A list of the formats in which the dataset is available.",
             "Please refer to `constants/data_formats.json` for options."
         ],
         "Human Annotation": "string: 'Yes' or 'No' indicating human annotations are part of this dataset, in addition to whatever was scraped from third-party sources.",
         "Derived from Datasets": [
-            "list[string]: A list of the names of ML datasets from which this dataset is comprised or derived."],
+            "list[string]: A list of the names of ML datasets from which this dataset is comprised or derived."
+        ],
         "Creators": [
             "list[string]: A list of the institutions/corporations (not people) creators/compiler of the ML dataset.",
             "Please use organizations listed in `constants/creator_groups.json`, or add to it."

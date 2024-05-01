@@ -32,13 +32,13 @@ def parse_robots_txt(robots_txt):
 
 def interpret_agent(rules):
 
-    agent_disallow = rules.get("Disallow", [])
-    agent_allow = rules.get("Allow", [])
+    agent_disallow = [x for x in rules.get("Disallow", []) if "?" not in x]
+    agent_allow = [x for x in rules.get("Allow", []) if "?" not in x]
 
-    if any('/' == x.strip() for x in agent_disallow):
-        disallow_type = "all"
-    elif len(agent_disallow) == 0 or agent_disallow == [""]:
+    if len(agent_disallow) == 0 or agent_disallow == [""] or (agent_allow == agent_disallow):
         disallow_type = "none"
+    elif any('/' == x.strip() for x in agent_disallow) and len(agent_allow) == 0:
+        disallow_type = "all"
     else:
         disallow_type = "some"
 
@@ -75,16 +75,32 @@ def aggregate_robots(url_to_rules, all_agents):
     (4) For each agent, how often it is NOT blocked from scraping at all
     """
     robots_stats = defaultdict(lambda: {'counter': 0, 'all': 0, 'some': 0, 'none': 0})
+    url_decisions = {}
 
     for url, robots in url_to_rules.items():
         agent_to_judgement = interpret_robots(robots, all_agents)
+        url_decisions[url] = agent_to_judgement
+        # Trace individual agents and wildcard agent
         for agent in all_agents + ["*"]:
             judgement = agent_to_judgement[agent]
             robots_stats[agent][judgement] += 1
             if agent in robots: # Missing robots.txt means nothing blocked
                 robots_stats[agent]["counter"] += 1
 
-    return robots_stats
+        # See if *All Agents* are blocked on all content, 
+        # or at least some agents can access some or more content, or 
+        # there are no blocks on any agents at all.
+        if all(v == "all" for v in agent_to_judgement.values()):
+            agg_judgement = "all"
+        elif any(v in ["some", "all"] for v in agent_to_judgement.values()):
+            agg_judgement = "some"
+        else:
+            agg_judgement = "none"
+        robots_stats["*All Agents*"]["counter"] += 1
+        robots_stats["*All Agents*"][agg_judgement] += 1
+        url_decisions[url]["*All Agents*"] = agg_judgement
+        
+    return robots_stats, url_decisions
 
 
 def read_robots_file(file_path):
@@ -112,7 +128,17 @@ def main(args):
     all_agents = list(set([agent for url, rules in url_to_rules.items() 
                       for agent, _ in rules.items() if agent not in ["ERRORS", "Sitemaps", "*"]]))
 
-    robots_stats = aggregate_robots(url_to_rules, all_agents)
+    robots_stats, url_decisions = aggregate_robots(url_to_rules, all_agents)
+
+    # URL --> agents in its robots.txt and their decisions (all/some/none).
+    url_interpretations = {k: {agent: v for agent, v in vs.items() if agent not in ["ERRORS", "Sitemaps"] and agent in list(url_to_rules[k]) + ["*All Agents*"]} for k, vs in url_decisions.items()}
+
+    # PRINT OUT INFO ON INDIVIDUAL URLS:
+    # for url, interp in url_interpretations.items():
+    #     if interp.get("*") == "all":
+    #         print(url)
+    # import pdb; pdb.set_trace()
+    # print(url_interpretations["http://www.machinenoveltranslation.com/robots.txt"])
 
     sorted_robots_stats = sorted(robots_stats.items(), key=lambda x: x[1]['counter'] / len(data) if len(data) > 0 else 0, reverse=True)
 

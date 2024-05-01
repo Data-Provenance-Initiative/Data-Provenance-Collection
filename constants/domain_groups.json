@@ -168,6 +168,7 @@
         "khanacademy.org",
         "k5learning.com",
         "learning.aljazeera.net/ar/asktheteacher",
+        "Math Word Problems",
         "math-aids.com",
         "udacity.com"
     ],
@@ -254,7 +255,10 @@
         "travel.stackexchange.com",
         "trivia websites",
         "youtube",
-        "zee news"
+        "zee news",
+        "KnowQuiz", 
+        "QuizBalls", 
+        "QuizZone"
     ],
     "Exams": [
         "ai2 science questions",
@@ -327,6 +331,7 @@
         "european parliament proceedings",
         "european union",
         "government speeches",
+        "Governments",
         "national commission on terrorist attacks reports",
         "nps.gov",
         "ohchr.org",
@@ -350,6 +355,7 @@
         "crowdsourced (daemo)",
         "human",
         "scale.com",
+        "User interactions",
         "volunteer annotations"
     ],
     "Legal": [
@@ -562,6 +568,8 @@
         "grover_base",
         "grover_large",
         "grover_mega",
+        "https://character.ai",
+        "https://huggingface.co/datasets/lmsys/chatbot_arena_conversations",
         "model generated negative candidates using adversarial filtering",
         "pplm_distil",
         "text-davinci-003",
@@ -776,6 +784,7 @@
         "capes",
         "cbt",
         "cometomyhead",
+        "https://collectivecognition.ai",
         "cr",
         "cyc.com",
         "dainik jugasankha",

@@ -1,7 +1,7 @@
 {
     "fc-sni-abductive_nli": {
         "Unique Dataset Identifier": "fc-sni-abductive_nli",
-        "Dataset Name": "abductive_nli",
+        "Dataset Name": "fc-sni-abductive_nli",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://leaderboard.allenai.org/anli/submissions/about",
@@ -83,7 +83,7 @@
     },
     "fc-sni-ade_corpus_v2": {
         "Unique Dataset Identifier": "fc-sni-ade_corpus_v2",
-        "Dataset Name": "ade_corpus_v2",
+        "Dataset Name": "fc-sni-ade_corpus_v2",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/trunghlt/AdverseDrugReaction/tree/master/ADE-Corpus-V2",
@@ -170,7 +170,7 @@
     },
     "fc-sni-adversarial_qa": {
         "Unique Dataset Identifier": "fc-sni-adversarial_qa",
-        "Dataset Name": "adversarial_qa",
+        "Dataset Name": "fc-sni-adversarial_qa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://paperswithcode.com/dataset/adversarialqa",
@@ -258,7 +258,7 @@
     },
     "fc-sni-adverserial_qa": {
         "Unique Dataset Identifier": "fc-sni-adverserial_qa",
-        "Dataset Name": "adverserial_qa",
+        "Dataset Name": "fc-sni-adverserial_qa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/adversarial_qa",
@@ -337,7 +337,7 @@
     },
     "fc-sni-afs": {
         "Unique Dataset Identifier": "fc-sni-afs",
-        "Dataset Name": "afs",
+        "Dataset Name": "fc-sni-afs",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://arxiv.org/pdf/1709.01887.pdf",
@@ -421,7 +421,7 @@
     },
     "fc-sni-ag_news": {
         "Unique Dataset Identifier": "fc-sni-ag_news",
-        "Dataset Name": "ag_news",
+        "Dataset Name": "fc-sni-ag_news",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/ag_news",
@@ -509,7 +509,7 @@
     },
     "fc-sni-ai2_arithmetic_questions": {
         "Unique Dataset Identifier": "fc-sni-ai2_arithmetic_questions",
-        "Dataset Name": "ai2_arithmetic_questions",
+        "Dataset Name": "fc-sni-ai2_arithmetic_questions",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://allenai.org/data/arithmetic-questions",
@@ -594,7 +594,7 @@
     },
     "fc-sni-air_dialogue": {
         "Unique Dataset Identifier": "fc-sni-air_dialogue",
-        "Dataset Name": "air_dialogue",
+        "Dataset Name": "fc-sni-air_dialogue",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/google/airdialogue",
@@ -682,7 +682,7 @@
     },
     "fc-sni-ajgt_twitter_ar": {
         "Unique Dataset Identifier": "fc-sni-ajgt_twitter_ar",
-        "Dataset Name": "ajgt_twitter_ar",
+        "Dataset Name": "fc-sni-ajgt_twitter_ar",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/ajgt_twitter_ar",
@@ -766,7 +766,7 @@
     },
     "fc-sni-allegro_reviews": {
         "Unique Dataset Identifier": "fc-sni-allegro_reviews",
-        "Dataset Name": "allegro_reviews",
+        "Dataset Name": "fc-sni-allegro_reviews",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/allegro_reviews",
@@ -848,7 +848,7 @@
     },
     "fc-sni-allocine": {
         "Unique Dataset Identifier": "fc-sni-allocine",
-        "Dataset Name": "allocine",
+        "Dataset Name": "fc-sni-allocine",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/allocine",
@@ -931,7 +931,7 @@
     },
     "fc-sni-amazon_and_yelp_summarization_dataset": {
         "Unique Dataset Identifier": "fc-sni-amazon_and_yelp_summarization_dataset",
-        "Dataset Name": "amazon_and_yelp_summarization_dataset",
+        "Dataset Name": "fc-sni-amazon_and_yelp_summarization_dataset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/abrazinskas/FewSum",
@@ -1025,7 +1025,7 @@
     },
     "fc-sni-amazon_fine_food_reviews": {
         "Unique Dataset Identifier": "fc-sni-amazon_fine_food_reviews",
-        "Dataset Name": "amazon_fine_food_reviews",
+        "Dataset Name": "fc-sni-amazon_fine_food_reviews",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://metatext.io/datasets/amazon-fine-food-reviews",
@@ -1107,7 +1107,7 @@
     },
     "fc-sni-amazon_polarity": {
         "Unique Dataset Identifier": "fc-sni-amazon_polarity",
-        "Dataset Name": "amazon_polarity",
+        "Dataset Name": "fc-sni-amazon_polarity",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/amazon_polarity",
@@ -1200,7 +1200,7 @@
     },
     "fc-sni-amazon_us_reviews": {
         "Unique Dataset Identifier": "fc-sni-amazon_us_reviews",
-        "Dataset Name": "amazon_us_reviews",
+        "Dataset Name": "fc-sni-amazon_us_reviews",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/amazon_us_reviews",
@@ -1284,7 +1284,7 @@
     },
     "fc-sni-ambigqa": {
         "Unique Dataset Identifier": "fc-sni-ambigqa",
-        "Dataset Name": "ambigqa",
+        "Dataset Name": "fc-sni-ambigqa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://nlp.cs.washington.edu/ambigqa/",
@@ -1373,7 +1373,7 @@
     },
     "fc-sni-ancora_ca_ner": {
         "Unique Dataset Identifier": "fc-sni-ancora_ca_ner",
-        "Dataset Name": "ancora_ca_ner",
+        "Dataset Name": "fc-sni-ancora_ca_ner",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/bsc/ancora-ca-ner",
@@ -1446,7 +1446,7 @@
     },
     "fc-sni-anem": {
         "Unique Dataset Identifier": "fc-sni-anem",
-        "Dataset Name": "anem",
+        "Dataset Name": "fc-sni-anem",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/juand-r/entity-recognition-datasets/tree/master/data/AnEM",
@@ -1537,7 +1537,7 @@
     },
     "fc-sni-anli": {
         "Unique Dataset Identifier": "fc-sni-anli",
-        "Dataset Name": "anli",
+        "Dataset Name": "fc-sni-anli",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/facebookresearch/anli",
@@ -1632,7 +1632,7 @@
     },
     "fc-sni-app_reviews": {
         "Unique Dataset Identifier": "fc-sni-app_reviews",
-        "Dataset Name": "app_reviews",
+        "Dataset Name": "fc-sni-app_reviews",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/app_reviews",
@@ -1714,7 +1714,7 @@
     },
     "fc-sni-aqua": {
         "Unique Dataset Identifier": "fc-sni-aqua",
-        "Dataset Name": "aqua",
+        "Dataset Name": "fc-sni-aqua",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/deepmind/AQuA",
@@ -1798,7 +1798,7 @@
     },
     "fc-sni-aquamuse": {
         "Unique Dataset Identifier": "fc-sni-aquamuse",
-        "Dataset Name": "aquamuse",
+        "Dataset Name": "fc-sni-aquamuse",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/aquamuse",
@@ -1882,7 +1882,7 @@
     },
     "fc-sni-arc": {
         "Unique Dataset Identifier": "fc-sni-arc",
-        "Dataset Name": "arc",
+        "Dataset Name": "fc-sni-arc",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://allenai.org/data/arc",
@@ -1965,7 +1965,7 @@
     },
     "fc-sni-argkp": {
         "Unique Dataset Identifier": "fc-sni-argkp",
-        "Dataset Name": "argkp",
+        "Dataset Name": "fc-sni-argkp",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/IBM/KPA_2021_shared_task",
@@ -2048,7 +2048,7 @@
     },
     "fc-sni-asian_language_treebank": {
         "Unique Dataset Identifier": "fc-sni-asian_language_treebank",
-        "Dataset Name": "asian_language_treebank",
+        "Dataset Name": "fc-sni-asian_language_treebank",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www2.nict.go.jp/astrec-att/member/mutiyama/ALT/",
@@ -2136,7 +2136,7 @@
     },
     "fc-sni-asset": {
         "Unique Dataset Identifier": "fc-sni-asset",
-        "Dataset Name": "asset",
+        "Dataset Name": "fc-sni-asset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/facebookresearch/asset",
@@ -2228,7 +2228,7 @@
     },
     "fc-sni-atomic": {
         "Unique Dataset Identifier": "fc-sni-atomic",
-        "Dataset Name": "atomic",
+        "Dataset Name": "fc-sni-atomic",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://allenai.org/data/atomic-2020",
@@ -2320,7 +2320,7 @@
     },
     "fc-sni-babi": {
         "Unique Dataset Identifier": "fc-sni-babi",
-        "Dataset Name": "babi",
+        "Dataset Name": "fc-sni-babi",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://research.fb.com/downloads/babi/",
@@ -2406,7 +2406,7 @@
     },
     "fc-sni-bard": {
         "Unique Dataset Identifier": "fc-sni-bard",
-        "Dataset Name": "bard",
+        "Dataset Name": "fc-sni-bard",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/NancyFulda/BYU-Analogical-Reasoning-Dataset",
@@ -2499,7 +2499,7 @@
     },
     "fc-sni-bc2gm_corpus": {
         "Unique Dataset Identifier": "fc-sni-bc2gm_corpus",
-        "Dataset Name": "bc2gm_corpus",
+        "Dataset Name": "fc-sni-bc2gm_corpus",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://metatext.io/datasets/biocreative-ii-gene-mention-recognition-(bc2gm)",
@@ -2579,7 +2579,7 @@
     },
     "fc-sni-bengali_hate_speech_dataset": {
         "Unique Dataset Identifier": "fc-sni-bengali_hate_speech_dataset",
-        "Dataset Name": "bengali_hate_speech_dataset",
+        "Dataset Name": "fc-sni-bengali_hate_speech_dataset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/rezacsedu/Bengali-Hate-Speech-Dataset",
@@ -2690,7 +2690,7 @@
     },
     "fc-sni-bengali_restaurant_reviews": {
         "Unique Dataset Identifier": "fc-sni-bengali_restaurant_reviews",
-        "Dataset Name": "bengali_restaurant_reviews",
+        "Dataset Name": "fc-sni-bengali_restaurant_reviews",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/eftekhar-hossain/Bengali-Restaurant-Reviews",
@@ -2783,7 +2783,7 @@
     },
     "fc-sni-bianet": {
         "Unique Dataset Identifier": "fc-sni-bianet",
-        "Dataset Name": "bianet",
+        "Dataset Name": "fc-sni-bianet",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/bianet",
@@ -2865,7 +2865,7 @@
     },
     "fc-sni-billsum": {
         "Unique Dataset Identifier": "fc-sni-billsum",
-        "Dataset Name": "billsum",
+        "Dataset Name": "fc-sni-billsum",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/billsum",
@@ -2953,7 +2953,7 @@
     },
     "fc-sni-biocreative_v": {
         "Unique Dataset Identifier": "fc-sni-biocreative_v",
-        "Dataset Name": "biocreative_v",
+        "Dataset Name": "fc-sni-biocreative_v",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://biocreative.bioinformatics.udel.edu/tasks/biocreative-v/track-3-cdr/",
@@ -3037,7 +3037,7 @@
     },
     "fc-sni-bless": {
         "Unique Dataset Identifier": "fc-sni-bless",
-        "Dataset Name": "bless",
+        "Dataset Name": "fc-sni-bless",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://aclanthology.org/W11-2501/",
@@ -3125,7 +3125,7 @@
     },
     "fc-sni-blimp": {
         "Unique Dataset Identifier": "fc-sni-blimp",
-        "Dataset Name": "blimp",
+        "Dataset Name": "fc-sni-blimp",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/blimp",
@@ -3212,7 +3212,7 @@
     },
     "fc-sni-boolq": {
         "Unique Dataset Identifier": "fc-sni-boolq",
-        "Dataset Name": "boolq",
+        "Dataset Name": "fc-sni-boolq",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/google-research-datasets/boolean-questions",
@@ -3299,7 +3299,7 @@
     },
     "fc-sni-break": {
         "Unique Dataset Identifier": "fc-sni-break",
-        "Dataset Name": "break",
+        "Dataset Name": "fc-sni-break",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://allenai.github.io/Break/",
@@ -3396,7 +3396,7 @@
     },
     "fc-sni-broad_twitter_corpus": {
         "Unique Dataset Identifier": "fc-sni-broad_twitter_corpus",
-        "Dataset Name": "broad_twitter_corpus",
+        "Dataset Name": "fc-sni-broad_twitter_corpus",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/juand-r/entity-recognition-datasets/tree/master/data/BTC",
@@ -3492,7 +3492,7 @@
     },
     "fc-sni-brown_corpus": {
         "Unique Dataset Identifier": "fc-sni-brown_corpus",
-        "Dataset Name": "brown_corpus",
+        "Dataset Name": "fc-sni-brown_corpus",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "http://korpus.uib.no/icame/brown/bcm.html",
@@ -3577,7 +3577,7 @@
     },
     "fc-sni-cad": {
         "Unique Dataset Identifier": "fc-sni-cad",
-        "Dataset Name": "cad",
+        "Dataset Name": "fc-sni-cad",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/dongpng/cad_naacl2021",
@@ -3666,7 +3666,7 @@
     },
     "fc-sni-cail2018": {
         "Unique Dataset Identifier": "fc-sni-cail2018",
-        "Dataset Name": "cail2018",
+        "Dataset Name": "fc-sni-cail2018",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/cail2018",
@@ -3756,7 +3756,7 @@
     },
     "fc-sni-casehold": {
         "Unique Dataset Identifier": "fc-sni-casehold",
-        "Dataset Name": "casehold",
+        "Dataset Name": "fc-sni-casehold",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/reglab/casehold",
@@ -3840,7 +3840,7 @@
     },
     "fc-sni-casino": {
         "Unique Dataset Identifier": "fc-sni-casino",
-        "Dataset Name": "casino",
+        "Dataset Name": "fc-sni-casino",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://aclanthology.org/2021.naacl-main.254.pdf",
@@ -3927,7 +3927,7 @@
     },
     "fc-sni-catalonia_independence_corpus": {
         "Unique Dataset Identifier": "fc-sni-catalonia_independence_corpus",
-        "Dataset Name": "catalonia_independence_corpus",
+        "Dataset Name": "fc-sni-catalonia_independence_corpus",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/ixa-ehu/catalonia-independence-corpus",
@@ -4017,7 +4017,7 @@
     },
     "fc-sni-ccaligned_multilingual": {
         "Unique Dataset Identifier": "fc-sni-ccaligned_multilingual",
-        "Dataset Name": "ccaligned_multilingual",
+        "Dataset Name": "fc-sni-ccaligned_multilingual",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/ccaligned_multilingual",
@@ -4105,7 +4105,7 @@
     },
     "fc-sni-cdt": {
         "Unique Dataset Identifier": "fc-sni-cdt",
-        "Dataset Name": "cdt",
+        "Dataset Name": "fc-sni-cdt",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/cdt",
@@ -4192,7 +4192,7 @@
     },
     "fc-sni-cedr": {
         "Unique Dataset Identifier": "fc-sni-cedr",
-        "Dataset Name": "cedr",
+        "Dataset Name": "fc-sni-cedr",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/sag111/CEDR",
@@ -4278,7 +4278,7 @@
     },
     "fc-sni-cfq_mcd1": {
         "Unique Dataset Identifier": "fc-sni-cfq_mcd1",
-        "Dataset Name": "cfq_mcd1",
+        "Dataset Name": "fc-sni-cfq_mcd1",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www.tensorflow.org/datasets/catalog/cfq",
@@ -4363,7 +4363,7 @@
     },
     "fc-sni-chemprot_corpus": {
         "Unique Dataset Identifier": "fc-sni-chemprot_corpus",
-        "Dataset Name": "chemprot_corpus",
+        "Dataset Name": "fc-sni-chemprot_corpus",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://paperswithcode.com/dataset/chemprot",
@@ -4444,7 +4444,7 @@
     },
     "fc-sni-circa": {
         "Unique Dataset Identifier": "fc-sni-circa",
-        "Dataset Name": "circa",
+        "Dataset Name": "fc-sni-circa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/circa",
@@ -4530,7 +4530,7 @@
     },
     "fc-sni-civil_comments": {
         "Unique Dataset Identifier": "fc-sni-civil_comments",
-        "Dataset Name": "civil_comments",
+        "Dataset Name": "fc-sni-civil_comments",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/civil_comments",
@@ -4617,7 +4617,7 @@
     },
     "fc-sni-clariq": {
         "Unique Dataset Identifier": "fc-sni-clariq",
-        "Dataset Name": "clariq",
+        "Dataset Name": "fc-sni-clariq",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/aliannejadi/ClariQ",
@@ -4707,7 +4707,7 @@
     },
     "fc-sni-clickbait_news_bg": {
         "Unique Dataset Identifier": "fc-sni-clickbait_news_bg",
-        "Dataset Name": "clickbait_news_bg",
+        "Dataset Name": "fc-sni-clickbait_news_bg",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/clickbait_news_bg",
@@ -4794,7 +4794,7 @@
     },
     "fc-sni-cls": {
         "Unique Dataset Identifier": "fc-sni-cls",
-        "Dataset Name": "cls",
+        "Dataset Name": "fc-sni-cls",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://aclanthology.org/P10-1114/",
@@ -4881,7 +4881,7 @@
     },
     "fc-sni-clue_cmrc2018": {
         "Unique Dataset Identifier": "fc-sni-clue_cmrc2018",
-        "Dataset Name": "clue_cmrc2018",
+        "Dataset Name": "fc-sni-clue_cmrc2018",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/ymcui/cmrc2018",
@@ -4974,7 +4974,7 @@
     },
     "fc-sni-cmrc2018": {
         "Unique Dataset Identifier": "fc-sni-cmrc2018",
-        "Dataset Name": "cmrc2018",
+        "Dataset Name": "fc-sni-cmrc2018",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/chr_en",
@@ -5057,7 +5057,7 @@
     },
     "fc-sni-coached_conv_pref": {
         "Unique Dataset Identifier": "fc-sni-coached_conv_pref",
-        "Dataset Name": "coached_conv_pref",
+        "Dataset Name": "fc-sni-coached_conv_pref",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://research.google/tools/datasets/coached-conversational-preference-elicitation/",
@@ -5142,7 +5142,7 @@
     },
     "fc-sni-cod3s": {
         "Unique Dataset Identifier": "fc-sni-cod3s",
-        "Dataset Name": "cod3s",
+        "Dataset Name": "fc-sni-cod3s",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://aclanthology.org/2020.emnlp-main.421.pdf",
@@ -5227,7 +5227,7 @@
     },
     "fc-sni-coda_19": {
         "Unique Dataset Identifier": "fc-sni-coda_19",
-        "Dataset Name": "coda_19",
+        "Dataset Name": "fc-sni-coda_19",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/windx0303/CODA-19/tree/master/data",
@@ -5317,7 +5317,7 @@
     },
     "fc-sni-codah": {
         "Unique Dataset Identifier": "fc-sni-codah",
-        "Dataset Name": "codah",
+        "Dataset Name": "fc-sni-codah",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://aclanthology.org/W19-2008.pdf",
@@ -5404,7 +5404,7 @@
     },
     "fc-sni-codexglue": {
         "Unique Dataset Identifier": "fc-sni-codexglue",
-        "Dataset Name": "codexglue",
+        "Dataset Name": "fc-sni-codexglue",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/microsoft/CodeXGLUE",
@@ -5492,7 +5492,7 @@
     },
     "fc-sni-com_qa": {
         "Unique Dataset Identifier": "fc-sni-com_qa",
-        "Dataset Name": "com_qa",
+        "Dataset Name": "fc-sni-com_qa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/com_qa",
@@ -5578,7 +5578,7 @@
     },
     "fc-sni-com2sense": {
         "Unique Dataset Identifier": "fc-sni-com2sense",
-        "Dataset Name": "com2sense",
+        "Dataset Name": "fc-sni-com2sense",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/PlusLabNLP/Com2Sense",
@@ -5667,7 +5667,7 @@
     },
     "fc-sni-commongen": {
         "Unique Dataset Identifier": "fc-sni-commongen",
-        "Dataset Name": "commongen",
+        "Dataset Name": "fc-sni-commongen",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://inklab.usc.edu/CommonGen/",
@@ -5764,7 +5764,7 @@
     },
     "fc-sni-commonsenseqa": {
         "Unique Dataset Identifier": "fc-sni-commonsenseqa",
-        "Dataset Name": "commonsenseqa",
+        "Dataset Name": "fc-sni-commonsenseqa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www.tau-nlp.org/commonsenseqa",
@@ -5850,7 +5850,7 @@
     },
     "fc-sni-conala": {
         "Unique Dataset Identifier": "fc-sni-conala",
-        "Dataset Name": "conala",
+        "Dataset Name": "fc-sni-conala",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://arxiv.org/pdf/1805.08949.pdf",
@@ -5937,7 +5937,7 @@
     },
     "fc-sni-conll2022": {
         "Unique Dataset Identifier": "fc-sni-conll2022",
-        "Dataset Name": "conll2022",
+        "Dataset Name": "fc-sni-conll2022",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/viewer/?dataset=conll2002",
@@ -6023,7 +6023,7 @@
     },
     "fc-sni-conllpp": {
         "Unique Dataset Identifier": "fc-sni-conllpp",
-        "Dataset Name": "conllpp",
+        "Dataset Name": "fc-sni-conllpp",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/conllpp",
@@ -6113,7 +6113,7 @@
     },
     "fc-sni-conv_ai_2": {
         "Unique Dataset Identifier": "fc-sni-conv_ai_2",
-        "Dataset Name": "conv_ai_2",
+        "Dataset Name": "fc-sni-conv_ai_2",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/conv_ai_2",
@@ -6205,7 +6205,7 @@
     },
     "fc-sni-copa_hr": {
         "Unique Dataset Identifier": "fc-sni-copa_hr",
-        "Dataset Name": "copa_hr",
+        "Dataset Name": "fc-sni-copa_hr",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/classla/copa_hr",
@@ -6296,7 +6296,7 @@
     },
     "fc-sni-cosmosqa": {
         "Unique Dataset Identifier": "fc-sni-cosmosqa",
-        "Dataset Name": "cosmosqa",
+        "Dataset Name": "fc-sni-cosmosqa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://leaderboard.allenai.org/cosmosqa/submissions/about",
@@ -6386,7 +6386,7 @@
     },
     "fc-sni-country_abbreviation_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_abbreviation_dataset",
-        "Dataset Name": "country_abbreviation_dataset",
+        "Dataset Name": "fc-sni-country_abbreviation_dataset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://data.world/samayo/country-abbreviation/workspace/file?filename=country-abbreviation.json",
@@ -6470,7 +6470,7 @@
     },
     "fc-sni-country_barcode_prefix_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_barcode_prefix_dataset",
-        "Dataset Name": "country_barcode_prefix_dataset",
+        "Dataset Name": "fc-sni-country_barcode_prefix_dataset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://data.world/samayo/countries-by-barcode-prefix/workspace/file?filename=country-by-barcode-prefix.json",
@@ -6553,7 +6553,7 @@
     },
     "fc-sni-country_calling_code_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_calling_code_dataset",
-        "Dataset Name": "country_calling_code_dataset",
+        "Dataset Name": "fc-sni-country_calling_code_dataset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://data.world/samayo/country-calling-code/workspace/file?filename=country-by-calling-code.json",
@@ -6636,7 +6636,7 @@
     },
     "fc-sni-country_capital_city_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_capital_city_dataset",
-        "Dataset Name": "country_capital_city_dataset",
+        "Dataset Name": "fc-sni-country_capital_city_dataset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://data.world/samayo/country-capital-city/workspace/file?filename=country-by-capital-city.json",
@@ -6719,7 +6719,7 @@
     },
     "fc-sni-country_continent_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_continent_dataset",
-        "Dataset Name": "country_continent_dataset",
+        "Dataset Name": "fc-sni-country_continent_dataset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/drmonkeyninja/country.json/blob/master/src/country-continent.json",
@@ -6803,7 +6803,7 @@
     },
     "fc-sni-country_currency_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_currency_dataset",
-        "Dataset Name": "country_currency_dataset",
+        "Dataset Name": "fc-sni-country_currency_dataset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://data.world/samayo/country-currency/file/country-by-currency-name.json",
@@ -6885,7 +6885,7 @@
     },
     "fc-sni-country_domain_tld_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_domain_tld_dataset",
-        "Dataset Name": "country_domain_tld_dataset",
+        "Dataset Name": "fc-sni-country_domain_tld_dataset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://data.world/samayo/countries-tld/workspace/file?filename=country-by-domain-tld.json",
@@ -6970,7 +6970,7 @@
     },
     "fc-sni-country_government_type_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_government_type_dataset",
-        "Dataset Name": "country_government_type_dataset",
+        "Dataset Name": "fc-sni-country_government_type_dataset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/drmonkeyninja/country.json/blob/master/src/country-government-type.json",
@@ -7057,7 +7057,7 @@
     },
     "fc-sni-country_independence_year_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_independence_year_dataset",
-        "Dataset Name": "country_independence_year_dataset",
+        "Dataset Name": "fc-sni-country_independence_year_dataset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/drmonkeyninja/country.json/blob/master/src/country-independence-date.json",
@@ -7138,7 +7138,7 @@
     },
     "fc-sni-country_iso_numeric_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_iso_numeric_dataset",
-        "Dataset Name": "country_iso_numeric_dataset",
+        "Dataset Name": "fc-sni-country_iso_numeric_dataset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/drmonkeyninja/country.json/blob/master/src/country-iso-numeric.json",
@@ -7219,7 +7219,7 @@
     },
     "fc-sni-country_national_dish_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_national_dish_dataset",
-        "Dataset Name": "country_national_dish_dataset",
+        "Dataset Name": "fc-sni-country_national_dish_dataset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/drmonkeyninja/country.json/blob/master/src/country-by-national-dish.json",
@@ -7305,7 +7305,7 @@
     },
     "fc-sni-country_region_in_world_dataset": {
         "Unique Dataset Identifier": "fc-sni-country_region_in_world_dataset",
-        "Dataset Name": "country_region_in_world_dataset",
+        "Dataset Name": "fc-sni-country_region_in_world_dataset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/drmonkeyninja/country.json/blob/master/src/country-region-in-world.json",
@@ -7386,7 +7386,7 @@
     },
     "fc-sni-craigslist_bargains": {
         "Unique Dataset Identifier": "fc-sni-craigslist_bargains",
-        "Dataset Name": "craigslist_bargains",
+        "Dataset Name": "fc-sni-craigslist_bargains",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/craigslist_bargains",
@@ -7469,7 +7469,7 @@
     },
     "fc-sni-creak_2018": {
         "Unique Dataset Identifier": "fc-sni-creak_2018",
-        "Dataset Name": "creak_2018",
+        "Dataset Name": "fc-sni-creak_2018",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://arxiv.org/pdf/2109.01653.pdf",
@@ -7553,7 +7553,7 @@
     },
     "fc-sni-crows_pairs": {
         "Unique Dataset Identifier": "fc-sni-crows_pairs",
-        "Dataset Name": "crows_pairs",
+        "Dataset Name": "fc-sni-crows_pairs",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/nyu-mll/crows-pairs",
@@ -7629,7 +7629,7 @@
     },
     "fc-sni-cuad": {
         "Unique Dataset Identifier": "fc-sni-cuad",
-        "Dataset Name": "cuad",
+        "Dataset Name": "fc-sni-cuad",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/cuad",
@@ -7716,7 +7716,7 @@
     },
     "fc-sni-curated_from_stack_overflow___english.": {
         "Unique Dataset Identifier": "fc-sni-curated_from_stack_overflow___english.",
-        "Dataset Name": "curated_from_stack_overflow___english.",
+        "Dataset Name": "fc-sni-curated_from_stack_overflow___english.",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://data.stackexchange.com/english/queries",
@@ -7801,7 +7801,7 @@
     },
     "fc-sni-curiosity_dialogs": {
         "Unique Dataset Identifier": "fc-sni-curiosity_dialogs",
-        "Dataset Name": "curiosity_dialogs",
+        "Dataset Name": "fc-sni-curiosity_dialogs",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/facebookresearch/curiosity",
@@ -7889,7 +7889,7 @@
     },
     "fc-sni-dailydialog": {
         "Unique Dataset Identifier": "fc-sni-dailydialog",
-        "Dataset Name": "dailydialog",
+        "Dataset Name": "fc-sni-dailydialog",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/daily_dialog",
@@ -7975,7 +7975,7 @@
     },
     "fc-sni-dais": {
         "Unique Dataset Identifier": "fc-sni-dais",
-        "Dataset Name": "dais",
+        "Dataset Name": "fc-sni-dais",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/taka-yamakoshi/neural_constructions",
@@ -8063,7 +8063,7 @@
     },
     "fc-sni-dbpedia_14": {
         "Unique Dataset Identifier": "fc-sni-dbpedia_14",
-        "Dataset Name": "dbpedia_14",
+        "Dataset Name": "fc-sni-dbpedia_14",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/dbpedia_14",
@@ -8154,7 +8154,7 @@
     },
     "fc-sni-ddo": {
         "Unique Dataset Identifier": "fc-sni-ddo",
-        "Dataset Name": "ddo",
+        "Dataset Name": "fc-sni-ddo",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://esdurmus.github.io/ddo.md",
@@ -8241,7 +8241,7 @@
     },
     "fc-sni-deal_or_no_dialog": {
         "Unique Dataset Identifier": "fc-sni-deal_or_no_dialog",
-        "Dataset Name": "deal_or_no_dialog",
+        "Dataset Name": "fc-sni-deal_or_no_dialog",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/deal_or_no_dialog",
@@ -8327,7 +8327,7 @@
     },
     "fc-sni-deceptive_opinion_spam_dataset": {
         "Unique Dataset Identifier": "fc-sni-deceptive_opinion_spam_dataset",
-        "Dataset Name": "deceptive_opinion_spam_dataset",
+        "Dataset Name": "fc-sni-deceptive_opinion_spam_dataset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://myleott.com/op-spam.html",
@@ -8407,7 +8407,7 @@
     },
     "fc-sni-defeasible_nli_atomic": {
         "Unique Dataset Identifier": "fc-sni-defeasible_nli_atomic",
-        "Dataset Name": "defeasible_nli_atomic",
+        "Dataset Name": "fc-sni-defeasible_nli_atomic",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/rudinger/defeasible-nli",
@@ -8499,7 +8499,7 @@
     },
     "fc-sni-detoxifying_lms": {
         "Unique Dataset Identifier": "fc-sni-detoxifying_lms",
-        "Dataset Name": "detoxifying_lms",
+        "Dataset Name": "fc-sni-detoxifying_lms",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://aclanthology.org/2021.naacl-main.190/",
@@ -8578,7 +8578,7 @@
     },
     "fc-sni-dialogre": {
         "Unique Dataset Identifier": "fc-sni-dialogre",
-        "Dataset Name": "dialogre",
+        "Dataset Name": "fc-sni-dialogre",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://dataset.org/dialogre/",
@@ -8665,7 +8665,7 @@
     },
     "fc-sni-diplomacy_detection": {
         "Unique Dataset Identifier": "fc-sni-diplomacy_detection",
-        "Dataset Name": "diplomacy_detection",
+        "Dataset Name": "fc-sni-diplomacy_detection",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/diplomacy_detection",
@@ -8750,7 +8750,7 @@
     },
     "fc-sni-discofuse": {
         "Unique Dataset Identifier": "fc-sni-discofuse",
-        "Dataset Name": "discofuse",
+        "Dataset Name": "fc-sni-discofuse",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/google-research-datasets/discofuse",
@@ -8837,7 +8837,7 @@
     },
     "fc-sni-disfl_qa": {
         "Unique Dataset Identifier": "fc-sni-disfl_qa",
-        "Dataset Name": "disfl_qa",
+        "Dataset Name": "fc-sni-disfl_qa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/google-research-datasets/Disfl-QA",
@@ -8928,7 +8928,7 @@
     },
     "fc-sni-doqa": {
         "Unique Dataset Identifier": "fc-sni-doqa",
-        "Dataset Name": "doqa",
+        "Dataset Name": "fc-sni-doqa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "http://www.ixa.eus/node/12931",
@@ -9016,7 +9016,7 @@
     },
     "fc-sni-dream": {
         "Unique Dataset Identifier": "fc-sni-dream",
-        "Dataset Name": "dream",
+        "Dataset Name": "fc-sni-dream",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/nlpdata/dream",
@@ -9108,7 +9108,7 @@
     },
     "fc-sni-dstc3": {
         "Unique Dataset Identifier": "fc-sni-dstc3",
-        "Dataset Name": "dstc3",
+        "Dataset Name": "fc-sni-dstc3",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/NathanDuran/DSTC3-Corpus",
@@ -9201,7 +9201,7 @@
     },
     "fc-sni-dualrl": {
         "Unique Dataset Identifier": "fc-sni-dualrl",
-        "Dataset Name": "dualrl",
+        "Dataset Name": "fc-sni-dualrl",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/luofuli/DualRL",
@@ -9294,7 +9294,7 @@
     },
     "fc-sni-duorc": {
         "Unique Dataset Identifier": "fc-sni-duorc",
-        "Dataset Name": "duorc",
+        "Dataset Name": "fc-sni-duorc",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/duorc/duorc",
@@ -9387,7 +9387,7 @@
     },
     "fc-sni-e_snli": {
         "Unique Dataset Identifier": "fc-sni-e_snli",
-        "Dataset Name": "e_snli",
+        "Dataset Name": "fc-sni-e_snli",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/OanaMariaCamburu/e-SNLI/",
@@ -9478,7 +9478,7 @@
     },
     "fc-sni-e2e": {
         "Unique Dataset Identifier": "fc-sni-e2e",
-        "Dataset Name": "e2e",
+        "Dataset Name": "fc-sni-e2e",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://arxiv.org/abs/1706.09254",
@@ -9562,7 +9562,7 @@
     },
     "fc-sni-emea_fr_sk": {
         "Unique Dataset Identifier": "fc-sni-emea_fr_sk",
-        "Dataset Name": "emea_fr_sk",
+        "Dataset Name": "fc-sni-emea_fr_sk",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/emea",
@@ -9655,7 +9655,7 @@
     },
     "fc-sni-emo": {
         "Unique Dataset Identifier": "fc-sni-emo",
-        "Dataset Name": "emo",
+        "Dataset Name": "fc-sni-emo",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/emo",
@@ -9740,7 +9740,7 @@
     },
     "fc-sni-emotion": {
         "Unique Dataset Identifier": "fc-sni-emotion",
-        "Dataset Name": "emotion",
+        "Dataset Name": "fc-sni-emotion",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/dair-ai/emotion_dataset",
@@ -9824,7 +9824,7 @@
     },
     "fc-sni-eng_guj_parallel_corpus": {
         "Unique Dataset Identifier": "fc-sni-eng_guj_parallel_corpus",
-        "Dataset Name": "eng_guj_parallel_corpus",
+        "Dataset Name": "fc-sni-eng_guj_parallel_corpus",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/shahparth123/eng_guj_parallel_corpus",
@@ -9920,7 +9920,7 @@
     },
     "fc-sni-enhanced_wsc": {
         "Unique Dataset Identifier": "fc-sni-enhanced_wsc",
-        "Dataset Name": "enhanced_wsc",
+        "Dataset Name": "fc-sni-enhanced_wsc",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/mhany90/perturbed-wsc",
@@ -10013,7 +10013,7 @@
     },
     "fc-sni-eqasc": {
         "Unique Dataset Identifier": "fc-sni-eqasc",
-        "Dataset Name": "eqasc",
+        "Dataset Name": "fc-sni-eqasc",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://allenai.org/data/eqasc",
@@ -10091,7 +10091,7 @@
     },
     "fc-sni-equity_evaluation_corpus": {
         "Unique Dataset Identifier": "fc-sni-equity_evaluation_corpus",
-        "Dataset Name": "equity_evaluation_corpus",
+        "Dataset Name": "fc-sni-equity_evaluation_corpus",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/peixian/equity_evaluation_corpus",
@@ -10172,7 +10172,7 @@
     },
     "fc-sni-essential": {
         "Unique Dataset Identifier": "fc-sni-essential",
-        "Dataset Name": "essential",
+        "Dataset Name": "fc-sni-essential",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/allenai/essential-terms",
@@ -10251,7 +10251,7 @@
     },
     "fc-sni-ethos": {
         "Unique Dataset Identifier": "fc-sni-ethos",
-        "Dataset Name": "ethos",
+        "Dataset Name": "fc-sni-ethos",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/ethos",
@@ -10336,7 +10336,7 @@
     },
     "fc-sni-eurlex": {
         "Unique Dataset Identifier": "fc-sni-eurlex",
-        "Dataset Name": "eurlex",
+        "Dataset Name": "fc-sni-eurlex",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/eurlex",
@@ -10423,7 +10423,7 @@
     },
     "fc-sni-europa_ecdc_tm": {
         "Unique Dataset Identifier": "fc-sni-europa_ecdc_tm",
-        "Dataset Name": "europa_ecdc_tm",
+        "Dataset Name": "fc-sni-europa_ecdc_tm",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/europa_ecdc_tm",
@@ -10505,7 +10505,7 @@
     },
     "fc-sni-europarl": {
         "Unique Dataset Identifier": "fc-sni-europarl",
-        "Dataset Name": "europarl",
+        "Dataset Name": "fc-sni-europarl",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "http://www.statmt.org/europarl/",
@@ -10587,7 +10587,7 @@
     },
     "fc-sni-evalution": {
         "Unique Dataset Identifier": "fc-sni-evalution",
-        "Dataset Name": "evalution",
+        "Dataset Name": "fc-sni-evalution",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://aclanthology.org/W15-4208",
@@ -10675,7 +10675,7 @@
     },
     "fc-sni-event2mind": {
         "Unique Dataset Identifier": "fc-sni-event2mind",
-        "Dataset Name": "event2mind",
+        "Dataset Name": "fc-sni-event2mind",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/event2Mind",
@@ -10767,7 +10767,7 @@
     },
     "fc-sni-facts2story": {
         "Unique Dataset Identifier": "fc-sni-facts2story",
-        "Dataset Name": "facts2story",
+        "Dataset Name": "fc-sni-facts2story",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/eyal-orbach/Facts2Story-data",
@@ -10854,7 +10854,7 @@
     },
     "fc-sni-farstail": {
         "Unique Dataset Identifier": "fc-sni-farstail",
-        "Dataset Name": "farstail",
+        "Dataset Name": "fc-sni-farstail",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/dml-qom/FarsTail",
@@ -10949,7 +10949,7 @@
     },
     "fc-sni-financial_phrasebank": {
         "Unique Dataset Identifier": "fc-sni-financial_phrasebank",
-        "Dataset Name": "financial_phrasebank",
+        "Dataset Name": "fc-sni-financial_phrasebank",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/financial_phrasebank",
@@ -11035,7 +11035,7 @@
     },
     "fc-sni-flores": {
         "Unique Dataset Identifier": "fc-sni-flores",
-        "Dataset Name": "flores",
+        "Dataset Name": "fc-sni-flores",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/flores",
@@ -11127,7 +11127,7 @@
     },
     "fc-sni-freebase_qa": {
         "Unique Dataset Identifier": "fc-sni-freebase_qa",
-        "Dataset Name": "freebase_qa",
+        "Dataset Name": "fc-sni-freebase_qa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/freebase_qa",
@@ -11159,7 +11159,7 @@
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
         },
-        "Text Sources": [],
+        "Text Sources": ["KnowQuiz", "QuizBalls", "QuizZone"],
         "Model Generated": [],
         "Creators": [
             "York University"
@@ -11173,7 +11173,8 @@
         "License Notes": "",
         "License Verified By": "",
         "Dataset Filter IDs": [
-            "task897_freebase_qa_topic_question_generation"
+            "task897_freebase_qa_topic_question_generation",
+            "Trivia QA"
         ],
         "Inferred Metadata": {
             "HF Dataset": "freebase_qa",
@@ -11212,7 +11213,7 @@
     },
     "fc-sni-gap": {
         "Unique Dataset Identifier": "fc-sni-gap",
-        "Dataset Name": "gap",
+        "Dataset Name": "fc-sni-gap",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/google-research-datasets/gap-coreference",
@@ -11294,7 +11295,7 @@
     },
     "fc-sni-generated_reviews_enth": {
         "Unique Dataset Identifier": "fc-sni-generated_reviews_enth",
-        "Dataset Name": "generated_reviews_enth",
+        "Dataset Name": "fc-sni-generated_reviews_enth",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/generated_reviews_enth",
@@ -11392,7 +11393,7 @@
     },
     "fc-sni-giga_fren": {
         "Unique Dataset Identifier": "fc-sni-giga_fren",
-        "Dataset Name": "giga_fren",
+        "Dataset Name": "fc-sni-giga_fren",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/giga_fren",
@@ -11487,7 +11488,7 @@
     },
     "fc-sni-glucose": {
         "Unique Dataset Identifier": "fc-sni-glucose",
-        "Dataset Name": "glucose",
+        "Dataset Name": "fc-sni-glucose",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/ElementalCognition/glucose/",
@@ -11576,7 +11577,7 @@
     },
     "fc-sni-go_emotions": {
         "Unique Dataset Identifier": "fc-sni-go_emotions",
-        "Dataset Name": "go_emotions",
+        "Dataset Name": "fc-sni-go_emotions",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/go_emotions",
@@ -11665,7 +11666,7 @@
     },
     "fc-sni-gooaq": {
         "Unique Dataset Identifier": "fc-sni-gooaq",
-        "Dataset Name": "gooaq",
+        "Dataset Name": "fc-sni-gooaq",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/gooaq",
@@ -11754,7 +11755,7 @@
     },
     "fc-sni-google_wellformed_query": {
         "Unique Dataset Identifier": "fc-sni-google_wellformed_query",
-        "Dataset Name": "google_wellformed_query",
+        "Dataset Name": "fc-sni-google_wellformed_query",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/google_wellformed_query",
@@ -11842,7 +11843,7 @@
     },
     "fc-sni-grailqa": {
         "Unique Dataset Identifier": "fc-sni-grailqa",
-        "Dataset Name": "grailqa",
+        "Dataset Name": "fc-sni-grailqa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://dki-lab.github.io/GrailQA/",
@@ -11932,7 +11933,7 @@
     },
     "fc-sni-gwsd": {
         "Unique Dataset Identifier": "fc-sni-gwsd",
-        "Dataset Name": "gwsd",
+        "Dataset Name": "fc-sni-gwsd",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/yiweiluo/GWStance",
@@ -12013,7 +12014,7 @@
     },
     "fc-sni-hans": {
         "Unique Dataset Identifier": "fc-sni-hans",
-        "Dataset Name": "hans",
+        "Dataset Name": "fc-sni-hans",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://arxiv.org/abs/1902.01007",
@@ -12101,7 +12102,7 @@
     },
     "fc-sni-haspart_kb": {
         "Unique Dataset Identifier": "fc-sni-haspart_kb",
-        "Dataset Name": "haspart_kb",
+        "Dataset Name": "fc-sni-haspart_kb",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://arxiv.org/abs/2006.07510",
@@ -12190,7 +12191,7 @@
     },
     "fc-sni-hate_speech_offensive": {
         "Unique Dataset Identifier": "fc-sni-hate_speech_offensive",
-        "Dataset Name": "hate_speech_offensive",
+        "Dataset Name": "fc-sni-hate_speech_offensive",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/hate_speech_offensive",
@@ -12278,7 +12279,7 @@
     },
     "fc-sni-hateeval": {
         "Unique Dataset Identifier": "fc-sni-hateeval",
-        "Dataset Name": "hateeval",
+        "Dataset Name": "fc-sni-hateeval",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/cicl2018/HateEvalTeam",
@@ -12359,7 +12360,7 @@
     },
     "fc-sni-hatexplain": {
         "Unique Dataset Identifier": "fc-sni-hatexplain",
-        "Dataset Name": "hatexplain",
+        "Dataset Name": "fc-sni-hatexplain",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/hate-alert/HateXplain",
@@ -12459,7 +12460,7 @@
     },
     "fc-sni-head_qa": {
         "Unique Dataset Identifier": "fc-sni-head_qa",
-        "Dataset Name": "head_qa",
+        "Dataset Name": "fc-sni-head_qa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/head_qa",
@@ -12545,7 +12546,7 @@
     },
     "fc-sni-health_fact": {
         "Unique Dataset Identifier": "fc-sni-health_fact",
-        "Dataset Name": "health_fact",
+        "Dataset Name": "fc-sni-health_fact",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/health_fact",
@@ -12637,7 +12638,7 @@
     },
     "fc-sni-help!_need_advice_on_identifying_advice": {
         "Unique Dataset Identifier": "fc-sni-help!_need_advice_on_identifying_advice",
-        "Dataset Name": "help!_need_advice_on_identifying_advice",
+        "Dataset Name": "fc-sni-help!_need_advice_on_identifying_advice",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/venkatasg/Advice-EMNLP2020",
@@ -12727,7 +12728,7 @@
     },
     "fc-sni-hind_encorp": {
         "Unique Dataset Identifier": "fc-sni-hind_encorp",
-        "Dataset Name": "hind_encorp",
+        "Dataset Name": "fc-sni-hind_encorp",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://lindat.mff.cuni.cz/repository/xmlui/",
@@ -12814,7 +12815,7 @@
     },
     "fc-sni-hindienglish_corpora": {
         "Unique Dataset Identifier": "fc-sni-hindienglish_corpora",
-        "Dataset Name": "hindienglish_corpora",
+        "Dataset Name": "fc-sni-hindienglish_corpora",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www.kaggle.com/aiswaryaramachandran/hindienglish-corpora",
@@ -12895,7 +12896,7 @@
     },
     "fc-sni-hippocorpus": {
         "Unique Dataset Identifier": "fc-sni-hippocorpus",
-        "Dataset Name": "hippocorpus",
+        "Dataset Name": "fc-sni-hippocorpus",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://msropendata.com/datasets/0a83fb6f-a759-4a17-aaa2-fbac84577318",
@@ -12985,7 +12986,7 @@
     },
     "fc-sni-hope_edi": {
         "Unique Dataset Identifier": "fc-sni-hope_edi",
-        "Dataset Name": "hope_edi",
+        "Dataset Name": "fc-sni-hope_edi",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/hope_edi",
@@ -13071,7 +13072,7 @@
     },
     "fc-sni-hotpotqa": {
         "Unique Dataset Identifier": "fc-sni-hotpotqa",
-        "Dataset Name": "hotpotqa",
+        "Dataset Name": "fc-sni-hotpotqa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/hotpotqa/hotpot",
@@ -13162,7 +13163,7 @@
     },
     "fc-sni-human_ratings_of_natural_language_generation_outputs": {
         "Unique Dataset Identifier": "fc-sni-human_ratings_of_natural_language_generation_outputs",
-        "Dataset Name": "human_ratings_of_natural_language_generation_outputs",
+        "Dataset Name": "fc-sni-human_ratings_of_natural_language_generation_outputs",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://researchportal.hw.ac.uk/en/datasets/human-ratings-of-natural-language-generation-outputs",
@@ -13242,7 +13243,7 @@
     },
     "fc-sni-hybridqa": {
         "Unique Dataset Identifier": "fc-sni-hybridqa",
-        "Dataset Name": "hybridqa",
+        "Dataset Name": "fc-sni-hybridqa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/wenhuchen/HybridQA",
@@ -13329,7 +13330,7 @@
     },
     "fc-sni-iirc": {
         "Unique Dataset Identifier": "fc-sni-iirc",
-        "Dataset Name": "iirc",
+        "Dataset Name": "fc-sni-iirc",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://allenai.org/data/iirc",
@@ -13416,7 +13417,7 @@
     },
     "fc-sni-imdb": {
         "Unique Dataset Identifier": "fc-sni-imdb",
-        "Dataset Name": "imdb",
+        "Dataset Name": "fc-sni-imdb",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://ai.stanford.edu/~amaas/data/sentiment/",
@@ -13496,7 +13497,7 @@
     },
     "fc-sni-imppres": {
         "Unique Dataset Identifier": "fc-sni-imppres",
-        "Dataset Name": "imppres",
+        "Dataset Name": "fc-sni-imppres",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/imppres",
@@ -13584,7 +13585,7 @@
     },
     "fc-sni-indian_food_101": {
         "Unique Dataset Identifier": "fc-sni-indian_food_101",
-        "Dataset Name": "indian_food_101",
+        "Dataset Name": "fc-sni-indian_food_101",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www.kaggle.com/nehaprabhavalkar/indian-food-101",
@@ -13669,7 +13670,7 @@
     },
     "fc-sni-indicnlp": {
         "Unique Dataset Identifier": "fc-sni-indicnlp",
-        "Dataset Name": "indicnlp",
+        "Dataset Name": "fc-sni-indicnlp",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://indicnlp.ai4bharat.org/papers/arxiv2020_indicnlp_corpus.pdf",
@@ -13759,7 +13760,7 @@
     },
     "fc-sni-inquisitive": {
         "Unique Dataset Identifier": "fc-sni-inquisitive",
-        "Dataset Name": "inquisitive",
+        "Dataset Name": "fc-sni-inquisitive",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/wjko2/INQUISITIVE",
@@ -13847,7 +13848,7 @@
     },
     "fc-sni-jeopardy": {
         "Unique Dataset Identifier": "fc-sni-jeopardy",
-        "Dataset Name": "jeopardy",
+        "Dataset Name": "fc-sni-jeopardy",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/",
@@ -13930,7 +13931,7 @@
     },
     "fc-sni-jfleg": {
         "Unique Dataset Identifier": "fc-sni-jfleg",
-        "Dataset Name": "jfleg",
+        "Dataset Name": "fc-sni-jfleg",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/jfleg",
@@ -14020,7 +14021,7 @@
     },
     "fc-sni-jigsaw": {
         "Unique Dataset Identifier": "fc-sni-jigsaw",
-        "Dataset Name": "jigsaw",
+        "Dataset Name": "fc-sni-jigsaw",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification",
@@ -14105,7 +14106,7 @@
     },
     "fc-sni-jnlpba_corpus": {
         "Unique Dataset Identifier": "fc-sni-jnlpba_corpus",
-        "Dataset Name": "jnlpba_corpus",
+        "Dataset Name": "fc-sni-jnlpba_corpus",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/jnlpba",
@@ -14197,7 +14198,7 @@
     },
     "fc-sni-kde4": {
         "Unique Dataset Identifier": "fc-sni-kde4",
-        "Dataset Name": "kde4",
+        "Dataset Name": "fc-sni-kde4",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/kde4",
@@ -14290,7 +14291,7 @@
     },
     "fc-sni-leetcode": {
         "Unique Dataset Identifier": "fc-sni-leetcode",
-        "Dataset Name": "leetcode",
+        "Dataset Name": "fc-sni-leetcode",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://leetcode.com/problems/strong-password-checker/",
@@ -14370,7 +14371,7 @@
     },
     "fc-sni-liar": {
         "Unique Dataset Identifier": "fc-sni-liar",
-        "Dataset Name": "liar",
+        "Dataset Name": "fc-sni-liar",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/liar",
@@ -14452,9 +14453,9 @@
         "Human Annotation": "Yes",
         "Bibtex": "@Article{Wang2017LiarLP,\n author = {William Yang Wang},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {422-426},\n title = {“Liar, Liar Pants on Fire”: A New Benchmark Dataset for Fake News Detection},\n year = {2017}\n}\n"
     },
-    "fc-sni-librispeech_asr,": {
-        "Unique Dataset Identifier": "fc-sni-librispeech_asr,",
-        "Dataset Name": "librispeech_asr,",
+    "fc-sni-librispeech_asr": {
+        "Unique Dataset Identifier": "fc-sni-librispeech_asr",
+        "Dataset Name": "fc-sni-librispeech_asr,",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/librispeech_asr",
@@ -14536,7 +14537,7 @@
     },
     "fc-sni-limit": {
         "Unique Dataset Identifier": "fc-sni-limit",
-        "Dataset Name": "limit",
+        "Dataset Name": "fc-sni-limit",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/ilmgut/limit_dataset",
@@ -14623,7 +14624,7 @@
     },
     "fc-sni-linnaeus_corpus": {
         "Unique Dataset Identifier": "fc-sni-linnaeus_corpus",
-        "Dataset Name": "linnaeus_corpus",
+        "Dataset Name": "fc-sni-linnaeus_corpus",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/linnaeus",
@@ -14705,7 +14706,7 @@
     },
     "fc-sni-lj_speec": {
         "Unique Dataset Identifier": "fc-sni-lj_speec",
-        "Dataset Name": "lj_speec",
+        "Dataset Name": "fc-sni-lj_speec",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/lj_speech",
@@ -14800,7 +14801,7 @@
     },
     "fc-sni-logic2text": {
         "Unique Dataset Identifier": "fc-sni-logic2text",
-        "Dataset Name": "logic2text",
+        "Dataset Name": "fc-sni-logic2text",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/czyssrs/Logic2Text",
@@ -14890,7 +14891,7 @@
     },
     "fc-sni-math_qa": {
         "Unique Dataset Identifier": "fc-sni-math_qa",
-        "Dataset Name": "math_qa",
+        "Dataset Name": "fc-sni-math_qa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/math_qa",
@@ -14981,7 +14982,7 @@
     },
     "fc-sni-mathmatics_dataset": {
         "Unique Dataset Identifier": "fc-sni-mathmatics_dataset",
-        "Dataset Name": "mathmatics_dataset",
+        "Dataset Name": "fc-sni-mathmatics_dataset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/deepmind/mathematics_dataset",
@@ -15063,7 +15064,7 @@
     },
     "fc-sni-mathqa": {
         "Unique Dataset Identifier": "fc-sni-mathqa",
-        "Dataset Name": "mathqa",
+        "Dataset Name": "fc-sni-mathqa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://math-qa.github.io/math-QA/",
@@ -15153,7 +15154,7 @@
     },
     "fc-sni-matres": {
         "Unique Dataset Identifier": "fc-sni-matres",
-        "Dataset Name": "matres",
+        "Dataset Name": "fc-sni-matres",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/CogComp/MATRES",
@@ -15237,7 +15238,7 @@
     },
     "fc-sni-mcscript": {
         "Unique Dataset Identifier": "fc-sni-mcscript",
-        "Dataset Name": "mcscript",
+        "Dataset Name": "fc-sni-mcscript",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "http://www.sfb1102.uni-saarland.de/?page_id=2582",
@@ -15321,7 +15322,7 @@
     },
     "fc-sni-mctaco": {
         "Unique Dataset Identifier": "fc-sni-mctaco",
-        "Dataset Name": "mctaco",
+        "Dataset Name": "fc-sni-mctaco",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/CogComp/MCTACO",
@@ -15419,7 +15420,7 @@
     },
     "fc-sni-md_gender_bias": {
         "Unique Dataset Identifier": "fc-sni-md_gender_bias",
-        "Dataset Name": "md_gender_bias",
+        "Dataset Name": "fc-sni-md_gender_bias",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/md_gender_bias",
@@ -15513,7 +15514,7 @@
     },
     "fc-sni-medical_question_pair_dataset": {
         "Unique Dataset Identifier": "fc-sni-medical_question_pair_dataset",
-        "Dataset Name": "medical_question_pair_dataset",
+        "Dataset Name": "fc-sni-medical_question_pair_dataset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/curai/medical-question-pair-dataset",
@@ -15602,7 +15603,7 @@
     },
     "fc-sni-menyo20k_mt": {
         "Unique Dataset Identifier": "fc-sni-menyo20k_mt",
-        "Dataset Name": "menyo20k_mt",
+        "Dataset Name": "fc-sni-menyo20k_mt",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/menyo20k_mt",
@@ -15703,7 +15704,7 @@
     },
     "fc-sni-meta_woz": {
         "Unique Dataset Identifier": "fc-sni-meta_woz",
-        "Dataset Name": "meta_woz",
+        "Dataset Name": "fc-sni-meta_woz",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/meta_woz",
@@ -15785,7 +15786,7 @@
     },
     "fc-sni-miam": {
         "Unique Dataset Identifier": "fc-sni-miam",
-        "Dataset Name": "miam",
+        "Dataset Name": "fc-sni-miam",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/miam",
@@ -15885,7 +15886,7 @@
     },
     "fc-sni-missing": {
         "Unique Dataset Identifier": "fc-sni-missing",
-        "Dataset Name": "missing",
+        "Dataset Name": "fc-sni-missing",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "missing",
@@ -15967,7 +15968,7 @@
     },
     "fc-sni-mkb": {
         "Unique Dataset Identifier": "fc-sni-mkb",
-        "Dataset Name": "mkb",
+        "Dataset Name": "fc-sni-mkb",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/mkb",
@@ -16055,7 +16056,7 @@
     },
     "fc-sni-mocha": {
         "Unique Dataset Identifier": "fc-sni-mocha",
-        "Dataset Name": "mocha",
+        "Dataset Name": "fc-sni-mocha",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://arxiv.org/pdf/2010.03636.pdf",
@@ -16156,7 +16157,7 @@
     },
     "fc-sni-movie_rationales": {
         "Unique Dataset Identifier": "fc-sni-movie_rationales",
-        "Dataset Name": "movie_rationales",
+        "Dataset Name": "fc-sni-movie_rationales",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www.tensorflow.org/datasets/catalog/movie_rationales",
@@ -16265,7 +16266,7 @@
     },
     "fc-sni-mrpc": {
         "Unique Dataset Identifier": "fc-sni-mrpc",
-        "Dataset Name": "mrpc",
+        "Dataset Name": "fc-sni-mrpc",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www.microsoft.com/en-us/download/details.aspx?id=52398",
@@ -16352,7 +16353,7 @@
     },
     "fc-sni-mrqa": {
         "Unique Dataset Identifier": "fc-sni-mrqa",
-        "Dataset Name": "mrqa",
+        "Dataset Name": "fc-sni-mrqa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://arxiv.org/abs/1910.09753",
@@ -16471,7 +16472,7 @@
     },
     "fc-sni-ms_marco": {
         "Unique Dataset Identifier": "fc-sni-ms_marco",
-        "Dataset Name": "ms_marco",
+        "Dataset Name": "fc-sni-ms_marco",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://microsoft.github.io/msmarco/",
@@ -16556,7 +16557,7 @@
     },
     "fc-sni-msr_sqa": {
         "Unique Dataset Identifier": "fc-sni-msr_sqa",
-        "Dataset Name": "msr_sqa",
+        "Dataset Name": "fc-sni-msr_sqa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/msr_sqa",
@@ -16645,7 +16646,7 @@
     },
     "fc-sni-msr_text_compression": {
         "Unique Dataset Identifier": "fc-sni-msr_text_compression",
-        "Dataset Name": "msr_text_compression",
+        "Dataset Name": "fc-sni-msr_text_compression",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/msr_text_compression",
@@ -16732,7 +16733,7 @@
     },
     "fc-sni-multi_woz_v22": {
         "Unique Dataset Identifier": "fc-sni-multi_woz_v22",
-        "Dataset Name": "multi_woz_v22",
+        "Dataset Name": "fc-sni-multi_woz_v22",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/multi_woz_v22",
@@ -16818,7 +16819,7 @@
     },
     "fc-sni-multilingual_amazon_reviews": {
         "Unique Dataset Identifier": "fc-sni-multilingual_amazon_reviews",
-        "Dataset Name": "multilingual_amazon_reviews",
+        "Dataset Name": "fc-sni-multilingual_amazon_reviews",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/amazon_reviews_multi",
@@ -16905,7 +16906,7 @@
     },
     "fc-sni-multilingual_ted": {
         "Unique Dataset Identifier": "fc-sni-multilingual_ted",
-        "Dataset Name": "multilingual_ted",
+        "Dataset Name": "fc-sni-multilingual_ted",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/neulab/word-embeddings-for-nmt",
@@ -16990,7 +16991,7 @@
     },
     "fc-sni-multinli": {
         "Unique Dataset Identifier": "fc-sni-multinli",
-        "Dataset Name": "multinli",
+        "Dataset Name": "fc-sni-multinli",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://cims.nyu.edu/~sbowman/multinli/paper.pdf",
@@ -17075,7 +17076,7 @@
     },
     "fc-sni-mutual": {
         "Unique Dataset Identifier": "fc-sni-mutual",
-        "Dataset Name": "mutual",
+        "Dataset Name": "fc-sni-mutual",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://aclanthology.org/2020.acl-main.130.pdf",
@@ -17162,7 +17163,7 @@
     },
     "fc-sni-mwsc": {
         "Unique Dataset Identifier": "fc-sni-mwsc",
-        "Dataset Name": "mwsc",
+        "Dataset Name": "fc-sni-mwsc",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/mwsc",
@@ -17274,7 +17275,7 @@
     },
     "fc-sni-narrativeqa": {
         "Unique Dataset Identifier": "fc-sni-narrativeqa",
-        "Dataset Name": "narrativeqa",
+        "Dataset Name": "fc-sni-narrativeqa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/deepmind/narrativeqa",
@@ -17362,7 +17363,7 @@
     },
     "fc-sni-ncbi_disease_corpus": {
         "Unique Dataset Identifier": "fc-sni-ncbi_disease_corpus",
-        "Dataset Name": "ncbi_disease_corpus",
+        "Dataset Name": "fc-sni-ncbi_disease_corpus",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www.ncbi.nlm.nih.gov/research/bionlp/Data/disease/",
@@ -17444,7 +17445,7 @@
     },
     "fc-sni-news_commentary": {
         "Unique Dataset Identifier": "fc-sni-news_commentary",
-        "Dataset Name": "news_commentary",
+        "Dataset Name": "fc-sni-news_commentary",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/news_commentary",
@@ -17544,7 +17545,7 @@
     },
     "fc-sni-news_editorials": {
         "Unique Dataset Identifier": "fc-sni-news_editorials",
-        "Dataset Name": "news_editorials",
+        "Dataset Name": "fc-sni-news_editorials",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/webis-de/COLING-20",
@@ -17626,7 +17627,7 @@
     },
     "fc-sni-news_headlines_dataset_for_sarcasm_detection": {
         "Unique Dataset Identifier": "fc-sni-news_headlines_dataset_for_sarcasm_detection",
-        "Dataset Name": "news_headlines_dataset_for_sarcasm_detection",
+        "Dataset Name": "fc-sni-news_headlines_dataset_for_sarcasm_detection",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/rishabhmisra/News-Headlines-Dataset-For-Sarcasm-Detection",
@@ -17714,7 +17715,7 @@
     },
     "fc-sni-nlg_bias": {
         "Unique Dataset Identifier": "fc-sni-nlg_bias",
-        "Dataset Name": "nlg_bias",
+        "Dataset Name": "fc-sni-nlg_bias",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/ewsheng/nlg-bias",
@@ -17799,7 +17800,7 @@
     },
     "fc-sni-nlu_asdiv_dataset": {
         "Unique Dataset Identifier": "fc-sni-nlu_asdiv_dataset",
-        "Dataset Name": "nlu_asdiv_dataset",
+        "Dataset Name": "fc-sni-nlu_asdiv_dataset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/chaochun/nlu-asdiv-dataset",
@@ -17884,7 +17885,7 @@
     },
     "fc-sni-numeric_fused_head": {
         "Unique Dataset Identifier": "fc-sni-numeric_fused_head",
-        "Dataset Name": "numeric_fused_head",
+        "Dataset Name": "fc-sni-numeric_fused_head",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/yanaiela/num_fh",
@@ -17973,7 +17974,7 @@
     },
     "fc-sni-numersense": {
         "Unique Dataset Identifier": "fc-sni-numersense",
-        "Dataset Name": "numersense",
+        "Dataset Name": "fc-sni-numersense",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://inklab.usc.edu/NumerSense/",
@@ -18060,7 +18061,7 @@
     },
     "fc-sni-nyc": {
         "Unique Dataset Identifier": "fc-sni-nyc",
-        "Dataset Name": "nyc",
+        "Dataset Name": "fc-sni-nyc",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://nlds.soe.ucsc.edu/source-blending-NLG",
@@ -18145,7 +18146,7 @@
     },
     "fc-sni-odd_man_out": {
         "Unique Dataset Identifier": "fc-sni-odd_man_out",
-        "Dataset Name": "odd_man_out",
+        "Dataset Name": "fc-sni-odd_man_out",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/gabrielStanovsky/odd-man-out",
@@ -18223,7 +18224,7 @@
     },
     "fc-sni-offenseval_dravidian": {
         "Unique Dataset Identifier": "fc-sni-offenseval_dravidian",
-        "Dataset Name": "offenseval_dravidian",
+        "Dataset Name": "fc-sni-offenseval_dravidian",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/offenseval_dravidian",
@@ -18303,7 +18304,7 @@
     },
     "fc-sni-ohsumed": {
         "Unique Dataset Identifier": "fc-sni-ohsumed",
-        "Dataset Name": "ohsumed",
+        "Dataset Name": "fc-sni-ohsumed",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/ohsumed",
@@ -18385,7 +18386,7 @@
     },
     "fc-sni-olid": {
         "Unique Dataset Identifier": "fc-sni-olid",
-        "Dataset Name": "olid",
+        "Dataset Name": "fc-sni-olid",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://arxiv.org/abs/1902.09666",
@@ -18471,7 +18472,7 @@
     },
     "fc-sni-ollie": {
         "Unique Dataset Identifier": "fc-sni-ollie",
-        "Dataset Name": "ollie",
+        "Dataset Name": "fc-sni-ollie",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/ollie",
@@ -18561,7 +18562,7 @@
     },
     "fc-sni-open_pi": {
         "Unique Dataset Identifier": "fc-sni-open_pi",
-        "Dataset Name": "open_pi",
+        "Dataset Name": "fc-sni-open_pi",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://allenai.org/data/openpi",
@@ -18649,7 +18650,7 @@
     },
     "fc-sni-opensubtitles": {
         "Unique Dataset Identifier": "fc-sni-opensubtitles",
-        "Dataset Name": "opensubtitles",
+        "Dataset Name": "fc-sni-opensubtitles",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://opus.nlpl.eu/OpenSubtitles.php",
@@ -18738,7 +18739,7 @@
     },
     "fc-sni-opp_115": {
         "Unique Dataset Identifier": "fc-sni-opp_115",
-        "Dataset Name": "opp_115",
+        "Dataset Name": "fc-sni-opp_115",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www.usableprivacy.org/data",
@@ -18818,7 +18819,7 @@
     },
     "fc-sni-opus_100": {
         "Unique Dataset Identifier": "fc-sni-opus_100",
-        "Dataset Name": "opus_100",
+        "Dataset Name": "fc-sni-opus_100",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/EdinburghNLP/opus-100-corpus",
@@ -18910,7 +18911,7 @@
     },
     "fc-sni-opus_books": {
         "Unique Dataset Identifier": "fc-sni-opus_books",
-        "Dataset Name": "opus_books",
+        "Dataset Name": "fc-sni-opus_books",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://opus.nlpl.eu/Books.php",
@@ -18994,7 +18995,7 @@
     },
     "fc-sni-opus_paracrawl": {
         "Unique Dataset Identifier": "fc-sni-opus_paracrawl",
-        "Dataset Name": "opus_paracrawl",
+        "Dataset Name": "fc-sni-opus_paracrawl",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/opus_paracrawl",
@@ -19084,7 +19085,7 @@
     },
     "fc-sni-opus_ted_talks": {
         "Unique Dataset Identifier": "fc-sni-opus_ted_talks",
-        "Dataset Name": "opus_ted_talks",
+        "Dataset Name": "fc-sni-opus_ted_talks",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/opus_tedtalks",
@@ -19168,7 +19169,7 @@
     },
     "fc-sni-opus_xhosanavy": {
         "Unique Dataset Identifier": "fc-sni-opus_xhosanavy",
-        "Dataset Name": "opus_xhosanavy",
+        "Dataset Name": "fc-sni-opus_xhosanavy",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/opus_xhosanavy",
@@ -19260,7 +19261,7 @@
     },
     "fc-sni-overruling": {
         "Unique Dataset Identifier": "fc-sni-overruling",
-        "Dataset Name": "overruling",
+        "Dataset Name": "fc-sni-overruling",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/reglab/casehold",
@@ -19343,7 +19344,7 @@
     },
     "fc-sni-paper_reviews_data_set": {
         "Unique Dataset Identifier": "fc-sni-paper_reviews_data_set",
-        "Dataset Name": "paper_reviews_data_set",
+        "Dataset Name": "fc-sni-paper_reviews_data_set",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://archive.ics.uci.edu/ml/datasets/Paper+Reviews",
@@ -19426,7 +19427,7 @@
     },
     "fc-sni-para_nmt": {
         "Unique Dataset Identifier": "fc-sni-para_nmt",
-        "Dataset Name": "para_nmt",
+        "Dataset Name": "fc-sni-para_nmt",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www.cs.cmu.edu/~jwieting/",
@@ -19501,7 +19502,7 @@
     },
     "fc-sni-para_pat": {
         "Unique Dataset Identifier": "fc-sni-para_pat",
-        "Dataset Name": "para_pat",
+        "Dataset Name": "fc-sni-para_pat",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/para_pat",
@@ -19591,7 +19592,7 @@
     },
     "fc-sni-parsinlu": {
         "Unique Dataset Identifier": "fc-sni-parsinlu",
-        "Dataset Name": "parsinlu",
+        "Dataset Name": "fc-sni-parsinlu",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/persiannlp/parsinlu",
@@ -19723,7 +19724,7 @@
     },
     "fc-sni-pasinlu": {
         "Unique Dataset Identifier": "fc-sni-pasinlu",
-        "Dataset Name": "pasinlu",
+        "Dataset Name": "fc-sni-pasinlu",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/persiannlp/parsinlu",
@@ -19856,7 +19857,7 @@
     },
     "fc-sni-paws": {
         "Unique Dataset Identifier": "fc-sni-paws",
-        "Dataset Name": "paws",
+        "Dataset Name": "fc-sni-paws",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://arxiv.org/abs/1904.01130",
@@ -19945,7 +19946,7 @@
     },
     "fc-sni-paws_x": {
         "Unique Dataset Identifier": "fc-sni-paws_x",
-        "Dataset Name": "paws_x",
+        "Dataset Name": "fc-sni-paws_x",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/paws-x",
@@ -20034,7 +20035,7 @@
     },
     "fc-sni-pec": {
         "Unique Dataset Identifier": "fc-sni-pec",
-        "Dataset Name": "pec",
+        "Dataset Name": "fc-sni-pec",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/pec",
@@ -20124,7 +20125,7 @@
     },
     "fc-sni-peer_read": {
         "Unique Dataset Identifier": "fc-sni-peer_read",
-        "Dataset Name": "peer_read",
+        "Dataset Name": "fc-sni-peer_read",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/peer_read",
@@ -20210,7 +20211,7 @@
     },
     "fc-sni-penn_treebank": {
         "Unique Dataset Identifier": "fc-sni-penn_treebank",
-        "Dataset Name": "penn_treebank",
+        "Dataset Name": "fc-sni-penn_treebank",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://catalog.ldc.upenn.edu/LDC99T42",
@@ -20290,7 +20291,7 @@
     },
     "fc-sni-persent": {
         "Unique Dataset Identifier": "fc-sni-persent",
-        "Dataset Name": "persent",
+        "Dataset Name": "fc-sni-persent",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/MHDBST/PerSenT",
@@ -20383,7 +20384,7 @@
     },
     "fc-sni-persianqa": {
         "Unique Dataset Identifier": "fc-sni-persianqa",
-        "Dataset Name": "persianqa",
+        "Dataset Name": "fc-sni-persianqa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/sajjjadayobi/PersianQA",
@@ -20479,7 +20480,7 @@
     },
     "fc-sni-personachat": {
         "Unique Dataset Identifier": "fc-sni-personachat",
-        "Dataset Name": "personachat",
+        "Dataset Name": "fc-sni-personachat",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/bavard/personachat_truecased",
@@ -20567,7 +20568,7 @@
     },
     "fc-sni-perspectrum": {
         "Unique Dataset Identifier": "fc-sni-perspectrum",
-        "Dataset Name": "perspectrum",
+        "Dataset Name": "fc-sni-perspectrum",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/CogComp/perspectrum/",
@@ -20657,7 +20658,7 @@
     },
     "fc-sni-pib": {
         "Unique Dataset Identifier": "fc-sni-pib",
-        "Dataset Name": "pib",
+        "Dataset Name": "fc-sni-pib",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/pib",
@@ -20746,7 +20747,7 @@
     },
     "fc-sni-pico": {
         "Unique Dataset Identifier": "fc-sni-pico",
-        "Dataset Name": "pico",
+        "Dataset Name": "fc-sni-pico",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/Markus-Zlabinger/pico-annotation",
@@ -20836,7 +20837,7 @@
     },
     "fc-sni-poem_sentiment": {
         "Unique Dataset Identifier": "fc-sni-poem_sentiment",
-        "Dataset Name": "poem_sentiment",
+        "Dataset Name": "fc-sni-poem_sentiment",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/poem_sentiment",
@@ -20925,7 +20926,7 @@
     },
     "fc-sni-points_of_correspondence": {
         "Unique Dataset Identifier": "fc-sni-points_of_correspondence",
-        "Dataset Name": "points_of_correspondence",
+        "Dataset Name": "fc-sni-points_of_correspondence",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/ucfnlp/points-of-correspondence",
@@ -21014,7 +21015,7 @@
     },
     "fc-sni-poki": {
         "Unique Dataset Identifier": "fc-sni-poki",
-        "Dataset Name": "poki",
+        "Dataset Name": "fc-sni-poki",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/whipson/PoKi-Poems-by-Kids",
@@ -21100,7 +21101,7 @@
     },
     "fc-sni-poleval2019_mt": {
         "Unique Dataset Identifier": "fc-sni-poleval2019_mt",
-        "Dataset Name": "poleval2019_mt",
+        "Dataset Name": "fc-sni-poleval2019_mt",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/poleval2019_mt",
@@ -21181,7 +21182,7 @@
     },
     "fc-sni-prepositional_paraprasing": {
         "Unique Dataset Identifier": "fc-sni-prepositional_paraprasing",
-        "Dataset Name": "prepositional_paraprasing",
+        "Dataset Name": "fc-sni-prepositional_paraprasing",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www.cse.iitb.ac.in/~girishp/nc-dataset/",
@@ -21267,7 +21268,7 @@
     },
     "fc-sni-propara": {
         "Unique Dataset Identifier": "fc-sni-propara",
-        "Dataset Name": "propara",
+        "Dataset Name": "fc-sni-propara",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://arxiv.org/abs/1805.06975",
@@ -21352,7 +21353,7 @@
     },
     "fc-sni-prost": {
         "Unique Dataset Identifier": "fc-sni-prost",
-        "Dataset Name": "prost",
+        "Dataset Name": "fc-sni-prost",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/corypaik/prost",
@@ -21436,7 +21437,7 @@
     },
     "fc-sni-proto_qa": {
         "Unique Dataset Identifier": "fc-sni-proto_qa",
-        "Dataset Name": "proto_qa",
+        "Dataset Name": "fc-sni-proto_qa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/proto_qa",
@@ -21523,7 +21524,7 @@
     },
     "fc-sni-pubmed_qa": {
         "Unique Dataset Identifier": "fc-sni-pubmed_qa",
-        "Dataset Name": "pubmed_qa",
+        "Dataset Name": "fc-sni-pubmed_qa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/pubmed_qa",
@@ -21612,7 +21613,7 @@
     },
     "fc-sni-qa_srl": {
         "Unique Dataset Identifier": "fc-sni-qa_srl",
-        "Dataset Name": "qa_srl",
+        "Dataset Name": "fc-sni-qa_srl",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/huggingface/datasets/tree/master/datasets/qa_srl",
@@ -21712,7 +21713,7 @@
     },
     "fc-sni-qanta": {
         "Unique Dataset Identifier": "fc-sni-qanta",
-        "Dataset Name": "qanta",
+        "Dataset Name": "fc-sni-qanta",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://people.cs.umass.edu/~miyyer/qblearn/index.html",
@@ -21802,7 +21803,7 @@
     },
     "fc-sni-qasc": {
         "Unique Dataset Identifier": "fc-sni-qasc",
-        "Dataset Name": "qasc",
+        "Dataset Name": "fc-sni-qasc",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://allenai.org/data/qasc",
@@ -21891,7 +21892,7 @@
     },
     "fc-sni-qasper": {
         "Unique Dataset Identifier": "fc-sni-qasper",
-        "Dataset Name": "qasper",
+        "Dataset Name": "fc-sni-qasper",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://allenai.org/project/qasper/home",
@@ -21978,7 +21979,7 @@
     },
     "fc-sni-qed": {
         "Unique Dataset Identifier": "fc-sni-qed",
-        "Dataset Name": "qed",
+        "Dataset Name": "fc-sni-qed",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/google-research-datasets/QED",
@@ -22068,7 +22069,7 @@
     },
     "fc-sni-qed_amara": {
         "Unique Dataset Identifier": "fc-sni-qed_amara",
-        "Dataset Name": "qed_amara",
+        "Dataset Name": "fc-sni-qed_amara",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/qed_amara",
@@ -22156,7 +22157,7 @@
     },
     "fc-sni-qqp": {
         "Unique Dataset Identifier": "fc-sni-qqp",
-        "Dataset Name": "qqp",
+        "Dataset Name": "fc-sni-qqp",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://gluebenchmark.com/",
@@ -22239,7 +22240,7 @@
     },
     "fc-sni-quail": {
         "Unique Dataset Identifier": "fc-sni-quail",
-        "Dataset Name": "quail",
+        "Dataset Name": "fc-sni-quail",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/quail",
@@ -22321,7 +22322,7 @@
     },
     "fc-sni-quarel": {
         "Unique Dataset Identifier": "fc-sni-quarel",
-        "Dataset Name": "quarel",
+        "Dataset Name": "fc-sni-quarel",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://allenai.org/data/quarel",
@@ -22406,7 +22407,7 @@
     },
     "fc-sni-quartz": {
         "Unique Dataset Identifier": "fc-sni-quartz",
-        "Dataset Name": "quartz",
+        "Dataset Name": "fc-sni-quartz",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://allenai.org/data/quartz",
@@ -22493,7 +22494,7 @@
     },
     "fc-sni-question_&_answer_zre": {
         "Unique Dataset Identifier": "fc-sni-question_&_answer_zre",
-        "Dataset Name": "question_&_answer_zre",
+        "Dataset Name": "fc-sni-question_&_answer_zre",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "http://nlp.cs.washington.edu/zeroshot/",
@@ -22583,7 +22584,7 @@
     },
     "fc-sni-quoref": {
         "Unique Dataset Identifier": "fc-sni-quoref",
-        "Dataset Name": "quoref",
+        "Dataset Name": "fc-sni-quoref",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://paperswithcode.com/dataset/quoref",
@@ -22669,7 +22670,7 @@
     },
     "fc-sni-race": {
         "Unique Dataset Identifier": "fc-sni-race",
-        "Dataset Name": "race",
+        "Dataset Name": "fc-sni-race",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www.cs.cmu.edu/~glai1/data/race/#:~:text=notes",
@@ -22754,7 +22755,7 @@
     },
     "fc-sni-recipe_nlg": {
         "Unique Dataset Identifier": "fc-sni-recipe_nlg",
-        "Dataset Name": "recipe_nlg",
+        "Dataset Name": "fc-sni-recipe_nlg",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/recipe_nlg",
@@ -22841,7 +22842,7 @@
     },
     "fc-sni-reddit_tifu_dataset": {
         "Unique Dataset Identifier": "fc-sni-reddit_tifu_dataset",
-        "Dataset Name": "reddit_tifu_dataset",
+        "Dataset Name": "fc-sni-reddit_tifu_dataset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://aclanthology.org/N19-1260.pdf",
@@ -22926,7 +22927,7 @@
     },
     "fc-sni-refresd": {
         "Unique Dataset Identifier": "fc-sni-refresd",
-        "Dataset Name": "refresd",
+        "Dataset Name": "fc-sni-refresd",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://raw.githubusercontent.com/Elbria/xling-SemDiv/master/REFreSD/REFreSD_rationale",
@@ -23024,7 +23025,7 @@
     },
     "fc-sni-ro_sts_parallel": {
         "Unique Dataset Identifier": "fc-sni-ro_sts_parallel",
-        "Dataset Name": "ro_sts_parallel",
+        "Dataset Name": "fc-sni-ro_sts_parallel",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/ro_sts_parallel",
@@ -23108,7 +23109,7 @@
     },
     "fc-sni-roc_stories": {
         "Unique Dataset Identifier": "fc-sni-roc_stories",
-        "Dataset Name": "roc_stories",
+        "Dataset Name": "fc-sni-roc_stories",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://cs.rochester.edu/nlp/rocstories/",
@@ -23188,7 +23189,7 @@
     },
     "fc-sni-rocstories": {
         "Unique Dataset Identifier": "fc-sni-rocstories",
-        "Dataset Name": "rocstories",
+        "Dataset Name": "fc-sni-rocstories",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://arxiv.org/pdf/1604.01696.pdf",
@@ -23274,7 +23275,7 @@
     },
     "fc-sni-root09": {
         "Unique Dataset Identifier": "fc-sni-root09",
-        "Dataset Name": "root09",
+        "Dataset Name": "fc-sni-root09",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://arxiv.org/abs/1603.08702",
@@ -23359,7 +23360,7 @@
     },
     "fc-sni-ropes": {
         "Unique Dataset Identifier": "fc-sni-ropes",
-        "Dataset Name": "ropes",
+        "Dataset Name": "fc-sni-ropes",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://paperswithcode.com/dataset/ropes",
@@ -23445,7 +23446,7 @@
     },
     "fc-sni-rotten_tomatoe": {
         "Unique Dataset Identifier": "fc-sni-rotten_tomatoe",
-        "Dataset Name": "rotten_tomatoe",
+        "Dataset Name": "fc-sni-rotten_tomatoe",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/rotten_tomatoes",
@@ -23533,7 +23534,7 @@
     },
     "fc-sni-rtgender": {
         "Unique Dataset Identifier": "fc-sni-rtgender",
-        "Dataset Name": "rtgender",
+        "Dataset Name": "fc-sni-rtgender",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/peixian/rtGender",
@@ -23605,7 +23606,7 @@
     },
     "fc-sni-ruletaker": {
         "Unique Dataset Identifier": "fc-sni-ruletaker",
-        "Dataset Name": "ruletaker",
+        "Dataset Name": "fc-sni-ruletaker",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://allenai.org/data/ruletaker",
@@ -23691,7 +23692,7 @@
     },
     "fc-sni-sarcasm_in_twitter": {
         "Unique Dataset Identifier": "fc-sni-sarcasm_in_twitter",
-        "Dataset Name": "sarcasm_in_twitter",
+        "Dataset Name": "fc-sni-sarcasm_in_twitter",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www.kaggle.com/c/gse002",
@@ -23775,7 +23776,7 @@
     },
     "fc-sni-sbic": {
         "Unique Dataset Identifier": "fc-sni-sbic",
-        "Dataset Name": "sbic",
+        "Dataset Name": "fc-sni-sbic",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/social_bias_frames",
@@ -23866,7 +23867,7 @@
     },
     "fc-sni-scan": {
         "Unique Dataset Identifier": "fc-sni-scan",
-        "Dataset Name": "scan",
+        "Dataset Name": "fc-sni-scan",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/brendenlake/SCAN",
@@ -23953,7 +23954,7 @@
     },
     "fc-sni-schema_guided_dstc8": {
         "Unique Dataset Identifier": "fc-sni-schema_guided_dstc8",
-        "Dataset Name": "schema_guided_dstc8",
+        "Dataset Name": "fc-sni-schema_guided_dstc8",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/schema_guided_dstc8",
@@ -24036,7 +24037,7 @@
     },
     "fc-sni-scifact": {
         "Unique Dataset Identifier": "fc-sni-scifact",
-        "Dataset Name": "scifact",
+        "Dataset Name": "fc-sni-scifact",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/scifact",
@@ -24123,7 +24124,7 @@
     },
     "fc-sni-sciq": {
         "Unique Dataset Identifier": "fc-sni-sciq",
-        "Dataset Name": "sciq",
+        "Dataset Name": "fc-sni-sciq",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/sciq",
@@ -24212,7 +24213,7 @@
     },
     "fc-sni-scitail": {
         "Unique Dataset Identifier": "fc-sni-scitail",
-        "Dataset Name": "scitail",
+        "Dataset Name": "fc-sni-scitail",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "http://data.allenai.org.s3.amazonaws.com/downloads/SciTailV1.1.zip",
@@ -24298,7 +24299,7 @@
     },
     "fc-sni-scitailv1.1": {
         "Unique Dataset Identifier": "fc-sni-scitailv1.1",
-        "Dataset Name": "scitailv1.1",
+        "Dataset Name": "fc-sni-scitailv1.1",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "http://data.allenai.org/scitail",
@@ -24374,7 +24375,7 @@
     },
     "fc-sni-scitldr": {
         "Unique Dataset Identifier": "fc-sni-scitldr",
-        "Dataset Name": "scitldr",
+        "Dataset Name": "fc-sni-scitldr",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/allenai/scitldr",
@@ -24460,7 +24461,7 @@
     },
     "fc-sni-scruples": {
         "Unique Dataset Identifier": "fc-sni-scruples",
-        "Dataset Name": "scruples",
+        "Dataset Name": "fc-sni-scruples",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://allenai.org/data/scruples",
@@ -24542,7 +24543,7 @@
     },
     "fc-sni-semantic_parser_localizer": {
         "Unique Dataset Identifier": "fc-sni-semantic_parser_localizer",
-        "Dataset Name": "semantic_parser_localizer",
+        "Dataset Name": "fc-sni-semantic_parser_localizer",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/stanford-oval/SPL",
@@ -24632,7 +24633,7 @@
     },
     "fc-sni-semeval_2018_task1": {
         "Unique Dataset Identifier": "fc-sni-semeval_2018_task1",
-        "Dataset Name": "semeval_2018_task1",
+        "Dataset Name": "fc-sni-semeval_2018_task1",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://aclanthology.org/S18-1001/",
@@ -24722,7 +24723,7 @@
     },
     "fc-sni-semeval_2018_task3": {
         "Unique Dataset Identifier": "fc-sni-semeval_2018_task3",
-        "Dataset Name": "semeval_2018_task3",
+        "Dataset Name": "fc-sni-semeval_2018_task3",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://aclanthology.org/S18-1005.pdf",
@@ -24813,7 +24814,7 @@
     },
     "fc-sni-semeval_2019_task_10": {
         "Unique Dataset Identifier": "fc-sni-semeval_2019_task_10",
-        "Dataset Name": "semeval_2019_task_10",
+        "Dataset Name": "fc-sni-semeval_2019_task_10",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://aclanthology.org/S19-2153.pdf",
@@ -24896,7 +24897,7 @@
     },
     "fc-sni-semeval_2020_task_7": {
         "Unique Dataset Identifier": "fc-sni-semeval_2020_task_7",
-        "Dataset Name": "semeval_2020_task_7",
+        "Dataset Name": "fc-sni-semeval_2020_task_7",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www.cs.rochester.edu/u/nhossain/humicroedit.html",
@@ -24984,7 +24985,7 @@
     },
     "fc-sni-semeval_2020_task4": {
         "Unique Dataset Identifier": "fc-sni-semeval_2020_task4",
-        "Dataset Name": "semeval_2020_task4",
+        "Dataset Name": "fc-sni-semeval_2020_task4",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://arxiv.org/abs/2007.00236",
@@ -25074,7 +25075,7 @@
     },
     "fc-sni-sentence_compression": {
         "Unique Dataset Identifier": "fc-sni-sentence_compression",
-        "Dataset Name": "sentence_compression",
+        "Dataset Name": "fc-sni-sentence_compression",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/google-research-datasets/sentence-compression",
@@ -25158,7 +25159,7 @@
     },
     "fc-sni-senteval": {
         "Unique Dataset Identifier": "fc-sni-senteval",
-        "Dataset Name": "senteval",
+        "Dataset Name": "fc-sni-senteval",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/facebookresearch/SentEval/tree/main/data/probing",
@@ -25258,7 +25259,7 @@
     },
     "fc-sni-sherliic": {
         "Unique Dataset Identifier": "fc-sni-sherliic",
-        "Dataset Name": "sherliic",
+        "Dataset Name": "fc-sni-sherliic",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "http://cistern.cis.lmu.de/SherLIiC/",
@@ -25350,7 +25351,7 @@
     },
     "fc-sni-sick": {
         "Unique Dataset Identifier": "fc-sni-sick",
-        "Dataset Name": "sick",
+        "Dataset Name": "fc-sni-sick",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/sick",
@@ -25441,7 +25442,7 @@
     },
     "fc-sni-smcalflow": {
         "Unique Dataset Identifier": "fc-sni-smcalflow",
-        "Dataset Name": "smcalflow",
+        "Dataset Name": "fc-sni-smcalflow",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www.mitpressjournals.org/doi/pdf/10.1162/tacl_a_00333",
@@ -25527,7 +25528,7 @@
     },
     "fc-sni-sms_spam_collection_v.1": {
         "Unique Dataset Identifier": "fc-sni-sms_spam_collection_v.1",
-        "Dataset Name": "sms_spam_collection_v.1",
+        "Dataset Name": "fc-sni-sms_spam_collection_v.1",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www.dt.fee.unicamp.br/~tiago/smsspamcollection/",
@@ -25607,7 +25608,7 @@
     },
     "fc-sni-social_iqa": {
         "Unique Dataset Identifier": "fc-sni-social_iqa",
-        "Dataset Name": "social_iqa",
+        "Dataset Name": "fc-sni-social_iqa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://leaderboard.allenai.org/socialiqa/submissions/get-started",
@@ -25693,7 +25694,7 @@
     },
     "fc-sni-splash": {
         "Unique Dataset Identifier": "fc-sni-splash",
-        "Dataset Name": "splash",
+        "Dataset Name": "fc-sni-splash",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://arxiv.org/pdf/2005.02539.pdf",
@@ -25778,7 +25779,7 @@
     },
     "fc-sni-spolin": {
         "Unique Dataset Identifier": "fc-sni-spolin",
-        "Dataset Name": "spolin",
+        "Dataset Name": "fc-sni-spolin",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://justin-cho.com/spolin",
@@ -25862,7 +25863,7 @@
     },
     "fc-sni-sqac": {
         "Unique Dataset Identifier": "fc-sni-sqac",
-        "Dataset Name": "sqac",
+        "Dataset Name": "fc-sni-sqac",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/BSC-TeMU/SQAC",
@@ -25962,7 +25963,7 @@
     },
     "fc-sni-squad_1.1": {
         "Unique Dataset Identifier": "fc-sni-squad_1.1",
-        "Dataset Name": "squad_1.1",
+        "Dataset Name": "fc-sni-squad_1.1",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://rajpurkar.github.io/SQuAD-explorer/",
@@ -26038,7 +26039,7 @@
     },
     "fc-sni-squad2.0": {
         "Unique Dataset Identifier": "fc-sni-squad2.0",
-        "Dataset Name": "squad2.0",
+        "Dataset Name": "fc-sni-squad2.0",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://arxiv.org/pdf/1806.03822.pdf",
@@ -26114,7 +26115,7 @@
     },
     "fc-sni-starcon": {
         "Unique Dataset Identifier": "fc-sni-starcon",
-        "Dataset Name": "starcon",
+        "Dataset Name": "fc-sni-starcon",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://aclanthology.org/2020.emnlp-main.4/",
@@ -26198,7 +26199,7 @@
     },
     "fc-sni-stereoset": {
         "Unique Dataset Identifier": "fc-sni-stereoset",
-        "Dataset Name": "stereoset",
+        "Dataset Name": "fc-sni-stereoset",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://stereoset.mit.edu",
@@ -26286,7 +26287,7 @@
     },
     "fc-sni-storycommonsense": {
         "Unique Dataset Identifier": "fc-sni-storycommonsense",
-        "Dataset Name": "storycommonsense",
+        "Dataset Name": "fc-sni-storycommonsense",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://uwnlp.github.io/storycommonsense/",
@@ -26374,7 +26375,7 @@
     },
     "fc-sni-strategyqa": {
         "Unique Dataset Identifier": "fc-sni-strategyqa",
-        "Dataset Name": "strategyqa",
+        "Dataset Name": "fc-sni-strategyqa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/eladsegal/strategyqa",
@@ -26465,7 +26466,7 @@
     },
     "fc-sni-sts_b": {
         "Unique Dataset Identifier": "fc-sni-sts_b",
-        "Dataset Name": "sts_b",
+        "Dataset Name": "fc-sni-sts_b",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://dl.fbaipublicfiles.com/glue/data/STS-B.zip",
@@ -26547,7 +26548,7 @@
     },
     "fc-sni-subjqa": {
         "Unique Dataset Identifier": "fc-sni-subjqa",
-        "Dataset Name": "subjqa",
+        "Dataset Name": "fc-sni-subjqa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/megagonlabs/SubjQA",
@@ -26639,7 +26640,7 @@
     },
     "fc-sni-svamp": {
         "Unique Dataset Identifier": "fc-sni-svamp",
-        "Dataset Name": "svamp",
+        "Dataset Name": "fc-sni-svamp",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/arkilpatel/SVAMP",
@@ -26726,7 +26727,7 @@
     },
     "fc-sni-swag": {
         "Unique Dataset Identifier": "fc-sni-swag",
-        "Dataset Name": "swag",
+        "Dataset Name": "fc-sni-swag",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/rowanz/swagaf/tree/master/data",
@@ -26825,7 +26826,7 @@
     },
     "fc-sni-tecla": {
         "Unique Dataset Identifier": "fc-sni-tecla",
-        "Dataset Name": "tecla",
+        "Dataset Name": "fc-sni-tecla",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/BSC-TeMU/tecla",
@@ -26917,7 +26918,7 @@
     },
     "fc-sni-tellmewhy": {
         "Unique Dataset Identifier": "fc-sni-tellmewhy",
-        "Dataset Name": "tellmewhy",
+        "Dataset Name": "fc-sni-tellmewhy",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/StonyBrookNLP/tellmewhy",
@@ -27003,7 +27004,7 @@
     },
     "fc-sni-timetravel": {
         "Unique Dataset Identifier": "fc-sni-timetravel",
-        "Dataset Name": "timetravel",
+        "Dataset Name": "fc-sni-timetravel",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/qkaren/Counterfactual-StoryRW",
@@ -27091,7 +27092,7 @@
     },
     "fc-sni-tom_qa": {
         "Unique Dataset Identifier": "fc-sni-tom_qa",
-        "Dataset Name": "tom_qa",
+        "Dataset Name": "fc-sni-tom_qa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/kayburns/tom-qa-dataset",
@@ -27180,7 +27181,7 @@
     },
     "fc-sni-torque": {
         "Unique Dataset Identifier": "fc-sni-torque",
-        "Dataset Name": "torque",
+        "Dataset Name": "fc-sni-torque",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://allennlp.org/torque.html",
@@ -27279,7 +27280,7 @@
     },
     "fc-sni-trianglecopa": {
         "Unique Dataset Identifier": "fc-sni-trianglecopa",
-        "Dataset Name": "trianglecopa",
+        "Dataset Name": "fc-sni-trianglecopa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/asgordon/TriangleCOPA",
@@ -27359,7 +27360,7 @@
     },
     "fc-sni-triviaqa": {
         "Unique Dataset Identifier": "fc-sni-triviaqa",
-        "Dataset Name": "triviaqa",
+        "Dataset Name": "fc-sni-triviaqa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://arxiv.org/abs/1705.03551",
@@ -27446,7 +27447,7 @@
     },
     "fc-sni-turk": {
         "Unique Dataset Identifier": "fc-sni-turk",
-        "Dataset Name": "turk",
+        "Dataset Name": "fc-sni-turk",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/turk",
@@ -27535,7 +27536,7 @@
     },
     "fc-sni-tweetqa": {
         "Unique Dataset Identifier": "fc-sni-tweetqa",
-        "Dataset Name": "tweetqa",
+        "Dataset Name": "fc-sni-tweetqa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://tweetqa.github.io/",
@@ -27622,7 +27623,7 @@
     },
     "fc-sni-universal_dependencies___english_dependency_treebank": {
         "Unique Dataset Identifier": "fc-sni-universal_dependencies___english_dependency_treebank",
-        "Dataset Name": "universal_dependencies___english_dependency_treebank",
+        "Dataset Name": "fc-sni-universal_dependencies___english_dependency_treebank",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/UniversalDependencies/UD_English-EWT",
@@ -27703,7 +27704,7 @@
     },
     "fc-sni-viquiquad": {
         "Unique Dataset Identifier": "fc-sni-viquiquad",
-        "Dataset Name": "viquiquad",
+        "Dataset Name": "fc-sni-viquiquad",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/BSC-TeMU/viquiquad",
@@ -27794,7 +27795,7 @@
     },
     "fc-sni-web_nlg": {
         "Unique Dataset Identifier": "fc-sni-web_nlg",
-        "Dataset Name": "web_nlg",
+        "Dataset Name": "fc-sni-web_nlg",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/web_nlg",
@@ -27881,7 +27882,7 @@
     },
     "fc-sni-web_questions": {
         "Unique Dataset Identifier": "fc-sni-web_questions",
-        "Dataset Name": "web_questions",
+        "Dataset Name": "fc-sni-web_questions",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://nlp.stanford.edu/software/sempre/",
@@ -27965,7 +27966,7 @@
     },
     "fc-sni-wiki_auto": {
         "Unique Dataset Identifier": "fc-sni-wiki_auto",
-        "Dataset Name": "wiki_auto",
+        "Dataset Name": "fc-sni-wiki_auto",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/chaojiang06/wiki-auto",
@@ -28057,7 +28058,7 @@
     },
     "fc-sni-wiki_auto_all_data": {
         "Unique Dataset Identifier": "fc-sni-wiki_auto_all_data",
-        "Dataset Name": "wiki_auto_all_data",
+        "Dataset Name": "fc-sni-wiki_auto_all_data",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www.dropbox.com/sh/ohqaw41v48c7e5p/aadb6_qwcwghvscqg121ck9ma?dl=0",
@@ -28143,7 +28144,7 @@
     },
     "fc-sni-wiki_hop": {
         "Unique Dataset Identifier": "fc-sni-wiki_hop",
-        "Dataset Name": "wiki_hop",
+        "Dataset Name": "fc-sni-wiki_hop",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://paperswithcode.com/dataset/wikihop",
@@ -28231,7 +28232,7 @@
     },
     "fc-sni-wiki_movies": {
         "Unique Dataset Identifier": "fc-sni-wiki_movies",
-        "Dataset Name": "wiki_movies",
+        "Dataset Name": "fc-sni-wiki_movies",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/wiki_movies",
@@ -28321,7 +28322,7 @@
     },
     "fc-sni-wiki_qa": {
         "Unique Dataset Identifier": "fc-sni-wiki_qa",
-        "Dataset Name": "wiki_qa",
+        "Dataset Name": "fc-sni-wiki_qa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/wiki_qa",
@@ -28408,7 +28409,7 @@
     },
     "fc-sni-wikitext": {
         "Unique Dataset Identifier": "fc-sni-wikitext",
-        "Dataset Name": "wikitext",
+        "Dataset Name": "fc-sni-wikitext",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://blog.salesforceairesearch.com/the-wikitext-long-term-dependency-language-modeling-dataset/",
@@ -28484,7 +28485,7 @@
     },
     "fc-sni-wino_bias": {
         "Unique Dataset Identifier": "fc-sni-wino_bias",
-        "Dataset Name": "wino_bias",
+        "Dataset Name": "fc-sni-wino_bias",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/viewer/?dataset=wino_bias",
@@ -28572,7 +28573,7 @@
     },
     "fc-sni-winograd_wsc": {
         "Unique Dataset Identifier": "fc-sni-winograd_wsc",
-        "Dataset Name": "winograd_wsc",
+        "Dataset Name": "fc-sni-winograd_wsc",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/winograd_wsc",
@@ -28655,7 +28656,7 @@
     },
     "fc-sni-winomt": {
         "Unique Dataset Identifier": "fc-sni-winomt",
-        "Dataset Name": "winomt",
+        "Dataset Name": "fc-sni-winomt",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/gabrielStanovsky/mt_gender",
@@ -28743,7 +28744,7 @@
     },
     "fc-sni-winowhy": {
         "Unique Dataset Identifier": "fc-sni-winowhy",
-        "Dataset Name": "winowhy",
+        "Dataset Name": "fc-sni-winowhy",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/HKUST-KnowComp/WinoWhy",
@@ -28830,7 +28831,7 @@
     },
     "fc-sni-wiqa": {
         "Unique Dataset Identifier": "fc-sni-wiqa",
-        "Dataset Name": "wiqa",
+        "Dataset Name": "fc-sni-wiqa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://allenai.org/data/wiqa",
@@ -28914,7 +28915,7 @@
     },
     "fc-sni-wordnet": {
         "Unique Dataset Identifier": "fc-sni-wordnet",
-        "Dataset Name": "wordnet",
+        "Dataset Name": "fc-sni-wordnet",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://wordnet.princeton.edu/",
@@ -28996,7 +28997,7 @@
     },
     "fc-sni-wsc_fiexed": {
         "Unique Dataset Identifier": "fc-sni-wsc_fiexed",
-        "Dataset Name": "wsc_fiexed",
+        "Dataset Name": "fc-sni-wsc_fiexed",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/super_glue",
@@ -29076,7 +29077,7 @@
     },
     "fc-sni-wsc; enhanced_wsc": {
         "Unique Dataset Identifier": "fc-sni-wsc; enhanced_wsc",
-        "Dataset Name": "wsc; enhanced_wsc",
+        "Dataset Name": "fc-sni-wsc; enhanced_wsc",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/winograd_wsc; https://github.com/mhany90/perturbed-wsc",
@@ -29158,7 +29159,7 @@
     },
     "fc-sni-x_csr": {
         "Unique Dataset Identifier": "fc-sni-x_csr",
-        "Dataset Name": "x_csr",
+        "Dataset Name": "fc-sni-x_csr",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://inklab.usc.edu/XCSR/xcsr_datasets",
@@ -29251,7 +29252,7 @@
     },
     "fc-sni-xcopa": {
         "Unique Dataset Identifier": "fc-sni-xcopa",
-        "Dataset Name": "xcopa",
+        "Dataset Name": "fc-sni-xcopa",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/cambridgeltl/xcopa",
@@ -29340,7 +29341,7 @@
     },
     "fc-sni-xcsr": {
         "Unique Dataset Identifier": "fc-sni-xcsr",
-        "Dataset Name": "xcsr",
+        "Dataset Name": "fc-sni-xcsr",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://inklab.usc.edu/XCSR/",
@@ -29434,7 +29435,7 @@
     },
     "fc-sni-xl_wic": {
         "Unique Dataset Identifier": "fc-sni-xl_wic",
-        "Dataset Name": "xl_wic",
+        "Dataset Name": "fc-sni-xl_wic",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/pasinit/xlwic",
@@ -29523,7 +29524,7 @@
     },
     "fc-sni-xlsum": {
         "Unique Dataset Identifier": "fc-sni-xlsum",
-        "Dataset Name": "xlsum",
+        "Dataset Name": "fc-sni-xlsum",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://arxiv.org/abs/2106.13822",
@@ -29611,7 +29612,7 @@
     },
     "fc-sni-xquad": {
         "Unique Dataset Identifier": "fc-sni-xquad",
-        "Dataset Name": "xquad",
+        "Dataset Name": "fc-sni-xquad",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/viewer/?dataset=xquad",
@@ -29699,7 +29700,7 @@
     },
     "fc-sni-yahoo_answers_topics": {
         "Unique Dataset Identifier": "fc-sni-yahoo_answers_topics",
-        "Dataset Name": "yahoo_answers_topics",
+        "Dataset Name": "fc-sni-yahoo_answers_topics",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/yahoo_answers_topics",
@@ -29788,7 +29789,7 @@
     },
     "fc-sni-yelp_polarity": {
         "Unique Dataset Identifier": "fc-sni-yelp_polarity",
-        "Dataset Name": "yelp_polarity",
+        "Dataset Name": "fc-sni-yelp_polarity",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://proceedings.neurips.cc/paper/2015/file/250cf8b51c773f3f8dc8b4be867a9a02-Paper.pdf",
@@ -29880,7 +29881,7 @@
     },
     "fc-sni-yelp_restaurant_review": {
         "Unique Dataset Identifier": "fc-sni-yelp_restaurant_review",
-        "Dataset Name": "yelp_restaurant_review",
+        "Dataset Name": "fc-sni-yelp_restaurant_review",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www.yelp.com/dataset",
@@ -29964,7 +29965,7 @@
     },
     "fc-sni-yelp_review_full": {
         "Unique Dataset Identifier": "fc-sni-yelp_review_full",
-        "Dataset Name": "yelp_review_full",
+        "Dataset Name": "fc-sni-yelp_review_full",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://www.yelp.com/dataset",
@@ -30057,7 +30058,7 @@
     },
     "fc-sni-yoruba_bbc_topics": {
         "Unique Dataset Identifier": "fc-sni-yoruba_bbc_topics",
-        "Dataset Name": "yoruba_bbc_topics",
+        "Dataset Name": "fc-sni-yoruba_bbc_topics",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/yoruba_bbc_topics",
@@ -30152,7 +30153,7 @@
     },
     "fc-sni-youtube_caption_corrections": {
         "Unique Dataset Identifier": "fc-sni-youtube_caption_corrections",
-        "Dataset Name": "youtube_caption_corrections",
+        "Dataset Name": "fc-sni-youtube_caption_corrections",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://huggingface.co/datasets/youtube_caption_corrections",
@@ -30236,7 +30237,7 @@
     },
     "fc-sni-zest": {
         "Unique Dataset Identifier": "fc-sni-zest",
-        "Dataset Name": "zest",
+        "Dataset Name": "fc-sni-zest",
         "Collection": "Flan Collection (Super-NaturalInstructions)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
         "Dataset URL": "https://github.com/allenai/zest",
