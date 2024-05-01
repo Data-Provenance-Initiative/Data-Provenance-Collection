@@ -4,13 +4,13 @@ import os
 from collections import Counter
 import argparse
 import pandas as pd
-from helpers import io
-import constants
+
 # from constants import read_all_constants
 from collection_mapper import COLLECTION_FN_MAPPER
 from downloader import Downloader
 # from downloaders import pool_filter
 from download_and_filter import get_collection_to_uid_and_filter_ids
+from helpers import io, constants
 
 
 ATTRIBUTE_MAPPER = {
@@ -48,7 +48,7 @@ def test_collection_summary(
     error_handler,
 ):
     """Tests the collection's data summary entries are valid."""
-    CONSTANTS = io.read_all_constants()
+    CONSTANTS = io.read_all_constants("constants/")
 
     # All acceptable licenses
     all_licenses = set(list(CONSTANTS["LICENSE_CLASSES"].keys()) + ["Custom"])
