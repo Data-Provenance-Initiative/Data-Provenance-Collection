@@ -381,8 +381,8 @@
         "Classification",
         "Comparative Analysis of Cultural Features",
         "Comparative Sentence Classification",
-        "Constructive Speech Detection",
         "Complaint Detection",
+        "Constructive Speech Detection",
         "Coreference Resolution",
         "Critical Analysis of Traditional Chinese Culture",
         "Date Prediction",
@@ -430,7 +430,8 @@
         "Token Classification"
     ],
     "Translation": [
+        "Name Romanization",
         "Inverted Translation",
-        "Translation", "Name Romanization"
+        "Translation"
     ]
 }
