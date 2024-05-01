@@ -6,12 +6,14 @@ import subprocess
 import yaml
 import json
 import jsonlines
-import constants
 from ast import literal_eval
 import pandas as pd
 import typing
 from collections import defaultdict
 from semanticscholar import SemanticScholar
+
+# import src.helpers.constants as constants
+from . import constants
 
 
 #############################################################################
@@ -106,16 +108,17 @@ def read_data_summary_json(summary_dir: str):
     return collection_summaries
     # return pd.DataFrame(collection_summaries).fillna("")
 
-def read_all_constants():
-    license_classes = read_json(constants.LICENSE_CONSTANTS_FP)
-    custom_license_classes = read_json(constants.CUSTOM_LICENSE_CONSTANTS_FP)
-    language_groups = read_json(constants.LANGUAGE_CONSTANTS_FP)
-    task_groups = read_json(constants.TASK_CONSTANTS_FP)
-    model_groups = read_json(constants.MODEL_CONSTANTS_FP)
-    creator_groups = read_json(constants.CREATOR_CONSTANTS_FP)
-    all_formats = read_json(constants.FORMATS_CONSTANTS_FP)
-    topic_groups = read_json(constants.TOPIC_CONSTANTS_FP)
-    domain_groups = read_json(constants.DOMAINS_CONSTANTS_FP)
+def read_all_constants(constants_dir):
+    license_classes = read_json(os.path.join(constants_dir, constants.LICENSE_CONSTANTS_FP))
+    custom_license_classes = read_json(os.path.join(constants_dir, constants.CUSTOM_LICENSE_CONSTANTS_FP))
+    language_groups = read_json(os.path.join(constants_dir, constants.LANGUAGE_CONSTANTS_FP))
+    task_groups = read_json(os.path.join(constants_dir, constants.TASK_CONSTANTS_FP))
+    model_groups = read_json(os.path.join(constants_dir, constants.MODEL_CONSTANTS_FP))
+    creator_groups = read_json(os.path.join(constants_dir, constants.CREATOR_CONSTANTS_FP))
+    creator_countries = read_json(os.path.join(constants_dir, constants.CREATOR_COUNTRY_CONSTANTS_FP))
+    all_formats = read_json(os.path.join(constants_dir, constants.FORMATS_CONSTANTS_FP))
+    topic_groups = read_json(os.path.join(constants_dir, constants.TOPIC_CONSTANTS_FP))
+    domain_groups = read_json(os.path.join(constants_dir, constants.DOMAINS_CONSTANTS_FP))
 
     return {
         "LICENSE_CLASSES": license_classes,
@@ -124,6 +127,7 @@ def read_all_constants():
         "TASK_GROUPS": task_groups,
         "MODEL_GROUPS": model_groups,
         "CREATOR_GROUPS": creator_groups,
+        "CREATOR_COUNTRY_GROUPS": creator_countries,
         "FORMATS": all_formats,
         "TOPICS": topic_groups,
         "DOMAIN_GROUPS": domain_groups,

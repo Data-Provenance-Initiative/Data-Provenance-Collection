@@ -19,6 +19,7 @@
         "Somali",
         "South Levantine Arabic",
         "Ta'izzi-Adeni Arabic",
+        "Ta’izzi-Adeni Arabic",
         "Tigrinya",
         "Tunisian Arabic",
         "West Central Oromo"
@@ -363,17 +364,8 @@
         "Telugu",
         "Tulu"
     ],
-    "French": [
-        "French"
-    ],
-    "Germanic": [
-        "Danish",
-        "Dutch",
-        "English",
-        "German",
-        "Icelandic",
-        "Norwegian",
-        "Swedish"
+    "English": [
+        "English"
     ],
     "Hindustani": [
         "Hindi",
@@ -410,7 +402,6 @@
         "Dyula",
         "Eastern Panjabi",
         "Eastern Yiddish",
-        "English",
         "Estonian",
         "Farsi",
         "Flemish",
@@ -493,9 +484,6 @@
         "Western Persian",
         "Yiddish"
     ],
-    "Italian": [
-        "Italian"
-    ],
     "Japonic": [
         "Japanese"
     ],
@@ -570,9 +558,6 @@
         "Volapük",
         "Zulu"
     ],
-    "Russian": [
-        "Russian"
-    ],
     "Sino-Tibetan": [
         "Burmese",
         "Burmese",
@@ -586,9 +571,6 @@
         "Mizo",
         "Standard Tibetan",
         "Yue Chinese"
-    ],
-    "Spanish": [
-        "Spanish"
     ],
     "Turkic": [
         "Azerbaijani",

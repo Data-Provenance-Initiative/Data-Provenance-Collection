@@ -18,7 +18,8 @@
         "scielo",
         "sciencedaily",
         "semantic scholar articles",
-        "semeval 2012 task 2"
+        "semeval 2012 task 2",
+        "zgbk.com"
     ],
     "Biomedical": [
         "Anki Medical Curriculum",
@@ -92,6 +93,7 @@
         "textbook: physical chemistry",
         "textbook: physical chemistry, quanta, matter, and change",
         "poems written by children in grades 1 to 12",
+        "poetry",
         "poetryfoundation.com",
         "textbook: probability and statistical inference",
         "project gutenberg",
@@ -107,6 +109,7 @@
         "the science - history of the universe",
         "the seven wonders of the ancient world",
         "undergraduate mathematics competitions (1995-2016)",
+        "undisclosed poetry",
         "wikibooks",
         "world scientific: problems and solutions on electromagnetism, mechanics, optics, thermodynamics and statistical mechanics"
     ],
@@ -142,7 +145,8 @@
         "amazon.com",
         "craigslist.org",
         "google play store",
-        "shopping websites"
+        "shopping websites",
+        "nongyie.com"
     ],
     "Conversations": [
         "anc.org",
@@ -164,10 +168,12 @@
         "khanacademy.org",
         "k5learning.com",
         "learning.aljazeera.net/ar/asktheteacher",
+        "Math Word Problems",
         "math-aids.com",
         "udacity.com"
     ],
     "Encyclopedias": [
+        "10why.net",
         "allocine.fr",
         "anc corpus",
         "answers.com",
@@ -175,17 +181,20 @@
         "common knowledge sources.",
         "dbpedia",
         "debatepedia.org",
+        "eetree.cn",
         "encyclopedic articles",
         "freebase",
         "funpedia",
         "github.com/commonsense/omcs",
         "huggingface.com",
+        "kw.fudan.edu.cn/cndbpedia",
         "lsmdc video captions",
         "parallel meaning bank",
         "penn treebank",
         "searchenginewatch.com",
         "verbnet",
         "wikem encyclopedia",
+        "wiki.mbalib.com/wiki",
         "wiki headlines",
         "wikianswers",
         "wikidata",
@@ -199,7 +208,8 @@
         "wikisource",
         "wiktionary.org",
         "word parallel corpus",
-        "wordnet"
+        "wordnet",
+        "zh.wikihow.com"
     ],
     "Entertainment": [
         "baidu ai studio",
@@ -245,7 +255,10 @@
         "travel.stackexchange.com",
         "trivia websites",
         "youtube",
-        "zee news"
+        "zee news",
+        "KnowQuiz", 
+        "QuizBalls", 
+        "QuizZone"
     ],
     "Exams": [
         "ai2 science questions",
@@ -255,6 +268,7 @@
         "bar exam",
         "chinese psychological exam",
         "chinese psychological exams",
+        "chinese math competitions",
         "exams",
         "gmat",
         "Grade School Math",
@@ -267,6 +281,7 @@
         "lsac.org/lsat",
         "lsat",
         "mcat tests",
+        "national college entrance examination",
         "national civil servants examination of china",
         "nationwide unified examination for admissions to general universities and colleges of china",
         "neet pg exams",
@@ -292,6 +307,7 @@
         "commoncrawl.org",
         "cooking websites",
         "data.world/samayo/country-abbreviation/workspace/",
+        "icrc.hitsz.edu.cn",
         "information websites",
         "hate sites",
         "local websites",
@@ -299,10 +315,12 @@
         "opus",
         "paracrawl",
         "public websites without copyright",
+        "scidb.cn/en/detail?dataSetId=c6a3fe684227415a9db8e21bac4a15ab",
         "select thai websites",
         "service websites",
         "sharegpt.com",
         "sports web articles",
+        "stardust.ai",
         "stormfront.org",
         "undisclosed web"
     ],
@@ -313,6 +331,7 @@
         "european parliament proceedings",
         "european union",
         "government speeches",
+        "Governments",
         "national commission on terrorist attacks reports",
         "nps.gov",
         "ohchr.org",
@@ -336,6 +355,7 @@
         "crowdsourced (daemo)",
         "human",
         "scale.com",
+        "User interactions",
         "volunteer annotations"
     ],
     "Legal": [
@@ -548,6 +568,8 @@
         "grover_base",
         "grover_large",
         "grover_mega",
+        "https://character.ai",
+        "https://huggingface.co/datasets/lmsys/chatbot_arena_conversations",
         "model generated negative candidates using adversarial filtering",
         "pplm_distil",
         "text-davinci-003",
@@ -721,8 +743,10 @@
         "blogger.com",
         "blogs",
         "chinese online forums",
+        "control.blog.sina.com.cn",
         "convinceme.net",
         "discussion forums",
+        "douban.com",
         "facebook",
         "financial blogs",
         "flickr",
@@ -735,12 +759,16 @@
         "livejournal",
         "quora",
         "reddit",
+        "segmentfault.com",
         "social media",
         "spinn3r blogs",
         "stormfront",
+        "tieba.baidu.com/f?kw=%E5%BC%B1%E6%99%BA",
         "theonion.com",
         "twitter",
-        "yahoo! answers"
+        "xiaohongshu.com/explore",
+        "yahoo! answers",
+        "zhihu.com"
     ],
     "Template Generated": [
         "grammar-based",
@@ -756,6 +784,7 @@
         "capes",
         "cbt",
         "cometomyhead",
+        "https://collectivecognition.ai",
         "cr",
         "cyc.com",
         "dainik jugasankha",
