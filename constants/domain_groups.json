@@ -37,6 +37,8 @@
         "hallmarks of cancer (HoC)",
         "Hand-crafted Clinical Instructions",
         "haodf.com",
+        "health websites",
+        "healthcare departments",
         "healthcaremagic.com",
         "healthtap.com",
         "i2b2-2010",
@@ -144,6 +146,7 @@
         "allegro.pl",
         "amazon.com",
         "craigslist.org",
+        "e-commerce",
         "google play store",
         "shopping websites",
         "nongyie.com"
@@ -170,7 +173,8 @@
         "learning.aljazeera.net/ar/asktheteacher",
         "Math Word Problems",
         "math-aids.com",
-        "udacity.com"
+        "udacity.com",
+        "university registries"
     ],
     "Encyclopedias": [
         "10why.net",
@@ -249,6 +253,7 @@
         "ted.com",
         "the fireside chats of franklin delano roosevelt",
         "theonion.com",
+        "tiktok",
         "translated movie subtitiles",
         "travel guides",
         "travel websites",
@@ -648,6 +653,7 @@
         "theguardian.com",
         "theweek.com",
         "tribunemag.co.uk",
+        "vnexpress.net",
         "voa",
         "voanews.com",
         "von news",
@@ -694,6 +700,7 @@
         "original",
         "other",
         "protobowl.com",
+        "public figures",
         "quizdb.org",
         "spanish section of the ancora corpus",
         "sports portal",
@@ -715,6 +722,7 @@
         "yoruba proverbs"
     ],
     "Reviews": [
+        "app reviews",
         "factcheck",
         "fullfact",
         "goodreads.com",
@@ -754,6 +762,7 @@
         "gab.com",
         "globalvoices.org",
         "huffpost.com",
+        "instagram",
         "javabkoo.com",
         "linkedin",
         "livejournal",

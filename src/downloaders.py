@@ -715,6 +715,10 @@ def download_wildchat(accepted_filter_ids):
     dset = huggingface_download("allenai/WildChat", split="train")
     return pool_filter(dset, "model", accepted_filter_ids)
 
+def download_seacrowd(accepted_filter_ids):
+    dset = huggingface_download("DataProvenanceInitiative/seacrowd", split="train")
+    return pool_filter(dset, "user_parent", accepted_filter_ids)
+
 
 def download_airoboros(accepted_filter_ids):
     return huggingface_download('jondurbin/airoboros-3.2', split='train')
