@@ -104,9 +104,10 @@ python src/web_analysis/parse_robots.py <in-path> <out-path>
 See the `src/web_analysis/downloading_web/` folder for the scripts that process pretraining text data (C4, RefinedWeb, and Dolma).
 These scripts map the high-level base domains (e.g. www.en.wikpiedia.org) to the number of scraped paths (e.g. www.en.wikipedia.org/wiki/The_Shawshank_Redemption) and the total number of text tokens across those paths.
 
+
 ### ChatGPT for Terms & Policies Analysis
 
-This script facilitates the analysis of Terms of Service (ToS) and other usage policy documents using `gpt-4-turbo`. It is meant to determine the presence/type of policies related to scraping, AI usage, restrictions on competing services, illicit content, and licensing types. It handles data loading, optional data sampling, processing texts through the GPT model, and exporting results to CSV format for review. To install the required dependencies, use the `requirements_gpt_tos_analysis.txt` file.
+This script facilitates the analysis of Terms of Service (ToS) and other usage policy documents using `gpt-4-turbo`. It is meant to determine the presence/type of policies related to scraping, AI usage, restrictions on competing services, illicit content, and licensing types. It handles data loading, optional data sampling, processing texts through the GPT model, and exporting results to CSV format for review. To install the required dependencies, use the `requirements_gpt_tos_analysis.txt` file. Note: to run this code you will need to add your [OpenAI API](https://platform.openai.com/docs/quickstart) key to a `.env` file located in the `\data` directory. 
 
 Example usage - 
 
