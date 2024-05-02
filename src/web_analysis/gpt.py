@@ -5,12 +5,23 @@ import asyncio
 import aiohttp
 import requests
 import tiktoken
-from dotenv import load_dotenv, find_dotenv
-_ = load_dotenv(find_dotenv())
+from dotenv import load_dotenv
 
 class GPT(object):
     """
-        fill in later
+    This class provides an interface to the OpenAI API to perform text generation tasks using various GPT models. 
+    It allows for synchronous and asynchronous interactions with the API to generate responses for a given prompt 
+    using specified model parameters. The class is designed to handle multiple prompt configurations and includes 
+    methods to load environment variables, handle API authentication, and process batches of prompts for efficiency.
+    
+    Attributes:
+        language_code (str): Language of the prompts to be used, default is English ('en').
+        model (str): Identifier for the OpenAI GPT model to be used.
+        prompt_id (str): Identifier for the specific prompt configuration loaded from JSON.
+        SYSTEM_PROMPT (str): Default system prompt defining the role of the assistant.
+        USER_PROMPT_1 (str): First user prompt to initiate the conversation.
+        ASSISTANT_PROMPT_1 (str): Assistant's initial response in the conversation flow.
+        GUIDELINES_PROMPT_TEMPLATE (str): Loaded guidelines prompt for guiding the assistant's responses.
     """
     def __init__(self, 
                  language='en',
@@ -18,7 +29,6 @@ class GPT(object):
                  prompt='scraping-policy'):
     
         self.load_API_key()
-
         self.language_code = language
         self.model = model
         self.prompt_id = prompt
@@ -248,3 +258,6 @@ class GPT(object):
             self.SYSTEM_PROMPT = "You are a smart and intelligent legal assistant. I will provide you with a terms of service document and you will answer legal questions about the given document."
         elif new_prompt != None:
             self.SYSTEM_PROMPT = new_prompt
+
+    def get_prompt_key(self):
+        return self.prompt_id
