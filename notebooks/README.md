@@ -20,3 +20,14 @@ Add this to the preamble to get symbols used in the tables:
 \newcommand\redcross{\textcolor{red}{\ding{55}}}
 \newcommand\orangecircle{\textcolor{orange}{\ding{108}}}
 ```
+
+## TODO
+
+* Add the audio and video datasets to the refs/licenses table
+
+* Mock up audio table
+* Mock up video table
+
+## After paste into doc
+Formatting tweaks still needed after pasting these tables into the LaTeX doc:
+* Edit the subsequent-pages captions. Pandas defaults to the full caption, which is too long, and doesn't let you change it.
