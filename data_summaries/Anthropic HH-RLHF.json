@@ -58,9 +58,11 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "Anthropic/hh-rlhf",
-            "HF Config": "Anthropic--hh-rlhf",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": [
+                "mit"
+            ],
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -85,7 +87,11 @@
             "PwC Description": "",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": 1123,
-            "GitHub Topics": []
+            "GitHub Topics": [],
+            "GitHub Stars (May 2024)": 1442,
+            "HF Downloads (May 2024)": 78150,
+            "HF Likes (May 2024)": 1020,
+            "S2 Citation Count (May 2024)": ""
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],

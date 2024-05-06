@@ -67,11 +67,17 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "akoksal/LongForm",
-            "HF Config": "akoksal--LongForm",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "mit"
+            ],
+            "PwC License Name": [
+                null
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "2023-04-17",
             "S2 Date": "2023-04-17",
             "GitHub License": "",
@@ -94,7 +100,14 @@
             "PwC Description": "LongForm dataset is created by leveraging English corpus examples with augmented instructions. It contains diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. The examples generated from raw text corpora via LLMs includes structured corpus examples, as well as various NLP task examples such as email writing, grammar error correction, story/poem generation, and text summarization.",
             "S2 Citation Count (September 2023)": 9,
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": [
+                "instruction-tuning",
+                "text-generation"
+            ],
+            "GitHub Stars (May 2024)": 197,
+            "HF Downloads (May 2024)": 263,
+            "HF Likes (May 2024)": 50,
+            "S2 Citation Count (May 2024)": 22
         },
         "Derived from Datasets": [
             "C4",
@@ -178,11 +191,17 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "akoksal/LongForm",
-            "HF Config": "akoksal--LongForm",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "mit"
+            ],
+            "PwC License Name": [
+                null
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "2023-04-17",
             "S2 Date": "2023-04-17",
             "GitHub License": "",
@@ -205,7 +224,14 @@
             "PwC Description": "LongForm dataset is created by leveraging English corpus examples with augmented instructions. It contains diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. The examples generated from raw text corpora via LLMs includes structured corpus examples, as well as various NLP task examples such as email writing, grammar error correction, story/poem generation, and text summarization.",
             "S2 Citation Count (September 2023)": 9,
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": [
+                "instruction-tuning",
+                "text-generation"
+            ],
+            "GitHub Stars (May 2024)": 197,
+            "HF Downloads (May 2024)": 263,
+            "HF Likes (May 2024)": 50,
+            "S2 Citation Count (May 2024)": 22
         },
         "Derived from Datasets": [
             "C4",
@@ -289,11 +315,17 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "akoksal/LongForm",
-            "HF Config": "akoksal--LongForm",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "mit"
+            ],
+            "PwC License Name": [
+                null
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "2023-04-17",
             "S2 Date": "2023-04-17",
             "GitHub License": "",
@@ -316,7 +348,14 @@
             "PwC Description": "LongForm dataset is created by leveraging English corpus examples with augmented instructions. It contains diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. The examples generated from raw text corpora via LLMs includes structured corpus examples, as well as various NLP task examples such as email writing, grammar error correction, story/poem generation, and text summarization.",
             "S2 Citation Count (September 2023)": 9,
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": [
+                "instruction-tuning",
+                "text-generation"
+            ],
+            "GitHub Stars (May 2024)": 197,
+            "HF Downloads (May 2024)": 263,
+            "HF Likes (May 2024)": 50,
+            "S2 Citation Count (May 2024)": 22
         },
         "Derived from Datasets": [
             "C4",
@@ -398,11 +437,17 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "akoksal/LongForm",
-            "HF Config": "akoksal--LongForm",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "mit"
+            ],
+            "PwC License Name": [
+                null
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "2023-04-17",
             "S2 Date": "2023-04-17",
             "GitHub License": "",
@@ -425,7 +470,14 @@
             "PwC Description": "LongForm dataset is created by leveraging English corpus examples with augmented instructions. It contains diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. The examples generated from raw text corpora via LLMs includes structured corpus examples, as well as various NLP task examples such as email writing, grammar error correction, story/poem generation, and text summarization.",
             "S2 Citation Count (September 2023)": 9,
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": [
+                "instruction-tuning",
+                "text-generation"
+            ],
+            "GitHub Stars (May 2024)": 197,
+            "HF Downloads (May 2024)": 263,
+            "HF Likes (May 2024)": 50,
+            "S2 Citation Count (May 2024)": 22
         },
         "Derived from Datasets": [
             "C4",
@@ -509,11 +561,17 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "akoksal/LongForm",
-            "HF Config": "akoksal--LongForm",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "mit"
+            ],
+            "PwC License Name": [
+                null
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "2023-04-17",
             "S2 Date": "2023-04-17",
             "GitHub License": "",
@@ -536,7 +594,14 @@
             "PwC Description": "LongForm dataset is created by leveraging English corpus examples with augmented instructions. It contains diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. The examples generated from raw text corpora via LLMs includes structured corpus examples, as well as various NLP task examples such as email writing, grammar error correction, story/poem generation, and text summarization.",
             "S2 Citation Count (September 2023)": 9,
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": [
+                "instruction-tuning",
+                "text-generation"
+            ],
+            "GitHub Stars (May 2024)": 197,
+            "HF Downloads (May 2024)": 263,
+            "HF Likes (May 2024)": 50,
+            "S2 Citation Count (May 2024)": 22
         },
         "Derived from Datasets": [
             "C4",
@@ -618,11 +683,17 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "akoksal/LongForm",
-            "HF Config": "akoksal--LongForm",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "mit"
+            ],
+            "PwC License Name": [
+                null
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "2023-04-17",
             "S2 Date": "2023-04-17",
             "GitHub License": "",
@@ -645,7 +716,14 @@
             "PwC Description": "LongForm dataset is created by leveraging English corpus examples with augmented instructions. It contains diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. The examples generated from raw text corpora via LLMs includes structured corpus examples, as well as various NLP task examples such as email writing, grammar error correction, story/poem generation, and text summarization.",
             "S2 Citation Count (September 2023)": 9,
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": [
+                "instruction-tuning",
+                "text-generation"
+            ],
+            "GitHub Stars (May 2024)": 197,
+            "HF Downloads (May 2024)": 263,
+            "HF Likes (May 2024)": 50,
+            "S2 Citation Count (May 2024)": 22
         },
         "Derived from Datasets": [
             "C4",
@@ -728,11 +806,17 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "akoksal/LongForm",
-            "HF Config": "akoksal--LongForm",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "mit"
+            ],
+            "PwC License Name": [
+                null
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "2023-04-17",
             "S2 Date": "2023-04-17",
             "GitHub License": "",
@@ -755,7 +839,14 @@
             "PwC Description": "LongForm dataset is created by leveraging English corpus examples with augmented instructions. It contains diverse set of human-written documents from existing corpora such as C4 and Wikipedia and generate instructions for the given documents via LLMs. The examples generated from raw text corpora via LLMs includes structured corpus examples, as well as various NLP task examples such as email writing, grammar error correction, story/poem generation, and text summarization.",
             "S2 Citation Count (September 2023)": 9,
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": [
+                "instruction-tuning",
+                "text-generation"
+            ],
+            "GitHub Stars (May 2024)": 197,
+            "HF Downloads (May 2024)": 263,
+            "HF Likes (May 2024)": 50,
+            "S2 Citation Count (May 2024)": 22
         },
         "Derived from Datasets": [
             "C4",

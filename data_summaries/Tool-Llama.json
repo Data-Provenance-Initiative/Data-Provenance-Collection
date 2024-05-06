@@ -84,12 +84,24 @@
             "HF Likes (September 2023)": "",
             "PwC Date": "2023-07-31",
             "PwC Description": "ToolBench is an instruction-tuning dataset for tool use, which is created automatically using ChatGPT. Specifically, the authors collect 16,464 real-world RESTful APIs spanning 49 categories from RapidAPI Hub, then prompt ChatgPT to generate diverse human instructions involving these APIs, covering both single-tool and multi-tool scenarios.",
-            "PwC License Name": "Apache License 2.0",
-            "PwC License URL": "https://github.com/OpenBMB/ToolBench/blob/master/LICENSE",
+            "PwC License Name": [
+                "Apache-2.0 license"
+            ],
+            "PwC License URL": [
+                "https://github.com/OpenBMB/ToolBench/blob/master/LICENSE"
+            ],
             "S2 Citation Count (September 2023)": "",
-            "S2 Date": "",
+            "S2 Date": "2023-07-31",
             "GitHub Stars": 3113,
-            "GitHub Topics": []
+            "GitHub Topics": [],
+            "GitHub Stars (May 2024)": 4424,
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "S2 Citation Count (May 2024)": 207
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],

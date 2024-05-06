@@ -65,9 +65,11 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "sahil2801/CodeAlpaca-20k",
-            "HF Config": "sahil2801--CodeAlpaca-20k",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": [
+                "cc-by-4.0"
+            ],
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -92,7 +94,11 @@
             "PwC Description": "",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 3188,
+            "HF Likes (May 2024)": 149,
+            "S2 Citation Count (May 2024)": ""
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],

@@ -30,8 +30,11 @@
         ],
         "Text Sources": [
             "sharegpt.com",
-            "crowdsourced"],
-        "Model Generated": ["OpenAI Playground"],
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "OpenAI Playground"
+        ],
         "Format": [
             "Zero-shot"
         ],
@@ -59,7 +62,26 @@
         "Dataset Filter IDs": [
             "sharegpt"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "argilla/ultrafeedback-binarized-preferences",
+            "HF Date": "2023-11-15",
+            "HF Downloads (May 2024)": 3547,
+            "HF Likes (May 2024)": 57,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
     },
     "ultraFeedback_argilla-flan_v2_niv2": {
         "Unique Dataset Identifier": "ultraFeedback_argilla-flan_v2_niv2",
@@ -154,7 +176,7 @@
             "los angeles times",
             "agence france-presse",
             "wikipedia headlines",
-            "undisclosed web"    
+            "undisclosed web"
         ],
         "Model Generated": [
             "OpenAI GPT-3",
@@ -183,7 +205,26 @@
         "Dataset Filter IDs": [
             "flan_v2_niv2"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "argilla/ultrafeedback-binarized-preferences",
+            "HF Date": "2023-11-15",
+            "HF Downloads (May 2024)": 3547,
+            "HF Likes (May 2024)": 57,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
     },
     "ultraFeedback_argilla-evol_instruct": {
         "Unique Dataset Identifier": "ultraFeedback_argilla-evol_instruct",
@@ -236,7 +277,26 @@
         "Dataset Filter IDs": [
             "evol_instruct"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "argilla/ultrafeedback-binarized-preferences",
+            "HF Date": "2023-11-15",
+            "HF Downloads (May 2024)": 3547,
+            "HF Likes (May 2024)": 57,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
     },
     "ultraFeedback_argilla-ultrachat": {
         "Unique Dataset Identifier": "ultraFeedback_argilla-ultrachat",
@@ -299,7 +359,26 @@
         "Dataset Filter IDs": [
             "ultrachat"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "argilla/ultrafeedback-binarized-preferences",
+            "HF Date": "2023-11-15",
+            "HF Downloads (May 2024)": 3547,
+            "HF Likes (May 2024)": 57,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
     },
     "ultraFeedback_argilla-flan_v2_cot": {
         "Unique Dataset Identifier": "ultraFeedback_argilla-flan_v2_cot",
@@ -348,7 +427,26 @@
         "Dataset Filter IDs": [
             "flan_v2_cot"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "argilla/ultrafeedback-binarized-preferences",
+            "HF Date": "2023-11-15",
+            "HF Downloads (May 2024)": 3547,
+            "HF Likes (May 2024)": 57,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
     },
     "ultraFeedback_argilla-false_qa": {
         "Unique Dataset Identifier": "ultraFeedback_argilla-false_qa",
@@ -392,7 +490,26 @@
         "Dataset Filter IDs": [
             "false_qa"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "argilla/ultrafeedback-binarized-preferences",
+            "HF Date": "2023-11-15",
+            "HF Downloads (May 2024)": 3547,
+            "HF Likes (May 2024)": 57,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
     },
     "ultraFeedback_argilla-flan_v2_p3": {
         "Unique Dataset Identifier": "ultraFeedback_argilla-flan_v2_p3",
@@ -447,7 +564,6 @@
         "Derived from Datasets": [
             "SQuADv1",
             "CommonSenseQA"
-
         ],
         "Creators": [
             "Argilla"
@@ -467,7 +583,26 @@
         "Dataset Filter IDs": [
             "flan_v2_p3"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "argilla/ultrafeedback-binarized-preferences",
+            "HF Date": "2023-11-15",
+            "HF Downloads (May 2024)": 3547,
+            "HF Likes (May 2024)": 57,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
     },
     "ultraFeedback_argilla-truthful_qa": {
         "Unique Dataset Identifier": "ultraFeedback_argilla-truthful_qa",
@@ -515,7 +650,26 @@
         "Dataset Filter IDs": [
             "truthful_qa"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "argilla/ultrafeedback-binarized-preferences",
+            "HF Date": "2023-11-15",
+            "HF Downloads (May 2024)": 3547,
+            "HF Likes (May 2024)": 57,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
     },
     "ultraFeedback_argilla-flan_v2_flan2021": {
         "Unique Dataset Identifier": "ultraFeedback_argilla-flan_v2_flan2021",
@@ -564,6 +718,25 @@
         "Dataset Filter IDs": [
             "flan_v2_flan2021"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "argilla/ultrafeedback-binarized-preferences",
+            "HF Date": "2023-11-15",
+            "HF Downloads (May 2024)": 3547,
+            "HF Likes (May 2024)": 57,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

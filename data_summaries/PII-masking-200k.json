@@ -47,6 +47,25 @@
         "Dataset Filter IDs": [
             "pii-masking-200k"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "ai4privacy/pii-masking-200k",
+            "HF Date": "2023-11-06",
+            "HF Downloads (May 2024)": 1351,
+            "HF Likes (May 2024)": 59,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

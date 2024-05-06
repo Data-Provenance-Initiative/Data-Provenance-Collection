@@ -89,9 +89,15 @@
             "PwC Description": "",
             "PwC License URL": "",
             "S2 Citation Count (September 2023)": "",
-            "S2 Date": "",
+            "S2 Date": "2022-12-19",
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Config": "full",
+            "HF Dataset": "mrm8488/unnatural-instructions",
+            "HF Downloads (May 2024)": 63,
+            "HF Likes (May 2024)": 4,
+            "S2 Citation Count (May 2024)": 194
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
