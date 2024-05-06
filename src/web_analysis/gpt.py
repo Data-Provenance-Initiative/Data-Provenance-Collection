@@ -73,6 +73,12 @@ class GPT(object):
         return prompts[0]['content']
 
     def load_cache(self):
+        """
+        Loads the response cache from a JSON file. This method initializes the cache attribute 
+        of the GPT class by attempting to read from a specified file path. If the file does 
+        not exist, it sets the cache to an empty dictionary, effectively starting with no 
+        cached data.
+        """
         try:
             with open(self.cache_file_path, 'r') as file:
                 self.cache = json.load(file)
@@ -80,6 +86,11 @@ class GPT(object):
             self.cache = {}
 
     def save_cache(self):
+        """
+        Saves the current state of the cache to a JSON file. This method writes the contents 
+        of the `cache` attribute to a file specified by `cache_file_path`. The JSON data is 
+        formatted with an indentation of 4 spaces, making it human-readable.
+        """
         with open(self.cache_file_path, 'w') as file:
             json.dump(self.cache, file, indent=4)
 
@@ -149,36 +160,39 @@ class GPT(object):
 
     async def process_batch_async(self, session, batch, custom_guidelines_prompt=None):
         """
-        Processes a single batch of prompts asynchronously.
+        Processes a single batch of prompts asynchronously, leveraging caching to optimize API usage. 
+        Before making an API request, the method checks if a response for the formatted prompt is already 
+        stored in the cache. If found, it uses the cached response; otherwise, it sends a request to the 
+        OpenAI API.
 
         Parameters:
-        - session (aiohttp.ClientSession): A session object used to make asynchronous requests.
-        - batch (list of str): List of prompts to be processed in the batch.
+        - session (aiohttp.ClientSession): A session object used for making asynchronous HTTP requests.
+        - batch (list of str): A list of original prompts to be processed in the batch.
+        - custom_guidelines_prompt (str, optional): A custom prompt template that can be formatted with the 
+          original prompt. If provided, it overrides the default guidelines prompt template for this batch.
 
         Returns:
-        - list of str: List of responses from the OpenAI Chat API, each containing the completion for the corresponding prompt in the batch.
+        - list of str: A list of responses from the OpenAI Chat API. Each response corresponds to a prompt in 
+          the batch. Responses are retrieved from the cache if available; otherwise, they are fetched from the API.
         """
         responses = []
         tasks = []
 
         for prompt in batch:
-            # Determine the formatted prompt
             if custom_guidelines_prompt is not None:
                 formatted_prompt = custom_guidelines_prompt.format(prompt)
             else:
                 formatted_prompt = self.GUIDELINES_PROMPT_TEMPLATE.format(prompt)
             
-            # Check cache for formatted prompt
+            # check cache for formatted prompt
             if formatted_prompt in self.cache:
                 responses.append(self.cache[formatted_prompt])
             else:
-                # Create an async task if not in cache
+                # create an async task if not in cache
                 tasks.append((formatted_prompt, asyncio.create_task(self.make_openai_request_async(session, formatted_prompt))))
 
-        # Execute all tasks that were not found in cache
         api_responses = await asyncio.gather(*[task[1] for task in tasks])
 
-        # Update cache with new responses and collect all responses in order
         full_responses = []
         for i, (formatted_prompt, task) in enumerate(tasks):
             response = api_responses[i]
@@ -186,7 +200,7 @@ class GPT(object):
                 self.cache[formatted_prompt] = response
                 self.save_cache()
 
-        # Collect responses in the order of the original batch
+        # collect responses in the order of the original batch
         for prompt in batch:
             if custom_guidelines_prompt is not None:
                 formatted_prompt = custom_guidelines_prompt.format(prompt)
@@ -213,23 +227,25 @@ class GPT(object):
         async with aiohttp.ClientSession() as session:
             for i in range(0, len(prompts), batch_size):
                 batch = prompts[i:i + batch_size]
-                if custom_guidelines_prompt != None:
-                    batch_responses = await self.process_batch_async(session, batch, custom_guidelines_prompt=custom_guidelines_prompt)
-                    final_responses.append(batch_responses)
+                if custom_guidelines_prompt is not None:
+                    batch_prompts = [custom_guidelines_prompt.format(prompt) for prompt in batch]
                 else:
-                    batch_responses = await self.process_batch_async(session, batch)
-                    formatted_responses = []
-                    for j, response in enumerate(batch_responses):
-                        if response is not None:
-                            try:
-                                formatted_response = json.loads(response)
-                                formatted_responses.append(formatted_response) 
-                            except json.JSONDecodeError as e:
-                                print(f"Failed to parse response: {response}. Error: {e}")
-                        # else:
-                        #     formatted_responses.append(None)
-                    final_responses.extend(formatted_responses)
-                # final_responses.extend(batch_responses)
+                    batch_prompts = [self.GUIDELINES_PROMPT_TEMPLATE.format(prompt) for prompt in batch]
+                
+                batch_responses = await self.process_batch_async(session, batch_prompts)
+                formatted_responses = []
+                for prompt, response in zip(batch, batch_responses):
+                    try:
+                        formatted_response = json.loads(response)
+                        formatted_responses.append(formatted_response)
+                    except json.JSONDecodeError as e:
+                        print(f"Failed to parse response: {response}. Error: {e}")
+                        # Save the failed prompt and response
+                        with open('data/gpt-response-failed.json', 'a') as error_file:
+                            error_json = json.dumps({"prompt": prompt, "response": response})
+                            error_file.write(error_json + "\n")
+
+                final_responses.extend(formatted_responses)
         return final_responses
 
                                                 ####### getters and setters #######
@@ -305,6 +321,12 @@ class GPT(object):
             self.SYSTEM_PROMPT = new_prompt
 
     def get_prompt_key(self):
+        """
+        Retrieve the current prompt key stored in the class.
+
+        Returns:
+        - str: The prompt key.
+        """
         return self.prompt_id
 
     def clear_cache(self):
