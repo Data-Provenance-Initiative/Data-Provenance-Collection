@@ -1383,22 +1383,14 @@ def download_dialogstudio(accepted_filter_ids):
                       'STAR', 'Taskmaster1', 'Taskmaster2', 'Taskmaster3', 'WOZ2_0', 'Redial', 'DuRecDial-2.0', 'OpenDialKG', 'SalesBot']:
         if f"ds-{data_name}" in accepted_filter_ids:
             if data_name == "ToTTo":
-                url = "https://storage.googleapis.com/totto-public/totto_data.zip"
+                url = "https://huggingface.co/datasets/Salesforce/dialogstudio/resolve/main/knowledge_grounded/ToTTo/train/dialogues_1.json?download=true"
                 response = requests.get(url)
-                zip_file = zipfile.ZipFile(BytesIO(response.content))
-                extraction_path = "totto_data"
-                zip_file.extractall(extraction_path)
-                nested_directory_path = os.path.join(extraction_path, "totto_data")
-                totto_train_file_path = os.path.join(nested_directory_path, "totto_train_data.jsonl")
-                if os.path.exists(totto_train_file_path):
-                    with open(totto_train_file_path, 'r') as file:
-                        totto_dset = [json.loads(line) for line in file]
-                    dset = annotate_source(totto_dset, data_name) 
-                    dsets.extend(dset)
+                data = response.json()
+                dset = annotate_source(data, f"ds-{data_name}")
+                dsets.extend(dset)
             else:
-                dset = huggingface_download("Salesforce/dialogstudio", data_name, split="train")
-                dset = annotate_source(dset, data_name)
+                data = load_dataset("Salesforce/dialogstudio", data_name, split="train")
+                dset = annotate_source(data, f"ds-{data_name}")
                 dsets.extend(dset)
 
     return dsets
-
