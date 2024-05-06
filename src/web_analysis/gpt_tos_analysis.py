@@ -154,7 +154,7 @@ def pre_process_tos_text(data):
 def pre_process_tos_text_keywords(data_dict, prompt_key):
     """
     Processes a dictionary containing domain-to-Terms of Service (ToS) mappings to extract and preprocess ToS text
-    relevant to specified keywords. The function combines all ToS text per domain, cleans it, and then finds relevant
+    relevant to specified keywords. The function combines all ToS text per domain and then finds relevant
     sections of text based on the provided prompt_key that matches specific keywords.
 
     Parameters:
@@ -169,7 +169,7 @@ def pre_process_tos_text_keywords(data_dict, prompt_key):
     for parent_domain, tos_links in data_dict.items():
         all_tos_text = ""
         for link, date, tos_text in tos_links:
-            all_tos_text += ' ' + clean_text(tos_text) + ' '
+            all_tos_text += ' ' + tos_text + ' '
         all_tos_text = all_tos_text.strip()
         combined_tos_text.append((parent_domain,all_tos_text))
         
@@ -184,7 +184,7 @@ def pre_process_tos_text_keywords(data_dict, prompt_key):
 def post_process_tos_text_keywords(data_dict):
     """
     Aggregates values from a dictionary where each value is a list of strings, concatenating them into a single string.
-    This function is typically used to concatenate text fragments that have been identified as relevant based on specific
+    This function is used to concatenate text fragments that have been identified as relevant based on specific
     keywords.
 
     Parameters:
@@ -203,9 +203,9 @@ def post_process_tos_text_keywords(data_dict):
 
 def find_relevant_text(tos_text, prompt_key):
     """
-    Searches for sentences in the given text that contain keywords related to a specified prompt key. The function
-    uses regular expressions to identify sentences that contain any of the keywords and returns these along with 
-    the preceding and following sentences for context.
+    Searches for paragraphs in the given text that contain keywords related to a specified prompt key. The function
+    uses regular expressions to identify paragraphs that contain any of the keywords and returns these along with 
+    the preceding and following paragraphs for context.
 
     Parameters:
         tos_text (str): The text from a Terms of Service document.
@@ -222,33 +222,20 @@ def find_relevant_text(tos_text, prompt_key):
                  'type-of-license-keywords': ["property", "respective owners", "copyright", "trademark", "subsidiaries", "affiliates", "assigns", "licensors", "without limitation", "creative", "transmit", "transfer", "sale", "sell", "derivative works", "amalgamated"]
                 }
     # reg. ex. patterns
-    sentence_pattern = re.compile(r'([A-Z][^\.!?]*[\.!?])', re.IGNORECASE)
+    paragraph_pattern = re.compile(r'\n\n+')
     keyword_pattern = re.compile(r'\b(' + '|'.join(map(re.escape, keywords[prompt_key])) + r')\b', re.IGNORECASE)
     
-    sentences = sentence_pattern.findall(tos_text)
+    paragraphs = paragraph_pattern.split(tos_text)
     
     relevant_texts = {}
 
-    for i, sentence in enumerate(sentences):
-        match = keyword_pattern.search(sentence)
+    for paragraph in paragraphs:
+        match = keyword_pattern.search(paragraph)
         if match:
             keyword_found = match.group(0).lower()
-            combined_text = ''
-            if i > 0:
-                combined_text += sentences[i - 1] + " "  # previous sentence
-            combined_text += sentence  # keyword sentence
-            if i < len(sentences) - 1:
-                combined_text += " " + sentences[i + 1]  # next sentence
-
-            # clean text
-            combined_text = combined_text.replace('\n', ' ')
-            combined_text = re.sub(r'\s+', ' ', combined_text)
-            combined_text = combined_text.strip()
-
             if keyword_found not in relevant_texts:
                 relevant_texts[keyword_found] = []
-                
-            relevant_texts[keyword_found].append(combined_text)
+            relevant_texts[keyword_found].append(paragraph)
 
     return relevant_texts
 
