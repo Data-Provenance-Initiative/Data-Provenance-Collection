@@ -1,0 +1,44 @@
+{
+  "prompts": [
+    {
+      "id": "scraping-policy",
+      "content": "Question: Does the website restrict scraping? Carefully review the following Terms of Service (TOS) document and determine if the statement is True: {}. If the statement is True, provide the exact text from the TOS that answers the question as evidence. If the statement is False, set evidence as \"N/A\". Return only a dictionary with your verdict and the corresponding evidence. Format the response like this to ensure it can be loaded by JSON: {{\"verdict\": \"True\", \"evidence\": \"Exact text from TOS.\"}} or {{\"verdict\": \"False\", \"evidence\": \"N/A\"}}"
+    },
+    {
+      "id": "scraping-policy-keywords",
+      "content": "Question: Does the website restrict scraping? Carefully review the following text from the Terms of Service (TOS) document and determine if the statement is True: {}. If the statement is True, provide the exact text that answers the question as evidence. If the statement is False, set evidence as \"N/A\". Return only a dictionary with your verdict and the corresponding evidence. Format the response like this to ensure it can be loaded by JSON: {{\"verdict\": \"True\", \"evidence\": \"Exact text from TOS.\"}} or {{\"verdict\": \"False\", \"evidence\": \"N/A\"}}"
+    },
+    {
+      "id": "AI-policy",
+      "content": "Question: Does website have any restrictions related to AI training? Carefully review the following Terms of Service (TOS) document and determine if the statement is True: {}. If the statement is True, provide the exact text from the TOS that answers the question as evidence. If the statement is False, set evidence as \"N/A\". Return only a dictionary with your verdict and the corresponding evidence. Format the response like this to ensure it can be loaded by JSON: {{\"verdict\": \"True\", \"evidence\": \"Exact text from TOS.\"}} or {{\"verdict\": \"False\", \"evidence\": \"N/A\"}}"
+    },
+    {
+      "id": "AI-policy-keywords",
+      "content": "Question: Does website have any restrictions related to AI training? Carefully review the following text from the Terms of Service (TOS) document and determine if the statement is True: {}. If the statement is True, provide the exact text that answers the question as evidence. If the statement is False, set evidence as \"N/A\". Return only a dictionary with your verdict and the corresponding evidence. Format the response like this to ensure it can be loaded by JSON: {{\"verdict\": \"True\", \"evidence\": \"Exact text from TOS.\"}} or {{\"verdict\": \"False\", \"evidence\": \"N/A\"}}"
+    },
+    {
+      "id": "competing-services",
+      "content": "Question: Does website restrict the use of content in any way, such as for commercial or competing services, or only for academic use? Carefully review the following Terms of Service (TOS) document and determine if the statement is True: {}. If the statement is True, provide the exact text from the TOS that answers the question as evidence. If the statement is False, set evidence as \"N/A\". Return only a dictionary with your verdict and the corresponding evidence. Format the response like this to ensure it can be loaded by JSON: {{\"verdict\": \"True\", \"evidence\": \"Exact text from TOS.\"}} or {{\"verdict\": \"False\", \"evidence\": \"N/A\"}}"
+    },
+    {
+      "id": "competing-services-keywords",
+      "content": "Question: Does website restrict the use of content in any way, such as for commercial or competing services, or only for academic use? Carefully review the following text from the Terms of Service (TOS) document and determine if the statement is True: {}. If the statement is True, provide the exact text that answers the question as evidence. If the statement is False, set evidence as \"N/A\". Return only a dictionary with your verdict and the corresponding evidence. Format the response like this to ensure it can be loaded by JSON: {{\"verdict\": \"True\", \"evidence\": \"Exact text from TOS.\"}} or {{\"verdict\": \"False\", \"evidence\": \"N/A\"}}"
+    },
+    {
+      "id": "illicit-content",
+      "content": "Question: Does website restrict posting illicit content? Carefully review the following Terms of Service (TOS) document and determine if the statement is True: {}. If the statement is True, provide the exact text from the TOS that answers the question as evidence. If the statement is False, set evidence as \"N/A\". Return only a dictionary with your verdict and the corresponding evidence. Format the response like this to ensure it can be loaded by JSON: {{\"verdict\": \"True\", \"evidence\": \"Exact text from TOS.\"}} or {{\"verdict\": \"False\", \"evidence\": \"N/A\"}}"
+    },
+    {
+      "id": "illicit-content-keywords",
+      "content": "Question: Does website restrict posting illicit content? Carefully review the following text from the Terms of Service (TOS) document and determine if the statement is True: {}. If the statement is True, provide the exact text that answers the question as evidence. If the statement is False, set evidence as \"N/A\". Return only a dictionary with your verdict and the corresponding evidence. Format the response like this to ensure it can be loaded by JSON: {{\"verdict\": \"True\", \"evidence\": \"Exact text from TOS.\"}} or {{\"verdict\": \"False\", \"evidence\": \"N/A\"}}"
+    },
+    {
+      "id": "type-of-license",
+      "content": "Question: What may website content be used for? Carefully review the following Terms of Service (TOS) document and determine what the website content may be used for [ex: personal/non-commercial, any use, other]: {}. Provide the exact text from the TOS that answers the question as evidence. If there is no mention of the type of license, set verdict and evidence as \"N/A\". Return only a dictionary with your type of license verdict and the corresponding evidence. Format the response like this to ensure it can be loaded by JSON: {{\"verdict\": \"type of license\", \"evidence\": \"Exact text from TOS.\"}} or {{\"verdict\": \"N/A\", \"evidence\": \"N/A\"}}"
+    },
+    {
+      "id": "type-of-license-keywords",
+      "content": "Question: What may website content be used for? Carefully review the following text from the Terms of Service (TOS) document and determine what the website content may be used for [ex: personal/non-commercial, any use, other]: {}. Provide the exact text from the TOS that answers the question as evidence. If there is no mention of the type of license, set verdict and evidence as \"N/A\". Return only a dictionary with your type of license verdict and the corresponding evidence. Format the response like this to ensure it can be loaded by JSON: {{\"verdict\": \"True\", \"evidence\": \"Exact text from TOS.\"}} or {{\"verdict\": \"False\", \"evidence\": \"N/A\"}}"
+    }
+  ]
+}

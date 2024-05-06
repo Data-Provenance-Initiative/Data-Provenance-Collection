@@ -129,7 +129,9 @@ def main(args):
     
     countries = get_country(ip_addresses)
     
-    if args.write_file:
+    if args.write_file and args.output_filename:
+        save_data(countries, name=args.output_filename)
+    elif args.write_file:
         save_data(countries)
     
     return countries, failed_domains
@@ -145,6 +147,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Get country data for domains.')
     parser.add_argument('--custom_url_list', nargs='+', help='Custom URL list to process.')
     parser.add_argument('--url_csv', type=str, help='Path to a CSV file containing custom URLs to process. URLs must be in the first column with no header')
-    parser.add_argument('--write_file', action='store_true', help='Whether to write the results to a file')
+    parser.add_argument('--write_file', action='store_true', help='Whether to write the results to a CSV file')
+    parser.add_argument('--output_filename', type=str, help='Filename for saving the output CSV file')
     args = parser.parse_args()
     main(args)
