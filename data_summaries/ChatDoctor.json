@@ -61,7 +61,7 @@
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "Github Date": "",
-            "HF Date": "",
+            "HF Date": "2023-09-09",
             "HF Downloads (December 2023)": 0,
             "HF Likes (December 2023)": 7,
             "PwC Date": "",
@@ -69,7 +69,7 @@
             "PwC License Name": "",
             "PwC License URL": "",
             "S2 Citation Count (December 2023)": 52,
-            "S2 Date": "",
+            "S2 Date": "2023-03-24",
             "GitHub Stars": 3200,
             "GitHub Topics": [],
             "Text Topics": [
@@ -92,7 +92,15 @@
                 "Medical treatment",
                 "Medication",
                 "Medication and healthcare"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 3365,
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "lavita/ChatDoctor-HealthCareMagic-100k",
+            "HF Downloads (May 2024)": 959,
+            "HF Likes (May 2024)": 28,
+            "HF Yaml License": "",
+            "S2 Citation Count (May 2024)": 119
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
@@ -160,7 +168,7 @@
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "Github Date": "",
-            "HF Date": "",
+            "HF Date": "2023-09-11",
             "HF Downloads (December 2023)": 0,
             "HF Likes (December 2023)": 2,
             "PwC Date": "",
@@ -168,7 +176,7 @@
             "PwC License Name": "",
             "PwC License URL": "",
             "S2 Citation Count (December 2023)": 52,
-            "S2 Date": "",
+            "S2 Date": "2023-03-24",
             "GitHub Stars": 3200,
             "GitHub Topics": [],
             "Text Topics": [
@@ -191,7 +199,15 @@
                 "Medical treatment",
                 "Medication",
                 "Medication and healthcare"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 3365,
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "lavita/ChatDoctor-iCliniq",
+            "HF Downloads (May 2024)": 43,
+            "HF Likes (May 2024)": 6,
+            "HF Yaml License": "",
+            "S2 Citation Count (May 2024)": 119
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
@@ -265,7 +281,7 @@
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "Github Date": "",
-            "HF Date": "",
+            "HF Date": "2023-05-07",
             "HF Downloads (December 2023)": 0,
             "HF Likes (December 2023)": 1,
             "PwC Date": "",
@@ -296,7 +312,15 @@
                 "Medical treatment",
                 "Medication",
                 "Medication and healthcare"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 3365,
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "wangrongsheng/GenMedGPT-5k-en",
+            "HF Downloads (May 2024)": 33,
+            "HF Likes (May 2024)": 2,
+            "HF Yaml License": "",
+            "S2 Citation Count (May 2024)": ""
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",

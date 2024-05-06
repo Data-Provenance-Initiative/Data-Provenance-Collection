@@ -53,7 +53,9 @@
                 "Animal behavior and characteristics"
             ],
             "GitHub License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": [
+                "mit"
+            ],
             "HF Config License": "",
             "PwC License Name": "",
             "Github Date": "",
@@ -66,7 +68,13 @@
             "S2 Citation Count (September 2023)": "",
             "S2 Date": "",
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Config": "default",
+            "HF Dataset": "theblackcat102/joke_explaination",
+            "HF Downloads (May 2024)": 15,
+            "HF Likes (May 2024)": 3,
+            "S2 Citation Count (May 2024)": ""
         },
         "Text Metrics": {
             "Num Dialogs": 377,

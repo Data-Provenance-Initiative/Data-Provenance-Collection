@@ -60,11 +60,17 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "svakulenk0/qrecc",
-            "HF Config": "svakulenk0--qrecc",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "cc-by-3.0"
+            ],
+            "PwC License Name": [
+                null
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "2020-10-10",
             "S2 Date": "2020-10-10",
             "GitHub License": "Apache License 2.0",
@@ -85,7 +91,11 @@
             "PwC Description": "QReCC contains 14K conversations with 81K question-answer pairs. QReCC is built on questions from TREC CAsT, QuAC and Google Natural Questions. While TREC CAsT and QuAC datasets contain multi-turn conversations, Natural Questions is not a conversational dataset. Questions in NQ dataset were used as prompts to create conversations explicitly balancing types of context-dependent questions, such as anaphora (co-references) and ellipsis.\n\nFor each query the authors collect query rewrites by resolving references, the resulting query rewrite is a context-independent version of the original (context-dependent) question. The rewritten query is then used to with a search engine to answer the question. Each query is also annotated with answer, link to the web page that used to produce the answer.\n\nEach conversation in the dataset contains a unique Conversation_no, Turn_no unique within a conversation, the original Question, Context, Rewrite and Answer with Answer_URL.",
             "S2 Citation Count (September 2023)": 80,
             "GitHub Stars": 104,
-            "GitHub Topics": []
+            "GitHub Topics": [],
+            "GitHub Stars (May 2024)": 129,
+            "HF Downloads (May 2024)": 50,
+            "HF Likes (May 2024)": 9,
+            "S2 Citation Count (May 2024)": 119
         },
         "Derived from Datasets": [
             "QuAC",
@@ -181,7 +191,11 @@
             "PwC Description": "",
             "S2 Citation Count (September 2023)": 30,
             "GitHub Stars": 93,
-            "GitHub Topics": []
+            "GitHub Topics": [],
+            "GitHub Stars (May 2024)": 95,
+            "HF Downloads (May 2024)": 11,
+            "HF Likes (May 2024)": 2,
+            "S2 Citation Count (May 2024)": 47
         },
         "Derived from Datasets": [
             "MS Marco retrieval corpus"

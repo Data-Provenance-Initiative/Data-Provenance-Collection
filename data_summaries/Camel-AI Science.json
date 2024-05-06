@@ -63,13 +63,15 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "camel-ai/physics",
-            "HF Config": "camel-ai--physics",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": [
+                "cc-by-nc-4.0"
+            ],
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Date": "2023-03-31",
+            "S2 Date": "",
             "GitHub License": "Apache License 2.0",
             "Text Topics": [
                 "Physics",
@@ -91,6 +93,7 @@
             "S2 Citation Count (September 2023)": 32,
             "GitHub Stars": 4338,
             "GitHub Topics": [
+                "agent",
                 "ai-societies",
                 "artificial-intelligence",
                 "communicative-ai",
@@ -99,7 +102,11 @@
                 "large-language-models",
                 "multi-agent-systems",
                 "natural-language-processing"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 4462,
+            "HF Downloads (May 2024)": 492,
+            "HF Likes (May 2024)": 46,
+            "S2 Citation Count (May 2024)": 188
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
@@ -169,13 +176,15 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "camel-ai/chemistry",
-            "HF Config": "camel-ai--chemistry",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": [
+                "cc-by-nc-4.0"
+            ],
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Date": "2023-03-31",
+            "S2 Date": "",
             "GitHub License": "Apache License 2.0",
             "Text Topics": [
                 "Chemistry",
@@ -190,13 +199,14 @@
                 "Chemical reactions"
             ],
             "Github Date": "",
-            "HF Date": "2023-04-11",
+            "HF Date": "2023-04-16",
             "HF Downloads (September 2023)": 261,
             "HF Likes (September 2023)": 17,
             "PwC Description": "",
             "S2 Citation Count (September 2023)": 32,
             "GitHub Stars": 4338,
             "GitHub Topics": [
+                "agent",
                 "ai-societies",
                 "artificial-intelligence",
                 "communicative-ai",
@@ -205,7 +215,11 @@
                 "large-language-models",
                 "multi-agent-systems",
                 "natural-language-processing"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 4462,
+            "HF Downloads (May 2024)": 207,
+            "HF Likes (May 2024)": 26,
+            "S2 Citation Count (May 2024)": 188
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
@@ -275,13 +289,15 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "camel-ai/biology",
-            "HF Config": "camel-ai--biology",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": [
+                "cc-by-nc-4.0"
+            ],
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Date": "2023-03-31",
+            "S2 Date": "",
             "GitHub License": "Apache License 2.0",
             "Text Topics": [
                 "Biology",
@@ -296,13 +312,14 @@
                 "Evolutionary biology"
             ],
             "Github Date": "",
-            "HF Date": "2023-04-11",
+            "HF Date": "2023-04-16",
             "HF Downloads (September 2023)": 261,
             "HF Likes (September 2023)": 17,
             "PwC Description": "",
             "S2 Citation Count (September 2023)": 32,
             "GitHub Stars": 4338,
             "GitHub Topics": [
+                "agent",
                 "ai-societies",
                 "artificial-intelligence",
                 "communicative-ai",
@@ -311,7 +328,11 @@
                 "large-language-models",
                 "multi-agent-systems",
                 "natural-language-processing"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 4462,
+            "HF Downloads (May 2024)": 253,
+            "HF Likes (May 2024)": 26,
+            "S2 Citation Count (May 2024)": 188
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
@@ -381,13 +402,15 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "camel-ai/math",
-            "HF Config": "camel-ai--math",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": [
+                "cc-by-nc-4.0"
+            ],
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Date": "2023-03-31",
+            "S2 Date": "",
             "GitHub License": "Apache License 2.0",
             "Text Topics": [
                 "Chaos theory",
@@ -420,6 +443,7 @@
             "S2 Citation Count (September 2023)": 32,
             "GitHub Stars": 4338,
             "GitHub Topics": [
+                "agent",
                 "ai-societies",
                 "artificial-intelligence",
                 "communicative-ai",
@@ -428,7 +452,12 @@
                 "large-language-models",
                 "multi-agent-systems",
                 "natural-language-processing"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 4462,
+            "HF Date": "2023-04-10",
+            "HF Downloads (May 2024)": 851,
+            "HF Likes (May 2024)": 77,
+            "S2 Citation Count (May 2024)": 188
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
@@ -498,19 +527,22 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "camel-ai/code",
-            "HF Config": "camel-ai--code",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": [
+                "cc-by-nc-4.0"
+            ],
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Date": "2023-03-31",
+            "S2 Date": "",
             "GitHub License": "Apache License 2.0",
             "Github Date": "",
             "PwC Description": "",
             "S2 Citation Count (September 2023)": 32,
             "GitHub Stars": 4338,
             "GitHub Topics": [
+                "agent",
                 "ai-societies",
                 "artificial-intelligence",
                 "communicative-ai",
@@ -519,7 +551,12 @@
                 "large-language-models",
                 "multi-agent-systems",
                 "natural-language-processing"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 4462,
+            "HF Date": "2023-04-03",
+            "HF Downloads (May 2024)": 40,
+            "HF Likes (May 2024)": 31,
+            "S2 Citation Count (May 2024)": 188
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
@@ -589,19 +626,22 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "camel-ai/ai_society_translated",
-            "HF Config": "camel-ai--ai-society-translated",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": [
+                "cc-by-nc-4.0"
+            ],
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Date": "2023-03-31",
+            "S2 Date": "",
             "GitHub License": "Apache License 2.0",
             "Github Date": "",
             "PwC Description": "",
             "S2 Citation Count (September 2023)": 32,
             "GitHub Stars": 4338,
             "GitHub Topics": [
+                "agent",
                 "ai-societies",
                 "artificial-intelligence",
                 "communicative-ai",
@@ -610,7 +650,12 @@
                 "large-language-models",
                 "multi-agent-systems",
                 "natural-language-processing"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 4462,
+            "HF Date": "2023-04-07",
+            "HF Downloads (May 2024)": 44,
+            "HF Likes (May 2024)": 16,
+            "S2 Citation Count (May 2024)": 188
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
@@ -680,19 +725,22 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "camel-ai/ai_society_translated",
-            "HF Config": "camel-ai--ai-society-translated",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": [
+                "cc-by-nc-4.0"
+            ],
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Date": "2023-03-31",
+            "S2 Date": "",
             "GitHub License": "Apache License 2.0",
             "Github Date": "",
             "PwC Description": "",
             "S2 Citation Count (September 2023)": 32,
             "GitHub Stars": 4338,
             "GitHub Topics": [
+                "agent",
                 "ai-societies",
                 "artificial-intelligence",
                 "communicative-ai",
@@ -701,7 +749,12 @@
                 "large-language-models",
                 "multi-agent-systems",
                 "natural-language-processing"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 4462,
+            "HF Date": "2023-04-07",
+            "HF Downloads (May 2024)": 44,
+            "HF Likes (May 2024)": 16,
+            "S2 Citation Count (May 2024)": 188
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
@@ -771,19 +824,22 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "camel-ai/ai_society_translated",
-            "HF Config": "camel-ai--ai-society-translated",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": [
+                "cc-by-nc-4.0"
+            ],
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Date": "2023-03-31",
+            "S2 Date": "",
             "GitHub License": "Apache License 2.0",
             "Github Date": "",
             "PwC Description": "",
             "S2 Citation Count (September 2023)": 32,
             "GitHub Stars": 4338,
             "GitHub Topics": [
+                "agent",
                 "ai-societies",
                 "artificial-intelligence",
                 "communicative-ai",
@@ -792,7 +848,12 @@
                 "large-language-models",
                 "multi-agent-systems",
                 "natural-language-processing"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 4462,
+            "HF Date": "2023-04-07",
+            "HF Downloads (May 2024)": 44,
+            "HF Likes (May 2024)": 16,
+            "S2 Citation Count (May 2024)": 188
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
@@ -862,19 +923,22 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "camel-ai/ai_society_translated",
-            "HF Config": "camel-ai--ai-society-translated",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": [
+                "cc-by-nc-4.0"
+            ],
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Date": "2023-03-31",
+            "S2 Date": "",
             "GitHub License": "Apache License 2.0",
             "Github Date": "",
             "PwC Description": "",
             "S2 Citation Count (September 2023)": 32,
             "GitHub Stars": 4338,
             "GitHub Topics": [
+                "agent",
                 "ai-societies",
                 "artificial-intelligence",
                 "communicative-ai",
@@ -883,7 +947,12 @@
                 "large-language-models",
                 "multi-agent-systems",
                 "natural-language-processing"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 4462,
+            "HF Date": "2023-04-07",
+            "HF Downloads (May 2024)": 44,
+            "HF Likes (May 2024)": 16,
+            "S2 Citation Count (May 2024)": 188
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
@@ -953,19 +1022,22 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "camel-ai/ai_society_translated",
-            "HF Config": "camel-ai--ai-society-translated",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": [
+                "cc-by-nc-4.0"
+            ],
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Date": "2023-03-31",
+            "S2 Date": "",
             "GitHub License": "Apache License 2.0",
             "Github Date": "",
             "PwC Description": "",
             "S2 Citation Count (September 2023)": 32,
             "GitHub Stars": 4338,
             "GitHub Topics": [
+                "agent",
                 "ai-societies",
                 "artificial-intelligence",
                 "communicative-ai",
@@ -974,7 +1046,12 @@
                 "large-language-models",
                 "multi-agent-systems",
                 "natural-language-processing"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 4462,
+            "HF Date": "2023-04-07",
+            "HF Downloads (May 2024)": 44,
+            "HF Likes (May 2024)": 16,
+            "S2 Citation Count (May 2024)": 188
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
@@ -1044,19 +1121,22 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "camel-ai/ai_society_translated",
-            "HF Config": "camel-ai--ai-society-translated",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": [
+                "cc-by-nc-4.0"
+            ],
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Date": "2023-03-31",
+            "S2 Date": "",
             "GitHub License": "Apache License 2.0",
             "Github Date": "",
             "PwC Description": "",
             "S2 Citation Count (September 2023)": 32,
             "GitHub Stars": 4338,
             "GitHub Topics": [
+                "agent",
                 "ai-societies",
                 "artificial-intelligence",
                 "communicative-ai",
@@ -1065,7 +1145,12 @@
                 "large-language-models",
                 "multi-agent-systems",
                 "natural-language-processing"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 4462,
+            "HF Date": "2023-04-07",
+            "HF Downloads (May 2024)": 44,
+            "HF Likes (May 2024)": 16,
+            "S2 Citation Count (May 2024)": 188
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
@@ -1135,19 +1220,22 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "camel-ai/ai_society_translated",
-            "HF Config": "camel-ai--ai-society-translated",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": [
+                "cc-by-nc-4.0"
+            ],
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Date": "2023-03-31",
+            "S2 Date": "",
             "GitHub License": "Apache License 2.0",
             "Github Date": "",
             "PwC Description": "",
             "S2 Citation Count (September 2023)": 32,
             "GitHub Stars": 4338,
             "GitHub Topics": [
+                "agent",
                 "ai-societies",
                 "artificial-intelligence",
                 "communicative-ai",
@@ -1156,7 +1244,12 @@
                 "large-language-models",
                 "multi-agent-systems",
                 "natural-language-processing"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 4462,
+            "HF Date": "2023-04-07",
+            "HF Downloads (May 2024)": 44,
+            "HF Likes (May 2024)": 16,
+            "S2 Citation Count (May 2024)": 188
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
@@ -1226,19 +1319,22 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "camel-ai/ai_society_translated",
-            "HF Config": "camel-ai--ai-society-translated",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": [
+                "cc-by-nc-4.0"
+            ],
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Date": "2023-03-31",
+            "S2 Date": "",
             "GitHub License": "Apache License 2.0",
             "Github Date": "",
             "PwC Description": "",
             "S2 Citation Count (September 2023)": 32,
             "GitHub Stars": 4338,
             "GitHub Topics": [
+                "agent",
                 "ai-societies",
                 "artificial-intelligence",
                 "communicative-ai",
@@ -1247,7 +1343,12 @@
                 "large-language-models",
                 "multi-agent-systems",
                 "natural-language-processing"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 4462,
+            "HF Date": "2023-04-07",
+            "HF Downloads (May 2024)": 44,
+            "HF Likes (May 2024)": 16,
+            "S2 Citation Count (May 2024)": 188
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
@@ -1317,19 +1418,22 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "camel-ai/ai_society_translated",
-            "HF Config": "camel-ai--ai-society-translated",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": [
+                "cc-by-nc-4.0"
+            ],
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Date": "2023-03-31",
+            "S2 Date": "",
             "GitHub License": "Apache License 2.0",
             "Github Date": "",
             "PwC Description": "",
             "S2 Citation Count (September 2023)": 32,
             "GitHub Stars": 4338,
             "GitHub Topics": [
+                "agent",
                 "ai-societies",
                 "artificial-intelligence",
                 "communicative-ai",
@@ -1338,7 +1442,12 @@
                 "large-language-models",
                 "multi-agent-systems",
                 "natural-language-processing"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 4462,
+            "HF Date": "2023-04-07",
+            "HF Downloads (May 2024)": 44,
+            "HF Likes (May 2024)": 16,
+            "S2 Citation Count (May 2024)": 188
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
@@ -1408,19 +1517,22 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "camel-ai/ai_society_translated",
-            "HF Config": "camel-ai--ai-society-translated",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": [
+                "cc-by-nc-4.0"
+            ],
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Date": "2023-03-31",
+            "S2 Date": "",
             "GitHub License": "Apache License 2.0",
             "Github Date": "",
             "PwC Description": "",
             "S2 Citation Count (September 2023)": 32,
             "GitHub Stars": 4338,
             "GitHub Topics": [
+                "agent",
                 "ai-societies",
                 "artificial-intelligence",
                 "communicative-ai",
@@ -1429,7 +1541,12 @@
                 "large-language-models",
                 "multi-agent-systems",
                 "natural-language-processing"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 4462,
+            "HF Date": "2023-04-07",
+            "HF Downloads (May 2024)": 44,
+            "HF Likes (May 2024)": 16,
+            "S2 Citation Count (May 2024)": 188
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
