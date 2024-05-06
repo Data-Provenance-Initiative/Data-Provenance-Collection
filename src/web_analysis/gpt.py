@@ -36,12 +36,15 @@ class GPT(object):
         self.USER_PROMPT_1 = "Are you clear about your role?"
         self.ASSISTANT_PROMPT_1 = "Sure, I'm ready to help you with your task. Please provide me with the necessary information to get started."
         self.GUIDELINES_PROMPT_TEMPLATE = self.load_prompt_from_json()
+        self.cache_file_path = 'data/gpt-response-cache.json'
+        self.load_cache()
 
 
                                                 ####### loading methods #######
 
     def load_API_key(self):
         try:
+            load_dotenv(dotenv_path='data/.env')
             openai.api_key = os.environ['OPENAI_API_KEY']
             print("OpenAI API key successfully loaded!")
         except KeyError:
@@ -68,6 +71,17 @@ class GPT(object):
         print(f"Prompt with key '{self.prompt_id}' not found. Using default prompt: 'scraping-policy'.")
         self.prompt_id = 'scraping-policy'
         return prompts[0]['content']
+
+    def load_cache(self):
+        try:
+            with open(self.cache_file_path, 'r') as file:
+                self.cache = json.load(file)
+        except FileNotFoundError:
+            self.cache = {}
+
+    def save_cache(self):
+        with open(self.cache_file_path, 'w') as file:
+            json.dump(self.cache, file, indent=4)
 
                                                 
                                                 ####### make OpeanAI requests #######
@@ -144,14 +158,45 @@ class GPT(object):
         Returns:
         - list of str: List of responses from the OpenAI Chat API, each containing the completion for the corresponding prompt in the batch.
         """
-        if custom_guidelines_prompt != None:
-            try:
-                tasks = [self.make_openai_request_async(session, custom_guidelines_prompt.format(prompt)) for prompt in batch]
-            except Exception as e:
-                print(f"Failed to format custom guidlines. Make sure guidelines are formatted with empty brackets for where prompts will be inerted. {e}")
-        else:
-            tasks = [self.make_openai_request_async(session, self.GUIDELINES_PROMPT_TEMPLATE.format(prompt)) for prompt in batch]
-        return await asyncio.gather(*tasks)
+        responses = []
+        tasks = []
+
+        for prompt in batch:
+            # Determine the formatted prompt
+            if custom_guidelines_prompt is not None:
+                formatted_prompt = custom_guidelines_prompt.format(prompt)
+            else:
+                formatted_prompt = self.GUIDELINES_PROMPT_TEMPLATE.format(prompt)
+            
+            # Check cache for formatted prompt
+            if formatted_prompt in self.cache:
+                responses.append(self.cache[formatted_prompt])
+            else:
+                # Create an async task if not in cache
+                tasks.append((formatted_prompt, asyncio.create_task(self.make_openai_request_async(session, formatted_prompt))))
+
+        # Execute all tasks that were not found in cache
+        api_responses = await asyncio.gather(*[task[1] for task in tasks])
+
+        # Update cache with new responses and collect all responses in order
+        full_responses = []
+        for i, (formatted_prompt, task) in enumerate(tasks):
+            response = api_responses[i]
+            if response:
+                self.cache[formatted_prompt] = response
+                self.save_cache()
+
+        # Collect responses in the order of the original batch
+        for prompt in batch:
+            if custom_guidelines_prompt is not None:
+                formatted_prompt = custom_guidelines_prompt.format(prompt)
+            else:
+                formatted_prompt = self.GUIDELINES_PROMPT_TEMPLATE.format(prompt)
+            
+            if formatted_prompt in self.cache:
+                full_responses.append(self.cache[formatted_prompt])
+
+        return full_responses
 
     async def process_prompts_in_batches_async(self, prompts, batch_size=10, custom_guidelines_prompt=None):
         """
@@ -261,3 +306,13 @@ class GPT(object):
 
     def get_prompt_key(self):
         return self.prompt_id
+
+    def clear_cache(self):
+        """
+        Clears the entire cache, both in-memory and in the file.
+
+        Returns:
+        - None
+        """
+        self.cache = {} 
+        self.save_cache()
