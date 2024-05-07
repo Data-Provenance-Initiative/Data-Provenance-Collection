@@ -76,7 +76,17 @@
             "S2 Date": "2023-05-09",
             "GitHub License": "Apache License 2.0",
             "GitHub Stars": 18,
-            "GitHub Topics": []
+            "GitHub Topics": [],
+            "GitHub Stars (May 2024)": 24,
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "codeparrot/self-instruct-starcoder",
+            "HF Downloads (May 2024)": 194,
+            "HF Likes (May 2024)": 42,
+            "HF Yaml License": [
+                "bigscience-openrail-m"
+            ],
+            "S2 Citation Count (May 2024)": 284
         },
         "Text Metrics": {
             "Num Dialogs": 771,

@@ -72,9 +72,15 @@
             "HF Dataset": "adversarial_qa",
             "HF Config": "adversarialQA",
             "HF Config License": "",
-            "HF Yaml License": "CC BY-SA 4.0",
-            "PwC License Name": "CC BY-SA 3.0",
-            "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "HF Yaml License": [
+                "cc-by-sa-4.0"
+            ],
+            "PwC License Name": [
+                "CC BY-SA 3.0"
+            ],
+            "PwC License URL": [
+                "https://creativecommons.org/licenses/by-sa/3.0/"
+            ],
             "PwC Date": "2020-02-02",
             "S2 Date": "2020-02-02",
             "GitHub License": "",
@@ -85,7 +91,7 @@
             "PwC Description": "We have created three new Reading Comprehension datasets constructed using an adversarial model-in-the-loop.\n\nWe use three different models; BiDAF (Seo et al., 2016), BERTLarge (Devlin et al., 2018), and RoBERTaLarge (Liu et al., 2019) in the annotation loop and construct three datasets; D(BiDAF), D(BERT), and D(RoBERTa), each with 10,000 training examples, 1,000 validation, and 1,000 test examples.\n\nThe adversarial human annotation paradigm ensures that these datasets consist of questions that current state-of-the-art models (at least the ones used as adversaries in the annotation loop) find challenging. The three AdversarialQA round 1 datasets provide a training and evaluation resource for such methods.",
             "S2 Citation Count (September 2023)": 110,
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Reading comprehension",
                 "Genetics",
@@ -95,7 +101,11 @@
                 "Economics",
                 "Education",
                 "Politics"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 682,
+            "HF Likes (May 2024)": 32,
+            "S2 Citation Count (May 2024)": 137
         },
         "Derived from Datasets": [
             "SQuADv1"
@@ -172,10 +182,16 @@
         "Inferred Metadata": {
             "HF Dataset": "amazon_polarity",
             "HF Config": "amazon_polarity",
-            "HF Config License": "Apache License 2.0",
-            "HF Yaml License": "Apache License 2.0",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "HF Config License": "",
+            "HF Yaml License": [
+                "apache-2.0"
+            ],
+            "PwC License Name": [
+                null
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "2015-09-04",
             "S2 Date": "2015-09-04",
             "GitHub License": "",
@@ -186,7 +202,7 @@
             "PwC Description": "The Yahoo! Answers topic classification dataset is constructed using 10 largest main categories. Each class contains 140,000 training samples and 6,000 testing samples. Therefore, the total number of training samples is 1,400,000 and testing samples 60,000 in this dataset. From all the answers and other meta-information, we only used the best answer content and the main category information.",
             "S2 Citation Count (September 2023)": 4622,
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Book reviews",
                 "Customer satisfaction",
@@ -195,7 +211,11 @@
                 "Music",
                 "Entertainment",
                 "Product review analysis"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 4805,
+            "HF Likes (May 2024)": 36,
+            "S2 Citation Count (May 2024)": 5146
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
@@ -257,7 +277,9 @@
             "HF Dataset": "app_reviews",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "Unspecified",
+            "HF Yaml License": [
+                "unknown"
+            ],
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -270,7 +292,7 @@
             "PwC Description": "",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "User feedback",
                 "User experience",
@@ -281,7 +303,11 @@
                 "Sentiment analysis",
                 "App review",
                 "Review rating"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 1264,
+            "HF Likes (May 2024)": 21,
+            "S2 Citation Count (May 2024)": ""
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],
@@ -354,9 +380,15 @@
             "HF Dataset": "cos_e",
             "HF Config": "v1.0",
             "HF Config License": "",
-            "HF Yaml License": "Unspecified",
-            "PwC License Name": "Unspecified",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "unknown"
+            ],
+            "PwC License Name": [
+                "Unknown"
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "",
             "S2 Date": "2019-06-06",
             "GitHub License": "BSD 3-Clause License",
@@ -379,7 +411,11 @@
                 "Entertainment",
                 "Travel",
                 "Common sense reasoning"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 144,
+            "HF Downloads (May 2024)": 480,
+            "HF Likes (May 2024)": 9,
+            "S2 Citation Count (May 2024)": 450
         },
         "Derived from Datasets": [
             "CommonSenseQA"
@@ -421,7 +457,9 @@
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
         },
-        "Text Sources": ["dbpedia"],
+        "Text Sources": [
+            "dbpedia"
+        ],
         "Model Generated": [],
         "Creators": [
             "University of Leipzig",
@@ -449,10 +487,16 @@
         "Inferred Metadata": {
             "HF Dataset": "dbpedia_14",
             "HF Config": "dbpedia_14",
-            "HF Config License": "CC BY-SA 3.0",
-            "HF Yaml License": "CC BY-SA 3.0",
-            "PwC License Name": "CC BY-SA 3.0",
-            "PwC License URL": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+            "HF Config License": "",
+            "HF Yaml License": [
+                "cc-by-sa-3.0"
+            ],
+            "PwC License Name": [
+                "CC BY-SA 3.0"
+            ],
+            "PwC License URL": [
+                "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+            ],
             "PwC Date": "2007-01-01",
             "S2 Date": "",
             "GitHub License": "",
@@ -463,7 +507,7 @@
             "PwC Description": "DBpedia (from \"DB\" for \"database\") is a project aiming to extract structured content from the information created in the Wikipedia project. DBpedia allows users to semantically query relationships and properties of Wikipedia resources, including links to other related datasets.",
             "S2 Citation Count (September 2023)": 2816,
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Geography",
                 "Entertainment",
@@ -475,7 +519,11 @@
                 "Music",
                 "History",
                 "Architecture"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 5157,
+            "HF Likes (May 2024)": 18,
+            "S2 Citation Count (May 2024)": 3011
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],
@@ -546,7 +594,9 @@
             "HF Dataset": "dream",
             "HF Config": "plain_text",
             "HF Config License": "",
-            "HF Yaml License": "Unspecified",
+            "HF Yaml License": [
+                "unknown"
+            ],
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -573,7 +623,11 @@
                 "Time management",
                 "Daily routine",
                 "Communication"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 75,
+            "HF Downloads (May 2024)": 1090,
+            "HF Likes (May 2024)": 8,
+            "S2 Citation Count (May 2024)": 261
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
@@ -645,11 +699,17 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "duorc",
-            "HF Config": "SelfRC",
-            "HF Config License": "Custom",
-            "HF Yaml License": "",
-            "PwC License Name": "Unspecified",
-            "PwC License URL": "",
+            "HF Config": "ParaphraseRC",
+            "HF Config License": "",
+            "HF Yaml License": [
+                "mit"
+            ],
+            "PwC License Name": [
+                "Unknown"
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "2018-04-21",
             "S2 Date": "2018-04-01",
             "GitHub License": "MIT License",
@@ -676,7 +736,11 @@
                 "Movie analysis",
                 "Trivia",
                 "Movie plot summary"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 16,
+            "HF Downloads (May 2024)": 173,
+            "HF Likes (May 2024)": 28,
+            "S2 Citation Count (May 2024)": 182
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -748,11 +812,17 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "duorc",
-            "HF Config": "SelfRC",
-            "HF Config License": "Custom",
-            "HF Yaml License": "",
-            "PwC License Name": "Unspecified",
-            "PwC License URL": "",
+            "HF Config": "ParaphraseRC",
+            "HF Config License": "",
+            "HF Yaml License": [
+                "mit"
+            ],
+            "PwC License Name": [
+                "Unknown"
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "2018-04-21",
             "S2 Date": "2018-04-01",
             "GitHub License": "MIT License",
@@ -777,7 +847,11 @@
                 "Film analysis",
                 "Character development",
                 "Science fiction"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 16,
+            "HF Downloads (May 2024)": 173,
+            "HF Likes (May 2024)": 28,
+            "S2 Citation Count (May 2024)": 182
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -849,9 +923,15 @@
             "HF Dataset": "hotpot_qa",
             "HF Config": "distractor",
             "HF Config License": "",
-            "HF Yaml License": "",
-            "PwC License Name": "CC BY-SA 4.0",
-            "PwC License URL": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "HF Yaml License": [
+                "cc-by-sa-4.0"
+            ],
+            "PwC License Name": [
+                "CC BY-SA 4.0"
+            ],
+            "PwC License URL": [
+                "https://creativecommons.org/licenses/by-sa/4.0/"
+            ],
             "PwC Date": "2018-01-01",
             "S2 Date": "2018-09-25",
             "GitHub License": "Apache License 2.0",
@@ -873,7 +953,11 @@
                 "General knowledge",
                 "Entertainment",
                 "Entertainment industry"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 400,
+            "HF Downloads (May 2024)": 32759,
+            "HF Likes (May 2024)": 59,
+            "S2 Citation Count (May 2024)": 1547
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -944,9 +1028,15 @@
             "HF Dataset": "qasc",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "CC BY 4.0",
-            "PwC License Name": "Unspecified",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "cc-by-4.0"
+            ],
+            "PwC License Name": [
+                "Unknown"
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "2019-10-25",
             "S2 Date": "2019-10-25",
             "GitHub License": "",
@@ -957,7 +1047,7 @@
             "PwC Description": "QASC is a question-answering dataset with a focus on sentence composition. It consists of 9,980 8-way multiple-choice questions about grade school science (8,134 train, 926 dev, 920 test), and comes with a corpus of 17M sentences.",
             "S2 Citation Count (September 2023)": 199,
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Logic",
                 "General knowledge",
@@ -968,7 +1058,11 @@
                 "Chemistry",
                 "Optics",
                 "Engineering"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 269,
+            "HF Likes (May 2024)": 9,
+            "S2 Citation Count (May 2024)": 251
         },
         "Derived from Datasets": [
             "WorldTree corpus"
@@ -1043,9 +1137,15 @@
             "HF Dataset": "quail",
             "HF Config": "quail",
             "HF Config License": "",
-            "HF Yaml License": "CC BY-NC-SA 4.0",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "cc-by-nc-sa-4.0"
+            ],
+            "PwC License Name": [
+                null
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "",
             "S2 Date": "2020-04-03",
             "GitHub License": "",
@@ -1056,7 +1156,7 @@
             "PwC Description": "A new kind of question-answering dataset that combines commonsense, text-based, and unanswerable questions, balanced for different genres and reasoning types. Reasoning type annotation for 9 types of reasoning: temporal, causality, factoid, coreference, character properties, their belief states, subsequent entity states, event durations, and unanswerable. Genres: CC license fiction, Voice of America news, blogs, user stories from Quora 800 texts, 18 questions for each (~14K questions).",
             "S2 Citation Count (September 2023)": 76,
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Elections",
                 "Theater and performing arts",
@@ -1065,7 +1165,11 @@
                 "Current events",
                 "International relations",
                 "Diplomacy"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 1461,
+            "HF Likes (May 2024)": 5,
+            "S2 Citation Count (May 2024)": 94
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],
@@ -1131,8 +1235,12 @@
             "HF Config": "default",
             "HF Config License": "",
             "HF Yaml License": "",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "PwC License Name": [
+                null
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "2018-11-20",
             "S2 Date": "2020-04-03",
             "GitHub License": "",
@@ -1143,7 +1251,7 @@
             "PwC Description": "QuaRel is a crowdsourced dataset of 2771 multiple-choice story questions, including their logical forms.",
             "S2 Citation Count (September 2023)": 76,
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Logic",
                 "Decision-making",
@@ -1153,7 +1261,11 @@
                 "Physics",
                 "Transportation",
                 "Critical thinking"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 809,
+            "HF Likes (May 2024)": 2,
+            "S2 Citation Count (May 2024)": 94
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],
@@ -1223,9 +1335,15 @@
             "HF Dataset": "quartz",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "CC BY 4.0",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "cc-by-4.0"
+            ],
+            "PwC License Name": [
+                null
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "2019-09-08",
             "S2 Date": "2019-09-08",
             "GitHub License": "",
@@ -1236,7 +1354,7 @@
             "PwC Description": "QuaRTz is a crowdsourced dataset of 3864 multiple-choice questions about open domain qualitative relationships. Each question is paired with one of 405 different background sentences (sometimes short paragraphs).\n\nThe QuaRTz dataset V1 contains 3864 questions about open domain qualitative relationships. Each question is paired with one of 405 different background sentences (sometimes short paragraphs).\n\nThe dataset is split into train (2696), dev (384) and test (784). A background sentence will only appear in a single split.\n\nEach line in a dataset file is a question specified as a json object, e.g., (with extra whitespace for readability).",
             "S2 Citation Count (September 2023)": 74,
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Geology",
                 "Population dynamics",
@@ -1245,7 +1363,11 @@
                 "Geography",
                 "Health",
                 "pH scale"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 354,
+            "HF Likes (May 2024)": 6,
+            "S2 Citation Count (May 2024)": 84
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -1320,9 +1442,15 @@
             "HF Dataset": "quoref",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "CC BY 4.0",
-            "PwC License Name": "CC BY 4.0",
-            "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
+            "HF Yaml License": [
+                "cc-by-4.0"
+            ],
+            "PwC License Name": [
+                "CC BY 4.0"
+            ],
+            "PwC License URL": [
+                "https://creativecommons.org/licenses/by/4.0/"
+            ],
             "PwC Date": "2019-08-16",
             "S2 Date": "",
             "GitHub License": "",
@@ -1333,7 +1461,7 @@
             "PwC Description": "Quoref is a QA dataset which tests the coreferential reasoning capability of reading comprehension systems. In this span-selection benchmark containing 24K questions over 4.7K paragraphs from Wikipedia, a system must resolve hard coreferences before selecting the appropriate span(s) in the paragraphs for answering questions.",
             "S2 Citation Count (September 2023)": 136,
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Information retrieval",
                 "Character analysis",
@@ -1342,7 +1470,11 @@
                 "Art history",
                 "Literature",
                 "History"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 679,
+            "HF Likes (May 2024)": 4,
+            "S2 Citation Count (May 2024)": 156
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -1421,9 +1553,15 @@
             "HF Dataset": "race",
             "HF Config": "all",
             "HF Config License": "",
-            "HF Yaml License": "Unspecified",
-            "PwC License Name": "Academic Research Purposes Only",
-            "PwC License URL": "https://www.cs.cmu.edu/~glai1/data/race/#:~:text=notes",
+            "HF Yaml License": [
+                "other"
+            ],
+            "PwC License Name": [
+                "Custom (research-only, non-commercial)"
+            ],
+            "PwC License URL": [
+                "https://www.cs.cmu.edu/~glai1/data/race/#:~:text=notes"
+            ],
             "PwC Date": "2017-01-01",
             "S2 Date": "2017-04-15",
             "GitHub License": "",
@@ -1434,7 +1572,7 @@
             "PwC Description": "The ReAding Comprehension dataset from Examinations (RACE) dataset is a machine reading comprehension dataset consisting of 27,933 passages and 97,867 questions from English exams, targeting Chinese students aged 12-18. RACE consists of two subsets, RACE-M and RACE-H, from middle school and high school exams, respectively. RACE-M has 28,293 questions and RACE-H has 69,574. Each question is associated with 4 candidate answers, one of which is correct. The data generation process of RACE differs from most machine reading comprehension datasets - instead of generating questions and answers by heuristics or crowd-sourcing, questions in RACE are specifically designed for testing human reading skills, and are created by domain experts.",
             "S2 Citation Count (September 2023)": 927,
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Communication",
                 "History",
@@ -1443,7 +1581,11 @@
                 "Health and wellness",
                 "Daily routine",
                 "Technology"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 2104,
+            "HF Likes (May 2024)": 37,
+            "S2 Citation Count (May 2024)": 1091
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -1518,10 +1660,16 @@
         "Inferred Metadata": {
             "HF Dataset": "ropes",
             "HF Config": "plain_text",
-            "HF Config License": "CC BY 4.0",
-            "HF Yaml License": "CC BY 4.0",
-            "PwC License Name": "CC BY 4.0",
-            "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
+            "HF Config License": "",
+            "HF Yaml License": [
+                "cc-by-4.0"
+            ],
+            "PwC License Name": [
+                "CC BY 4.0"
+            ],
+            "PwC License URL": [
+                "https://creativecommons.org/licenses/by/4.0/"
+            ],
             "PwC Date": "2019-08-16",
             "S2 Date": "2019-08-16",
             "GitHub License": "",
@@ -1532,7 +1680,7 @@
             "PwC Description": "ROPES is a QA dataset which tests a system's ability to apply knowledge from a passage of text to a new situation. A system is presented a background passage containing a causal or qualitative relation(s), a novel situation that uses this background, and questions that require reasoning about effects of the relationships in the back-ground passage in the context of the situation.",
             "S2 Citation Count (September 2023)": 92,
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Biology",
                 "Ecology",
@@ -1544,7 +1692,11 @@
                 "Geology",
                 "Science",
                 "Agriculture"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 159,
+            "HF Likes (May 2024)": 40,
+            "S2 Citation Count (May 2024)": 100
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -1613,9 +1765,15 @@
             "HF Dataset": "sciq",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "CC BY-NC 3.0",
-            "PwC License Name": "Unspecified",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "cc-by-nc-3.0"
+            ],
+            "PwC License Name": [
+                "Unknown"
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "2017-07-19",
             "S2 Date": "2017-07-19",
             "GitHub License": "",
@@ -1626,7 +1784,7 @@
             "PwC Description": "The SciQ dataset contains 13,679 crowdsourced science exam questions about Physics, Chemistry and Biology, among others. The questions are in multiple-choice format with 4 answer options each. For the majority of the questions, an additional paragraph with supporting evidence for the correct answer is provided.",
             "S2 Citation Count (September 2023)": 142,
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Science",
                 "Genetics",
@@ -1637,7 +1795,11 @@
                 "Geography",
                 "Cell biology",
                 "Physics"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 4520,
+            "HF Likes (May 2024)": 75,
+            "S2 Citation Count (May 2024)": 211
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -1707,8 +1869,12 @@
             "HF Config": "default",
             "HF Config License": "",
             "HF Yaml License": "",
-            "PwC License Name": "Unspecified",
-            "PwC License URL": "",
+            "PwC License Name": [
+                "Unknown"
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "2019-04-22",
             "S2 Date": "",
             "GitHub License": "",
@@ -1719,7 +1885,7 @@
             "PwC Description": "Social Interaction QA (SIQA) is a question-answering benchmark for testing social commonsense intelligence. Contrary to many prior benchmarks that focus on physical or taxonomic knowledge, Social IQa focuses on reasoning about people’s actions and their social implications. For example, given an action like \"Jesse saw a concert\" and a question like \"Why did Jesse do this?\", humans can easily infer that Jesse wanted \"to see their favorite performer\" or \"to enjoy the music\", and not \"to see what's happening inside\" or \"to see if it works\". The actions in Social IQa span a wide variety of social situations, and answer candidates contain both human-curated answers and adversarially-filtered machine-generated candidates. Social IQa contains over 37,000 QA pairs for evaluating models’ abilities to reason about the social implications of everyday events and situations.",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Interpersonal relationships",
                 "Personal achievements",
@@ -1729,7 +1895,11 @@
                 "Sports",
                 "Relationships and emotions",
                 "Social interactions"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 17549,
+            "HF Likes (May 2024)": 7,
+            "S2 Citation Count (May 2024)": ""
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -1797,9 +1967,15 @@
             "HF Dataset": "web_questions",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "Unspecified",
-            "PwC License Name": "Unspecified",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "unknown"
+            ],
+            "PwC License Name": [
+                "Unknown"
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "2013-01-01",
             "S2 Date": "2013-10-01",
             "GitHub License": "",
@@ -1810,7 +1986,7 @@
             "PwC Description": "The WebQuestions dataset is a question answering dataset using Freebase as the knowledge base and contains 6,642 question-answer pairs. It was created by crawling questions through the Google Suggest API, and then obtaining answers using Amazon Mechanical Turk. The original split uses 3,778 examples for training and 2,032 for testing. All answers are defined as Freebase entities.\n\nExample questions (answers) in the dataset include “Where did Edgar Allan Poe died?” (baltimore) or “What degrees did Barack Obama get?” (bachelor_of_arts, juris_doctor).",
             "S2 Citation Count (September 2023)": 1594,
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Sports",
                 "General knowledge",
@@ -1819,7 +1995,11 @@
                 "Entertainment",
                 "Currency",
                 "Geography"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 4713,
+            "HF Likes (May 2024)": 25,
+            "S2 Citation Count (May 2024)": 1730
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -1885,10 +2065,16 @@
         "Inferred Metadata": {
             "HF Dataset": "wiki_bio",
             "HF Config": "default",
-            "HF Config License": "CC BY-SA 3.0",
-            "HF Yaml License": "CC BY-SA 3.0",
-            "PwC License Name": "CC BY-SA 3.0",
-            "PwC License URL": "https://github.com/rlebret/wikipedia-biography-dataset/blob/master/LICENSE.txt",
+            "HF Config License": "",
+            "HF Yaml License": [
+                "cc-by-sa-3.0"
+            ],
+            "PwC License Name": [
+                "CC BY-SA 3.0"
+            ],
+            "PwC License URL": [
+                "https://github.com/rlebret/wikipedia-biography-dataset/blob/master/LICENSE.txt"
+            ],
             "PwC Date": "2016-01-01",
             "S2 Date": "2016-03-24",
             "GitHub License": "",
@@ -1899,7 +2085,7 @@
             "PwC Description": "This dataset gathers 728,321 biographies from English Wikipedia. It aims at evaluating text generation algorithms. For each article, we provide the first paragraph and the infobox (both tokenized).",
             "S2 Citation Count (September 2023)": 427,
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Politics",
                 "History",
@@ -1911,7 +2097,11 @@
                 "Personal information",
                 "Literature",
                 "Personal details"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 1103,
+            "HF Likes (May 2024)": 20,
+            "S2 Citation Count (May 2024)": 464
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
@@ -1983,9 +2173,15 @@
             "HF Dataset": "wiki_hop",
             "HF Config": "original",
             "HF Config License": "",
-            "HF Yaml License": "CC BY-SA 3.0",
-            "PwC License Name": "CC BY-SA 3.0",
-            "PwC License URL": "http://qangaroo.cs.ucl.ac.uk/",
+            "HF Yaml License": [
+                "cc-by-sa-3.0"
+            ],
+            "PwC License Name": [
+                "CC BY-SA 3.0"
+            ],
+            "PwC License URL": [
+                "http://qangaroo.cs.ucl.ac.uk/"
+            ],
             "PwC Date": "2017-01-01",
             "S2 Date": "2016-03-24",
             "GitHub License": "",
@@ -1996,7 +2192,7 @@
             "PwC Description": "WikiHop is a multi-hop question-answering dataset. The query of WikiHop is constructed with entities and relations from WikiData, while supporting documents are from WikiReading. A bipartite graph connecting entities and documents is first built and the answer for each query is located by traversal on this graph. Candidates that are type-consistent with the answer and share the same relation in query with the answer are included, resulting in a set of candidates. Thus, WikiHop is a multi-choice style reading comprehension data set. There are totally about 43K samples in training set, 5K samples in development set and 2.5K samples in test set. The test set is not provided. The task is to predict the correct answer given a query and multiple supporting documents.\n\nThe dataset includes a masked variant, where all candidates and their mentions in the supporting documents are replaced by random but consistent placeholder tokens.",
             "S2 Citation Count (September 2023)": 427,
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Astronomy",
                 "Travel",
@@ -2007,7 +2203,11 @@
                 "Politics",
                 "General knowledge",
                 "Music"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 405,
+            "HF Likes (May 2024)": 1,
+            "S2 Citation Count (May 2024)": 464
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
@@ -2083,9 +2283,15 @@
             "HF Dataset": "wiki_qa",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "Unspecified",
-            "PwC License Name": "Custom",
-            "PwC License URL": "https://www.microsoft.com/en-us/download/details.aspx?id=52419",
+            "HF Yaml License": [
+                "other"
+            ],
+            "PwC License Name": [
+                "Custom"
+            ],
+            "PwC License URL": [
+                "https://www.microsoft.com/en-us/download/details.aspx?id=52419"
+            ],
             "PwC Date": "2015-01-01",
             "S2 Date": "2015-09-21",
             "GitHub License": "",
@@ -2096,7 +2302,7 @@
             "PwC Description": "The WikiQA corpus is a publicly available set of question and sentence pairs, collected and annotated for research on open-domain question answering. In order to reflect the true information need of general users, Bing query logs were used as the question source. Each question is linked to a Wikipedia page that potentially has the answer. Because the summary section of a Wikipedia page provides the basic and usually most important information about the topic, sentences in this section were used as the candidate answers. The corpus includes 3,047 questions and 29,258 sentences, where 1,473 sentences were labeled as answer sentences to their corresponding questions.",
             "S2 Citation Count (September 2023)": 761,
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Biology",
                 "Trivia",
@@ -2108,7 +2314,11 @@
                 "History",
                 "Question answering",
                 "Geography"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 6431,
+            "HF Likes (May 2024)": 28,
+            "S2 Citation Count (May 2024)": 814
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -2179,8 +2389,12 @@
             "HF Config": "default",
             "HF Config License": "",
             "HF Yaml License": "",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "PwC License Name": [
+                null
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "2019-09-10",
             "S2 Date": "2019-09-01",
             "GitHub License": "",
@@ -2191,7 +2405,7 @@
             "PwC Description": "The WIQA dataset V1 has 39705 questions containing a perturbation and a possible effect in the context of a paragraph. The dataset is split into 29808 train questions, 6894 dev questions and 3003 test questions.",
             "S2 Citation Count (September 2023)": 74,
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Engineering",
                 "Environmental Science",
@@ -2202,7 +2416,11 @@
                 "Geology",
                 "Human anatomy",
                 "Animal behavior"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 741,
+            "HF Likes (May 2024)": 2,
+            "S2 Citation Count (May 2024)": 80
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",

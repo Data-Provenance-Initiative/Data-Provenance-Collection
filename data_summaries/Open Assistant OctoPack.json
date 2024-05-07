@@ -77,8 +77,8 @@
             "octopack"
         ],
         "Inferred Metadata": {
-            "HF Dataset": "OpenAssistant/oasst1",
-            "HF Config": "OpenAssistant--oasst1",
+            "HF Dataset": "bigcode/oasst-octopack",
+            "HF Config": "default",
             "HF Config License": "",
             "HF Yaml License": "",
             "PwC License Name": "",
@@ -115,7 +115,11 @@
                 "nextjs",
                 "python",
                 "rlhf"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 36657,
+            "HF Downloads (May 2024)": 119,
+            "HF Likes (May 2024)": 6,
+            "S2 Citation Count (May 2024)": 279
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",

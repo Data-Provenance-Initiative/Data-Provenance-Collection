@@ -75,9 +75,15 @@
             "HF Dataset": "Hello-SimpleAI/HC3-Chinese",
             "HF Config": "all",
             "HF Config License": "",
-            "HF Yaml License": "",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "cc-by-sa-4.0"
+            ],
+            "PwC License Name": [
+                null
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "",
             "S2 Date": "2023-01-18",
             "GitHub License": "",
@@ -100,7 +106,26 @@
             "PwC Description": "The HC3 (Human ChatGPT Comparison Corpus) dataset consists of nearly 40K questions and their corresponding human/ChatGPT answers. The motivation for this dataset was to study ChatGPT's answers in contrast to human's answers. The questions range from a wide variety of domains, including open-domain, financial, medical, legal, and psychological areas.",
             "S2 Citation Count (September 2023)": 121,
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": [
+                "ai",
+                "chatbot",
+                "chatgpt",
+                "dataset",
+                "deep-learning",
+                "gpt-3",
+                "gpt2",
+                "gpt3",
+                "machine-learning",
+                "ml",
+                "nlp",
+                "openai",
+                "python",
+                "text-classification"
+            ],
+            "GitHub Stars (May 2024)": 1191,
+            "HF Downloads (May 2024)": 364,
+            "HF Likes (May 2024)": 134,
+            "S2 Citation Count (May 2024)": 335
         },
         "Derived from Datasets": [
             "ELI5 dataset",
@@ -195,9 +220,15 @@
             "HF Dataset": "Hello-SimpleAI/HC3-Chinese",
             "HF Config": "all",
             "HF Config License": "",
-            "HF Yaml License": "",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "cc-by-sa-4.0"
+            ],
+            "PwC License Name": [
+                null
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "",
             "S2 Date": "2023-01-18",
             "GitHub License": "",
@@ -220,7 +251,26 @@
             "PwC Description": "The HC3 (Human ChatGPT Comparison Corpus) dataset consists of nearly 40K questions and their corresponding human/ChatGPT answers. The motivation for this dataset was to study ChatGPT's answers in contrast to human's answers. The questions range from a wide variety of domains, including open-domain, financial, medical, legal, and psychological areas.",
             "S2 Citation Count (September 2023)": 121,
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": [
+                "ai",
+                "chatbot",
+                "chatgpt",
+                "dataset",
+                "deep-learning",
+                "gpt-3",
+                "gpt2",
+                "gpt3",
+                "machine-learning",
+                "ml",
+                "nlp",
+                "openai",
+                "python",
+                "text-classification"
+            ],
+            "GitHub Stars (May 2024)": 1191,
+            "HF Downloads (May 2024)": 364,
+            "HF Likes (May 2024)": 134,
+            "S2 Citation Count (May 2024)": 335
         },
         "Derived from Datasets": [
             "ELI5 dataset",
@@ -315,9 +365,15 @@
             "HF Dataset": "Hello-SimpleAI/HC3-Chinese",
             "HF Config": "all",
             "HF Config License": "",
-            "HF Yaml License": "",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "cc-by-sa-4.0"
+            ],
+            "PwC License Name": [
+                null
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "",
             "S2 Date": "2023-01-18",
             "GitHub License": "",
@@ -340,7 +396,26 @@
             "PwC Description": "The HC3 (Human ChatGPT Comparison Corpus) dataset consists of nearly 40K questions and their corresponding human/ChatGPT answers. The motivation for this dataset was to study ChatGPT's answers in contrast to human's answers. The questions range from a wide variety of domains, including open-domain, financial, medical, legal, and psychological areas.",
             "S2 Citation Count (September 2023)": 121,
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": [
+                "ai",
+                "chatbot",
+                "chatgpt",
+                "dataset",
+                "deep-learning",
+                "gpt-3",
+                "gpt2",
+                "gpt3",
+                "machine-learning",
+                "ml",
+                "nlp",
+                "openai",
+                "python",
+                "text-classification"
+            ],
+            "GitHub Stars (May 2024)": 1191,
+            "HF Downloads (May 2024)": 364,
+            "HF Likes (May 2024)": 134,
+            "S2 Citation Count (May 2024)": 335
         },
         "Derived from Datasets": [
             "ELI5 dataset",
@@ -435,9 +510,15 @@
             "HF Dataset": "Hello-SimpleAI/HC3-Chinese",
             "HF Config": "all",
             "HF Config License": "",
-            "HF Yaml License": "",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "cc-by-sa-4.0"
+            ],
+            "PwC License Name": [
+                null
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "",
             "S2 Date": "2023-01-18",
             "GitHub License": "",
@@ -460,7 +541,26 @@
             "PwC Description": "The HC3 (Human ChatGPT Comparison Corpus) dataset consists of nearly 40K questions and their corresponding human/ChatGPT answers. The motivation for this dataset was to study ChatGPT's answers in contrast to human's answers. The questions range from a wide variety of domains, including open-domain, financial, medical, legal, and psychological areas.",
             "S2 Citation Count (September 2023)": 121,
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": [
+                "ai",
+                "chatbot",
+                "chatgpt",
+                "dataset",
+                "deep-learning",
+                "gpt-3",
+                "gpt2",
+                "gpt3",
+                "machine-learning",
+                "ml",
+                "nlp",
+                "openai",
+                "python",
+                "text-classification"
+            ],
+            "GitHub Stars (May 2024)": 1191,
+            "HF Downloads (May 2024)": 364,
+            "HF Likes (May 2024)": 134,
+            "S2 Citation Count (May 2024)": 335
         },
         "Derived from Datasets": [
             "ELI5 dataset",
@@ -555,9 +655,15 @@
             "HF Dataset": "Hello-SimpleAI/HC3-Chinese",
             "HF Config": "all",
             "HF Config License": "",
-            "HF Yaml License": "",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "cc-by-sa-4.0"
+            ],
+            "PwC License Name": [
+                null
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "",
             "S2 Date": "2023-01-18",
             "GitHub License": "",
@@ -580,7 +686,26 @@
             "PwC Description": "The HC3 (Human ChatGPT Comparison Corpus) dataset consists of nearly 40K questions and their corresponding human/ChatGPT answers. The motivation for this dataset was to study ChatGPT's answers in contrast to human's answers. The questions range from a wide variety of domains, including open-domain, financial, medical, legal, and psychological areas.",
             "S2 Citation Count (September 2023)": 121,
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": [
+                "ai",
+                "chatbot",
+                "chatgpt",
+                "dataset",
+                "deep-learning",
+                "gpt-3",
+                "gpt2",
+                "gpt3",
+                "machine-learning",
+                "ml",
+                "nlp",
+                "openai",
+                "python",
+                "text-classification"
+            ],
+            "GitHub Stars (May 2024)": 1191,
+            "HF Downloads (May 2024)": 364,
+            "HF Likes (May 2024)": 134,
+            "S2 Citation Count (May 2024)": 335
         },
         "Derived from Datasets": [
             "ELI5 dataset",
@@ -675,9 +800,15 @@
             "HF Dataset": "Hello-SimpleAI/HC3-Chinese",
             "HF Config": "all",
             "HF Config License": "",
-            "HF Yaml License": "",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "cc-by-sa-4.0"
+            ],
+            "PwC License Name": [
+                null
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "",
             "S2 Date": "2023-01-18",
             "GitHub License": "",
@@ -700,7 +831,26 @@
             "PwC Description": "The HC3 (Human ChatGPT Comparison Corpus) dataset consists of nearly 40K questions and their corresponding human/ChatGPT answers. The motivation for this dataset was to study ChatGPT's answers in contrast to human's answers. The questions range from a wide variety of domains, including open-domain, financial, medical, legal, and psychological areas.",
             "S2 Citation Count (September 2023)": 121,
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": [
+                "ai",
+                "chatbot",
+                "chatgpt",
+                "dataset",
+                "deep-learning",
+                "gpt-3",
+                "gpt2",
+                "gpt3",
+                "machine-learning",
+                "ml",
+                "nlp",
+                "openai",
+                "python",
+                "text-classification"
+            ],
+            "GitHub Stars (May 2024)": 1191,
+            "HF Downloads (May 2024)": 364,
+            "HF Likes (May 2024)": 134,
+            "S2 Citation Count (May 2024)": 335
         },
         "Derived from Datasets": [
             "ELI5 dataset",
@@ -795,9 +945,15 @@
             "HF Dataset": "Hello-SimpleAI/HC3-Chinese",
             "HF Config": "all",
             "HF Config License": "",
-            "HF Yaml License": "",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "HF Yaml License": [
+                "cc-by-sa-4.0"
+            ],
+            "PwC License Name": [
+                null
+            ],
+            "PwC License URL": [
+                null
+            ],
             "PwC Date": "",
             "S2 Date": "2023-01-18",
             "GitHub License": "",
@@ -820,7 +976,26 @@
             "PwC Description": "The HC3 (Human ChatGPT Comparison Corpus) dataset consists of nearly 40K questions and their corresponding human/ChatGPT answers. The motivation for this dataset was to study ChatGPT's answers in contrast to human's answers. The questions range from a wide variety of domains, including open-domain, financial, medical, legal, and psychological areas.",
             "S2 Citation Count (September 2023)": 121,
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": [
+                "ai",
+                "chatbot",
+                "chatgpt",
+                "dataset",
+                "deep-learning",
+                "gpt-3",
+                "gpt2",
+                "gpt3",
+                "machine-learning",
+                "ml",
+                "nlp",
+                "openai",
+                "python",
+                "text-classification"
+            ],
+            "GitHub Stars (May 2024)": 1191,
+            "HF Downloads (May 2024)": 364,
+            "HF Likes (May 2024)": 134,
+            "S2 Citation Count (May 2024)": 335
         },
         "Derived from Datasets": [
             "ELI5 dataset",
