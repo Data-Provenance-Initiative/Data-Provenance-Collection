@@ -27,19 +27,23 @@
         ],
         "Model Generated": ["Vicuna"],
         "Format": [
-            "Multi-turn Dialog"
+            "Zero-shot"
         ],
         "Human Annotation": "Yes",
-        "Derived from Datasets": ["LMSYS-Chat-1M"],
+        "Derived from Datasets": ["LMSYS-Chat-1M", "ShareGPT"],
         "Creators": ["UC San Diego"],
         "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": ""
+            }
             {
                 "License": "CC BY-NC 4.0",
                 "License URL": "https://huggingface.co/datasets/lmsys/toxic-chat"
             }
         ],
-        "License Notes": "",
-        "License Verified By": "",
+        "License Notes": "Partially generated with Vicuna model, which itself is trained off of ShareGPT, which contains OpenAI generated outputs.",
+        "License Verified By": "Zi Lin & Shayne",
         "Dataset Filter IDs": [
             "toxicchat0124"
         ]
