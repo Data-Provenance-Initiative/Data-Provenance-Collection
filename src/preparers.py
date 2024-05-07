@@ -935,6 +935,12 @@ def prepare_open_orca(row):
         {"from": "assistant", "text": outputs.strip(), "parent": 0},
     ]
 
+def prepare_toxicchat(row):
+    return[
+        {"from": "user", "text": row["user_input"].strip(), "parent": "toxicchat0124"},
+        {"from": "assistant", "text": row["model_output"].strip(), "parent": 0, "score":float(1-row["toxicity"]) }
+    ]
+    
 def prepare_coig(row):
     messages = []
     parent = row['source']
