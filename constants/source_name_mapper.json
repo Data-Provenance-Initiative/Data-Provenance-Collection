@@ -430,6 +430,9 @@
     "dart": [
         "dart"
     ],
+    "database operations": [
+        "database operations"
+    ],
     "dataset: copa": [
         "copa dataset (roemmele et al 2011)",
         "dataset: copa"
@@ -532,6 +535,9 @@
     ],
     "enron corporation": [
         "enron corportation"
+    ],
+    "entertainment websites": [
+        "entertainment websites"
     ],
     "etv": [
         "etv"
@@ -839,6 +845,9 @@
     ],
     "inference rule candidates": [
         "inference rule candidates"
+    ],
+    "information websites": [
+        "information websites"
     ],
     "infopankki": [
         "infopankki"
@@ -1422,8 +1431,14 @@
     "sentences written by english language learners for the toefl exam": [
         "sentences written by english language learners for the toefl exam"
     ],
+    "service websites": [
+        "service websites"
+    ],
     "setimes": [
         "setimes"
+    ],
+    "shopping websites": [
+        "shopping websites"
     ],
     "shtfplan.com": [
         "shtfplan.com"
@@ -1490,6 +1505,10 @@
         "stackexchange (cooking)",
         "stackexchange (investment category)"
     ],
+    "stackoverflow.com": [
+        "https://stackoverflow.com/",
+        "stackoverflow"
+    ],
     "step1.medbullets.com": [
         "https://step1.medbullets.com"
     ],
@@ -1542,6 +1561,9 @@
     ],
     "tep": [
         "tep"
+    ],
+    "tieba.baidu.com": [
+        "https://tieba.baidu.com/f?kw=%E5%BC%B1%E6%99%BA"
     ],
     "thai government documents": [
         "thai government documents"
@@ -1600,6 +1622,9 @@
     ],
     "travel.stackexchange.com": [
         "https://travel.stackexchange.com/"
+    ],
+    "travel websites": [
+        "travel websites"
     ],
     "trec": [
         "trec"

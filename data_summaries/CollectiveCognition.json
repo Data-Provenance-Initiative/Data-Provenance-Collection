@@ -1,0 +1,57 @@
+{
+    "CollectiveCognition": {
+        "Unique Dataset Identifier": "CollectiveCognition",
+        "Dataset Name": "Collective Cognition Chat Data",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/CollectiveCognition/chats-data-2023-10-16",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/CollectiveCognition/chats-data-2023-10-16",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "CollectiveCognition",
+        "Collection URL": "https://huggingface.co/datasets/CollectiveCognition/chats-data-2023-10-16",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Natural Language Processing Question Answering",
+            "Brainstorming",
+            "Code",
+            "Task-Specific Actions",
+            "Open-Domain Conversation Generation",
+            "Explanation Question Answering"
+        ],
+        "Text Sources": [
+            "https://collectivecognition.ai"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo",
+            "OpenAI GPT-4"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Collective Cognition"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/CollectiveCognition/chats-data-2023-10-16"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "The MIT license allows for almost unrestricted freedom in how the dataset is used, as long as the original license and copyright notice is included with any substantial portion of the dataset. OpenAI license/terms are included as well since it uses their models",
+        "License Verified By": "Nayan Saxena",
+        "Dataset Filter IDs": [
+            "CC-chats-data-2023-10-16"
+        ],
+        "Bibtex": ""
+    }
+}

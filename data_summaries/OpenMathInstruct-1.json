@@ -1,0 +1,125 @@
+{
+    "omi-1-math": {
+        "Unique Dataset Identifier": "omi-1-math",
+        "Dataset Name": "omi-1-math",
+        "Paper Title": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/nvidia/OpenMathInstruct-1/viewer/default/train?f[dataset][value]=%27math%27",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/nvidia/OpenMathInstruct-1",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2402.10176",
+        "Semantic Scholar Corpus ID": 267681752,
+        "Collection": "OpenMathInstruct-1",
+        "Collection URL": "https://huggingface.co/datasets/nvidia/OpenMathInstruct-1",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Algebraic Expression Evaluation",
+            "Instruction Following",
+            "Logical and Mathematical Reasoning",
+            "Mathematical Equation Generation",
+            "Probabilistic Reasoning",
+            "Question Answering"    
+        ],
+        "Text Sources": [
+            "artofproblemsolving.com/community/c3158_usa_contests",
+            "american invitational mathematics examination (AIME)",
+            "american mathematics competitions (AMC)",
+            "mathematics competitions",
+            "math"
+        ],
+        "Model Generated": [
+            "Mixtral-8x7B"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "MATH"
+        ],
+        "Creators": [
+            "NVIDIA"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://huggingface.co/datasets/nvidia/OpenMathInstruct-1/blob/main/LICENSE"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://paperswithcode.com/dataset/math#:~:text=License"
+            },
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/mistralai/Mixtral-8x7B-v0.1"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "math"
+        ],
+        "Bibtex": "@article{Toshniwal2024OpenMathInstruct1A1,\n title={OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset},\n author={Shubham Toshniwal and Ivan Moshkov and Sean Narenthiran and Daria Gitman and Fei Jia and Igor Gitman},\n journal={ArXiv},\n year={2024},\n volume={abs/2402.10176},\n url={https://api.semanticscholar.org/CorpusID:267681752}\n }"
+    },
+    "omi-1-gsm": {
+        "Unique Dataset Identifier": "omi-1-gsm",
+        "Dataset Name": "omi-1-gsm",
+        "Paper Title": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/nvidia/OpenMathInstruct-1/viewer/default/train?f[dataset][value]=%27gsm8k%27",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/nvidia/OpenMathInstruct-1",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2402.10176",
+        "Semantic Scholar Corpus ID": 267681752,
+        "Collection": "OpenMathInstruct-1",
+        "Collection URL": "https://huggingface.co/datasets/nvidia/OpenMathInstruct-1",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Instruction Following",
+            "Logical and Mathematical Reasoning",
+            "Logical Reasoning Question Answering",
+            "Question Answering"    
+        ],
+        "Text Sources": [
+            "arithmetic word problems",
+            "gsm8k"
+        ],
+        "Model Generated": [
+            "Mixtral-8x7B"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "GSM8K"
+        ],
+        "Creators": [
+            "NVIDIA"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://huggingface.co/datasets/nvidia/OpenMathInstruct-1/blob/main/LICENSE"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/gsm8k#licensing-information"
+            },
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/mistralai/Mixtral-8x7B-v0.1"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "gsm8k"
+        ],
+        "Bibtex": "@article{Toshniwal2024OpenMathInstruct1A1,\n title={OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset},\n author={Shubham Toshniwal and Ivan Moshkov and Sean Narenthiran and Daria Gitman and Fei Jia and Igor Gitman},\n journal={ArXiv},\n year={2024},\n volume={abs/2402.10176},\n url={https://api.semanticscholar.org/CorpusID:267681752}\n }"
+    }
+}

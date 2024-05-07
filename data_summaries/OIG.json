@@ -1,7 +1,7 @@
 {
     "oig-unified_soda_dialog": {
         "Unique Dataset Identifier": "oig-unified_soda_dialog",
-        "Dataset Name": "soda_dialog",
+        "Dataset Name": "oig-soda_dialog",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://github.com/skywalker023/sodaverse",
@@ -104,11 +104,12 @@
             ]
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_abstract_infill": {
         "Unique Dataset Identifier": "oig-unified_abstract_infill",
-        "Dataset Name": "abstract_infill",
+        "Dataset Name": "oig-abstract_infill",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://github.com/google-research/dialog-inpainting",
@@ -197,11 +198,12 @@
         "Derived from Datasets": [
             "MS Marco retrieval corpus"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "oig-unified_unnatural_instructions": {
         "Unique Dataset Identifier": "oig-unified_unnatural_instructions",
-        "Dataset Name": "unnatural_instructions",
+        "Dataset Name": "oig-unnatural_instructions",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://github.com/orhonovich/unnatural-instructions",
@@ -289,11 +291,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "oig-unified_mathqa_flanv2_kojma_cot": {
         "Unique Dataset Identifier": "oig-unified_mathqa_flanv2_kojma_cot",
-        "Dataset Name": "mathqa_flanv2_kojma_cot",
+        "Dataset Name": "oig-mathqa_flanv2_kojma_cot",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://math-qa.github.io/math-QA/",
@@ -380,11 +383,12 @@
         "Derived from Datasets": [
             "AQuA dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "oig-unified_poetry_instructions": {
         "Unique Dataset Identifier": "oig-unified_poetry_instructions",
-        "Dataset Name": "poetry_instructions",
+        "Dataset Name": "oig-poetry_instructions",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://huggingface.co/datasets/merve/poetry",
@@ -466,11 +470,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_poetry_2_song": {
         "Unique Dataset Identifier": "oig-unified_poetry_2_song",
-        "Dataset Name": "poetry_2_song",
+        "Dataset Name": "oig-poetry_2_song",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://huggingface.co/datasets/merve/poetry",
@@ -552,11 +557,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_ul2_plus_oscar_en_sample_dialog": {
         "Unique Dataset Identifier": "oig-unified_ul2_plus_oscar_en_sample_dialog",
-        "Dataset Name": "ul2_plus_oscar_en_sample_dialog",
+        "Dataset Name": "oig-ul2_plus_oscar_en_sample_dialog",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://oscar-project.org/",
@@ -633,11 +639,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_multi_news": {
         "Unique Dataset Identifier": "oig-unified_multi_news",
-        "Dataset Name": "multi_news",
+        "Dataset Name": "oig-multi_news",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://github.com/Alex-Fabbri/Multi-News",
@@ -718,11 +725,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "oig-unified_rallio_safety_and_prosocial": {
         "Unique Dataset Identifier": "oig-unified_rallio_safety_and_prosocial",
-        "Dataset Name": "rallio_safety_and_prosocial",
+        "Dataset Name": "oig-rallio_safety_and_prosocial",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://huggingface.co/datasets/laion/OIG",
@@ -802,11 +810,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_oscar_en_sample_dialog": {
         "Unique Dataset Identifier": "oig-unified_oscar_en_sample_dialog",
-        "Dataset Name": "oscar_en_sample_dialog",
+        "Dataset Name": "oig-oscar_en_sample_dialog",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://oscar-project.org/",
@@ -887,11 +896,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_grade_school_math_instructions": {
         "Unique Dataset Identifier": "oig-unified_grade_school_math_instructions",
-        "Dataset Name": "grade_school_math_instructions",
+        "Dataset Name": "oig-grade_school_math_instructions",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://github.com/openai/grade-school-math",
@@ -974,11 +984,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "oig-unified_sqlv2": {
         "Unique Dataset Identifier": "oig-unified_sqlv2",
-        "Dataset Name": "sqlv2",
+        "Dataset Name": "oig-sqlv2",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "Unspecified",
@@ -1071,11 +1082,12 @@
             "SPARC",
             "COSQL"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_chip2": {
         "Unique Dataset Identifier": "oig-unified_chip2",
-        "Dataset Name": "chip2",
+        "Dataset Name": "oig-chip2",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://huggingface.co/datasets/laion/OIG/blob/main/unified_chip2.jsonl",
@@ -1168,11 +1180,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_nq": {
         "Unique Dataset Identifier": "oig-unified_nq",
-        "Dataset Name": "nq",
+        "Dataset Name": "oig-nq",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://ai.google.com/research/NaturalQuestions/download",
@@ -1251,11 +1264,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_joke_explanations": {
         "Unique Dataset Identifier": "oig-unified_joke_explanations",
-        "Dataset Name": "joke_explanations",
+        "Dataset Name": "oig-joke_explanations",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "Unspecified",
@@ -1334,11 +1348,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_openai_summarize_tldr": {
         "Unique Dataset Identifier": "oig-unified_openai_summarize_tldr",
-        "Dataset Name": "openai_summarize_tldr",
+        "Dataset Name": "oig-openai_summarize_tldr",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://github.com/openai/summarize-from-feedback",
@@ -1419,11 +1434,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_unifiedskg_instructions": {
         "Unique Dataset Identifier": "oig-unified_unifiedskg_instructions",
-        "Dataset Name": "unifiedskg_instructions",
+        "Dataset Name": "oig-unifiedskg_instructions",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://github.com/HKUNLP/UnifiedSKG",
@@ -1540,11 +1556,12 @@
             "SQL2Text",
             "Logic2Text"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "oig-unified_sqlv1": {
         "Unique Dataset Identifier": "oig-unified_sqlv1",
-        "Dataset Name": "sqlv1",
+        "Dataset Name": "oig-sqlv1",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://huggingface.co/datasets/laion/OIG",
@@ -1637,11 +1654,12 @@
             "SPARC",
             "COSQL"
         ],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_canadian_parliament": {
         "Unique Dataset Identifier": "oig-unified_canadian_parliament",
-        "Dataset Name": "canadian_parliament",
+        "Dataset Name": "oig-canadian_parliament",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://openparliament.ca/data-download/",
@@ -1716,11 +1734,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_plot_screenplay_books_dialog": {
         "Unique Dataset Identifier": "oig-unified_plot_screenplay_books_dialog",
-        "Dataset Name": "plot_screenplay_books_dialog",
+        "Dataset Name": "oig-plot_screenplay_books_dialog",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://github.com/markriedl/WikiPlots",
@@ -1801,11 +1820,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_essays": {
         "Unique Dataset Identifier": "oig-unified_essays",
-        "Dataset Name": "essays",
+        "Dataset Name": "oig-essays",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://huggingface.co/datasets/ChristophSchuhmann/essays-with-instructions",
@@ -1887,11 +1907,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "No"
+        "Human Annotation": "No",
+        "Bibtex": ""
     },
     "oig-unified_conv_finqa": {
         "Unique Dataset Identifier": "oig-unified_conv_finqa",
-        "Dataset Name": "conv_finqa",
+        "Dataset Name": "oig-conv_finqa",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://github.com/czyssrs/ConvFinQA",
@@ -1978,11 +1999,12 @@
         "Derived from Datasets": [
             "FinQA"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "oig-unified_hc3_human": {
         "Unique Dataset Identifier": "oig-unified_hc3_human",
-        "Dataset Name": "hc3_human",
+        "Dataset Name": "oig-hc3_human",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
@@ -2093,11 +2115,12 @@
             "LegalQA dataset",
             "FinanceZhidao dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "oig-unified_cuad": {
         "Unique Dataset Identifier": "oig-unified_cuad",
-        "Dataset Name": "cuad",
+        "Dataset Name": "oig-cuad",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://www.atticusprojectai.org/cuad",
@@ -2179,11 +2202,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "oig-unified_squad_v2_more_neg": {
         "Unique Dataset Identifier": "oig-unified_squad_v2_more_neg",
-        "Dataset Name": "squad_v2_more_neg",
+        "Dataset Name": "oig-squad_v2_more_neg",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://rajpurkar.github.io/SQuAD-explorer/",
@@ -2265,11 +2289,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "oig-unified_squad_v2": {
         "Unique Dataset Identifier": "oig-unified_squad_v2",
-        "Dataset Name": "squad_v2",
+        "Dataset Name": "oig-squad_v2",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
         "Dataset URL": "https://rajpurkar.github.io/SQuAD-explorer/",
@@ -2351,6 +2376,7 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     }
 }

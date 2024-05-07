@@ -1,0 +1,90 @@
+{
+    "ultrachat_200k": {
+        "Unique Dataset Identifier": "ultrachat_200k",
+        "Dataset Name": "ultrachat_200k",
+        "Collection": "UltraChat_200k",
+        "Collection URL": "https://github.com/thunlp/UltraChat",
+        "Dataset URL": "https://github.com/thunlp/UltraChat",
+        "GitHub URL": "https://github.com/thunlp/UltraChat",
+        "Hugging Face URL": "https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k",
+        "Paper Title": "Enhancing Chat Language Models by Scaling High-quality Instructional Conversations",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2305.14233",
+        "Semantic Scholar Corpus ID": 258840897,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Dialogue Generation",
+            "Creative Writing",
+            "Open-form Text Generation",
+            "Brainstorming",
+            "Roleplay",
+            "Creativity",
+            "Explanation Generation"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Multi-turn Dialog"
+        ],
+        "Text Sources": [
+            "wikidata",
+            "wikipedia.org",
+            "commoncrawl.org"
+        ],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "Tsinghua University"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2009.01325"
+            },
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/thunlp/UltraChat#data"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Alexis Wu",
+        "Dataset Filter IDs": [
+            "ultrachat_200k"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Travel",
+                "Education",
+                "Web development",
+                "Sports",
+                "Tourism",
+                "Sightseeing",
+                "Skincare",
+                "Beauty products",
+                "Network Security",
+                "History",
+                "Daily routine"
+            ],
+            "GitHub License": "",
+            "Github Date": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "GitHub Topics": [
+                "chatbot",
+                "chatgpt",
+                "deep-learning",
+                "large-language-models"
+            ]
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "UltraChat"
+        ],
+        "Bibtex": "@misc{ding2023enhancing, title={Enhancing Chat Language Models by Scaling High-quality Instructional Conversations}, author={Ning Ding and Yulin Chen and Bokai Xu and Yujia Qin and Zhi Zheng and Shengding Hu and Zhiyuan Liu and Maosong Sun and Bowen Zhou}, year={2023}, eprint={2305.14233}, archivePrefix={arXiv}, primaryClass={cs.CL}}"
+    }
+}
