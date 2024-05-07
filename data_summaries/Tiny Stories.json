@@ -84,7 +84,15 @@
             "S2 Date": "",
             "GitHub License": "",
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "roneneldan/TinyStories",
+            "HF Downloads (May 2024)": 24571,
+            "HF Likes (May 2024)": 384,
+            "HF Yaml License": "",
+            "S2 Citation Count (May 2024)": ""
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],

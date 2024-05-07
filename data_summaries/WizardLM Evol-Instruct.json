@@ -72,8 +72,8 @@
             "evol_instruct"
         ],
         "Inferred Metadata": {
-            "HF Dataset": "WizardLM/evol_instruct_70k",
-            "HF Config": "WizardLM--evol_instruct_70k",
+            "HF Dataset": "",
+            "HF Config": "",
             "HF Config License": "",
             "HF Yaml License": "",
             "PwC License Name": "",
@@ -94,13 +94,17 @@
                 "Sentiment analysis"
             ],
             "Github Date": "",
-            "HF Date": "2023-04-25",
+            "HF Date": "",
             "HF Downloads (September 2023)": 470,
             "HF Likes (September 2023)": 98,
             "PwC Description": "",
             "S2 Citation Count (September 2023)": 55,
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": [],
+            "GitHub Stars (May 2024)": 230,
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "S2 Citation Count (May 2024)": 426
         },
         "Derived from Datasets": [
             "Alpaca instructions dataset"

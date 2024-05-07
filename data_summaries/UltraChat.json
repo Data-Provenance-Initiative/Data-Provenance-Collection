@@ -80,7 +80,7 @@
                 "History",
                 "Daily routine"
             ],
-            "GitHub License": "",
+            "GitHub License": "MIT License",
             "Github Date": "",
             "HF Date": "2023-04-20",
             "HF Downloads (September 2023)": 356,
@@ -97,7 +97,17 @@
                 "chatgpt",
                 "deep-learning",
                 "large-language-models"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 2114,
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "stingning/ultrachat",
+            "HF Downloads (May 2024)": 10897,
+            "HF Likes (May 2024)": 384,
+            "HF Yaml License": [
+                "mit"
+            ],
+            "S2 Citation Count (May 2024)": 143
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],
