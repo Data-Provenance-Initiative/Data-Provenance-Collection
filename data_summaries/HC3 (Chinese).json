@@ -116,7 +116,8 @@
             "LegalQA dataset",
             "FinanceZhidao dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Guo2023HowCI,\n author = {Biyang Guo and Xin Zhang and Ziyuan Wang and Minqi Jiang and Jinran Nie and Yuxuan Ding and Jianwei Yue and Yupeng Wu},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection},\n volume = {abs/2301.07597},\n year = {2023}\n}\n"
     },
     "hc3_zh-open_qa": {
         "Unique Dataset Identifier": "hc3_zh-open_qa",
@@ -235,7 +236,8 @@
             "LegalQA dataset",
             "FinanceZhidao dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Guo2023HowCI,\n author = {Biyang Guo and Xin Zhang and Ziyuan Wang and Minqi Jiang and Jinran Nie and Yuxuan Ding and Jianwei Yue and Yupeng Wu},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection},\n volume = {abs/2301.07597},\n year = {2023}\n}\n"
     },
     "hc3_zh-finance": {
         "Unique Dataset Identifier": "hc3_zh-finance",
@@ -354,7 +356,8 @@
             "LegalQA dataset",
             "FinanceZhidao dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Guo2023HowCI,\n author = {Biyang Guo and Xin Zhang and Ziyuan Wang and Minqi Jiang and Jinran Nie and Yuxuan Ding and Jianwei Yue and Yupeng Wu},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection},\n volume = {abs/2301.07597},\n year = {2023}\n}\n"
     },
     "hc3_zh-legalqa": {
         "Unique Dataset Identifier": "hc3_zh-legalqa",
@@ -473,7 +476,8 @@
             "LegalQA dataset",
             "FinanceZhidao dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Guo2023HowCI,\n author = {Biyang Guo and Xin Zhang and Ziyuan Wang and Minqi Jiang and Jinran Nie and Yuxuan Ding and Jianwei Yue and Yupeng Wu},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection},\n volume = {abs/2301.07597},\n year = {2023}\n}\n"
     },
     "hc3_zh-medicine": {
         "Unique Dataset Identifier": "hc3_zh-medicine",
@@ -592,7 +596,8 @@
             "LegalQA dataset",
             "FinanceZhidao dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Guo2023HowCI,\n author = {Biyang Guo and Xin Zhang and Ziyuan Wang and Minqi Jiang and Jinran Nie and Yuxuan Ding and Jianwei Yue and Yupeng Wu},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection},\n volume = {abs/2301.07597},\n year = {2023}\n}\n"
     },
     "hc3_zh-nlpcc_dbqa": {
         "Unique Dataset Identifier": "hc3_zh-nlpcc_dbqa",
@@ -711,7 +716,8 @@
             "LegalQA dataset",
             "FinanceZhidao dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Guo2023HowCI,\n author = {Biyang Guo and Xin Zhang and Ziyuan Wang and Minqi Jiang and Jinran Nie and Yuxuan Ding and Jianwei Yue and Yupeng Wu},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection},\n volume = {abs/2301.07597},\n year = {2023}\n}\n"
     },
     "hc3_zh-psychology": {
         "Unique Dataset Identifier": "hc3_zh-psychology",
@@ -830,6 +836,7 @@
             "LegalQA dataset",
             "FinanceZhidao dataset"
         ],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": "@Article{Guo2023HowCI,\n author = {Biyang Guo and Xin Zhang and Ziyuan Wang and Minqi Jiang and Jinran Nie and Yuxuan Ding and Jianwei Yue and Yupeng Wu},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection},\n volume = {abs/2301.07597},\n year = {2023}\n}\n"
     }
 }

@@ -2,6 +2,7 @@
     "Bias & Toxicicity Detection": [
         "Bias Detection",
         "Binary Classification of Hate Speech",
+        "Adversarial Hate Speech Detection",
         "Binary Classification of Racial Bias",
         "Ethical Judgment Question Answering",
         "Ethics Classification",
@@ -60,7 +61,8 @@
         "Reasoning over Natural Language",
         "Spatial Reasoning Question Answering",
         "Word Relation Classification",
-        "Word Semantics"
+        "Word Semantics",
+        "Task-Specific Actions"
     ],
     "Creative Writing": [
         "Advertising Slogan Generation",
@@ -92,19 +94,26 @@
         "Pun Detection",
         "Word Analogy",
         "Word Association",
-        "Wordplay Detection"
+        "Wordplay Detection",
+        "Literature and Arts"
     ],
     "Dialog Generation": [
         "Argumentative Dialogue Generation",
         "Context Generation",
         "Customer Service Dialogue Generation",
-        "Dialog Context Generation",
-        "Dialog Generation",
-        "Dialog Turn Prediction",
+        "Dialogue Context Generation",
+        "Dialogue Turn Prediction",
         "Dialogue Act Recognition",
         "Dialogue Generation",
         "Dialogue State Tracking",
+        "Dialogue Tutoring",
         "Dialogue Understanding",
+        "Dialogue Summarization",
+        "Dialog Generation", 
+        "Dialog Context Generation", 
+        "Dialog Turn Prediction", 
+        "Context Generation", 
+        "Dialog Turn Prediction",
         "Long-Distance Relationship Dialogue Generation",
         "Motivational Dialogue Generation",
         "Open-Domain Conversation Generation",
@@ -125,13 +134,16 @@
         "Discourse Analysis",
         "Grammatical Acceptability",
         "Interpretive Art Analysis",
+        "Language Style Analysis",
         "Linguistic Analysis",
         "Linguistic Probing",
         "Literary Analysis",
         "Semantic Relation Classification",
+        "Discourse Relation Prediction",
         "Semantic Similarity Detection",
         "Semantic Similarity Identification",
         "Speaker Identification",
+        "Spelling Correction",
         "Stance Detection"
     ],
     "Logical and Mathematical Reasoning": [
@@ -146,6 +158,7 @@
         "Financial Return on Investment (ROI) Calculation Question Answering",
         "Instruction Following",
         "Logical Reasoning",
+        "Logical and Mathematical Reasoning",
         "Logical Reasoning Question Answering",
         "Mathematical Equation Generation",
         "Numerical Data Aggregation and Analysis",
@@ -161,6 +174,7 @@
     "Natural Language Inference": [
         "Answer Verification",
         "Contextual Word Sense Disambiguation",
+        "Cross-lingual Language Understanding (XLU)",
         "Discourse-level Decision Making",
         "Fact Verification",
         "Factual Statement Classification",
@@ -199,6 +213,7 @@
         "No Context Snippet",
         "Open-form Text Generation",
         "Recursive Function Generation",
+        "Rewrite",
         "Sentence Rewriting",
         "Speech Recognition",
         "Structured Data to Text",
@@ -207,7 +222,8 @@
         "Text Modification",
         "Title Generation",
         "User Interface Design Suggestion",
-        "Wrong Candidate Generation"
+        "Wrong Candidate Generation",
+        "Long-form Response Evaluation"
     ],
     "Question Answering": [
         "API Endpoint Creation Question Answering",
@@ -224,8 +240,10 @@
         "Binary Question Answering",
         "BioMedical Question Answering",
         "Breach of Contract Question Answering",
+        "Causal Question Answering",
         "Clarification Question Answering",
         "Clinical Diagnosis Question Answering",
+        "Closed Question Answering",
         "Closed-Book Question Answering",
         "Comparative Analysis Question Answering",
         "Comparative Question Answering",
@@ -242,6 +260,7 @@
         "General Knowledge",
         "Generative Question Answering",
         "Geographical Map Making Question Answering",
+        "Healthcare Question Answering",
         "Historical Fact Retrieval",
         "Historical Image Retrieval",
         "Information Extraction",
@@ -256,6 +275,7 @@
         "Medical Question Answering",
         "Moral Dilemma Question Answering",
         "Mortgage Loan Satisfaction Question Answering",
+        "Multilingual Question Answering",
         "Multiple Choice Necessity Classification",
         "Multiple Choice Question Answering",
         "Natural Language Processing Question Answering",
@@ -264,6 +284,7 @@
         "Nutritional Information Retrieval",
         "Object Detection Question Answering",
         "Object Localization Question Answering",
+        "Open Question Answering",
         "Open-Domain Information Retrieval",
         "Open-Domain Name Retrieval",
         "Open-Domain Question Answering",
@@ -290,10 +311,13 @@
         "Trick Question",
         "Vegetarian Recipe Modification Question Answering",
         "Visual Reasoning Question Answering",
-        "Webpage Content Retrieval"
+        "Webpage Content Retrieval",
+        "Trivia",
+        "Math"
     ],
     "Response Ranking": [
         "Alignment",
+        "Crowdsourced",
         "RLHF",
         "Response Ranking"
     ],
@@ -308,7 +332,8 @@
         "Semantic Role Labeling",
         "Sequence Tagging",
         "Synonym Identification and Retagging",
-        "Word Segmentation"
+        "Word Segmentation",
+        "Token Classification"
     ],
     "Short Text Generation": [
         "Basic Instruct",
@@ -338,6 +363,7 @@
         "Word Reordering"
     ],
     "Summarization": [
+        "BioMedical Text Summarization",
         "Critical Review Summarization",
         "News Article Summarization",
         "Paper Review",
@@ -355,16 +381,21 @@
         "Classification",
         "Comparative Analysis of Cultural Features",
         "Comparative Sentence Classification",
+        "Complaint Detection",
+        "Constructive Speech Detection",
         "Coreference Resolution",
         "Critical Analysis of Traditional Chinese Culture",
         "Date Prediction",
+        "Depression Detection",
         "Diagnosis of Plant Disease using Natural Language Processing",
         "Document Classification",
         "Entity Linking",
         "Entity Matching",
         "Experiential Classification",
         "Fact Checking",
+        "Token Classification",
         "Factual Argumentation Resolution",
+        "Fake News Detection",
         "Grammar Error Detection",
         "Hashtag Classification",
         "Historical Event Extraction",
@@ -373,6 +404,7 @@
         "Irony Detection",
         "Irrelevant Question Detection",
         "Lexical Semantic Relation Classification",
+        "Moral Text Categorization",
         "Named Entity Recognition",
         "Narrative Understanding",
         "Natural Language Classification",
@@ -386,6 +418,7 @@
         "Sentence Ordering",
         "Sentence Similarity Detection",
         "Sentiment Analysis",
+        "Adversarial Sentiment Analysis",
         "Single Word Classification",
         "Spam Classification",
         "Text Classification",
@@ -393,7 +426,11 @@
         "Unverifiable Claim Classification",
         "Word Sense Disambiguation"
     ],
+    "Token Classification": [
+        "Token Classification"
+    ],
     "Translation": [
+        "Name Romanization",
         "Inverted Translation",
         "Translation"
     ]

@@ -11,6 +11,7 @@ tqdm
 tenacity
 openai
 chardet
+semanticscholar
 # ftfy
 # funcy
 # pdfminer.six

@@ -1,0 +1,331 @@
+{
+    "AgentInstruct-alfworld": {
+        "Unique Dataset Identifier": "AgentInstruct-alfworld",
+        "Dataset Name": "ALFworld",
+        "Paper Title": "ALFWorld: Aligning Text and Embodied Environments for Interactive Learning",
+        "Dataset URL": "https://github.com/alfworld/alfworld/tree/master/alfworld/data",
+        "GitHub URL": "https://github.com/THUDM/AgentTuning",
+        "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/alfworld",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2010.03768",
+        "Semantic Scholar Corpus ID": 222208810,
+        "Collection": "AgentInstruct",
+        "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Instruction Following",
+            "Chain-of-Thought",
+            "Task-Specific Actions"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "ALFRED"
+        ],
+        "Creators": [
+            "University of Washington",
+            "Microsoft",
+            "Carnegie Mellon University"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/alfworld/alfworld"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/askforalfred/alfred/blob/master/LICENSE"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/microsoft/TextWorld/blob/main/LICENSE.txt"
+            }
+        ],
+        "License Notes": "The ALFRED dataset that was used is licensed under the MIT License https://github.com/askforalfred/alfred/tree/master and the TextWorld framework used is licensed in some cases under MIT License https://github.com/microsoft/TextWorld/blob/main/LICENSE.txt and in some cases https://github.com/alfworld/alfworld/issues/48 under GPL 2.0, which is not relevant for ALFworld. To combine ALFRED with TextWorld, the authors created text-based analogs of each ALFRED scene.",
+        "License Verified By": "Christopher",
+        "Dataset Filter IDs": [
+            "alfworld"
+        ],
+        "Bibtex": "@Article{Shridhar2020ALFWorldAT,\n author = {Mohit Shridhar and Xingdi Yuan and Marc-Alexandre Côté and Yonatan Bisk and Adam Trischler and Matthew J. Hausknecht},\n booktitle = {International Conference on Learning Representations},\n journal = {ArXiv},\n title = {ALFWorld: Aligning Text and Embodied Environments for Interactive Learning},\n volume = {abs/2010.03768},\n year = {2020}\n}\n"
+    },
+    "AgentInstruct-webshop": {
+        "Unique Dataset Identifier": "AgentInstruct-webshop",
+        "Dataset Name": "Webshop",
+        "Paper Title": "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents",
+        "Dataset URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/webshop",
+        "GitHub URL": "https://github.com/princeton-nlp/WebShop",
+        "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/webshop",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2207.01206",
+        "Semantic Scholar Corpus ID": 250264533,
+        "Collection": "AgentInstruct",
+        "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Instruction Following",
+            "Chain-of-Thought",
+            "Task-Specific Actions"
+        ],
+        "Text Sources": [
+            "crowdsourced",
+            "amazon.com",
+            "web search queries"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Princeton University"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/princeton-nlp/WebShop/blob/master/LICENSE.md"
+            }
+        ],
+        "License Notes": "The authors collected data on various products from Amazon.com and retrieved text and crowdsourced instructions from annotators. It is possible that some of these annotations have additional licenses. Therefore, the license pertains to the framework that was used to create the dataset and is mentioned by the authors.",
+        "License Verified By": "Christopher",
+        "Dataset Filter IDs": [
+            "webshop"
+        ],
+        "Bibtex": "@Article{Yao2022WebShopTS,\n author = {Shunyu Yao and Howard Chen and John Yang and Karthik Narasimhan},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents},\n volume = {abs/2207.01206},\n year = {2022}\n}\n"
+    },
+    "AgentInstruct-knowledgegraph": {
+        "Unique Dataset Identifier": "AgentInstruct-knowledgegraph",
+        "Dataset Name": "knowledgegraph",
+        "Paper Title": "AgentBench: Evaluating LLMs as Agents",
+        "Dataset URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/kg",
+        "GitHub URL": "https://github.com/THUDM/AgentBench",
+        "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/kg",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2308.03688",
+        "Semantic Scholar Corpus ID": 260682249,
+        "Collection": "AgentInstruct",
+        "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought",
+            "Instruction Following",
+            "Task-Specific Actions"
+        ],
+        "Text Sources": [
+            "freebase"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "GrailQA",
+            "ComplexWebQuestions",
+            "GraphQuestions"
+        ],
+        "Creators": [
+            "Tsinghua University",
+            "The Ohio State University",
+            "UC Berkeley"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://arxiv.org/pdf/2308.03688.pdf"
+            },
+            {
+                "License": "CC BY 4.0",
+                "License URL": "http://creativecommons.org/licenses/by/4.0/"
+            }
+        ],
+        "License Notes": "The paper https://arxiv.org/pdf/2308.03688.pdf cites an anonymous source from 2023 on page four that is currently under review. It is unclear what that means for the license. The original Freebase dataset, which seems to be a part of the source, is licensed under the Creative Commmon Attribution License.",
+        "License Verified By": "Christopher",
+        "Dataset Filter IDs": [
+            "kg"
+        ],
+        "Bibtex": "@Article{Liu2023AgentBenchEL,\n author = {Xiao Liu and Hao Yu and Hanchen Zhang and Yifan Xu and Xuanyu Lei and Hanyu Lai and Yu Gu and Yuxian Gu and Hangliang Ding and Kai Men and Kejuan Yang and Shudan Zhang and Xiang Deng and Aohan Zeng and Zhengxiao Du and Chenhui Zhang and S. Shen and Tianjun Zhang and Yu Su and Huan Sun and Minlie Huang and Yuxiao Dong and Jie Tang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {AgentBench: Evaluating LLMs as Agents},\n volume = {abs/2308.03688},\n year = {2023}\n}\n"
+    },
+    "AgentInstruct-operatingsystem": {
+        "Unique Dataset Identifier": "AgentInstruct-operatingsystem",
+        "Dataset Name": "operatingsystem",
+        "Paper Title": "AgentBench: Evaluating LLMs as Agents",
+        "Dataset URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/os",
+        "GitHub URL": "https://github.com/THUDM/AgentBench",
+        "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/os",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2308.03688",
+        "Semantic Scholar Corpus ID": 260682249,
+        "Collection": "AgentInstruct",
+        "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Instruction Following",
+            "Chain-of-Thought",
+            "Task-Specific Actions"
+        ],
+        "Text Sources": [
+            "stackoverflow.com"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "AgentBench"
+        ],
+        "Creators": [
+            "Tsinghua University",
+            "The Ohio State University",
+            "UC Berkeley"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/THUDM/AgentBench"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2310.12823"
+            }
+        ],
+        "License Notes": "The paper cited as the source for the dataset in the collection refers to a data source that includes Stack Overflow. However, the authors of the paper do not mention this in the actual paper, which raises the possibility that they created the dataset solely with GPT. As of now, it is underspecified.",
+        "License Verified By": "Christopher",
+        "Dataset Filter IDs": [
+            "os"
+        ],
+        "Bibtex": "@Article{Liu2023AgentBenchEL,\n author = {Xiao Liu and Hao Yu and Hanchen Zhang and Yifan Xu and Xuanyu Lei and Hanyu Lai and Yu Gu and Yuxian Gu and Hangliang Ding and Kai Men and Kejuan Yang and Shudan Zhang and Xiang Deng and Aohan Zeng and Zhengxiao Du and Chenhui Zhang and S. Shen and Tianjun Zhang and Yu Su and Huan Sun and Minlie Huang and Yuxiao Dong and Jie Tang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {AgentBench: Evaluating LLMs as Agents},\n volume = {abs/2308.03688},\n year = {2023}\n}\n"
+    },
+    "AgentInstruct-database": {
+        "Unique Dataset Identifier": "AgentInstruct-database",
+        "Dataset Name": "database",
+        "Paper Title": "AgentBench: Evaluating LLMs as Agents",
+        "Dataset URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/db",
+        "GitHub URL": "https://github.com/THUDM/AgentBench",
+        "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/db",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2310.12823",
+        "Semantic Scholar Corpus ID": 260682249,
+        "Collection": "AgentInstruct",
+        "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Instruction Following",
+            "Chain-of-Thought",
+            "Task-Specific Actions"
+        ],
+        "Text Sources": [
+            "database operations"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "BIRD"
+        ],
+        "Creators": [
+            "Tsinghua University",
+            "The Ohio State University",
+            "UC Berkeley"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2310.12823"
+            }
+        ],
+        "License Notes": "The original paper does not provide any information regarding its license. The paper cited for this task https://arxiv.org/pdf/2308.03688.pdf has created the dataset using additional datasets, but it is not clear which of those additional datasets were utilized to create this dataset on databases.",
+        "License Verified By": "Christopher",
+        "Dataset Filter IDs": [
+            "db"
+        ],
+        "Bibtex": "@Article{Liu2023AgentBenchEL,\n author = {Xiao Liu and Hao Yu and Hanchen Zhang and Yifan Xu and Xuanyu Lei and Hanyu Lai and Yu Gu and Yuxian Gu and Hangliang Ding and Kai Men and Kejuan Yang and Shudan Zhang and Xiang Deng and Aohan Zeng and Zhengxiao Du and Chenhui Zhang and S. Shen and Tianjun Zhang and Yu Su and Huan Sun and Minlie Huang and Yuxiao Dong and Jie Tang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {AgentBench: Evaluating LLMs as Agents},\n volume = {abs/2308.03688},\n year = {2023}\n}\n"
+    },
+    "AgentInstruct-mind2web": {
+        "Unique Dataset Identifier": "AgentInstruct-mind2web",
+        "Dataset Name": "mind2web",
+        "Paper Title": "Mind2Web: Towards a Generalist Agent for the Web",
+        "Dataset URL": "https://app.globus.org/file-manager?origin_id=32e6b738-a0b0-47f8-b475-26bf1c5ebf19",
+        "GitHub URL": "https://github.com/OSU-NLP-Group/Mind2Web",
+        "Hugging Face URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/viewer/default/mind2web",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2306.06070",
+        "Semantic Scholar Corpus ID": 259129428,
+        "Collection": "AgentInstruct",
+        "Collection URL": "https://huggingface.co/datasets/THUDM/AgentInstruct",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Instruction Following",
+            "Chain-of-Thought",
+            "Task-Specific Actions"
+        ],
+        "Text Sources": [
+            "crowdsourced",
+            "travel websites",
+            "shopping websites",
+            "service websites",
+            "entertainment websites",
+            "information websites"
+        ],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "The Ohio State University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://github.com/OSU-NLP-Group/Mind2Web"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2306.06070"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://huggingface.co/datasets/THUDM/AgentInstruct/discussions"
+            }
+        ],
+        "License Notes": "The license is specifically mentioned by the authors in the repository.",
+        "License Verified By": "Christopher",
+        "Dataset Filter IDs": [
+            "mind2web"
+        ],
+        "Bibtex": "@Article{Deng2023Mind2WebTA,\n author = {Xiang Deng and Yu Gu and Boyuan Zheng and Shijie Chen and Samuel Stevens and Boshi Wang and Huan Sun and Yu Su},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {Mind2Web: Towards a Generalist Agent for the Web},\n volume = {abs/2306.06070},\n year = {2023}\n}\n"
+    }
+}

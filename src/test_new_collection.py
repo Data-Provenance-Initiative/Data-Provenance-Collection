@@ -1,25 +1,26 @@
-import json
+# import json
 import os
-import urllib.parse
+# import urllib.parse
 from collections import Counter
 import argparse
 import pandas as pd
-from helpers import io
-import constants
+
 # from constants import read_all_constants
 from collection_mapper import COLLECTION_FN_MAPPER
 from downloader import Downloader
-from downloaders import pool_filter
+# from downloaders import pool_filter
 from download_and_filter import get_collection_to_uid_and_filter_ids
+from helpers import io, constants
 
 
 ATTRIBUTE_MAPPER = {
-    "str": str, 
-    "int": int, 
-    "float": float, 
-    "list": list, 
+    "str": str,
+    "int": int,
+    "float": float,
+    "list": list,
     "dict": dict
 }
+
 
 class ErrorHandler:
     def __init__(self, no_halt_on_error, collection):
@@ -32,7 +33,7 @@ class ErrorHandler:
             self.errors.append(error_message)
         else:
             raise AssertionError(error_message)
-            
+
     def print_errors(self):
         if self.errors:
             for error in self.errors:
@@ -40,13 +41,14 @@ class ErrorHandler:
         else:
             print(f"Passed all tests for {self.collection}!")
 
+
 def test_collection_summary(
-    collection_name, 
+    collection_name,
     collection_summary,
     error_handler,
 ):
     """Tests the collection's data summary entries are valid."""
-    CONSTANTS = io.read_all_constants()
+    CONSTANTS = io.read_all_constants("constants/")
 
     # All acceptable licenses
     all_licenses = set(list(CONSTANTS["LICENSE_CLASSES"].keys()) + ["Custom"])
@@ -70,7 +72,7 @@ def test_collection_summary(
         # Check that each dataset UID starts with the abbreviation
         if not dset_uid.startswith(f"{collection_abbr}"):
             error_handler.handle(f"Dataset {dset_uid} does not start with the collection abbreviation.")
-            
+
         if dset_info["Unique Dataset Identifier"] != dset_uid:
             error_handler.handle(f"The `Unique Dataset Identifier` attribute and key in json for {dset_uid} must match.")
 
@@ -88,7 +90,6 @@ def test_collection_summary(
         if not languages.issubset(all_langs):
             error_handler.handle(f"For {dset_uid}, languages {languages - all_langs} are not in list of acceptable languages in {constants.LANGUAGE_CONSTANTS_FP}.")
         if not licenses.issubset(all_licenses):
-            print(licenses, all_licenses)
             error_handler.handle(f"For {dset_uid}, licenses {licenses - all_licenses} are not in list of acceptable licenses in {constants.LICENSE_CONSTANTS_FP}.")
         if not tasks.issubset(all_tasks):
             error_handler.handle(f"For {dset_uid}, task categories {tasks - all_tasks} are not in list of acceptable tasks in {constants.TASK_CONSTANTS_FP}")
@@ -128,8 +129,8 @@ def test_json_key_order(template, test):
 
 
 def test_json_correctness(
-    all_collection_infos, 
-    collection_info, 
+    all_collection_infos,
+    collection_info,
     template_spec,
     error_handler,
 ):
@@ -150,7 +151,7 @@ def test_json_correctness(
             error_handler.handle(f"{dataset_uid} is missing required attributes: {missing_keys}")
 
         # Test for attributes with the wrong type
-        template_types = {k: template_spec[k][0] for k in template_keys if len(template_spec[k]) == 3}
+        # template_types = {k: template_spec[k][0] for k in template_keys if len(template_spec[k]) == 3} # :TODO: currently unused needs to be fixed
         for k, spec in template_spec.items():
             if len(spec) == 3 and k in dataset_info:
                 correct_typ = ATTRIBUTE_MAPPER[spec[0]]
@@ -165,12 +166,11 @@ def test_json_correctness(
                     typ_descrip = f"{correct_typ} (or empty string)" if correct_typ in [int, float] else correct_typ
                     error_handler.handle(f"{dataset_uid} has attribute with wrong type: {k} is {type(dataset_info[k])} but should be `{typ_descrip}`.")
 
-      # Test for additional attributes
+        # Test for additional attributes
         template_keys = set(template_spec.keys())
         additional_keys = set(dataset_info.keys()) - template_keys
         if additional_keys:
             error_handler.handle(f"{dataset_uid} contains additional attributes: {additional_keys}")
-
 
         # Test for additional attributes inside dictionary nests
         nested_attribute_keys = {k: list(vs.keys()) for k, vs in template_spec.items() if isinstance(vs, dict)}
@@ -189,7 +189,6 @@ def test_json_correctness(
         for k, spec in template_req_vals.items():
             if template_req_vals[k] and k in dataset_info and not dataset_info[k]:
                 error_handler.handle(f"{k} should be populated with a value if present in {dataset_uid}.")
-                
 
 
 def test_outputs(collection, collection_info, error_handler):
@@ -200,8 +199,8 @@ def test_outputs(collection, collection_info, error_handler):
         if not all([key in ex for dialog in dset for ex in dialog for key in ['from', 'text', 'parent']]):
             error_handler.handle(f"{uid} output does not have the correct keys: {['from', 'text', 'parent']}")
 
+        message_parents = []
         for dialog in dset:
-            message_parents = []
             for midx, message in enumerate(dialog):
                 if midx == 0:
                     if not isinstance(message['parent'], str):
@@ -228,15 +227,16 @@ def test_outputs(collection, collection_info, error_handler):
                         error_handler.handle(f"{uid} message's from 'assistants' should have a 'score' field, that is an int or float, not `{message['score']}`.")
                         return
                 message_parents.append(message["parent"])
+
         if not any([parent == 0 for parent in message_parents]):
             error_handler.handle(f"{uid} there does not appear to be a response to the original input in this dialog.")
             return
-    
+
     #  Check number of examples and text statistics
-    # if not config["Text Metrics"]["Num Dialogs"] or len(output) != cconfig["Text Metrics"]["Num Dialogs"]: 
+    # if not config["Text Metrics"]["Num Dialogs"] or len(output) != cconfig["Text Metrics"]["Num Dialogs"]:
     #     error_handler.handle("Error: Number of examples does not match the number specified in the json config")
 
-    #TODO: check text statistics (text length metrics)
+    # TODO: check text statistics (text length metrics)
 
         if dset_info['Format'] == 'Multi-turn Dialog':
             if not any(len(dialog) > 2 for dialog in dset):
@@ -252,11 +252,22 @@ def test_dataset_reference(collection, collection_info, error_handler):
                 error_handler.handle(f"For {uid}, the `parent` field of the first message in every dialog must be the same as the `Unique Dataset Identifier` so we can identify their origin.")
                 break
 
+
 def test_filter_id(collection, uid_task_keys, error_handler):
     dset_slice_counts = dict(Counter([row[0]["parent"] for row in collection]))
     for uid, filter_ids in uid_task_keys.items():
         if uid not in dset_slice_counts:
             error_handler.handle(f"{uid} `Dataset Filter Ids` {filter_ids} do not correspond to any examples. They may be misspelt.")
+
+
+def test_bibtex_semanticscholar(collection_info, error_handler):
+    for uid, dset_info in collection_info.items():
+        if dset_info["Semantic Scholar Corpus ID"] and dset_info["ArXiv URL"]:
+            CorpusId = dset_info["Semantic Scholar Corpus ID"]
+            result = io.get_bibtex_from_paper("CorpusId:{}".format(CorpusId))
+            if not result:
+                error_handler.handle(f"{uid} Semantic Scholar Corpus ID {CorpusId} is not valid.")
+
 
 def test_downloader_and_preparer(
     data_summary,
@@ -273,7 +284,7 @@ def test_downloader_and_preparer(
     downloader_args = COLLECTION_FN_MAPPER[collection_name]
     downloader_args.update({"uid_key_mapper": uid_task_keys})
     downloader = Downloader(
-        name=collection_name, 
+        name=collection_name,
         **downloader_args
         )
     all_acceptable_filter_ids = [v for vs in uid_to_filter_ids.values() for v in vs]
@@ -309,16 +320,22 @@ def run_tests(
     # Test basic properties of the json file.
     # print(f"Testing the json file has the correct entry types and order in {collection_name}")
     test_json_correctness(
-        all_collection_infos, 
-        collection_info, 
-        template_spec, 
+        all_collection_infos,
+        collection_info,
+        template_spec,
         error_handler
     )
 
     # Test the collection json file entries are valid
     test_collection_summary(
         collection_name,
-        collection_info, 
+        collection_info,
+        error_handler
+    )
+
+    # Test the bibtex and semantic scholar ids are valid
+    test_bibtex_semanticscholar(
+        collection_info,
         error_handler
     )
 
@@ -343,8 +360,8 @@ if __name__ == "__main__":
     """
     parser = argparse.ArgumentParser(description='Test a new collection.')
     parser.add_argument(
-        '--collection', 
-        type=str, 
+        '--collection',
+        type=str,
         required=False,
         default=None,
         choices=list(COLLECTION_FN_MAPPER.keys()) + [None],

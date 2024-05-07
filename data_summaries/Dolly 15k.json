@@ -1,7 +1,7 @@
 {
     "dolly-openqa": {
         "Unique Dataset Identifier": "dolly-openqa",
-        "Dataset Name": "open_qa",
+        "Dataset Name": "dolly-open_qa",
         "Collection": "Dolly 15k",
         "Collection URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
         "Dataset URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
@@ -83,11 +83,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "dolly-closedqa": {
         "Unique Dataset Identifier": "dolly-closedqa",
-        "Dataset Name": "closed_qa",
+        "Dataset Name": "dolly-closed_qa",
         "Collection": "Dolly 15k",
         "Collection URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
         "Dataset URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
@@ -168,11 +169,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "dolly-classification": {
         "Unique Dataset Identifier": "dolly-classification",
-        "Dataset Name": "classification",
+        "Dataset Name": "dolly-classification",
         "Collection": "Dolly 15k",
         "Collection URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
         "Dataset URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
@@ -253,11 +255,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "dolly-brainstorming": {
         "Unique Dataset Identifier": "dolly-brainstorming",
-        "Dataset Name": "brainstorming",
+        "Dataset Name": "dolly-brainstorming",
         "Collection": "Dolly 15k",
         "Collection URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
         "Dataset URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
@@ -338,11 +341,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "dolly-infoextract": {
         "Unique Dataset Identifier": "dolly-infoextract",
-        "Dataset Name": "infoextract",
+        "Dataset Name": "dolly-infoextract",
         "Collection": "Dolly 15k",
         "Collection URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
         "Dataset URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
@@ -423,11 +427,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "dolly-summarization": {
         "Unique Dataset Identifier": "dolly-summarization",
-        "Dataset Name": "summarization",
+        "Dataset Name": "dolly-summarization",
         "Collection": "Dolly 15k",
         "Collection URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
         "Dataset URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
@@ -508,11 +513,12 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     },
     "dolly-creative_writing": {
         "Unique Dataset Identifier": "dolly-creative_writing",
-        "Dataset Name": "creative_writing",
+        "Dataset Name": "dolly-creative_writing",
         "Collection": "Dolly 15k",
         "Collection URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
         "Dataset URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
@@ -593,6 +599,7 @@
             "GitHub Topics": []
         },
         "Derived from Datasets": [],
-        "Human Annotation": "Yes"
+        "Human Annotation": "Yes",
+        "Bibtex": ""
     }
 }

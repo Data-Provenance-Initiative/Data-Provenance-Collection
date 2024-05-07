@@ -1,0 +1,23 @@
+crowdflower.com
+crowdsourced
+crowdsourced (amt)
+crowdsourced (daemo)
+human
+User interactions
+volunteer annotations
+grammar-based
+wikidata
+wikipedia.org
+wikihow.com
+wikisource
+wiktionary.org
+wordnet
+stackexchange.com
+github
+dbpedia
+verbnet
+project gutenberg
+conceptnet
+scale.com
+winograd schema challenge dataset
+sec.gov/edgar/about

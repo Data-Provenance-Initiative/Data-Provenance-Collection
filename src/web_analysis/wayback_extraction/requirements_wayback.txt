@@ -1,0 +1,5 @@
+bs4
+chardet
+python-dateutil
+ratelimit
+requests

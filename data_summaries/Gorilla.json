@@ -6,7 +6,7 @@
         "Collection URL": "https://gorilla.cs.berkeley.edu/",
         "Dataset URL": "https://gorilla.cs.berkeley.edu/",
         "GitHub URL": "https://github.com/ShishirPatil/gorilla",
-        "Hugging Face URL": "https://huggingface.co/datasets/gorilla-llm/APIBench",
+        "Hugging Face URL": "https://huggingface.co/datasets/gorilla-llm/Berkeley-Function-Calling-Leaderboard",
         "Paper Title": "Gorilla: Large Language Model Connected with Massive APIs",
         "Papers with Code URL": "",
         "ArXiv URL": "https://arxiv.org/abs/2305.15334",
@@ -101,6 +101,7 @@
             ]
         },
         "Human Annotation": "No",
-        "Derived from Datasets": []
+        "Derived from Datasets": [],
+        "Bibtex": ""
     }
 }
