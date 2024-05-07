@@ -36,7 +36,7 @@
             {
                 "License": "OpenAI",
                 "License URL": ""
-            }
+            },
             {
                 "License": "CC BY-NC 4.0",
                 "License URL": "https://huggingface.co/datasets/lmsys/toxic-chat"
