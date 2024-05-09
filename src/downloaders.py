@@ -1360,44 +1360,21 @@ def download_conifer(accepted_filter_ids):
     return dset
 
 
-# def download_dialogstudio(accepted_filter_ids):
-#     dsets = []
-#     for data_name in ['chitchat-dataset', 'ConvAI2', 'AntiScam', 'Empathetic', 'HH-RLHF', 'PLACES3.5', 'Prosocial', 'SODA', 'ShareGPT', 'CompWebQ', 
-#                         'CoQA', 'CoSQL', 'DART', 'FeTaQA', 'GrailQA', 'HybridQA', 'MTOP', 'MultiModalQA', 'SParC', 'Spider', 'SQA', 'ToTTo', 'WebQSP', 
-#                         'WikiSQL', 'WikiTQ', 'wizard_of_internet', 'wizard_of_wikipedia', 'AMI', 'CRD3', 'DialogSum', 'ECTSum', 'ICSI', 'MediaSum', 
-#                         'QMSum', 'SAMSum', 'TweetSumm', 'ConvoSumm', 'SummScreen_ForeverDreaming', 'SummScreen_TVMegaSite', 'ATIS', 'ATIS-NER', 
-#                         'BANKING77', 'BANKING77-OOS', 'CLINC-Single-Domain-OOS-banking', 'CLINC-Single-Domain-OOS-credit_cards', 'CLINC150', 'DSTC8-SGD', 
-#                         'HWU64', 'MIT-Movie', 'MIT-Restaurant', 'RESTAURANTS8K', 'SNIPS', 'SNIPS-NER', 'TOP', 'TOP-NER', 'ABCD', 'AirDialogue', 
-#                         'BiTOD', 'CaSiNo', 'CraigslistBargains', 'Disambiguation', 'DSTC2-Clean', 'FRAMES', 'GECOR', 'HDSA-Dialog', 'KETOD', 'KVRET', 
-#                         'MetaLWOZ', 'MS-DC', 'MuDoCo', 'MulDoGO', 'MultiWOZ_2.1', 'MULTIWOZ2_2', 'SGD', 'SimJointGEN', 'SimJointMovie', 'SimJointRestaurant', 
-#                         'STAR', 'Taskmaster1', 'Taskmaster2', 'Taskmaster3', 'WOZ2_0', 'Redial', 'DuRecDial-2.0', 'OpenDialKG', 'SalesBot']:
-#         if f"ds-{data_name}" in accepted_filter_ids:
-#             dset = huggingface_download("Salesforce/dialogstudio", data_name, split="train")
-#             dset = annotate_source(dset, f"ds-{data_name}")
-#             dsets.extend(dset)
-#     return dsets
-
 def download_dialogstudio(accepted_filter_ids):
     dsets = []
     for data_name in ['chitchat-dataset', 'ConvAI2', 'AntiScam', 'Empathetic', 'HH-RLHF', 'PLACES3.5', 'Prosocial', 'SODA', 'ShareGPT', 'CompWebQ', 
-                      'CoQA', 'CoSQL', 'DART', 'FeTaQA', 'GrailQA', 'HybridQA', 'MTOP', 'MultiModalQA', 'SParC', 'Spider', 'SQA', 'ToTTo', 'WebQSP', 
-                      'WikiSQL', 'WikiTQ', 'wizard_of_internet', 'wizard_of_wikipedia', 'AMI', 'CRD3', 'DialogSum', 'ECTSum', 'ICSI', 'MediaSum', 
-                      'QMSum', 'SAMSum', 'TweetSumm', 'ConvoSumm', 'SummScreen_ForeverDreaming', 'SummScreen_TVMegaSite', 'ATIS', 'ATIS-NER', 
-                      'BANKING77', 'BANKING77-OOS', 'CLINC-Single-Domain-OOS-banking', 'CLINC-Single-Domain-OOS-credit_cards', 'CLINC150', 'DSTC8-SGD', 
-                      'HWU64', 'MIT-Movie', 'MIT-Restaurant', 'RESTAURANTS8K', 'SNIPS', 'SNIPS-NER', 'TOP', 'TOP-NER', 'ABCD', 'AirDialogue', 
-                      'BiTOD', 'CaSiNo', 'CraigslistBargains', 'Disambiguation', 'DSTC2-Clean', 'FRAMES', 'GECOR', 'HDSA-Dialog', 'KETOD', 'KVRET', 
-                      'MetaLWOZ', 'MS-DC', 'MuDoCo', 'MulDoGO', 'MultiWOZ_2.1', 'MULTIWOZ2_2', 'SGD', 'SimJointGEN', 'SimJointMovie', 'SimJointRestaurant', 
-                      'STAR', 'Taskmaster1', 'Taskmaster2', 'Taskmaster3', 'WOZ2_0', 'Redial', 'DuRecDial-2.0', 'OpenDialKG', 'SalesBot']:
+                        'CoQA', 'CoSQL', 'DART', 'FeTaQA', 'GrailQA', 'HybridQA', 'MTOP', 'MultiModalQA', 'SParC', 'Spider', 'SQA', 'ToTTo', 'WebQSP', 
+                        'WikiSQL', 'WikiTQ', 'wizard_of_internet', 'wizard_of_wikipedia', 'AMI', 'CRD3', 'DialogSum', 'ECTSum', 'ICSI', 'MediaSum', 
+                        'QMSum', 'SAMSum', 'TweetSumm', 'ConvoSumm', 'SummScreen_ForeverDreaming', 'SummScreen_TVMegaSite', 'ATIS', 'ATIS-NER', 
+                        'BANKING77', 'BANKING77-OOS', 'CLINC-Single-Domain-OOS-banking', 'CLINC-Single-Domain-OOS-credit_cards', 'CLINC150', 'DSTC8-SGD', 
+                        'HWU64', 'MIT-Movie', 'MIT-Restaurant', 'RESTAURANTS8K', 'SNIPS', 'SNIPS-NER', 'TOP', 'TOP-NER', 'ABCD', 'AirDialogue', 
+                        'BiTOD', 'CaSiNo', 'CraigslistBargains', 'Disambiguation', 'DSTC2-Clean', 'FRAMES', 'GECOR', 'HDSA-Dialog', 'KETOD', 'KVRET', 
+                        'MetaLWOZ', 'MS-DC', 'MuDoCo', 'MulDoGO', 'MultiWOZ_2.1', 'MULTIWOZ2_2', 'SGD', 'SimJointGEN', 'SimJointMovie', 'SimJointRestaurant', 
+                        'STAR', 'Taskmaster1', 'Taskmaster2', 'Taskmaster3', 'WOZ2_0', 'Redial', 'DuRecDial-2.0', 'OpenDialKG', 'SalesBot']:
         if f"ds-{data_name}" in accepted_filter_ids:
-            if data_name == "ToTTo":
-                url = "https://huggingface.co/datasets/Salesforce/dialogstudio/resolve/main/knowledge_grounded/ToTTo/train/dialogues_1.json?download=true"
-                response = requests.get(url)
-                data = response.json()
-                dset = annotate_source(data, f"ds-{data_name}")
-                dsets.extend(dset)
-            else:
-                data = load_dataset("Salesforce/dialogstudio", data_name, split="train")
-                dset = annotate_source(data, f"ds-{data_name}")
-                dsets.extend(dset)
-
+            dset = huggingface_download("Salesforce/dialogstudio", data_name, split="train")
+            dset = annotate_source(dset, f"ds-{data_name}")
+            dsets.extend(dset)
     return dsets
+
+
