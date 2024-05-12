@@ -1,16 +1,18 @@
 from collections import Counter, defaultdict
 from datetime import datetime
+
 import pandas as pd
 
-
 # import src.helpers.constants as constants
-from . import io, constants
+from . import constants, io
 
 
 def classify_license(license_name, license_url, all_constants):
     if license_name == "Custom":
         use_case, attribution, share_alike = all_constants["CUSTOM_LICENSE_CLASSES"].get(license_url, ("?", "?", "?"))
     else:
+        if isinstance(license_name, list):
+            license_name = license_name[0]
         use_case, attribution, share_alike = all_constants["LICENSE_CLASSES"][license_name]
     return {
         "use": use_case, 
