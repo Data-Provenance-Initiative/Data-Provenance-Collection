@@ -27,8 +27,27 @@ def parse_robots_txt(robots_txt):
             current_agents = []
         else:
             rules["ERRORS"].append(f"Unmatched line: {line}")
-    
     return rules
+
+
+def parallel_parse_robots(data):
+    """Takes in {URL --> robots text}
+
+    Returns {URL --> {ERRORS/Sitemap/Agent --> {Allow/Disallow --> [paths...]}}
+    """
+    # populate the empty rules (missing robots.txt)
+    url_to_rules = {url: {} for url, txt in data.items() if not txt}
+    # interpret the robots.txt
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        future_to_url = {executor.submit(parse_robots_txt, txt): url for url, txt in data.items() if txt}
+        for future in as_completed(future_to_url):
+            url = future_to_url[future]
+            try:
+                url_to_rules[url] = future.result()
+            except Exception as e:
+                print(f"Error processing {url}: {e}")
+    return url_to_rules
+
 
 def interpret_agent(rules):
 
@@ -107,23 +126,20 @@ def read_robots_file(file_path):
     with gzip.open(file_path, 'rt') as file:
         return json.load(file)
 
-def main(args):
-    data = read_robots_file(args.file_path)
-    print(f"Total URLs: {len(data)}")
-    print(f"URLs with robots.txt: {sum(1 for robots_txt in data.values() if robots_txt)}")
+def analyze_robots(data):
+    """Takes in {URL --> robots text}
 
-    # populate the empty rules (missing robots.txt)
-    url_to_rules = {url: {} for url, txt in data.items() if not txt}
-    # interpret the robots.txt
-    with ThreadPoolExecutor(max_workers=10) as executor:
-        future_to_url = {executor.submit(parse_robots_txt, txt): url for url, txt in data.items() if txt}
-        for future in as_completed(future_to_url):
-            url = future_to_url[future]
-            try:
-                url_to_rules[url] = future.result()
-            except Exception as e:
-                print(f"Error processing {url}: {e}")
-
+    Returns:
+        robots_stats: {Agent --> {count: <int>, all: <int>, some: <int>, none: <int>}}
+            where `count` are number of observations of this agent
+            `all` is how many times its had all paths blocked
+            `some` is how many times its had some paths blocked
+            `none` is how many times its had none paths blocked
+        url_interpretations: {URL --> {Agent --> <all/some/none>}}
+            Only includes agents seen at this URL. 
+            Agents not seen at this URL will inherit "*" rules, or `none` at all.
+    """
+    url_to_rules = parallel_parse_robots(data)
     # Collect all agents
     all_agents = list(set([agent for url, rules in url_to_rules.items() 
                       for agent, _ in rules.items() if agent not in ["ERRORS", "Sitemaps", "*"]]))
@@ -131,7 +147,19 @@ def main(args):
     robots_stats, url_decisions = aggregate_robots(url_to_rules, all_agents)
 
     # URL --> agents in its robots.txt and their decisions (all/some/none).
-    url_interpretations = {k: {agent: v for agent, v in vs.items() if agent not in ["ERRORS", "Sitemaps"] and agent in list(url_to_rules[k]) + ["*All Agents*"]} for k, vs in url_decisions.items()}
+    url_interpretations = {k: 
+        {agent: v for agent, v in vs.items() if agent not in ["ERRORS", "Sitemaps"] and agent in list(url_to_rules[k]) + ["*All Agents*"]} 
+        for k, vs in url_decisions.items()}
+
+    return robots_stats, url_interpretations
+
+
+def main(args):
+    data = read_robots_file(args.file_path)
+    print(f"Total URLs: {len(data)}")
+    print(f"URLs with robots.txt: {sum(1 for robots_txt in data.values() if robots_txt)}")
+
+    robots_stats, url_interpretations = analyze_robots(data)
 
     # PRINT OUT INFO ON INDIVIDUAL URLS:
     # for url, interp in url_interpretations.items():
