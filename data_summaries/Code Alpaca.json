@@ -67,9 +67,7 @@
             "HF Dataset": "sahil2801/CodeAlpaca-20k",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": [
-                "cc-by-4.0"
-            ],
+            "HF Yaml License": "CC BY 4.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",

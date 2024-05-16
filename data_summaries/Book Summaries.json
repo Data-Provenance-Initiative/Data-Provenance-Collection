@@ -76,12 +76,8 @@
             "HF Likes (September 2023)": 3,
             "PwC Date": "2021-05-18",
             "PwC Description": "BookSum is a collection of datasets for long-form narrative summarization. This dataset covers source documents from the literature domain, such as novels, plays and stories, and includes highly abstractive, human written summaries on three levels of granularity of increasing difficulty: paragraph-, chapter-, and book-level. The domain and structure of this dataset poses a unique set of challenges for summarization systems, which include: processing very long documents, non-trivial causal and temporal dependencies, and rich discourse structures.\n\nBookSum contains summaries for 142,753 paragraphs, 12,293 chapters and 436 books.",
-            "PwC License Name": [
-                "BSD-3 License"
-            ],
-            "PwC License URL": [
-                "https://github.com/salesforce/booksum/blob/main/LICENSE.txt"
-            ],
+            "PwC License Name": "BSD 3-Clause License",
+            "PwC License URL": "https://github.com/salesforce/booksum/blob/main/LICENSE.txt",
             "S2 Citation Count (September 2023)": 51,
             "S2 Date": "2021-05-18",
             "GitHub Stars": 154,

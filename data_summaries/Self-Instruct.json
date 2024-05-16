@@ -75,9 +75,7 @@
             "HF Dataset": "yizhongw/self_instruct",
             "HF Config": "self_instruct",
             "HF Config License": "",
-            "HF Yaml License": [
-                "apache-2.0"
-            ],
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",

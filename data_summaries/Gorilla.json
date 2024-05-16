@@ -105,9 +105,7 @@
             "HF Dataset": "gorilla-llm/Berkeley-Function-Calling-Leaderboard",
             "HF Downloads (May 2024)": 68,
             "HF Likes (May 2024)": 12,
-            "HF Yaml License": [
-                "apache-2.0"
-            ],
+            "HF Yaml License": "Apache License 2.0",
             "S2 Citation Count (May 2024)": 201
         },
         "Human Annotation": "No",

@@ -77,9 +77,7 @@
             "HF Dataset": "kaist-ai/CoT-Collection",
             "HF Config": "en",
             "HF Config License": "",
-            "HF Yaml License": [
-                "cc-by-4.0"
-            ],
+            "HF Yaml License": "CC BY 4.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -194,9 +192,7 @@
             "HF Dataset": "kaist-ai/CoT-Collection_multilingual",
             "HF Config": "fr",
             "HF Config License": "",
-            "HF Yaml License": [
-                "cc-by-4.0"
-            ],
+            "HF Yaml License": "CC BY 4.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -310,9 +306,7 @@
             "HF Dataset": "kaist-ai/CoT-Collection_multilingual",
             "HF Config": "ja",
             "HF Config License": "",
-            "HF Yaml License": [
-                "cc-by-4.0"
-            ],
+            "HF Yaml License": "CC BY 4.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -426,9 +420,7 @@
             "HF Dataset": "kaist-ai/CoT-Collection_multilingual",
             "HF Config": "ko",
             "HF Config License": "",
-            "HF Yaml License": [
-                "cc-by-4.0"
-            ],
+            "HF Yaml License": "CC BY 4.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -542,9 +534,7 @@
             "HF Dataset": "kaist-ai/CoT-Collection_multilingual",
             "HF Config": "ru",
             "HF Config License": "",
-            "HF Yaml License": [
-                "cc-by-4.0"
-            ],
+            "HF Yaml License": "CC BY 4.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -658,9 +648,7 @@
             "HF Dataset": "kaist-ai/CoT-Collection_multilingual",
             "HF Config": "zh",
             "HF Config License": "",
-            "HF Yaml License": [
-                "cc-by-4.0"
-            ],
+            "HF Yaml License": "CC BY 4.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",

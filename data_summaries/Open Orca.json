@@ -326,19 +326,15 @@
             "niv"
         ],
         "Inferred Metadata": {
-            "GitHub License": "GNU Affero General Public License v3.0",
+            "GitHub License": "GNU General Public License v3.0",
             "Github Date": "",
             "HF Date": "2023-06-15",
             "HF Downloads (September 2023)": 29829,
             "HF Likes (September 2023)": 628,
             "PwC Date": "2022-06-09",
             "PwC Description": "The Beyond the Imitation Game Benchmark (BIG-bench) is a collaborative benchmark intended to probe large language models and extrapolate their future capabilities. Big-bench include more than 200 tasks.",
-            "PwC License Name": [
-                "Apache License 2.0"
-            ],
-            "PwC License URL": [
-                "https://github.com/google/BIG-bench/blob/main/LICENSE"
-            ],
+            "PwC License Name": "Apache License 2.0",
+            "PwC License URL": "https://github.com/google/BIG-bench/blob/main/LICENSE",
             "S2 Citation Count (September 2023)": "",
             "S2 Date": "2023-01-31",
             "GitHub Stars": 25,
@@ -361,9 +357,7 @@
             "HF Dataset": "Open-Orca/OpenOrca",
             "HF Downloads (May 2024)": 16279,
             "HF Likes (May 2024)": 1210,
-            "HF Yaml License": [
-                "mit"
-            ],
+            "HF Yaml License": "MIT License",
             "S2 Citation Count (May 2024)": 305
         },
         "Human Annotation": "No",
@@ -458,19 +452,15 @@
             "t0"
         ],
         "Inferred Metadata": {
-            "GitHub License": "GNU Affero General Public License v3.0",
+            "GitHub License": "GNU General Public License v3.0",
             "Github Date": "",
             "HF Date": "2023-06-15",
             "HF Downloads (September 2023)": 29829,
             "HF Likes (September 2023)": 628,
             "PwC Date": "2022-06-09",
             "PwC Description": "The Beyond the Imitation Game Benchmark (BIG-bench) is a collaborative benchmark intended to probe large language models and extrapolate their future capabilities. Big-bench include more than 200 tasks.",
-            "PwC License Name": [
-                "Apache License 2.0"
-            ],
-            "PwC License URL": [
-                "https://github.com/google/BIG-bench/blob/main/LICENSE"
-            ],
+            "PwC License Name": "Apache License 2.0",
+            "PwC License URL": "https://github.com/google/BIG-bench/blob/main/LICENSE",
             "S2 Citation Count (September 2023)": "",
             "S2 Date": "2023-01-31",
             "GitHub Stars": 25,
@@ -493,9 +483,7 @@
             "HF Dataset": "Open-Orca/OpenOrca",
             "HF Downloads (May 2024)": 16279,
             "HF Likes (May 2024)": 1210,
-            "HF Yaml License": [
-                "mit"
-            ],
+            "HF Yaml License": "MIT License",
             "S2 Citation Count (May 2024)": 305
         },
         "Human Annotation": "No",
@@ -584,19 +572,15 @@
             "cot"
         ],
         "Inferred Metadata": {
-            "GitHub License": "GNU Affero General Public License v3.0",
+            "GitHub License": "GNU General Public License v3.0",
             "Github Date": "",
             "HF Date": "2023-06-15",
             "HF Downloads (September 2023)": 29829,
             "HF Likes (September 2023)": 628,
             "PwC Date": "2022-06-09",
             "PwC Description": "The Beyond the Imitation Game Benchmark (BIG-bench) is a collaborative benchmark intended to probe large language models and extrapolate their future capabilities. Big-bench include more than 200 tasks.",
-            "PwC License Name": [
-                "Apache License 2.0"
-            ],
-            "PwC License URL": [
-                "https://github.com/google/BIG-bench/blob/main/LICENSE"
-            ],
+            "PwC License Name": "Apache License 2.0",
+            "PwC License URL": "https://github.com/google/BIG-bench/blob/main/LICENSE",
             "S2 Citation Count (September 2023)": "",
             "S2 Date": "2023-01-31",
             "GitHub Stars": 25,
@@ -619,9 +603,7 @@
             "HF Dataset": "Open-Orca/OpenOrca",
             "HF Downloads (May 2024)": 16279,
             "HF Likes (May 2024)": 1210,
-            "HF Yaml License": [
-                "mit"
-            ],
+            "HF Yaml License": "MIT License",
             "S2 Citation Count (May 2024)": 305
         },
         "Human Annotation": "No",
@@ -767,19 +749,15 @@
             "flan"
         ],
         "Inferred Metadata": {
-            "GitHub License": "GNU Affero General Public License v3.0",
+            "GitHub License": "GNU General Public License v3.0",
             "Github Date": "",
             "HF Date": "2023-06-15",
             "HF Downloads (September 2023)": 29829,
             "HF Likes (September 2023)": 628,
             "PwC Date": "2022-06-09",
             "PwC Description": "The Beyond the Imitation Game Benchmark (BIG-bench) is a collaborative benchmark intended to probe large language models and extrapolate their future capabilities. Big-bench include more than 200 tasks.",
-            "PwC License Name": [
-                "Apache License 2.0"
-            ],
-            "PwC License URL": [
-                "https://github.com/google/BIG-bench/blob/main/LICENSE"
-            ],
+            "PwC License Name": "Apache License 2.0",
+            "PwC License URL": "https://github.com/google/BIG-bench/blob/main/LICENSE",
             "S2 Citation Count (September 2023)": "",
             "S2 Date": "2023-01-31",
             "GitHub Stars": 25,
@@ -802,9 +780,7 @@
             "HF Dataset": "Open-Orca/OpenOrca",
             "HF Downloads (May 2024)": 16279,
             "HF Likes (May 2024)": 1210,
-            "HF Yaml License": [
-                "mit"
-            ],
+            "HF Yaml License": "MIT License",
             "S2 Citation Count (May 2024)": 305
         },
         "Human Annotation": "No",
