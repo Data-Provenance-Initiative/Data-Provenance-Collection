@@ -55,15 +55,9 @@
             "HF Dataset": "gsm8k",
             "HF Config": "main",
             "HF Config License": "",
-            "HF Yaml License": [
-                "mit"
-            ],
-            "PwC License Name": [
-                "Unknown"
-            ],
-            "PwC License URL": [
-                null
-            ],
+            "HF Yaml License": "MIT License",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
             "PwC Date": "2021-10-27",
             "S2 Date": "2021-10-27",
             "GitHub License": "",
@@ -152,12 +146,8 @@
             "HF Config": "default",
             "HF Config License": "",
             "HF Yaml License": "",
-            "PwC License Name": [
-                null
-            ],
-            "PwC License URL": [
-                null
-            ],
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
             "PwC Date": "2021-01-06",
             "S2 Date": "2021-01-06",
             "GitHub License": "",
@@ -246,15 +236,9 @@
             "HF Dataset": "aqua_rat",
             "HF Config": "raw",
             "HF Config License": "",
-            "HF Yaml License": [
-                "apache-2.0"
-            ],
-            "PwC License Name": [
-                "Apache 2.0"
-            ],
-            "PwC License URL": [
-                "https://www.apache.org/licenses/LICENSE-2.0"
-            ],
+            "HF Yaml License": "Apache License 2.0",
+            "PwC License Name": "Apache License 2.0",
+            "PwC License URL": "https://www.apache.org/licenses/LICENSE-2.0",
             "PwC Date": "",
             "S2 Date": "2017-05-11",
             "GitHub License": "",
@@ -343,12 +327,8 @@
             "HF Config": "default",
             "HF Config License": "",
             "HF Yaml License": "",
-            "PwC License Name": [
-                "CC BY- SA 4.0"
-            ],
-            "PwC License URL": [
-                "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
-            ],
+            "PwC License Name": "CC BY-SA 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/4.0/legalcode",
             "PwC Date": "2021-09-03",
             "S2 Date": "2021-09-03",
             "GitHub License": "MIT License",
@@ -438,12 +418,8 @@
             "HF Config": "default",
             "HF Config License": "",
             "HF Yaml License": "",
-            "PwC License Name": [
-                "CDLA Sharing 1.0"
-            ],
-            "PwC License URL": [
-                "https://github.com/Community-Data-License-Agreements/Releases"
-            ],
+            "PwC License Name": "CDLA Sharing 1.0",
+            "PwC License URL": "https://github.com/Community-Data-License-Agreements/Releases",
             "PwC Date": "2021-07-15",
             "S2 Date": "",
             "GitHub License": "",
@@ -538,12 +514,8 @@
             "HF Config": "plain_text",
             "HF Config License": "",
             "HF Yaml License": "",
-            "PwC License Name": [
-                "Custom"
-            ],
-            "PwC License URL": [
-                "https://github.com/OanaMariaCamburu/e-SNLI"
-            ],
+            "PwC License Name": "Various",
+            "PwC License URL": "https://github.com/OanaMariaCamburu/e-SNLI",
             "PwC Date": "",
             "S2 Date": "2018-12-04",
             "GitHub License": "MIT License",
@@ -633,15 +605,9 @@
             "HF Dataset": "qasc",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": [
-                "cc-by-4.0"
-            ],
-            "PwC License Name": [
-                "Unknown"
-            ],
-            "PwC License URL": [
-                null
-            ],
+            "HF Yaml License": "CC BY 4.0",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
             "PwC Date": "2019-10-25",
             "S2 Date": "2019-10-25",
             "GitHub License": "",
@@ -738,15 +704,9 @@
             "HF Dataset": "qed",
             "HF Config": "qed",
             "HF Config License": "",
-            "HF Yaml License": [
-                "unknown"
-            ],
-            "PwC License Name": [
-                null
-            ],
-            "PwC License URL": [
-                null
-            ],
+            "HF Yaml License": "Unspecified",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
             "PwC Date": "",
             "S2 Date": "2020-09-08",
             "GitHub License": "",
