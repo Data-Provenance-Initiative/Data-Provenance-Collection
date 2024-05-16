@@ -62,15 +62,9 @@
             "HF Dataset": "svakulenk0/qrecc",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": [
-                "cc-by-3.0"
-            ],
-            "PwC License Name": [
-                null
-            ],
-            "PwC License URL": [
-                null
-            ],
+            "HF Yaml License": "CC BY 3.0",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
             "PwC Date": "2020-10-10",
             "S2 Date": "2020-10-10",
             "GitHub License": "Apache License 2.0",

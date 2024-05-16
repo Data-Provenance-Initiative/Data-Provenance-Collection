@@ -55,7 +55,7 @@
         ],
         "Bibtex": "@Article{Han2023MedAlpacaA,\n author = {T. Han and Lisa C. Adams and Jens-Michalis Papaioannou and Paul Grundmann and Tom Oberhauser and Alexander Löser and D. Truhn and K. Bressem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MedAlpaca - An Open-Source Collection of Medical Conversational AI Models and Training Data},\n volume = {abs/2304.08247},\n year = {2023}\n}\n",
         "Inferred Metadata": {
-            "GitHub License": "GNU Affero General Public License v3.0",
+            "GitHub License": "GNU General Public License v3.0",
             "GitHub Stars (May 2024)": 430,
             "GitHub Topics": [],
             "Github Date": "",
@@ -65,9 +65,7 @@
             "HF Date": "2023-04-06",
             "HF Downloads (May 2024)": 14148,
             "HF Likes (May 2024)": 23,
-            "HF Yaml License": [
-                "cc"
-            ],
+            "HF Yaml License": "CC0 1.0",
             "PwC Date": "",
             "PwC Description": "",
             "PwC License Name": "",
@@ -132,7 +130,7 @@
         ],
         "Bibtex": "@Article{Han2023MedAlpacaA,\n author = {T. Han and Lisa C. Adams and Jens-Michalis Papaioannou and Paul Grundmann and Tom Oberhauser and Alexander Löser and D. Truhn and K. Bressem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MedAlpaca - An Open-Source Collection of Medical Conversational AI Models and Training Data},\n volume = {abs/2304.08247},\n year = {2023}\n}\n",
         "Inferred Metadata": {
-            "GitHub License": "GNU Affero General Public License v3.0",
+            "GitHub License": "GNU General Public License v3.0",
             "GitHub Stars (May 2024)": 430,
             "GitHub Topics": [],
             "Github Date": "",
@@ -142,9 +140,7 @@
             "HF Date": "2023-04-06",
             "HF Downloads (May 2024)": 657,
             "HF Likes (May 2024)": 29,
-            "HF Yaml License": [
-                "cc"
-            ],
+            "HF Yaml License": "CC0 1.0",
             "PwC Date": "",
             "PwC Description": "",
             "PwC License Name": "",
@@ -209,7 +205,7 @@
         ],
         "Bibtex": "@Article{Han2023MedAlpacaA,\n author = {T. Han and Lisa C. Adams and Jens-Michalis Papaioannou and Paul Grundmann and Tom Oberhauser and Alexander Löser and D. Truhn and K. Bressem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MedAlpaca - An Open-Source Collection of Medical Conversational AI Models and Training Data},\n volume = {abs/2304.08247},\n year = {2023}\n}\n",
         "Inferred Metadata": {
-            "GitHub License": "GNU Affero General Public License v3.0",
+            "GitHub License": "GNU General Public License v3.0",
             "GitHub Stars (May 2024)": 430,
             "GitHub Topics": [],
             "Github Date": "",
@@ -219,9 +215,7 @@
             "HF Date": "2023-04-06",
             "HF Downloads (May 2024)": 303,
             "HF Likes (May 2024)": 17,
-            "HF Yaml License": [
-                "cc"
-            ],
+            "HF Yaml License": "CC0 1.0",
             "PwC Date": "",
             "PwC Description": "",
             "PwC License Name": "",
@@ -351,7 +345,7 @@
         ],
         "Bibtex": "@Article{Yu2019DetectingCL,\n author = {Bei Yu and Yingya Li and Jun Wang},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {4663-4673},\n title = {Detecting Causal Language Use in Science Findings},\n year = {2019}\n}\n",
         "Inferred Metadata": {
-            "GitHub License": "GNU Affero General Public License v3.0",
+            "GitHub License": "GNU General Public License v3.0",
             "GitHub Stars (May 2024)": 10,
             "GitHub Topics": [
                 "causal-language",
@@ -423,7 +417,7 @@
         ],
         "Bibtex": "@Article{Yu2019DetectingCL,\n author = {Bei Yu and Yingya Li and Jun Wang},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {4663-4673},\n title = {Detecting Causal Language Use in Science Findings},\n year = {2019}\n}\n",
         "Inferred Metadata": {
-            "GitHub License": "GNU Affero General Public License v3.0",
+            "GitHub License": "GNU General Public License v3.0",
             "GitHub Stars (May 2024)": 10,
             "GitHub Topics": [
                 "causal-language",
@@ -508,12 +502,8 @@
             "HF Yaml License": "",
             "PwC Date": "2020-09-28",
             "PwC Description": "Multiple choice question answering based on the United States Medical License Exams (USMLE). The dataset is collected from the professional medical board exams. It covers three languages: English, simplified Chinese, and traditional Chinese, and contains 12,723, 34,251, and 14,123 questions for the three languages, respectively.",
-            "PwC License Name": [
-                null
-            ],
-            "PwC License URL": [
-                null
-            ],
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
             "S2 Citation Count (May 2024)": 245,
             "S2 Date": "2020-09-28"
         }
@@ -591,12 +581,8 @@
             "HF Yaml License": "",
             "PwC Date": "",
             "PwC Description": "The first summarization collection containing question-driven summaries of answers to consumer health questions. This dataset can be used to evaluate single or multi-document summaries generated by algorithms using extractive or abstractive approaches.",
-            "PwC License Name": [
-                null
-            ],
-            "PwC License URL": [
-                null
-            ],
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
             "S2 Citation Count (May 2024)": 60,
             "S2 Date": "2020-01-30"
         }

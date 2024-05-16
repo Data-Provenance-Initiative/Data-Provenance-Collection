@@ -83,9 +83,7 @@
             "HF Dataset": "codeparrot/self-instruct-starcoder",
             "HF Downloads (May 2024)": 194,
             "HF Likes (May 2024)": 42,
-            "HF Yaml License": [
-                "bigscience-openrail-m"
-            ],
+            "HF Yaml License": "BigScience OpenRAIL-M",
             "S2 Citation Count (May 2024)": 284
         },
         "Text Metrics": {

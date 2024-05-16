@@ -57,17 +57,11 @@
             "HF Date": "2023-08-08",
             "HF Downloads (May 2024)": "",
             "HF Likes (May 2024)": "",
-            "HF Yaml License": [
-                "apache-2.0"
-            ],
+            "HF Yaml License": "Apache License 2.0",
             "PwC Date": "2023-08-11",
             "PwC Description": "PIPPA (Personal Interaction Pairs between People and AI) is a partially-synthetic dataset. The dataset comprises over 1 million utterances that are distributed across 26,000 conversation sessions and provides a rich resource for researchers and AI developers to explore and refine conversational AI systems in the context of role-play scenarios.",
-            "PwC License Name": [
-                "AGPL-3.0 license"
-            ],
-            "PwC License URL": [
-                "https://huggingface.co/datasets?license=license%3Aagpl-3.0"
-            ],
+            "PwC License Name": "GNU General Public License v3.0",
+            "PwC License URL": "https://huggingface.co/datasets?license=license%3Aagpl-3.0",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         }
