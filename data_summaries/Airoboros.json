@@ -90,9 +90,7 @@
             "HF Dataset": "jondurbin/airoboros-3.2",
             "HF Downloads (May 2024)": "",
             "HF Likes (May 2024)": "",
-            "HF Yaml License": [
-                "cc-by-4.0"
-            ],
+            "HF Yaml License": "CC BY 4.0",
             "S2 Citation Count (May 2024)": ""
         },
         "Human Annotation": "No",

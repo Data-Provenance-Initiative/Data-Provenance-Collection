@@ -81,22 +81,16 @@
                 "Sports"
             ],
             "GitHub License": "MIT License",
-            "HF Yaml License": [
-                "cc-by-4.0"
-            ],
+            "HF Yaml License": "CC BY 4.0",
             "HF Config License": "",
-            "PwC License Name": [
-                "CC-BY-4.0"
-            ],
+            "PwC License Name": "CC BY 4.0",
             "Github Date": "",
             "HF Date": "2023-01-04",
             "HF Downloads (September 2023)": 375,
             "HF Likes (September 2023)": 93,
             "PwC Date": "2022-12-20",
             "PwC Description": "SODA is a high-quality social dialogue dataset. In contrast to most existing crowdsourced, small-scale dialogue corpora, Soda distills 1.5M socially-grounded dialogues from a pre-trained language model (InstructGPT; Ouyang et al., ). Dialogues are distilled by contextualizing social commonsense knowledge from a knowledge graph (Atomic10x).",
-            "PwC License URL": [
-                "https://github.com/skywalker023/sodaverse/blob/main/LICENSE"
-            ],
+            "PwC License URL": "https://github.com/skywalker023/sodaverse/blob/main/LICENSE",
             "S2 Citation Count (September 2023)": "",
             "S2 Date": "2022-12-20",
             "GitHub Stars": 136,
@@ -391,9 +385,7 @@
                 "Language comprehension"
             ],
             "GitHub License": "",
-            "HF Yaml License": [
-                "apache-2.0"
-            ],
+            "HF Yaml License": "Apache License 2.0",
             "HF Config License": "",
             "PwC License Name": "",
             "Github Date": "",
@@ -488,9 +480,7 @@
                 "History"
             ],
             "GitHub License": "",
-            "HF Yaml License": [
-                "unknown"
-            ],
+            "HF Yaml License": "Unspecified",
             "HF Config License": "",
             "PwC License Name": "",
             "Github Date": "",
@@ -583,9 +573,7 @@
                 "Music and lyrics"
             ],
             "GitHub License": "",
-            "HF Yaml License": [
-                "unknown"
-            ],
+            "HF Yaml License": "Unspecified",
             "HF Config License": "",
             "PwC License Name": "",
             "Github Date": "",
@@ -765,22 +753,16 @@
                 "Wildlife conservation"
             ],
             "GitHub License": "",
-            "HF Yaml License": [
-                "other"
-            ],
+            "HF Yaml License": "Unspecified",
             "HF Config License": "",
-            "PwC License Name": [
-                "Custom"
-            ],
+            "PwC License Name": "Various",
             "Github Date": "",
             "HF Date": "2022-01-25",
             "HF Downloads (September 2023)": 6214,
             "HF Likes (September 2023)": 24,
             "PwC Date": "2019-01-01",
             "PwC Description": "Multi-News, consists of news articles and human-written summaries of these articles from the site newser.com. Each summary is professionally written by editors and includes links to the original articles cited.",
-            "PwC License URL": [
-                "https://github.com/Alex-Fabbri/Multi-News"
-            ],
+            "PwC License URL": "https://github.com/Alex-Fabbri/Multi-News",
             "S2 Citation Count (September 2023)": "",
             "S2 Date": "2019-06-04",
             "GitHub Stars": "",
@@ -862,9 +844,7 @@
                 "Online research"
             ],
             "GitHub License": "",
-            "HF Yaml License": [
-                "apache-2.0"
-            ],
+            "HF Yaml License": "Apache License 2.0",
             "HF Config License": "",
             "PwC License Name": "",
             "Github Date": "",
@@ -1050,22 +1030,16 @@
                 "Budgeting"
             ],
             "GitHub License": "",
-            "HF Yaml License": [
-                "mit"
-            ],
+            "HF Yaml License": "MIT License",
             "HF Config License": "",
-            "PwC License Name": [
-                "Unknown"
-            ],
+            "PwC License Name": "Unspecified",
             "Github Date": "",
             "HF Date": "2022-04-12",
             "HF Downloads (September 2023)": 136536,
             "HF Likes (September 2023)": 64,
             "PwC Date": "2021-10-27",
             "PwC Description": "GSM8K is a dataset of 8.5K high quality linguistically diverse grade school math word problems created by human problem writers. The dataset is segmented into 7.5K training problems and 1K test problems. These problems take between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations (+ − ×÷) to reach the final answer. A bright middle school student should be able to solve every problem. It can be used for multi-step mathematical reasoning.",
-            "PwC License URL": [
-                null
-            ],
+            "PwC License URL": null,
             "S2 Citation Count (September 2023)": "",
             "S2 Date": "2021-10-27",
             "GitHub Stars": "",
@@ -1354,22 +1328,16 @@
                 "Pop culture"
             ],
             "GitHub License": "",
-            "HF Yaml License": [
-                "cc-by-sa-3.0"
-            ],
+            "HF Yaml License": "CC BY-SA 3.0",
             "HF Config License": "",
-            "PwC License Name": [
-                "CC BY-SA 3.0"
-            ],
+            "PwC License Name": "CC BY-SA 3.0",
             "Github Date": "",
             "HF Date": "2022-01-25",
             "HF Downloads (September 2023)": 1225,
             "HF Likes (September 2023)": 18,
             "PwC Date": "2019-01-01",
             "PwC Description": "The Natural Questions corpus is a question answering dataset containing 307,373 training examples, 7,830 development examples, and 7,842 test examples. Each example is comprised of a google.com query and a corresponding Wikipedia page. Each Wikipedia page has a passage (or long answer) annotated on the page that answers the question and one or more short spans from the annotated passage containing the actual answer. The long and the short answer annotations can however be empty. If they are both empty, then there is no answer on the page at all. If the long answer annotation is non-empty, but the short answer annotation is empty, then the annotated passage answers the question but no explicit short answer could be found. Finally 1% of the documents have a passage annotated with a short answer that is “yes” or “no”, instead of a list of short spans.",
-            "PwC License URL": [
-                "https://creativecommons.org/licenses/by-sa/3.0/"
-            ],
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
             "S2 Citation Count (September 2023)": "",
             "S2 Date": "2019-08-01",
             "GitHub Stars": "",
@@ -1770,9 +1738,7 @@
                 "Information retrieval"
             ],
             "GitHub License": "",
-            "HF Yaml License": [
-                "apache-2.0"
-            ],
+            "HF Yaml License": "Apache License 2.0",
             "HF Config License": "",
             "PwC License Name": "",
             "Github Date": "",
@@ -2145,18 +2111,14 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": [
-                "MIT license"
-            ],
+            "PwC License Name": "MIT License",
             "Github Date": "",
             "HF Date": "",
             "HF Downloads (September 2023)": "",
             "HF Likes (September 2023)": "",
             "PwC Date": "2022-10-07",
             "PwC Description": "ConvFinQA is a dataset designed to study the chain of numerical reasoning in conversational question answering. The dataset contains 3892 conversations containing 14115 questions where 2715 of the conversations are simple conversations, and the rest 1,177 are hybrid conversations.",
-            "PwC License URL": [
-                "https://github.com/czyssrs/ConvFinQA/blob/main/LICENSE"
-            ],
+            "PwC License URL": "https://github.com/czyssrs/ConvFinQA/blob/main/LICENSE",
             "S2 Citation Count (September 2023)": "",
             "S2 Date": "2022-10-07",
             "GitHub Stars": "",
@@ -2258,22 +2220,16 @@
                 "File management"
             ],
             "GitHub License": "",
-            "HF Yaml License": [
-                "cc-by-sa-4.0"
-            ],
+            "HF Yaml License": "CC BY-SA 4.0",
             "HF Config License": "",
-            "PwC License Name": [
-                null
-            ],
+            "PwC License Name": "Unspecified",
             "Github Date": "",
             "HF Date": "2023-01-18",
             "HF Downloads (September 2023)": 3363,
             "HF Likes (September 2023)": 110,
             "PwC Date": "",
             "PwC Description": "The HC3 (Human ChatGPT Comparison Corpus) dataset consists of nearly 40K questions and their corresponding human/ChatGPT answers. The motivation for this dataset was to study ChatGPT's answers in contrast to human's answers. The questions range from a wide variety of domains, including open-domain, financial, medical, legal, and psychological areas.",
-            "PwC License URL": [
-                null
-            ],
+            "PwC License URL": null,
             "S2 Citation Count (September 2023)": "",
             "S2 Date": "2023-01-18",
             "GitHub Stars": "",
@@ -2370,22 +2326,16 @@
                 "Business negotiations"
             ],
             "GitHub License": "",
-            "HF Yaml License": [
-                "cc-by-4.0"
-            ],
+            "HF Yaml License": "CC BY 4.0",
             "HF Config License": "",
-            "PwC License Name": [
-                null
-            ],
+            "PwC License Name": "Unspecified",
             "Github Date": "",
             "HF Date": "2022-01-25",
             "HF Downloads (September 2023)": 1632,
             "HF Likes (September 2023)": 27,
             "PwC Date": "2021-03-10",
             "PwC Description": "Contract Understanding Atticus Dataset (CUAD) is a dataset for legal contract review. CUAD was created with dozens of legal experts from The Atticus Project\nand consists of over 13,000 annotations. The task is to highlight salient portions of a contract that are important for a human to review.",
-            "PwC License URL": [
-                null
-            ],
+            "PwC License URL": null,
             "S2 Citation Count (September 2023)": "",
             "S2 Date": "2021-03-10",
             "GitHub Stars": "",
@@ -2469,22 +2419,16 @@
                 "Medieval history"
             ],
             "GitHub License": "",
-            "HF Yaml License": [
-                "cc-by-sa-4.0"
-            ],
+            "HF Yaml License": "CC BY-SA 4.0",
             "HF Config License": "",
-            "PwC License Name": [
-                "CC BY-SA 4.0"
-            ],
+            "PwC License Name": "CC BY-SA 4.0",
             "Github Date": "",
             "HF Date": "2022-01-25",
             "HF Downloads (September 2023)": 8690810,
             "HF Likes (September 2023)": 65,
             "PwC Date": "2016-01-01",
             "PwC Description": "The Stanford Question Answering Dataset (SQuAD) is a collection of question-answer pairs derived from Wikipedia articles. In SQuAD, the correct answers of questions can be any sequence of tokens in the given text. Because the questions and answers are produced by humans through crowdsourcing, it is more diverse than some other question-answering datasets. SQuAD 1.1 contains 107,785 question-answer pairs on 536 articles. SQuAD2.0 (open-domain SQuAD, SQuAD-Open), the latest version, combines the 100,000 questions in SQuAD1.1 with over 50,000 un-answerable questions written adversarially by crowdworkers in forms that are similar to the answerable ones.",
-            "PwC License URL": [
-                "https://creativecommons.org/licenses/by-sa/4.0/"
-            ],
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/4.0/",
             "S2 Citation Count (September 2023)": "",
             "S2 Date": "2018-06-11",
             "GitHub Stars": "",
@@ -2568,22 +2512,16 @@
                 "Architecture"
             ],
             "GitHub License": "",
-            "HF Yaml License": [
-                "cc-by-sa-4.0"
-            ],
+            "HF Yaml License": "CC BY-SA 4.0",
             "HF Config License": "",
-            "PwC License Name": [
-                "CC BY-SA 4.0"
-            ],
+            "PwC License Name": "CC BY-SA 4.0",
             "Github Date": "",
             "HF Date": "2022-01-25",
             "HF Downloads (September 2023)": 8690810,
             "HF Likes (September 2023)": 65,
             "PwC Date": "2016-01-01",
             "PwC Description": "The Stanford Question Answering Dataset (SQuAD) is a collection of question-answer pairs derived from Wikipedia articles. In SQuAD, the correct answers of questions can be any sequence of tokens in the given text. Because the questions and answers are produced by humans through crowdsourcing, it is more diverse than some other question-answering datasets. SQuAD 1.1 contains 107,785 question-answer pairs on 536 articles. SQuAD2.0 (open-domain SQuAD, SQuAD-Open), the latest version, combines the 100,000 questions in SQuAD1.1 with over 50,000 un-answerable questions written adversarially by crowdworkers in forms that are similar to the answerable ones.",
-            "PwC License URL": [
-                "https://creativecommons.org/licenses/by-sa/4.0/"
-            ],
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/4.0/",
             "S2 Citation Count (September 2023)": "",
             "S2 Date": "2018-06-11",
             "GitHub Stars": "",
