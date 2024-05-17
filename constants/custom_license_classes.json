@@ -248,5 +248,60 @@
         "All",
         "1",
         "1"
+    ],
+    "https://github.com/fperazzi/davis/blob/main/LICENSE": [
+        "All",
+        "1",
+        "0"
+    ],
+    "https://github.com/m-bain/webvid/blob/main/TERMS.md": [
+        "Acad",
+        "0",
+        "0"
+    ],
+    "https://github.com/raingo/TGIF-Release": [
+        "All",
+        "1",
+        "0"
+    ],
+    "https://docs.google.com/forms/d/e/1FAIpQLSdUOScon6uWkslgcA2-BCkAhMp86SihgKtMqX53zRf-E2fIHw/formResponse": [
+        "All",
+        "0",
+        "0"
+    ],
+    "https://huggingface.co/datasets/HuggingFaceM4/charades#licensing-information": [
+        "All",
+        "1",
+        "1"
+    ],
+    "https://datasets.d2.mpi-inf.mpg.de/movieDescription/AccessMovieDescriptionDataset.pdf": [
+        "Acad",
+        "1",
+        "1"
+    ],
+    "https://developer.qualcomm.com/software/ai-datasets/jester": [
+        "All",
+        "1",
+        "1"
+    ],
+    "https://developer.qualcomm.com/software/ai-datasets/something-something": [
+        "All",
+        "1",
+        "1"
+    ],
+    "https://prior.allenai.org/projects/data/charades-ego/license.txt": [
+        "Acad",
+        "1",
+        "0"
+    ],
+    "https://ego4d-data.org/pdfs/Ego4D-Licenses-Draft.pdf": [
+        "All",
+        "1",
+        "0"
+    ],
+    "https://docs.google.com/forms/d/e/1FAIpQLSdtUV3uweS0u7AHAMIJAL_dRRdZ5MHpJS3fdZVbhnVt-Yb4NA/viewform": [
+        "Acad",
+        "1",
+        "0"
     ]
 }
