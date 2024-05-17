@@ -86,7 +86,7 @@
             "PwC Description": "",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Web development",
                 "Natural Language Processing",
@@ -98,7 +98,11 @@
                 "Data visualization",
                 "Python programming",
                 "Software development"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 170,
+            "HF Likes (May 2024)": 687,
+            "S2 Citation Count (May 2024)": ""
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],

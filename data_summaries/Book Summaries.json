@@ -81,7 +81,15 @@
             "S2 Citation Count (September 2023)": 51,
             "S2 Date": "2021-05-18",
             "GitHub Stars": 154,
-            "GitHub Topics": []
+            "GitHub Topics": [],
+            "GitHub Stars (May 2024)": 174,
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "emozilla/booksum-summary-analysis_gptneox-8192",
+            "HF Downloads (May 2024)": 36,
+            "HF Likes (May 2024)": 7,
+            "HF Yaml License": "",
+            "S2 Citation Count (May 2024)": 85
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],

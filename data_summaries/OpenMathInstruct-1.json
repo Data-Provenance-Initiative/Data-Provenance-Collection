@@ -20,7 +20,7 @@
             "Logical and Mathematical Reasoning",
             "Mathematical Equation Generation",
             "Probabilistic Reasoning",
-            "Question Answering"    
+            "Question Answering"
         ],
         "Text Sources": [
             "artofproblemsolving.com/community/c3158_usa_contests",
@@ -61,7 +61,26 @@
         "Dataset Filter IDs": [
             "math"
         ],
-        "Bibtex": "@article{Toshniwal2024OpenMathInstruct1A1,\n title={OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset},\n author={Shubham Toshniwal and Ivan Moshkov and Sean Narenthiran and Daria Gitman and Fei Jia and Igor Gitman},\n journal={ArXiv},\n year={2024},\n volume={abs/2402.10176},\n url={https://api.semanticscholar.org/CorpusID:267681752}\n }"
+        "Bibtex": "@article{Toshniwal2024OpenMathInstruct1A1,\n title={OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset},\n author={Shubham Toshniwal and Ivan Moshkov and Sean Narenthiran and Daria Gitman and Fei Jia and Igor Gitman},\n journal={ArXiv},\n year={2024},\n volume={abs/2402.10176},\n url={https://api.semanticscholar.org/CorpusID:267681752}\n }",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "nvidia/OpenMathInstruct-1",
+            "HF Date": "2024-02-11",
+            "HF Downloads (May 2024)": 2886,
+            "HF Likes (May 2024)": 167,
+            "HF Yaml License": "Unspecified",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 9,
+            "S2 Date": "2024-02-15"
+        }
     },
     "omi-1-gsm": {
         "Unique Dataset Identifier": "omi-1-gsm",
@@ -82,7 +101,7 @@
             "Instruction Following",
             "Logical and Mathematical Reasoning",
             "Logical Reasoning Question Answering",
-            "Question Answering"    
+            "Question Answering"
         ],
         "Text Sources": [
             "arithmetic word problems",
@@ -120,6 +139,25 @@
         "Dataset Filter IDs": [
             "gsm8k"
         ],
-        "Bibtex": "@article{Toshniwal2024OpenMathInstruct1A1,\n title={OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset},\n author={Shubham Toshniwal and Ivan Moshkov and Sean Narenthiran and Daria Gitman and Fei Jia and Igor Gitman},\n journal={ArXiv},\n year={2024},\n volume={abs/2402.10176},\n url={https://api.semanticscholar.org/CorpusID:267681752}\n }"
+        "Bibtex": "@article{Toshniwal2024OpenMathInstruct1A1,\n title={OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset},\n author={Shubham Toshniwal and Ivan Moshkov and Sean Narenthiran and Daria Gitman and Fei Jia and Igor Gitman},\n journal={ArXiv},\n year={2024},\n volume={abs/2402.10176},\n url={https://api.semanticscholar.org/CorpusID:267681752}\n }",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "nvidia/OpenMathInstruct-1",
+            "HF Date": "2024-02-11",
+            "HF Downloads (May 2024)": 2886,
+            "HF Likes (May 2024)": 167,
+            "HF Yaml License": "Unspecified",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 9,
+            "S2 Date": "2024-02-15"
+        }
     }
 }

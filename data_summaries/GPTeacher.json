@@ -62,9 +62,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "teknium/GPTeacher-General-Instruct",
-            "HF Config": "teknium--GPTeacher-General-Instruct",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "MIT License",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -89,7 +89,11 @@
             "PwC Description": "",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": 1388,
-            "GitHub Topics": []
+            "GitHub Topics": [],
+            "GitHub Stars (May 2024)": 1566,
+            "HF Downloads (May 2024)": 116,
+            "HF Likes (May 2024)": 39,
+            "S2 Citation Count (May 2024)": ""
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],
@@ -159,9 +163,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "teknium/GPTeacher-General-Instruct",
-            "HF Config": "teknium--GPTeacher-General-Instruct",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "MIT License",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -186,7 +190,11 @@
             "PwC Description": "",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": 1388,
-            "GitHub Topics": []
+            "GitHub Topics": [],
+            "GitHub Stars (May 2024)": 1566,
+            "HF Downloads (May 2024)": 116,
+            "HF Likes (May 2024)": 39,
+            "S2 Citation Count (May 2024)": ""
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],
@@ -255,9 +263,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "teknium/GPTeacher-General-Instruct",
-            "HF Config": "teknium--GPTeacher-General-Instruct",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "MIT License",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -282,7 +290,11 @@
             "PwC Description": "",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": 1388,
-            "GitHub Topics": []
+            "GitHub Topics": [],
+            "GitHub Stars (May 2024)": 1566,
+            "HF Downloads (May 2024)": 116,
+            "HF Likes (May 2024)": 39,
+            "S2 Citation Count (May 2024)": ""
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],
@@ -343,9 +355,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "teknium/GPTeacher-General-Instruct",
-            "HF Config": "teknium--GPTeacher-General-Instruct",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "MIT License",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -370,7 +382,11 @@
             "PwC Description": "",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": 1388,
-            "GitHub Topics": []
+            "GitHub Topics": [],
+            "GitHub Stars (May 2024)": 1566,
+            "HF Downloads (May 2024)": 116,
+            "HF Likes (May 2024)": 39,
+            "S2 Citation Count (May 2024)": ""
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],

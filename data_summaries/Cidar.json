@@ -1,50 +1,81 @@
 {
-  "cidar": {
-    "Unique Dataset Identifier": "cidar",
-    "Dataset Name": "cidar",
-    "Paper Title": "CIDAR: Culturally Relevant Instruction Dataset For Arabic",
-    "Dataset URL": "https://github.com/ARBML/CIDAR",
-    "GitHub URL": "https://github.com/ARBML/CIDAR",
-    "Hugging Face URL": "https://hf.co/datasets/arbml/CIDAR",
-    "Papers with Code URL": "https://paperswithcode.com/dataset/cidar",
-    "ArXiv URL": "https://arxiv.org/abs/2402.03177",
-    "Semantic Scholar Corpus ID": "267413026",
-    "Collection": "Cidar",
-    "Collection URL": "https://hf.co/datasets/arbml/CIDAR",
-    "Languages": ["Arabic"],
-    "Task Categories": [
-      "Instruction Generation",
-      "Binary Classification Question Answering",
-      "Goal Setting Question Answering",
-      "Shopping List Generation",
-      "Instruction Following",
-      "Narrative Generation",
-      "Summarization",
-      "Multiple Choice Necessity Classification",
-      "Interpretive Art Analysis",
-      "Open-Domain Question Answering",
-      "Hypernym Classification"
-    ],
-    "Text Sources": [
-      "learning.aljazeera.net/ar/asktheteacher"
-    ],
-    "Model Generated": ["OpenAI GPT-3.5-Turbo"],
-    "Format": ["Zero-shot"],
-    "Human Annotation": "Yes",
-    "Derived from Datasets": ["Alpagasus"],
-    "Creators": ["ArbML"],
-    "Licenses": [
-      {
-        "License": "CC BY-NC 4.0",
-        "License URL": "https://github.com/ARBML/CIDAR?tab=readme-ov-file#-license"
-      },
-      {
-        "License": "OpenAI",
-        "License URL": "https://crfm.stanford.edu/2023/03/13/alpaca.html"
-      }
-    ],
-    "License Notes": "",
-    "License Verified By": "Emad Alghamdi",
-    "Dataset Filter IDs": ["cidar"]
-  }
+    "cidar": {
+        "Unique Dataset Identifier": "cidar",
+        "Dataset Name": "cidar",
+        "Paper Title": "CIDAR: Culturally Relevant Instruction Dataset For Arabic",
+        "Dataset URL": "https://github.com/ARBML/CIDAR",
+        "GitHub URL": "https://github.com/ARBML/CIDAR",
+        "Hugging Face URL": "https://hf.co/datasets/arbml/CIDAR",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/cidar",
+        "ArXiv URL": "https://arxiv.org/abs/2402.03177",
+        "Semantic Scholar Corpus ID": "267413026",
+        "Collection": "Cidar",
+        "Collection URL": "https://hf.co/datasets/arbml/CIDAR",
+        "Languages": [
+            "Arabic"
+        ],
+        "Task Categories": [
+            "Instruction Generation",
+            "Binary Classification Question Answering",
+            "Goal Setting Question Answering",
+            "Shopping List Generation",
+            "Instruction Following",
+            "Narrative Generation",
+            "Summarization",
+            "Multiple Choice Necessity Classification",
+            "Interpretive Art Analysis",
+            "Open-Domain Question Answering",
+            "Hypernym Classification"
+        ],
+        "Text Sources": [
+            "learning.aljazeera.net/ar/asktheteacher"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "Alpagasus"
+        ],
+        "Creators": [
+            "ArbML"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/ARBML/CIDAR?tab=readme-ov-file#-license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://crfm.stanford.edu/2023/03/13/alpaca.html"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "cidar"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 23,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "arbml/CIDAR",
+            "HF Date": "2024-01-20",
+            "HF Downloads (May 2024)": 1136,
+            "HF Likes (May 2024)": 31,
+            "HF Yaml License": "CC BY-NC 4.0",
+            "PwC Date": "2024-02-05",
+            "PwC Description": "CIDAR contains 10,000 instructions and their output. The dataset was created by selecting around 9,109 samples from Alpagasus dataset then translating it to Arabic using ChatGPT. In addition, we append that with around 891 Arabic grammar instructions from the webiste Ask the teacher. All the 10,000 samples were reviewed by around 12 reviewers.",
+            "PwC License Name": "CC BY-NC 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+            "S2 Citation Count (May 2024)": 0,
+            "S2 Date": "2024-02-05"
+        }
+    }
 }
