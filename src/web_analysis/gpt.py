@@ -32,10 +32,17 @@ class GPT(object):
         self.language_code = language
         self.model = model
         self.prompt_id = prompt
-        self.SYSTEM_PROMPT = "You are a smart and intelligent legal assistant. I will provide you with the Terms of Use/Service document for a website and you will answer legal questions about that document."
+
         self.USER_PROMPT_1 = "Are you clear about your role?"
-        self.ASSISTANT_PROMPT_1 = "Sure, I'm ready to help you with your task. Please provide me with the necessary information to get started."
-        self.GUIDELINES_PROMPT_TEMPLATE = self.load_prompt_from_json()
+        if 'system-prompt' in self.prompt_id:
+            self.SYSTEM_PROMPT = self.load_prompt_from_json()
+            self.ASSISTANT_PROMPT_1 = "Yes, and I understand to return only a dictionary with my verdict and exact text from the TOS document as evidence. I will not add any other explanation. Please go ahead and provide me with the TOS document." 
+            self.GUIDELINES_PROMPT_TEMPLATE = "Here is the TOS document: {}"
+        else:
+            self.SYSTEM_PROMPT = "You are a smart and intelligent legal assistant. I will provide you with the Terms of Use/Service document for a website and you will answer legal questions about that document."
+            self.ASSISTANT_PROMPT_1 = "Sure, I'm ready to help you with your task. Please provide me with the necessary information to get started."
+            self.GUIDELINES_PROMPT_TEMPLATE = self.load_prompt_from_json()
+
         self.cache_file_path = 'data/gpt-response-cache.json'
         self.load_cache()
 
@@ -43,6 +50,9 @@ class GPT(object):
                                                 ####### loading methods #######
 
     def load_API_key(self):
+        """ 
+        Loads OpenAI API key from a .env file stored in the data directory.
+        """
         try:
             load_dotenv(dotenv_path='data/.env')
             openai.api_key = os.environ['OPENAI_API_KEY']
@@ -179,73 +189,58 @@ class GPT(object):
         tasks = []
 
         for prompt in batch:
-            if custom_guidelines_prompt is not None:
-                formatted_prompt = custom_guidelines_prompt.format(prompt)
-            else:
-                formatted_prompt = self.GUIDELINES_PROMPT_TEMPLATE.format(prompt)
-            
-            # check cache for formatted prompt
-            if formatted_prompt in self.cache:
-                responses.append(self.cache[formatted_prompt])
-            else:
-                # create an async task if not in cache
-                tasks.append((formatted_prompt, asyncio.create_task(self.make_openai_request_async(session, formatted_prompt))))
+            formatted_prompt = custom_guidelines_prompt.format(prompt) if custom_guidelines_prompt else self.GUIDELINES_PROMPT_TEMPLATE.format(prompt)
+            cache_id = f"{self.prompt_id}: {formatted_prompt}"
 
-        api_responses = await asyncio.gather(*[task[1] for task in tasks])
+            if cache_id in self.cache:
+                responses.append(self.cache[cache_id])
+            else:
+                task = asyncio.create_task(self.make_openai_request_async(session, formatted_prompt))
+                tasks.append((cache_id, task))
 
-        full_responses = []
-        for i, (formatted_prompt, task) in enumerate(tasks):
-            response = api_responses[i]
+        api_responses = await asyncio.gather(*(task[1] for task in tasks))
+
+        for (cache_id, _), response in zip(tasks, api_responses):
             if response:
-                self.cache[formatted_prompt] = response
+                self.cache[cache_id] = response
                 self.save_cache()
+                responses.append(response)
 
-        # collect responses in the order of the original batch
-        for prompt in batch:
-            if custom_guidelines_prompt is not None:
-                formatted_prompt = custom_guidelines_prompt.format(prompt)
-            else:
-                formatted_prompt = self.GUIDELINES_PROMPT_TEMPLATE.format(prompt)
-            
-            if formatted_prompt in self.cache:
-                full_responses.append(self.cache[formatted_prompt])
+        return responses
 
-        return full_responses
-
-    async def process_prompts_in_batches_async(self, prompts, batch_size=10, custom_guidelines_prompt=None):
+    async def process_prompts_in_batches_async(self, batch, batch_size=10, custom_guidelines_prompt=None):
         """
         Processes a list of prompts in batches asynchronously by sending them to the OpenAI Chat API.
 
         Parameters:
-        - prompts (list of str): List of prompts to be processed.
+        - batch (list of dict): List of dictionaries, each containing 'text' and 'metadata'.
         - batch_size (int, optional): Size of each batch. Defaults to 10.
+        - custom_guidelines_prompt (str, optional): Custom guidelines prompt template for formatting.
 
         Returns:
-        - list of dict: List of responses from the OpenAI Chat API, each containing the completion for the corresponding prompt.
+        - list of dict: List of responses from the OpenAI Chat API, each linked with its metadata.
         """
         final_responses = []
         async with aiohttp.ClientSession() as session:
-            for i in range(0, len(prompts), batch_size):
-                batch = prompts[i:i + batch_size]
-                if custom_guidelines_prompt is not None:
-                    batch_prompts = [custom_guidelines_prompt.format(prompt) for prompt in batch]
-                else:
-                    batch_prompts = [self.GUIDELINES_PROMPT_TEMPLATE.format(prompt) for prompt in batch]
-                
+            for i in range(0, len(batch), batch_size):
+                current_batch = batch[i:i + batch_size]
+                batch_prompts = [
+                    item['text'] for item in current_batch 
+                ]
                 batch_responses = await self.process_batch_async(session, batch_prompts)
-                formatted_responses = []
-                for prompt, response in zip(batch, batch_responses):
+                parsed_responses = []
+                for response in batch_responses:
                     try:
-                        formatted_response = json.loads(response)
-                        formatted_responses.append(formatted_response)
+                        parsed_response = json.loads(response)
+                        parsed_responses.append(parsed_response)
                     except json.JSONDecodeError as e:
-                        print(f"Failed to parse response: {response}. Error: {e}")
-                        # Save the failed prompt and response
-                        with open('data/gpt-response-failed.json', 'a') as error_file:
-                            error_json = json.dumps({"prompt": prompt, "response": response})
-                            error_file.write(error_json + "\n")
+                        print("Failed to parse response:", response, "Error:", e)  # debugging output
+                        parsed_responses.append(response)  # append the unparsed response if parsing fails - change depending on how we want to handle failed outputs
 
-                final_responses.extend(formatted_responses)
+                for item, parsed_response in zip(current_batch, parsed_responses):
+                    response_with_metadata = {**item['metadata'], **parsed_response}
+                    final_responses.append(response_with_metadata)
+
         return final_responses
 
                                                 ####### getters and setters #######
@@ -273,6 +268,24 @@ class GPT(object):
         - str: The guidelines prompt template.
         """
         return self.GUIDELINES_PROMPT_TEMPLATE
+        
+    def get_user_prompt1(self):
+        """
+        Retrieve the current user prompt stored in the class.
+
+        Returns:
+        - str: The user prompt.
+        """
+        return self.USER_PROMPT_1
+
+    def get_assistant_prompt1(self):
+        """
+        Retrieve the current assistant prompt stored in the class.
+
+        Returns:
+        - str: The assistant prompt.
+        """
+        return self.ASSISTANT_PROMPT_1
 
     def get_system_prompt(self):
         """
