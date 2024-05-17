@@ -42,6 +42,32 @@
         "License Verified By": "Manan",
         "Dataset Filter IDs": [
             "riddle_sense"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "MIT License",
+            "GitHub Stars (May 2024)": 12,
+            "GitHub Topics": [
+                "commonsense",
+                "datasets",
+                "natural-language-processing",
+                "nlp-datasets",
+                "question-answering",
+                "riddles"
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "riddle_sense",
+            "HF Date": "2022-01-25",
+            "HF Downloads (May 2024)": 302,
+            "HF Likes (May 2024)": 21,
+            "HF Yaml License": "Unspecified",
+            "PwC Date": "2021-01-02",
+            "PwC Description": "Question: I have five fingers but I am not alive. What am I? Answer: a glove.\n\nAnswering such a riddle-style question is a challenging cognitive process, in that it requires complex commonsense reasoning abilities, an understanding of figurative language, and counterfactual reasoning skills, which are all important abilities for advanced natural language understanding (NLU). However, there is currently no dedicated datasets aiming to test these abilities. Herein, we present RiddleSense, a new multiple-choice question answering task, which comes with the first large dataset (5.7k examples) for answering riddle-style commonsense questions. We systematically evaluate a wide range of models over the challenge, and point out that there is a large gap between the best-supervised model and human performance — suggesting intriguing future research in the direction of higher-order commonsense reasoning and linguistic creativity towards building advanced NLU systems.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (May 2024)": 36,
+            "S2 Date": "2021-01-02"
+        }
     }
 }

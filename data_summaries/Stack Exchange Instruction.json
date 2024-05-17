@@ -72,7 +72,15 @@
             "S2 Citation Count (September 2023)": "",
             "S2 Date": "",
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "ArmelR/stack-exchange-instruction",
+            "HF Downloads (May 2024)": 188,
+            "HF Likes (May 2024)": 61,
+            "HF Yaml License": "",
+            "S2 Citation Count (May 2024)": ""
         },
         "Text Metrics": {
             "Num Dialogs": 10606840,

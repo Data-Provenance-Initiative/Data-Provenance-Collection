@@ -75,6 +75,25 @@
             "pot_mathqa",
             "pot_numglue"
         ],
-        "Bibtex": "@Article{Yue2023MAmmoTHBM,\n author = {Xiang Yue and Xingwei Qu and Ge Zhang and Yao Fu and Wenhao Huang and Huan Sun and Yu Su and Wenhu Chen},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MAmmoTH: Building Math Generalist Models through Hybrid Instruction Tuning},\n volume = {abs/2309.05653},\n year = {2023}\n}\n"
+        "Bibtex": "@Article{Yue2023MAmmoTHBM,\n author = {Xiang Yue and Xingwei Qu and Ge Zhang and Yao Fu and Wenhao Huang and Huan Sun and Yu Su and Wenhu Chen},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MAmmoTH: Building Math Generalist Models through Hybrid Instruction Tuning},\n volume = {abs/2309.05653},\n year = {2023}\n}\n",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 276,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "TIGER-Lab/MathInstruct",
+            "HF Date": "2023-09-11",
+            "HF Downloads (May 2024)": 9841,
+            "HF Likes (May 2024)": 175,
+            "HF Yaml License": "MIT License",
+            "PwC Date": "2023-09-11",
+            "PwC Description": "MathInstruct is a meticulously curated instruction tuning dataset that combines data from 13 mathematical rationale datasets. It uniquely focuses on the hybrid use of chain-of-thought (CoT) and program-of-thought (PoT) rationales, ensuring extensive coverage of diverse mathematical fields¹²³.\n\nHere are some key points about the MathInstruct dataset:\n\n\nCompilation: MathInstruct is compiled from 13 math rationale datasets, six of which are newly curated by this work.\nInstruction Types: It emphasizes both CoT (chain-of-thought) and PoT (program-of-thought) rationales, providing a rich foundation of intermediate reasoning.\nCoverage: The dataset spans various mathematical topics, making it valuable for training and evaluating models in mathematical reasoning.\n\nFor more details, you can explore the MathInstruct dataset on Hugging Face or visit the project page¹⁴. 📚🧮\n\n(1) TIGER-Lab/MathInstruct · Datasets at Hugging Face. https://huggingface.co/datasets/TIGER-Lab/MathInstruct.\n(2) Mathematical Reasoning: Open-Source LLMs with Hybrid Instructional .... https://news.superagi.com/2023/09/12/mathematical-reasoning-mammoth-models-elevate-open-source-llms-with-hybrid-instructional-techniques/.\n(3) OpenDataLab 引领AI大模型时代的开放数据平台. https://opendatalab.com/OpenDataLab/MathInstruct.\n(4) MathInstruct. https://www.modelscope.cn/datasets/AI-ModelScope/MathInstruct/summary.\n(5) undefined. https://tiger-ai-lab.github.io/MAmmoTH/.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (May 2024)": 111,
+            "S2 Date": "2023-09-11"
+        }
     }
 }

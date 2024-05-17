@@ -83,7 +83,15 @@
             "S2 Citation Count (September 2023)": "",
             "S2 Date": "",
             "GitHub Stars": 927,
-            "GitHub Topics": []
+            "GitHub Topics": [],
+            "GitHub Stars (May 2024)": 949,
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "jondurbin/airoboros-3.2",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "CC BY 4.0",
+            "S2 Citation Count (May 2024)": ""
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],

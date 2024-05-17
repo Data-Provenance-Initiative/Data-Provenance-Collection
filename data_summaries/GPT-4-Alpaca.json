@@ -63,13 +63,13 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "teknium/GPT4-LLM-Cleaned",
-            "HF Config": "teknium--GPT4-LLM-Cleaned",
+            "HF Config": "default",
             "HF Config License": "",
             "HF Yaml License": "",
             "PwC License Name": "",
             "PwC License URL": "",
-            "PwC Date": "2023-04-17",
-            "S2 Date": "2023-04-17",
+            "PwC Date": "",
+            "S2 Date": "2023-04-06",
             "GitHub License": "Apache License 2.0",
             "Text Topics": [
                 "Mathematics",
@@ -96,7 +96,11 @@
                 "gpt-4",
                 "instruction-tuning",
                 "llama"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 3979,
+            "HF Downloads (May 2024)": 7580,
+            "HF Likes (May 2024)": 131,
+            "S2 Citation Count (May 2024)": 306
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],

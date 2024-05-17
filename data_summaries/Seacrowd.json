@@ -1,0 +1,2094 @@
+{
+    "seacrowd-bhinneka_korpus": {
+        "Unique Dataset Identifier": "seacrowd-bhinneka_korpus",
+        "Dataset Name": "bhinneka_korpus",
+        "Paper Title": "Constructing and Expanding Low-Resource and Underrepresented Parallel Datasets for Indonesian Local Languages",
+        "Dataset URL": "https://github.com/joanitolopo/bhinneka-korpus",
+        "GitHub URL": "https://github.com/joanitolopo/bhinneka-korpus",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2404.01009",
+        "Semantic Scholar Corpus ID": "268819363",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Dayak",
+            "Makasar",
+            "Uab Meto",
+            "Kunduvadi",
+            "Ambonese Malay",
+            "Indonesian"
+        ],
+        "Task Categories": [
+            "Conversational Question Answering",
+            "Translation"
+        ],
+        "Text Sources": [
+            "crowdsourced",
+            "human"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Universitas Gadjah Mada",
+            "Universitas Kristen Satya Wacana"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://github.com/joanitolopo/bhinneka-korpus"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "bhinneka_korpus"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (May 2024)": 1,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 0,
+            "S2 Date": "2024-04-01"
+        }
+    },
+    "seacrowd-cebuaner": {
+        "Unique Dataset Identifier": "seacrowd-cebuaner",
+        "Dataset Name": "cebuaner",
+        "Paper Title": "CebuaNER: A New Baseline Cebuano Named Entity Recognition Model",
+        "Dataset URL": "https://github.com/mebzmoren/CebuaNERt",
+        "GitHub URL": "https://github.com/mebzmoren/CebuaNER",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2310.00679",
+        "Semantic Scholar Corpus ID": "263334360",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Cebuano"
+        ],
+        "Task Categories": [
+            "Named Entity Recognition (NER)"
+        ],
+        "Text Sources": [
+            "news",
+            "human"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Silliman University",
+            "Bicol University",
+            "National University Philippines",
+            "University of Bath"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "https://arxiv.org/abs/2310.00679"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "cebuaner"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 3,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 0,
+            "S2 Date": "2023-10-01"
+        }
+    },
+    "seacrowd-emotes_3k": {
+        "Unique Dataset Identifier": "seacrowd-emotes_3k",
+        "Dataset Name": "emotes_3k",
+        "Paper Title": "Emotion-based Morality in Tagalog and English Scenarios (EMoTES-3K): A Parallel Corpus for Explaining (Im)morality of Actions",
+        "Dataset URL": "https://huggingface.co/datasets/NLPinas/EMoTES-3K",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/NLPinas/EMoTES-3K",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "267410989",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Filipino",
+            "English"
+        ],
+        "Task Categories": [
+            "Moral Text Categorization"
+        ],
+        "Text Sources": [
+            "human",
+            "semantic scholar articles"
+        ],
+        "Model Generated": [
+            "Flan-T5",
+            "RoBERTa"
+        ],
+        "Format": [
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "De La Salle University",
+            "University of the Philippines Diliman"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/NLPinas/EMoTES-3K"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "emotes_3k"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "NLPinas/EMoTES-3K",
+            "HF Date": "2023-09-18",
+            "HF Downloads (May 2024)": 0,
+            "HF Likes (May 2024)": 0,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 0,
+            "S2 Date": ""
+        }
+    },
+    "seacrowd-fakenews_ph": {
+        "Unique Dataset Identifier": "seacrowd-fakenews_ph",
+        "Dataset Name": "fakenews_ph",
+        "Paper Title": "Localization of Fake News Detection via Multitask Transfer Learning",
+        "Dataset URL": "https://github.com/jcblaisecruz02/Tagalog-fake-news",
+        "GitHub URL": "https://github.com/jcblaisecruz02/Tagalog-fake-news",
+        "Hugging Face URL": "https://huggingface.co/datasets/fake_news_filipino",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/fake-news-filipino-dataset",
+        "ArXiv URL": "https://arxiv.org/abs/1910.09295",
+        "Semantic Scholar Corpus ID": "204800316",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Filipino"
+        ],
+        "Task Categories": [
+            "Fake News Detection"
+        ],
+        "Text Sources": [
+            "news"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "De La Salle University"
+        ],
+        "Licenses": [
+            {
+                "License": "GNU General Public License v3.0",
+                "License URL": "https://github.com/jcblaisecruz02/Tagalog-fake-news"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "fakenews_ph"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "GNU General Public License v3.0",
+            "GitHub Stars (May 2024)": 13,
+            "GitHub Topics": [
+                "bert",
+                "bert-model",
+                "deep-learning",
+                "filipino",
+                "low-resource-languages",
+                "multitask-learning",
+                "nlp",
+                "tagalog",
+                "transformer"
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "fake_news_filipino",
+            "HF Date": "2022-01-25",
+            "HF Downloads (May 2024)": 201,
+            "HF Likes (May 2024)": 0,
+            "HF Yaml License": "Unspecified",
+            "PwC Date": "",
+            "PwC Description": "Expertly-curated benchmark dataset for fake news detection in Filipino.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (May 2024)": 28,
+            "S2 Date": "2019-06-30"
+        }
+    },
+    "seacrowd-filipino_hatespeech_tiktok": {
+        "Unique Dataset Identifier": "seacrowd-filipino_hatespeech_tiktok",
+        "Dataset Name": "filipino_hatespeech_tiktok",
+        "Paper Title": "A BERT-based Hate Speech Classifier from Transcribed Online Short-Form Videos",
+        "Dataset URL": "https://github.com/imperialite/filipino-tiktok-hatespeech/",
+        "GitHub URL": "https://github.com/imperialite/filipino-tiktok-hatespeech/",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Tagalog"
+        ],
+        "Task Categories": [
+            "Adversarial Hate Speech Detection"
+        ],
+        "Text Sources": [
+            "tiktok"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "National University Philippines"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://seacrowd.github.io/seacrowd-catalogue/dataset?id=82"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "filipino_hatespeech_tiktok"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 0,
+            "GitHub Topics": [
+                "bert",
+                "filipino",
+                "hatespeech",
+                "nlp",
+                "tagalog",
+                "tiktok"
+            ],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
+    },
+    "seacrowd-filipino_slang_norm": {
+        "Unique Dataset Identifier": "seacrowd-filipino_slang_norm",
+        "Dataset Name": "filipino_slang_norm",
+        "Paper Title": "Look Ma, Only 400 Samples! Revisiting the Effectiveness of Automatic N-Gram Rule Generation for Spelling Normalization in Filipino",
+        "Dataset URL": "https://github.com/ljyflores/efficient-spelling-normalization-filipino",
+        "GitHub URL": "https://github.com/ljyflores/efficient-spelling-normalization-filipino",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2210.02675",
+        "Semantic Scholar Corpus ID": "252599931",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Filipino"
+        ],
+        "Task Categories": [
+            "Spelling Correction"
+        ],
+        "Text Sources": [
+            "facebook"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Yale University"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "filipino_slang_norm"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 2,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 0,
+            "S2 Date": "2022-10-06"
+        }
+    },
+    "seacrowd-id_vaccines_tweet": {
+        "Unique Dataset Identifier": "seacrowd-id_vaccines_tweet",
+        "Dataset Name": "id_vaccines_tweet",
+        "Paper Title": "Analisis Sentimen Masyarakat Indonesia Mengenai Vaksin COVID-19 pada Media Sosial Twitter Menggunakan Metode Naïve Bayes Classifier dan Support Vector Machine",
+        "Dataset URL": "https://github.com/rayendito/id-vaccines-tweets",
+        "GitHub URL": "https://github.com/rayendito/id-vaccines-tweets",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Indonesian"
+        ],
+        "Task Categories": [
+            "Sentiment Analysis"
+        ],
+        "Text Sources": [
+            "twitter"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Institut Teknologi Sepuluh Nopember (ITS)"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "id_vaccines_tweet"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 0,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
+    },
+    "seacrowd-identifikasi_bahasa": {
+        "Unique Dataset Identifier": "seacrowd-identifikasi_bahasa",
+        "Dataset Name": "identifikasi_bahasa",
+        "Paper Title": "Perbandingan Klasifikasi Bahasa Menggunakan Metode Naïve Bayes Classifier (NBC) Dan Support Vector Machine (SVM)",
+        "Dataset URL": "https://github.com/joanitolopo/identifikasi-bahasa",
+        "GitHub URL": "https://github.com/joanitolopo/identifikasi-bahasa",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Indonesian",
+            "Ambonese Malay",
+            "Javanese"
+        ],
+        "Task Categories": [
+            "Natural Language Classification"
+        ],
+        "Text Sources": [
+            "unknown"
+        ],
+        "Model Generated": [
+            "NBC",
+            "SVM"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Universitas Kristen Satya Wacana"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://github.com/joanitolopo/identifikasi-bahasa"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "identifikasi_bahasa"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (May 2024)": 0,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
+    },
+    "seacrowd-indoner_tourism": {
+        "Unique Dataset Identifier": "seacrowd-indoner_tourism",
+        "Dataset Name": "indoner_tourism",
+        "Paper Title": "Named Entity Recognition of Tourist Destinations Reviews in the Indonesian Language",
+        "Dataset URL": "https://github.com/fathanick/IndoNER-Tourism/tree/main",
+        "GitHub URL": "https://github.com/fathanick/IndoNER-Tourism/tree/main",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Indonesian"
+        ],
+        "Task Categories": [
+            "Named Entity Recognition (NER)"
+        ],
+        "Text Sources": [
+            "tripadvisor"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Universitas Islam Indonesia",
+            "Universitas Teknologi Yogyakarta",
+            "Universitas Gadjah Mada"
+        ],
+        "Licenses": [
+            {
+                "License": "Academic Free License v3.0",
+                "License URL": "https://seacrowd.github.io/seacrowd-catalogue/dataset?id=143"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "indoner_tourism"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 0,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
+    },
+    "seacrowd-indonesia_chinese_mtrobusteval": {
+        "Unique Dataset Identifier": "seacrowd-indonesia_chinese_mtrobusteval",
+        "Dataset Name": "indonesia_chinese_mtrobusteval",
+        "Paper Title": "",
+        "Dataset URL": "https://github.com/supryzhu/Indonesia-Chinese-MTRobustEval",
+        "GitHub URL": "https://github.com/supryzhu/Indonesia-Chinese-MTRobustEval",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Indonesian",
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Spam Classification"
+        ],
+        "Text Sources": [
+            "unknown"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Tianjin University"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/supryzhu/Indonesia-Chinese-MTRobustEval"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "indonesia_chinese_mtrobusteval"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "MIT License",
+            "GitHub Stars (May 2024)": 0,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
+    },
+    "seacrowd-limesoda": {
+        "Unique Dataset Identifier": "seacrowd-limesoda",
+        "Dataset Name": "limesoda",
+        "Paper Title": "LimeSoda: Dataset for Fake News Detection in Healthcare Domain",
+        "Dataset URL": "https://github.com/byinth/LimeSoda",
+        "GitHub URL": "https://github.com/byinth/LimeSoda",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Fake News Detection"
+        ],
+        "Text Sources": [
+            "healthcare departments",
+            "news",
+            "online newspaper articles",
+            "e-commerce websites",
+            "social media"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Backyard Co., Ltd",
+            "NECTEC"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://github.com/byinth/LimeSodal"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "limesoda"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "CC BY 4.0",
+            "GitHub Stars (May 2024)": 11,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
+    },
+    "seacrowd-mabl": {
+        "Unique Dataset Identifier": "seacrowd-mabl",
+        "Dataset Name": "mabl",
+        "Paper Title": "Multi-lingual and Multi-cultural Figurative Language Understanding",
+        "Dataset URL": "https://github.com/simran-khanuja/Multilingual-Fig-QA",
+        "GitHub URL": "https://github.com/simran-khanuja/Multilingual-Fig-QA",
+        "Hugging Face URL": "https://huggingface.co/datasets/dbarbedillo/SMS_Spam_Multilingual_Collection_Dataset",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/sms-spam-collection-data-set",
+        "ArXiv URL": "https://arxiv.org/abs/2305.16171",
+        "Semantic Scholar Corpus ID": "258887835",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Hindi",
+            "German",
+            "French",
+            "Spanish",
+            "Chinese",
+            "Arabic",
+            "Bengali",
+            "Russian",
+            "Portuguese",
+            "Indonesian",
+            "Urdu",
+            "Japanese",
+            "Punjabi",
+            "Javanese",
+            "Turkish",
+            "Korean",
+            "Marathi",
+            "Ukrainian",
+            "Swedish",
+            "Norwegian"
+        ],
+        "Task Categories": [
+            "Natural Language Understanding"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Carnegie Mellon University",
+            "MBZUAI",
+            "Bloomberg",
+            "The Hong Kong University of Science and Technology",
+            "Masakhane NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/simran-khanuja/Multilingual-Fig-QA"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "mabl"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "MIT License",
+            "GitHub Stars (May 2024)": 1,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "dbarbedillo/SMS_Spam_Multilingual_Collection_Dataset",
+            "HF Date": "2023-01-13",
+            "HF Downloads (May 2024)": 60,
+            "HF Likes (May 2024)": 9,
+            "HF Yaml License": "GNU General Public License v3.0",
+            "PwC Date": "",
+            "PwC Description": "This corpus has been collected from free or free for research sources at the Internet:\n\n\nA collection of 425 SMS spam messages was manually extracted from the Grumbletext Web site. This is a UK forum in which cell phone users make public claims about SMS spam messages, most of them without reporting the very spam message received. The identification of the text of spam messages in the claims is a very hard and time-consuming task, and it involved carefully scanning hundreds of web pages.\nA subset of 3,375 SMS randomly chosen ham messages of the NUS SMS Corpus (NSC), which is a dataset of about 10,000 legitimate messages collected for research at the Department of Computer Science at the National University of Singapore. The messages largely originate from Singaporeans and mostly from students attending the University. These messages were collected from volunteers who were made aware that their contributions were going to be made publicly available.\nA list of 450 SMS ham messages collected from Caroline Tag's PhD Thesis.\nthe SMS Spam Corpus v.0.1 Big. It has 1,002 SMS ham messages and 322 spam messages.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (May 2024)": 16,
+            "S2 Date": "2023-05-25"
+        }
+    },
+    "seacrowd-mkqa": {
+        "Unique Dataset Identifier": "seacrowd-mkqa",
+        "Dataset Name": "mkqa",
+        "Paper Title": "MKQA: A Linguistically Diverse Benchmark for Multilingual Open Domain Question Answering",
+        "Dataset URL": "https://github.com/apple/ml-mkqa",
+        "GitHub URL": "https://github.com/apple/ml-mkqa",
+        "Hugging Face URL": "https://huggingface.co/datasets/mkqa",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/mkqa",
+        "ArXiv URL": "https://arxiv.org/abs/2007.15207",
+        "Semantic Scholar Corpus ID": "220871404",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Arabic",
+            "Danish",
+            "German",
+            "English",
+            "Spanish",
+            "Finnish",
+            "French",
+            "Hebrew",
+            "Hungarian",
+            "Italian",
+            "Japanese",
+            "Korean",
+            "Khmer",
+            "Malay",
+            "Dutch",
+            "Norwegian",
+            "Polish",
+            "Portuguese",
+            "Russian",
+            "Swedish",
+            "Thai",
+            "Turkish",
+            "Vietnamese",
+            "Chinese (Simplified)",
+            "Chinese (Hong Kong)",
+            "Chinese (Traditional)"
+        ],
+        "Task Categories": [
+            "Multilingual Question Answering"
+        ],
+        "Text Sources": [
+            "wikidata"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "Natural Questions"
+        ],
+        "Creators": [
+            "Apple Inc"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://github.com/apple/ml-mkqa"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "mkqa"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (May 2024)": 151,
+            "GitHub Topics": [
+                "dataset",
+                "multilingual-evaluation",
+                "nlp"
+            ],
+            "Github Date": "",
+            "HF Config": "mkqa",
+            "HF Config License": "",
+            "HF Dataset": "mkqa",
+            "HF Date": "2022-01-25",
+            "HF Downloads (May 2024)": 533,
+            "HF Likes (May 2024)": 17,
+            "HF Yaml License": "CC BY 3.0",
+            "PwC Date": "",
+            "PwC Description": "Multilingual Knowledge Questions and Answers (MKQA) is an open-domain question answering evaluation set comprising 10k question-answer pairs aligned across 26 typologically diverse languages (260k question-answer pairs in total). The goal of this dataset is to provide a challenging benchmark for question answering quality across a wide set of languages. Answers are based on a language-independent data representation, making results comparable across languages and independent of language-specific passages. With 26 languages, this dataset supplies the widest range of languages to-date for evaluating question answering.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (May 2024)": 102,
+            "S2 Date": "2020-07-30"
+        }
+    },
+    "seacrowd-id_sent_emo_mobile_apps": {
+        "Unique Dataset Identifier": "seacrowd-id_sent_emo_mobile_apps",
+        "Dataset Name": "id_sent_emo_mobile_apps",
+        "Paper Title": "Multilabel multiclass sentiment and emotion dataset from indonesian mobile application review",
+        "Dataset URL": "https://github.com/Ricco48/Multilabel-Sentiment-and-Emotion-Dataset-from-Indonesian-Mobile-Application-Review/tree/CreateCodeForPaper",
+        "GitHub URL": "https://github.com/Ricco48/Multilabel-Sentiment-and-Emotion-Dataset-from-Indonesian-Mobile-Application-Review/tree/CreateCodeForPaper",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Indonesian"
+        ],
+        "Task Categories": [
+            "Sentiment Analysis",
+            "Text Classification"
+        ],
+        "Text Sources": [
+            "app reviews"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Bina Nusantara University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-ND 4.0",
+                "License URL": "https://github.com/Ricco48/Multilabel-Sentiment-and-Emotion-Dataset-from-Indonesian-Mobile-Application-Review/tree/CreateCodeForPaper"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "id_sent_emo_mobile_apps"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 1,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
+    },
+    "seacrowd-burmese_romanize": {
+        "Unique Dataset Identifier": "seacrowd-burmese_romanize",
+        "Dataset Name": "burmese_romanize",
+        "Paper Title": "Statistical Romanization for Abugida Scripts: Data and Experiment on Khmer and Burmese",
+        "Dataset URL": "http://www.nlpresearch-ucsy.edu.mm/NLP_UCSY/name-db.html",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "52108421",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Burmese"
+        ],
+        "Task Categories": [
+            "Name Romanization"
+        ],
+        "Text Sources": [
+            "university registries",
+            "public figures"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Program-of-Thought"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Advanced Speech Translation Research and Development Promotion Center",
+            "Cambodia Academy of Digital Technology",
+            "Yangon University of Computer Studies"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "http://www.nlpresearch-ucsy.edu.mm/NLP_UCSY/name-db.html"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "burmese_romanize"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 1,
+            "S2 Date": ""
+        }
+    },
+    "seacrowd-ntrex_128": {
+        "Unique Dataset Identifier": "seacrowd-ntrex_128",
+        "Dataset Name": "ntrex_128",
+        "Paper Title": "NTREX-128 – News Test References for MT Evaluation of 128 Languages",
+        "Dataset URL": "https://github.com/MicrosoftTranslator/NTREX",
+        "GitHub URL": "https://github.com/MicrosoftTranslator/NTREX",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "253762071",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Afrikaans",
+            "Amharic",
+            "Arabic",
+            "Azerbaijani",
+            "Bashkir",
+            "Belarusian",
+            "Bemba",
+            "Bengali",
+            "Standard Tibetan",
+            "Bosnian",
+            "Bulgarian",
+            "Catalan",
+            "Czech",
+            "Sorani",
+            "Welsh",
+            "Danish",
+            "German",
+            "Divehi",
+            "Dzongkha",
+            "Greek",
+            "English",
+            "Estonian",
+            "Basque",
+            "Ewe",
+            "Faroese",
+            "Persian",
+            "Fijian",
+            "Filipino",
+            "Finnish",
+            "French",
+            "Pulaar",
+            "Irish",
+            "Galician",
+            "Gujarati",
+            "German",
+            "Hausa",
+            "Hebrew",
+            "Hindi",
+            "Hmong",
+            "Croatian",
+            "Hungarian",
+            "Armenian",
+            "Igbo",
+            "Indonesian",
+            "Icelandic",
+            "Italian",
+            "Japanese",
+            "Kannada",
+            "Georgian",
+            "Kazakh",
+            "Khmer",
+            "Kinyarwanda",
+            "Kyrgyz",
+            "Northern Kurdish",
+            "Korean",
+            "Lao",
+            "Latvian",
+            "Lithuanian",
+            "Luxembourgish",
+            "Malayalam",
+            "Marathi",
+            "Hassaniya Arabic",
+            "Macedonian",
+            "Malagasy",
+            "Maltese",
+            "Mongolian",
+            "Maori",
+            "Malay",
+            "Myanmar",
+            "Northern Ndebele",
+            "Nepali",
+            "Dutch",
+            "Norwegian Nynorsk",
+            "Norwegian Bokmål",
+            "Northern Sotho",
+            "Chichewa",
+            "Oromo",
+            "Panjabi",
+            "Polish",
+            "Portuguese",
+            "Portugese (Brazilian)",
+            "Dari",
+            "Pashto",
+            "Romanian",
+            "Russian",
+            "Shilha",
+            "Sinhala",
+            "Slovak",
+            "Slovenian",
+            "Samoan",
+            "Shona",
+            "Somali",
+            "Spanish",
+            "Albanian",
+            "Serbian (Latin script)",
+            "Swati",
+            "Swahili",
+            "Swedish",
+            "Tahitian",
+            "Tamil",
+            "Tatar",
+            "Telugu",
+            "Thai",
+            "Tigrinya",
+            "Tonga",
+            "Tswana",
+            "Turkmen",
+            "Turkish",
+            "Uighur",
+            "Ukrainian",
+            "Urdu",
+            "Uzbek",
+            "Venda",
+            "Vietnamese",
+            "Wolof",
+            "Xhosa",
+            "Yoruba",
+            "Cantonese",
+            "Chinese (Simplified)",
+            "Chinese (Traditional)",
+            "Zulu"
+        ],
+        "Task Categories": [
+            "Translation"
+        ],
+        "Text Sources": [
+            "news"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "WMT19"
+        ],
+        "Creators": [
+            "Microsoft"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://github.com/MicrosoftTranslator/NTREX"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "ntrex_128"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "CC BY-SA 4.0",
+            "GitHub Stars (May 2024)": 67,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 23,
+            "S2 Date": ""
+        }
+    },
+    "seacrowd-spamid_pair": {
+        "Unique Dataset Identifier": "seacrowd-spamid_pair",
+        "Dataset Name": "spamid_pair",
+        "Paper Title": "SPAMID-PAIR: A Novel Indonesian Post–Comment Pairs Dataset Containing Emoji",
+        "Dataset URL": "https://data.mendeley.com/datasets/fj5pbdf95t/1",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Indonesian"
+        ],
+        "Task Categories": [
+            "Spam Classification"
+        ],
+        "Text Sources": [
+            "crowdsourced",
+            "instagram"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Universitas Gadjah Mada",
+            "Universitas Kristen Duta Wacana"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://data.mendeley.com/datasets/fj5pbdf95t/1"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "spamid_pair"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
+    },
+    "seacrowd-tgl_profanity": {
+        "Unique Dataset Identifier": "seacrowd-tgl_profanity",
+        "Dataset Name": "tgl_profanity",
+        "Paper Title": "Context-Based Profanity Detection and Censorship Using Bidirectional Encoder Representations from Transformers",
+        "Dataset URL": "https://huggingface.co/datasets/mginoben/tagalog-profanity-dataset",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/mginoben/tagalog-profanity-dataset",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Tagalog"
+        ],
+        "Task Categories": [
+            "Offensive Language Detection"
+        ],
+        "Text Sources": [
+            "twitter"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "University of Makati"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "tgl_profanity"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "mginoben/tagalog-profanity-dataset",
+            "HF Date": "2023-06-05",
+            "HF Downloads (May 2024)": 0,
+            "HF Likes (May 2024)": 0,
+            "HF Yaml License": "CC0 1.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
+    },
+    "seacrowd-thai_depression": {
+        "Unique Dataset Identifier": "seacrowd-thai_depression",
+        "Dataset Name": "thai_depression",
+        "Paper Title": "Detecting Depression in Thai Blog Posts: a Dataset and a Baseline",
+        "Dataset URL": "https://zenodo.org/records/4734552",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2111.04574",
+        "Semantic Scholar Corpus ID": "241583628",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Depression Detection"
+        ],
+        "Text Sources": [
+            "blogs"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Program-of-Thought"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Rootroo Ltd",
+            "University of Helsinki",
+            "Mahidol University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-ND 4.0",
+                "License URL": "https://zenodo.org/records/4734552"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "thai_depression"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 11,
+            "S2 Date": "2021-11-08"
+        }
+    },
+    "seacrowd-thai_toxicity_tweet": {
+        "Unique Dataset Identifier": "seacrowd-thai_toxicity_tweet",
+        "Dataset Name": "thai_toxicity_tweet",
+        "Paper Title": "Annotation and Classification of Toxicity for Thai Twitter",
+        "Dataset URL": "https://github.com/tmu-nlp/ThaiToxicityTweetCorpus/",
+        "GitHub URL": "https://github.com/tmu-nlp/ThaiToxicityTweetCorpus/",
+        "Hugging Face URL": "https://huggingface.co/datasets/thai_toxicity_tweet",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "201048956",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Toxicity Detection"
+        ],
+        "Text Sources": [
+            "twitter"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Program-of-Thought"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Tokyo Metropolitan University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "https://github.com/tmu-nlp/ThaiToxicityTweetCorpus/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "thai_toxicity_tweet"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 9,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "thai_toxicity_tweet",
+            "HF Config License": "",
+            "HF Dataset": "thai_toxicity_tweet",
+            "HF Date": "2022-01-25",
+            "HF Downloads (May 2024)": 251,
+            "HF Likes (May 2024)": 4,
+            "HF Yaml License": "CC BY-NC 3.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 9,
+            "S2 Date": ""
+        }
+    },
+    "seacrowd-typhoon_yolanda_tweets": {
+        "Unique Dataset Identifier": "seacrowd-typhoon_yolanda_tweets",
+        "Dataset Name": "typhoon_yolanda_tweets",
+        "Paper Title": "Sentiment Analysis of Typhoon Related Tweets using Standard and Bidirectional Recurrent Neural Networks",
+        "Dataset URL": "https://github.com/imperialite/Philippine-Languages-Online-Corpora/tree/master/Tweets/Annotated%20Yolanda",
+        "GitHub URL": "https://github.com/imperialite/Philippine-Languages-Online-Corpora/tree/master/Tweets/Annotated%20Yolanda",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/1908.01765",
+        "Semantic Scholar Corpus ID": "199453070",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Filipino"
+        ],
+        "Task Categories": [
+            "Sentiment Analysis"
+        ],
+        "Text Sources": [
+            "twitter"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Bicol University"
+        ],
+        "Licenses": [
+            {
+                "License": "LGPL 3.0",
+                "License URL": "https://github.com/imperialite/Philippine-Languages-Online-Corpora/tree/master"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "typhoon_yolanda_tweets"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 7,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 1,
+            "S2 Date": "2019-08-03"
+        }
+    },
+    "seacrowd-uit_victsd": {
+        "Unique Dataset Identifier": "seacrowd-uit_victsd",
+        "Dataset Name": "uit_victsd",
+        "Paper Title": "Constructive and Toxic Speech Detection for Open-domain Social Media Comments in Vietnamese",
+        "Dataset URL": "https://github.com/tarudesu/ViCTSD",
+        "GitHub URL": "https://github.com/tarudesu/ViCTSD",
+        "Hugging Face URL": "https://huggingface.co/datasets/tarudesu/ViCTSD",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/uit-victsd",
+        "ArXiv URL": "https://arxiv.org/abs/2103.10069",
+        "Semantic Scholar Corpus ID": "232269671",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Vietnamese"
+        ],
+        "Task Categories": [
+            "Toxicity Detection",
+            "Constructive Speech Detection"
+        ],
+        "Text Sources": [
+            "vnexpress.net"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Vietnam National University Ho Chi Minh City"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "uit_victsd"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 0,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "tarudesu/ViCTSD",
+            "HF Date": "2023-03-12",
+            "HF Downloads (May 2024)": 3,
+            "HF Likes (May 2024)": 1,
+            "HF Yaml License": "",
+            "PwC Date": "2021-03-18",
+            "PwC Description": "UIT-ViCTSD (Vietnamese Constructive and Toxic Speech Detection) is a dataset for constructive and toxic speech detection in Vietnamese. It consists of 10,000 human-annotated comments.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (May 2024)": 15,
+            "S2 Date": "2021-03-18"
+        }
+    },
+    "seacrowd-uit_viocd": {
+        "Unique Dataset Identifier": "seacrowd-uit_viocd",
+        "Dataset Name": "uit_viocd",
+        "Paper Title": "Vietnamese Complaint Detection on E-Commerce Websites",
+        "Dataset URL": "https://huggingface.co/datasets/tarudesu/ViOCD",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/tarudesu/ViOCD",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2104.11969",
+        "Semantic Scholar Corpus ID": "235732441",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Vietnamese"
+        ],
+        "Task Categories": [
+            "Complaint Detection"
+        ],
+        "Text Sources": [
+            "google play store",
+            "e-commerce websites"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Program-of-Thought"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Vietnam National University Ho Chi Minh City"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "uit_viocd"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "tarudesu/ViOCD",
+            "HF Date": "2023-11-28",
+            "HF Downloads (May 2024)": 0,
+            "HF Likes (May 2024)": 0,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 4,
+            "S2 Date": "2021-04-24"
+        }
+    },
+    "seacrowd-uit_vsmec": {
+        "Unique Dataset Identifier": "seacrowd-uit_vsmec",
+        "Dataset Name": "uit_vsmec",
+        "Paper Title": "Emotion Recognition for Vietnamese Social Media Text",
+        "Dataset URL": "https://drive.google.com/drive/folders/1HooABJyrddVGzll7fgkJ6VzkG_XuWfRu",
+        "GitHub URL": "https://github.com/ToVinhKhang/Emotion-Regconition-Youtube",
+        "Hugging Face URL": "https://huggingface.co/datasets/duwuonline/UIT-VSMEC/tree/main",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/uit-vsmec",
+        "ArXiv URL": "https://arxiv.org/abs/1911.09339",
+        "Semantic Scholar Corpus ID": "208202333",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Vietnamese"
+        ],
+        "Task Categories": [
+            "Sentiment Analysis"
+        ],
+        "Text Sources": [
+            "facebook"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Vietnam National University Ho Chi Minh City"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/ToVinhKhang/Emotion-Regconition-Youtube"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "uit_vsmec"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "MIT License",
+            "GitHub Stars (May 2024)": 4,
+            "GitHub Topics": [
+                "anaconda",
+                "crawling",
+                "emotion-regconition",
+                "python",
+                "selenium-webdriver",
+                "youtube-comments"
+            ],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2020-09-23",
+            "PwC Description": "Emotion recognition is a higher approach or special case of sentiment analysis. In this task, the result is not produced in terms of either polarity: positive or negative or in the form of rating (from 1 to 5) but of a more detailed level of sentiment analysis in which the result are depicted in more expressions like sadness, enjoyment, anger, disgust, fear and surprise. Emotion recognition plays a critical role in measuring brand value of a product by recognizing specific emotions of customers’ comments. In this study, we have achieved two targets. First and foremost, we built a standard Vietnamese Social Media Emotion Corpus (UIT-VSMEC) with about 6,927 human-annotated sentences with six emotion labels, contributing to emotion recognition research in Vietnamese which is a low-resource language in Natural Language Processing (NLP). Secondly, we assessed and measured machine learning and deep neural network models on our UIT-VSMEC. As a result, Convolutional Neural Network (CNN) model achieved the highest performance with 57.61% of F1-score.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (May 2024)": 36,
+            "S2 Date": "2019-10-11"
+        }
+    },
+    "seacrowd-vihealthqa": {
+        "Unique Dataset Identifier": "seacrowd-vihealthqa",
+        "Dataset Name": "vihealthqa",
+        "Paper Title": "SPBERTQA: A Two-Stage Question Answering System Based on Sentence Transformers for Medical Texts",
+        "Dataset URL": "https://huggingface.co/datasets/tarudesu/ViHealthQA",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/tarudesu/ViHealthQA",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2206.09600",
+        "Semantic Scholar Corpus ID": "249889937",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Vietnamese"
+        ],
+        "Task Categories": [
+            "Healthcare Question Answering"
+        ],
+        "Text Sources": [
+            "health websites"
+        ],
+        "Model Generated": [
+            "SBERT"
+        ],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Vietnam National University Ho Chi Minh City"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "vihealthqa"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "tarudesu/ViHealthQA",
+            "HF Date": "2023-11-25",
+            "HF Downloads (May 2024)": 218,
+            "HF Likes (May 2024)": 5,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 8,
+            "S2 Date": "2022-06-20"
+        }
+    },
+    "seacrowd-wisesight_thai_sentiment": {
+        "Unique Dataset Identifier": "seacrowd-wisesight_thai_sentiment",
+        "Dataset Name": "wisesight_thai_sentiment",
+        "Paper Title": "",
+        "Dataset URL": "https://github.com/PyThaiNLP/wisesight-sentiment",
+        "GitHub URL": "https://github.com/PyThaiNLP/wisesight-sentiment",
+        "Hugging Face URL": "https://huggingface.co/datasets/wisesight_sentiment",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/wisesight-sentiment-corpus",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Sentiment Analysis"
+        ],
+        "Text Sources": [
+            "facebook",
+            "blogs",
+            "social media"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "ADAPT Centre",
+            "Chulalongkorn University",
+            "Max Planck School of Cognition",
+            "Amazon"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": "https://github.com/PyThaiNLP/wisesight-sentiment"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "wisesight_thai_sentiment"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "CC0 1.0",
+            "GitHub Stars (May 2024)": 74,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "wisesight_sentiment",
+            "HF Config License": "",
+            "HF Dataset": "wisesight_sentiment",
+            "HF Date": "2022-01-25",
+            "HF Downloads (May 2024)": 488,
+            "HF Likes (May 2024)": 8,
+            "HF Yaml License": "CC0 1.0",
+            "PwC Date": "",
+            "PwC Description": "Social media message with sentiment label (positive, neutral, negative, question).",
+            "PwC License Name": "Various",
+            "PwC License URL": "https://zenodo.org/record/3457447",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
+    },
+    "seacrowd-wongnai_reviews": {
+        "Unique Dataset Identifier": "seacrowd-wongnai_reviews",
+        "Dataset Name": "wongnai_reviews",
+        "Paper Title": "",
+        "Dataset URL": "https://github.com/wongnai/wongnai-corpus",
+        "GitHub URL": "https://github.com/wongnai/wongnai-corpus",
+        "Hugging Face URL": "https://huggingface.co/datasets/wongnai_reviews",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Word Segmentation"
+        ],
+        "Text Sources": [
+            "web search queries"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Bank of Ayudhya",
+            "LINE MAN Wongnai",
+            "Amazon"
+        ],
+        "Licenses": [
+            {
+                "License": "LGPL 3.0",
+                "License URL": "https://github.com/wongnai/wongnai-corpus"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "wongnai_reviews"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "LGPL 3.0",
+            "GitHub Stars (May 2024)": 73,
+            "GitHub Topics": [
+                "datasets",
+                "nlp",
+                "nlp-machine-learning",
+                "tokenization"
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "wongnai_reviews",
+            "HF Date": "2022-01-25",
+            "HF Downloads (May 2024)": 385,
+            "HF Likes (May 2024)": 3,
+            "HF Yaml License": "LGPL 3.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        }
+    },
+    "seacrowd-xnli": {
+        "Unique Dataset Identifier": "seacrowd-xnli",
+        "Dataset Name": "xnli",
+        "Paper Title": "XNLI: Evaluating Cross-lingual Sentence Representations",
+        "Dataset URL": "https://github.com/facebookresearch/XNLI",
+        "GitHub URL": "https://github.com/facebookresearch/XNLI",
+        "Hugging Face URL": "https://huggingface.co/datasets/xnli",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/xnli",
+        "ArXiv URL": "https://arxiv.org/abs/1809.05053",
+        "Semantic Scholar Corpus ID": "52271711",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "English",
+            "French",
+            "Spanish",
+            "German",
+            "Greek",
+            "Bulgarian",
+            "Russian",
+            "Turkish",
+            "Arabic",
+            "Vietnamese",
+            "Thai",
+            "Chinese",
+            "Hindi",
+            "Swahili",
+            "Urdu"
+        ],
+        "Task Categories": [
+            "Cross-lingual Language Understanding (XLU)"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "MultiNLI"
+        ],
+        "Creators": [
+            "Facebook AI Research",
+            "New York University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/facebookresearch/XNLI"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "xnli"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 434,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "all_languages",
+            "HF Config License": "",
+            "HF Dataset": "xnli",
+            "HF Date": "2022-01-25",
+            "HF Downloads (May 2024)": 58173,
+            "HF Likes (May 2024)": 41,
+            "HF Yaml License": "",
+            "PwC Date": "2018-01-01",
+            "PwC Description": "The Cross-lingual Natural Language Inference (XNLI) corpus is the extension of the Multi-Genre NLI (MultiNLI) corpus to 15 languages. The dataset was created by manually translating the validation and test sets of MultiNLI into each of those 15 languages. The English training set was machine translated for all languages. The dataset is composed of 122k train, 2490 validation and 5010 test examples.",
+            "PwC License Name": "CC BY-NC 4.0",
+            "PwC License URL": "https://github.com/facebookresearch/XNLI/blob/master/LICENSE",
+            "S2 Citation Count (May 2024)": 1081,
+            "S2 Date": "2018-09-13"
+        }
+    },
+    "seacrowd-xstorycloze": {
+        "Unique Dataset Identifier": "seacrowd-xstorycloze",
+        "Dataset Name": "xstorycloze",
+        "Paper Title": "Few-shot Learning with Multilingual Language Models",
+        "Dataset URL": "https://huggingface.co/datasets/juletxara/xstory_cloze",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/juletxara/xstory_cloze",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/xstorycloze",
+        "ArXiv URL": "https://arxiv.org/abs/2112.10668",
+        "Semantic Scholar Corpus ID": "245334784",
+        "Collection": "SEACrowd",
+        "Collection URL": "https://seacrowd.github.io/seacrowd-catalogue/",
+        "Languages": [
+            "English",
+            "Russian",
+            "Chinese",
+            "Spanish",
+            "Arabic",
+            "Hindi",
+            "Indonesian",
+            "Telugu",
+            "Swahili",
+            "Basque",
+            "Burmese"
+        ],
+        "Task Categories": [
+            "Commonsense Reasoning"
+        ],
+        "Text Sources": [
+            "human"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "StoryCloze"
+        ],
+        "Creators": [
+            "Meta"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/juletxara/xstory_cloze"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Minnie, An",
+        "Dataset Filter IDs": [
+            "xstorycloze"
+        ],
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "en",
+            "HF Config License": "",
+            "HF Dataset": "juletxara/xstory_cloze",
+            "HF Date": "2023-01-28",
+            "HF Downloads (May 2024)": 9778,
+            "HF Likes (May 2024)": 6,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "2021-12-20",
+            "PwC Description": "XStoryCloze consists of the professionally translated version of the English StoryCloze dataset (Spring 2016 version) to 10 non-English languages. This dataset is intended to be used for evaluating the zero- and few-shot learning capabilities of multlingual language models. This dataset is released by Meta AI.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (May 2024)": 161,
+            "S2 Date": "2021-12-20"
+        }
+    }
+}

@@ -75,7 +75,7 @@
             "HF Dataset": "yizhongw/self_instruct",
             "HF Config": "self_instruct",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -104,7 +104,11 @@
                 "general-purpose-model",
                 "instruction-tuning",
                 "language-model"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 3785,
+            "HF Downloads (May 2024)": 7460,
+            "HF Likes (May 2024)": 177,
+            "S2 Citation Count (May 2024)": 1006
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
