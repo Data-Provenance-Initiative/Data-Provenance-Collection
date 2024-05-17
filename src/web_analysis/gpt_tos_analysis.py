@@ -1,124 +1,136 @@
 from gpt import GPT
 import asyncio
 import json
-import random
 import re
 import pickle
-from datetime import datetime
 from tqdm import tqdm
 import csv
 import argparse
+import ijson
 
-
-def load_data(file_path):
+async def stream_and_process(file_path, gpt_instance, prompt_key, filter_keywords, batch_size=10):
     """
-    Load JSON data from a file.
+    Asynchronously streams and processes Terms of Service (ToS) documents from a JSON file, using an instance of GPT to analyze the content.
+    Documents are processed in batches to optimize performance.
 
     Parameters:
-    - file_path (str): Path to the JSON file.
+    - file_path (str): The path to the JSON file containing the ToS documents.
+    - gpt_instance: An instance of the GPT model used to process the document text.
+    - prompt_key (str): The prompt key used to determine the relevance of the text.
+    - filter_keywords (bool): A flag indicating whether to filter documents based on keywords before sending them to GPT.
+    - batch_size (int, optional): The size of the batches in which documents are processed. Defaults to 10.
 
     Returns:
-    - dict: Data loaded from the JSON file.
+    - final_responses (list): A list of dictionaries containing the results of the processing. Each dictionary includes the domain,
+      ToS link, date, and either the GPT response or a verdict and evidence if the document was deemed irrelevant.
     """
-    with open(file_path, 'r') as file:
-        data = json.load(file)
-    return data
+    batch = []
+    final_responses = []
 
-def sample_random_data(data, sample_size=20, start_date=None, end_date=None, save_data=False, file_name='data/sampled_data.pkl'):
+    with tqdm(desc="Processing documents", unit="doc") as pbar:
+        # stream JSON data
+        for entry in stream_json(file_path):
+            domain, tos_link, date, text = entry
+            cleaned_text = clean_text(text)
+            if filter_keywords:
+                if not is_relevant(cleaned_text, prompt_key):
+                    # if no keywords are found in a ToS doc, directly add it with 'verdict': 'False' and 'evidence': 'N/A'
+                    final_responses.append({
+                        "domain": domain,
+                        "tos_link": tos_link,
+                        "date": date,
+                        "verdict": "False",
+                        "evidence": "N/A"
+                    })
+            else:
+                # else send ToS to GPT
+                prompt = {
+                    "text": cleaned_text,
+                    "metadata": {
+                        "domain": domain,
+                        "tos_link": tos_link,
+                        "date": date
+                    }
+                }
+                batch.append(prompt)
+                if len(batch) >= batch_size: # is this redundant? process_prompts_in_batches_async is also creating batches of size 10... could delete or increase batch size here?
+                    responses = await gpt_instance.process_prompts_in_batches_async(batch)
+                    # unpacking metadata and the corresponding response
+                    final_responses.extend([
+                        {**prompt['metadata'], **response} for prompt, response in zip(batch, responses)
+                    ])
+                    batch = []  
+            pbar.update(1)  
+
+    # process any remaining texts in the last batch
+    if batch:
+        responses = await gpt_instance.process_prompts_in_batches_async(batch)
+        final_responses.extend([
+            {**prompt['metadata'], "response": response} for prompt, response in zip(batch, responses)
+        ])
+
+    return final_responses
+
+async def process_sample(data, gpt_instance, prompt_key, filter_keywords, batch_size=10):
     """
-    Sample random entries from the data between specified dates.
+    Asynchronously processes a sample of Terms of Service (ToS) documents, using an instance of GPT to analyze the content.
+    Documents are processed in batches to optimize performance.
 
     Parameters:
-    - data (dict): The data to sample from.
-    - sample_size (int): Number of samples to retrieve.
-    - start_date (str, optional): Starting date in 'mm-dd-yyyy' format.
-    - end_date (str, optional): Ending date in 'mm-dd-yyyy' format.
-    - save_data (bool): Whether to save the sampled data.
-    - file_name (str): File path to save the data if save_data is True.
+    - data (list): A list of tuples, each containing domain, tos_link, date, and text of a ToS document.
+    - gpt_instance: An instance of the GPT model used to process the document text.
+    - prompt_key (str): The prompt key used to determine the relevance of the text.
+    - filter_keywords (bool): A flag indicating whether to filter documents based on keywords before sending them to GPT.
+    - batch_size (int, optional): The size of the batches in which documents are processed. Defaults to 10.
 
     Returns:
-    - list: A list of flattened sampled data.
+    - final_responses (list): A list of dictionaries containing the results of the processing. Each dictionary includes the domain,
+      ToS link, date, and either the GPT response or a verdict and evidence if the document was deemed irrelevant.
     """
-    flat_list = []
+    batch = []
+    final_responses = []
 
-    if start_date:
-        start_date = datetime.strptime(start_date, '%m-%d-%Y')
-    if end_date:
-        end_date = datetime.strptime(end_date, '%m-%d-%Y')
-    
-    for url, links in data.items():
-        for link, dates in links.items():
-            for date, text in dates.items():
-                date_obj = datetime.strptime(date, '%m-%d-%Y')
-                if (not start_date or date_obj >= start_date) and (not end_date or date_obj <= end_date):
-                    flat_list.append((url, link, date, text))
-    
-    if len(flat_list) < sample_size:
-        raise ValueError("Not enough data to sample from within the specified time frame.")
-    
-    sampled_data = random.sample(flat_list, sample_size)
+    for entry in tqdm(data, desc="Processing TOS docs"):
+        domain, tos_link, date, text = entry
+        cleaned_text = clean_text(text)
 
-    if save_data == True:
-        save_to_pickle(sampled_data,file_name)
-        
-    return sampled_data
+        if filter_keywords:
+            if not is_relevant(cleaned_text, prompt_key):
+                # if no keywords are found in a ToS doc, directly add it with 'verdict': 'False' and 'evidence': 'N/A'
+                final_responses.append({
+                    "domain": domain,
+                    "tos_link": tos_link,
+                    "date": date,
+                    "verdict": "False",
+                    "evidence": "N/A"
+                })
+        else:
+            # else send ToS to GPT
+            prompt = {
+                "text": cleaned_text,
+                "metadata": {
+                    "domain": domain,
+                    "tos_link": tos_link,
+                    "date": date
+                }
+            }
+            batch.append(prompt)
+            if len(batch) >= batch_size:
+                responses = await gpt_instance.process_prompts_in_batches_async(batch)
+                # unpacking metadata and the corresponding response
+                final_responses.extend([
+                    {**prompt['metadata'], **response} for prompt, response in zip(batch, responses)
+                ])
+                batch = [] 
 
-def sample_data_per_url(data, sample_size=20, save_data=False, file_name='data/sampled_data.pkl'):
-    """
-    Sample data entries for distinct URLs.
+    # process any remaining texts in the last batch
+    if batch:
+        responses = await gpt_instance.process_prompts_in_batches_async(batch)
+        final_responses.extend([
+            {**prompt['metadata'], **response} for prompt, response in zip(batch, responses)
+        ])
 
-    Parameters:
-    - data (dict): The data dictionary containing URLs and associated data.
-    - sample_size (int): Number of URLs to sample.
-    - save_data (bool): Whether to save the sampled data.
-    - file_name (str): File path to save the data if save_data is True. Defaults to 'data/sampled_data.pkl'
-
-    Returns:
-    - dict: A dictionary containing sampled data each URL with all of the most recent associated TOS links.
-    """
-    non_empty_urls = [url for url, links in data.items() if links]
-
-    if len(non_empty_urls) < sample_size:
-        raise ValueError("Not enough parent URLs with data to sample from.")
-
-    sampled_urls = random.sample(non_empty_urls, sample_size)
-
-    output_data = {}
-    for url in sampled_urls:
-        tos_entries = []
-        for tos_link, dates in data[url].items():
-            # find the most recent date for each TOS link
-            most_recent_date = max(dates, key=lambda date: datetime.strptime(date, '%m-%d-%Y'))
-            most_recent_text = dates[most_recent_date]
-            tos_entries.append((tos_link, most_recent_date, most_recent_text))
-        
-        if tos_entries:
-            output_data[url] = tos_entries
-        
-    if save_data == True:
-        save_to_pickle(output_data,file_name)
-
-    return output_data
-
-def save_to_pickle(data, file_name):
-    """
-    Save data to a pickle file.
-
-    Parameters:
-    - data (any): The sample data to pickle.
-    - file_name (str): Path to the file where data will be saved.
-
-    Returns:
-    - None: Prints the status of the save operation.
-    """
-    try:
-        with open(file_name, 'wb') as f:
-            pickle.dump(data, f)
-        print(f"Data successfully saved to {file_name}")
-    except (FileNotFoundError, IOError) as e:
-        print(f"Error accessing the file {file_name}: {e}")
-    except (pickle.PicklingError, Exception) as e:
-        print(f"Error during pickling or an unexpected error: {e}")
+    return final_responses
 
 def clean_text(text):
     """
@@ -134,226 +146,32 @@ def clean_text(text):
     cleaned_text = re.sub(r'\s+', ' ', cleaned_text).strip()
     return cleaned_text
 
-def pre_process_tos_text(data):
-    """
-    Pre-process Terms of Service (TOS) text by cleaning each entry.
-
-    Parameters:
-    - data (dict): A dictionary where keys are URLs and values are lists of tuples containing TOS data.
+def is_relevant(text, prompt_key):
+    """Check if the text contains any of the specified keywords.
+        Parameters:
+    - text (str): The text to check for keywords.
 
     Returns:
-    - dict: A dictionary with URLs as keys and cleaned TOS texts as values.
+    - bool: True if a keyword is found, flase if not.
     """
-    tos_texts_by_url = {}
-    for url, entries in data.items():
-        # collect and clean all TOS texts for the current URL
-        all_texts = [clean_text(text) for (_, _, text) in entries]
-        tos_texts_by_url[url] = all_texts
-    return tos_texts_by_url
+    keyword_dict = {'scraping': ["Scrape", "harvest", "extract", "Web scraping", "Web Crawler", "spiders", "scripts", "crawler","Archival", "Machine-readable data", "Metadata", "Crawling", "Indexing", "Sitemaps", "Robots.txt", "Descriptive metadata", "Keyword research", "Timeliness of content", "Last modified", "HTTP headers", "Automated web scraping", "CAPTCHAs", "Denial-of-service attack", "data gathering", "extraction methods", "public search engine", "API", "data extraction"],
+                'AI-policy': ["machine learning", "ML", "artificial intelligence", "AI", "system", "training", "software", "program", "data sets", "generative", "models", "GPTBot user agent", "API"],
+                'competing-services': ["Commercial Use", "display", "distribute", "license", "publish", "reproduce", "duplicate", "copy", "create derivative works from", "modify", "sell", "resell", "exploit", "transfer", "commercial", "buying", "exchanging", "selling", "promotion"],
+                'illicit-content': ["unlawful", "threatening", "abusive", "harassing", "defamatory", "libelous", "deceptive", "fraudulent", "invasive of another's privacy", "tortious", "obscene", "vulgar", "pornographic", "offensive", "profane", "contains", "depicts nudity", "contains", "depicts sexual activity", "inappropriate", "criminal"],
+                'type-of-license': ["property", "respective owners", "copyright", "trademark", "subsidiaries", "affiliates", "assigns", "licensors", "without limitation", "creative", "transmit", "transfer", "sale", "sell", "derivative works", "amalgamated"]
+            }
+    keywords = None
 
-def pre_process_tos_text_keywords(data_dict, prompt_key):
-    """
-    Processes a dictionary containing domain-to-Terms of Service (ToS) mappings to extract and preprocess ToS text
-    relevant to specified keywords. The function combines all ToS text per domain and then finds relevant
-    sections of text based on the provided prompt_key that matches specific keywords.
+    for key in keyword_dict:
+        if key in prompt_key:
+            keywords = keyword_dict[key]
+            break
 
-    Parameters:
-        data_dict (dict): A dictionary mapping parent domains to a list of tuples, each containing a link, date, 
-                          and ToS text.
-        prompt_key (str): The key that corresponds to specific keywords used to filter relevant text.
-    Returns:
-        list of tuples: A list where each tuple contains a domain URL and the post-processed text that contains
-                        keywords relevant to the prompt_key.
-    """
-    combined_tos_text = []
-    for parent_domain, tos_links in data_dict.items():
-        all_tos_text = ""
-        for link, date, tos_text in tos_links:
-            all_tos_text += ' ' + tos_text + ' '
-        all_tos_text = all_tos_text.strip()
-        combined_tos_text.append((parent_domain,all_tos_text))
-        
-    results = []
-    for url, tos_text in combined_tos_text:
-        relevant_text = find_relevant_text(tos_text, prompt_key)
-        # if(relevant_text):
-        results.append((url,post_process_tos_text_keywords(relevant_text)))
+    # reg. ex. pattern
+    keyword_pattern = re.compile(r'\b(' + '|'.join(map(re.escape, keywords)) + r')\b', re.IGNORECASE)
+    match = keyword_pattern.search(text)
 
-    return results
-
-def post_process_tos_text_keywords(data_dict):
-    """
-    Aggregates values from a dictionary where each value is a list of strings, concatenating them into a single string.
-    This function is used to concatenate text fragments that have been identified as relevant based on specific
-    keywords.
-
-    Parameters:
-        data_dict (dict): A dictionary where each key is a text category and the value is a list of strings containing
-                          relevant extracted text.
-    Returns:
-        str: A single string composed of all concatenated values from the input dictionary.
-    """
-    results = []
-    result = ""
-    for values in data_dict.values():
-        result += ' '.join(values) + ' '
-    result = result.strip()
-
-    return result
-
-def find_relevant_text(tos_text, prompt_key):
-    """
-    Searches for paragraphs in the given text that contain keywords related to a specified prompt key. The function
-    uses regular expressions to identify paragraphs that contain any of the keywords and returns these along with 
-    the preceding and following paragraphs for context.
-
-    Parameters:
-        tos_text (str): The text from a Terms of Service document.
-        prompt_key (str): The key for which to find relevant keywords. This key should correspond to a predefined
-                          set of keywords.
-    Returns:
-        dict: A dictionary where each key is a keyword found in the text and the value is a list of strings, each 
-              string being a "relevant text" snippet that includes the keyword and its surrounding context.
-    """
-    keywords = {'scraping-policy-keywords': ["Scrape", "harvest", "extract", "Web scraping", "Web Crawler", "spiders", "scripts", "Archival", "Machine-readable data", "Metadata", "Crawling", "Indexing", "Sitemaps", "Robots.txt files", "Descriptive metadata", "Keyword research", "Timeliness of content", "Last modified", "HTTP headers", "Automated web scraping", "CAPTCHAs", "Denial-of-service attack", "data gathering", "extraction methods", "public search engine", "non-amalgamated", "API"],
-                 'AI-policy-keywords': ["machine learning", "ML", "artificial intelligence", "AI", "system", "training", "software", "program", "data sets", "generative", "models", "GPTBot user agent", "API"],
-                 'competing-services-keywords': ["Commercial Use", "display", "distribute", "license", "publish", "reproduce", "duplicate", "copy", "create derivative works from", "modify", "sell", "resell", "exploit", "transfer", "commercial", "buying", "exchanging", "selling", "promotion"],
-                 'illicit-content-keywords': ["unlawful", "threatening", "abusive", "harassing", "defamatory", "libelous", "deceptive", "fraudulent", "invasive of another's privacy", "tortious", "obscene", "vulgar", "pornographic", "offensive", "profane", "contains", "depicts nudity", "contains", "depicts sexual activity", "inappropriate", "criminal"],
-                 'type-of-license-keywords': ["property", "respective owners", "copyright", "trademark", "subsidiaries", "affiliates", "assigns", "licensors", "without limitation", "creative", "transmit", "transfer", "sale", "sell", "derivative works", "amalgamated"]
-                }
-    # reg. ex. patterns
-    paragraph_pattern = re.compile(r'\n\n+')
-    keyword_pattern = re.compile(r'\b(' + '|'.join(map(re.escape, keywords[prompt_key])) + r')\b', re.IGNORECASE)
-    
-    paragraphs = paragraph_pattern.split(tos_text)
-    
-    relevant_texts = {}
-
-    for paragraph in paragraphs:
-        match = keyword_pattern.search(paragraph)
-        if match:
-            keyword_found = match.group(0).lower()
-            if keyword_found not in relevant_texts:
-                relevant_texts[keyword_found] = []
-            relevant_texts[keyword_found].append(paragraph)
-
-    return relevant_texts
-
-def run_gpt(prompts, gpt_4_turbo, liscence_type):
-    """
-    Process Terms of Service documents using a GPT model.
-
-    Parameters:
-    - prompts (dict): A dictionary containing URLs as keys and lists of TOS texts as values.
-    - gpt_4_turbo (GPT): An instance of a GPT model.
-    - liscence_type (bool): Indicates if the license type is being checked.
-
-    Returns:
-    - dict: A dictionary containing the URLs as keys and tuples of verdicts and evidence as values.
-    """
-    verdicts = {}
-    if 'keywords' in gpt_4_turbo.get_prompt_key():
-        for url, text in tqdm(prompts, desc="Processing TOS documents"):
-            verdict = False
-            evidence = None
-            if(not text):
-                verdicts[url] = (verdict, evidence)
-            else: 
-                results = asyncio.run(gpt_4_turbo.process_prompts_in_batches_async([text]))
-                for r in results:
-                    if r['verdict'] == 'True':
-                        verdict = True
-                        evidence = r['evidence']  
-                verdicts[url] = (verdict, evidence)
-    else:
-        for url, texts in tqdm(prompts.items(), desc="Processing TOS documents"):
-            # does this need to be in an async function?
-            results = asyncio.run(gpt_4_turbo.process_prompts_in_batches_async(texts))
-            if(liscence_type == True):
-                verdict = None
-                evidence = None
-                for r in results:
-                    if r['verdict'] != 'N/A':
-                        verdict = r['verdict']
-                        evidence = r['evidence']     
-                verdicts[url] = (verdict, evidence)
-            else:
-                verdict = False
-                evidence = None
-                for r in results:
-                    if r['verdict'] == 'True':
-                        verdict = True
-                        evidence = r['evidence']     
-                verdicts[url] = (verdict, evidence)
-    return verdicts
-
-def save_verdicts_to_csv(sampled_data, verdicts, prompt_key):
-    """
-    Save the verdicts obtained from the GPT model to a CSV file.
-
-    Parameters:
-    - sampled_data (dict): A dictionary of sampled data.
-    - verdicts (dict): A dictionary containing verdicts and evidence.
-    - prompt_key (str): The key for the specific prompt used in GPT processing.
-
-    Returns:
-    - None: Writes data directly to a CSV file.
-    """
-    results_to_write = []
-    for url, entries in sampled_data.items():
-        # extract only the TOS links from each tuple in the sampled data
-        tos_links = [entry[0] for entry in entries][:5] 
-        # pad if fewer than 5 links
-        while len(tos_links) < 5:  
-            tos_links.append(None) 
-        
-        answer = verdicts[url][0]
-        evidence = verdicts[url][1]
-
-        # create a new tuple with the URL, all (exactly 5) TOS links, answer, and evidence
-        new_tuple = (url, *tos_links, answer, evidence)
-        results_to_write.append(new_tuple)
-        write_csv(results_to_write, prompt_key)
-
-def write_csv(data, prompt_key):
-    """
-    Write data to a CSV file named based on a specified prompt key.
-
-    Parameters:
-    - data (list of tuples): The data to write to the CSV.
-    - prompt_key (str): The prompt key that determines the questions for the CSV.
-
-    Returns:
-    - None: Writes data directly to a CSV file.
-    """
-    if('keywords' in prompt_key): 
-        file_name = 'data/'+ prompt_key +'-gpt-keywords.csv'
-    else: 
-        file_name = 'data/'+ prompt_key +'-gpt.csv' # change this file path accordingly 
-    questions = {'scraping-policy': 'Does the website restrict scraping? [True/False]', 'scraping-policy-keywords': 'Does the website restrict scraping? [True/False]',
-                 'AI-policy': 'Does website have specific restrictions related to AI training? [True/False]', 'AI-policy-keywords': 'Does website have specific restrictions related to AI training? [True/False]',
-                 'competing-services': 'Does website restrict use of content for competing services? [True/False]', 'competing-services-keywords': 'Does website restrict use of content for competing services? [True/False]',
-                 'illicit-content': 'Does website restrict posting illicit content? [True/False]', 'illicit-content-keywords': 'Does website restrict posting illicit content? [True/False]',
-                 'type-of-license': 'What may website content be used for?', 'type-of-license-keywords': 'What may website content be used for?'
-                }
-    question_text = questions[prompt_key]
-    if (prompt_key != 'type-of-license'):
-        reasoning_text = 'If True, provide evidence here:'
-    else:
-        reasoning_text = 'If license type found, provide evidence here:'
-    headers = ['Domain', 'TOS link 1', 'TOS link 2', 'TOS link 3', 'TOS link 4', 'TOS link 5', question_text, reasoning_text]
-
-    with open(file_name, 'w', newline='', encoding='utf-8') as file:
-        writer = csv.writer(file)
-        writer.writerow(headers)
-        for domain, tos1, tos2, tos3, tos4, tos5, verdict, evidence in data:
-            try:
-                writer.writerow([domain, tos1, tos2, tos3, tos4, tos5, verdict, evidence])
-            except UnicodeEncodeError as e:
-                print("Error writing data:", entry)
-                raise e
-            except Exception as e:
-                print(e)
+    return bool(match)
 
 def open_sampled_data(sample_file_path):
     """
@@ -370,75 +188,189 @@ def open_sampled_data(sample_file_path):
     try:
         with open(sample_file_path, 'rb') as f:
             sampled_data = pickle.load(f)
-            print("Sample data loaded successfully.")
-            return sampled_data
+            print("Sample data successfully loaded!")
+            # re-formatting sampled data to new format
+            data = []
+            for parent_domain, tos_list in sampled_data.items():
+                for tos_link, date, text in tos_list:
+                    data.append((parent_domain,tos_link,date,text))
+            return data
     except FileNotFoundError:
         print(f"Error: The file {sample_file_path} does not exist.")
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
-##################################################################################
-
-
-def main(custom_sample, sample_file_path, sample_size, save_sample, prompt_key, save_verdicts):
+def format_for_json(final_responses):
     """
-    Main function to orchestrate the data sampling and GPT processing based on command-line arguments.
+    Formats the final responses for JSON serialization. Transforms the data structure to organize responses
+    by domain, ToS link, and date.
 
     Parameters:
-    args (Namespace): Command line arguments parsed by argparse.
+    - final_responses (list): A list of dictionaries containing the results of the processing. Each dictionary includes the domain,
+      ToS link, date, verdict, and evidence.
 
     Returns:
-    - dict or None: Returns the verdicts if save_verdicts is False. Otherwise, it saves the verdicts to a CSV and returns None.
-
-    Raises:
-    - ValueError: If no prompt_key is provided or if the sample_file_path is not provided when custom_sample is True.
+    - transformed_data (dict): A nested dictionary where the top-level keys are domains, the second-level keys are ToS links,
+      and the third-level keys are dates. Each entry contains the verdict and evidence.
     """
+    transformed_data = {}
+    for entry in final_responses:
+        domain = entry["domain"]
+        link = entry["tos_link"]
+        date = entry["date"]
+        verdict_info = {
+            "verdict": entry["verdict"],
+            "evidence": entry["evidence"]
+        }
 
-    # currently only supports sampled data - full dataset (allow for custom dataset/default) and keyword analysis coming soon
-    # ADD NOTE ABOUT NEEDING .env FILE W OPEN_AI KEY
-
-    if(prompt_key == None):
-        raise ValueError("prompt_key must be provided. Options are: Options are: \"scraping-policy\", \"AI-policy\", \"competing-services\", \"illicit-content\", \"type-of-license\", \"scraping-policy-keywords\", \"AI-policy-keywords\", \"competing-services-keywords\", \"illicit-content-keywords\", \"type-of-license-keywords\"")
-        return None
-    else:
-        # initialize gpt instance
-        gpt_4_turbo = GPT(model='gpt-4-turbo', prompt=prompt_key)
-        print(f"Using prompt: {gpt_4_turbo.get_guidelines_prompt()}")
-        license_type = False
-        if('type-of-license' in prompt_key): license_type = True
-
-    if(custom_sample == True):
-        if(not sample_file_path):
-            raise ValueError("sample_file_path must be provided if custom_sample is set to True.")
-        sampled_data = open_sampled_data(sample_file_path)
-    else:
-        # update the file path depending on where data is stored
-        data = load_data('data/temporal_tos_data_1_reorg.json')
-        sampled_data = sample_data_per_url(data, sample_size=sample_size, save_data=save_sample)
-
-    if('keywords' in prompt_key):
-        prompts = pre_process_tos_text_keywords(sampled_data, prompt_key)
-        verdicts = run_gpt(prompts, gpt_4_turbo, license_type)
-    else:
-        prompts = pre_process_tos_text(sampled_data)
-        verdicts = run_gpt(prompts, gpt_4_turbo, license_type)
-
-    if(save_verdicts == True):
-        save_verdicts_to_csv(sampled_data, verdicts, prompt_key)
-    else:
-        return verdicts
+        if domain not in transformed_data:
+            transformed_data[domain] = {}
+        if link not in transformed_data[domain]:
+            transformed_data[domain][link] = {}
         
+        transformed_data[domain][link][date] = verdict_info
+
+    return transformed_data
+
+def save_binary_output_to_csv(formatted_data, prompt_key):
+    """
+    Save aggregated verdicts and evidence for up to five TOS links per domain to a CSV file.
+
+    Parameters:
+    - formatted_data (dict): A dictionary with domains as keys and nested dictionaries of TOS links and their respective verdicts and evidence.
+    - prompt_key (str): The key for the specific prompt used in GPT processing.
+
+    Returns:
+    - None: Writes data directly to a CSV file.
+    """
+    file_name = f'data/{prompt_key}-gpt-filtering.csv'  
+
+    question_dict = {'scraping': 'Does the website restrict scraping? [True/False]',
+                     'AI-policy': 'Does website have specific restrictions related to AI training? [True/False]', 
+                     'competing-services': 'Does website restrict use of content for competing services? [True/False]',
+                     'illicit-content': 'Does website restrict posting illicit content? [True/False]', 
+                     'type-of-license': 'What may website content be used for?',
+                    }
+    
+    question = None
+    for key in question_dict:
+        if key in prompt_key:
+            question = question_dict[key]
+            break
+
+    headers = ['Domain', 'TOS link 1', 'TOS link 2', 'TOS link 3', 'TOS link 4', 'TOS link 5', question, 'Evidence']
+
+    with open(file_name, 'w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow(headers)
+
+        for domain, links in formatted_data.items():
+            links_list = list(links.items())[:5]  # select up to the first five links
+            link_columns = [link for (link, _) in links_list] + [None] * (5 - len(links_list))
+            all_verdicts = []
+            all_evidence = []
+
+            for _, dates in links.items():
+                for date_info in dates.values():
+                    all_verdicts.append(date_info['verdict'] == "True")
+                    if date_info['verdict'] == "True":
+                        all_evidence.append(date_info['evidence'])
+
+            aggregated_verdict = any(all_verdicts)
+            aggregated_evidence = " | ".join(all_evidence)
+
+            row = [domain] + link_columns + [aggregated_verdict, aggregated_evidence]
+            writer.writerow(row)
+
+def save_non_binary_output_to_csv(formatted_data, prompt_key):
+    """
+    Save aggregated verdicts and evidence for up to five TOS links per domain to a CSV file,
+    categorizing the explicitness and conditions of scraping policies.
+
+    Parameters:
+    - formatted_data (dict): A dictionary with domains as keys and nested dictionaries of TOS links and their respective verdicts and evidence.
+    - prompt_key (str): The key for the specific prompt used in GPT processing.
+
+    Returns:
+    - None: Writes data directly to a CSV file.
+    """
+    file_name = f'data/{prompt_key}-gpt-no-keyword-filtering.csv' 
+    question_dict = {'scraping': 'Does the website restrict scraping? [True/False]',
+                     'type-of-license': 'What may website content be used for?',
+                    }
+
+    question = None
+    for key in question_dict:
+        if key in prompt_key:
+            question = question_dict[key]
+            break
+
+    headers = ['Domain', 'TOS link 1', 'TOS link 2', 'TOS link 3', 'TOS link 4', 'TOS link 5', question, 'Evidence']
+
+    with open(file_name, 'w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow(headers)
+
+        for domain, links in formatted_data.items():
+            links_list = list(links.items())[:5]  # select up to the first five links
+            link_columns = [link for (link, _) in links_list] + [None] * (5 - len(links_list))
+            verdicts_collected = []
+
+            for _, dates in links.items():
+                for date_info in dates.values():
+                    verdict = date_info['verdict']
+                    evidence = date_info['evidence']
+                    verdicts_collected.append((verdict, evidence))
+
+            # determine the final verdict 
+            if any(v == "Prohibited" for v, _ in verdicts_collected):
+                final_verdict = "Prohibited"
+            elif any(v == "Allowed" for v, _ in verdicts_collected):
+                final_verdict = "Allowed"
+            elif any(v == "Conditional" for v, _ in verdicts_collected):
+                final_verdict = "Conditional"
+            else:
+                final_verdict = "Not mentioned"
+
+            aggregated_evidence = " | ".join([f"{v}: {e}" for v, e in verdicts_collected if v != "Not mentioned"])
+
+            row = [domain] + link_columns + [final_verdict, aggregated_evidence]
+            writer.writerow(row)
+
+##################################################################################
+
+def main(custom_sample, sample_file_path, prompt_key, save_verdicts, filter_keywords):
+    if prompt_key is None:
+        raise ValueError("prompt_key must be provided. Options are: 'scraping-policy', 'AI-policy', 'competing-services', 'illicit-content', 'type-of-license', 'scraping-policy-keywords', 'AI-policy-keywords', 'competing-services-keywords', 'illicit-content-keywords', 'type-of-license-keywords'")
+    
+    gpt_4o = GPT(model='gpt-4o', prompt=prompt_key)
+    print(f"System Instructions: {gpt_4o.get_system_prompt()}\nChat GPT dialouge:\nUser: {gpt_4o.get_user_prompt1()}\nGPT: {gpt_4o.get_assistant_prompt1()}\nUser: {gpt_4o.get_guidelines_prompt()}")
+
+    if custom_sample:
+        if not sample_file_path:
+            raise ValueError("sample_file_path must be provided if custom_sample is set to True.")
+        data = open_sampled_data(sample_file_path)
+        results = asyncio.run(process_sample(data, gpt_4o, prompt_key, filter_keywords))
+        json_data = format_for_json(results)
+    else:
+        # stream whole dataset
+        results = stream_and_process('path-to-data', gpt_4o, prompt_key, filter_keywords)
+        json_data = format_for_json(results)
+
+    if save_verdicts:
+        save_binary_output_to_csv(json_data,prompt_key) # change depending on prompt
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process some integers.')
     parser.add_argument('--custom_sample', type=bool, default=False, help='Use a custom sample file. Must be a .pkl file in correct format.')
     parser.add_argument('--sample_file_path', type=str, default='', help='Path to the sample file')
-    parser.add_argument('--sample_size', type=int, default=50, help='Size of the sample to generate')
-    parser.add_argument('--save_sample', type=bool, default=False, help='Save the sampled data to .pkl file')
+    # parser.add_argument('--sample_size', type=int, default=10, help='Size of the sample to generate')
+    # parser.add_argument('--save_sample', type=bool, default=False, help='Save the sampled data to .pkl file')
     parser.add_argument('--prompt_key', type=str, default=None, help='Prompt key for GPT model. Options are: \"scraping-policy\", \"AI-policy\", \"competing-services\", \"illicit-content\", \"type-of-license\", \"scraping-policy-keywords\", \"AI-policy-keywords\", \"competing-services-keywords\", \"illicit-content-keywords\", \"type-of-license-keywords\"')
-    parser.add_argument('--save_verdicts', type=bool, default=True, help='Save the generated verdicts to .csv file')
+    parser.add_argument('--save_verdicts', type=bool, default=True, help='Save the generated verdicts to .csv file') # change to json
+    parser.add_argument('--filter_keywords', type=bool, default=False, help='Filter out documents that do not contain keywords.') 
 
-    
     args = parser.parse_args()
     
-    main(args.custom_sample, args.sample_file_path, args.sample_size, args.save_sample, args.prompt_key, args.save_verdicts)
+    main(args.custom_sample, args.sample_file_path, args.prompt_key, args.save_verdicts, args.filter_keywords)
