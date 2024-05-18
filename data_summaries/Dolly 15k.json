@@ -55,15 +55,9 @@
             "HF Dataset": "databricks/databricks-dolly-15k",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": [
-                "cc-by-sa-3.0"
-            ],
-            "PwC License Name": [
-                "Creative Commons Attribution-ShareAlike 3.0 Unported License"
-            ],
-            "PwC License URL": [
-                "https://creativecommons.org/licenses/by-sa/3.0/"
-            ],
+            "HF Yaml License": "CC BY-SA 3.0",
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
             "PwC Date": "2023-04-12",
             "S2 Date": "",
             "GitHub License": "",
@@ -151,15 +145,9 @@
             "HF Dataset": "databricks/databricks-dolly-15k",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": [
-                "cc-by-sa-3.0"
-            ],
-            "PwC License Name": [
-                "Creative Commons Attribution-ShareAlike 3.0 Unported License"
-            ],
-            "PwC License URL": [
-                "https://creativecommons.org/licenses/by-sa/3.0/"
-            ],
+            "HF Yaml License": "CC BY-SA 3.0",
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
             "PwC Date": "2023-04-12",
             "S2 Date": "",
             "GitHub License": "",
@@ -247,15 +235,9 @@
             "HF Dataset": "databricks/databricks-dolly-15k",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": [
-                "cc-by-sa-3.0"
-            ],
-            "PwC License Name": [
-                "Creative Commons Attribution-ShareAlike 3.0 Unported License"
-            ],
-            "PwC License URL": [
-                "https://creativecommons.org/licenses/by-sa/3.0/"
-            ],
+            "HF Yaml License": "CC BY-SA 3.0",
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
             "PwC Date": "2023-04-12",
             "S2 Date": "",
             "GitHub License": "",
@@ -343,15 +325,9 @@
             "HF Dataset": "databricks/databricks-dolly-15k",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": [
-                "cc-by-sa-3.0"
-            ],
-            "PwC License Name": [
-                "Creative Commons Attribution-ShareAlike 3.0 Unported License"
-            ],
-            "PwC License URL": [
-                "https://creativecommons.org/licenses/by-sa/3.0/"
-            ],
+            "HF Yaml License": "CC BY-SA 3.0",
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
             "PwC Date": "2023-04-12",
             "S2 Date": "",
             "GitHub License": "",
@@ -439,15 +415,9 @@
             "HF Dataset": "databricks/databricks-dolly-15k",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": [
-                "cc-by-sa-3.0"
-            ],
-            "PwC License Name": [
-                "Creative Commons Attribution-ShareAlike 3.0 Unported License"
-            ],
-            "PwC License URL": [
-                "https://creativecommons.org/licenses/by-sa/3.0/"
-            ],
+            "HF Yaml License": "CC BY-SA 3.0",
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
             "PwC Date": "2023-04-12",
             "S2 Date": "",
             "GitHub License": "",
@@ -535,15 +505,9 @@
             "HF Dataset": "databricks/databricks-dolly-15k",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": [
-                "cc-by-sa-3.0"
-            ],
-            "PwC License Name": [
-                "Creative Commons Attribution-ShareAlike 3.0 Unported License"
-            ],
-            "PwC License URL": [
-                "https://creativecommons.org/licenses/by-sa/3.0/"
-            ],
+            "HF Yaml License": "CC BY-SA 3.0",
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
             "PwC Date": "2023-04-12",
             "S2 Date": "",
             "GitHub License": "",
@@ -631,15 +595,9 @@
             "HF Dataset": "databricks/databricks-dolly-15k",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": [
-                "cc-by-sa-3.0"
-            ],
-            "PwC License Name": [
-                "Creative Commons Attribution-ShareAlike 3.0 Unported License"
-            ],
-            "PwC License URL": [
-                "https://creativecommons.org/licenses/by-sa/3.0/"
-            ],
+            "HF Yaml License": "CC BY-SA 3.0",
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
             "PwC Date": "2023-04-12",
             "S2 Date": "",
             "GitHub License": "",
