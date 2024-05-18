@@ -64,9 +64,7 @@
             "HF Dataset": "teknium/GPTeacher-General-Instruct",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": [
-                "mit"
-            ],
+            "HF Yaml License": "MIT License",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -167,9 +165,7 @@
             "HF Dataset": "teknium/GPTeacher-General-Instruct",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": [
-                "mit"
-            ],
+            "HF Yaml License": "MIT License",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -269,9 +265,7 @@
             "HF Dataset": "teknium/GPTeacher-General-Instruct",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": [
-                "mit"
-            ],
+            "HF Yaml License": "MIT License",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -363,9 +357,7 @@
             "HF Dataset": "teknium/GPTeacher-General-Instruct",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": [
-                "mit"
-            ],
+            "HF Yaml License": "MIT License",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",

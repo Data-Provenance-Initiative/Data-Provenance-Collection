@@ -194,9 +194,7 @@
             "HF Date": "2023-09-18",
             "HF Downloads (May 2024)": 0,
             "HF Likes (May 2024)": 0,
-            "HF Yaml License": [
-                "apache-2.0"
-            ],
+            "HF Yaml License": "Apache License 2.0",
             "PwC Date": "",
             "PwC Description": "",
             "PwC License Name": "",
@@ -248,7 +246,7 @@
         ],
         "Bibtex": "",
         "Inferred Metadata": {
-            "GitHub License": "GNU Affero General Public License v3.0",
+            "GitHub License": "GNU General Public License v3.0",
             "GitHub Stars (May 2024)": 13,
             "GitHub Topics": [
                 "bert",
@@ -268,17 +266,11 @@
             "HF Date": "2022-01-25",
             "HF Downloads (May 2024)": 201,
             "HF Likes (May 2024)": 0,
-            "HF Yaml License": [
-                "unknown"
-            ],
+            "HF Yaml License": "Unspecified",
             "PwC Date": "",
             "PwC Description": "Expertly-curated benchmark dataset for fake news detection in Filipino.",
-            "PwC License Name": [
-                null
-            ],
-            "PwC License URL": [
-                null
-            ],
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
             "S2 Citation Count (May 2024)": 28,
             "S2 Date": "2019-06-30"
         }
@@ -817,17 +809,11 @@
             "HF Date": "2023-01-13",
             "HF Downloads (May 2024)": 60,
             "HF Likes (May 2024)": 9,
-            "HF Yaml License": [
-                "gpl"
-            ],
+            "HF Yaml License": "GNU General Public License v3.0",
             "PwC Date": "",
             "PwC Description": "This corpus has been collected from free or free for research sources at the Internet:\n\n\nA collection of 425 SMS spam messages was manually extracted from the Grumbletext Web site. This is a UK forum in which cell phone users make public claims about SMS spam messages, most of them without reporting the very spam message received. The identification of the text of spam messages in the claims is a very hard and time-consuming task, and it involved carefully scanning hundreds of web pages.\nA subset of 3,375 SMS randomly chosen ham messages of the NUS SMS Corpus (NSC), which is a dataset of about 10,000 legitimate messages collected for research at the Department of Computer Science at the National University of Singapore. The messages largely originate from Singaporeans and mostly from students attending the University. These messages were collected from volunteers who were made aware that their contributions were going to be made publicly available.\nA list of 450 SMS ham messages collected from Caroline Tag's PhD Thesis.\nthe SMS Spam Corpus v.0.1 Big. It has 1,002 SMS ham messages and 322 spam messages.",
-            "PwC License Name": [
-                null
-            ],
-            "PwC License URL": [
-                null
-            ],
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
             "S2 Citation Count (May 2024)": 16,
             "S2 Date": "2023-05-25"
         }
@@ -916,17 +902,11 @@
             "HF Date": "2022-01-25",
             "HF Downloads (May 2024)": 533,
             "HF Likes (May 2024)": 17,
-            "HF Yaml License": [
-                "cc-by-3.0"
-            ],
+            "HF Yaml License": "CC BY 3.0",
             "PwC Date": "",
             "PwC Description": "Multilingual Knowledge Questions and Answers (MKQA) is an open-domain question answering evaluation set comprising 10k question-answer pairs aligned across 26 typologically diverse languages (260k question-answer pairs in total). The goal of this dataset is to provide a challenging benchmark for question answering quality across a wide set of languages. Answers are based on a language-independent data representation, making results comparable across languages and independent of language-specific passages. With 26 languages, this dataset supplies the widest range of languages to-date for evaluating question answering.",
-            "PwC License Name": [
-                null
-            ],
-            "PwC License URL": [
-                null
-            ],
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
             "S2 Citation Count (May 2024)": 102,
             "S2 Date": "2020-07-30"
         }
@@ -1362,9 +1342,7 @@
             "HF Date": "2023-06-05",
             "HF Downloads (May 2024)": 0,
             "HF Likes (May 2024)": 0,
-            "HF Yaml License": [
-                "unlicense"
-            ],
+            "HF Yaml License": "CC0 1.0",
             "PwC Date": "",
             "PwC Description": "",
             "PwC License Name": "",
@@ -1490,9 +1468,7 @@
             "HF Date": "2022-01-25",
             "HF Downloads (May 2024)": 251,
             "HF Likes (May 2024)": 4,
-            "HF Yaml License": [
-                "cc-by-nc-3.0"
-            ],
+            "HF Yaml License": "CC BY-NC 3.0",
             "PwC Date": "",
             "PwC Description": "",
             "PwC License Name": "",
@@ -1620,12 +1596,8 @@
             "HF Yaml License": "",
             "PwC Date": "2021-03-18",
             "PwC Description": "UIT-ViCTSD (Vietnamese Constructive and Toxic Speech Detection) is a dataset for constructive and toxic speech detection in Vietnamese. It consists of 10,000 human-annotated comments.",
-            "PwC License Name": [
-                "Unknown"
-            ],
-            "PwC License URL": [
-                null
-            ],
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
             "S2 Citation Count (May 2024)": 15,
             "S2 Date": "2021-03-18"
         }
@@ -1757,12 +1729,8 @@
             "HF Yaml License": "",
             "PwC Date": "2020-09-23",
             "PwC Description": "Emotion recognition is a higher approach or special case of sentiment analysis. In this task, the result is not produced in terms of either polarity: positive or negative or in the form of rating (from 1 to 5) but of a more detailed level of sentiment analysis in which the result are depicted in more expressions like sadness, enjoyment, anger, disgust, fear and surprise. Emotion recognition plays a critical role in measuring brand value of a product by recognizing specific emotions of customers’ comments. In this study, we have achieved two targets. First and foremost, we built a standard Vietnamese Social Media Emotion Corpus (UIT-VSMEC) with about 6,927 human-annotated sentences with six emotion labels, contributing to emotion recognition research in Vietnamese which is a low-resource language in Natural Language Processing (NLP). Secondly, we assessed and measured machine learning and deep neural network models on our UIT-VSMEC. As a result, Convolutional Neural Network (CNN) model achieved the highest performance with 57.61% of F1-score.",
-            "PwC License Name": [
-                null
-            ],
-            "PwC License URL": [
-                null
-            ],
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
             "S2 Citation Count (May 2024)": 36,
             "S2 Date": "2019-10-11"
         }
@@ -1890,17 +1858,11 @@
             "HF Date": "2022-01-25",
             "HF Downloads (May 2024)": 488,
             "HF Likes (May 2024)": 8,
-            "HF Yaml License": [
-                "cc0-1.0"
-            ],
+            "HF Yaml License": "CC0 1.0",
             "PwC Date": "",
             "PwC Description": "Social media message with sentiment label (positive, neutral, negative, question).",
-            "PwC License Name": [
-                "Other (Open)"
-            ],
-            "PwC License URL": [
-                "https://zenodo.org/record/3457447"
-            ],
+            "PwC License Name": "Various",
+            "PwC License URL": "https://zenodo.org/record/3457447",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         }
@@ -1951,7 +1913,7 @@
         ],
         "Bibtex": "",
         "Inferred Metadata": {
-            "GitHub License": "GNU Lesser General Public License v3.0",
+            "GitHub License": "LGPL 3.0",
             "GitHub Stars (May 2024)": 73,
             "GitHub Topics": [
                 "datasets",
@@ -1966,9 +1928,7 @@
             "HF Date": "2022-01-25",
             "HF Downloads (May 2024)": 385,
             "HF Likes (May 2024)": 3,
-            "HF Yaml License": [
-                "lgpl-3.0"
-            ],
+            "HF Yaml License": "LGPL 3.0",
             "PwC Date": "",
             "PwC Description": "",
             "PwC License Name": "",
@@ -2050,12 +2010,8 @@
             "HF Yaml License": "",
             "PwC Date": "2018-01-01",
             "PwC Description": "The Cross-lingual Natural Language Inference (XNLI) corpus is the extension of the Multi-Genre NLI (MultiNLI) corpus to 15 languages. The dataset was created by manually translating the validation and test sets of MultiNLI into each of those 15 languages. The English training set was machine translated for all languages. The dataset is composed of 122k train, 2490 validation and 5010 test examples.",
-            "PwC License Name": [
-                "Attribution-NonCommercial 4.0 International"
-            ],
-            "PwC License URL": [
-                "https://github.com/facebookresearch/XNLI/blob/master/LICENSE"
-            ],
+            "PwC License Name": "CC BY-NC 4.0",
+            "PwC License URL": "https://github.com/facebookresearch/XNLI/blob/master/LICENSE",
             "S2 Citation Count (May 2024)": 1081,
             "S2 Date": "2018-09-13"
         }
@@ -2126,17 +2082,11 @@
             "HF Date": "2023-01-28",
             "HF Downloads (May 2024)": 9778,
             "HF Likes (May 2024)": 6,
-            "HF Yaml License": [
-                "cc-by-sa-4.0"
-            ],
+            "HF Yaml License": "CC BY-SA 4.0",
             "PwC Date": "2021-12-20",
             "PwC Description": "XStoryCloze consists of the professionally translated version of the English StoryCloze dataset (Spring 2016 version) to 10 non-English languages. This dataset is intended to be used for evaluating the zero- and few-shot learning capabilities of multlingual language models. This dataset is released by Meta AI.",
-            "PwC License Name": [
-                null
-            ],
-            "PwC License URL": [
-                null
-            ],
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
             "S2 Citation Count (May 2024)": 161,
             "S2 Date": "2021-12-20"
         }

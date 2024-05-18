@@ -59,12 +59,8 @@
             "HF Yaml License": "",
             "PwC Date": "2021-04-01",
             "PwC Description": "Action-Based Conversations Dataset (ABCD) is a goal-oriented dialogue fully-labeled dataset with over 10K human-to-human dialogues containing 55 distinct user intents requiring unique sequences of actions constrained by policies to achieve task success. The dataset is proposed to study customer service dialogue systems in more realistic settings.",
-            "PwC License Name": [
-                "Unknown"
-            ],
-            "PwC License URL": [
-                null
-            ],
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         }
@@ -203,12 +199,8 @@
             "HF Yaml License": "",
             "PwC Date": "2021-06-05",
             "PwC Description": "BiToD is a bilingual multi-domain dataset for end-to-end task-oriented dialogue modeling. BiToD contains over 7k multi-domain dialogues (144k utterances) with a large and realistic bilingual knowledge base. It serves as an effective benchmark for evaluating bilingual ToD systems and cross-lingual transfer learning approaches.",
-            "PwC License Name": [
-                null
-            ],
-            "PwC License URL": [
-                null
-            ],
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         }
@@ -273,12 +265,8 @@
             "HF Yaml License": "",
             "PwC Date": "2021-03-29",
             "PwC Description": "CaSiNo is a dataset of 1030 negotiation dialogues in English. To create the dataset, two participates take the role of campsite neighbors and negotiate for Food, Water, and Firewood packages, based on their individual preferences and requirements. This design keeps the task tractable, while still facilitating linguistically rich and personal conversations.",
-            "PwC License Name": [
-                "Attribution 4.0 International"
-            ],
-            "PwC License URL": [
-                "https://github.com/kushalchawla/CaSiNo/blob/main/LICENSE"
-            ],
+            "PwC License Name": "CC BY 4.0",
+            "PwC License URL": "https://github.com/kushalchawla/CaSiNo/blob/main/LICENSE",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         }
@@ -343,12 +331,8 @@
             "HF Yaml License": "",
             "PwC Date": "",
             "PwC Description": "A richer dataset based on real items on Craigslist.",
-            "PwC License Name": [
-                null
-            ],
-            "PwC License URL": [
-                null
-            ],
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         }
@@ -598,7 +582,7 @@
             "ds-FRAMES"
         ],
         "Inferred Metadata": {
-            "GitHub License": "GNU Affero General Public License v3.0",
+            "GitHub License": "GNU General Public License v3.0",
             "GitHub Stars (May 2024)": 0,
             "GitHub Topics": [
                 "corpus",
@@ -1295,12 +1279,8 @@
             "HF Yaml License": "",
             "PwC Date": "",
             "PwC Description": "OpenDialKG contains utterance from 15K human-to-human role-playing dialogs is manually annotated with ground-truth reference to corresponding entities and paths from a large-scale KG with 1M+ facts.",
-            "PwC License Name": [
-                "CC BY-NC 4.0"
-            ],
-            "PwC License URL": [
-                "https://creativecommons.org/licenses/by-nc/4.0/legalcode"
-            ],
+            "PwC License Name": "CC BY-NC 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         }
@@ -2240,9 +2220,7 @@
             "HF Date": "2022-06-28",
             "HF Downloads (May 2024)": 8928,
             "HF Likes (May 2024)": 140,
-            "HF Yaml License": [
-                "cc-by-nc-sa-4.0"
-            ],
+            "HF Yaml License": "CC BY-NC-SA 4.0",
             "PwC Date": "",
             "PwC Description": "",
             "PwC License Name": "",
@@ -3038,9 +3016,7 @@
             "HF Date": "2022-12-08",
             "HF Downloads (May 2024)": 74370,
             "HF Likes (May 2024)": 1030,
-            "HF Yaml License": [
-                "mit"
-            ],
+            "HF Yaml License": "MIT License",
             "PwC Date": "",
             "PwC Description": "",
             "PwC License Name": "",
@@ -3510,9 +3486,7 @@
             "HF Date": "2022-01-25",
             "HF Downloads (May 2024)": 1661,
             "HF Likes (May 2024)": 5,
-            "HF Yaml License": [
-                "mit"
-            ],
+            "HF Yaml License": "MIT License",
             "PwC Date": "",
             "PwC Description": "",
             "PwC License Name": "",
@@ -4248,12 +4222,8 @@
             "HF Yaml License": "",
             "PwC Date": "2016-08-01",
             "PwC Description": "The WebQuestionsSP dataset is released as part of our ACL-2016 paper “The Value of Semantic Parse Labeling for Knowledge Base Question Answering” [Yih, Richardson, Meek, Chang & Suh, 2016], in which we evaluated the value of gathering semantic parses, vs. answers, for a set of questions that originally comes from WebQuestions [Berant et al., 2013]. The WebQuestionsSP dataset contains full semantic parses in SPARQL queries for 4,737 questions, and “partial” annotations for the remaining 1,073 questions for which a valid parse could not be formulated or where the question itself is bad or needs a descriptive answer. This release also includes an evaluation script and the output of the STAGG semantic parsing system when trained using the full semantic parses. More detail can be found in the document and labeling instructions included in this release, as well as the paper.",
-            "PwC License Name": [
-                "Unknown"
-            ],
-            "PwC License URL": [
-                null
-            ],
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         }
