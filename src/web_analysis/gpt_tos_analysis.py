@@ -8,7 +8,7 @@ import csv
 import argparse
 import ijson
 
-async def stream_and_process(file_path, gpt_instance, prompt_key, filter_keywords, batch_size=10):
+async def stream_and_process(file_path, gpt_instance, prompt_key, filter_keywords, filter_domain_type, batch_size=10):
     """
     Asynchronously streams and processes Terms of Service (ToS) documents from a JSON file, using an instance of GPT to analyze the content.
     Documents are processed in batches to optimize performance.
@@ -26,15 +26,31 @@ async def stream_and_process(file_path, gpt_instance, prompt_key, filter_keyword
     """
     batch = []
     final_responses = []
+    domain_docs = {}
 
     with tqdm(desc="Processing documents", unit="doc") as pbar:
-        # stream JSON data
         for entry in stream_json(file_path):
             domain, tos_link, date, text = entry
-            cleaned_text = clean_text(text)
-            if filter_keywords:
-                if not is_relevant(cleaned_text, prompt_key):
-                    # if no keywords are found in a ToS doc, directly add it with 'verdict': 'False' and 'evidence': 'N/A'
+            if domain not in domain_docs:
+                domain_docs[domain] = []
+            domain_docs[domain].append((tos_link, date, text))
+            pbar.update(1)
+    
+    for domain, docs in domain_docs.items():
+        filtered_docs, all_privacy = filter_docs_by_domain_type(docs) if filter_domain_type else (docs, False)
+        if all_privacy:
+            for tos_link, date, text in docs:
+                final_responses.append({
+                    "domain": domain,
+                    "tos_link": tos_link,
+                    "date": date,
+                    "verdict": "False",
+                    "evidence": "N/A"
+                })
+        else:
+            for tos_link, date, text in filtered_docs:
+                cleaned_text = clean_text(text)
+                if filter_keywords and not is_relevant(cleaned_text, prompt_key):
                     final_responses.append({
                         "domain": domain,
                         "tos_link": tos_link,
@@ -42,36 +58,32 @@ async def stream_and_process(file_path, gpt_instance, prompt_key, filter_keyword
                         "verdict": "False",
                         "evidence": "N/A"
                     })
-            else:
-                # else send ToS to GPT
-                prompt = {
-                    "text": cleaned_text,
-                    "metadata": {
-                        "domain": domain,
-                        "tos_link": tos_link,
-                        "date": date
+                else:
+                    prompt = {
+                        "text": cleaned_text,
+                        "metadata": {
+                            "domain": domain,
+                            "tos_link": tos_link,
+                            "date": date
+                        }
                     }
-                }
-                batch.append(prompt)
-                if len(batch) >= batch_size: # is this redundant? process_prompts_in_batches_async is also creating batches of size 10... could delete or increase batch size here?
-                    responses = await gpt_instance.process_prompts_in_batches_async(batch)
-                    # unpacking metadata and the corresponding response
-                    final_responses.extend([
-                        {**prompt['metadata'], **response} for prompt, response in zip(batch, responses)
-                    ])
-                    batch = []  
-            pbar.update(1)  
-
-    # process any remaining texts in the last batch
+                    batch.append(prompt)
+                    if len(batch) >= batch_size:
+                        responses = await gpt_instance.process_prompts_in_batches_async(batch)
+                        final_responses.extend([
+                            {**prompt['metadata'], **response} for prompt, response in zip(batch, responses)
+                        ])
+                        batch = []
+    
     if batch:
         responses = await gpt_instance.process_prompts_in_batches_async(batch)
         final_responses.extend([
-            {**prompt['metadata'], "response": response} for prompt, response in zip(batch, responses)
+            {**prompt['metadata'], **response} for prompt, response in zip(batch, responses)
         ])
 
     return final_responses
 
-async def process_sample(data, gpt_instance, prompt_key, filter_keywords, batch_size=10):
+async def process_sample(data, gpt_instance, prompt_key, filter_keywords, filter_domain_type, batch_size=10):
     """
     Asynchronously processes a sample of Terms of Service (ToS) documents, using an instance of GPT to analyze the content.
     Documents are processed in batches to optimize performance.
@@ -89,14 +101,18 @@ async def process_sample(data, gpt_instance, prompt_key, filter_keywords, batch_
     """
     batch = []
     final_responses = []
+    domain_docs = {}
 
     for entry in tqdm(data, desc="Processing TOS docs"):
         domain, tos_link, date, text = entry
-        cleaned_text = clean_text(text)
-
-        if filter_keywords:
-            if not is_relevant(cleaned_text, prompt_key):
-                # if no keywords are found in a ToS doc, directly add it with 'verdict': 'False' and 'evidence': 'N/A'
+        if domain not in domain_docs:
+            domain_docs[domain] = []
+        domain_docs[domain].append((tos_link, date, text))
+    
+    for domain, docs in domain_docs.items():
+        filtered_docs, all_privacy = filter_docs_by_domain_type(docs) if filter_domain_type else (docs, False)
+        if all_privacy:
+            for tos_link, date, text in docs:
                 final_responses.append({
                     "domain": domain,
                     "tos_link": tos_link,
@@ -105,25 +121,33 @@ async def process_sample(data, gpt_instance, prompt_key, filter_keywords, batch_
                     "evidence": "N/A"
                 })
         else:
-            # else send ToS to GPT
-            prompt = {
-                "text": cleaned_text,
-                "metadata": {
-                    "domain": domain,
-                    "tos_link": tos_link,
-                    "date": date
-                }
-            }
-            batch.append(prompt)
-            if len(batch) >= batch_size:
-                responses = await gpt_instance.process_prompts_in_batches_async(batch)
-                # unpacking metadata and the corresponding response
-                final_responses.extend([
-                    {**prompt['metadata'], **response} for prompt, response in zip(batch, responses)
-                ])
-                batch = [] 
-
-    # process any remaining texts in the last batch
+            for tos_link, date, text in filtered_docs:
+                cleaned_text = clean_text(text)
+                if filter_keywords and not is_relevant(cleaned_text, prompt_key):
+                    final_responses.append({
+                        "domain": domain,
+                        "tos_link": tos_link,
+                        "date": date,
+                        "verdict": "False",
+                        "evidence": "N/A"
+                    })
+                else:
+                    prompt = {
+                        "text": cleaned_text,
+                        "metadata": {
+                            "domain": domain,
+                            "tos_link": tos_link,
+                            "date": date
+                        }
+                    }
+                    batch.append(prompt)
+                    if len(batch) >= batch_size:
+                        responses = await gpt_instance.process_prompts_in_batches_async(batch)
+                        final_responses.extend([
+                            {**prompt['metadata'], **response} for prompt, response in zip(batch, responses)
+                        ])
+                        batch = []
+    
     if batch:
         responses = await gpt_instance.process_prompts_in_batches_async(batch)
         final_responses.extend([
@@ -131,6 +155,12 @@ async def process_sample(data, gpt_instance, prompt_key, filter_keywords, batch_
         ])
 
     return final_responses
+
+def filter_docs_by_domain_type(docs):
+    non_privacy_docs = [doc for doc in docs if "privacy" not in doc[0].lower()]
+    if non_privacy_docs:
+        return non_privacy_docs, False
+    return docs, True
 
 def clean_text(text):
     """
@@ -214,10 +244,16 @@ def format_for_json(final_responses):
       and the third-level keys are dates. Each entry contains the verdict and evidence.
     """
     transformed_data = {}
-    for entry in final_responses:
+    for entry in final_responses:        
         domain = entry["domain"]
         link = entry["tos_link"]
         date = entry["date"]
+        
+        # Check if 'verdict' and 'evidence' keys exist in entry
+        if 'verdict' not in entry or 'evidence' not in entry:
+            print(f"Skipping entry due to missing 'verdict' or 'evidence': {entry}")
+            continue
+        
         verdict_info = {
             "verdict": entry["verdict"],
             "evidence": entry["evidence"]
@@ -232,6 +268,22 @@ def format_for_json(final_responses):
 
     return transformed_data
 
+
+def save_json_output(json_data, file_name):
+    """
+    Save the final JSON data to a file.
+
+    Parameters:
+    - json_data (dict): The formatted JSON data to be saved.
+    - file_name (str): The name of the file to save the JSON data to.
+
+    Returns:
+    - None: Writes data directly to a JSON file.
+    """
+    with open(file_name, 'w', encoding='utf-8') as f:
+        json.dump(json_data, f, ensure_ascii=False, indent=4)
+    print(f"Data successfully saved to {file_name}")
+    
 def save_binary_output_to_csv(formatted_data, prompt_key):
     """
     Save aggregated verdicts and evidence for up to five TOS links per domain to a CSV file.
@@ -243,7 +295,7 @@ def save_binary_output_to_csv(formatted_data, prompt_key):
     Returns:
     - None: Writes data directly to a CSV file.
     """
-    file_name = f'data/{prompt_key}-gpt-filtering.csv'  
+    file_name = f'data/{prompt_key}-gpt-domain-filtering.csv'  
 
     question_dict = {'scraping': 'Does the website restrict scraping? [True/False]',
                      'AI-policy': 'Does website have specific restrictions related to AI training? [True/False]', 
@@ -339,7 +391,7 @@ def save_non_binary_output_to_csv(formatted_data, prompt_key):
 
 ##################################################################################
 
-def main(custom_sample, sample_file_path, prompt_key, save_verdicts, filter_keywords):
+def main(custom_sample, sample_file_path, prompt_key, save_verdicts, filter_keywords, filter_domain_type):
     if prompt_key is None:
         raise ValueError("prompt_key must be provided. Options are: 'scraping-policy', 'AI-policy', 'competing-services', 'illicit-content', 'type-of-license', 'scraping-policy-keywords', 'AI-policy-keywords', 'competing-services-keywords', 'illicit-content-keywords', 'type-of-license-keywords'")
     
@@ -350,11 +402,11 @@ def main(custom_sample, sample_file_path, prompt_key, save_verdicts, filter_keyw
         if not sample_file_path:
             raise ValueError("sample_file_path must be provided if custom_sample is set to True.")
         data = open_sampled_data(sample_file_path)
-        results = asyncio.run(process_sample(data, gpt_4o, prompt_key, filter_keywords))
+        results = asyncio.run(process_sample(data, gpt_4o, prompt_key, filter_keywords, filter_domain_type))
         json_data = format_for_json(results)
     else:
         # stream whole dataset
-        results = stream_and_process('path-to-data', gpt_4o, prompt_key, filter_keywords)
+        results = stream_and_process('path-to-data', gpt_4o, prompt_key, filter_keywords, filter_domain_type)
         json_data = format_for_json(results)
 
     if save_verdicts:
@@ -370,7 +422,9 @@ if __name__ == "__main__":
     parser.add_argument('--prompt_key', type=str, default=None, help='Prompt key for GPT model. Options are: \"scraping-policy\", \"AI-policy\", \"competing-services\", \"illicit-content\", \"type-of-license\", \"scraping-policy-keywords\", \"AI-policy-keywords\", \"competing-services-keywords\", \"illicit-content-keywords\", \"type-of-license-keywords\"')
     parser.add_argument('--save_verdicts', type=bool, default=True, help='Save the generated verdicts to .csv file') # change to json
     parser.add_argument('--filter_keywords', type=bool, default=False, help='Filter out documents that do not contain keywords.') 
+    parser.add_argument('--filter_domain_type', type=bool, default=False, help='Filter out documents with "privacy" in the URL if other ToS pages exist for the same domain.')
+
 
     args = parser.parse_args()
     
-    main(args.custom_sample, args.sample_file_path, args.prompt_key, args.save_verdicts, args.filter_keywords)
+    main(args.custom_sample, args.sample_file_path, args.prompt_key, args.save_verdicts, args.filter_keywords, args.filter_domain_type)
