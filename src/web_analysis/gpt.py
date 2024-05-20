@@ -50,9 +50,6 @@ class GPT(object):
                                                 ####### loading methods #######
 
     def load_API_key(self):
-        """ 
-        Loads OpenAI API key from a .env file stored in the data directory.
-        """
         try:
             load_dotenv(dotenv_path='data/.env')
             openai.api_key = os.environ['OPENAI_API_KEY']
@@ -225,7 +222,7 @@ class GPT(object):
             for i in range(0, len(batch), batch_size):
                 current_batch = batch[i:i + batch_size]
                 batch_prompts = [
-                    item['text'] for item in current_batch 
+                    item['text'] for item in current_batch  # Remove formatting here
                 ]
                 batch_responses = await self.process_batch_async(session, batch_prompts)
                 parsed_responses = []
@@ -235,7 +232,7 @@ class GPT(object):
                         parsed_responses.append(parsed_response)
                     except json.JSONDecodeError as e:
                         print("Failed to parse response:", response, "Error:", e)  # debugging output
-                        parsed_responses.append(response)  # append the unparsed response if parsing fails - change depending on how we want to handle failed outputs
+                        parsed_responses.append(response)  # append the unparsed response if parsing fails
 
                 for item, parsed_response in zip(current_batch, parsed_responses):
                     response_with_metadata = {**item['metadata'], **parsed_response}
@@ -270,21 +267,9 @@ class GPT(object):
         return self.GUIDELINES_PROMPT_TEMPLATE
         
     def get_user_prompt1(self):
-        """
-        Retrieve the current user prompt stored in the class.
-
-        Returns:
-        - str: The user prompt.
-        """
         return self.USER_PROMPT_1
 
     def get_assistant_prompt1(self):
-        """
-        Retrieve the current assistant prompt stored in the class.
-
-        Returns:
-        - str: The assistant prompt.
-        """
         return self.ASSISTANT_PROMPT_1
 
     def get_system_prompt(self):

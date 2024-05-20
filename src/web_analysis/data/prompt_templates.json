@@ -22,7 +22,7 @@
     },
     {
       "id": "AI-policy",
-      "content": "Question: Does website have any restrictions related to AI training? Carefully review the following Terms of Service (TOS) document and determine if the statement is True: {}. If the statement is True, provide the exact text from the TOS that answers the question as evidence. If the statement is False, set evidence as \"N/A\". Return only a dictionary with your verdict and the corresponding evidence. Format the response like this to ensure it can be loaded by JSON: {{\"verdict\": \"True\", \"evidence\": \"Exact text from TOS.\"}} or {{\"verdict\": \"False\", \"evidence\": \"N/A\"}}"
+      "content": "Question: Does website have any restrictions related to AI training? Carefully review the following Terms of Service (TOS) document and determine if the statement is True: {}. If the statement is True, provide the exact text from the TOS that answers the question as evidence. If the statement is False, set evidence as \"N/A\". Return ONLY a dictionary with your verdict and the corresponding evidence. Do NOT include any additional text in your response do NOT wrap your response with ```json```. Use the exact format below for your response as a dictionary: {{\"verdict\": \"True\", \"evidence\": \"Exact text from TOS.\"}} or {{\"verdict\": \"False\", \"evidence\": \"N/A\"}}"
     },
     {
       "id": "AI-policy-keywords",
@@ -30,7 +30,7 @@
     },
     {
       "id": "competing-services",
-      "content": "Question: Does website restrict the use of content in any way, such as for commercial or competing services, or only for academic use? Carefully review the following Terms of Service (TOS) document and determine if the statement is True: {}. If the statement is True, provide the exact text from the TOS that answers the question as evidence. If the statement is False, set evidence as \"N/A\". Return only a dictionary with your verdict and the corresponding evidence. Format the response like this to ensure it can be loaded by JSON: {{\"verdict\": \"True\", \"evidence\": \"Exact text from TOS.\"}} or {{\"verdict\": \"False\", \"evidence\": \"N/A\"}}"
+      "content": "Question: Does website restrict the use of content in any way, such as for commercial or competing services, or only for academic use? Carefully review the following Terms of Service (TOS) document and determine if the statement is True: {}. If the statement is True, provide the exact text from the TOS that answers the question as evidence. If the statement is False, set evidence as \"N/A\". Return ONLY a dictionary with your verdict and the corresponding evidence. Do NOT include any additional text in your response do NOT wrap your response with ```json```. Use this exact dictionary format for your response: {{\"verdict\": \"True\", \"evidence\": \"Exact text from TOS.\"}} or {{\"verdict\": \"False\", \"evidence\": \"N/A\"}}"
     },
     {
       "id": "competing-services-keywords",
