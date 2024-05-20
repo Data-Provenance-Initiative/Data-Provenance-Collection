@@ -77,6 +77,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 18,
             "S2 Date": "2023-12-01"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 80,
+            "Mean Inputs Length": 354.5375,
+            "Mean Targets Length": 0.0,
+            "Max Inputs Length": 2226,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 21,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seabench-th": {
@@ -157,6 +169,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 18,
             "S2 Date": "2023-12-01"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 240.73,
+            "Mean Targets Length": 0.0,
+            "Max Inputs Length": 3800,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 21,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seabench-id": {
@@ -237,6 +261,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 18,
             "S2 Date": "2023-12-01"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 348.52,
+            "Mean Targets Length": 0.0,
+            "Max Inputs Length": 6041,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 29,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seabench-vi": {
@@ -317,6 +353,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 18,
             "S2 Date": "2023-12-01"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 280.38,
+            "Mean Targets Length": 0.0,
+            "Max Inputs Length": 4281,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 20,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seabench-tl": {
@@ -397,6 +445,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 18,
             "S2 Date": "2023-12-01"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 80,
+            "Mean Inputs Length": 348.975,
+            "Mean Targets Length": 1262.1,
+            "Max Inputs Length": 2183,
+            "Max Targets Length": 4319,
+            "Min Inputs Length": 28,
+            "Min Targets Length": 4,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seabench-lo": {
@@ -477,6 +537,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 18,
             "S2 Date": "2023-12-01"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 80,
+            "Mean Inputs Length": 245.075,
+            "Mean Targets Length": 354.2375,
+            "Max Inputs Length": 1777,
+            "Max Targets Length": 808,
+            "Min Inputs Length": 19,
+            "Min Targets Length": 6,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seabench-km": {
@@ -557,6 +629,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 18,
             "S2 Date": "2023-12-01"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 80,
+            "Mean Inputs Length": 283.6875,
+            "Mean Targets Length": 472.3625,
+            "Max Inputs Length": 1794,
+            "Max Targets Length": 1422,
+            "Min Inputs Length": 25,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seabench-ms": {
@@ -637,6 +721,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 18,
             "S2 Date": "2023-12-01"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 80,
+            "Mean Inputs Length": 324.1625,
+            "Mean Targets Length": 1086.3375,
+            "Max Inputs Length": 2023,
+            "Max Targets Length": 2912,
+            "Min Inputs Length": 29,
+            "Min Targets Length": 5,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seabench-my": {
@@ -717,6 +813,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 18,
             "S2 Date": "2023-12-01"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 80,
+            "Mean Inputs Length": 336.775,
+            "Mean Targets Length": 389.9,
+            "Max Inputs Length": 2303,
+            "Max Targets Length": 1175,
+            "Min Inputs Length": 29,
+            "Min Targets Length": 24,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     }
 }

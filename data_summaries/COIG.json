@@ -71,6 +71,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 19,
             "S2 Date": "2023-04-17"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 66858,
+            "Mean Inputs Length": 125.0264,
+            "Mean Targets Length": 16.3262,
+            "Max Inputs Length": 2433,
+            "Max Targets Length": 3277,
+            "Min Inputs Length": 5,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "coig-exam-instruction": {
@@ -143,6 +155,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 19,
             "S2 Date": "2023-04-17"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 63532,
+            "Mean Inputs Length": 335.8292,
+            "Mean Targets Length": 93.4143,
+            "Max Inputs Length": 4198,
+            "Max Targets Length": 5508,
+            "Min Inputs Length": 8,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "coig-alignment-instruction": {
@@ -216,6 +240,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 19,
             "S2 Date": "2023-04-17"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 22470,
+            "Mean Inputs Length": 171.7211,
+            "Mean Targets Length": 97.9963,
+            "Max Inputs Length": 1096,
+            "Max Targets Length": 1398,
+            "Min Inputs Length": 6,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "coig-counterfactual-correction": {
@@ -290,6 +326,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 19,
             "S2 Date": "2023-04-17"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 13648,
+            "Mean Inputs Length": 28.0941,
+            "Mean Targets Length": 122.035,
+            "Max Inputs Length": 239,
+            "Max Targets Length": 592,
+            "Min Inputs Length": 4,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 6,
+            "Max Dialog Turns": 10,
+            "Mean Dialog Turns": 9.9977
         }
     },
     "coig-leetcode": {
@@ -367,6 +415,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 19,
             "S2 Date": "2023-04-17"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 11737,
+            "Mean Inputs Length": 824.6667,
+            "Mean Targets Length": 812.4213,
+            "Max Inputs Length": 5760,
+            "Max Targets Length": 6002,
+            "Min Inputs Length": 32,
+            "Min Targets Length": 17,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     }
 }
