@@ -280,7 +280,6 @@ def test_downloader_and_preparer(
     # Load configurations and run the downloader/preparer
     data_summary_df = pd.DataFrame(list(data_summary.values())).fillna("")
     uid_task_keys = get_collection_to_uid_and_filter_ids(data_summary_df)[collection_name]
-    print(uid_task_keys)
     downloader_args = COLLECTION_FN_MAPPER[collection_name]
     downloader_args.update({"uid_key_mapper": uid_task_keys})
     downloader = Downloader(
@@ -318,7 +317,7 @@ def run_tests(
     collection_info = io.read_json(collection_filepath)
 
     # Test basic properties of the json file.
-    print(f"Testing the json file has the correct entry types and order in {collection_name}")
+    # print(f"Testing the json file has the correct entry types and order in {collection_name}")
     test_json_correctness(
         all_collection_infos,
         collection_info,
