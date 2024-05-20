@@ -36,7 +36,7 @@
             "Min Targets Length": 1,
             "Min Dialog Turns": 3,
             "Max Dialog Turns": 93,
-            "Mean Dialog Turns": 4.8245
+            "Mean Dialog Turns": 4.8249
         },
         "Text Sources": [],
         "Model Generated": [
