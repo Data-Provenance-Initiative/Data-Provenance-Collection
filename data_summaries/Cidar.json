@@ -82,6 +82,18 @@
             ],
             "S2 Citation Count (May 2024)": 0,
             "S2 Date": "2024-02-05"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 10000,
+            "Mean Inputs Length": 59.6971,
+            "Mean Targets Length": 305.1279,
+            "Max Inputs Length": 1419,
+            "Max Targets Length": 10079,
+            "Min Inputs Length": 10,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     }
 }

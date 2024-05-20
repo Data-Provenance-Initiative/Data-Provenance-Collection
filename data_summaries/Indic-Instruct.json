@@ -88,6 +88,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-01-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 12811,
+            "Mean Inputs Length": 80.7287,
+            "Mean Targets Length": 1900.1471,
+            "Max Inputs Length": 4591,
+            "Max Targets Length": 12529,
+            "Min Inputs Length": 4,
+            "Min Targets Length": 9,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "indic-instruct-dolly": {
@@ -182,6 +194,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-01-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 30022,
+            "Mean Inputs Length": 424.9065,
+            "Mean Targets Length": 360.2761,
+            "Max Inputs Length": 25047,
+            "Max Targets Length": 26876,
+            "Min Inputs Length": 4,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "indic-instruct-flan_v2": {
@@ -278,6 +302,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-01-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 134926,
+            "Mean Inputs Length": 1632.8572,
+            "Mean Targets Length": 83.1189,
+            "Max Inputs Length": 393189,
+            "Max Targets Length": 12496,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "indic-instruct-hh-rlhf": {
@@ -361,6 +397,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-01-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 10000,
+            "Mean Inputs Length": 72.6244,
+            "Mean Targets Length": 324.5837,
+            "Max Inputs Length": 6727,
+            "Max Targets Length": 4059,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 38,
+            "Mean Dialog Turns": 4.676
         }
     },
     "indic-instruct-lm_sys": {
@@ -461,6 +509,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-01-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100000,
+            "Mean Inputs Length": 264.4187,
+            "Mean Targets Length": 861.0799,
+            "Max Inputs Length": 5162,
+            "Max Targets Length": 1577697,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 170,
+            "Mean Dialog Turns": 3.8545
         }
     },
     "indic-instruct-nmt-seed": {
@@ -542,6 +602,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-01-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 50000,
+            "Mean Inputs Length": 98.7385,
+            "Mean Targets Length": 98.785,
+            "Max Inputs Length": 501,
+            "Max Targets Length": 447,
+            "Min Inputs Length": 20,
+            "Min Targets Length": 21,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "indic-instruct-oasst1": {
@@ -636,6 +708,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-01-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 40073,
+            "Mean Inputs Length": 133.8455,
+            "Mean Targets Length": 794.2277,
+            "Max Inputs Length": 10204,
+            "Max Targets Length": 12979,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 7,
+            "Mean Dialog Turns": 3.6223
         }
     },
     "indic-instruct-wikihow": {
@@ -720,6 +804,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-01-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 26455,
+            "Mean Inputs Length": 6976.7819,
+            "Mean Targets Length": 2947.3574,
+            "Max Inputs Length": 57356,
+            "Max Targets Length": 8969,
+            "Min Inputs Length": 115,
+            "Min Targets Length": 75,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     }
 }

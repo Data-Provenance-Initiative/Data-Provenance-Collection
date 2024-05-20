@@ -72,6 +72,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 6162,
+            "Mean Inputs Length": 285.0307,
+            "Mean Targets Length": 323.9369,
+            "Max Inputs Length": 19515,
+            "Max Targets Length": 8786,
+            "Min Inputs Length": 5,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "thai_gen_ai_dolly-closedqa": {
@@ -146,6 +158,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1776,
+            "Mean Inputs Length": 573.4955,
+            "Mean Targets Length": 265.4786,
+            "Max Inputs Length": 14907,
+            "Max Targets Length": 8487,
+            "Min Inputs Length": 11,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "thai_gen_ai_dolly-classification": {
@@ -220,6 +244,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 2059,
+            "Mean Inputs Length": 288.3681,
+            "Mean Targets Length": 253.1345,
+            "Max Inputs Length": 14768,
+            "Max Targets Length": 6709,
+            "Min Inputs Length": 9,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "thai_gen_ai_dolly-brainstorming": {
@@ -294,6 +330,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1660,
+            "Mean Inputs Length": 266.6048,
+            "Mean Targets Length": 307.0657,
+            "Max Inputs Length": 10670,
+            "Max Targets Length": 4712,
+            "Min Inputs Length": 10,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "thai_gen_ai_dolly-infoextract": {
@@ -368,6 +416,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1485,
+            "Mean Inputs Length": 593.2532,
+            "Mean Targets Length": 326.8869,
+            "Max Inputs Length": 11482,
+            "Max Targets Length": 8715,
+            "Min Inputs Length": 5,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "thai_gen_ai_dolly-summarization": {
@@ -442,6 +502,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1194,
+            "Mean Inputs Length": 692.041,
+            "Mean Targets Length": 374.5754,
+            "Max Inputs Length": 21822,
+            "Max Targets Length": 22481,
+            "Min Inputs Length": 12,
+            "Min Targets Length": 4,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "thai_gen_ai_dolly-creative_writing": {
@@ -516,6 +588,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 675,
+            "Mean Inputs Length": 285.3156,
+            "Mean Targets Length": 461.6311,
+            "Max Inputs Length": 12751,
+            "Max Targets Length": 6000,
+            "Min Inputs Length": 11,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     }
 }

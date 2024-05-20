@@ -98,7 +98,7 @@ def main(collection_names: List[str]) -> None:
             continue
         try:
             annotate_text_statistics(cname)
-        except Execption as e:
+        except Exception as e:
             print(e)
             continue
 
