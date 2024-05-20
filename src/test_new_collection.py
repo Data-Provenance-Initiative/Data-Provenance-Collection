@@ -288,9 +288,8 @@ def test_downloader_and_preparer(
         **downloader_args
         )
     all_acceptable_filter_ids = [v for vs in uid_to_filter_ids.values() for v in vs]
-    print(all_acceptable_filter_ids)
     full_dset = downloader.download_and_prepare(all_acceptable_filter_ids, debug=True)
-    print(len(full_dset))
+
     # Test the datset output format and characteristics are correct
     test_outputs(full_dset, collection_info, error_handler)
 
@@ -309,9 +308,6 @@ def run_tests(
     DATA_DIR = 'data_summaries'
     assert os.path.exists(DATA_DIR), f"Error: {DATA_DIR} does not exist"
     all_collection_infos = {r["Unique Dataset Identifier"]: r for r in io.read_data_summary_json(DATA_DIR)}
-    # print(type(all_collection_infos))
-    # print(all_collection_infos.keys())
-    # print(all_collection_infos)
     template_spec_filepath = os.path.join(DATA_DIR, '_template_spec.yaml')
     assert os.path.exists(template_spec_filepath), f"Error: `{template_spec_filepath}` file is missing or corrupted"
     template_spec = io.read_yaml(template_spec_filepath)
@@ -320,29 +316,28 @@ def run_tests(
     collection_filepath = os.path.join(DATA_DIR, f"{collection_name}.json")
     assert os.path.exists(collection_filepath), f"There is no collection file at {collection_filepath}"
     collection_info = io.read_json(collection_filepath)
-    # print(collection_info)
 
     # Test basic properties of the json file.
-    # print(f"Testing the json file has the correct entry types and order in {collection_name}")
-    # test_json_correctness(
-    #     all_collection_infos,
-    #     collection_info,
-    #     template_spec,
-    #     error_handler
-    # )
+    print(f"Testing the json file has the correct entry types and order in {collection_name}")
+    test_json_correctness(
+        all_collection_infos,
+        collection_info,
+        template_spec,
+        error_handler
+    )
 
-    # # Test the collection json file entries are valid
-    # test_collection_summary(
-    #     collection_name,
-    #     collection_info,
-    #     error_handler
-    # )
+    # Test the collection json file entries are valid
+    test_collection_summary(
+        collection_name,
+        collection_info,
+        error_handler
+    )
 
-    # # Test the bibtex and semantic scholar ids are valid
-    # test_bibtex_semanticscholar(
-    #     collection_info,
-    #     error_handler
-    # )
+    # Test the bibtex and semantic scholar ids are valid
+    test_bibtex_semanticscholar(
+        collection_info,
+        error_handler
+    )
 
     # Test the downloader and preparer works properly
     test_downloader_and_preparer(
