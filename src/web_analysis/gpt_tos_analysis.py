@@ -249,7 +249,7 @@ def format_for_json(final_responses):
         link = entry["tos_link"]
         date = entry["date"]
         
-        # Check if 'verdict' and 'evidence' keys exist in entry
+        # check if 'verdict' and 'evidence' keys exist in entry
         if 'verdict' not in entry or 'evidence' not in entry:
             print(f"Skipping entry due to missing 'verdict' or 'evidence': {entry}")
             continue
@@ -268,8 +268,7 @@ def format_for_json(final_responses):
 
     return transformed_data
 
-
-def save_json_output(json_data, file_name):
+def save_json_output(json_data, output_file_path):
     """
     Save the final JSON data to a file.
 
@@ -280,11 +279,12 @@ def save_json_output(json_data, file_name):
     Returns:
     - None: Writes data directly to a JSON file.
     """
-    with open(file_name, 'w', encoding='utf-8') as f:
+    with open(output_file_path, 'w', encoding='utf-8') as f:
         json.dump(json_data, f, ensure_ascii=False, indent=4)
-    print(f"Data successfully saved to {file_name}")
+
+    print(f"Successfully saved data to: {output_file_path}")
     
-def save_binary_output_to_csv(formatted_data, prompt_key):
+def save_binary_output_to_csv(formatted_data, prompt_key, output_file_path):
     """
     Save aggregated verdicts and evidence for up to five TOS links per domain to a CSV file.
 
@@ -295,7 +295,10 @@ def save_binary_output_to_csv(formatted_data, prompt_key):
     Returns:
     - None: Writes data directly to a CSV file.
     """
-    file_name = f'data/{prompt_key}-gpt-domain-filtering.csv'  
+    if output_file_path:
+        file_name = output_file_path
+    else:
+        file_name = f'data/{prompt_key}-gpt.csv'  
 
     question_dict = {'scraping': 'Does the website restrict scraping? [True/False]',
                      'AI-policy': 'Does website have specific restrictions related to AI training? [True/False]', 
@@ -327,14 +330,17 @@ def save_binary_output_to_csv(formatted_data, prompt_key):
                     all_verdicts.append(date_info['verdict'] == "True")
                     if date_info['verdict'] == "True":
                         all_evidence.append(date_info['evidence'])
-
+                                 
+            # if any tos page is true, final column will be true
             aggregated_verdict = any(all_verdicts)
             aggregated_evidence = " | ".join(all_evidence)
 
             row = [domain] + link_columns + [aggregated_verdict, aggregated_evidence]
             writer.writerow(row)
 
-def save_non_binary_output_to_csv(formatted_data, prompt_key):
+    print(f"Successfully saved data to: {file_name}")
+
+def save_non_binary_output_to_csv(formatted_data, prompt_key, output_file_path): # hard coded for the scraping-conditional prompt right now
     """
     Save aggregated verdicts and evidence for up to five TOS links per domain to a CSV file,
     categorizing the explicitness and conditions of scraping policies.
@@ -346,7 +352,11 @@ def save_non_binary_output_to_csv(formatted_data, prompt_key):
     Returns:
     - None: Writes data directly to a CSV file.
     """
-    file_name = f'data/{prompt_key}-gpt-no-keyword-filtering.csv' 
+    if output_file_path:
+        file_name = output_file_path
+    else:
+        file_name = f'data/{prompt_key}-gpt.csv' 
+
     question_dict = {'scraping': 'Does the website restrict scraping? [True/False]',
                      'type-of-license': 'What may website content be used for?',
                     }
@@ -389,42 +399,52 @@ def save_non_binary_output_to_csv(formatted_data, prompt_key):
             row = [domain] + link_columns + [final_verdict, aggregated_evidence]
             writer.writerow(row)
 
+    print(f"Successfully saved data to: {file_name}")
+
 ##################################################################################
 
-def main(custom_sample, sample_file_path, prompt_key, save_verdicts, filter_keywords, filter_domain_type):
+def main(input_sample_file_path, input_file_path, prompt_key, save_verdicts_to_json, save_verdicts_to_csv, output_file_path, filter_keywords, filter_domain_type):
     if prompt_key is None:
         raise ValueError("prompt_key must be provided. Options are: 'scraping-policy', 'AI-policy', 'competing-services', 'illicit-content', 'type-of-license', 'scraping-policy-keywords', 'AI-policy-keywords', 'competing-services-keywords', 'illicit-content-keywords', 'type-of-license-keywords'")
+    if save_verdicts_to_json:
+        if output_file_path is None:
+            raise ValueError("Please provide an '--output_file_path' for saving data.")
     
     gpt_4o = GPT(model='gpt-4o', prompt=prompt_key)
     print(f"System Instructions: {gpt_4o.get_system_prompt()}\nChat GPT dialouge:\nUser: {gpt_4o.get_user_prompt1()}\nGPT: {gpt_4o.get_assistant_prompt1()}\nUser: {gpt_4o.get_guidelines_prompt()}")
 
-    if custom_sample:
-        if not sample_file_path:
-            raise ValueError("sample_file_path must be provided if custom_sample is set to True.")
-        data = open_sampled_data(sample_file_path)
+    if input_sample_file_path:
+        # load and process sampled data
+        data = open_sampled_data(input_sample_file_path)
         results = asyncio.run(process_sample(data, gpt_4o, prompt_key, filter_keywords, filter_domain_type))
         json_data = format_for_json(results)
-    else:
-        # stream whole dataset
-        results = stream_and_process('path-to-data', gpt_4o, prompt_key, filter_keywords, filter_domain_type)
+    elif input_file_path:
+        # stream and whole dataset
+        results = stream_and_process(input_file_path, gpt_4o, prompt_key, filter_keywords, filter_domain_type)
         json_data = format_for_json(results)
+    else:
+        raise ValueError("Please provide data by specifying either '--input_sample_file_path' or '--input_file_path'")
 
-    if save_verdicts:
-        save_binary_output_to_csv(json_data,prompt_key) # change depending on prompt
+    if save_verdicts_to_csv:
+        save_binary_output_to_csv(json_data, prompt_key) # change to non-binary depending on prompt
+    elif save_verdicts_to_json:
+        save_json_output(json_data, output_file_path)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process some integers.')
     parser.add_argument('--custom_sample', type=bool, default=False, help='Use a custom sample file. Must be a .pkl file in correct format.')
-    parser.add_argument('--sample_file_path', type=str, default='', help='Path to the sample file')
+    parser.add_argument('--input_sample_file_path', type=str, default='', help='Path to the sample file.')
+    parser.add_argument('--input_file_path', type=str, default='', help='Path to the sample file')
     # parser.add_argument('--sample_size', type=int, default=10, help='Size of the sample to generate')
     # parser.add_argument('--save_sample', type=bool, default=False, help='Save the sampled data to .pkl file')
     parser.add_argument('--prompt_key', type=str, default=None, help='Prompt key for GPT model. Options are: \"scraping-policy\", \"AI-policy\", \"competing-services\", \"illicit-content\", \"type-of-license\", \"scraping-policy-keywords\", \"AI-policy-keywords\", \"competing-services-keywords\", \"illicit-content-keywords\", \"type-of-license-keywords\"')
-    parser.add_argument('--save_verdicts', type=bool, default=True, help='Save the generated verdicts to .csv file') # change to json
+    parser.add_argument('--save_verdicts_to_csv', type=bool, default=False, help='Save the generated verdicts to a csv file')
+    parser.add_argument('--save_verdicts_to_json', type=bool, default=True, help='Save the generated verdicts to a json file')
     parser.add_argument('--filter_keywords', type=bool, default=False, help='Filter out documents that do not contain keywords.') 
     parser.add_argument('--filter_domain_type', type=bool, default=False, help='Filter out documents with "privacy" in the URL if other ToS pages exist for the same domain.')
 
 
     args = parser.parse_args()
     
-    main(args.custom_sample, args.sample_file_path, args.prompt_key, args.save_verdicts, args.filter_keywords, args.filter_domain_type)
+    main(args.custom_sample, args.input_sample_file_path, args.input_file_path, args.prompt_key, args.save_verdicts_to_csv, args.save_verdicts_to_json, args.filter_keywords, args.filter_domain_type)
