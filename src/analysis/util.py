@@ -369,7 +369,7 @@ def plot_stackedbars(
 
     # Text annotations inside bars
     text = bars.mark_text(dx=0, dy=-7, align='center', baseline='middle', color='white', fontSize=14).encode(
-        text=alt.condition(alt.datum.percentage > 8, alt.Text('percentage:Q', format='.1f'), alt.value(''))
+        text=alt.condition(alt.datum.percentage > 0.05, alt.Text('percentage:Q', format='.1f'), alt.value(''))
     )
     
     # Calculate the totals for each bar
