@@ -64,16 +64,10 @@ def map_license_criteria(data_summary, all_constants):
         if len(our_uid_to_license_infos_no_openai[uid]) == 0:
             our_uid_to_license_infos_no_openai[uid].append(("Unspecified", None))
 
-        # gh_license = row.get("Inferred Metadata", {}).get("GitHub License", None)
-        # hfy_license = row.get("Inferred Metadata", {}).get("HF Yaml License", None)
-        # hfc_license = row.get("Inferred Metadata", {}).get("HF Config License", None)
-        gh_license = None
-        hfc_license = None
-        hfy_license = None
-        pwc_license = None
-        # pwc_license = row.get("Inferred Metadata", {}).get("PwC License Name", None)
-        # if isinstance(pwc_license, list):
-        #     pwc_license = pwc_license[0]
+        gh_license = row.get("Inferred Metadata", {}).get("GitHub License", None)
+        hfy_license = row.get("Inferred Metadata", {}).get("HF Yaml License", None)
+        hfc_license = row.get("Inferred Metadata", {}).get("HF Config License", None)
+        pwc_license = row.get("Inferred Metadata", {}).get("PwC License Name", None)
         if hfy_license:
             hf_uid_to_license_infos[uid].append((hfy_license, None))
         if hfc_license:
@@ -105,7 +99,7 @@ def map_license_criteria(data_summary, all_constants):
     for uid in our_uid_to_license_infos.keys():
         ours_resolved[uid] = classify_and_resolve_licenses(our_uid_to_license_infos[uid], all_constants)
         ours_openai_resolved[uid] = classify_and_resolve_licenses(our_uid_to_license_infos_no_openai[uid], all_constants)
-        # hf_resolved[uid] = classify_and_resolve_licenses(hf_uid_to_license_infos[uid], all_constants)
+        hf_resolved[uid] = classify_and_resolve_licenses(hf_uid_to_license_infos[uid], all_constants)
         gh_resolved[uid] = classify_and_resolve_licenses(github_uid_to_license_infos[uid], all_constants)
         pwc_resolved[uid] = classify_and_resolve_licenses(pwc_uid_to_license_infos[uid], all_constants)
 
@@ -119,9 +113,9 @@ def map_license_criteria(data_summary, all_constants):
 
     data_summary = add_license_classes_to_summaries(data_summary, ours_resolved, "DataProvenance")
     data_summary = add_license_classes_to_summaries(data_summary, ours_openai_resolved, "DataProvenance IgnoreOpenAI")
-    # data_summary = add_license_classes_to_summaries(data_summary, hf_resolved, "HuggingFace")
+    data_summary = add_license_classes_to_summaries(data_summary, hf_resolved, "HuggingFace")
     data_summary = add_license_classes_to_summaries(data_summary, gh_resolved, "GitHub")
-    # data_summary = add_license_classes_to_summaries(data_summary, pwc_resolved, "PapersWithCode")
+    data_summary = add_license_classes_to_summaries(data_summary, pwc_resolved, "PapersWithCode")
 
     return data_summary
 
@@ -240,7 +234,7 @@ def apply_filters(
 
         # Check if the filtered_df is smaller than the original df for those licenses which are not present in the selected_license_sources
         # i.e we expect that the filtered_df is smaller than the original df for those licenses which are not present
-        for key in ["DataProvenance", "DataProvenance IgnoreOpenAI", "GitHub"]:#, "HuggingFace"]:
+        for key in ["DataProvenance", "DataProvenance IgnoreOpenAI", "GitHub", "HuggingFace"]:
             if key not in selected_license_sources:
                 assert len(df[f"License Use ({key})"]) >= len(filtered_df[f"License Use ({key})"]), f"Lengths don't match: {len(df[f'License Use ({key})'])} != {len(filtered_df[f'License Use ({key})'])}"
 
