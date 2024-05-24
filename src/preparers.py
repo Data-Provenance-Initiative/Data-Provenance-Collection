@@ -534,6 +534,13 @@ def prepare_feedback_collection(row):
         "feedback_collection",
     )
 
+def prepare_preference_collection(row):
+    return convert_inputs_targets_to_messages(
+        row["instruction"],
+        row["output"],
+        "preference_collection",
+    )
+
 
 def prepare_sharegpt_vicuna(row):
     parent = "sharegpt_vicuna"
