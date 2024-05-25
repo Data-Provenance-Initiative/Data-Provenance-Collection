@@ -3,14 +3,14 @@
         "Unique Dataset Identifier": "feedback_collection",
         "Dataset Name": "feedback_collection",
         "Paper Title": "Prometheus: Inducing Fine-grained Evaluation Capability in Language Models",
-        "Dataset URL": "https://huggingface.co/datasets/kaist-ai/Feedback-Collection",
-        "GitHub URL": "https://github.com/kaistAI/prometheus",
-        "Hugging Face URL": "https://huggingface.co/datasets/kaist-ai/Feedback-Collection",
+        "Dataset URL": "https://huggingface.co/datasets/prometheus-eval/Feedback-Collection",
+        "GitHub URL": "https://github.com/prometheus-eval/prometheus",
+        "Hugging Face URL": "https://huggingface.co/datasets/prometheus-eval/Feedback-Collection",
         "Papers with Code URL": "https://paperswithcode.com/paper/prometheus-inducing-fine-grained-evaluation",
         "ArXiv URL": "https://arxiv.org/abs/2310.08491",
         "Semantic Scholar Corpus ID": "https://www.semanticscholar.org/paper/Prometheus%3A-Inducing-Fine-grained-Evaluation-in-Kim-Shin/9ebf47129c15f61f4b77bbfe305c522480c20347",
         "Collection": "Feedback Collection",
-        "Collection URL": "https://huggingface.co/datasets/kaist-ai/Feedback-Collection",
+        "Collection URL": "https://huggingface.co/datasets/prometheus-eval/Feedback-Collection",
         "Languages": [
             "English"
         ],
@@ -37,11 +37,11 @@
         "Licenses": [
             {
                 "License": "MIT License",
-                "License URL": "https://github.com/kaistAI/prometheus"
+                "License URL": "https://github.com/prometheus-eval/prometheus"
             },
             {
                 "License": "OpenAI",
-                "License URL": "https://github.com/kaistAI/prometheus"
+                "License URL": "https://github.com/prometheus-eval/prometheus"
             }
         ],
         "License Notes": "",
@@ -57,7 +57,7 @@
             "Github Date": "",
             "HF Config": "default",
             "HF Config License": "",
-            "HF Dataset": "kaist-ai/Feedback-Collection",
+            "HF Dataset": "prometheus-eval/Feedback-Collection",
             "HF Date": "2023-10-13",
             "HF Downloads (May 2024)": 17,
             "HF Likes (May 2024)": 81,

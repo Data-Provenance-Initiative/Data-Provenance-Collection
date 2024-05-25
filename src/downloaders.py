@@ -414,8 +414,10 @@ def download_nectar(accepted_filter_ids):
 
 
 def download_feedback_collection(accepted_filter_ids):
-    return huggingface_download("kaist-ai/Feedback-Collection")
+    return huggingface_download("prometheus-eval/Feedback-Collection")
 
+def download_preference_collection(accepted_filter_ids):
+    return huggingface_download("prometheus-eval/Preference-Collection")
 
 def download_evol_instruct(accepted_filter_ids):
     return huggingface_download("mlabonne/WizardLM_evol_instruct_70k-ShareGPT", split="train")

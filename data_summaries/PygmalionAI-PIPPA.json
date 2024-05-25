@@ -64,6 +64,18 @@
             "PwC License URL": "https://huggingface.co/datasets?license=license%3Aagpl-3.0",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 16832,
+            "Mean Inputs Length": 110.6127,
+            "Mean Targets Length": 309.3763,
+            "Max Inputs Length": 10000,
+            "Max Targets Length": 759,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 11491,
+            "Mean Dialog Turns": 47.4498
         }
     }
 }
