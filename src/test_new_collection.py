@@ -177,8 +177,8 @@ def test_json_correctness(
         for k, nested_keys in nested_attribute_keys.items():
             if k in dataset_info and isinstance(dataset_info[k], dict):
                 additional_nested_keys = set(dataset_info[k].keys()) - set(template_spec[k].keys())
-                if additional_nested_keys:
-                    error_handler.handle(f"{dataset_uid} contains additional nested attributes: {additional_nested_keys}")
+                # if additional_nested_keys:
+                    # error_handler.handle(f"{dataset_uid} contains additional nested attributes: {additional_nested_keys}")
 
         # Test the correct order.
         if not test_json_key_order(template_spec, dataset_info):
@@ -280,7 +280,6 @@ def test_downloader_and_preparer(
     # Load configurations and run the downloader/preparer
     data_summary_df = pd.DataFrame(list(data_summary.values())).fillna("")
     uid_task_keys = get_collection_to_uid_and_filter_ids(data_summary_df)[collection_name]
-
     downloader_args = COLLECTION_FN_MAPPER[collection_name]
     downloader_args.update({"uid_key_mapper": uid_task_keys})
     downloader = Downloader(

@@ -80,6 +80,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 9,
             "S2 Date": "2024-02-15"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 5685842,
+            "Mean Inputs Length": 210.9473,
+            "Mean Targets Length": 601.5495,
+            "Max Inputs Length": 4309,
+            "Max Targets Length": 7819,
+            "Min Inputs Length": 16,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "omi-1-gsm": {
@@ -158,6 +170,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 9,
             "S2 Date": "2024-02-15"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1635502,
+            "Mean Inputs Length": 235.0326,
+            "Mean Targets Length": 481.6556,
+            "Max Inputs Length": 985,
+            "Max Targets Length": 6974,
+            "Min Inputs Length": 42,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     }
 }
