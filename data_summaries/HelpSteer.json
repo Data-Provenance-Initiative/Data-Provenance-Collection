@@ -66,6 +66,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 10,
             "S2 Date": "2023-11-16"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 35331,
+            "Mean Inputs Length": 2488.3886,
+            "Mean Targets Length": 497.3694,
+            "Max Inputs Length": 7991,
+            "Max Targets Length": 2093,
+            "Min Inputs Length": 26,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     }
 }

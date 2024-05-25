@@ -123,6 +123,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-03-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1111,
+            "Mean Inputs Length": 91.7156,
+            "Mean Targets Length": 91.1242,
+            "Max Inputs Length": 438,
+            "Max Targets Length": 578,
+            "Min Inputs Length": 9,
+            "Min Targets Length": 13,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "coig-cqia-coig-pc": {
@@ -190,6 +202,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-03-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 3000,
+            "Mean Inputs Length": 432.8737,
+            "Mean Targets Length": 102.7537,
+            "Max Inputs Length": 19343,
+            "Max Targets Length": 6492,
+            "Min Inputs Length": 11,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "coig-cqia-douban": {
@@ -255,6 +279,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-03-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 3086,
+            "Mean Inputs Length": 51.4893,
+            "Mean Targets Length": 522.5486,
+            "Max Inputs Length": 133,
+            "Max Targets Length": 17577,
+            "Min Inputs Length": 4,
+            "Min Targets Length": 71,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "coig-cqia-exam": {
@@ -580,6 +616,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-03-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 4856,
+            "Mean Inputs Length": 184.5016,
+            "Mean Targets Length": 196.7288,
+            "Max Inputs Length": 4572,
+            "Max Targets Length": 6947,
+            "Min Inputs Length": 7,
+            "Min Targets Length": 4,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "coig-cqia-finance": {
@@ -654,6 +702,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-03-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 11288,
+            "Mean Inputs Length": 74.4561,
+            "Mean Targets Length": 2005.3832,
+            "Max Inputs Length": 15468,
+            "Max Targets Length": 3946,
+            "Min Inputs Length": 7,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "coig-cqia-human-value": {
@@ -729,6 +789,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-03-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1007,
+            "Mean Inputs Length": 30.146,
+            "Mean Targets Length": 201.4389,
+            "Max Inputs Length": 154,
+            "Max Targets Length": 1052,
+            "Min Inputs Length": 6,
+            "Min Targets Length": 15,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "coig-cqia-logi-qa": {
@@ -797,6 +869,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-03-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 421,
+            "Mean Inputs Length": 165.4964,
+            "Mean Targets Length": 235.8314,
+            "Max Inputs Length": 1141,
+            "Max Targets Length": 1506,
+            "Min Inputs Length": 13,
+            "Min Targets Length": 6,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "coig-cqia-ruozhiba": {
@@ -863,6 +947,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-03-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 240,
+            "Mean Inputs Length": 27.3708,
+            "Mean Targets Length": 257.8,
+            "Max Inputs Length": 215,
+            "Max Targets Length": 600,
+            "Min Inputs Length": 9,
+            "Min Targets Length": 7,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "coig-cqia-segmentfault": {
@@ -929,6 +1025,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-03-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 458,
+            "Mean Inputs Length": 471.4585,
+            "Mean Targets Length": 597.941,
+            "Max Inputs Length": 8461,
+            "Max Targets Length": 23502,
+            "Min Inputs Length": 15,
+            "Min Targets Length": 55,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "coig-cqia-wiki": {
@@ -997,6 +1105,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-03-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 10603,
+            "Mean Inputs Length": 32.9265,
+            "Mean Targets Length": 828.9764,
+            "Max Inputs Length": 82,
+            "Max Targets Length": 16739,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 62,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "coig-cqia-wikihow": {
@@ -1067,6 +1187,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-03-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1485,
+            "Mean Inputs Length": 10.0902,
+            "Mean Targets Length": 2664.8801,
+            "Max Inputs Length": 32,
+            "Max Targets Length": 9689,
+            "Min Inputs Length": 4,
+            "Min Targets Length": 399,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "coig-cqia-xhs": {
@@ -1132,6 +1264,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-03-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1508,
+            "Mean Inputs Length": 36.1996,
+            "Mean Targets Length": 532.7427,
+            "Max Inputs Length": 42,
+            "Max Targets Length": 3044,
+            "Min Inputs Length": 26,
+            "Min Targets Length": 282,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "coig-cqia-zhihu": {
@@ -1197,6 +1341,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2024-03-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 5631,
+            "Mean Inputs Length": 80.3062,
+            "Mean Targets Length": 721.8171,
+            "Max Inputs Length": 2670,
+            "Max Targets Length": 4243,
+            "Min Inputs Length": 6,
+            "Min Targets Length": 239,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     }
 }
