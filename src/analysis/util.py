@@ -55,7 +55,7 @@ CONTENT_DOMAIN_MAPPING = {
     'Travel': ['Travel', 'Travel and tourism', 'Travel information', 'Trips'],
     'Blog': ['Blog', 'Blogs'],
 }
-CONTENT_DOMAIN_INVERSE_MAPPING = {v.lower().strip(): k.lower().strip() for vs in CONTENT_DOMAIN_MAPPING.items() for v in vs}
+CONTENT_DOMAIN_INVERSE_MAPPING = {v.lower().strip(): k.lower().strip() for k, vs in CONTENT_DOMAIN_MAPPING.items() for v in vs}
 
 WEBSITE_SERVICE_MAPPING = {
     'News/Periodicals': [
@@ -358,7 +358,7 @@ WEBSITE_SERVICE_MAPPING = {
         'religious magazine'
     ]
 }
-WEBSITE_SERVICE_INVERSE_MAPPING = {v.lower().strip(): k.lower().strip() for vs in WEBSITE_SERVICE_MAPPING.items() for v in vs}
+WEBSITE_SERVICE_INVERSE_MAPPING = {v.lower().strip(): k.lower().strip() for k, vs in WEBSITE_SERVICE_MAPPING.items() for v in vs}
 
 
 
