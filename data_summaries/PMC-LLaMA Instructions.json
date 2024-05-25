@@ -66,6 +66,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 29,
             "S2 Date": "2023-04-27"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 508,
+            "Mean Inputs Length": 384.9665,
+            "Mean Targets Length": 1042.7106,
+            "Max Inputs Length": 1338,
+            "Max Targets Length": 21323,
+            "Min Inputs Length": 123,
+            "Min Targets Length": 17,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "pmc-llama-medicationqa": {
@@ -135,6 +147,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 29,
             "S2 Date": "2023-04-27"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 552,
+            "Mean Inputs Length": 167.5272,
+            "Mean Targets Length": 405.6449,
+            "Max Inputs Length": 250,
+            "Max Targets Length": 4150,
+            "Min Inputs Length": 114,
+            "Min Targets Length": 15,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "pmc-llama-medmcqa": {
@@ -208,6 +232,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 29,
             "S2 Date": "2023-04-27"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 182822,
+            "Mean Inputs Length": 359.0317,
+            "Mean Targets Length": 505.1186,
+            "Max Inputs Length": 2011,
+            "Max Targets Length": 22572,
+            "Min Inputs Length": 198,
+            "Min Targets Length": 31,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "pmc-llama-medqa_train": {
@@ -281,6 +317,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 29,
             "S2 Date": "2023-04-27"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 20791,
+            "Mean Inputs Length": 1038.3373,
+            "Mean Targets Length": 919.1748,
+            "Max Inputs Length": 4249,
+            "Max Targets Length": 3929,
+            "Min Inputs Length": 313,
+            "Min Targets Length": 31,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "pmc-llama-pubmedqa": {
@@ -354,6 +402,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 375,
             "S2 Date": "2019-09-01"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 210269,
+            "Mean Inputs Length": 1708.9718,
+            "Mean Targets Length": 276.3649,
+            "Max Inputs Length": 5978,
+            "Max Targets Length": 3356,
+            "Min Inputs Length": 291,
+            "Min Targets Length": 17,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "pmc-llama-umls": {
@@ -427,6 +487,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 29,
             "S2 Date": "2023-04-27"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 49057,
+            "Mean Inputs Length": 217.6819,
+            "Mean Targets Length": 191.8473,
+            "Max Inputs Length": 327,
+            "Max Targets Length": 8483,
+            "Min Inputs Length": 170,
+            "Min Targets Length": 16,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "pmc-llama-umls_relation": {
@@ -500,6 +572,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 29,
             "S2 Date": "2023-04-27"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 50000,
+            "Mean Inputs Length": 280.7418,
+            "Mean Targets Length": 94.9384,
+            "Max Inputs Length": 519,
+            "Max Targets Length": 333,
+            "Min Inputs Length": 197,
+            "Min Targets Length": 35,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     }
 }
