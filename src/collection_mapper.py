@@ -133,6 +133,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_feedback_collection,
         "prepare_function": preparers.prepare_feedback_collection,
     },
+    "Preference Collection": {
+        "download_function": downloaders.download_preference_collection,
+        "prepare_function": preparers.prepare_preference_collection,
+    },
     "Llama2-MedTuned-Instructions": {
         "download_function": downloaders.download_llama2_med_tuned_instructions,
         "prepare_function": preparers.prepare_llama2_med_tuned_instructions,

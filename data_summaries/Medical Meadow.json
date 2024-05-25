@@ -72,6 +72,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 115,
             "S2 Date": "2023-04-14"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 33955,
+            "Mean Inputs Length": 123.4048,
+            "Mean Targets Length": 349.0956,
+            "Max Inputs Length": 432,
+            "Max Targets Length": 1576,
+            "Min Inputs Length": 31,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "medical-meadow-wikidoc-living-textbook": {
@@ -147,6 +159,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 115,
             "S2 Date": "2023-04-14"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 10000,
+            "Mean Inputs Length": 95.764,
+            "Mean Targets Length": 912.8222,
+            "Max Inputs Length": 326,
+            "Max Targets Length": 68919,
+            "Min Inputs Length": 31,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "medical-meadow-wikidoc-patient-information": {
@@ -222,6 +246,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 115,
             "S2 Date": "2023-04-14"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 5942,
+            "Mean Inputs Length": 80.7262,
+            "Mean Targets Length": 456.1146,
+            "Max Inputs Length": 158,
+            "Max Targets Length": 15848,
+            "Min Inputs Length": 42,
+            "Min Targets Length": 7,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "medical-meadow-cord19": {
@@ -293,6 +329,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 730,
             "S2 Date": "2020-04-22"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 821007,
+            "Mean Inputs Length": 1507.5532,
+            "Mean Targets Length": 103.9682,
+            "Max Inputs Length": 122438,
+            "Max Targets Length": 1187,
+            "Min Inputs Length": 47,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "medical-meadow-health-advice": {
@@ -365,6 +413,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 28,
             "S2 Date": "2019-11-01"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 8676,
+            "Mean Inputs Length": 222.3873,
+            "Mean Targets Length": 18.2123,
+            "Max Inputs Length": 950,
+            "Max Targets Length": 23,
+            "Min Inputs Length": 77,
+            "Min Targets Length": 17,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "medical-meadow-pubmed-causal": {
@@ -437,6 +497,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 28,
             "S2 Date": "2019-11-01"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 2446,
+            "Mean Inputs Length": 294.4321,
+            "Mean Targets Length": 39.6603,
+            "Max Inputs Length": 535,
+            "Max Targets Length": 46,
+            "Min Inputs Length": 184,
+            "Min Targets Length": 21,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "medical-meadow-medqa": {
@@ -506,6 +578,18 @@
             "PwC License URL": null,
             "S2 Citation Count (May 2024)": 245,
             "S2 Date": "2020-09-28"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 10178,
+            "Mean Inputs Length": 960.3179,
+            "Mean Targets Length": 30.2735,
+            "Max Inputs Length": 4249,
+            "Max Targets Length": 233,
+            "Min Inputs Length": 260,
+            "Min Targets Length": 4,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "medical-meadow-mediqa": {
@@ -585,6 +669,18 @@
             "PwC License URL": null,
             "S2 Citation Count (May 2024)": 60,
             "S2 Date": "2020-01-30"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 2208,
+            "Mean Inputs Length": 6510.0199,
+            "Mean Targets Length": 581.0842,
+            "Max Inputs Length": 74381,
+            "Max Targets Length": 6566,
+            "Min Inputs Length": 171,
+            "Min Targets Length": 29,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     }
 }

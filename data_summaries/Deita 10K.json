@@ -88,6 +88,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 33,
             "S2 Date": "2023-12-25"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 8724,
+            "Mean Inputs Length": 308.0778,
+            "Mean Targets Length": 1261.4174,
+            "Max Inputs Length": 53188,
+            "Max Targets Length": 46121,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 8,
+            "Max Dialog Turns": 972,
+            "Mean Dialog Turns": 48.4857
         }
     },
     "deita-10k-ultrachat": {
@@ -176,6 +188,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 33,
             "S2 Date": "2023-12-25"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1276,
+            "Mean Inputs Length": 196.0091,
+            "Mean Targets Length": 1551.8918,
+            "Max Inputs Length": 947,
+            "Max Targets Length": 6223,
+            "Min Inputs Length": 37,
+            "Min Targets Length": 49,
+            "Min Dialog Turns": 8,
+            "Max Dialog Turns": 14,
+            "Mean Dialog Turns": 13.5674
         }
     }
 }
