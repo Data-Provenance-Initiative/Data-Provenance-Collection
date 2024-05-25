@@ -81,7 +81,68 @@ def main(args):
     #         'Derived from Datasets', 'License Use (DataProvenance)', 'License Use (GitHub)', 'Licenses', 'GitHub License',
     #         'Dataset URL', 'GitHub URL', 'ArXiv URL']
     # filtered_data_summary[cols].to_csv("pile_v2.csv", index=False)
-    # assert 0 == 1
+
+    # Function to find domains for given text sources
+    def find_domains(text_sources):
+        # This will hold all the domains for the sources found
+        domains_found = set()
+        # Iterate over each source in the text sources list
+        for source in text_sources:
+            # Check each domain in DOMAINS
+            for domain, sources in ALL_CONSTANTS["DOMAIN_GROUPS"].items():
+                if source in sources:
+                    domains_found.add(domain)
+        return list(domains_found)
+
+    filtered_data_summary['Domains'] = filtered_data_summary['Text Sources'].apply(find_domains)
+
+    # import ast
+    # def safely_eval_list(s):
+    #     try:
+    #         return ast.literal_eval(s)
+    #     except ValueError:
+    #         return []
+
+    # Ensure columns containing list-like data as strings are evaluated to lists
+    # import pdb; pdb.set_trace()
+    # for col in ['Text Sources', 'Model Generated', 'Licenses']:
+    #     filtered_data_summary[col] = filtered_data_summary[col].apply(safely_eval_list)
+
+    
+
+    # Define a function to concatenate lists within each group
+    def concatenate_lists(series):
+        concatenated_list = []
+        for item in series:
+            concatenated_list.extend(item)
+
+        if len(concatenated_list) and isinstance(concatenated_list[0], dict):
+            return list(set([x["License"] for x in concatenated_list]))
+        else:
+            return list(set(concatenated_list))
+
+    def aggregate_strings(series):
+        return list(set(series))  # Simply convert the series of strings to a list
+
+    # Group by 'Collection' and concatenate lists
+    grouped = filtered_data_summary.groupby('Collection').agg({
+        # 'Collection': 'first',  # Assuming you want the first occurrence
+        # 'Dataset Name': 'first',
+        'Languages': concatenate_lists,
+        'Text Sources': concatenate_lists,
+        'Domains': concatenate_lists,
+        'Model Generated': concatenate_lists,
+        'License Use (DataProvenance)': aggregate_strings,
+        'License Use (DataProvenance IgnoreOpenAI)': aggregate_strings,
+        'Licenses': concatenate_lists,
+    }).reset_index()
+
+    # Save to CSV
+    cols = ['Collection', 'Languages', 'Text Sources', 'Domains', 'Model Generated', 'License Use (DataProvenance)',
+        'License Use (DataProvenance IgnoreOpenAI)', 'Licenses']
+    grouped[cols].to_csv("dpi_collections_grouped.csv", index=False)
+
+    assert 0 == 1
 
     data_provenance_card.generate_datacard(
         filtered_data_summary,
