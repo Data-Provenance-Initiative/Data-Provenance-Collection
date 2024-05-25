@@ -67,6 +67,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 0,
             "S2 Date": "2024-04-01"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 4000,
+            "Mean Inputs Length": 127.6928,
+            "Mean Targets Length": 23.5815,
+            "Max Inputs Length": 161,
+            "Max Targets Length": 57,
+            "Min Inputs Length": 106,
+            "Min Targets Length": 3,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-cebuaner": {
@@ -133,6 +145,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 0,
             "S2 Date": "2023-10-01"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 2980,
+            "Mean Inputs Length": 956.755,
+            "Mean Targets Length": 151.8453,
+            "Max Inputs Length": 4620,
+            "Max Targets Length": 1425,
+            "Min Inputs Length": 538,
+            "Min Targets Length": 9,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-emotes_3k": {
@@ -201,6 +225,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 0,
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 2905,
+            "Mean Inputs Length": 188.1463,
+            "Mean Targets Length": 145.6943,
+            "Max Inputs Length": 363,
+            "Max Targets Length": 463,
+            "Min Inputs Length": 122,
+            "Min Targets Length": 54,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-fakenews_ph": {
@@ -273,6 +309,18 @@
             "PwC License URL": null,
             "S2 Citation Count (May 2024)": 28,
             "S2 Date": "2019-06-30"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 3206,
+            "Mean Inputs Length": 1244.281,
+            "Mean Targets Length": 10.0,
+            "Max Inputs Length": 6862,
+            "Max Targets Length": 10,
+            "Min Inputs Length": 180,
+            "Min Targets Length": 10,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-filipino_hatespeech_tiktok": {
@@ -342,6 +390,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 10000,
+            "Mean Inputs Length": 209.4235,
+            "Mean Targets Length": 13.136,
+            "Max Inputs Length": 373,
+            "Max Targets Length": 15,
+            "Min Inputs Length": 124,
+            "Min Targets Length": 11,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-filipino_slang_norm": {
@@ -404,6 +464,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 0,
             "S2 Date": "2022-10-06"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 303,
+            "Mean Inputs Length": 61.7294,
+            "Mean Targets Length": 6.0495,
+            "Max Inputs Length": 70,
+            "Max Targets Length": 15,
+            "Min Inputs Length": 58,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-id_vaccines_tweet": {
@@ -467,6 +539,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 4182,
+            "Mean Inputs Length": 275.5127,
+            "Mean Targets Length": 21.2626,
+            "Max Inputs Length": 482,
+            "Max Targets Length": 24,
+            "Min Inputs Length": 179,
+            "Min Targets Length": 19,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-identifikasi_bahasa": {
@@ -535,6 +619,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 56445,
+            "Mean Inputs Length": 119.6244,
+            "Mean Targets Length": 8.3559,
+            "Max Inputs Length": 315,
+            "Max Targets Length": 10,
+            "Min Inputs Length": 51,
+            "Min Targets Length": 8,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-indoner_tourism": {
@@ -599,6 +695,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 2008,
+            "Mean Inputs Length": 1012.9935,
+            "Mean Targets Length": 174.0732,
+            "Max Inputs Length": 5708,
+            "Max Targets Length": 1779,
+            "Min Inputs Length": 494,
+            "Min Targets Length": 3,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-indonesia_chinese_mtrobusteval": {
@@ -663,6 +771,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1001,
+            "Mean Inputs Length": 132.5255,
+            "Mean Targets Length": 23.5295,
+            "Max Inputs Length": 349,
+            "Max Targets Length": 114,
+            "Min Inputs Length": 76,
+            "Min Targets Length": 3,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-limesoda": {
@@ -730,6 +850,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 7139,
+            "Mean Inputs Length": 2530.9099,
+            "Mean Targets Length": 9.0,
+            "Max Inputs Length": 26812,
+            "Max Targets Length": 9,
+            "Min Inputs Length": 129,
+            "Min Targets Length": 9,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-mabl": {
@@ -816,6 +948,18 @@
             "PwC License URL": null,
             "S2 Citation Count (May 2024)": 16,
             "S2 Date": "2023-05-25"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 2340,
+            "Mean Inputs Length": 261.8436,
+            "Mean Targets Length": 1.0,
+            "Max Inputs Length": 614,
+            "Max Targets Length": 1,
+            "Min Inputs Length": 186,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-mkqa": {
@@ -909,6 +1053,18 @@
             "PwC License URL": null,
             "S2 Citation Count (May 2024)": 102,
             "S2 Date": "2020-07-30"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 6758,
+            "Mean Inputs Length": 99.5373,
+            "Mean Targets Length": 11.5892,
+            "Max Inputs Length": 175,
+            "Max Targets Length": 114,
+            "Min Inputs Length": 54,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-id_sent_emo_mobile_apps": {
@@ -973,6 +1129,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 21696,
+            "Mean Inputs Length": 338.5914,
+            "Mean Targets Length": 14.9333,
+            "Max Inputs Length": 1331,
+            "Max Targets Length": 16,
+            "Min Inputs Length": 247,
+            "Min Targets Length": 13,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-burmese_romanize": {
@@ -1038,6 +1206,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 1,
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 2335,
+            "Mean Inputs Length": 162.0822,
+            "Mean Targets Length": 75.2531,
+            "Max Inputs Length": 186,
+            "Max Targets Length": 141,
+            "Min Inputs Length": 139,
+            "Min Targets Length": 28,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-ntrex_128": {
@@ -1222,6 +1402,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 23,
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1997,
+            "Mean Inputs Length": 192.9304,
+            "Mean Targets Length": 146.9304,
+            "Max Inputs Length": 600,
+            "Max Targets Length": 554,
+            "Min Inputs Length": 56,
+            "Min Targets Length": 10,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-spamid_pair": {
@@ -1287,6 +1479,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 72874,
+            "Mean Inputs Length": 456.6779,
+            "Mean Targets Length": 7.0121,
+            "Max Inputs Length": 4516,
+            "Max Targets Length": 8,
+            "Min Inputs Length": 181,
+            "Min Targets Length": 4,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-tgl_profanity": {
@@ -1349,6 +1553,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 11110,
+            "Mean Inputs Length": 134.8293,
+            "Mean Targets Length": 1.0,
+            "Max Inputs Length": 400,
+            "Max Targets Length": 1,
+            "Min Inputs Length": 90,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-thai_depression": {
@@ -1413,6 +1629,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 11,
             "S2 Date": "2021-11-08"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 25077,
+            "Mean Inputs Length": 259.2769,
+            "Mean Targets Length": 11.4643,
+            "Max Inputs Length": 3844,
+            "Max Targets Length": 13,
+            "Min Inputs Length": 173,
+            "Min Targets Length": 10,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-thai_toxicity_tweet": {
@@ -1475,6 +1703,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 9,
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 2160,
+            "Mean Inputs Length": 183.7806,
+            "Mean Targets Length": 1.0,
+            "Max Inputs Length": 247,
+            "Max Targets Length": 1,
+            "Min Inputs Length": 119,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-typhoon_yolanda_tweets": {
@@ -1537,6 +1777,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 1,
             "S2 Date": "2019-08-03"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 582,
+            "Mean Inputs Length": 357.0756,
+            "Mean Targets Length": 1.3333,
+            "Max Inputs Length": 433,
+            "Max Targets Length": 2,
+            "Min Inputs Length": 299,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-uit_victsd": {
@@ -1600,6 +1852,18 @@
             "PwC License URL": null,
             "S2 Citation Count (May 2024)": 15,
             "S2 Date": "2021-03-18"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 7000,
+            "Mean Inputs Length": 367.475,
+            "Mean Targets Length": 25.136,
+            "Max Inputs Length": 1735,
+            "Max Targets Length": 27,
+            "Min Inputs Length": 229,
+            "Min Targets Length": 19,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-uit_viocd": {
@@ -1663,6 +1927,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 4,
             "S2 Date": "2021-04-24"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 4387,
+            "Mean Inputs Length": 310.3453,
+            "Mean Targets Length": 1.0,
+            "Max Inputs Length": 1205,
+            "Max Targets Length": 1,
+            "Min Inputs Length": 184,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-uit_vsmec": {
@@ -1733,6 +2009,18 @@
             "PwC License URL": null,
             "S2 Citation Count (May 2024)": 36,
             "S2 Date": "2019-10-11"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 5548,
+            "Mean Inputs Length": 201.0079,
+            "Mean Targets Length": 6.9243,
+            "Max Inputs Length": 785,
+            "Max Targets Length": 9,
+            "Min Inputs Length": 149,
+            "Min Targets Length": 4,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-vihealthqa": {
@@ -1797,6 +2085,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 8,
             "S2 Date": "2022-06-20"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 7009,
+            "Mean Inputs Length": 103.7853,
+            "Mean Targets Length": 491.3303,
+            "Max Inputs Length": 1521,
+            "Max Targets Length": 7132,
+            "Min Inputs Length": 17,
+            "Min Targets Length": 33,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-wisesight_thai_sentiment": {
@@ -1865,6 +2165,18 @@
             "PwC License URL": "https://zenodo.org/record/3457447",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 21628,
+            "Mean Inputs Length": 191.8183,
+            "Mean Targets Length": 7.4546,
+            "Max Inputs Length": 2099,
+            "Max Targets Length": 8,
+            "Min Inputs Length": 103,
+            "Min Targets Length": 7,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-wongnai_reviews": {
@@ -1935,6 +2247,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 40000,
+            "Mean Inputs Length": 655.3269,
+            "Mean Targets Length": 1.0,
+            "Max Inputs Length": 20672,
+            "Max Targets Length": 1,
+            "Min Inputs Length": 311,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-xnli": {
@@ -2014,6 +2338,18 @@
             "PwC License URL": "https://github.com/facebookresearch/XNLI/blob/master/LICENSE",
             "S2 Citation Count (May 2024)": 1081,
             "S2 Date": "2018-09-13"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 5010,
+            "Mean Inputs Length": 442.2327,
+            "Mean Targets Length": 10.0,
+            "Max Inputs Length": 686,
+            "Max Targets Length": 13,
+            "Min Inputs Length": 307,
+            "Min Targets Length": 7,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "seacrowd-xstorycloze": {
@@ -2089,6 +2425,18 @@
             "PwC License URL": null,
             "S2 Citation Count (May 2024)": 161,
             "S2 Date": "2021-12-20"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 360,
+            "Mean Inputs Length": 442.9,
+            "Mean Targets Length": 1.0,
+            "Max Inputs Length": 608,
+            "Max Targets Length": 1,
+            "Min Inputs Length": 301,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     }
 }

@@ -81,6 +81,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 19820,
+            "Mean Inputs Length": 455.4066,
+            "Mean Targets Length": 1848.195,
+            "Max Inputs Length": 9690,
+            "Max Targets Length": 11173,
+            "Min Inputs Length": 17,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "ultraFeedback_argilla-flan_v2_niv2": {
@@ -224,6 +236,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 15462,
+            "Mean Inputs Length": 919.2154,
+            "Mean Targets Length": 347.0201,
+            "Max Inputs Length": 6519,
+            "Max Targets Length": 3891,
+            "Min Inputs Length": 77,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "ultraFeedback_argilla-evol_instruct": {
@@ -296,6 +320,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 9934,
+            "Mean Inputs Length": 500.5768,
+            "Mean Targets Length": 1900.8918,
+            "Max Inputs Length": 6250,
+            "Max Targets Length": 5713,
+            "Min Inputs Length": 14,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "ultraFeedback_argilla-ultrachat": {
@@ -378,6 +414,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 9870,
+            "Mean Inputs Length": 628.6686,
+            "Mean Targets Length": 2348.4065,
+            "Max Inputs Length": 14431,
+            "Max Targets Length": 6392,
+            "Min Inputs Length": 7,
+            "Min Targets Length": 18,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "ultraFeedback_argilla-flan_v2_cot": {
@@ -446,6 +494,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 2990,
+            "Mean Inputs Length": 966.6997,
+            "Mean Targets Length": 659.1635,
+            "Max Inputs Length": 14512,
+            "Max Targets Length": 12603,
+            "Min Inputs Length": 64,
+            "Min Targets Length": 4,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "ultraFeedback_argilla-false_qa": {
@@ -509,6 +569,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 2326,
+            "Mean Inputs Length": 48.0155,
+            "Mean Targets Length": 721.2941,
+            "Max Inputs Length": 147,
+            "Max Targets Length": 3763,
+            "Min Inputs Length": 16,
+            "Min Targets Length": 11,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "ultraFeedback_argilla-flan_v2_p3": {
@@ -602,6 +674,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1910,
+            "Mean Inputs Length": 1755.6843,
+            "Mean Targets Length": 533.1974,
+            "Max Inputs Length": 6162,
+            "Max Targets Length": 4644,
+            "Min Inputs Length": 29,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "ultraFeedback_argilla-truthful_qa": {
@@ -669,6 +753,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 808,
+            "Mean Inputs Length": 59.2203,
+            "Mean Targets Length": 925.0767,
+            "Max Inputs Length": 308,
+            "Max Targets Length": 3268,
+            "Min Inputs Length": 12,
+            "Min Targets Length": 7,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     },
     "ultraFeedback_argilla-flan_v2_flan2021": {
@@ -737,6 +833,18 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 499,
+            "Mean Inputs Length": 1167.8437,
+            "Mean Targets Length": 618.0301,
+            "Max Inputs Length": 5895,
+            "Max Targets Length": 4737,
+            "Min Inputs Length": 23,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
         }
     }
 }
