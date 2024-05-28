@@ -1,0 +1,36 @@
+{
+    "VideoStory: A New Multimedia Embedding for Few-Example Recognition and Translation of Events": {
+        "Unique Dataset Identifier": "videostory",
+        "Collection": "videostory",
+        "Collection URL": "https://isis-data.science.uva.nl/cgmsnoek/pub/habibian-videostory-mm2014.pdf",
+        "Dataset Name": "VideoStory: A New Multimedia Embedding for Few-Example Recognition and Translation of Events",
+        "Paper Title": "VideoStory: A New Multimedia Embedding for Few-Example Recognition and Translation of Events",
+        "Paper URL": "https://isis-data.science.uva.nl/cgmsnoek/pub/habibian-videostory-mm2014.pdf",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://isis-data.science.uva.nl/cgmsnoek/pub/habibian-videostory-mm2014.pdf",
+        "Semantic Scholar Corpus ID": 28203,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "University of Amsterdam"
+        ],
+        "Countries": [
+            "Netherlands"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 743.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

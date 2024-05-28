@@ -1,0 +1,37 @@
+{
+    "MPII Cooking 2": {
+        "Unique Dataset Identifier": "mpii-cooking2",
+        "Collection": "mpii-cooking2",
+        "Collection URL": "https://arxiv.org/pdf/1502.06648.pdf",
+        "Dataset Name": "MPII Cooking 2",
+        "Paper Title": "MPII Cooking 2",
+        "Paper URL": "https://arxiv.org/pdf/1502.06648.pdf",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/mpii-cooking-2-dataset",
+        "ArXiv URL": "https://arxiv.org/pdf/1502.06648.pdf",
+        "Semantic Scholar Corpus ID": 14036544,
+        "Text Sources": [
+            "Human Participants"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/human-activity-recognition/mpii-cooking-2-dataset/"
+            }
+        ],
+        "Creators": [
+            "Max Planck Institute for Informatics",
+            "Saarland University"
+        ],
+        "Countries": [
+            "Germany"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 27.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Human Participants"
+        ]
+    }
+}

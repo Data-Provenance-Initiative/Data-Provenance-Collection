@@ -1,0 +1,37 @@
+{
+    "COIN: A Large-scale Dataset for Comprehensive Instructional Video Analysis (CVPR 2019)": {
+        "Unique Dataset Identifier": "coin-dataset",
+        "Collection": "coin-dataset",
+        "Collection URL": "https://arxiv.org/abs/1903.02874",
+        "Dataset Name": "COIN: A Large-scale Dataset for Comprehensive Instructional Video Analysis (CVPR 2019)",
+        "Paper Title": "COIN: A Large-scale Dataset for Comprehensive Instructional Video Analysis (CVPR 2019)",
+        "Paper URL": "https://arxiv.org/abs/1903.02874",
+        "GitHub URL": "https://github.com/coin-dataset/annotations",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/coin#:~:text=The%20COIN%20dataset%20(a%20large,are%20all%20collected%20from%20YouTube.",
+        "ArXiv URL": "https://arxiv.org/abs/1903.02874",
+        "Semantic Scholar Corpus ID": 71147568,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://github.com/coin-dataset/annotations?tab=readme-ov-file#license"
+            }
+        ],
+        "Creators": [
+            "Tsinghua University",
+            "Meitu Inc."
+        ],
+        "Countries": [
+            "China"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 476.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "MovieScenes": {
+        "Unique Dataset Identifier": "moviescenes",
+        "Collection": "moviescenes",
+        "Collection URL": "https://arxiv.org/abs/2004.02678",
+        "Dataset Name": "MovieScenes",
+        "Paper Title": "MovieScenes",
+        "Paper URL": "https://arxiv.org/abs/2004.02678",
+        "GitHub URL": "https://github.com/AnyiRao/SceneSeg",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/a-local-to-global-approach-to-multi-modal",
+        "ArXiv URL": "https://arxiv.org/abs/2004.02678",
+        "Semantic Scholar Corpus ID": 214802984,
+        "Text Sources": [
+            "Movies"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "The Chinese University of Hong Kong",
+            "UC Berkeley"
+        ],
+        "Countries": [
+            "China",
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 250.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Movies"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "YouCook: A Thousand Frames in Just a Few Words: Lingual Description of Videos through Latent Topics and Sparse Object Stitching (CVPR 2013)\r\n": {
+        "Unique Dataset Identifier": "youcook",
+        "Collection": "youcook",
+        "Collection URL": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Das_A_Thousand_Frames_2013_CVPR_paper.pdf",
+        "Dataset Name": "YouCook: A Thousand Frames in Just a Few Words: Lingual Description of Videos through Latent Topics and Sparse Object Stitching (CVPR 2013)\r\n",
+        "Paper Title": "YouCook: A Thousand Frames in Just a Few Words: Lingual Description of Videos through Latent Topics and Sparse Object Stitching (CVPR 2013)\r\n",
+        "Paper URL": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Das_A_Thousand_Frames_2013_CVPR_paper.pdf",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/youcook",
+        "ArXiv URL": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Das_A_Thousand_Frames_2013_CVPR_paper.pdf",
+        "Semantic Scholar Corpus ID": 12284555,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "University at Buffalo"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 1000.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "CDAD: A Common Daily Action Dataset with Collected Hard Negative Samples (CVPR 2022)\r\n": {
+        "Unique Dataset Identifier": "cacd",
+        "Collection": "cacd",
+        "Collection URL": "https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/papers/Xiang_CDAD_A_Common_Daily_Action_Dataset_With_Collected_Hard_Negative_CVPRW_2022_paper.pdf",
+        "Dataset Name": "CDAD: A Common Daily Action Dataset with Collected Hard Negative Samples (CVPR 2022)\r\n",
+        "Paper Title": "CDAD: A Common Daily Action Dataset with Collected Hard Negative Samples (CVPR 2022)\r\n",
+        "Paper URL": "https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/papers/Xiang_CDAD_A_Common_Daily_Action_Dataset_With_Collected_Hard_Negative_CVPRW_2022_paper.pdf",
+        "GitHub URL": "https://github.com/MartinXM/CDAD",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://openaccess.thecvf.com/content/CVPR2022W/L3D-IVU/papers/Xiang_CDAD_A_Common_Daily_Action_Dataset_With_Collected_Hard_Negative_CVPRW_2022_paper.pdf",
+        "Semantic Scholar Corpus ID": 251035434,
+        "Text Sources": [
+            "crowd-sourced"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "The Hong Kong Polytechnic University",
+            "Alibaba Group"
+        ],
+        "Countries": [
+            "China"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 215.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "crowd-sourced"
+        ]
+    }
+}

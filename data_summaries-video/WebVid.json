@@ -1,0 +1,38 @@
+{
+    "WebVid": {
+        "Unique Dataset Identifier": "WebVid",
+        "Collection": "WebVid",
+        "Collection URL": "https://arxiv.org/abs/2104.00650",
+        "Dataset Name": "WebVid",
+        "Paper Title": "WebVid",
+        "Paper URL": "https://arxiv.org/abs/2104.00650",
+        "GitHub URL": "https://github.com/m-bain/webvid",
+        "Hugging Face URL": "https://huggingface.co/datasets/TempoFunk/webvid-10M",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/webvid",
+        "ArXiv URL": "https://arxiv.org/abs/2104.00650",
+        "Semantic Scholar Corpus ID": 232478955,
+        "Text Sources": [
+            "General web"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://github.com/m-bain/webvid/blob/main/TERMS.md"
+            }
+        ],
+        "Creators": [
+            "University of Oxford",
+            "CNRS"
+        ],
+        "Countries": [
+            "United Kingdom",
+            "France"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 13000.0,
+        "Taken Down": "True",
+        "Video Sources": [
+            "General web"
+        ]
+    }
+}

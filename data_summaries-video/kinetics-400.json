@@ -1,0 +1,36 @@
+{
+    "Kinetics 400": {
+        "Unique Dataset Identifier": "kinetics-400",
+        "Collection": "kinetics-400",
+        "Collection URL": "https://arxiv.org/abs/1705.06950",
+        "Dataset Name": "Kinetics 400",
+        "Paper Title": "Kinetics 400",
+        "Paper URL": "https://arxiv.org/abs/1705.06950",
+        "GitHub URL": "https://github.com/cvdfoundation/kinetics-dataset",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/kinetics",
+        "ArXiv URL": "https://arxiv.org/abs/1705.06950",
+        "Semantic Scholar Corpus ID": 27300853,
+        "Text Sources": [
+            "Human Participants"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "DeepMind"
+        ],
+        "Countries": [
+            "United Kingdom"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 850.68,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Human Participants"
+        ]
+    }
+}

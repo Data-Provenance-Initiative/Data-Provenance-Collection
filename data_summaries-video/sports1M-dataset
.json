@@ -1,0 +1,36 @@
+{
+    "Sports-1M: Large-scale Video Classification with Convolutional Neural Networks\r\n": {
+        "Unique Dataset Identifier": "sports1M-dataset\r\n",
+        "Collection": "sports1M-dataset\r\n",
+        "Collection URL": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/42455.pdf",
+        "Dataset Name": "Sports-1M: Large-scale Video Classification with Convolutional Neural Networks\r\n",
+        "Paper Title": "Sports-1M: Large-scale Video Classification with Convolutional Neural Networks\r\n",
+        "Paper URL": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/42455.pdf",
+        "GitHub URL": "https://github.com/gtoderici/sports-1m-dataset",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/large-scale-video-classification-with-1",
+        "ArXiv URL": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/42455.pdf",
+        "Semantic Scholar Corpus ID": 206592218,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 3.0",
+                "License URL": "https://github.com/gtoderici/sports-1m-dataset"
+            }
+        ],
+        "Creators": [
+            "Stanford University"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 105761.41,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

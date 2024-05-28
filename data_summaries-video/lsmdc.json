@@ -1,0 +1,42 @@
+{
+    "LSMDC": {
+        "Unique Dataset Identifier": "lsmdc",
+        "Collection": "lsmdc",
+        "Collection URL": "https://arxiv.org/pdf/1605.03705",
+        "Dataset Name": "LSMDC",
+        "Paper Title": "LSMDC",
+        "Paper URL": "https://arxiv.org/pdf/1605.03705",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/movie-description",
+        "ArXiv URL": "https://arxiv.org/pdf/1605.03705",
+        "Semantic Scholar Corpus ID": 18217052,
+        "Text Sources": [
+            "Movies"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://datasets.d2.mpi-inf.mpg.de/movieDescription/protected/lsmdc2016/README.txt"
+            }
+        ],
+        "Creators": [
+            "UC Berkeley",
+            "Disney Research",
+            "Universite de Montreal",
+            "Polytechnique Montr\u00e9al",
+            "Universit\u00e9 de Sherbrooke",
+            "Twitter"
+        ],
+        "Countries": [
+            "United States of America",
+            "Canada"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 158.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Movies"
+        ]
+    }
+}

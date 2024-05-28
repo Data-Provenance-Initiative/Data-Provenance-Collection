@@ -1,0 +1,38 @@
+{
+    "MSA": {
+        "Unique Dataset Identifier": "msa",
+        "Collection": "msa",
+        "Collection URL": "https://arxiv.org/abs/1910.11009",
+        "Dataset Name": "MSA",
+        "Paper Title": "MSA",
+        "Paper URL": "https://arxiv.org/abs/1910.11009",
+        "GitHub URL": "https://github.com/ycxioooong/MovieSynopsisAssociation",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/a-graph-based-framework-to-bridge-movies-and-1",
+        "ArXiv URL": "https://arxiv.org/abs/1910.11009",
+        "Semantic Scholar Corpus ID": 204852218,
+        "Text Sources": [
+            "Movies"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "The Chinese University of Hong Kong",
+            "UC Berkeley"
+        ],
+        "Countries": [
+            "China",
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 516.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Movies"
+        ]
+    }
+}

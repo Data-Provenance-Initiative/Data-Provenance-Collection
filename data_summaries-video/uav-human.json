@@ -1,0 +1,38 @@
+{
+    "UAV-Human: A Large Benchmark for Human Behavior Understanding with Unmanned Aerial Vehicles\r\n": {
+        "Unique Dataset Identifier": "uav-human",
+        "Collection": "uav-human",
+        "Collection URL": "https://arxiv.org/abs/2104.00946",
+        "Dataset Name": "UAV-Human: A Large Benchmark for Human Behavior Understanding with Unmanned Aerial Vehicles\r\n",
+        "Paper Title": "UAV-Human: A Large Benchmark for Human Behavior Understanding with Unmanned Aerial Vehicles\r\n",
+        "Paper URL": "https://arxiv.org/abs/2104.00946",
+        "GitHub URL": "https://github.com/sutdcv/UAV-Human",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/uav-human-a-large-benchmark-for-human",
+        "ArXiv URL": "https://arxiv.org/abs/2104.00946",
+        "Semantic Scholar Corpus ID": 233004700,
+        "Text Sources": [
+            "Human Participants"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://sutdcv.github.io/uav-human-web/"
+            }
+        ],
+        "Creators": [
+            "Shandong University",
+            "Singapore University of Technology and Design"
+        ],
+        "Countries": [
+            "Singapore",
+            "China"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 18.34,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Human Participants"
+        ]
+    }
+}

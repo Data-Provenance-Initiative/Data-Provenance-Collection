@@ -1,0 +1,38 @@
+{
+    "MMAct": {
+        "Unique Dataset Identifier": "mmact",
+        "Collection": "mmact",
+        "Collection URL": "https://ieeexplore.ieee.org/document/9009579",
+        "Dataset Name": "MMAct",
+        "Paper Title": "MMAct",
+        "Paper URL": "https://ieeexplore.ieee.org/document/9009579",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/mmact",
+        "ArXiv URL": "https://ieeexplore.ieee.org/document/9009579",
+        "Semantic Scholar Corpus ID": 207980205,
+        "Text Sources": [
+            "Human Participants"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://mmact19.github.io/2019/"
+            }
+        ],
+        "Creators": [
+            "The Hong Kong University of Science and Technology",
+            "Alibaba Group"
+        ],
+        "Countries": [
+            "Hong Kong",
+            "China"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 100.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Human Participants"
+        ]
+    }
+}

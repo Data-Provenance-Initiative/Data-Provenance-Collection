@@ -1,0 +1,38 @@
+{
+    "VaTeX": {
+        "Unique Dataset Identifier": "vatex",
+        "Collection": "vatex",
+        "Collection URL": "https://arxiv.org/abs/1904.03493",
+        "Dataset Name": "VaTeX",
+        "Paper Title": "VaTeX",
+        "Paper URL": "https://arxiv.org/abs/1904.03493",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/HuggingFaceM4/vatex",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/vatex",
+        "ArXiv URL": "https://arxiv.org/abs/1904.03493",
+        "Semantic Scholar Corpus ID": 102352148,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://eric-xw.github.io/vatex-website/index.html"
+            }
+        ],
+        "Creators": [
+            "ByteDance AI Lab",
+            "UC Santa Barbara"
+        ],
+        "Countries": [
+            "China",
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 114.58,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

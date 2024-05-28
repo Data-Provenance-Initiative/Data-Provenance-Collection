@@ -1,0 +1,36 @@
+{
+    "AVA": {
+        "Unique Dataset Identifier": "ava",
+        "Collection": "ava",
+        "Collection URL": "https://arxiv.org/pdf/1705.08421",
+        "Dataset Name": "AVA",
+        "Paper Title": "AVA",
+        "Paper URL": "https://arxiv.org/pdf/1705.08421",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/ava-a-video-dataset-of-spatio-temporally",
+        "ArXiv URL": "https://arxiv.org/pdf/1705.08421",
+        "Semantic Scholar Corpus ID": 688013,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://research.google.com/ava/"
+            }
+        ],
+        "Creators": [
+            "Google Research"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 107.5,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

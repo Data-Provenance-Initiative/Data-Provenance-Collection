@@ -1,0 +1,36 @@
+{
+    "Hollywood Extended": {
+        "Unique Dataset Identifier": "hollywood-extended",
+        "Collection": "hollywood-extended",
+        "Collection URL": "https://arxiv.org/pdf/1407.1208",
+        "Dataset Name": "Hollywood Extended",
+        "Paper Title": "Hollywood Extended",
+        "Paper URL": "https://arxiv.org/pdf/1407.1208",
+        "GitHub URL": "https://github.com/piotr-bojanowski/action-ordering",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/weakly-supervised-action-labeling-in-videos",
+        "ArXiv URL": "https://arxiv.org/pdf/1407.1208",
+        "Semantic Scholar Corpus ID": 9342651,
+        "Text Sources": [
+            "Movies"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/piotr-bojanowski/action-ordering/blob/master/LICENSE"
+            }
+        ],
+        "Creators": [
+            "Inria"
+        ],
+        "Countries": [
+            "France"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 8.75,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Movies"
+        ]
+    }
+}

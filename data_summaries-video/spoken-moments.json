@@ -1,0 +1,56 @@
+{
+    "Spoken Moments": {
+        "Unique Dataset Identifier": "spoken-moments",
+        "Collection": "spoken-moments",
+        "Collection URL": "https://arxiv.org/abs/2105.04489",
+        "Dataset Name": "Spoken Moments",
+        "Paper Title": "Spoken Moments",
+        "Paper URL": "https://arxiv.org/abs/2105.04489",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/spoken-moments-learning-joint-audio-visual",
+        "ArXiv URL": "https://arxiv.org/abs/2105.04489",
+        "Semantic Scholar Corpus ID": 233992735,
+        "Text Sources": [
+            "Youtube",
+            "Flickr",
+            "Vine",
+            "Metacafe",
+            "Peeks",
+            "Vimeo",
+            "VideoBlocks",
+            "Bing,\r\nGiphy",
+            "The Weather Channel",
+            "and Getty-Images"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://docs.google.com/forms/d/e/1FAIpQLSdUOScon6uWkslgcA2-BCkAhMp86SihgKtMqX53zRf-E2fIHw/formResponse"
+            }
+        ],
+        "Creators": [
+            "Massachusetts Institute of Technology",
+            "IBM",
+            "The University of Texas at Austin"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 416.67,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Youtube",
+            "Flickr",
+            "Vine",
+            "Metacafe",
+            "Peeks",
+            "Vimeo",
+            "VideoBlocks",
+            "Bing,\r\nGiphy",
+            "The Weather Channel",
+            "and Getty-Images"
+        ]
+    }
+}

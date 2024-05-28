@@ -1,0 +1,65 @@
+{
+    "Regional African American Language": {
+        "Dataset Name": "regional-african-american-language",
+        "Unique Dataset Identifier": "regional-african-american-language",
+        "Collection": "Regional African American Language",
+        "Hours": 159.49,
+        "Languages (Count)": 1,
+        "Languages": [
+            "African American Vernacular English"
+        ],
+        "Languages (ISO)": [
+            "aav"
+        ],
+        "Language Groups": [
+            "English"
+        ],
+        "Language Families": [
+            "Germanic"
+        ],
+        "Speakers": 222,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "http://lingtools.uoregon.edu/coraal/userguide/CORAALUserGuide_current.pdf"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Education/School",
+            "Sports",
+            "Movies",
+            "Games",
+            "Community",
+            "Daily",
+            "Job/Work",
+            "Social Issue"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Audios Recorded First, Text Transcribed Later",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "Paper URL": "http://lingtools.uoregon.edu/coraal/userguide/CORAALUserGuide_current.pdf",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "University of Oregon"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2018,
+        "Location": [
+            "United States"
+        ],
+        "Notes": ""
+    }
+}

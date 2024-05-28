@@ -1,0 +1,36 @@
+{
+    "Aria Everyday Activities Dataset": {
+        "Unique Dataset Identifier": "project-aria-dataset",
+        "Collection": "project-aria-dataset",
+        "Collection URL": "https://arxiv.org/pdf/2402.13349",
+        "Dataset Name": "Aria Everyday Activities Dataset",
+        "Paper Title": "Aria Everyday Activities Dataset",
+        "Paper URL": "https://arxiv.org/pdf/2402.13349",
+        "GitHub URL": "https://github.com/facebookresearch/projectaria_tools",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/aria-everyday-activities-dataset",
+        "ArXiv URL": "https://arxiv.org/pdf/2402.13349",
+        "Semantic Scholar Corpus ID": 267770215,
+        "Text Sources": [
+            "Human Participants"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://github.com/facebookresearch/Aria_data_tools/blob/main/LICENSE"
+            }
+        ],
+        "Creators": [
+            "Meta"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 1400.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Human Participants"
+        ]
+    }
+}

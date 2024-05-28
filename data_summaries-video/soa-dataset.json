@@ -1,0 +1,36 @@
+{
+    "Scenes-objects-actions: A multi-task, multi-label video dataset": {
+        "Unique Dataset Identifier": "soa-dataset",
+        "Collection": "soa-dataset",
+        "Collection URL": "https://arxiv.org/pdf/1904.11451",
+        "Dataset Name": "Scenes-objects-actions: A multi-task, multi-label video dataset",
+        "Paper Title": "Scenes-objects-actions: A multi-task, multi-label video dataset",
+        "Paper URL": "https://arxiv.org/pdf/1904.11451",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/scenes-objects-actions-a-multi-task-multi",
+        "ArXiv URL": "https://arxiv.org/pdf/1904.11451",
+        "Semantic Scholar Corpus ID": 52968009,
+        "Text Sources": [
+            "Facebook"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "Meta"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 1561.1,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Facebook"
+        ]
+    }
+}

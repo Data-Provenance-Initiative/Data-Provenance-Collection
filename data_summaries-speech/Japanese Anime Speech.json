@@ -1,0 +1,56 @@
+{
+    "Japanese Anime Speech": {
+        "Dataset Name": "japanese-anime-speech",
+        "Unique Dataset Identifier": "japanese-anime-speech",
+        "Collection": "Japanese Anime Speech",
+        "Hours": 110.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Japanese"
+        ],
+        "Languages (ISO)": [
+            "ja"
+        ],
+        "Language Groups": [
+            "Japanese"
+        ],
+        "Language Families": [
+            "Japonic"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": "https://huggingface.co/datasets/joujiboi/japanese-anime-speech"
+            }
+        ],
+        "License Notes": "",
+        "Topics": "Unclear",
+        "Source Category": [
+            "Visual Novels"
+        ],
+        "Source": [
+            "Anime"
+        ],
+        "Process Description": "Audios And Transcripts Both Sourced Directly From The Game Files Of Various Visual Novels",
+        "Github URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/joujiboi/japanese-anime-speech",
+        "Papers with Code URL": "",
+        "Paper URL": "",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "Independent"
+        ],
+        "Creator Categories": [
+            "Independent"
+        ],
+        "Year Released": 2023,
+        "Location": [
+            "Japan"
+        ],
+        "Notes": ""
+    }
+}

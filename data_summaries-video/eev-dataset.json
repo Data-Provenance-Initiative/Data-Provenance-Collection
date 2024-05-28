@@ -1,0 +1,37 @@
+{
+    "EEV: A Large-Scale Dataset for Studying Evoked Expressions from Video": {
+        "Unique Dataset Identifier": "eev-dataset",
+        "Collection": "eev-dataset",
+        "Collection URL": "https://arxiv.org/abs/2001.05488",
+        "Dataset Name": "EEV: A Large-Scale Dataset for Studying Evoked Expressions from Video",
+        "Paper Title": "EEV: A Large-Scale Dataset for Studying Evoked Expressions from Video",
+        "Paper URL": "https://arxiv.org/abs/2001.05488",
+        "GitHub URL": "https://github.com/google-research-datasets/eev",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2001.05488",
+        "Semantic Scholar Corpus ID": 210701992,
+        "Text Sources": [
+            "General Web"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://github.com/google-research-datasets/eev?tab=readme-ov-file#license"
+            }
+        ],
+        "Creators": [
+            "Google Research",
+            "California Institute of Technology"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 370.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "General Web"
+        ]
+    }
+}

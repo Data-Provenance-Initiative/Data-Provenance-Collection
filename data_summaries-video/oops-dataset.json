@@ -1,0 +1,36 @@
+{
+    "Oops!: Predicting Unintentional Action in Video (CVPR 2020)": {
+        "Unique Dataset Identifier": "oops-dataset",
+        "Collection": "oops-dataset",
+        "Collection URL": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Epstein_Oops_Predicting_Unintentional_Action_in_Video_CVPR_2020_paper.pdf",
+        "Dataset Name": "Oops!: Predicting Unintentional Action in Video (CVPR 2020)",
+        "Paper Title": "Oops!: Predicting Unintentional Action in Video (CVPR 2020)",
+        "Paper URL": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Epstein_Oops_Predicting_Unintentional_Action_in_Video_CVPR_2020_paper.pdf",
+        "GitHub URL": "https://github.com/cvlab-columbia/oops",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/oops-predicting-unintentional-action-in-video",
+        "ArXiv URL": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Epstein_Oops_Predicting_Unintentional_Action_in_Video_CVPR_2020_paper.pdf",
+        "Semantic Scholar Corpus ID": 208291335,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "https://oops.cs.columbia.edu/data/"
+            }
+        ],
+        "Creators": [
+            "Columbia University"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 50.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

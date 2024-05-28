@@ -1,0 +1,40 @@
+{
+    "Apes": {
+        "Unique Dataset Identifier": "apes",
+        "Collection": "apes",
+        "Collection URL": "https://arxiv.org/pdf/2106.01667",
+        "Dataset Name": "Apes",
+        "Paper Title": "Apes",
+        "Paper URL": "https://arxiv.org/pdf/2106.01667",
+        "GitHub URL": "https://github.com/fuankarion/audiovisual-person-search",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/apes-audiovisual-person-search-in-untrimmed/review/",
+        "ArXiv URL": "https://arxiv.org/pdf/2106.01667",
+        "Semantic Scholar Corpus ID": 235313698,
+        "Text Sources": [
+            "Movies"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "Universidad de los Andes",
+            "Adobe Research",
+            "King Abdullah University of Science and Technology (KAUST)"
+        ],
+        "Countries": [
+            "Chile",
+            "United States of America",
+            "Saudi Arabia"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 36.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Movies"
+        ]
+    }
+}

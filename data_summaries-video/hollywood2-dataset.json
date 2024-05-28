@@ -1,0 +1,36 @@
+{
+    "HOLLYWOOD2: Actions in Context (CVPR 2009)": {
+        "Unique Dataset Identifier": "hollywood2-dataset",
+        "Collection": "hollywood2-dataset",
+        "Collection URL": "https://www.irisa.fr/vista/Papers/2009_cvpr_marszalek.pdf",
+        "Dataset Name": "HOLLYWOOD2: Actions in Context (CVPR 2009)",
+        "Paper Title": "HOLLYWOOD2: Actions in Context (CVPR 2009)",
+        "Paper URL": "https://www.irisa.fr/vista/Papers/2009_cvpr_marszalek.pdf",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://www.irisa.fr/vista/Papers/2009_cvpr_marszalek.pdf",
+        "Semantic Scholar Corpus ID": 3155054,
+        "Text Sources": [
+            "Movies"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "Inria"
+        ],
+        "Countries": [
+            "France"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 20.1,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Movies"
+        ]
+    }
+}

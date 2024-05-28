@@ -1,0 +1,38 @@
+{
+    "AVA Active Speaker": {
+        "Unique Dataset Identifier": "ava-dataset",
+        "Collection": "ava-dataset",
+        "Collection URL": "https://arxiv.org/abs/1901.01342",
+        "Dataset Name": "AVA Active Speaker",
+        "Paper Title": "AVA Active Speaker",
+        "Paper URL": "https://arxiv.org/abs/1901.01342",
+        "GitHub URL": "https://github.com/cvdfoundation/ava-dataset",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/ava-activespeaker",
+        "ArXiv URL": "https://arxiv.org/abs/1901.01342",
+        "Semantic Scholar Corpus ID": 216211909,
+        "Text Sources": [
+            "YouTube",
+            "Movies"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://research.google.com/ava/download.html#ava_active_speaker_download"
+            }
+        ],
+        "Creators": [
+            "Google Research"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 38.5,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube",
+            "Movies"
+        ]
+    }
+}

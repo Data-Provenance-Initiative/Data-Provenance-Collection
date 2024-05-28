@@ -1,0 +1,36 @@
+{
+    "Volleyball: A Hierarchical Deep Temporal Model for Group Activity Recognition": {
+        "Unique Dataset Identifier": "volleyball-vids",
+        "Collection": "volleyball-vids",
+        "Collection URL": "https://arxiv.org/abs/1511.06040",
+        "Dataset Name": "Volleyball: A Hierarchical Deep Temporal Model for Group Activity Recognition",
+        "Paper Title": "Volleyball: A Hierarchical Deep Temporal Model for Group Activity Recognition",
+        "Paper URL": "https://arxiv.org/abs/1511.06040",
+        "GitHub URL": "https://github.com/mostafa-saad/deep-activity-rec#dataset",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/volleyball",
+        "ArXiv URL": "https://arxiv.org/abs/1511.06040",
+        "Semantic Scholar Corpus ID": 8483403,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "Simon Fraser University"
+        ],
+        "Countries": [
+            "Canada"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 0.1,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

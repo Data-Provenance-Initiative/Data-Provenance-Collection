@@ -1,0 +1,92 @@
+{
+    "Minds14": {
+        "Dataset Name": "minds14",
+        "Unique Dataset Identifier": "minds14",
+        "Collection": "Minds14",
+        "Hours": 24.6,
+        "Languages (Count)": 12,
+        "Languages": [
+            "Czech",
+            "German",
+            "English (Dialects)",
+            "Spanish",
+            "French",
+            "Italian",
+            "Korean",
+            "Dutch",
+            "Polish",
+            "Portuguese",
+            "Russian",
+            "Chinese"
+        ],
+        "Languages (ISO)": [
+            "cs",
+            "de",
+            "en_AU",
+            "en_GB",
+            "en_US",
+            "es",
+            "fr",
+            "it",
+            "ko",
+            "nl",
+            "pl",
+            "pt",
+            "ru",
+            "zh"
+        ],
+        "Language Groups": [
+            "Other Indo-European",
+            "German",
+            "English",
+            "Spanish",
+            "French",
+            "Italian",
+            "Korean",
+            "Chinese"
+        ],
+        "Language Families": [
+            "Indo-European",
+            "English",
+            "Koreanic",
+            "Sino-Tibetan"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://huggingface.co/datasets/PolyAI/minds14"
+            }
+        ],
+        "License Notes": "",
+        "Topics": "Unclear",
+        "Source Category": [
+            "Crowd-Sourcing",
+            "Calling Platform"
+        ],
+        "Source": [
+            "Crowd-Sourcing",
+            "Calling Platform"
+        ],
+        "Process Description": "Audios Recorded First, Text Transcribed Later",
+        "Github URL": "https://github.com/zanuura/Whisper-ASR-Minds14-English",
+        "Hugging Face URL": "https://huggingface.co/datasets/PolyAI/minds14",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/minds14",
+        "Paper URL": "https://arxiv.org/abs/2104.08524",
+        "Semantic Scholar Corpus ID": 233296945,
+        "Creators": [
+            "PolyAI Limited"
+        ],
+        "Creator Categories": [
+            "Industry"
+        ],
+        "Year Released": 2021,
+        "Location": [
+            "United Kingdom"
+        ],
+        "Notes": ""
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "Kinetics-700": {
+        "Unique Dataset Identifier": "kinetics-700",
+        "Collection": "kinetics-700",
+        "Collection URL": "https://arxiv.org/pdf/2010.10864.pdf",
+        "Dataset Name": "Kinetics-700",
+        "Paper Title": "Kinetics-700",
+        "Paper URL": "https://arxiv.org/pdf/2010.10864.pdf",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/kinetics-700",
+        "ArXiv URL": "https://arxiv.org/pdf/2010.10864.pdf",
+        "Semantic Scholar Corpus ID": 196831809,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "DeepMind"
+        ],
+        "Countries": [
+            "United Kingdom"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 1805.56,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

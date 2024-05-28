@@ -1,0 +1,40 @@
+{
+    "Narrated Instruction Videos": {
+        "Unique Dataset Identifier": "narrated-instruction-vids\r\n",
+        "Collection": "narrated-instruction-vids\r\n",
+        "Collection URL": "https://arxiv.org/abs/1506.09215",
+        "Dataset Name": "Narrated Instruction Videos",
+        "Paper Title": "Narrated Instruction Videos",
+        "Paper URL": "https://arxiv.org/abs/1506.09215",
+        "GitHub URL": "https://github.com/jalayrac/instructionVideos",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/youtube-inria-instructional",
+        "ArXiv URL": "https://arxiv.org/abs/1506.09215",
+        "Semantic Scholar Corpus ID": 2617244,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/jalayrac/instructionVideos?tab=readme-ov-file#license"
+            }
+        ],
+        "Creators": [
+            "CNRS",
+            "Ecole Normale Sup\u00e9rieure",
+            "Inria",
+            "International Institute of Information Technology - Hyderabad"
+        ],
+        "Countries": [
+            "United States of America",
+            "India"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 7.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

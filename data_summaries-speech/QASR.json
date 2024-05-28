@@ -1,0 +1,70 @@
+{
+    "QASR": {
+        "Dataset Name": "qasr",
+        "Unique Dataset Identifier": "qasr",
+        "Collection": "QASR",
+        "Hours": 2041.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Arabic (Dialects)"
+        ],
+        "Languages (ISO)": [
+            "ar"
+        ],
+        "Language Groups": [
+            "Arabic"
+        ],
+        "Language Families": [
+            "Afroasiatic"
+        ],
+        "Speakers": 11092,
+        "Tasks": [
+            "Speech Recognition",
+            "Speaker Identification"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "News",
+            "Politics",
+            "Society",
+            "Economy",
+            "Sports",
+            "Science",
+            "Other"
+        ],
+        "Source Category": [
+            "TV"
+        ],
+        "Source": [
+            "Aljazeera News Channel"
+        ],
+        "Process Description": "Audios And Lightly Supervised Transcriptions Collected First, Then Alignment Of Transcription Done Later",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://arabicspeech.org/resources/qasr"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/paper/qasr-qcri-aljazeera-speech-resource-a-large-1",
+        "Paper URL": "https://arxiv.org/pdf/2106.13000",
+        "Semantic Scholar Corpus ID": 235624245,
+        "Creators": [
+            "Qatar Computing Research Institute",
+            "Kanari AI"
+        ],
+        "Creator Categories": [
+            "Academia",
+            "Industry"
+        ],
+        "Year Released": 2021,
+        "Location": [
+            "Qatar",
+            "United States"
+        ],
+        "Notes": ""
+    }
+}

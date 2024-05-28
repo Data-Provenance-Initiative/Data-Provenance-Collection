@@ -1,0 +1,36 @@
+{
+    "MovieNet": {
+        "Unique Dataset Identifier": "movie-net",
+        "Collection": "movie-net",
+        "Collection URL": "https://arxiv.org/abs/2007.10937",
+        "Dataset Name": "MovieNet",
+        "Paper Title": "MovieNet",
+        "Paper URL": "https://arxiv.org/abs/2007.10937",
+        "GitHub URL": "https://github.com/movienet/movienet-tools",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/movienet",
+        "ArXiv URL": "https://arxiv.org/abs/2007.10937",
+        "Semantic Scholar Corpus ID": 220665753,
+        "Text Sources": [
+            "Movies"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "The Chinese University of Hong Kong"
+        ],
+        "Countries": [
+            "China"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 3000.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Movies"
+        ]
+    }
+}

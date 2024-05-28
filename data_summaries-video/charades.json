@@ -1,0 +1,40 @@
+{
+    "Charades": {
+        "Unique Dataset Identifier": "charades",
+        "Collection": "charades",
+        "Collection URL": "https://arxiv.org/abs/1604.01753",
+        "Dataset Name": "Charades",
+        "Paper Title": "Charades",
+        "Paper URL": "https://arxiv.org/abs/1604.01753",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/HuggingFaceM4/charades",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/charades",
+        "ArXiv URL": "https://arxiv.org/abs/1604.01753",
+        "Semantic Scholar Corpus ID": 18061547,
+        "Text Sources": [
+            "Human Participants"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://huggingface.co/datasets/HuggingFaceM4/charades#licensing-information"
+            }
+        ],
+        "Creators": [
+            "Carnegie Mellon University",
+            "Inria",
+            "University of Washington",
+            "Allen Institute for AI"
+        ],
+        "Countries": [
+            "United States of America",
+            "France"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 82.3,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Human Participants"
+        ]
+    }
+}

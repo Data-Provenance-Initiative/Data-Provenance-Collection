@@ -1,0 +1,38 @@
+{
+    "ActivityNet ": {
+        "Unique Dataset Identifier": "activitynet",
+        "Collection": "activitynet",
+        "Collection URL": "https://ieeexplore.ieee.org/document/7298698",
+        "Dataset Name": "ActivityNet ",
+        "Paper Title": "ActivityNet ",
+        "Paper URL": "https://ieeexplore.ieee.org/document/7298698",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/Leyo/ActivityNet_Captions",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/activitynet",
+        "ArXiv URL": "https://ieeexplore.ieee.org/document/7298698",
+        "Semantic Scholar Corpus ID": 1710722,
+        "Text Sources": [
+            "General web"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/facebookresearch/ActivityNet-Entities/blob/main/LICENSE"
+            }
+        ],
+        "Creators": [
+            "Universidad del Norte",
+            "King Abdullah University of Science and Technology (KAUST)"
+        ],
+        "Countries": [
+            "Saudi Arabia",
+            "Colombia"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 849.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "General web"
+        ]
+    }
+}

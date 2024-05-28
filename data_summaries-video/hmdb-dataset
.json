@@ -1,0 +1,47 @@
+{
+    "HMDB: A Large Video Database for Human Motion Recognition (ICCV 2011)\r\n": {
+        "Unique Dataset Identifier": "hmdb-dataset\r\n",
+        "Collection": "hmdb-dataset\r\n",
+        "Collection URL": "https://ieeexplore.ieee.org/document/6126543",
+        "Dataset Name": "HMDB: A Large Video Database for Human Motion Recognition (ICCV 2011)\r\n",
+        "Paper Title": "HMDB: A Large Video Database for Human Motion Recognition (ICCV 2011)\r\n",
+        "Paper URL": "https://ieeexplore.ieee.org/document/6126543",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/hmdb51",
+        "ArXiv URL": "https://ieeexplore.ieee.org/document/6126543",
+        "Semantic Scholar Corpus ID": 206769852,
+        "Text Sources": [
+            "Movies",
+            "Prelinger archive",
+            "General Web",
+            "YouTube",
+            "Google Videos"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/"
+            }
+        ],
+        "Creators": [
+            "Karlsruhe Institute of Technology",
+            "Massachusetts Institute of Technology",
+            "Brown University"
+        ],
+        "Countries": [
+            "United States of America",
+            "Germany"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 7000.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Movies",
+            "Prelinger archive",
+            "General Web",
+            "YouTube",
+            "Google Videos"
+        ]
+    }
+}

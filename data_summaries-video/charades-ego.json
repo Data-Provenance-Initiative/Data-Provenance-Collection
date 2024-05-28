@@ -1,0 +1,36 @@
+{
+    "Charades-Ego: Actor and Observer: Joint Modeling of First and Third-Person Videos (CVPR 2018)": {
+        "Unique Dataset Identifier": "charades-ego",
+        "Collection": "charades-ego",
+        "Collection URL": "https://arxiv.org/abs/1804.09627",
+        "Dataset Name": "Charades-Ego: Actor and Observer: Joint Modeling of First and Third-Person Videos (CVPR 2018)",
+        "Paper Title": "Charades-Ego: Actor and Observer: Joint Modeling of First and Third-Person Videos (CVPR 2018)",
+        "Paper URL": "https://arxiv.org/abs/1804.09627",
+        "GitHub URL": "https://github.com/gsig/actor-observer",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/search?q_meta=&q_type=&q=Actor+and+Observer%3A+Joint+Modeling+of+First+and+Third-Person+Videos",
+        "ArXiv URL": "https://arxiv.org/abs/1804.09627",
+        "Semantic Scholar Corpus ID": 4562167,
+        "Text Sources": [
+            "Human Participants"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://prior.allenai.org/projects/data/charades-ego/license.txt"
+            }
+        ],
+        "Creators": [
+            "Allen Institute for AI"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 69.33,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Human Participants"
+        ]
+    }
+}

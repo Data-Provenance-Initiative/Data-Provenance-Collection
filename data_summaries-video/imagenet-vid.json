@@ -1,0 +1,36 @@
+{
+    "ImageNet VID": {
+        "Unique Dataset Identifier": "imagenet-vid",
+        "Collection": "imagenet-vid",
+        "Collection URL": "https://link.springer.com/article/10.1007/s11263-015-0816-y?sa_campaign=email/event/articleAuthor/onlineFirst#",
+        "Dataset Name": "ImageNet VID",
+        "Paper Title": "ImageNet VID",
+        "Paper URL": "https://link.springer.com/article/10.1007/s11263-015-0816-y?sa_campaign=email/event/articleAuthor/onlineFirst#",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/sota/video-object-detection-on-imagenet-vid",
+        "ArXiv URL": "https://link.springer.com/article/10.1007/s11263-015-0816-y?sa_campaign=email/event/articleAuthor/onlineFirst#",
+        "Semantic Scholar Corpus ID": 2930547,
+        "Text Sources": [
+            "General web"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://www.image-net.org/challenges/LSVRC/2017/index.php"
+            }
+        ],
+        "Creators": [
+            "Stanford University"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 9.26,
+        "Taken Down": "False",
+        "Video Sources": [
+            "General web"
+        ]
+    }
+}

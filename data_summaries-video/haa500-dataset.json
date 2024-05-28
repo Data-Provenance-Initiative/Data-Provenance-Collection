@@ -1,0 +1,40 @@
+{
+    "HAA500: Human-Centric Atomic Action Dataset with Curated Videos (ICCV 2021)": {
+        "Unique Dataset Identifier": "haa500-dataset",
+        "Collection": "haa500-dataset",
+        "Collection URL": "https://arxiv.org/abs/2009.05224",
+        "Dataset Name": "HAA500: Human-Centric Atomic Action Dataset with Curated Videos (ICCV 2021)",
+        "Paper Title": "HAA500: Human-Centric Atomic Action Dataset with Curated Videos (ICCV 2021)",
+        "Paper URL": "https://arxiv.org/abs/2009.05224",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/haa500-human-centric-atomic-action-dataset",
+        "ArXiv URL": "https://arxiv.org/abs/2009.05224",
+        "Semantic Scholar Corpus ID": 221640805,
+        "Text Sources": [
+            "Human Participants"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "Carnegie Mellon University",
+            "The Hong Kong University of Science and Technology",
+            "Princeton University",
+            "Kuaishou Technology"
+        ],
+        "Countries": [
+            "China",
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 5.48,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Human Participants"
+        ]
+    }
+}

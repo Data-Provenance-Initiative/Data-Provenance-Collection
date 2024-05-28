@@ -1,0 +1,40 @@
+{
+    "EPIC-KITCHENS": {
+        "Unique Dataset Identifier": "epic-kitchenes",
+        "Collection": "epic-kitchenes",
+        "Collection URL": "https://arxiv.org/abs/1804.02748",
+        "Dataset Name": "EPIC-KITCHENS",
+        "Paper Title": "EPIC-KITCHENS",
+        "Paper URL": "https://arxiv.org/abs/1804.02748",
+        "GitHub URL": "https://github.com/epic-kitchens",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/epic-kitchens-100",
+        "ArXiv URL": "https://arxiv.org/abs/1804.02748",
+        "Semantic Scholar Corpus ID": 4710439,
+        "Text Sources": [
+            "Human Participants"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://epic-kitchens.github.io/2024"
+            }
+        ],
+        "Creators": [
+            "University of Toronto",
+            "University of Bristol",
+            "University of Catania"
+        ],
+        "Countries": [
+            "United Kingdom",
+            "Canada",
+            "Spain"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 100.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Human Participants"
+        ]
+    }
+}

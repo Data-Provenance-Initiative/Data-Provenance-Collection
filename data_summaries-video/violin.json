@@ -1,0 +1,36 @@
+{
+    "VIOLIN": {
+        "Unique Dataset Identifier": "violin",
+        "Collection": "violin",
+        "Collection URL": "https://arxiv.org/abs/2003.11618",
+        "Dataset Name": "VIOLIN",
+        "Paper Title": "VIOLIN",
+        "Paper URL": "https://arxiv.org/abs/2003.11618",
+        "GitHub URL": "https://github.com/jimmy646/violin",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/violin",
+        "ArXiv URL": "https://arxiv.org/abs/2003.11618",
+        "Semantic Scholar Corpus ID": 214668012,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "Microsoft"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 582.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

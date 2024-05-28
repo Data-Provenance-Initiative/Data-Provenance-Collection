@@ -1,0 +1,36 @@
+{
+    "50Salads": {
+        "Unique Dataset Identifier": "50salads",
+        "Collection": "50salads",
+        "Collection URL": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=b9410401cec076baef045e83953f3ff24f25d149",
+        "Dataset Name": "50Salads",
+        "Paper Title": "50Salads",
+        "Paper URL": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=b9410401cec076baef045e83953f3ff24f25d149",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/50-salads",
+        "ArXiv URL": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=b9410401cec076baef045e83953f3ff24f25d149",
+        "Semantic Scholar Corpus ID": 2333743,
+        "Text Sources": [
+            "Human Participants"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "https://cvip.computing.dundee.ac.uk/datasets/foodpreparation/50salads/"
+            }
+        ],
+        "Creators": [
+            "University of Dundee"
+        ],
+        "Countries": [
+            "United Kingdom"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 40.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Human Participants"
+        ]
+    }
+}

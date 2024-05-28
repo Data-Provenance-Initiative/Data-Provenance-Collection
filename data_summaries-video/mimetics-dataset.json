@@ -1,0 +1,36 @@
+{
+    "Mimetics: Towards Understanding Human Actions Out of Context\r\n": {
+        "Unique Dataset Identifier": "mimetics-dataset",
+        "Collection": "mimetics-dataset",
+        "Collection URL": "https://arxiv.org/abs/1912.07249",
+        "Dataset Name": "Mimetics: Towards Understanding Human Actions Out of Context\r\n",
+        "Paper Title": "Mimetics: Towards Understanding Human Actions Out of Context\r\n",
+        "Paper URL": "https://arxiv.org/abs/1912.07249",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/mimetics-towards-understanding-human-actions",
+        "ArXiv URL": "https://arxiv.org/abs/1912.07249",
+        "Semantic Scholar Corpus ID": 209376248,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "Naver"
+        ],
+        "Countries": [
+            "South Korea"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 0.99,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

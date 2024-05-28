@@ -1,0 +1,36 @@
+{
+    "Kinetics 600": {
+        "Unique Dataset Identifier": "kinetics-600",
+        "Collection": "kinetics-600",
+        "Collection URL": "https://arxiv.org/abs/1808.01340",
+        "Dataset Name": "Kinetics 600",
+        "Paper Title": "Kinetics 600",
+        "Paper URL": "https://arxiv.org/abs/1808.01340",
+        "GitHub URL": "https://github.com/cvdfoundation/kinetics-dataset",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/kinetics-600",
+        "ArXiv URL": "https://arxiv.org/abs/1808.01340",
+        "Semantic Scholar Corpus ID": 51927456,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "DeepMind"
+        ],
+        "Countries": [
+            "United Kingdom"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 1376.52,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

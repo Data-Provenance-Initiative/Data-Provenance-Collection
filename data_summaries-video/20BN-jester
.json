@@ -1,0 +1,36 @@
+{
+    "20BN-jester: The Jester Dataset: A Large-Scale Video Dataset of Human Gestures (ICCVW 2019)\r\n": {
+        "Unique Dataset Identifier": "20BN-jester\r\n",
+        "Collection": "20BN-jester\r\n",
+        "Collection URL": "https://openaccess.thecvf.com/content_ICCVW_2019/papers/HANDS/Materzynska_The_Jester_Dataset_A_Large-Scale_Video_Dataset_of_Human_Gestures_ICCVW_2019_paper.pdf",
+        "Dataset Name": "20BN-jester: The Jester Dataset: A Large-Scale Video Dataset of Human Gestures (ICCVW 2019)\r\n",
+        "Paper Title": "20BN-jester: The Jester Dataset: A Large-Scale Video Dataset of Human Gestures (ICCVW 2019)\r\n",
+        "Paper URL": "https://openaccess.thecvf.com/content_ICCVW_2019/papers/HANDS/Materzynska_The_Jester_Dataset_A_Large-Scale_Video_Dataset_of_Human_Gestures_ICCVW_2019_paper.pdf",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://openaccess.thecvf.com/content_ICCVW_2019/papers/HANDS/Materzynska_The_Jester_Dataset_A_Large-Scale_Video_Dataset_of_Human_Gestures_ICCVW_2019_paper.pdf",
+        "Semantic Scholar Corpus ID": 208010438,
+        "Text Sources": [
+            "crowd-sourced"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://developer.qualcomm.com/software/ai-datasets/jester"
+            }
+        ],
+        "Creators": [
+            "Twenty Billion Neurons GmbH"
+        ],
+        "Countries": [
+            "Germany"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 13.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "crowd-sourced"
+        ]
+    }
+}

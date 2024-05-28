@@ -1,0 +1,36 @@
+{
+    "Toyota Smarthome: Real-World Activities of Daily Living (ICCV 2019)\r\n": {
+        "Unique Dataset Identifier": "toyota-smarthome\r\n",
+        "Collection": "toyota-smarthome\r\n",
+        "Collection URL": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Das_Toyota_Smarthome_Real-World_Activities_of_Daily_Living_ICCV_2019_paper.pdf",
+        "Dataset Name": "Toyota Smarthome: Real-World Activities of Daily Living (ICCV 2019)\r\n",
+        "Paper Title": "Toyota Smarthome: Real-World Activities of Daily Living (ICCV 2019)\r\n",
+        "Paper URL": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Das_Toyota_Smarthome_Real-World_Activities_of_Daily_Living_ICCV_2019_paper.pdf",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Das_Toyota_Smarthome_Real-World_Activities_of_Daily_Living_ICCV_2019_paper.pdf",
+        "Semantic Scholar Corpus ID": 207971208,
+        "Text Sources": [
+            "Human Participants"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://project.inria.fr/toyotasmarthome/files/2020/12/License_v2.pdf"
+            }
+        ],
+        "Creators": [
+            "Toyota"
+        ],
+        "Countries": [
+            "France"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 268.58,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Human Participants"
+        ]
+    }
+}

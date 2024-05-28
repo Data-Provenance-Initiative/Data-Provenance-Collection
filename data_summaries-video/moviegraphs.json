@@ -1,0 +1,38 @@
+{
+    "MovieGraphs": {
+        "Unique Dataset Identifier": "moviegraphs",
+        "Collection": "moviegraphs",
+        "Collection URL": "https://arxiv.org/pdf/1712.06761",
+        "Dataset Name": "MovieGraphs",
+        "Paper Title": "MovieGraphs",
+        "Paper URL": "https://arxiv.org/pdf/1712.06761",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/moviegraphs",
+        "ArXiv URL": "https://arxiv.org/pdf/1712.06761",
+        "Semantic Scholar Corpus ID": 4856028,
+        "Text Sources": [
+            "Movies"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "http://moviegraphs.cs.toronto.edu/download.html"
+            }
+        ],
+        "Creators": [
+            "Vector Institute for Artificial Intelligence",
+            "Montreal Institute of Learning Algorithms (Mila)",
+            "University of Toronto"
+        ],
+        "Countries": [
+            "Canada"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 93.9,
+        "Taken Down": "True",
+        "Video Sources": [
+            "Movies"
+        ]
+    }
+}

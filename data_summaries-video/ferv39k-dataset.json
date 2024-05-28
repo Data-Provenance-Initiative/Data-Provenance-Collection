@@ -1,0 +1,36 @@
+{
+    "FERV39k: A Large-Scale Multi-Scene Dataset for Facial Expression Recognition in Videos (CVPR 2022)\r\n": {
+        "Unique Dataset Identifier": "ferv39k-dataset",
+        "Collection": "ferv39k-dataset",
+        "Collection URL": "https://arxiv.org/abs/2203.09463",
+        "Dataset Name": "FERV39k: A Large-Scale Multi-Scene Dataset for Facial Expression Recognition in Videos (CVPR 2022)\r\n",
+        "Paper Title": "FERV39k: A Large-Scale Multi-Scene Dataset for Facial Expression Recognition in Videos (CVPR 2022)\r\n",
+        "Paper URL": "https://arxiv.org/abs/2203.09463",
+        "GitHub URL": "https://github.com/wangyanckxx/FERV39k",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/ferv39k-a-large-scale-multi-scene-dataset-for",
+        "ArXiv URL": "https://arxiv.org/abs/2203.09463",
+        "Semantic Scholar Corpus ID": 247518747,
+        "Text Sources": [
+            "General Web"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://wangyanckxx.github.io/Proj_CVPR2022_FERV39k.html"
+            }
+        ],
+        "Creators": [
+            "Fudan University"
+        ],
+        "Countries": [
+            "China"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 16.47,
+        "Taken Down": "False",
+        "Video Sources": [
+            "General Web"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "Condensed Movies": {
+        "Unique Dataset Identifier": "condensed-movies",
+        "Collection": "condensed-movies",
+        "Collection URL": "https://arxiv.org/pdf/2005.04208",
+        "Dataset Name": "Condensed Movies",
+        "Paper Title": "Condensed Movies",
+        "Paper URL": "https://arxiv.org/pdf/2005.04208",
+        "GitHub URL": "https://github.com/m-bain/CondensedMovies",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/condensed-movies",
+        "ArXiv URL": "https://arxiv.org/pdf/2005.04208",
+        "Semantic Scholar Corpus ID": 218571391,
+        "Text Sources": [
+            "Movies"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://www.robots.ox.ac.uk/~vgg/data/condensed-movies/#download"
+            }
+        ],
+        "Creators": [
+            "University of Oxford"
+        ],
+        "Countries": [
+            "United Kingdom"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 1270.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Movies"
+        ]
+    }
+}

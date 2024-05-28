@@ -1,0 +1,38 @@
+{
+    "StoryGraphs": {
+        "Unique Dataset Identifier": "stroygraphs",
+        "Collection": "stroygraphs",
+        "Collection URL": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Tapaswi_StoryGraphs_Visualizing_Character_2014_CVPR_paper.pdf",
+        "Dataset Name": "StoryGraphs",
+        "Paper Title": "StoryGraphs",
+        "Paper URL": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Tapaswi_StoryGraphs_Visualizing_Character_2014_CVPR_paper.pdf",
+        "GitHub URL": "https://github.com/makarandtapaswi/StoryGraphs_CVPR2014",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/storygraphs-visualizing-character",
+        "ArXiv URL": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Tapaswi_StoryGraphs_Visualizing_Character_2014_CVPR_paper.pdf",
+        "Semantic Scholar Corpus ID": 1055956,
+        "Text Sources": [
+            "Movies"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "Vector Institute for Artificial Intelligence",
+            "Montreal Institute of Learning Algorithms (Mila)",
+            "University of Toronto"
+        ],
+        "Countries": [
+            "Germany"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 7.3,
+        "Taken Down": "True",
+        "Video Sources": [
+            "Movies"
+        ]
+    }
+}

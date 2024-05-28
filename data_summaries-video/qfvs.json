@@ -1,0 +1,37 @@
+{
+    "QFVS: Query-Focused Video Summarization: Dataset, Evaluation, and A Memory Network Based Approach (CVPR 2017)": {
+        "Unique Dataset Identifier": "qfvs",
+        "Collection": "qfvs",
+        "Collection URL": "https://arxiv.org/abs/1707.04960",
+        "Dataset Name": "QFVS: Query-Focused Video Summarization: Dataset, Evaluation, and A Memory Network Based Approach (CVPR 2017)",
+        "Paper Title": "QFVS: Query-Focused Video Summarization: Dataset, Evaluation, and A Memory Network Based Approach (CVPR 2017)",
+        "Paper URL": "https://arxiv.org/abs/1707.04960",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/query-focused-video-summarization-dataset",
+        "ArXiv URL": "https://arxiv.org/abs/1707.04960",
+        "Semantic Scholar Corpus ID": 2774608,
+        "Text Sources": [
+            "crowd-sourced"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "University of Central Florida",
+            "University of Alabama"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 20.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "crowd-sourced"
+        ]
+    }
+}

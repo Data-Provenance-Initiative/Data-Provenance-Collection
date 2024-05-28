@@ -1,0 +1,66 @@
+{
+    "CoNASE": {
+        "Dataset Name": "conase",
+        "Unique Dataset Identifier": "conase",
+        "Collection": "CoNASE",
+        "Hours": 154041.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "English (Dialects)"
+        ],
+        "Languages (ISO)": [
+            "en"
+        ],
+        "Language Groups": [
+            "English"
+        ],
+        "Language Families": [
+            "Germanic"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/X8QJJV"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Government",
+            "Town Meeting",
+            "Municipal",
+            "City Council",
+            "Country Supervisors",
+            "Board of Supervisors"
+        ],
+        "Source Category": [
+            "Internet Video"
+        ],
+        "Source": [
+            "YouTube"
+        ],
+        "Process Description": "Audios With Transcripts Attached",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://cc.oulu.fi/~scoats/CoNASE.html#access"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "https://cc.oulu.fi/~scoats/YouTube_Corpus_19a.pdf",
+        "Semantic Scholar Corpus ID": 162183706,
+        "Creators": [
+            "University of Oulu"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2019,
+        "Location": [
+            "Finland"
+        ],
+        "Notes": ""
+    }
+}

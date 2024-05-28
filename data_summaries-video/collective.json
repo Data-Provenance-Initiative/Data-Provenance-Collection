@@ -1,0 +1,36 @@
+{
+    "Collective: What are they doing? : Collective activity classification using spatio-temporal relationship among people": {
+        "Unique Dataset Identifier": "collective",
+        "Collection": "collective",
+        "Collection URL": "https://cvgl.stanford.edu/papers/Wongun_CollectiveActivityRecognition09.pdf",
+        "Dataset Name": "Collective: What are they doing? : Collective activity classification using spatio-temporal relationship among people",
+        "Paper Title": "Collective: What are they doing? : Collective activity classification using spatio-temporal relationship among people",
+        "Paper URL": "https://cvgl.stanford.edu/papers/Wongun_CollectiveActivityRecognition09.pdf",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://cvgl.stanford.edu/papers/Wongun_CollectiveActivityRecognition09.pdf",
+        "Semantic Scholar Corpus ID": 5925915,
+        "Text Sources": [
+            "Human Participants"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "University of Michigan"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 0.1,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Human Participants"
+        ]
+    }
+}
