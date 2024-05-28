@@ -303,5 +303,90 @@
         "Acad",
         "1",
         "0"
+    ],
+    "https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/human-activity-recognition/mpii-cooking-2-dataset/": [
+        "Acad",
+        "1",
+        "0"
+    ],
+    "https://mmact19.github.io/2019/": [
+        "Acad",
+        "1",
+        "0"
+    ],
+    "http://moviegraphs.cs.toronto.edu/download.html": [
+        "Acad",
+        "1",
+        "0"
+    ],
+    "https://github.com/microsoft/XPretrain/blob/main/hd-vila-100m/README.md": [
+        "Acad",
+        "1",
+        "0"
+    ],
+    "https://datasets.d2.mpi-inf.mpg.de/movieDescription/protected/lsmdc2016/README.txt": [
+        "Acad",
+        "1",
+        "0"
+    ],
+    "https://www.robots.ox.ac.uk/~vgg/data/voxceleb/": [
+        "Acad",
+        "1",
+        "0"
+    ],
+    "https://github.com/coin-dataset/annotations?tab=readme-ov-file#license": [
+        "Acad",
+        "1",
+        "0"
+    ],
+    "https://github.com/holistic-video-understanding/HVU-Dataset": [
+        "Acad",
+        "1",
+        "0"
+    ],
+    "https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/human-activity-recognition/mpii-cooking-activities-dataset": [
+        "Acad",
+        "1",
+        "0"
+    ],
+    "https://project.inria.fr/toyotasmarthome/files/2020/12/License_v2.pdf": [
+        "Acad",
+        "1",
+        "0"
+    ],
+    "http://moments.csail.mit.edu/": [
+        "Acad",
+        "1",
+        "0"
+    ],
+    "https://rose1.ntu.edu.sg/dataset/actionRecognition/": [
+        "Acad",
+        "1",
+        "0"
+    ],
+    "https://github.com/hangzhaomit/HACS-dataset?tab=readme-ov-file#request-testing-videos-and-missing-videos-new": [
+        "Acad",
+        "1",
+        "0"
+    ],
+    "https://docs.google.com/forms/d/e/1FAIpQLScs9davISAtYQS7SEF5qQNu0jUpLzNH3aHmPfuqk2q1VYDkmw/viewform": [
+        "Acad",
+        "1",
+        "0"
+    ],
+    "https://sutdcv.github.io/uav-human-web/": [
+        "Acad",
+        "1",
+        "0"
+    ], 
+    "https://web.eecs.umich.edu/~fouhey/2017/VLOG/index.html": [
+        "Acad",
+        "1",
+        "0"
+    ],
+    "https://fouheylab.eecs.umich.edu/~dandans/projects/100DOH/download.html": [
+        "Acad",
+        "1",
+        "0"
     ]
 }
