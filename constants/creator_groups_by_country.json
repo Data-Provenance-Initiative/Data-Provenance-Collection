@@ -1,29 +1,29 @@
 {
   "African Continent": [
     "Alamoja Yoruba & Masakhane NLP",
-    "Masakhane NLP",
+    "Masakhane NLP"
   ],
   "Australia": [
     "RMIT University",
-    "University of Melbourne",
+    "University of Melbourne"
   ],
   "Bangladesh": [
     "Bangladesh University of Engineering and Technology",
-    "Chittagong University of Engineering and Technology",
+    "Chittagong University of Engineering and Technology"
   ],
   "Belgium": [
     "Ghent University",
     "KU Leuven",
-    "University of Antwerp",
+    "University of Antwerp"
   ],
   "Brazil": [
-    "University of Sao Paulo",
+    "University of Sao Paulo"
   ],
   "Bulgaria": [
-    "Sofia University",
+    "Sofia University"
   ],
   "Cambodia": [
-    "Cambodia Academy of Digital Technology",
+    "Cambodia Academy of Digital Technology"
   ],
   "Canada": [
     "CIFAR Senior Fellow",
@@ -42,7 +42,7 @@
     "York University"
   ],
   "Chile": [
-    "CENIA",
+    "CENIA"
   ],
   "China": [
     "01.ai",
@@ -107,29 +107,29 @@
     "Xinjiang University",
     "Zhejiang University",
     "Zhihu Inc",
-    "Zhipu AI",
+    "Zhipu AI"
   ],
   "Croatia": [
-    "Faculty of Humanities and Social Sciences\nIvana Luˇci´ca",
+    "Faculty of Humanities and Social Sciences\nIvana Luˇci´ca"
   ],
   "Czech Republic": [
     "Charles University",
-    "Czech Technical University",
+    "Czech Technical University"
   ],
   "Czechia": [
-    "Masaryk University",
+    "Masaryk University"
   ],
   "Denmark": [
     "Aalborg University",
     "IT University of Copenhagen",
-    "University of Copenhagen",
+    "University of Copenhagen"
   ],
   "Finland": [
     "Aalto University",
     "Aalto University School of Business",
     "Rootroo Ltd",
     "University of Helsinki",
-    "University of Turku",
+    "University of Turku"
   ],
   "France": [
     "CNRS",
@@ -145,7 +145,7 @@
     "Université Grenoble Alpes",
     "University of Le Mans",
     "University of Lille",
-    "University of Toulouse",
+    "University of Toulouse"
   ],
   "Germany": [
     "Bauhaus-Universitat Weimar",
@@ -173,6 +173,7 @@
     "TU Wien",
     "Technische Universitat Darmstadt",
     "Technische Universität München",
+    "Technische UniversitÃ¤t MÃ¼nchen",
     "Universitat Hamburg",
     "University Hospital Aachen",
     "University of Göttingen",
@@ -180,24 +181,24 @@
     "University of Leipzig",
     "University of Mannheim",
     "University of Stuttgart",
-    "Universität Leipzig",
+    "Universität Leipzig"
   ],
   "Greece": [
     "Aristotle University of Thessaloniki",
     "Athens University of Economics and Business",
-    "Innoetics",
+    "Innoetics"
   ],
   "Guinea": [
-    "GNCode",
+    "GNCode"
   ],
   "Hong Kong": [
     "Center for Artificial Intelligence Research (CAiRE)",
     "The Hong Kong Polytechnic University",
     "The Hong Kong University of Science and Technology",
-    "The University of Hong Kong",
+    "The University of Hong Kong"
   ],
   "Iceland": [
-    "Reykjavik University",
+    "Reykjavik University"
   ],
   "India": [
     "AI4Bharat",
@@ -216,7 +217,7 @@
     "Flipkart",
     "Karya Inc",
     "Saama AI Research Chennai",
-    "Uka Tarsadia University",
+    "Uka Tarsadia University"
   ],
   "Indonesia": [
     "Backyard Co., Ltd",
@@ -228,7 +229,7 @@
     "Universitas Islam Indonesia",
     "Universitas Kristen Duta Wacana",
     "Universitas Kristen Satya Wacana",
-    "Universitas Teknologi Yogyakarta",
+    "Universitas Teknologi Yogyakarta"
   ],
   "International/Other/Unknown": [
     "BigCode",
@@ -238,36 +239,37 @@
     "Mobile Communications Business",
     "Multimodal Art Projection (M-A-P)",
     "TCS Research Tata Consultancy Services",
-    "explainthejoke.com",
+    "explainthejoke.com"
   ],
   "Iran": [
     "Shahid Beheshti University",
     "Sharif University of Technology",
     "Tehran Institute for Advanced Studies",
     "Tehran Polytechnic",
-    "University of Qom",
+    "University of Qom"
   ],
   "Ireland": [
     "Accenture",
     "ADAPT Centre",
     "Dublin City University",
     "Insight SFI Research Centre for Data Analytics",
-    "National University of Ireland Galway",
+    "National University of Ireland Galway"
   ],
   "Israel": [
     "Bar-Ilan University",
     "Tel Aviv University",
     "The Hebrew University",
-    "The Open University of Israel",
+    "The Open University of Israel"
   ],
   "Italy": [
     "Fondazione Bruno Kessler",
     "Sapienza University of Rome",
     "Universit`a degli Studi di Trento",
+    "Univerisity of Pisa",
     "Universita di Pisa",
     "University of Bologna",
     "University of Pisa",
-    "University of Trento",
+    "University of Trento"
   ],
   "Japan": [
     "Advanced Speech Translation Research and Development Promotion Center",
@@ -284,20 +286,20 @@
     "The National Institute for Japanese Language",
     "Tohoku University",
     "Tokyo Metropolitan University",
-    "University of Tokyo",
+    "University of Tokyo"
   ],
   "Jordan": [
     "The University of Jordan",
-    "Appswave",
+    "Appswave"
   ],
   "Kazakhstan": [
-    "Nazarbayev University",
+    "Nazarbayev University"
   ],
   "Mexico": [
-    "Instituto Politécnico Nacional",
+    "Instituto Politécnico Nacional"
   ],
   "Myanmar": [
-    "Yangon University of Computer Studies",
+    "Yangon University of Computer Studies"
   ],
   "Netherlands": [
     "TAUS",
@@ -306,11 +308,11 @@
     "University of Groningen",
     "Utrecht University",
     "VU University Amsterdam",
-    "Vrije Universiteit Amsterdam",
+    "Vrije Universiteit Amsterdam"
   ],
   "New Zealand": [
     "The University of Auckland",
-    "The University of Waikato",
+    "The University of Waikato"
   ],
   "Nigeria": [
     "AI Saturdays Lagos",
@@ -319,12 +321,12 @@
     "Nigeria & Masakhane NLP",
     "Nuhu Bamalli Polytechnic",
     "University of Ibadan",
-    "Yobamoodua Cultural Heritage (YMCH)",
+    "Yobamoodua Cultural Heritage (YMCH)"
   ],
   "Norway": [
     "National Library of Norway",
     "Telenor Research",
-    "University of Oslo",
+    "University of Oslo"
   ],
   "Philippines": [
     "Bicol University",
@@ -332,7 +334,7 @@
     "National University Philippines",
     "Silliman University",
     "University of Makati",
-    "University of the Philippines Diliman",
+    "University of the Philippines Diliman"
   ],
   "Poland": [
     "AGH University of Science and Technology",
@@ -340,18 +342,18 @@
     "ML Research at Allegro",
     "Polish Academy of Sciences",
     "Polish-Japanese Academy of Information Technology",
-    "Poznan University of Technology",
+    "Poznan University of Technology"
   ],
   "Portugal": [
-    "University of Lisbon",
+    "University of Lisbon"
   ],
   "Qatar": [
     "Hamad Bin Khalifa University",
     "Planning and Statistics Authority of Qatar",
-    "Qatar Computing Research Institute",
+    "Qatar Computing Research Institute"
   ],
   "Romania": [
-    "Technical University of Cluj-Napoca",
+    "Technical University of Cluj-Napoca"
   ],
   "Russia": [
     "AO HTSTS",
@@ -365,14 +367,14 @@
     "SberBank",
     "STC-innovations Ltd",
     "Tomsk Polytechnic University",
-    "Tomsk State University",
+    "Tomsk State University"
   ],
   "Saudi Arabia": [
     "King Abdullah University of Science and Technology (KAUST)",
-    "ArbML",
+    "ArbML"
   ],
   "Scotland": [
-    "University of Glasgow",
+    "University of Glasgow"
   ],
   "Singapore": [
     "Agency for Science, Technology and Research",
@@ -383,13 +385,13 @@
     "National University of Singapore",
     "Omniscien Technologies",
     "Singapore Institute for Infocomm Research",
-    "Singapore University of Technology and Design",
+    "Singapore University of Technology and Design"
   ],
   "Slovenia": [
-    "Joˇzef Stefan Institute",
+    "Joˇzef Stefan Institute"
   ],
   "South Africa": [
-    "Lelapa AI",
+    "Lelapa AI"
   ],
   "South Korea": [
     "Atlas Labs",
@@ -401,7 +403,7 @@
     "Samsung R&D Institute",
     "Seoul National University",
     "Sogang University",
-    "Yonsei University",
+    "Yonsei University"
   ],
   "Spain": [
     "Argilla",
@@ -413,11 +415,11 @@
     "University of Alicante",
     "University of Deusto",
     "University of the Basque Country",
-    "University of Zaragoza",
+    "University of Zaragoza"
   ],
   "Sweden": [
     "KBLab",
-    "Uppsala University",
+    "Uppsala University"
   ],
   "Switzerland": [
     "AI4Privacy",
@@ -427,11 +429,11 @@
     "SpinningBytes AG",
     "University of Applied Sciences and Arts Northwestern Switzerland",
     "University of Zurich",
-    "Zurich University of Applied Sciences",
+    "Zurich University of Applied Sciences"
   ],
   "Taiwan": [
     "Academia Sinica",
-    "National Tsing Hua University",
+    "National Tsing Hua University"
   ],
   "Thailand": [
     "Chulalongkorn University",
@@ -439,11 +441,11 @@
     "Mahidol University",
     "NECTEC",
     "Vidyasirimedhi Institution of Science and Technology",
-    "pyThaiNLP",
+    "pyThaiNLP"
   ],
   "UAE": [
     "Abu Dhabi University",
-    "MBZUAI",
+    "MBZUAI"
   ],
   "United Kingdom": [
     "Alan Turing Institute",
@@ -468,10 +470,11 @@
     "University of Oxford",
     "University of Sheffield",
     "University Of Surrey",
-    "University of Warwick",
+    "University of Warwick"
   ],
   "United States of America": [
     "AI2",
+    "Allen Institute for AI",
     "Adobe Research",
     "Amazon",
     "Anthropic AI",
@@ -534,6 +537,7 @@
     "Kno.e.sis",
     "Landing AI",
     "Leetcode",
+    "LG AI Research",
     "Machine Intelligence Research Institute",
     "Massachusetts Institute of Technology",
     "Megagon Labs",
@@ -613,6 +617,7 @@
     "University of Dayton Research Institute",
     "University of Houston",
     "University of Illinois",
+    "University of Illinois Chicago",
     "University of Illinois Urbana-Champaign",
     "University of Maryland",
     "University of Massachusetts Amherst",
@@ -632,12 +637,12 @@
     "Virginia Tech",
     "Wright State University",
     "Yahoo! Inc.",
-    "Yale University",
+    "Yale University"
   ],
   "Vietnam": [
     "VietAI",
     "VinAI Research",
     "Vietnam Institute of Information Technology",
-    "Vietnam National University Ho Chi Minh City",
+    "Vietnam National University Ho Chi Minh City"
   ]
 }
