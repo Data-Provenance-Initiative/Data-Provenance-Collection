@@ -1,0 +1,82 @@
+{
+    "Social Media and User-Generated Content": [
+        "Facebook",
+        "Flickr",
+        "Instagram",
+        "Internet Video",
+        "Social Media",
+        "Tumblr",
+        "Vine",
+        "YouDescribe",
+        "YouTube",
+        "Youtube",
+        "YoutubeVideo"
+    ],
+    "Commercial and Economic": [
+        "Commerce",
+        "Earnings Calls"
+    ],
+    "Cultural and Entertainment Content": [
+        "Audiobooks",
+        "BBC",
+        "Books",
+        "Entertainment",
+        "Movies",
+        "News",
+        "Prelinger archive",
+        "Radio",
+        "TED Talks",
+        "TV",
+        "VideoBlocks",
+        "Vimeo",
+        "Visual Novels"
+    ],
+    "Other": [
+        "Code",
+        "Encyclopedias",
+        "Getty-Images",
+        "Models",
+        "Others",
+        "Peeks",
+        "Podcast",
+        "Reviews",
+        "Template Generated",
+        "The Weather Channel",
+        "Unclear",
+        "Unsure",
+        "and Getty-Images"
+    ],
+    "Government and Legal": [
+        "Governments",
+        "Legal",
+        "Parliament"
+    ],
+    "General Web and Search": [
+        "Bing,\r\nGiphy",
+        "General Web",
+        "General web",
+        "Giphy\"",
+        "Google Videos",
+        "GoogleImage",
+        "Metacafe",
+        "Search Queries"
+    ],
+    "Academic and Research": [
+        "Academic Papers",
+        "Biomedical",
+        "Education",
+        "Exams",
+        "ML Datasets"
+    ],
+    "Crowdsourced and Human Participants": [
+        "Calling Platform",
+        "Conversations",
+        "Crowd-Sourcing",
+        "Human",
+        "Human Participants",
+        "Meetings",
+        "Phone Calls",
+        "Video Calls",
+        "crowd-sourced"
+    ]
+}
