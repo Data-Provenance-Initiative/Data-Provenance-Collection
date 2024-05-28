@@ -1,0 +1,37 @@
+{
+    "PKU-MMD: A Large Scale Benchmark for Continuous Multi-Modal Human Action Understanding (ACM Multimedia Workshop)": {
+        "Unique Dataset Identifier": "pku-mmd-dataset",
+        "Collection": "pku-mmd-dataset",
+        "Collection URL": "https://arxiv.org/abs/1703.07475",
+        "Dataset Name": "PKU-MMD: A Large Scale Benchmark for Continuous Multi-Modal Human Action Understanding (ACM Multimedia Workshop)",
+        "Paper Title": "PKU-MMD: A Large Scale Benchmark for Continuous Multi-Modal Human Action Understanding (ACM Multimedia Workshop)",
+        "Paper URL": "https://arxiv.org/abs/1703.07475",
+        "GitHub URL": "https://struct002.github.io/PKUMMD/",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/pku-mmd-a-large-scale-benchmark-for",
+        "ArXiv URL": "https://arxiv.org/abs/1703.07475",
+        "Semantic Scholar Corpus ID": 1904265,
+        "Text Sources": [
+            "crowd-sourced"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "Microsoft Research",
+            "Peking University"
+        ],
+        "Countries": [
+            "China"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 50.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "crowd-sourced"
+        ]
+    }
+}

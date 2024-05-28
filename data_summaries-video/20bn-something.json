@@ -1,0 +1,36 @@
+{
+    "20BN-SOMETHING-SOMETHING: The \"something something\" video database for learning and evaluating visual common sense\r\n": {
+        "Unique Dataset Identifier": "20bn-something",
+        "Collection": "20bn-something",
+        "Collection URL": "https://arxiv.org/abs/1706.04261",
+        "Dataset Name": "20BN-SOMETHING-SOMETHING: The \"something something\" video database for learning and evaluating visual common sense\r\n",
+        "Paper Title": "20BN-SOMETHING-SOMETHING: The \"something something\" video database for learning and evaluating visual common sense\r\n",
+        "Paper URL": "https://arxiv.org/abs/1706.04261",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/something-something-v2",
+        "ArXiv URL": "https://arxiv.org/abs/1706.04261",
+        "Semantic Scholar Corpus ID": 834612,
+        "Text Sources": [
+            "crowd-sourced"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://developer.qualcomm.com/software/ai-datasets/something-something"
+            }
+        ],
+        "Creators": [
+            "Twenty Billion Neurons GmbH"
+        ],
+        "Countries": [
+            "Germany"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 121.46,
+        "Taken Down": "False",
+        "Video Sources": [
+            "crowd-sourced"
+        ]
+    }
+}

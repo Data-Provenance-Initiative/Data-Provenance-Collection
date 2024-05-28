@@ -1,0 +1,40 @@
+{
+    "OmniSource Web Dataset": {
+        "Unique Dataset Identifier": "omnisource-web-dataset",
+        "Collection": "omnisource-web-dataset",
+        "Collection URL": "https://arxiv.org/abs/2003.13042",
+        "Dataset Name": "OmniSource Web Dataset",
+        "Paper Title": "OmniSource Web Dataset",
+        "Paper URL": "https://arxiv.org/abs/2003.13042",
+        "GitHub URL": "https://github.com/open-mmlab/mmaction",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/omni-sourced-webly-supervised-learning-for#code",
+        "ArXiv URL": "https://arxiv.org/abs/2003.13042",
+        "Semantic Scholar Corpus ID": 214714240,
+        "Text Sources": [
+            "GoogleImage",
+            "Instagram",
+            "YoutubeVideo"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://github.com/open-mmlab/mmaction?tab=readme-ov-file#license"
+            }
+        ],
+        "Creators": [
+            "The Chinese University of Hong Kong"
+        ],
+        "Countries": [
+            "China"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 13333.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "GoogleImage",
+            "Instagram",
+            "YoutubeVideo"
+        ]
+    }
+}

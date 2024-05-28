@@ -1,0 +1,36 @@
+{
+    "DiDeMo: Localizing Moments in Video with Temporal Language (EMNLP 2018)\r\n": {
+        "Unique Dataset Identifier": "didemo",
+        "Collection": "didemo",
+        "Collection URL": "https://paperswithcode.com/dataset/didemo",
+        "Dataset Name": "DiDeMo: Localizing Moments in Video with Temporal Language (EMNLP 2018)\r\n",
+        "Paper Title": "DiDeMo: Localizing Moments in Video with Temporal Language (EMNLP 2018)\r\n",
+        "Paper URL": "https://paperswithcode.com/dataset/didemo",
+        "GitHub URL": "https://github.com/LisaAnne/TemporalLanguageRelease",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://paperswithcode.com/dataset/didemo",
+        "Semantic Scholar Corpus ID": 52164739,
+        "Text Sources": [
+            "Flickr"
+        ],
+        "Licenses": [
+            {
+                "License": "BSD 2-Clause License",
+                "License URL": "https://github.com/LisaAnne/TemporalLanguageRelease"
+            }
+        ],
+        "Creators": [
+            "UC Berkeley"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 275.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Flickr"
+        ]
+    }
+}

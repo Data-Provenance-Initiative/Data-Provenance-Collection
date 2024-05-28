@@ -1,0 +1,38 @@
+{
+    "HACS: Human Action Clips and Segments Dataset for Recognition and Temporal Localization\r\n": {
+        "Unique Dataset Identifier": "hacs-dataset",
+        "Collection": "hacs-dataset",
+        "Collection URL": "https://arxiv.org/abs/1712.09374",
+        "Dataset Name": "HACS: Human Action Clips and Segments Dataset for Recognition and Temporal Localization\r\n",
+        "Paper Title": "HACS: Human Action Clips and Segments Dataset for Recognition and Temporal Localization\r\n",
+        "Paper URL": "https://arxiv.org/abs/1712.09374",
+        "GitHub URL": "https://github.com/hangzhaomit/HACS-dataset",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/hacs",
+        "ArXiv URL": "https://arxiv.org/abs/1712.09374",
+        "Semantic Scholar Corpus ID": 68049510,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://github.com/hangzhaomit/HACS-dataset?tab=readme-ov-file#request-testing-videos-and-missing-videos-new"
+            }
+        ],
+        "Creators": [
+            "Massachusetts Institute of Technology",
+            "Dartmouth University",
+            "UIUC"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 833.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

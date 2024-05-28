@@ -1,0 +1,38 @@
+{
+    "VTW": {
+        "Unique Dataset Identifier": "vtw",
+        "Collection": "vtw",
+        "Collection URL": "https://arxiv.org/abs/1608.07068",
+        "Dataset Name": "VTW",
+        "Paper Title": "VTW",
+        "Paper URL": "https://arxiv.org/abs/1608.07068",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/title-generation-for-user-generated-videos",
+        "ArXiv URL": "https://arxiv.org/abs/1608.07068",
+        "Semantic Scholar Corpus ID": 6155397,
+        "Text Sources": [
+            "General web"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "Tsinghua University",
+            "Stanford University"
+        ],
+        "Countries": [
+            "China",
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 213.2,
+        "Taken Down": "False",
+        "Video Sources": [
+            "General web"
+        ]
+    }
+}

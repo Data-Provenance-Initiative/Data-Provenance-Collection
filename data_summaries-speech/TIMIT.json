@@ -1,0 +1,63 @@
+{
+    "TIMIT": {
+        "Dataset Name": "timit",
+        "Unique Dataset Identifier": "timit",
+        "Collection": "TIMIT",
+        "Hours": 5.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "English (Dialects)"
+        ],
+        "Languages (ISO)": [
+            "en"
+        ],
+        "Language Groups": [
+            "English"
+        ],
+        "Language Families": [
+            "Germanic"
+        ],
+        "Speakers": 630,
+        "Tasks": [
+            "Speech Recognition",
+            "Speaker Identification"
+        ],
+        "Licenses": [
+            {
+                "License": "LDC User Agreement",
+                "License URL": "https://catalog.ldc.upenn.edu/LDC93S1"
+            }
+        ],
+        "License Notes": "",
+        "Topics": "Unclear",
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Scripts Generated First, Then Audio Was Recorded",
+        "Github URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/timit_asr",
+        "Website URL": [
+            "https://catalog.ldc.upenn.edu/LDC93S1"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/timit",
+        "Paper URL": "",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "Massachusetts Institute of Technology",
+            "SRI International",
+            "Texas Instruments Inc."
+        ],
+        "Creator Categories": [
+            "Industry",
+            "Academia"
+        ],
+        "Year Released": 1990,
+        "Location": [
+            "United States"
+        ],
+        "Notes": "Used a lot: 4,135 downloads last month"
+    }
+}

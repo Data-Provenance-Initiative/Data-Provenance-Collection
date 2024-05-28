@@ -1,0 +1,40 @@
+{
+    "HowTo100M": {
+        "Unique Dataset Identifier": "howto100m",
+        "Collection": "howto100m",
+        "Collection URL": "https://arxiv.org/abs/1906.03327",
+        "Dataset Name": "HowTo100M",
+        "Paper Title": "HowTo100M",
+        "Paper URL": "https://arxiv.org/abs/1906.03327",
+        "GitHub URL": "https://github.com/antoine77340/howto100m",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/howto100m",
+        "ArXiv URL": "https://arxiv.org/abs/1906.03327",
+        "Semantic Scholar Corpus ID": 182952863,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "Ecole Normale Sup\u00e9rieure",
+            "Inria",
+            "CIIRC",
+            "Czech Technical University"
+        ],
+        "Countries": [
+            "France",
+            "Czech Republic"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 134472.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

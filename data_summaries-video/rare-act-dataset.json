@@ -1,0 +1,42 @@
+{
+    "RareAct: A video dataset of unusual interactions\r\n": {
+        "Unique Dataset Identifier": "rare-act-dataset",
+        "Collection": "rare-act-dataset",
+        "Collection URL": "https://arxiv.org/pdf/2008.01018.pdf",
+        "Dataset Name": "RareAct: A video dataset of unusual interactions\r\n",
+        "Paper Title": "RareAct: A video dataset of unusual interactions\r\n",
+        "Paper URL": "https://arxiv.org/pdf/2008.01018.pdf",
+        "GitHub URL": "https://github.com/antoine77340/RareAct",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/rareact",
+        "ArXiv URL": "https://arxiv.org/pdf/2008.01018.pdf",
+        "Semantic Scholar Corpus ID": 220936243,
+        "Text Sources": [
+            "General Web"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "University of Oxford",
+            "Ecole Normale Sup\u00e9rieure",
+            "Inria",
+            "CIIRC",
+            "Czech Technical University"
+        ],
+        "Countries": [
+            "United Kingdom",
+            "France",
+            "Czech Republic"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 21.13,
+        "Taken Down": "False",
+        "Video Sources": [
+            "General Web"
+        ]
+    }
+}

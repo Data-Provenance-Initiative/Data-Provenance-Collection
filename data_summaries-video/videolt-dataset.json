@@ -1,0 +1,40 @@
+{
+    "VideoLT: Large-scale Long-tailed Video Recognition\r\n": {
+        "Unique Dataset Identifier": "videolt-dataset",
+        "Collection": "videolt-dataset",
+        "Collection URL": "https://arxiv.org/abs/2105.02668",
+        "Dataset Name": "VideoLT: Large-scale Long-tailed Video Recognition\r\n",
+        "Paper Title": "VideoLT: Large-scale Long-tailed Video Recognition\r\n",
+        "Paper URL": "https://arxiv.org/abs/2105.02668",
+        "GitHub URL": "https://github.com/17Skye17/VideoLT",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/videolt",
+        "ArXiv URL": "https://arxiv.org/abs/2105.02668",
+        "Semantic Scholar Corpus ID": 233864776,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "Non Commercial",
+                "License URL": "https://github.com/17Skye17/VideoLT?tab=readme-ov-file#data-preparation"
+            }
+        ],
+        "Creators": [
+            "Fudan University",
+            "Shanghai Collaborative Innovation Center of Intelligent Visual Computing",
+            "Inception Institute of Artificial Intelligence",
+            "University of Maryland"
+        ],
+        "Countries": [
+            "China",
+            "UAE"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 13664.96,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

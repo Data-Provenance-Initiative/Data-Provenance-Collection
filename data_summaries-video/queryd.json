@@ -1,0 +1,38 @@
+{
+    "QuerYD": {
+        "Unique Dataset Identifier": "queryd",
+        "Collection": "queryd",
+        "Collection URL": "https://arxiv.org/abs/2011.11071",
+        "Dataset Name": "QuerYD",
+        "Paper Title": "QuerYD",
+        "Paper URL": "https://arxiv.org/abs/2011.11071",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/queryd",
+        "ArXiv URL": "https://arxiv.org/abs/2011.11071",
+        "Semantic Scholar Corpus ID": 261006321,
+        "Text Sources": [
+            "YouTube",
+            "YouDescribe"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "University of Oxford"
+        ],
+        "Countries": [
+            "United Kingdom"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 207.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube",
+            "YouDescribe"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "TVSum: Summarizing web videos using titles (CVPR 2015)": {
+        "Unique Dataset Identifier": "tvsum",
+        "Collection": "tvsum",
+        "Collection URL": "https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Song_TVSum_Summarizing_Web_2015_CVPR_paper.pdf",
+        "Dataset Name": "TVSum: Summarizing web videos using titles (CVPR 2015)",
+        "Paper Title": "TVSum: Summarizing web videos using titles (CVPR 2015)",
+        "Paper URL": "https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Song_TVSum_Summarizing_Web_2015_CVPR_paper.pdf",
+        "GitHub URL": "https://github.com/yalesong/tvsum",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/tvsum-1",
+        "ArXiv URL": "https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Song_TVSum_Summarizing_Web_2015_CVPR_paper.pdf",
+        "Semantic Scholar Corpus ID": 7675635,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 3.0",
+                "License URL": "https://github.com/yalesong/tvsum"
+            }
+        ],
+        "Creators": [
+            "Yahoo Labs"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 3.5,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

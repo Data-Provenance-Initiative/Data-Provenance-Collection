@@ -1,0 +1,36 @@
+{
+    "MPII-MD: A Dataset for Movie Description\r\n": {
+        "Unique Dataset Identifier": "mpii-md",
+        "Collection": "mpii-md",
+        "Collection URL": "https://arxiv.org/pdf/1501.02530.pdf",
+        "Dataset Name": "MPII-MD: A Dataset for Movie Description\r\n",
+        "Paper Title": "MPII-MD: A Dataset for Movie Description\r\n",
+        "Paper URL": "https://arxiv.org/pdf/1501.02530.pdf",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/pdf/1501.02530.pdf",
+        "Semantic Scholar Corpus ID": 15184723,
+        "Text Sources": [
+            "Movies"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "Max Planck Institute for Informatics"
+        ],
+        "Countries": [
+            "Germany"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 56.5,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Movies"
+        ]
+    }
+}

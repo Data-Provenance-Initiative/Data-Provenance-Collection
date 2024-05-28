@@ -1,0 +1,39 @@
+{
+    "SumMe: Creating Summaries from User Videos (ECCV 2014)": {
+        "Unique Dataset Identifier": "summe",
+        "Collection": "summe",
+        "Collection URL": "https://link.springer.com/chapter/10.1007/978-3-319-10584-0_33",
+        "Dataset Name": "SumMe: Creating Summaries from User Videos (ECCV 2014)",
+        "Paper Title": "SumMe: Creating Summaries from User Videos (ECCV 2014)",
+        "Paper URL": "https://link.springer.com/chapter/10.1007/978-3-319-10584-0_33",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/summe",
+        "ArXiv URL": "https://link.springer.com/chapter/10.1007/978-3-319-10584-0_33",
+        "Semantic Scholar Corpus ID": 2111093,
+        "Text Sources": [
+            "crowd-sourced"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "ETH Z\u00fcrich",
+            "KU Leuven",
+            "upicto GmbH"
+        ],
+        "Countries": [
+            "Belgium",
+            "Switzerland"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 1.11,
+        "Taken Down": "False",
+        "Video Sources": [
+            "crowd-sourced"
+        ]
+    }
+}

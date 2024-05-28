@@ -1,0 +1,36 @@
+{
+    "TinyVIRAT: Low-resolution Video Action Recognition": {
+        "Unique Dataset Identifier": "tiny-virat",
+        "Collection": "tiny-virat",
+        "Collection URL": "https://arxiv.org/abs/2007.07355",
+        "Dataset Name": "TinyVIRAT: Low-resolution Video Action Recognition",
+        "Paper Title": "TinyVIRAT: Low-resolution Video Action Recognition",
+        "Paper URL": "https://arxiv.org/abs/2007.07355",
+        "GitHub URL": "https://github.com/UgurDemir/Tiny-VIRAT",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/tinyvirat",
+        "ArXiv URL": "https://arxiv.org/abs/2007.07355",
+        "Semantic Scholar Corpus ID": 220525685,
+        "Text Sources": [
+            "crowd-sourced"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "University of Central Florida"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 10.83,
+        "Taken Down": "False",
+        "Video Sources": [
+            "crowd-sourced"
+        ]
+    }
+}

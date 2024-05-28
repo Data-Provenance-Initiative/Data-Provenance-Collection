@@ -1,0 +1,67 @@
+{
+    "Golos": {
+        "Dataset Name": "golos",
+        "Unique Dataset Identifier": "golos",
+        "Collection": "Golos",
+        "Hours": 1240.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Russian"
+        ],
+        "Languages (ISO)": [
+            "ru"
+        ],
+        "Language Groups": [
+            "Other Indo-European"
+        ],
+        "Language Families": [
+            "Indo-European"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://github.com/salute-developers/golos/blob/master/license/en_us.pdf"
+            }
+        ],
+        "License Notes": "Reworking of a Creative Commons Corporation (Attribution-ShareAlike 4.0) license.",
+        "Topics": [
+            "Music",
+            "Films",
+            "Organizations",
+            "Names",
+            "Addresses",
+            "Other"
+        ],
+        "Source Category": [
+            "Crowd-Sourcing"
+        ],
+        "Source": [
+            "Crowd-Sourcing"
+        ],
+        "Process Description": "Audios Recorded First, Text Transcribed Later",
+        "Github URL": "https://github.com/sberdevices/golos?tab=readme-ov-file",
+        "Hugging Face URL": "https://huggingface.co/datasets/SberDevices/Golos",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/golos",
+        "Paper URL": "https://arxiv.org/pdf/2106.10161.pdf",
+        "Semantic Scholar Corpus ID": 235485134,
+        "Creators": [
+            "Independent",
+            "Moscow Institute of Physics and Technology",
+            "SberBank"
+        ],
+        "Creator Categories": [
+            "Industry",
+            "Academia",
+            "Independent"
+        ],
+        "Year Released": 2021,
+        "Location": [
+            "Russia"
+        ],
+        "Notes": ""
+    }
+}

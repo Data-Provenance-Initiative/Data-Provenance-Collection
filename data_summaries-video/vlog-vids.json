@@ -1,0 +1,36 @@
+{
+    "VLOG: From Lifestyle Vlogs to Everyday Interactions (CVPR 2018)\r\n": {
+        "Unique Dataset Identifier": "vlog-vids",
+        "Collection": "vlog-vids",
+        "Collection URL": "https://arxiv.org/abs/1712.02310",
+        "Dataset Name": "VLOG: From Lifestyle Vlogs to Everyday Interactions (CVPR 2018)\r\n",
+        "Paper Title": "VLOG: From Lifestyle Vlogs to Everyday Interactions (CVPR 2018)\r\n",
+        "Paper URL": "https://arxiv.org/abs/1712.02310",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/vlog-dataset",
+        "ArXiv URL": "https://arxiv.org/abs/1712.02310",
+        "Semantic Scholar Corpus ID": 22264672,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://web.eecs.umich.edu/~fouhey/2017/VLOG/index.html"
+            }
+        ],
+        "Creators": [
+            "UC Berkeley"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 336.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

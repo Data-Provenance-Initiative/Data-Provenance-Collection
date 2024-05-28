@@ -1,0 +1,36 @@
+{
+    "NTU RGB+D: A Large Scale Dataset for 3D Human Activity Analysis (CVPR 2016, TPAMI 2019)\r\n": {
+        "Unique Dataset Identifier": "ntu-rgbd",
+        "Collection": "ntu-rgbd",
+        "Collection URL": "https://arxiv.org/pdf/1604.02808.pdf",
+        "Dataset Name": "NTU RGB+D: A Large Scale Dataset for 3D Human Activity Analysis (CVPR 2016, TPAMI 2019)\r\n",
+        "Paper Title": "NTU RGB+D: A Large Scale Dataset for 3D Human Activity Analysis (CVPR 2016, TPAMI 2019)\r\n",
+        "Paper URL": "https://arxiv.org/pdf/1604.02808.pdf",
+        "GitHub URL": "https://github.com/shahroudy/NTURGB-D",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/ntu-rgbd-a-large-scale-dataset-for-3d-human",
+        "ArXiv URL": "https://arxiv.org/pdf/1604.02808.pdf",
+        "Semantic Scholar Corpus ID": 15928602,
+        "Text Sources": [
+            "crowd-sourced"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://rose1.ntu.edu.sg/dataset/actionRecognition/"
+            }
+        ],
+        "Creators": [
+            "Nanyang Technological University"
+        ],
+        "Countries": [
+            "Singapore"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 74.1,
+        "Taken Down": "False",
+        "Video Sources": [
+            "crowd-sourced"
+        ]
+    }
+}

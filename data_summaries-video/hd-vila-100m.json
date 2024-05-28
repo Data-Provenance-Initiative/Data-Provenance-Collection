@@ -1,0 +1,36 @@
+{
+    "Advancing High-Resolution Video-Language Representation with Large-Scale Video Transcriptions": {
+        "Unique Dataset Identifier": "hd-vila-100m",
+        "Collection": "hd-vila-100m",
+        "Collection URL": "https://arxiv.org/abs/2111.10337",
+        "Dataset Name": "Advancing High-Resolution Video-Language Representation with Large-Scale Video Transcriptions",
+        "Paper Title": "Advancing High-Resolution Video-Language Representation with Large-Scale Video Transcriptions",
+        "Paper URL": "https://arxiv.org/abs/2111.10337",
+        "GitHub URL": "https://github.com/microsoft/XPretrain/blob/main/hd-vila-100m/README.md",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/advancing-high-resolution-video-language/review/",
+        "ArXiv URL": "https://arxiv.org/abs/2111.10337",
+        "Semantic Scholar Corpus ID": 244462849,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://github.com/microsoft/XPretrain/blob/main/hd-vila-100m/README.md"
+            }
+        ],
+        "Creators": [
+            "Microsoft"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 371.5,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

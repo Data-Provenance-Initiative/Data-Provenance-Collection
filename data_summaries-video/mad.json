@@ -1,0 +1,36 @@
+{
+    "MAD: A Scalable Dataset for Language Grounding in Videos from Movie Audio Descriptions\r\n": {
+        "Unique Dataset Identifier": "mad",
+        "Collection": "mad",
+        "Collection URL": "https://arxiv.org/abs/2112.00431",
+        "Dataset Name": "MAD: A Scalable Dataset for Language Grounding in Videos from Movie Audio Descriptions\r\n",
+        "Paper Title": "MAD: A Scalable Dataset for Language Grounding in Videos from Movie Audio Descriptions\r\n",
+        "Paper URL": "https://arxiv.org/abs/2112.00431",
+        "GitHub URL": "https://github.com/Soldelli/MAD",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/mad",
+        "ArXiv URL": "https://arxiv.org/abs/2112.00431",
+        "Semantic Scholar Corpus ID": 244773187,
+        "Text Sources": [
+            "General Web"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://docs.google.com/forms/d/e/1FAIpQLSdtUV3uweS0u7AHAMIJAL_dRRdZ5MHpJS3fdZVbhnVt-Yb4NA/viewform"
+            }
+        ],
+        "Creators": [
+            "King Abdullah University of Science and Technology (KAUST)"
+        ],
+        "Countries": [
+            "Saudi Arabia"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 1207.3,
+        "Taken Down": "False",
+        "Video Sources": [
+            "General Web"
+        ]
+    }
+}

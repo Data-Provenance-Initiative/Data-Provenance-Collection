@@ -1,0 +1,40 @@
+{
+    "The THUMOS Challenge on Action Recognition for\r\nVideos \u201cin the Wild\u201d": {
+        "Unique Dataset Identifier": "thumos-challenge",
+        "Collection": "thumos-challenge",
+        "Collection URL": "https://arxiv.org/pdf/1604.06182.pdf",
+        "Dataset Name": "The THUMOS Challenge on Action Recognition for\r\nVideos \u201cin the Wild\u201d",
+        "Paper Title": "The THUMOS Challenge on Action Recognition for\r\nVideos \u201cin the Wild\u201d",
+        "Paper URL": "https://arxiv.org/pdf/1604.06182.pdf",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/thumos14-1",
+        "ArXiv URL": "https://arxiv.org/pdf/1604.06182.pdf",
+        "Semantic Scholar Corpus ID": 14049355,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://docs.google.com/forms/d/e/1FAIpQLScs9davISAtYQS7SEF5qQNu0jUpLzNH3aHmPfuqk2q1VYDkmw/viewform"
+            }
+        ],
+        "Creators": [
+            "Stanford University",
+            "University of Central Florida",
+            "Fudan University",
+            "Inria"
+        ],
+        "Countries": [
+            "United States of America",
+            "China"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 254.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

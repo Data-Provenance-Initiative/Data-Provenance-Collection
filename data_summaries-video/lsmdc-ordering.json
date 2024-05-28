@@ -1,0 +1,42 @@
+{
+    "LSMDC Ordering": {
+        "Unique Dataset Identifier": "lsmdc-ordering",
+        "Collection": "lsmdc-ordering",
+        "Collection URL": "https://arxiv.org/pdf/2004.02205",
+        "Dataset Name": "LSMDC Ordering",
+        "Paper Title": "LSMDC Ordering",
+        "Paper URL": "https://arxiv.org/pdf/2004.02205",
+        "GitHub URL": "https://github.com/vivoutlaw/TCBP",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/deep-multimodal-feature-encoding-for-video",
+        "ArXiv URL": "https://arxiv.org/pdf/2004.02205",
+        "Semantic Scholar Corpus ID": 214802821,
+        "Text Sources": [
+            "Movies"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/vivoutlaw/tcbp/blob/master/LICENSE"
+            }
+        ],
+        "Creators": [
+            "University of Toronto",
+            "Karlsruhe Institute of Technology",
+            "Inria",
+            "Massachusetts Institute of Technology"
+        ],
+        "Countries": [
+            "Germany",
+            "Canada",
+            "United States of America",
+            "France"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 158.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Movies"
+        ]
+    }
+}

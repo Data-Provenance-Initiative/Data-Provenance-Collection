@@ -1,0 +1,40 @@
+{
+    "MovieQA": {
+        "Unique Dataset Identifier": "movieqa",
+        "Collection": "movieqa",
+        "Collection URL": "https://arxiv.org/abs/1512.02902",
+        "Dataset Name": "MovieQA",
+        "Paper Title": "MovieQA",
+        "Paper URL": "https://arxiv.org/abs/1512.02902",
+        "GitHub URL": "https://github.com/makarandtapaswi/MovieQA_CVPR2016/",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/movieqa",
+        "ArXiv URL": "https://arxiv.org/abs/1512.02902",
+        "Semantic Scholar Corpus ID": 1017389,
+        "Text Sources": [
+            "Movies"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "Karlsruhe Institute of Technology",
+            "Massachusetts Institute of Technology",
+            "University of Toronto"
+        ],
+        "Countries": [
+            "Germany",
+            "Canada",
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 381.0,
+        "Taken Down": "True",
+        "Video Sources": [
+            "Movies"
+        ]
+    }
+}

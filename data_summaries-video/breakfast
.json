@@ -1,0 +1,38 @@
+{
+    "Breakfast": {
+        "Unique Dataset Identifier": "breakfast\r\n",
+        "Collection": "breakfast\r\n",
+        "Collection URL": "https://openaccess.thecvf.com/content_cvpr_2014/html/Kuehne_The_Language_of_2014_CVPR_paper.html",
+        "Dataset Name": "Breakfast",
+        "Paper Title": "Breakfast",
+        "Paper URL": "https://openaccess.thecvf.com/content_cvpr_2014/html/Kuehne_The_Language_of_2014_CVPR_paper.html",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/breakfast",
+        "ArXiv URL": "https://openaccess.thecvf.com/content_cvpr_2014/html/Kuehne_The_Language_of_2014_CVPR_paper.html",
+        "Semantic Scholar Corpus ID": 9621856,
+        "Text Sources": [
+            "Human Participants"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://serre-lab.clps.brown.edu/resource/breakfast-actions-dataset/"
+            }
+        ],
+        "Creators": [
+            "Fraunhofer FKIE",
+            "Brown University"
+        ],
+        "Countries": [
+            "United States of America",
+            "Germany"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 77.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Human Participants"
+        ]
+    }
+}

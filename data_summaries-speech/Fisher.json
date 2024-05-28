@@ -1,0 +1,96 @@
+{
+    "Fisher": {
+        "Dataset Name": "fisher",
+        "Unique Dataset Identifier": "fisher",
+        "Collection": "Fisher",
+        "Hours": 1960.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "English"
+        ],
+        "Languages (ISO)": [
+            "en"
+        ],
+        "Language Groups": [
+            "English"
+        ],
+        "Language Families": [
+            "Germanic"
+        ],
+        "Speakers": 11917,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "LDC User Agreement",
+                "License URL": "https://catalog.ldc.upenn.edu/LDC2004T19"
+            }
+        ],
+        "License Notes": "Depends on membership status.",
+        "Topics": [
+            "Professional Sports on TV",
+            "Pets",
+            "Life Partners",
+            "Minimum Wage",
+            "Comedy",
+            "Hypothetical Situations",
+            "US Public Schools",
+            "Affirmative Action",
+            "Movies",
+            "Computer games",
+            "Current Events",
+            "Hobbies",
+            "Smoking",
+            "Terrorism",
+            "Televised Criminal Trials",
+            "Drug testing",
+            "Family Values",
+            "Censorship",
+            "Health and Fitness",
+            "September 11",
+            "Strikes by Professional Athletes",
+            "Airport Security",
+            "Issues in the Middle East",
+            "Foreign Relations",
+            "Education",
+            "Family",
+            "Corporate Conduct in the US",
+            "Outdoor Activities",
+            "Friends",
+            "Food",
+            "Illness",
+            "Personal Habits",
+            "Reality TV",
+            "Arms Inspections in Iraq",
+            "Holidays",
+            "Bioterrorism"
+        ],
+        "Source Category": [
+            "Calling Platform"
+        ],
+        "Source": [
+            "Calling Platform"
+        ],
+        "Process Description": "Audios Recorded First (Speakers Given Topic To Speak About), Text Transcribed Later",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://catalog.ldc.upenn.edu/LDC2004T19"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "http://www.lrec-conf.org/proceedings/lrec2004/pdf/767.pdf",
+        "Semantic Scholar Corpus ID": 8414900,
+        "Creators": [
+            "University of Pennsylvania"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2004,
+        "Location": [
+            "United States"
+        ],
+        "Notes": ""
+    }
+}

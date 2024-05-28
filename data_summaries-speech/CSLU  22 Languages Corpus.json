@@ -1,0 +1,123 @@
+{
+    "CSLU: 22 Languages Corpus": {
+        "Dataset Name": "cslu-22-languages-corpus",
+        "Unique Dataset Identifier": "cslu-22-languages-corpus",
+        "Collection": "CSLU: 22 Languages Corpus",
+        "Hours": 84.0,
+        "Languages (Count)": 21,
+        "Languages": [
+            "Eastern Arabic",
+            "Cantonese",
+            "Czech",
+            "Farsi",
+            "German",
+            "Hindi",
+            "Hungarian",
+            "Japanese",
+            "Korean",
+            "Malay",
+            "Mandarin Chinese",
+            "Italian",
+            "Polish",
+            "Portuguese",
+            "Russian",
+            "Spanish",
+            "Swedish",
+            "Swahili",
+            "Tamil",
+            "Vietnamese",
+            "English"
+        ],
+        "Languages (ISO)": [
+            "ar",
+            "yue",
+            "cs",
+            "fa",
+            "de",
+            "hi",
+            "hu",
+            "ja",
+            "ko",
+            "ms",
+            "cmn",
+            "it",
+            "pl",
+            "pt",
+            "ru",
+            "es",
+            "sv",
+            "sw",
+            "ta",
+            "vi",
+            "en"
+        ],
+        "Language Groups": [
+            "Arabic",
+            "Chinese",
+            "Other Indo-European",
+            "Persian",
+            "German",
+            "Hindi",
+            "Low Resource Languages",
+            "Japanese",
+            "Korean",
+            "Italian",
+            "Spanish",
+            "Scandinavian",
+            "Indian Peninsula",
+            "Austroasiatic",
+            "English"
+        ],
+        "Language Families": [
+            "Afroasiatic",
+            "Sino-Tibetan",
+            "Indo-European",
+            "Hindustani",
+            "Japonic",
+            "Koreanic",
+            "Austronesian",
+            "Atlantic-Congo",
+            "Dravidian",
+            "Kra-Dai",
+            "English"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CSLU Agreement",
+                "License URL": "https://catalog.ldc.upenn.edu/LDC2005S26"
+            }
+        ],
+        "License Notes": "",
+        "Topics": "Unclear",
+        "Source Category": [
+            "Calling Platform"
+        ],
+        "Source": [
+            "Digital Telephone Lines"
+        ],
+        "Process Description": "Audios Recorded First (Following Prompts), Text Transcribed Later",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://catalog.ldc.upenn.edu/LDC2005S26"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "Oregon Health & Science University"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2005,
+        "Location": [
+            "United States"
+        ],
+        "Notes": ""
+    }
+}

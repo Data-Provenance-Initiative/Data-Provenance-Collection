@@ -1,0 +1,43 @@
+{
+    "CrossTask": {
+        "Unique Dataset Identifier": "crosstask",
+        "Collection": "crosstask",
+        "Collection URL": "https://arxiv.org/abs/1903.08225",
+        "Dataset Name": "CrossTask",
+        "Paper Title": "CrossTask",
+        "Paper URL": "https://arxiv.org/abs/1903.08225",
+        "GitHub URL": "https://github.com/DmZhukov/CrossTask",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/crosstask",
+        "ArXiv URL": "https://arxiv.org/abs/1903.08225",
+        "Semantic Scholar Corpus ID": 84187266,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "Middle East Technical University",
+            "Inria",
+            "PSL University - Universit\u00e9 PSL",
+            "University of Michigan",
+            "CIIRC"
+        ],
+        "Countries": [
+            "Czech Republic",
+            "France",
+            "Turkey",
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 376.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

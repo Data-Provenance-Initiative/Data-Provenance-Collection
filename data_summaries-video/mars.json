@@ -1,0 +1,39 @@
+{
+    "Mars": {
+        "Unique Dataset Identifier": "mars",
+        "Collection": "mars",
+        "Collection URL": "https://link.springer.com/content/pdf/10.1007/978-3-319-46466-4_52.pdf",
+        "Dataset Name": "Mars",
+        "Paper Title": "Mars",
+        "Paper URL": "https://link.springer.com/content/pdf/10.1007/978-3-319-46466-4_52.pdf",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/mars",
+        "ArXiv URL": "https://link.springer.com/content/pdf/10.1007/978-3-319-46466-4_52.pdf",
+        "Semantic Scholar Corpus ID": 2214158,
+        "Text Sources": [
+            "Human Participants"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "Microsoft",
+            "Tsinghua University",
+            "The University of Texas at San Antonio",
+            "Peking University"
+        ],
+        "Countries": [
+            "China"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 0.24,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Human Participants"
+        ]
+    }
+}

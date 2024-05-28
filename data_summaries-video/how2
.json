@@ -1,0 +1,36 @@
+{
+    "How2: A Large-scale Dataset for Multimodal Language Understanding (NeurIPS 2018)\r\n": {
+        "Unique Dataset Identifier": "how2\r\n",
+        "Collection": "how2\r\n",
+        "Collection URL": "https://arxiv.org/abs/1811.00347",
+        "Dataset Name": "How2: A Large-scale Dataset for Multimodal Language Understanding (NeurIPS 2018)\r\n",
+        "Paper Title": "How2: A Large-scale Dataset for Multimodal Language Understanding (NeurIPS 2018)\r\n",
+        "Paper URL": "https://arxiv.org/abs/1811.00347",
+        "GitHub URL": "https://github.com/srvk/how2-dataset",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/1811.00347",
+        "Semantic Scholar Corpus ID": 53186236,
+        "Text Sources": [
+            "YouTube"
+        ],
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": "https://github.com/srvk/how2-dataset?tab=readme-ov-file#how2-license"
+            }
+        ],
+        "Creators": [
+            "Carnegie Mellon University"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 2300.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "YouTube"
+        ]
+    }
+}

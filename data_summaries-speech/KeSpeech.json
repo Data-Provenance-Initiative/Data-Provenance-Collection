@@ -1,0 +1,60 @@
+{
+    "KeSpeech": {
+        "Dataset Name": "kespeech",
+        "Unique Dataset Identifier": "kespeech",
+        "Collection": "KeSpeech",
+        "Hours": 1542.0,
+        "Languages (Count)": 2,
+        "Languages": [
+            "Mandarin Chinese",
+            "Cantonese (Dialects)"
+        ],
+        "Languages (ISO)": [
+            "cmn",
+            "yue"
+        ],
+        "Language Groups": [
+            "Chinese"
+        ],
+        "Language Families": [
+            "Sino-Tibetan"
+        ],
+        "Speakers": 27237,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://github.com/KeSpeech/KeSpeech/blob/main/dataset_license.md"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "News"
+        ],
+        "Source Category": [
+            "Crowd-Sourcing"
+        ],
+        "Source": [
+            "Crowd-Sourcing"
+        ],
+        "Process Description": "Transcripts Created First, Audio Then Recorded",
+        "Github URL": "https://github.com/KeSpeech/KeSpeech",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "Paper URL": "https://openreview.net/pdf?id=b3Zoeq2sCLq",
+        "Semantic Scholar Corpus ID": 244905405,
+        "Creators": [
+            "Tsinghua University"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2021,
+        "Location": [
+            "China"
+        ],
+        "Notes": ""
+    }
+}

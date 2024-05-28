@@ -1,0 +1,85 @@
+{
+    "VoxPopuli": {
+        "Dataset Name": "voxpopuli",
+        "Unique Dataset Identifier": "voxpopuli",
+        "Collection": "VoxPopuli",
+        "Hours": 1791.0,
+        "Languages (Count)": 2,
+        "Languages": [
+            "Arabic"
+        ],
+        "Languages (ISO)": [
+            "en",
+            "de",
+            "fr",
+            "es",
+            "pl",
+            "it",
+            "ro",
+            "hu",
+            "cs",
+            "nl",
+            "fi",
+            "hr",
+            "sk",
+            "sl",
+            "et",
+            "lt"
+        ],
+        "Language Groups": [
+            "French",
+            "Low Resource Languages",
+            "Spanish",
+            "English",
+            "Scandinavian",
+            "Italian",
+            "Other Indo-European",
+            "German"
+        ],
+        "Language Families": [
+            "Uralic",
+            "Germanic",
+            "Indo-European"
+        ],
+        "Speakers": 4295,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": "https://github.com/facebookresearch/voxpopuli"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Political Debates"
+        ],
+        "Source Category": [
+            "Parliament"
+        ],
+        "Source": [
+            "European Parliament Event Recordings"
+        ],
+        "Process Description": "Audios Recorded First, Text Transcribed Using Asr + Manually",
+        "Github URL": "https://github.com/facebookresearch/voxpopuli",
+        "Hugging Face URL": "https://huggingface.co/datasets/facebook/voxpopuli",
+        "Website URL": [
+            "https://ai.meta.com/blog/voxpopuli-the-largest-open-multilingual-speech-corpus-for-ai-translation-and-more/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/voxpopuli",
+        "Paper URL": "https://arxiv.org/abs/2101.00390",
+        "Semantic Scholar Corpus ID": 230433640,
+        "Creators": [
+            "Meta AI"
+        ],
+        "Creator Categories": [
+            "Industry"
+        ],
+        "Year Released": 2021,
+        "Location": [
+            "United States"
+        ],
+        "Notes": ""
+    }
+}

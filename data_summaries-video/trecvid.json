@@ -1,0 +1,38 @@
+{
+    "TRECVID": {
+        "Unique Dataset Identifier": "trecvid",
+        "Collection": "trecvid",
+        "Collection URL": "https://arxiv.org/abs/2009.09984",
+        "Dataset Name": "TRECVID",
+        "Paper Title": "TRECVID",
+        "Paper URL": "https://arxiv.org/abs/2009.09984",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/trecvid-2019-an-evaluation-campaign-to/review/",
+        "ArXiv URL": "https://arxiv.org/abs/2009.09984",
+        "Semantic Scholar Corpus ID": 212694843,
+        "Text Sources": [
+            "General web",
+            "BBC"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "https://trecvid.nist.gov/"
+            }
+        ],
+        "Creators": [
+            "National Institute of Standards and Technology"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 1000.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "General web",
+            "BBC"
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "TGIF": {
+        "Unique Dataset Identifier": "tgif",
+        "Collection": "tgif",
+        "Collection URL": "https://arxiv.org/abs/1604.02748",
+        "Dataset Name": "TGIF",
+        "Paper Title": "TGIF",
+        "Paper URL": "https://arxiv.org/abs/1604.02748",
+        "GitHub URL": "https://github.com/raingo/TGIF-Release",
+        "Hugging Face URL": "https://huggingface.co/datasets/HuggingFaceM4/TGIF",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/tgif",
+        "ArXiv URL": "https://arxiv.org/abs/1604.02748",
+        "Semantic Scholar Corpus ID": 6262415,
+        "Text Sources": [
+            "Tumblr"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://github.com/raingo/TGIF-Release"
+            }
+        ],
+        "Creators": [
+            "University of Rochester",
+            "Yahoo! Inc.",
+            "AiCure"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 86.1,
+        "Taken Down": "False",
+        "Video Sources": [
+            "Tumblr"
+        ]
+    }
+}
