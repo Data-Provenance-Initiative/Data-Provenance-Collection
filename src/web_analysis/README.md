@@ -111,16 +111,21 @@ This script facilitates the analysis of Terms of Service (ToS) and other usage p
 
 Example usage - 
 
-Using the default dataset, run the `AI-policy` prompt on a sample size of 100. Save sample as a `.plk` file for future reference:
+Using a full JSON dataset, run the `AI-policy` prompt and save output:
 
 ```
-python gpt_tos_analysis.py --save_sample True --sample_size 100 --prompt_key AI-policy
+python gpt_tos_analysis.py --input_file_path "\path-to-data.json" --prompt_key "AI-policy" --output_file_path "\path-for-output-data.json"
 ```
 
-Run the `type-of-license` prompt on a custom sample:
+Run the `type-of-license` prompt on a custom sample and save output to csv file:
 
 ```
-python gpt_tos_analysis.py --custom_sample True --sample_file_path "\path-to-sample-data.pkl" --prompt_key type-of-license
+python gpt_tos_analysis.py --input_sample_file_path "\path-to-sample-data.pkl" --prompt_key "type-of-license" --save_verdicts_to_csv True
+```
+Run the `scraping-policy` prompt on a custom sample, filter text without keywords:
+
+```
+python gpt_tos_analysis.py --input_sample_file_path "\path-to-sample-data.pkl" --prompt_key "scraping-policy" --filter_keywords True
 ```
 
 Note - 
