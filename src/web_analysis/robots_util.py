@@ -184,7 +184,7 @@ class URLTokenLookup:
         dataset_index = self.index_map[dataset_name]
         return self.lookup_map.get(url, (0, 0, 0))[dataset_index]
 
-    def top_k_urls(self, dataset_name, k):
+    def top_k_urls(self, dataset_name, k, verbose=True):
         """
         Return the list of URLs with the highest token counts for the specified dataset.
 
@@ -203,8 +203,14 @@ class URLTokenLookup:
         # Extract the top K URLs
         top_urls = [url for url, tokens in sorted_urls[:k]]
         num_tokens = sum([tokens[self.index_map[dataset_name]] for url, tokens in sorted_urls[:k]])
-        print(f"Number of tokens in {k} URLs: {num_tokens} | {round(100*num_tokens / self._TOTAL_TOKENS[dataset_name], 2)}% of {dataset_name}")
+        if verbose:
+            print(f"Number of tokens in {k} URLs: {num_tokens} | {round(100*num_tokens / self._TOTAL_TOKENS[dataset_name], 2)}% of {dataset_name}")
         return top_urls
+
+    def get_10k_random_sample(self):
+        top_urls = self.top_k_urls("c4", 2000, False) + self.top_k_urls("rf", 2000, False) + self.top_k_urls("dolma", 2000, False)
+        return [url for url in self.lookup_map if url not in top_urls]
+
 
     def get_url_to_token_map(self, dataset_name):
         dataset_index = self.index_map[dataset_name]
