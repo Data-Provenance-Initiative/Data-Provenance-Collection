@@ -40,7 +40,7 @@ def extract_url_annotations(dirpaths):
         return row_info
     
     url_to_info = defaultdict(dict)
-    url_to_issue = []
+    url_to_issue = set()
     all_fpaths = [fp for dirpath in dirpaths for fp in io.listdir_nohidden(dirpath)]
     for fpath in all_fpaths:
         df = pd.read_csv(fpath)
@@ -52,8 +52,7 @@ def extract_url_annotations(dirpaths):
             domain = row["Domain"]
             row_info = extract_row_info(row)
             if domain in url_to_issue or row_info["Website Issue"]:
-                url_to_issue.append(domain)
-                continue
+                url_to_issue.add(domain)
             if domain in url_to_info:
                 overwrite_attempts += 1
                 url_to_info[domain].update(row_info)
@@ -66,7 +65,7 @@ def extract_url_annotations(dirpaths):
     url_to_rows = {}
     issue_counter, unannotated_counter = 0, 0
     for url, infos in url_to_info.items():
-        if infos["Website Issue"]:
+        if url in url_to_issue:
             issue_counter += 1
             continue
         elif not infos.get('Website Description', "") or not infos.get("Paywall", ""):
@@ -112,7 +111,7 @@ def process_url_annotations(url_to_info):
     all_typ_cols = ["Type of service", "Type of service (Other)"]
     url_to_services, other_services, os2 = categorize_domain_annotations(url_to_info, all_typ_cols, analysis_constants.WEBSITE_SERVICE_INVERSE_MAPPING)
     # service_counter = Counter(["-".join(vals) for vals in url_to_services.values()])
-    return od2
+    # return od2
 
     def make_domains_services_compatible(domains, services):
         merge_fields = [
