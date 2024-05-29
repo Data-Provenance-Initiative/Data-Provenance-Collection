@@ -16,7 +16,7 @@ def stream_json(file_path):
     Parameters:
     - file_path (str): The path to the JSON file to be streamed.
 
-    Yields:
+    Returns:
     - tuple: A tuple containing the domain, ToS link, date, and text of each document.
     """
     with open(file_path, "r", encoding="utf-8") as f:
