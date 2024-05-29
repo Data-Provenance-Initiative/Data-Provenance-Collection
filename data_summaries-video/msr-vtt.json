@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/dataset/msr-vtt",
         "ArXiv URL": "https://ieeexplore.ieee.org/document/7780940",
         "Semantic Scholar Corpus ID": 206594535,
+        "Year Released": 2016,
         "Text Sources": [
-            "General web"
+            "undisclosed web"
         ],
         "Licenses": [
             {
@@ -30,7 +31,7 @@
         "Video Hours": 41.2,
         "Taken Down": "False",
         "Video Sources": [
-            "General web"
+            "undisclosed web"
         ]
     }
 }

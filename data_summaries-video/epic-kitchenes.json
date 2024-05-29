@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/dataset/epic-kitchens-100",
         "ArXiv URL": "https://arxiv.org/abs/1804.02748",
         "Semantic Scholar Corpus ID": 4710439,
+        "Year Released": 2018,
         "Text Sources": [
-            "Human Participants"
+            "human"
         ],
         "Licenses": [
             {
@@ -34,7 +35,7 @@
         "Video Hours": 100.0,
         "Taken Down": "False",
         "Video Sources": [
-            "Human Participants"
+            "human"
         ]
     }
 }

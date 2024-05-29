@@ -8,9 +8,19 @@
         "Tumblr",
         "Vine",
         "YouDescribe",
+        "youdescribe",
         "YouTube",
         "Youtube",
-        "YoutubeVideo"
+        "YoutubeVideo",
+        "youtube",
+        "flickr",
+        "facebook",
+        "vine",
+        "metacafe",
+        "peeks",
+        "vimeo",
+        "tumblr",
+        "instagram"
     ],
     "Commercial and Economic": [
         "Commerce",
@@ -29,7 +39,10 @@
         "TV",
         "VideoBlocks",
         "Vimeo",
-        "Visual Novels"
+        "Visual Novels",
+        "movies",
+        "bbc",
+        "prelinger archive"
     ],
     "Other": [
         "Code",
@@ -44,7 +57,8 @@
         "The Weather Channel",
         "Unclear",
         "Unsure",
-        "and Getty-Images"
+        "and Getty-Images",
+        "weather channel"
     ],
     "Government and Legal": [
         "Governments",
@@ -59,7 +73,13 @@
         "Google Videos",
         "GoogleImage",
         "Metacafe",
-        "Search Queries"
+        "Search Queries",
+        "undisclosed web",
+        "videoblocks",
+        "google videos",
+        "bing videos",
+        "giphy",
+        "getty-images"
     ],
     "Academic and Research": [
         "Academic Papers",
@@ -77,6 +97,8 @@
         "Meetings",
         "Phone Calls",
         "Video Calls",
-        "crowd-sourced"
+        "crowd-sourced",
+        "human",
+        "crowdsourced"
     ]
 }

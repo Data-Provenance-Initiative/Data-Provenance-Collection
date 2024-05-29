@@ -1,22 +1,23 @@
 {
-    "HMDB: A Large Video Database for Human Motion Recognition (ICCV 2011)\r\n": {
-        "Unique Dataset Identifier": "hmdb-dataset\r\n",
-        "Collection": "hmdb-dataset\r\n",
+    "HMDB: A Large Video Database for Human Motion Recognition (ICCV 2011)\n": {
+        "Unique Dataset Identifier": "hmdb-dataset\n",
+        "Collection": "hmdb-dataset\n",
         "Collection URL": "https://ieeexplore.ieee.org/document/6126543",
-        "Dataset Name": "HMDB: A Large Video Database for Human Motion Recognition (ICCV 2011)\r\n",
-        "Paper Title": "HMDB: A Large Video Database for Human Motion Recognition (ICCV 2011)\r\n",
+        "Dataset Name": "HMDB: A Large Video Database for Human Motion Recognition (ICCV 2011)\n",
+        "Paper Title": "HMDB: A Large Video Database for Human Motion Recognition (ICCV 2011)\n",
         "Paper URL": "https://ieeexplore.ieee.org/document/6126543",
         "GitHub URL": "",
         "Hugging Face URL": "",
         "Papers with Code URL": "https://paperswithcode.com/dataset/hmdb51",
         "ArXiv URL": "https://ieeexplore.ieee.org/document/6126543",
         "Semantic Scholar Corpus ID": 206769852,
+        "Year Released": 2011,
         "Text Sources": [
-            "Movies",
-            "Prelinger archive",
-            "General Web",
-            "YouTube",
-            "Google Videos"
+            "movies",
+            "prelinger archive",
+            "undisclosed web",
+            "youtube",
+            "google videos"
         ],
         "Licenses": [
             {
@@ -37,11 +38,11 @@
         "Video Hours": 7000.0,
         "Taken Down": "False",
         "Video Sources": [
-            "Movies",
-            "Prelinger archive",
-            "General Web",
-            "YouTube",
-            "Google Videos"
+            "movies",
+            "prelinger archive",
+            "undisclosed web",
+            "youtube",
+            "google videos"
         ]
     }
 }

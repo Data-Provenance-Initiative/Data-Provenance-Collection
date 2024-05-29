@@ -1,18 +1,19 @@
 {
-    "How2: A Large-scale Dataset for Multimodal Language Understanding (NeurIPS 2018)\r\n": {
-        "Unique Dataset Identifier": "how2\r\n",
-        "Collection": "how2\r\n",
+    "How2: A Large-scale Dataset for Multimodal Language Understanding (NeurIPS 2018)\n": {
+        "Unique Dataset Identifier": "how2\n",
+        "Collection": "how2\n",
         "Collection URL": "https://arxiv.org/abs/1811.00347",
-        "Dataset Name": "How2: A Large-scale Dataset for Multimodal Language Understanding (NeurIPS 2018)\r\n",
-        "Paper Title": "How2: A Large-scale Dataset for Multimodal Language Understanding (NeurIPS 2018)\r\n",
+        "Dataset Name": "How2: A Large-scale Dataset for Multimodal Language Understanding (NeurIPS 2018)\n",
+        "Paper Title": "How2: A Large-scale Dataset for Multimodal Language Understanding (NeurIPS 2018)\n",
         "Paper URL": "https://arxiv.org/abs/1811.00347",
         "GitHub URL": "https://github.com/srvk/how2-dataset",
         "Hugging Face URL": "",
         "Papers with Code URL": "",
         "ArXiv URL": "https://arxiv.org/abs/1811.00347",
         "Semantic Scholar Corpus ID": 53186236,
+        "Year Released": 2018,
         "Text Sources": [
-            "YouTube"
+            "youtube"
         ],
         "Licenses": [
             {
@@ -30,7 +31,7 @@
         "Video Hours": 2300.0,
         "Taken Down": "False",
         "Video Sources": [
-            "YouTube"
+            "youtube"
         ]
     }
 }

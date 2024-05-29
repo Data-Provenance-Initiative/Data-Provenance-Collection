@@ -1,18 +1,19 @@
 {
-    "MPII-Cooking: Recognizing Fine-Grained and Composite Activities Using Hand-Centric Features and Script Data (IJCV 2015)\r\n": {
+    "MPII-Cooking: Recognizing Fine-Grained and Composite Activities Using Hand-Centric Features and Script Data (IJCV 2015)\n": {
         "Unique Dataset Identifier": "mpii-cooking",
         "Collection": "mpii-cooking",
         "Collection URL": "https://arxiv.org/abs/1502.06648",
-        "Dataset Name": "MPII-Cooking: Recognizing Fine-Grained and Composite Activities Using Hand-Centric Features and Script Data (IJCV 2015)\r\n",
-        "Paper Title": "MPII-Cooking: Recognizing Fine-Grained and Composite Activities Using Hand-Centric Features and Script Data (IJCV 2015)\r\n",
+        "Dataset Name": "MPII-Cooking: Recognizing Fine-Grained and Composite Activities Using Hand-Centric Features and Script Data (IJCV 2015)\n",
+        "Paper Title": "MPII-Cooking: Recognizing Fine-Grained and Composite Activities Using Hand-Centric Features and Script Data (IJCV 2015)\n",
         "Paper URL": "https://arxiv.org/abs/1502.06648",
         "GitHub URL": "",
         "Hugging Face URL": "",
         "Papers with Code URL": "https://paperswithcode.com/paper/recognizing-fine-grained-and-composite",
         "ArXiv URL": "https://arxiv.org/abs/1502.06648",
         "Semantic Scholar Corpus ID": 14036544,
+        "Year Released": 2015,
         "Text Sources": [
-            "Human Participants"
+            "human"
         ],
         "Licenses": [
             {
@@ -30,7 +31,7 @@
         "Video Hours": 27.0,
         "Taken Down": "False",
         "Video Sources": [
-            "Human Participants"
+            "human"
         ]
     }
 }

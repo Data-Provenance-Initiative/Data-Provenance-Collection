@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/dataset/howto100m",
         "ArXiv URL": "https://arxiv.org/abs/1906.03327",
         "Semantic Scholar Corpus ID": 182952863,
+        "Year Released": 2019,
         "Text Sources": [
-            "YouTube"
+            "youtube"
         ],
         "Licenses": [
             {
@@ -34,7 +35,7 @@
         "Video Hours": 134472.0,
         "Taken Down": "False",
         "Video Sources": [
-            "YouTube"
+            "youtube"
         ]
     }
 }

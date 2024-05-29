@@ -1,19 +1,20 @@
 {
-    "Multi-Moments in Time: Learning and Interpreting Models for Multi-Action Video Understanding\r\n": {
+    "Multi-Moments in Time: Learning and Interpreting Models for Multi-Action Video Understanding\n": {
         "Unique Dataset Identifier": "multi-moments-in-time-dataset",
         "Collection": "multi-moments-in-time-dataset",
         "Collection URL": "https://arxiv.org/pdf/1911.00232.pdf",
-        "Dataset Name": "Multi-Moments in Time: Learning and Interpreting Models for Multi-Action Video Understanding\r\n",
-        "Paper Title": "Multi-Moments in Time: Learning and Interpreting Models for Multi-Action Video Understanding\r\n",
+        "Dataset Name": "Multi-Moments in Time: Learning and Interpreting Models for Multi-Action Video Understanding\n",
+        "Paper Title": "Multi-Moments in Time: Learning and Interpreting Models for Multi-Action Video Understanding\n",
         "Paper URL": "https://arxiv.org/pdf/1911.00232.pdf",
         "GitHub URL": "",
         "Hugging Face URL": "",
         "Papers with Code URL": "",
         "ArXiv URL": "https://arxiv.org/pdf/1911.00232.pdf",
         "Semantic Scholar Corpus ID": 207780280,
+        "Year Released": 2021,
         "Text Sources": [
-            "crowd-sourced",
-            "General Web"
+            "crowdsourced",
+            "undisclosed web"
         ],
         "Licenses": [
             {
@@ -31,8 +32,8 @@
         "Video Hours": 833.0,
         "Taken Down": "False",
         "Video Sources": [
-            "crowd-sourced",
-            "General Web"
+            "crowdsourced",
+            "undisclosed web"
         ]
     }
 }

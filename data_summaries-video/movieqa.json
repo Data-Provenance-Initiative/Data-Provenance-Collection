@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/dataset/movieqa",
         "ArXiv URL": "https://arxiv.org/abs/1512.02902",
         "Semantic Scholar Corpus ID": 1017389,
+        "Year Released": 2015,
         "Text Sources": [
-            "Movies"
+            "movies"
         ],
         "Licenses": [
             {
@@ -34,7 +35,7 @@
         "Video Hours": 381.0,
         "Taken Down": "True",
         "Video Sources": [
-            "Movies"
+            "movies"
         ]
     }
 }

@@ -1,18 +1,19 @@
 {
-    "The THUMOS Challenge on Action Recognition for\r\nVideos \u201cin the Wild\u201d": {
+    "The THUMOS Challenge on Action Recognition for\nVideos \u201cin the Wild\u201d": {
         "Unique Dataset Identifier": "thumos-challenge",
         "Collection": "thumos-challenge",
         "Collection URL": "https://arxiv.org/pdf/1604.06182.pdf",
-        "Dataset Name": "The THUMOS Challenge on Action Recognition for\r\nVideos \u201cin the Wild\u201d",
-        "Paper Title": "The THUMOS Challenge on Action Recognition for\r\nVideos \u201cin the Wild\u201d",
+        "Dataset Name": "The THUMOS Challenge on Action Recognition for\nVideos \u201cin the Wild\u201d",
+        "Paper Title": "The THUMOS Challenge on Action Recognition for\nVideos \u201cin the Wild\u201d",
         "Paper URL": "https://arxiv.org/pdf/1604.06182.pdf",
         "GitHub URL": "",
         "Hugging Face URL": "",
         "Papers with Code URL": "https://paperswithcode.com/dataset/thumos14-1",
         "ArXiv URL": "https://arxiv.org/pdf/1604.06182.pdf",
         "Semantic Scholar Corpus ID": 14049355,
+        "Year Released": 2014,
         "Text Sources": [
-            "YouTube"
+            "youtube"
         ],
         "Licenses": [
             {
@@ -34,7 +35,7 @@
         "Video Hours": 254.0,
         "Taken Down": "False",
         "Video Sources": [
-            "YouTube"
+            "youtube"
         ]
     }
 }
