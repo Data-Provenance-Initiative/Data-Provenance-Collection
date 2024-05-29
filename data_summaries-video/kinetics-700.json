@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/dataset/kinetics-700",
         "ArXiv URL": "https://arxiv.org/pdf/2010.10864.pdf",
         "Semantic Scholar Corpus ID": 196831809,
+        "Year Released": 2020,
         "Text Sources": [
-            "YouTube"
+            "youtube"
         ],
         "Licenses": [
             {
@@ -30,7 +31,7 @@
         "Video Hours": 1805.56,
         "Taken Down": "False",
         "Video Sources": [
-            "YouTube"
+            "youtube"
         ]
     }
 }

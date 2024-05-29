@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/paper/scenes-objects-actions-a-multi-task-multi",
         "ArXiv URL": "https://arxiv.org/pdf/1904.11451",
         "Semantic Scholar Corpus ID": 52968009,
+        "Year Released": 2018,
         "Text Sources": [
-            "Facebook"
+            "facebook"
         ],
         "Licenses": [
             {
@@ -30,7 +31,7 @@
         "Video Hours": 1561.1,
         "Taken Down": "False",
         "Video Sources": [
-            "Facebook"
+            "facebook"
         ]
     }
 }

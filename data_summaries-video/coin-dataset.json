@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/dataset/coin#:~:text=The%20COIN%20dataset%20(a%20large,are%20all%20collected%20from%20YouTube.",
         "ArXiv URL": "https://arxiv.org/abs/1903.02874",
         "Semantic Scholar Corpus ID": 71147568,
+        "Year Released": 2019,
         "Text Sources": [
-            "YouTube"
+            "youtube"
         ],
         "Licenses": [
             {
@@ -31,7 +32,7 @@
         "Video Hours": 476.0,
         "Taken Down": "False",
         "Video Sources": [
-            "YouTube"
+            "youtube"
         ]
     }
 }

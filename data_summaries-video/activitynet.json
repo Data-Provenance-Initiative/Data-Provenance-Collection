@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/dataset/activitynet",
         "ArXiv URL": "https://ieeexplore.ieee.org/document/7298698",
         "Semantic Scholar Corpus ID": 1710722,
+        "Year Released": 2015,
         "Text Sources": [
-            "General web"
+            "undisclosed web"
         ],
         "Licenses": [
             {
@@ -32,7 +33,7 @@
         "Video Hours": 849.0,
         "Taken Down": "False",
         "Video Sources": [
-            "General web"
+            "undisclosed web"
         ]
     }
 }

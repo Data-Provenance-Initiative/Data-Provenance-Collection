@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/dataset/volleyball",
         "ArXiv URL": "https://arxiv.org/abs/1511.06040",
         "Semantic Scholar Corpus ID": 8483403,
+        "Year Released": 2015,
         "Text Sources": [
-            "YouTube"
+            "youtube"
         ],
         "Licenses": [
             {
@@ -30,7 +31,7 @@
         "Video Hours": 0.1,
         "Taken Down": "False",
         "Video Sources": [
-            "YouTube"
+            "youtube"
         ]
     }
 }

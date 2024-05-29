@@ -1,27 +1,29 @@
 {
-    "Moments in Time Dataset: one million videos for event understanding (TPAMI 2019)\r\n": {
+    "Moments in Time Dataset: one million videos for event understanding (TPAMI 2019)\n": {
         "Unique Dataset Identifier": "moments-in-time-dataset",
         "Collection": "moments-in-time-dataset",
         "Collection URL": "https://arxiv.org/pdf/1801.03150.pdf",
-        "Dataset Name": "Moments in Time Dataset: one million videos for event understanding (TPAMI 2019)\r\n",
-        "Paper Title": "Moments in Time Dataset: one million videos for event understanding (TPAMI 2019)\r\n",
+        "Dataset Name": "Moments in Time Dataset: one million videos for event understanding (TPAMI 2019)\n",
+        "Paper Title": "Moments in Time Dataset: one million videos for event understanding (TPAMI 2019)\n",
         "Paper URL": "https://arxiv.org/pdf/1801.03150.pdf",
         "GitHub URL": "",
         "Hugging Face URL": "",
         "Papers with Code URL": "",
         "ArXiv URL": "https://arxiv.org/pdf/1801.03150.pdf",
         "Semantic Scholar Corpus ID": 11868155,
+        "Year Released": 2019,
         "Text Sources": [
-            "Youtube",
-            "Flickr",
-            "Vine",
-            "Metacafe",
-            "Peeks",
-            "Vimeo",
-            "VideoBlocks",
-            "Bing,\r\nGiphy",
-            "The Weather Channel",
-            "Getty-Images"
+            "youtube",
+            "flickr",
+            "vine",
+            "metacafe",
+            "peeks",
+            "vimeo",
+            "videoblocks",
+            "bing videos",
+            "giphy",
+            "weather channel",
+            "getty-images"
         ],
         "Licenses": [
             {
@@ -39,16 +41,17 @@
         "Video Hours": 833.0,
         "Taken Down": "False",
         "Video Sources": [
-            "Youtube",
-            "Flickr",
-            "Vine",
-            "Metacafe",
-            "Peeks",
-            "Vimeo",
-            "VideoBlocks",
-            "Bing,\r\nGiphy",
-            "The Weather Channel",
-            "Getty-Images"
+            "youtube",
+            "flickr",
+            "vine",
+            "metacafe",
+            "peeks",
+            "vimeo",
+            "videoblocks",
+            "bing videos",
+            "giphy",
+            "weather channel",
+            "getty-images"
         ]
     }
 }

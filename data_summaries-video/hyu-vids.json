@@ -1,18 +1,19 @@
 {
-    "HVU: Large Scale Holistic Video Understanding (ECCV 2020)\r\n": {
+    "HVU: Large Scale Holistic Video Understanding (ECCV 2020)\n": {
         "Unique Dataset Identifier": "hyu-vids",
         "Collection": "hyu-vids",
         "Collection URL": "https://arxiv.org/abs/1904.11451",
-        "Dataset Name": "HVU: Large Scale Holistic Video Understanding (ECCV 2020)\r\n",
-        "Paper Title": "HVU: Large Scale Holistic Video Understanding (ECCV 2020)\r\n",
+        "Dataset Name": "HVU: Large Scale Holistic Video Understanding (ECCV 2020)\n",
+        "Paper Title": "HVU: Large Scale Holistic Video Understanding (ECCV 2020)\n",
         "Paper URL": "https://arxiv.org/abs/1904.11451",
         "GitHub URL": "https://github.com/holistic-video-understanding/HVU-Dataset",
         "Hugging Face URL": "",
         "Papers with Code URL": "https://paperswithcode.com/paper/holistic-large-scale-video-understanding",
         "ArXiv URL": "https://arxiv.org/abs/1904.11451",
         "Semantic Scholar Corpus ID": 131777079,
+        "Year Released": 2020,
         "Text Sources": [
-            "YouTube"
+            "youtube"
         ],
         "Licenses": [
             {
@@ -36,7 +37,7 @@
         "Video Hours": 96166.67,
         "Taken Down": "False",
         "Video Sources": [
-            "YouTube"
+            "youtube"
         ]
     }
 }

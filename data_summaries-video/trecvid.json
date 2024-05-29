@@ -11,9 +11,10 @@
         "Papers with Code URL": "https://paperswithcode.com/paper/trecvid-2019-an-evaluation-campaign-to/review/",
         "ArXiv URL": "https://arxiv.org/abs/2009.09984",
         "Semantic Scholar Corpus ID": 212694843,
+        "Year Released": 2019,
         "Text Sources": [
-            "General web",
-            "BBC"
+            "undisclosed web",
+            "bbc"
         ],
         "Licenses": [
             {
@@ -31,8 +32,8 @@
         "Video Hours": 1000.0,
         "Taken Down": "False",
         "Video Sources": [
-            "General web",
-            "BBC"
+            "undisclosed web",
+            "bbc"
         ]
     }
 }

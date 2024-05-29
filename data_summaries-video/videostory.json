@@ -11,8 +11,9 @@
         "Papers with Code URL": "",
         "ArXiv URL": "https://isis-data.science.uva.nl/cgmsnoek/pub/habibian-videostory-mm2014.pdf",
         "Semantic Scholar Corpus ID": 28203,
+        "Year Released": 2014,
         "Text Sources": [
-            "YouTube"
+            "youtube"
         ],
         "Licenses": [
             {
@@ -30,7 +31,7 @@
         "Video Hours": 743.0,
         "Taken Down": "False",
         "Video Sources": [
-            "YouTube"
+            "youtube"
         ]
     }
 }
