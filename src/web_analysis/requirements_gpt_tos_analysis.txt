@@ -1,4 +1,5 @@
 asyncio
+pickle
 tqdm
 openai
 aiohttp
