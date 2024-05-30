@@ -1,0 +1,69 @@
+{
+    "Vystadial": {
+        "Dataset Name": "vystadial",
+        "Unique Dataset Identifier": "vystadial",
+        "Collection": "Vystadial",
+        "Hours": 56.0,
+        "Languages (Count)": 2,
+        "Languages": [
+            "English",
+            "Czech"
+        ],
+        "Languages (ISO)": [
+            "en",
+            "cs"
+        ],
+        "Language Groups": [
+            "English",
+            "Other Indo-European"
+        ],
+        "Language Families": [
+            "Germanic",
+            "Indo-European"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://www.openslr.org/6/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Conversations with Friends",
+            "Public Transporation Information",
+            "Other"
+        ],
+        "Source Category": [
+            "Crowd-Sourcing",
+            "Calling Platform"
+        ],
+        "Source": [
+            "Crowd-Sourcing",
+            "Calling Platform"
+        ],
+        "Process Description": "Audios Recorded First, Text Transcribed Later",
+        "Github URL": "https://github.com/kaldi-asr/kaldi/tree/master/egs/vystadial_cz",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://www.openslr.org/6/"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "Charles University"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2014,
+        "Location": [
+            "Czech Republic"
+        ],
+        "Notes": ""
+    }
+}

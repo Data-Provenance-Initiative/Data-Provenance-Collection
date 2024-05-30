@@ -1,0 +1,61 @@
+{
+    "CSLU: Foreign Accented English Release 1.2": {
+        "Dataset Name": "cslu-foreign-accented-english-release-12",
+        "Unique Dataset Identifier": "cslu-foreign-accented-english-release-12",
+        "Collection": "CSLU: Foreign Accented English Release 1.2",
+        "Hours": 25.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "English (Accented)"
+        ],
+        "Languages (ISO)": [
+            "en"
+        ],
+        "Language Groups": [
+            "English"
+        ],
+        "Language Families": [
+            "Germanic"
+        ],
+        "Speakers": 4925,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CSLU Agreement",
+                "License URL": "https://catalog.ldc.upenn.edu/LDC2007S08"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Personal Information"
+        ],
+        "Source Category": [
+            "Calling Platform"
+        ],
+        "Source": [
+            "Calling Platform"
+        ],
+        "Process Description": "Audios Recorded First, Text Manually Transcribed Later",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://catalog.ldc.upenn.edu/LDC2007S08"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "Oregon Health & Science University"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2007,
+        "Location": [
+            "United States"
+        ],
+        "Notes": ""
+    }
+}

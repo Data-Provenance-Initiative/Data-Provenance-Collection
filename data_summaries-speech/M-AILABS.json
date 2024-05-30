@@ -1,0 +1,114 @@
+{
+    "M-AILABS": {
+        "Dataset Name": "m-ailabs",
+        "Unique Dataset Identifier": "m-ailabs",
+        "Collection": "M-AILABS",
+        "Hours": 1000.0,
+        "Languages (Count)": 8,
+        "Languages": [
+            "German",
+            "English (US)",
+            "English (UK)",
+            "Spanish",
+            "Italian",
+            "Ukrainian",
+            "Russian",
+            "French"
+        ],
+        "Languages (ISO)": [
+            "de",
+            "en_UK",
+            "en_US",
+            "es",
+            "it",
+            "uk",
+            "ru",
+            "fr"
+        ],
+        "Language Groups": [
+            "Other Indo-European",
+            "German",
+            "French",
+            "Italian",
+            "Spanish",
+            "English"
+        ],
+        "Language Families": [
+            "Germanic",
+            "Indo-European"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition",
+            "Speech Synthesis"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/"
+            }
+        ],
+        "License Notes": "License similar to BSD 3-Clause (without clause 2)",
+        "Topics": [
+            "Non-fiction",
+            "Action & Adventure Fiction",
+            "Children's Fiction",
+            "Children's Non-fiction",
+            "Classics (Greek & Latin Antiquity)",
+            "Crime & Mystery Fiction",
+            "Culture & Heritage Fiction",
+            "Dramatic Readings",
+            "Epistolary Fiction",
+            "Erotica",
+            "Family Life",
+            "Fantastic Fiction",
+            "Fictional Biographies & Memoirs",
+            "General Fiction",
+            "Historical Fiction",
+            "Humorous Fiction",
+            "Literary Fiction",
+            "Nature & Animal Fiction",
+            "Nautical & Marine Fiction",
+            "Plays",
+            "Poetry",
+            "Religious Fiction",
+            "Romance",
+            "Sagas",
+            "Satire",
+            "Short Stories",
+            "Sports Fiction",
+            "Suspense",
+            "Espionage",
+            "Political & Thrillers",
+            "Travel Fiction",
+            "War & Military Fiction",
+            "Westerns"
+        ],
+        "Source Category": [
+            "Audiobooks"
+        ],
+        "Source": [
+            "LibriVox Audiobooks"
+        ],
+        "Process Description": "Audios With Transcripts Attached",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/m-ailabs-speech-dataset",
+        "Paper URL": "",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "Independent"
+        ],
+        "Creator Categories": [
+            "Independent"
+        ],
+        "Year Released": 2019,
+        "Location": [
+            "Germany"
+        ],
+        "Notes": ""
+    }
+}

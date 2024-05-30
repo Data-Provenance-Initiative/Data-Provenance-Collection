@@ -1,0 +1,96 @@
+{
+    "Kathbath": {
+        "Dataset Name": "kathbath",
+        "Unique Dataset Identifier": "kathbath",
+        "Collection": "Kathbath",
+        "Hours": 1684.0,
+        "Languages (Count)": 12,
+        "Languages": [
+            "Bengali",
+            "Gujarati",
+            "Hindi",
+            "Kannada",
+            "Malayalam",
+            "Marathi",
+            "Odia",
+            "Punjabi",
+            "Sanskrit",
+            "Tamil",
+            "Telugu",
+            "Urdu"
+        ],
+        "Languages (ISO)": [
+            "bn",
+            "gu",
+            "hi",
+            "kn",
+            "ml",
+            "mr",
+            "or",
+            "pa",
+            "sa",
+            "ta",
+            "te",
+            "ur"
+        ],
+        "Language Groups": [
+            "Low Resource Languages",
+            "Hindi",
+            "Indian Peninsula"
+        ],
+        "Language Families": [
+            "Dravidian",
+            "Other",
+            "Indo-European"
+        ],
+        "Speakers": 1218,
+        "Tasks": [
+            "Speech Recognition",
+            "Speaker Verification",
+            "Speaker Identification (mono/multi)",
+            "Language Identification",
+            "Query By Example",
+            "Keyword Spotting"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": "https://ai4bharat.iitm.ac.in/indicsuperb/"
+            }
+        ],
+        "License Notes": "For \"packaging\"",
+        "Topics": [
+            "News",
+            "Government",
+            "Other"
+        ],
+        "Source Category": [
+            "Crowd-Sourcing"
+        ],
+        "Source": [
+            "Crowd-Sourcing"
+        ],
+        "Process Description": "Scripts (Sentences) Generated First, Then Audio Was Recorded",
+        "Github URL": "https://github.com/AI4Bharat/IndicSUPERB?tab=Apache-2.0-1-ov-file",
+        "Hugging Face URL": "https://huggingface.co/datasets/ai4bharat/kathbath",
+        "Website URL": [
+            "https://ai4bharat.iitm.ac.in/indicsuperb/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/paper/indicsuperb-a-speech-processing-universal",
+        "Paper URL": "https://arxiv.org/pdf/2208.11761.pdf",
+        "Semantic Scholar Corpus ID": 251800084,
+        "Creators": [
+            "Indian Institute of Technology Madras",
+            "Microsoft"
+        ],
+        "Creator Categories": [
+            "Industry",
+            "Academia"
+        ],
+        "Year Released": 2022,
+        "Location": [
+            "India"
+        ],
+        "Notes": "newer dataset, about 2 years old"
+    }
+}

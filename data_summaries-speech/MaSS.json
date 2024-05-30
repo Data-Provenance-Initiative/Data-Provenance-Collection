@@ -1,0 +1,80 @@
+{
+    "MaSS": {
+        "Dataset Name": "mass",
+        "Unique Dataset Identifier": "mass",
+        "Collection": "MaSS",
+        "Hours": 160.0,
+        "Languages (Count)": 8,
+        "Languages": [
+            "Basque",
+            "English",
+            "Finnish",
+            "French",
+            "Hungarian",
+            "Romanian",
+            "Russian",
+            "Spanish"
+        ],
+        "Languages (ISO)": [
+            "eu",
+            "en",
+            "fi",
+            "fr",
+            "hu",
+            "ro",
+            "ru",
+            "es"
+        ],
+        "Language Groups": [
+            "Low Resource Languages",
+            "English",
+            "Scandinavian",
+            "French",
+            "Other Indo-European",
+            "Spanish"
+        ],
+        "Language Families": [
+            "Other",
+            "English",
+            "Uralic",
+            "Indo-European"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition",
+            "Text-To-Speech"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Religion"
+        ],
+        "Source Category": [
+            "Audiobooks"
+        ],
+        "Source": [
+            "Bible"
+        ],
+        "Process Description": "Extracted Audio And Transcriptions From The Bible.Is Website, Then Proceeded With Alignment Extraction And Segmentation",
+        "Github URL": "https://github.com/getalp/mass-dataset",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/mass",
+        "Paper URL": "https://arxiv.org/pdf/1907.12895",
+        "Semantic Scholar Corpus ID": 198986161,
+        "Creators": [
+            "Universit\u00e9 Grenoble Alpes"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2020,
+        "Location": [
+            "France"
+        ],
+        "Notes": ""
+    }
+}

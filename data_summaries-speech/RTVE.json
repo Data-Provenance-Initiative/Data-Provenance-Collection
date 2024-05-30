@@ -1,0 +1,69 @@
+{
+    "RTVE": {
+        "Dataset Name": "rtve",
+        "Unique Dataset Identifier": "rtve",
+        "Collection": "RTVE",
+        "Hours": 691.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Spanish"
+        ],
+        "Languages (ISO)": [
+            "es"
+        ],
+        "Language Groups": [
+            "Spanish"
+        ],
+        "Language Families": [
+            "Indo-European"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://catedrartve.unizar.es/reto2024/RTVE_database_license_v2024.pdf"
+            }
+        ],
+        "License Notes": "Data can be accessed by emailing them",
+        "Topics": [
+            "News",
+            "Documentaries",
+            "Finance",
+            "Games",
+            "Political Debate",
+            "Weather",
+            "Other TV shows"
+        ],
+        "Source Category": [
+            "TV",
+            "Radio"
+        ],
+        "Source": [
+            "RTVE"
+        ],
+        "Process Description": "Audios Recorded First, Text Transcribed Later",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://catedrartve.unizar.es/rtvedatabase.html"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "https://catedrartve.unizar.es/reto2022/RTVE2022DB.pdf",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "RTVE"
+        ],
+        "Creator Categories": [
+            "Government",
+            "Academia"
+        ],
+        "Year Released": 2018,
+        "Location": [
+            "Spain"
+        ],
+        "Notes": "Collection of databases released by RTVE since 2018. Data is the accumulation over the years."
+    }
+}
