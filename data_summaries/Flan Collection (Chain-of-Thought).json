@@ -54,10 +54,10 @@
         "Inferred Metadata": {
             "HF Dataset": "gsm8k",
             "HF Config": "main",
-            "HF Config License": "MIT License",
+            "HF Config License": "",
             "HF Yaml License": "MIT License",
             "PwC License Name": "Unspecified",
-            "PwC License URL": "",
+            "PwC License URL": null,
             "PwC Date": "2021-10-27",
             "S2 Date": "2021-10-27",
             "GitHub License": "",
@@ -77,7 +77,11 @@
             "PwC Description": "GSM8K is a dataset of 8.5K high quality linguistically diverse grade school math word problems created by human problem writers. The dataset is segmented into 7.5K training problems and 1K test problems. These problems take between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations (+ − ×÷) to reach the final answer. A bright middle school student should be able to solve every problem. It can be used for multi-step mathematical reasoning.",
             "S2 Citation Count (September 2023)": 434,
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": [],
+            "GitHub Stars (May 2024)": 881,
+            "HF Downloads (May 2024)": 467050,
+            "HF Likes (May 2024)": 236,
+            "S2 Citation Count (May 2024)": 1294
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -139,11 +143,11 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "metaeval/strategy-qa",
-            "HF Config": "metaeval--strategy-qa",
+            "HF Config": "default",
             "HF Config License": "",
             "HF Yaml License": "",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
             "PwC Date": "2021-01-06",
             "S2 Date": "2021-01-06",
             "GitHub License": "",
@@ -164,7 +168,11 @@
             "PwC Description": "StrategyQA is a question answering benchmark where the required reasoning steps are implicit in the question, and should be inferred using a strategy.\nIt includes 2,780 examples, each consisting of a strategy question, its decomposition, and evidence paragraphs.\nQuestions in StrategyQA are short, topic-diverse, and cover a wide range of strategies.",
             "S2 Citation Count (September 2023)": 194,
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 25,
+            "HF Likes (May 2024)": 2,
+            "S2 Citation Count (May 2024)": 379
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -227,8 +235,8 @@
         "Inferred Metadata": {
             "HF Dataset": "aqua_rat",
             "HF Config": "raw",
-            "HF Config License": "Apache License 2.0",
-            "HF Yaml License": "",
+            "HF Config License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "Apache License 2.0",
             "PwC License URL": "https://www.apache.org/licenses/LICENSE-2.0",
             "PwC Date": "",
@@ -252,7 +260,11 @@
             "PwC Description": "Algebra Question Answering with Rationales (AQUA-RAT) is a dataset that contains algebraic word problems with rationales. The dataset consists of about 100,000 algebraic word problems with natural language rationales. Each problem is a json object consisting of four parts:\n* question - A natural language definition of the problem to solve\n* options - 5 possible options (A, B, C, D and E), among which one is correct\n* rationale - A natural language description of the solution to the problem\n* correct - The correct option",
             "S2 Citation Count (September 2023)": 271,
             "GitHub Stars": 248,
-            "GitHub Topics": []
+            "GitHub Topics": [],
+            "GitHub Stars (May 2024)": 271,
+            "HF Downloads (May 2024)": 3018,
+            "HF Likes (May 2024)": 19,
+            "S2 Citation Count (May 2024)": 418
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -312,7 +324,7 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "amydeng2000/CREAK",
-            "HF Config": "amydeng2000--CREAK",
+            "HF Config": "default",
             "HF Config License": "",
             "HF Yaml License": "",
             "PwC License Name": "CC BY-SA 4.0",
@@ -337,7 +349,11 @@
             "PwC Description": "A testbed for commonsense reasoning about entity knowledge, bridging fact-checking about entities with commonsense inferences.",
             "S2 Citation Count (September 2023)": 30,
             "GitHub Stars": 17,
-            "GitHub Topics": []
+            "GitHub Topics": [],
+            "GitHub Stars (May 2024)": 20,
+            "HF Downloads (May 2024)": 76,
+            "HF Likes (May 2024)": 0,
+            "S2 Citation Count (May 2024)": 50
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -399,7 +415,7 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "yangdong/ecqa",
-            "HF Config": "yangdong--ecqa2",
+            "HF Config": "default",
             "HF Config License": "",
             "HF Yaml License": "",
             "PwC License Name": "CDLA Sharing 1.0",
@@ -426,7 +442,11 @@
             "PwC Description": "This repository contains the publicly released dataset, code, and models for the Explanations for CommonsenseQA paper presented at ACL-IJCNLP 2021. Directories data and  code inside the root folder contain dataset and code, respectively. The same data and code are also made available through our AIHN collaboration partner institute IIT Delhi. You can download the full paper from here.\n\nNote that these annotations are provided for the questions of the CommonsenseQA data (https://www.tau-nlp.org/commonsenseqa): arXiv:1811.00937 [cs.CL] (or arXiv:1811.00937v2 [cs.CL] for this version).\n\nCitations\nPlease consider citing this paper as follows:\n@inproceedings{aggarwaletal2021ecqa,\n  title={{E}xplanations for {C}ommonsense{QA}: {N}ew {D}ataset and {M}odels},\n  author={Shourya Aggarwal and Divyanshu Mandowara and Vishwajeet Agrawal and Dinesh Khandelwal and Parag Singla and Dinesh Garg},\n  booktitle=\"Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)}\",\n  Pages = 3050–3065,\n  year = \"2021\",\n  publisher = \"Association for Computational Linguistics\"\n}",
             "S2 Citation Count (September 2023)": 59,
             "GitHub Stars": 13,
-            "GitHub Topics": []
+            "GitHub Topics": [],
+            "GitHub Stars (May 2024)": 14,
+            "HF Downloads (May 2024)": 77,
+            "HF Likes (May 2024)": 0,
+            "S2 Citation Count (May 2024)": 93
         },
         "Derived from Datasets": [
             "CommonSenseQA"
@@ -494,7 +514,7 @@
             "HF Config": "plain_text",
             "HF Config License": "",
             "HF Yaml License": "",
-            "PwC License Name": "Custom",
+            "PwC License Name": "Various",
             "PwC License URL": "https://github.com/OanaMariaCamburu/e-SNLI",
             "PwC Date": "",
             "S2 Date": "2018-12-04",
@@ -516,7 +536,11 @@
             "PwC Description": "e-SNLI is used for various goals, such as obtaining full sentence justifications of a model's decisions, improving universal sentence representations and transferring to out-of-domain NLI datasets.",
             "S2 Citation Count (September 2023)": 393,
             "GitHub Stars": 148,
-            "GitHub Topics": []
+            "GitHub Topics": [],
+            "GitHub Stars (May 2024)": 153,
+            "HF Downloads (May 2024)": 733,
+            "HF Likes (May 2024)": 18,
+            "S2 Citation Count (May 2024)": 495
         },
         "Derived from Datasets": [
             "snli"
@@ -583,7 +607,7 @@
             "HF Config License": "",
             "HF Yaml License": "CC BY 4.0",
             "PwC License Name": "Unspecified",
-            "PwC License URL": "",
+            "PwC License URL": null,
             "PwC Date": "2019-10-25",
             "S2 Date": "2019-10-25",
             "GitHub License": "",
@@ -606,7 +630,11 @@
             "PwC Description": "QASC is a question-answering dataset with a focus on sentence composition. It consists of 9,980 8-way multiple-choice questions about grade school science (8,134 train, 926 dev, 920 test), and comes with a corpus of 17M sentences.",
             "S2 Citation Count (September 2023)": 199,
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 269,
+            "HF Likes (May 2024)": 9,
+            "S2 Citation Count (May 2024)": 251
         },
         "Derived from Datasets": [
             "WorldTree corpus"
@@ -677,8 +705,8 @@
             "HF Config": "qed",
             "HF Config License": "",
             "HF Yaml License": "Unspecified",
-            "PwC License Name": "",
-            "PwC License URL": "",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
             "PwC Date": "",
             "S2 Date": "2020-09-08",
             "GitHub License": "",
@@ -699,7 +727,11 @@
             "PwC Description": "QED is a linguistically principled framework for explanations in question answering. Given a question and a passage, QED represents an explanation of the answer as a combination of discrete, human-interpretable steps:\nsentence selection := identification of a sentence implying an answer to the question\nreferential equality := identification of noun phrases in the question and the answer sentence that refer to the same thing\npredicate entailment := confirmation that the predicate in the sentence entails the predicate in the question once referential equalities are abstracted away.\nThe QED dataset is an expert-annotated dataset of QED explanations build upon a subset of the Google Natural Questions dataset.",
             "S2 Citation Count (September 2023)": 45,
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": [],
+            "GitHub Stars (May 2024)": 114,
+            "HF Downloads (May 2024)": 225,
+            "HF Likes (May 2024)": 4,
+            "S2 Citation Count (May 2024)": 56
         },
         "Derived from Datasets": [
             "WorldTree corpus"
@@ -789,7 +821,11 @@
             "PwC Description": "",
             "S2 Citation Count (September 2023)": 53,
             "GitHub Stars": 11,
-            "GitHub Topics": []
+            "GitHub Topics": [],
+            "GitHub Stars (May 2024)": 13,
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "S2 Citation Count (May 2024)": 72
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",

@@ -103,3 +103,31 @@ python src/web_analysis/parse_robots.py <in-path> <out-path>
 
 See the `src/web_analysis/downloading_web/` folder for the scripts that process pretraining text data (C4, RefinedWeb, and Dolma).
 These scripts map the high-level base domains (e.g. www.en.wikpiedia.org) to the number of scraped paths (e.g. www.en.wikipedia.org/wiki/The_Shawshank_Redemption) and the total number of text tokens across those paths.
+
+
+### ChatGPT for Terms & Policies Analysis
+
+This script facilitates the analysis of Terms of Service (ToS) and other usage policy documents using `gpt-4-turbo`. It is meant to determine the presence/type of policies related to scraping, AI usage, restrictions on competing services, illicit content, and licensing types. It handles data loading, optional data sampling, processing texts through the GPT model, and exporting results to CSV format for review. To install the required dependencies, use the `requirements_gpt_tos_analysis.txt` file. Note: to run this code you will need to add your [OpenAI API](https://platform.openai.com/docs/quickstart) key to a `.env` file located in the `\data` directory. 
+
+Example usage - 
+
+Using a full JSON dataset, run the `AI-policy` prompt and save output:
+
+```
+python gpt_tos_analysis.py --input_file_path "\path-to-data.json" --prompt_key "AI-policy" --output_file_path "\path-for-output-data.json"
+```
+
+Run the `type-of-license` prompt on a custom sample and save output to csv file:
+
+```
+python gpt_tos_analysis.py --input_sample_file_path "\path-to-sample-data.pkl" --prompt_key "type-of-license" --save_verdicts_to_csv True
+```
+Run the `scraping-policy` prompt on a custom sample, filter text without keywords:
+
+```
+python gpt_tos_analysis.py --input_sample_file_path "\path-to-sample-data.pkl" --prompt_key "scraping-policy" --filter_keywords True
+```
+
+Note - 
+
+Running this script requires the user to specify a `--prompt_key`. Key options are: `"scraping-policy", "AI-policy", "competing-services", "illicit-content", "type-of-license"`

@@ -68,7 +68,7 @@
                 "History",
                 "Daily routine"
             ],
-            "GitHub License": "",
+            "GitHub License": "MIT License",
             "Github Date": "",
             "PwC Date": "",
             "PwC Description": "",
@@ -79,7 +79,17 @@
                 "chatgpt",
                 "deep-learning",
                 "large-language-models"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 2114,
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "HuggingFaceH4/ultrachat_200k",
+            "HF Date": "2023-10-24",
+            "HF Downloads (May 2024)": 49733,
+            "HF Likes (May 2024)": 345,
+            "HF Yaml License": "MIT License",
+            "S2 Citation Count (May 2024)": 143,
+            "S2 Date": "2023-05-23"
         },
         "Human Annotation": "No",
         "Derived from Datasets": [

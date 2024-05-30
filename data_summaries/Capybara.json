@@ -56,7 +56,38 @@
         "Dataset Filter IDs": [
             "Dove"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "LDJnr/Capybara",
+            "HF Date": "2023-12-16",
+            "HF Downloads (May 2024)": 1798,
+            "HF Likes (May 2024)": 193,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 3703,
+            "Mean Inputs Length": 296.7869,
+            "Mean Targets Length": 1318.0695,
+            "Max Inputs Length": 11825,
+            "Max Targets Length": 5857,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 34,
+            "Mean Dialog Turns": 3.683
+        }
     },
     "capybara-Airoboros": {
         "Unique Dataset Identifier": "capybara-Airoboros",
@@ -114,7 +145,38 @@
         "Dataset Filter IDs": [
             "Airoboros"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "LDJnr/Capybara",
+            "HF Date": "2023-12-16",
+            "HF Downloads (May 2024)": 1798,
+            "HF Likes (May 2024)": 193,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 3516,
+            "Mean Inputs Length": 178.4746,
+            "Mean Targets Length": 1466.6111,
+            "Max Inputs Length": 3409,
+            "Max Targets Length": 17945,
+            "Min Inputs Length": 26,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 8,
+            "Mean Dialog Turns": 6.7719
+        }
     },
     "capybara-Know-Logic": {
         "Unique Dataset Identifier": "capybara-Know-Logic",
@@ -139,7 +201,9 @@
             "Question Answering"
         ],
         "Text Sources": [],
-        "Model Generated": ["OpenAI GPT-4"],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -163,7 +227,38 @@
         "Dataset Filter IDs": [
             "Know-Logic"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "LDJnr/Capybara",
+            "HF Date": "2023-12-16",
+            "HF Downloads (May 2024)": 1798,
+            "HF Likes (May 2024)": 193,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1867,
+            "Mean Inputs Length": 187.4421,
+            "Mean Targets Length": 1490.5915,
+            "Max Inputs Length": 4136,
+            "Max Targets Length": 7763,
+            "Min Inputs Length": 26,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 8,
+            "Mean Dialog Turns": 6.7606
+        }
     },
     "capybara-EverythingLM": {
         "Unique Dataset Identifier": "capybara-EverythingLM",
@@ -231,7 +326,38 @@
         "Dataset Filter IDs": [
             "EverythingLM"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "LDJnr/Capybara",
+            "HF Date": "2023-12-16",
+            "HF Downloads (May 2024)": 1798,
+            "HF Likes (May 2024)": 193,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1344,
+            "Mean Inputs Length": 193.9376,
+            "Mean Targets Length": 1920.6231,
+            "Max Inputs Length": 2539,
+            "Max Targets Length": 11009,
+            "Min Inputs Length": 25,
+            "Min Targets Length": 7,
+            "Min Dialog Turns": 6,
+            "Max Dialog Turns": 8,
+            "Mean Dialog Turns": 6.7753
+        }
     },
     "capybara-GOAT": {
         "Unique Dataset Identifier": "capybara-GOAT",
@@ -252,7 +378,9 @@
             "Logical and Mathematical Reasoning"
         ],
         "Text Sources": [],
-        "Model Generated": ["OpenAI GPT-4"],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -276,7 +404,38 @@
         "Dataset Filter IDs": [
             "GOAT"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "LDJnr/Capybara",
+            "HF Date": "2023-12-16",
+            "HF Downloads (May 2024)": 1798,
+            "HF Likes (May 2024)": 193,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1000,
+            "Mean Inputs Length": 82.672,
+            "Mean Targets Length": 107.377,
+            "Max Inputs Length": 161,
+            "Max Targets Length": 424,
+            "Min Inputs Length": 41,
+            "Min Targets Length": 9,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "capybara-TaskSource": {
         "Unique Dataset Identifier": "capybara-TaskSource",
@@ -309,7 +468,9 @@
             "Closed-Book Question Answering"
         ],
         "Text Sources": [],
-        "Model Generated": ["OpenAI GPT-4"],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -333,7 +494,38 @@
         "Dataset Filter IDs": [
             "TaskSource"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "LDJnr/Capybara",
+            "HF Date": "2023-12-16",
+            "HF Downloads (May 2024)": 1798,
+            "HF Likes (May 2024)": 193,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 889,
+            "Mean Inputs Length": 1161.6063,
+            "Mean Targets Length": 27.1507,
+            "Max Inputs Length": 65394,
+            "Max Targets Length": 2906,
+            "Min Inputs Length": 40,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "capybara-General-Instruct": {
         "Unique Dataset Identifier": "capybara-General-Instruct",
@@ -389,7 +581,38 @@
         "Dataset Filter IDs": [
             "General-Instruct"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "LDJnr/Capybara",
+            "HF Date": "2023-12-16",
+            "HF Downloads (May 2024)": 1798,
+            "HF Likes (May 2024)": 193,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 846,
+            "Mean Inputs Length": 155.5645,
+            "Mean Targets Length": 1202.1028,
+            "Max Inputs Length": 957,
+            "Max Targets Length": 2807,
+            "Min Inputs Length": 29,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 6,
+            "Max Dialog Turns": 8,
+            "Mean Dialog Turns": 6.7589
+        }
     },
     "capybara-GPT4LLM": {
         "Unique Dataset Identifier": "capybara-GPT4LLM",
@@ -456,7 +679,38 @@
         "Dataset Filter IDs": [
             "GPT4LLM"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "LDJnr/Capybara",
+            "HF Date": "2023-12-16",
+            "HF Downloads (May 2024)": 1798,
+            "HF Likes (May 2024)": 193,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 820,
+            "Mean Inputs Length": 118.2403,
+            "Mean Targets Length": 1337.5074,
+            "Max Inputs Length": 726,
+            "Max Targets Length": 2898,
+            "Min Inputs Length": 26,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 8,
+            "Mean Dialog Turns": 6.7585
+        }
     },
     "capybara-TheoremQA": {
         "Unique Dataset Identifier": "capybara-TheoremQA",
@@ -477,7 +731,9 @@
             "Question Answering"
         ],
         "Text Sources": [],
-        "Model Generated": ["OpenAI GPT-4"],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -501,7 +757,38 @@
         "Dataset Filter IDs": [
             "TheoremQA"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "LDJnr/Capybara",
+            "HF Date": "2023-12-16",
+            "HF Downloads (May 2024)": 1798,
+            "HF Likes (May 2024)": 193,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 795,
+            "Mean Inputs Length": 197.0792,
+            "Mean Targets Length": 1703.9711,
+            "Max Inputs Length": 1074,
+            "Max Targets Length": 2950,
+            "Min Inputs Length": 28,
+            "Min Targets Length": 659,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "capybara-Less-Wrong": {
         "Unique Dataset Identifier": "capybara-Less-Wrong",
@@ -554,7 +841,38 @@
         "Dataset Filter IDs": [
             "Less-Wrong"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "LDJnr/Capybara",
+            "HF Date": "2023-12-16",
+            "HF Downloads (May 2024)": 1798,
+            "HF Likes (May 2024)": 193,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 656,
+            "Mean Inputs Length": 2104.4108,
+            "Mean Targets Length": 1959.3479,
+            "Max Inputs Length": 10471,
+            "Max Targets Length": 3015,
+            "Min Inputs Length": 72,
+            "Min Targets Length": 308,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 8,
+            "Mean Dialog Turns": 5.5213
+        }
     },
     "capybara-SuperCOT": {
         "Unique Dataset Identifier": "capybara-SuperCOT",
@@ -578,7 +896,9 @@
             "Question Answering"
         ],
         "Text Sources": [],
-        "Model Generated": ["OpenAI GPT-4"],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -602,6 +922,37 @@
         "Dataset Filter IDs": [
             "SuperCOT"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "LDJnr/Capybara",
+            "HF Date": "2023-12-16",
+            "HF Downloads (May 2024)": 1798,
+            "HF Likes (May 2024)": 193,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 428,
+            "Mean Inputs Length": 195.6355,
+            "Mean Targets Length": 1164.5118,
+            "Max Inputs Length": 2742,
+            "Max Targets Length": 2698,
+            "Min Inputs Length": 27,
+            "Min Targets Length": 9,
+            "Min Dialog Turns": 6,
+            "Max Dialog Turns": 8,
+            "Mean Dialog Turns": 6.757
+        }
     }
 }

@@ -1,0 +1,62 @@
+{
+    "CSJ": {
+        "Dataset Name": "csj",
+        "Unique Dataset Identifier": "csj",
+        "Collection": "CSJ",
+        "Hours": 661.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Japanese"
+        ],
+        "Languages (ISO)": [
+            "ja"
+        ],
+        "Language Groups": [
+            "Japanese"
+        ],
+        "Language Families": [
+            "Japonic"
+        ],
+        "Speakers": 1305,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://clrd.ninjal.ac.jp/csj/en/qa.html"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Academic Presentation Speech",
+            "Simulated Public Speech"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Audios Gotten First, Text Trascribed Later",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://clrd.ninjal.ac.jp/csj/en/"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "https://www.isca-archive.org/sspr_2003/maekawa03_sspr.pdf",
+        "Semantic Scholar Corpus ID": 323897,
+        "Creators": [
+            "The National Institute for Japanese Language"
+        ],
+        "Creator Categories": [
+            "Government"
+        ],
+        "Year Released": 2003,
+        "Location": [
+            "Japan"
+        ],
+        "Notes": ""
+    }
+}

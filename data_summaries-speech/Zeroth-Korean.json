@@ -1,0 +1,59 @@
+{
+    "Zeroth-Korean": {
+        "Dataset Name": "zeroth-korean",
+        "Unique Dataset Identifier": "zeroth-korean",
+        "Collection": "Zeroth-Korean",
+        "Hours": 95.7,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Korean"
+        ],
+        "Languages (ISO)": [
+            "ko"
+        ],
+        "Language Groups": [
+            "Korean"
+        ],
+        "Language Families": [
+            "Koreanic"
+        ],
+        "Speakers": 181,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://github.com/goodatlas/zeroth"
+            }
+        ],
+        "License Notes": "Github specifies license for audio data.",
+        "Topics": "Unclear",
+        "Source Category": [
+            "Crowd-Sourcing"
+        ],
+        "Source": [
+            "Crowd-Sourcing"
+        ],
+        "Process Description": "Audios Recorded First, Text Transcribed Later",
+        "Github URL": "https://github.com/goodatlas/zeroth",
+        "Hugging Face URL": "https://huggingface.co/datasets/Bingsu/zeroth-korean",
+        "Website URL": [
+            "https://www.openslr.org/40"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/sota/automatic-speech-recognition-on-zeroth-korean-2",
+        "Paper URL": "",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "Atlas Labs"
+        ],
+        "Creator Categories": [
+            "Industry"
+        ],
+        "Year Released": 2018,
+        "Location": [
+            "South Korea"
+        ],
+        "Notes": ""
+    }
+}

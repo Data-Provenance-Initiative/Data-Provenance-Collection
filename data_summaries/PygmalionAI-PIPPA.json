@@ -45,6 +45,37 @@
         "Dataset Filter IDs": [
             "PygmalionAI-PIPPA"
         ],
-        "Bibtex": "@misc{gosling2023pippa, title={PIPPA: A Partially Synthetic Conversational Dataset}, author={Tear Gosling and Alpin Dale and Yinhe Zheng}, year={2023}, eprint={2308.05884}, archivePrefix={arXiv}, primaryClass={cs.CL}}"
+        "Bibtex": "@misc{gosling2023pippa, title={PIPPA: A Partially Synthetic Conversational Dataset}, author={Tear Gosling and Alpin Dale and Yinhe Zheng}, year={2023}, eprint={2308.05884}, archivePrefix={arXiv}, primaryClass={cs.CL}}",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "pippa",
+            "HF Config License": "",
+            "HF Dataset": "PygmalionAI/PIPPA",
+            "HF Date": "2023-08-08",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "2023-08-11",
+            "PwC Description": "PIPPA (Personal Interaction Pairs between People and AI) is a partially-synthetic dataset. The dataset comprises over 1 million utterances that are distributed across 26,000 conversation sessions and provides a rich resource for researchers and AI developers to explore and refine conversational AI systems in the context of role-play scenarios.",
+            "PwC License Name": "GNU General Public License v3.0",
+            "PwC License URL": "https://huggingface.co/datasets?license=license%3Aagpl-3.0",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 16832,
+            "Mean Inputs Length": 110.6127,
+            "Mean Targets Length": 309.3763,
+            "Max Inputs Length": 10000,
+            "Max Targets Length": 759,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 11491,
+            "Mean Dialog Turns": 47.4498
+        }
     }
 }

@@ -1,44 +1,18 @@
 {
-    "Afro-Asiatic": [
-        "Somali",
-        "Tigrinya"
-    ],
-    "Arabic": [
-        "Arabic",
-        "Egyptian Arabic",
-        "Mesopotamian Arabic",
-        "Modern Standard Arabic",
-        "Modern Standard Arabic (Romanized)",
-        "Moroccan Arabic",
-        "North Levantine Arabic",
-        "South Levantine Arabic",
-        "Ta’izzi-Adeni Arabic"
-    ],
-    "Austroasiatic": [
-        "Burmese",
-        "Khmer",
-        "Standard Malay",
-        "Thai",
-        "Vietnamese"
-    ],
-    "Austronesian": [
-        "Banjar (Latin script)",
-        "Buginese",
-        "Cebuano",
-        "Indonesian",
-        "Javanese",
-        "Maori",
-        "Samoan",
-        "Tagalog",
-        "Waray"
-    ],
     "Chinese": [
         "Cantonese",
         "Chinese",
+        "Chinese (Hong Kong)",
         "Chinese (Simplified)",
         "Chinese (Traditional)",
         "Mandarin Chinese",
         "Yue Chinese"
+    ],
+    "Korean": [
+        "Korean"
+    ],
+    "German": [
+        "German"
     ],
     "Code": [
         "ABAP",
@@ -320,14 +294,18 @@
         "wisp",
         "xBase"
     ],
-    "English": [
-        "English"
+    "Turkish": [
+        "Turkish"
     ],
-    "French": [
-        "French"
+    "Spanish": [
+        "Spanish"
     ],
-    "German": [
-        "German"
+    "Austroasiatic": [
+        "Burmese",
+        "Khmer",
+        "Standard Malay",
+        "Thai",
+        "Vietnamese"
     ],
     "Hindi": [
         "Hindi"
@@ -352,15 +330,6 @@
         "Punjabi",
         "Tamil",
         "Telugu"
-    ],
-    "Italian": [
-        "Italian"
-    ],
-    "Japanese": [
-        "Japanese"
-    ],
-    "Korean": [
-        "Korean"
     ],
     "Low Resource Languages": [
         "Acehnese (Arabic script)",
@@ -390,6 +359,7 @@
         "Central Kanuri (Arabic script)",
         "Central Kurdish",
         "Chamorro",
+        "Chichewa",
         "Chokwe",
         "Chuvash",
         "Cornish",
@@ -416,6 +386,7 @@
         "Halh Mongolian",
         "Hausa",
         "Hebrew",
+        "Hmong",
         "Hungarian",
         "Ido",
         "Igbo",
@@ -424,7 +395,7 @@
         "Interlingue",
         "Irish",
         "Jingpho",
-        "Kabiyè",
+        "Kabiy\u00e8",
         "Kabuverdianu",
         "Kabyle",
         "Kamba",
@@ -451,18 +422,19 @@
         "Malay",
         "Malayalam",
         "Maltese",
-        "Maltese",
         "Marwari",
         "Minangkabau (Arabic script)",
         "Minangkabau (Latin script)",
         "Mizo",
         "Mongolian",
         "Mossi",
+        "Myanmar",
         "Najdi Arabic",
         "Nigerian Fulfulde",
         "Nigerian Pidgin English",
         "North Azerbaijani",
         "Northern Kurdish",
+        "Northern Ndebele",
         "Northern Sotho",
         "Northern Uzbek",
         "Nuer",
@@ -474,6 +446,7 @@
         "Pashto",
         "Pashto (Southern)",
         "Plateau Malagasy",
+        "Pulaar",
         "Pushto",
         "Quechua",
         "Rundi",
@@ -518,8 +491,9 @@
         "Urdu",
         "Uyghur",
         "Uzbek",
+        "Venda",
         "Venetian",
-        "Volapük",
+        "Volap\u00fck",
         "Welsh",
         "West Central Oromo",
         "Western Armenian",
@@ -531,8 +505,37 @@
         "Zhuang",
         "Zulu"
     ],
-    "Maltese": [
-        "Maltese"
+    "Arabic": [
+        "Arabic",
+        "Egyptian Arabic",
+        "Hassaniya Arabic",
+        "Mesopotamian Arabic",
+        "Modern Standard Arabic",
+        "Modern Standard Arabic (Romanized)",
+        "Moroccan Arabic",
+        "North Levantine Arabic",
+        "South Levantine Arabic",
+        "Ta\u2019izzi-Adeni Arabic"
+    ],
+    "Japanese": [
+        "Japanese"
+    ],
+    "Scandinavian": [
+        "Danish",
+        "Finnish",
+        "Icelandic",
+        "Norwegian",
+        "Norwegian Bokm\u00e5l",
+        "Norwegian Nynorsk",
+        "Swedish"
+    ],
+    "Afro-Asiatic": [
+        "Shilha",
+        "Somali",
+        "Tigrinya"
+    ],
+    "English": [
+        "English"
     ],
     "Other Indo-European": [
         "Belarusian",
@@ -541,6 +544,7 @@
         "Catalan",
         "Croatian",
         "Czech",
+        "Divehi",
         "Dutch",
         "Estonian",
         "Galician",
@@ -561,8 +565,12 @@
         "Serbo-Croatian",
         "Slovak",
         "Slovenian",
+        "Sorani",
         "Tosk Albanian",
         "Ukrainian"
+    ],
+    "French": [
+        "French"
     ],
     "Persian": [
         "Farsi",
@@ -570,19 +578,29 @@
         "Persian",
         "Western Persian"
     ],
-    "Scandinavian": [
-        "Danish",
-        "Finnish",
-        "Icelandic",
-        "Norwegian",
-        "Norwegian Bokmål",
-        "Norwegian Nynorsk",
-        "Swedish"
+    "Italian": [
+        "Italian"
     ],
-    "Spanish": [
-        "Spanish"
+    "Austronesian": [
+        "Ambonese Malay",
+        "Banjar (Latin script)",
+        "Buginese",
+        "Cebuano",
+        "Dayak",
+        "Indonesian",
+        "Javanese",
+        "Kunduvadi",
+        "Makasar",
+        "Malagasy",
+        "Maori",
+        "Samoan",
+        "Tagalog",
+        "Tahitian",
+        "Tonga",
+        "Uab Meto",
+        "Waray"
     ],
-    "Turkish": [
-        "Turkish"
+    "Maltese": [
+        "Maltese"
     ]
 }

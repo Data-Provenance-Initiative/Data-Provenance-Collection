@@ -414,8 +414,10 @@ def download_nectar(accepted_filter_ids):
 
 
 def download_feedback_collection(accepted_filter_ids):
-    return huggingface_download("kaist-ai/Feedback-Collection")
+    return huggingface_download("prometheus-eval/Feedback-Collection")
 
+def download_preference_collection(accepted_filter_ids):
+    return huggingface_download("prometheus-eval/Preference-Collection")
 
 def download_evol_instruct(accepted_filter_ids):
     return huggingface_download("mlabonne/WizardLM_evol_instruct_70k-ShareGPT", split="train")
@@ -715,6 +717,10 @@ def download_wildchat(accepted_filter_ids):
     dset = huggingface_download("allenai/WildChat", split="train")
     return pool_filter(dset, "model", accepted_filter_ids)
 
+def download_seacrowd(accepted_filter_ids):
+    dset = huggingface_download("DataProvenanceInitiative/seacrowd", split="train")
+    return pool_filter(dset, "user_parent", accepted_filter_ids)
+
 
 def download_airoboros(accepted_filter_ids):
     return huggingface_download('jondurbin/airoboros-3.2', split='train')
@@ -965,6 +971,13 @@ def download_gorilla(accepted_filter_ids):
 
     return Dataset.from_dict(ret)
 
+
+def download_toxicchat(accepted_filter_ids):
+    dset = []
+    for c in accepted_filter_ids:
+        raw_dset = huggingface_download('lmsys/toxic-chat', c, split='train')
+        dset.extend(raw_dset)
+    return dset
 
 
 def download_coig(accepted_filter_ids):
@@ -1349,52 +1362,21 @@ def download_conifer(accepted_filter_ids):
     return dset
 
 
-# def download_dialogstudio(accepted_filter_ids):
-#     dsets = []
-#     for data_name in ['chitchat-dataset', 'ConvAI2', 'AntiScam', 'Empathetic', 'HH-RLHF', 'PLACES3.5', 'Prosocial', 'SODA', 'ShareGPT', 'CompWebQ', 
-#                         'CoQA', 'CoSQL', 'DART', 'FeTaQA', 'GrailQA', 'HybridQA', 'MTOP', 'MultiModalQA', 'SParC', 'Spider', 'SQA', 'ToTTo', 'WebQSP', 
-#                         'WikiSQL', 'WikiTQ', 'wizard_of_internet', 'wizard_of_wikipedia', 'AMI', 'CRD3', 'DialogSum', 'ECTSum', 'ICSI', 'MediaSum', 
-#                         'QMSum', 'SAMSum', 'TweetSumm', 'ConvoSumm', 'SummScreen_ForeverDreaming', 'SummScreen_TVMegaSite', 'ATIS', 'ATIS-NER', 
-#                         'BANKING77', 'BANKING77-OOS', 'CLINC-Single-Domain-OOS-banking', 'CLINC-Single-Domain-OOS-credit_cards', 'CLINC150', 'DSTC8-SGD', 
-#                         'HWU64', 'MIT-Movie', 'MIT-Restaurant', 'RESTAURANTS8K', 'SNIPS', 'SNIPS-NER', 'TOP', 'TOP-NER', 'ABCD', 'AirDialogue', 
-#                         'BiTOD', 'CaSiNo', 'CraigslistBargains', 'Disambiguation', 'DSTC2-Clean', 'FRAMES', 'GECOR', 'HDSA-Dialog', 'KETOD', 'KVRET', 
-#                         'MetaLWOZ', 'MS-DC', 'MuDoCo', 'MulDoGO', 'MultiWOZ_2.1', 'MULTIWOZ2_2', 'SGD', 'SimJointGEN', 'SimJointMovie', 'SimJointRestaurant', 
-#                         'STAR', 'Taskmaster1', 'Taskmaster2', 'Taskmaster3', 'WOZ2_0', 'Redial', 'DuRecDial-2.0', 'OpenDialKG', 'SalesBot']:
-#         if f"ds-{data_name}" in accepted_filter_ids:
-#             dset = huggingface_download("Salesforce/dialogstudio", data_name, split="train")
-#             dset = annotate_source(dset, f"ds-{data_name}")
-#             dsets.extend(dset)
-#     return dsets
-
 def download_dialogstudio(accepted_filter_ids):
     dsets = []
     for data_name in ['chitchat-dataset', 'ConvAI2', 'AntiScam', 'Empathetic', 'HH-RLHF', 'PLACES3.5', 'Prosocial', 'SODA', 'ShareGPT', 'CompWebQ', 
-                      'CoQA', 'CoSQL', 'DART', 'FeTaQA', 'GrailQA', 'HybridQA', 'MTOP', 'MultiModalQA', 'SParC', 'Spider', 'SQA', 'ToTTo', 'WebQSP', 
-                      'WikiSQL', 'WikiTQ', 'wizard_of_internet', 'wizard_of_wikipedia', 'AMI', 'CRD3', 'DialogSum', 'ECTSum', 'ICSI', 'MediaSum', 
-                      'QMSum', 'SAMSum', 'TweetSumm', 'ConvoSumm', 'SummScreen_ForeverDreaming', 'SummScreen_TVMegaSite', 'ATIS', 'ATIS-NER', 
-                      'BANKING77', 'BANKING77-OOS', 'CLINC-Single-Domain-OOS-banking', 'CLINC-Single-Domain-OOS-credit_cards', 'CLINC150', 'DSTC8-SGD', 
-                      'HWU64', 'MIT-Movie', 'MIT-Restaurant', 'RESTAURANTS8K', 'SNIPS', 'SNIPS-NER', 'TOP', 'TOP-NER', 'ABCD', 'AirDialogue', 
-                      'BiTOD', 'CaSiNo', 'CraigslistBargains', 'Disambiguation', 'DSTC2-Clean', 'FRAMES', 'GECOR', 'HDSA-Dialog', 'KETOD', 'KVRET', 
-                      'MetaLWOZ', 'MS-DC', 'MuDoCo', 'MulDoGO', 'MultiWOZ_2.1', 'MULTIWOZ2_2', 'SGD', 'SimJointGEN', 'SimJointMovie', 'SimJointRestaurant', 
-                      'STAR', 'Taskmaster1', 'Taskmaster2', 'Taskmaster3', 'WOZ2_0', 'Redial', 'DuRecDial-2.0', 'OpenDialKG', 'SalesBot']:
+                        'CoQA', 'CoSQL', 'DART', 'FeTaQA', 'GrailQA', 'HybridQA', 'MTOP', 'MultiModalQA', 'SParC', 'Spider', 'SQA', 'ToTTo', 'WebQSP', 
+                        'WikiSQL', 'WikiTQ', 'wizard_of_internet', 'wizard_of_wikipedia', 'AMI', 'CRD3', 'DialogSum', 'ECTSum', 'ICSI', 'MediaSum', 
+                        'QMSum', 'SAMSum', 'TweetSumm', 'ConvoSumm', 'SummScreen_ForeverDreaming', 'SummScreen_TVMegaSite', 'ATIS', 'ATIS-NER', 
+                        'BANKING77', 'BANKING77-OOS', 'CLINC-Single-Domain-OOS-banking', 'CLINC-Single-Domain-OOS-credit_cards', 'CLINC150', 'DSTC8-SGD', 
+                        'HWU64', 'MIT-Movie', 'MIT-Restaurant', 'RESTAURANTS8K', 'SNIPS', 'SNIPS-NER', 'TOP', 'TOP-NER', 'ABCD', 'AirDialogue', 
+                        'BiTOD', 'CaSiNo', 'CraigslistBargains', 'Disambiguation', 'DSTC2-Clean', 'FRAMES', 'GECOR', 'HDSA-Dialog', 'KETOD', 'KVRET', 
+                        'MetaLWOZ', 'MS-DC', 'MuDoCo', 'MulDoGO', 'MultiWOZ_2.1', 'MULTIWOZ2_2', 'SGD', 'SimJointGEN', 'SimJointMovie', 'SimJointRestaurant', 
+                        'STAR', 'Taskmaster1', 'Taskmaster2', 'Taskmaster3', 'WOZ2_0', 'Redial', 'DuRecDial-2.0', 'OpenDialKG', 'SalesBot']:
         if f"ds-{data_name}" in accepted_filter_ids:
-            if data_name == "ToTTo":
-                url = "https://storage.googleapis.com/totto-public/totto_data.zip"
-                response = requests.get(url)
-                zip_file = zipfile.ZipFile(BytesIO(response.content))
-                extraction_path = "totto_data"
-                zip_file.extractall(extraction_path)
-                nested_directory_path = os.path.join(extraction_path, "totto_data")
-                totto_train_file_path = os.path.join(nested_directory_path, "totto_train_data.jsonl")
-                if os.path.exists(totto_train_file_path):
-                    with open(totto_train_file_path, 'r') as file:
-                        totto_dset = [json.loads(line) for line in file]
-                    dset = annotate_source(totto_dset, data_name) 
-                    dsets.extend(dset)
-            else:
-                dset = huggingface_download("Salesforce/dialogstudio", data_name, split="train")
-                dset = annotate_source(dset, data_name)
-                dsets.extend(dset)
-
+            dset = huggingface_download("Salesforce/dialogstudio", data_name, split="train")
+            dset = annotate_source(dset, f"ds-{data_name}")
+            dsets.extend(dset)
     return dsets
+
 

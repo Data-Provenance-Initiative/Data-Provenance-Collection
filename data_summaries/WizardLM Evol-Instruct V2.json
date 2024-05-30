@@ -71,8 +71,8 @@
             "evol_instruct_v2"
         ],
         "Inferred Metadata": {
-            "HF Dataset": "WizardLM/WizardLM_evol_instruct_V2_196k",
-            "HF Config": "WizardLM--WizardLM_evol_instruct_V2_196k",
+            "HF Dataset": "",
+            "HF Config": "",
             "HF Config License": "",
             "HF Yaml License": "",
             "PwC License Name": "",
@@ -93,13 +93,17 @@
                 "Coding"
             ],
             "Github Date": "",
-            "HF Date": "2023-06-15",
+            "HF Date": "",
             "HF Downloads (September 2023)": 1178,
             "HF Likes (September 2023)": 125,
             "PwC Description": "",
             "S2 Citation Count (September 2023)": 55,
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": [],
+            "GitHub Stars (May 2024)": 8918,
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "S2 Citation Count (May 2024)": 426
         },
         "Derived from Datasets": [
             "Alpaca instructions dataset"

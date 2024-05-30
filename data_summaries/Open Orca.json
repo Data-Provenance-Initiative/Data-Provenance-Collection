@@ -336,7 +336,7 @@
             "PwC License Name": "Apache License 2.0",
             "PwC License URL": "https://github.com/google/BIG-bench/blob/main/LICENSE",
             "S2 Citation Count (September 2023)": "",
-            "S2 Date": "",
+            "S2 Date": "2023-01-31",
             "GitHub Stars": 25,
             "GitHub Topics": [],
             "Text Topics": [
@@ -350,7 +350,15 @@
                 "Natural Language Processing",
                 "Language proficiency",
                 "Logic"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 39,
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "Open-Orca/OpenOrca",
+            "HF Downloads (May 2024)": 16279,
+            "HF Likes (May 2024)": 1210,
+            "HF Yaml License": "MIT License",
+            "S2 Citation Count (May 2024)": 305
         },
         "Human Annotation": "No",
         "Derived from Datasets": [
@@ -454,7 +462,7 @@
             "PwC License Name": "Apache License 2.0",
             "PwC License URL": "https://github.com/google/BIG-bench/blob/main/LICENSE",
             "S2 Citation Count (September 2023)": "",
-            "S2 Date": "",
+            "S2 Date": "2023-01-31",
             "GitHub Stars": 25,
             "GitHub Topics": [],
             "Text Topics": [
@@ -468,7 +476,15 @@
                 "Biography",
                 "Product reviews",
                 "Music"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 39,
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "Open-Orca/OpenOrca",
+            "HF Downloads (May 2024)": 16279,
+            "HF Likes (May 2024)": 1210,
+            "HF Yaml License": "MIT License",
+            "S2 Citation Count (May 2024)": 305
         },
         "Human Annotation": "No",
         "Derived from Datasets": [
@@ -566,7 +582,7 @@
             "PwC License Name": "Apache License 2.0",
             "PwC License URL": "https://github.com/google/BIG-bench/blob/main/LICENSE",
             "S2 Citation Count (September 2023)": "",
-            "S2 Date": "",
+            "S2 Date": "2023-01-31",
             "GitHub Stars": 25,
             "GitHub Topics": [],
             "Text Topics": [
@@ -580,7 +596,15 @@
                 "Visual perception",
                 "Language and grammar",
                 "Reasoning"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 39,
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "Open-Orca/OpenOrca",
+            "HF Downloads (May 2024)": 16279,
+            "HF Likes (May 2024)": 1210,
+            "HF Yaml License": "MIT License",
+            "S2 Citation Count (May 2024)": 305
         },
         "Human Annotation": "No",
         "Derived from Datasets": [
@@ -735,7 +759,7 @@
             "PwC License Name": "Apache License 2.0",
             "PwC License URL": "https://github.com/google/BIG-bench/blob/main/LICENSE",
             "S2 Citation Count (September 2023)": "",
-            "S2 Date": "",
+            "S2 Date": "2023-01-31",
             "GitHub Stars": 25,
             "GitHub Topics": [],
             "Text Topics": [
@@ -749,7 +773,15 @@
                 "Language and grammar",
                 "Logic",
                 "Critical thinking"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 39,
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "Open-Orca/OpenOrca",
+            "HF Downloads (May 2024)": 16279,
+            "HF Likes (May 2024)": 1210,
+            "HF Yaml License": "MIT License",
+            "S2 Citation Count (May 2024)": 305
         },
         "Human Annotation": "No",
         "Derived from Datasets": [
