@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/dataset/summe",
         "ArXiv URL": "https://link.springer.com/chapter/10.1007/978-3-319-10584-0_33",
         "Semantic Scholar Corpus ID": 2111093,
+        "Year Released": 2014,
         "Text Sources": [
-            "crowd-sourced"
+            "crowdsourced"
         ],
         "Licenses": [
             {
@@ -33,7 +34,7 @@
         "Video Hours": 1.11,
         "Taken Down": "False",
         "Video Sources": [
-            "crowd-sourced"
+            "crowdsourced"
         ]
     }
 }

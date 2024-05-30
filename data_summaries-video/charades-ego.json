@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/search?q_meta=&q_type=&q=Actor+and+Observer%3A+Joint+Modeling+of+First+and+Third-Person+Videos",
         "ArXiv URL": "https://arxiv.org/abs/1804.09627",
         "Semantic Scholar Corpus ID": 4562167,
+        "Year Released": 2018,
         "Text Sources": [
-            "Human Participants"
+            "human"
         ],
         "Licenses": [
             {
@@ -30,7 +31,7 @@
         "Video Hours": 69.33,
         "Taken Down": "False",
         "Video Sources": [
-            "Human Participants"
+            "human"
         ]
     }
 }

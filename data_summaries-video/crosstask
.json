@@ -1,18 +1,19 @@
 {
-    "CrossTask: weakly supervised learning from instructional videos (CVPR 2019)\r\n": {
-        "Unique Dataset Identifier": "crosstask\r\n",
-        "Collection": "crosstask\r\n",
+    "CrossTask: weakly supervised learning from instructional videos (CVPR 2019)\n": {
+        "Unique Dataset Identifier": "crosstask\n",
+        "Collection": "crosstask\n",
         "Collection URL": "https://arxiv.org/abs/1903.08225",
-        "Dataset Name": "CrossTask: weakly supervised learning from instructional videos (CVPR 2019)\r\n",
-        "Paper Title": "CrossTask: weakly supervised learning from instructional videos (CVPR 2019)\r\n",
+        "Dataset Name": "CrossTask: weakly supervised learning from instructional videos (CVPR 2019)\n",
+        "Paper Title": "CrossTask: weakly supervised learning from instructional videos (CVPR 2019)\n",
         "Paper URL": "https://arxiv.org/abs/1903.08225",
         "GitHub URL": "https://github.com/DmZhukov/CrossTask",
         "Hugging Face URL": "",
         "Papers with Code URL": "https://paperswithcode.com/dataset/crosstask",
         "ArXiv URL": "https://arxiv.org/abs/1903.08225",
         "Semantic Scholar Corpus ID": 84187266,
+        "Year Released": 2019,
         "Text Sources": [
-            "YouTube"
+            "youtube"
         ],
         "Licenses": [
             {
@@ -37,7 +38,7 @@
         "Video Hours": 376.0,
         "Taken Down": "False",
         "Video Sources": [
-            "YouTube"
+            "youtube"
         ]
     }
 }

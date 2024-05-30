@@ -1,19 +1,20 @@
 {
-    "LEMMA: A Multi-view Dataset for LEarning Multi-agent Multi-task Activities (ECCV 2020)\r\n": {
+    "LEMMA: A Multi-view Dataset for LEarning Multi-agent Multi-task Activities (ECCV 2020)\n": {
         "Unique Dataset Identifier": "lemma-dataset",
         "Collection": "lemma-dataset",
         "Collection URL": "https://arxiv.org/abs/2007.15781",
-        "Dataset Name": "LEMMA: A Multi-view Dataset for LEarning Multi-agent Multi-task Activities (ECCV 2020)\r\n",
-        "Paper Title": "LEMMA: A Multi-view Dataset for LEarning Multi-agent Multi-task Activities (ECCV 2020)\r\n",
+        "Dataset Name": "LEMMA: A Multi-view Dataset for LEarning Multi-agent Multi-task Activities (ECCV 2020)\n",
+        "Paper Title": "LEMMA: A Multi-view Dataset for LEarning Multi-agent Multi-task Activities (ECCV 2020)\n",
         "Paper URL": "https://arxiv.org/abs/2007.15781",
         "GitHub URL": "https://github.com/Buzz-Beater/LEMMA",
         "Hugging Face URL": "",
         "Papers with Code URL": "https://paperswithcode.com/dataset/lemma",
         "ArXiv URL": "https://arxiv.org/abs/2007.15781",
         "Semantic Scholar Corpus ID": 220634784,
+        "Year Released": 2020,
         "Text Sources": [
-            "crowd-sourced",
-            "Human Participants"
+            "crowdsourced",
+            "human"
         ],
         "Licenses": [
             {
@@ -31,8 +32,8 @@
         "Video Hours": 10.8,
         "Taken Down": "False",
         "Video Sources": [
-            "crowd-sourced",
-            "Human Participants"
+            "crowdsourced",
+            "human"
         ]
     }
 }

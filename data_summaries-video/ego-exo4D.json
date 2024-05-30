@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/paper/ego-exo4d-understanding-skilled-human/review/",
         "ArXiv URL": "https://arxiv.org/abs/2311.18259",
         "Semantic Scholar Corpus ID": 265506384,
+        "Year Released": 2023,
         "Text Sources": [
-            "Human Participants"
+            "human"
         ],
         "Licenses": [
             {
@@ -30,7 +31,7 @@
         "Video Hours": 1422.0,
         "Taken Down": "False",
         "Video Sources": [
-            "Human Participants"
+            "human"
         ]
     }
 }

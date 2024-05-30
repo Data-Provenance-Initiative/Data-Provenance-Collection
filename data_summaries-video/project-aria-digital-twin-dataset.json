@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/paper/aria-digital-twin-a-new-benchmark-dataset-for",
         "ArXiv URL": "https://arxiv.org/abs/2306.06362",
         "Semantic Scholar Corpus ID": 261243365,
+        "Year Released": 2023,
         "Text Sources": [
-            "Human Participants"
+            "human"
         ],
         "Licenses": [
             {
@@ -30,7 +31,7 @@
         "Video Hours": 6.6,
         "Taken Down": "False",
         "Video Sources": [
-            "Human Participants"
+            "human"
         ]
     }
 }

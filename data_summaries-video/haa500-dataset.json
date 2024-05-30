@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/paper/haa500-human-centric-atomic-action-dataset",
         "ArXiv URL": "https://arxiv.org/abs/2009.05224",
         "Semantic Scholar Corpus ID": 221640805,
+        "Year Released": 2020,
         "Text Sources": [
-            "Human Participants"
+            "human"
         ],
         "Licenses": [
             {
@@ -34,7 +35,7 @@
         "Video Hours": 5.48,
         "Taken Down": "False",
         "Video Sources": [
-            "Human Participants"
+            "human"
         ]
     }
 }
