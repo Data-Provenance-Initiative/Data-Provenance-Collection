@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/paper/storygraphs-visualizing-character",
         "ArXiv URL": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Tapaswi_StoryGraphs_Visualizing_Character_2014_CVPR_paper.pdf",
         "Semantic Scholar Corpus ID": 1055956,
+        "Year Released": 2014,
         "Text Sources": [
-            "Movies"
+            "movies"
         ],
         "Licenses": [
             {
@@ -21,18 +22,16 @@
             }
         ],
         "Creators": [
-            "Vector Institute for Artificial Intelligence",
-            "Montreal Institute of Learning Algorithms (Mila)",
-            "University of Toronto"
+            "Karlsruhe Institute of Technology"
         ],
         "Countries": [
             "Germany"
         ],
         "License Verified By": "Vivek Sharma",
         "Video Hours": 7.3,
-        "Taken Down": "True",
+        "Taken Down": "False",
         "Video Sources": [
-            "Movies"
+            "movies"
         ]
     }
 }

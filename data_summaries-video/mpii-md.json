@@ -1,18 +1,19 @@
 {
-    "MPII-MD: A Dataset for Movie Description\r\n": {
+    "MPII-MD: A Dataset for Movie Description\n": {
         "Unique Dataset Identifier": "mpii-md",
         "Collection": "mpii-md",
         "Collection URL": "https://arxiv.org/pdf/1501.02530.pdf",
-        "Dataset Name": "MPII-MD: A Dataset for Movie Description\r\n",
-        "Paper Title": "MPII-MD: A Dataset for Movie Description\r\n",
+        "Dataset Name": "MPII-MD: A Dataset for Movie Description\n",
+        "Paper Title": "MPII-MD: A Dataset for Movie Description\n",
         "Paper URL": "https://arxiv.org/pdf/1501.02530.pdf",
         "GitHub URL": "",
         "Hugging Face URL": "",
         "Papers with Code URL": "",
         "ArXiv URL": "https://arxiv.org/pdf/1501.02530.pdf",
         "Semantic Scholar Corpus ID": 15184723,
+        "Year Released": 2017,
         "Text Sources": [
-            "Movies"
+            "movies"
         ],
         "Licenses": [
             {
@@ -30,7 +31,7 @@
         "Video Hours": 56.5,
         "Taken Down": "False",
         "Video Sources": [
-            "Movies"
+            "movies"
         ]
     }
 }

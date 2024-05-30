@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/paper/deep-multimodal-feature-encoding-for-video",
         "ArXiv URL": "https://arxiv.org/pdf/2004.02205",
         "Semantic Scholar Corpus ID": 214802821,
+        "Year Released": 2020,
         "Text Sources": [
-            "Movies"
+            "movies"
         ],
         "Licenses": [
             {
@@ -36,7 +37,7 @@
         "Video Hours": 158.0,
         "Taken Down": "False",
         "Video Sources": [
-            "Movies"
+            "movies"
         ]
     }
 }

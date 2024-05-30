@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/dataset/movienet",
         "ArXiv URL": "https://arxiv.org/abs/2007.10937",
         "Semantic Scholar Corpus ID": 220665753,
+        "Year Released": 2020,
         "Text Sources": [
-            "Movies"
+            "movies"
         ],
         "Licenses": [
             {
@@ -30,7 +31,7 @@
         "Video Hours": 3000.0,
         "Taken Down": "False",
         "Video Sources": [
-            "Movies"
+            "movies"
         ]
     }
 }

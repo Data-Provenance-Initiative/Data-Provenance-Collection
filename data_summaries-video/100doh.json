@@ -1,18 +1,19 @@
 {
-    "100DOH: Understanding Human Hands in Contact at Internet Scale (CVPR 2020)\r\n": {
+    "100DOH: Understanding Human Hands in Contact at Internet Scale (CVPR 2020)\n": {
         "Unique Dataset Identifier": "100doh",
         "Collection": "100doh",
         "Collection URL": "https://arxiv.org/abs/2006.06669",
-        "Dataset Name": "100DOH: Understanding Human Hands in Contact at Internet Scale (CVPR 2020)\r\n",
-        "Paper Title": "100DOH: Understanding Human Hands in Contact at Internet Scale (CVPR 2020)\r\n",
+        "Dataset Name": "100DOH: Understanding Human Hands in Contact at Internet Scale (CVPR 2020)\n",
+        "Paper Title": "100DOH: Understanding Human Hands in Contact at Internet Scale (CVPR 2020)\n",
         "Paper URL": "https://arxiv.org/abs/2006.06669",
         "GitHub URL": "https://github.com/ddshan/hand_object_detector",
         "Hugging Face URL": "",
         "Papers with Code URL": "https://paperswithcode.com/paper/understanding-human-hands-in-contact-at-1",
         "ArXiv URL": "https://arxiv.org/abs/2006.06669",
         "Semantic Scholar Corpus ID": 215413188,
+        "Year Released": 2020,
         "Text Sources": [
-            "YouTube"
+            "youtube"
         ],
         "Licenses": [
             {
@@ -31,7 +32,7 @@
         "Video Hours": 4577.3,
         "Taken Down": "False",
         "Video Sources": [
-            "YouTube"
+            "youtube"
         ]
     }
 }

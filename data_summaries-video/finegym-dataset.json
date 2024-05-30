@@ -1,18 +1,19 @@
 {
-    "FineGym: A Hierarchical Video Dataset for Fine-grained Action Understanding (CVPR 2020)\r\n": {
+    "FineGym: A Hierarchical Video Dataset for Fine-grained Action Understanding (CVPR 2020)\n": {
         "Unique Dataset Identifier": "finegym-dataset",
         "Collection": "finegym-dataset",
         "Collection URL": "https://arxiv.org/abs/2004.06704",
-        "Dataset Name": "FineGym: A Hierarchical Video Dataset for Fine-grained Action Understanding (CVPR 2020)\r\n",
-        "Paper Title": "FineGym: A Hierarchical Video Dataset for Fine-grained Action Understanding (CVPR 2020)\r\n",
+        "Dataset Name": "FineGym: A Hierarchical Video Dataset for Fine-grained Action Understanding (CVPR 2020)\n",
+        "Paper Title": "FineGym: A Hierarchical Video Dataset for Fine-grained Action Understanding (CVPR 2020)\n",
         "Paper URL": "https://arxiv.org/abs/2004.06704",
         "GitHub URL": "https://github.com/SDOlivia/FineGym/",
         "Hugging Face URL": "",
         "Papers with Code URL": "https://paperswithcode.com/dataset/finegym",
         "ArXiv URL": "https://arxiv.org/abs/2004.06704",
         "Semantic Scholar Corpus ID": 215754360,
+        "Year Released": 2020,
         "Text Sources": [
-            "General Web"
+            "undisclosed web"
         ],
         "Licenses": [
             {
@@ -30,7 +31,7 @@
         "Video Hours": 708.0,
         "Taken Down": "False",
         "Video Sources": [
-            "General Web"
+            "undisclosed web"
         ]
     }
 }

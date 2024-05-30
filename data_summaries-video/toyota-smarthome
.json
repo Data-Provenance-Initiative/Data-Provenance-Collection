@@ -1,18 +1,19 @@
 {
-    "Toyota Smarthome: Real-World Activities of Daily Living (ICCV 2019)\r\n": {
-        "Unique Dataset Identifier": "toyota-smarthome\r\n",
-        "Collection": "toyota-smarthome\r\n",
+    "Toyota Smarthome: Real-World Activities of Daily Living (ICCV 2019)\n": {
+        "Unique Dataset Identifier": "toyota-smarthome\n",
+        "Collection": "toyota-smarthome\n",
         "Collection URL": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Das_Toyota_Smarthome_Real-World_Activities_of_Daily_Living_ICCV_2019_paper.pdf",
-        "Dataset Name": "Toyota Smarthome: Real-World Activities of Daily Living (ICCV 2019)\r\n",
-        "Paper Title": "Toyota Smarthome: Real-World Activities of Daily Living (ICCV 2019)\r\n",
+        "Dataset Name": "Toyota Smarthome: Real-World Activities of Daily Living (ICCV 2019)\n",
+        "Paper Title": "Toyota Smarthome: Real-World Activities of Daily Living (ICCV 2019)\n",
         "Paper URL": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Das_Toyota_Smarthome_Real-World_Activities_of_Daily_Living_ICCV_2019_paper.pdf",
         "GitHub URL": "",
         "Hugging Face URL": "",
         "Papers with Code URL": "",
         "ArXiv URL": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Das_Toyota_Smarthome_Real-World_Activities_of_Daily_Living_ICCV_2019_paper.pdf",
         "Semantic Scholar Corpus ID": 207971208,
+        "Year Released": 2019,
         "Text Sources": [
-            "Human Participants"
+            "human"
         ],
         "Licenses": [
             {
@@ -30,7 +31,7 @@
         "Video Hours": 268.58,
         "Taken Down": "False",
         "Video Sources": [
-            "Human Participants"
+            "human"
         ]
     }
 }

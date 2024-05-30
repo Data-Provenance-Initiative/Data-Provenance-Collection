@@ -11,8 +11,9 @@
         "Papers with Code URL": "",
         "ArXiv URL": "https://www.irisa.fr/vista/Papers/2009_cvpr_marszalek.pdf",
         "Semantic Scholar Corpus ID": 3155054,
+        "Year Released": 2009,
         "Text Sources": [
-            "Movies"
+            "movies"
         ],
         "Licenses": [
             {
@@ -30,7 +31,7 @@
         "Video Hours": 20.1,
         "Taken Down": "False",
         "Video Sources": [
-            "Movies"
+            "movies"
         ]
     }
 }
