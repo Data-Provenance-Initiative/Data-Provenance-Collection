@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/dataset/vatex",
         "ArXiv URL": "https://arxiv.org/abs/1904.03493",
         "Semantic Scholar Corpus ID": 102352148,
+        "Year Released": 2019,
         "Text Sources": [
-            "YouTube"
+            "youtube"
         ],
         "Licenses": [
             {
@@ -32,7 +33,7 @@
         "Video Hours": 114.58,
         "Taken Down": "False",
         "Video Sources": [
-            "YouTube"
+            "youtube"
         ]
     }
 }

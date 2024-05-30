@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/paper/movie-description",
         "ArXiv URL": "https://arxiv.org/pdf/1605.03705",
         "Semantic Scholar Corpus ID": 18217052,
+        "Year Released": 2017,
         "Text Sources": [
-            "Movies"
+            "movies"
         ],
         "Licenses": [
             {
@@ -36,7 +37,7 @@
         "Video Hours": 158.0,
         "Taken Down": "False",
         "Video Sources": [
-            "Movies"
+            "movies"
         ]
     }
 }

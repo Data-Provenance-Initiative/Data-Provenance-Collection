@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/dataset/mars",
         "ArXiv URL": "https://link.springer.com/content/pdf/10.1007/978-3-319-46466-4_52.pdf",
         "Semantic Scholar Corpus ID": 2214158,
+        "Year Released": 2016,
         "Text Sources": [
-            "Human Participants"
+            "human"
         ],
         "Licenses": [
             {
@@ -33,7 +34,7 @@
         "Video Hours": 0.24,
         "Taken Down": "False",
         "Video Sources": [
-            "Human Participants"
+            "human"
         ]
     }
 }

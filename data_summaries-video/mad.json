@@ -1,18 +1,19 @@
 {
-    "MAD: A Scalable Dataset for Language Grounding in Videos from Movie Audio Descriptions\r\n": {
+    "MAD: A Scalable Dataset for Language Grounding in Videos from Movie Audio Descriptions\n": {
         "Unique Dataset Identifier": "mad",
         "Collection": "mad",
         "Collection URL": "https://arxiv.org/abs/2112.00431",
-        "Dataset Name": "MAD: A Scalable Dataset for Language Grounding in Videos from Movie Audio Descriptions\r\n",
-        "Paper Title": "MAD: A Scalable Dataset for Language Grounding in Videos from Movie Audio Descriptions\r\n",
+        "Dataset Name": "MAD: A Scalable Dataset for Language Grounding in Videos from Movie Audio Descriptions\n",
+        "Paper Title": "MAD: A Scalable Dataset for Language Grounding in Videos from Movie Audio Descriptions\n",
         "Paper URL": "https://arxiv.org/abs/2112.00431",
         "GitHub URL": "https://github.com/Soldelli/MAD",
         "Hugging Face URL": "",
         "Papers with Code URL": "https://paperswithcode.com/dataset/mad",
         "ArXiv URL": "https://arxiv.org/abs/2112.00431",
         "Semantic Scholar Corpus ID": 244773187,
+        "Year Released": 2022,
         "Text Sources": [
-            "General Web"
+            "undisclosed web"
         ],
         "Licenses": [
             {
@@ -30,7 +31,7 @@
         "Video Hours": 1207.3,
         "Taken Down": "False",
         "Video Sources": [
-            "General Web"
+            "undisclosed web"
         ]
     }
 }

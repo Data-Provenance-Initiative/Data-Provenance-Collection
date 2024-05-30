@@ -1,18 +1,19 @@
 {
-    "Ego4D: Around the World in 3,000 Hours of Egocentric Video\r\n": {
+    "Ego4D: Around the World in 3,000 Hours of Egocentric Video\n": {
         "Unique Dataset Identifier": "ego-4d",
         "Collection": "ego-4d",
         "Collection URL": "https://arxiv.org/abs/2110.07058",
-        "Dataset Name": "Ego4D: Around the World in 3,000 Hours of Egocentric Video\r\n",
-        "Paper Title": "Ego4D: Around the World in 3,000 Hours of Egocentric Video\r\n",
+        "Dataset Name": "Ego4D: Around the World in 3,000 Hours of Egocentric Video\n",
+        "Paper Title": "Ego4D: Around the World in 3,000 Hours of Egocentric Video\n",
         "Paper URL": "https://arxiv.org/abs/2110.07058",
         "GitHub URL": "https://github.com/EGO4D/forecasting",
         "Hugging Face URL": "",
         "Papers with Code URL": "https://paperswithcode.com/paper/ego4d-around-the-world-in-3000-hours-of",
         "ArXiv URL": "https://arxiv.org/abs/2110.07058",
         "Semantic Scholar Corpus ID": 238856888,
+        "Year Released": 2022,
         "Text Sources": [
-            "Human Participants"
+            "human"
         ],
         "Licenses": [
             {
@@ -30,7 +31,7 @@
         "Video Hours": 3670.0,
         "Taken Down": "False",
         "Video Sources": [
-            "Human Participants"
+            "human"
         ]
     }
 }

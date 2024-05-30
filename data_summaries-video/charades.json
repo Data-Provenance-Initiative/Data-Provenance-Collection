@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/dataset/charades",
         "ArXiv URL": "https://arxiv.org/abs/1604.01753",
         "Semantic Scholar Corpus ID": 18061547,
+        "Year Released": 2016,
         "Text Sources": [
-            "Human Participants"
+            "human"
         ],
         "Licenses": [
             {
@@ -34,7 +35,7 @@
         "Video Hours": 82.3,
         "Taken Down": "False",
         "Video Sources": [
-            "Human Participants"
+            "human"
         ]
     }
 }

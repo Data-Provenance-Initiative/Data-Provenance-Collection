@@ -1,18 +1,19 @@
 {
-    "VideoLT: Large-scale Long-tailed Video Recognition\r\n": {
+    "VideoLT: Large-scale Long-tailed Video Recognition\n": {
         "Unique Dataset Identifier": "videolt-dataset",
         "Collection": "videolt-dataset",
         "Collection URL": "https://arxiv.org/abs/2105.02668",
-        "Dataset Name": "VideoLT: Large-scale Long-tailed Video Recognition\r\n",
-        "Paper Title": "VideoLT: Large-scale Long-tailed Video Recognition\r\n",
+        "Dataset Name": "VideoLT: Large-scale Long-tailed Video Recognition\n",
+        "Paper Title": "VideoLT: Large-scale Long-tailed Video Recognition\n",
         "Paper URL": "https://arxiv.org/abs/2105.02668",
         "GitHub URL": "https://github.com/17Skye17/VideoLT",
         "Hugging Face URL": "",
         "Papers with Code URL": "https://paperswithcode.com/dataset/videolt",
         "ArXiv URL": "https://arxiv.org/abs/2105.02668",
         "Semantic Scholar Corpus ID": 233864776,
+        "Year Released": 2021,
         "Text Sources": [
-            "YouTube"
+            "youtube"
         ],
         "Licenses": [
             {
@@ -34,7 +35,7 @@
         "Video Hours": 13664.96,
         "Taken Down": "False",
         "Video Sources": [
-            "YouTube"
+            "youtube"
         ]
     }
 }

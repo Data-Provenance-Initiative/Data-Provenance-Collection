@@ -11,9 +11,10 @@
         "Papers with Code URL": "https://paperswithcode.com/dataset/ava-activespeaker",
         "ArXiv URL": "https://arxiv.org/abs/1901.01342",
         "Semantic Scholar Corpus ID": 216211909,
+        "Year Released": 2019,
         "Text Sources": [
-            "YouTube",
-            "Movies"
+            "youtube",
+            "movies"
         ],
         "Licenses": [
             {
@@ -31,8 +32,8 @@
         "Video Hours": 38.5,
         "Taken Down": "False",
         "Video Sources": [
-            "YouTube",
-            "Movies"
+            "youtube",
+            "movies"
         ]
     }
 }

@@ -1,18 +1,19 @@
 {
-    "TITAN: Future Forecast using Action Priors (CVPR 2020)\r\n": {
+    "TITAN: Future Forecast using Action Priors (CVPR 2020)\n": {
         "Unique Dataset Identifier": "titan",
         "Collection": "titan",
         "Collection URL": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Malla_TITAN_Future_Forecast_Using_Action_Priors_CVPR_2020_paper.pdf",
-        "Dataset Name": "TITAN: Future Forecast using Action Priors (CVPR 2020)\r\n",
-        "Paper Title": "TITAN: Future Forecast using Action Priors (CVPR 2020)\r\n",
+        "Dataset Name": "TITAN: Future Forecast using Action Priors (CVPR 2020)\n",
+        "Paper Title": "TITAN: Future Forecast using Action Priors (CVPR 2020)\n",
         "Paper URL": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Malla_TITAN_Future_Forecast_Using_Action_Priors_CVPR_2020_paper.pdf",
         "GitHub URL": "",
         "Hugging Face URL": "",
         "Papers with Code URL": "https://paperswithcode.com/paper/titan-future-forecast-using-action-priors",
         "ArXiv URL": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Malla_TITAN_Future_Forecast_Using_Action_Priors_CVPR_2020_paper.pdf",
         "Semantic Scholar Corpus ID": 214727763,
+        "Year Released": 2020,
         "Text Sources": [
-            "crowd-sourced"
+            "crowdsourced"
         ],
         "Licenses": [
             {
@@ -30,7 +31,7 @@
         "Video Hours": 2.91,
         "Taken Down": "False",
         "Video Sources": [
-            "crowd-sourced"
+            "crowdsourced"
         ]
     }
 }

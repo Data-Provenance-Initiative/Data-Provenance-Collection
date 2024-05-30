@@ -1,7 +1,7 @@
 {
     "Narrated Instruction Videos": {
-        "Unique Dataset Identifier": "narrated-instruction-vids\r\n",
-        "Collection": "narrated-instruction-vids\r\n",
+        "Unique Dataset Identifier": "narrated-instruction-vids\n",
+        "Collection": "narrated-instruction-vids\n",
         "Collection URL": "https://arxiv.org/abs/1506.09215",
         "Dataset Name": "Narrated Instruction Videos",
         "Paper Title": "Narrated Instruction Videos",
@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/dataset/youtube-inria-instructional",
         "ArXiv URL": "https://arxiv.org/abs/1506.09215",
         "Semantic Scholar Corpus ID": 2617244,
+        "Year Released": 2016,
         "Text Sources": [
-            "YouTube"
+            "youtube"
         ],
         "Licenses": [
             {
@@ -34,7 +35,7 @@
         "Video Hours": 7.0,
         "Taken Down": "False",
         "Video Sources": [
-            "YouTube"
+            "youtube"
         ]
     }
 }

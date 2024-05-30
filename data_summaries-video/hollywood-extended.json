@@ -11,8 +11,9 @@
         "Papers with Code URL": "https://paperswithcode.com/paper/weakly-supervised-action-labeling-in-videos",
         "ArXiv URL": "https://arxiv.org/pdf/1407.1208",
         "Semantic Scholar Corpus ID": 9342651,
+        "Year Released": 2014,
         "Text Sources": [
-            "Movies"
+            "movies"
         ],
         "Licenses": [
             {
@@ -30,7 +31,7 @@
         "Video Hours": 8.75,
         "Taken Down": "False",
         "Video Sources": [
-            "Movies"
+            "movies"
         ]
     }
 }
