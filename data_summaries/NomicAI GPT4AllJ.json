@@ -54,8 +54,8 @@
             ""
         ],
         "Inferred Metadata": {
-            "HF Dataset": "nomic-ai/gpt4all-j-prompt-generations",
-            "HF Config": "nomic-ai--gpt4all-j-prompt-generations",
+            "HF Dataset": "",
+            "HF Config": "",
             "HF Config License": "",
             "HF Yaml License": "",
             "PwC License Name": "",
@@ -82,7 +82,11 @@
             "PwC Description": "",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "S2 Citation Count (May 2024)": ""
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],
@@ -144,8 +148,8 @@
             "nomic-ai"
         ],
         "Inferred Metadata": {
-            "HF Dataset": "nomic-ai/gpt4all-j-prompt-generations",
-            "HF Config": "nomic-ai--gpt4all-j-prompt-generations",
+            "HF Dataset": "",
+            "HF Config": "",
             "HF Config License": "",
             "HF Yaml License": "",
             "PwC License Name": "",
@@ -172,7 +176,11 @@
             "PwC Description": "",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "S2 Citation Count (May 2024)": ""
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],
@@ -244,8 +252,8 @@
             "unified_chip2"
         ],
         "Inferred Metadata": {
-            "HF Dataset": "nomic-ai/gpt4all-j-prompt-generations",
-            "HF Config": "nomic-ai--gpt4all-j-prompt-generations",
+            "HF Dataset": "",
+            "HF Config": "",
             "HF Config License": "",
             "HF Yaml License": "",
             "PwC License Name": "",
@@ -272,7 +280,11 @@
             "PwC Description": "",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "S2 Citation Count (May 2024)": ""
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],
@@ -342,8 +354,8 @@
             "output_unified_unifiedskg.jsonl"
         ],
         "Inferred Metadata": {
-            "HF Dataset": "nomic-ai/gpt4all-j-prompt-generations",
-            "HF Config": "nomic-ai--gpt4all-j-prompt-generations",
+            "HF Dataset": "",
+            "HF Config": "",
             "HF Config License": "",
             "HF Yaml License": "",
             "PwC License Name": "",
@@ -370,7 +382,11 @@
             "PwC Description": "",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "S2 Citation Count (May 2024)": ""
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],
@@ -432,8 +448,8 @@
             "unified_multi_sum"
         ],
         "Inferred Metadata": {
-            "HF Dataset": "nomic-ai/gpt4all-j-prompt-generations",
-            "HF Config": "nomic-ai--gpt4all-j-prompt-generations",
+            "HF Dataset": "",
+            "HF Config": "",
             "HF Config License": "",
             "HF Yaml License": "",
             "PwC License Name": "",
@@ -460,7 +476,11 @@
             "PwC Description": "",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "S2 Citation Count (May 2024)": ""
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],
@@ -523,8 +543,8 @@
             "unified_abstract_infill_output-100-000-x.jsonl"
         ],
         "Inferred Metadata": {
-            "HF Dataset": "nomic-ai/gpt4all-j-prompt-generations",
-            "HF Config": "nomic-ai--gpt4all-j-prompt-generations",
+            "HF Dataset": "",
+            "HF Config": "",
             "HF Config License": "",
             "HF Yaml License": "",
             "PwC License Name": "",
@@ -551,7 +571,11 @@
             "PwC Description": "",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "S2 Citation Count (May 2024)": ""
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],
@@ -621,8 +645,8 @@
             "unified_hc3_human"
         ],
         "Inferred Metadata": {
-            "HF Dataset": "nomic-ai/gpt4all-j-prompt-generations",
-            "HF Config": "nomic-ai--gpt4all-j-prompt-generations",
+            "HF Dataset": "",
+            "HF Config": "",
             "HF Config License": "",
             "HF Yaml License": "",
             "PwC License Name": "",
@@ -649,7 +673,11 @@
             "PwC Description": "",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "S2 Citation Count (May 2024)": ""
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],

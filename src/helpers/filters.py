@@ -13,8 +13,8 @@ def classify_license(license_name, license_url, all_constants):
     else:
         use_case, attribution, share_alike = all_constants["LICENSE_CLASSES"][license_name]
     return {
-        "use": use_case, 
-        "attribution": int(attribution) if attribution.isnumeric() else 1, 
+        "use": use_case,
+        "attribution": int(attribution) if attribution.isnumeric() else 1,
         "share_alike": int(share_alike) if share_alike.isnumeric() else 1,
     }
 
@@ -36,7 +36,7 @@ def resolve_multiple_licenses(license_criterias):
         resolved_use_case = "unspecified"
     elif "All":
         resolved_use_case = "commercial"
-    
+
     resolved_attribution = max(attributions)
     resolved_share_alikes = max(share_alikes)
     return resolved_use_case, resolved_attribution, resolved_share_alikes
@@ -234,7 +234,7 @@ def apply_filters(
 
         # Check if the filtered_df is smaller than the original df for those licenses which are not present in the selected_license_sources
         # i.e we expect that the filtered_df is smaller than the original df for those licenses which are not present
-        for key in ["DataProvenance", "DataProvenance IgnoreOpenAI", "HuggingFace", "GitHub"]:
+        for key in ["DataProvenance", "DataProvenance IgnoreOpenAI", "GitHub", "HuggingFace"]:
             if key not in selected_license_sources:
                 assert len(df[f"License Use ({key})"]) >= len(filtered_df[f"License Use ({key})"]), f"Lengths don't match: {len(df[f'License Use ({key})'])} != {len(filtered_df[f'License Use ({key})'])}"
 

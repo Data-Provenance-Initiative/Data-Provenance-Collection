@@ -1,0 +1,55 @@
+{
+    "Hebrew Speech Coursera": {
+        "Dataset Name": "hebrew-speech-coursera",
+        "Unique Dataset Identifier": "hebrew-speech-coursera",
+        "Collection": "Hebrew Speech Coursera",
+        "Hours": 36.11,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Hebrew"
+        ],
+        "Languages (ISO)": [
+            "he"
+        ],
+        "Language Groups": [
+            "Low Resource Languages"
+        ],
+        "Language Families": [
+            "Afroasiatic"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "Topics": "Unclear",
+        "Source Category": [
+            "Internet Video"
+        ],
+        "Source": [
+            "Coursera"
+        ],
+        "Process Description": "Audios With Transcripts Attached",
+        "Github URL": "https://github.com/imvladikon/imvladikon",
+        "Hugging Face URL": "https://huggingface.co/datasets/imvladikon/hebrew_speech_coursera",
+        "Papers with Code URL": "",
+        "Paper URL": "",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "Independent"
+        ],
+        "Creator Categories": [
+            "Independent"
+        ],
+        "Year Released": 2022,
+        "Location": [
+            "Israel"
+        ],
+        "Notes": ""
+    }
+}

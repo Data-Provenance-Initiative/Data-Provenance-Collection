@@ -1,6 +1,4 @@
 pandas
 socket
 IP2Location
-csv
 tqdm
-argparse

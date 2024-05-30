@@ -59,9 +59,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "OpenAssistant/oasst1",
-            "HF Config": "OpenAssistant--oasst1",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -96,7 +96,11 @@
                 "nextjs",
                 "python",
                 "rlhf"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 36657,
+            "HF Downloads (May 2024)": 5208,
+            "HF Likes (May 2024)": 1210,
+            "S2 Citation Count (May 2024)": 279
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -153,9 +157,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "OpenAssistant/oasst1",
-            "HF Config": "OpenAssistant--oasst1",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -190,7 +194,11 @@
                 "Literature",
                 "Programming",
                 "Travel planning"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 36657,
+            "HF Downloads (May 2024)": 5208,
+            "HF Likes (May 2024)": 1210,
+            "S2 Citation Count (May 2024)": 279
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -247,9 +255,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "OpenAssistant/oasst1",
-            "HF Config": "OpenAssistant--oasst1",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -284,7 +292,11 @@
                 "Linguistics",
                 "Artificial Intelligence",
                 "History"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 36657,
+            "HF Downloads (May 2024)": 5208,
+            "HF Likes (May 2024)": 1210,
+            "S2 Citation Count (May 2024)": 279
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -341,9 +353,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "OpenAssistant/oasst1",
-            "HF Config": "OpenAssistant--oasst1",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -378,7 +390,11 @@
                 "Natural Language Processing (NLP)",
                 "Geography",
                 "Gaming strategies"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 36657,
+            "HF Downloads (May 2024)": 5208,
+            "HF Likes (May 2024)": 1210,
+            "S2 Citation Count (May 2024)": 279
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -435,9 +451,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "OpenAssistant/oasst1",
-            "HF Config": "OpenAssistant--oasst1",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -472,7 +488,11 @@
                 "Mathematics",
                 "Number theory",
                 "Prime numbers"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 36657,
+            "HF Downloads (May 2024)": 5208,
+            "HF Likes (May 2024)": 1210,
+            "S2 Citation Count (May 2024)": 279
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -529,9 +549,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "OpenAssistant/oasst1",
-            "HF Config": "OpenAssistant--oasst1",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -566,7 +586,11 @@
                 "Biology",
                 "Math",
                 "Religion"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 36657,
+            "HF Downloads (May 2024)": 5208,
+            "HF Likes (May 2024)": 1210,
+            "S2 Citation Count (May 2024)": 279
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -623,9 +647,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "OpenAssistant/oasst1",
-            "HF Config": "OpenAssistant--oasst1",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -660,7 +684,11 @@
                 "Geography",
                 "Time management",
                 "Automotive technology"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 36657,
+            "HF Downloads (May 2024)": 5208,
+            "HF Likes (May 2024)": 1210,
+            "S2 Citation Count (May 2024)": 279
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -717,9 +745,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "OpenAssistant/oasst1",
-            "HF Config": "OpenAssistant--oasst1",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -754,7 +782,11 @@
                 "Information retrieval",
                 "Problem-solving",
                 "Decision-making"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 36657,
+            "HF Downloads (May 2024)": 5208,
+            "HF Likes (May 2024)": 1210,
+            "S2 Citation Count (May 2024)": 279
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -811,9 +843,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "OpenAssistant/oasst1",
-            "HF Config": "OpenAssistant--oasst1",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -848,7 +880,11 @@
                 "Space exploration",
                 "Python programming",
                 "Catalan culture"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 36657,
+            "HF Downloads (May 2024)": 5208,
+            "HF Likes (May 2024)": 1210,
+            "S2 Citation Count (May 2024)": 279
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -905,9 +941,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "OpenAssistant/oasst1",
-            "HF Config": "OpenAssistant--oasst1",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -942,7 +978,11 @@
                 "Language learning",
                 "Gardening",
                 "Plant care"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 36657,
+            "HF Downloads (May 2024)": 5208,
+            "HF Likes (May 2024)": 1210,
+            "S2 Citation Count (May 2024)": 279
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -999,9 +1039,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "OpenAssistant/oasst1",
-            "HF Config": "OpenAssistant--oasst1",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -1036,7 +1076,11 @@
                 "Logic",
                 "Politics",
                 "Emoji interpretation"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 36657,
+            "HF Downloads (May 2024)": 5208,
+            "HF Likes (May 2024)": 1210,
+            "S2 Citation Count (May 2024)": 279
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -1093,9 +1137,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "OpenAssistant/oasst1",
-            "HF Config": "OpenAssistant--oasst1",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -1130,7 +1174,11 @@
                 "Geography",
                 "Animal behavior",
                 "Math"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 36657,
+            "HF Downloads (May 2024)": 5208,
+            "HF Likes (May 2024)": 1210,
+            "S2 Citation Count (May 2024)": 279
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -1187,9 +1235,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "OpenAssistant/oasst1",
-            "HF Config": "OpenAssistant--oasst1",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -1224,7 +1272,11 @@
                 "Computer hardware",
                 "Technology",
                 "Software development"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 36657,
+            "HF Downloads (May 2024)": 5208,
+            "HF Likes (May 2024)": 1210,
+            "S2 Citation Count (May 2024)": 279
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -1281,9 +1333,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "OpenAssistant/oasst1",
-            "HF Config": "OpenAssistant--oasst1",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -1318,7 +1370,11 @@
                 "Music",
                 "Health",
                 "Linguistics"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 36657,
+            "HF Downloads (May 2024)": 5208,
+            "HF Likes (May 2024)": 1210,
+            "S2 Citation Count (May 2024)": 279
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -1375,9 +1431,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "OpenAssistant/oasst1",
-            "HF Config": "OpenAssistant--oasst1",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -1412,7 +1468,11 @@
                 "Physics",
                 "Language and communication",
                 "Science"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 36657,
+            "HF Downloads (May 2024)": 5208,
+            "HF Likes (May 2024)": 1210,
+            "S2 Citation Count (May 2024)": 279
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -1469,9 +1529,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "OpenAssistant/oasst1",
-            "HF Config": "OpenAssistant--oasst1",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -1506,7 +1566,11 @@
                 "Caloric content of drinks",
                 "Cooking and recipes",
                 "Food substitutions"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 36657,
+            "HF Downloads (May 2024)": 5208,
+            "HF Likes (May 2024)": 1210,
+            "S2 Citation Count (May 2024)": 279
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -1563,9 +1627,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "OpenAssistant/oasst1",
-            "HF Config": "OpenAssistant--oasst1",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -1600,7 +1664,11 @@
                 "Quantum mechanics",
                 "Scientific concepts",
                 "Political disputes"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 36657,
+            "HF Downloads (May 2024)": 5208,
+            "HF Likes (May 2024)": 1210,
+            "S2 Citation Count (May 2024)": 279
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -1657,9 +1725,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "OpenAssistant/oasst1",
-            "HF Config": "OpenAssistant--oasst1",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -1694,7 +1762,11 @@
                 "Poetry and lyrics",
                 "Religious themes in literature",
                 "Technology"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 36657,
+            "HF Downloads (May 2024)": 5208,
+            "HF Likes (May 2024)": 1210,
+            "S2 Citation Count (May 2024)": 279
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -1751,9 +1823,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "OpenAssistant/oasst1",
-            "HF Config": "OpenAssistant--oasst1",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "Apache License 2.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -1788,7 +1860,11 @@
                 "Multilingual capabilities of virtual assistants",
                 "Assistance with general inquiries and information retrieval",
                 "Programming languages"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 36657,
+            "HF Downloads (May 2024)": 5208,
+            "HF Likes (May 2024)": 1210,
+            "S2 Citation Count (May 2024)": 279
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",

@@ -1,0 +1,95 @@
+{
+    "GigaSpeech": {
+        "Dataset Name": "gigaspeech",
+        "Unique Dataset Identifier": "gigaspeech",
+        "Collection": "GigaSpeech",
+        "Hours": 9998.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "English"
+        ],
+        "Languages (ISO)": [
+            "en"
+        ],
+        "Language Groups": [
+            "English"
+        ],
+        "Language Families": [
+            "Germanic"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache 2.0",
+                "License URL": "https://huggingface.co/datasets/speechcolab/gigaspeech"
+            }
+        ],
+        "License Notes": "Listed on Hugging Face and Github, but not in paper.",
+        "Topics": [
+            "Arts",
+            "Business",
+            "Education",
+            "Autos and Vehicles",
+            "Comedy",
+            "Crime",
+            "Entertainment",
+            "Film and Animation",
+            "Gaming",
+            "Health and Fitness",
+            "History",
+            "How-To and Style",
+            "Kids and Family",
+            "Leisure",
+            "Music",
+            "News and Politics",
+            "Nonprofits and Activism",
+            "People and Blogs",
+            "Pets and Animals",
+            "Religion and Spirituality",
+            "Science and Technology",
+            "Society and Culture",
+            "Sports",
+            "Travel and Events"
+        ],
+        "Source Category": [
+            "Audiobooks",
+            "Podcast",
+            "Internet Video"
+        ],
+        "Source": [
+            "Audiobooks",
+            "Podcast",
+            "YouTube"
+        ],
+        "Process Description": "Audios With Transcripts Attached (These Transcripts Were Then Later Normalized)",
+        "Github URL": "https://github.com/SpeechColab/GigaSpeech",
+        "Hugging Face URL": "https://huggingface.co/datasets/speechcolab/gigaspeech",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/gigaspeech",
+        "Paper URL": "https://arxiv.org/abs/2106.06909",
+        "Semantic Scholar Corpus ID": 235422086,
+        "Creators": [
+            "SpeechColab",
+            "Seasalt AI Inc",
+            "Tsinghua University",
+            "Tencent AI Lab",
+            "Xiaomi Corporation",
+            "CLSP & HLTCOE",
+            "Johns Hopkins University",
+            "Carnegie Mellon University",
+            "KE Holdings Inc."
+        ],
+        "Creator Categories": [
+            "Industry",
+            "Academia"
+        ],
+        "Year Released": 2021,
+        "Location": [
+            "United States",
+            "China"
+        ],
+        "Notes": ""
+    }
+}

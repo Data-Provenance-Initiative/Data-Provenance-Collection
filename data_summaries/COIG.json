@@ -18,7 +18,9 @@
             "Question Answering"
         ],
         "Text Sources": [],
-        "Model Generated": ["DeepL"],
+        "Model Generated": [
+            "DeepL"
+        ],
         "Format": [
             "Zero-shot"
         ],
@@ -48,7 +50,38 @@
         "Dataset Filter IDs": [
             "coig-translated-instruction"
         ],
-        "Bibtex": "@misc{wang2022supernaturalinstructions,\n      title={Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks}, \n      author={Yizhong Wang and Swaroop Mishra and Pegah Alipoormolabashi and Yeganeh Kordi and Amirreza Mirzaei and Anjana Arunkumar and Arjun Ashok and Arut Selvan Dhanasekaran and Atharva Naik and David Stap and Eshaan Pathak and Giannis Karamanolakis and Haizhi Gary Lai and Ishan Purohit and Ishani Mondal and Jacob Anderson and Kirby Kuznia and Krima Doshi and Maitreya Patel and Kuntal Kumar Pal and Mehrad Moradshahi and Mihir Parmar and Mirali Purohit and Neeraj Varshney and Phani Rohitha Kaza and Pulkit Verma and Ravsehaj Singh Puri and Rushang Karia and Shailaja Keyur Sampat and Savan Doshi and Siddhartha Mishra and Sujan Reddy and Sumanta Patro and Tanay Dixit and Xudong Shen and Chitta Baral and Yejin Choi and Noah A. Smith and Hannaneh Hajishirzi and Daniel Khashabi},\n      year={2022},\n      eprint={2204.07705},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n@misc{wang2023selfinstruct,\n      title={Self-Instruct: Aligning Language Models with Self-Generated Instructions}, \n      author={Yizhong Wang and Yeganeh Kordi and Swaroop Mishra and Alisa Liu and Noah A. Smith and Daniel Khashabi and Hannaneh Hajishirzi},\n      year={2023},\n      eprint={2212.10560},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n@misc{honovich2022unnatural,\n      title={Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor}, \n      author={Or Honovich and Thomas Scialom and Omer Levy and Timo Schick},\n      year={2022},\n      eprint={2212.09689},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}"
+        "Bibtex": "@misc{wang2022supernaturalinstructions,\n      title={Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks}, \n      author={Yizhong Wang and Swaroop Mishra and Pegah Alipoormolabashi and Yeganeh Kordi and Amirreza Mirzaei and Anjana Arunkumar and Arjun Ashok and Arut Selvan Dhanasekaran and Atharva Naik and David Stap and Eshaan Pathak and Giannis Karamanolakis and Haizhi Gary Lai and Ishan Purohit and Ishani Mondal and Jacob Anderson and Kirby Kuznia and Krima Doshi and Maitreya Patel and Kuntal Kumar Pal and Mehrad Moradshahi and Mihir Parmar and Mirali Purohit and Neeraj Varshney and Phani Rohitha Kaza and Pulkit Verma and Ravsehaj Singh Puri and Rushang Karia and Shailaja Keyur Sampat and Savan Doshi and Siddhartha Mishra and Sujan Reddy and Sumanta Patro and Tanay Dixit and Xudong Shen and Chitta Baral and Yejin Choi and Noah A. Smith and Hannaneh Hajishirzi and Daniel Khashabi},\n      year={2022},\n      eprint={2204.07705},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n@misc{wang2023selfinstruct,\n      title={Self-Instruct: Aligning Language Models with Self-Generated Instructions}, \n      author={Yizhong Wang and Yeganeh Kordi and Swaroop Mishra and Alisa Liu and Noah A. Smith and Daniel Khashabi and Hannaneh Hajishirzi},\n      year={2023},\n      eprint={2212.10560},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}\n@misc{honovich2022unnatural,\n      title={Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor}, \n      author={Or Honovich and Thomas Scialom and Omer Levy and Timo Schick},\n      year={2022},\n      eprint={2212.09689},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 123,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "BAAI/COIG",
+            "HF Date": "2023-04-16",
+            "HF Downloads (May 2024)": 207,
+            "HF Likes (May 2024)": 395,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 19,
+            "S2 Date": "2023-04-17"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 66858,
+            "Mean Inputs Length": 125.0264,
+            "Mean Targets Length": 16.3262,
+            "Max Inputs Length": 2433,
+            "Max Targets Length": 3277,
+            "Min Inputs Length": 5,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "coig-exam-instruction": {
         "Unique Dataset Identifier": "coig-exam-instruction",
@@ -99,7 +132,38 @@
         "Dataset Filter IDs": [
             "coig-exam-instruction"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 123,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "BAAI/COIG",
+            "HF Date": "2023-04-16",
+            "HF Downloads (May 2024)": 207,
+            "HF Likes (May 2024)": 395,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 19,
+            "S2 Date": "2023-04-17"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 63532,
+            "Mean Inputs Length": 335.8292,
+            "Mean Targets Length": 93.4143,
+            "Max Inputs Length": 4198,
+            "Max Targets Length": 5508,
+            "Min Inputs Length": 8,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "coig-alignment-instruction": {
         "Unique Dataset Identifier": "coig-alignment-instruction",
@@ -120,10 +184,12 @@
             "Question Answering"
         ],
         "Text Sources": [
-            "textbooks", 
+            "textbooks",
             "exams"
         ],
-        "Model Generated": ["OpenAI GPT-3"],
+        "Model Generated": [
+            "OpenAI GPT-3"
+        ],
         "Format": [
             "Zero-shot"
         ],
@@ -149,7 +215,38 @@
         "Dataset Filter IDs": [
             "coig-alignment-instruction"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 123,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "BAAI/COIG",
+            "HF Date": "2023-04-16",
+            "HF Downloads (May 2024)": 207,
+            "HF Likes (May 2024)": 395,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 19,
+            "S2 Date": "2023-04-17"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 22470,
+            "Mean Inputs Length": 171.7211,
+            "Mean Targets Length": 97.9963,
+            "Max Inputs Length": 1096,
+            "Max Targets Length": 1398,
+            "Min Inputs Length": 6,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "coig-counterfactual-correction": {
         "Unique Dataset Identifier": "coig-counterfactual-correction",
@@ -172,7 +269,9 @@
         "Text Sources": [
             "kw.fudan.edu.cn/cndbpedia"
         ],
-        "Model Generated": ["OpenAI ChatGPT"],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -200,7 +299,38 @@
         "Dataset Filter IDs": [
             "coig-counterfactual-correction"
         ],
-        "Bibtex": "@inproceedings{Xu2017CNDBpediaAN,\n  title={CN-DBpedia: A Never-Ending Chinese Knowledge Extraction System},\n  author={Bo Xu and Yong Xu and Jiaqing Liang and Chenhao Xie and Bin Liang and Wanyun Cui and Yanghua Xiao},\n  booktitle={International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems},\n  year={2017},\n  url={https://api.semanticscholar.org/CorpusID:1627142}\n}"
+        "Bibtex": "@inproceedings{Xu2017CNDBpediaAN,\n  title={CN-DBpedia: A Never-Ending Chinese Knowledge Extraction System},\n  author={Bo Xu and Yong Xu and Jiaqing Liang and Chenhao Xie and Bin Liang and Wanyun Cui and Yanghua Xiao},\n  booktitle={International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems},\n  year={2017},\n  url={https://api.semanticscholar.org/CorpusID:1627142}\n}",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 123,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "BAAI/COIG",
+            "HF Date": "2023-04-16",
+            "HF Downloads (May 2024)": 207,
+            "HF Likes (May 2024)": 395,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 19,
+            "S2 Date": "2023-04-17"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 13648,
+            "Mean Inputs Length": 28.0941,
+            "Mean Targets Length": 122.035,
+            "Max Inputs Length": 239,
+            "Max Targets Length": 592,
+            "Min Inputs Length": 4,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 6,
+            "Max Dialog Turns": 10,
+            "Mean Dialog Turns": 9.9977
+        }
     },
     "coig-leetcode": {
         "Unique Dataset Identifier": "coig-leetcode",
@@ -226,7 +356,9 @@
         "Text Sources": [
             "leetcode.com"
         ],
-        "Model Generated": ["OpenAI ChatGPT"],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
         "Format": [
             "Zero-shot"
         ],
@@ -254,6 +386,37 @@
         "Dataset Filter IDs": [
             "coig-leetcode"
         ],
-        "Bibtex": "@misc{doocs_leetcode,\n  author = {{doocs}},\n  title = {leetcode},\n  year = {2019},\n  publisher = {GitHub},\n  journal = {GitHub repository},\n  howpublished = {\\url{https://github.com/doocs/leetcode}}\n}"
+        "Bibtex": "@misc{doocs_leetcode,\n  author = {{doocs}},\n  title = {leetcode},\n  year = {2019},\n  publisher = {GitHub},\n  journal = {GitHub repository},\n  howpublished = {\\url{https://github.com/doocs/leetcode}}\n}",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 123,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "BAAI/COIG",
+            "HF Date": "2023-04-16",
+            "HF Downloads (May 2024)": 207,
+            "HF Likes (May 2024)": 395,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 19,
+            "S2 Date": "2023-04-17"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 11737,
+            "Mean Inputs Length": 824.6667,
+            "Mean Targets Length": 812.4213,
+            "Max Inputs Length": 5760,
+            "Max Targets Length": 6002,
+            "Min Inputs Length": 32,
+            "Min Targets Length": 17,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     }
 }

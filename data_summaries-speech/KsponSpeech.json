@@ -1,0 +1,65 @@
+{
+    "KsponSpeech": {
+        "Dataset Name": "ksponspeech",
+        "Unique Dataset Identifier": "ksponspeech",
+        "Collection": "KsponSpeech",
+        "Hours": 969.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Korean"
+        ],
+        "Languages (ISO)": [
+            "ko"
+        ],
+        "Language Groups": [
+            "Korean"
+        ],
+        "Language Families": [
+            "Koreanic"
+        ],
+        "Speakers": 2000,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified"
+            }
+        ],
+        "License Notes": "Code seems to be MIT licensed.",
+        "Topics": [
+            "Daily Conversation",
+            "Shopping",
+            "Broadcasts",
+            "Politics and Economy",
+            "Weather",
+            "Hobbies"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Audios Gotten First, Text Trascribed Later",
+        "Github URL": "https://github.com/sooftware/ksponspeech",
+        "Hugging Face URL": "https://huggingface.co/datasets/jp1924/KsponSpeech",
+        "Website URL": [
+            "https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=123"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "https://www.mdpi.com/2076-3417/10/19/6936",
+        "Semantic Scholar Corpus ID": 224938745,
+        "Creators": [
+            "Electronics and Telecommunications Research Institute"
+        ],
+        "Creator Categories": [
+            "Government"
+        ],
+        "Year Released": 2020,
+        "Location": [
+            "South Korea"
+        ],
+        "Notes": ""
+    }
+}

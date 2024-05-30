@@ -1,0 +1,62 @@
+{
+    "Highland Puebla Nahuatl": {
+        "Dataset Name": "highland-puebla-nahuatl",
+        "Unique Dataset Identifier": "highland-puebla-nahuatl",
+        "Collection": "Highland Puebla Nahuatl",
+        "Hours": 156.12,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Highland Puebla Nahuatl"
+        ],
+        "Languages (ISO)": [
+            "azz"
+        ],
+        "Language Groups": [
+            "Low Resource Languages"
+        ],
+        "Language Families": [
+            "Other"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition",
+            "Speech Translation"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 3.0",
+                "License URL": "https://www.openslr.org/92/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": "Unclear",
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Audios Gotten First, Text Trascribed Later",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://www.openslr.org/92/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/paper/highland-puebla-nahuatl-speech-translation",
+        "Paper URL": "https://aclanthology.org/2021.americasnlp-1.7.pdf",
+        "Semantic Scholar Corpus ID": 235097682,
+        "Creators": [
+            "Johns Hopkins University",
+            "Gettysburg College",
+            "Carnegie Mellon University"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2021,
+        "Location": [
+            "United States"
+        ],
+        "Notes": ""
+    }
+}

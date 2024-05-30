@@ -1,0 +1,62 @@
+{
+    "DiDiSpeech": {
+        "Dataset Name": "didispeech",
+        "Unique Dataset Identifier": "didispeech",
+        "Collection": "DiDiSpeech",
+        "Hours": 800.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Mandarin Chinese"
+        ],
+        "Languages (ISO)": [
+            "cmn"
+        ],
+        "Language Groups": [
+            "Chinese"
+        ],
+        "Language Families": [
+            "Sino-Tibetan"
+        ],
+        "Speakers": 6000,
+        "Tasks": [
+            "Speech Recognition",
+            "Text-To-Speech"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Newspapers",
+            "Books"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Speakers Read Pre-Selected And Pre-Processed Texts",
+        "Github URL": "https://github.com/athena-team/DiDiSpeech",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://athena-team.github.io/DiDiSpeech/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/paper/didispeech-a-large-scale-mandarin-speech",
+        "Paper URL": "https://arxiv.org/pdf/2010.09275",
+        "Semantic Scholar Corpus ID": 224704882,
+        "Creators": [
+            "DiDi Chuxing"
+        ],
+        "Creator Categories": [
+            "Industry"
+        ],
+        "Year Released": 2020,
+        "Location": [
+            "China"
+        ],
+        "Notes": ""
+    }
+}
