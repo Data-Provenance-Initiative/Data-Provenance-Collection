@@ -1,0 +1,57 @@
+{
+    "NST Danish": {
+        "Dataset Name": "nst-danish",
+        "Unique Dataset Identifier": "nst-danish",
+        "Collection": "NST Danish",
+        "Hours": 500.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Danish (Dialects)"
+        ],
+        "Languages (ISO)": [
+            "da"
+        ],
+        "Language Groups": [
+            "Scandinavian"
+        ],
+        "Language Families": [
+            "Indo-European"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": "https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-55/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": "Unclear",
+        "Source Category": "Unclear",
+        "Source": [
+            "NST"
+        ],
+        "Process Description": "Nst Was A Norwegian Language Technology Comapny That Went Bankrupt. All Their Data Was Acquired And Preserved.",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-55/"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "https://www.nb.no/sbfil/talegjenkjenning/16kHz_2020/dk_2020/dk-16khz_reorganized_02.pdf",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "National Library of Norway"
+        ],
+        "Creator Categories": [
+            "Government"
+        ],
+        "Year Released": 2013,
+        "Location": [
+            "Norway"
+        ],
+        "Notes": ""
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "Snow Mountain": {
+        "Dataset Name": "snow-mountain",
+        "Unique Dataset Identifier": "snow-mountain",
+        "Collection": "Snow Mountain",
+        "Hours": 272.92,
+        "Languages (Count)": 14,
+        "Languages": [
+            "Hindi",
+            "Haryanvi",
+            "Bilaspuri",
+            "Dogri",
+            "Bhadrawahi",
+            "Gaddi",
+            "Kangri",
+            "Kulvi",
+            "Mandeali",
+            "Pahari Mahasui",
+            "Malayalam",
+            "Kannada",
+            "Tamil",
+            "Telugu"
+        ],
+        "Languages (ISO)": [
+            "hi",
+            "bgd",
+            "dra",
+            "bhd",
+            "xnr",
+            "mjl",
+            "bfz",
+            "ml",
+            "kn",
+            "ta",
+            "te",
+            "kfs",
+            "gbk",
+            "kfx"
+        ],
+        "Language Groups": [
+            "Hindi",
+            "Low Resource Languages"
+        ],
+        "Language Families": [
+            "Hindustani",
+            "Dravidian",
+            "Other"
+        ],
+        "Speakers": 11,
+        "Tasks": [
+            "Speech Recognition",
+            "Language Identification",
+            "Speaker Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/bridgeconn/snow-mountain"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Religion"
+        ],
+        "Source Category": [
+            "Audiobooks"
+        ],
+        "Source": [
+            "Bible"
+        ],
+        "Process Description": "Transcripts Gotten First, Audio Recorded Later",
+        "Github URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/bridgeconn/snow-mountain",
+        "Papers with Code URL": "https://paperswithcode.com/paper/snow-mountain-dataset-of-audio-recordings-of",
+        "Paper URL": "https://arxiv.org/abs/2206.01205",
+        "Semantic Scholar Corpus ID": 249375251,
+        "Creators": [
+            "Bridge Connectivity Solutions",
+            "Cobalt Speech & Language Inc."
+        ],
+        "Creator Categories": [
+            "Industry"
+        ],
+        "Year Released": 2023,
+        "Location": [
+            "India",
+            "United States"
+        ],
+        "Notes": ""
+    }
+}

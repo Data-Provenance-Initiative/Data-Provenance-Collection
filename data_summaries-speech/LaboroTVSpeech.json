@@ -1,0 +1,70 @@
+{
+    "LaboroTVSpeech": {
+        "Dataset Name": "laborotvspeech",
+        "Unique Dataset Identifier": "laborotvspeech",
+        "Collection": "LaboroTVSpeech",
+        "Hours": 2049.9,
+        "Languages (Count)": 2,
+        "Languages": [
+            "Japanese",
+            "English"
+        ],
+        "Languages (ISO)": [
+            "en",
+            "ja"
+        ],
+        "Language Groups": [
+            "English",
+            "Japanese"
+        ],
+        "Language Families": [
+            "Germanic",
+            "Japonic"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://laboro.ai/activity/column/engineer/eg-laboro-tv-corpus-jp/"
+            }
+        ],
+        "License Notes": "Non-commercial use.",
+        "Topics": [
+            "Education",
+            "Culture",
+            "News",
+            "Sports",
+            "Music",
+            "Movies",
+            "Theater and Performing Arts"
+        ],
+        "Source Category": [
+            "TV"
+        ],
+        "Source": [
+            "Television Shows"
+        ],
+        "Process Description": "Transcripts Built On Japanese Tv Recordings And Their Subtitles",
+        "Github URL": "https://github.com/laboroai/LaboroTVSpeech",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/construction-of-a-large-scale-japanese-asr/review/",
+        "Paper URL": "https://arxiv.org/pdf/2103.14736",
+        "Semantic Scholar Corpus ID": 232404560,
+        "Creators": [
+            "The University of Tokyo",
+            "Laboro.AI"
+        ],
+        "Creator Categories": [
+            "Academia",
+            "Industry"
+        ],
+        "Year Released": 2021,
+        "Location": [
+            "Japan"
+        ],
+        "Notes": ""
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "RixVox": {
+        "Dataset Name": "rixvox",
+        "Unique Dataset Identifier": "rixvox",
+        "Collection": "RixVox",
+        "Hours": 5493.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Swedish"
+        ],
+        "Languages (ISO)": [
+            "sv"
+        ],
+        "Language Groups": [
+            "Swedish"
+        ],
+        "Language Families": [
+            "Indo-European"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://huggingface.co/datasets/KBLab/rixvox"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Government",
+            "Politics"
+        ],
+        "Source Category": [
+            "Parliament"
+        ],
+        "Source": [
+            "Swedish Parliament"
+        ],
+        "Process Description": "Audios With Transcriped (Written Protocols) Attached",
+        "Github URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/KBLab/rixvox",
+        "Website URL": [
+            "https://kb-labb.github.io/posts/2023-03-09-rixvox-a-swedish-speech-corpus/"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "KBLab"
+        ],
+        "Creator Categories": [
+            "Government"
+        ],
+        "Year Released": 2023,
+        "Location": [
+            "Sweden"
+        ],
+        "Notes": ""
+    }
+}

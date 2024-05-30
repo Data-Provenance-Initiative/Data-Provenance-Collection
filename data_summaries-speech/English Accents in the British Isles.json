@@ -1,0 +1,64 @@
+{
+    "English Accents in the British Isles": {
+        "Dataset Name": "english-accents-in-the-british-isles",
+        "Unique Dataset Identifier": "english-accents-in-the-british-isles",
+        "Collection": "English Accents in the British Isles",
+        "Hours": 31.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "English (Accented)"
+        ],
+        "Languages (ISO)": [
+            "en"
+        ],
+        "Language Groups": [
+            "English"
+        ],
+        "Language Families": [
+            "Germanic"
+        ],
+        "Speakers": 120,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://openslr.org/83/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Wikipedia Articles",
+            "Books",
+            "Sentences",
+            "Other"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Audios Recorded First, Text Transcribed Later",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://openslr.org/83/"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "https://aclanthology.org/2020.lrec-1.804/",
+        "Semantic Scholar Corpus ID": 218974160,
+        "Creators": [
+            "Google Research"
+        ],
+        "Creator Categories": [
+            "Industry"
+        ],
+        "Year Released": 2020,
+        "Location": [
+            "United Kingdom"
+        ],
+        "Notes": ""
+    }
+}
