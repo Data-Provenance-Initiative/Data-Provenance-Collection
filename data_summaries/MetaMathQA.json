@@ -60,7 +60,38 @@
         "Dataset Filter IDs": [
             "MATH_Rephrased"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (May 2024)": 319,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "meta-math/MetaMathQA",
+            "HF Date": "2023-09-21",
+            "HF Downloads (May 2024)": 18679,
+            "HF Likes (May 2024)": 243,
+            "HF Yaml License": "MIT License",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 59,
+            "S2 Date": "2023-09-21"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 50000,
+            "Mean Inputs Length": 125.2067,
+            "Mean Targets Length": 422.926,
+            "Max Inputs Length": 810,
+            "Max Targets Length": 5367,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 14,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "metamathqa-MATH_AnsAug": {
         "Unique Dataset Identifier": "metamathqa-MATH_AnsAug",
@@ -123,7 +154,38 @@
         "Dataset Filter IDs": [
             "MATH_AnsAug"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (May 2024)": 319,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "meta-math/MetaMathQA",
+            "HF Date": "2023-09-21",
+            "HF Downloads (May 2024)": 18679,
+            "HF Likes (May 2024)": 243,
+            "HF Yaml License": "MIT License",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 59,
+            "S2 Date": "2023-09-21"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 75000,
+            "Mean Inputs Length": 140.8312,
+            "Mean Targets Length": 409.8203,
+            "Max Inputs Length": 2222,
+            "Max Targets Length": 3449,
+            "Min Inputs Length": 16,
+            "Min Targets Length": 14,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "metamathqa-MATH_FOBAR": {
         "Unique Dataset Identifier": "metamathqa-MATH_FOBAR",
@@ -186,7 +248,38 @@
         "Dataset Filter IDs": [
             "MATH_FOBAR"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (May 2024)": 319,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "meta-math/MetaMathQA",
+            "HF Date": "2023-09-21",
+            "HF Downloads (May 2024)": 18679,
+            "HF Likes (May 2024)": 243,
+            "HF Yaml License": "MIT License",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 59,
+            "S2 Date": "2023-09-21"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 15000,
+            "Mean Inputs Length": 298.4109,
+            "Mean Targets Length": 1005.4577,
+            "Max Inputs Length": 4409,
+            "Max Targets Length": 4854,
+            "Min Inputs Length": 112,
+            "Min Targets Length": 16,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "metamathqa-MATH_SV": {
         "Unique Dataset Identifier": "metamathqa-MATH_SV",
@@ -249,7 +342,38 @@
         "Dataset Filter IDs": [
             "MATH_SV"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (May 2024)": 319,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "meta-math/MetaMathQA",
+            "HF Date": "2023-09-21",
+            "HF Downloads (May 2024)": 18679,
+            "HF Likes (May 2024)": 243,
+            "HF Yaml License": "MIT License",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 59,
+            "S2 Date": "2023-09-21"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 15000,
+            "Mean Inputs Length": 245.2198,
+            "Mean Targets Length": 803.5049,
+            "Max Inputs Length": 2735,
+            "Max Targets Length": 3191,
+            "Min Inputs Length": 71,
+            "Min Targets Length": 16,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "metamathqa-GSM_Rephrased": {
         "Unique Dataset Identifier": "metamathqa-GSM_Rephrased",
@@ -312,7 +436,38 @@
         "Dataset Filter IDs": [
             "GSM_Rephrased"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (May 2024)": 319,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "meta-math/MetaMathQA",
+            "HF Date": "2023-09-21",
+            "HF Downloads (May 2024)": 18679,
+            "HF Likes (May 2024)": 243,
+            "HF Yaml License": "MIT License",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 59,
+            "S2 Date": "2023-09-21"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 80000,
+            "Mean Inputs Length": 212.6551,
+            "Mean Targets Length": 377.0587,
+            "Max Inputs Length": 834,
+            "Max Targets Length": 1914,
+            "Min Inputs Length": 55,
+            "Min Targets Length": 29,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "metamathqa-GSM_AnsAug": {
         "Unique Dataset Identifier": "metamathqa-GSM_AnsAug",
@@ -375,7 +530,38 @@
         "Dataset Filter IDs": [
             "GSM_AnsAug"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (May 2024)": 319,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "meta-math/MetaMathQA",
+            "HF Date": "2023-09-21",
+            "HF Downloads (May 2024)": 18679,
+            "HF Likes (May 2024)": 243,
+            "HF Yaml License": "MIT License",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 59,
+            "S2 Date": "2023-09-21"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 80000,
+            "Mean Inputs Length": 226.8235,
+            "Mean Targets Length": 368.8494,
+            "Max Inputs Length": 985,
+            "Max Targets Length": 1933,
+            "Min Inputs Length": 42,
+            "Min Targets Length": 73,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "metamathqa-GSM_FOBAR": {
         "Unique Dataset Identifier": "metamathqa-GSM_FOBAR",
@@ -438,7 +624,38 @@
         "Dataset Filter IDs": [
             "GSM_FOBAR"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (May 2024)": 319,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "meta-math/MetaMathQA",
+            "HF Date": "2023-09-21",
+            "HF Downloads (May 2024)": 18679,
+            "HF Likes (May 2024)": 243,
+            "HF Yaml License": "MIT License",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 59,
+            "S2 Date": "2023-09-21"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 40000,
+            "Mean Inputs Length": 326.9948,
+            "Mean Targets Length": 631.0022,
+            "Max Inputs Length": 1075,
+            "Max Targets Length": 1969,
+            "Min Inputs Length": 133,
+            "Min Targets Length": 229,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "metamathqa-GSM_SV": {
         "Unique Dataset Identifier": "metamathqa-GSM_SV",
@@ -501,6 +718,37 @@
         "Dataset Filter IDs": [
             "GSM_SV"
         ],
-        "Bibtex": ""
+        "Bibtex": "",
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (May 2024)": 319,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "meta-math/MetaMathQA",
+            "HF Date": "2023-09-21",
+            "HF Downloads (May 2024)": 18679,
+            "HF Likes (May 2024)": 243,
+            "HF Yaml License": "MIT License",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 59,
+            "S2 Date": "2023-09-21"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 40000,
+            "Mean Inputs Length": 278.2703,
+            "Mean Targets Length": 821.721,
+            "Max Inputs Length": 1056,
+            "Max Targets Length": 2539,
+            "Min Inputs Length": 95,
+            "Min Targets Length": 38,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     }
 }

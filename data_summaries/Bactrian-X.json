@@ -60,7 +60,38 @@
             "dolly-openqa",
             "alpaca"
         ],
-        "Bibtex": "@Article{Li2023BactrianXA,\n author = {Haonan Li and Fajri Koto and Minghao Wu and Alham Fikri Aji and Timothy Baldwin},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Bactrian-X : A Multilingual Replicable Instruction-Following Model with Low-Rank Adaptation},\n volume = {abs/2305.15011},\n year = {2023}\n}\n"
+        "Bibtex": "@Article{Li2023BactrianXA,\n author = {Haonan Li and Fajri Koto and Minghao Wu and Alham Fikri Aji and Timothy Baldwin},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Bactrian-X : A Multilingual Replicable Instruction-Following Model with Low-Rank Adaptation},\n volume = {abs/2305.15011},\n year = {2023}\n}\n",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 87,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "af",
+            "HF Config License": "",
+            "HF Dataset": "MBZUAI/Bactrian-X",
+            "HF Date": "2023-04-22",
+            "HF Downloads (May 2024)": 3985,
+            "HF Likes (May 2024)": 81,
+            "HF Yaml License": "CC BY-NC 4.0",
+            "PwC Date": "2023-05-24",
+            "PwC Description": "Bactrian-X is a comprehensive multilingual parallel dataset of 3.4 million instruction-response pairs across 52 languages. The instructions were obtained from alpaca-52k, and dolly-15k, and tranlated into 52 languages (52 languages x 67k instances = 3.4M instances).",
+            "PwC License Name": "CC BY-NC 4.0",
+            "PwC License URL": null,
+            "S2 Citation Count (May 2024)": 44,
+            "S2 Date": "2023-05-24"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 67017,
+            "Mean Inputs Length": 162.0681,
+            "Mean Targets Length": 605.9021,
+            "Max Inputs Length": 23917,
+            "Max Targets Length": 26097,
+            "Min Inputs Length": 5,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "bactrian-x-id": {
         "Unique Dataset Identifier": "bactrian-x-id",
@@ -123,7 +154,38 @@
             "dolly-openqa",
             "alpaca"
         ],
-        "Bibtex": "@Article{Li2023BactrianXA,\n author = {Haonan Li and Fajri Koto and Minghao Wu and Alham Fikri Aji and Timothy Baldwin},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Bactrian-X : A Multilingual Replicable Instruction-Following Model with Low-Rank Adaptation},\n volume = {abs/2305.15011},\n year = {2023}\n}\n"
+        "Bibtex": "@Article{Li2023BactrianXA,\n author = {Haonan Li and Fajri Koto and Minghao Wu and Alham Fikri Aji and Timothy Baldwin},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Bactrian-X : A Multilingual Replicable Instruction-Following Model with Low-Rank Adaptation},\n volume = {abs/2305.15011},\n year = {2023}\n}\n",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 87,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "af",
+            "HF Config License": "",
+            "HF Dataset": "MBZUAI/Bactrian-X",
+            "HF Date": "2023-04-22",
+            "HF Downloads (May 2024)": 3985,
+            "HF Likes (May 2024)": 81,
+            "HF Yaml License": "CC BY-NC 4.0",
+            "PwC Date": "2023-05-24",
+            "PwC Description": "Bactrian-X is a comprehensive multilingual parallel dataset of 3.4 million instruction-response pairs across 52 languages. The instructions were obtained from alpaca-52k, and dolly-15k, and tranlated into 52 languages (52 languages x 67k instances = 3.4M instances).",
+            "PwC License Name": "CC BY-NC 4.0",
+            "PwC License URL": null,
+            "S2 Citation Count (May 2024)": 44,
+            "S2 Date": "2023-05-24"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 67017,
+            "Mean Inputs Length": 168.8714,
+            "Mean Targets Length": 604.5533,
+            "Max Inputs Length": 25125,
+            "Max Targets Length": 6921,
+            "Min Inputs Length": 4,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "bactrian-x-km": {
         "Unique Dataset Identifier": "bactrian-x-km",
@@ -186,7 +248,38 @@
             "dolly-openqa",
             "alpaca"
         ],
-        "Bibtex": "@Article{Li2023BactrianXA,\n author = {Haonan Li and Fajri Koto and Minghao Wu and Alham Fikri Aji and Timothy Baldwin},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Bactrian-X : A Multilingual Replicable Instruction-Following Model with Low-Rank Adaptation},\n volume = {abs/2305.15011},\n year = {2023}\n}\n"
+        "Bibtex": "@Article{Li2023BactrianXA,\n author = {Haonan Li and Fajri Koto and Minghao Wu and Alham Fikri Aji and Timothy Baldwin},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Bactrian-X : A Multilingual Replicable Instruction-Following Model with Low-Rank Adaptation},\n volume = {abs/2305.15011},\n year = {2023}\n}\n",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 87,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "af",
+            "HF Config License": "",
+            "HF Dataset": "MBZUAI/Bactrian-X",
+            "HF Date": "2023-04-22",
+            "HF Downloads (May 2024)": 3985,
+            "HF Likes (May 2024)": 81,
+            "HF Yaml License": "CC BY-NC 4.0",
+            "PwC Date": "2023-05-24",
+            "PwC Description": "Bactrian-X is a comprehensive multilingual parallel dataset of 3.4 million instruction-response pairs across 52 languages. The instructions were obtained from alpaca-52k, and dolly-15k, and tranlated into 52 languages (52 languages x 67k instances = 3.4M instances).",
+            "PwC License Name": "CC BY-NC 4.0",
+            "PwC License URL": null,
+            "S2 Citation Count (May 2024)": 44,
+            "S2 Date": "2023-05-24"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 67017,
+            "Mean Inputs Length": 158.4743,
+            "Mean Targets Length": 742.6327,
+            "Max Inputs Length": 25267,
+            "Max Targets Length": 10569,
+            "Min Inputs Length": 4,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "bactrian-x-my": {
         "Unique Dataset Identifier": "bactrian-x-my",
@@ -249,7 +342,38 @@
             "dolly-openqa",
             "alpaca"
         ],
-        "Bibtex": "@Article{Li2023BactrianXA,\n author = {Haonan Li and Fajri Koto and Minghao Wu and Alham Fikri Aji and Timothy Baldwin},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Bactrian-X : A Multilingual Replicable Instruction-Following Model with Low-Rank Adaptation},\n volume = {abs/2305.15011},\n year = {2023}\n}\n"
+        "Bibtex": "@Article{Li2023BactrianXA,\n author = {Haonan Li and Fajri Koto and Minghao Wu and Alham Fikri Aji and Timothy Baldwin},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Bactrian-X : A Multilingual Replicable Instruction-Following Model with Low-Rank Adaptation},\n volume = {abs/2305.15011},\n year = {2023}\n}\n",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 87,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "af",
+            "HF Config License": "",
+            "HF Dataset": "MBZUAI/Bactrian-X",
+            "HF Date": "2023-04-22",
+            "HF Downloads (May 2024)": 3985,
+            "HF Likes (May 2024)": 81,
+            "HF Yaml License": "CC BY-NC 4.0",
+            "PwC Date": "2023-05-24",
+            "PwC Description": "Bactrian-X is a comprehensive multilingual parallel dataset of 3.4 million instruction-response pairs across 52 languages. The instructions were obtained from alpaca-52k, and dolly-15k, and tranlated into 52 languages (52 languages x 67k instances = 3.4M instances).",
+            "PwC License Name": "CC BY-NC 4.0",
+            "PwC License URL": null,
+            "S2 Citation Count (May 2024)": 44,
+            "S2 Date": "2023-05-24"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 67017,
+            "Mean Inputs Length": 181.6562,
+            "Mean Targets Length": 438.2032,
+            "Max Inputs Length": 26765,
+            "Max Targets Length": 13184,
+            "Min Inputs Length": 5,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "bactrian-x-th": {
         "Unique Dataset Identifier": "bactrian-x-th",
@@ -312,7 +436,38 @@
             "dolly-openqa",
             "alpaca"
         ],
-        "Bibtex": "@Article{Li2023BactrianXA,\n author = {Haonan Li and Fajri Koto and Minghao Wu and Alham Fikri Aji and Timothy Baldwin},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Bactrian-X : A Multilingual Replicable Instruction-Following Model with Low-Rank Adaptation},\n volume = {abs/2305.15011},\n year = {2023}\n}\n"
+        "Bibtex": "@Article{Li2023BactrianXA,\n author = {Haonan Li and Fajri Koto and Minghao Wu and Alham Fikri Aji and Timothy Baldwin},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Bactrian-X : A Multilingual Replicable Instruction-Following Model with Low-Rank Adaptation},\n volume = {abs/2305.15011},\n year = {2023}\n}\n",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 87,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "af",
+            "HF Config License": "",
+            "HF Dataset": "MBZUAI/Bactrian-X",
+            "HF Date": "2023-04-22",
+            "HF Downloads (May 2024)": 3985,
+            "HF Likes (May 2024)": 81,
+            "HF Yaml License": "CC BY-NC 4.0",
+            "PwC Date": "2023-05-24",
+            "PwC Description": "Bactrian-X is a comprehensive multilingual parallel dataset of 3.4 million instruction-response pairs across 52 languages. The instructions were obtained from alpaca-52k, and dolly-15k, and tranlated into 52 languages (52 languages x 67k instances = 3.4M instances).",
+            "PwC License Name": "CC BY-NC 4.0",
+            "PwC License URL": null,
+            "S2 Citation Count (May 2024)": 44,
+            "S2 Date": "2023-05-24"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 67017,
+            "Mean Inputs Length": 140.6694,
+            "Mean Targets Length": 541.3117,
+            "Max Inputs Length": 22379,
+            "Max Targets Length": 15997,
+            "Min Inputs Length": 6,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "bactrian-x-tl": {
         "Unique Dataset Identifier": "bactrian-x-tl",
@@ -375,6 +530,37 @@
             "dolly-openqa",
             "alpaca"
         ],
-        "Bibtex": "@Article{Li2023BactrianXA,\n author = {Haonan Li and Fajri Koto and Minghao Wu and Alham Fikri Aji and Timothy Baldwin},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Bactrian-X : A Multilingual Replicable Instruction-Following Model with Low-Rank Adaptation},\n volume = {abs/2305.15011},\n year = {2023}\n}\n"
+        "Bibtex": "@Article{Li2023BactrianXA,\n author = {Haonan Li and Fajri Koto and Minghao Wu and Alham Fikri Aji and Timothy Baldwin},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Bactrian-X : A Multilingual Replicable Instruction-Following Model with Low-Rank Adaptation},\n volume = {abs/2305.15011},\n year = {2023}\n}\n",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 87,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "af",
+            "HF Config License": "",
+            "HF Dataset": "MBZUAI/Bactrian-X",
+            "HF Date": "2023-04-22",
+            "HF Downloads (May 2024)": 3985,
+            "HF Likes (May 2024)": 81,
+            "HF Yaml License": "CC BY-NC 4.0",
+            "PwC Date": "2023-05-24",
+            "PwC Description": "Bactrian-X is a comprehensive multilingual parallel dataset of 3.4 million instruction-response pairs across 52 languages. The instructions were obtained from alpaca-52k, and dolly-15k, and tranlated into 52 languages (52 languages x 67k instances = 3.4M instances).",
+            "PwC License Name": "CC BY-NC 4.0",
+            "PwC License URL": null,
+            "S2 Citation Count (May 2024)": 44,
+            "S2 Date": "2023-05-24"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 67017,
+            "Mean Inputs Length": 192.43,
+            "Mean Targets Length": 609.9022,
+            "Max Inputs Length": 28241,
+            "Max Targets Length": 12880,
+            "Min Inputs Length": 7,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     }
 }

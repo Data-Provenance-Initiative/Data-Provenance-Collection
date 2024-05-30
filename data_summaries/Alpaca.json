@@ -64,9 +64,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "tatsu-lab/alpaca",
-            "HF Config": "tatsu-lab--alpaca",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "CC BY-NC 4.0",
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
@@ -95,7 +95,11 @@
                 "deep-learning",
                 "instruction-following",
                 "language-model"
-            ]
+            ],
+            "GitHub Stars (May 2024)": 28838,
+            "HF Downloads (May 2024)": 110019,
+            "HF Likes (May 2024)": 610,
+            "S2 Citation Count (May 2024)": ""
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],

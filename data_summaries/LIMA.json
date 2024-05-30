@@ -82,7 +82,7 @@
             "S2 Citation Count (September 2023)": 46,
             "S2 Date": "2023-05-18",
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Java programming",
                 "Mathematics",
@@ -94,7 +94,15 @@
                 "Web development",
                 "Politics",
                 "Translation"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Config": "plain_text",
+            "HF Config License": "",
+            "HF Dataset": "GAIR/lima",
+            "HF Downloads (May 2024)": 7314,
+            "HF Likes (May 2024)": 375,
+            "HF Yaml License": "",
+            "S2 Citation Count (May 2024)": 325
         },
         "Derived from Datasets": [
             "Natural Questions"
@@ -175,7 +183,7 @@
             "S2 Citation Count (September 2023)": 46,
             "S2 Date": "2023-05-18",
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Humor",
                 "Wordplay",
@@ -187,7 +195,15 @@
                 "Data visualization",
                 "Matplotlib library",
                 "Politics"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Config": "plain_text",
+            "HF Config License": "",
+            "HF Dataset": "GAIR/lima",
+            "HF Downloads (May 2024)": 7314,
+            "HF Likes (May 2024)": 375,
+            "HF Yaml License": "",
+            "S2 Citation Count (May 2024)": 325
         },
         "Derived from Datasets": [
             "Natural Questions"
@@ -268,7 +284,7 @@
             "S2 Citation Count (September 2023)": 46,
             "S2 Date": "2023-05-18",
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Creative writing",
                 "Poetry",
@@ -280,7 +296,15 @@
                 "Writing and storytelling",
                 "Daily routine",
                 "Music"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Config": "plain_text",
+            "HF Config License": "",
+            "HF Dataset": "GAIR/lima",
+            "HF Downloads (May 2024)": 7314,
+            "HF Likes (May 2024)": 375,
+            "HF Yaml License": "",
+            "S2 Citation Count (May 2024)": 325
         },
         "Derived from Datasets": [
             "Natural Questions"
@@ -361,7 +385,7 @@
             "S2 Citation Count (September 2023)": 46,
             "S2 Date": "2023-05-18",
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Emotional intelligence",
                 "DIY projects",
@@ -373,7 +397,15 @@
                 "Cooking techniques",
                 "Health",
                 "Emotional well-being"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Config": "plain_text",
+            "HF Config License": "",
+            "HF Dataset": "GAIR/lima",
+            "HF Downloads (May 2024)": 7314,
+            "HF Likes (May 2024)": 375,
+            "HF Yaml License": "",
+            "S2 Citation Count (May 2024)": 325
         },
         "Derived from Datasets": [
             "Natural Questions"
@@ -454,7 +486,7 @@
             "S2 Citation Count (September 2023)": 46,
             "S2 Date": "2023-05-18",
             "GitHub Stars": "",
-            "GitHub Topics": [],
+            "GitHub Topics": "",
             "Text Topics": [
                 "Mathematics",
                 "Translation",
@@ -466,7 +498,15 @@
                 "Time management",
                 "Comparison",
                 "Number theory"
-            ]
+            ],
+            "GitHub Stars (May 2024)": "",
+            "HF Config": "plain_text",
+            "HF Config License": "",
+            "HF Dataset": "GAIR/lima",
+            "HF Downloads (May 2024)": 7314,
+            "HF Likes (May 2024)": 375,
+            "HF Yaml License": "",
+            "S2 Citation Count (May 2024)": 325
         },
         "Derived from Datasets": [
             "Natural Questions"

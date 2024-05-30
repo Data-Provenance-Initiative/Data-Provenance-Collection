@@ -1,0 +1,67 @@
+{
+    "Bud500": {
+        "Dataset Name": "bud500",
+        "Unique Dataset Identifier": "bud500",
+        "Collection": "Bud500",
+        "Hours": 500.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Vietnamese"
+        ],
+        "Languages (ISO)": [
+            "vi"
+        ],
+        "Language Groups": [
+            "Austroasiatic"
+        ],
+        "Language Families": [
+            "Kra-Dai"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/linhtran92/viet_bud500"
+            },
+            {
+                "License": "Apache 2.0",
+                "License URL": "https://huggingface.co/datasets/linhtran92/viet_bud500"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Travel",
+            "Podcast",
+            "Food",
+            "Books"
+        ],
+        "Source Category": [
+            "Podcast",
+            "Audiobooks"
+        ],
+        "Source": [
+            "Podcasts",
+            "Books"
+        ],
+        "Process Description": "",
+        "Github URL": "https://github.com/quocanh34/Bud500",
+        "Hugging Face URL": "https://huggingface.co/datasets/linhtran92/viet_bud500",
+        "Papers with Code URL": "",
+        "Paper URL": "",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "VietAI"
+        ],
+        "Creator Categories": [
+            "Nonprofit"
+        ],
+        "Year Released": 2024,
+        "Location": [
+            "Vietnam"
+        ],
+        "Notes": ""
+    }
+}

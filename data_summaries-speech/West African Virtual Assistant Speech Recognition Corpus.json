@@ -1,0 +1,71 @@
+{
+    "West African Virtual Assistant Speech Recognition Corpus": {
+        "Dataset Name": "west-african-virtual-assistant-speech-recognition-corpus",
+        "Unique Dataset Identifier": "west-african-virtual-assistant-speech-recognition-corpus",
+        "Collection": "West African Virtual Assistant Speech Recognition Corpus",
+        "Hours": 2.4,
+        "Languages (Count)": 3,
+        "Languages": [
+            "Maninka",
+            "Pular",
+            "Susu"
+        ],
+        "Languages (ISO)": [
+            "emk",
+            "fuf",
+            "sus"
+        ],
+        "Language Groups": [
+            "Low Resource Languages"
+        ],
+        "Language Families": [
+            "Other"
+        ],
+        "Speakers": 49,
+        "Tasks": [
+            "Speech Recognition",
+            "Language Identification",
+            "Speaker Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://openslr.org/106/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Virtual Assistant Model",
+            "Voice Commands"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Audios Recorded First, Text Transcribed Later",
+        "Github URL": "https://github.com/mdoumbouya/nicolingua",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://openslr.org/106/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/west-african-virtual-assistant-speech",
+        "Paper URL": "https://arxiv.org/pdf/2104.13083",
+        "Semantic Scholar Corpus ID": 233407982,
+        "Creators": [
+            "GNCode",
+            "Stanford University"
+        ],
+        "Creator Categories": [
+            "Academia",
+            "Independent"
+        ],
+        "Year Released": 2021,
+        "Location": [
+            "United States",
+            "Guinea"
+        ],
+        "Notes": ""
+    }
+}

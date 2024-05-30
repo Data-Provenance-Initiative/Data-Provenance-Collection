@@ -53,9 +53,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "databricks/databricks-dolly-15k",
-            "HF Config": "databricks--databricks-dolly-15k",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "CC BY-SA 3.0",
             "PwC License Name": "CC BY-SA 3.0",
             "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
             "PwC Date": "2023-04-12",
@@ -80,7 +80,11 @@
             "PwC Description": "Databricks Dolly 15k is a dataset containing 15,000 high-quality human-generated prompt / response pairs specifically designed for instruction tuning large language models. It is authored by more than 5,000 Databricks employees during March and April of 2023. The training records are natural, expressive and designed to represent a wide range of the behaviors, from brainstorming and content generation to information extraction and summarization.",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 29298,
+            "HF Likes (May 2024)": 632,
+            "S2 Citation Count (May 2024)": ""
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -139,9 +143,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "databricks/databricks-dolly-15k",
-            "HF Config": "databricks--databricks-dolly-15k",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "CC BY-SA 3.0",
             "PwC License Name": "CC BY-SA 3.0",
             "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
             "PwC Date": "2023-04-12",
@@ -166,7 +170,11 @@
             "PwC Description": "Databricks Dolly 15k is a dataset containing 15,000 high-quality human-generated prompt / response pairs specifically designed for instruction tuning large language models. It is authored by more than 5,000 Databricks employees during March and April of 2023. The training records are natural, expressive and designed to represent a wide range of the behaviors, from brainstorming and content generation to information extraction and summarization.",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 29298,
+            "HF Likes (May 2024)": 632,
+            "S2 Citation Count (May 2024)": ""
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -225,9 +233,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "databricks/databricks-dolly-15k",
-            "HF Config": "databricks--databricks-dolly-15k",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "CC BY-SA 3.0",
             "PwC License Name": "CC BY-SA 3.0",
             "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
             "PwC Date": "2023-04-12",
@@ -252,7 +260,11 @@
             "PwC Description": "Databricks Dolly 15k is a dataset containing 15,000 high-quality human-generated prompt / response pairs specifically designed for instruction tuning large language models. It is authored by more than 5,000 Databricks employees during March and April of 2023. The training records are natural, expressive and designed to represent a wide range of the behaviors, from brainstorming and content generation to information extraction and summarization.",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 29298,
+            "HF Likes (May 2024)": 632,
+            "S2 Citation Count (May 2024)": ""
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -311,9 +323,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "databricks/databricks-dolly-15k",
-            "HF Config": "databricks--databricks-dolly-15k",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "CC BY-SA 3.0",
             "PwC License Name": "CC BY-SA 3.0",
             "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
             "PwC Date": "2023-04-12",
@@ -338,7 +350,11 @@
             "PwC Description": "Databricks Dolly 15k is a dataset containing 15,000 high-quality human-generated prompt / response pairs specifically designed for instruction tuning large language models. It is authored by more than 5,000 Databricks employees during March and April of 2023. The training records are natural, expressive and designed to represent a wide range of the behaviors, from brainstorming and content generation to information extraction and summarization.",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 29298,
+            "HF Likes (May 2024)": 632,
+            "S2 Citation Count (May 2024)": ""
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -397,9 +413,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "databricks/databricks-dolly-15k",
-            "HF Config": "databricks--databricks-dolly-15k",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "CC BY-SA 3.0",
             "PwC License Name": "CC BY-SA 3.0",
             "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
             "PwC Date": "2023-04-12",
@@ -424,7 +440,11 @@
             "PwC Description": "Databricks Dolly 15k is a dataset containing 15,000 high-quality human-generated prompt / response pairs specifically designed for instruction tuning large language models. It is authored by more than 5,000 Databricks employees during March and April of 2023. The training records are natural, expressive and designed to represent a wide range of the behaviors, from brainstorming and content generation to information extraction and summarization.",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 29298,
+            "HF Likes (May 2024)": 632,
+            "S2 Citation Count (May 2024)": ""
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -483,9 +503,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "databricks/databricks-dolly-15k",
-            "HF Config": "databricks--databricks-dolly-15k",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "CC BY-SA 3.0",
             "PwC License Name": "CC BY-SA 3.0",
             "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
             "PwC Date": "2023-04-12",
@@ -510,7 +530,11 @@
             "PwC Description": "Databricks Dolly 15k is a dataset containing 15,000 high-quality human-generated prompt / response pairs specifically designed for instruction tuning large language models. It is authored by more than 5,000 Databricks employees during March and April of 2023. The training records are natural, expressive and designed to represent a wide range of the behaviors, from brainstorming and content generation to information extraction and summarization.",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 29298,
+            "HF Likes (May 2024)": 632,
+            "S2 Citation Count (May 2024)": ""
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
@@ -569,9 +593,9 @@
         ],
         "Inferred Metadata": {
             "HF Dataset": "databricks/databricks-dolly-15k",
-            "HF Config": "databricks--databricks-dolly-15k",
+            "HF Config": "default",
             "HF Config License": "",
-            "HF Yaml License": "",
+            "HF Yaml License": "CC BY-SA 3.0",
             "PwC License Name": "CC BY-SA 3.0",
             "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
             "PwC Date": "2023-04-12",
@@ -596,7 +620,11 @@
             "PwC Description": "Databricks Dolly 15k is a dataset containing 15,000 high-quality human-generated prompt / response pairs specifically designed for instruction tuning large language models. It is authored by more than 5,000 Databricks employees during March and April of 2023. The training records are natural, expressive and designed to represent a wide range of the behaviors, from brainstorming and content generation to information extraction and summarization.",
             "S2 Citation Count (September 2023)": "",
             "GitHub Stars": "",
-            "GitHub Topics": []
+            "GitHub Topics": "",
+            "GitHub Stars (May 2024)": "",
+            "HF Downloads (May 2024)": 29298,
+            "HF Likes (May 2024)": 632,
+            "S2 Citation Count (May 2024)": ""
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",

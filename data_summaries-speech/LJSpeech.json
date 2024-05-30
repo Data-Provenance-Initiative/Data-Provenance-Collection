@@ -1,0 +1,61 @@
+{
+    "LJSpeech": {
+        "Dataset Name": "ljspeech",
+        "Unique Dataset Identifier": "ljspeech",
+        "Collection": "LJSpeech",
+        "Hours": 24.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "English"
+        ],
+        "Languages (ISO)": [
+            "en"
+        ],
+        "Language Groups": [
+            "English"
+        ],
+        "Language Families": [
+            "Germanic"
+        ],
+        "Speakers": 1,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Public Domain",
+                "License URL": "https://keithito.com/LJ-Speech-Dataset/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Non-fiction"
+        ],
+        "Source Category": [
+            "Audiobooks"
+        ],
+        "Source": [
+            "LibriVox Audiobooks"
+        ],
+        "Process Description": "Scripts Generated First, Then Audio Was Recorded",
+        "Github URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/lj_speech",
+        "Website URL": [
+            "https://keithito.com/LJ-Speech-Dataset/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/ljspeech",
+        "Paper URL": "",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "Independent"
+        ],
+        "Creator Categories": [
+            "Independent"
+        ],
+        "Year Released": 2017,
+        "Location": [
+            "United States"
+        ],
+        "Notes": "Used a lot: 3,156 downloads last month"
+    }
+}

@@ -133,6 +133,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_feedback_collection,
         "prepare_function": preparers.prepare_feedback_collection,
     },
+    "Preference Collection": {
+        "download_function": downloaders.download_preference_collection,
+        "prepare_function": preparers.prepare_preference_collection,
+    },
     "Llama2-MedTuned-Instructions": {
         "download_function": downloaders.download_llama2_med_tuned_instructions,
         "prepare_function": preparers.prepare_llama2_med_tuned_instructions,
@@ -144,6 +148,10 @@ COLLECTION_FN_MAPPER = {
     "Thai Gen AI (Alpaca)": {
         "download_function": downloaders.download_thai_gen_ai_alpaca,
         "prepare_function": preparers.prepare_thai_gen_ai_alpaca,
+    },
+    "SEACrowd": {
+        "download_function": downloaders.download_seacrowd,
+        "prepare_function": preparers.prepare_seacrowd,
     },
     "ShareGPT Vicuna": {
         "download_function": downloaders.download_sharegpt_vicuna,
@@ -262,7 +270,11 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_open_orca,
         "prepare_function": preparers.prepare_open_orca,
     },
-    "COIG":{
+    "ToxicChat": {
+        "download_function": downloaders.download_toxicchat,
+        "prepare_function": preparers.prepare_toxicchat,
+    },
+    "COIG": {
         "download_function": downloaders.download_coig,
         "prepare_function": preparers.prepare_coig,
     },
@@ -270,11 +282,11 @@ COLLECTION_FN_MAPPER = {
     #     "download_function": downloaders.download_coig_kun,
     #     "prepare_function": preparers.prepare_coig_kun,
     # },
-    "COIG-CQIA":{
+    "COIG-CQIA": {
         "download_function": downloaders.download_coig_cqia,
         "prepare_function": preparers.prepare_coig_cqia,
     },
-    "SelFee":{
+    "SelFee": {
         "download_function": downloaders.download_selfee,
         "prepare_function": preparers.prepare_selfee,
     },
