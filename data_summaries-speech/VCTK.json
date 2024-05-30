@@ -1,0 +1,62 @@
+{
+    "VCTK": {
+        "Dataset Name": "vctk",
+        "Unique Dataset Identifier": "vctk",
+        "Collection": "VCTK",
+        "Hours": 44.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "English (Accented)"
+        ],
+        "Languages (ISO)": [
+            "en"
+        ],
+        "Language Groups": [
+            "English"
+        ],
+        "Language Families": [
+            "Germanic"
+        ],
+        "Speakers": 110,
+        "Tasks": [
+            "Speech Recognition",
+            "Speaker Identification"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://datashare.ed.ac.uk/bitstream/handle/10283/3443/README.txt"
+            }
+        ],
+        "License Notes": "CC BY 4.0 (HF), can't find paper",
+        "Topics": [
+            "Newspapers"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Scripts Generated First (From Newspapers), Then Audio Was Recorded",
+        "Github URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/vctk",
+        "Website URL": [
+            "https://datashare.ed.ac.uk/handle/10283/3443"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/vctk",
+        "Paper URL": "",
+        "Semantic Scholar Corpus ID": 213060286,
+        "Creators": [
+            "University of Edinburgh"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2016,
+        "Location": [
+            "United Kingdom"
+        ],
+        "Notes": ""
+    }
+}

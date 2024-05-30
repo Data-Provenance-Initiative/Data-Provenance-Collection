@@ -1,0 +1,59 @@
+{
+    "120h Spanish Speech": {
+        "Dataset Name": "120h-spanish-speech",
+        "Unique Dataset Identifier": "120h-spanish-speech",
+        "Collection": "120h Spanish Speech",
+        "Hours": 120.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Spanish"
+        ],
+        "Languages (ISO)": [
+            "es"
+        ],
+        "Language Groups": [
+            "Spanish"
+        ],
+        "Language Families": [
+            "Indo-European"
+        ],
+        "Speakers": 17,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": "https://www.kaggle.com/datasets/carlfm01/120h-spanish-speech/data"
+            }
+        ],
+        "License Notes": "",
+        "Topics": "Unclear",
+        "Source Category": [
+            "Audiobooks"
+        ],
+        "Source": [
+            "LibriVox"
+        ],
+        "Process Description": "Automatically Extracted From Librivox",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://www.kaggle.com/datasets/carlfm01/120h-spanish-speech/data"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "Independent"
+        ],
+        "Creator Categories": [
+            "Independent"
+        ],
+        "Year Released": 2019,
+        "Location": [
+            "Spain"
+        ],
+        "Notes": ""
+    }
+}

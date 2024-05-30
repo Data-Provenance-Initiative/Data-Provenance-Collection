@@ -1,0 +1,77 @@
+{
+    "OLKAVS": {
+        "Dataset Name": "olkavs",
+        "Unique Dataset Identifier": "olkavs",
+        "Collection": "OLKAVS",
+        "Hours": 1150.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Korean"
+        ],
+        "Languages (ISO)": [
+            "ko"
+        ],
+        "Language Groups": [
+            "Korean"
+        ],
+        "Language Families": [
+            "Koreanic"
+        ],
+        "Speakers": 1107,
+        "Tasks": [
+            "Speech Recognition",
+            "Speaker Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://aihub.or.kr/intrcn/guid/usagepolicy.do"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Health/Diet",
+            "Daily",
+            "Job/Work",
+            "Financial",
+            "Human Relations",
+            "Pet",
+            "Sports/Leisure",
+            "Food",
+            "Education/School",
+            "Vacation",
+            "Art/Culture",
+            "Transportation",
+            "Social Issue",
+            "Ceremonial Occasions"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Audios Recorded First, Text Transcribed Later",
+        "Github URL": "https://github.com/IIP-Sogang/olkavs-avspeech",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=538"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/olkavs",
+        "Paper URL": "https://arxiv.org/pdf/2301.06375",
+        "Semantic Scholar Corpus ID": 255942323,
+        "Creators": [
+            "Sogang University",
+            "Mindslab Inc."
+        ],
+        "Creator Categories": [
+            "Academia",
+            "Industry"
+        ],
+        "Year Released": 2022,
+        "Location": [
+            "South Korea"
+        ],
+        "Notes": ""
+    }
+}

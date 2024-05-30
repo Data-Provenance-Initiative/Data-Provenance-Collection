@@ -1,0 +1,61 @@
+{
+    "THCHS-30": {
+        "Dataset Name": "thchs-30",
+        "Unique Dataset Identifier": "thchs-30",
+        "Collection": "THCHS-30",
+        "Hours": 35.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Mandarin Chinese"
+        ],
+        "Languages (ISO)": [
+            "cmn"
+        ],
+        "Language Groups": [
+            "Chinese"
+        ],
+        "Language Families": [
+            "Sino-Tibetan"
+        ],
+        "Speakers": 40,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache 2.0",
+                "License URL": "https://www.openslr.org/18/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "News"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Audios Recorded First, Text Transcribed Later",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://www.openslr.org/18/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/thchs-30",
+        "Paper URL": "https://arxiv.org/pdf/1512.01882.pdf",
+        "Semantic Scholar Corpus ID": 15440174,
+        "Creators": [
+            "Tsinghua University"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2015,
+        "Location": [
+            "China"
+        ],
+        "Notes": ""
+    }
+}

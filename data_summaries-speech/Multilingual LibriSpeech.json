@@ -1,0 +1,114 @@
+{
+    "Multilingual LibriSpeech": {
+        "Dataset Name": "multilingual-librispeech",
+        "Unique Dataset Identifier": "multilingual-librispeech",
+        "Collection": "Multilingual LibriSpeech",
+        "Hours": 50500.0,
+        "Languages (Count)": 8,
+        "Languages": [
+            "English",
+            "German",
+            "Dutch",
+            "French",
+            "Spanish",
+            "Italian",
+            "Portuguese",
+            "Polish"
+        ],
+        "Languages (ISO)": [
+            "en",
+            "de",
+            "nl",
+            "fr",
+            "es",
+            "it",
+            "pt",
+            "pl"
+        ],
+        "Language Groups": [
+            "English",
+            "Other Indo-European",
+            "Spanish",
+            "German",
+            "French",
+            "Italian"
+        ],
+        "Language Families": [
+            "Germanic",
+            "Indo-European"
+        ],
+        "Speakers": 6332,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://huggingface.co/datasets/facebook/multilingual_librispeech"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Non-fiction",
+            "Action & Adventure Fiction",
+            "Children's Fiction",
+            "Children's Non-fiction",
+            "Classics (Greek & Latin Antiquity)",
+            "Crime & Mystery Fiction",
+            "Culture & Heritage Fiction",
+            "Dramatic Readings",
+            "Epistolary Fiction",
+            "Erotica",
+            "Family Life",
+            "Fantastic Fiction",
+            "Fictional Biographies & Memoirs",
+            "General Fiction",
+            "Historical Fiction",
+            "Humorous Fiction",
+            "Literary Fiction",
+            "Nature & Animal Fiction",
+            "Nautical & Marine Fiction",
+            "Plays",
+            "Poetry",
+            "Religious Fiction",
+            "Romance",
+            "Sagas",
+            "Satire",
+            "Short Stories",
+            "Sports Fiction",
+            "Suspense",
+            "Espionage",
+            "Political & Thrillers",
+            "Travel Fiction",
+            "War & Military Fiction",
+            "Westerns"
+        ],
+        "Source Category": [
+            "Audiobooks"
+        ],
+        "Source": [
+            "LibriVox Audiobooks"
+        ],
+        "Process Description": "Audios With Transcripts Attached",
+        "Github URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/multilingual_librispeech",
+        "Website URL": [
+            "https://www.openslr.org/94/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/multilingual-librispeech",
+        "Paper URL": "https://arxiv.org/abs/2012.03411",
+        "Semantic Scholar Corpus ID": 226202134,
+        "Creators": [
+            "Meta AI"
+        ],
+        "Creator Categories": [
+            "Industry"
+        ],
+        "Year Released": 2020,
+        "Location": [
+            "United States",
+            "France"
+        ],
+        "Notes": ""
+    }
+}
