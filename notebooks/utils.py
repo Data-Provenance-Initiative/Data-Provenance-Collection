@@ -30,6 +30,15 @@ def color_license_classes(s):
     return ' '.join(ret)
 
 
+def video_avail_status(lst):
+    if all(lst):
+        return r'\greencheck'
+    elif all(not v for v in lst):
+        return r'\redcross'
+    else:
+        return r'\orangecircle'
+
+
 FORMATS_MAP = {
     'Zero-shot': 'ZS',
     'zero-shot': 'ZS',
