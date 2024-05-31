@@ -1,0 +1,63 @@
+{
+    "TED-LIUM3": {
+        "Dataset Name": "ted-lium3",
+        "Unique Dataset Identifier": "ted-lium3",
+        "Collection": "TED-LIUM3",
+        "Hours": 452.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "English"
+        ],
+        "Languages (ISO)": [
+            "en"
+        ],
+        "Language Groups": [
+            "English"
+        ],
+        "Language Families": [
+            "Germanic"
+        ],
+        "Speakers": 2028,
+        "Tasks": [
+            "Speech Recognition/Translation"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-ND 3.0",
+                "License URL": "https://www.openslr.org/51/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Variety of TED Talks"
+        ],
+        "Source Category": [
+            "TED Talks"
+        ],
+        "Source": [
+            "TED Talks"
+        ],
+        "Process Description": "Audios With Transcripts Attached",
+        "Github URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/LIUM/tedlium",
+        "Website URL": [
+            "https://www.openslr.org/51/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/ted-lium-3",
+        "Paper URL": "https://arxiv.org/abs/1805.04699",
+        "Semantic Scholar Corpus ID": 21724170,
+        "Creators": [
+            "Ubiqus",
+            "University of Le Mans"
+        ],
+        "Creator Categories": [
+            "Industry",
+            "Academia"
+        ],
+        "Year Released": 2012,
+        "Location": [
+            "France"
+        ],
+        "Notes": "First paper released in 2012 and last release in 2019"
+    }
+}

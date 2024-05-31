@@ -1,0 +1,66 @@
+{
+    "SPGISpeech": {
+        "Dataset Name": "spgispeech",
+        "Unique Dataset Identifier": "spgispeech",
+        "Collection": "SPGISpeech",
+        "Hours": 5000.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "English"
+        ],
+        "Languages (ISO)": [
+            "en"
+        ],
+        "Language Groups": [
+            "English"
+        ],
+        "Language Families": [
+            "Germanic"
+        ],
+        "Speakers": 50000,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://huggingface.co/datasets/kensho/spgispeech"
+            }
+        ],
+        "License Notes": "Proprietary/restrictive, allowing academic research and internal use only, with explicit permission required for any modifications, redistribution, or commercial use.",
+        "Topics": [
+            "Business",
+            "Finance"
+        ],
+        "Source Category": [
+            "Earnings Calls"
+        ],
+        "Source": [
+            "S&P Global Inc Earnings Calls"
+        ],
+        "Process Description": "Audios Recorded First, Text Manually Transcribed Later",
+        "Github URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/kensho/spgispeech",
+        "Website URL": [
+            "https://datasets.kensho.com/datasets/spgispeech"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/spgispeech",
+        "Paper URL": "https://arxiv.org/pdf/2104.02014.pdf",
+        "Semantic Scholar Corpus ID": 233025097,
+        "Creators": [
+            "Kensho Technologies",
+            "NVIDIA",
+            "Johns Hopkins University",
+            "Carnegie Mellon University"
+        ],
+        "Creator Categories": [
+            "Industry",
+            "Academia"
+        ],
+        "Year Released": 2021,
+        "Location": [
+            "United States"
+        ],
+        "Notes": ""
+    }
+}

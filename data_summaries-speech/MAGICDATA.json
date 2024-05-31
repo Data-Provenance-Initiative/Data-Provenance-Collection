@@ -1,0 +1,63 @@
+{
+    "MAGICDATA": {
+        "Dataset Name": "magicdata",
+        "Unique Dataset Identifier": "magicdata",
+        "Collection": "MAGICDATA",
+        "Hours": 755.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Mandarin Chinese"
+        ],
+        "Languages (ISO)": [
+            "cmn"
+        ],
+        "Language Groups": [
+            "Chinese"
+        ],
+        "Language Families": [
+            "Sino-Tibetan"
+        ],
+        "Speakers": 1080,
+        "Tasks": [
+            "Speech Recognition",
+            "Machine Translation",
+            "Speaker Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-ND 4.0",
+                "License URL": "https://openslr.org/68/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Spontaneous Recordings"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://openslr.org/68/"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "Magic Data Technology Co. Ltd."
+        ],
+        "Creator Categories": [
+            "Industry"
+        ],
+        "Year Released": 2019,
+        "Location": [
+            "China"
+        ],
+        "Notes": ""
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "ReazonSpeech": {
+        "Dataset Name": "reazonspeech",
+        "Unique Dataset Identifier": "reazonspeech",
+        "Collection": "ReazonSpeech",
+        "Hours": 35000.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Japanese"
+        ],
+        "Languages (ISO)": [
+            "jp"
+        ],
+        "Language Groups": [
+            "Japanese"
+        ],
+        "Language Families": [
+            "Japonic"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CDLA-Sharing-1.0",
+                "License URL": "https://huggingface.co/datasets/reazon-research/reazonspeech"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Television Shows"
+        ],
+        "Source Category": [
+            "TV"
+        ],
+        "Source": [
+            "Television Shows"
+        ],
+        "Process Description": "Audio (From Tv Shows) Retrieved First, Text Transcribed Later (With Asr)",
+        "Github URL": "https://github.com/reazon-research/reazonspeech",
+        "Hugging Face URL": "https://huggingface.co/datasets/reazon-research/reazonspeech",
+        "Website URL": [
+            "https://research.reazon.jp/projects/ReazonSpeech/"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "https://research.reazon.jp/_static/reazonspeech_nlp2023.pdf",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "Reazon Holdings Inc.",
+            "Clear Code Inc."
+        ],
+        "Creator Categories": [
+            "Industry"
+        ],
+        "Year Released": 2023,
+        "Location": [
+            "Japan"
+        ],
+        "Notes": ""
+    }
+}

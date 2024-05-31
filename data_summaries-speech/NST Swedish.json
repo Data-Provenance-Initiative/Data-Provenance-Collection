@@ -1,0 +1,57 @@
+{
+    "NST Swedish": {
+        "Dataset Name": "nst-swedish",
+        "Unique Dataset Identifier": "nst-swedish",
+        "Collection": "NST Swedish",
+        "Hours": 300.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Swedish"
+        ],
+        "Languages (ISO)": [
+            "sv"
+        ],
+        "Language Groups": [
+            "Swedish"
+        ],
+        "Language Families": [
+            "Indo-European"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": "https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-16/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": "Unclear",
+        "Source Category": "Unclear",
+        "Source": [
+            "NST"
+        ],
+        "Process Description": "Nst Was A Norwegian Language Technology Comapny That Went Bankrupt. All Their Data Was Acquired And Preserved.",
+        "Github URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/KTH/nst",
+        "Website URL": [
+            "https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-56/"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "https://www.nb.no/sbfil/talegjenkjenning/16kHz_2020/se_2020/se-16khz_reorganized.pdf",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "National Library of Norway"
+        ],
+        "Creator Categories": [
+            "Government"
+        ],
+        "Year Released": 2013,
+        "Location": [
+            "Norway"
+        ],
+        "Notes": ""
+    }
+}

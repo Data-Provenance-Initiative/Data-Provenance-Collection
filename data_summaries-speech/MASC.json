@@ -1,0 +1,80 @@
+{
+    "MASC": {
+        "Dataset Name": "masc",
+        "Unique Dataset Identifier": "masc",
+        "Collection": "MASC",
+        "Hours": 1043.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Arabic (Dialects)"
+        ],
+        "Languages (ISO)": [
+            "ar"
+        ],
+        "Language Groups": [
+            "Arabic"
+        ],
+        "Language Families": [
+            "Afroasiatic"
+        ],
+        "Speakers": 13555,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://ieee-dataport.org/open-access/masc-massive-arabic-speech-corpus"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Education",
+            "People & Blogs",
+            "Music",
+            "Entertainment",
+            "Film & Animation",
+            "News & Politics",
+            "Nonprofits & Activism",
+            "Science & Technology",
+            "Howto & Style",
+            "Travel & Events",
+            "Gaming",
+            "Pets & Animals",
+            "Sports",
+            "Comedy",
+            "Autos & Vehicles"
+        ],
+        "Source Category": [
+            "Internet Video"
+        ],
+        "Source": [
+            "YouTube"
+        ],
+        "Process Description": "Audios With Transcripts Attached",
+        "Github URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/abdusah/masc",
+        "Website URL": [
+            "https://ieee-dataport.org/open-access/masc-massive-arabic-speech-corpus"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10022652",
+        "Semantic Scholar Corpus ID": 256349847,
+        "Creators": [
+            "Appswave",
+            "The University of Jordan",
+            "Planning and Statistics Authority of Qatar"
+        ],
+        "Creator Categories": [
+            "Industry",
+            "Academia",
+            "Government"
+        ],
+        "Year Released": 2021,
+        "Location": [
+            "Jordan",
+            "Qatar"
+        ],
+        "Notes": ""
+    }
+}

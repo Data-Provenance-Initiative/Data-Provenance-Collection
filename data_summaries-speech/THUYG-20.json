@@ -1,0 +1,65 @@
+{
+    "THUYG-20": {
+        "Dataset Name": "thuyg-20",
+        "Unique Dataset Identifier": "thuyg-20",
+        "Collection": "THUYG-20",
+        "Hours": 20.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Uyghur"
+        ],
+        "Languages (ISO)": [
+            "ug"
+        ],
+        "Language Groups": [
+            "Low Resource Languages"
+        ],
+        "Language Families": [
+            "Turkic"
+        ],
+        "Speakers": 371,
+        "Tasks": [
+            "Speech Recognition",
+            "Speaker Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache 2.0",
+                "License URL": "https://www.openslr.org/22/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Novels",
+            "Newspapers",
+            "Books"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Scripts (Sentences) Generated First, Then Audio Was Recorded",
+        "Github URL": "https://github.com/gheyret/thuyg20_scripts",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://www.openslr.org/22/"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "http://wangd.cslt.org/public/pdf/i-vector-uyghur.pdf",
+        "Semantic Scholar Corpus ID": 23851779,
+        "Creators": [
+            "Tsinghua University",
+            "Xinjiang University"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2015,
+        "Location": [
+            "China"
+        ],
+        "Notes": ""
+    }
+}

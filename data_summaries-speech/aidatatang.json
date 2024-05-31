@@ -1,0 +1,59 @@
+{
+    "aidatatang": {
+        "Dataset Name": "aidatatang",
+        "Unique Dataset Identifier": "aidatatang",
+        "Collection": "aidatatang",
+        "Hours": 200.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Mandarin Chinese"
+        ],
+        "Languages (ISO)": [
+            "cmn"
+        ],
+        "Language Groups": [
+            "Chinese"
+        ],
+        "Language Families": [
+            "Sino-Tibetan"
+        ],
+        "Speakers": 600,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-ND 4.0",
+                "License URL": "https://openslr.org/62/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": "Unclear",
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://openslr.org/62/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/aidatatang-200zh",
+        "Paper URL": "",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "Beijing DataTang Technology Co. Ltd"
+        ],
+        "Creator Categories": [
+            "Industry"
+        ],
+        "Year Released": 2022,
+        "Location": [
+            "China"
+        ],
+        "Notes": ""
+    }
+}
