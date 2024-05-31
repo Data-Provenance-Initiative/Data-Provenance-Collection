@@ -1,0 +1,56 @@
+{
+    "Czech Parliament": {
+        "Dataset Name": "czech-parliament",
+        "Unique Dataset Identifier": "czech-parliament",
+        "Collection": "Czech Parliament",
+        "Hours": 444.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Czech"
+        ],
+        "Languages (ISO)": [
+            "cs"
+        ],
+        "Language Groups": [
+            "Other Indo-European"
+        ],
+        "Language Families": [
+            "Indo-European"
+        ],
+        "Speakers": 212,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://www.clarin.eu/resource-families/parliamentary-corpora"
+            }
+        ],
+        "License Notes": "",
+        "Topics": "Unclear",
+        "Source Category": [
+            "Parliament"
+        ],
+        "Source": [
+            "Czech Parliament Meetings"
+        ],
+        "Process Description": "Audios Gotten First, Text Trascribed Later",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/large-corpus-of-czech-parliament-plenary",
+        "Paper URL": "https://aclanthology.org/2020.lrec-1.781.pdf",
+        "Semantic Scholar Corpus ID": 212843054,
+        "Creators": [
+            "Charles University"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2020,
+        "Location": [
+            "Czech Republic"
+        ],
+        "Notes": ""
+    }
+}

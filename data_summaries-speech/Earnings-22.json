@@ -1,0 +1,60 @@
+{
+    "Earnings-22": {
+        "Dataset Name": "earnings-22",
+        "Unique Dataset Identifier": "earnings-22",
+        "Collection": "Earnings-22",
+        "Hours": 119.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "English (Accented)"
+        ],
+        "Languages (ISO)": [
+            "en"
+        ],
+        "Language Groups": [
+            "English"
+        ],
+        "Language Families": [
+            "Germanic"
+        ],
+        "Speakers": 125,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Business",
+            "Finance"
+        ],
+        "Source Category": [
+            "Earnings Calls"
+        ],
+        "Source": [
+            "SeekingAlpha",
+            "Transcorp Nigeria",
+            "MTN Ghana"
+        ],
+        "Process Description": "Audios Gotten First, Text Trascribed Later",
+        "Github URL": "https://github.com/revdotcom/speech-datasets",
+        "Hugging Face URL": "https://huggingface.co/datasets/distil-whisper/earnings22",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/earnings-22",
+        "Paper URL": "https://arxiv.org/abs/2203.15591",
+        "Semantic Scholar Corpus ID": 247778950,
+        "Creators": [
+            "Rev.com"
+        ],
+        "Creator Categories": [
+            "Industry"
+        ],
+        "Year Released": 2022,
+        "Location": [
+            "United States"
+        ],
+        "Notes": ""
+    }
+}

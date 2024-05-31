@@ -1,0 +1,130 @@
+{
+    "Switchboard": {
+        "Dataset Name": "switchboard",
+        "Unique Dataset Identifier": "switchboard",
+        "Collection": "Switchboard",
+        "Hours": 250.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "English"
+        ],
+        "Languages (ISO)": [
+            "en"
+        ],
+        "Language Groups": [
+            "English"
+        ],
+        "Language Families": [
+            "Germanic"
+        ],
+        "Speakers": 543,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "LDC User Agreement",
+                "License URL": "https://catalog.ldc.upenn.edu/LDC97S62"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Affirmative Action",
+            "Aids",
+            "Air Pollution",
+            "Auto Repairs",
+            "Baseball",
+            "Basketball",
+            "Boating And Sailing",
+            "Books And Literature",
+            "Buying A Car",
+            "Camping",
+            "Capital Punishment",
+            "Care Of The Elderly",
+            "Child Care",
+            "Choosing A College",
+            "Clothing And Dress",
+            "Computers",
+            "Consumer Goods",
+            "Credit Card Use",
+            "Crime",
+            "Directions",
+            "Drug Testing",
+            "Elections And Voting",
+            "Ethics In Government",
+            "Exercise And Fitness",
+            "Family Finance",
+            "Family Life",
+            "Family Reunions",
+            "Federal Budget",
+            "Fishing",
+            "Football",
+            "Gardening",
+            "Golf",
+            "Gun Control",
+            "Health Care",
+            "Hobbies And Crafts",
+            "Home Repairs",
+            "Houses",
+            "Immigration",
+            "Job Benefits",
+            "Latin America",
+            "Magazines",
+            "Metric System",
+            "Middle East",
+            "Movies",
+            "Music",
+            "News Media",
+            "Painting",
+            "Pets",
+            "Politics",
+            "Public Education",
+            "Puerto Rican Sttehd",
+            "Recipes/Food/Cooking",
+            "Recycling",
+            "Restaurants",
+            "Right To Privacy",
+            "Social Change",
+            "Soviet Union",
+            "Space Flight And Exploration",
+            "Svgs & Loan Bailout",
+            "Taxes",
+            "Trial By Jury",
+            "Tv Programs",
+            "Universal Health Ins",
+            "Universal Pblic Serv",
+            "Vacation Spots",
+            "Vietnam War",
+            "Voting",
+            "Weather Climate",
+            "Women'S Roles",
+            "Woodworking"
+        ],
+        "Source Category": [
+            "Calling Platform"
+        ],
+        "Source": [
+            "Calling Platform"
+        ],
+        "Process Description": "Audios Recorded First, Text Manually Transcribed Later",
+        "Github URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/swda",
+        "Website URL": [
+            "https://catalog.ldc.upenn.edu/LDC97S62"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/switchboard-1-corpus",
+        "Paper URL": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=225858",
+        "Semantic Scholar Corpus ID": 61412708,
+        "Creators": [
+            "Texas Instruments Inc."
+        ],
+        "Creator Categories": [
+            "Industry"
+        ],
+        "Year Released": 1992,
+        "Location": [
+            "United States"
+        ],
+        "Notes": "Dataset from 1992, but used recently in SpeechStew (2021)"
+    }
+}

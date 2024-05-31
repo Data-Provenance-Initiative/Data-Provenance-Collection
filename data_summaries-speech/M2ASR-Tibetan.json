@@ -1,0 +1,60 @@
+{
+    "M2ASR-Tibetan": {
+        "Dataset Name": "m2asr-tibetan",
+        "Unique Dataset Identifier": "m2asr-tibetan",
+        "Collection": "M2ASR-Tibetan",
+        "Hours": 72.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Tibetan"
+        ],
+        "Languages (ISO)": [
+            "bo"
+        ],
+        "Language Groups": [
+            "Low Resource Languages"
+        ],
+        "Language Families": [
+            "Sino-Tibetan"
+        ],
+        "Speakers": 147,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Newspapers",
+            "Documents",
+            "Sentences"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Scripts Generated First, Then Audio Was Recorded",
+        "Github URL": "https://github.com/M2ASR/m2lp",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "Paper URL": "https://ieeexplore.ieee.org/document/8282130",
+        "Semantic Scholar Corpus ID": 3320925,
+        "Creators": [
+            "Northwest Minzu University",
+            "Tsinghua University"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2017,
+        "Location": [
+            "China"
+        ],
+        "Notes": "Unclear"
+    }
+}

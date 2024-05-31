@@ -1,0 +1,88 @@
+{
+    "MediaSpeech": {
+        "Dataset Name": "mediaspeech",
+        "Unique Dataset Identifier": "mediaspeech",
+        "Collection": "MediaSpeech",
+        "Hours": 40.0,
+        "Languages (Count)": 4,
+        "Languages": [
+            "Spanish",
+            "French",
+            "Turkish",
+            "Arabic"
+        ],
+        "Languages (ISO)": [
+            "es",
+            "fr",
+            "tr",
+            "ar"
+        ],
+        "Language Groups": [
+            "Spanish",
+            "French",
+            "Turkish",
+            "Arabic"
+        ],
+        "Language Families": [
+            "Indo-European",
+            "Turkic",
+            "Afroasiatic"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://www.openslr.org/108/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "News"
+        ],
+        "Source Category": [
+            "Internet Video"
+        ],
+        "Source": [
+            "YouTube",
+            "Al Arabiya",
+            "FRANCE 24 Arabic",
+            "BBC News",
+            "Euronews",
+            "BBC World",
+            "CNN International",
+            "Russia Today",
+            "RT France",
+            "France 24",
+            "FOX Haber",
+            "Show Ana Haber"
+        ],
+        "Process Description": "Audios Gotten First, Text Trascribed Later",
+        "Github URL": "https://github.com/NTRLab/MediaSpeech",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://www.openslr.org/108/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/mediaspeech",
+        "Paper URL": "https://arxiv.org/pdf/2103.16193",
+        "Semantic Scholar Corpus ID": 232417874,
+        "Creators": [
+            "Tomsk Polytechnic University",
+            "NTR Labs",
+            "AO HTSTS",
+            "National Research University Higher School of Economics",
+            "Tomsk State University"
+        ],
+        "Creator Categories": [
+            "Academia",
+            "Industry"
+        ],
+        "Year Released": 2021,
+        "Location": [
+            "Russia"
+        ],
+        "Notes": ""
+    }
+}

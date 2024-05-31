@@ -29,16 +29,16 @@ def stream_json(file_path):
         for prefix, event, value in parser:
             if event == "map_key" and prefix == "":
                 current_domain = value
-            elif event == "map_key" and current_domain and not current_link:
+            elif event == "map_key" and current_domain:
                 current_link = value
-            elif event == "map_key" and current_link and not current_date:
-                current_date = value
-            elif event == "string" and current_date:
-                current_text = value
-                yield current_domain, current_link, current_date, current_text
-                current_link = None
-                current_date = None
-                current_text = None
+            elif event == "string" and current_link:
+                if not current_date:
+                    current_date = value
+                else:
+                    current_text = value
+                    yield current_domain, current_link, current_date, current_text
+                    current_date = None
+                    current_text = None
 
 
 async def stream_and_process(

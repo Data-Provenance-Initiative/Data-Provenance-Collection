@@ -1,0 +1,73 @@
+{
+    "AISHELL-4": {
+        "Dataset Name": "aishell-4",
+        "Unique Dataset Identifier": "aishell-4",
+        "Collection": "AISHELL-4",
+        "Hours": 120.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Mandarin Chinese"
+        ],
+        "Languages (ISO)": [
+            "cmn"
+        ],
+        "Language Groups": [
+            "Chinese"
+        ],
+        "Language Families": [
+            "Sino-Tibetan"
+        ],
+        "Speakers": 61,
+        "Tasks": [
+            "Speech Recognition",
+            "Speaker Diarization"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://www.openslr.org/111/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Medical Treatment",
+            "Education",
+            "Business",
+            "Organization Management",
+            "Industrial Production",
+            "Other Meeting Scenarios"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants",
+            "Meetings"
+        ],
+        "Process Description": "Audios Recorded First, Text Transcribed Later",
+        "Github URL": "https://github.com/felixfuyihui/AISHELL-4",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://www.openslr.org/111/"
+        ],
+        "Papers with Code URL": "https://cs.paperswithcode.com/paper/aishell-4-an-open-source-dataset-for-speech",
+        "Paper URL": "https://arxiv.org/pdf/2104.03603",
+        "Semantic Scholar Corpus ID": 233181491,
+        "Creators": [
+            "Northwestern Polytechnical University",
+            "Microsoft",
+            "Beijing Shell Shell Technology Co. Ltd.",
+            "University of Science and Technology of China"
+        ],
+        "Creator Categories": [
+            "Academia",
+            "Industry"
+        ],
+        "Year Released": 2017,
+        "Location": [
+            "China",
+            "United States"
+        ],
+        "Notes": ""
+    }
+}

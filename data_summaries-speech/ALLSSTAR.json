@@ -1,0 +1,139 @@
+{
+    "ALLSSTAR": {
+        "Dataset Name": "allsstar",
+        "Unique Dataset Identifier": "allsstar",
+        "Collection": "ALLSSTAR",
+        "Hours": 86.0,
+        "Languages (Count)": 27,
+        "Languages": [
+            "English",
+            "Cantonese Chinese",
+            "Mandarin Chinese",
+            "Singaporean Chinese",
+            "Taiwanese Chinese",
+            "Farsi",
+            "French",
+            "German",
+            "Gishu",
+            "Greek",
+            "Gujarati",
+            "Hebrew",
+            "Hindi",
+            "Icelandic",
+            "Indonesian",
+            "Japanese",
+            "Korean",
+            "Malay",
+            "Portuguese (Brazil)",
+            "Runyankore",
+            "Russian",
+            "Spanish Heritage Speaker",
+            "Sicilian",
+            "Spanish",
+            "Thai",
+            "Turkish",
+            "Vietnamese"
+        ],
+        "Languages (ISO)": [
+            "en",
+            "yue",
+            "gmn",
+            "zh_SG",
+            "zh_TW",
+            "fa",
+            "fr",
+            "de",
+            "myx",
+            "el",
+            "gu",
+            "he",
+            "hi",
+            "is",
+            "id",
+            "ja",
+            "ko",
+            "ms",
+            "pt_BR",
+            "nyn",
+            "ru",
+            "es_US",
+            "scn",
+            "es",
+            "th",
+            "tr",
+            "vi"
+        ],
+        "Language Groups": [
+            "German",
+            "Other Indo-European",
+            "Austronesian",
+            "English",
+            "Turkish",
+            "Spanish",
+            "Chinese",
+            "Korean",
+            "Persian",
+            "Scandinavian",
+            "Low Resource Languages",
+            "Hindi",
+            "Japanese",
+            "Indian Peninsula",
+            "Austroasiatic",
+            "French"
+        ],
+        "Language Families": [
+            "Germanic",
+            "Sino-Tibetan",
+            "Koreanic",
+            "Turkic",
+            "Kra-Dai",
+            "Afroasiatic",
+            "Austronesian",
+            "Japonic",
+            "Indo-European",
+            "Other"
+        ],
+        "Speakers": 140,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://speechbox.linguistics.northwestern.edu/#!/home"
+            }
+        ],
+        "License Notes": "License for all recordings hosted on SpeechBox generally.",
+        "Topics": [
+            "Human Rights",
+            "Improvised Stories",
+            "Other"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Mixed",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://speechbox.linguistics.northwestern.edu/#!/home"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "Northwestern University"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2010,
+        "Location": [
+            "United States"
+        ],
+        "Notes": ""
+    }
+}
