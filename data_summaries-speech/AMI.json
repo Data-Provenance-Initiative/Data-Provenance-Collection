@@ -1,0 +1,64 @@
+{
+    "AMI": {
+        "Dataset Name": "ami",
+        "Unique Dataset Identifier": "ami",
+        "Collection": "AMI",
+        "Hours": 100.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "English"
+        ],
+        "Languages (ISO)": [
+            "en"
+        ],
+        "Language Groups": [
+            "English"
+        ],
+        "Language Families": [
+            "Germanic"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://groups.inf.ed.ac.uk/ami/corpus/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Design Team Meeting",
+            "Other Meeting Scenarios"
+        ],
+        "Source Category": [
+            "Human Participants",
+            "Meetings"
+        ],
+        "Source": [
+            "Human Participants",
+            "Meetings"
+        ],
+        "Process Description": "Audios Recorded First, Text Manually Transcribed Later",
+        "Github URL": "https://github.com/gcunhase/AMICorpusXML",
+        "Hugging Face URL": "https://huggingface.co/datasets/ami",
+        "Website URL": [
+            "https://groups.inf.ed.ac.uk/ami/corpus/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/ami-meeting-corpus",
+        "Paper URL": "https://infoscience.epfl.ch/record/83179/files/guillemo-idiap-rr-05-82.pdf",
+        "Semantic Scholar Corpus ID": 6118869,
+        "Creators": [
+            "University of Edinburgh"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2005,
+        "Location": [
+            "United Kingdom"
+        ],
+        "Notes": ""
+    }
+}

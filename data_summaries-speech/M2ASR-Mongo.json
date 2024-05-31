@@ -1,0 +1,58 @@
+{
+    "M2ASR-Mongo": {
+        "Dataset Name": "m2asr-mongo",
+        "Unique Dataset Identifier": "m2asr-mongo",
+        "Collection": "M2ASR-Mongo",
+        "Hours": 170.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Mongolian"
+        ],
+        "Languages (ISO)": [
+            "mn"
+        ],
+        "Language Groups": [
+            "Low Resource Languages"
+        ],
+        "Language Families": [
+            "Other"
+        ],
+        "Speakers": 259,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Articles"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Scripts Generated First By Scraping Web Articles, Then Audio Was Recorded",
+        "Github URL": "https://github.com/M2ASR/ASR_mongo",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "Paper URL": "https://ieeexplore.ieee.org/document/9660401",
+        "Semantic Scholar Corpus ID": 245692298,
+        "Creators": [
+            "Northwest Minzu University",
+            "Tsinghua University"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2021,
+        "Location": [
+            "China"
+        ],
+        "Notes": "Unclear"
+    }
+}

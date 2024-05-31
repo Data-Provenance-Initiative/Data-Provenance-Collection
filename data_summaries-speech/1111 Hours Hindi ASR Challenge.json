@@ -1,0 +1,65 @@
+{
+    "1111 Hours Hindi ASR Challenge": {
+        "Dataset Name": "1111-hours-hindi-asr-challenge",
+        "Unique Dataset Identifier": "1111-hours-hindi-asr-challenge",
+        "Collection": "1111 Hours Hindi ASR Challenge",
+        "Hours": 108.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Hindi"
+        ],
+        "Languages (ISO)": [
+            "hi"
+        ],
+        "Language Groups": [
+            "Hindi"
+        ],
+        "Language Families": [
+            "Indo-European"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://www.openslr.org/118/"
+            }
+        ],
+        "License Notes": "Data can be used freely for academic purposes. Permission required for any commercial use.",
+        "Topics": [
+            "Spontaneous Recordings",
+            "Local News",
+            "Agriculture",
+            "Welfare Schemes",
+            "Cultural Expressions"
+        ],
+        "Source Category": [
+            "Calling Platform"
+        ],
+        "Source": [
+            "Calling Platform"
+        ],
+        "Process Description": "Audios Recorded First, Text Transcribed Later",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://www.openslr.org/118/"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "https://www.cse.iitd.ac.in/~aseth/Gram_Vaani_ASR_Challenge_Interspeech.pdf",
+        "Semantic Scholar Corpus ID": 252344549,
+        "Creators": [
+            "Gram Vaani"
+        ],
+        "Creator Categories": [
+            "Industry"
+        ],
+        "Year Released": 2022,
+        "Location": [
+            "India"
+        ],
+        "Notes": ""
+    }
+}

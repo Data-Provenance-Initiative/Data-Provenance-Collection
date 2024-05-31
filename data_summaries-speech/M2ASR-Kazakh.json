@@ -1,0 +1,61 @@
+{
+    "M2ASR-Kazakh": {
+        "Dataset Name": "m2asr-kazakh",
+        "Unique Dataset Identifier": "m2asr-kazakh",
+        "Collection": "M2ASR-Kazakh",
+        "Hours": 78.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Kazakh"
+        ],
+        "Languages (ISO)": [
+            "kk"
+        ],
+        "Language Groups": [
+            "Low Resource Languages"
+        ],
+        "Language Families": [
+            "Turkic"
+        ],
+        "Speakers": 86,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "News",
+            "Novels",
+            "Web Pages",
+            "Government"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Scripts Generated First By Scraping Web Articles, Then Audio Was Recorded",
+        "Github URL": "https://github.com/M2ASR/m2lp",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "Paper URL": "https://ieeexplore.ieee.org/document/8282133",
+        "Semantic Scholar Corpus ID": 3266025,
+        "Creators": [
+            "Tsinghua University",
+            "Xinjiang University"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2017,
+        "Location": [
+            "China"
+        ],
+        "Notes": "Unclear"
+    }
+}

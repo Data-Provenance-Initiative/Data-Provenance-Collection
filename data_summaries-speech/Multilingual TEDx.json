@@ -1,0 +1,87 @@
+{
+    "Multilingual TEDx": {
+        "Dataset Name": "multilingual-tedx",
+        "Unique Dataset Identifier": "multilingual-tedx",
+        "Collection": "Multilingual TEDx",
+        "Hours": 765.0,
+        "Languages (Count)": 9,
+        "Languages": [
+            "Spanish",
+            "French",
+            "Portuguese",
+            "Italian",
+            "Russian",
+            "Greek",
+            "Arabic",
+            "German",
+            "English"
+        ],
+        "Languages (ISO)": [
+            "es",
+            "fr",
+            "pt",
+            "it",
+            "ru",
+            "el",
+            "ar",
+            "de",
+            "en"
+        ],
+        "Language Groups": [
+            "Spanish",
+            "French",
+            "Other Indo-European",
+            "Italian",
+            "Arabic",
+            "German",
+            "English"
+        ],
+        "Language Families": [
+            "Indo-European",
+            "English",
+            "Afroasiatic"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition",
+            "Speech Translation"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-ND 4.0",
+                "License URL": "https://arxiv.org/pdf/2102.01757"
+            }
+        ],
+        "License Notes": "",
+        "Topics": "Unclear",
+        "Source Category": [
+            "TED Talks"
+        ],
+        "Source": [
+            "TED Talks"
+        ],
+        "Process Description": "Audios With Transcripts Attached",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://www.openslr.org/100/"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "https://arxiv.org/pdf/2102.01757",
+        "Semantic Scholar Corpus ID": 231786401,
+        "Creators": [
+            "Johns Hopkins University",
+            "University of Maryland",
+            "Fondazione Bruno Kessler"
+        ],
+        "Creator Categories": [
+            "Academia",
+            "Nonprofit"
+        ],
+        "Year Released": 2021,
+        "Location": [
+            "United States"
+        ],
+        "Notes": ""
+    }
+}

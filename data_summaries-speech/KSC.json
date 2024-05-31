@@ -1,0 +1,65 @@
+{
+    "KSC": {
+        "Dataset Name": "ksc",
+        "Unique Dataset Identifier": "ksc",
+        "Collection": "KSC",
+        "Hours": 332.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Kazakh"
+        ],
+        "Languages (ISO)": [
+            "kk"
+        ],
+        "Language Groups": [
+            "Low Resource Languages"
+        ],
+        "Language Families": [
+            "Turkic"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://www.openslr.org/102/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Wikipedia Articles",
+            "Electronic Books",
+            "Laws",
+            "News",
+            "Blogs"
+        ],
+        "Source Category": [
+            "Crowd-Sourcing"
+        ],
+        "Source": [
+            "Crowd-Sourcing"
+        ],
+        "Process Description": "Texts Initially Collected And Sentences Prepared, Audio Then Recorded With Participants Reading Off Sentences",
+        "Github URL": "https://github.com/IS2AI/ISSAI_SAIDA_Kazakh_ASR",
+        "Hugging Face URL": "https://huggingface.co/datasets/Shirali/ISSAI_KSC_335RS_v_1_1",
+        "Website URL": [
+            "https://www.openslr.org/102/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/paper/a-crowdsourced-open-source-kazakh-speech",
+        "Paper URL": "https://arxiv.org/pdf/2009.10334",
+        "Semantic Scholar Corpus ID": 221836228,
+        "Creators": [
+            "Nazarbayev University"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2020,
+        "Location": [
+            "Kazakhstan"
+        ],
+        "Notes": ""
+    }
+}

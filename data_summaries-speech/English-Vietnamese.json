@@ -1,0 +1,64 @@
+{
+    "English-Vietnamese": {
+        "Dataset Name": "english-vietnamese",
+        "Unique Dataset Identifier": "english-vietnamese",
+        "Collection": "English-Vietnamese",
+        "Hours": 508.0,
+        "Languages (Count)": 2,
+        "Languages": [
+            "Vietnamese",
+            "English"
+        ],
+        "Languages (ISO)": [
+            "vi",
+            "en"
+        ],
+        "Language Groups": [
+            "Austroasiatic",
+            "English"
+        ],
+        "Language Families": [
+            "Kra-Dai",
+            "English"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition",
+            "Speech Translation"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-ND 4.0",
+                "License URL": "https://arxiv.org/pdf/2208.04243"
+            }
+        ],
+        "License Notes": "",
+        "Topics": "Unclear",
+        "Source Category": [
+            "TED Talks"
+        ],
+        "Source": [
+            "TED Talks"
+        ],
+        "Process Description": "Audios Recorded First, Text Transcribed Later",
+        "Github URL": "https://github.com/VinAIResearch/PhoST",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://research.vinai.io/phost-a-high-quality-and-large-scale-dataset-for-english-vietnamese-speech-translation/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/paper/a-high-quality-and-large-scale-dataset-for",
+        "Paper URL": "https://arxiv.org/pdf/2208.04243",
+        "Semantic Scholar Corpus ID": 251403026,
+        "Creators": [
+            "VinAI Research"
+        ],
+        "Creator Categories": [
+            "Industry"
+        ],
+        "Year Released": 2022,
+        "Location": [
+            "Vietnam"
+        ],
+        "Notes": ""
+    }
+}
