@@ -6,8 +6,249 @@ import seaborn as sns
 import pandas as pd
 import numpy as np
 from collections import defaultdict, Counter
+from scipy.stats import chi2_contingency
+
+from helpers import io
+from . import analysis_constants
 
 
+############################################################
+###### Text Pretraining Analysis Functions
+############################################################
+
+
+
+def extract_url_annotations(dirpaths):
+    """Convert raw annotations into url --> info dictionaries."""
+    def extract_row_info(row):
+        """
+        Extract available information from a row of the DataFrame.
+        Returns a dictionary with the available information.
+        """
+        row_info = {}
+    
+        # Extract information from columns if present
+        for col in ["Website Issue", "User Content", "Terms of Use Link 1", "Terms of Use Link 2", "Terms of Use Link 3", 
+            "Terms of Use Link 4", "Terms of Use Link 5", "Paywall", "Content Modalities: Text", "Content Modalities: Images", 
+            "Content Modalities: Video", "Content Modalities: Audio", "Advertisements", "Website Issue User Content", "Website Description", 
+            "Content Domain I", "Content Domain II", "Content Domain III", "Content Domain (other)", "Type of service", "Type of service (Other)",
+            "Sensitive content: Nudity", "Sensitive content: Pornography", "Sensitive content: Drugs", "Sensitive content: Violence",
+            "Sensitive content: Illegal Activities", "Sensitive content: Hate Speech"]:
+            if col in row:
+                row_info[col] = row[col]
+    
+        return row_info
+    
+    url_to_info = defaultdict(dict)
+    url_to_issue = set()
+    all_fpaths = [fp for dirpath in dirpaths for fp in io.listdir_nohidden(dirpath)]
+    for fpath in all_fpaths:
+        df = pd.read_csv(fpath)
+        if 'User Content' in df:
+            df['User Content'] = df['User Content'].fillna('None')
+        df = df.fillna("")
+        overwrite_attempts = 0
+        for _, row in df.iterrows():
+            domain = row["Domain"]
+            row_info = extract_row_info(row)
+            if domain in url_to_issue or row_info["Website Issue"]:
+                url_to_issue.add(domain)
+            if domain in url_to_info:
+                overwrite_attempts += 1
+                url_to_info[domain].update(row_info)
+            else:
+                url_to_info[domain] = row_info
+        # print(f"{fpath}: + {len(df)} = {len(url_to_info)} | overwritten: {overwrite_attempts}")
+                
+    print(f"{len(url_to_info)} rows before filtering.")
+    # filter out incomplete rows:
+    url_to_rows = {}
+    issue_counter, unannotated_counter = 0, 0
+    for url, infos in url_to_info.items():
+        if url in url_to_issue:
+            issue_counter += 1
+            continue
+        elif not infos.get('Website Description', "") or not infos.get("Paywall", ""):
+            unannotated_counter += 1
+            continue
+        url_to_rows[url] = infos
+    print(f"{len(url_to_rows)} rows after filtering. {issue_counter} issues, {unannotated_counter} unannotated.")
+    return url_to_rows
+
+
+def categorize_domain_annotations(url_to_info, cols, mapper):
+    """Categorize domains or services annotations into their categories."""
+    url_to_categories = defaultdict(list)
+    other_vals, only_other = [], []
+    for url, infos in url_to_info.items():
+        if infos["Website Issue"] or not infos.get('User Content', ""):
+            continue
+        categories = set()
+        for col in cols:
+            if col in infos:
+                val = infos[col].lower().strip()
+                if val != "":
+                    category = mapper.get(val, "Other")
+                    if category == "Other":
+                        other_vals.append(val)
+                    categories.add(category)
+
+        if len(categories) == 1 and "Other" in categories:
+            only_other.append(val)
+        url_to_categories[url] = sorted(list(categories))
+    return url_to_categories, Counter(other_vals), Counter(only_other)
+
+
+def process_url_annotations(url_to_info):
+    """
+    domains, services, paywall, advertisements, user_content, modalities, sensitive_content
+    """
+
+    all_domain_cols = ["Content Domain I", "Content Domain II","Content Domain III", "Content Domain (other)"]
+    url_to_domains, other_domains, od2 = categorize_domain_annotations(url_to_info, all_domain_cols, analysis_constants.CONTENT_DOMAIN_INVERSE_MAPPING)
+    # domain_counter = Counter(["-".join(vals) for vals in url_to_domains.values()])
+
+    all_typ_cols = ["Type of service", "Type of service (Other)"]
+    url_to_services, other_services, os2 = categorize_domain_annotations(url_to_info, all_typ_cols, analysis_constants.WEBSITE_SERVICE_INVERSE_MAPPING)
+    # service_counter = Counter(["-".join(vals) for vals in url_to_services.values()])
+    # return od2
+
+    def make_domains_services_compatible(domains, services):
+        merge_fields = [
+            ["News/Periodicals"],
+            ["E-Commerce"],
+            ["Blogs"],
+            ["Academic"],
+            ["Social Media/Forums"]
+        ]
+        for merge_list in merge_fields:
+            for d in domains:
+                if d in merge_list:
+                    services.append(d)
+
+            for s in services:
+                if s in merge_list:
+                    domains.append(s)
+
+        return list(set(domains)), list(set(services))
+
+    # Logic to propgate domains and services judgements to one another
+    for url in url_to_domains:
+        # If [ecommerce, blog, news, academic, social media/forums] for domains or services, then same for the other.
+        url_to_domains[url], url_to_services[url] = make_domains_services_compatible(url_to_domains[url], url_to_services[url])
+
+    # Compress domain categories to even fewer, high-level categories
+    for url, ds in url_to_domains.items():
+        url_to_domains[url] = list(set([analysis_constants.INVERSE_CONTENT_DOMAIN_CATEGORY_COMPRESSION[dd] for dd in ds]))
+
+    sensitive_content_cols = [
+        "Sensitive content: Nudity", "Sensitive content: Pornography", "Sensitive content: Drugs", "Sensitive content: Violence",
+        "Sensitive content: Illegal Activities", "Sensitive content: Hate Speech"
+    ]
+    url_results = []
+    for url, infos in url_to_info.items():
+        url_results.append({
+            "URL": url,
+            "User Content": infos["User Content"] == "Weak Moderation",
+            "Domains": url_to_domains[url],
+            "Services": url_to_services[url],
+            "Paywall": infos["Paywall"] != "No",
+            "Ads": infos["Advertisements"],
+            "Modality: Image": infos["Content Modalities: Images"] not in ["None", "", False],
+            "Modality: Video": infos["Content Modalities: Video"] not in ["None", "", False], 
+            "Modality: Audio": infos["Content Modalities: Audio"] not in ["None", "", False], 
+            "Sensitive Content": any([infos[col] for col in sensitive_content_cols]),
+        })
+    return url_results
+    # return url_results, Counter(other_domains), Counter(other_services)
+
+def encode_size_columns(df, url_token_lookup):
+    c4_url_to_counts = url_token_lookup.get_url_to_token_map("c4")
+    rf_url_to_counts = url_token_lookup.get_url_to_token_map("rf")
+    dolma_url_to_counts = url_token_lookup.get_url_to_token_map("dolma")
+    random_10k_urls = url_token_lookup.get_10k_random_sample()
+    
+    count_df = pd.DataFrame(list(c4_url_to_counts.items()), columns=['URL', 'c4 tokens'])
+    count_df = count_df.sort_values('c4 tokens', ascending=False)
+    count_df['c4 rank'] = range(1, len(count_df) + 1)
+    df = df.merge(count_df, on='URL', how='left')
+
+    count_df = pd.DataFrame(list(rf_url_to_counts.items()), columns=['URL', 'rf tokens'])
+    count_df = count_df.sort_values('rf tokens', ascending=False)
+    count_df['rf rank'] = range(1, len(count_df) + 1)
+    df = df.merge(count_df, on='URL', how='left')
+
+    count_df = pd.DataFrame(list(dolma_url_to_counts.items()), columns=['URL', 'dolma tokens'])
+    count_df = count_df.sort_values('dolma tokens', ascending=False)
+    count_df['dolma rank'] = range(1, len(count_df) + 1)
+    df = df.merge(count_df, on='URL', how='left')
+
+    df['sample'] = df['URL'].apply(lambda x: 'random' if x in random_10k_urls else 'top')
+    return df
+
+def analyze_url_variable_correlations(df, top_n_list, corpus_key="c4"):
+    """
+    corpus_key: 'c4', 'rf' or 'dolma'
+    """
+    binary_vars = ['User Content', 'Paywall', 'Ads', 'Modality: Image', 'Modality: Video', 'Modality: Audio', 'Sensitive Content']
+    domain_vars = df['Domains'].apply(pd.Series).columns
+    service_vars = df['Services'].apply(pd.Series).columns
+
+    # Expand the 'tags' lists into a DataFrame of True/False values
+    domains_expanded = pd.get_dummies(df['Domains'].explode()).groupby(level=0).max()
+    domains_expanded.columns = ['domain_' + col for col in domains_expanded.columns]
+    services_expanded = pd.get_dummies(df['Services'].explode()).groupby(level=0).max()
+    services_expanded.columns = ['services_' + col for col in services_expanded.columns]
+
+    # Combine with the original DataFrame
+    df = df.join(domains_expanded).join(services_expanded)
+    # return df
+
+    all_vars = binary_vars + list(domains_expanded.columns) + list(services_expanded.columns)
+
+    # Sort the dataframe by 'c4 tokens' in descending order
+    df = df.sort_values(by=f"{corpus_key} tokens", ascending=False)
+
+    # Create an empty dataframe to store the results
+    results_df = pd.DataFrame(index=all_vars, columns=[f"Top {n}" for n in top_n_list] + ['Random', 'Chi-Squared Stat', 'P-value'])
+
+    def compute_percentages(df, cols):
+        result = {}
+        for col in cols:
+            count = df[col].sum()
+            total = len(df)
+            result[col] = round(100 * count / total, 2)
+        return result
+    
+    for top_n in top_n_list:
+        top_n_df = df[df[f"{corpus_key} rank"] <= top_n]
+        print(f"Num URLs in Top-{top_n}: {len(top_n_df)}")
+        results_df[f'Top {top_n}'] = compute_percentages(top_n_df, all_vars)
+    random_df = df[df["sample"] == "random"]
+    print(f"Num URLs in random sample: {len(random_df)}")
+    results_df['Random'] = compute_percentages(random_df, all_vars)
+
+    # Perform Chi-Squared test and populate the results
+    for var in all_vars:
+        observed = pd.crosstab(random_df[var], pd.qcut(df[f"{corpus_key} tokens"], 4))
+        chi2, p, dof, expected = chi2_contingency(observed)
+        results_df.loc[var, 'Chi-Squared Stat'] = f"{chi2:.2f}"
+        results_df.loc[var, 'P-value'] = f"{p:.2f}"
+
+    return results_df
+
+
+def tos_get_most_recent_verdict(tos_policies):
+    url_to_recent_policy = {}
+    for url, time_to_subpage_to_verdicts in tos_policies.items():
+        recent_key = max(time_to_subpage_to_verdicts.keys())
+        verdict_codes = [vinfo["verdict"] for vinfo in time_to_subpage_to_verdicts[recent_key].values()]
+        url_to_recent_policy[url] = analysis_constants.TOS_AI_SCRAPING_VERDICT_MAPPER[max(verdict_codes)]
+    return url_to_recent_policy
+
+############################################################
+###### Text Finetuning Analysis Functions
+############################################################
 
 def check_datasummary_in_constants(rows, all_constants):
     """Tests your data summary rows to see if all the values are in the constants.
@@ -369,7 +610,7 @@ def plot_stackedbars(
 
     # Text annotations inside bars
     text = bars.mark_text(dx=0, dy=-7, align='center', baseline='middle', color='white', fontSize=14).encode(
-        text=alt.condition(alt.datum.percentage > 8, alt.Text('percentage:Q', format='.1f'), alt.value(''))
+        text=alt.condition(alt.datum.percentage > 0.05, alt.Text('percentage:Q', format='.1f'), alt.value(''))
     )
     
     # Calculate the totals for each bar
@@ -482,3 +723,115 @@ def plot_seaborn_barchart(
         plt.savefig(savepath, format='pdf', bbox_inches='tight')
     else:
         plt.show()
+
+
+def plot_confusion_matrix(
+    url_to_status, 
+    url_to_policy, 
+    url_token_counts,
+    status_order=None, 
+    policy_order=None,
+    use_token_counts=True,
+    font_size=20, 
+    font_style='sans-serif',
+    width=400,
+    height=400,
+):
+    ROBOTS_LABELS = {
+        "none": "None",
+        "some": "Partial",
+        "all": "Restricted",
+    }
+    
+    # Create a defaultdict to store counts
+    counts = defaultdict(lambda: defaultdict(int))
+    token_counts = defaultdict(lambda: defaultdict(int))
+    
+    # Count the occurrences of each (status, policy) pair
+    total_instances, total_tokens = 0, 0
+    for url in set(url_to_status.keys()).intersection(set(url_to_policy.keys())):
+    # for url in url_to_status.keys():
+        status = ROBOTS_LABELS[url_to_status.get(url, "none")]
+        policy = url_to_policy.get(url, "No Restrictions")
+        counts[status][policy] += 1
+        total_instances += 1
+        token_counts[status][policy] += url_token_counts[url]
+        total_tokens += url_token_counts[url]
+    
+    # Create a list of tuples (status, policy, count)
+    data = [{"status": status, "policy": policy, "Count": count, "Token Counts": token_counts[status][policy],
+             "Percent": round(100 * count / total_instances, 2), 
+             "Percent Tokens": round(100 * token_counts[status][policy] / total_tokens, 2),}
+            for status in status_order
+            for policy in policy_order
+            if (count := counts[status][policy]) > 0]
+    
+    # Create a DataFrame from the list of tuples
+    df = pd.DataFrame(data)
+    df['Formatted Percent'] = df['Percent'].apply(lambda x: f"{x:.1f} %")
+    df['Formatted Percent Tokens'] = df['Percent Tokens'].apply(lambda x: f"{x:.1f} %")
+    
+    if use_token_counts:
+        color_axis, text_axis = "Percent Tokens", "Formatted Percent Tokens"
+    else:
+        color_axis, text_axis = "Percent", "Formatted Percent"
+    
+    # Create the heatmap
+    heatmap = alt.Chart(df).mark_rect().encode(
+        x=alt.X('policy:N', title='Terms of Service Policies', sort=policy_order),
+        y=alt.Y('status:N', title='Robots.txt Restrictions', sort=status_order),
+        color=alt.Color(f'{color_axis}:Q', scale=alt.Scale(scheme='blues')),
+        order="order:Q"
+    )
+
+    # circ = heatmap.mark_point().encode(
+    #     alt.ColorValue('grey'),
+    #     alt.Size('count()').title('Total Tokens')
+    # )
+    # .transform_filter(
+    #     pts
+    # )
+
+    text = heatmap.mark_text(
+        align='center',
+        baseline='middle',
+        fontSize=font_size,
+        font=font_style,
+    ).encode(
+        # text=alt.Text('Formatted Percent:Q'),
+        text=alt.Text(f'{text_axis}:N'),  # Format the text as "XX.Y"
+        # color=alt.value('black'),
+        color=alt.condition(
+            alt.datum.Percent > 30,
+            alt.value('white'),
+            alt.value('black')
+        )
+    )
+    
+    # Combine heatmap and text annotations, and set font properties
+    final_plot = (heatmap + text).properties(
+        width=width,
+        height=height,
+        # title=alt.Title(
+        #     text='Example Chart',
+        #     fontSize=24,
+        #     # fontStyle='italic',
+        #     font=font_style
+        # ),
+    ).configure_axis(
+        labelFontSize=font_size,
+        labelFont=font_style,
+        titleFontSize=font_size,
+        titleFont=font_style,
+        domain=True
+        # labelAngle=30,
+    ).configure_axisX(
+        labelAngle=20,
+        domain=True
+    ).configure_axisY(
+        domain=True  # Ensure the Y-axis domain line is shown
+    ).configure_view(
+        stroke='black'  # Add borders around the entire plot
+    )
+    
+    return final_plot
