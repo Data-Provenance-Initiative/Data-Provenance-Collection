@@ -143,4 +143,5 @@ if __name__ == "__main__":
             ),  # MB
             output_file=args.output_json_path,
         )
+        # TODO: fix chunking file names
         print_colored(f"Parsed data saved to {args.output_json_path}", Fore.GREEN)
