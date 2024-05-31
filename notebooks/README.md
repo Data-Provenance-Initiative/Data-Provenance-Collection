@@ -21,17 +21,6 @@ Add this to the preamble to get symbols used in the tables:
 \newcommand\orangecircle{\textcolor{orange}{\ding{108}}}
 ```
 
-## TODO
-
-* use the current data
-
-* Mock up audio table
-* could we add Year to the Text table as well, like you've done with the video table.
-* remove the Dataset Types columns I think as they are least interesting
-* Should we sort by year in all tables rather than alphabetically -- wdyt?
-
-* rerun all the tables
-
 ## After paste into doc
 Formatting tweaks still needed after pasting these tables into the LaTeX doc:
 * Edit the subsequent-pages captions. Pandas defaults to the full caption, which is too long, and doesn't let you change it.
