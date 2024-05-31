@@ -385,11 +385,6 @@ def count_and_delete_zero_count_jsons(directory: str, delete=False) -> int:
 def consolidate_tos_links(
     directory: str, output_file: str = "consolidated_terms_of_use.csv"
 ) -> None:
-    def strip_http(url):
-        if pd.notnull(url):
-            return url.replace("http://", "").replace("https://", "")
-        return url
-
     consolidated_data = defaultdict(set)
 
     for filename in os.listdir(directory):
@@ -399,7 +394,7 @@ def consolidate_tos_links(
             for _, row in df.iterrows():
                 domain = row["Domain"]
                 tos_links = [
-                    strip_http(row[f"Terms of Use Link {i}"])
+                    row[f"Terms of Use Link {i}"]
                     for i in range(1, 6)
                     if pd.notnull(row[f"Terms of Use Link {i}"])
                 ]
