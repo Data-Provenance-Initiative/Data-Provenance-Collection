@@ -1,0 +1,114 @@
+{
+    "MuST-C": {
+        "Dataset Name": "must-c",
+        "Unique Dataset Identifier": "must-c",
+        "Collection": "MuST-C",
+        "Hours": 3617.0,
+        "Languages (Count)": 16,
+        "Languages": [
+            "English",
+            "German",
+            "Chinese (China)",
+            "Japanese",
+            "Arabic",
+            "Czech",
+            "Dutch",
+            "French",
+            "Italian",
+            "Persian",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Spanish",
+            "Turkish",
+            "Vietnamese"
+        ],
+        "Languages (ISO)": [
+            "en",
+            "de",
+            "zh_CN",
+            "ja",
+            "ar",
+            "cs",
+            "nl",
+            "fr",
+            "it",
+            "fa",
+            "pt",
+            "ro",
+            "ru",
+            "es",
+            "tr",
+            "vi"
+        ],
+        "Language Groups": [
+            "Turkish",
+            "Austronesian",
+            "English",
+            "Spanish",
+            "German",
+            "Italian",
+            "Arabic",
+            "Japanese",
+            "Austroasiatic",
+            "Other Indo-European",
+            "French",
+            "Persian"
+        ],
+        "Language Families": [
+            "Germanic",
+            "Japonic",
+            "Austronesian",
+            "Afroasiatic",
+            "Indo-European",
+            "Kra-Dai",
+            "Turkic",
+            "Sino-Tibetan"
+        ],
+        "Speakers": 1561,
+        "Tasks": [
+            "Speech Recognition/Translation"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-ND 4.0",
+                "License URL": "https://mt.fbk.eu/must-c/#:~:text=MuST%2DC%20is%20released%20under,%2DNonCommercial%2DNoDerivs%204.0%20License."
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Business",
+            "Science",
+            "Entertainment",
+            "Other"
+        ],
+        "Source Category": [
+            "TED Talks"
+        ],
+        "Source": [
+            "TED Talks"
+        ],
+        "Process Description": "Audios With Transcripts Attached",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://mt.fbk.eu/must-c/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/must-c",
+        "Paper URL": "https://aclanthology.org/N19-1202.pdf",
+        "Semantic Scholar Corpus ID": 174800963,
+        "Creators": [
+            "Fondazione Bruno Kessler",
+            "University of Trento"
+        ],
+        "Creator Categories": [
+            "Nonprofit",
+            "Academia"
+        ],
+        "Year Released": 2019,
+        "Location": [
+            "Italy"
+        ],
+        "Notes": ""
+    }
+}

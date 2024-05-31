@@ -1,47 +1,4 @@
 {
-    "Afro-Asiatic": [
-        "Shilha",
-        "Somali",
-        "Tigrinya"
-    ],
-    "Arabic": [
-        "Arabic",
-        "Egyptian Arabic",
-        "Hassaniya Arabic",
-        "Mesopotamian Arabic",
-        "Modern Standard Arabic",
-        "Modern Standard Arabic (Romanized)",
-        "Moroccan Arabic",
-        "North Levantine Arabic",
-        "South Levantine Arabic",
-        "Ta’izzi-Adeni Arabic"
-    ],
-    "Austroasiatic": [
-        "Burmese",
-        "Khmer",
-        "Standard Malay",
-        "Thai",
-        "Vietnamese"
-    ],
-    "Austronesian": [
-        "Ambonese Malay",
-        "Banjar (Latin script)",
-        "Buginese",
-        "Cebuano",
-        "Dayak",
-        "Indonesian",
-        "Javanese",
-        "Kunduvadi",
-        "Malagasy",
-        "Makasar",
-        "Maori",
-        "Samoan",
-        "Tagalog",
-        "Tahitian",
-        "Tonga",
-        "Uab Meto",
-        "Waray"
-    ],
     "Chinese": [
         "Cantonese",
         "Chinese",
@@ -50,6 +7,12 @@
         "Chinese (Traditional)",
         "Mandarin Chinese",
         "Yue Chinese"
+    ],
+    "Korean": [
+        "Korean"
+    ],
+    "German": [
+        "German"
     ],
     "Code": [
         "ABAP",
@@ -331,14 +294,18 @@
         "wisp",
         "xBase"
     ],
-    "English": [
-        "English"
+    "Turkish": [
+        "Turkish"
     ],
-    "French": [
-        "French"
+    "Spanish": [
+        "Spanish"
     ],
-    "German": [
-        "German"
+    "Austroasiatic": [
+        "Burmese",
+        "Khmer",
+        "Standard Malay",
+        "Thai",
+        "Vietnamese"
     ],
     "Hindi": [
         "Hindi"
@@ -363,15 +330,6 @@
         "Punjabi",
         "Tamil",
         "Telugu"
-    ],
-    "Italian": [
-        "Italian"
-    ],
-    "Japanese": [
-        "Japanese"
-    ],
-    "Korean": [
-        "Korean"
     ],
     "Low Resource Languages": [
         "Acehnese (Arabic script)",
@@ -437,7 +395,7 @@
         "Interlingue",
         "Irish",
         "Jingpho",
-        "Kabiyè",
+        "Kabiy\u00e8",
         "Kabuverdianu",
         "Kabyle",
         "Kamba",
@@ -463,7 +421,6 @@
         "Magahi",
         "Malay",
         "Malayalam",
-        "Maltese",
         "Maltese",
         "Marwari",
         "Minangkabau (Arabic script)",
@@ -536,7 +493,7 @@
         "Uzbek",
         "Venda",
         "Venetian",
-        "Volapük",
+        "Volap\u00fck",
         "Welsh",
         "West Central Oromo",
         "Western Armenian",
@@ -548,8 +505,37 @@
         "Zhuang",
         "Zulu"
     ],
-    "Maltese": [
-        "Maltese"
+    "Arabic": [
+        "Arabic",
+        "Egyptian Arabic",
+        "Hassaniya Arabic",
+        "Mesopotamian Arabic",
+        "Modern Standard Arabic",
+        "Modern Standard Arabic (Romanized)",
+        "Moroccan Arabic",
+        "North Levantine Arabic",
+        "South Levantine Arabic",
+        "Ta\u2019izzi-Adeni Arabic"
+    ],
+    "Japanese": [
+        "Japanese"
+    ],
+    "Scandinavian": [
+        "Danish",
+        "Finnish",
+        "Icelandic",
+        "Norwegian",
+        "Norwegian Bokm\u00e5l",
+        "Norwegian Nynorsk",
+        "Swedish"
+    ],
+    "Afro-Asiatic": [
+        "Shilha",
+        "Somali",
+        "Tigrinya"
+    ],
+    "English": [
+        "English"
     ],
     "Other Indo-European": [
         "Belarusian",
@@ -583,25 +569,38 @@
         "Tosk Albanian",
         "Ukrainian"
     ],
+    "French": [
+        "French"
+    ],
     "Persian": [
         "Farsi",
         "Iranian Persian",
         "Persian",
         "Western Persian"
     ],
-    "Scandinavian": [
-        "Danish",
-        "Finnish",
-        "Icelandic",
-        "Norwegian",
-        "Norwegian Bokmål",
-        "Norwegian Nynorsk",
-        "Swedish"
+    "Italian": [
+        "Italian"
     ],
-    "Spanish": [
-        "Spanish"
+    "Austronesian": [
+        "Ambonese Malay",
+        "Banjar (Latin script)",
+        "Buginese",
+        "Cebuano",
+        "Dayak",
+        "Indonesian",
+        "Javanese",
+        "Kunduvadi",
+        "Makasar",
+        "Malagasy",
+        "Maori",
+        "Samoan",
+        "Tagalog",
+        "Tahitian",
+        "Tonga",
+        "Uab Meto",
+        "Waray"
     ],
-    "Turkish": [
-        "Turkish"
+    "Maltese": [
+        "Maltese"
     ]
 }

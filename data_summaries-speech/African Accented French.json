@@ -1,0 +1,59 @@
+{
+    "African Accented French": {
+        "Dataset Name": "african-accented-french",
+        "Unique Dataset Identifier": "african-accented-french",
+        "Collection": "African Accented French",
+        "Hours": 22.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "French"
+        ],
+        "Languages (ISO)": [
+            "fr"
+        ],
+        "Language Groups": [
+            "French"
+        ],
+        "Language Families": [
+            "Indo-European"
+        ],
+        "Speakers": 232,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache 2.0",
+                "License URL": "https://www.openslr.org/57/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": "Unclear",
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "",
+        "Github URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/gigant/african_accented_french",
+        "Website URL": [
+            "https://www.openslr.org/57/"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "United States Army"
+        ],
+        "Creator Categories": [
+            "Government"
+        ],
+        "Year Released": 2003,
+        "Location": [
+            "United States"
+        ],
+        "Notes": ""
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "NPSC": {
+        "Dataset Name": "npsc",
+        "Unique Dataset Identifier": "npsc",
+        "Collection": "NPSC",
+        "Hours": 140.3,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Norwegian"
+        ],
+        "Languages (ISO)": [
+            "no"
+        ],
+        "Language Groups": [
+            "Scandinavian"
+        ],
+        "Language Families": [
+            "Indo-European"
+        ],
+        "Speakers": 309,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": "https://www.nb.no/sbfil/talegjenkjenning/npsc/v1_1/NPSC_doc_1_1.pdf"
+            }
+        ],
+        "License Notes": "",
+        "Topics": "Unclear",
+        "Source Category": [
+            "Parliament"
+        ],
+        "Source": [
+            "Norwegian Parliament Meetings"
+        ],
+        "Process Description": "Audios Gotten First, Text Trascribed Later",
+        "Github URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/NbAiLab/NPSC",
+        "Website URL": [
+            "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-58/"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "https://www.nb.no/sbfil/talegjenkjenning/npsc/v1_1/NPSC_doc_1_1.pdf",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "National Library of Norway"
+        ],
+        "Creator Categories": [
+            "Government"
+        ],
+        "Year Released": 2019,
+        "Location": [
+            "Norway"
+        ],
+        "Notes": ""
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "AISHELL-1": {
+        "Dataset Name": "aishell-1",
+        "Unique Dataset Identifier": "aishell-1",
+        "Collection": "AISHELL-1",
+        "Hours": 520.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Mandarin Chinese"
+        ],
+        "Languages (ISO)": [
+            "cmn"
+        ],
+        "Language Groups": [
+            "Chinese"
+        ],
+        "Language Families": [
+            "Sino-Tibetan"
+        ],
+        "Speakers": 400,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache 2.0",
+                "License URL": "https://arxiv.org/abs/1709.05522"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Smart Home Voice Control",
+            "POI (Geographic Information)",
+            "Music (Voice Control)",
+            "Digital Sequence (Voice Control)",
+            "TV Play and Film Names",
+            "Finance",
+            "Science and Technology",
+            "Sports",
+            "Entertainment",
+            "News",
+            "English Spelling"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "AISHELL-ASR0009",
+            "Derived Dataset"
+        ],
+        "Process Description": "Audios Recorded First, Data Annotators Transcribing Speech Data",
+        "Github URL": "https://github.com/felixfuyihui/AISHELL-4",
+        "Hugging Face URL": "https://huggingface.co/datasets/AISHELL/AISHELL-1",
+        "Website URL": [
+            "https://www.openslr.org/33/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/aishell-1",
+        "Paper URL": "https://arxiv.org/abs/1709.05522",
+        "Semantic Scholar Corpus ID": 11949160,
+        "Creators": [
+            "Beijing Shell Shell Technology Co. Ltd.",
+            "Independent"
+        ],
+        "Creator Categories": [
+            "Industry",
+            "Independent"
+        ],
+        "Year Released": 2017,
+        "Location": [
+            "China"
+        ],
+        "Notes": ""
+    }
+}
