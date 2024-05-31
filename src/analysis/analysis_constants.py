@@ -25,11 +25,11 @@ INVERSE_CONTENT_DOMAIN_CATEGORY_COMPRESSION = {
 
 
 CONTENT_DOMAIN_MAPPING = {
-    'News/Periodicals': ['News', 'Current affairs, sports', 'News archives', 'Newsletter', 'Articles'],
+    'News/Periodicals': ['News', 'Current affairs, sports', 'News archives', 'Newsletter', 'Articles', 'obituary'],
     'Education/Knowledge': ['Education/Knowledge', 'info about schools', 'Education/Knowledge', 'Exams', 'Company website and services'],
     'Entertainment': [
         'Entertainment', 'Anime', 'Sports', 'Gaming', 'Sport', 'Sports/games', 'University sports', 'Game website', 'Adult stories website',
-        'Porn website', 'Escort procurement', 'online classes'
+        'Porn website', 'Escort procurement', 'online classes', 'astrology website'
     ],
     'Business/Finance/Organizational': [
         'Business/Finance', 'Finance', 'Business directory', 'B2B marketplace', 'Business finder',
@@ -39,7 +39,8 @@ CONTENT_DOMAIN_MAPPING = {
         'Freelancer designer & developer', 'Application website', 'Organizations', 'Charity', 'Donation', 
         'Fundraising/Donation', 'Organization description', 'Insurance company website',
         'Security', 'jobs', 'real estate', 'hotel', 'charity , non-profit', 'beauty', 'recruiters',
-        'Personal website', 'personal website', 'Personal page', 'personal webpage'
+        'environmental org.', 'visually impaired people support organization', 'violence control support org.', 'organization for fresh water solutions',
+        'charity organization', 'charity org.'  
     ],
     'Technology/Code': [
         'Technology/Code', 'Search engine', 'Search engine portal', 'Internet RFC/STD/FYI/BCP document archives', 'Search tool',
@@ -48,29 +49,31 @@ CONTENT_DOMAIN_MAPPING = {
     'E-Commerce': ['E-Commerce', 'Ecommerce', 'E-shop page', 'Online shop', 'Services', 'vehicle and parts buy and sell'],
     'Academic': ['Academic', 'Social sciences', 'Science', 'Ideologies and thought', 'Religion and Philosophy', 'ancestry analysis'],
     'General': [
-        'General', 'Prototype', 'Forum', 'Encyclopedia'],
+        'General', 'Prototype', 'Forum', 'Encyclopedia', 'survey portal'
+    ],
     'Cultural/Artistic': [
         'Cultural/Artistic', 'Painting', 'reddit posts', 'Music', 'creativity'
     ],
     'Social/Lifestyle': [
         'Social/Lifestyle', 'Social', 'Lifestyle', 'Home improvement / design', 'Fitness',
         'Home improvement', 'Human Rights / NGO', 'Women Empowerment', 'geographic and demographic analytics',
-        'Food', 'Recipes', 'Beverage', 'Menu', 'nature', 'dogs', 'photography'
+        'Food', 'Recipes', 'Beverage', 'Menu', 'nature', 'dogs', 'photography', 'hoboken garden club',
+        'city club', 'nature, camping'
     ],
     'Reviews': ['Reviews', 'Review portal', 'Images database', 'digital archive'],
-    'Government/Policy': ['Government/Policy', 'Politics', 'Military', 'Employment', 'Service'],
+    'Government/Policy': ['Government/Policy', 'Politics', 'Military', 'Employment', 'Service', 'firestation', 'ex-police association'],
     'Biomedical/Health': ['Biomedical/Health', 'Biology', 'Medical', 'Health'],
     'Books': ['Books', 'Documents', 'article , blog', 'music , blog'],
     'Legal': ['Legal'],
     'Religion': ['Religion', 'Religion/Christianity', 'Religious website'],
     'Travel': ['Travel', 'Travel and tourism', 'Travel information', 'Trips'],
-    'Blogs': ['Blog', 'Blogs'],
+    'Blogs': ['Blog', 'Blogs', 'personal blog', 'personal bio', 'Personal website', 'personal website', 'Personal page', 'personal webpage', 'personal portfolio site'],
 }
 CONTENT_DOMAIN_INVERSE_MAPPING = {v.lower().strip(): k for k, vs in CONTENT_DOMAIN_MAPPING.items() for v in vs}
 
 
 WEBSITE_SERVICE_MAPPING = {
-    'News/Periodicals': [
+   'News/Periodicals': [
         'Australian news and financial site providing video, audio, and stories',
         'Broadcasting and radio shows while communicating with listeners',
         'Contains a wide variety of different books, audio, and articles',
@@ -127,9 +130,10 @@ WEBSITE_SERVICE_MAPPING = {
         'entertainment tv channel',
         'non-official news media',
         'non-periodical news',
-        'religious magazine'
+        'religious magazine',
+        'satire'
     ],
-    'Organization/personal website': [
+    'Organization/Personal Website': [
         'A member and association organization for bartenders',
         'A website where users can upload and download books and other publications',
         'Artist website',
@@ -177,7 +181,111 @@ WEBSITE_SERVICE_MAPPING = {
         'personal site',
         'personal webpage',
         'personal website',
-        'school website'
+        'school website',
+        'web ring',
+        'information website',
+        'accommodation',
+        'insurance services',
+        'corporate security and intelligence',
+        'security assessments to managed services and disaster recovery',
+        'planting, land protection',
+        'horse riding',
+        'traveling',
+        'packaging services',
+        'marketing',
+        'health',
+        'designing',
+        'hearing care',
+        'architecture',
+        'medical devices',
+        'food, restaurant',
+        'beauty therapy',
+        'art',
+        'trips',
+        'cleaning',
+        'storage',
+        'sustainable products',
+        'construction',
+        'sport',
+        'heart valves, AI',
+        'medical transport',
+        'sports',
+        'library',
+        'safety',
+        'petrol station',
+        'articles',
+        'dictionary',
+        'graphite',
+        'photography, company website',
+        'research group',
+        'graphic design, company website',
+        'cafe',
+        'hotel, company website',
+        'dental clinic',
+        'vehicle and parts buy and sell',
+        'network',
+        'platform for discussions, insights',
+        'defense and security solutions, company website',
+        'manufacturing, installation, company website',
+        'waste solutions, company website',
+        'architecture, company website',
+        'blood test, treatment',
+        'steel supply and services, company website',
+        'windows & doors UPVC repairs, locks & hinges, company website',
+        'online platform',
+        'lab',
+        'venue, company website',
+        'platform to find professionals',
+        'club',
+        'association',
+        'camp ground',
+        'agency',
+        'article, blog',
+        'digital media',
+        'restaurant and bar',
+        'ornithologists group',
+        'religious community',
+        'public program',
+        'non-profit organization',
+        'marketing, SEO',
+        'festival',
+        'karate, company website',
+        'rental, company website',
+        'religious',
+        'dog\'s competitions',
+        'Brazilian art form',
+        'online booking, company website',
+        'company website, apps',
+        'marketing automation, website maintenance, content management, company website',
+        'company website, roofing',
+        'company website, courses',
+        'animals',
+        'graphic design, SEO, website design',
+        'online service',
+        'vote',
+        'legal',
+        'technology',
+        'software',
+        'entertainment',
+        'search services',
+        'museum',
+        'novels',
+        'online media',
+        'skills',
+        'mailing list',
+        'religion',
+        'menu',
+        'recipes',
+        'culture/politics',
+        'editor reviews',
+        'music',
+        'furnishment',
+        'culture',
+        'petition',
+        'editor reviews/tips',
+        'chum',
+        'financial reports and analysis',
+        'services'
     ],
     'Encyclopedia/Database': [
         '& Encyclopedia',
@@ -214,7 +322,10 @@ WEBSITE_SERVICE_MAPPING = {
         'jobs database',
         'online library',
         'patents website',
-        'tool for web traffic overview'
+        'tool for web traffic overview',
+        'blood test, treatment',
+        'dictionary',
+        'graphite'
     ],
     'E-Commerce': [
         'A website for a software company providing coding and other services',
@@ -326,7 +437,13 @@ WEBSITE_SERVICE_MAPPING = {
         'online community',
         'reddit posts',
         'review platform',
-        'social media'
+        'social media',
+        'platform for discussions, insights',
+        'platform to find professionals',
+        'articles',
+        'article, blog',
+        'digital media',
+        'blog publishing platform'
     ],
     'Government': [
         'Articles and comments about Australian government and politics',
@@ -369,6 +486,6 @@ WEBSITE_SERVICE_MAPPING = {
         'blogs',
         'novels website',
         'personal blog'
-    ],
+    ]
 }
 WEBSITE_SERVICE_INVERSE_MAPPING = {v.lower().strip(): k for k, vs in WEBSITE_SERVICE_MAPPING.items() for v in vs}
