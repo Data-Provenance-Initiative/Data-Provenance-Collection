@@ -237,6 +237,15 @@ def analyze_url_variable_correlations(df, top_n_list, corpus_key="c4"):
 
     return results_df
 
+
+def tos_get_most_recent_verdict(tos_policies):
+    url_to_recent_policy = {}
+    for url, time_to_subpage_to_verdicts in tos_policies.items():
+        recent_key = max(time_to_subpage_to_verdicts.keys())
+        verdict_codes = [vinfo["verdict"] for vinfo in time_to_subpage_to_verdicts[recent_key].values()]
+        url_to_recent_policy[url] = analysis_constants.TOS_AI_SCRAPING_VERDICT_MAPPER[max(verdict_codes)]
+    return url_to_recent_policy
+
 ############################################################
 ###### Text Finetuning Analysis Functions
 ############################################################
@@ -714,3 +723,115 @@ def plot_seaborn_barchart(
         plt.savefig(savepath, format='pdf', bbox_inches='tight')
     else:
         plt.show()
+
+
+def plot_confusion_matrix(
+    url_to_status, 
+    url_to_policy, 
+    url_token_counts,
+    status_order=None, 
+    policy_order=None,
+    use_token_counts=True,
+    font_size=20, 
+    font_style='sans-serif',
+    width=400,
+    height=400,
+):
+    ROBOTS_LABELS = {
+        "none": "None",
+        "some": "Partial",
+        "all": "Restricted",
+    }
+    
+    # Create a defaultdict to store counts
+    counts = defaultdict(lambda: defaultdict(int))
+    token_counts = defaultdict(lambda: defaultdict(int))
+    
+    # Count the occurrences of each (status, policy) pair
+    total_instances, total_tokens = 0, 0
+    for url in set(url_to_status.keys()).intersection(set(url_to_policy.keys())):
+    # for url in url_to_status.keys():
+        status = ROBOTS_LABELS[url_to_status.get(url, "none")]
+        policy = url_to_policy.get(url, "No Restrictions")
+        counts[status][policy] += 1
+        total_instances += 1
+        token_counts[status][policy] += url_token_counts[url]
+        total_tokens += url_token_counts[url]
+    
+    # Create a list of tuples (status, policy, count)
+    data = [{"status": status, "policy": policy, "Count": count, "Token Counts": token_counts[status][policy],
+             "Percent": round(100 * count / total_instances, 2), 
+             "Percent Tokens": round(100 * token_counts[status][policy] / total_tokens, 2),}
+            for status in status_order
+            for policy in policy_order
+            if (count := counts[status][policy]) > 0]
+    
+    # Create a DataFrame from the list of tuples
+    df = pd.DataFrame(data)
+    df['Formatted Percent'] = df['Percent'].apply(lambda x: f"{x:.1f} %")
+    df['Formatted Percent Tokens'] = df['Percent Tokens'].apply(lambda x: f"{x:.1f} %")
+    
+    if use_token_counts:
+        color_axis, text_axis = "Percent Tokens", "Formatted Percent Tokens"
+    else:
+        color_axis, text_axis = "Percent", "Formatted Percent"
+    
+    # Create the heatmap
+    heatmap = alt.Chart(df).mark_rect().encode(
+        x=alt.X('policy:N', title='Terms of Service Policies', sort=policy_order),
+        y=alt.Y('status:N', title='Robots.txt Restrictions', sort=status_order),
+        color=alt.Color(f'{color_axis}:Q', scale=alt.Scale(scheme='blues')),
+        order="order:Q"
+    )
+
+    # circ = heatmap.mark_point().encode(
+    #     alt.ColorValue('grey'),
+    #     alt.Size('count()').title('Total Tokens')
+    # )
+    # .transform_filter(
+    #     pts
+    # )
+
+    text = heatmap.mark_text(
+        align='center',
+        baseline='middle',
+        fontSize=font_size,
+        font=font_style,
+    ).encode(
+        # text=alt.Text('Formatted Percent:Q'),
+        text=alt.Text(f'{text_axis}:N'),  # Format the text as "XX.Y"
+        # color=alt.value('black'),
+        color=alt.condition(
+            alt.datum.Percent > 30,
+            alt.value('white'),
+            alt.value('black')
+        )
+    )
+    
+    # Combine heatmap and text annotations, and set font properties
+    final_plot = (heatmap + text).properties(
+        width=width,
+        height=height,
+        # title=alt.Title(
+        #     text='Example Chart',
+        #     fontSize=24,
+        #     # fontStyle='italic',
+        #     font=font_style
+        # ),
+    ).configure_axis(
+        labelFontSize=font_size,
+        labelFont=font_style,
+        titleFontSize=font_size,
+        titleFont=font_style,
+        domain=True
+        # labelAngle=30,
+    ).configure_axisX(
+        labelAngle=20,
+        domain=True
+    ).configure_axisY(
+        domain=True  # Ensure the Y-axis domain line is shown
+    ).configure_view(
+        stroke='black'  # Add borders around the entire plot
+    )
+    
+    return final_plot

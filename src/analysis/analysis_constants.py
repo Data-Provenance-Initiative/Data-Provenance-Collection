@@ -1,4 +1,11 @@
 
+TOS_AI_SCRAPING_VERDICT_MAPPER = {
+    1: "Prohibits Scraping & AI",
+    2: "Prohibits Scraping",
+    3: "Prohibits AI",
+    4: "Conditional Restrictions",
+    5: "No Restrictions",
+}
 
 CONTENT_DOMAIN_CATEGORY_COMPRESSION = {
     "News": ["News/Periodicals"],
