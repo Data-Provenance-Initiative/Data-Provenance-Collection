@@ -1,0 +1,70 @@
+{
+    "EdAcc": {
+        "Dataset Name": "edacc",
+        "Unique Dataset Identifier": "edacc",
+        "Collection": "EdAcc",
+        "Hours": 40.0,
+        "Languages (Count)": 2,
+        "Languages": [
+            "English (Dialects, Accented)"
+        ],
+        "Languages (ISO)": [
+            "en"
+        ],
+        "Language Groups": [
+            "English"
+        ],
+        "Language Families": [
+            "Germanic"
+        ],
+        "Speakers": 120,
+        "Tasks": [
+            "Speech Recognition",
+            "Bias in Speech Recognition (Accents)"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://groups.inf.ed.ac.uk/edacc/EDACC_statement.pdf"
+            }
+        ],
+        "License Notes": "License version (i.e. 4.0) is inferred.",
+        "Topics": [
+            "Games",
+            "Books",
+            "Sports",
+            "Holidays",
+            "Food",
+            "Edinburgh",
+            "Hobbies",
+            "Other"
+        ],
+        "Source Category": [
+            "Video Calls",
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Audios Recorded First, Text Manually Transcribed Later",
+        "Github URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/edinburghcstr/edacc",
+        "Website URL": [
+            "https://groups.inf.ed.ac.uk/edacc/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/edacc",
+        "Paper URL": "https://arxiv.org/pdf/2303.18110.pdf",
+        "Semantic Scholar Corpus ID": 257901049,
+        "Creators": [
+            "University of Edinburgh"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2023,
+        "Location": [
+            "United Kingdom"
+        ],
+        "Notes": ""
+    }
+}

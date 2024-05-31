@@ -1,0 +1,103 @@
+{
+    "People's Speech": {
+        "Dataset Name": "peoples-speech",
+        "Unique Dataset Identifier": "peoples-speech",
+        "Collection": "People's Speech",
+        "Hours": 30000.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "English"
+        ],
+        "Languages (ISO)": [
+            "en"
+        ],
+        "Language Groups": [
+            "English"
+        ],
+        "Language Families": [
+            "Germanic"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 2.0",
+                "License URL": "https://huggingface.co/datasets/MLCommons/peoples_speech"
+            },
+            {
+                "License": "CC BY 2.5",
+                "License URL": "https://huggingface.co/datasets/MLCommons/peoples_speech"
+            },
+            {
+                "License": "CC BY 3.0",
+                "License URL": "https://huggingface.co/datasets/MLCommons/peoples_speech"
+            },
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://huggingface.co/datasets/MLCommons/peoples_speech"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/MLCommons/peoples_speech"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/MLCommons/peoples_speech"
+            }
+        ],
+        "License Notes": "Includes CC BY subset.",
+        "Topics": [
+            "Government",
+            "Interview",
+            "Health",
+            "Radio",
+            "Lesson",
+            "Finance",
+            "Religion",
+            "Music",
+            "Politics",
+            "Sport",
+            "Sermon",
+            "Entertainment",
+            "Documentary",
+            "Lecture"
+        ],
+        "Source Category": [
+            "Internet Video"
+        ],
+        "Source": [
+            "Vimeo",
+            "Archive.org"
+        ],
+        "Process Description": "Audios With Transcripts Attached",
+        "Github URL": "https://github.com/mlcommons/peoples-speech",
+        "Hugging Face URL": "https://huggingface.co/datasets/MLCommons/peoples_speech",
+        "Website URL": [
+            "https://mlcommons.org/datasets/peoples-speech/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/the-peoples-speech",
+        "Paper URL": "https://arxiv.org/abs/2111.09344",
+        "Semantic Scholar Corpus ID": 237265975,
+        "Creators": [
+            "NVIDIA",
+            "Landing AI",
+            "Factored",
+            "Intel",
+            "Oracle",
+            "MLCommons",
+            "Harvard University"
+        ],
+        "Creator Categories": [
+            "Industry",
+            "Academia",
+            "Nonprofit"
+        ],
+        "Year Released": 2021,
+        "Location": [
+            "United States"
+        ],
+        "Notes": ""
+    }
+}

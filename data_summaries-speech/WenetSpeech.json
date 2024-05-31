@@ -1,0 +1,76 @@
+{
+    "WenetSpeech": {
+        "Dataset Name": "wenetspeech",
+        "Unique Dataset Identifier": "wenetspeech",
+        "Collection": "WenetSpeech",
+        "Hours": 10005.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Mandarin Chinese"
+        ],
+        "Languages (ISO)": [
+            "cmn"
+        ],
+        "Language Groups": [
+            "Chinese"
+        ],
+        "Language Families": [
+            "Sino-Tibetan"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://wenet.org.cn/WenetSpeech/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "AudioBook",
+            "Commentary",
+            "Documentary",
+            "Drama",
+            "Interview",
+            "News",
+            "Reading",
+            "Talk",
+            "Variety",
+            "Other"
+        ],
+        "Source Category": [
+            "Internet Video",
+            "Podcast"
+        ],
+        "Source": [
+            "YouTube",
+            "Podcast"
+        ],
+        "Process Description": "Audios With Transcripts Attached",
+        "Github URL": "https://github.com/wenet-e2e/WenetSpeech",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://wenet.org.cn/WenetSpeech/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/wenetspeech",
+        "Paper URL": "https://arxiv.org/pdf/2110.03370.pdf",
+        "Semantic Scholar Corpus ID": 238419629,
+        "Creators": [
+            "Northwestern Polytechnical University",
+            "Mobvoi Inc.",
+            "Beijing Shell Shell Technology Co. Ltd.",
+            "WeNet Open Source Community"
+        ],
+        "Creator Categories": [
+            "Industry",
+            "Academia"
+        ],
+        "Year Released": 2022,
+        "Location": [
+            "China"
+        ],
+        "Notes": "Automatic transcription (ASR for Podcast, OCR from subtitles for YouTube)"
+    }
+}

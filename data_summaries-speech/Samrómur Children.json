@@ -1,0 +1,65 @@
+{
+    "Samr\u00f3mur Children": {
+        "Dataset Name": "samrmur-children",
+        "Unique Dataset Identifier": "samrmur-children",
+        "Collection": "Samr\u00f3mur Children",
+        "Hours": 131.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Icelandic"
+        ],
+        "Languages (ISO)": [
+            "is"
+        ],
+        "Language Groups": [
+            "Scandinavian"
+        ],
+        "Language Families": [
+            "Germanic"
+        ],
+        "Speakers": 3175,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://huggingface.co/datasets/language-and-voice-lab/samromur_children"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Novels",
+            "News",
+            "Plays",
+            "Icelandic Location Names",
+            "Science"
+        ],
+        "Source Category": [
+            "Crowd-Sourcing"
+        ],
+        "Source": [
+            "Crowd-Sourcing"
+        ],
+        "Process Description": "Scripts Generated First, Then Audio Was Recorded",
+        "Github URL": "https://github.com/cadia-lvl/samromur-asr",
+        "Hugging Face URL": "https://huggingface.co/datasets/language-and-voice-lab/samromur_children",
+        "Website URL": [
+            "https://openslr.org/117/"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "https://aclanthology.org/2022.lrec-1.105.pdf",
+        "Semantic Scholar Corpus ID": 251403409,
+        "Creators": [
+            "Reykjavik University"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2022,
+        "Location": [
+            "Iceland"
+        ],
+        "Notes": ""
+    }
+}

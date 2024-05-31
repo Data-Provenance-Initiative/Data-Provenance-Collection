@@ -1,0 +1,59 @@
+{
+    "Nigerian English": {
+        "Dataset Name": "nigerian-english",
+        "Unique Dataset Identifier": "nigerian-english",
+        "Collection": "Nigerian English",
+        "Hours": 5.77,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Nigerian English"
+        ],
+        "Languages (ISO)": [
+            "pcm"
+        ],
+        "Language Groups": [
+            "Low Resource Languages"
+        ],
+        "Language Families": [
+            "Other"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://openslr.org/70/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": "Unclear",
+        "Source Category": [
+            "Crowd-Sourcing"
+        ],
+        "Source": [
+            "Crowd-Sourcing"
+        ],
+        "Process Description": "High-Quality Audio Of Nigerian English Sentences Recorded By Volunteers, Text Transcribed Later",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://openslr.org/70/"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "Google"
+        ],
+        "Creator Categories": [
+            "Industry"
+        ],
+        "Year Released": 2019,
+        "Location": [
+            "United States"
+        ],
+        "Notes": ""
+    }
+}
