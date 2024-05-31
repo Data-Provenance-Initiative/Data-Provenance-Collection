@@ -6,7 +6,7 @@ from collections import Counter, defaultdict
 import matplotlib.pyplot as plt
 
 from . import parse_robots
-from analysis import analysis_util
+from analysis import visualization_util, analysis_constants
 
 ############################################################
 ###### Robots.txt Bot Methods
@@ -456,7 +456,7 @@ def plot_size_against_restrictions(
     
     print(data_groups)
 
-    return analysis_util.plot_stackedbars(
+    return visualization_util.plot_stackedbars(
         data_groups, 
         title=None, 
         category_names=['Full Restrictions', 'Some Restrictions', 'No Restrictions'],
@@ -503,3 +503,24 @@ def plot_robots_time_map(df, agent_type, val_key):
     plt.legend(title='Status')
     plt.show()
     plt.clf()
+
+
+def tos_get_most_recent_verdict(tos_policies):
+    url_to_recent_policy = {}
+    for url, time_to_subpage_to_verdicts in tos_policies.items():
+        recent_key = max(time_to_subpage_to_verdicts.keys())
+        verdict_codes = [vinfo["verdict"] for vinfo in time_to_subpage_to_verdicts[recent_key].values()]
+        url_to_recent_policy[url] = analysis_constants.TOS_AI_SCRAPING_VERDICT_MAPPER[max(verdict_codes)]
+    return url_to_recent_policy
+
+def prepare_recent_robots_tos_info(
+    tos_policies_dict,
+    url_robots_summary,
+    companies,
+):
+    agent_names = [agent for company in companies for agent in get_bots(company)]
+    # {URL --> Date --> Agent --> Status} --> {URL —> status}
+    url_robots_status = get_latest_url_robot_statuses(url_robots_summary, agent_names)
+    print(len(url_robots_status))
+    url_tos_verdicts = tos_get_most_recent_verdict(tos_policies_dict)
+    return url_robots_status, url_tos_verdicts
