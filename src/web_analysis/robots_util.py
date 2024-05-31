@@ -1,8 +1,5 @@
-import os
-import sys
-from datetime import datetime
 import pandas as pd
-from collections import Counter, defaultdict
+from collections import defaultdict
 import matplotlib.pyplot as plt
 
 from . import parse_robots
@@ -240,7 +237,7 @@ class URLTokenLookup:
 
 
 def agent_and_operation(agent_statuses):
-    """Given a list of agent blocks: all, some, none, and N/A,
+    """Given a list of agent statuses: all, some, none, and no_robots,
     return the strictest designation."""
     if "all" in agent_statuses:
         return "all"
@@ -248,7 +245,8 @@ def agent_and_operation(agent_statuses):
         return "some"
     elif "none" in agent_statuses:
         return "none"
-    return agent_statuses[0]
+    else:
+        return "no_robots"
 
 
 def find_closest_time_key(dates, target_period, direction):
@@ -342,41 +340,38 @@ def prepare_robots_temporal_summary(
     Else Returns:
         {Period --> Agent --> Status -->  count(URLs)}
     """
-    relevant_agents = [v for vs in group_to_agents.values() for v in vs]
     start_date = pd.to_datetime(start_time)
     end_date = pd.to_datetime(end_time)
     date_range = pd.period_range(start_date, end_date, freq=time_frequency)
-    # {Period --> Agent --> Status --> set(URLs)}
     filled_status_summary = defaultdict(lambda: defaultdict(lambda: defaultdict(set)))
-    for wi, period in enumerate(date_range):
-        if wi % 10 == 0:
-            print(period)
-        # for agent in relevant_agents:
-        for url, date_agent_status in url_robots_summary.items():
-            if website_start_dates and url in website_start_dates:
-                if period.start_time < website_start_dates[url]:
-                    filled_status_summary[period][group]["N/A"].add(
-                        url
-                    )  # Website exists but no robots
-                    continue  # Skip processing robots for this URL in this period
-            robots_time_keys = sorted(list(date_agent_status.keys()))
-            time_key = find_closest_time_key(
-                robots_time_keys, period, direction="backward"
-            )
-            for group, agents in group_to_agents.items():
-                if time_key is None:
-                    if (
-                        website_start_dates
-                        and url in website_start_dates
-                        and period.start_time >= website_start_dates[url]
-                    ):
-                        filled_status_summary[period][group]["N/A"].add(
+
+    for period in date_range:
+        for url, start_date in website_start_dates.items():
+            if pd.isnull(start_date):  # Skip URLs without a start date
+                continue
+            if (
+                url not in url_robots_summary
+            ):  # Skip URLs that don't exist in url_robots_summary
+                continue
+            if period.start_time >= start_date:
+                date_agent_status = url_robots_summary[url]
+                robots_time_keys = sorted(list(date_agent_status.keys()))
+                time_key = find_closest_time_key(
+                    robots_time_keys, period, direction="backward"
+                )
+
+                for group, agents in group_to_agents.items():
+                    if time_key is None:
+                        filled_status_summary[period][group]["no_robots"].add(
                             url
-                        )  # Website exists but no robots
-                else:
-                    statuses = [date_agent_status[time_key][agent] for agent in agents]
-                    group_status = agent_and_operation(statuses)
-                    filled_status_summary[period][group][group_status].add(url)
+                        )  # Site exists but no robots.txt file for the period
+                    else:
+                        statuses = [
+                            date_agent_status[time_key].get(agent, "no_robots")
+                            for agent in agents
+                        ]
+                        group_status = agent_and_operation(statuses)
+                        filled_status_summary[period][group][group_status].add(url)
 
     return filled_status_summary
 
