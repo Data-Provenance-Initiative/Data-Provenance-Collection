@@ -1,0 +1,66 @@
+{
+    "AISHELL-2": {
+        "Dataset Name": "aishell-2",
+        "Unique Dataset Identifier": "aishell-2",
+        "Collection": "AISHELL-2",
+        "Hours": 1000.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Mandarin Chinese"
+        ],
+        "Languages (ISO)": [
+            "cmn"
+        ],
+        "Language Groups": [
+            "Chinese"
+        ],
+        "Language Families": [
+            "Sino-Tibetan"
+        ],
+        "Speakers": 1991,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Voice Commands",
+            "Places of Interest",
+            "Entertainment",
+            "Finance",
+            "Technology",
+            "Sports",
+            "English Spellings",
+            "Other"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/aishell-2",
+        "Paper URL": "https://arxiv.org/pdf/1808.10583",
+        "Semantic Scholar Corpus ID": 52145151,
+        "Creators": [
+            "Beijing Shell Shell Technology Co. Ltd.",
+            "AISHELL Foundation"
+        ],
+        "Creator Categories": [
+            "Industry",
+            "Nonprofit"
+        ],
+        "Year Released": 2018,
+        "Location": [
+            "China"
+        ],
+        "Notes": ""
+    }
+}
