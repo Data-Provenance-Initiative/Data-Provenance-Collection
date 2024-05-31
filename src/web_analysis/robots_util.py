@@ -3,8 +3,10 @@ import sys
 from datetime import datetime
 import pandas as pd
 from collections import Counter, defaultdict
+import matplotlib.pyplot as plt
 
 from . import parse_robots
+from analysis import analysis_util
 
 ############################################################
 ###### Robots.txt Bot Methods
@@ -94,7 +96,6 @@ def get_bots(company=None, setting=None):
         if setting:
             # Return bots for a specific company and setting
             x = BOT_TRACKER.get(company, {}).get(setting, [])
-            print(x)
             return set(x)
         # Return all bots for a specific company
         return set([bot for role in BOT_TRACKER.get(company, {}).values() for bot in role])
@@ -428,3 +429,77 @@ def analyze_url_changes(data, agent):
         previous_urls = current_urls
 
     return results
+
+
+def plot_size_against_restrictions(
+    url_robots_summary,
+    size_bucket_to_urls,
+    agent_group,
+    setting=None
+):
+    agent_names = get_bots(agent_group, setting=setting)
+    # {URL --> Date --> Agent --> Status} --> {URL —> status}
+    current_url_status = get_latest_url_robot_statuses(url_robots_summary, agent_names)
+    print(len(current_url_status))
+
+    set(current_url_status.keys())
+
+    cat_keys = ["all", "some", "none"]
+    data_groups = defaultdict(lambda: [0, 0, 0])
+    url_to_bucket_key = {url: sz for sz, urls in size_bucket_to_urls.items() for url in urls}
+    # data: "bucket range": [full restrictions, some restrictions, no restrictions]
+    for url, status in current_url_status.items():
+        if not status:
+            print(url)
+            print(status)
+        data_groups[url_to_bucket_key[url]][cat_keys.index(status)] += 1
+    
+    print(data_groups)
+
+    return analysis_util.plot_stackedbars(
+        data_groups, 
+        title=None, 
+        category_names=['Full Restrictions', 'Some Restrictions', 'No Restrictions'],
+        custom_colors=['#e04c71','#e0cd92','#82b5cf'],
+        group_order=sorted(size_bucket_to_urls.keys(), key=lambda x: int(x.split('-')[0])), 
+        total_dsets=len(url_to_bucket_key), 
+        legend=True, 
+        savepath=f"paper_figures/altair/robots_restrictions_vs_token_count_{agent_group}.json"
+    )
+
+
+def plot_robots_time_map(df, agent_type, val_key):
+
+    # Filter the DataFrame for the relevant agent
+    filtered_df = df[df['agent'] == agent_type]
+    
+    # Group by 'period' and 'status', and sum up the 'count'
+    grouped_df = filtered_df.groupby(['period', 'status'])[val_key].sum().unstack(fill_value=0)
+    
+    # Optional: Reorder the columns as desired (replace 'status1', 'status2', etc., with your actual status names)
+    ordered_statuses = ['N/A', 'none', 'some', 'all']  # Example: reorder as per your preference
+    grouped_df = grouped_df[ordered_statuses]
+    
+    # Calculate the total counts for each period
+    total_counts = grouped_df.sum(axis=1)
+    
+    # Calculate the percentage of each status per period
+    percent_df = grouped_df.div(total_counts, axis=0) * 100
+    
+    # Specify colors for each stack (ensure this matches the order of statuses in 'ordered_statuses')
+    colors = ['gray', 'blue', 'orange', 'red']  # Assign colors to each status
+    
+    # Optional: Rename columns for custom labels in the legend
+    percent_df.columns = ['No Website/Robots', 'No Restrictions', 'Some Restrictions', 'Full Restrictions']  # Example labels
+    # gray (n/a), blue (some), red (none), orange (all)
+    # Plotting the stacked area chart
+    # percent_df.plot(kind='area', stacked=True, figsize=(10, 6))#, color=colors)
+    percent_df.plot(kind='area', stacked=True, figsize=(10, 6), color=colors)
+    
+    # plt.title(f"Restriction Status for {agent_type} over C4 Top 800")
+    plt.title(f"Restriction Status for {agent_type} over 10k Random Sample")
+    plt.xlabel('Period')
+    plt.ylabel('Percentage')
+    plt.legend(title='Status')
+    plt.show()
+    plt.clf()
