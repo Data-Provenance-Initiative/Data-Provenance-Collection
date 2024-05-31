@@ -1,0 +1,123 @@
+{
+    "CoVoST-2": {
+        "Dataset Name": "covost-2",
+        "Unique Dataset Identifier": "covost-2",
+        "Collection": "CoVoST-2",
+        "Hours": 2880.0,
+        "Languages (Count)": 22,
+        "Languages": [
+            "English",
+            "French",
+            "German",
+            "Dutch",
+            "Russian",
+            "Spanish",
+            "Italian",
+            "Turkish",
+            "Persian",
+            "Swedish",
+            "Mongolian",
+            "Chinese (China)",
+            "Welsh",
+            "Catalan",
+            "Slovenian",
+            "Estonian",
+            "Indonesian",
+            "Arabic",
+            "Tamil",
+            "Portuguese",
+            "Latvian",
+            "Japanese"
+        ],
+        "Languages (ISO)": [
+            "en",
+            "fr",
+            "de",
+            "nl",
+            "ru",
+            "es",
+            "it",
+            "tr",
+            "fa",
+            "sv",
+            "mn",
+            "zh_CN",
+            "cy",
+            "ca",
+            "sl",
+            "et",
+            "id",
+            "ar",
+            "ta",
+            "pt",
+            "lv",
+            "ja"
+        ],
+        "Language Groups": [
+            "Other Indo-European",
+            "Spanish",
+            "Scandinavian",
+            "Turkish",
+            "Low Resource Languages",
+            "German",
+            "Austronesian",
+            "Indian Peninsula",
+            "French",
+            "Italian",
+            "English",
+            "Japanese",
+            "Persian",
+            "Arabic",
+            "Chinese"
+        ],
+        "Language Families": [
+            "Other",
+            "Japonic",
+            "Afroasiatic",
+            "Indo-European",
+            "Turkic",
+            "Germanic",
+            "Austronesian",
+            "Dravidian",
+            "Sino-Tibetan"
+        ],
+        "Speakers": 78000,
+        "Tasks": [
+            "Speech Recognition/Translation"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": "https://ai.meta.com/tools/covost/"
+            }
+        ],
+        "License Notes": "Paper says it's CC0, other resources (e.g. Hugging Face) disagree.",
+        "Topics": [
+            "Wikipedia Articles"
+        ],
+        "Source Category": [
+            "Crowd-Sourcing"
+        ],
+        "Source": [
+            "Common Voice",
+            "Derived Dataset"
+        ],
+        "Process Description": "Scripts Generated First, Then Audio Was Recorded",
+        "Github URL": "https://github.com/facebookresearch/covost",
+        "Hugging Face URL": "https://huggingface.co/datasets/covost2",
+        "Papers with Code URL": "https://paperswithcode.com/paper/covost-2-a-massively-multilingual-speech-to",
+        "Paper URL": "https://arxiv.org/abs/2007.10310",
+        "Semantic Scholar Corpus ID": 221203017,
+        "Creators": [
+            "Meta AI"
+        ],
+        "Creator Categories": [
+            "Industry"
+        ],
+        "Year Released": 2020,
+        "Location": [
+            "United States"
+        ],
+        "Notes": "translations from 21 languages into English and from English into 15 languages. There's a discrepancy in the license between the paper and huggingface"
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "VibraVox": {
+        "Dataset Name": "vibravox",
+        "Unique Dataset Identifier": "vibravox",
+        "Collection": "VibraVox",
+        "Hours": 17.85,
+        "Languages (Count)": 1,
+        "Languages": [
+            "French"
+        ],
+        "Languages (ISO)": [
+            "fr"
+        ],
+        "Language Groups": [
+            "French"
+        ],
+        "Language Families": [
+            "Indo-European"
+        ],
+        "Speakers": 200,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://huggingface.co/datasets/Cnam-LMSSC/vibravox"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Spontaneous Recordings"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Audios Recorded First, Text Transcribed Later",
+        "Github URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/Cnam-LMSSC/vibravox",
+        "Website URL": [
+            "https://vibravox.cnam.fr/"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "",
+        "Semantic Scholar Corpus ID": "Unclear",
+        "Creators": [
+            "National Conservatory of Arts and Crafts"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2024,
+        "Location": [
+            "France"
+        ],
+        "Notes": ""
+    }
+}

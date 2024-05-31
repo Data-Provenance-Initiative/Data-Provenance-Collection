@@ -1,0 +1,89 @@
+{
+    "Shrutilipi": {
+        "Dataset Name": "shrutilipi",
+        "Unique Dataset Identifier": "shrutilipi",
+        "Collection": "Shrutilipi",
+        "Hours": 6457.0,
+        "Languages (Count)": 12,
+        "Languages": [
+            "Bengali",
+            "Gujarati",
+            "Hindi",
+            "Kannada",
+            "Malayalam",
+            "Marathi",
+            "Odia",
+            "Punjabi",
+            "Sanskrit",
+            "Tamil",
+            "Telugu",
+            "Urdu"
+        ],
+        "Languages (ISO)": [
+            "bn",
+            "gu",
+            "hi",
+            "kn",
+            "ml",
+            "mr",
+            "or",
+            "pa",
+            "sa",
+            "ta",
+            "te",
+            "ur"
+        ],
+        "Language Groups": [
+            "Low Resource Languages",
+            "Hindi",
+            "Indian Peninsula"
+        ],
+        "Language Families": [
+            "Indo-European",
+            "Dravidian",
+            "Other"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": "https://ai4bharat.iitm.ac.in/shrutilipi/"
+            }
+        ],
+        "License Notes": "For \"packaging\"",
+        "Topics": [
+            "News"
+        ],
+        "Source Category": [
+            "Radio"
+        ],
+        "Source": [
+            "All India Radio News Bulletins"
+        ],
+        "Process Description": "Audios With Transcripts Attached",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://ai4bharat.iitm.ac.in/shrutilipi/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/paper/effectiveness-of-mining-audio-and-text-pairs",
+        "Paper URL": "https://arxiv.org/pdf/2208.12666.pdf",
+        "Semantic Scholar Corpus ID": 251881463,
+        "Creators": [
+            "Indian Institute of Technology Madras",
+            "Microsoft"
+        ],
+        "Creator Categories": [
+            "Industry",
+            "Academia"
+        ],
+        "Year Released": 2022,
+        "Location": [
+            "India"
+        ],
+        "Notes": ""
+    }
+}

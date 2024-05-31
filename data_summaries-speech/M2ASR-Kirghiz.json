@@ -1,0 +1,60 @@
+{
+    "M2ASR-Kirghiz": {
+        "Dataset Name": "m2asr-kirghiz",
+        "Unique Dataset Identifier": "m2asr-kirghiz",
+        "Collection": "M2ASR-Kirghiz",
+        "Hours": 128.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Kirghiz"
+        ],
+        "Languages (ISO)": [
+            "ky"
+        ],
+        "Language Groups": [
+            "Low Resource Languages"
+        ],
+        "Language Families": [
+            "Turkic"
+        ],
+        "Speakers": 163,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "News",
+            "Stories",
+            "Articles"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Scripts Generated First By Scraping Web Articles, Then Audio Was Recorded",
+        "Github URL": "https://github.com/M2ASR/m2lp",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "Paper URL": "https://www.mdpi.com/2078-2489/14/1/55",
+        "Semantic Scholar Corpus ID": 256188893,
+        "Creators": [
+            "Tsinghua University",
+            "Xinjiang University"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2023,
+        "Location": [
+            "China"
+        ],
+        "Notes": "Unclear"
+    }
+}
