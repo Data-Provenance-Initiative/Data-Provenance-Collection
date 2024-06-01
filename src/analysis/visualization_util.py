@@ -336,60 +336,23 @@ def plot_seaborn_barchart(
 
 
 def plot_confusion_matrix(
-    url_to_status, 
-    url_to_policy, 
-    url_token_counts,
-    status_order=None, 
-    policy_order=None,
-    use_token_counts=True,
+    df,
+    yaxis_order=None, 
+    xaxis_order=None,
+    text_axis=None,
+    color_axis=None,
+    yaxis_title="",
+    xaxis_title="",
     font_size=20, 
     font_style='sans-serif',
     width=400,
     height=400,
 ):
-    ROBOTS_LABELS = {
-        "none": "None",
-        "some": "Partial",
-        "all": "Restricted",
-    }
-    
-    # Create a defaultdict to store counts
-    counts = defaultdict(lambda: defaultdict(int))
-    token_counts = defaultdict(lambda: defaultdict(int))
-    
-    # Count the occurrences of each (status, policy) pair
-    total_instances, total_tokens = 0, 0
-    for url in set(url_to_status.keys()).intersection(set(url_to_policy.keys())):
-    # for url in url_to_status.keys():
-        status = ROBOTS_LABELS[url_to_status.get(url, "none")]
-        policy = url_to_policy.get(url, "No Restrictions")
-        counts[status][policy] += 1
-        total_instances += 1
-        token_counts[status][policy] += url_token_counts[url]
-        total_tokens += url_token_counts[url]
-    
-    # Create a list of tuples (status, policy, count)
-    data = [{"status": status, "policy": policy, "Count": count, "Token Counts": token_counts[status][policy],
-             "Percent": round(100 * count / total_instances, 2), 
-             "Percent Tokens": round(100 * token_counts[status][policy] / total_tokens, 2),}
-            for status in status_order
-            for policy in policy_order
-            if (count := counts[status][policy]) > 0]
-    
-    # Create a DataFrame from the list of tuples
-    df = pd.DataFrame(data)
-    df['Formatted Percent'] = df['Percent'].apply(lambda x: f"{x:.1f} %")
-    df['Formatted Percent Tokens'] = df['Percent Tokens'].apply(lambda x: f"{x:.1f} %")
-    
-    if use_token_counts:
-        color_axis, text_axis = "Percent Tokens", "Formatted Percent Tokens"
-    else:
-        color_axis, text_axis = "Percent", "Formatted Percent"
-    
+
     # Create the heatmap
     heatmap = alt.Chart(df).mark_rect().encode(
-        x=alt.X('policy:N', title='Terms of Service Policies', sort=policy_order),
-        y=alt.Y('status:N', title='Robots.txt Restrictions', sort=status_order),
+        x=alt.X(f'{xaxis_title}:N', title=xaxis_title, sort=xaxis_order),
+        y=alt.Y(f'{yaxis_title}:N', title=yaxis_title, sort=yaxis_order),
         color=alt.Color(f'{color_axis}:Q', scale=alt.Scale(scheme='blues')),
         order="order:Q"
     )

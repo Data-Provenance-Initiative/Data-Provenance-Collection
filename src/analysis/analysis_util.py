@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 from collections import defaultdict, Counter
 from scipy.stats import chi2_contingency
+from sklearn.linear_model import LogisticRegression
 
 from helpers import io
 from . import analysis_constants
@@ -189,7 +190,10 @@ def analyze_url_variable_correlations(df, top_n_list, corpus_key="c4"):
     """
     corpus_key: 'c4', 'rf' or 'dolma'
     """
-    binary_vars = ['User Content', 'Paywall', 'Ads', 'Modality: Image', 'Modality: Video', 'Modality: Audio', 'Sensitive Content']
+    binary_vars = [
+        'User Content', 'Paywall', 'Ads', 'Modality: Image', 'Modality: Video', 'Modality: Audio', 'Sensitive Content',
+        'Restrictive Robots.txt', 'Restrictive Terms'
+    ]
     domain_vars = df['Domains'].apply(pd.Series).columns
     service_vars = df['Services'].apply(pd.Series).columns
 
@@ -229,12 +233,92 @@ def analyze_url_variable_correlations(df, top_n_list, corpus_key="c4"):
 
     # Perform Chi-Squared test and populate the results
     for var in all_vars:
+        # print(var)
         observed = pd.crosstab(random_df[var], pd.qcut(df[f"{corpus_key} tokens"], 4))
+        # print(observed)
         chi2, p, dof, expected = chi2_contingency(observed)
         results_df.loc[var, 'Chi-Squared Stat'] = f"{chi2:.2f}"
         results_df.loc[var, 'P-value'] = f"{p:.2f}"
 
     return results_df
+
+
+############################################################
+###### Population Estimation Analysis Functions
+############################################################
+
+
+def fit_logistic_regression(X, y):
+    """Fit a logistic regression model to the data."""
+    model = LogisticRegression(max_iter=1000)
+    model.fit(X, y)
+    return model
+
+def run_empirical_bayes(data_head, data_random, all_magnitudes):
+    """Run the Empirical Bayes method for a single population."""
+    # Combine head and random samples
+    data_combined = pd.concat([data_head, data_random])
+    
+    # Fit logistic regression model
+    X = data_combined[['magnitude']]
+    y = data_combined['binary_state']
+    model = fit_logistic_regression(X, y)
+    
+    # Predict probabilities for the entire population
+    X_all = all_magnitudes[['magnitude']]
+    predicted_probs = model.predict_proba(X)[:, 1]
+    
+    # Calculate expected summed magnitude of positive points
+    all_magnitudes['predicted_prob'] = predicted_probs
+    all_magnitudes['expected_positive_magnitude'] = all_magnitudes['magnitude'] * all_magnitudes['predicted_prob']
+    total_summed_magnitude = all_magnitudes['expected_positive_magnitude'].sum()
+    
+    return total_summed_magnitude
+
+def process_multiple_populations(populations):
+    """Process multiple populations and their binary variables."""
+    results = {}
+    
+    for population_name, data in populations.items():
+        data_head = data['head']
+        data_random = data['random']
+        all_magnitudes = data['all_magnitudes']
+        
+        for binary_var in data['binary_vars']:
+            # Update binary state column
+            data_head['binary_state'] = data_head[binary_var]
+            data_random['binary_state'] = data_random[binary_var]
+            
+            # Run Empirical Bayes method
+            total_summed_magnitude = run_empirical_bayes(data_head, data_random, all_magnitudes)
+            
+            # Store the result
+            if population_name not in results:
+                results[population_name] = {}
+            results[population_name][binary_var] = total_summed_magnitude
+    
+    return results
+
+# Example usage:
+# Assume populations is a dictionary containing the data for each population and their binary variables
+# populations = {
+#     'population1': {
+#         'head': data_head1,
+#         'random': data_random1,
+#         'all_magnitudes': all_magnitudes1,
+#         'binary_vars': ['binary_var1', 'binary_var2', ...]
+#     },
+#     'population2': {
+#         'head': data_head2,
+#         'random': data_random2,
+#         'all_magnitudes': all_magnitudes2,
+#         'binary_vars': ['binary_var1', 'binary_var2', ...]
+#     },
+#     ...
+# }
+
+# results = process_multiple_populations(populations)
+# print(results)
 
 
 ############################################################
