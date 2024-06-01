@@ -493,3 +493,198 @@ def create_stacked_area_chart(
     )
     
     return final_plot
+
+
+
+def plot_robots_time_map_3d_surface_plotly(
+    filled_status_summary, agent_groups_to_track, val_key="tokens"
+):
+    rows = []
+    for period, agent_dict in filled_status_summary.items():
+        for agent, status_dict in agent_dict.items():
+            if agent in agent_groups_to_track:
+                for status, url_set in status_dict.items():
+                    rows.append(
+                        {
+                            "period": str(period),
+                            "agent": agent,
+                            "status": status,
+                            val_key: len(url_set),
+                        }
+                    )
+    df = pd.DataFrame(rows)
+
+    filtered_df = df[df["agent"].isin(agent_groups_to_track)]
+    filtered_df["period"] = pd.to_datetime(filtered_df["period"], errors="coerce")
+    filtered_df = filtered_df.dropna(subset=["period"])
+    filtered_df = filtered_df[filtered_df["period"] <= pd.to_datetime("2024-04-30")]
+    filtered_df["period"] = filtered_df["period"].dt.strftime("%Y-%m")
+    filtered_df = filtered_df.sort_values(by="period")
+    filtered_df["year"] = filtered_df["period"].str[:4]
+    months_per_year = filtered_df.groupby("year")["period"].nunique().reset_index()
+    months_per_year.columns = ["year", "months"]
+    normalized_df = filtered_df.merge(months_per_year, on="year")
+    normalized_df["normalized_count"] = normalized_df[val_key] / normalized_df["months"]
+
+    pivot_df = normalized_df.pivot_table(
+        index=["period", "status"],
+        columns="agent",
+        values="normalized_count",
+        aggfunc="sum",
+        fill_value=0,
+    ).reset_index()
+    pivot_df = pd.melt(
+        pivot_df, id_vars=["period", "status"], var_name="agent", value_name="count"
+    )
+
+    pivot_df["period"] = pivot_df["period"].astype(str)
+    pivot_df["status"] = pivot_df["status"].astype(str)
+    pivot_df["agent"] = pivot_df["agent"].astype(str)
+
+    pivot_df["period_code"] = pivot_df["period"].astype("category").cat.codes
+    pivot_df["agent_code"] = pivot_df["agent"].astype("category").cat.codes
+    pivot_df["status_code"] = pivot_df["status"].astype("category").cat.codes
+
+    periods = pivot_df["period_code"].unique()
+    agents = pivot_df["agent_code"].unique()
+    statuses = pivot_df["status_code"].unique()
+
+    surface_data = []
+    for status in statuses:
+        status_df = pivot_df[pivot_df["status_code"] == status]
+        z_values = pd.pivot_table(
+            status_df,
+            values="count",
+            index="agent_code",
+            columns="period_code",
+            fill_value=0,
+        ).values
+        surface_data.append(z_values)
+
+    fig = go.Figure()
+
+    for idx, status in enumerate(statuses):
+        fig.add_trace(
+            go.Surface(
+                z=surface_data[idx],
+                x=periods,
+                y=agents,
+                colorscale="Viridis",
+                name=pivot_df[pivot_df["status_code"] == status]["status"].iloc[0],
+            )
+        )
+
+    fig.update_layout(
+        title="Restriction Status across Agents over Time",
+        scene=dict(
+            xaxis_title="Period",
+            yaxis_title="Agent",
+            zaxis_title="Normalized Count",
+            xaxis=dict(
+                tickvals=pivot_df["period_code"].unique(),
+                ticktext=pivot_df["period"].unique(),
+            ),
+            yaxis=dict(
+                tickvals=pivot_df["agent_code"].unique(),
+                ticktext=pivot_df["agent"].unique(),
+            ),
+        ),
+        height=800,
+        width=1200,
+        margin=dict(l=60, r=60, t=80, b=60),
+    )
+
+    fig.show()
+
+
+def plot_robots_time_map_3d_density(
+    filled_status_summary, agent_groups_to_track, val_key="count"
+):
+    rows = []
+    for period, agent_dict in filled_status_summary.items():
+        for agent, status_dict in agent_dict.items():
+            if agent in agent_groups_to_track:
+                for status, url_set in status_dict.items():
+                    rows.append(
+                        {
+                            "period": str(period),
+                            "agent": agent,
+                            "status": status,
+                            val_key: len(url_set),
+                        }
+                    )
+    df = pd.DataFrame(rows)
+
+    filtered_df = df[df["agent"].isin(agent_groups_to_track)]
+    period_mapping = {
+        period: idx for idx, period in enumerate(sorted(filtered_df["period"].unique()))
+    }
+    agent_mapping = {
+        agent: idx for idx, agent in enumerate(sorted(filtered_df["agent"].unique()))
+    }
+    status_mapping = {
+        status: idx for idx, status in enumerate(["no_robots", "none", "some", "all"])
+    }
+
+    filtered_df["period_num"] = filtered_df["period"].map(period_mapping)
+    filtered_df["agent_num"] = filtered_df["agent"].map(agent_mapping)
+    filtered_df["status_num"] = filtered_df["status"].map(status_mapping)
+
+    x = filtered_df["period_num"]
+    y = filtered_df["agent_num"]
+    z = filtered_df["status_num"]
+    values = filtered_df[val_key]
+
+    kde = gaussian_kde([x, y, z], weights=values)
+    xi, yi, zi = np.meshgrid(
+        np.linspace(x.min(), x.max(), 50),
+        np.linspace(y.min(), y.max(), 50),
+        np.linspace(z.min(), z.max(), 50),
+    )
+    coords = np.vstack([item.ravel() for item in [xi, yi, zi]])
+    density = kde(coords).reshape(xi.shape)
+
+    fig = go.Figure(
+        data=go.Volume(
+            x=xi.flatten(),
+            y=yi.flatten(),
+            z=zi.flatten(),
+            value=density.flatten(),
+            isomin=0.1,
+            isomax=density.max(),
+            opacity=0.1,
+            surface_count=20,
+            colorscale="Viridis",
+        )
+    )
+
+    fig.update_layout(
+        title=dict(text="Restriction Status across Agents", font=dict(size=24)),
+        scene=dict(
+            xaxis=dict(
+                title="Period",
+                tickvals=list(period_mapping.values()),
+                ticktext=list(period_mapping.keys()),
+                tickangle=45,
+                autorange=True,
+            ),
+            yaxis=dict(
+                title="Agent",
+                tickvals=list(agent_mapping.values()),
+                ticktext=list(agent_mapping.keys()),
+                tickangle=-45,
+                autorange=True,
+            ),
+            zaxis=dict(
+                title="Status",
+                tickvals=list(status_mapping.values()),
+                ticktext=list(status_mapping.keys()),
+            ),
+            camera=dict(eye=dict(x=1.5, y=1.5, z=1.5)),
+        ),
+        margin=dict(l=60, r=60, t=80, b=60),
+        height=800,
+        width=1200,
+    )
+
+    fig.show()
