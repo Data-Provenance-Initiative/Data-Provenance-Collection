@@ -1,9 +1,14 @@
-import os
-import sys
-from datetime import datetime
+from collections import defaultdict
+import itertools
+
+import numpy as np
 import pandas as pd
-from collections import Counter, defaultdict
 import matplotlib.pyplot as plt
+import plotly.express as px
+import plotly.graph_objects as go
+import seaborn as sns
+from scipy.stats import gaussian_kde
+from plotly.subplots import make_subplots
 
 from . import parse_robots
 from analysis import visualization_util, analysis_constants
@@ -16,42 +21,39 @@ from analysis import visualization_util, analysis_constants
 BOT_TRACKER = {
     "*All Agents*": {
         "train": ["*All Agents*"],
-        "retrieval": ["*All Agents*"]
+        "retrieval": ["*All Agents*"],
         # An aggregation of policies towards All Agents.
     },
-    "*": {
-        "train": ["*"],
-        "retrieval": ["*"]
-    },
+    "*": {"train": ["*"], "retrieval": ["*"]},
     "OpenAI": {
         "train": ["GPTBot"],
-        "retrieval": ["ChatGPT-User"]
+        "retrieval": ["ChatGPT-User"],
         # https://platform.openai.com/docs/gptbot
         # https://platform.openai.com/docs/plugins/bot
     },
     "Google": {
         "train": ["Google-Extended"],
-        "retrieval": ["Google-Extended"]
+        "retrieval": ["Google-Extended"],
         # https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
     },
     "Common Crawl": {
         "train": ["CCBot"],
-        "retrieval": ["CCBot"]
+        "retrieval": ["CCBot"],
         # https://commoncrawl.org/ccbot
     },
     "Amazon": {
         "train": ["Amazonbot"],
-        "retrieval": ["Amazonbot"]
+        "retrieval": ["Amazonbot"],
         # https://developer.amazon.com/amazonbot
     },
     "Anthropic False": {
         "train": ["anthropic-ai"],
-        "retrieval": ["Claude-Web"]
+        "retrieval": ["Claude-Web"],
         # https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler
     },
     "Anthropic": {
         "train": ["ClaudeBot", "CCBot"],
-        "retrieval": ["ClaudeBot", "CCBot"]
+        "retrieval": ["ClaudeBot", "CCBot"],
         # https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler
     },
     "Cohere": {
@@ -60,13 +62,10 @@ BOT_TRACKER = {
     },
     "Meta": {
         "train": ["FacebookBot"],
-        "retrieval": ["FacebookBot"]
+        "retrieval": ["FacebookBot"],
         # https://developers.facebook.com/docs/sharing/bot/
     },
-    "Internet Archive": {
-        "train": ["ia_archiver"],
-        "retrieval": ["ia_archiver"]
-    },
+    "Internet Archive": {"train": ["ia_archiver"], "retrieval": ["ia_archiver"]},
     # "Perplexity AI": {
     #     "train": ["PerplexityBot"],
     #     "retrieval": ["PerplexityBot"]
@@ -101,42 +100,56 @@ def get_bots(company=None, setting=None):
         return set([bot for role in BOT_TRACKER[company].values() for bot in role])
     if setting:
         # Return all bots for a specific setting across all companies
-        return set([bot for company in BOT_TRACKER.values() for bot in company.get(setting, [])])
+        return set(
+            [
+                bot
+                for company in BOT_TRACKER.values()
+                for bot in company.get(setting, [])
+            ]
+        )
     # Return all bots
-    return set([bot for company in BOT_TRACKER.values() for role in company.values() for bot in role])
+    return set(
+        [
+            bot
+            for company in BOT_TRACKER.values()
+            for role in company.values()
+            for bot in role
+        ]
+    )
 
 
 ############################################################
 ###### URL --> Token Lookup Methods
 ############################################################
 
+
 class URLTokenLookup:
     def __init__(self, file_path):
         """
         Initialize the URLTokenLookup object with data from a CSV file.
-        
+
         Args:
         file_path (str): The path to the CSV file containing the URL and token data.
         """
         self.file_path = file_path
         self.lookup_map = self._create_lookup_map()
-        self.index_map = {'c4': 0, 'rf': 1, 'dolma': 2}
+        self.index_map = {"c4": 0, "rf": 1, "dolma": 2}
 
         self._TOTAL_TOKENS = {
             "c4": 170005451386,
             "rf": 431169198316,
             "dolma": 1974278779400,
-        } 
+        }
         self._TOTAL_URLS = {
             "c4": 15928138,
             "rf": 33210738,
             "dolma": 45246789,
-        } # Total URLs in common = 10136147
-    
+        }  # Total URLs in common = 10136147
+
     def _create_lookup_map(self):
         """
         Create a lookup map from the CSV file.
-        
+
         Returns:
         dict: A dictionary with URLs as keys and tuples of token counts as values.
         """
@@ -144,22 +157,21 @@ class URLTokenLookup:
         # x = df.set_index('url')[['c4_tokens', 'rf_tokens', 'dolma_tokens']]
         # return {row['url']: (row['c4_tokens'], row['rf_tokens'], row['dolma_tokens']) for index, row in df.iterrows()}
 
-        df.set_index('url', inplace=True)
+        df.set_index("url", inplace=True)
 
         # Step 3: Convert the DataFrame to a dictionary with tuples as values
-        lookup_map = df.to_dict('index')  # Converts to a dictionary of dictionaries
+        lookup_map = df.to_dict("index")  # Converts to a dictionary of dictionaries
 
         # Convert inner dictionaries to tuples for a more compact and consistent data structure
         return {url: tuple(values.values()) for url, values in lookup_map.items()}
 
-    
     def total_tokens(self, dataset_name):
         """
         Compute the total count of tokens for the specified dataset.
-        
+
         Args:
         dataset_name (str): The name of the dataset ('c4', 'rf', or 'dolma').
-        
+
         Returns:
         int: Total number of tokens for the specified dataset.
         """
@@ -170,15 +182,15 @@ class URLTokenLookup:
         # for tokens in self.lookup_map.values():
         #     total += tokens[dataset_index]
         # return total
-    
+
     def url_tokens(self, url, dataset_name):
         """
         Get the number of tokens for a specific URL and dataset.
-        
+
         Args:
         url (str): The URL to lookup.
         dataset_name (str): The dataset name ('c4', 'rf', or 'dolma').
-        
+
         Returns:
         int: Number of tokens for the specified URL and dataset, or 0 if URL is not found.
         """
@@ -197,21 +209,32 @@ class URLTokenLookup:
         list: List of URLs corresponding to the top K token counts.
         """
         dataset_index = self.index_map[dataset_name]
-        
+
         # Create a list of (URL, token_count) tuples sorted by token_count in descending order
-        sorted_urls = sorted(self.lookup_map.items(), key=lambda item: item[1][dataset_index], reverse=True)
-        
+        sorted_urls = sorted(
+            self.lookup_map.items(),
+            key=lambda item: item[1][dataset_index],
+            reverse=True,
+        )
+
         # Extract the top K URLs
         top_urls = [url for url, tokens in sorted_urls[:k]]
-        num_tokens = sum([tokens[self.index_map[dataset_name]] for url, tokens in sorted_urls[:k]])
+        num_tokens = sum(
+            [tokens[self.index_map[dataset_name]] for url, tokens in sorted_urls[:k]]
+        )
         if verbose:
-            print(f"Number of tokens in {k} URLs: {num_tokens} | {round(100*num_tokens / self._TOTAL_TOKENS[dataset_name], 2)}% of {dataset_name}")
+            print(
+                f"Number of tokens in {k} URLs: {num_tokens} | {round(100*num_tokens / self._TOTAL_TOKENS[dataset_name], 2)}% of {dataset_name}"
+            )
         return top_urls
 
     def get_10k_random_sample(self):
-        top_urls = self.top_k_urls("c4", 2000, False) + self.top_k_urls("rf", 2000, False) + self.top_k_urls("dolma", 2000, False)
+        top_urls = (
+            self.top_k_urls("c4", 2000, False)
+            + self.top_k_urls("rf", 2000, False)
+            + self.top_k_urls("dolma", 2000, False)
+        )
         return [url for url in self.lookup_map if url not in top_urls]
-
 
     def get_url_to_token_map(self, dataset_name):
         dataset_index = self.index_map[dataset_name]
@@ -219,10 +242,8 @@ class URLTokenLookup:
         return dataset_lookup
 
 
-
-
 def agent_and_operation(agent_statuses):
-    """Given a list of agent blocks: all, some, none, and N/A,
+    """Given a list of agent statuses: all, some, none, and no_robots,
     return the strictest designation."""
     if "all" in agent_statuses:
         return "all"
@@ -230,14 +251,16 @@ def agent_and_operation(agent_statuses):
         return "some"
     elif "none" in agent_statuses:
         return "none"
-    return agent_statuses[0]
+    else:
+        return "no_robots"
+
 
 def find_closest_time_key(dates, target_period, direction):
     """
     Given a list of dates, and a specific target date, find the closest
     date in the list to the target date, in the specified direction.
     """
-    
+
     # Extract the target start date and end date from the target period
     target_start_date = target_period.start_time.to_pydatetime().date()
     target_end_date = target_period.end_time.to_pydatetime().date()
@@ -255,15 +278,22 @@ def find_closest_time_key(dates, target_period, direction):
     for key in dates:
         # Convert pandas timestamp to datetime.date
         key_date = key.to_pydatetime().date()
-        
-        if (key_date <= target_date if direction == "backward" else key_date >= target_date):
-            if closest_key is None or compare(key_date, closest_key.to_pydatetime().date()):
+
+        if (
+            key_date <= target_date
+            if direction == "backward"
+            else key_date >= target_date
+        ):
+            if closest_key is None or compare(
+                key_date, closest_key.to_pydatetime().date()
+            ):
                 closest_key = key
     return closest_key
 
+
 def compute_url_date_agent_status(data, relevant_agents):
     """
-    Args: 
+    Args:
         data: {URL --> Date --> robots.txt raw text}
         relevant_agents: List of agent names to track
 
@@ -276,7 +306,9 @@ def compute_url_date_agent_status(data, relevant_agents):
     for url, date_to_robots in data.items():
         if None in date_to_robots:
             print(url)
-        _, parsed_result = robots_stats, url_interpretations = parse_robots.analyze_robots(date_to_robots)
+        _, parsed_result = robots_stats, url_interpretations = (
+            parse_robots.analyze_robots(date_to_robots)
+        )
         for date_str, agent_to_status in parsed_result.items():
             date = pd.to_datetime(date_str)
             for agent in relevant_agents:
@@ -288,11 +320,12 @@ def compute_url_date_agent_status(data, relevant_agents):
 
 
 def prepare_robots_temporal_summary(
-    url_robots_summary, 
-    group_to_agents, 
-    start_time, 
-    end_time, 
+    url_robots_summary,
+    group_to_agents,
+    start_time,
+    end_time,
     time_frequency="M",
+    website_start_dates=None,
 ):
     """
     Fill in the missing weeks for each URL.
@@ -303,8 +336,9 @@ def prepare_robots_temporal_summary(
         start_time: YYYY-MM-DD
         end_time: YYYY-MM-DD
         time_frequency: "M" = Monthly, "W" = Weekly.
+        website_start_dates: {URL --> start_date} (optional)
 
-    Intermediate Prepares: 
+    Intermediate Prepares:
         {Period --> Agent --> Status --> set(URLs)}
 
     If url_to_counts then Returns:
@@ -312,32 +346,45 @@ def prepare_robots_temporal_summary(
     Else Returns:
         {Period --> Agent --> Status -->  count(URLs)}
     """
-    relevant_agents = [v for vs in group_to_agents.values() for v in vs]
     start_date = pd.to_datetime(start_time)
     end_date = pd.to_datetime(end_time)
     date_range = pd.period_range(start_date, end_date, freq=time_frequency)
-    # {Period --> Agent --> Status --> set(URLs)}
     filled_status_summary = defaultdict(lambda: defaultdict(lambda: defaultdict(set)))
-    for wi, period in enumerate(date_range):
-        if wi % 10 == 0:
-            print(period)
-        # for agent in relevant_agents:
-        for url, date_agent_status in url_robots_summary.items():
-            robots_time_keys = sorted(list(date_agent_status.keys()))
-            time_key = find_closest_time_key(robots_time_keys, period, direction="backward")
-            for group, agents in group_to_agents.items():
-                statuses = ["N/A" if time_key is None else date_agent_status[time_key][agent] for agent in agents]
-                group_status = agent_and_operation(statuses)
-                filled_status_summary[period][group][group_status].add(url)
+
+    for period in date_range:
+        for url, start_date in website_start_dates.items():
+            if pd.isnull(start_date):  # Skip URLs without a start date
+                continue
+            if (
+                url not in url_robots_summary
+            ):  # Skip URLs that don't exist in url_robots_summary
+                continue
+            if period.start_time >= start_date:
+                date_agent_status = url_robots_summary[url]
+                robots_time_keys = sorted(list(date_agent_status.keys()))
+                time_key = find_closest_time_key(
+                    robots_time_keys, period, direction="backward"
+                )
+
+                for group, agents in group_to_agents.items():
+                    if time_key is None:
+                        filled_status_summary[period][group]["no_robots"].add(
+                            url
+                        )  # Site exists but no robots.txt file for the period
+                    else:
+                        statuses = [
+                            date_agent_status[time_key].get(agent, "no_robots")
+                            for agent in agents
+                        ]
+                        group_status = agent_and_operation(statuses)
+                        filled_status_summary[period][group][group_status].add(url)
 
     return filled_status_summary
 
-def robots_temporal_to_df(
-    filled_status_summary, 
-    url_to_counts={}
-):
+
+def robots_temporal_to_df(filled_status_summary, url_to_counts={}):
     """
-    Args: 
+    Args:
         filled_status_summary: {Period --> Agent --> Status --> set(URLs)}
         url_to_counts: {url -> num tokens}. If available, will sum the tokens for each URL in counts
 
@@ -352,10 +399,19 @@ def robots_temporal_to_df(
     for period, agent_statuses in filled_status_summary.items():
         for agent, statuses in agent_statuses.items():
             for status, urls in statuses.items():
-                summary_df_list.append({'period': period, 'agent': agent, 'status': status, 'count': len(urls)})
+                summary_df_list.append(
+                    {
+                        "period": period,
+                        "agent": agent,
+                        "status": status,
+                        "count": len(urls),
+                    }
+                )
                 if url_to_counts:
-                    summary_df_list[-1].update({'tokens': sum([url_to_counts[url] for url in urls])})
-    
+                    summary_df_list[-1].update(
+                        {"tokens": sum([url_to_counts[url] for url in urls])}
+                    )
+
     summary_df = pd.DataFrame(summary_df_list)
     return summary_df
 
@@ -378,14 +434,18 @@ def get_latest_url_robot_statuses(url_robots_summary, agents):
             # result[url] = date_agent_status[final_date][agent]
     return result
 
+
 def bucket_urls_by_size(url_sizes, bucket_boundaries):
-    bucket_keys = [f"{bucket_boundaries[i]}-{bucket_boundaries[i+1]}" for i in range(len(bucket_boundaries) - 1)]
+    bucket_keys = [
+        f"{bucket_boundaries[i]}-{bucket_boundaries[i+1]}"
+        for i in range(len(bucket_boundaries) - 1)
+    ]
 
     # {"lower_bound - upper_bound" -> [list of URLs]}
     bucket_to_urls = defaultdict(list)
     for url, size in url_sizes.items():
         for i in range(len(bucket_boundaries) - 1):
-            if bucket_boundaries[i] <= size < bucket_boundaries[i+1]:
+            if bucket_boundaries[i] <= size < bucket_boundaries[i + 1]:
                 bucket_to_urls[bucket_keys[i]].append(url)
                 break
 
@@ -414,7 +474,7 @@ def analyze_url_changes(data, agent):
         if period == periods[0]:
             # Skip comparison for the first period
             previous_urls = current_urls
-            results[period] = {'unchanged': unchanged, 'changed': changed}
+            results[period] = {"unchanged": unchanged, "changed": changed}
             continue
 
         # Compare with previous period
@@ -425,17 +485,14 @@ def analyze_url_changes(data, agent):
                 else:
                     changed[(previous_urls[url], status)] += 1
 
-        results[period] = {'unchanged': unchanged, 'changed': changed}
+        results[period] = {"unchanged": unchanged, "changed": changed}
         previous_urls = current_urls
 
     return results
 
 
 def plot_size_against_restrictions(
-    url_robots_summary,
-    size_bucket_to_urls,
-    agent_group,
-    setting=None
+    url_robots_summary, size_bucket_to_urls, agent_group, setting=None
 ):
     agent_names = get_bots(agent_group, setting=setting)
     # {URL --> Date --> Agent --> Status} --> {URL —> status}
@@ -446,14 +503,16 @@ def plot_size_against_restrictions(
 
     cat_keys = ["all", "some", "none"]
     data_groups = defaultdict(lambda: [0, 0, 0])
-    url_to_bucket_key = {url: sz for sz, urls in size_bucket_to_urls.items() for url in urls}
+    url_to_bucket_key = {
+        url: sz for sz, urls in size_bucket_to_urls.items() for url in urls
+    }
     # data: "bucket range": [full restrictions, some restrictions, no restrictions]
     for url, status in current_url_status.items():
         if not status:
             print(url)
             print(status)
         data_groups[url_to_bucket_key[url]][cat_keys.index(status)] += 1
-    
+
     print(data_groups)
 
     return visualization_util.plot_stackedbars(
@@ -508,39 +567,465 @@ def encode_latest_tos_robots_into_df(
     return url_results_df
 
 
-def plot_robots_time_map(df, agent_type, val_key):
+def plot_robots_time_map(df, agent_type, val_keyfrequency="M"):
+    
+    filtered_df = df[df["agent"] == agent_type]
 
-    # Filter the DataFrame for the relevant agent
-    filtered_df = df[df['agent'] == agent_type]
-    
-    # Group by 'period' and 'status', and sum up the 'count'
-    grouped_df = filtered_df.groupby(['period', 'status'])[val_key].sum().unstack(fill_value=0)
-    
-    # Optional: Reorder the columns as desired (replace 'status1', 'status2', etc., with your actual status names)
-    ordered_statuses = ['N/A', 'none', 'some', 'all']  # Example: reorder as per your preference
+    grouped_df = (
+        filtered_df.groupby(["period", "status"])[val_key].sum().unstack(fill_value=0)
+    )
+    ordered_statuses = [
+        "N/A",
+        "none",
+        "some",
+        "all",
+    ]
     grouped_df = grouped_df[ordered_statuses]
-    
-    # Calculate the total counts for each period
     total_counts = grouped_df.sum(axis=1)
-    
-    # Calculate the percentage of each status per period
+
     percent_df = grouped_df.div(total_counts, axis=0) * 100
-    
-    # Specify colors for each stack (ensure this matches the order of statuses in 'ordered_statuses')
-    colors = ['gray', 'blue', 'orange', 'red']  # Assign colors to each status
-    
-    # Optional: Rename columns for custom labels in the legend
-    percent_df.columns = ['No Website/Robots', 'No Restrictions', 'Some Restrictions', 'Full Restrictions']  # Example labels
+
+    colors = ["gray", "blue", "orange", "red"]
+
+    percent_df.columns = [
+        "No Website/Robots",
+        "No Restrictions",
+        "Some Restrictions",
+        "Full Restrictions",
+    ]
     # gray (n/a), blue (some), red (none), orange (all)
     # Plotting the stacked area chart
     # percent_df.plot(kind='area', stacked=True, figsize=(10, 6))#, color=colors)
-    percent_df.plot(kind='area', stacked=True, figsize=(10, 6), color=colors)
-    
-    # plt.title(f"Restriction Status for {agent_type} over C4 Top 800")
-    plt.title(f"Restriction Status for {agent_type} over 10k Random Sample")
-    plt.xlabel('Period')
-    plt.ylabel('Percentage')
-    plt.legend(title='Status')
+    percent_df.plot(kind="area", stacked=True, figsize=(10, 6), color=colors)
+
+    plt.title(f"Restriction Status for {agent_type} over 10k Random Sample [{frequency}]")
+    plt.xlabel("Period")
+    plt.ylabel("Percentage")
+    plt.legend(title="Status")
+    plt.show()
+    plt.clf()
+
+
+def plot_robots_heat_map_plotly(
+    filled_status_summary, agent_groups_to_track, val_key="count"
+):
+    rows = []
+    for period, agent_dict in filled_status_summary.items():
+        for agent, status_dict in agent_dict.items():
+            if agent in agent_groups_to_track:
+                for status, url_set in status_dict.items():
+                    rows.append(
+                        {
+                            "period": period,
+                            "agent": agent,
+                            "status": status,
+                            val_key: len(url_set),
+                        }
+                    )
+    df = pd.DataFrame(rows)
+
+    filtered_df = df[df["agent"].isin(agent_groups_to_track)]
+
+    grouped_df = (
+        filtered_df.groupby(["period", "status", "agent"])[val_key]
+        .sum()
+        .unstack([1, 2], fill_value=0)
+    )
+
+    ordered_statuses = ["no_robots", "none", "some", "all"]
+    ordered_agents = sorted(grouped_df.columns.levels[1])
+    ordered_columns = list(itertools.product(ordered_statuses, ordered_agents))
+    grouped_df = grouped_df[ordered_columns]
+    total_counts = grouped_df.sum(axis=1)
+    percent_df = grouped_df.div(total_counts, axis=0) * 100
+    percent_df.index = percent_df.index.astype(str)
+
+    traces = []
+    for status, agent in ordered_columns:
+        trace = go.Scatter(
+            x=percent_df.index,
+            y=percent_df[status, agent],
+            mode="lines",
+            name=f"{agent} - {status}",
+            stackgroup="one",
+            groupnorm="percent",
+            line=dict(width=0),
+            fillcolor=None,
+            hovertemplate="%{y:.2f}%<extra></extra>",
+        )
+        traces.append(trace)
+
+    fig = go.Figure(
+        data=go.Heatmap(
+            z=percent_df.values,
+            x=percent_df.columns.get_level_values(1),
+            y=percent_df.index,
+            colorscale="Viridis",
+            colorbar=dict(title="Percentage", ticksuffix="%"),
+            hovertemplate="Agent: %{x}<br>Period: %{y}<br>Percentage: %{z:.2f}%<extra></extra>",
+        )
+    )
+
+    fig.update_layout(
+        title=dict(text="Restriction Status across Agents", font=dict(size=24)),
+        xaxis=dict(title="Agent", tickfont=dict(size=14), tickangle=45),
+        yaxis=dict(title="Period", tickfont=dict(size=14), autorange="reversed"),
+        plot_bgcolor="white",
+        height=600,
+        width=800,
+        margin=dict(l=60, r=60, t=80, b=60),
+    )
+
+    # Create the figure and display the plot
+    # fig = go.Figure(data=traces, layout=layout)
+    fig.show()
+
+
+def plot_robots_time_map_subplot_plotly(df, agent_types, val_key, frequency="M"):
+    num_agents = len(agent_types)
+    cols = 2  # Number of columns
+    rows = (num_agents + 1) // cols
+
+    fig = make_subplots(
+        rows=rows,
+        cols=cols,
+        shared_xaxes=False,
+        shared_yaxes=True,
+        vertical_spacing=0.1,
+        horizontal_spacing=0.1,
+        subplot_titles=[f"{agent}" for agent in agent_types],
+    )
+
+    colors = ["#505050", "#0D47A1", "#FF6F00", "#B71C1C"]
+
+    for index, agent_type in enumerate(agent_types):
+        row = (index // cols) + 1
+        col = (index % cols) + 1
+
+        filtered_df = df[df["agent"] == agent_type]
+        grouped_df = (
+            filtered_df.groupby(["period", "status"])[val_key]
+            .sum()
+            .unstack(fill_value=0)
+        )
+        ordered_statuses = ["no_robots", "none", "some", "all"]
+        grouped_df = grouped_df[ordered_statuses]
+        total_counts = grouped_df.sum(axis=1)
+        percent_df = grouped_df.div(total_counts, axis=0) * 100
+        percent_df.index = percent_df.index.astype(str)
+
+        for j, status in enumerate(ordered_statuses):
+            trace = go.Scatter(
+                x=percent_df.index,
+                y=percent_df[status],
+                mode="lines",
+                name=status,
+                stackgroup="one",
+                groupnorm="percent",
+                line=dict(width=0),
+                fillcolor=colors[j],
+                hovertemplate="%{y:.2f}%<extra></extra>",
+                showlegend=(index == 0),
+            )
+            fig.add_trace(trace, row=row, col=col)
+
+        fig.update_xaxes(title_text="Period", row=row, col=col, tickfont=dict(size=10))
+
+    if frequency == "M":
+        freq = "Monthly"
+    elif frequency == "Y":
+        freq = "Annual"
+
+    fig.update_layout(
+        title=f"Restriction Status for Different Agents over Dolma Head Sample ({freq})",
+        height=1200,
+        width=1000,
+        plot_bgcolor="white",
+        hovermode="x unified",
+        hoverlabel=dict(font=dict(size=10)),
+        margin=dict(l=60, r=60, t=80, b=60),
+    )
+
+    fig.update_yaxes(title_text="Percentage", tickfont=dict(size=10))
+
+    fig.show()
+
+
+def plot_robots_time_map_plotly(df, agent_type, val_key):
+    filtered_df = df[df["agent"] == agent_type]
+
+    grouped_df = (
+        filtered_df.groupby(["period", "status"])[val_key].sum().unstack(fill_value=0)
+    )
+
+    ordered_statuses = ["no_robots", "none", "some", "all"]
+    grouped_df = grouped_df[ordered_statuses]
+    total_counts = grouped_df.sum(axis=1)
+    percent_df = grouped_df.div(total_counts, axis=0) * 100
+    percent_df.index = percent_df.index.astype(str)
+
+    traces = []
+    for status in ordered_statuses:
+        trace = go.Scatter(
+            x=percent_df.index,
+            y=percent_df[status],
+            mode="lines",
+            name=status,
+            stackgroup="one",
+            groupnorm="percent",
+            line=dict(width=0),
+            fillcolor=None,
+            hovertemplate="%{y:.2f}%<extra></extra>",
+        )
+        traces.append(trace)
+
+    colors = ["#505050", "#0D47A1", "#FF6F00", "#B71C1C"]
+    for i, trace in enumerate(traces):
+        trace.fillcolor = colors[i]
+
+    layout = go.Layout(
+        title=dict(
+            text=f"Restriction Status for {agent_type} over Dolma Head Sample",
+            x=0.5,
+            font=dict(size=24),
+        ),
+        xaxis=dict(title="Period", tickfont=dict(size=14)),
+        yaxis=dict(title="Percentage", tickfont=dict(size=14), ticksuffix="%"),
+        legend=dict(
+            title="Status",
+            font=dict(size=14),
+            x=1.02,
+            y=1,
+            borderwidth=1,
+            bordercolor="#d3d3d3",
+        ),
+        plot_bgcolor="white",
+        hovermode="x unified",
+        hoverlabel=dict(font=dict(size=14)),
+        margin=dict(l=60, r=60, t=80, b=60),
+        shapes=[
+            dict(
+                type="line",
+                xref="paper",
+                yref="paper",
+                x0=1,
+                x1=1,
+                y0=0,
+                y1=1,
+                line=dict(color="#d3d3d3", width=1),
+            )
+        ],
+    )
+    fig = go.Figure(data=traces, layout=layout)
+    fig.show()
+
+
+def plot_robots_time_map_matplotlib(df, agent_type, val_key):
+    filtered_df = df[df["agent"] == agent_type]
+
+    grouped_df = (
+        filtered_df.groupby(["period", "status"])[val_key].sum().unstack(fill_value=0)
+    )
+
+    ordered_statuses = ["no_robots", "none", "some", "all"]
+    grouped_df = grouped_df[ordered_statuses]
+
+    total_counts = grouped_df.sum(axis=1)
+
+    percent_df = grouped_df.div(total_counts, axis=0) * 100
+
+    colors = ["#505050", "#0D47A1", "#FF6F00", "#B71C1C"]
+
+    percent_df.columns = [
+        "No Robots",
+        "No Restrictions",
+        "Some Restrictions",
+        "Full Restrictions",
+    ]
+
+    sns.set_style("white")
+
+    fig, ax = plt.subplots(figsize=(12, 8))
+
+    percent_df.plot(kind="area", stacked=True, color=colors, ax=ax)
+
+    ax.set_title(
+        f"Restriction Status for {agent_type} over Dolma Head Sample",
+        fontsize=20,
+        fontweight="bold",
+    )
+    ax.set_xlabel("Period", fontsize=16)
+    ax.set_ylabel("Percentage", fontsize=16)
+    ax.legend(
+        title="Status",
+        fontsize=12,
+        title_fontsize=14,
+        loc="upper left",
+        bbox_to_anchor=(1.02, 1),
+    )
+
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+    ax.spines["left"].set_visible(False)
+    ax.spines["bottom"].set_visible(False)
+
+    ax.tick_params(axis="both", which="major", labelsize=12)
+
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f"{int(x)}%"))
+
+    plt.tight_layout()
+    plt.subplots_adjust(right=0.8)
+
+    plt.show()
+    plt.clf()
+
+
+def plot_robots_time_map_facet_heatmap(
+    filled_status_summary, agent_groups_to_track, val_key="count"
+):
+    rows = []
+    for period, agent_dict in filled_status_summary.items():
+        for agent, status_dict in agent_dict.items():
+            if agent in agent_groups_to_track:
+                for status, url_set in status_dict.items():
+                    rows.append(
+                        {
+                            "period": str(period),
+                            "agent": agent,
+                            "status": status,
+                            val_key: len(url_set),
+                        }
+                    )
+    df = pd.DataFrame(rows)
+
+    filtered_df = df[df["agent"].isin(agent_groups_to_track)]
+
+    filtered_df["period"] = pd.to_datetime(filtered_df["period"], errors="coerce")
+    filtered_df = filtered_df.dropna(subset=["period"])
+    filtered_df = filtered_df[filtered_df["period"] <= pd.to_datetime("2024-04-30")]
+    filtered_df["period"] = filtered_df["period"].dt.strftime("%Y-%m")
+
+    filtered_df = filtered_df.sort_values(by="period")
+
+    filtered_df["year"] = filtered_df["period"].str[:4]
+
+    months_per_year = filtered_df.groupby("year")["period"].nunique().reset_index()
+    months_per_year.columns = ["year", "months"]
+
+    normalized_df = filtered_df.merge(months_per_year, on="year")
+
+    normalized_df["normalized_count"] = normalized_df[val_key] / normalized_df["months"]
+
+    pivot_df = normalized_df.pivot_table(
+        index=["period", "status"],
+        columns="agent",
+        values="normalized_count",
+        aggfunc="sum",
+        fill_value=0,
+    ).reset_index()
+    pivot_df = pd.melt(
+        pivot_df, id_vars=["period", "status"], var_name="agent", value_name="count"
+    )
+
+    pivot_df["period"] = pivot_df["period"].astype(str)
+    pivot_df["status"] = pivot_df["status"].astype(str)
+    pivot_df["agent"] = pivot_df["agent"].astype(str)
+
+    fig = px.density_heatmap(
+        pivot_df,
+        x="period",
+        y="agent",
+        z="count",
+        facet_col="status",
+        color_continuous_scale="Viridis",
+    )
+
+    fig.update_layout(
+        title="Restriction Status across Agents over Time",
+        xaxis_title="Period",
+        yaxis_title="Agent",
+        height=800,
+        width=1200,
+        margin=dict(l=60, r=60, t=80, b=60),
+        coloraxis_colorbar=dict(title="Counts"),
+    )
+
+    fig.show()
+
+
+def plot_robots_time_map_3d_surface_matplotlib(
+    filled_status_summary, agent_groups_to_track, val_key="count"
+):
+    rows = []
+    for period, agent_dict in filled_status_summary.items():
+        for agent, status_dict in agent_dict.items():
+            if agent in agent_groups_to_track:
+                for status, url_set in status_dict.items():
+                    rows.append(
+                        {
+                            "period": str(period),
+                            "agent": agent,
+                            "status": status,
+                            val_key: len(url_set),
+                        }
+                    )
+    df = pd.DataFrame(rows)
+
+    filtered_df = df[df["agent"].isin(agent_groups_to_track)]
+    filtered_df["period"] = pd.to_datetime(filtered_df["period"], errors="coerce")
+    filtered_df = filtered_df.dropna(subset=["period"])
+    filtered_df = filtered_df[filtered_df["period"] <= pd.to_datetime("2024-04-30")]
+    filtered_df["year"] = filtered_df["period"].dt.year.astype(
+        str
+    )
+
+    months_per_year = filtered_df.groupby("year")["period"].nunique().reset_index()
+    months_per_year.columns = ["year", "months"]
+    normalized_df = filtered_df.merge(months_per_year, on="year")
+    normalized_df["normalized_count"] = normalized_df[val_key] / normalized_df["months"]
+
+    pivot_df = normalized_df.pivot_table(
+        index=["agent", "year"],
+        columns="status",
+        values="normalized_count",
+        aggfunc="sum",
+        fill_value=0,
+    ).reset_index()
+
+    pivot_df["agent_code"] = pivot_df["agent"].astype("category").cat.codes
+    pivot_df["year_code"] = pivot_df["year"].astype("category").cat.codes
+
+    years = pivot_df["year_code"].unique()
+    agents = pivot_df["agent_code"].unique()
+
+    fig = plt.figure(figsize=(12, 8))
+    ax = fig.add_subplot(111, projection="3d")
+
+    status_labels = pivot_df.columns[2:]
+    for status in status_labels:
+        z_values = pivot_df.pivot(
+            index="agent_code", columns="year_code", values=status
+        ).values
+
+        X, Y = np.meshgrid(years, agents)
+        Z = z_values
+
+        surf = ax.plot_surface(
+            X, Y, Z, cmap="viridis", edgecolor="none", alpha=0.7, label=status
+        )
+
+    ax.set_title("Restriction Status across Agents over Time")
+    ax.set_xlabel("Year")
+    ax.set_ylabel("Agent")
+    ax.set_zlabel("Normalized Count")
+    ax.set_xticks(years)
+    ax.set_xticklabels(pivot_df["year"].unique(), rotation=45, ha="right")
+    ax.set_yticks(agents)
+    ax.set_yticklabels(pivot_df["agent"].unique())
+
+    ax.legend(status_labels)
+
+    fig.colorbar(surf, ax=ax, shrink=0.5, aspect=5)
     plt.show()
     plt.clf()
 
@@ -597,6 +1082,4 @@ def general_plot_robots_time_map(
 # status_colors = {'N/A': 'gray', 'none': 'blue', 'some': 'orange', 'all': 'red'}
 # chart = general_plot_robots_time_map(df, 'agent', 'some_agent_type', 'period', 'status', 'count', 'Restriction Status over Time', ordered_statuses, status_colors)
 # chart.show()
-
-
 
