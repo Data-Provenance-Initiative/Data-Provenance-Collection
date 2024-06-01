@@ -413,3 +413,83 @@ def plot_confusion_matrix(
     )
     
     return final_plot
+
+
+def create_stacked_area_chart(
+    df, 
+    period_col, 
+    status_col, 
+    percentage_col, 
+    title='', 
+    ordered_statuses=None, 
+    status_colors=None,
+    vertical_line_dates=[],
+    width=1200, 
+    height=400, 
+    font_size=20, 
+    font_style='sans-serif',
+):
+    if ordered_statuses is None:
+        ordered_statuses = df[status_col].unique().tolist()
+    
+    if status_colors is None:
+        status_colors = {status: 'gray' for status in ordered_statuses}
+    
+
+    # Create the Altair chart
+    chart = alt.Chart(df).mark_area().encode(
+        # x=alt.X(f'{period_col}:T', axis=alt.Axis(format='%Y', title=period_col)),
+        x=f'{period_col}:T',
+        y=f'{percentage_col}:Q',
+        color=alt.Color(
+            f'{status_col}:N', 
+            scale=alt.Scale(domain=list(status_colors.keys()), 
+            range=list(status_colors.values())), 
+            title=status_col
+        ),
+        order="order:Q"
+        # tooltip=[period_col, status_col, percentage_col]
+    )
+    
+    if vertical_line_dates:
+
+        # Specify the date where the vertical line should be placed
+        for vl_date in vertical_line_dates:
+            # vertical_line_date = pd.to_datetime('2020-01-05')
+            vl_date = pd.to_datetime(vl_date)
+
+            # Create the vertical line
+            vertical_line = alt.Chart(pd.DataFrame({period_col: [vl_date]})).mark_rule(
+                color='white',
+                strokeDash=[5, 5]  # This makes the line dotted
+            ).encode(
+                x=f'{period_col}:T'
+            )
+
+            chart = chart + vertical_line
+
+
+    final_plot = chart.properties(
+        title=title,
+        width=width,
+        height=height
+    ).configure_axis(
+        labelFontSize=font_size,
+        labelFont=font_style,
+        titleFontSize=font_size,
+        titleFont=font_style,
+        domain=True
+        # labelAngle=30,
+    ).configure_axisX(
+        labelAngle=0,
+        domain=True
+    ).configure_axisY(
+        domain=True
+    ).configure_legend(
+        labelFontSize=font_size,
+        titleFontSize=font_size,
+        labelFont=font_style,
+        titleFont=font_style
+    )
+    
+    return final_plot
