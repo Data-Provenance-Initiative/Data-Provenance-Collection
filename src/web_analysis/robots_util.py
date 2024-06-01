@@ -1,6 +1,14 @@
-import pandas as pd
 from collections import defaultdict
+import itertools
+
+import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
+import plotly.express as px
+import plotly.graph_objects as go
+import seaborn as sns
+from scipy.stats import gaussian_kde
+from plotly.subplots import make_subplots
 
 from . import parse_robots
 from analysis import analysis_util
@@ -523,50 +531,656 @@ def plot_size_against_restrictions(
     )
 
 
-def plot_robots_time_map(df, agent_type, val_key):
-
-    # Filter the DataFrame for the relevant agent
+def plot_robots_time_map(df, agent_type, val_key, frequency="M"):
     filtered_df = df[df["agent"] == agent_type]
 
-    # Group by 'period' and 'status', and sum up the 'count'
     grouped_df = (
         filtered_df.groupby(["period", "status"])[val_key].sum().unstack(fill_value=0)
     )
-
-    # Optional: Reorder the columns as desired (replace 'status1', 'status2', etc., with your actual status names)
     ordered_statuses = [
         "N/A",
         "none",
         "some",
         "all",
-    ]  # Example: reorder as per your preference
+    ]
     grouped_df = grouped_df[ordered_statuses]
-
-    # Calculate the total counts for each period
     total_counts = grouped_df.sum(axis=1)
 
-    # Calculate the percentage of each status per period
     percent_df = grouped_df.div(total_counts, axis=0) * 100
 
-    # Specify colors for each stack (ensure this matches the order of statuses in 'ordered_statuses')
-    colors = ["gray", "blue", "orange", "red"]  # Assign colors to each status
+    colors = ["gray", "blue", "orange", "red"]
 
-    # Optional: Rename columns for custom labels in the legend
     percent_df.columns = [
         "No Website/Robots",
         "No Restrictions",
         "Some Restrictions",
         "Full Restrictions",
-    ]  # Example labels
+    ]
     # gray (n/a), blue (some), red (none), orange (all)
     # Plotting the stacked area chart
     # percent_df.plot(kind='area', stacked=True, figsize=(10, 6))#, color=colors)
     percent_df.plot(kind="area", stacked=True, figsize=(10, 6), color=colors)
 
-    # plt.title(f"Restriction Status for {agent_type} over C4 Top 800")
-    plt.title(f"Restriction Status for {agent_type} over 10k Random Sample")
+    plt.title(f"Restriction Status for {agent_type} over 10k Random Sample [{frequency}]")
     plt.xlabel("Period")
     plt.ylabel("Percentage")
     plt.legend(title="Status")
     plt.show()
     plt.clf()
+
+
+def plot_robots_heat_map_plotly(
+    filled_status_summary, agent_groups_to_track, val_key="count"
+):
+    rows = []
+    for period, agent_dict in filled_status_summary.items():
+        for agent, status_dict in agent_dict.items():
+            if agent in agent_groups_to_track:
+                for status, url_set in status_dict.items():
+                    rows.append(
+                        {
+                            "period": period,
+                            "agent": agent,
+                            "status": status,
+                            val_key: len(url_set),
+                        }
+                    )
+    df = pd.DataFrame(rows)
+
+    filtered_df = df[df["agent"].isin(agent_groups_to_track)]
+
+    grouped_df = (
+        filtered_df.groupby(["period", "status", "agent"])[val_key]
+        .sum()
+        .unstack([1, 2], fill_value=0)
+    )
+
+    ordered_statuses = ["no_robots", "none", "some", "all"]
+    ordered_agents = sorted(grouped_df.columns.levels[1])
+    ordered_columns = list(itertools.product(ordered_statuses, ordered_agents))
+    grouped_df = grouped_df[ordered_columns]
+    total_counts = grouped_df.sum(axis=1)
+    percent_df = grouped_df.div(total_counts, axis=0) * 100
+    percent_df.index = percent_df.index.astype(str)
+
+    traces = []
+    for status, agent in ordered_columns:
+        trace = go.Scatter(
+            x=percent_df.index,
+            y=percent_df[status, agent],
+            mode="lines",
+            name=f"{agent} - {status}",
+            stackgroup="one",
+            groupnorm="percent",
+            line=dict(width=0),
+            fillcolor=None,
+            hovertemplate="%{y:.2f}%<extra></extra>",
+        )
+        traces.append(trace)
+
+    fig = go.Figure(
+        data=go.Heatmap(
+            z=percent_df.values,
+            x=percent_df.columns.get_level_values(1),
+            y=percent_df.index,
+            colorscale="Viridis",
+            colorbar=dict(title="Percentage", ticksuffix="%"),
+            hovertemplate="Agent: %{x}<br>Period: %{y}<br>Percentage: %{z:.2f}%<extra></extra>",
+        )
+    )
+
+    fig.update_layout(
+        title=dict(text="Restriction Status across Agents", font=dict(size=24)),
+        xaxis=dict(title="Agent", tickfont=dict(size=14), tickangle=45),
+        yaxis=dict(title="Period", tickfont=dict(size=14), autorange="reversed"),
+        plot_bgcolor="white",
+        height=600,
+        width=800,
+        margin=dict(l=60, r=60, t=80, b=60),
+    )
+
+    # Create the figure and display the plot
+    # fig = go.Figure(data=traces, layout=layout)
+    fig.show()
+
+
+def plot_robots_time_map_subplot_plotly(df, agent_types, val_key, frequency="M"):
+    num_agents = len(agent_types)
+    cols = 2  # Number of columns
+    rows = (num_agents + 1) // cols
+
+    fig = make_subplots(
+        rows=rows,
+        cols=cols,
+        shared_xaxes=False,
+        shared_yaxes=True,
+        vertical_spacing=0.1,
+        horizontal_spacing=0.1,
+        subplot_titles=[f"{agent}" for agent in agent_types],
+    )
+
+    colors = ["#505050", "#0D47A1", "#FF6F00", "#B71C1C"]
+
+    for index, agent_type in enumerate(agent_types):
+        row = (index // cols) + 1
+        col = (index % cols) + 1
+
+        filtered_df = df[df["agent"] == agent_type]
+        grouped_df = (
+            filtered_df.groupby(["period", "status"])[val_key]
+            .sum()
+            .unstack(fill_value=0)
+        )
+        ordered_statuses = ["no_robots", "none", "some", "all"]
+        grouped_df = grouped_df[ordered_statuses]
+        total_counts = grouped_df.sum(axis=1)
+        percent_df = grouped_df.div(total_counts, axis=0) * 100
+        percent_df.index = percent_df.index.astype(str)
+
+        for j, status in enumerate(ordered_statuses):
+            trace = go.Scatter(
+                x=percent_df.index,
+                y=percent_df[status],
+                mode="lines",
+                name=status,
+                stackgroup="one",
+                groupnorm="percent",
+                line=dict(width=0),
+                fillcolor=colors[j],
+                hovertemplate="%{y:.2f}%<extra></extra>",
+                showlegend=(index == 0),
+            )
+            fig.add_trace(trace, row=row, col=col)
+
+        fig.update_xaxes(title_text="Period", row=row, col=col, tickfont=dict(size=10))
+
+    if frequency == "M":
+        freq = "Monthly"
+    elif frequency == "Y":
+        freq = "Annual"
+
+    fig.update_layout(
+        title=f"Restriction Status for Different Agents over Dolma Head Sample ({freq})",
+        height=1200,
+        width=1000,
+        plot_bgcolor="white",
+        hovermode="x unified",
+        hoverlabel=dict(font=dict(size=10)),
+        margin=dict(l=60, r=60, t=80, b=60),
+    )
+
+    fig.update_yaxes(title_text="Percentage", tickfont=dict(size=10))
+
+    fig.show()
+
+
+def plot_robots_time_map_plotly(df, agent_type, val_key):
+    filtered_df = df[df["agent"] == agent_type]
+
+    grouped_df = (
+        filtered_df.groupby(["period", "status"])[val_key].sum().unstack(fill_value=0)
+    )
+
+    ordered_statuses = ["no_robots", "none", "some", "all"]
+    grouped_df = grouped_df[ordered_statuses]
+    total_counts = grouped_df.sum(axis=1)
+    percent_df = grouped_df.div(total_counts, axis=0) * 100
+    percent_df.index = percent_df.index.astype(str)
+
+    traces = []
+    for status in ordered_statuses:
+        trace = go.Scatter(
+            x=percent_df.index,
+            y=percent_df[status],
+            mode="lines",
+            name=status,
+            stackgroup="one",
+            groupnorm="percent",
+            line=dict(width=0),
+            fillcolor=None,
+            hovertemplate="%{y:.2f}%<extra></extra>",
+        )
+        traces.append(trace)
+
+    colors = ["#505050", "#0D47A1", "#FF6F00", "#B71C1C"]
+    for i, trace in enumerate(traces):
+        trace.fillcolor = colors[i]
+
+    layout = go.Layout(
+        title=dict(
+            text=f"Restriction Status for {agent_type} over Dolma Head Sample",
+            x=0.5,
+            font=dict(size=24),
+        ),
+        xaxis=dict(title="Period", tickfont=dict(size=14)),
+        yaxis=dict(title="Percentage", tickfont=dict(size=14), ticksuffix="%"),
+        legend=dict(
+            title="Status",
+            font=dict(size=14),
+            x=1.02,
+            y=1,
+            borderwidth=1,
+            bordercolor="#d3d3d3",
+        ),
+        plot_bgcolor="white",
+        hovermode="x unified",
+        hoverlabel=dict(font=dict(size=14)),
+        margin=dict(l=60, r=60, t=80, b=60),
+        shapes=[
+            dict(
+                type="line",
+                xref="paper",
+                yref="paper",
+                x0=1,
+                x1=1,
+                y0=0,
+                y1=1,
+                line=dict(color="#d3d3d3", width=1),
+            )
+        ],
+    )
+    fig = go.Figure(data=traces, layout=layout)
+    fig.show()
+
+
+def plot_robots_time_map_matplotlib(df, agent_type, val_key):
+    filtered_df = df[df["agent"] == agent_type]
+
+    grouped_df = (
+        filtered_df.groupby(["period", "status"])[val_key].sum().unstack(fill_value=0)
+    )
+
+    ordered_statuses = ["no_robots", "none", "some", "all"]
+    grouped_df = grouped_df[ordered_statuses]
+
+    total_counts = grouped_df.sum(axis=1)
+
+    percent_df = grouped_df.div(total_counts, axis=0) * 100
+
+    colors = ["#505050", "#0D47A1", "#FF6F00", "#B71C1C"]
+
+    percent_df.columns = [
+        "No Robots",
+        "No Restrictions",
+        "Some Restrictions",
+        "Full Restrictions",
+    ]
+
+    sns.set_style("white")
+
+    fig, ax = plt.subplots(figsize=(12, 8))
+
+    percent_df.plot(kind="area", stacked=True, color=colors, ax=ax)
+
+    ax.set_title(
+        f"Restriction Status for {agent_type} over Dolma Head Sample",
+        fontsize=20,
+        fontweight="bold",
+    )
+    ax.set_xlabel("Period", fontsize=16)
+    ax.set_ylabel("Percentage", fontsize=16)
+    ax.legend(
+        title="Status",
+        fontsize=12,
+        title_fontsize=14,
+        loc="upper left",
+        bbox_to_anchor=(1.02, 1),
+    )
+
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+    ax.spines["left"].set_visible(False)
+    ax.spines["bottom"].set_visible(False)
+
+    ax.tick_params(axis="both", which="major", labelsize=12)
+
+    ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f"{int(x)}%"))
+
+    plt.tight_layout()
+    plt.subplots_adjust(right=0.8)
+
+    plt.show()
+    plt.clf()
+
+
+def plot_robots_time_map_facet_heatmap(
+    filled_status_summary, agent_groups_to_track, val_key="count"
+):
+    rows = []
+    for period, agent_dict in filled_status_summary.items():
+        for agent, status_dict in agent_dict.items():
+            if agent in agent_groups_to_track:
+                for status, url_set in status_dict.items():
+                    rows.append(
+                        {
+                            "period": str(period),
+                            "agent": agent,
+                            "status": status,
+                            val_key: len(url_set),
+                        }
+                    )
+    df = pd.DataFrame(rows)
+
+    filtered_df = df[df["agent"].isin(agent_groups_to_track)]
+
+    filtered_df["period"] = pd.to_datetime(filtered_df["period"], errors="coerce")
+    filtered_df = filtered_df.dropna(subset=["period"])
+    filtered_df = filtered_df[filtered_df["period"] <= pd.to_datetime("2024-04-30")]
+    filtered_df["period"] = filtered_df["period"].dt.strftime("%Y-%m")
+
+    filtered_df = filtered_df.sort_values(by="period")
+
+    filtered_df["year"] = filtered_df["period"].str[:4]
+
+    months_per_year = filtered_df.groupby("year")["period"].nunique().reset_index()
+    months_per_year.columns = ["year", "months"]
+
+    normalized_df = filtered_df.merge(months_per_year, on="year")
+
+    normalized_df["normalized_count"] = normalized_df[val_key] / normalized_df["months"]
+
+    pivot_df = normalized_df.pivot_table(
+        index=["period", "status"],
+        columns="agent",
+        values="normalized_count",
+        aggfunc="sum",
+        fill_value=0,
+    ).reset_index()
+    pivot_df = pd.melt(
+        pivot_df, id_vars=["period", "status"], var_name="agent", value_name="count"
+    )
+
+    pivot_df["period"] = pivot_df["period"].astype(str)
+    pivot_df["status"] = pivot_df["status"].astype(str)
+    pivot_df["agent"] = pivot_df["agent"].astype(str)
+
+    fig = px.density_heatmap(
+        pivot_df,
+        x="period",
+        y="agent",
+        z="count",
+        facet_col="status",
+        color_continuous_scale="Viridis",
+    )
+
+    fig.update_layout(
+        title="Restriction Status across Agents over Time",
+        xaxis_title="Period",
+        yaxis_title="Agent",
+        height=800,
+        width=1200,
+        margin=dict(l=60, r=60, t=80, b=60),
+        coloraxis_colorbar=dict(title="Counts"),
+    )
+
+    fig.show()
+
+
+def plot_robots_time_map_3d_surface_matplotlib(
+    filled_status_summary, agent_groups_to_track, val_key="count"
+):
+    rows = []
+    for period, agent_dict in filled_status_summary.items():
+        for agent, status_dict in agent_dict.items():
+            if agent in agent_groups_to_track:
+                for status, url_set in status_dict.items():
+                    rows.append(
+                        {
+                            "period": str(period),
+                            "agent": agent,
+                            "status": status,
+                            val_key: len(url_set),
+                        }
+                    )
+    df = pd.DataFrame(rows)
+
+    filtered_df = df[df["agent"].isin(agent_groups_to_track)]
+    filtered_df["period"] = pd.to_datetime(filtered_df["period"], errors="coerce")
+    filtered_df = filtered_df.dropna(subset=["period"])
+    filtered_df = filtered_df[filtered_df["period"] <= pd.to_datetime("2024-04-30")]
+    filtered_df["year"] = filtered_df["period"].dt.year.astype(
+        str
+    )
+
+    months_per_year = filtered_df.groupby("year")["period"].nunique().reset_index()
+    months_per_year.columns = ["year", "months"]
+    normalized_df = filtered_df.merge(months_per_year, on="year")
+    normalized_df["normalized_count"] = normalized_df[val_key] / normalized_df["months"]
+
+    pivot_df = normalized_df.pivot_table(
+        index=["agent", "year"],
+        columns="status",
+        values="normalized_count",
+        aggfunc="sum",
+        fill_value=0,
+    ).reset_index()
+
+    pivot_df["agent_code"] = pivot_df["agent"].astype("category").cat.codes
+    pivot_df["year_code"] = pivot_df["year"].astype("category").cat.codes
+
+    years = pivot_df["year_code"].unique()
+    agents = pivot_df["agent_code"].unique()
+
+    fig = plt.figure(figsize=(12, 8))
+    ax = fig.add_subplot(111, projection="3d")
+
+    status_labels = pivot_df.columns[2:]
+    for status in status_labels:
+        z_values = pivot_df.pivot(
+            index="agent_code", columns="year_code", values=status
+        ).values
+
+        X, Y = np.meshgrid(years, agents)
+        Z = z_values
+
+        surf = ax.plot_surface(
+            X, Y, Z, cmap="viridis", edgecolor="none", alpha=0.7, label=status
+        )
+
+    ax.set_title("Restriction Status across Agents over Time")
+    ax.set_xlabel("Year")
+    ax.set_ylabel("Agent")
+    ax.set_zlabel("Normalized Count")
+    ax.set_xticks(years)
+    ax.set_xticklabels(pivot_df["year"].unique(), rotation=45, ha="right")
+    ax.set_yticks(agents)
+    ax.set_yticklabels(pivot_df["agent"].unique())
+
+    ax.legend(status_labels)
+
+    fig.colorbar(surf, ax=ax, shrink=0.5, aspect=5)
+    plt.show()
+
+
+def plot_robots_time_map_3d_surface_plotly(
+    filled_status_summary, agent_groups_to_track, val_key="tokens"
+):
+    rows = []
+    for period, agent_dict in filled_status_summary.items():
+        for agent, status_dict in agent_dict.items():
+            if agent in agent_groups_to_track:
+                for status, url_set in status_dict.items():
+                    rows.append(
+                        {
+                            "period": str(period),
+                            "agent": agent,
+                            "status": status,
+                            val_key: len(url_set),
+                        }
+                    )
+    df = pd.DataFrame(rows)
+
+    filtered_df = df[df["agent"].isin(agent_groups_to_track)]
+    filtered_df["period"] = pd.to_datetime(filtered_df["period"], errors="coerce")
+    filtered_df = filtered_df.dropna(subset=["period"])
+    filtered_df = filtered_df[filtered_df["period"] <= pd.to_datetime("2024-04-30")]
+    filtered_df["period"] = filtered_df["period"].dt.strftime("%Y-%m")
+    filtered_df = filtered_df.sort_values(by="period")
+    filtered_df["year"] = filtered_df["period"].str[:4]
+    months_per_year = filtered_df.groupby("year")["period"].nunique().reset_index()
+    months_per_year.columns = ["year", "months"]
+    normalized_df = filtered_df.merge(months_per_year, on="year")
+    normalized_df["normalized_count"] = normalized_df[val_key] / normalized_df["months"]
+
+    pivot_df = normalized_df.pivot_table(
+        index=["period", "status"],
+        columns="agent",
+        values="normalized_count",
+        aggfunc="sum",
+        fill_value=0,
+    ).reset_index()
+    pivot_df = pd.melt(
+        pivot_df, id_vars=["period", "status"], var_name="agent", value_name="count"
+    )
+
+    pivot_df["period"] = pivot_df["period"].astype(str)
+    pivot_df["status"] = pivot_df["status"].astype(str)
+    pivot_df["agent"] = pivot_df["agent"].astype(str)
+
+    pivot_df["period_code"] = pivot_df["period"].astype("category").cat.codes
+    pivot_df["agent_code"] = pivot_df["agent"].astype("category").cat.codes
+    pivot_df["status_code"] = pivot_df["status"].astype("category").cat.codes
+
+    periods = pivot_df["period_code"].unique()
+    agents = pivot_df["agent_code"].unique()
+    statuses = pivot_df["status_code"].unique()
+
+    surface_data = []
+    for status in statuses:
+        status_df = pivot_df[pivot_df["status_code"] == status]
+        z_values = pd.pivot_table(
+            status_df,
+            values="count",
+            index="agent_code",
+            columns="period_code",
+            fill_value=0,
+        ).values
+        surface_data.append(z_values)
+
+    fig = go.Figure()
+
+    for idx, status in enumerate(statuses):
+        fig.add_trace(
+            go.Surface(
+                z=surface_data[idx],
+                x=periods,
+                y=agents,
+                colorscale="Viridis",
+                name=pivot_df[pivot_df["status_code"] == status]["status"].iloc[0],
+            )
+        )
+
+    fig.update_layout(
+        title="Restriction Status across Agents over Time",
+        scene=dict(
+            xaxis_title="Period",
+            yaxis_title="Agent",
+            zaxis_title="Normalized Count",
+            xaxis=dict(
+                tickvals=pivot_df["period_code"].unique(),
+                ticktext=pivot_df["period"].unique(),
+            ),
+            yaxis=dict(
+                tickvals=pivot_df["agent_code"].unique(),
+                ticktext=pivot_df["agent"].unique(),
+            ),
+        ),
+        height=800,
+        width=1200,
+        margin=dict(l=60, r=60, t=80, b=60),
+    )
+
+    fig.show()
+
+
+def plot_robots_time_map_3d_density(
+    filled_status_summary, agent_groups_to_track, val_key="count"
+):
+    rows = []
+    for period, agent_dict in filled_status_summary.items():
+        for agent, status_dict in agent_dict.items():
+            if agent in agent_groups_to_track:
+                for status, url_set in status_dict.items():
+                    rows.append(
+                        {
+                            "period": str(period),
+                            "agent": agent,
+                            "status": status,
+                            val_key: len(url_set),
+                        }
+                    )
+    df = pd.DataFrame(rows)
+
+    filtered_df = df[df["agent"].isin(agent_groups_to_track)]
+    period_mapping = {
+        period: idx for idx, period in enumerate(sorted(filtered_df["period"].unique()))
+    }
+    agent_mapping = {
+        agent: idx for idx, agent in enumerate(sorted(filtered_df["agent"].unique()))
+    }
+    status_mapping = {
+        status: idx for idx, status in enumerate(["no_robots", "none", "some", "all"])
+    }
+
+    filtered_df["period_num"] = filtered_df["period"].map(period_mapping)
+    filtered_df["agent_num"] = filtered_df["agent"].map(agent_mapping)
+    filtered_df["status_num"] = filtered_df["status"].map(status_mapping)
+
+    x = filtered_df["period_num"]
+    y = filtered_df["agent_num"]
+    z = filtered_df["status_num"]
+    values = filtered_df[val_key]
+
+    kde = gaussian_kde([x, y, z], weights=values)
+    xi, yi, zi = np.meshgrid(
+        np.linspace(x.min(), x.max(), 50),
+        np.linspace(y.min(), y.max(), 50),
+        np.linspace(z.min(), z.max(), 50),
+    )
+    coords = np.vstack([item.ravel() for item in [xi, yi, zi]])
+    density = kde(coords).reshape(xi.shape)
+
+    fig = go.Figure(
+        data=go.Volume(
+            x=xi.flatten(),
+            y=yi.flatten(),
+            z=zi.flatten(),
+            value=density.flatten(),
+            isomin=0.1,
+            isomax=density.max(),
+            opacity=0.1,
+            surface_count=20,
+            colorscale="Viridis",
+        )
+    )
+
+    fig.update_layout(
+        title=dict(text="Restriction Status across Agents", font=dict(size=24)),
+        scene=dict(
+            xaxis=dict(
+                title="Period",
+                tickvals=list(period_mapping.values()),
+                ticktext=list(period_mapping.keys()),
+                tickangle=45,
+                autorange=True,
+            ),
+            yaxis=dict(
+                title="Agent",
+                tickvals=list(agent_mapping.values()),
+                ticktext=list(agent_mapping.keys()),
+                tickangle=-45,
+                autorange=True,
+            ),
+            zaxis=dict(
+                title="Status",
+                tickvals=list(status_mapping.values()),
+                ticktext=list(status_mapping.keys()),
+            ),
+            camera=dict(eye=dict(x=1.5, y=1.5, z=1.5)),
+        ),
+        margin=dict(l=60, r=60, t=80, b=60),
+        height=800,
+        width=1200,
+    )
+
+    fig.show()
