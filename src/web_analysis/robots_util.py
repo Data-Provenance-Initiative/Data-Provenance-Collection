@@ -468,43 +468,6 @@ def plot_size_against_restrictions(
     )
 
 
-def plot_robots_time_map(df, agent_type, val_key):
-
-    # Filter the DataFrame for the relevant agent
-    filtered_df = df[df['agent'] == agent_type]
-    
-    # Group by 'period' and 'status', and sum up the 'count'
-    grouped_df = filtered_df.groupby(['period', 'status'])[val_key].sum().unstack(fill_value=0)
-    
-    # Optional: Reorder the columns as desired (replace 'status1', 'status2', etc., with your actual status names)
-    ordered_statuses = ['N/A', 'none', 'some', 'all']  # Example: reorder as per your preference
-    grouped_df = grouped_df[ordered_statuses]
-    
-    # Calculate the total counts for each period
-    total_counts = grouped_df.sum(axis=1)
-    
-    # Calculate the percentage of each status per period
-    percent_df = grouped_df.div(total_counts, axis=0) * 100
-    
-    # Specify colors for each stack (ensure this matches the order of statuses in 'ordered_statuses')
-    colors = ['gray', 'blue', 'orange', 'red']  # Assign colors to each status
-    
-    # Optional: Rename columns for custom labels in the legend
-    percent_df.columns = ['No Website/Robots', 'No Restrictions', 'Some Restrictions', 'Full Restrictions']  # Example labels
-    # gray (n/a), blue (some), red (none), orange (all)
-    # Plotting the stacked area chart
-    # percent_df.plot(kind='area', stacked=True, figsize=(10, 6))#, color=colors)
-    percent_df.plot(kind='area', stacked=True, figsize=(10, 6), color=colors)
-    
-    # plt.title(f"Restriction Status for {agent_type} over C4 Top 800")
-    plt.title(f"Restriction Status for {agent_type} over 10k Random Sample")
-    plt.xlabel('Period')
-    plt.ylabel('Percentage')
-    plt.legend(title='Status')
-    plt.show()
-    plt.clf()
-
-
 def tos_get_most_recent_verdict(tos_policies):
     url_to_recent_policy = {}
     for url, time_to_subpage_to_verdicts in tos_policies.items():
@@ -543,3 +506,97 @@ def encode_latest_tos_robots_into_df(
     tos_strictness = {v: k < 5  for k, v in analysis_constants.TOS_AI_SCRAPING_VERDICT_MAPPER.items()}
     url_results_df["Restrictive Terms"] = url_results_df["ToS"].map(tos_strictness)
     return url_results_df
+
+
+def plot_robots_time_map(df, agent_type, val_key):
+
+    # Filter the DataFrame for the relevant agent
+    filtered_df = df[df['agent'] == agent_type]
+    
+    # Group by 'period' and 'status', and sum up the 'count'
+    grouped_df = filtered_df.groupby(['period', 'status'])[val_key].sum().unstack(fill_value=0)
+    
+    # Optional: Reorder the columns as desired (replace 'status1', 'status2', etc., with your actual status names)
+    ordered_statuses = ['N/A', 'none', 'some', 'all']  # Example: reorder as per your preference
+    grouped_df = grouped_df[ordered_statuses]
+    
+    # Calculate the total counts for each period
+    total_counts = grouped_df.sum(axis=1)
+    
+    # Calculate the percentage of each status per period
+    percent_df = grouped_df.div(total_counts, axis=0) * 100
+    
+    # Specify colors for each stack (ensure this matches the order of statuses in 'ordered_statuses')
+    colors = ['gray', 'blue', 'orange', 'red']  # Assign colors to each status
+    
+    # Optional: Rename columns for custom labels in the legend
+    percent_df.columns = ['No Website/Robots', 'No Restrictions', 'Some Restrictions', 'Full Restrictions']  # Example labels
+    # gray (n/a), blue (some), red (none), orange (all)
+    # Plotting the stacked area chart
+    # percent_df.plot(kind='area', stacked=True, figsize=(10, 6))#, color=colors)
+    percent_df.plot(kind='area', stacked=True, figsize=(10, 6), color=colors)
+    
+    # plt.title(f"Restriction Status for {agent_type} over C4 Top 800")
+    plt.title(f"Restriction Status for {agent_type} over 10k Random Sample")
+    plt.xlabel('Period')
+    plt.ylabel('Percentage')
+    plt.legend(title='Status')
+    plt.show()
+    plt.clf()
+
+
+
+
+def general_plot_robots_time_map(
+    df,  
+    agent_type, 
+    period_col, 
+    status_col, 
+    val_col, 
+    title='', 
+    ordered_statuses=None, 
+    status_colors=None
+):
+    # Filter the DataFrame for the relevant agent
+    filtered_df = df[df["agent"] == agent_type]
+    
+    # Group by 'period' and 'status', and sum up the 'count'
+    grouped_df = filtered_df.groupby([period_col, status_col])[val_col].sum().unstack(fill_value=0)
+    
+    # Reorder the columns as desired
+    if ordered_statuses is None:
+        ordered_statuses = grouped_df.columns.tolist()
+    grouped_df = grouped_df[ordered_statuses]
+    
+    # Calculate the total counts for each period
+    total_counts = grouped_df.sum(axis=1)
+    
+
+    # Calculate the percentage of each status per period
+    percent_df = grouped_df.div(total_counts, axis=0).reset_index()
+    percent_df[period_col] = percent_df[period_col].dt.to_timestamp()
+    
+    # Convert to long format for Altair
+    percent_long_df = percent_df.melt(id_vars=period_col, var_name=status_col, value_name='percentage')
+    
+    # Create the chart using the general plotting function
+    chart = visualization_util.create_stacked_area_chart(
+        df=percent_long_df,
+        period_col=period_col,
+        status_col=status_col,
+        percentage_col='percentage',
+        title=title,
+        ordered_statuses=ordered_statuses,
+        status_colors=status_colors
+    )
+    
+    return chart
+
+# Example usage with your DataFrame
+# ordered_statuses = ['N/A', 'none', 'some', 'all']
+# status_colors = {'N/A': 'gray', 'none': 'blue', 'some': 'orange', 'all': 'red'}
+# chart = general_plot_robots_time_map(df, 'agent', 'some_agent_type', 'period', 'status', 'count', 'Restriction Status over Time', ordered_statuses, status_colors)
+# chart.show()
+
+
+
