@@ -58,7 +58,7 @@ BOT_TRACKER = {
         "train": ["cohere-ai"],
         "retrieval": ["cohere-ai"]
     },
-    "Facebook": {
+    "Meta": {
         "train": ["FacebookBot"],
         "retrieval": ["FacebookBot"]
         # https://developers.facebook.com/docs/sharing/bot/
@@ -78,9 +78,9 @@ BOT_TRACKER = {
     # },
 }
 
-def get_bot_groups():
+def get_bot_groups(groups=BOT_TRACKER.keys()):
     ret = {}
-    for group in BOT_TRACKER.keys():
+    for group in groups:
         ret[group] = list(set(BOT_TRACKER[group]["train"] + BOT_TRACKER[group]["retrieval"]))
     return ret
 
@@ -98,7 +98,7 @@ def get_bots(company=None, setting=None):
             x = BOT_TRACKER.get(company, {}).get(setting, [])
             return set(x)
         # Return all bots for a specific company
-        return set([bot for role in BOT_TRACKER.get(company, {}).values() for bot in role])
+        return set([bot for role in BOT_TRACKER[company].values() for bot in role])
     if setting:
         # Return all bots for a specific setting across all companies
         return set([bot for company in BOT_TRACKER.values() for bot in company.get(setting, [])])
@@ -524,3 +524,22 @@ def prepare_recent_robots_tos_info(
     print(len(url_robots_status))
     url_tos_verdicts = tos_get_most_recent_verdict(tos_policies_dict)
     return url_robots_status, url_tos_verdicts
+
+def encode_latest_tos_robots_into_df(
+    url_results_df,
+    tos_policies,
+    url_robots_summary,
+    companies,
+):
+
+    recent_url_robots, recent_url_tos_verdicts = prepare_recent_robots_tos_info(
+        tos_policies, url_robots_summary, companies
+    )
+    url_results_df["robots"] = url_results_df["URL"].map(recent_url_robots)
+    url_results_df['robots'].fillna("none", inplace=True)
+    url_results_df["Restrictive Robots.txt"] = url_results_df["robots"].map({"all": True, "some": False, "none": False})
+    url_results_df["ToS"] = url_results_df["URL"].map(recent_url_tos_verdicts)
+    url_results_df['ToS'].fillna('No Restrictions', inplace=True)
+    tos_strictness = {v: k < 5  for k, v in analysis_constants.TOS_AI_SCRAPING_VERDICT_MAPPER.items()}
+    url_results_df["Restrictive Terms"] = url_results_df["ToS"].map(tos_strictness)
+    return url_results_df
