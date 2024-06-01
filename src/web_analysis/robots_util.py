@@ -1,8 +1,10 @@
 from collections import defaultdict
 import itertools
 
+import json
 import numpy as np
 import pandas as pd
+from datetime import datetime
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
@@ -328,6 +330,26 @@ def compute_url_date_agent_status(data, relevant_agents):
     # print(set(all_statuses))
     return status_summary
 
+def read_snapshots(fpath, robots_urls):
+    def get_website_start_dates(json_data):
+        start_dates = {}
+        for website, snapshots in json_data.items():
+            snapshot_dates = [datetime.strptime(date[:10], '%Y-%m-%d') for date in snapshots.keys()]
+            if snapshot_dates:
+                start_date = min(snapshot_dates)
+                start_dates[website] = start_date
+        return start_dates
+
+    # Load the JSON data
+    with open(fpath, 'r') as file:
+        json_data = json.load(file)
+
+    # Replace with the actual path to the snapshots directory
+    start_dates = get_website_start_dates(json_data)
+
+    # Map the sanitized URLs back to the original URLs
+    website_start_dates = {url: start_dates.get(url) for url in robots_urls}
+    return website_start_dates
 
 def prepare_robots_temporal_summary(
     url_robots_summary,
@@ -452,11 +474,15 @@ def get_tos_url_time_verdicts(
     Returns:
         URL --> time --> ToS verdict string.    
     """
-    url_to_time_to_verdict = defaultdict(lambda: defaultdict(str))
+    url_to_time_to_verdict = {}
     for url, time_to_subpage_to_verdicts in tos_policies.items():
         for tos_time, subpage_verdict in time_to_subpage_to_verdicts.items():
             verdict_codes = [vinfo["verdict"] for vinfo in time_to_subpage_to_verdicts[tos_time].values()]
-            url_to_time_to_policy[url][tos_time] = analysis_constants.TOS_AI_SCRAPING_VERDICT_MAPPER[max(verdict_codes)]
+            if url not in url_to_time_to_verdict:
+                url_to_time_to_verdict[url] = {}
+            url_to_time_to_verdict[url].update(
+                {tos_time: analysis_constants.TOS_AI_SCRAPING_VERDICT_MAPPER[max(verdict_codes)]}
+            )
     return url_to_time_to_verdict
     
     
@@ -483,7 +509,7 @@ def prepare_tos_temporal_summary(
     start_date = pd.to_datetime(start_time)
     end_date = pd.to_datetime(end_time)
     date_range = pd.period_range(start_date, end_date, freq=time_frequency)
-    filled_status_summary = defaultdict(lambda: defaultdict(lambda: defaultdict(set)))
+    filled_status_summary = defaultdict(lambda: defaultdict(set))
 
     for period in date_range:
         for url, start_date in website_start_dates.items():
@@ -494,10 +520,10 @@ def prepare_tos_temporal_summary(
             ):  # Skip URLs that don't exist in url_robots_summary
                 continue
             if period.start_time >= start_date:
-                date_agent_status = tos_time_verdicts[url]
-                robots_time_keys = sorted(list(date_agent_status.keys()))
+                date_to_verdict = tos_time_verdicts[url]
+                tos_time_keys = sorted([pd.to_datetime(date_str) for date_str in date_to_verdict.keys()])
                 time_key = find_closest_time_key(
-                    robots_time_keys, period, direction="backward"
+                    tos_time_keys, period, direction="backward"
                 )
 
                 # for group, agents in group_to_agents.items():
@@ -506,14 +532,22 @@ def prepare_tos_temporal_summary(
                         url
                     )  # Site exists but no robots.txt file for the period
                 else:
-                    filled_status_summary[period][date_agent_status[time_key]].add(url)
+                    time_key = time_key.strftime("%Y-%m-%d")
+                    if time_key not in date_to_verdict:
+                        print(f"Found bug: {date_to_verdict}")
+                    filled_status_summary[period][date_to_verdict[time_key]].add(url)
 
     return filled_status_summary
 
-def tos_temporal_to_df(filled_status_summary, url_to_counts={}):
+def tos_temporal_to_df(
+    filled_status_summary, 
+    url_set, 
+    url_to_counts={}
+):
     """
     Args:
         filled_status_summary: {Period --> Status --> set(URLs)}
+        url_set: Limit to this list of URLs (e.g. head vs random)
         url_to_counts: {url -> num tokens}. If available, will sum the tokens for each URL in counts
 
     Returns:
@@ -524,16 +558,17 @@ def tos_temporal_to_df(filled_status_summary, url_to_counts={}):
     summary_df_list = []
     for period, status_urls in filled_status_summary.items():
         for status, urls in status_urls.items():
+            included_urls = [url for url in urls if url in url_set]
             summary_df_list.append(
                 {
                     "period": period,
                     "status": status,
-                    "count": len(urls),
+                    "count": len(included_urls),
                 }
             )
             if url_to_counts:
                 summary_df_list[-1].update(
-                    {"tokens": sum([url_to_counts[url] for url in urls])}
+                    {"tokens": sum([url_to_counts[url] for url in included_urls])}
                 )
 
     summary_df = pd.DataFrame(summary_df_list)
@@ -822,11 +857,12 @@ def plot_temporal_area_map_altair(
     status_colors=None
 ):
     # Group by 'period' and 'status', and sum up the 'count'
-    grouped_df = filtered_df.groupby([period_col, status_col])[val_col].sum().unstack(fill_value=0)
+    grouped_df = df.groupby([period_col, status_col])[val_col].sum().unstack(fill_value=0)
     
     # Reorder the columns as desired
     if ordered_statuses is None:
         ordered_statuses = grouped_df.columns.tolist()
+
     grouped_df = grouped_df[ordered_statuses]
     
     # Calculate the total counts for each period
