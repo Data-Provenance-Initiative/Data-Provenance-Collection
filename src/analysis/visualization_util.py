@@ -685,3 +685,57 @@ def plot_robots_time_map_3d_density(
     )
 
     fig.show()
+
+
+def plot_company_comparisons_altair(
+    df,
+    vertical_line_dates=[],
+    color_mapping={}
+):
+    # Assuming you have your data in a DataFrame called 'df'
+    df = df.copy()  # Create a copy to avoid modifying the original DataFrame
+    
+    # Convert the 'Period' column to datetime
+    # df['period'] = pd.to_datetime(df['period'], format='%Y-%m')
+    df['period'] = df['period'].dt.to_timestamp()
+    
+    # Calculate the percentage of tokens for the 'Restrictive' status
+    total_tokens = df.groupby(['period', 'agent'])['tokens'].sum().reset_index()
+    restrictive_tokens = df[df['status'] == 'all'].groupby(['period', 'agent'])['tokens'].sum().reset_index()
+    data = pd.merge(total_tokens, restrictive_tokens, on=['period', 'agent'], how='left').fillna(0)
+    data['percent_Restrictive'] = (data['tokens_y'] / data['tokens_x']) * 100
+    data = data[['period', 'agent', 'percent_Restrictive']]
+    
+    # Create the color scale based on the provided color mapping
+    color_scale = alt.Scale(domain=list(color_mapping.keys()), range=list(color_mapping.values()))
+
+    # Create the Altair chart
+    chart = alt.Chart(data).mark_line(point=True).encode(
+        x=alt.X('yearmonth(period):T', title='Year', axis=alt.Axis(labelAngle=-45)),
+        y=alt.Y('percent_Restrictive:Q', title='Percentage of Tokens'),
+        color=alt.Color('agent:N', scale=color_scale, legend=alt.Legend(title='Agent', orient='bottom')),
+        # color=alt.Color('agent:N', scale=color_scale, legend=alt.Legend(title='Agent')),
+        tooltip=['agent', alt.Tooltip('percent_Restrictive:Q', format='.2f')]
+    )
+    
+    if vertical_line_dates:
+        for vl_date in vertical_line_dates:
+            vl_date = pd.to_datetime(vl_date)
+            vertical_line = alt.Chart(pd.DataFrame({'period': [vl_date]})).mark_rule(
+                color='white',
+                strokeDash=[5, 5]
+            ).encode(
+                x='period:T'
+            )
+            chart = chart + vertical_line
+
+    chart = chart.properties(
+        width=1000,
+        height=200
+    ).configure_axis(
+        grid=False
+    ).configure_view(
+        strokeWidth=0
+    )
+    
+    return chart
