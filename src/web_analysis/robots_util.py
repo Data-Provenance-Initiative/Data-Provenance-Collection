@@ -836,7 +836,6 @@ def plot_robots_time_map_altair(
         status_colors=status_colors,
     )
     
-
 def plot_temporal_area_map_altair(
     df,
     period_col, 
@@ -860,7 +859,7 @@ def plot_temporal_area_map_altair(
 
     # Calculate the percentage of each status per period
     percent_df = grouped_df.div(total_counts, axis=0).reset_index()
-    percent_df[period_col] = percent_df[period_col].dt.to_timestamp()
+    percent_df[period_col] = pd.to_datetime(percent_df[period_col])
     
     # Convert to long format for Altair
     percent_long_df = percent_df.melt(id_vars=period_col, var_name=status_col, value_name='percentage')
@@ -877,6 +876,46 @@ def plot_temporal_area_map_altair(
     )
     
     return chart
+# def plot_temporal_area_map_altair(
+#     df,
+#     period_col, 
+#     status_col, 
+#     val_col, 
+#     title='', 
+#     ordered_statuses=None, 
+#     status_colors=None
+# ):
+#     # Group by 'period' and 'status', and sum up the 'count'
+#     grouped_df = df.groupby([period_col, status_col])[val_col].sum().unstack(fill_value=0)
+    
+#     # Reorder the columns as desired
+#     if ordered_statuses is None:
+#         ordered_statuses = grouped_df.columns.tolist()
+
+#     grouped_df = grouped_df[ordered_statuses]
+    
+#     # Calculate the total counts for each period
+#     total_counts = grouped_df.sum(axis=1)
+
+#     # Calculate the percentage of each status per period
+#     percent_df = grouped_df.div(total_counts, axis=0).reset_index()
+#     percent_df[period_col] = percent_df[period_col].dt.to_timestamp()
+    
+#     # Convert to long format for Altair
+#     percent_long_df = percent_df.melt(id_vars=period_col, var_name=status_col, value_name='percentage')
+    
+#     # Create the chart using the general plotting function
+#     chart = visualization_util.create_stacked_area_chart(
+#         df=percent_long_df,
+#         period_col=period_col,
+#         status_col=status_col,
+#         percentage_col='percentage',
+#         title=title,
+#         ordered_statuses=ordered_statuses,
+#         status_colors=status_colors
+#     )
+    
+#     return chart
 
 # Example usage with your DataFrame
 # ordered_statuses = ['N/A', 'none', 'some', 'all']
