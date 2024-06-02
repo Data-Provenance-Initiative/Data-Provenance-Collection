@@ -258,13 +258,19 @@
     ],
     "International/Other/Unknown": [
         "BigCode",
+        "BigScience",
         "Center for Research on Engineering Software Technologies",
         "CodeX",
         "Collective Cognition",
+        "Flax-sentence-embeddings",
         "Mobile Communications Business",
+        "Rupert",
         "Multimodal Art Projection (M-A-P)",
         "TCS Research Tata Consultancy Services",
-        "explainthejoke.com"
+        "TRoboto",
+        "Tidrael",
+        "explainthejoke.com",
+        "zpn"
     ],
     "Iran": [
         "Shahid Beheshti University",
@@ -318,7 +324,6 @@
     ],
     "Jordan": [
         "Appswave",
-        "TRoboto",
         "The University of Jordan"
     ],
     "Kazakhstan": [
@@ -511,7 +516,6 @@
         "PolyAI Limited",
         "Queen Mary University of London",
         "Queen\u2019s University",
-        "Rupert",
         "The British Library",
         "University College London",
         "University Of Surrey",
@@ -536,7 +540,6 @@
         "Arizona State University",
         "Artie Inc.",
         "Auburn University",
-        "BigScience",
         "Bloomberg",
         "Booz Allen Hamilton",
         "Boston Childrens Hospital",
@@ -666,14 +669,12 @@
         "Swinburne University of Technology",
         "TaskRabbit",
         "Texas A&M University",
-        "Texas Instruments",
         "Texas Instruments Inc.",
         "The Institute for Human & Machine Cognition",
         "The Nueva School",
         "The Ohio State University",
         "The Pennsylvania State University",
         "The University of Texas at Austin",
-        "Tidrael",
         "Toyota Technological Institute at Chicago",
         "TransPerfect Translations",
         "Tulane University",
@@ -722,8 +723,7 @@
         "Walmart Labs",
         "Wright State University",
         "Yahoo! Inc.",
-        "Yale University",
-        "zpn"
+        "Yale University"
     ],
     "Vietnam": [
         "VietAI",
