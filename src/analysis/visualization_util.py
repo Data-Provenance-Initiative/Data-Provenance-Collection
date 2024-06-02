@@ -415,6 +415,7 @@ def plot_confusion_matrix(
     return final_plot
 
 
+
 def create_stacked_area_chart(
     df, 
     period_col, 
@@ -435,39 +436,28 @@ def create_stacked_area_chart(
     if status_colors is None:
         status_colors = {status: 'gray' for status in ordered_statuses}
     
-
     # Create the Altair chart
     chart = alt.Chart(df).mark_area().encode(
-        # x=alt.X(f'{period_col}:T', axis=alt.Axis(format='%Y', title=period_col)),
-        x=f'{period_col}:T',
-        y=f'{percentage_col}:Q',
+        x=alt.X(f'{period_col}:T', axis=alt.Axis(format='%Y', title=period_col)),
+        y=alt.Y(f'{percentage_col}:Q', scale=alt.Scale(domain=[0, 1]), axis=alt.Axis(format='.0f', title=percentage_col)),
         color=alt.Color(
             f'{status_col}:N', 
-            scale=alt.Scale(domain=list(status_colors.keys()), 
-            range=list(status_colors.values())), 
+            scale=alt.Scale(domain=list(status_colors.keys()), range=list(status_colors.values())), 
             title=status_col
         ),
         order="order:Q"
-        # tooltip=[period_col, status_col, percentage_col]
     )
     
     if vertical_line_dates:
-
-        # Specify the date where the vertical line should be placed
         for vl_date in vertical_line_dates:
-            # vertical_line_date = pd.to_datetime('2020-01-05')
             vl_date = pd.to_datetime(vl_date)
-
-            # Create the vertical line
             vertical_line = alt.Chart(pd.DataFrame({period_col: [vl_date]})).mark_rule(
                 color='white',
-                strokeDash=[5, 5]  # This makes the line dotted
+                strokeDash=[5, 5]
             ).encode(
                 x=f'{period_col}:T'
             )
-
             chart = chart + vertical_line
-
 
     final_plot = chart.properties(
         title=title,
@@ -479,12 +469,16 @@ def create_stacked_area_chart(
         titleFontSize=font_size,
         titleFont=font_style,
         domain=True
-        # labelAngle=30,
     ).configure_axisX(
         labelAngle=0,
-        domain=True
+        domain=True,
+        format='%Y',
+        tickCount='year',
+        labelExpr="timeFormat(datum.value, '%Y')"  # Ensure only year labels are shown
     ).configure_axisY(
-        domain=True
+        domain=True,
+        format='.0f',
+        labelExpr="datum.value * 100"  # Scale from 0-1 to 0-100
     ).configure_legend(
         labelFontSize=font_size,
         titleFontSize=font_size,
@@ -493,6 +487,9 @@ def create_stacked_area_chart(
     )
     
     return final_plot
+
+
+
 
 
 
@@ -688,3 +685,57 @@ def plot_robots_time_map_3d_density(
     )
 
     fig.show()
+
+
+def plot_company_comparisons_altair(
+    df,
+    vertical_line_dates=[],
+    color_mapping={}
+):
+    # Assuming you have your data in a DataFrame called 'df'
+    df = df.copy()  # Create a copy to avoid modifying the original DataFrame
+    
+    # Convert the 'Period' column to datetime
+    # df['period'] = pd.to_datetime(df['period'], format='%Y-%m')
+    df['period'] = df['period'].dt.to_timestamp()
+    
+    # Calculate the percentage of tokens for the 'Restrictive' status
+    total_tokens = df.groupby(['period', 'agent'])['tokens'].sum().reset_index()
+    restrictive_tokens = df[df['status'] == 'all'].groupby(['period', 'agent'])['tokens'].sum().reset_index()
+    data = pd.merge(total_tokens, restrictive_tokens, on=['period', 'agent'], how='left').fillna(0)
+    data['percent_Restrictive'] = (data['tokens_y'] / data['tokens_x']) * 100
+    data = data[['period', 'agent', 'percent_Restrictive']]
+    
+    # Create the color scale based on the provided color mapping
+    color_scale = alt.Scale(domain=list(color_mapping.keys()), range=list(color_mapping.values()))
+
+    # Create the Altair chart
+    chart = alt.Chart(data).mark_line(point=True).encode(
+        x=alt.X('yearmonth(period):T', title='Year', axis=alt.Axis(labelAngle=-45)),
+        y=alt.Y('percent_Restrictive:Q', title='Percentage of Tokens'),
+        color=alt.Color('agent:N', scale=color_scale, legend=alt.Legend(title='Agent', orient='bottom')),
+        # color=alt.Color('agent:N', scale=color_scale, legend=alt.Legend(title='Agent')),
+        tooltip=['agent', alt.Tooltip('percent_Restrictive:Q', format='.2f')]
+    )
+    
+    if vertical_line_dates:
+        for vl_date in vertical_line_dates:
+            vl_date = pd.to_datetime(vl_date)
+            vertical_line = alt.Chart(pd.DataFrame({'period': [vl_date]})).mark_rule(
+                color='white',
+                strokeDash=[5, 5]
+            ).encode(
+                x='period:T'
+            )
+            chart = chart + vertical_line
+
+    chart = chart.properties(
+        width=1000,
+        height=200
+    ).configure_axis(
+        grid=False
+    ).configure_view(
+        strokeWidth=0
+    )
+    
+    return chart
