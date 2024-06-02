@@ -159,7 +159,22 @@ def process_url_annotations(url_to_info):
             "Modality: Audio": infos["Content Modalities: Audio"] not in ["None", "", False], 
             "Sensitive Content": any([infos[col] for col in sensitive_content_cols]),
         })
-    return url_results
+
+    df = pd.DataFrame(url_results)
+
+    domain_vars = df['Domains'].apply(pd.Series).columns
+    service_vars = df['Services'].apply(pd.Series).columns
+
+    # Expand the 'tags' lists into a DataFrame of True/False values
+    domains_expanded = pd.get_dummies(df['Domains'].explode()).groupby(level=0).max()
+    domains_expanded.columns = ['domain_' + col for col in domains_expanded.columns]
+    services_expanded = pd.get_dummies(df['Services'].explode()).groupby(level=0).max()
+    services_expanded.columns = ['services_' + col for col in services_expanded.columns]
+
+    # Combine with the original DataFrame
+    df = df.join(domains_expanded).join(services_expanded)
+
+    return df
     # return url_results, Counter(other_domains), Counter(other_services)
 
 def encode_size_columns(df, url_token_lookup):
@@ -186,7 +201,12 @@ def encode_size_columns(df, url_token_lookup):
     df['sample'] = df['URL'].apply(lambda x: 'random' if x in random_10k_urls else 'top')
     return df
 
-def analyze_url_variable_correlations(df, top_n_list, corpus_key="c4"):
+def analyze_url_variable_correlations(
+    df, top_n_list, # corpus_key="c4"):
+    c4_estimates,
+    rf_estimates,
+    dolma_estimates,
+):
     """
     corpus_key: 'c4', 'rf' or 'dolma'
     """
@@ -194,26 +214,17 @@ def analyze_url_variable_correlations(df, top_n_list, corpus_key="c4"):
         'User Content', 'Paywall', 'Ads', 'Modality: Image', 'Modality: Video', 'Modality: Audio', 'Sensitive Content',
         'Restrictive Robots.txt', 'Restrictive Terms'
     ]
-    domain_vars = df['Domains'].apply(pd.Series).columns
-    service_vars = df['Services'].apply(pd.Series).columns
 
-    # Expand the 'tags' lists into a DataFrame of True/False values
-    domains_expanded = pd.get_dummies(df['Domains'].explode()).groupby(level=0).max()
-    domains_expanded.columns = ['domain_' + col for col in domains_expanded.columns]
-    services_expanded = pd.get_dummies(df['Services'].explode()).groupby(level=0).max()
-    services_expanded.columns = ['services_' + col for col in services_expanded.columns]
-
-    # Combine with the original DataFrame
-    df = df.join(domains_expanded).join(services_expanded)
     # return df
 
-    all_vars = binary_vars + list(domains_expanded.columns) + list(services_expanded.columns)
+    all_vars = c4_estimates.keys()
 
     # Sort the dataframe by 'c4 tokens' in descending order
-    df = df.sort_values(by=f"{corpus_key} tokens", ascending=False)
+    # df = df.sort_values(by=f"{corpus_key} tokens", ascending=False)
 
     # Create an empty dataframe to store the results
-    results_df = pd.DataFrame(index=all_vars, columns=[f"Top {n}" for n in top_n_list] + ['Random', 'Chi-Squared Stat', 'P-value'])
+    # results_df = pd.DataFrame(index=all_vars, columns=[f"Top {n}" for n in top_n_list] + ['Random', 'Chi-Squared Stat', 'P-value'])
+    results_df = pd.DataFrame(index=all_vars, columns=[f"Top {n}" for n in top_n_list] + ['Random', 'C4', 'RW', 'Dolma'])
 
     def compute_percentages(df, cols):
         result = {}
@@ -224,21 +235,35 @@ def analyze_url_variable_correlations(df, top_n_list, corpus_key="c4"):
         return result
     
     for top_n in top_n_list:
-        top_n_df = df[df[f"{corpus_key} rank"] <= top_n]
-        print(f"Num URLs in Top-{top_n}: {len(top_n_df)}")
-        results_df[f'Top {top_n}'] = compute_percentages(top_n_df, all_vars)
+        top_n_c4_df = df[df[f"c4 rank"] <= top_n]
+        top_n_rf_df = df[df[f"rf rank"] <= top_n]
+        top_n_dolma_df = df[df[f"dolma rank"] <= top_n]
+        # print(f"Num URLs in Top-{top_n}: {len(top_n_df)}")
+        c4_pct = compute_percentages(top_n_c4_df, all_vars)
+        rf_pct = compute_percentages(top_n_c4_df, all_vars)
+        dolma_pct = compute_percentages(top_n_c4_df, all_vars)
+        mean_pcts = {}
+        for var in all_vars:
+            mean_pcts[var] = np.mean([c4_pct[var], rf_pct[var], dolma_pct[var]])
+        results_df[f'Top {top_n}'] = mean_pcts
     random_df = df[df["sample"] == "random"]
     print(f"Num URLs in random sample: {len(random_df)}")
     results_df['Random'] = compute_percentages(random_df, all_vars)
 
     # Perform Chi-Squared test and populate the results
+    # for var in all_vars:
+    #     # print(var)
+    #     observed = pd.crosstab(random_df[var], pd.qcut(df[f"{corpus_key} tokens"], 4))
+    #     # print(observed)
+    #     chi2, p, dof, expected = chi2_contingency(observed)
+    #     results_df.loc[var, 'Chi-Squared Stat'] = f"{chi2:.2f}"
+    #     results_df.loc[var, 'P-value'] = f"{p:.2f}"
+
+    # Add in C4, RW, Dolma estimates:
     for var in all_vars:
-        # print(var)
-        observed = pd.crosstab(random_df[var], pd.qcut(df[f"{corpus_key} tokens"], 4))
-        # print(observed)
-        chi2, p, dof, expected = chi2_contingency(observed)
-        results_df.loc[var, 'Chi-Squared Stat'] = f"{chi2:.2f}"
-        results_df.loc[var, 'P-value'] = f"{p:.2f}"
+        results_df.loc[var, 'C4'] = c4_estimates[var]["Estimated Tokens Pct"]
+        results_df.loc[var, 'RW'] = rf_estimates[var]["Estimated Tokens Pct"]
+        results_df.loc[var, 'Dolma'] = dolma_estimates[var]["Estimated Tokens Pct"]
 
     return results_df
 
@@ -247,6 +272,9 @@ def analyze_url_variable_correlations(df, top_n_list, corpus_key="c4"):
 ###### Population Estimation Analysis Functions
 ############################################################
 
+def combine_samples(data_head, data_random):
+    """Combine head and random samples into a single DataFrame."""
+    return pd.concat([data_head, data_random])
 
 def fit_logistic_regression(X, y):
     """Fit a logistic regression model to the data."""
@@ -254,72 +282,114 @@ def fit_logistic_regression(X, y):
     model.fit(X, y)
     return model
 
-def run_empirical_bayes(data_head, data_random, all_magnitudes):
+def predict_probabilities(model, X):
+    """Predict probabilities of positive states using the fitted model."""
+    return model.predict_proba(X)[:, 1]
+
+def calculate_bucket_estimates(buckets, predicted_probs):
+    """Calculate the expected summed magnitude and counts of points with a positive state for each bucket."""
+    buckets['predicted_prob'] = predicted_probs
+    buckets['expected_positive_magnitude'] = buckets['bucket_midpoint'] * buckets['predicted_prob'] * buckets['count']
+    total_summed_magnitude = buckets['expected_positive_magnitude'].sum()
+    
+    total_positive_count = (buckets['predicted_prob'] * buckets['count']).sum()
+    total_negative_count = buckets['count'].sum() - total_positive_count
+    
+    return total_summed_magnitude, total_positive_count, total_negative_count
+
+def run_empirical_bayes(data_head, data_random, buckets):
     """Run the Empirical Bayes method for a single population."""
     # Combine head and random samples
-    data_combined = pd.concat([data_head, data_random])
+    data_combined = combine_samples(data_head, data_random)
     
     # Fit logistic regression model
     X = data_combined[['magnitude']]
     y = data_combined['binary_state']
     model = fit_logistic_regression(X, y)
     
-    # Predict probabilities for the entire population
-    X_all = all_magnitudes[['magnitude']]
-    predicted_probs = model.predict_proba(X)[:, 1]
+    # Predict probabilities for the magnitude buckets
+    X_buckets = buckets[['bucket_midpoint']]
+    X_buckets = X_buckets.rename(columns={'bucket_midpoint': 'magnitude'})
+    # print(X_buckets)
+    predicted_probs = predict_probabilities(model, X_buckets)
     
-    # Calculate expected summed magnitude of positive points
-    all_magnitudes['predicted_prob'] = predicted_probs
-    all_magnitudes['expected_positive_magnitude'] = all_magnitudes['magnitude'] * all_magnitudes['predicted_prob']
-    total_summed_magnitude = all_magnitudes['expected_positive_magnitude'].sum()
+    # Calculate expected summed magnitude and binary variable counts
+    total_summed_magnitude, total_positive_count, total_negative_count = calculate_bucket_estimates(buckets, predicted_probs)
     
-    return total_summed_magnitude
+    # Fill in the known head distribution stats
+    data_head['predicted_prob'] = data_head['binary_state']
+    # Create a combined DataFrame of head and bucket predictions
+    head_sum = data_head['magnitude'].sum()
+    head_positive_sum = data_head[data_head['binary_state'] == 1]['magnitude'].sum()
+    head_positive_count = data_head['binary_state'].sum()
+    head_negative_count = len(data_head) - head_positive_count
 
-def process_multiple_populations(populations):
-    """Process multiple populations and their binary variables."""
+    # Add head stats to bucket stats
+    total_summed_magnitude += head_positive_sum
+    total_positive_count += head_positive_count
+    total_negative_count += head_negative_count
+
+    return total_summed_magnitude, total_positive_count, total_negative_count
+
+def conservative_estimate(data_head, data_random, buckets):
+    """Conservative estimate using known head distribution stats and predicted stats for the rest."""
+    # Fit logistic regression model
+    X = data_random[['magnitude']]
+    y = data_random['binary_state']
+    model = fit_logistic_regression(X, y)
+    
+    # Predict probabilities for the magnitude buckets
+    X_buckets = buckets[['bucket_midpoint']]
+    X_buckets = X_buckets.rename(columns={'bucket_midpoint': 'magnitude'})
+    predicted_probs = predict_probabilities(model, X_buckets)
+    
+    # Fill in the known head distribution stats
+    data_head['predicted_prob'] = data_head['binary_state']
+    
+    # Create a combined DataFrame of head and bucket predictions
+    head_sum = data_head['magnitude'].sum()
+    head_positive_sum = data_head[data_head['binary_state'] == 1]['magnitude'].sum()
+    head_positive_count = data_head['binary_state'].sum()
+    head_negative_count = len(data_head) - head_positive_count
+    
+    # Calculate expected summed magnitude and binary variable counts for buckets excluding head
+    total_summed_magnitude, total_positive_count, total_negative_count = calculate_bucket_estimates(buckets, predicted_probs)
+    
+    # Add head stats to bucket stats
+    total_summed_magnitude += head_positive_sum
+    total_positive_count += head_positive_count
+    total_negative_count += head_negative_count
+    
+    return total_summed_magnitude, total_positive_count, total_negative_count
+
+def process_url_population(data, method='empirical_bayes'):
+    """Process population and its binary variables."""
     results = {}
     
-    for population_name, data in populations.items():
-        data_head = data['head']
-        data_random = data['random']
-        all_magnitudes = data['all_magnitudes']
+    data_head = data['head']
+    data_random = data['random']
+    buckets = data['buckets']
+    
+    for binary_var in data['binary_vars']:
+        # Update binary state column
+        data_head['binary_state'] = data_head[binary_var]
+        data_random['binary_state'] = data_random[binary_var]
         
-        for binary_var in data['binary_vars']:
-            # Update binary state column
-            data_head['binary_state'] = data_head[binary_var]
-            data_random['binary_state'] = data_random[binary_var]
-            
-            # Run Empirical Bayes method
-            total_summed_magnitude = run_empirical_bayes(data_head, data_random, all_magnitudes)
-            
-            # Store the result
-            if population_name not in results:
-                results[population_name] = {}
-            results[population_name][binary_var] = total_summed_magnitude
+        # Run chosen method
+        if method == 'empirical_bayes':
+            print("bayes")
+            total_summed_magnitude, total_positive_count, total_negative_count = run_empirical_bayes(data_head, data_random, buckets)
+        elif method == 'conservative':
+            total_summed_magnitude, total_positive_count, total_negative_count = conservative_estimate(data_head, data_random, buckets)
+        
+
+        results[binary_var] = {
+            'total_summed_magnitude': round(total_summed_magnitude, 2),
+            'total_positive_count': round(total_positive_count, 2),
+            'total_negative_count': round(total_negative_count, 2),
+        }
     
     return results
-
-# Example usage:
-# Assume populations is a dictionary containing the data for each population and their binary variables
-# populations = {
-#     'population1': {
-#         'head': data_head1,
-#         'random': data_random1,
-#         'all_magnitudes': all_magnitudes1,
-#         'binary_vars': ['binary_var1', 'binary_var2', ...]
-#     },
-#     'population2': {
-#         'head': data_head2,
-#         'random': data_random2,
-#         'all_magnitudes': all_magnitudes2,
-#         'binary_vars': ['binary_var1', 'binary_var2', ...]
-#     },
-#     ...
-# }
-
-# results = process_multiple_populations(populations)
-# print(results)
-
 
 ############################################################
 ###### Text Finetuning Analysis Functions
@@ -471,3 +541,67 @@ def extract_info(rows, all_constants):
             info[key] = list(info[key])
             
     return dataset_infos
+
+
+def run_population_analysis(
+    url_results_df, 
+    top_corpus_urls, 
+    corpus_name,
+    data_buckets_fpath,
+    url_token_lookup,
+    verbose=False,
+):
+    total_tokens = url_token_lookup._TOTAL_TOKENS[corpus_name]
+    total_urls = url_token_lookup._TOTAL_URLS[corpus_name]
+    
+    top_results_df = url_results_df[url_results_df['URL'].isin(top_corpus_urls)]
+    random_results_df = url_results_df[url_results_df['sample'] == "random"]
+    print(f"Head sample size: {len(top_results_df)}")
+    print(f"Rand sample size: {len(random_results_df)}")
+    head_tokens = list(top_results_df[f"{corpus_name} tokens"])
+    rand_tokens = list(random_results_df[f"{corpus_name} tokens"])
+
+    cols = ['User Content', 'Paywall', 'Ads','Modality: Image', 'Modality: Video', 'Modality: Audio',
+       'Sensitive Content', 'services_Academic', 'services_Blogs',
+       'services_E-Commerce', 'services_Encyclopedia/Database',
+       'services_Government', 'services_News/Periodicals',
+       'services_Organization/Personal Website', 'services_Other',
+       'services_Social Media/Forums', 'Restrictive Robots.txt', 'Restrictive Terms']
+    # var_name --> {head -> vals, rand -> vals}
+    vars_data = {}
+    for col in cols:
+        vars_data[col] = {
+            "head": [int(x) for x in top_results_df[col]],
+            "rand": [int(x) for x in random_results_df[col]],
+        }
+
+    head_info = {k: v["head"] for k, v in vars_data.items()}
+    head_info.update({'magnitude': head_tokens})
+    rand_info = {k: v["rand"] for k, v in vars_data.items()}
+    rand_info.update({'magnitude': rand_tokens})
+    population = {
+        'head': pd.DataFrame(head_info),
+        'random': pd.DataFrame(rand_info),
+        'buckets': pd.read_csv(data_buckets_fpath),
+        'binary_vars': cols,
+    }
+    results = process_url_population(population, method='conservative') # conservative, empirical_bayes
+
+    final_results = {}
+    for bvar, var_results in results.items():
+        head_pct = round(100 * np.mean(vars_data[bvar]["head"]), 2)
+        rand_pct = round(100 * np.mean(vars_data[bvar]["rand"]), 2)
+        pos = var_results["total_positive_count"]
+        pos_pct = round(100 * pos / total_urls, 2)
+        pos_t = var_results["total_summed_magnitude"]
+        pos_t_pct = round(100 * pos_t / total_tokens, 2)
+        if verbose:
+            print(f"{bvar} | Head = {head_pct} % | Rand = {rand_pct} %")
+            print(f"Estimated URLs = {pos} / {total_urls} = {pos_pct} %")
+            print(f"Estimated Tokens = {pos_t} / {total_tokens} = {pos_t_pct} %")
+            print()
+        final_results[bvar] = {
+            "Estimated URL Pct": pos_pct,
+            "Estimated Tokens Pct": pos_t_pct,
+        }
+    return final_results
