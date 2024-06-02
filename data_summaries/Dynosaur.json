@@ -30,9 +30,9 @@
             "sst2"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -84,9 +84,9 @@
             "mrpc"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -132,9 +132,9 @@
             "qqp"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -182,9 +182,9 @@
             "sts-b"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -233,9 +233,9 @@
             "mnli"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -292,9 +292,9 @@
             "mnli"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -351,9 +351,9 @@
             "mnli"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -408,9 +408,9 @@
             "qnli"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -456,9 +456,9 @@
             "rte"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -505,9 +505,9 @@
             "winograd schema challenge"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -1327,36 +1327,36 @@
             "quoref"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -1410,36 +1410,36 @@
             "quoref"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -1495,36 +1495,36 @@
             "quoref"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -1577,36 +1577,36 @@
             "quoref"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -1661,36 +1661,36 @@
             "quoref"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -1743,36 +1743,36 @@
             "quoref"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -1827,36 +1827,36 @@
             "quoref"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -1909,36 +1909,36 @@
             "quoref"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -1987,36 +1987,36 @@
             "ag news"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -2061,36 +2061,36 @@
             "ag news"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -2135,36 +2135,36 @@
             "ag news"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -2210,36 +2210,36 @@
             "arc"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -2290,36 +2290,36 @@
             "arc"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -2370,36 +2370,36 @@
             "arc"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -2450,36 +2450,36 @@
             "arc"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -2530,36 +2530,36 @@
             "arc"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -2609,36 +2609,36 @@
             "arc"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -2689,36 +2689,36 @@
             "arc"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -2769,36 +2769,36 @@
             "arc"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -2849,36 +2849,36 @@
             "arc"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -2928,36 +2928,36 @@
             "arc"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -3008,36 +3008,36 @@
             "arc"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -3089,36 +3089,36 @@
             "arc"
         ],
         "Creators": [
-            "ZEALS Japan",
-            "VU University Amsterdam",
-            "Nanyang Technological University",
-            "Booz Allen Hamilton",
-            "Charles River Analytics",
-            "New York University",
-            "Huggingface",
-            "NAVER AI Lab",
-            "SAP",
-            "Stanford University",
-            "King Fahd University of Petroleum and Minerals",
-            "Walmart Labs",
-            "UC San Diego",
-            "BigScience",
-            "SambaNova Systems",
-            "Snorkel AI",
-            "IBM",
-            "Sapienza University of Rome",
-            "Hyperscience",
-            "IRISA",
-            "UC Berkeley",
-            "Brown University",
-            "ASUS",
-            "Parity",
             "Birla Institute of Technology And Science Pilani India",
-            "Singapore Institute for Infocomm Research",
-            "Inria",
-            "EleutherAI",
+            "ZEALS Japan",
+            "SAP",
+            "UC San Diego",
+            "Walmart Labs",
+            "VU University Amsterdam",
+            "Parity",
+            "Sapienza University of Rome",
             "University of Virginia",
-            "IMATAG"
+            "New York University",
+            "ASUS",
+            "BigScience",
+            "EleutherAI",
+            "Charles River Analytics",
+            "UC Berkeley",
+            "Snorkel AI",
+            "Stanford University",
+            "Hyperscience",
+            "SambaNova Systems",
+            "Brown University",
+            "IBM",
+            "Huggingface",
+            "Nanyang Technological University",
+            "Inria",
+            "Booz Allen Hamilton",
+            "IRISA",
+            "NAVER AI Lab",
+            "IMATAG",
+            "King Fahd University of Petroleum and Minerals",
+            "Singapore Institute for Infocomm Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -9435,8 +9435,8 @@
             "original"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -9485,8 +9485,8 @@
             "original"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -9532,8 +9532,8 @@
             "original"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -9583,8 +9583,8 @@
             "original"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -9632,8 +9632,8 @@
             "mathqa"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -9683,8 +9683,8 @@
             "original"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -9734,8 +9734,8 @@
             "original"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -9782,8 +9782,8 @@
             "gem"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -9830,8 +9830,8 @@
             "indic-transformers"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -9884,8 +9884,8 @@
             "original"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -9931,8 +9931,8 @@
             "task-oriented-lm-fewshot"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -9977,8 +9977,8 @@
             "original"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -10027,8 +10027,8 @@
             "rumedbench"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -10077,8 +10077,8 @@
             "original"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -10123,8 +10123,8 @@
             "original"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -10169,8 +10169,8 @@
             "original"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -10219,8 +10219,8 @@
             "original"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -10265,8 +10265,8 @@
             "original"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -10311,8 +10311,8 @@
             "biendata"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -10357,8 +10357,8 @@
             "sparc"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -10407,8 +10407,8 @@
             "original"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -10453,8 +10453,8 @@
             "original"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -10500,8 +10500,8 @@
             "original"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -10546,8 +10546,8 @@
             "original"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -10872,8 +10872,8 @@
             "original"
         ],
         "Creators": [
-            "Google",
-            "Google Research"
+            "Google Research",
+            "Google"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -13814,8 +13814,8 @@
             "commai"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "New York University"
+            "New York University",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -13860,8 +13860,8 @@
             "commai"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "New York University"
+            "New York University",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -13906,8 +13906,8 @@
             "commai"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "New York University"
+            "New York University",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -13952,8 +13952,8 @@
             "commai"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "New York University"
+            "New York University",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -13998,8 +13998,8 @@
             "commai"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "New York University"
+            "New York University",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -14044,8 +14044,8 @@
             "commai"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "New York University"
+            "New York University",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -14090,8 +14090,8 @@
             "commai"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "New York University"
+            "New York University",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -14136,8 +14136,8 @@
             "commai"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "New York University"
+            "New York University",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -14182,8 +14182,8 @@
             "commai"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "New York University"
+            "New York University",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -14228,8 +14228,8 @@
             "commai"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "New York University"
+            "New York University",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -14980,8 +14980,8 @@
         ],
         "Creators": [
             "Carnegie Mellon University",
-            "University of Pittsburgh",
-            "Google AI"
+            "Google AI",
+            "University of Pittsburgh"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -15028,8 +15028,8 @@
         ],
         "Creators": [
             "Carnegie Mellon University",
-            "University of Pittsburgh",
-            "Google AI"
+            "Google AI",
+            "University of Pittsburgh"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -15077,8 +15077,8 @@
             "trex"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "University College London"
+            "University College London",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -15135,8 +15135,8 @@
             "squad"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "University College London"
+            "University College London",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -15194,8 +15194,8 @@
             "google-re"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "University College London"
+            "University College London",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -15252,8 +15252,8 @@
             "conceptnet"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "University College London"
+            "University College London",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -15716,8 +15716,8 @@
         ],
         "Creators": [
             "LTCI",
-            "IBM Global Business Services",
-            "IBM Research"
+            "IBM Research",
+            "IBM Global Business Services"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -15763,8 +15763,8 @@
         ],
         "Creators": [
             "LTCI",
-            "IBM Global Business Services",
-            "IBM Research"
+            "IBM Research",
+            "IBM Global Business Services"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -15811,8 +15811,8 @@
         ],
         "Creators": [
             "LTCI",
-            "IBM Global Business Services",
-            "IBM Research"
+            "IBM Research",
+            "IBM Global Business Services"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -15861,8 +15861,8 @@
         ],
         "Creators": [
             "LTCI",
-            "IBM Global Business Services",
-            "IBM Research"
+            "IBM Research",
+            "IBM Global Business Services"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -15909,8 +15909,8 @@
         ],
         "Creators": [
             "LTCI",
-            "IBM Global Business Services",
-            "IBM Research"
+            "IBM Research",
+            "IBM Global Business Services"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -15957,8 +15957,8 @@
         ],
         "Creators": [
             "LTCI",
-            "IBM Global Business Services",
-            "IBM Research"
+            "IBM Research",
+            "IBM Global Business Services"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -16005,8 +16005,8 @@
         ],
         "Creators": [
             "LTCI",
-            "IBM Global Business Services",
-            "IBM Research"
+            "IBM Research",
+            "IBM Global Business Services"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -16054,8 +16054,8 @@
         ],
         "Creators": [
             "LTCI",
-            "IBM Global Business Services",
-            "IBM Research"
+            "IBM Research",
+            "IBM Global Business Services"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -16146,8 +16146,8 @@
             "original"
         ],
         "Creators": [
-            "University of Sheffield",
-            "Amazon"
+            "Amazon",
+            "University of Sheffield"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -16194,8 +16194,8 @@
             "original"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "University of Washington"
+            "University of Washington",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -16244,8 +16244,8 @@
             "original"
         ],
         "Creators": [
-            "University of Pennsylvania",
-            "Google Research"
+            "Google Research",
+            "University of Pennsylvania"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -16290,8 +16290,8 @@
             "original"
         ],
         "Creators": [
-            "Northeastern University",
-            "Tencent AI Lab"
+            "Tencent AI Lab",
+            "Northeastern University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -16336,8 +16336,8 @@
             "original"
         ],
         "Creators": [
-            "Northeastern University",
-            "Tencent AI Lab"
+            "Tencent AI Lab",
+            "Northeastern University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -16382,8 +16382,8 @@
             "original"
         ],
         "Creators": [
-            "Northeastern University",
-            "Tencent AI Lab"
+            "Tencent AI Lab",
+            "Northeastern University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -16429,8 +16429,8 @@
             "original"
         ],
         "Creators": [
-            "Northeastern University",
-            "Tencent AI Lab"
+            "Tencent AI Lab",
+            "Northeastern University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -16475,8 +16475,8 @@
             "original"
         ],
         "Creators": [
-            "Northeastern University",
-            "Tencent AI Lab"
+            "Tencent AI Lab",
+            "Northeastern University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -16523,8 +16523,8 @@
             "original"
         ],
         "Creators": [
-            "Northeastern University",
-            "Tencent AI Lab"
+            "Tencent AI Lab",
+            "Northeastern University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -16573,8 +16573,8 @@
         ],
         "Creators": [
             "University of Leipzig",
-            "Factmata Limited",
-            "Bauhaus-Universitat Weimar"
+            "Bauhaus-Universitat Weimar",
+            "Factmata Limited"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -16758,8 +16758,8 @@
             "original"
         ],
         "Creators": [
-            "UC Santa Barbara",
-            "IBM Research"
+            "IBM Research",
+            "UC Santa Barbara"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -17045,8 +17045,8 @@
             "original"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "Laboratoire Lorrain d\u2019Informatique et Applications (LORIA)"
+            "Laboratoire Lorrain d\u2019Informatique et Applications (LORIA)",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -17091,8 +17091,8 @@
             "original"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "Laboratoire Lorrain d\u2019Informatique et Applications (LORIA)"
+            "Laboratoire Lorrain d\u2019Informatique et Applications (LORIA)",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -17138,8 +17138,8 @@
             "original"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "Laboratoire Lorrain d\u2019Informatique et Applications (LORIA)"
+            "Laboratoire Lorrain d\u2019Informatique et Applications (LORIA)",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -17185,8 +17185,8 @@
             "original"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "Laboratoire Lorrain d\u2019Informatique et Applications (LORIA)"
+            "Laboratoire Lorrain d\u2019Informatique et Applications (LORIA)",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -17231,8 +17231,8 @@
             "original"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "Laboratoire Lorrain d\u2019Informatique et Applications (LORIA)"
+            "Laboratoire Lorrain d\u2019Informatique et Applications (LORIA)",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -17277,8 +17277,8 @@
             "original"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "Laboratoire Lorrain d\u2019Informatique et Applications (LORIA)"
+            "Laboratoire Lorrain d\u2019Informatique et Applications (LORIA)",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -17417,9 +17417,9 @@
             "original"
         ],
         "Creators": [
+            "University of Edinburgh",
             "CNRS",
-            "Laboratoire Lorrain d\u2019Informatique et Applications (LORIA)",
-            "University of Edinburgh"
+            "Laboratoire Lorrain d\u2019Informatique et Applications (LORIA)"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -17466,9 +17466,9 @@
             "original"
         ],
         "Creators": [
+            "University of Edinburgh",
             "CNRS",
-            "Laboratoire Lorrain d\u2019Informatique et Applications (LORIA)",
-            "University of Edinburgh"
+            "Laboratoire Lorrain d\u2019Informatique et Applications (LORIA)"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -17612,8 +17612,8 @@
             "original"
         ],
         "Creators": [
-            "OpenAI",
-            "University of Oxford"
+            "University of Oxford",
+            "OpenAI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -17756,10 +17756,10 @@
             "covid-19 open research\ndataset"
         ],
         "Creators": [
-            "University of Waterloo",
+            "New York University",
             "Facebook AI Research",
-            "CIFAR Associate Fellow",
-            "New York University"
+            "University of Waterloo",
+            "CIFAR Associate Fellow"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -17907,8 +17907,8 @@
         ],
         "Creators": [
             "AI2",
-            "UC Irvine",
-            "The Hebrew University"
+            "The Hebrew University",
+            "UC Irvine"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -18095,9 +18095,9 @@
             "original"
         ],
         "Creators": [
-            "Bloomsbury AI",
             "University College London",
-            "UC Irvine"
+            "UC Irvine",
+            "Bloomsbury AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -18145,9 +18145,9 @@
             "sst-2"
         ],
         "Creators": [
-            "Microsoft",
             "Zhejiang University",
-            "University of Illinois Urbana-Champaign"
+            "University of Illinois Urbana-Champaign",
+            "Microsoft"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -18196,9 +18196,9 @@
             "qqp"
         ],
         "Creators": [
-            "Microsoft",
             "Zhejiang University",
-            "University of Illinois Urbana-Champaign"
+            "University of Illinois Urbana-Champaign",
+            "Microsoft"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -18247,9 +18247,9 @@
             "mnli"
         ],
         "Creators": [
-            "Microsoft",
             "Zhejiang University",
-            "University of Illinois Urbana-Champaign"
+            "University of Illinois Urbana-Champaign",
+            "Microsoft"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -18296,9 +18296,9 @@
             "mnli"
         ],
         "Creators": [
-            "Microsoft",
             "Zhejiang University",
-            "University of Illinois Urbana-Champaign"
+            "University of Illinois Urbana-Champaign",
+            "Microsoft"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -18347,9 +18347,9 @@
             "qnli"
         ],
         "Creators": [
-            "Microsoft",
             "Zhejiang University",
-            "University of Illinois Urbana-Champaign"
+            "University of Illinois Urbana-Champaign",
+            "Microsoft"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -18400,9 +18400,9 @@
             "rte"
         ],
         "Creators": [
-            "Microsoft",
             "Zhejiang University",
-            "University of Illinois Urbana-Champaign"
+            "University of Illinois Urbana-Champaign",
+            "Microsoft"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -18539,8 +18539,8 @@
             "original"
         ],
         "Creators": [
-            "Brigham Young University",
-            "AI2"
+            "AI2",
+            "Brigham Young University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -18586,8 +18586,8 @@
             "original"
         ],
         "Creators": [
-            "University of Pennsylvania",
-            "Google Research"
+            "Google Research",
+            "University of Pennsylvania"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -23050,8 +23050,8 @@
         ],
         "Creators": [
             "IIT CNR",
-            "University of Zurich",
-            "University of Sannio"
+            "University of Sannio",
+            "University of Zurich"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -23096,8 +23096,8 @@
             "cnn/daily mail"
         ],
         "Creators": [
-            "Stanford University",
-            "Google Research"
+            "Google Research",
+            "Stanford University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -23144,8 +23144,8 @@
             "cnn/daily mail"
         ],
         "Creators": [
-            "Stanford University",
-            "Google Research"
+            "Google Research",
+            "Stanford University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -23192,8 +23192,8 @@
             "cnn/daily mail"
         ],
         "Creators": [
-            "Stanford University",
-            "Google Research"
+            "Google Research",
+            "Stanford University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -23238,8 +23238,8 @@
             "cnn/daily mail"
         ],
         "Creators": [
-            "Stanford University",
-            "Google Research"
+            "Google Research",
+            "Stanford University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -23287,8 +23287,8 @@
             "cnn/daily mail"
         ],
         "Creators": [
-            "Stanford University",
-            "Google Research"
+            "Google Research",
+            "Stanford University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -23333,8 +23333,8 @@
             "cnn/daily mail"
         ],
         "Creators": [
-            "Stanford University",
-            "Google Research"
+            "Google Research",
+            "Stanford University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -23383,8 +23383,8 @@
             "cnn/daily mail"
         ],
         "Creators": [
-            "Stanford University",
-            "Google Research"
+            "Google Research",
+            "Stanford University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -23431,8 +23431,8 @@
             "cnn/daily mail"
         ],
         "Creators": [
-            "Stanford University",
-            "Google Research"
+            "Google Research",
+            "Stanford University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -23478,9 +23478,9 @@
             "original"
         ],
         "Creators": [
-            "University of Southern California",
             "AI2",
-            "University of Washington"
+            "University of Washington",
+            "University of Southern California"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -23530,9 +23530,9 @@
             "original"
         ],
         "Creators": [
-            "University of Southern California",
             "AI2",
-            "University of Washington"
+            "University of Washington",
+            "University of Southern California"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -23582,9 +23582,9 @@
             "original"
         ],
         "Creators": [
-            "University of Southern California",
             "AI2",
-            "University of Washington"
+            "University of Washington",
+            "University of Southern California"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -23635,9 +23635,9 @@
             "original"
         ],
         "Creators": [
-            "University of Southern California",
             "AI2",
-            "University of Washington"
+            "University of Washington",
+            "University of Southern California"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -23686,9 +23686,9 @@
             "original"
         ],
         "Creators": [
-            "University of Southern California",
             "AI2",
-            "University of Washington"
+            "University of Washington",
+            "University of Southern California"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -23739,9 +23739,9 @@
             "original"
         ],
         "Creators": [
-            "University of Southern California",
             "AI2",
-            "University of Washington"
+            "University of Washington",
+            "University of Southern California"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -26826,12 +26826,12 @@
             "original"
         ],
         "Creators": [
-            "Universite de Montreal",
-            "Stanford University",
-            "CIFAR Senior Fellow",
-            "Google AI",
             "Carnegie Mellon University",
-            "Montreal Institute of Learning Algorithms (Mila)"
+            "Stanford University",
+            "Universite de Montreal",
+            "Montreal Institute of Learning Algorithms (Mila)",
+            "Google AI",
+            "CIFAR Senior Fellow"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -26876,12 +26876,12 @@
             "original"
         ],
         "Creators": [
-            "Universite de Montreal",
-            "Stanford University",
-            "CIFAR Senior Fellow",
-            "Google AI",
             "Carnegie Mellon University",
-            "Montreal Institute of Learning Algorithms (Mila)"
+            "Stanford University",
+            "Universite de Montreal",
+            "Montreal Institute of Learning Algorithms (Mila)",
+            "Google AI",
+            "CIFAR Senior Fellow"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -26929,12 +26929,12 @@
             "original"
         ],
         "Creators": [
-            "Universite de Montreal",
-            "Stanford University",
-            "CIFAR Senior Fellow",
-            "Google AI",
             "Carnegie Mellon University",
-            "Montreal Institute of Learning Algorithms (Mila)"
+            "Stanford University",
+            "Universite de Montreal",
+            "Montreal Institute of Learning Algorithms (Mila)",
+            "Google AI",
+            "CIFAR Senior Fellow"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -26981,12 +26981,12 @@
             "original"
         ],
         "Creators": [
-            "Universite de Montreal",
-            "Stanford University",
-            "CIFAR Senior Fellow",
-            "Google AI",
             "Carnegie Mellon University",
-            "Montreal Institute of Learning Algorithms (Mila)"
+            "Stanford University",
+            "Universite de Montreal",
+            "Montreal Institute of Learning Algorithms (Mila)",
+            "Google AI",
+            "CIFAR Senior Fellow"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -27246,8 +27246,8 @@
             "original"
         ],
         "Creators": [
-            "Research Training Group AIPHES & Heidelberg University",
-            "AI2"
+            "AI2",
+            "Research Training Group AIPHES & Heidelberg University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -27293,8 +27293,8 @@
             "original"
         ],
         "Creators": [
-            "Research Training Group AIPHES & Heidelberg University",
-            "AI2"
+            "AI2",
+            "Research Training Group AIPHES & Heidelberg University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -27340,8 +27340,8 @@
             "original"
         ],
         "Creators": [
-            "Research Training Group AIPHES & Heidelberg University",
-            "AI2"
+            "AI2",
+            "Research Training Group AIPHES & Heidelberg University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -27388,8 +27388,8 @@
             "original"
         ],
         "Creators": [
-            "Research Training Group AIPHES & Heidelberg University",
-            "AI2"
+            "AI2",
+            "Research Training Group AIPHES & Heidelberg University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -27436,8 +27436,8 @@
             "original"
         ],
         "Creators": [
-            "Research Training Group AIPHES & Heidelberg University",
-            "AI2"
+            "AI2",
+            "Research Training Group AIPHES & Heidelberg University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -27483,8 +27483,8 @@
             "original"
         ],
         "Creators": [
-            "Research Training Group AIPHES & Heidelberg University",
-            "AI2"
+            "AI2",
+            "Research Training Group AIPHES & Heidelberg University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -27530,8 +27530,8 @@
             "original"
         ],
         "Creators": [
-            "Research Training Group AIPHES & Heidelberg University",
-            "AI2"
+            "AI2",
+            "Research Training Group AIPHES & Heidelberg University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -28260,10 +28260,10 @@
             "original"
         ],
         "Creators": [
-            "Carnegie Mellon University",
-            "Paul G. Allen School of Computer Science & Engineering",
             "AI2",
-            "Microsoft Research"
+            "Carnegie Mellon University",
+            "Microsoft Research",
+            "Paul G. Allen School of Computer Science & Engineering"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -28313,10 +28313,10 @@
             "original"
         ],
         "Creators": [
-            "Carnegie Mellon University",
-            "Paul G. Allen School of Computer Science & Engineering",
             "AI2",
-            "Microsoft Research"
+            "Carnegie Mellon University",
+            "Microsoft Research",
+            "Paul G. Allen School of Computer Science & Engineering"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -28367,10 +28367,10 @@
             "original"
         ],
         "Creators": [
-            "Carnegie Mellon University",
-            "Paul G. Allen School of Computer Science & Engineering",
             "AI2",
-            "Microsoft Research"
+            "Carnegie Mellon University",
+            "Microsoft Research",
+            "Paul G. Allen School of Computer Science & Engineering"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -28421,10 +28421,10 @@
             "original"
         ],
         "Creators": [
-            "Carnegie Mellon University",
-            "Paul G. Allen School of Computer Science & Engineering",
             "AI2",
-            "Microsoft Research"
+            "Carnegie Mellon University",
+            "Microsoft Research",
+            "Paul G. Allen School of Computer Science & Engineering"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -28475,10 +28475,10 @@
             "original"
         ],
         "Creators": [
-            "Carnegie Mellon University",
-            "Paul G. Allen School of Computer Science & Engineering",
             "AI2",
-            "Microsoft Research"
+            "Carnegie Mellon University",
+            "Microsoft Research",
+            "Paul G. Allen School of Computer Science & Engineering"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -28528,10 +28528,10 @@
             "original"
         ],
         "Creators": [
-            "Carnegie Mellon University",
-            "Paul G. Allen School of Computer Science & Engineering",
             "AI2",
-            "Microsoft Research"
+            "Carnegie Mellon University",
+            "Microsoft Research",
+            "Paul G. Allen School of Computer Science & Engineering"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -28582,10 +28582,10 @@
             "original"
         ],
         "Creators": [
-            "Carnegie Mellon University",
-            "Paul G. Allen School of Computer Science & Engineering",
             "AI2",
-            "Microsoft Research"
+            "Carnegie Mellon University",
+            "Microsoft Research",
+            "Paul G. Allen School of Computer Science & Engineering"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -28636,10 +28636,10 @@
             "original"
         ],
         "Creators": [
-            "Carnegie Mellon University",
-            "Paul G. Allen School of Computer Science & Engineering",
             "AI2",
-            "Microsoft Research"
+            "Carnegie Mellon University",
+            "Microsoft Research",
+            "Paul G. Allen School of Computer Science & Engineering"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -28690,10 +28690,10 @@
             "original"
         ],
         "Creators": [
-            "Carnegie Mellon University",
-            "Paul G. Allen School of Computer Science & Engineering",
             "AI2",
-            "Microsoft Research"
+            "Carnegie Mellon University",
+            "Microsoft Research",
+            "Paul G. Allen School of Computer Science & Engineering"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -28742,10 +28742,10 @@
             "original"
         ],
         "Creators": [
-            "Carnegie Mellon University",
-            "Paul G. Allen School of Computer Science & Engineering",
             "AI2",
-            "Microsoft Research"
+            "Carnegie Mellon University",
+            "Microsoft Research",
+            "Paul G. Allen School of Computer Science & Engineering"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -28794,10 +28794,10 @@
             "original"
         ],
         "Creators": [
-            "Carnegie Mellon University",
-            "Paul G. Allen School of Computer Science & Engineering",
             "AI2",
-            "Microsoft Research"
+            "Carnegie Mellon University",
+            "Microsoft Research",
+            "Paul G. Allen School of Computer Science & Engineering"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -31900,8 +31900,8 @@
             "original"
         ],
         "Creators": [
-            "Carnegie Mellon University",
-            "Cornell University"
+            "Cornell University",
+            "Carnegie Mellon University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -31946,8 +31946,8 @@
             "original"
         ],
         "Creators": [
-            "Carnegie Mellon University",
-            "Cornell University"
+            "Cornell University",
+            "Carnegie Mellon University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -31992,8 +31992,8 @@
             "original"
         ],
         "Creators": [
-            "Carnegie Mellon University",
-            "Cornell University"
+            "Cornell University",
+            "Carnegie Mellon University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -32038,8 +32038,8 @@
             "original"
         ],
         "Creators": [
-            "Carnegie Mellon University",
-            "Cornell University"
+            "Cornell University",
+            "Carnegie Mellon University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -32084,8 +32084,8 @@
             "original"
         ],
         "Creators": [
-            "Carnegie Mellon University",
-            "Cornell University"
+            "Cornell University",
+            "Carnegie Mellon University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -32130,8 +32130,8 @@
             "original"
         ],
         "Creators": [
-            "Carnegie Mellon University",
-            "Cornell University"
+            "Cornell University",
+            "Carnegie Mellon University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -32524,8 +32524,8 @@
             "original"
         ],
         "Creators": [
-            "University College London",
             "AI2",
+            "University College London",
             "University of Washington"
         ],
         "Bibtex": "",
@@ -32578,8 +32578,8 @@
             "original"
         ],
         "Creators": [
-            "University College London",
             "AI2",
+            "University College London",
             "University of Washington"
         ],
         "Bibtex": "",
@@ -32630,8 +32630,8 @@
             "original"
         ],
         "Creators": [
-            "University College London",
             "AI2",
+            "University College London",
             "University of Washington"
         ],
         "Bibtex": "",
@@ -32683,8 +32683,8 @@
             "original"
         ],
         "Creators": [
-            "University College London",
             "AI2",
+            "University College London",
             "University of Washington"
         ],
         "Bibtex": "",
@@ -33337,10 +33337,10 @@
             "boolean questions"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -33396,10 +33396,10 @@
             "boolean questions"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -33456,10 +33456,10 @@
             "boolean questions"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -33515,10 +33515,10 @@
             "boolean questions"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -33575,10 +33575,10 @@
             "boolean questions"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -33635,10 +33635,10 @@
             "boolean questions"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -33694,10 +33694,10 @@
             "boolean questions"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -33753,10 +33753,10 @@
             "boolean questions"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -33812,10 +33812,10 @@
             "boolean questions"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -33871,10 +33871,10 @@
             "boolean questions"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -33929,10 +33929,10 @@
             "commitment bank"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -33983,10 +33983,10 @@
             "commitment bank"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -34037,10 +34037,10 @@
             "commitment bank"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -34093,10 +34093,10 @@
             "commitment bank"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -34149,10 +34149,10 @@
             "commitment bank"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -34203,10 +34203,10 @@
             "commitment bank"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -34257,10 +34257,10 @@
             "commitment bank"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -34311,10 +34311,10 @@
             "commitment bank"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -34365,10 +34365,10 @@
             "commitment bank"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -34422,10 +34422,10 @@
             "commitment bank"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -34478,10 +34478,10 @@
             "commitment bank"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -34532,10 +34532,10 @@
             "commitment bank"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -34587,10 +34587,10 @@
             "commitment bank"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -34644,10 +34644,10 @@
             "commitment bank"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -34699,10 +34699,10 @@
             "commitment bank"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -34754,10 +34754,10 @@
             "commitment bank"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -34808,10 +34808,10 @@
             "commitment bank"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -34862,10 +34862,10 @@
             "commitment bank"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -34917,10 +34917,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -34976,10 +34976,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -35034,10 +35034,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -35096,10 +35096,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -35154,10 +35154,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -35212,10 +35212,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -35271,10 +35271,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -35329,10 +35329,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -35387,10 +35387,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -35446,10 +35446,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -35504,10 +35504,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -35564,10 +35564,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -35622,10 +35622,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -35681,10 +35681,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -35741,10 +35741,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -35800,10 +35800,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -35858,10 +35858,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -35916,10 +35916,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -35975,10 +35975,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -36034,10 +36034,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -36093,10 +36093,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -36151,10 +36151,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -36209,10 +36209,10 @@
             "choice of plausible alternatives"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -36267,10 +36267,10 @@
             "multi-sentence reading comprehension"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -36322,10 +36322,10 @@
             "multi-sentence reading comprehension"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -36377,10 +36377,10 @@
             "multi-sentence reading comprehension"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -36431,10 +36431,10 @@
             "multi-sentence reading comprehension"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -36485,10 +36485,10 @@
             "multi-sentence reading comprehension"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -36539,10 +36539,10 @@
             "multi-sentence reading comprehension"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -36593,10 +36593,10 @@
             "multi-sentence reading comprehension"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -36647,10 +36647,10 @@
             "multi-sentence reading comprehension"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -36703,10 +36703,10 @@
             "reading comprehension with commonsense reasoning dataset"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -36762,10 +36762,10 @@
             "reading comprehension with commonsense reasoning dataset"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -36821,10 +36821,10 @@
             "reading comprehension with commonsense reasoning dataset"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -36879,10 +36879,10 @@
             "reading comprehension with commonsense reasoning dataset"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -36937,10 +36937,10 @@
             "reading comprehension with commonsense reasoning dataset"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -36995,10 +36995,10 @@
             "reading comprehension with commonsense reasoning dataset"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -37053,10 +37053,10 @@
             "reading comprehension with commonsense reasoning dataset"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -37113,10 +37113,10 @@
             "reading comprehension with commonsense reasoning dataset"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -37172,10 +37172,10 @@
             "reading comprehension with commonsense reasoning dataset"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -37233,10 +37233,10 @@
             "reading comprehension with commonsense reasoning dataset"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -37292,10 +37292,10 @@
             "reading comprehension with commonsense reasoning dataset"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -37350,10 +37350,10 @@
             "reading comprehension with commonsense reasoning dataset"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -37408,10 +37408,10 @@
             "reading comprehension with commonsense reasoning dataset"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -37466,10 +37466,10 @@
             "reading comprehension with commonsense reasoning dataset"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -37524,10 +37524,10 @@
             "reading comprehension with commonsense reasoning dataset"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -37584,10 +37584,10 @@
             "reading comprehension with commonsense reasoning dataset"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -37643,10 +37643,10 @@
             "reading comprehension with commonsense reasoning dataset"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -37702,10 +37702,10 @@
             "reading comprehension with commonsense reasoning dataset"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -37767,10 +37767,10 @@
             "glue"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -37827,10 +37827,10 @@
             "glue"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -37887,10 +37887,10 @@
             "glue"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -37948,10 +37948,10 @@
             "glue"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -38009,10 +38009,10 @@
             "glue"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -38072,10 +38072,10 @@
             "glue"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -38132,10 +38132,10 @@
             "glue"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -38194,10 +38194,10 @@
             "glue"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -38255,10 +38255,10 @@
             "glue"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -38318,10 +38318,10 @@
             "glue"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -38378,10 +38378,10 @@
             "glue"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -38439,10 +38439,10 @@
             "glue"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -38502,10 +38502,10 @@
             "glue"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -38562,10 +38562,10 @@
             "glue"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -38622,10 +38622,10 @@
             "glue"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -38683,10 +38683,10 @@
             "glue"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -38744,10 +38744,10 @@
             "glue"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -38805,10 +38805,10 @@
             "glue"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -38866,10 +38866,10 @@
             "glue"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -38927,10 +38927,10 @@
             "glue"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -38981,10 +38981,10 @@
             "word in context"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -39040,10 +39040,10 @@
             "word in context"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -39098,10 +39098,10 @@
             "word in context"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -39157,10 +39157,10 @@
             "word in context"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -39215,10 +39215,10 @@
             "word in context"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -39275,10 +39275,10 @@
             "word in context"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -39334,10 +39334,10 @@
             "word in context"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -39394,10 +39394,10 @@
             "word in context"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -39452,10 +39452,10 @@
             "word in context"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -39510,10 +39510,10 @@
             "word in context"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -39571,10 +39571,10 @@
             "word in context"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -39631,10 +39631,10 @@
             "word in context"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -39690,10 +39690,10 @@
             "word in context"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -39750,10 +39750,10 @@
             "word in context"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -39808,10 +39808,10 @@
             "word in context"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -39867,10 +39867,10 @@
             "word in context"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -39926,10 +39926,10 @@
             "word in context"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -39985,10 +39985,10 @@
             "word in context"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -40044,10 +40044,10 @@
             "word in context"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -40102,10 +40102,10 @@
             "word in context"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -40160,10 +40160,10 @@
             "winograd schema challenge"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -40217,10 +40217,10 @@
             "winograd schema challenge"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -40275,10 +40275,10 @@
             "winograd schema challenge"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -40332,10 +40332,10 @@
             "winograd schema challenge"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -40389,10 +40389,10 @@
             "winograd schema challenge"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -40446,10 +40446,10 @@
             "winograd schema challenge"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -40504,10 +40504,10 @@
             "winograd schema challenge"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -40561,10 +40561,10 @@
             "winograd schema challenge"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -40618,10 +40618,10 @@
             "winograd schema challenge"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -40675,10 +40675,10 @@
             "winograd schema challenge"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -40733,10 +40733,10 @@
             "winograd schema challenge"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -40790,10 +40790,10 @@
             "winograd schema challenge"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -40849,10 +40849,10 @@
             "winograd schema challenge"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -40907,10 +40907,10 @@
             "winograd schema challenge"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -40964,10 +40964,10 @@
             "winograd schema challenge"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -41022,10 +41022,10 @@
             "winograd schema challenge"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -41079,10 +41079,10 @@
             "winograd schema challenge"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -41136,10 +41136,10 @@
             "winograd schema challenge"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -41192,10 +41192,10 @@
             "winograd schema challenge"
         ],
         "Creators": [
-            "Facebook AI Research",
             "DeepMind",
+            "New York University",
             "University of Washington",
-            "New York University"
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -42833,8 +42833,8 @@
             "original"
         ],
         "Creators": [
-            "Microsoft Research",
-            "Georgia Institute of Technology"
+            "Georgia Institute of Technology",
+            "Microsoft Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -42883,8 +42883,8 @@
             "original"
         ],
         "Creators": [
-            "Microsoft Research",
-            "Georgia Institute of Technology"
+            "Georgia Institute of Technology",
+            "Microsoft Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -42933,8 +42933,8 @@
             "original"
         ],
         "Creators": [
-            "Microsoft Research",
-            "Georgia Institute of Technology"
+            "Georgia Institute of Technology",
+            "Microsoft Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -42984,8 +42984,8 @@
             "original"
         ],
         "Creators": [
-            "Microsoft Research",
-            "Georgia Institute of Technology"
+            "Georgia Institute of Technology",
+            "Microsoft Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -43034,8 +43034,8 @@
             "original"
         ],
         "Creators": [
-            "Microsoft Research",
-            "Georgia Institute of Technology"
+            "Georgia Institute of Technology",
+            "Microsoft Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -43084,8 +43084,8 @@
             "original"
         ],
         "Creators": [
-            "Microsoft Research",
-            "Georgia Institute of Technology"
+            "Georgia Institute of Technology",
+            "Microsoft Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -43134,8 +43134,8 @@
             "original"
         ],
         "Creators": [
-            "Microsoft Research",
-            "Georgia Institute of Technology"
+            "Georgia Institute of Technology",
+            "Microsoft Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -45088,8 +45088,8 @@
             "ott dataset"
         ],
         "Creators": [
-            "University of Victoria",
-            "University of Windsor"
+            "University of Windsor",
+            "University of Victoria"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -45646,13 +45646,13 @@
             "original"
         ],
         "Creators": [
-            "University of Leipzig",
             "Kno.e.sis",
-            "OpenLink Software",
             "University of Mannheim",
-            "Neofonie GmbH",
+            "Brox IT-Solutions GmbH",
+            "OpenLink Software",
             "Hasso-Plattner-Institute for IT-Systems Engineering",
-            "Brox IT-Solutions GmbH"
+            "University of Leipzig",
+            "Neofonie GmbH"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -45896,8 +45896,8 @@
             "original"
         ],
         "Creators": [
-            "Bloomsbury AI",
-            "University College London"
+            "University College London",
+            "Bloomsbury AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -45944,8 +45944,8 @@
             "original"
         ],
         "Creators": [
-            "Bloomsbury AI",
-            "University College London"
+            "University College London",
+            "Bloomsbury AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -45991,9 +45991,9 @@
             "original"
         ],
         "Creators": [
-            "University of Southern California",
             "AI2",
-            "University of Washington"
+            "University of Washington",
+            "University of Southern California"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -46086,8 +46086,8 @@
             "original"
         ],
         "Creators": [
-            "University College London",
             "AI2",
+            "University College London",
             "University of Washington"
         ],
         "Bibtex": "",
@@ -55246,8 +55246,8 @@
         ],
         "Creators": [
             "University of Zurich",
-            "University of Konstanz",
-            "Heidelberg Academy of Sciences and Humanities"
+            "Heidelberg Academy of Sciences and Humanities",
+            "University of Konstanz"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -55297,8 +55297,8 @@
         ],
         "Creators": [
             "University of Zurich",
-            "University of Konstanz",
-            "Heidelberg Academy of Sciences and Humanities"
+            "Heidelberg Academy of Sciences and Humanities",
+            "University of Konstanz"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -55814,8 +55814,8 @@
             "trex"
         ],
         "Creators": [
-            "Massachusetts Institute of Technology",
-            "Google Research"
+            "Google Research",
+            "Massachusetts Institute of Technology"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -55879,8 +55879,8 @@
             "trex"
         ],
         "Creators": [
-            "Massachusetts Institute of Technology",
-            "Google Research"
+            "Google Research",
+            "Massachusetts Institute of Technology"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -55932,7 +55932,7 @@
             "original"
         ],
         "Creators": [
-            "Texas Instruments"
+            "Texas Instruments Inc."
         ],
         "Bibtex": "",
         "Licenses": [
@@ -55978,10 +55978,10 @@
             "babi dataset"
         ],
         "Creators": [
-            "KU Leuven",
+            "University of Lille",
             "CNRS",
-            "Inria",
-            "University of Lille"
+            "KU Leuven",
+            "Inria"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -56028,10 +56028,10 @@
             "babi dataset"
         ],
         "Creators": [
-            "KU Leuven",
+            "University of Lille",
             "CNRS",
-            "Inria",
-            "University of Lille"
+            "KU Leuven",
+            "Inria"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -56077,10 +56077,10 @@
             "babi dataset"
         ],
         "Creators": [
-            "KU Leuven",
+            "University of Lille",
             "CNRS",
-            "Inria",
-            "University of Lille"
+            "KU Leuven",
+            "Inria"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -56125,8 +56125,8 @@
             "original"
         ],
         "Creators": [
-            "Facebook AI Research",
-            "Georgia Institute of Technology"
+            "Georgia Institute of Technology",
+            "Facebook AI Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -56173,8 +56173,8 @@
             "bigclonebench"
         ],
         "Creators": [
-            "Peking University",
-            "Monash University"
+            "Monash University",
+            "Peking University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -56320,8 +56320,8 @@
         ],
         "Creators": [
             "Athens University of Economics and Business",
-            "NCSR Demokritos",
-            "Panteion University"
+            "Panteion University",
+            "NCSR Demokritos"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -56368,8 +56368,8 @@
         ],
         "Creators": [
             "Athens University of Economics and Business",
-            "NCSR Demokritos",
-            "Panteion University"
+            "Panteion University",
+            "NCSR Demokritos"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -56552,8 +56552,8 @@
             "original"
         ],
         "Creators": [
-            "Bloomsbury AI",
-            "University College London"
+            "University College London",
+            "Bloomsbury AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -56600,8 +56600,8 @@
             "original"
         ],
         "Creators": [
-            "Bloomsbury AI",
-            "University College London"
+            "University College London",
+            "Bloomsbury AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -56832,11 +56832,11 @@
             "webnlg 2017 "
         ],
         "Creators": [
-            "Massachusetts Institute of Technology",
-            "The University of Hong Kong",
+            "Salesforce Research",
             "Penn State University",
             "Yale University",
-            "Salesforce Research"
+            "Massachusetts Institute of Technology",
+            "The University of Hong Kong"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -57253,8 +57253,8 @@
             "original"
         ],
         "Creators": [
-            "Max Planck Institute for Informatics",
-            "Amazon"
+            "Amazon",
+            "Max Planck Institute for Informatics"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -58732,9 +58732,9 @@
             "squad2.0"
         ],
         "Creators": [
+            "Georgia Institute of Technology",
             "Google",
-            "The University of Texas at Austin",
-            "Georgia Institute of Technology"
+            "The University of Texas at Austin"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -58780,8 +58780,8 @@
             "original"
         ],
         "Creators": [
-            "Indian Institute of Science Bangalore",
-            "Google Research"
+            "Google Research",
+            "Indian Institute of Science Bangalore"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -58873,9 +58873,9 @@
             "original"
         ],
         "Creators": [
-            "Tel Aviv University",
+            "Rupert",
             "Columbia University",
-            "Rupert"
+            "Tel Aviv University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -58932,8 +58932,8 @@
             "quora question pair"
         ],
         "Creators": [
-            "Seoul National University",
-            "Naver Search"
+            "Naver Search",
+            "Seoul National University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -58987,8 +58987,8 @@
             "cochrane database of systematic reviews"
         ],
         "Creators": [
-            "The University of Texas at Austin",
             "King\u2019s College London",
+            "The University of Texas at Austin",
             "Northeastern University"
         ],
         "Bibtex": "",
@@ -59082,8 +59082,8 @@
             "fever"
         ],
         "Creators": [
-            "Czech Technical University",
-            "Charles University"
+            "Charles University",
+            "Czech Technical University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -59178,8 +59178,8 @@
             "original"
         ],
         "Creators": [
-            "Auburn University",
-            "Adobe Research"
+            "Adobe Research",
+            "Auburn University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -60277,11 +60277,11 @@
             "singleop"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -60359,11 +60359,11 @@
             "singleop"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -60409,11 +60409,11 @@
             "addsub"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -60458,11 +60458,11 @@
             "amps"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -60507,11 +60507,11 @@
             "amps"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -60556,11 +60556,11 @@
             "amps"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -60605,11 +60605,11 @@
             "amps"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -60655,11 +60655,11 @@
             "amps"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -60705,11 +60705,11 @@
             "amps"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -60757,11 +60757,11 @@
             "apps"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -60807,11 +60807,11 @@
             "asdiv"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -60857,11 +60857,11 @@
             "conala"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -60908,11 +60908,11 @@
             "deepmind"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -60957,11 +60957,11 @@
             "deepmind"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -61006,11 +61006,11 @@
             "deepmind"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -61056,11 +61056,11 @@
             "deepmind"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -61105,11 +61105,11 @@
             "dolphin"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -61157,11 +61157,11 @@
             "gsm8k"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -61207,11 +61207,11 @@
             "MATH"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -61258,11 +61258,11 @@
             "MATH"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -61311,11 +61311,11 @@
             "mathqa"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -61363,11 +61363,11 @@
             "mathqa"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -61415,11 +61415,11 @@
             "mathqa"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -61465,11 +61465,11 @@
             "multiarith"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -61516,11 +61516,11 @@
             "numglue"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -61568,11 +61568,11 @@
             "numglue"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -61619,11 +61619,11 @@
             "numglue"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -61670,11 +61670,11 @@
             "numglue"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -61722,11 +61722,11 @@
             "numglue"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -61773,11 +61773,11 @@
             "numglue"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -61823,11 +61823,11 @@
             "simuleq"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -61874,11 +61874,11 @@
             "singleop"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -61924,11 +61924,11 @@
             "simuleq"
         ],
         "Creators": [
-            "UCLA",
-            "Arizona State University",
-            "Harvard University",
             "AI2",
-            "Georgia Institute of Technology"
+            "UCLA",
+            "Harvard University",
+            "Georgia Institute of Technology",
+            "Arizona State University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -62065,9 +62065,9 @@
             "original"
         ],
         "Creators": [
-            "IT University of Copenhagen",
             "University of Sheffield",
-            "University of Warwick"
+            "University of Warwick",
+            "IT University of Copenhagen"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -62216,10 +62216,10 @@
             "original"
         ],
         "Creators": [
-            "Carnegie Mellon University",
             "Shanghai Jiao Tong University",
-            "Xi\u2019an Jiaotong University",
-            "Microsoft Research"
+            "Microsoft Research",
+            "Carnegie Mellon University",
+            "Xi\u2019an Jiaotong University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -62313,10 +62313,10 @@
             "original"
         ],
         "Creators": [
+            "EleutherAI",
             "Carnegie Mellon University",
-            "University of Warsaw",
             "Yale University",
-            "EleutherAI"
+            "University of Warsaw"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -62502,8 +62502,8 @@
             "original"
         ],
         "Creators": [
-            "Auburn University",
-            "Adobe Research"
+            "Adobe Research",
+            "Auburn University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -62649,8 +62649,8 @@
             "original"
         ],
         "Creators": [
-            "Athens University of Economics and Business",
-            "University of Sheffield"
+            "University of Sheffield",
+            "Athens University of Economics and Business"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -62703,9 +62703,9 @@
             "amnli"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -62751,9 +62751,9 @@
             "sst-2"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -62807,9 +62807,9 @@
             "qqp"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -62860,9 +62860,9 @@
             "stsb"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -62912,9 +62912,9 @@
             "mnli"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -62964,9 +62964,9 @@
             "mnli"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -63015,9 +63015,9 @@
             "mnli"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -63066,9 +63066,9 @@
             "qnli"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -63121,9 +63121,9 @@
             "rte"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -63172,9 +63172,9 @@
             "winograd schema challenge"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -63784,8 +63784,8 @@
             "original"
         ],
         "Creators": [
-            "Northeastern University",
-            "AI2"
+            "AI2",
+            "Northeastern University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -64399,13 +64399,13 @@
             "original"
         ],
         "Creators": [
-            "ServiceNow Research",
-            "ETH Z\u00fcrich",
-            "CIFAR AI Chair",
-            "Microsoft",
-            "Montreal Institute of Learning Algorithms (Mila)",
             "McGill University",
-            "Meta"
+            "ETH Z\u00fcrich",
+            "Meta",
+            "Microsoft",
+            "CIFAR AI Chair",
+            "Montreal Institute of Learning Algorithms (Mila)",
+            "ServiceNow Research"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -64641,11 +64641,11 @@
             "original"
         ],
         "Creators": [
+            "AI2",
             "Johns Hopkins University",
-            "University of Washington",
             "Tehran Polytechnic",
             "Arizona State University",
-            "AI2"
+            "University of Washington"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -65073,9 +65073,9 @@
             "original"
         ],
         "Creators": [
-            "UC San Francisco",
             "New Jersey Institute of Technology",
-            "Columbia University"
+            "Columbia University",
+            "UC San Francisco"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -65517,10 +65517,10 @@
             "original"
         ],
         "Creators": [
-            "Institute of Science and Technology Austria",
-            "DeepMind",
             "Google Research",
-            "Google Brain"
+            "Google Brain",
+            "DeepMind",
+            "Institute of Science and Technology Austria"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -65566,10 +65566,10 @@
             "original"
         ],
         "Creators": [
-            "Institute of Science and Technology Austria",
-            "DeepMind",
             "Google Research",
-            "Google Brain"
+            "Google Brain",
+            "DeepMind",
+            "Institute of Science and Technology Austria"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -65615,9 +65615,9 @@
             "original"
         ],
         "Creators": [
-            "University of Minnesota",
+            "Mayo College of Medicine",
             "University of Utah",
-            "Mayo College of Medicine"
+            "University of Minnesota"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -65662,9 +65662,9 @@
             "original"
         ],
         "Creators": [
-            "University of Minnesota",
+            "Mayo College of Medicine",
             "University of Utah",
-            "Mayo College of Medicine"
+            "University of Minnesota"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -65710,9 +65710,9 @@
             "original"
         ],
         "Creators": [
-            "University of Minnesota",
+            "Mayo College of Medicine",
             "University of Utah",
-            "Mayo College of Medicine"
+            "University of Minnesota"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -65758,9 +65758,9 @@
             "original"
         ],
         "Creators": [
-            "University of Minnesota",
+            "Mayo College of Medicine",
             "University of Utah",
-            "Mayo College of Medicine"
+            "University of Minnesota"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -65853,10 +65853,10 @@
             "fever"
         ],
         "Creators": [
+            "Google Research",
             "University of Zurich",
-            "University of Maryland",
             "ETH Z\u00fcrich",
-            "Google Research"
+            "University of Maryland"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -65998,8 +65998,8 @@
             "original"
         ],
         "Creators": [
-            "University of Copenhagen",
-            "Ruhr-Universit\u00e4t Bochum"
+            "Ruhr-Universit\u00e4t Bochum",
+            "University of Copenhagen"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -66045,9 +66045,9 @@
             "original"
         ],
         "Creators": [
+            "Taras Shevchenko National University of Kyiv",
             "UC San Francisco",
-            "NextMove Software Limited",
-            "Taras Shevchenko National University of Kyiv"
+            "NextMove Software Limited"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -66411,10 +66411,10 @@
             "climate-fever"
         ],
         "Creators": [
+            "Google Research",
             "University of Zurich",
-            "University of Maryland",
             "ETH Z\u00fcrich",
-            "Google Research"
+            "University of Maryland"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -66464,9 +66464,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -66512,9 +66512,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -66561,9 +66561,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -66609,9 +66609,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -67478,11 +67478,11 @@
             "original"
         ],
         "Creators": [
-            "Johns Hopkins University",
-            "Pioneer Centre for AI",
             "University of Copenhagen",
             "ROCKWOOL Foundation Research Unit",
-            "KU Leuven"
+            "Johns Hopkins University",
+            "KU Leuven",
+            "Pioneer Centre for AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -67583,9 +67583,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -67633,9 +67633,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -67682,9 +67682,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -67731,9 +67731,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -67780,9 +67780,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -67828,9 +67828,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -67878,9 +67878,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -67926,9 +67926,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -67975,9 +67975,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -68026,9 +68026,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -68075,9 +68075,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -68122,9 +68122,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -68259,9 +68259,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -68307,9 +68307,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -68356,9 +68356,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -68403,9 +68403,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -68452,9 +68452,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -68500,9 +68500,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -68548,9 +68548,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -68597,9 +68597,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -68645,9 +68645,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -68697,9 +68697,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -68746,9 +68746,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -68793,9 +68793,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -68842,9 +68842,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -68890,9 +68890,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -68938,9 +68938,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -68986,9 +68986,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -69035,9 +69035,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -69082,9 +69082,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -69132,9 +69132,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -69180,9 +69180,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -69229,9 +69229,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -69278,9 +69278,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -69329,9 +69329,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -69378,9 +69378,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -69426,9 +69426,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -69473,9 +69473,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -69520,9 +69520,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -69569,11 +69569,11 @@
             "original"
         ],
         "Creators": [
-            "Alan Turing Institute",
-            "Queen Mary University of London",
             "The British Library",
             "University of Cambridge",
-            "University of Exeter"
+            "University of Exeter",
+            "Alan Turing Institute",
+            "Queen Mary University of London"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -69825,8 +69825,8 @@
             "semantic scholar literature corpus"
         ],
         "Creators": [
-            "Northeastern University",
-            "AI2"
+            "AI2",
+            "Northeastern University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -69878,8 +69878,8 @@
             "semantic scholar literature corpus"
         ],
         "Creators": [
-            "Northeastern University",
-            "AI2"
+            "AI2",
+            "Northeastern University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -69930,9 +69930,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -69979,9 +69979,9 @@
             "web table corpus"
         ],
         "Creators": [
+            "New York University",
             "Fund for Alignment Research",
-            "Anthropic AI",
-            "New York University"
+            "Anthropic AI"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -70071,8 +70071,8 @@
             "original"
         ],
         "Creators": [
-            "UC Berkeley",
-            "The Nueva School"
+            "The Nueva School",
+            "UC Berkeley"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -70120,8 +70120,8 @@
             "semantic scholar literature corpus"
         ],
         "Creators": [
-            "Northeastern University",
-            "AI2"
+            "AI2",
+            "Northeastern University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -70219,8 +70219,8 @@
             "semantic scholar literature corpus"
         ],
         "Creators": [
-            "Northeastern University",
-            "AI2"
+            "AI2",
+            "Northeastern University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -70272,8 +70272,8 @@
             "semantic scholar literature corpus"
         ],
         "Creators": [
-            "Northeastern University",
-            "AI2"
+            "AI2",
+            "Northeastern University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -70430,13 +70430,13 @@
             "fb15k-237"
         ],
         "Creators": [
-            "Huawei Technologies",
-            "ETH Z\u00fcrich",
-            "National University of Singapore",
-            "Tsinghua University",
             "Nanyang Technological University",
+            "National University of Singapore",
             "Huawei Noah\u2019s Ark Lab",
-            "BNRist"
+            "ETH Z\u00fcrich",
+            "Tsinghua University",
+            "BNRist",
+            "Huawei Technologies"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -70482,9 +70482,9 @@
             "sst-2"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -70534,9 +70534,9 @@
             "mnli"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -70585,9 +70585,9 @@
             "mnli"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -70637,9 +70637,9 @@
             "qnli"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -70689,9 +70689,9 @@
             "winograd schema challenge"
         ],
         "Creators": [
+            "New York University",
             "University of Washington",
-            "DeepMind",
-            "New York University"
+            "DeepMind"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -70878,8 +70878,8 @@
             "smiles"
         ],
         "Creators": [
-            "Stanford University",
-            "Schrodinger Inc."
+            "Schrodinger Inc.",
+            "Stanford University"
         ],
         "Bibtex": "",
         "Licenses": [
@@ -71021,8 +71021,8 @@
             "ubuntu dialogue corpus"
         ],
         "Creators": [
-            "Universite de Montreal",
-            "McGill University"
+            "McGill University",
+            "Universite de Montreal"
         ],
         "Bibtex": "",
         "Licenses": [
