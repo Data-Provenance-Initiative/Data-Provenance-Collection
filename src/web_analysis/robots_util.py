@@ -1,4 +1,4 @@
-from collections import defaultdict
+from collections import defaultdict, Counter
 import itertools
 
 import json
@@ -48,7 +48,7 @@ BOT_TRACKER = {
         "retrieval": ["Amazonbot"],
         # https://developer.amazon.com/amazonbot
     },
-    "Anthropic False": {
+    "False Anthropic": {
         "train": ["anthropic-ai"],
         "retrieval": ["Claude-Web"],
         # https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler
@@ -67,7 +67,14 @@ BOT_TRACKER = {
         "retrieval": ["FacebookBot"],
         # https://developers.facebook.com/docs/sharing/bot/
     },
-    "Internet Archive": {"train": ["ia_archiver"], "retrieval": ["ia_archiver"]},
+    "Internet Archive": {
+        "train": ["ia_archiver"], 
+        "retrieval": ["ia_archiver"]
+    },
+    "Google Search": {
+        "train": ["Googlebot"],
+        "retrieval": ["Googlebot"],
+    },
     # "Perplexity AI": {
     #     "train": ["PerplexityBot"],
     #     "retrieval": ["PerplexityBot"]
@@ -303,32 +310,62 @@ def print_out_robots_info(loaded_robots):
     print(f"Last time: {max(all_times)}")
 
 
+
 def compute_url_date_agent_status(data, relevant_agents):
     """
     Args:
         data: {URL --> Date --> robots.txt raw text}
         relevant_agents: List of agent names to track
 
-    Returns: {URL --> Date --> Agent --> Status}
+    Returns: 
+        status_summary: {URL --> Date --> Agent --> Status} (only for relevant_agents)
+        agent_counter_df: DataFrame with columns [agent, observed, all, some, none]
     """
-    # Convert date strings to pandas datetime for easier manipulation
-    # {URL --> Date --> Agent --> Status}
-    # all_statuses = []
+    # Status summary to be returned (only for relevant agents)
     status_summary = defaultdict(lambda: defaultdict(lambda: defaultdict(str)))
+    
+    # Counter to track statuses for all agents
+    agent_counter = Counter()
+    status_counter = defaultdict(lambda: Counter({'all': 0, 'none': 0, 'some': 0}))
+
     for url, date_to_robots in data.items():
         if None in date_to_robots:
             print(url)
-        _, parsed_result = robots_stats, url_interpretations = (
-            parse_robots.analyze_robots(date_to_robots)
-        )
+        _, parsed_result = parse_robots.analyze_robots(date_to_robots)
+        
         for date_str, agent_to_status in parsed_result.items():
             date = pd.to_datetime(date_str)
             for agent in relevant_agents:
                 status = agent_to_status.get(agent, agent_to_status.get("*", "none"))
                 status_summary[url][date][agent] = status
-                # all_statuses.append(status)
-    # print(set(all_statuses))
-    return status_summary
+            for agent, status in agent_to_status.items():
+                # Update counters for all agents
+                agent_counter[agent] += 1
+                if status == "all":
+                    status_counter[agent]['all'] += 1
+                elif status == "none":
+                    status_counter[agent]['none'] += 1
+                else:
+                    status_counter[agent]['some'] += 1
+
+    # Create DataFrame from the status counters
+    agent_counter_df = pd.DataFrame(
+        [(agent, agent_counter[agent], counts['all'], counts['some'], counts['none'])
+         for agent, counts in status_counter.items()],
+        columns=['agent', 'observed', 'all', 'some', 'none']
+    )
+
+    return status_summary, agent_counter_df
+
+# Example usage (assuming you have the data and relevant_agents variables)
+# status_summary, agent_counter_df = compute_url_date_agent_status(data, relevant_agents)
+# print(agent_counter_df)
+
+
+# Example usage (assuming you have the data and relevant_agents variables)
+# status_summary, agent_counter_df = compute_url_date_agent_status(data, relevant_agents)
+# print(agent_counter_df)
+
 
 def read_snapshots(fpath, robots_urls):
     def get_website_start_dates(json_data):
@@ -887,14 +924,6 @@ def plot_temporal_area_map_altair(
     )
     
     return chart
-
-# Example usage with your DataFrame
-# ordered_statuses = ['N/A', 'none', 'some', 'all']
-# status_colors = {'N/A': 'gray', 'none': 'blue', 'some': 'orange', 'all': 'red'}
-# chart = general_plot_robots_time_map(df, 'agent', 'some_agent_type', 'period', 'status', 'count', 'Restriction Status over Time', ordered_statuses, status_colors)
-# chart.show()
-
-
 
 
 
