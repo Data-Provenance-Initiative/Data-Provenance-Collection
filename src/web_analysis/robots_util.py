@@ -1,5 +1,6 @@
 from collections import defaultdict
 import itertools
+import re
 
 import json
 import numpy as np
@@ -11,6 +12,7 @@ import plotly.graph_objects as go
 import seaborn as sns
 from scipy.stats import gaussian_kde
 from plotly.subplots import make_subplots
+from urllib.parse import urlparse
 
 from . import parse_robots
 from analysis import visualization_util, analysis_constants
@@ -330,25 +332,13 @@ def compute_url_date_agent_status(data, relevant_agents):
     # print(set(all_statuses))
     return status_summary
 
-def read_snapshots(fpath, robots_urls):
-    def get_website_start_dates(json_data):
-        start_dates = {}
-        for website, snapshots in json_data.items():
-            snapshot_dates = [datetime.strptime(date[:10], '%Y-%m-%d') for date in snapshots.keys()]
-            if snapshot_dates:
-                start_date = min(snapshot_dates)
-                start_dates[website] = start_date
-        return start_dates
-
+def read_start_dates(fpath, robots_urls):
     # Load the JSON data
     with open(fpath, 'r') as file:
-        json_data = json.load(file)
-
-    # Replace with the actual path to the snapshots directory
-    start_dates = get_website_start_dates(json_data)
+        start_dates = json.load(file)
 
     # Map the sanitized URLs back to the original URLs
-    website_start_dates = {url: start_dates.get(url) for url in robots_urls}
+    website_start_dates = {url: start_dates.get(sanitize_url(url), pd.to_datetime('1970-01-01')) for url in robots_urls}
     return website_start_dates
 
 def prepare_robots_temporal_summary(
@@ -711,7 +701,7 @@ def encode_latest_tos_robots_into_df(
     return url_results_df
 
 
-def plot_robots_time_map_original(df, agent_type, val_keyfrequency="M"):
+def plot_robots_time_map_original(df, agent_type, val_key, frequency="M"):
     
     filtered_df = df[df["agent"] == agent_type]
 
@@ -1326,3 +1316,15 @@ def plot_robots_time_map_3d_surface_matplotlib(
     plt.show()
     plt.clf()
 
+
+def sanitize_url(url: str) -> str:
+    """
+    Sanitizes URL to be used as a folder name.
+    """
+    parsed_url = urlparse(url)
+    sanitized_netloc = parsed_url.netloc.replace(".", "_")
+    sanitized_path = "_".join(
+        filter(None, re.split(r"\/+", parsed_url.path.strip("/")))
+    )
+    sanitized_url = f"{sanitized_netloc}_{sanitized_path}"
+    return sanitized_url.replace(".", "_")
