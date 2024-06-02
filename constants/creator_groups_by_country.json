@@ -211,11 +211,17 @@
         "NCSR Demokritos",
         "Panteion University"
     ],
+    "Guinea": [
+        "GNCode"
+    ],
     "Hong Kong": [
         "Center for Artificial Intelligence Research (CAiRE)",
         "The Hong Kong Polytechnic University",
         "The Hong Kong University of Science and Technology",
         "The University of Hong Kong"
+    ],
+    "Iceland": [
+        "Reykjavik University"
     ],
     "India": [
         "AI4Bharat",
@@ -315,6 +321,12 @@
         "TRoboto",
         "The University of Jordan"
     ],
+    "Kazakhstan": [
+        "Nazarbayev University"
+    ],
+    "Mexico": [
+        "Instituto Polit\u00e9cnico Nacional"
+    ],
     "Myanmar": [
         "Yangon University of Computer Studies"
     ],
@@ -410,6 +422,9 @@
     ],
     "Slovenia": [
         "Jo\u02c7zef Stefan Institute"
+    ],
+    "South Africa": [
+        "Lelapa AI"
     ],
     "South Korea": [
         "Atlas Labs",
@@ -715,20 +730,5 @@
         "Vietnam Institute of Information Technology",
         "Vietnam National University Ho Chi Minh City",
         "VinAI Research"
-    ],
-    "Guinea": [
-        "GNCode"
-    ],
-    "Iceland": [
-        "Reykjavik University"
-    ],
-    "Kazakhstan": [
-        "Nazarbayev University"
-    ],
-    "Mexico": [
-        "Instituto Polit\u00e9cnico Nacional"
-    ],
-    "South Africa": [
-        "Lelapa AI"
     ]
 }
