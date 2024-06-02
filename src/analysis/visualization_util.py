@@ -415,6 +415,7 @@ def plot_confusion_matrix(
     return final_plot
 
 
+
 def create_stacked_area_chart(
     df, 
     period_col, 
@@ -435,39 +436,28 @@ def create_stacked_area_chart(
     if status_colors is None:
         status_colors = {status: 'gray' for status in ordered_statuses}
     
-
     # Create the Altair chart
     chart = alt.Chart(df).mark_area().encode(
-        # x=alt.X(f'{period_col}:T', axis=alt.Axis(format='%Y', title=period_col)),
-        x=f'{period_col}:T',
-        y=f'{percentage_col}:Q',
+        x=alt.X(f'{period_col}:T', axis=alt.Axis(format='%Y', title=period_col)),
+        y=alt.Y(f'{percentage_col}:Q', scale=alt.Scale(domain=[0, 1]), axis=alt.Axis(format='.0f', title=percentage_col)),
         color=alt.Color(
             f'{status_col}:N', 
-            scale=alt.Scale(domain=list(status_colors.keys()), 
-            range=list(status_colors.values())), 
+            scale=alt.Scale(domain=list(status_colors.keys()), range=list(status_colors.values())), 
             title=status_col
         ),
         order="order:Q"
-        # tooltip=[period_col, status_col, percentage_col]
     )
     
     if vertical_line_dates:
-
-        # Specify the date where the vertical line should be placed
         for vl_date in vertical_line_dates:
-            # vertical_line_date = pd.to_datetime('2020-01-05')
             vl_date = pd.to_datetime(vl_date)
-
-            # Create the vertical line
             vertical_line = alt.Chart(pd.DataFrame({period_col: [vl_date]})).mark_rule(
                 color='white',
-                strokeDash=[5, 5]  # This makes the line dotted
+                strokeDash=[5, 5]
             ).encode(
                 x=f'{period_col}:T'
             )
-
             chart = chart + vertical_line
-
 
     final_plot = chart.properties(
         title=title,
@@ -479,12 +469,16 @@ def create_stacked_area_chart(
         titleFontSize=font_size,
         titleFont=font_style,
         domain=True
-        # labelAngle=30,
     ).configure_axisX(
         labelAngle=0,
-        domain=True
+        domain=True,
+        format='%Y',
+        tickCount='year',
+        labelExpr="timeFormat(datum.value, '%Y')"  # Ensure only year labels are shown
     ).configure_axisY(
-        domain=True
+        domain=True,
+        format='.0f',
+        labelExpr="datum.value * 100"  # Scale from 0-1 to 0-100
     ).configure_legend(
         labelFontSize=font_size,
         titleFontSize=font_size,
@@ -493,6 +487,9 @@ def create_stacked_area_chart(
     )
     
     return final_plot
+
+
+
 
 
 
