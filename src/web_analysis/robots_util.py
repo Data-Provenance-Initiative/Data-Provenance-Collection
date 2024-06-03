@@ -1,4 +1,5 @@
 from collections import defaultdict, Counter
+import re
 import itertools
 
 import json
@@ -11,6 +12,7 @@ import plotly.graph_objects as go
 import seaborn as sns
 from scipy.stats import gaussian_kde
 from plotly.subplots import make_subplots
+from urllib.parse import urlparse
 
 from . import parse_robots
 from analysis import visualization_util, analysis_constants
@@ -262,6 +264,32 @@ def agent_and_operation(agent_statuses):
         return "none"
     else:
         return "no_robots"
+    
+
+def agent_and_operation_detailed(agent_statuses):
+    """Given a list of agent statuses, return the strictest designation."""
+    if "all" in agent_statuses:
+        return "all"
+    elif any(status.startswith("some") for status in agent_statuses):
+        some_categories = [status for status in agent_statuses if status.startswith("some")]
+        if "some_pattern_restrictions" in some_categories:
+            return "some_pattern_restrictions"
+        elif "some_disallow_file_types" in some_categories:
+            return "some_disallow_file_types"
+        elif "some_disallow_important_dir" in some_categories:
+            return "some_disallow_important_dir"
+        else:
+            return "some_other"
+    elif any(status.startswith("none") for status in agent_statuses):
+        none_categories = [status for status in agent_statuses if status.startswith("none")]
+        if "none_crawl_delay" in none_categories:
+            return "none_crawl_delay"
+        elif "none_sitemap" in none_categories:
+            return "none_sitemap"
+        else:
+            return "none"
+    else:
+        return "no_robots"
 
 
 def find_closest_time_key(dates, target_period, direction):
@@ -366,27 +394,69 @@ def compute_url_date_agent_status(data, relevant_agents):
 # status_summary, agent_counter_df = compute_url_date_agent_status(data, relevant_agents)
 # print(agent_counter_df)
 
+def compute_url_date_agent_status_detailed(data, relevant_agents):
+    """
+    Args:
+        data: {URL --> Date --> robots.txt raw text}
+        relevant_agents: List of agent names to track
 
-def read_snapshots(fpath, robots_urls):
-    def get_website_start_dates(json_data):
-        start_dates = {}
-        for website, snapshots in json_data.items():
-            snapshot_dates = [datetime.strptime(date[:10], '%Y-%m-%d') for date in snapshots.keys()]
-            if snapshot_dates:
-                start_date = min(snapshot_dates)
-                start_dates[website] = start_date
-        return start_dates
+    Returns: {URL --> Date --> Agent --> Status}
+    """
+    status_summary = defaultdict(lambda: defaultdict(lambda: defaultdict(str)))
+    for url, date_to_robots in data.items():
+        if None in date_to_robots:
+            print(url)
+        _, parsed_result = robots_stats, url_interpretations = (
+            parse_robots.analyze_robots(date_to_robots)
+        )
+        for date_str, agent_to_status in parsed_result.items():
+            date = pd.to_datetime(date_str)
+            for agent in relevant_agents:
+                status = agent_to_status.get(agent, agent_to_status.get("*", "none"))
+                robots_txt = date_to_robots[date_str]
 
+                if status == "some":
+                    if re.search(r"Disallow:\s+/.*\?", robots_txt):
+                        status = "some_pattern_restrictions"
+                    elif re.search(r"Disallow:\s+\*\.(?:pdf|jpe?g|png|gif|bmp|ico|tiff?|svg)", robots_txt):
+                        status = "some_disallow_file_types"
+                    elif re.search(r"Disallow:\s*/(?:admin|private|confidential)", robots_txt):
+                        status = "some_disallow_important_dir"
+                    else:
+                        status = "some_other"
+                elif status == "none" or status == "*":
+                    if re.search(r"Crawl-delay:", robots_txt):
+                        status = "none_crawl_delay"
+                    elif re.search(r"Sitemap:", robots_txt):
+                        status = "none_sitemap"
+                    else:
+                        status = "none"
+                status_summary[url][date][agent] = status
+    return status_summary
+
+
+def sanitize_url(url: str) -> str:
+    """
+    Sanitizes URL to be used as a folder name.
+    """
+    parsed_url = urlparse(url)
+    sanitized_netloc = parsed_url.netloc.replace(".", "_")
+    sanitized_path = "_".join(
+        filter(None, re.split(r"\/+", parsed_url.path.strip("/")))
+    )
+    sanitized_url = f"{sanitized_netloc}_{sanitized_path}"
+    return sanitized_url.replace(".", "_")
+
+
+def read_start_dates(fpath, robots_urls):
     # Load the JSON data
     with open(fpath, 'r') as file:
-        json_data = json.load(file)
-
-    # Replace with the actual path to the snapshots directory
-    start_dates = get_website_start_dates(json_data)
+        start_dates = json.load(file)
 
     # Map the sanitized URLs back to the original URLs
-    website_start_dates = {url: start_dates.get(url) for url in robots_urls}
+    website_start_dates = {url: start_dates.get(sanitize_url(url), pd.to_datetime('1970-01-01')) for url in robots_urls}
     return website_start_dates
+
 
 def prepare_robots_temporal_summary(
     url_robots_summary,
@@ -441,6 +511,63 @@ def prepare_robots_temporal_summary(
                             for agent in agents
                         ]
                         group_status = agent_and_operation(statuses)
+                        filled_status_summary[period][group][group_status].add(url)
+
+    return filled_status_summary
+
+def prepare_robots_temporal_summary_detailed(
+    url_robots_summary,
+    group_to_agents,
+    start_time,
+    end_time,
+    time_frequency="M",
+    website_start_dates=None,
+):
+    """
+    Fill in the missing weeks for each URL.
+
+    Args:
+        url_robots_summary: {URL --> Date --> Agent --> Status}
+        group_to_agents: {group_name --> [agents]}
+        start_time: YYYY-MM-DD
+        end_time: YYYY-MM-DD
+        time_frequency: "M" = Monthly, "W" = Weekly.
+        website_start_dates: {URL --> start_date} (optional)
+
+    Returns:
+        {Period --> Agent --> Status --> set(URLs)}
+    """
+    start_date = pd.to_datetime(start_time)
+    end_date = pd.to_datetime(end_time)
+    date_range = pd.period_range(start_date, end_date, freq=time_frequency)
+    filled_status_summary = defaultdict(lambda: defaultdict(lambda: defaultdict(set)))
+
+    for period in date_range:
+        for url, start_date in website_start_dates.items():
+            if pd.isnull(start_date):  # Skip URLs without a start date
+                continue
+            if (
+                url not in url_robots_summary
+            ):  # Skip URLs that don't exist in url_robots_summary
+                continue
+            if period.start_time >= start_date:
+                date_agent_status = url_robots_summary[url]
+                robots_time_keys = sorted(list(date_agent_status.keys()))
+                time_key = find_closest_time_key(
+                    robots_time_keys, period, direction="backward"
+                )
+
+                for group, agents in group_to_agents.items():
+                    if time_key is None:
+                        filled_status_summary[period][group]["no_robots"].add(
+                            url
+                        )  # Site exists but no robots.txt file for the period
+                    else:
+                        statuses = [
+                            date_agent_status[time_key].get(agent, "no_robots")
+                            for agent in agents
+                        ]
+                        group_status = agent_and_operation_detailed(statuses)
                         filled_status_summary[period][group][group_status].add(url)
 
     return filled_status_summary
@@ -748,7 +875,7 @@ def encode_latest_tos_robots_into_df(
     return url_results_df
 
 
-def plot_robots_time_map_original(df, agent_type, val_keyfrequency="M"):
+def plot_robots_time_map_original(df, agent_type, val_key, frequency="M"):
     
     filtered_df = df[df["agent"] == agent_type]
 
@@ -869,7 +996,8 @@ def plot_robots_time_map_altair(
     val_col, 
     title='', 
     ordered_statuses=None, 
-    status_colors=None
+    status_colors=None,
+    datetime_swap=False,
 ):
     # Filter the DataFrame for the relevant agent
     filtered_df = df[df["agent"] == agent_type]
@@ -881,7 +1009,70 @@ def plot_robots_time_map_altair(
         title=title, 
         ordered_statuses=ordered_statuses, 
         status_colors=status_colors,
+        datetime_swap=datetime_swap,
     )
+    
+    
+def plot_robots_time_map_altair_detailed(
+    df,  
+    agent_type, 
+    period_col, 
+    status_col, 
+    val_col, 
+    title='', 
+    ordered_statuses=None, 
+    status_colors=None,
+    detailed=False,
+):
+    # Filter the DataFrame for the relevant agent
+    filtered_df = df[df["agent"] == agent_type]
+    
+    # Group by 'period' and 'status', and sum up the 'count'
+    grouped_df = filtered_df.groupby([period_col, status_col])[val_col].sum().unstack(fill_value=0)
+    
+    # Ensure all required statuses are present in the DataFrame
+    required_statuses = [
+        "no_robots",
+        "none",
+        "none_sitemap",
+        "none_crawl_delay",
+        "some_other",
+        "some_disallow_important_dir",
+        "some_disallow_file_types",
+        "some_pattern_restrictions",
+        "all"
+    ]
+    missing_statuses = set(required_statuses) - set(grouped_df.columns)
+    for status in missing_statuses:
+        grouped_df[status] = 0
+    
+    # Reorder the columns as desired
+    if ordered_statuses is None:
+        ordered_statuses = required_statuses
+    grouped_df = grouped_df[ordered_statuses]
+    
+    # Calculate the total counts for each period
+    total_counts = grouped_df.sum(axis=1)
+
+    # Calculate the percentage of each status per period
+    percent_df = grouped_df.div(total_counts, axis=0).reset_index()
+    percent_df[period_col] = percent_df[period_col].dt.to_timestamp()
+    
+    # Convert to long format for Altair
+    percent_long_df = percent_df.melt(id_vars=period_col, var_name=status_col, value_name='percentage')
+    
+    # Create the chart using the general plotting function
+    chart = visualization_util.create_stacked_area_chart(
+        df=percent_long_df,
+        period_col=period_col,
+        status_col=status_col,
+        percentage_col='percentage',
+        title=title,
+        ordered_statuses=ordered_statuses,
+        status_colors=status_colors,
+    )
+    
+    return chart
     
 
 def plot_temporal_area_map_altair(
@@ -891,7 +1082,8 @@ def plot_temporal_area_map_altair(
     val_col, 
     title='', 
     ordered_statuses=None, 
-    status_colors=None
+    status_colors=None,
+    datetime_swap=False,
 ):
     # Group by 'period' and 'status', and sum up the 'count'
     grouped_df = df.groupby([period_col, status_col])[val_col].sum().unstack(fill_value=0)
@@ -907,7 +1099,11 @@ def plot_temporal_area_map_altair(
 
     # Calculate the percentage of each status per period
     percent_df = grouped_df.div(total_counts, axis=0).reset_index()
-    percent_df[period_col] = percent_df[period_col].dt.to_timestamp()
+
+    if datetime_swap:
+        percent_df[period_col] = pd.to_datetime(percent_df[period_col])
+    else:
+        percent_df[period_col] = percent_df[period_col].dt.to_timestamp()
     
     # Convert to long format for Altair
     percent_long_df = percent_df.melt(id_vars=period_col, var_name=status_col, value_name='percentage')
