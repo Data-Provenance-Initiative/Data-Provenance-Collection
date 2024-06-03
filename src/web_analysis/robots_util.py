@@ -608,6 +608,7 @@ def robots_temporal_to_df(filled_status_summary, url_to_counts={}):
 def get_latest_url_robot_statuses(url_robots_summary, agents):
     # {URL --> Date --> Agent --> Status}
     # URL —> status
+    print(type(url_robots_summary))
     result = {}
     for url, date_agent_status in url_robots_summary.items():
         if date_agent_status:
