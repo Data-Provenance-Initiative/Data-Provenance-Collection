@@ -869,7 +869,8 @@ def plot_robots_time_map_altair(
     val_col, 
     title='', 
     ordered_statuses=None, 
-    status_colors=None
+    status_colors=None,
+    datetime_swap=False,
 ):
     # Filter the DataFrame for the relevant agent
     filtered_df = df[df["agent"] == agent_type]
@@ -881,6 +882,7 @@ def plot_robots_time_map_altair(
         title=title, 
         ordered_statuses=ordered_statuses, 
         status_colors=status_colors,
+        datetime_swap=datetime_swap,
     )
     
 
@@ -891,7 +893,8 @@ def plot_temporal_area_map_altair(
     val_col, 
     title='', 
     ordered_statuses=None, 
-    status_colors=None
+    status_colors=None,
+    datetime_swap=False,
 ):
     # Group by 'period' and 'status', and sum up the 'count'
     grouped_df = df.groupby([period_col, status_col])[val_col].sum().unstack(fill_value=0)
@@ -907,7 +910,11 @@ def plot_temporal_area_map_altair(
 
     # Calculate the percentage of each status per period
     percent_df = grouped_df.div(total_counts, axis=0).reset_index()
-    percent_df[period_col] = percent_df[period_col].dt.to_timestamp()
+
+    if datetime_swap:
+        percent_df[period_col] = pd.to_datetime(percent_df[period_col])
+    else:
+        percent_df[period_col] = percent_df[period_col].dt.to_timestamp()
     
     # Convert to long format for Altair
     percent_long_df = percent_df.melt(id_vars=period_col, var_name=status_col, value_name='percentage')
