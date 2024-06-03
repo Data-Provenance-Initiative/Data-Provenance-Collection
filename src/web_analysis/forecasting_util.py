@@ -5,6 +5,8 @@ from prophet import Prophet
 from statsmodels.tsa.arima.model import ARIMA
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 
+from . import robots_util
+
 #disable user warning
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
@@ -21,9 +23,20 @@ def forecast_and_plot(df, agent, lags):
     # Filter the DataFrame for the specific agent
     agent_df = df[df['agent'] == agent].copy()
     
+    # Convert the column
+    def convert_period_to_timestamp(x):
+        # if isinstance(x, pd.Period):
+        #     print('yes')
+        #     return x.to_timestamp()
+        # return x
+        return x.to_timestamp()
+
+    agent_df['period'] = agent_df['period'].apply(convert_period_to_timestamp)
+
     # Convert 'period' to timestamp if it's a Period object
-    agent_df.loc[:, 'period'] = agent_df['period'].apply(lambda x: x.to_timestamp() if isinstance(x, pd.Period) else x)
+    # agent_df.loc[:, 'period'] = agent_df['period'].apply(lambda x: x.to_timestamp() if isinstance(x, pd.Period) else x)
     
+    # print(agent_df.dtypes)
     # Reshape the data
     pivoted_df = agent_df.pivot_table(index='period', columns='status', values='count')
     
@@ -48,6 +61,7 @@ def forecast_and_plot(df, agent, lags):
     n_periods = 12  
     
     # Make future predictions
+    # print(agent_df.dtypes)
     future_periods = pd.date_range(start=agent_df['period'].max(), periods=n_periods, freq='M')
     predictions = {}
     conf_intervals = {}
@@ -92,8 +106,18 @@ def forecast_and_plot_prophet(df, agent, lags):
     # Pick agent
     agent_df = df[df['agent'] == agent].copy()
     
+    # Convert the column
+    def convert_period_to_timestamp(x):
+        # if isinstance(x, pd.Period):
+        #     print('yes')
+        #     return x.to_timestamp()
+        # return x
+        return x.to_timestamp()
+
+    agent_df['period'] = agent_df['period'].apply(convert_period_to_timestamp)
+
     # Convert 'period' to timestamp if it's a Period object
-    agent_df.loc[:, 'period'] = agent_df['period'].apply(lambda x: x.to_timestamp() if isinstance(x, pd.Period) else x)
+    # agent_df.loc[:, 'period'] = agent_df['period'].apply(lambda x: x.to_timestamp() if isinstance(x, pd.Period) else x)
     
     # Reshape the data
     pivoted_df = agent_df.pivot_table(index='period', columns='status', values='count')
@@ -160,8 +184,18 @@ def forecast_and_plot_arima(df, agent, lags):
     # Pick agent
     agent_df = df[df['agent'] == agent].copy()
     
+    # Convert the column
+    def convert_period_to_timestamp(x):
+        # if isinstance(x, pd.Period):
+        #     print('yes')
+        #     return x.to_timestamp()
+        # return x
+        return x.to_timestamp()
+
+    agent_df['period'] = agent_df['period'].apply(convert_period_to_timestamp)
+
     # Convert 'period' to timestamp if it's a Period object
-    agent_df.loc[:, 'period'] = agent_df['period'].apply(lambda x: x.to_timestamp() if isinstance(x, pd.Period) else x)
+    # agent_df.loc[:, 'period'] = agent_df['period'].apply(lambda x: x.to_timestamp() if isinstance(x, pd.Period) else x)
     
     # Reshape the data
     pivoted_df = agent_df.pivot_table(index='period', columns='status', values='count')
@@ -222,8 +256,18 @@ def forecast_and_plot_sarima(df, agent, lags, seasonal_order):
     # Pick agent
     agent_df = df[df['agent'] == agent].copy()
     
+    # Convert the column
+    def convert_period_to_timestamp(x):
+        # if isinstance(x, pd.Period):
+        #     print('yes')
+        #     return x.to_timestamp()
+        # return x
+        return x.to_timestamp()
+
+    agent_df['period'] = agent_df['period'].apply(convert_period_to_timestamp)
+
     # Convert 'period' to timestamp if it's a Period object
-    agent_df.loc[:, 'period'] = agent_df['period'].apply(lambda x: x.to_timestamp() if isinstance(x, pd.Period) else x)
+    # agent_df.loc[:, 'period'] = agent_df['period'].apply(lambda x: x.to_timestamp() if isinstance(x, pd.Period) else x)
     
     # Reshape the data
     pivoted_df = agent_df.pivot_table(index='period', columns='status', values='count')
