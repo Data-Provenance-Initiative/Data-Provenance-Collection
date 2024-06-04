@@ -21,7 +21,14 @@ def create_lagged_features(df, lags):
 
 
 def forecast_and_plot(
-    df, agent, lags, status_colors, ordered_statuses, val_col, detailed=False
+    df,
+    agent,
+    lags,
+    status_colors,
+    ordered_statuses,
+    val_col,
+    detailed=False,
+    n_periods=6,
 ):
     # Filter the DataFrame for the specific agent
     agent_df = df[df["agent"] == agent].copy()
@@ -59,9 +66,6 @@ def forecast_and_plot(
     for status, status_df in status_dfs.items():
         model = AutoReg(status_df["y"], lags=lags)
         models[status] = model.fit()
-
-    # Periods to predict (months)
-    n_periods = 6
 
     # Make future predictions
     # print(agent_df.dtypes)
@@ -431,3 +435,67 @@ def analyze_robots(
         if display & (analysis_type == "autoregression"):
             display(predicted_df)
         chart.show()
+
+
+def forecast_company_comparisons_altair(df, lags, val_col, n_periods=6):
+    df = df.copy()  # Create a copy to avoid modifying the original DataFrame
+
+    def convert_period_to_timestamp(x):
+        return x.to_timestamp()
+
+    df["period"] = df["period"].apply(convert_period_to_timestamp)
+
+    # Calculate the percentage of tokens for the 'Restrictive' status
+    total_tokens = df.groupby(["period", "agent"])[val_col].sum().reset_index()
+    restrictive_tokens = (
+        df[df["status"] == "all"]
+        .groupby(["period", "agent"])[val_col]
+        .sum()
+        .reset_index()
+    )
+    data = pd.merge(
+        total_tokens, restrictive_tokens, on=["period", "agent"], how="left"
+    ).fillna(0)
+    data["percent_Restrictive"] = (data["tokens_y"] / data["tokens_x"]) * 100
+    data = data[["period", "agent", "percent_Restrictive"]]
+
+    # Fit model and make predictions for each agent
+    agents = data["agent"].unique()
+    predicted_data = []
+    for agent in agents:
+        agent_data = data[data["agent"] == agent]
+        agent_data = agent_data.set_index("period")
+
+        # Reshape the data
+        pivoted_df = agent_data.pivot_table(
+            index="period", columns="agent", values="percent_Restrictive"
+        )
+
+        # Fit model
+        model = AutoReg(pivoted_df.values.flatten(), lags=lags)
+        models = model.fit()
+
+        # Make future predictions
+        future_periods = pd.date_range(
+            start=agent_data.index.max(), periods=n_periods, freq="M"
+        )
+        forecast = models.predict(
+            start=len(pivoted_df), end=len(pivoted_df) + n_periods - 1
+        )
+        conf_int = models.get_prediction(
+            start=len(pivoted_df), end=len(pivoted_df) + n_periods - 1
+        ).conf_int()
+
+        predicted_df = pd.DataFrame(
+            {"period": future_periods, "agent": agent, "percent_Restrictive": forecast}
+        )
+        # print(predicted_df)
+        # predicted_df["lower"] = conf_int["lower"]
+        # predicted_df["upper"] = conf_int["upper"]
+        predicted_data.append(predicted_df)
+
+    # Concatenate the original and predicted data
+    predicted_data = pd.concat(predicted_data)
+    combined_data = pd.concat([data, predicted_data])
+
+    return combined_data
