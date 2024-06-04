@@ -429,7 +429,8 @@ def create_stacked_area_chart(
     width: int = 1000,
     height: int = 400,
     legend_cols: int = 1,
-    forecast_startdate: str = None
+    forecast_startdate: str = None,
+    configure: bool = True
 ) -> alt.Chart:
     if ordered_statuses is None:
         ordered_statuses = df[status_col].unique().tolist()
@@ -516,6 +517,14 @@ def create_stacked_area_chart(
             x2="end:T"
         )
 
+        forecast_rule = alt.Chart(
+            pd.DataFrame({"period": [forecast_startdate]})
+        ).mark_rule(
+            color="gray"
+        ).encode(
+            x="period:T"
+        )
+
         # Add a label in the middle of the forecasted region
         shading_text = alt.Chart(
             pd.DataFrame({"date": [forecast_startdate + (df[period_col].max() - forecast_startdate) / 2], "text": ["Forecast"]})
@@ -532,30 +541,33 @@ def create_stacked_area_chart(
             text="text:N"
         )
 
-        chart = chart + shading + shading_text
+        chart = chart + shading + forecast_rule + shading_text
 
     final_plot = chart.properties(
         title=title,
         width=width,
         height=height
-    ).configure_axis(
-        labelFontSize=label_fontsize,
-        titleFontSize=title_fontsize,
-        domain=True
-    ).configure_axisX(
-        labelAngle=0,
-        domain=True,
-        format="%Y",
-        tickCount="year",
-        labelExpr="timeFormat(datum.value, \"%Y\")"  # Ensure only year labels are shown
-    ).configure_axisY(
-        domain=True
-    ).configure_legend(
-        labelFontSize=label_fontsize,
-        titleFontSize=title_fontsize,
-        columns=legend_cols,
-        labelLimit=0
     )
+
+    if configure:
+        final_plot = final_plot.configure_axis(
+            labelFontSize=label_fontsize,
+            titleFontSize=title_fontsize,
+            domain=True
+        ).configure_axisX(
+            labelAngle=0,
+            domain=True,
+            format="%Y",
+            tickCount="year",
+            labelExpr="timeFormat(datum.value, \"%Y\")"  # Ensure only year labels are shown
+        ).configure_axisY(
+            domain=True
+        ).configure_legend(
+            labelFontSize=label_fontsize,
+            titleFontSize=title_fontsize,
+            columns=legend_cols,
+            labelLimit=0
+        )
 
     return final_plot
 
@@ -765,7 +777,10 @@ def plot_company_comparisons_altair(
     height: int = 200,
     scale_y: str = "linear",
     show_months: bool = False,
-    forecast_startdate: str = None
+    legend_cols: int = 1,
+    forecast_startdate: str = None,
+    eventline_scaling: float = 2,
+    configure: bool = True
 ) -> alt.Chart:
     """Create an Altair chart to compare the percentage of restrictive tokens for different agents over time.
     """
@@ -829,8 +844,8 @@ def plot_company_comparisons_altair(
 
     # Calculate the dynamic y-ranges for the vertical lines and labels
     df_rules["y_range"] = df_rules["period"].apply(lambda x: get_nearest_y_range(data, x))
-    df_rules["y_min"] = df_rules["y_range"].apply(lambda x: x[0] / 2) # Heuristically extend span of event markers
-    df_rules["y_max"] = df_rules["y_range"].apply(lambda x: x[1] * 2)
+    df_rules["y_min"] = df_rules["y_range"].apply(lambda x: x[0] / eventline_scaling)
+    df_rules["y_max"] = df_rules["y_range"].apply(lambda x: x[1] * eventline_scaling)
 
     rules = alt.Chart(df_rules).mark_rule(
         color="black"
@@ -840,11 +855,18 @@ def plot_company_comparisons_altair(
         y2="y_max:Q"
     )
 
+    rules_midpoint = alt.Chart(df_rules).mark_point(
+        color="black"
+    ).encode(
+        x="period:T",
+        y="y_max:Q"
+    )
+
     rules_text = alt.Chart(df_rules).mark_text(
-        align="center",
+        align="left",
         baseline="middle",
-        dx=0,
-        dy=-10,
+        dx=10,
+        dy=0,
         color="black",
         fontSize=label_fontsize
     ).encode(
@@ -909,19 +931,23 @@ def plot_company_comparisons_altair(
     # CHART PROPERTIES
     # Configure the appearance of the chart
     ################################################################
-    chart = (chart + rules + rules_text).properties(
+    chart = (chart + rules + rules_midpoint + rules_text).properties(
         width=width,
         height=height
-    ).configure_axis(
-        grid=False,
-        labelFontSize=label_fontsize,
-        titleFontSize=title_fontsize,
-        labelAngle=0
-    ).configure_legend(
-        labelFontSize=label_fontsize,
-        titleFontSize=title_fontsize
-    ).configure_view(
-        strokeWidth=0
     )
+
+    if configure:
+        chart = chart.configure_axis(
+            grid=False,
+            labelFontSize=label_fontsize,
+            titleFontSize=title_fontsize,
+            labelAngle=0
+        ).configure_legend(
+            labelFontSize=label_fontsize,
+            titleFontSize=title_fontsize,
+            columns=legend_cols
+        ).configure_view(
+            strokeWidth=0
+        )
 
     return chart
