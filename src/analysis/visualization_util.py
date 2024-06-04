@@ -430,7 +430,8 @@ def create_stacked_area_chart(
     height: int = 400,
     legend_cols: int = 1,
     forecast_startdate: str = None,
-    configure: bool = True
+    configure: bool = True,
+    legend_title: str = None
 ) -> alt.Chart:
     if ordered_statuses is None:
         ordered_statuses = df[status_col].unique().tolist()
@@ -442,6 +443,8 @@ def create_stacked_area_chart(
     # BASE CHART
     # Create the Altair chart
     #################################################################
+    if legend_title is None:
+        legend_title = status_col.title()
     chart = alt.Chart(df).mark_area().encode(
         x=alt.X(
             "%s:T" % period_col,
@@ -458,8 +461,8 @@ def create_stacked_area_chart(
                 domain=list(status_colors.keys()),
                 range=list(status_colors.values())
             ),
-            title=status_col.title(),
-            legend=alt.Legend(orient="bottom")
+            title=legend_title,
+            legend=alt.Legend(orient="bottom", titleLimit=0)
         ),
         order="order:Q"
     )
@@ -780,22 +783,27 @@ def plot_company_comparisons_altair(
     legend_cols: int = 1,
     forecast_startdate: str = None,
     eventline_scaling: float = 2,
-    configure: bool = True
+    configure: bool = True,
+    skip_pct: bool = False, # Skip calculation of percentage of restrictive tokens, assume this is passed in,
+    legend_title: str = None
 ) -> alt.Chart:
     """Create an Altair chart to compare the percentage of restrictive tokens for different agents over time.
     """
     # Create a copy to avoid modifying the original DataFrame
     df = df.copy()
 
-    # Convert the 'Period' column to datetime
-    df["period"] = df["period"].dt.to_timestamp()
+    if not skip_pct:
+        # Convert the 'Period' column to datetime
+        df["period"] = df["period"].dt.to_timestamp()
 
-    # Calculate the percentage of tokens for the 'Restrictive' status
-    total_tokens = df.groupby(["period", "agent"])["tokens"].sum().reset_index()
-    restrictive_tokens = df[df["status"] == "all"].groupby(["period", "agent"])["tokens"].sum().reset_index()
-    data = pd.merge(total_tokens, restrictive_tokens, on=["period", "agent"], how="left").fillna(0)
-    data["percent_Restrictive"] = (data["tokens_y"] / data["tokens_x"]) * 100
-    data = data[["period", "agent", "percent_Restrictive"]]
+        # Calculate the percentage of tokens for the 'Restrictive' status
+        total_tokens = df.groupby(["period", "agent"])["tokens"].sum().reset_index()
+        restrictive_tokens = df[df["status"] == "all"].groupby(["period", "agent"])["tokens"].sum().reset_index()
+        data = pd.merge(total_tokens, restrictive_tokens, on=["period", "agent"], how="left").fillna(0)
+        data["percent_Restrictive"] = (data["tokens_y"] / data["tokens_x"]) * 100
+        data = data[["period", "agent", "percent_Restrictive"]]
+    else:
+        data = df
 
     data["timestamp"] = data["period"].map(pd.Timestamp.timestamp)
     forecast_ts = pd.to_datetime(forecast_startdate).timestamp() if forecast_startdate else int(data["timestamp"].max())
@@ -807,6 +815,9 @@ def plot_company_comparisons_altair(
     # BASE CHART
     # Create the Altair chart
     ################################################################
+    if legend_title is None:
+        legend_title = "Agent"
+
     chart = alt.Chart(
         data[data["timestamp"] <= forecast_ts]
     ).mark_line(point=True).encode(
@@ -820,8 +831,10 @@ def plot_company_comparisons_altair(
             title="Percentage of Tokens",
             scale=alt.Scale(type=scale_y)
         ),
-        color=alt.Color("agent:N", scale=color_scale, legend=alt.Legend(title="Agent", orient="bottom")),
-        tooltip=["agent", alt.Tooltip("percent_Restrictive:Q", format=".2f")]
+        color=alt.Color(
+            "agent:N",
+            scale=color_scale,
+            legend=alt.Legend(title=legend_title, orient="bottom", titleLimit=0))
     )
 
     ################################################################
@@ -885,7 +898,7 @@ def plot_company_comparisons_altair(
         ).mark_line().encode(
             x=alt.X("yearmonth(period):T", title="", axis=alt.Axis(format="%Y", labelAngle=0, tickCount="year")),
             y=alt.Y("percent_Restrictive:Q", title="Percentage of Tokens", scale=alt.Scale(type=scale_y)),
-            color=alt.Color("agent:N", scale=color_scale, legend=alt.Legend(title="Agent", orient="bottom")),
+            color=alt.Color("agent:N", scale=color_scale, legend=alt.Legend(title=legend_title, orient="bottom", titleLimit=0)),
             strokeDash=alt.value([5, 5])
         )
 
@@ -917,7 +930,6 @@ def plot_company_comparisons_altair(
             dx=0,
             dy=height - 10,
             color="gray",
-            fontSize=label_fontsize,
             fontWeight="bold"
         ).encode(
             x="date:T",
