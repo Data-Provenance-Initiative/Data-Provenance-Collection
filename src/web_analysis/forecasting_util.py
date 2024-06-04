@@ -384,6 +384,7 @@ def forecast_and_plot_sarima(df, agent, lags, seasonal_order):
 
 def analyze_robots(
     df,
+    agent,
     analysis_type,
     chosen_corpus,
     lags,
@@ -409,25 +410,25 @@ def analyze_robots(
     Returns:
     - None: Displays the chart for each agent.
     """
-    agents = df["agent"].unique()
+    # agents = df["agent"].unique()
 
-    for agent in agents:
-        print(f"CHOSEN_CORPUS: {chosen_corpus}")
-        print(f"AGENT: {agent}")
+    # for agent in agents:
+    print(f"CHOSEN_CORPUS: {chosen_corpus}")
+    print(f"AGENT: {agent}")
 
-        if analysis_type == "autoregression":
-            chart, predicted_df = forecast_and_plot(
-                df, agent, lags, status_colors, ordered_statuses, val_col, detailed
-            )
-        elif analysis_type == "prophet":
-            chart = forecast_and_plot_prophet(df, agent, lags)
-        elif analysis_type == "arima":
-            chart = forecast_and_plot_arima(df, agent, lags)
-        elif analysis_type == "sarima":
-            chart = forecast_and_plot_sarima(df, agent, lags, seasonal_order)
-        else:
-            raise ValueError("Invalid analysis type specified.")
+    if analysis_type == "autoregression":
+        chart, predicted_df = forecast_and_plot(
+            df, agent, lags, status_colors, ordered_statuses, val_col, detailed
+        )
+    elif analysis_type == "prophet":
+        chart = forecast_and_plot_prophet(df, agent, lags)
+    elif analysis_type == "arima":
+        chart = forecast_and_plot_arima(df, agent, lags)
+    elif analysis_type == "sarima":
+        chart = forecast_and_plot_sarima(df, agent, lags, seasonal_order)
+    else:
+        raise ValueError("Invalid analysis type specified.")
 
-        if display & (analysis_type == "autoregression"):
-            display(predicted_df)
-        chart.show()
+    if display & (analysis_type == "autoregression"):
+        display(predicted_df)
+    chart.show()
