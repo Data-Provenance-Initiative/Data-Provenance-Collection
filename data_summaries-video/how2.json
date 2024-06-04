@@ -1,10 +1,10 @@
 {
     "How2: A Large-scale Dataset for Multimodal Language Understanding (NeurIPS 2018)\n": {
-        "Unique Dataset Identifier": "how2\n",
-        "Collection": "how2\n",
+        "Unique Dataset Identifier": "how2",
+        "Collection": "how2",
         "Collection URL": "https://arxiv.org/abs/1811.00347",
-        "Dataset Name": "How2: A Large-scale Dataset for Multimodal Language Understanding (NeurIPS 2018)\n",
-        "Paper Title": "How2: A Large-scale Dataset for Multimodal Language Understanding (NeurIPS 2018)\n",
+        "Dataset Name": "How2: A Large-scale Dataset for Multimodal Language Understanding (NeurIPS 2018)",
+        "Paper Title": "How2: A Large-scale Dataset for Multimodal Language Understanding (NeurIPS 2018)",
         "Paper URL": "https://arxiv.org/abs/1811.00347",
         "GitHub URL": "https://github.com/srvk/how2-dataset",
         "Hugging Face URL": "",
