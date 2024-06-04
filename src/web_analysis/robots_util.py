@@ -588,10 +588,45 @@ def prepare_robots_temporal_summary_detailed(
     return filled_status_summary
 
 
-def robots_temporal_to_df(filled_status_summary, url_to_counts={}):
+# def robots_temporal_to_df(filled_status_summary, url_to_counts={}):
+#     """
+#     Args:
+#         filled_status_summary: {Period --> Agent --> Status --> set(URLs)}
+#         url_to_counts: {url -> num tokens}. If available, will sum the tokens for each URL in counts
+
+#     Returns:
+#         Dataframe: [Period, Agent, Status, Count, Tokens]
+#     """
+
+#     # Convert results to a DataFrame for easy viewing and manipulation
+#     summary_df_list = []
+#     for period, agent_statuses in filled_status_summary.items():
+#         for agent, statuses in agent_statuses.items():
+#             for status, urls in statuses.items():
+#                 summary_df_list.append(
+#                     {
+#                         "period": period,
+#                         "agent": agent,
+#                         "status": status,
+#                         "count": len(urls),
+#                     }
+#                 )
+#                 if url_to_counts:
+#                     summary_df_list[-1].update(
+#                         {"tokens": sum([url_to_counts[url] for url in urls])}
+#                     )
+
+#     summary_df = pd.DataFrame(summary_df_list)
+#     return summary_df
+
+
+import pandas as pd
+
+def robots_temporal_to_df(filled_status_summary, strictness_order, url_to_counts={}):
     """
     Args:
         filled_status_summary: {Period --> Agent --> Status --> set(URLs)}
+        strictness_order: List of statuses ordered from least strict to most strict
         url_to_counts: {url -> num tokens}. If available, will sum the tokens for each URL in counts
 
     Returns:
@@ -600,7 +635,27 @@ def robots_temporal_to_df(filled_status_summary, url_to_counts={}):
 
     # Convert results to a DataFrame for easy viewing and manipulation
     summary_df_list = []
+    combined_agent_summary = {}
+
     for period, agent_statuses in filled_status_summary.items():
+        combined_agent_summary[period] = {}
+
+        # Collect all unique URLs and their statuses across agents for the current period
+        url_statuses = {}
+        for agent, statuses in agent_statuses.items():
+            for status, urls in statuses.items():
+                for url in urls:
+                    if url not in url_statuses:
+                        url_statuses[url] = []
+                    url_statuses[url].append((agent, status))
+        
+        # Determine the strictest status for each URL
+        for url, agent_status_list in url_statuses.items():
+            strictest_status = max(agent_status_list, key=lambda x: strictness_order.index(x[1]))[1]
+            if strictest_status not in combined_agent_summary[period]:
+                combined_agent_summary[period][strictest_status] = set()
+            combined_agent_summary[period][strictest_status].add(url)
+
         for agent, statuses in agent_statuses.items():
             for status, urls in statuses.items():
                 summary_df_list.append(
@@ -609,15 +664,50 @@ def robots_temporal_to_df(filled_status_summary, url_to_counts={}):
                         "agent": agent,
                         "status": status,
                         "count": len(urls),
+                        "tokens": sum([url_to_counts.get(url, 0) for url in urls])
                     }
                 )
-                if url_to_counts:
-                    summary_df_list[-1].update(
-                        {"tokens": sum([url_to_counts[url] for url in urls])}
-                    )
-
+    
+    # Add the "Combined Agent" data
+    for period, statuses in combined_agent_summary.items():
+        for status, urls in statuses.items():
+            summary_df_list.append(
+                {
+                    "period": period,
+                    "agent": "Combined Agent",
+                    "status": status,
+                    "count": len(urls),
+                    "tokens": sum([url_to_counts.get(url, 0) for url in urls])
+                }
+            )
+    
     summary_df = pd.DataFrame(summary_df_list)
     return summary_df
+
+# # Example usage:
+# filled_status_summary = {
+#     '2023-01': {
+#         'AgentA': {
+#             'OK': {'url1', 'url2'},
+#             'Blocked': {'url3'}
+#         },
+#         'AgentB': {
+#             'OK': {'url1'},
+#             'Blocked': {'url2', 'url4'}
+#         }
+#     }
+# }
+# url_to_counts = {
+#     'url1': 100,
+#     'url2': 200,
+#     'url3': 300,
+#     'url4': 400
+# }
+# strictness_order = ['OK', 'Blocked']
+
+# summary_df = robots_temporal_to_df(filled_status_summary, url_to_counts, strictness_order)
+# print(summary_df)
+
 
 
 def get_latest_url_robot_statuses(url_robots_summary, agents):
@@ -1057,6 +1147,7 @@ def plot_robots_time_map_altair(
 ):
     # Filter the DataFrame for the relevant agent
     filtered_df = df[df["agent"] == agent_type]
+    # print(filtered_df)
     return plot_temporal_area_map_altair(
         filtered_df,
         period_col=period_col,
