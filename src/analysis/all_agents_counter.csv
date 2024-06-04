@@ -1,0 +1,5200 @@
+agent,observed,all,some,none
+*,226903,2935,183364,40604
+Mediapartners-Google,20848,749,3710,16389
+*All Agents*,269212,1175,198642,69395
+Boomtrain-Content-Bot,49,0,0,49
+Swiftbot,1004,136,407,461
+gsa-crawler,1531,854,426,251
+GPTBot,3111,3029,38,44
+CCBot,2617,1938,76,603
+ChatGPT-User,895,750,118,27
+Yandex,8948,2901,1623,4424
+Googlebot,12831,44,9544,3243
+Slurp,10070,507,4364,5199
+Teoma,1318,188,778,352
+weborama-fetcher,389,266,0,123
+Clickagy Intelligence Bot v2,377,292,85,0
+ShopWiki,1210,1006,6,198
+Googlebot-Image,5082,728,1842,2512
+Twitterbot,10385,29,3413,6943
+SputnikBot/2.3,110,110,0,0
+Java/1.4.1_04,200,200,0,0
+Googlebot-Mobile,2836,169,1811,856
+Krzana bot,110,110,0,0
+Directcrawler,200,200,0,0
+Java/1.5.0_11,200,200,0,0
+VoilaBot,780,769,1,10
+msnbot,6784,261,2737,3786
+facebookexternalhit,2286,31,323,1932
+dotbot,2985,2448,160,377
+VelenPublicWebCrawler,195,110,0,85
+MJ12bot,10556,5962,319,4275
+BLEXBot,2748,2087,0,661
+AhrefsBot,9824,5506,1516,2802
+SEMrushBot,250,135,0,115
+MauiBot,820,565,16,239
+DotBot,1003,431,4,568
+PetalBot,1327,939,87,301
+The Knowledge AI,478,373,39,66
+SemrushBot,5418,3865,84,1469
+ia_archiver,5604,2768,1822,1014
+008,5661,5360,108,193
+anthropic-ai,260,229,1,30
+cohere-ai,185,180,1,4
+Google-Extended,871,836,4,31
+grapeshot,2624,296,323,2005
+semetrical,1031,995,0,36
+WebCopier,3970,3581,0,389
+SiteSnagger,3658,3279,0,379
+libwww,2138,2046,0,92
+Zealbot,2058,1969,0,89
+UbiCrawler,1750,1750,0,0
+Microsoft.URL.Control,1893,1881,0,12
+ZyBORG,2059,1941,0,118
+Offline Explorer,3631,3404,0,227
+Zao,1843,1843,0,0
+k2spider,1861,1861,0,0
+IsraBot,1033,15,0,1018
+NPBot,2261,2259,0,2
+WebZIP,2379,2123,0,256
+grub-client,2439,2393,0,46
+MSIECrawler,3361,3236,87,38
+wget,2234,2234,0,0
+HTTrack,2908,2491,53,364
+linko,1991,1902,0,89
+Mediapartners-Google*,3980,1077,326,2577
+Xenu,2048,1959,0,89
+WebStripper,3760,3383,0,377
+larbin,3190,2896,0,294
+WebReaper,2683,2419,0,264
+Orthogaffe,1079,61,0,1018
+Teleport,3556,3346,0,210
+Download Ninja,2060,1971,0,89
+Fetch,1989,1900,0,89
+sitecheck.internetseer.com,2064,1972,0,92
+DOC,1748,1748,0,0
+TeleportPro,3683,3558,0,125
+fast,1083,1083,0,0
+TurnitinBot,2668,1756,448,464
+Fasterfox,915,899,0,16
+Baiduspider,7789,3476,1933,2380
+Bingbot,2995,152,2074,769
+Nutch,5011,4446,0,565
+SlySearch,456,394,60,2
+Roverbot,428,426,0,2
+NextGenSearchBot,520,507,0,13
+Go 1.1 package http,85,85,0,0
+Riddler,679,551,18,110
+Teleport Pro,402,268,129,5
+Exabot,2317,1618,249,450
+proximic,4393,2160,932,1301
+Claude-web,46,46,0,0
+Amazonbot,546,358,109,79
+FacebookBot,235,220,2,13
+Omgilibot,92,86,0,6
+Diffbot,168,71,0,97
+google-hoteladsverifier,653,0,0,653
+SiteSucker,248,248,0,0
+WinHTTP,89,89,0,0
+BingBot,165,0,133,32
+Adsbot-Google,1689,2,577,1110
+Facebookbot		#Facebook bot,1,1,0,0
+HTTrack 3.0,498,411,0,87
+MetaInspector,1,1,0,0
+AhrefsSiteAudit,1375,6,1163,206
+SeznamBot,1131,655,94,382
+EyeMonIT Uptime Bot,1,1,0,0
+CriteoBot/0.1	#Criteo Bot,1,1,0,0
+SearchmetricsBot,701,392,86,223
+Scrapy,772,470,0,302
+alexa site audit 	#Alexa audit crawler,1,1,0,0
+ImagesiftBot,11,10,0,1
+EtaoSpider,397,344,53,0
+expo9,302,115,0,187
+AdIdxbot		#AdIdxbot,1,1,0,0
+CCBot		#Commoncrawl,1,1,0,0
+ChatGPT		#OpenAI,1,1,0,0
+Pingdom.com_bot,23,23,0,0
+DuckDuckBot,554,8,397,149
+GetIntent Crawler,54,1,0,53
+Google-Extended	#Google Bard,1,1,0,0
+FeedBurner,164,1,10,153
+Feedonomics,1,1,0,0
+ClaudeBot		#Claude Bot,1,1,0,0
+Sogou web spider,1236,916,37,283
+ChatGPT-User	#OpenAI,1,1,0,0
+omgili		#Webz.io,1,1,0,0
+anthropic-ai	#Anthropic,1,1,0,0
+Bytespider		#ByteDance,1,1,0,0
+Dataprovider.com,24,24,0,0
+SputnikBot,396,184,0,212
+OpenAI		#OpenAI,1,1,0,0
+alexabot		#Alexabot,1,1,0,0
+coccocbot,161,2,0,159
+Facebot		#Facebook bot,1,1,0,0
+Twitterbot		#Twitter bot,1,1,0,0
+ia_archiver		#Internet Archive,1,1,0,0
+trendictionbot,235,82,0,153
+Mail.RU_Bot,952,446,223,283
+ltx71,246,246,0,0
+IAS Crawler,1,1,0,0
+dcrawl,1,1,0,0
+GPTBot   		#OpenAI,1,1,0,0
+AhrefsBot/5.2,146,146,0,0
+MauiBot (crawler.feedback+wc@gmail.com),203,200,0,3
+SemrushBot-SA,2108,1428,10,670
+spbot,1307,968,0,339
+AhrefsBot/5.0,20,20,0,0
+IRLbot,9142,134,157,8851
+python-requests,82,0,82,0
+Mozilla/5.0 (compatible; Pubget/0.1;http://pubget.com/help/bot),58,0,58,0
+LinkedInBot,383,40,8,335
+bingbot,8077,195,3079,4803
+Googlebot-News   # only the news service,115,0,115,0
+googlebot,1363,0,891,472
+Googlebot-News,7958,82,7548,328
+AmazonBot,19,19,0,0
+ClaudeBot,45,40,0,5
+Claude-Web,89,82,0,7
+magpie-crawler,1268,848,1,419
+msnbot-media,563,35,100,428
+NinTechNet,42,0,0,42
+ExaBot,98,98,0,0
+ias_crawler,3,3,0,0
+JoobleBot,195,161,0,34
+AdIdxBot,1136,0,667,469
+BoardTracker,422,331,0,91
+Gigabot,1705,860,9,836
+Twiceler,504,403,0,101
+Yandexbot,59,18,20,21
+MSNBot,1139,31,400,708
+R6_CommentReader,268,222,46,0
+iSec_Bot,94,94,0,0
+ICC-Crawler,135,135,0,0
+TinEye-bot,422,113,0,309
+trendkite-akashic-crawler,422,345,0,77
+test-bot,11,11,0,0
+BingPreview,324,0,232,92
+Baiduspider-video,979,461,25,493
+Baiduspider-image,973,718,75,180
+Black Hole,741,656,0,85
+EmailSiphon,1925,1637,0,288
+turingos,1312,1211,0,101
+ExtractorPro,1782,1492,0,290
+QueryN Metasearch,1394,1271,0,123
+RepoMonkey Bait & Tackle/v1.01,1385,1262,0,123
+LinkWalker,1773,1650,0,123
+Openfind data gathere,943,822,0,121
+Harvest/1.5,1365,1242,0,123
+LexiBot,1626,1503,0,123
+WebZip,1554,1431,0,123
+EmailCollector,1603,1467,0,136
+Mozilla/4.0 (compatible; MSIE 4.0; Windows ME),286,286,0,0
+EmailWolf,1701,1411,0,290
+Mata Hari,1540,1417,0,123
+SpankBot,1483,1360,0,123
+LinkextractorPro,1681,1558,0,123
+Wget,1949,1492,3,454
+WWW-Collector-E,1582,1459,0,123
+MIIxpc/4.2,1456,1333,0,123
+suzuran,1312,1189,0,123
+Microsoft URL Control - 5.01.4511,1361,1240,0,121
+Microsoft URL Control - 6.00.8169,1361,1240,0,121
+WebSauger,1749,1459,0,290
+YahooSeeker/M1A1-R2D2,234,161,73,0
+Web Image Collector,1299,1173,0,126
+CheeseBot,1337,1214,0,123
+Xenu's,1029,906,0,123
+Wget/1.5.3,1339,1216,0,123
+Webster Pro,1414,1291,0,123
+Titan,631,544,0,87
+RepoMonkey,1582,1459,0,123
+WebEnhancer,1582,1459,0,123
+WebAuto,1749,1459,0,290
+The Intraformant,1394,1271,0,123
+Crescent Internet ToolPak HTTP OLE Control v.1.0,1414,1291,0,123
+Website Quester,1543,1417,0,126
+True_Robot/1.0,1456,1333,0,123
+URLy Warning,1540,1417,0,123
+Wget/1.6,1339,1216,0,123
+cosmos,1411,1288,0,123
+spanner,1310,1187,0,123
+Mozilla/4.0 (compatible; MSIE 4.0; Windows XP),359,323,0,36
+humanlinks,1310,1187,0,123
+BuiltBotTough,1600,1477,0,123
+DittoSpyder,1337,1214,0,123
+Cegbfeieh,631,544,0,87
+CherryPicker,1436,1313,0,123
+ProWebWalker,1337,1214,0,123
+Mozilla/4.0 (compatible; MSIE 4.0; Windows NT),407,371,0,36
+NICErsPRO,1582,1459,0,123
+EroCrawler,1483,1360,0,123
+Zeus,1763,1621,0,142
+Zeus 32297 Webster Pro V2.9 Win32,1233,1110,0,123
+Telesoft,1582,1459,0,123
+httplib,1456,1333,0,123
+NetAnts,1749,1459,0,290
+moget,1821,1565,0,256
+Bullseye/1.0,1464,1341,0,123
+TheNomad,1483,1360,0,123
+BackDoorBot/1.0,1373,1250,0,123
+Mozilla/4.0 (compatible; MSIE 4.0; Windows 95),407,371,0,36
+moget/2.1,1456,1333,0,123
+Mozilla/4.0 (compatible; MSIE 4.0; Windows 2000),359,323,0,36
+WebBandit,1753,1632,0,121
+BlowFish/1.0,1365,1242,0,123
+libWeb/clsHTTP,1488,1365,0,123
+CherryPickerSE/1.0,1310,1187,0,123
+toCrawl/UrlDispatcher,1511,1388,0,123
+InfoNaviRobot,1582,1459,0,123
+Szukacz/1.4,1456,1333,0,123
+Mozilla/4.0 (compatible; BullsEye; Windows 95),815,779,0,36
+Xenu's Link Sleuth 1.1c,1029,906,0,123
+VCI WebViewer VCI WebViewer Win32,1239,1116,0,123
+WebZip/4.0,1574,1451,0,123
+WebBandit/3.50,1603,1480,0,123
+Mozilla/4.0 (compatible; MSIE 4.0; Windows 98),359,323,0,36
+Kenjin Spider,1540,1417,0,123
+lwp-trivial/1.34,1356,1233,0,123
+VCI,1436,1313,0,123
+Foobot,1315,1192,0,123
+JennyBot,1436,1313,0,123
+hloader,1310,1187,0,123
+mozilla/5,401,365,0,36
+WebmasterWorldForumBot,921,798,0,123
+True_Robot,1436,1313,0,123
+Keyword Density/0.9,1055,1017,0,38
+BunnySlippers,1582,1459,0,123
+CherryPickerElite/1.0,1456,1333,0,123
+MIIxpc,1582,1459,0,123
+ProPowerBot/2.14,1310,1187,0,123
+Crescent,1337,1214,0,123
+CopyRightCheck,1538,1415,0,123
+lwp-trivial,1479,1356,0,123
+asterias,1946,1530,4,412
+TightTwatBot,1233,1146,0,87
+LinkScan/8.1a Unix,1446,1323,0,123
+mozilla/4,449,413,0,36
+RMA,1456,1333,0,123
+Openfind,1483,1360,0,123
+LNSpiderguy,1458,1420,0,38
+Mister PiX,1543,1417,0,126
+BotALot,1345,1222,0,123
+uMBot-LN,229,2,0,227
+calculon,137,11,0,126
+ZoominfoBot,296,119,0,177
+YandexBot,1971,908,500,563
+Bloglovin,122,0,0,122
+linkdexbot,655,298,0,357
+Uptimebot,268,124,0,144
+feedbot,126,0,0,126
+MojeekBot,277,53,0,224
+Feedbin,122,0,0,122
+ToutiaoSpider,296,99,69,128
+dlvr.it,130,8,0,122
+Pinterestbot,468,17,51,400
+Ocarinabot,126,0,0,126
+CommaFeed,122,0,0,122
+CFNetwork,212,0,0,212
+Vegi,164,37,0,127
+ZumBot,408,189,0,219
+StorygizeBot,133,0,0,133
+Qwantify,410,236,0,174
+EveryoneSocialBot,219,0,0,219
+Moreover,222,99,0,123
+Applebot,1768,141,542,1085
+pfblogs,122,0,0,122
+WWW-Mechanize,445,323,0,122
+heritrix,596,288,46,262
+Flipboard,122,0,0,122
+adbeat_bot,305,130,0,175
+PicoFeed,122,0,0,122
+contxbot,126,0,0,126
+DeuSu,129,3,0,126
+wonderbot,126,0,0,126
+UptimeRobot,177,3,0,174
+YandexImages,768,228,133,407
+Mediatoolkitbot,253,127,0,126
+FlipboardRSS,122,0,0,122
+SMTBot,281,108,0,173
+GarlikCrawler,225,59,0,166
+metabot.ru,126,0,0,126
+YandexMobileBot,204,67,0,137
+RSSMicro,126,0,0,126
+Pvblcbot,126,0,0,126
+PaperLiBot,420,193,0,227
+g2reader-bot,223,0,0,223
+Clickagy,204,45,0,159
+Steeler,328,206,0,122
+Sottopop,224,98,0,126
+Feedspot,122,0,0,122
+HybridBot,252,126,0,126
+Slack-ImgProxy,129,3,0,126
+Superfeedr,148,22,0,126
+Feedspotbot,126,0,0,126
+Yahoo! Slurp,1068,160,288,620
+YaK,172,37,0,135
+Tiny,122,0,0,122
+omgili,328,199,1,128
+Nutch-1.10,126,0,0,126
+Twingly,122,0,0,122
+VigLink,126,0,0,126
+Claritybot,445,222,0,223
+um-IC,125,3,0,122
+feedparser,122,0,0,122
+acebookexternalhit,122,0,0,122
+psbot,2763,2109,19,635
+YisouSpider,603,429,0,174
+Discordbot,128,0,2,126
+yacybot,591,169,129,293
+SimplePie,127,5,0,122
+Findxbot,241,114,0,127
+sogou spider,1601,1062,38,501
+PiplBot,822,540,155,127
+SEOkicks-Robot,548,408,0,140
+zarabotok--doma,126,0,0,126
+Aol,122,0,0,122
+TkBot,132,10,0,122
+GnowitNewsbot,170,44,0,126
+Typhoeus,344,208,0,136
+TweetedTimes Bot,309,0,0,309
+Cliqzbot,771,499,9,263
+YandexImageResizer,227,0,0,227
+WF search,122,0,0,122
+Photon,122,0,0,122
+istellabot,334,157,0,177
+Tapatalk,126,0,0,126
+Netvibes,220,98,0,122
+BUbiNG,1293,1159,0,134
+Leikibot,132,6,0,126
+Girafabot,151,25,0,126
+NetSeer,222,100,0,122
+Zombiebot,126,0,0,126
+ScooperBot,289,70,0,219
+Mercury,122,0,0,122
+MaxPointCrawler,335,209,0,126
+rogerbot,2147,736,703,708
+uipbot,262,105,0,157
+Yahoo,250,40,88,122
+bot-pge.chlooe.com,126,0,0,126
+Sogou,726,380,90,256
+Multiviewbot,126,0,0,126
+moatbot,173,47,0,126
+Pulsepoint,206,84,0,122
+SafeDNSBot,130,3,0,127
+Laserlikebot,137,0,0,137
+UniversalFeedParser,122,0,0,122
+trendiction,136,10,0,126
+360Spider,788,428,95,265
+mcsbot,126,0,0,126
+focusbot,126,0,0,126
+avkzarabotok,126,0,0,126
+CharlieBot,126,0,0,126
+Kraken,228,5,0,223
+Plukkie,156,30,0,126
+Flamingo_SearchEngine,384,89,0,295
+Treato-Bot,126,0,0,126
+mTalk,122,0,0,122
+Synaptive,122,0,0,122
+GetIntent,210,84,0,126
+Digg,122,0,0,122
+newspaper,187,0,0,187
+Genieo,393,188,0,205
+GroupHigh,122,0,0,122
+coccoc,498,315,53,130
+Dragonbot,126,0,0,126
+GermCrawler,220,98,0,122
+Feed,122,0,0,122
+um-FC,122,0,0,122
+YoudaoBot,1304,858,37,409
+Yeti,1496,683,289,524
+EzineArticlesLinkScanner,129,7,0,122
+BYO-4,122,0,0,122
+_zbot,126,0,0,126
+Seoterritory,126,0,0,126
+QuerySeekerSpider,470,161,0,309
+AddThis.com,352,229,0,123
+TweetmemeBot,299,25,3,271
+BYO-2,122,0,0,122
+Wotbox,313,187,0,126
+Vagabondo,303,181,0,122
+Facebot,2020,0,936,1084
+YahooCacheSystem,122,0,0,122
+Taboolabot,195,0,11,184
+twitterbot,167,0,44,123
+Marfeelman,44,0,0,44
+Petalbot,291,182,42,67
+pavuk,352,183,0,169
+Web\ Sucker,89,0,0,89
+AwarioSmartBot,178,136,0,42
+Image\ Stripper,89,0,0,89
+NearSite,478,309,0,169
+Download\ Demon,89,0,0,89
+GrabNet,332,163,0,169
+GrapeshotCrawler,428,327,0,101
+RealDownload,478,309,0,169
+Rogerbot,503,150,97,256
+SuperHTTP,478,309,0,169
+Widow,332,163,0,169
+Image\ Sucker,89,0,0,89
+eCatch,309,140,0,169
+Indy\ Library,89,0,0,89
+EirGrabber,332,163,0,169
+JetCar,478,309,0,169
+Mass\ Downloader,89,0,0,89
+GetWeb!,209,37,0,172
+Grammarly,174,84,0,90
+JOC\ Web\ Spider,89,0,0,89
+PageGrabber,332,163,0,169
+SmartDownload,478,309,0,169
+InterGET,332,163,0,169
+Internet\ Ninja,89,0,0,89
+serpstatbot,265,223,0,42
+WebGo\ IS,89,0,0,89
+Monsidobot,35,2,0,33
+VoidEYE,478,309,0,169
+The\ Knowledge\ AI,33,0,0,33
+Papa\ Foto,89,0,0,89
+Website\ Quester,89,0,0,89
+AmazonAdBot,90,0,0,90
+DISCo,206,37,0,169
+Net\ Vampire,89,0,0,89
+WebWhacker,332,163,0,169
+tAkeOut,309,140,0,169
+NetSpider,478,309,0,169
+WebFetch,478,309,0,169
+AddThis,65,32,0,33
+EyeNetIE,332,163,0,169
+HMView,478,309,0,169
+Custo,330,163,0,167
+Surfbot,478,309,0,169
+LeechFTP,332,163,0,169
+Offline\ Navigator,89,0,0,89
+LinkisBot,33,0,0,33
+Offline\ Explorer,89,0,0,89
+Pu_iN,126,93,0,33
+MIDown\ tool,89,0,0,89
+Go-Ahead-Got-It,478,309,0,169
+ChinaClaw,333,164,0,169
+Teleport\ Pro,89,0,0,89
+WebLeacher,332,163,0,169
+ArchiveBot,33,0,0,33
+FlashGet,379,210,0,169
+GetRight,332,163,0,169
+Go!Zilla,332,163,0,169
+mediawords,108,75,0,33
+NTENTbot,248,162,0,86
+ReGet,478,309,0,169
+Express\ WebPictures,89,0,0,89
+NetZIP,478,309,0,169
+Website\ eXtractor,89,0,0,89
+WWWOFFLE,478,309,0,169
+Grafula,332,163,0,169
+Navroad,332,163,0,169
+Mister\ PiX,89,0,0,89
+DemandbasePublisherAnalyzer,33,0,0,33
+SuperBot,592,338,0,254
+pcBrowser,455,286,0,169
+Octopus,332,163,0,169
+BlackWidow,444,277,0,167
+Web\ Image\ Collector,89,0,0,89
+Xaldon\ WebSpider,89,0,0,89
+daumoa,709,391,100,218
+twiceler,483,198,41,244
+Bytespider,562,495,0,67
+PerplexityBot,11,9,1,1
+peer39_crawler/1.0,10,5,0,5
+DataForSeoBot,268,184,28,56
+peer39_crawler,11,2,0,9
+omgilibot,627,517,1,109
+AwarioRssBot,117,63,0,54
+hul-wax,100,0,0,100
+NPBot-1/2.0,78,78,0,0
+SurveyBot,764,653,0,111
+Alexibot,1192,1069,0,123
+ichiro,638,594,2,42
+SiteExplorer,340,339,0,1
+MegaIndex,173,156,0,17
+Mail.Ru,391,359,23,9
+claudebot,4,4,0,0
+*			# match any robot name,85,0,85,0
+*		# match any robot name,11,0,11,0
+sproose,95,95,0,0
+SpiderMan,115,115,0,0
+boitho.com-dc,95,95,0,0
+http://www.almaden.ibm.com/cs/crawler,311,311,0,0
+Sensis Web Crawler,95,95,0,0
+Snapbot,386,386,0,0
+ConveraCrawler,314,227,2,85
+NaverBot,1033,546,182,305
+voyager,480,185,0,295
+Shim-Crawler,95,95,0,0
+sdcresearchlabs-testbot,95,95,0,0
+BecomeBot,577,418,0,159
+TMCrawler,95,95,0,0
+OmniExplorer_Bot,561,528,0,33
+Accoona-AI-Agent,95,95,0,0
+Fatbot,174,174,0,0
+genieBot,186,174,0,12
+discobot,1744,1744,0,0
+rdfbot,36,0,2,34
+YetiBot,36,0,2,34
+Sosospider,1081,778,2,301
+Seznambot,89,0,2,87
+Charlotte,583,583,0,0
+"GPTBot, Google-Extended, ChatGPT-User, CCBot, anthropic-ai, Claude-Web",6,6,0,0
+MAZBot,89,89,0,0
+Dotbot,278,135,5,138
+IPS-Agent,43,0,43,0
+FemtosearchBot,223,98,82,43
+aiHitBot,296,252,0,44
+trovitBot,255,255,0,0
+Knowledge AI,82,82,0,0
+LinkpadBot,589,356,0,233
+FlipboardProxy,145,86,47,12
+Detectify,86,86,0,0
+Mediapartners (Googlebot),3,0,0,3
+AdsBot-Google,4301,52,2602,1647
+Yahoo-NewsCrawler,516,0,516,0
+SocietyRobot,81,81,0,0
+MyFamilyBot,89,21,0,68
+scrapy,71,71,0,0
+InAGist URL Resolver,82,29,12,41
+adidxbot,297,1,84,212
+Linespider,170,88,38,44
+*.cpe.pppoe.ca,3,3,0,0
+spider.yandex.com,4,4,0,0
+*.web.naver.com,3,3,0,0
+YandexBot/3.0,86,86,0,0
+UptimeRobot/2.0,61,61,0,0
+Cliqzbot/2.0,67,67,0,0
+SemrushBot/2~bl,3,3,0,0
+spider/4.0,3,0,0,3
+*.bl.semrush.com,3,3,0,0
+Yeti/1.1,3,3,0,0
+Startpagina-Linkchecker/1.0,3,3,0,0
+bingbot/2.0,127,59,61,7
+ec2-54-72-206-23.eu-west-1.compute.amazonaws.com,3,3,0,0
+MSIE,3,3,0,0
+naverbot,346,52,162,132
+Googlebot-Video,712,0,415,297
+seznambot,184,8,164,12
+OrangeBot,225,126,99,0
+Twitterbot/1.0,100,0,100,0
+vebidoobot,134,39,95,0
+baiduspider,1420,732,420,268
+deepcrawl,195,104,89,2
+StackRambler,107,7,100,0
+OrangeBot-Collector,99,0,99,0
+Cincobot,58,0,0,58
+ByteSpider,48,0,48,0
+Neevabot,71,32,33,6
+Zoombot,27,0,27,0
+NewsWhip-LinkedIn-Bot,9,0,9,0
+coccocbot-web,108,98,8,2
+SemrushBot-BA,209,162,0,47
+SemrushBot-SWA,202,155,0,47
+SemrushBot-CT,202,155,0,47
+SemrushBot-BM,180,142,0,38
+SemrushBot-SEOAB,34,34,0,0
+SemrushBot-SI,209,162,0,47
+ZyBorg,307,307,0,0
+data2lifebot,92,92,0,0
+BoardReader,669,578,0,91
+Pinterest,2964,0,119,2845
+GoogleOther,17,5,1,11
+netseer,219,100,0,119
+AdsBot-Google-Mobile,1379,0,935,444
+DealOzBot,81,71,0,10
+linksmanager,81,71,0,10
+PCNBot,81,71,0,10
+e-SocietyRobot,261,251,0,10
+pimeyes.com crawler,36,26,0,10
+AddThis.com robot tech.support@clearspring.com,200,200,0,0
+aipbot,410,390,0,20
+RedCarpet,81,71,0,10
+PGBot,81,71,0,10
+SplitSignalBot,129,101,0,28
+SiteAuditBot,127,87,0,40
+SemrushBot-COUB,99,87,0,12
+SEOkicks,239,220,0,19
+ScoutJet,1026,220,193,613
+RED,36,3,0,33
+Purebot,14,14,0,0
+Spinn3r,855,477,281,97
+Nachobot,56,56,0,0
+Moreoverbot,84,84,0,0
+NewsNow,423,257,15,151
+SiteBot,67,67,0,0
+Apple-PubSub,14,14,0,0
+InfoPath,15,14,0,1
+SurdotlyBot,11,11,0,0
+MagentaNews,15,15,0,0
+sp_auditbot,80,80,0,0
+adsbot,107,98,0,9
+WBSearchBot,353,352,0,1
+sistrix,168,167,0,1
+plukkie,109,108,0,1
+oBot,455,454,0,1
+YYSpider,105,105,0,0
+Ezooms,568,487,2,79
+HubSpot Crawler 1.0,37,37,0,0
+Netseer,28,28,0,0
+barkrowler,13,4,0,9
+Screaming Frog SEO Spider,550,421,2,127
+Aboundexbot,232,231,0,1
+EasouSpider,435,434,0,1
+JikeSpider,738,694,2,42
+TwengaBot-2.0,23,23,0,0
+CriteoBot/0.1,54,53,0,1
+meanpathbot,222,221,0,1
+MSNbot,255,0,218,37
+NerdyBot,3410,3299,0,111
+YandexBlogs,11,11,0,0
+yahoo-mmcrawler,499,89,63,347
+peerindex,11,11,0,0
+Go,11,11,0,0
+binlar_2.6.3,11,11,0,0
+SAMSUNG-SGH-E250,11,11,0,0
+Scrubby,404,113,1,290
+yeti,150,47,0,103
+yahoo-blogs/v3.9,435,88,4,343
+DoCoMo,125,53,0,72
+curl,28,28,0,0
+OpenSearchServer_Bot,11,11,0,0
+Java,36,33,0,3
+PercolateCrawler,111,111,0,0
+WeSEE,137,137,0,0
+Python-urllib,1131,1093,0,38
+Mozilla,84,48,0,36
+Robozilla,423,90,1,332
+SiteVigil,11,11,0,0
+Omgili,165,145,15,5
+WebVac,459,423,0,36
+Meltwater,444,356,0,88
+Perplexity-ai,4,4,0,0
+Seekr,7,7,0,0
+Claudebot,4,4,0,0
+diffbot,4,4,0,0
+MSNBot-Media,158,16,80,62
+MauiBot (crawler.feedback+dc@gmail.com),53,53,0,0
+Domain Re-Animator Bot,208,208,0,0
+mj12bot,125,116,9,0
+Linguee Bot,172,164,0,8
+AHC/2.0,52,52,0,0
+AHC/1.0,52,52,0,0
+AHC/2.1,44,44,0,0
+axios 0.21.1,28,28,0,0
+ahrefs,59,15,33,11
+Teleport Pro/1.29,187,185,0,2
+Wget/1.8.2,232,230,0,2
+YahooYSMcm,282,1,263,18
+Yahoo-Newscrawler,342,1,341,0
+OpenAI,122,122,0,0
+ChatGPT,204,204,0,0
+MJ12Bot,90,78,0,12
+XoviBot,376,236,0,140
+Ahrefsbot,2,2,0,0
+duggmirror,475,428,0,47
+Aqua_Products,1066,1028,0,38
+Bookmark search tool,852,814,0,38
+Zeus Link Scout,1016,992,0,24
+Flaming AttackBot,870,832,0,38
+Openbot,1011,973,0,38
+PerMan,912,874,0,38
+looksmart,215,179,0,36
+Radiation Retriever 1.1,1016,978,0,38
+b2w/0.1,843,805,0,38
+grub,630,594,0,36
+NetMechanic,830,707,0,123
+Microsoft URL Control,1064,1023,0,41
+URL Control,1016,978,0,38
+Oracle Ultra Search,870,832,0,38
+Gaisbot,1124,1086,0,38
+searchpreview,959,921,0,38
+Iron33/1.0.2,912,874,0,38
+URL_Spider_Pro,831,793,0,38
+GetRight/4.2,917,879,0,38
+FairAd Client,870,832,0,38
+Linguee,140,133,0,7
+AdsBot-AdIdxBot,87,0,26,61
+Yahoo Pipes 2.0,312,129,58,125
+BomboraBot,153,1,18,134
+Clickagy Intelligence Bot,84,84,0,0
+zoominfo,43,43,0,0
+Semrush,210,194,0,16
+WebMiner,57,57,0,0
+ContextAd,91,91,0,0
+SuperPagesUrlVerifyBot,91,91,0,0
+SuperPagesBot,91,91,0,0
+Barkrowler,293,220,0,73
+FunWebProducts,105,105,0,0
+YodaoBot,328,322,0,6
+MLBot,377,365,0,12
+Seznam screenshot-generator,91,91,0,0
+ZoomSpider,91,91,0,0
+iisbot,197,100,0,97
+AugustBot,91,91,0,0
+Speedy,492,490,0,2
+Y!J-BRW,91,91,0,0
+TwengaBot,239,238,0,1
+YPBot,91,91,0,0
+SearQuBot,91,91,0,0
+YandexFavicons,113,113,0,0
+TwengaBot-Discover,91,91,0,0
+Clark-Crawler2,31,31,0,0
+Seekport Crawler,67,53,0,14
+Timpibot,3,3,0,0
+007ac9,100,99,0,1
+Turnitin,130,113,17,0
+TinEye,89,89,0,0
+SemrushBot-Desktop,55,0,0,55
+archive.org_bot,1011,205,520,286
+msnbotÂ,38,0,0,38
+docspotbot,40,40,0,0
+Y!J-SRD,595,0,595,0
+Active Cache Request,595,0,595,0
+Y!J-MBS,595,0,595,0
+sitebot,371,339,0,32
+Amazonbot             # Amazon's user agent,1,0,1,0
+cbBot,99,99,0,0
+TrovitBot,99,99,0,0
+oodlebot,233,233,0,0
+spider,99,99,0,0
+SpriftCrawler,24,24,0,0
+AdsBot-Google-Mobile-Apps,133,0,103,30
+MicrosoftPreview,6,0,0,6
+AdsBot,6,0,0,6
+APIs-Google,117,0,14,103
+facebookexternalhit/1.1,208,0,17,191
+Caliperbot,61,12,0,49
+Deepcrawl,6,0,0,6
+SemanticScholarBot,55,0,4,51
+Siteimprove,296,126,0,170
+ContentKing,6,0,0,6
+facebookexternalhit/1.0,6,0,0,6
+facebot,109,7,10,92
+Storebot-Google,21,0,14,7
+MSNPTC/1.0,144,0,144,0
+twiceler.,77,77,0,0
+OAPS-Document-Fetcher,2,0,2,0
+SeekportBot,70,34,0,36
+archive.org,147,0,147,0
+SLURP,37,0,0,37
+Baiduspider-cpro,211,98,0,113
+Baiduspider-mobile,37,0,0,37
+LocalcomBot,31,31,0,0
+Google-Travel-Flights,394,0,394,0
+Google-HotelAdsVerifier,678,0,678,0
+ContextAd Bot,751,650,0,101
+berlin-fu-cow,697,697,0,0
+ias-sg,270,270,0,0
+ADmantX Platform Semantic Analyzer,650,650,0,0
+A6-Indexer/1.0,650,650,0,0
+ias-ir,270,270,0,0
+feedjira,59,59,0,0
+GurujiBot,5,5,0,0
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0) LinkCheck by Siteimprove.com,77,34,0,43
+AppleNewsBot,486,0,10,476
+ccbot,248,68,141,39
+Baidu,226,85,2,139
+musobot,86,84,2,0
+lunabot,9,0,0,9
+WebIndex,174,92,0,82
+Mail.RU_Bot/2.0,158,158,0,0
+Mozilla/5.0 (compatible; EtaoSpider/1.0; http://open.etao.com/dev/EtaoSpider),57,57,0,0
+Mail.RU,158,158,0,0
+Sogou head spider/3.0( http://www.sogou.com/docs/help/webmasters.htm#07),58,58,0,0
+Sogou web spider/4.0,185,185,0,0
+yandex,359,105,6,248
+Sogou Orion spider/3.0( http://www.sogou.com/docs/help/webmasters.htm#07),58,58,0,0
+Sogou-Test-Spider/4.0 (compatible; MSIE 5.5; Windows 98),58,58,0,0
+Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07),126,126,0,0
+Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots,57,57,0,0
+Mozilla/5.0+(compatible;+EtaoSpider/1.0;+http://open.etao.com/dev/EtaoSpider),57,57,0,0
+Sogou Pic Spider/3.0( http://www.sogou.com/docs/help/webmasters.htm#07),58,58,0,0
+Adsbot-Google-Mobile,6,0,6,0
+sentibot,281,273,0,8
+Eyeotabot,5,0,0,5
+Baiduspider+,208,196,0,12
+CazoodleBot,103,103,0,0
+scan.lol,75,75,0,0
+Sucuri,126,126,0,0
+Nameprotect,126,126,0,0
+plumanalytics,75,75,0,0
+Openvas,103,103,0,0
+GalaxyBot,126,126,0,0
+ScanAlert,132,126,0,6
+Blow,126,126,0,0
+Mojolicious,60,60,0,0
+HaosouSpider,176,176,0,0
+Calculon,126,126,0,0
+Lightspeedsystems,126,126,0,0
+sexsearcher,75,75,0,0
+OutfoxBot,171,171,0,0
+Turingos,126,126,0,0
+Sociscraper,75,75,0,0
+Recorder,126,126,0,0
+Grabber,126,126,0,0
+SEOprofiler,126,126,0,0
+WebCollage,126,126,0,0
+Web Sucker,168,163,0,5
+Brandwatch,126,126,0,0
+Attach,126,126,0,0
+page scorer,103,103,0,0
+OpenLinkProfiler,248,248,0,0
+EasyDL,126,126,0,0
+Pockey,126,126,0,0
+Extreme Picture Finder,98,98,0,0
+IlseBot,126,126,0,0
+WinHTTrack,240,155,0,85
+Snoopy,126,126,0,0
+Magnet,126,126,0,0
+Acunetix,126,126,0,0
+Picscout,126,126,0,0
+Telesphorep,126,126,0,0
+RankingBot,98,98,0,0
+zgrab,75,75,0,0
+BacklinkCrawler,222,140,0,82
+Voil,126,126,0,0
+WebGo IS,334,329,0,5
+Toata,126,126,0,0
+80legs,255,182,0,73
+Rankivabot,126,126,0,0
+Blackboard,98,98,0,0
+Image Sucker,314,309,0,5
+Msrabot,126,126,0,0
+Nettrack,126,126,0,0
+Sqlmap,126,126,0,0
+Searchestate,126,126,0,0
+Copier,126,126,0,0
+NetLyzer,126,126,0,0
+HTTP::Lite,126,126,0,0
+OrangeSpider,126,126,0,0
+Whatweb,126,126,0,0
+WISENutbot,126,126,0,0
+CATExplorador,126,126,0,0
+MSFrontPage,126,126,0,0
+seoscanners,96,96,0,0
+MarkMonitor,126,126,0,0
+Toweyabot,126,126,0,0
+Musobot,126,126,0,0
+Fyrebot,126,126,0,0
+LinqiaScrapeBot,128,128,0,0
+Aipbot,126,126,0,0
+WPScan,126,126,0,0
+Xaldon_WebSpider,163,163,0,0
+Download Wonder,193,193,0,0
+Craftbot,126,126,0,0
+NPbot,165,163,0,2
+Scanbot,126,126,0,0
+Trendictionbot,164,164,0,0
+Ecxi,126,126,0,0
+Bandit,126,126,0,0
+Gigablast,124,124,0,0
+Lipperhey Spider,85,85,0,0
+Deusu,126,126,0,0
+Extractor,126,126,0,0
+JustView,126,126,0,0
+Demon,126,126,0,0
+EMail Wolf,126,126,0,0
+GridBot,126,126,0,0
+HEADMasterSEO,98,98,0,0
+Cogentbot,126,126,0,0
+Anarchie,126,126,0,0
+ScreenerBot,226,226,0,0
+Nimbostratus,75,75,0,0
+Yahoo Pipes 1.0,1251,790,461,0
+BackWeb,126,126,0,0
+CrazyWebCrawler,128,128,0,0
+PHPCrawl,128,128,0,0
+Gotit,126,126,0,0
+Evil,126,126,0,0
+Iria,126,126,0,0
+Stripper,126,126,0,0
+RankurBot,98,98,0,0
+GoZilla,126,126,0,0
+Bigfoot,126,126,0,0
+BetaBot,126,126,0,0
+Masscan,126,126,0,0
+Nessus,126,126,0,0
+Lmspider,126,126,0,0
+Telesphoreo,126,126,0,0
+AiHitBot,165,156,0,9
+POE-Component-Client-HTTP,126,126,0,0
+ADmantX,358,358,0,0
+NimbleCrawler,279,279,0,0
+AIBOT,126,126,0,0
+Voltron,126,126,0,0
+Web Fuck,126,126,0,0
+Image Fetch,126,126,0,0
+Joomla,126,126,0,0
+ips-agent,75,75,0,0
+Harvest,311,309,0,2
+arquivo-web-crawler,60,60,0,0
+Nmap,126,126,0,0
+T8Abot,126,126,0,0
+Majestic-SEO,85,85,0,0
+Indy Library,170,165,0,5
+Sqworm,126,126,0,0
+BackDoorBot,319,317,0,2
+Wonderbot,126,126,0,0
+HTMLparser,126,126,0,0
+Ripper,126,126,0,0
+Lftp,126,126,0,0
+Twice,126,126,0,0
+URLy.Warning,165,163,0,2
+BatchFTP,126,126,0,0
+Wallpapers/3.0,98,98,0,0
+LinqiaRSSBot,126,126,0,0
+Site Sucker,126,126,0,0
+Firefox/7.0,126,126,0,0
+LinqiaMetadataDownloaderBot,126,126,0,0
+WebPix,126,126,0,0
+PyCurl,126,126,0,0
+Devil,126,126,0,0
+CSHttp,126,126,0,0
+Intelliseek,126,126,0,0
+Pump,126,126,0,0
+Iskanie,126,126,0,0
+Siphon,126,126,0,0
+xpymep1.exe,75,75,0,0
+Id-search,126,126,0,0
+Upflow,75,75,0,0
+SeoSiteCheckup,76,76,0,0
+PxBroker,98,98,0,0
+Who.is Bot,98,98,0,0
+webmeup-crawler,187,187,0,0
+demandbase-bot,75,75,0,0
+Getintent,126,126,0,0
+Net Vampire,314,309,0,5
+AfD-Verbotsverfahren,98,98,0,0
+PictureFinder,98,98,0,0
+MegaIndex.ru,1172,680,26,466
+Cosmos,126,126,0,0
+DnyzBot,99,98,0,1
+Spammen,126,126,0,0
+WiseGuys Robot,160,160,0,0
+Netcraft,126,126,0,0
+Offline Navigator,168,163,0,5
+404enemy,98,98,0,0
+com.plumanalytics,75,75,0,0
+IDBot,127,126,0,1
+RebelMouse,106,106,0,0
+Trendiction,136,136,0,0
+Linkdexbot,125,125,0,0
+Freeuploader,126,126,0,0
+WWW::Mechanize,126,126,0,0
+RedesScrapy,126,126,0,0
+Abonti,180,180,0,0
+WebsiteExtractor,126,126,0,0
+Humanlinks,126,126,0,0
+LinksManager,126,126,0,0
+Lanshanbot,126,126,0,0
+WallpapersHD,126,126,0,0
+muhstik-scan,75,75,0,0
+DigitalPebble,98,98,0,0
+Picsearch,126,126,0,0
+internetVista monitor,103,103,0,0
+Disco,126,126,0,0
+Niki-bot,126,126,0,0
+Meanpathbot,126,126,0,0
+Alligator,126,126,0,0
+instabid,75,75,0,0
+FDM,98,98,0,0
+Webster,226,226,0,0
+Discobot,126,126,0,0
+VB Project,126,126,0,0
+ZmEu,126,126,0,0
+Dispatch,75,75,0,0
+s1z.ru,75,75,0,0
+BDCbot,146,103,0,43
+BackStreet,126,126,0,0
+Vacuum,126,126,0,0
+BuiltWith,152,152,0,0
+MFC_Tear_Sample,126,126,0,0
+Heritrix,143,131,0,12
+Boardreader,163,162,0,1
+Web Sauger,126,126,0,0
+Screaming,126,126,0,0
+Webshag,126,126,0,0
+GrapeFX,126,126,0,0
+PeoplePal,126,126,0,0
+AllSubmitter,126,126,0,0
+Tracemyfile,98,98,0,0
+Nibbler,126,126,0,0
+sysscan,75,75,0,0
+ExtLinksBot,142,98,0,44
+Psbot,131,131,0,0
+Jetty,75,75,0,0
+ASPSeek,126,126,0,0
+InfoTekies,126,126,0,0
+GT::WWW,126,126,0,0
+Seomoz,126,126,0,0
+DomainStatsBot,183,183,0,0
+Cloud mapping,98,98,0,0
+Suzuran,126,126,0,0
+SEOstats,227,227,0,0
+cognitiveseo,75,75,0,0
+Microsoft Data Access,124,124,0,0
+RankingBot2,98,98,0,0
+Sqlworm,126,126,0,0
+Pi-Monster,131,131,0,0
+Sitevigil,126,126,0,0
+Ebingbong,126,126,0,0
+Hloader,126,126,0,0
+facebookscraper,75,75,0,0
+Aboundex,228,227,0,1
+Mojeek,129,129,0,0
+Badass,126,126,0,0
+OnCrawl,75,75,0,0
+WebsiteQuester,126,126,0,0
+DatabaseDriverMysqli,98,98,0,0
+Lipperhey,229,228,0,1
+OutclicksBot,98,98,0,0
+WebFuck,126,126,0,0
+Whack,126,126,0,0
+LinkScan,126,126,0,0
+PageScorer,126,126,0,0
+Panscient,126,126,0,0
+Sucker,126,126,0,0
+RankActive,98,98,0,0
+Pavuk,138,126,0,12
+Internet Ninja,168,163,0,5
+Reaper,126,126,0,0
+Bitacle,126,126,0,0
+SalesIntelligent,210,210,0,0
+ECCP/1.0,126,126,0,0
+Bullseye,319,317,0,2
+OpenVAS,98,98,0,0
+GetWeb,126,126,0,0
+Flunky,126,126,0,0
+BBBike,126,126,0,0
+Webalta,126,126,0,0
+Larbin,146,146,0,0
+DomainAppender,132,128,0,4
+Sitebeam,126,126,0,0
+SpaceBison,126,126,0,0
+BDFetch,128,128,0,0
+Collector,126,126,0,0
+Mag-Net,126,126,0,0
+Pixray,126,126,0,0
+Virusdie,98,98,0,0
+G-i-g-a-b-o-t,265,265,0,0
+LibWeb,126,126,0,0
+FHscan,126,126,0,0
+Spbot,126,126,0,0
+Kozmosbot,98,98,0,0
+Jbrofuzz,126,126,0,0
+LeechGet,126,126,0,0
+UnisterBot,135,135,0,0
+Ltx71,126,126,0,0
+Mr.4x3,98,98,0,0
+Haansoft,98,98,0,0
+MarkWatch,126,126,0,0
+IstellaBot,98,98,0,0
+Thumbor,75,75,0,0
+Buddy,126,126,0,0
+crawler4j,245,244,0,1
+SocialRankIOBot,210,210,0,0
+Litemage_walker,126,126,0,0
+WebSucker,126,126,0,0
+trendiction.de,113,113,0,0
+Xaldon WebSpider,168,163,0,5
+Chlooe,126,126,0,0
+x09Mozilla,75,75,0,0
+Copyscape,128,128,0,0
+PECL::HTTP,126,126,0,0
+Web Enhancer,126,126,0,0
+CrunchBot,75,75,0,0
+Brandprotect,126,126,0,0
+EMail Siphon,126,126,0,0
+T0PHackTeam,126,126,0,0
+DTS Agent,165,165,0,0
+Wprecon,126,126,0,0
+DataCha0s,98,98,0,0
+Apexoo,126,126,0,0
+DSearch,85,85,0,0
+netEstate NE Crawler,239,238,0,1
+autoemailspider,103,103,0,0
+Spanner,126,126,0,0
+CheTeam,75,75,0,0
+SiteLockSpider,126,126,0,0
+crawl.sogou.com,98,98,0,0
+lwp-request,103,103,0,0
+Dragonfly,126,126,0,0
+arquivo.pt,60,60,0,0
+VidibleScraper,126,126,0,0
+Digincore,100,100,0,0
+AlphaBot,99,98,0,1
+404checker,98,98,0,0
+RocketCrawler,126,126,0,0
+Discoverybot,126,126,0,0
+PageAnalyzer,128,128,0,0
+Name Intelligence,126,126,0,0
+SISTRIX,230,230,0,0
+Web Auto,126,126,0,0
+Papa Foto,168,163,0,5
+Zauba,98,98,0,0
+BuzzSumo,126,126,0,0
+Libwhisker,126,126,0,0
+Web Pix,126,126,0,0
+Asterias,126,126,0,0
+SEOlyticsCrawler,128,128,0,0
+SBIder,142,142,0,0
+Needle,126,126,0,0
+Web Fetch,126,126,0,0
+ProPowerBot,126,126,0,0
+DIIbot,126,126,0,0
+FrontPage,185,183,0,2
+Zade,126,126,0,0
+Drip,126,126,0,0
+Nikto,126,126,0,0
+Metauri,126,126,0,0
+Dirbuster,126,126,0,0
+Jyxobot,149,149,0,0
+Probethenet,126,126,0,0
+Likse,126,126,0,0
+InternetSeer,126,126,0,0
+zauba.io,75,75,0,0
+Curious,126,126,0,0
+BlowFish,319,317,0,2
+FyberSpider,98,98,0,0
+Shodan,98,98,0,0
+Zermelo,126,126,0,0
+LWP::Simple,126,126,0,0
+Web Collage,126,126,0,0
+crawler.feedback,75,75,0,0
+Mass Downloader,314,309,0,5
+Ninja,126,126,0,0
+VeriCiteCrawler,212,212,0,0
+Szukacz,126,126,0,0
+Backlink-Ceck,98,98,0,0
+IndeedBot,99,98,0,1
+Iblog,126,126,0,0
+Battleztar Bazinga,128,128,0,0
+RSSingBot,75,75,0,0
+Snake,126,126,0,0
+sogouspider,108,108,0,0
+DBLBot,140,140,0,0
+Quick-Crawler,98,98,0,0
+evc-batch,77,77,0,0
+Pimonster,131,131,0,0
+WEBDAV,126,126,0,0
+Woobot,126,126,0,0
+Express WebPictures,170,165,0,5
+WASALive-Bot,225,128,0,97
+MeanPath Bot,75,75,0,0
+Morfeus Fucking Scanner,98,98,0,0
+Keyword Density,126,126,0,0
+x22Mozilla,103,103,0,0
+DomainCrawler,206,151,0,55
+JOC Web Spider,314,309,0,5
+Pandalytics,83,75,8,0
+trendiction.com,113,113,0,0
+MIDown tool,314,309,0,5
+Havij,126,126,0,0
+Fimap,126,126,0,0
+RankActiveLinkBot,104,103,0,1
+DomainSigmaCrawler,128,128,0,0
+spyfu,85,85,0,0
+Majestic12,126,126,0,0
+Majestic SEO,75,75,0,0
+Jorgee,112,98,0,14
+WebImageCollector,126,126,0,0
+Zitebot,126,126,0,0
+backlink-check,75,75,0,0
+Page Analyzer,128,128,0,0
+JamesBOT,198,183,0,15
+RankFlex,99,99,0,0
+PleaseCrawl,126,126,0,0
+Bolt,126,126,0,0
+Whacker,126,126,0,0
+Image Stripper,216,211,0,5
+Web Copier,28,28,0,0
+Download Demon,70,65,0,5
+GuzzleHttp,28,28,0,0
+Web Stripper,28,28,0,0
+Bubing,51,51,0,0
+Web Bandit,28,28,0,0
+Download Devil,28,28,0,0
+Website Extractor,28,28,0,0
+MS Web Services Client Protocol,51,51,0,0
+Mail.ru,51,51,0,0
+Zgrab,51,51,0,0
+Slackbot-LinkExpanding,148,51,0,97
+startmebot,53,53,0,0
+EMail Collector,28,28,0,0
+Page Grabber,28,28,0,0
+SISTRIX Crawler,90,90,0,0
+WEBDAV Client,28,28,0,0
+MSIE 6.0,54,28,0,26
+EMail Extractor,28,28,0,0
+Web Reaper,28,28,0,0
+Web Whacker,28,28,0,0
+Proximic,51,51,0,0
+Turnitin Robot,40,11,0,29
+Turnitin Bot,6,6,0,0
+axios,26,26,0,0
+Welltory,16,16,0,0
+IBM-AppConnect/V1,16,16,0,0
+Sogou Spider,5,3,0,2
+Sogou spider2,50,36,0,14
+Sogou News Spider,51,36,1,14
+Sogou Orion spider,51,36,1,14
+Sogou inst spider,151,108,1,42
+RavenCrawler,74,13,0,61
+Sogou blog,51,36,1,14
+claritybot,18,18,0,0
+NewsGator,3,3,0,0
+sogou,224,25,35,164
+Verity,11,11,0,0
+Python-urllib/1.17,82,0,0,82
+Oracle Secure Enterprise Search,82,0,0,82
+endecawebcrawler,82,0,0,82
+aolbuild,6,0,6,0
+adsbot-google,2883,50,2833,0
+mediapartners-google,6,0,6,0
+bingpreview,7,1,6,0
+slurp,796,86,240,470
+baidu,180,127,6,47
+duckduckgo,6,0,6,0
+R6_FeedFetcher,450,404,0,46
+IQ-WWW,46,0,0,46
+adstxt/1.0,13,0,0,13
+Amazon-Advertising-ad-standards-bot/1.0,5,0,0,5
+APS-ad-standards-bot/1.0,5,0,0,5
+*   # directed to all spiders,2,0,2,0
+gsa-crawler   # directed to internal search agent,2,0,2,0
+GPTbot,8,8,0,0
+facebookcatalog,14,0,0,14
+linkedinbot,14,0,0,14
+Googlebot-image,78,0,30,48
+googlebot-mobile,153,4,32,117
+googlebot-image,203,19,12,172
+BizBot04 kirk.overleaf.com,45,45,0,0
+Big Brother,45,45,0,0
+BSpider/1.0 libwww-perl/0.40,45,45,0,0
+Bizbot003,45,45,0,0
+Arachnophilia,68,68,0,0
+AITCSRobot/1.1,45,45,0,0
+ASpider/0.09,45,45,0,0
+BotRightHere,534,532,0,2
+Bot mailto:craftbot@yahoo.com,50,45,0,5
+AURESYS/1.0,45,45,0,0
+BackRub/.,45,45,0,0
+Black.Hole,47,45,0,2
+voilabot,146,0,0,146
+Yahoo! slurp,146,0,0,146
+UnwindFetchor,246,100,0,146
+FriendFeedBot,277,0,131,146
+truveo,117,117,0,0
+WikioFeedBot,146,29,0,117
+singingfish,117,117,0,0
+YahooSeeker,147,0,0,147
+cXensebot,271,0,66,205
+VoilaBot BETA 1.2,1,1,0,0
+VoilaBot BETA,1,1,0,0
+,45,0,33,12
+Xenuâs Link Sleuth 1.1c,76,76,0,0
+Xenuâs,76,76,0,0
+Seekport,63,20,0,43
+IonCrawl,7,0,7,0
+Googlebot-mobile,1,0,1,0
+yahoobot,55,0,6,49
+*				# Updated 09/10/2015,7,0,7,0
+*				# Updated 2/23/2018,30,0,30,0
+*				# Updated 2/2/2017,11,0,11,0
+*				# Updated 10/18/2016,5,0,5,0
+*				# Updated 2/11/2018,1,0,1,0
+*				# Updated 9/12/2016,1,0,1,0
+*				# Updated 8/26/2016,1,0,1,0
+*				# Updated 7/5/2016,1,0,1,0
+*				# Updated 10/05/2020,7,0,7,0
+Bytespider (Bytedance),1,1,0,0
+google-extended,23,23,0,0
+ExB Language Crawler,72,0,0,72
+RediffNewsBot,169,0,0,169
+yolinkBot,173,72,4,97
+LWNutch,72,0,0,72
+Scanmine,72,0,0,72
+libcrawl,72,0,0,72
+OpenWebIndex,72,0,0,72
+Curious George,74,2,0,72
+SEOENGWorldBot,72,0,0,72
+ShowyouBot,171,2,0,169
+WocBot,72,0,0,72
+repparser,72,0,0,72
+CybEye.com,72,0,0,72
+woriobot,72,0,0,72
+Genio,72,0,0,72
+sindice-site-manager,72,0,0,72
+linkdex,114,42,0,72
+LexxeBot,72,0,0,72
+CompSpyBot,172,100,0,72
+bing,127,48,0,79
+msn,40,40,0,0
+eicibrugsa,17,0,0,17
+eiciluxgsa,17,0,0,17
+BLP_bbot/0.1,390,390,0,0
+BLEXbot,186,186,0,0
+PropsmartCrawler,94,94,0,0
+ahrefsbot,384,382,0,2
+TruliaBot,355,355,0,0
+Mozilla/4.0 (compatible; MSIE 4.01; Windows NT; MS Search 5.0 Robot) Microsoft,80,80,0,0
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 5.0 Robot) Microsoft,80,80,0,0
+Mozilla/4.0 (compatible; MSIE 4.01; Windows NT; MS Search 4.0 Robot),80,80,0,0
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot) Microsoft,80,80,0,0
+MS Search 5.0 Robot,68,68,0,0
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot),95,95,0,0
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 5.0 Robot),80,80,0,0
+Arachnida:,80,80,0,0
+Mozilla/4.0 (compatible; MSIE 4.01; Windows NT; MS Search 5.0 Robot),106,80,0,26
+Baiduspider:,66,66,0,0
+DotBot:,62,62,0,0
+Mozilla/4.0 (compatible; MSIE 4.01; Windows NT; MS Search 4.0 Robot) Microsoft,98,98,0,0
+Sogou:,62,62,0,0
+Baiduspider/2.0:,66,66,0,0
+MS Search 4.0 Robot,173,86,87,0
+yacybot:,7,7,0,0
+mag-robot403.osl.basefarm.net,32,32,0,0
+ia_archiver/1.6,302,266,0,36
+CherryPicker/1.0,42,42,0,0
+mag-robot404.osl.basefarm.net,32,32,0,0
+Spiderbot/Nutch-1.7,34,34,0,0
+YouBot,15,9,0,6
+Magnetbot,215,0,0,215
+voltron,1411,1352,4,55
+naver,282,246,0,36
+SurveyBot_IgnoreIP,40,26,0,14
+Jetbot/1.0,235,199,0,36
+Copernic,918,880,0,38
+Stanford CompSciClub,36,0,0,36
+chroot,14,0,0,14
+Blexbot,37,23,0,14
+Enterprise_Search/1.0,287,251,0,36
+es,272,236,0,36
+mozilla,73,37,0,36
+WebmasterWorld Extractor,146,110,0,36
+http://www.SearchEngineWorld.com bot,36,0,0,36
+gigabot,185,93,0,92
+Stanford,235,199,0,36
+mozilla/3,73,37,0,36
+AppEngine,14,0,0,14
+Jetbot,372,251,0,121
+archive,24,10,0,14
+scooter,73,33,4,36
+Stanford Spiderboys,36,0,0,36
+Hatena Antenna,273,237,0,36
+Go-http-client,260,194,0,66
+dumbot,420,384,0,36
+http://www.WebmasterWorld.com bot,36,0,0,36
+BlekkoBot,46,10,0,36
+exabot,84,6,42,36
+Megalodon,14,0,0,14
+Enterprise_Search,290,254,0,36
+Stanford Comp Sci,235,199,0,36
+Stanford CompClub,36,0,0,36
+sootle,418,382,0,36
+stress-agent,248,248,0,0
+seo spider,250,250,0,0
+blexbot,285,285,0,0
+mauibot,296,296,0,0
+semrushbot,291,291,0,0
+BaiduSpider,90,90,0,0
+adsbot-Google,5,0,5,0
+MoodleBot,12,12,0,0
+OmigiliBot,1,0,0,1
+teoma,178,0,110,68
+OmegaSeek,52,52,0,0
+Daumoa,284,234,50,0
+Blekkobot,297,100,0,197
+yacy,181,81,100,0
+wotbox,64,63,0,1
+discoverybot,78,78,0,0
+magpie-crawler*,187,187,0,0
+GomezAgent,44,44,0,0
+GomezAgent+2.0,12,12,0,0
+gomezagent+1.0,12,12,0,0
+gomezagent+2.0,12,12,0,0
+GomezAgent 3.0,12,12,0,0
+gomezagent+3.0,12,12,0,0
+MSNBot/Bingbot,13,0,0,13
+GomezAgent+3.0,12,12,0,0
+GomezAgent+1.0,12,12,0,0
+AspiegelBot,229,55,0,174
+EchoboxBot,1,0,0,1
+GoScraper,98,98,0,0
+Xombot,98,98,0,0
+Zing-BottaBot,105,7,0,98
+Zing-BottaBot/2.0,98,98,0,0
+Baiduspider/2.0,136,136,0,0
+openai,8,8,0,0
+"Mozilla/3.0 (compatible; REL Software, WebLink Validator 5.x)",63,0,0,63
+Mozilla/3.0 (compatible; Web Link Validator 5.x),63,0,0,63
+Mozilla/3.0 (compatible; WebLink Validator 5.x),63,0,63,0
+"Mozilla/3.0 (compatible; REL Software, Web Link Validator 5.x)",63,0,0,63
+Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07),59,59,0,0
+Sougou+web+spider,59,59,0,0
+Sogou spider,8,1,1,6
+Mail.Ru/1.0,14,14,0,0
+YahooSeeker/CafeKelsa,14,14,0,0
+blp_bbot,14,14,0,0
+Wang New Zealand,56,0,56,0
+Australian Business On-Line,56,0,56,0
+Gromit,79,23,56,0
+Gluten Free Crawler/1.0,13,13,0,0
+Gluten Free Crawler,13,13,0,0
+NewsWhipbot,23,23,0,0
+DISCo Pump 3.1,114,29,0,85
+semalt.com,82,0,0,82
+QuepasaCreep,159,159,0,0
+webcopy,114,29,0,85
+NetAttache Light 1.1,85,0,0,85
+website extractor,114,29,0,85
+MJ12bot/v1.4.3,82,0,0,82
+WebStripper/2.02,114,29,0,85
+webmirror,114,29,0,85
+MegaIndex.ru/2.0,362,258,0,104
+SuperBot/2.6,114,29,0,85
+Gigabot/3.0,82,0,0,82
+findlinks,124,42,0,82
+NetAttache,114,29,0,85
+AboutUsBot,161,161,0,0
+MS Search 6.0 Robot,176,79,0,97
+Daum,8,0,0,8
+Google,216,1,155,60
+Naver,31,23,0,8
+Elastic-Crawler epo-org,6,0,0,6
+ClarityBot,179,0,98,81
+^NetShelter,171,171,0,0
+NetShelter,271,271,0,0
+NetShelter ContentScan,271,271,0,0
+Bender,377,327,50,0
+magpie-crawle,304,304,0,0
+businessdbbot,304,304,0,0
+URLfilterDB,100,100,0,0
+EventMachine,100,100,0,0
+OpenWebSpider,113,101,0,12
+LSSRocketCrawler,103,102,0,1
+KomodiaBot,100,100,0,0
+Babya Discoverer,101,101,0,0
+CrawlDaddy,100,100,0,0
+Prlog,111,111,0,0
+newsme,100,100,0,0
+Nigma.ru,100,100,0,0
+WebMasterAid,100,100,0,0
+SpiderLing,102,102,0,0
+hivaBot,100,100,0,0
+Industry Cortex Webcrawler,100,100,0,0
+Academic Beta Search,100,100,0,0
+wminer,100,100,0,0
+updown_tester,102,102,0,0
+CatchBot,169,169,0,0
+ZemlyaCrawl,100,100,0,0
+Jetslide,100,100,0,0
+Perviibot,100,100,0,0
+Squider,100,100,0,0
+Blog Search,100,100,0,0
+panscient.com,219,215,0,4
+CMS Crawler,102,102,0,0
+kulturarw3,100,100,0,0
+ufdb,100,100,0,0
+Xenu Link Sleuth,200,200,0,0
+Symfony Spider,100,100,0,0
+wscheck.com,102,102,0,0
+ProoXiBot,100,100,0,0
+Lipperhey SEO Service,102,102,0,0
+ThumbnailAgent,100,100,0,0
+Domnutch-Bot,102,102,0,0
+BeetleBot,100,100,0,0
+niki-bot,100,100,0,0
+URLfilterDB-crawler,100,100,0,0
+WebCapture,100,100,0,0
+nutch,110,110,0,0
+betasearch,100,100,0,0
+InAGist,100,100,0,0
+Powermarks,124,124,0,0
+lbot,100,100,0,0
+AdnormCrawler,100,100,0,0
+Jakarta,100,100,0,0
+madaali.de,100,100,0,0
+FeedBot,100,100,0,0
+CloudServerMarketSpider,102,102,0,0
+abot,197,100,0,97
+linkdexbot-mobile,100,100,0,0
+200PleaseBot,102,102,0,0
+YRSpider,100,100,0,0
+SEO ROBOT,100,100,0,0
+netEstate,100,100,0,0
+WebTarantula.com Crawler,102,102,0,0
+p4Bot,100,100,0,0
+webinatorbot,100,100,0,0
+BlogSearch,100,100,0,0
+Zao/0.2 (http://www.kototoi.org/zao/),2,2,0,0
+Mozilla/4.0 (compatible; MSIE 5.0; Windows 95) VoilaBot BETA 1.2 (http://www.voila.com/),2,2,0,0
+"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html) https://deepcrawl.com/bot",2,0,2,0
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html) https://deepcrawl.com/bot,2,0,2,0
+Baiduspider+(+http://www.baidu.com/search/spider.htm),143,130,13,0
+GrapeshotCrawler/2.0,1,1,0,0
+YandexImages/3.0,64,64,0,0
+PaperLiBot/2.1,64,64,0,0
+Baiduspider-render/2.0,64,64,0,0
+ToutiaoSpider/1.0,64,64,0,0
+Baiduspider-render,64,64,0,0
+SemrushBot/3~bl,64,64,0,0
+Freshbot/4.0,58,58,0,0
+Cutbot/1.5,60,60,0,0
+AhrefsBot/6.1,71,71,0,0
+VoluumDSP-content-bot/2.0,58,58,0,0
+DotBot/1.1,60,60,0,0
+Cutbot/+1.5,60,60,0,0
+Cutbot;+1.5,60,60,0,0
+Yahoo-MMCrawler,116,56,4,56
+Yahoo-Blogs,4,0,0,4
+wegobot,124,124,0,0
+Google-Podcast,11,4,7,0
+Alexabot,164,0,164,0
+Mozilla/5.0 (compatible; Google-Podcast),7,0,7,0
+Infovell,32,0,32,0
+genomeBot,8,0,8,0
+Baiduspider-favo,174,98,0,76
+Baiduspider-news,174,98,0,76
+Baiduspider-ads,174,98,0,76
+yaanibot,59,59,0,0
+megaindex.ru  # generates lots of 422 errors,87,87,0,0
+ichiro  # does buggy URI translation of quotation marks,87,87,0,0
+megaIndex.ru,113,110,0,3
+facebookexternalhit/1.1(+http://www.facebook.com/externalhit_uatext.php),30,0,0,30
+NetAnts/1.25,185,183,0,2
+WebStripper/2.19,185,183,0,2
+Zeus 90872 Webster Pro V2.9 Win32,185,183,0,2
+*ExaBot*,146,146,0,0
+Offline Explorer/1.7,280,278,0,2
+Web.Image.Collector,183,183,0,0
+Offline Explorer/2.4,185,183,0,2
+larbin_2.6.2 larbin@correa.org,185,183,0,2
+SuperHTTP/1.0,185,183,0,2
+WebReaper v9.1 - www.otway.com/webreaper,183,183,0,0
+larbin_2.6.2 larbin2.6.2@unspecified.mail,185,183,0,2
+WebZIP/5.0 PR1 (http://www.spidersoft.com),185,183,0,2
+larbin_2.6.2 (listonATccDOTgatechDOTedu),185,183,0,2
+*SiteBot*,146,146,0,0
+*Yeti*,146,146,0,0
+Nutch*,146,146,0,0
+WebCopier v3.2a,526,524,0,2
+WebZIP/4.0 (http://www.spidersoft.com),185,183,0,2
+Internet Ninja 4.0,185,183,0,2
+Zeus 44238 Webster Pro V2.9 Win32,185,183,0,2
+Zeus 11389 Webster Pro V2.9 Win32,185,183,0,2
+Bilbo/2.3b-UNIX,146,146,0,0
+Zeus 82016 Webster Pro V2.9 Win32,185,183,0,2
+Website Quester - www.esalesbiz.com/extra/,183,183,0,0
+Missigua Locator 1.9,146,146,0,0
+WebStripper/2.13,185,183,0,2
+WebEMailExtrac.*,185,183,0,2
+NetZippy+(http://www.innerprise.net/usp-spider.asp),185,183,0,2
+WebZIP/4.21,526,524,0,2
+Teleport Pro/1.29.1847,185,183,0,2
+*sindice-fetcher*,146,146,0,0
+WebSauger 1.20b,185,183,0,2
+Maxthon,146,146,0,0
+Offline Explorer/1.2,280,278,0,2
+*MLBot*,146,146,0,0
+Offline Explorer/1.6,280,278,0,2
+Mister PiX version.dll,185,183,0,2
+Offline Explorer/1.4,280,278,0,2
+larbin_2.6.2 (vitalbox1@hotmail.com),185,183,0,2
+larbin_2.6.2 (kabura@sushi.com),185,183,0,2
+Crescent Internet ToolPak HTTPOLE Control v.1.0,146,146,0,0
+WebReaper [info@webreaper.net],185,183,0,2
+LinkScan/8.1a Unix Disallow: /,146,146,0,0
+*newsexpress*,146,146,0,0
+WebCopier v2.8,185,183,0,2
+*Fetch*,146,146,0,0
+NetZip-Downloader/1.0.62 (Win32; Dec 7 1998),185,183,0,2
+larbin_2.6.2 kabura@sushi.com,185,183,0,2
+Zeus 97371 Webster Pro V2.9 Win32,185,183,0,2
+*trendictionbot*,146,146,0,0
+Microsoft URL Control*,146,146,0,0
+Keyword.Density,183,183,0,0
+FAST-WebCrawler/3.6/FirstPage,146,146,0,0
+DISCoFinder,185,183,0,2
+WebZIP/3.80 (http://www.spidersoft.com),185,183,0,2
+"HTTrack [NC,OR]",185,183,0,2
+RealDownload/4.0.0.40,185,183,0,2
+larbin samualt9@bigfoot.com,185,183,0,2
+Zeus 63567 Webster Pro V2.9 Win32,185,183,0,2
+Zeus 30747 Webster Pro V2.9 Win32,185,183,0,2
+*PaperLiBot*,146,146,0,0
+Microsoft URL Control - 6.01.9782,146,146,0,0
+ia_archiver*,140,140,0,0
+*BLP_bbot*,146,146,0,0
+Linknzbot*,146,146,0,0
+WebZIP/5.0 (http://www.spidersoft.com),185,183,0,2
+WebZIP/4.1 (http://www.spidersoft.com),185,183,0,2
+Zeus 11652 Webster Pro V2.9 Win32,185,183,0,2
+SmartDownload/1.2.77 (Win32; Feb 1 2000),185,183,0,2
+LinkScan/8.1a.Unix,185,183,0,2
+*OrkashBot*,146,146,0,0
+*Ezooms*,146,146,0,0
+Linknzbot 2004,146,146,0,0
+NutchCVS/0.06-dev,146,146,0,0
+*yacybot*,146,146,0,0
+Java*,146,146,0,0
+WebZIP/2.75 (http://www.spidersoft.com),185,183,0,2
+Website.Quester,185,183,0,2
+aipbot*,146,146,0,0
+Net Vampire/3.0,185,183,0,2
+Webster.Pro,185,183,0,2
+Mass Downloader/2.2,185,183,0,2
+NetZip Downloader 1.0 Win32(Nov 12 1998),185,183,0,2
+*Birubot*,146,146,0,0
+"WebReaper vWebReaper v7.3 - www,otway.com/webreaper",183,183,0,0
+*aiHitBot*,146,146,0,0
+BorderManager*,146,146,0,0
+*NaverBot*,146,146,0,0
+WebReaper v9.7 - www.webreaper.net,183,183,0,0
+WebSauger 1.20k,185,183,0,2
+eCatch/3.0,185,183,0,2
+Linknzbot,146,146,0,0
+aipbot/1.0,146,146,0,0
+Download Demon/3.2.0.8,185,183,0,2
+Offline Explorer/2.0,185,183,0,2
+Mister Pix II 2.02a,185,183,0,2
+Website Quester - www.asona.org,183,183,0,0
+WebCopier v3.0.1,185,183,0,2
+msrbot,298,298,0,0
+WebCopier v2.7a,185,183,0,2
+Mister Pix II 2.01,185,183,0,2
+DISCo Pump 3.2,185,183,0,2
+larbin_2.6.2 listonATccDOTgatechDOTedu,185,183,0,2
+Mister.PiX,185,183,0,2
+*DotBot*,146,146,0,0
+Teleport Pro/1.29.1634,185,183,0,2
+WebZIP/4.21 (http://www.spidersoft.com),185,183,0,2
+TurnitinBot/1.5,500,498,0,2
+larbin_2.6.2 (larbin2.6.2@unspecified.mail),185,183,0,2
+RealDownload/4.0.0.42,185,183,0,2
+*libwww*,146,146,0,0
+RealDownload/4.0.0.41,185,183,0,2
+*MJ12bot*,146,146,0,0
+WebStripper/2.16,185,183,0,2
+WebSauger 1.20j,185,183,0,2
+WebCopier v2.5,185,183,0,2
+Internet Ninja 5.0,185,183,0,2
+webcollage/1.77,146,146,0,0
+HttpTool*,146,146,0,0
+*Flamingo_SearchEngine*,146,146,0,0
+Offline Explorer/1.9,280,278,0,2
+WebZIP/3.65 (http://www.spidersoft.com),185,183,0,2
+WebAuto/3.40 (Win98; I),185,183,0,2
+WebReaper [webreaper@otway.com],185,183,0,2
+Internet Ninja 6.0,185,183,0,2
+WebZIP/5.0,526,524,0,2
+larbin (samualt9@bigfoot.com),185,183,0,2
+libWeb/clsHTTPDisallow: /,146,146,0,0
+*WordPress*,100,100,0,0
+MJ12bot/v1.4.8,3,0,3,0
+geeNian web-crawler,19,19,0,0
+CJNetworkQuality,19,19,0,0
+SentiBot,266,242,0,24
+MetaURI,179,179,0,0
+MetaURI API/2.0 +metauri.com,80,80,0,0
+turnitinbot,196,154,42,0
+archive.is,61,0,0,61
+WebTrends,16,16,0,0
+java,116,16,100,0
+SortSite/*,1,0,0,1
+petalbot,46,46,0,0
+Mediapartners-Google/2.1,181,0,0,181
+Grapeshot,85,85,0,0
+Owlin,144,144,0,0
+accelobot,192,192,0,0
+GoogleBot,18,0,10,8
+ltx71 - (http://ltx71.com/),170,118,0,52
+python-requests/2.18.,69,0,0,69
+Bing,61,1,0,60
+yandexbot,22,1,0,21
+Pixray-Seeker,5,5,0,0
+netEstate NE Crawler (+http://www.website-datenbank.de/),5,5,0,0
+XenuÃ¢â¬â¢s Link Sleuth 1.1c,5,5,0,0
+PicScout,5,5,0,0
+BLEXBot Crawler,5,5,0,0
+pimonster,5,5,0,0
+Quantify,5,5,0,0
+ECCP/1.0 (search@eniro.com),5,5,0,0
+Cuam,5,5,0,0
+GigaBlast Spider,5,5,0,0
+NinjaBot,45,14,0,31
+Archive.org Bot,5,5,0,0
+XenuÃ¢â¬â¢s,5,5,0,0
+ZBot,5,5,0,0
+megaindex.com,130,49,26,55
+Ezooms Robot,34,34,0,0
+ia_archiver-web.archive.org,147,126,21,0
++http://megaindex.com/crawler,6,6,0,0
+mytwip,29,29,0,0
+sosospider,31,31,0,0
+5erue,29,29,0,0
+downloadexpress,29,29,0,0
+Pimptrain,29,29,0,0
+Zookabot,30,30,0,0
+Qwam content intelligence,29,29,0,0
+leadbox,29,29,0,0
+ADmantX bot,29,29,0,0
+mediacompil,29,29,0,0
+opinion-tracker,29,29,0,0
+Explore,29,29,0,0
+FirstRain,29,29,0,0
+indexer,29,29,0,0
+vecteurplus,29,29,0,0
+winello,29,29,0,0
+Dotmic DotBot,29,29,0,0
+linkfluence,39,39,0,0
+wapspider,29,29,0,0
+TosCrawler,29,29,0,0
+readability.com,29,29,0,0
+SightupBot,51,51,0,0
+Newzbin,29,29,0,0
+EDD,29,29,0,0
+WebZinger,29,29,0,0
+UrlPouls,29,29,0,0
+asknread.com,29,29,0,0
+suggybot,29,29,0,0
+Youmag,29,29,0,0
+Knowings,29,29,0,0
+Bloodhound,29,29,0,0
+Updownerbot,355,355,0,0
+Europresse,99,99,0,0
+Corporama,29,29,0,0
+kbcrawl,29,29,0,0
+Raven,29,29,0,0
+ObjectsSearch,29,29,0,0
+AmiSoftware,29,29,0,0
+score3,29,29,0,0
+verticalsearch,29,29,0,0
+Sindup,29,29,0,0
+YRSPider,29,29,0,0
+trendybuzz,29,29,0,0
+BizInformation,29,29,0,0
+trendeo,29,29,0,0
+ApocalXExplorerBot,29,29,0,0
+auramundi,29,29,0,0
+up2news,29,29,0,0
+Xenu Link Sleuth/1.3.8,29,29,0,0
+eureka,29,29,0,0
+Igentia,29,29,0,0
+Meltawer,29,29,0,0
+AlvinetSpider,29,29,0,0
+gammaSpider,29,29,0,0
+coexel,29,29,0,0
+Digimind,29,29,0,0
+Zite,29,29,0,0
+adequat,29,29,0,0
+bitlybot,284,165,0,119
+Ask n read,29,29,0,0
+LamarkBot,29,29,0,0
+vsw,29,29,0,0
+Talkwater,29,29,0,0
+5emeRue,29,29,0,0
+ellisphere,29,29,0,0
+manageo,29,29,0,0
+Naverbot,31,29,2,0
+Factiva,29,0,0,29
+newscan-online,29,29,0,0
+Verif,29,29,0,0
+Argus,29,29,0,0
+AppleWebKit,9,0,0,9
+Augure,29,29,0,0
+cydralspider,29,29,0,0
+Synthesio,29,29,0,0
+OpenindexSpider,30,30,0,0
+mention,29,29,0,0
+infoseek,29,29,0,0
+spotter,29,29,0,0
+Perl LWP,31,31,0,0
+adequat-systems,29,29,0,0
+augure,29,29,0,0
+proxem,29,29,0,0
+Antenne Hatena,29,29,0,0
+Cision,29,29,0,0
+https://hada.news,3,3,0,0
+JenkersBot,3,3,0,0
+https://www.imediaethics.org,3,3,0,0
+Arquivo-web-crawler,23,1,22,0
+*  # directed to all robots (Fly),3,0,3,0
+*  # directed to all robots,46,0,46,0
+Offline Explorer/1.1,95,95,0,0
+webcollage/1.96,95,95,0,0
+Offline Explorer/1.5,95,95,0,0
+Offline Explorer/1.3,95,95,0,0
+Ocelli,143,23,21,99
+Teleport Pro/1.28,95,95,0,0
+webcollage/1.93,95,95,0,0
+webcollage_save/1.93,95,95,0,0
+Teleport Pro/1.29.1590,134,132,0,2
+Offline Explorer/1.8,95,95,0,0
+Googlenews,18,0,0,18
+Adidxbot,38,0,38,0
+Yahoo-MMAudVid,38,0,38,0
+Scooter,93,45,12,36
+Semrushbot,173,173,0,0
+Mauibot,173,173,0,0
+twiceler # http://www.cuill.com/twiceler/robot.html,98,0,0,98
+voyager # http://www.kosmix.com/html/crawler.html,98,0,0,98
+voilabot # http://www.voila.fr/,98,96,0,2
+echrigy # http://www.techrigy.com/,98,0,0,98
+Yisouspider,34,17,1,16
+Asimov-Bot,17,0,17,0
+Browsershots,146,0,8,138
+scoop.it,7,7,0,0
+Soso Spider,1,0,0,1
+INA dlweb,1,0,0,1
+outbrain,1,0,0,1
+houzzbot,139,1,131,7
+inkl,1,0,0,1
+Kantar,1,0,0,1
+AccompanyBot,96,62,0,34
+QueryCAT,54,54,0,0
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php),119,0,2,117
+Sogou-Test-Spider,22,22,0,0
+Sogou Pic,22,22,0,0
+GosoSpider,22,22,0,0
+Sogou Orion,22,22,0,0
+Sogou web,22,22,0,0
+Sogou head,22,22,0,0
+Mozilla/5.0 (compatible;contxbot/1.0),227,2,0,225
+Google-Read-Aloud,12,0,0,12
+DuplexWeb-Google,12,0,0,12
+googleweblight,12,0,0,12
+FeedFetcher-Google,21,0,0,21
+Google Favicon,11,0,0,11
+emrush,11,2,0,9
+google,142,0,0,142
+MindSpider,199,199,0,0
+zhanzhang,10,10,0,0
+bsalsa,12,12,0,0
+EcoSearch,10,10,0,0
+mail.ru,18,18,0,0
+wadoo,12,12,0,0
+picoFeed,10,10,0,0
+eyemon,10,10,0,0
+Studio,10,10,0,0
+daum.net,10,10,0,0
+RyteBot,24,10,14,0
+DaniBot,10,10,0,0
+SerendeputyBot,10,10,0,0
+linkpad,10,10,0,0
+Python,10,10,0,0
+basalsa,10,10,0,0
+AppleBot,11,10,0,1
+magpie,10,10,0,0
+Gwene,10,10,0,0
+bbot,10,10,0,0
+amazonbot,10,10,0,0
+BluechipBacklinks,72,72,0,0
+BcahiBot,10,10,0,0
+zoominfobot,10,10,0,0
+Jersey,53,10,0,43
+OpenNet.ru,10,10,0,0
+Hatena,10,10,0,0
+MBCrawler,36,36,0,0
+babbar,10,10,0,0
+* Disallow: /wp-admin/ Allow: /wp-admin/admin-ajax.php,34,0,0,34
+"""Vegi bot (we follow your robots.txt settings before crawling, you can slow down the bot by change",11,11,0,0
+* Disallow: /wp-admin/,1,0,0,1
+StormCrawler,57,36,0,21
+Semanticbot,44,35,0,9
+Cincraw,39,21,0,18
+MTRobot,44,39,0,5
+AHC,39,30,0,9
+Twingly Recon,35,30,0,5
+SabsimBot,9,9,0,0
+WikiDo,59,51,0,8
+Buck,90,38,0,52
+crystalsemantics,38,29,0,9
+DomCopBot,47,38,0,9
+aiohttp,38,29,0,9
+NetpeakCheckerBot,37,28,0,9
+bravebot,25,0,25,0
+SiteCheckerBotCrawler,39,30,0,9
+LCC,10,1,0,9
+ev-crawler,10,1,0,9
+DAUM,10,0,0,10
+SiteAuditBo,1,0,0,1
+Magellan,8,0,0,8
+Owler@ows.eu/1,8,0,0,8
+Owler@ows.eu/X,8,0,0,8
+webprosbot,10,2,0,8
+AwarioBot,9,1,0,8
+Owler@ows.eu/2,8,0,0,8
+LunaBot,2,0,0,2
+metajobbot,7,0,0,7
+img2dataset,7,0,0,7
+BrandVerity,37,30,0,7
+RainBot,6,0,0,6
+dataprovider,124,119,0,5
+LinkLint,99,0,99,0
+Netsparker,122,122,0,0
+W3C-checklink,145,0,107,38
+Mozilla/5.0*VoilaBot*,26,26,0,0
+Java/1.5.0_*  ## please use a more specific useragent,26,0,0,26
+Boomtrain-Content-Bot*,50,0,0,50
+mag-crawl,70,70,0,0
+Vocus,70,70,0,0
+libwww-perl,246,200,0,46
+Eureka,70,70,0,0
+Newscan,70,70,0,0
+Radian6,93,93,0,0
+CEDROM,70,70,0,0
+Isposure Agent,14,0,14,0
+bingbot(at)microsoft.com,14,0,14,0
+Giant Oak MN,1,1,0,0
+MLBot*,100,100,0,0
+zibber-v0.1(www.zibb.com/crawler/),100,100,0,0
+DigExt,19,19,0,0
+s~snapchat-proxy,19,19,0,0
+heritrix/3.3.0,19,19,0,0
+metadataparser,19,19,0,0
+id-search,19,19,0,0
+test bot,19,19,0,0
+CRAZYWEBCRAWLER,110,110,0,0
+Jike Spider,35,35,0,0
+360spider-image,35,35,0,0
+360spider-video,35,35,0,0
+Yahoo! Slurp China,35,35,0,0
+ChangeDetection,113,113,0,0
+Linkdex,100,100,0,0
+GSiteCrawler,98,98,0,0
+SpyFu,98,98,0,0
+DapperBot,19,19,0,0
+Majestic-12,10,10,0,0
+PagesInventory,12,12,0,0
+NCBot,10,10,0,0
+MJ12,10,10,0,0
+serpstat,10,10,0,0
+Amazon Music Podcasts Bot,4,4,0,0
+Feedfetcher-Google,16,4,0,12
+TextMiner/5.3,12,0,12,0
+PowerMapper,178,0,0,178
+TTD-Content,13,0,0,13
+WebSnake,106,106,0,0
+Leech,106,106,0,0
+Offline Commander,106,106,0,0
+HTTrack Website Copier,106,106,0,0
+Web Downloader,106,106,0,0
+Offline Explorer Pro,106,106,0,0
+HTTP Weazel,106,106,0,0
+neofonie,31,31,0,0
+aspiegelbot,34,34,0,0
+Re-re Studio,35,3,28,4
+gumgum-bot,28,28,0,0
+SEMRushBot,39,0,0,39
+CrazyWebCrawler-Spider,155,155,0,0
+Mail.RU_Bot*,94,94,0,0
+brokenlinkcheck.com,43,0,0,43
+Megaindex.ru,43,0,0,43
+Dow Jones Searchbot,140,0,0,140
+HubSpot,47,4,0,43
+Hatena*,43,0,0,43
+NL-Crawler,43,0,0,43
+Jobkicks,43,0,0,43
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0) SiteCheck-sitecrawl by Siteimprove.com,43,0,0,43
+lua-resty-http,43,0,0,43
+gobuster,43,0,0,43
+Fever,43,0,0,43
+OnPageBot,43,0,0,43
+BLP_bbot,115,72,0,43
+YunSecurityBot,43,0,0,43
+LumtelBot,43,0,0,43
+Magus bot,66,23,0,43
+cyencebot,43,0,0,43
+Mediapartners,36,0,0,36
+Vegi bot,99,99,0,0
+GetintentCrawler,10,10,0,0
+linkdexbot/2.0,41,41,0,0
+VegeBot,126,31,0,95
+msnbot            # MSN,49,0,0,49
+slurp             # Yahoo,49,0,0,49
+Twitterbot        # twitter.com retrieves images,49,0,0,49
+google            # Google,49,0,0,49
+ia_archiver       # Internet Archive (The Wayback Machine),49,0,0,49
+FlipboardProxy    # http://flipboard.com/browserproxy/,49,0,0,49
+googlebot         # Google,49,0,0,49
+teoma             # Ask,49,0,0,49
+bitlybot          # bit.ly,49,0,0,49
+askjeeves         # Ask,49,0,0,49
+zoomRank/2.0,2,2,0,0
+cityreview,170,170,0,0
+Bloglines/3.1,170,170,0,0
+Jyxobot/1,170,170,0,0
+GooglePlusBot,17,17,0,0
+theduffylawfirm.com,16,16,0,0
+bradymediagroup.com,16,16,0,0
+* Disallow: /,43,0,0,43
+Msnbot,15,0,0,15
+Yahoo-slurp,5,0,0,5
+Re-Animator,300,0,0,300
+GumGum Bot,28,0,0,28
+Crawlera,81,81,0,0
+bingbot-mobile,29,0,29,0
+BrandVerity/1.0,30,30,0,0
+m00b0t,67,0,67,0
+* Disallow: /search Allow: /search/about Allow: /search/static Allow: /search/howsearchworks Disallow: /sdch Disallow: /groups Disallow: /index.html?,1,0,0,1
+Mediapartners-Google* Disallow: User-agent: * Disallow: /profile.cgi Disallow: */postings.cgi Disallow: /members.cgi Disallow: /topmember.cgi Disallow ...,1,0,0,1
+AhrefsBot/3.0,18,18,0,0
+AhrefsBot/4.0,18,18,0,0
+AhrefsBot/2.0,18,18,0,0
+AhrefsBot/1.0,20,20,0,0
+AhrefsBot/5.1,107,29,0,78
+AhrefsBot/3.1,18,18,0,0
+Go!Zilla 3.3 (www.gozilla.com),39,37,0,2
+GetRight/4.5a,85,83,0,2
+Wget/1.8.1+cvs,39,37,0,2
+Zeus 82900 Webster Pro V2.9 Win32,39,37,0,2
+Website Quester â www.asona.org,2,0,0,2
+WebStripper/2.12,39,37,0,2
+QueryN.Metasearch,39,37,0,2
+Offline Explorer/2.3,39,37,0,2
+Zeus 39206 Webster Pro V2.9 Win32,39,37,0,2
+SuperBot/3.0 (Win32),39,37,0,2
+GetRight/3.1,85,83,0,2
+Zeus 51837 Webster Pro V2.9 Win32,39,37,0,2
+Microsoft URL Control â 5.01.4511,2,0,0,2
+WebStripper/2.15,39,37,0,2
+GetRight/2.11,39,37,0,2
+Microsoft URL Control â 6.00.8169,2,0,0,2
+SmartDownload/1.2.77 (Win32; Jun 19 2001),39,37,0,2
+Wget/1.7,179,177,0,2
+Wget/1.9-beta,39,37,0,2
+GetRight/4.5e,85,83,0,2
+larbin_2.6.2 vitalbox1@hotmail.com,39,37,0,2
+GetRight/5.0beta2,85,83,0,2
+Mata.Hari,39,37,0,2
+Teleport Pro/1.29.1820,39,37,0,2
+Go!Zilla (www.gozilla.com),85,83,0,2
+WebStripper/2.10,39,37,0,2
+WebCopier v3.2,39,37,0,2
+Offline.Explorer,39,37,0,2
+Website eXtractor (http://www.asona.org),2,0,0,2
+Wget/1.8.1,39,37,0,2
+GetRight/5.0beta1,85,83,0,2
+Zeus 18018 Webster Pro V2.9 Win32,39,37,0,2
+Zeus 84842 Webster Pro V2.9 Win32,39,37,0,2
+Microsoft.URL,39,37,0,2
+GetRight/3.3.3,39,37,0,2
+GetRight/3.2,39,37,0,2
+NetAnts/1.10,39,37,0,2
+Wget/1.8,39,37,0,2
+WebCopier v.2.2,380,378,0,2
+WebReaper v9.7 â www.webreaper.net,2,0,0,2
+WebStripper/2.03,39,37,0,2
+DISCo Pump 3.0,39,37,0,2
+GetRight/4.2b (Portuguxeas),85,83,0,2
+Website eXtractor,42,37,0,5
+Wget/1.5.2,85,83,0,2
+Zeus 94934 Webster Pro V2.9 Win32,39,37,0,2
+NetAnts/1.24,39,37,0,2
+Download Demon/3.5.0.11,39,37,0,2
+GetRight/4.5b2,39,37,0,2
+"WebReaper vWebReaper v7.3 â www,otway.com/webreaper",2,0,0,2
+GetRight/4.5d,85,83,0,2
+Zeus 41641 Webster Pro V2.9 Win32,39,37,0,2
+Web.Imge.Collector,2,0,0,2
+GetRight/4.5b3,85,83,0,2
+SmartDownload/1.2.76 (Win32; Apr 1 1999),39,37,0,2
+Go!Zilla 3.5 (www.gozilla.com),39,37,0,2
+GetRight/3.3.4,39,37,0,2
+SuperBot/3.1 (Win32),39,37,0,2
+Zeus 26378 Webster Pro V2.9 Win32,39,37,0,2
+GetRight/4.5b7,85,83,0,2
+Express WebPictures (www.express-soft.com),39,37,0,2
+WebCopier v2.6,39,37,0,2
+Zeus 51674 Webster Pro V2.9 Win32,39,37,0,2
+GetRight/4.5c,85,83,0,2
+FlashGet WebWasher 3.2,85,83,0,2
+Zeus 51070 Webster Pro V2.9 Win32,39,37,0,2
+WebCapture 2.0,380,378,0,2
+WebReaper v9.1 â www.otway.com/webreaper,2,0,0,2
+Kenjin.Spider,39,37,0,2
+"Indy Library [NC,OR]",39,37,0,2
+GetRight/4.1.0,85,83,0,2
+GetRight/4.5b1,39,37,0,2
+GetRight/4.3,85,83,0,2
+GetRight/4.5b6,85,83,0,2
+Website Quester â www.esalesbiz.com/extra/,2,0,0,2
+GetRight/4.2c,85,83,0,2
+GetRight/4.5b,85,83,0,2
+Zeus 6694 Webster Pro V2.9 Win32,39,37,0,2
+GetRight/3.3,85,83,0,2
+"FrontPage [NC,OR]",85,83,0,2
+Offline Explorer/2.1,39,37,0,2
+NetAnts/1.23,39,37,0,2
+GetRight/4.5,85,83,0,2
+GetRight/4.1.2,39,37,0,2
+Zeus 95245 Webster Pro V2.9 Win32,39,37,0,2
+Zeus 95351 Webster Pro V2.9 Win32,39,37,0,2
+SmartDownload/1.2.77 (Win32; Aug 17 1999),39,37,0,2
+Teleport Pro/1.29.1718,39,37,0,2
+webfetch/2.1.0,39,37,0,2
+Xaldon WebSpider 2.5.b3,39,37,0,2
+Custolist of bad web robots List of Bad Web Robots,2,0,0,2
+WebReaper v9.8 â www.webreaper.net,2,0,0,2
+The.Intraformant,39,37,0,2
+Sqworm/2.9.85-BETA (beta_release; 20011115-775; i686-pc-linux,39,37,0,2
+GetRight/4.1.1,39,37,0,2
+GetRight/4.0.0,39,37,0,2
+WebCopier v3.0,39,37,0,2
+Zeus 71129 Webster Pro V2.9 Win32,2,0,0,2
+Offline Explorer/2.5,39,37,0,2
+Openfind data gatherer,400,398,0,2
+Google-InspectionTool,45,0,0,45
+Mozilla/5.0 (compatible; Google-Site-Verification/1.0),9,0,0,9
+GoogleProducer; (+http://goo.gl/7y4SX),9,0,0,9
+GoogleProducer,12,0,0,12
+blmedmon,7,7,0,0
+laboraybot,17,0,0,17
+microsoftbot,6,0,6,0
+msnbot-news,18,0,0,18
+msnptc,18,0,0,18
+ArchitextSpider,18,0,0,18
+msnbot-products,18,0,0,18
+SQUID_configured_as_described_at_/help/faq/cache,96,0,96,0
+Slurpbot,3,0,3,0
+noxtrumbot,5,0,0,5
+googlebot-news,311,0,286,25
+125.34.42.207,99,99,0,0
+Yahoo Slurp!,22,0,0,22
+TwitterBot,22,0,0,22
+YoudauBot,22,0,0,22
+*  		# Allows all agents...,36,0,36,0
+*           # Allows all agents...,1,0,1,0
+CCBot/2.0,24,24,0,0
+fr_crawler,22,22,0,0
+CCBot/2.0 (http://commoncrawl.org/faq/),22,22,0,0
+Georg,1,0,0,1
+librabot,97,0,97,0
+ArchiveGridCrawler,96,0,96,0
+Bingbot # Bing,17,0,0,17
+coccoc # Vietnam,17,0,0,17
+Slurp # Yahoo,17,0,0,17
+Yandex # Russia,17,0,0,17
+JobBot,3,3,0,0
+semrush.com,4,4,0,0
+* Disallow: /obituaries/*/api/ Disallow: /Obituaries/AffiliateAdvertisement.axd Disallow: */obituaries.aspx?*archive=1 Disallow: /guestbooks/commemorative-guestbook.aspx Disallow: /guestbooks/*/commemorative-guestbook.aspx Disallow: /guestbook/commemorative-guestbook.aspx Disallow: /guestbook/*/commemorative-guestbook.aspx Disallow: /guestbooks/sponsor-guestbook.aspx Disallow: /guestbooks/*/sponsor-guestbook.aspx Disallow: /guestbook/sponsor-guestbook.aspx Disallow: /guestbook/*/sponsor-guestbook.aspx Disallow: /guestbooks/thank-you.aspx Disallow: /guestbooks/*/thank-you.aspx Disallow: /guestbook/thank-you.aspx Disallow: /guestbook/*/thank-you.aspx Disallow: /guestbooks/sign-guestbook-thank-you.aspx Disallow: /guestbooks/*/sign-guestbook-thank-you.aspx Disallow: /guestbook/sign-guestbook-thank-you.aspx Disallow: /guestbook/*/sign-guestbook-thank-you.aspx Disallow: /guestbooks/photo-guestbook-thank-you.aspx Disallow: /guestbooks/*/photo-guestbook-thank-you.aspx Disallow: /guestbook/photo-guestbook-thank-you.aspx Disallow: /guestbook/*/photo-guestbook-thank-you.aspx Disallow: /guestbooks/sponsor-guestbook-thank-you.aspx Disallow: /guestbooks/*/sponsor-guestbook-thank-you.aspx Disallow: /guestbook/sponsor-guestbook-thank-you.aspx Disallow: /guestbook/*/sponsor-guestbook-thank-you.aspx Disallow: /guestbooks/*/upload.aspx Disallow: /guestbook/*/upload.aspx Disallow: /guestbooks/*/thank-you/ Disallow: /guestbook/*/thank-you/ Disallow: /obituaries/mymemorialsfacebookfollowwindow.aspx Disallow: /obituaries/*/mymemorialsfacebookfollowwindow.aspx Disallow: /obituaries/affiliateartwork.axd Disallow: /obituaries/*/affiliateartwork.axd Disallow: /Obituaries/AffiliateArtwork.axd Disallow: /Obituaries/*/AffiliateArtwork.axd Disallow: /obituaries/AffiliateArtwork.axd Disallow: /OBITUARIES/AffiliateArtwork.axd Disallow: /celebration/affiliateadvertisement.axd Disallow: /images Disallow: /Images/ Disallow: /multimedia Disallow: /Multimedia Disallow: /services/admina.asp Disallow: /obitnetworkdemo/ Disallow: /recentobituarieshandler.ashx Disallow: /RecentObituariesHandler.ashx Disallow: /webservices/ Disallow: /enhancedobitjson.aspx Disallow: /EnhancedObitJSON.aspx Disallow: /clientstorageproxy.aspx Disallow: /ClientStorageProxy.aspx Disallow: /legacy.captcha Disallow: /createcapthca.asp Disallow: /CreateCAPTCHA.asp Disallow: /script/ Disallow: /adtech Disallow: /LegacyCaptcha.aspx Disallow: /mymemorials/ Disallow: /Script/CounterRedirect.asp Disallow: /EnhancedObit/ Disallow: /script/counterredirect.asp Disallow: /enhancedobit/ Disallow: /MT/ Disallow: /mt/ Disallow: /Services/ Disallow: /guestbooks/privacy-policy.aspx Disallow: /obituaries/*/obituary-questions.aspx Disallow: /guestbooks/FileUploadPage.aspx Disallow: /guestbooks/PremiumFileUploadPage.aspx Disallow: /guestbooks/*/guestbook-entry-print.aspx Disallow: /obituaries/*/obituary-email.aspx Sitemap: http://www.legacy.com/sitemap.xml Sitemap: http://www.legacy.com/news/news-sitemap.xml Sitemap: http://www.legacy.com/news/google-news-sitemap.xml Sitemap: http://www.legacy.com/guestbooks/guestbook-sitemap-root.xml Sitemap: http://www.legacy.com/obituaries/obituary-sitemap-root.xml,5,0,0,5
+Opebot-v (https://www.1plusx.com),3,0,0,3
+*\,72,0,72,0
+Web Mole,99,99,0,0
+Email Magnet,99,99,0,0
+WebWeasel,99,99,0,0
+eMailReaper,99,99,0,0
+WebCollector,99,99,0,0
+megaindex,6,6,0,0
+grapeshotcrawler,6,6,0,0
+Google-DevRel,32,0,0,32
+Helix,23,23,0,0
+Transgenikbot,23,23,0,0
+Pogodak.co.yu,23,23,0,0
+Contype,23,23,0,0
+Bsearchr&d,23,23,0,0
+Lamerexterminator,23,23,0,0
+Findlinks,23,23,0,0
+Fooooo_web_video_crawl,23,23,0,0
+Geomaxenginebot,23,23,0,0
+Elblindo the blind bot,23,23,0,0
+Sitexpert,23,23,0,0
+Space bison,23,23,0,0
+Woriobot,23,23,0,0
+Links sql,23,23,0,0
+Twisted pagegetter,23,23,0,0
+Thumbshots-de-bot,23,23,0,0
+Vipr,23,23,0,0
+Diamond,23,23,0,0
+Pathtraq,23,23,0,0
+Livelapbot,23,23,0,0
+Omiexplorer_bot,23,23,0,0
+Tscholarsbot,23,23,0,0
+Cyberpatrol sitecat webbot,23,23,0,0
+Dkimrepbot,23,23,0,0
+Smart-crawler,23,23,0,0
+Rufusbot,23,23,0,0
+Didaxusbot,23,23,0,0
+Korniki,23,23,0,0
+Iecheck,23,23,0,0
+Linksweeper,23,23,0,0
+Websearchbench,23,23,0,0
+Metal crawler,23,23,0,0
+Mercator-,23,23,0,0
+Trendiction.de,23,23,0,0
+Bot apoena,23,23,0,0
+Udmsearch,23,23,0,0
+Pixfinder,23,23,0,0
+Textbot,23,23,0,0
+Versus crawler,23,23,0,0
+Tridentspider,23,23,0,0
+Semantifire,23,23,0,0
+Butterfly,84,84,0,0
+Tsm translation-search-machine,23,23,0,0
+Anemone,23,23,0,0
+Fr_crawler,23,23,0,0
+Privacyfinder,23,23,0,0
+Usyd-nlp-spider,23,23,0,0
+Ioi,23,23,0,0
+Rampybot,23,23,0,0
+Greenyogi,23,23,0,0
+Zedzo.validate,23,23,0,0
+Redcarpet,23,23,0,0
+Shablastbot,23,23,0,0
+Evaal,23,23,0,0
+Visweb,23,23,0,0
+Wume_crawler,23,23,0,0
+Boia-scan-agent,23,23,0,0
+Cyberspyder,23,23,0,0
+Libcrawl,23,23,0,0
+Spiderku,23,23,0,0
+Sysscan,23,23,0,0
+Lmqueuebot,23,23,0,0
+X-clawler,23,23,0,0
+Neosciocrawler,23,23,0,0
+Hyperestraier,23,23,0,0
+Tswebbot,23,23,0,0
+Isilox,23,23,0,0
+Topserver php,23,23,0,0
+Sq webscanner,23,23,0,0
+Semager,42,42,0,0
+Verity-url-gateway,23,23,0,0
+Metacarta,23,23,0,0
+Lapozzbot,23,23,0,0
+Dataspider,23,23,0,0
+Nec-meshexplorer,23,23,0,0
+Lolongbot,23,23,0,0
+Quepasacreep,23,23,0,0
+Dtsearchspider,23,23,0,0
+Httplib,23,23,0,0
+Evc-batch,23,23,0,0
+Findweb,23,23,0,0
+Msindianwebcrawl,23,23,0,0
+Z-add link checker,23,23,0,0
+Chromeframe,23,23,0,0
+Shim-crawler,23,23,0,0
+Webmastercoffee,23,23,0,0
+Cowbot-,23,23,0,0
+Mowserbot,23,23,0,0
+Acoonbot,23,23,0,0
+Nrcan intranet crawler,23,23,0,0
+Searchmarks,23,23,0,0
+Parsijoo,23,23,0,0
+Statbot,23,23,0,0
+Ultraseek,392,334,0,58
+Xerka metabot,23,23,0,0
+Aitcsrobot/1.1,23,23,0,0
+Dataparksearch,23,23,0,0
+Ksbot,23,23,0,0
+Indexer,23,23,0,0
+Filangy,23,23,0,0
+Accmonitor compliance server,23,23,0,0
+Buildcms crawler,23,23,0,0
+Wysigot,23,23,0,0
+Collapsarweb,23,23,0,0
+Spinne,23,23,0,0
+X09Mozilla,23,23,0,0
+Fu-nbi,23,23,0,0
+Bumblebee,23,23,0,0
+Vbseo,23,23,0,0
+Exploder,23,23,0,0
+Avsearch-,23,23,0,0
+Letscrawl.com,23,23,0,0
+192.comagent,23,23,0,0
+Sbl-bot,23,23,0,0
+Full_breadth_crawler,23,23,0,0
+Geonabot,23,23,0,0
+Covario-ids,23,23,0,0
+Froola bot,23,23,0,0
+Simplepie,23,23,0,0
+Axfeedsbot,23,23,0,0
+Webscan,23,23,0,0
+Webtrafficexpress,23,23,0,0
+Php version tracker,23,23,0,0
+Pocohttp,23,23,0,0
+Uberbot,23,23,0,0
+Statedept-crawler,23,23,0,0
+Here will be link to crawler site,23,23,0,0
+Af knowledge now verity spider,23,23,0,0
+Summizefeedreader,23,23,0,0
+Cd-preload,23,23,0,0
+Showyoubot,23,23,0,0
+Yellowjacket,23,23,0,0
+Augurfind,23,23,0,0
+Smarte bot,23,23,0,0
+Freshcrawler,23,23,0,0
+Pub-crawler,23,23,0,0
+Yarienavoir.net,23,23,0,0
+Antibot,23,23,0,0
+Enswer neuro bot,23,23,0,0
+Plumtree,23,23,0,0
+Alpha search agent,23,23,0,0
+Becomejpbot,23,23,0,0
+Snappy,72,64,0,8
+Netsrcherp,23,23,0,0
+Trovator,23,23,0,0
+Dillo,23,23,0,0
+Eidetica.com,23,23,0,0
+Search.usgs.gov,23,23,0,0
+Amznkassocbot,23,23,0,0
+Infomine,23,23,0,0
+Tamu_crawler,23,23,0,0
+Camcrawler,23,23,0,0
+Litlrbot,23,23,0,0
+Activetouristbot,23,23,0,0
+Ccubee,23,23,0,0
+Websphinx,23,23,0,0
+Coccoc,23,23,0,0
+Jadynave,23,23,0,0
+Zoomspider,23,23,0,0
+Goforitbot,23,23,0,0
+Webbot,23,23,0,0
+Entitycubebot,23,23,0,0
+Leaptag,23,23,0,0
+Kalooga,23,23,0,0
+Wanadoo,23,23,0,0
+Xerka webbot,23,23,0,0
+Netexperts,23,23,0,0
+Hsft - lvu scanner,23,23,0,0
+Enigmabot,23,23,0,0
+Joc,23,23,0,0
+Litefinder,23,23,0,0
+Emeraldshield,23,23,0,0
+Netresearchserver,23,23,0,0
+Hiscan,23,23,0,0
+Tineye,23,23,0,0
+Sitefinder,23,23,0,0
+Htdig,23,23,0,0
+Goldfire server,23,23,0,0
+Squidclamav_redirector,23,23,0,0
+Usaf afkn k2spider,23,23,0,0
+1on1searchbot,23,23,0,0
+Aasp,23,23,0,0
+Cert figleafbot,23,23,0,0
+Weblyzard,23,23,0,0
+Topicblogs,23,23,0,0
+Mini-robot,23,23,0,0
+Freshlinks.exe,23,23,0,0
+50.nu,23,23,0,0
+Jemmathetourist,23,23,0,0
+Pipbot,23,23,0,0
+Owler-bot,23,23,0,0
+Mqbot,23,23,0,0
+Crawler.kpricorn.org,23,23,0,0
+Wbdbot,23,23,0,0
+Ipselonbot,23,23,0,0
+Theophrastus,23,23,0,0
+Semisearch,23,23,0,0
+Offline.explorer,23,23,0,0
+TAkeOut,23,23,0,0
+Aonde-spider,23,23,0,0
+Appengine-google,23,23,0,0
+Webcrawl.net,23,23,0,0
+3d_search,23,23,0,0
+Alexfdownload,23,23,0,0
+Core-project,23,23,0,0
+Moses,23,23,0,0
+Flickysearchbot,23,23,0,0
+Anotherbot,23,23,0,0
+Govbot,23,23,0,0
+Hisoftware accmonitor server,23,23,0,0
+Myra,23,23,0,0
+Advanced email extractor,23,23,0,0
+Summizebot,23,23,0,0
+Homepagesearch,23,23,0,0
+Rome client,23,23,0,0
+3g bot,23,23,0,0
+Seoengworldbot,23,23,0,0
+Vocusbot,23,23,0,0
+Supybot,23,23,0,0
+Climate ark,23,23,0,0
+Wwwster,23,23,0,0
+Socscibot,23,23,0,0
+Scan.lol,23,23,0,0
+Jbot,23,23,0,0
+Whirlpool web engine,23,23,0,0
+Nestreader,23,23,0,0
+Answerbot,23,23,0,0
+Twitturly,23,23,0,0
+Lament,23,23,0,0
+Autowebdir,23,23,0,0
+Voilabot,23,23,0,0
+Dof-verify,23,23,0,0
+Tygobot,23,23,0,0
+Moduna.com,23,23,0,0
+Web downloader,23,23,0,0
+Clushbot,23,23,0,0
+Buscadorclarin,23,23,0,0
+Dxseeker,23,23,0,0
+Topicalizer,23,23,0,0
+Bosug,23,23,0,0
+Kummhttp,23,23,0,0
+Online link validator,23,23,0,0
+Bitlybot,23,23,0,0
+Omniweb,23,23,0,0
+Web magnet,23,23,0,0
+Dattatec.com,23,23,0,0
+Cydralspider,23,23,0,0
+Hoowwwer,23,23,0,0
+Webminer,23,23,0,0
+Crawl_application,23,23,0,0
+Nasa search,23,23,0,0
+Mendeleybot,23,23,0,0
+Axonize-bot,23,23,0,0
+Bookmark buddy bookmark checker,23,23,0,0
+Vci webviewer vci webviewer win32,23,23,0,0
+Spider.terranautic.net,23,23,0,0
+Industry cortex webcrawler,23,23,0,0
+Enabot,23,23,0,0
+Updated,23,23,0,0
+Siteguardbot,23,23,0,0
+Forschungsportal,23,23,0,0
+Jetbrains omea pro,23,23,0,0
+Uss-cosmix,23,23,0,0
+Ogspider,23,23,0,0
+Lookbot,23,23,0,0
+Osis-project.jp,23,23,0,0
+Trex,23,23,0,0
+Earth science educator  robot,23,23,0,0
+Webcheck,23,23,0,0
+Blogpulselive,23,23,0,0
+Yats crawler,23,23,0,0
+Pipeliner,23,23,0,0
+3gse,23,23,0,0
+Water conserve portal,23,23,0,0
+Urlck,23,23,0,0
+Page_verifier,23,23,0,0
+Ornl_mercury,23,23,0,0
+Voyager,23,23,0,0
+Botrighthere,23,23,0,0
+Riverglassscanner,23,23,0,0
+Teradex mapper,23,23,0,0
+Linkcheck scanner,23,23,0,0
+Frodo.at,23,23,0,0
+Verbstarbot,23,23,0,0
+Qeavis agent,23,23,0,0
+Xget,23,23,0,0
+Runnk online rss reader,23,23,0,0
+Optidiscover,23,23,0,0
+Aidu,23,23,0,0
+Goodjelly,23,23,0,0
+Twitturls,23,23,0,0
+Webcorp,23,23,0,0
+Dibot,23,23,0,0
+Sherlock,43,43,0,0
+Space fung,23,23,0,0
+Wish-project,23,23,0,0
+Tocrawl,23,23,0,0
+Favorites sweeper,23,23,0,0
+Bladder fusion,23,23,0,0
+Dwaar,23,23,0,0
+Ipadd bot,23,23,0,0
+S2bot,23,23,0,0
+Zotag search,23,23,0,0
+Search.kumkie.com,23,23,0,0
+D1garabicengine,23,23,0,0
+PcBrowser,23,23,0,0
+Koninklijke,23,23,0,0
+Backlink-check,23,23,0,0
+Noteworthybot,23,23,0,0
+Zagrebin,23,23,0,0
+Lbot,23,23,0,0
+3de_search2,23,23,0,0
+Abotemailsearch,23,23,0,0
+Y!j,23,23,0,0
+ECatch,23,23,0,0
+Seeqpod-vertical-crawler,23,23,0,0
+Skywalker,23,23,0,0
+Seeqbot,23,23,0,0
+Eyenetie,23,23,0,0
+Webwatch,23,23,0,0
+Careerbot,23,23,0,0
+C r a w l 3 r,23,23,0,0
+Colocrossing,23,23,0,0
+Www-collector-e,23,23,0,0
+Urlspiderpro,23,23,0,0
+Deeptrawl,23,23,0,0
+Qunarbot,23,23,0,0
+Insightsworksbot,23,23,0,0
+Scspider,23,23,0,0
+Whowhere robot,23,23,0,0
+Link validator,23,23,0,0
+Gslfbot,23,23,0,0
+Unchaos,23,23,0,0
+Webemailextrac,23,23,0,0
+Page scorer,23,23,0,0
+Runnk rss aggregator,23,23,0,0
+Rebi-shoveler,23,23,0,0
+Iron33,23,23,0,0
+Iltrovatore,23,23,0,0
+Newsgroupreporter,23,23,0,0
+Mfcrawler,23,23,0,0
+Webgather,23,23,0,0
+Aggregator:vocus,23,23,0,0
+Sphider,35,23,0,12
+F-bot test pilot,23,23,0,0
+Tighttwatbot,23,23,0,0
+LWP,69,69,0,0
+Cowdog bot,23,23,0,0
+Sproose,23,23,0,0
+Cyberdog,23,23,0,0
+Seoscanners,23,23,0,0
+Searchpreview,23,23,0,0
+Blogslive,23,23,0,0
+Fastbot.de crawler,23,23,0,0
+Dumbot,23,23,0,0
+Intelix,23,23,0,0
+Deltascan,23,23,0,0
+Teezirbot,23,23,0,0
+Ips-agent,23,23,0,0
+Digi-rssbot,23,23,0,0
+Lwp-trivial,23,23,0,0
+Rational sitecheck,23,23,0,0
+Thumbbot,23,23,0,0
+Webaltbot,23,23,0,0
+Mnogosearch,23,23,0,0
+Aboutusbot,23,23,0,0
+Gurujibot,23,23,0,0
+Medrabbit,23,23,0,0
+Lm harvester,23,23,0,0
+Hd nutch agent,23,23,0,0
+Tecomi bot,23,23,0,0
+Interseek,23,23,0,0
+Braintime_search,23,23,0,0
+Spiderman,23,23,0,0
+Emailcollector,23,23,0,0
+Najdi.si,23,23,0,0
+Coast scan engine,23,23,0,0
+Scich,23,23,0,0
+Gulliver,23,23,0,0
+Katatudo-spider,23,23,0,0
+Testing of bot,23,23,0,0
+B2w,23,23,0,0
+Vermut,23,23,0,0
+Virus-detector,23,23,0,0
+Citeseerxbot,23,23,0,0
+Emailleach,23,23,0,0
+Elisabot,23,23,0,0
+Goroam,23,23,0,0
+Cis455crawler,23,23,0,0
+Sootle,23,23,0,0
+Pagerank monitor,23,23,0,0
+Scooperbot,23,23,0,0
+Unwindfetchor,23,23,0,0
+Virus_detector,23,23,0,0
+Cybernavi_webget,23,23,0,0
+Ahrefs,23,23,0,0
+Searchit-bot,23,23,0,0
+Ucb-nutch,23,23,0,0
+Blogscope,23,23,0,0
+Hslide,23,23,0,0
+Imagebot,23,23,0,0
+Masagool,23,23,0,0
+Libiviacore,23,23,0,0
+Sslbot,23,23,0,0
+Digout4u,23,23,0,0
+Maxomobot,23,23,0,0
+Inspirebot,23,23,0,0
+Bspider,23,23,0,0
+Sondeur,23,23,0,0
+Qweerybot,23,23,0,0
+Swish-e,23,23,0,0
+Ccgcrawl,23,23,0,0
+Emailwolf,23,23,0,0
+Moget,35,35,0,0
+Instabid,23,23,0,0
+Lynnbot,23,23,0,0
+Url-checker,23,23,0,0
+Netid.com bot,23,23,0,0
+Echoosebot,23,23,0,0
+Fetch_ici,23,23,0,0
+Perform_crawl,23,23,0,0
+Robopal,23,23,0,0
+Web-sniffer,25,25,0,0
+Wazzup,23,23,0,0
+Oegp,23,23,0,0
+Validator,23,23,0,0
+Wauuu,23,23,0,0
+Dir_snatch.exe,23,23,0,0
+Nicebot,23,23,0,0
+Terrawizbot,23,23,0,0
+Koepabot,23,23,0,0
+Domainscan,23,23,0,0
+Pcore-http,23,23,0,0
+Squid-prefetch,23,23,0,0
+Download,23,23,0,0
+Unidentified,23,23,0,0
+Societyrobot,23,23,0,0
+Webxm,23,23,0,0
+Thatrobotsite.com,23,23,0,0
+Www collector,23,23,0,0
+Ec2linkfinder,23,23,0,0
+Wenbin,23,23,0,0
+Mainseek_bot,23,23,0,0
+Msnptc,23,23,0,0
+The.intraformant,23,23,0,0
+Hcat,23,23,0,0
+Webdownloader for x,23,23,0,0
+Spatineo monitor controller,23,23,0,0
+Travellazerbot,23,23,0,0
+Bilbo,23,23,0,0
+Eah,23,23,0,0
+Indylabs_marius,23,23,0,0
+Kiwistatus,23,23,0,0
+Ybot,23,23,0,0
+Searchbot,23,23,0,0
+Browsermob,23,23,0,0
+Webdup,23,23,0,0
+Btsearch,23,23,0,0
+Coolbot,23,23,0,0
+Outfoxmelonbot,23,23,0,0
+Linkchecker,23,23,0,0
+Sapphireweb,23,23,0,0
+Coccocbot-web,23,23,0,0
+Imageshereimagesthereimageseverywhere,23,23,0,0
+Webtrends link analyzer,23,23,0,0
+Urlappendbot,23,23,0,0
+Akamai-sitesnapshot,23,23,0,0
+Mfhttpscan,23,23,0,0
+Wmcai-robot,23,23,0,0
+Icopyright conductor,23,23,0,0
+Hostcrawler,23,23,0,0
+Empas_robot,23,23,0,0
+Webgobbler,23,23,0,0
+Browseremulator,23,23,0,0
+Web image collector,23,23,0,0
+Boitho,23,23,0,0
+Knowledge.com,23,23,0,0
+Icab,23,23,0,0
+Asaha search engine turkey,23,23,0,0
+Talkro web-shot,23,23,0,0
+Kulturarw3,23,23,0,0
+Ieautodiscovery,23,23,0,0
+Snookit,23,23,0,0
+Werelatebot,23,23,0,0
+Hawler,23,23,0,0
+Cataguru,23,23,0,0
+Adamm bot,23,23,0,0
+Tpsystem,23,23,0,0
+Appid: s~stremor-crawler-,23,23,0,0
+Html link validator,23,23,0,0
+Buibui,23,23,0,0
+Byspider,23,23,0,0
+Drone,23,23,0,0
+Searqubot,23,23,0,0
+Urlblaze,23,23,0,0
+Wacbot,23,23,0,0
+Pagebull,23,23,0,0
+Web crawler,23,23,0,0
+Imds_monitor,23,23,0,0
+Lt scotland checklink,23,23,0,0
+R6_commentreader,23,23,0,0
+Nusearch spider,23,23,0,0
+Libw,23,23,0,0
+Webcrawler,23,23,0,0
+Aria equalizer,23,23,0,0
+Mister.pix,23,23,0,0
+Loadtimebot,23,23,0,0
+Genevabot,23,23,0,0
+Webripper,23,23,0,0
+Nextthing.org,23,23,0,0
+Healia,23,23,0,0
+Image stripper,23,23,0,0
+Pattern,23,23,0,0
+X22Mozilla,23,23,0,0
+Datascape robot,23,23,0,0
+Autobaron crawler,23,23,0,0
+Natchcvs,23,23,0,0
+Webcopy,23,23,0,0
+Insightscollector,23,23,0,0
+Image-fetcher,23,23,0,0
+Newstrovebot,23,23,0,0
+Traazi,23,23,0,0
+Gigablastopensource,23,23,0,0
+Travel-search,23,23,0,0
+Search.updated.com,23,23,0,0
+Isearch,23,23,0,0
+Targetblaster.com,23,23,0,0
+Sokitomi crawl,23,23,0,0
+Crawly,23,23,0,0
+Gvc business crawler,23,23,0,0
+Yasaklibot,60,60,0,0
+Keyword.density,23,23,0,0
+Ozelot,23,23,0,0
+Lssbot,23,23,0,0
+Worldshop,23,23,0,0
+Water conserve spider,23,23,0,0
+Verifactrola,23,23,0,0
+Research robot,23,23,0,0
+Metaeuro web search,23,23,0,0
+Doy,23,23,0,0
+Its-learning crawler,23,23,0,0
+Kitenga-crawler-bot,23,23,0,0
+Opensearchserver_bot,23,23,0,0
+Labhoo,23,23,0,0
+Mse360,23,23,0,0
+Gvcbot.com,23,23,0,0
+Searchblox,23,23,0,0
+Sexsearcher,23,23,0,0
+Yooglifetchagent,23,23,0,0
+Mycompanybot,23,23,0,0
+Byteserver,23,23,0,0
+Exooba,23,23,0,0
+Poirot,23,23,0,0
+Siclab,23,23,0,0
+Zyte,23,23,0,0
+Net::trackback,23,23,0,0
+Ce-preload,23,23,0,0
+Edisterbot,23,23,0,0
+W3c_unicorn,23,23,0,0
+Web.image.collector,23,23,0,0
+Wikiabot,23,23,0,0
+Sohu-search,23,23,0,0
+Vspider,23,23,0,0
+Big data,23,23,0,0
+Cse html validator,23,23,0,0
+Bzbot,23,23,0,0
+Wikiwix-bot-,23,23,0,0
+Msmobot,23,23,0,0
+Tarantula,23,23,0,0
+Patwebbot,23,23,0,0
+Xqrobot,23,23,0,0
+Pulsebot,23,23,0,0
+Creativecommons,23,23,0,0
+Linkalarm,23,23,0,0
+Snooper,23,23,0,0
+Sapienti,23,23,0,0
+Bilgibot,23,23,0,0
+Favcollector,23,23,0,0
+Searchnowbot,23,23,0,0
+Linklint,23,23,0,0
+Omnifind,23,23,0,0
+Stackrambler,23,23,0,0
+Omniexplorer,23,23,0,0
+Digext,23,23,0,0
+Focused_crawler,23,23,0,0
+Gnome-vfs,23,23,0,0
+Megite,23,23,0,0
+Searchspider.com,23,23,0,0
+Webdatacentrebot,23,23,0,0
+Climateark spider,23,23,0,0
+Safaribookmarkchecker,23,23,0,0
+Zongbot,23,23,0,0
+Superpagesbot,23,23,0,0
+Freshdownload,23,23,0,0
+Nwspider,23,23,0,0
+Inktomi,23,23,0,0
+Magpie-crawler,23,23,0,0
+Wepa,23,23,0,0
+Eurosoft-bot,23,23,0,0
+Joedog,23,23,0,0
+Culsearch,23,23,0,0
+Informant,60,60,0,0
+Dow jones searchbot,23,23,0,0
+Metagloss,23,23,0,0
+Treezy,23,23,0,0
+To-dress_ru_bot_,23,23,0,0
+Soft411 directory,23,23,0,0
+Pagepeeker,23,23,0,0
+Endeca,23,23,0,0
+Webinator-search2,23,23,0,0
+Weblinker,23,23,0,0
+Hyperix,23,23,0,0
+Lachesis,23,23,0,0
+Edugovsearch,23,23,0,0
+Vlsearch,23,23,0,0
+Blackmask.net search engine,23,23,0,0
+Vadixbot,23,23,0,0
+Arabot,23,23,0,0
+Webot,23,23,0,0
+L.webis,23,23,0,0
+Ssm agent,23,23,0,0
+Masidani_bot_,23,23,0,0
+Url control,23,23,0,0
+Cfetch,23,23,0,0
+Qweery_robot.txt_checkbot,23,23,0,0
+Crawler_for_infomine,23,23,0,0
+Solbot,23,23,0,0
+Ibuena,23,23,0,0
+Synapticwalker,23,23,0,0
+Coolcheck,23,23,0,0
+Rondello,23,23,0,0
+Inelabot,23,23,0,0
+Pd-crawler,23,23,0,0
+Icds-ingestion,23,23,0,0
+Sitesweeper,23,23,0,0
+Bintellibot,23,23,0,0
+Searchmining,23,23,0,0
+A1 website download,23,23,0,0
+Topyx-crawler,23,23,0,0
+Geturl.rexx,23,23,0,0
+Gordon-college-google-mini,23,23,0,0
+A1 sitemap generator,23,23,0,0
+Followsite,23,23,0,0
+Wmsbot,23,23,0,0
+Bizbot,23,23,0,0
+Myfamilybot,23,23,0,0
+Acquia-crawler,23,23,0,0
+Header_test_client,23,23,0,0
+Kenjin.spider,23,23,0,0
+Golem,23,23,0,0
+Tutorgigbot,23,23,0,0
+Roger,23,23,0,0
+My_little_searchengine_project,23,23,0,0
+Zipppbot,23,23,0,0
+Postpost,23,23,0,0
+Atlocalbot,23,23,0,0
+Faviconizer,23,23,0,0
+Infousabot,23,23,0,0
+Wire,23,23,0,0
+Spatineo serval controller,23,23,0,0
+Valkyrie,23,23,0,0
+Searchmee,23,23,0,0
+Linguee bot,23,23,0,0
+Objectssearch,23,23,0,0
+Internetlinkagent,23,23,0,0
+Vital search'n urchin,23,23,0,0
+Ad muncher,23,23,0,0
+Sumitbot,23,23,0,0
+Maxamine.com,23,23,0,0
+Autoemailspider,23,23,0,0
+Webbul-bot,23,23,0,0
+Ampmppc.com,23,23,0,0
+Antisantyworm,23,23,0,0
+Searchhippo.com,23,23,0,0
+Lytranslate,23,23,0,0
+Diagem,23,23,0,0
+Email extractor,23,23,0,0
+Nabot,23,23,0,0
+Uoftdb_experiment,23,23,0,0
+Poodle predictor,23,23,0,0
+Artavisbot,23,23,0,0
+Robotek,23,23,0,0
+Nys-crawler,23,23,0,0
+Artera,23,23,0,0
+K.s.bot,23,23,0,0
+Winhttp,23,23,0,0
+Bloobybot,23,23,0,0
+Amfibibot,23,23,0,0
+Saladspoon,23,23,0,0
+Scrawltest,23,23,0,0
+Paperlibot,23,23,0,0
+Auresys,23,23,0,0
+Blog conversation project,23,23,0,0
+Linksmanager.com_bot,23,23,0,0
+Junut bot,23,23,0,0
+Lexxebot,23,23,0,0
+Aesop_com_spiderman,23,23,0,0
+Netcarta cyberpilot pro,23,23,0,0
+Web-agent,23,23,0,0
+Bilgibetabot,23,23,0,0
+Radiation retriever,23,23,0,0
+Spacebison,23,23,0,0
+Worqmada,23,23,0,0
+Domainwatcher bot,23,23,0,0
+Cvaulev,23,23,0,0
+Demandbase-bot,23,23,0,0
+Infoseek sidewinder,23,23,0,0
+Projectwf-java-test-crawler,23,23,0,0
+Wwwrobot,23,23,0,0
+Opidig,23,23,0,0
+Waypath,23,23,0,0
+R6_votereader,23,23,0,0
+Goseebot,23,23,0,0
+Becomebot,113,113,0,0
+T-h-u-n-d-e-r-s-t-o-n-e,23,23,0,0
+Iu_csci_b659_class_crawler,23,23,0,0
+Matentzn at cs dot man dot ac dot uk,23,23,0,0
+Map robot,23,23,0,0
+Bitvouseragent,23,23,0,0
+Vlad,23,23,0,0
+Robosourcer,23,23,0,0
+Metaquerier,23,23,0,0
+Achulkov.net page walker,23,23,0,0
+Sygolbot,23,23,0,0
+Catchbot,23,23,0,0
+Shareaza,23,23,0,0
+Iiitbot,23,23,0,0
+Hooblybot-image,23,23,0,0
+Pbbot,23,23,0,0
+Nlese,23,23,0,0
+Proxem websearch,23,23,0,0
+Sitecheck,23,23,0,0
+Gethtmlcontents,23,23,0,0
+Hoge,23,23,0,0
+Info seeker,23,23,0,0
+Versus.integis.ch,23,23,0,0
+Wwwxref,23,23,0,0
+Knowledge engine,23,23,0,0
+Safednsbot,23,23,0,0
+Tweetedtimes bot,23,23,0,0
+Crawler@,23,23,0,0
+Ichiro,23,23,0,0
+Connectsearch,23,23,0,0
+Der groÂ§e bildersauger,23,23,0,0
+Web site downloader,23,23,0,0
+Kbeta1,23,23,0,0
+Inetbot,23,23,0,0
+Dotspotsbot,23,23,0,0
+Ht://check,23,23,0,0
+1noonbot,23,23,0,0
+Cerberian drtrs,23,23,0,0
+Getleft,23,23,0,0
+Funnelback,23,23,0,0
+Touche,23,23,0,0
+A6-indexer,23,23,0,0
+The dyslexalizer,23,23,0,0
+Weblexbot,23,23,0,0
+Bigcliquebot,23,23,0,0
+Plumanalytics,23,23,0,0
+Boi_crawl_00,23,23,0,0
+Firstgov.gov search,23,23,0,0
+Ufam-crawler-,23,23,0,0
+Zuibot,23,23,0,0
+Aport,23,23,0,0
+Onetszukaj,23,23,0,0
+Wisebot,23,23,0,0
+Internet radio crawler,23,23,0,0
+Suchclip,23,23,0,0
+Keybot translation-search-machine,23,23,0,0
+Findanisp.com_isp_finder,23,23,0,0
+Checklinks,23,23,0,0
+Bigado.com,23,23,0,0
+Ask,128,23,11,94
+Ajsitemap,23,23,0,0
+Scumbot,23,23,0,0
+Fetch api request,23,23,0,0
+Proxy crawler,23,23,0,0
+Clariabot,23,23,0,0
+Testbot,23,23,0,0
+Pogodak.ba,23,23,0,0
+Hatena antenna,23,23,0,0
+News bot,23,23,0,0
+Exactsearch,23,23,0,0
+Fdse robot,23,23,0,0
+Quest.durato,23,23,0,0
+Search-engine-studio,23,23,0,0
+Yolinkbot,23,23,0,0
+Lsearch,23,23,0,0
+Imagefortress,23,23,0,0
+W3search,23,23,0,0
+Happyfunbot,23,23,0,0
+Quintura-crw,23,23,0,0
+Emailsiphon,23,23,0,0
+Camelstampede,23,23,0,0
+Metaspider,23,23,0,0
+To-night-bot,23,23,0,0
+Knowitall,23,23,0,0
+Ecairn-grabber,23,23,0,0
+Urldispatcher,23,23,0,0
+Ah-ha.com crawler,23,23,0,0
+Web link validator,23,23,0,0
+Myapp,23,23,0,0
+Yanga worldsearch bot,23,23,0,0
+Attrakt,23,23,0,0
+Baypup,23,23,0,0
+Localcombot,23,23,0,0
+Clshttp,23,23,0,0
+Byindia,23,23,0,0
+Bottybot,23,23,0,0
+Webcapture,23,23,0,0
+Hmsebot,23,23,0,0
+Safetynet robot,23,23,0,0
+Buscaplus robi,23,23,0,0
+Hivabot,23,23,0,0
+Tweetmemebot,23,23,0,0
+Website,23,23,0,0
+Biglotron,23,23,0,0
+Qualidade,23,23,0,0
+Blinkx,23,23,0,0
+Backrub,23,23,0,0
+Linkman,23,23,0,0
+Kakclebot,23,23,0,0
+Scollspider,23,23,0,0
+Boia.org,23,23,0,0
+Checkbot,25,25,0,0
+Rtgibot,23,23,0,0
+Keepni web site monitor,23,23,0,0
+Freewebmonitoring sitechecker,23,23,0,0
+Antbot,23,23,0,0
+Rpt-httpclient,23,23,0,0
+Pss-bot,23,23,0,0
+Systemsearch-robot,23,23,0,0
+Dmoz downloader,23,23,0,0
+Acme.spider,23,23,0,0
+Qfkbot,23,23,0,0
+Tailrank,62,62,0,0
+Little grabber at skanktale.com,23,23,0,0
+Searcharoo.net,23,23,0,0
+Orisbot,23,23,0,0
+My-heritrix-crawler,23,23,0,0
+Eventware,23,23,0,0
+Locust,23,23,0,0
+Cookienet,23,23,0,0
+NetEstate NE Crawler,23,23,0,0
+Fopper,23,23,0,0
+Unitek uniengine,23,23,0,0
+Xmarksfetch,23,23,0,0
+Tausdatabot,23,23,0,0
+Gazz,23,23,0,0
+Canon-webrecord,23,23,0,0
+Gvc search bot,23,23,0,0
+Furlbot,23,23,0,0
+Wikio,23,23,0,0
+Distilled-reputation-monitor,23,23,0,0
+Yourls,23,23,0,0
+Theusefulbot,23,23,0,0
+Crabbybot,23,23,0,0
+Siteorbiter,23,23,0,0
+Ip-web-crawler.com,23,23,0,0
+Esyndicat bot,23,23,0,0
+Zimeno,23,23,0,0
+Gvc weblink crawler,23,23,0,0
+Scrapebox,23,23,0,0
+Spyder3.microsys.com,23,23,0,0
+Personal ultimate crawler,23,23,0,0
+Crawler.feedback,23,23,0,0
+Contentsmartz,23,23,0,0
+Anonymous,23,23,0,0
+S~stremor-crawler,23,23,0,0
+Inet32 ctrl,23,23,0,0
+Picosearch,23,23,0,0
+Thumbnail.cz robot,23,23,0,0
+Datafountains,23,23,0,0
+Sportcrew-bot,23,23,0,0
+Queryn.metasearch,23,23,0,0
+Parasite,23,23,0,0
+Statcrawler,23,23,0,0
+Vortex,23,23,0,0
+Amerla search bot,23,23,0,0
+Lydia entity spider,23,23,0,0
+Conpilot,23,23,0,0
+Webwalk,23,23,0,0
+Scfcrawler,23,23,0,0
+Nambu,23,23,0,0
+Arikus_spider,23,23,0,0
+OBot,23,23,0,0
+Usasearch,23,23,0,0
+Toplistbot,23,23,0,0
+Aspider,23,23,0,0
+Filehound,23,23,0,0
+Getsmart,23,23,0,0
+Rcstartbot,23,23,0,0
+Twinuffbot,23,23,0,0
+Brokenlinkcheck.com,23,23,0,0
+Pagebiteshyperbot,23,23,0,0
+Stardownloader,23,23,0,0
+Tapuzbot,23,23,0,0
+Cshttpclient,23,23,0,0
+Aespider,23,23,0,0
+Planetwork bot search,23,23,0,0
+Search publisher,23,23,0,0
+Taxinomiabot,23,23,0,0
+Nogate,23,23,0,0
+Universalsearch,23,23,0,0
+Openisearch,23,23,0,0
+Memacbot,23,23,0,0
+Iim_405,23,23,0,0
+Oracle secure enterprise search,23,23,0,0
+Netprospector,23,23,0,0
+Aisiid,23,23,0,0
+Estylesearch,23,23,0,0
+Froggle,23,23,0,0
+Multitext,23,23,0,0
+Xirq,23,23,0,0
+Vmbot,23,23,0,0
+Dataspearspiderbot,23,23,0,0
+Superlumin downloader,23,23,0,0
+Mata.hari,23,23,0,0
+Pansophica,23,23,0,0
+Openlink virtuoso rdf crawler,23,23,0,0
+Abachobot,23,23,0,0
+Adbeat_bot,23,23,0,0
+Wep search,23,23,0,0
+Chemiede-nodebot,23,23,0,0
+Kurzor,23,23,0,0
+Jspyda,23,23,0,0
+Surf,23,23,0,0
+Delvubot,23,23,0,0
+Pamsnbot.htm,23,23,0,0
+R2ibot,23,23,0,0
+Linkcheck by siteimprove.com,23,23,0,0
+Semanticdiscovery,23,23,0,0
+Teragram_crawler,23,23,0,0
+Web ceo online robot,23,23,0,0
+Shopsalad,23,23,0,0
+Huaweisymantecspider,60,60,0,0
+Silk,23,23,0,0
+Webmoose,23,23,0,0
+Xaldon,23,23,0,0
+Penthesila,23,23,0,0
+Bnf.fr_bot,23,23,0,0
+Blogrefsbot,23,23,0,0
+Pita,23,23,0,0
+Gvc crawler,23,23,0,0
+Fairad client,23,23,0,0
+Linkdex.com,23,23,0,0
+Webvac,23,23,0,0
+Aqua_products,23,23,0,0
+Arachmo,43,43,0,0
+Coast webmaster pro,23,23,0,0
+Kmccrew bot search,23,23,0,0
+E-societyrobot,23,23,0,0
+Scientificcommons.org,23,23,0,0
+Wish-la,23,23,0,0
+Weddings.info,23,23,0,0
+Cuasarbot,23,23,0,0
+Fembot,23,23,0,0
+Jobo,23,23,0,0
+Skimbot,23,23,0,0
+Syntryx ant scout chassis pheromone,23,23,0,0
+Url_gather,23,23,0,0
+Yacybot,23,23,0,0
+Supremesearch.net,23,23,0,0
+Tourlentascanner,23,23,0,0
+Urlchecker,23,23,0,0
+Digger,23,23,0,0
+Chilkat,23,23,0,0
+Buzzbot,23,23,0,0
+Watzbot,23,23,0,0
+Skimwordsbot,23,23,0,0
+Dtaagent,23,23,0,0
+Factbot,23,23,0,0
+Mammoth,23,23,0,0
+Spatineo serval getmapbot,23,23,0,0
+Holmes,23,23,0,0
+Francis,23,23,0,0
+Spiderengine,23,23,0,0
+Polybot,23,23,0,0
+Keywenbot,23,23,0,0
+Weblayers,23,23,0,0
+Crawler43.ejupiter.com,23,23,0,0
+Boaconstrictor,23,23,0,0
+Mt-soft,23,23,0,0
+Perman,23,23,0,0
+Tulipchain,23,23,0,0
+Ivia,23,23,0,0
+Queryn metasearch,23,23,0,0
+Der groÃe bildersauger,23,23,0,0
+Big brother,23,23,0,0
+Monkeycrawl,23,23,0,0
+Besserscheitern-crawl,23,23,0,0
+Swebot,23,23,0,0
+Ingrid,23,23,0,0
+Fast esp,23,23,0,0
+Blt,23,23,0,0
+Pwebot,23,23,0,0
+Answerchase prove,23,23,0,0
+Beetlebot,23,23,0,0
+IDG/UK,23,23,0,0
+Oozbot,23,23,0,0
+Grbot,23,23,0,0
+Mod_accessibility,23,23,0,0
+Pagefetcher,23,23,0,0
+Selflinkchecker,23,23,0,0
+Smartwit.com,23,23,0,0
+Showlinks,23,23,0,0
+Athenusbot,23,23,0,0
+Fast data search document retriever,23,23,0,0
+Www-mechanize,23,23,0,0
+Link checker,23,23,0,0
+Miva,23,23,0,0
+Bpbot,23,23,0,0
+Piyushbot,23,23,0,0
+Kinjabot,23,23,0,0
+Fast-search-engine,23,23,0,0
+Jim,23,23,0,0
+Risenetbot,23,23,0,0
+Sunrise xp,23,23,0,0
+Mirror,23,23,0,0
+Slow-crawler,23,23,0,0
+Gpu p2p crawler,23,23,0,0
+G10-bot,23,23,0,0
+Snap.com beta crawler,23,23,0,0
+Alexawebsearchplatform,23,23,0,0
+Goforit.com,23,23,0,0
+Ornl_crawler,23,23,0,0
+Chameleon,23,23,0,0
+Arianna.libero.it,23,23,0,0
+Gold crawler,23,23,0,0
+Xpymep1.exe,23,23,0,0
+Obvius external linkcheck,23,23,0,0
+Qualidator.com bot,23,23,0,0
+Visbot,23,23,0,0
+Cognitiveseo,23,23,0,0
+Wavefire,23,23,0,0
+Isara,23,23,0,0
+Shopwiki,23,23,0,0
+Hsft - link scanner,23,23,0,0
+Nerdbynature.bot,23,23,0,0
+Sleipnir,23,23,0,0
+Geometabot,23,23,0,0
+News_search_app,23,23,0,0
+Oso,23,23,0,0
+Zsebot,23,23,0,0
+W3c-webcon,23,23,0,0
+Webmeup-crawler,23,23,0,0
+Alkalinebot,23,23,0,0
+Geovisu,23,23,0,0
+Popscreenbot,23,23,0,0
+Answerbus,23,23,0,0
+Generate_infomine_category_classifiers,23,23,0,0
+Pieno robot,23,23,0,0
+Webinator-wbi,23,23,0,0
+Plucker,23,23,0,0
+Webspear,23,23,0,0
+Earth platform indexer,23,23,0,0
+Labourunions411,23,23,0,0
+Bruinbot,23,23,0,0
+Cipinetbot,23,23,0,0
+Zing-bottabo,23,23,0,0
+Dejan,23,23,0,0
+Missigua locator,23,23,0,0
+Giant,23,23,0,0
+Hclsreport-crawler,23,23,0,0
+Hisoftware accverify,23,23,0,0
+Ninetowns,23,23,0,0
+Odp entries t_st,23,23,0,0
+Owsbot,23,23,0,0
+Snappreviewbot,23,23,0,0
+Nu_tch,23,23,0,0
+Gulperbot,23,23,0,0
+Imo-google-robot-intelink,23,23,0,0
+Kuloko-bot,23,23,0,0
+Cs-crawler,23,23,0,0
+Buyhawaiibot,23,23,0,0
+Bizworks retriever,23,23,0,0
+Viasarchivinginformation.html,23,23,0,0
+Dfs-fetch,23,23,0,0
+Phpdig,23,23,0,0
+Vacobot,23,23,0,0
+Com.plumanalytics,23,23,0,0
+Wwwwanderer,23,23,0,0
+Fedcontractorbot,23,23,0,0
+Del.icio.us-thumbnails,23,23,0,0
+Jobspider_ba,23,23,0,0
+Nymesis,23,23,0,0
+Ayna,23,23,0,0
+Formulafinderbot,23,23,0,0
+Tygoprowler,23,23,0,0
+Paxleframework,23,23,0,0
+Djangotraineebot,23,23,0,0
+Yottacars_bot,23,23,0,0
+Firebat,23,23,0,0
+Scoutjet,23,23,0,0
+InternetVista monitor,23,23,0,0
+Backstreet browser,23,23,0,0
+Egothor,23,23,0,0
+Myengines-us-bot,23,23,0,0
+Special_archiver,23,23,0,0
+Webimages,23,23,0,0
+Deepnet crawler,23,23,0,0
+Redbot,23,23,0,0
+Travelbot,23,23,0,0
+Twikle,23,23,0,0
+Astrofind,23,23,0,0
+Contextad bot,23,23,0,0
+Enter user-agent,23,23,0,0
+Gleamebot,23,23,0,0
+Blogmyway,23,23,0,0
+Msrbot,23,23,0,0
+Grub,23,23,0,0
+Nuggetize.com bot,23,23,0,0
+Check&get,23,23,0,0
+Lycos_spider,23,23,0,0
+Art-online.com,110,110,0,0
+U.s. government printing office,23,23,0,0
+Search-channel,23,23,0,0
+Infolink,23,23,0,0
+Fgcrawler,23,23,0,0
+Botswana,23,23,0,0
+Srevbot,23,23,0,0
+Fastbot crawler,23,23,0,0
+Search x-bot,23,23,0,0
+Psycheclone,23,23,0,0
+X-crawler,23,23,0,0
+Gvc web crawler,23,23,0,0
+Imagevisu,23,23,0,0
+Stegmann-bot,23,23,0,0
+Wisponbot,23,23,0,0
+Linklooker,23,23,0,0
+Inagist.com url crawler,23,23,0,0
+Nsdl_search_bot,23,23,0,0
+Rotondo,23,23,0,0
+Fluffy the spider,23,23,0,0
+Declumbot,23,23,0,0
+Targetyournews.com bot,23,23,0,0
+Webmasterworld extractor,23,23,0,0
+Pompos,23,23,0,0
+Newsgatherer,23,23,0,0
+Seeker.lookseek.com,23,23,0,0
+Kmbot-,23,23,0,0
+Norbert the spider,23,23,0,0
+Digitalarchivesbot,23,23,0,0
+Pucl,23,23,0,0
+Rankur,23,23,0,0
+Gvc world links,23,23,0,0
+Blackbird,23,23,0,0
+Insumascout,23,23,0,0
+Mercuryboard_user_agent_sql_injection.nasl,23,23,0,0
+Minirank,23,23,0,0
+All acronyms bot,23,23,0,0
+Deepindex,23,23,0,0
+Flaming attackbot,23,23,0,0
+Ihwebchecker,23,23,0,0
+Sohu agent,23,23,0,0
+Natweb-bad-link-mailer,23,23,0,0
+Kyluka crawl,23,23,0,0
+Yoono,23,23,0,0
+Vishal for clia,23,23,0,0
+P3p client,23,23,0,0
+Combine,23,23,0,0
+Shadowwebanalyzer,23,23,0,0
+Yacy.net,23,23,0,0
+Teamsoft wininet component,23,23,0,0
+Knight,23,23,0,0
+Blaiz-bee,23,23,0,0
+Mcbot,23,23,0,0
+Gbplugin,23,23,0,0
+Crawler4j,23,23,0,0
+Mediawords,23,23,0,0
+Black.hole,23,23,0,0
+Rabot,23,23,0,0
+Shelob,23,23,0,0
+Cafi,23,23,0,0
+Link_checker,23,23,0,0
+Newmedhunt,23,23,0,0
+Btbot,23,23,0,0
+Mycrawler,23,23,0,0
+Atomic_email_hunter,23,23,0,0
+Cacheblaster,23,23,0,0
+Memo,23,23,0,0
+Blitzbot,23,23,0,0
+Stero,23,23,0,0
+Accoon,23,23,0,0
+Everest-vulcan inc.,23,23,0,0
+Searchmarking,23,23,0,0
+Pagedown,23,23,0,0
+Linkbot,32,32,0,0
+Joyscapebot,23,23,0,0
+Cfnetwork,23,23,0,0
+Tigerbot,23,23,0,0
+Netshift,23,23,0,0
+Nerima-crawl-,23,23,0,0
+Muhstik-scan,23,23,0,0
+Hul-wax,23,23,0,0
+Adminshop.com,23,23,0,0
+Yebolbot,23,23,0,0
+Sitebot,23,23,0,0
+Webwasher,23,23,0,0
+Seekbot,23,23,0,0
+Nimbus-1,23,23,0,0
+Webindex,23,23,0,0
+Njuicebot,23,23,0,0
+Openintelligencedata,23,23,0,0
+R6_feedfetcher,23,23,0,0
+Zibber-v,23,23,0,0
+Geniebot,23,23,0,0
+Krowler,23,23,0,0
+Panopy bot,23,23,0,0
+Cazoodle,23,23,0,0
+Attributor,23,23,0,0
+Ellerdalebot,23,23,0,0
+Docomo,23,23,0,0
+Falcon,23,23,0,0
+Friendfeedbot,23,23,0,0
+Ez-robot,23,23,0,0
+Webclipping.com,23,23,0,0
+Webspider,23,23,0,0
+Exactseek,23,23,0,0
+Oracle ultra search,23,23,0,0
+Nerdybot,23,23,0,0
+Antro.net,23,23,0,0
+Searchengine,23,23,0,0
+Zauba.io,23,23,0,0
+Sphere scout,23,23,0,0
+Metaspinner,23,23,0,0
+Wastrix,23,23,0,0
+Surdotlybot,23,23,0,0
+Metager2,23,23,0,0
+Minibot,23,23,0,0
+Trendiction.com,23,23,0,0
+Caddbot,23,23,0,0
+Sumeetbot,23,23,0,0
+Skreemrbot,23,23,0,0
+Wminer,23,23,0,0
+Riight,23,23,0,0
+Dcpbot,23,23,0,0
+Netsongbot,23,23,0,0
+Seb spider,23,23,0,0
+Stumbler,23,23,0,0
+Flashcapture,23,23,0,0
+173.212soso,23,23,0,0
+Flamingo_searchengine,23,23,0,0
+Hitcrawler,23,23,0,0
+HtTrack,92,92,0,0
+Fish search,93,93,0,0
+RUBot,55,55,0,0
+MSIE 6 - ( Rogue Robot ),38,38,0,0
+semrush,70,70,0,0
+webmeup,55,55,0,0
+API scraper,27,0,27,0
+1science Harvester,31,0,31,0
+AAABot,8,8,0,0
+Megaindex,77,77,0,0
+TalkTalk Virus Alerts Scanning Engine,82,0,82,0
+mj12,15,15,0,0
+Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot),3,0,3,0
+Sogou ... spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07),3,0,3,0
+Mozilla/5.0 (compatible; Bingbot/2.0; +http://www.bing.com/bingbot.htm),3,0,3,0
+Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html),16,0,16,0
+Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp),3,0,3,0
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots),28,25,3,0
+Mozilla/5.0 (compatible; Pinterestbot/1.0; +http://www.pinterest.com/bot.html),3,0,3,0
+ia_archiver (+http://www.alexa.com/site/help/webmasters; crawler@alexa.com),3,0,3,0
+DuckDuckBot/1.0; (+http://duckduckgo.com/duckduckbot.html),3,0,3,0
+Discourse.org Server Monitor,3,0,3,0
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html),2,0,2,0
+Molokai,8,8,0,0
+yahoo,111,12,11,88
+Ask Jeeves,99,0,11,88
+tcg-cache-warmer-bot,1,1,0,0
+CareerBot,49,41,0,8
+Mb2345Browser,62,54,0,8
+ICCrawler,52,52,0,0
+TheWorld,49,49,0,0
+MicroMessenger,21,21,0,0
+LieBaoFast,62,54,0,8
+slaskdatacenter,81,81,0,0
+123peoplebot/1.0,95,95,0,0
+123peoplebot,95,95,0,0
+123people,84,84,0,0
+BingPreview #Microsoft,40,0,0,40
+MSNBot #Microsoft,40,0,0,40
+Slurp #Yahoo,40,0,0,40
+bingbot #Microsoft,40,0,0,40
+YandexNews,120,23,0,97
+aggregator VocusBot,22,22,0,0
+Alexa,4,0,0,4
+InternetSeer.com,164,157,0,7
+R6_FeedFetcher(www.radian6.com/crawler),295,295,0,0
+* AdsBot-Google-Mobile,50,0,0,50
+dotbot/1.0,7,7,0,0
+athenusbot,45,45,0,0
+FindLinks,46,46,0,0
+FAST,122,67,0,55
+Owlinbot,1,1,0,0
+mozilla/5.0 (compatible; heritrix/1.3.0 http://archive.crawler.org),12,0,12,0
+Guardcrwlr,84,84,0,0
+linkcheck,84,84,0,0
+link checker,86,86,0,0
+HubSpot Links Crawler,84,84,0,0
+betaBot,91,86,0,5
+Searchie,84,84,0,0
+Domain Re-Animator,84,84,0,0
+Pingdom,215,84,131,0
+CheckMarkNetwork,84,84,0,0
+KOCMOHABT,84,84,0,0
+LinkSpammer,84,84,0,0
+Clockwork Data Vault,84,84,0,0
+Link Sleuth,84,84,0,0
+8LEGS,87,84,0,3
+okhttp,84,84,0,0
+LinksCrawler,84,84,0,0
+BPImageWalker,86,86,0,0
+RankvalBot,84,84,0,0
+A6-Indexer,80,79,0,1
+CCBots,7,7,0,0
+Techiejobs.co,36,36,0,0
+qsdb,27,27,0,0
+Jasper.ai,6,6,0,0
+Perplexity.ai,6,6,0,0
+botify.com,7,7,0,0
+snap.com,12,0,0,12
+NetinfoBot,98,86,0,12
+Amazon CloudFront,12,0,0,12
+BaiduMobaider,12,0,5,7
+IAB,12,0,0,12
+ELB-HealthChecker,12,0,0,12
+zibber,12,0,0,12
+WinkBot,12,0,0,12
+Facebook share follower,12,0,0,12
+80bot,91,79,0,12
+PostPost,12,0,0,12
+SpokeSpider,12,0,0,12
+HouxouCrawler,12,0,0,12
+pingdom.com_bot,12,0,0,12
+spock,102,90,0,12
+TechnoratiBot,12,0,0,12
+disco,12,0,0,12
+Summify,12,0,0,12
+Spock,12,0,0,12
+MozBot,65,65,0,0
+AlphaSeoBot,9,8,0,1
+FreeFind,282,282,0,0
+Pcore-HTTP/v0.25.0,87,87,0,0
+Pcore-HTTP,155,155,0,0
+ksl-crawler,96,0,0,96
+gptbot,6,0,0,6
+Bytedance,7,1,0,6
+applebot,33,0,0,33
+* Disallow:,17,0,0,17
+Covario-IDS,97,97,0,0
+googlebot_news,97,0,97,0
+YaDirectFetcher,18,0,18,0
+YandexDirect,40,22,0,18
+Mozilla/5.0 (compatible; TTD-Content; +https://www.thetradedesk.com/general/ttd-content),2,0,0,2
+Google-Image,1,0,0,1
+Google-Video,1,0,0,1
+CrystalSemanticsBot,36,36,0,0
+MnoGoSearch/*,19,19,0,0
+omgilibot/0.3,19,19,0,0
+AdsBot-Google*,110,0,0,110
+htdig/3.1.6,129,0,129,0
+SEOdiver Bot,1,1,0,0
+getlinkinfo.com,1,1,0,0
+linkCheck,3,3,0,0
+webgains-bot,3,3,0,0
+CheckLinks,1,1,0,0
+SeekrBot,1,1,0,0
+cocolyzebot,1,1,0,0
+Morningscore Bot,1,1,0,0
+SemrushBot-OCOB,1,1,0,0
+Qwantify-prod,1,1,0,0
+HubSpot Crawler,1,1,0,0
+SEO-Checker-bot,1,1,0,0
+SeobilityBot,3,3,0,0
+AddSearchBot,1,1,0,0
+www.deadlinkchecker.com,3,3,0,0
+nooze-bot,1,1,0,0
+harsilbot,1,1,0,0
+HMSE_Robot,99,99,0,0
+Pipl,138,138,0,0
+omgili/0.5 +https://omgili.com,112,112,0,0
+CCbot,8,8,0,0
+0,3,0,3,0
+artifactbot,10,0,10,0
+MSNBOT_Mobile,62,62,0,0
+msnbot-media/1.1,62,0,62,0
+vobsub,67,67,0,0
+Mail Sweeper,67,67,0,0
+httrack,69,69,0,0
+WebMirror,67,67,0,0
+Shai'Hulud,67,67,0,0
+wGet,67,67,0,0
+Collage,67,67,0,0
+KDD Exploror,67,67,0,0
+atSpider,67,67,0,0
+WebEmailExtrac,67,67,0,0
+w3mir,67,67,0,0
+webvac,69,69,0,0
+WebFetcher,67,67,0,0
+WebCopy,67,67,0,0
+PBWF,67,67,0,0
+Templeton,67,67,0,0
+GetBot,67,67,0,0
+HavIndex,67,67,0,0
+DSurf,67,67,0,0
+ESIRover,67,67,0,0
+EliteSys Entry,67,67,0,0
+webcopier,68,68,0,0
+munky,67,67,0,0
+Internet Explore,67,67,0,0
+InfoSpiders,67,67,0,0
+cherrypicker,67,67,0,0
+ssearcher100,67,67,0,0
+WebWalk,67,67,0,0
+WebCatcher,67,67,0,0
+LightningDownload,67,67,0,0
+Mozilla/2.0 (compatible; MS FrontPage 4.0),67,67,0,0
+GetUrl,67,67,0,0
+SpiderBot,67,67,0,0
+xGet,67,67,0,0
+FAST-WebCrawler,73,0,0,73
+Lycos_Spider_(T-Rex),18,0,0,18
+brokencontrollers.com,89,89,0,0
+Marfeel-crawler,82,0,0,82
+upday,1,0,0,1
+AppEngine-Google,53,53,0,0
+GoogleBot-Mobile,51,0,51,0
+Anthropic-ai,2,2,0,0
+BaiDuSpider,90,90,0,0
+portal-crawler,2,0,1,1
+PicoSearch/1.0,2,0,1,1
+Archive-It,82,0,82,0
+Balihoo,39,39,0,0
+SandDollar,53,0,53,0
+IntuitGSACrawler,53,0,53,0
+duckduckbot,53,0,53,0
+red-app-gsa-p-one,53,0,53,0
+Telefonica,53,0,53,0
+OOZBOT/SETOOZBOT/oozbot/setoozbot,1,1,0,0
+Veooz,124,27,0,97
+Jakarta Commons-HttpClient,55,55,0,0
+NING,8,8,0,0
+lwp*,46,46,0,0
+newsexpress,35,0,35,0
+Sensis,35,0,0,35
+Googlebot-PM,22,0,0,22
+*YandexBot*,40,40,0,0
+LWP*,46,46,0,0
+Apple-Bot,1,0,1,0
+Apple-Bot/1.0.0,1,0,1,0
+AASA-Bot/1.0.0,1,0,1,0
+AASA-Bot,1,0,1,0
+EchoboxBot/1.0,1,0,1,0
+*.,2,0,2,0
+usasearch,150,0,0,150
+* Disallow: /blog-post.html* Disallow: /6117/ Sitemap: http://homeguides.sfgate.com/sitemaps/sitemap.xml,1,0,0,1
+GetIntentCrawler,86,86,0,0
+IfatSearch,73,15,0,58
+SemrushBoth,34,34,0,0
+LinkCheck by Siteimprove.com,22,22,0,0
+Yahoo-MMCrawler*,8,0,0,8
+Pinterest*,7,0,0,7
+voyager-hc/1.0,90,90,0,0
+cfetch/1.0,90,90,0,0
+Semrushbot-SA,42,9,0,33
+BBot,29,29,0,0
+MotoMinerBot,50,50,0,0
+Mozilla/5.0 (compatible; Seekport Crawler; http://seekport.com/),26,26,0,0
+Mozilla/5.0 (compatible; SphereUp; http://www.sphereup.com/),26,26,0,0
+ias-va/3.1,4,4,0,0
+AwarioSmartBot/1.0 (+https://awario.com/bots.html; bots@awario.com),17,17,0,0
+Mozilla/5.0 (compatible; Neevabot/1.0; +https://neeva.com/neevabot),17,17,0,0
+DF Bot 1.0,17,17,0,0
+amazon-QBusiness,1,1,0,0
+helpertrack,73,73,0,0
+* Disallow: /blog-post.html* Disallow: /6117/ Sitemap: http://traveltips.usatoday.com/sitemaps/sitemap.xml,1,0,0,1
+PHP,136,105,0,31
+Java Browser,136,105,0,31
+Callpod Keeper,136,105,0,31
+Clickagy Intelligence,136,105,0,31
+SemrushBot/1.1~bl,105,27,0,78
+Sphere (www.sphere.com) scout*at*sphere*dot*com,100,0,0,100
+HuaweiSymantecSpider,69,2,0,67
+ClickSense,67,0,0,67
+sap-search-web-crawler,125,0,119,6
+Googlebot-news,61,0,61,0
+Mediapartners(Googlebot),101,0,0,101
+Mp3Bot,41,41,0,0
+Xenu's Link Sleuth,2,2,0,0
+Pagespeed/1.1,2,2,0,0
+yoozBot,3,2,0,1
+UCMore Crawler App,2,2,0,0
+CakePHP,2,2,0,0
+WorldBrewBot,2,2,0,0
+SpamBayes,2,2,0,0
+Web-sniffer/1.1.0,2,2,0,0
+MyIPTest,2,2,0,0
+Curious George - www.analyticsseo.com/crawler,2,2,0,0
+Lipperhey-Kaus-Australis/5.0,2,2,0,0
+Findxbot/1.0,2,2,0,0
+Online Domain Tools - Online Website Link Checker/1.2,2,2,0,0
+Associative Spider,2,2,0,0
+Yandex Robot,2,2,0,0
+woobot,2,2,0,0
+Haiula,2,2,0,0
+yoozBot-2.2,2,2,0,0
+WeLikeLinks,2,2,0,0
+InsightsCollector,2,2,0,0
+DomainCrawler/3.0,2,2,0,0
+Screaming Frog SEO Spider/2.55,2,2,0,0
+Putin spider,2,2,0,0
+Ahrefs-Bot/2.0,2,2,0,0
+IRL Crawler,2,2,0,0
+Stratagems,2,2,0,0
+Calypso v/0.01,2,2,0,0
+Webster Pro V3.4,2,2,0,0
+SEOdiver/1.0,2,2,0,0
+SEOlyticsCrawler/3.0,2,2,0,0
+Simplecrawler,2,2,0,0
+Traackr.com bot,2,2,0,0
+NetResearchServer,2,2,0,0
+WebCookies,2,2,0,0
+Domnutch-Bot/Nutch-1.0,2,2,0,0
+linkdex.com/v2.1,27,27,0,0
+Webnest 0.9,2,2,0,0
+Scrapy/0.24.6,2,2,0,0
+hunchan,2,2,0,0
+listicka,2,2,0,0
+SiteBot/0.1,5,5,0,0
+worldwebheritage.org/1.0,2,2,0,0
+Baidu Spider,2,2,0,0
+HostHarvest,2,2,0,0
+LinkdexBot,2,2,0,0
+spiderbot,2,2,0,0
+CMS Crawler: http://www.cmscrawler.com,2,2,0,0
+rogerbot/1.0,2,2,0,0
+Screaming Frog SEO Spider/3.1,2,2,0,0
+HyperCrawl,2,2,0,0
+linkdex.com/v2.0,69,69,0,0
+Scopia crawler,2,2,0,0
+GigablastOpenSource,101,101,0,0
+linkdexbot-mobile/2.1,2,2,0,0
+WebQL,2,2,0,0
+www.petitsage.fr site detector 0.4,2,2,0,0
+my crawler,2,2,0,0
+Web corpus crawler,2,2,0,0
+GWPImages/1.0,2,2,0,0
+JetBrains,2,2,0,0
+GrifinBot/0.01,2,2,0,0
+Siteluxbot/1.0,2,2,0,0
+sky nutch crawler/Nutch-1.9,2,2,0,0
+DeuSu/5.0.2,2,2,0,0
+Faraday,2,2,0,0
+woobot/1.1,2,2,0,0
+ECCP/1.2.1,2,2,0,0
+WorldBrewBot/2.1,2,2,0,0
+qingdao,2,2,0,0
+AdvBot,45,44,0,1
+Vorboss Web Crawler,2,2,0,0
+2ADAMbot,2,2,0,0
+TWMBot/0.1,2,2,0,0
+VeriCiteCrawler/Nutch-1.9,2,2,0,0
+GriffinBot,2,2,0,0
+HubSpot Links Crawler 1.0,2,2,0,0
+Node/simplecrawler 0.5.2,2,2,0,0
+WebCopier vx.xa,2,2,0,0
+Ahrefs-Bot/5.0,2,2,0,0
+wscheck.com/1.0.0,2,2,0,0
+Ahrefs-Bot,2,2,0,0
+seoscanners.net/1,2,2,0,0
+V1.0/1.2,2,2,0,0
+bieshu,2,2,0,0
+chushou,2,2,0,0
+Prlog/1.0,2,2,0,0
+InsightsCollector/0.1beta,2,2,0,0
+Digincore bot,2,2,0,0
+image.coccoc/1.0,2,2,0,0
+InsightsCollector/0.1,2,2,0,0
+Openstat,2,2,0,0
+cuwhois/1.0,2,2,0,0
+lechenie,2,2,0,0
+InterNaetBoten/0.99,2,2,0,0
+CoinCornerBot/1.1,2,2,0,0
+Ichiro Robot,2,2,0,0
+CB/Nutch-1.7,2,2,0,0
+linkdexbot/2.1,12,12,0,0
+SMTBot/1.0,2,2,0,0
+quipu/2.0,2,2,0,0
+Battleztar Bazinga/0.01,2,2,0,0
+Webscout,2,2,0,0
+mycrowl/Nutch-1.9,2,2,0,0
+OptimizationCrawler/0.2,2,2,0,0
+URLChecker,2,2,0,0
+Steeler/3.5,2,2,0,0
+sukibot,2,2,0,0
+SNK Screenshot Bot/0.20,2,2,0,0
+JetBrains 5.0,2,2,0,0
+Bigli SEO,2,2,0,0
+HubSpot Webcrawler,2,2,0,0
+zzabmbot,2,2,0,0
+Scrapy/0.24.4,2,2,0,0
+WebAlta Crawler,10,2,0,8
+StudioFACA Search,2,2,0,0
+publiclibraryarchive.org,10,10,0,0
+HostHarvest/0.4.28,2,2,0,0
+oBot/2.3.1,2,2,0,0
+quipu,2,2,0,0
+TrueBot/1.0,2,2,0,0
+Putin,2,2,0,0
+HyperCrawl/0.2,2,2,0,0
+PageAnalyzer/1.1,2,2,0,0
+DomainSigmaCrawler/0.1,2,2,0,0
+OpenHoseBot,102,5,0,97
+TulipChain/5.xx,2,2,0,0
+ICC-Crawler/2.0,2,2,0,0
+EPiServer Link Checker,2,2,0,0
+Haiula/1.4,2,2,0,0
+WhatWeb/0.4.8-dev,2,2,0,0
+spray-can,2,2,0,0
+BOT for JCE,5,2,0,3
+GWPImages,2,2,0,0
+BLEXBot/1.0,4,4,0,0
+Ahrefs-Bot/4.0,2,2,0,0
+Ahrefs-Bot/3.0,2,2,0,0
+NetResearchServer/4.0,2,2,0,0
+omgilibot/0.4,2,2,0,0
+WBSearchBot/1.1,2,2,0,0
+Voila Robot,2,2,0,0
+RU_Bot/2.0,2,2,0,0
+James BOT - WebCrawler,2,2,0,0
+HRCrawler/2.0,2,2,0,0
+publiclibraryarchive.org/1.0,2,2,0,0
+Scopia,2,2,0,0
+LSSRocketCrawler/1.0 LightspeedSystems,2,2,0,0
+node.js,2,2,0,0
+Synapse,2,2,0,0
+Scrapy/0.24.5,2,2,0,0
+Stratagems Kumo,2,2,0,0
+abot v1.0,2,2,0,0
+BOT/0.1 (BOT for JCE),2,2,0,0
+Screaming Frog SEO Spider/4.1,2,2,0,0
+Statastico/4.0,2,2,0,0
+SSG/3.0,2,2,0,0
+BOIA-Accessibility-Agent/PR 1.0,2,2,0,0
+1 2 3 Submit PRO,2,2,0,0
+Statastico,2,2,0,0
+ICAP-IOD,2,2,0,0
+Dispatch/0.11.0,2,2,0,0
+HRCrawler,2,2,0,0
+Image2play/0.1,2,2,0,0
+WebAlta,10,2,0,8
+Node/simplecrawler,2,2,0,0
+SpamBayes/1.1a3+,2,2,0,0
+md5sum\x22,2,2,0,0
+Nmap Scripting Engine,2,2,0,0
+Scopia crawler 1.1,2,2,0,0
+Calypso,2,2,0,0
+Vorboss Web Crawler/Nutch-2.3,2,2,0,0
+OpenHoseBot/2.1,2,2,0,0
+zzabmbot/1.0,2,2,0,0
+Domnutch,2,2,0,0
+POGS/2.0,2,2,0,0
+EuripBot,2,2,0,0
+linkCheckV3.0,2,2,0,0
+woobot/2.0,2,2,0,0
+BuiBui-Bot,2,2,0,0
+CRAZYWEBCRAWLER 0.9.1,2,2,0,0
+PowerPivot,2,2,0,0
+Seosys/Nutch-2.3,2,2,0,0
+Blackboard Safeassign,4,4,0,0
+Crowsnest/0.5,2,2,0,0
+NameProtect Robot,2,2,0,0
+WhatWeb,2,2,0,0
+w3af.org,2,2,0,0
+Screaming Frog SEO Spider/5.0,2,2,0,0
+Yetibot,2,2,0,0
+Faraday v0.8.8,2,2,0,0
+WeCrawlForThePeace,2,2,0,0
+"Screaming Frog SEO Spider/2,55",2,2,0,0
+SNK Screenshot Bot,2,2,0,0
+Screaming Frog SEO Spider/3.3,2,2,0,0
+SkimBot,99,2,0,97
+Kyoto-Tohoku-Crawler/v1,2,2,0,0
+Siteluxbot,2,2,0,0
+http://www.checkprivacy.or.kr:6600/RS/PRIVACY_ENFAQ.jsp,2,2,0,0
+SiteExplorer/1.0,2,2,0,0
+phpSiteCheck 1.0,2,2,0,0
+MixrankBot,5,5,0,0
+GetProxi.es-bot/1.1,2,2,0,0
+cuwhois,2,2,0,0
+LSSRocketCrawler/1.0,2,2,0,0
+LWNutch/Nutch-1.4,2,2,0,0
+PRIVACY_ENFAQ.jsp,2,2,0,0
+uMBot-LN/1.0,2,2,0,0
+Openfind Robot,2,2,0,0
+Page Analyzer v4.0,2,2,0,0
+OptimizationCrawler,2,2,0,0
+SiteExplorer/1.0b,2,2,0,0
+EuripBot/2.0,2,2,0,0
+md5sum,2,2,0,0
+Flipboard Robot,2,2,0,0
+Screaming Frog SEO Spider/5.1 Beta 2,2,2,0,0
+2ADAMbot/1.0,2,2,0,0
+NetLyzer FastProbe,2,2,0,0
+James BOT,99,2,0,97
+MyGreatUA/2.0,2,2,0,0
+Lipperhey-Kaus-Australis,5,5,0,0
+worldwebheritage.org,2,2,0,0
+scrutiny/4,2,2,0,0
+evc-batch/2.0,2,2,0,0
+integrity/5,2,2,0,0
+tbot-nutch/Nutch-1.10,2,2,0,0
+zgrab/0.x,2,2,0,0
+InterNaetBoten,2,2,0,0
+Monkeybot/0.1,2,2,0,0
+WeAreNotEvil,2,2,0,0
+WASALive,2,2,0,0
+Abonti/0.92,2,2,0,0
+BuiBui-Bot/1.0,2,2,0,0
+QlikView,2,2,0,0
+Crowsnest,2,2,0,0
+Ahrefs-Bot/1.0,2,2,0,0
+StudioFACA,2,2,0,0
+Scopia crawler 1.0,2,2,0,0
+SheerBoredom.Experimental.Robot,2,2,0,0
+aiHitBot/2.9,2,2,0,0
+Pagespeedbot,2,2,0,0
+node.io,2,2,0,0
+GetProxi.es-bot,2,2,0,0
+sukibot_heritrix/3.1.1,2,2,0,0
+SetCronJob/1.0,2,2,0,0
+Kraken/0.1,2,2,0,0
+Add Catalog,2,2,0,0
+Scrapy/0.16.5,2,2,0,0
+CloudServerMarketSpider/1.0,2,2,0,0
+LinqiaScrapeBot/1.0,2,2,0,0
+Arachnida,2,2,0,0
+evc/2.0,2,2,0,0
+Scopia crawler 1.2,2,2,0,0
+CoinCornerBot,2,2,0,0
+Webscout/1.0,2,2,0,0
+Link/1.0,2,2,0,0
+CRAZYWEBCRAWLER 0.9.7,2,2,0,0
+http://git.io/tl_S2w,2,2,0,0
+Pagespeed/1.1 Fetcher,2,2,0,0
+Hivemind,2,2,0,0
+spray-can/1.2.1,2,2,0,0
+BPImageWalker/2.0,2,2,0,0
+CRAZYWEBCRAWLER 0.9.0,2,2,0,0
+sukibot_heritrix,2,2,0,0
+LinkpadBot/1.06,2,2,0,0
+TrueBot,2,2,0,0
+My Nutch Spider/Nutch-1.9,2,2,0,0
+Online Domain Tools - Online Website Link Checker,2,2,0,0
+eCommerceBot,2,2,0,0
+Scrapy/1.0.1,2,2,0,0
+WebCookies/1.0,2,2,0,0
+Mike-Crawler,2,2,0,0
+Blazer 1.0,2,2,0,0
+DomainAppender /1.0,2,2,0,0
+XoviBot/2.0,2,2,0,0
+Netcraft Spider,2,2,0,0
+ca-crawler/1.0,2,2,0,0
+Synthesio Crawler release MonaLisa,2,2,0,0
+PageAnalyzer/1.5,2,2,0,0
+XSpider,2,2,0,0
+spbot/4.4.2,2,2,0,0
+Trendiction-Bot,2,2,0,0
+Add Catalog/2.1,2,2,0,0
+Anonymous/0.0,2,2,0,0
+aboutthedomain,2,2,0,0
+Domnutch-Bot/Nutch,2,2,0,0
+SEOstats 2.1.0,2,2,0,0
+Clushbot/3.x-BinaryFury,2,2,0,0
+GigablastOpenSource/1.0,2,2,0,0
+Screaming Frog SEO Spider/5.1,2,2,0,0
+enlle punto com/Nutch-1.9,2,2,0,0
+Pu_iN Crawler,2,2,0,0
+Mail.RU_Bot/Fast/2.0,2,2,0,0
+ca-crawler,2,2,0,0
+WWW-Mechanize/1.74,2,2,0,0
+checkgzipcompression.com,2,2,0,0
+MixBot,99,2,0,97
+RivalSeek.com-Bot,2,2,0,0
+SheerBoredom.Experimental.Robot/0.2,2,2,0,0
+vBSEO,39,39,0,0
+AdvBot/2.0,44,44,0,0
+datagnionbot,99,2,0,97
+Image2play,2,2,0,0
+quipu/1.0,2,2,0,0
+Openstat/0.1,2,2,0,0
+SkimBot/1.0,2,2,0,0
+dahoms,2,2,0,0
+phpSiteCheck,2,2,0,0
+Visited by http://tools.geek-tools.org,2,2,0,0
+mezhpozvonochnoi,2,2,0,0
+rootlink,2,2,0,0
+Capek,12,0,0,12
+GNU Wget,12,0,0,12
+PHP-Crawler,12,0,0,12
+DataparkSearch,12,0,0,12
+Hyper Estraier,12,0,0,12
+LARM,12,0,0,12
+Andjing,12,0,0,12
+Distributed Web Crawler,12,0,0,12
+Arachnid,12,0,0,12
+PySpider,12,0,0,12
+NodeCrawler,12,0,0,12
+Pycreep,12,0,0,12
+mnoGoSearch,12,0,0,12
+Norconex HTTP Collector,12,0,0,12
+Web Harvest,12,0,0,12
+Arale,12,0,0,12
+Opese,12,0,0,12
+HyperSpider,12,0,0,12
+YaCy,12,12,0,0
+WebLech,12,0,0,12
+Hounder,12,0,0,12
+GRUB,12,0,0,12
+Crawwwler,12,0,0,12
+ht://Dig,12,0,0,12
+Ccrawler,12,0,0,12
+WebEater,12,0,0,12
+Xapian,12,0,0,12
+Metis,12,0,0,12
+Aspeek,12,0,0,12
+Ebot,12,0,0,12
+ICDL Crawler,12,0,0,12
+WebSPHINX,12,0,0,12
+Aperture,12,0,0,12
+PetalBot/AspiegelBot,12,0,0,12
+JoBo,12,0,0,12
+iCrawler,12,0,0,12
+Bixo,12,0,0,12
+MarfeelMan,2,2,0,0
+Surp,7,0,0,7
+xenu's Link Sleuth 1.1c,14,14,0,0
+xenu's,14,14,0,0
+FamilyBot,14,0,14,0
+Data2LifeBot,62,62,0,0
+iZSearch.com,62,62,0,0
+WeSEE:Ads/PictureBot,62,62,0,0
+xintellibot,159,62,0,97
+WeSEE:Ads/PageBot,62,62,0,0
+Mozilla/5.0 (compatible) SemanticScholarBot (+https://www.semanticscholar.org/crawler),28,25,0,3
+adscanner,27,27,0,0
+linkdex.com/v2.2,25,25,0,0
+FeedlyBot,25,25,0,0
+um-IC/1.0,25,25,0,0
+Cocolyzebot,34,34,0,0
+wavemetrix,1,0,0,1
+The Python Robot,1,1,0,0
+Occam/1.0,37,37,0,0
+YesupBot,37,37,0,0
+WebCopy/,37,37,0,0
+Checkbot/x.xx LWP/5.x,37,37,0,0
+UnwindFetchor/1.0,37,37,0,0
+Nomad-V2.x,37,37,0,0
+Wget/1.4.0,37,37,0,0
+EnigmaBot,37,37,0,0
+URLSpiderPro,37,37,0,0
+Open Text Site Crawler V1.0,37,37,0,0
+CyberSpyder/2.1,37,37,0,0
+Katipo/1.0,37,37,0,0
+FelixIDE/1.0,37,37,0,0
+WWW Collector,37,37,0,0
+WebMoose/0.0.0000,37,37,0,0
+jumpstation,37,37,0,0
+Fish-Search-Robot,37,37,0,0
+Hâ€°mâ€°hâ€°kki/0.2,37,37,0,0
+IsraeliSearch/1.0,37,37,0,0
+WebCrawler/3.0 Robot libwww/5.0a,37,37,0,0
+WebWalker/1.10,37,37,0,0
+ezooms,55,55,0,0
+NHSEWalker/3.0,37,37,0,0
+WebReaper v9.8 - www.webreaper.net,37,37,0,0
+webwalk,37,37,0,0
+weblayers/0.0,37,37,0,0
+spyder3.microsys.com,37,37,0,0
+NetCarta CyberPilot Pro,37,37,0,0
+WebWatch,37,37,0,0
+MOMspider/1.00 libwww-perl/0.40,37,37,0,0
+MerzScope,37,37,0,0
+Snooper/b97_01,37,37,0,0
+Motor/0.2,37,37,0,0
+urlck/1.2.3,37,37,0,0
+webs@recruit.co.jp,37,37,0,0
+Spanner/1.0 (Linux 2.0.27 i586),37,37,0,0
+wired-digital-newsbot/1.5,37,37,0,0
+Valkyrie/1.0 libwww-perl/0.40,37,37,0,0
+METAGOPHER,37,37,0,0
+GetURL.rexx v1.05,37,37,0,0
+XGET/0.7,37,37,0,0
+Gromit/1.0,37,37,0,0
+OGspider,37,37,0,0
+Freecrawl,37,37,0,0
+gcreep/1.0,37,37,0,0
+webvac/1.0,37,37,0,0
+WebWalker,37,37,0,0
+yes,37,37,0,0
+"WebFetcher/0.8,",37,37,0,0
+Golem/1.1,37,37,0,0
+Deweb/1.01,37,37,0,0
+linklooker,37,37,0,0
+NeoScioCrawler,37,37,0,0
+explorersearch,37,37,0,0
+conceptbot/0.3,37,37,0,0
+Hazel's Ferret Web hopper,37,37,0,0
+WWWWanderer v3.0,37,37,0,0
+WhoWhere Robot,37,37,0,0
+KIT-Fireball/2.0 libwww/5.0a,37,37,0,0
+Senrigan/xxxxxx,37,37,0,0
+IncyWincy/1.0b1,37,37,0,0
+LabelGrab/1.1,37,37,0,0
+ITI Spider,37,37,0,0
+HappyFunBot,37,37,0,0
+combine/0.0,37,37,0,0
+SafetyNet Robot 0.1,37,37,0,0
+www.freeloader.com.,37,37,0,0
+INGRID/0.1,37,37,0,0
+Solbot/1.0 LWP/5.07,37,37,0,0
+WebFerret,37,37,0,0
+CyberPatrol SiteCat Webbot,37,37,0,0
+MediaFox/x.y,37,37,0,0
+WebLinker/0.0 libwww-perl/0.1,37,37,0,0
+JubiiRobot,37,37,0,0
+fido/0.9 Harvest/1.4.pl2,37,37,0,0
+Resume Robot,37,37,0,0
+CACTVS Chemistry Spider,37,37,0,0
+PGP-KA/1.2,37,37,0,0
+UCSD-Crawler,37,37,0,0
+NetScoop/1.0 libwww/5.0a,37,37,0,0
+inagist.com url crawler,37,37,0,0
+Apache-HttpClient,88,88,0,0
+WebAutotutorialstutorials,3,0,0,3
+Web\ Sucker tutorialstutorials,3,0,0,3
+Download\ Demon tutorialstutorials,3,0,0,3
+QueryNtutorialstutorials,3,0,0,3
+Wellstutorialstutorials,3,0,0,3
+LeechFTPtutorialstutorials,3,0,0,3
+asteriastutorialstutorials,3,0,0,3
+Stealertutorialstutorials,3,0,0,3
+Libby_tutorialstutorials,3,0,0,3
+ia_archivertutorialstutorials,3,0,0,3
+JOC\ Web\ Spidertutorialstutorials,3,0,0,3
+Bot\ mailtotutorialstutorials,3,0,0,3
+SuperBottutorialstutorials,3,0,0,3
+mogettutorialstutorials,3,0,0,3
+Iriatutorialstutorials,3,0,0,3
+Bot\ mailto:craftbot@yahoo.com tutorialstutorials,3,0,0,3
+Website\ eXtractor tutorialstutorials,3,0,0,3
+GetWeb! tutorialstutorials,3,0,0,3
+toCrawltutorialstutorials,3,0,0,3
+FlashGet tutorialstutorials,3,0,0,3
+JoBotutorialstutorials,3,0,0,3
+Openfindtutorialstutorials,3,0,0,3
+JustViewtutorialstutorials,3,0,0,3
+Niktotutorialstutorials,3,0,0,3
+Image\ Sucker tutorialstutorials,3,0,0,3
+Mata\ Haritutorialstutorials,3,0,0,3
+EyeNetIEtutorialstutorials,3,0,0,3
+WebWhackertutorialstutorials,3,0,0,3
+Grabbertutorialstutorials,3,0,0,3
+psycheclonetutorialstutorials,3,0,0,3
+Web\ Suckertutorialstutorials,3,0,0,3
+Websuckertutorialstutorials,3,0,0,3
+MIDown\ tooltutorialstutorials,3,0,0,3
+Openfind\ data\ gatherertutorialstutorials,3,0,0,3
+Teleport\ Protutorialstutorials,3,0,0,3
+WebSaugertutorialstutorials,3,0,0,3
+Mercatortutorialstutorials,3,0,0,3
+WebFetch tutorialstutorials,3,0,0,3
+IRLbottutorialstutorials,3,0,0,3
+SpankBottutorialstutorials,3,0,0,3
+lwp-trivialtutorialstutorials,3,0,0,3
+WinHttpRequesttutorialstutorials,3,0,0,3
+RealDownload tutorialstutorials,3,0,0,3
+Suckertutorialstutorials,3,0,0,3
+Websitestutorialstutorials,3,0,0,3
+DAtutorialstutorials,3,0,0,3
+HTTPTracktutorialstutorials,3,0,0,3
+WebGo\ IS tutorialstutorials,3,0,0,3
+Widowtutorialstutorials,3,0,0,3
+ASPSeektutorialstutorials,3,0,0,3
+WebStrippertutorialstutorials,3,0,0,3
+Pingtutorialstutorials,3,0,0,3
+ClariaBottutorialstutorials,3,0,0,3
+libwww-perltutorialstutorials,3,0,0,3
+Webminertutorialstutorials,3,0,0,3
+appietutorialstutorials,3,0,0,3
+Go-Ahead-Got-It tutorialstutorials,3,0,0,3
+Offline\ Explorer tutorialstutorials,3,0,0,3
+Sqwormtutorialstutorials,3,0,0,3
+Vayalatutorialstutorials,3,0,0,3
+WebZIP tutorialstutorials,3,0,0,3
+PHP\ versiontutorialstutorials,3,0,0,3
+GetSmarttutorialstutorials,3,0,0,3
+pavuk tutorialstutorials,3,0,0,3
+EasyDLtutorialstutorials,3,0,0,3
+Kenjin\ Spidertutorialstutorials,3,0,0,3
+CherryPickertutorialstutorials,3,0,0,3
+Papa\ Fototutorialstutorials,3,0,0,3
+Gigabot tutorialstutorials,3,0,0,3
+Vagabondotutorialstutorials,3,0,0,3
+Webstertutorialstutorials,3,0,0,3
+Webmoletutorialstutorials,3,0,0,3
+Keyword\ Densitytutorialstutorials,3,0,0,3
+B2wtutorialstutorials,3,0,0,3
+ReGet tutorialstutorials,3,0,0,3
+sitecheck.internetseer.comtutorialstutorials,3,0,0,3
+Mirrortutorialstutorials,3,0,0,3
+Zeustutorialstutorials,3,0,0,3
+curltutorialstutorials,3,0,0,3
+Xenututorialstutorials,3,0,0,3
+Python-urllibtutorialstutorials,3,0,0,3
+NearSitetutorialstutorials,3,0,0,3
+Whackertutorialstutorials,3,0,0,3
+Xaratutorialstutorials,3,0,0,3
+Ninjatutorialstutorials,3,0,0,3
+larbin tutorialstutorials,3,0,0,3
+Downloadertutorialstutorials,3,0,0,3
+cosmostutorialstutorials,3,0,0,3
+CherryPickerElitetutorialstutorials,3,0,0,3
+VoidEYE tutorialstutorials,3,0,0,3
+Bullseyetutorialstutorials,3,0,0,3
+WebReaper tutorialstutorials,3,0,0,3
+BuiltBotToughtutorialstutorials,3,0,0,3
+True_Robottutorialstutorials,3,0,0,3
+CherryPickerSEtutorialstutorials,3,0,0,3
+attachtutorialstutorials,3,0,0,3
+NetAnts tutorialstutorials,3,0,0,3
+our\ agenttutorialstutorials,3,0,0,3
+WebStripper tutorialstutorials,3,0,0,3
+MIIxpctutorialstutorials,3,0,0,3
+Xaldontutorialstutorials,3,0,0,3
+Fetch\ API\ Requesttutorialstutorials,3,0,0,3
+Net\ Probetutorialstutorials,3,0,0,3
+DISCo tutorialstutorials,3,0,0,3
+Zadetutorialstutorials,3,0,0,3
+FrontPagetutorialstutorials,3,0,0,3
+ProWebWalkertutorialstutorials,3,0,0,3
+GrabNet tutorialstutorials,3,0,0,3
+Express\ WebPicturestutorialstutorials,3,0,0,3
+LinkScantutorialstutorials,3,0,0,3
+BotALottutorialstutorials,3,0,0,3
+ChinaClawtutorialstutorials,3,0,0,3
+ZBottutorialstutorials,3,0,0,3
+MIDown\ tool tutorialstutorials,3,0,0,3
+JennyBottutorialstutorials,3,0,0,3
+Web\ Downloadertutorialstutorials,3,0,0,3
+WinHttptutorialstutorials,3,0,0,3
+eCatchtutorialstutorials,3,0,0,3
+Web\ Image\ Collectortutorialstutorials,3,0,0,3
+Black\ Holetutorialstutorials,3,0,0,3
+GetRighttutorialstutorials,3,0,0,3
+FAST\ WebCrawlertutorialstutorials,3,0,0,3
+Net\ Vampiretutorialstutorials,3,0,0,3
+Papa\ Foto tutorialstutorials,3,0,0,3
+Widow tutorialstutorials,3,0,0,3
+WebZIPtutorialstutorials,3,0,0,3
+Heretrixtutorialstutorials,3,0,0,3
+Navroad tutorialstutorials,3,0,0,3
+larbintutorialstutorials,3,0,0,3
+Grafula tutorialstutorials,3,0,0,3
+Ricotutorialstutorials,3,0,0,3
+Offline\ Navigator tutorialstutorials,3,0,0,3
+WebZiptutorialstutorials,3,0,0,3
+Scootertutorialstutorials,3,0,0,3
+InterGETtutorialstutorials,3,0,0,3
+Snapbottutorialstutorials,3,0,0,3
+oBottutorialstutorials,3,0,0,3
+tAkeOut tutorialstutorials,3,0,0,3
+CopyRightChecktutorialstutorials,3,0,0,3
+FileHoundtutorialstutorials,3,0,0,3
+WebViewertutorialstutorials,3,0,0,3
+Surfbot tutorialstutorials,3,0,0,3
+Telesofttutorialstutorials,3,0,0,3
+EmailSiphontutorialstutorials,3,0,0,3
+pavuktutorialstutorials,3,0,0,3
+InfoNaviRobottutorialstutorials,3,0,0,3
+LeechFTP tutorialstutorials,3,0,0,3
+Wildsoft\ Surfertutorialstutorials,3,0,0,3
+liksetutorialstutorials,3,0,0,3
+Download\ Demontutorialstutorials,3,0,0,3
+HMViewtutorialstutorials,3,0,0,3
+AhrefsBot tutorialstutorials,3,0,0,3
+nexuscachetutorialstutorials,3,0,0,3
+JetCar tutorialstutorials,3,0,0,3
+eCatch tutorialstutorials,3,0,0,3
+The\ Intraformanttutorialstutorials,3,0,0,3
+psbottutorialstutorials,3,0,0,3
+Webhooktutorialstutorials,3,0,0,3
+ReGettutorialstutorials,3,0,0,3
+Dotbot tutorialstutorials,3,0,0,3
+Gullivertutorialstutorials,3,0,0,3
+NationalDirectory\ WebSpidertutorialstutorials,3,0,0,3
+InternetSeer.comtutorialstutorials,3,0,0,3
+CheeseBottutorialstutorials,3,0,0,3
+Mewsoft\ Search\ Enginetutorialstutorials,3,0,0,3
+Vintagetutorialstutorials,3,0,0,3
+Teleport\ Pro tutorialstutorials,3,0,0,3
+EmailWolftutorialstutorials,3,0,0,3
+HTTPviewertutorialstutorials,3,0,0,3
+ProPowerBottutorialstutorials,3,0,0,3
+Siphontutorialstutorials,3,0,0,3
+LinkextractorProtutorialstutorials,3,0,0,3
+Pockeytutorialstutorials,3,0,0,3
+httpscrapertutorialstutorials,3,0,0,3
+Titantutorialstutorials,3,0,0,3
+MJ12bot tutorialstutorials,3,0,0,3
+WebCopiertutorialstutorials,3,0,0,3
+antibottutorialstutorials,3,0,0,3
+SuperBot tutorialstutorials,3,0,0,3
+HTTracktutorialstutorials,3,0,0,3
+JetCartutorialstutorials,3,0,0,3
+Go-Ahead-Got-Ittutorialstutorials,3,0,0,3
+lftptutorialstutorials,3,0,0,3
+ExtractorPro tutorialstutorials,3,0,0,3
+SiteSnagger tutorialstutorials,3,0,0,3
+Y!TunnelProtutorialstutorials,3,0,0,3
+SuperHTTP tutorialstutorials,3,0,0,3
+W3C_Validatortutorialstutorials,3,0,0,3
+LexiBottutorialstutorials,3,0,0,3
+ColdFusiontutorialstutorials,3,0,0,3
+HTTPapptutorialstutorials,3,0,0,3
+Website\ Questertutorialstutorials,3,0,0,3
+pcBrowsertutorialstutorials,3,0,0,3
+WWWOFFLE tutorialstutorials,3,0,0,3
+Download\ Wondertutorialstutorials,3,0,0,3
+Pompostutorialstutorials,3,0,0,3
+PageGrabbertutorialstutorials,3,0,0,3
+EmailSiphon tutorialstutorials,3,0,0,3
+suzurantutorialstutorials,3,0,0,3
+Indy\ Librarytutorialstutorials,3,0,0,3
+Lachesistutorialstutorials,3,0,0,3
+Internet\ Ninja tutorialstutorials,3,0,0,3
+Mass\ Downloadertutorialstutorials,3,0,0,3
+Octopus tutorialstutorials,3,0,0,3
+Bandittutorialstutorials,3,0,0,3
+Navroadtutorialstutorials,3,0,0,3
+NICErsPROtutorialstutorials,3,0,0,3
+ExtractorProtutorialstutorials,3,0,0,3
+PingALink\ Monitoring\ Servicestutorialstutorials,3,0,0,3
+lwp\ requesttutorialstutorials,3,0,0,3
+Surfbottutorialstutorials,3,0,0,3
+AbachoBOTtutorialstutorials,3,0,0,3
+Linktutorialstutorials,3,0,0,3
+HTTrack tutorialstutorials,3,0,0,3
+BunnySlipperstutorialstutorials,3,0,0,3
+Metacartatutorialstutorials,3,0,0,3
+NetSpidertutorialstutorials,3,0,0,3
+WebAuto tutorialstutorials,3,0,0,3
+Reapertutorialstutorials,3,0,0,3
+WWWOFFLEtutorialstutorials,3,0,0,3
+Mister\ PiX tutorialstutorials,3,0,0,3
+Mag-Nettutorialstutorials,3,0,0,3
+NetMechanictutorialstutorials,3,0,0,3
+HitboxDoctortutorialstutorials,3,0,0,3
+Webmirrortutorialstutorials,3,0,0,3
+NetAntstutorialstutorials,3,0,0,3
+Octopustutorialstutorials,3,0,0,3
+UrlDispatchertutorialstutorials,3,0,0,3
+WebCopier tutorialstutorials,3,0,0,3
+EroCrawlertutorialstutorials,3,0,0,3
+Missiguatutorialstutorials,3,0,0,3
+SiteSnaggertutorialstutorials,3,0,0,3
+URLy\ Warningtutorialstutorials,3,0,0,3
+Pumptutorialstutorials,3,0,0,3
+WebFetchtutorialstutorials,3,0,0,3
+Wgettutorialstutorials,3,0,0,3
+Crescenttutorialstutorials,3,0,0,3
+Generictutorialstutorials,3,0,0,3
+Diamondtutorialstutorials,3,0,0,3
+Jonzillatutorialstutorials,3,0,0,3
+Internet\ Ninjatutorialstutorials,3,0,0,3
+SpaceBisontutorialstutorials,3,0,0,3
+WebSauger tutorialstutorials,3,0,0,3
+HMView tutorialstutorials,3,0,0,3
+TheNomadtutorialstutorials,3,0,0,3
+Webster\ Protutorialstutorials,3,0,0,3
+Collectortutorialstutorials,3,0,0,3
+turingostutorialstutorials,3,0,0,3
+Express\ WebPictures tutorialstutorials,3,0,0,3
+RMAtutorialstutorials,3,0,0,3
+Grafulatutorialstutorials,3,0,0,3
+Python\ urllibtutorialstutorials,3,0,0,3
+Copiertutorialstutorials,3,0,0,3
+Xaldon\ WebSpidertutorialstutorials,3,3,0,0
+WebEnhancertutorialstutorials,3,0,0,3
+Go!Zillatutorialstutorials,3,0,0,3
+Rogerbot tutorialstutorials,3,0,0,3
+GetRight tutorialstutorials,3,0,0,3
+WebWhacker tutorialstutorials,3,0,0,3
+slysearchtutorialstutorials,3,0,0,3
+Spinnetutorialstutorials,3,0,0,3
+WebReapertutorialstutorials,3,0,0,3
+PHPtutorialstutorials,3,0,0,3
+InterGET tutorialstutorials,3,0,0,3
+EmailWolf tutorialstutorials,3,0,0,3
+tAkeOuttutorialstutorials,3,0,0,3
+Harvesttutorialstutorials,3,0,0,3
+libwwwperltutorialstutorials,3,0,0,3
+libWebtutorialstutorials,3,0,0,3
+WWW-Collector-Etutorialstutorials,3,0,0,3
+TurnitinBottutorialstutorials,3,0,0,3
+onestoptutorialstutorials,3,0,0,3
+MSFrontPagetutorialstutorials,3,0,0,3
+Mass\ Downloader tutorialstutorials,3,0,0,3
+gotittutorialstutorials,3,0,0,3
+Wget tutorialstutorials,3,0,0,3
+Baidututorialstutorials,3,0,0,3
+Snoopytutorialstutorials,3,0,0,3
+SmartDownloadtutorialstutorials,3,0,0,3
+httplibtutorialstutorials,3,0,0,3
+COAST\ WebMastertutorialstutorials,3,0,0,3
+humanlinkstutorialstutorials,3,0,0,3
+Image\ Stripper tutorialstutorials,3,0,0,3
+BackDoorBottutorialstutorials,3,0,0,3
+PHPottutorialstutorials,3,0,0,3
+DTS\ Agenttutorialstutorials,3,0,0,3
+BlowFishtutorialstutorials,3,0,0,3
+Recordertutorialstutorials,3,0,0,3
+ScoutAbouttutorialstutorials,3,0,0,3
+Net\ Vampire tutorialstutorials,3,0,0,3
+bumblebeetutorialstutorials,3,0,0,3
+SuperHTTPtutorialstutorials,3,0,0,3
+Offline\ Explorertutorialstutorials,3,0,0,3
+BlackWidow tutorialstutorials,3,0,0,3
+Extreme\ Picture\ Findertutorialstutorials,3,0,0,3
+Webdownloadertutorialstutorials,3,0,0,3
+Vacuumtutorialstutorials,3,0,0,3
+RealDownloadtutorialstutorials,3,0,0,3
+FreeFind.comtutorialstutorials,3,0,0,3
+Exabot tutorialstutorials,3,0,0,3
+NetZIP tutorialstutorials,3,0,0,3
+MFC_Tear_Sampletutorialstutorials,3,0,0,3
+JOCtutorialstutorials,3,0,0,3
+EyeNetIE tutorialstutorials,3,0,0,3
+TightTwatBottutorialstutorials,3,0,0,3
+NetZiptutorialstutorials,3,0,0,3
+spannertutorialstutorials,3,0,0,3
+clsHTTPtutorialstutorials,3,0,0,3
+Robozillatutorialstutorials,3,0,0,3
+NPBottutorialstutorials,3,0,0,3
+anarchietutorialstutorials,3,0,0,3
+MSIECrawlertutorialstutorials,3,0,0,3
+BatchFTPtutorialstutorials,3,0,0,3
+Go!Zilla tutorialstutorials,3,0,0,3
+Szukacztutorialstutorials,3,0,0,3
+DISCo\ Pumptutorialstutorials,3,0,0,3
+autoemailspidertutorialstutorials,3,0,0,3
+Magnettutorialstutorials,3,0,0,3
+PageGrabber tutorialstutorials,3,0,0,3
+EirGrabber tutorialstutorials,3,0,0,3
+OrangeBottutorialstutorials,3,0,0,3
+YahooYSMcmtutorialstutorials,3,0,0,3
+NetSpider tutorialstutorials,3,0,0,3
+Driptutorialstutorials,3,0,0,3
+httpfetchertutorialstutorials,3,0,0,3
+WebLeacher tutorialstutorials,3,0,0,3
+Strippertutorialstutorials,3,0,0,3
+BackWebtutorialstutorials,3,0,0,3
+RepoMonkeytutorialstutorials,3,0,0,3
+VoidEYEtutorialstutorials,3,0,0,3
+Memotutorialstutorials,3,0,0,3
+FlashGettutorialstutorials,3,0,0,3
+Perltutorialstutorials,3,0,0,3
+ChinaClaw tutorialstutorials,3,0,0,3
+JOC\ Web\ Spider tutorialstutorials,3,0,0,3
+Buddytutorialstutorials,3,0,0,3
+NetResearchServertutorialstutorials,3,0,0,3
+Website\ Quester tutorialstutorials,3,0,0,3
+hloadertutorialstutorials,3,0,0,3
+dloadertutorialstutorials,3,0,0,3
+DittoSpydertutorialstutorials,3,0,0,3
+VCItutorialstutorials,3,0,0,3
+SmartDownload tutorialstutorials,3,0,0,3
+Web\ Image\ Collector tutorialstutorials,3,0,0,3
+FlickBottutorialstutorials,3,0,0,3
+Mister\ PiXtutorialstutorials,3,0,0,3
+EmailCollectortutorialstutorials,3,0,0,3
+LinkWalkertutorialstutorials,3,0,0,3
+pcBrowser tutorialstutorials,3,0,0,3
+Websitetutorialstutorials,3,0,0,3
+GrabNettutorialstutorials,3,0,0,3
+Javatutorialstutorials,3,0,0,3
+Custo tutorialstutorials,3,0,0,3
+Microsoft\ URL\ Controltutorialstutorials,3,0,0,3
+Snaketutorialstutorials,3,0,0,3
+EirGrabbertutorialstutorials,3,0,0,3
+MicrosoftURLtutorialstutorials,3,0,0,3
+NearSite tutorialstutorials,3,0,0,3
+Mozilla/5.0 (TweetmemeBot/4.0; +http://datasift.com/bot.html) Gecko/20100101 Firefox/31.0,99,99,0,0
+heritrix/3.3.0-SNAPSHOT-20140926-2021,99,99,0,0
+Mozilla/5.0 (compatible; Genieo/x.x http://www.genieo.com/webfilter.html),99,99,0,0
+PhantomJS,56,56,0,0
+AhrefsbBot,53,0,0,53
+Mappy,54,54,0,0
+Googlebot-category,18,0,0,18
+Wget/1.10.1,94,94,0,0
+Wget/1.9.1,94,94,0,0
+libwww-perl/*,94,94,0,0
+lftp/3.4.0,94,94,0,0
+CherryPicker /1.0,26,26,0,0
+LexxeBot/1.0,8,8,0,0
+* Disallow: /backend/,43,0,43,0
+OmtrBot/1.0,89,0,0,89
+GoogleBot       # Ð¿ÑÐ°Ð²Ð¸Ð»Ð° Ð´Ð»Ñ Google (ÐºÐ¾Ð¼Ð¼ÐµÐ½ÑÐ°ÑÐ¸Ð¸ Ð½Ðµ Ð´ÑÐ±Ð»Ð¸ÑÑÑ),58,0,58,0
+Yandex          # Ð¿ÑÐ°Ð²Ð¸Ð»Ð° Ð´Ð»Ñ Ð¯Ð½Ð´ÐµÐºÑÐ° (ÐºÐ¾Ð¼Ð¼ÐµÐ½ÑÐ°ÑÐ¸Ð¸ Ð½Ðµ Ð´ÑÐ±Ð»Ð¸ÑÑÑ),58,0,58,0
+"*               # Ð¾Ð±ÑÐ¸Ðµ Ð¿ÑÐ°Ð²Ð¸Ð»Ð° Ð´Ð»Ñ ÑÐ¾Ð±Ð¾ÑÐ¾Ð², ÐºÑÐ¾Ð¼Ðµ Ð¯Ð½Ð´ÐµÐºÑÐ° Ð¸ Google,",58,0,0,58
+GoogleBot       # правила для Google (комментарии не дублирую),8,0,8,0
+Yandex          # правила для Яндекса (комментарии не дублирую),8,0,8,0
+"*               # общие правила для роботов, кроме Яндекса и Google,",8,0,0,8
+W3C-gsa,15,0,15,0
+W3T_SE,15,0,15,0
+AcademicBot,97,0,0,97
+Newsbot,97,0,0,97
+MarketBrewBot,97,0,0,97
+squirrobot,97,0,0,97
+FTRF: Friendly robot,97,0,0,97
+"nachtschatten, neofonie search:robot",97,0,0,97
+SinaWeiboBot,97,0,0,97
+msnbot-NewsBlogs,97,0,0,97
+Konqueror,97,0,0,97
+ArchiveTeam ArchiveBot,97,0,0,97
+focuseekbot,97,0,0,97
+InterfaxBot,97,0,0,97
+mediajam-bot,97,0,0,97
+Spiderbot,100,3,0,97
+InterfaxScanBot,97,0,0,97
+BusinessWireBot,97,0,0,97
+VocusBot,97,0,0,97
+mob2bw,97,0,0,97
+AddThis.com robot,97,0,0,97
+sReleaseBot,97,0,0,97
+LDRbot,97,0,0,97
+MarketwireBot,97,0,0,97
+Kemvibot,97,0,0,97
+LivelapBot,97,0,0,97
+Swayy API,97,0,0,97
+RHSWDSpider,97,0,97,0
+GozaikBot,97,0,0,97
+newslookup-bot,97,0,0,97
+BOT,97,0,0,97
+WikioImagesBot,97,0,0,97
+YioopBot,97,0,0,97
+zitebot,97,0,0,97
+robot leapit.com,97,0,0,97
+HubSpot Page Fetching Bot,97,0,0,97
+RightIntelBot,97,0,0,97
+Landau-Media-Spider,97,0,0,97
+gyffu_bot,97,0,0,97
+BufferBot,97,0,0,97
+msnbot-UDiscovery,97,0,0,97
+uMBot-FC,97,0,0,97
+RHWSSpider,97,0,97,0
+newslebot,97,0,0,97
+Yandex.Gazeta Bot,97,0,0,97
+mmm-google-four,97,0,0,97
+CoveoEnterpriseSearch,97,0,0,97
+mmm-google-two,97,0,0,97
+PictureBot,97,0,0,97
+SocialShare,97,0,0,97
+Nuzzel,65,0,0,65
+Gogglebot,2,0,0,2
+Tiingo News - support@tiingo.com,39,0,0,39
+izsearch.com,7,0,7,0
+gsa-crawler-www,46,0,46,0
+fastcrawler:,38,0,38,0
+htdig,38,0,38,0
+msnbot:,38,0,38,0
+askjeeves,38,0,38,0
+lycos:,38,0,38,0
+yourtraces,11,11,0,0
+Yasni,11,11,0,0
+TurnitinBot/2.0,11,11,0,0
+HypeStat,11,11,0,0
+tweepz,11,11,0,0
+yoname,11,11,0,0
+peekyou,11,11,0,0
+rapleaf,11,11,0,0
+123peoplebot/2.0,11,11,0,0
+123People Bot,11,11,0,0
+MyOnID,11,11,0,0
+wink,11,11,0,0
+123People,11,11,0,0
+findestars,11,11,0,0
+SurveyBot/2.3 (DomainTools),11,11,0,0
+snitch,11,11,0,0
+TurnitinBot/2.1,11,11,0,0
+trafficblazer,11,2,9,0
+SurveyBot/2.3,11,11,0,0
+Blackboard Safeassign/0.1,2,2,0,0
+domainsproject.org,13,13,0,0
+ZoominfoBot (zoominfobot at zoominfo dot com),2,2,0,0
+Mozlila,13,13,0,0
+Goodzer,39,32,0,7
+Domains Project,15,13,0,2
+Missigua Locator,25,22,0,3
+polaris version,13,13,0,0
+OPPO A33,11,11,0,0
+Turnitin (https://bit.ly/2UvnfoQ),2,2,0,0
+terrykyleseoagency.com,2,2,0,0
+Aspiegel,13,13,0,0
+Safeassign web-crawler,2,2,0,0
+Exabot-Thumbnails,2,2,0,0
+TurnitinBot/3.0,2,2,0,0
+opensiteexplorer.org,2,2,0,0
+domaincrawler.com,2,2,0,0
+sitechecker.pro,13,13,0,0
+riddler.io,2,2,0,0
+xovibot.net,2,2,0,0
+discoveryengine.com,2,2,0,0
+Kinza,13,13,0,0
+WPSpider,2,2,0,0
+SurveyBot (DomainTools),2,2,0,0
+domainreanimator.com,2,2,0,0
+Safeassign/0.1,2,2,0,0
+GarlikCrawler/1.2,2,2,0,0
+OpenLinkProfiler.org,2,2,0,0
+Evensi,2,2,0,0
+Adsbot/3.1,2,2,0,0
+MQQBrowser,13,13,0,0
+blackboardally,2,2,0,0
+Ankit,13,13,0,0
+Adsbot,4,4,0,0
+Monsidobot/2.2,2,2,0,0
+SemrushBot/6~bl,2,2,0,0
+satoristudio.net,13,13,0,0
+Scrapy/1.7.2 (+https://scrapy.org),2,2,0,0
+LinkFeatureBot,21,21,0,0
+Safeassign,2,2,0,0
+BuckyOHare / hypefactors.com,2,2,0,0
+isitwp.com,13,13,0,0
+Morfeus F*cking Scanner,2,2,0,0
+DigitalPebble/storm-crawler,2,2,0,0
+MauiBot (crawler.feedback+gamma@gmail.com),2,2,0,0
+SemrushBot-BM/1.0,2,2,0,0
+stormcrawler@digitalpebble.com,2,2,0,0
+inktomisearch.com,48,48,0,0
+* Disallow: /blog-post.html* Disallow: /6117/ Sitemap: http://smallbusiness.chron.com/sitemaps/sitemap.xml,1,0,0,1
+*                # any robot,38,0,38,0
+* # match all bots,38,0,38,0
+googlebot-news   # only the news service,38,0,38,0
+googlebot        # all Google services,38,0,38,0
+BadBot # replace 'BadBot' with the actual user-agent of the bot,38,38,0,0
+* Googlebot,7,0,0,7
+Java/1.4.1_02,39,39,0,0
+JobdiggerSpider,39,39,0,0
+Mozilla/5.0 (compatible; BecomeBot/2.0.3; +http://www.become.com/webmasters.html),39,39,0,0
+Mozilla/5.0 (compatible; BecomeBot/2.0.1; +http://www.become.com/webmasters.html),39,39,0,0
+Mozilla/4.75 (compatible; PortalBSpider; spider@portalb.com),39,39,0,0
+ElectricMonk,39,39,0,0
+Mozilla/4 (compatible; Webinator-indexer.cyberalert.com/2.56),39,39,0,0
+Mozilla/5.0 (compatible; BecomeBot/1.70; MSIE 6.0 compatible; +http://www.become.com/webmasters.html),39,39,0,0
+Ocelli/1.3 (http://www.globalspec.com/Ocelli),39,39,0,0
+Mozilla/5.0 (compatible; BecomeBot/1.23; +http://www.become.com/webmasters.html),39,39,0,0
+NetMechanic V4.0,39,39,0,0
+Java1.3.0,39,39,0,0
+ConveraCrawler/0.9e (+http://www.authoritativeweb.com/crawl),39,39,0,0
+Mozilla/4 (compatible; Webinator-indexer.cyberalert.com/2.7),39,39,0,0
+"Mozilla/5.0 (compatible; archive.org_bot/heritrix-1.15.1-x +http://pandora.nla.gov.au/crawl.html),",39,39,0,0
+NING/1.0,39,39,0,0
+Yandex/1.01.001 (compatible; Win16; I),39,39,0,0
+Mozilla/5.0 (compatible; BecomeBot/2.2.1; MSIE 6.0 compatible; +http://www.become.com/webmasters.html),39,39,0,0
+VSE/1.0 (info@synapse.co.in),39,39,0,0
+Ocelli/1.1 (http://www.globalspec.com),39,39,0,0
+monitorabot,71,71,0,0
+HIVmd_robot,24,0,24,0
+Magnolia,24,0,24,0
+NetStat.Ru Agent,86,86,0,0
+becomebot,88,88,0,0
+MMCrawler/3.x,86,86,0,0
+Gigabot/2.0,86,86,0,0
+IconSurf,86,86,0,0
+OOZBOT,87,87,0,0
+WebAlta Crawler/1.3.25,86,86,0,0
+EvilRobot,86,86,0,0
+GameSpyHTTP/1.0,86,86,0,0
+NG/2.0,86,86,0,0
+Yahoo!-MMCrawler/3.x,86,86,0,0
+WebCopier*,5,5,0,0
+WebCopier v5.3,5,5,0,0
+*CCBot*,5,5,0,0
+Ruby,7,7,0,0
+Hellocoton,7,7,0,0
+Discovery,7,7,0,0
+Drupal,7,7,0,0
+Feedly,7,7,0,0
+TopicWayBot,7,7,0,0
+James,7,7,0,0
+wikidot,7,7,0,0
+Experibot_v1,26,26,0,0
+Ubuntu,7,7,0,0
+ia-archiver,51,51,0,0
+blp_bbot/0.1,13,13,0,0
+CRMNLCrawlAgent,13,13,0,0
+Ezooms/1.0,9,0,9,0
+Twitterbot/*,4,0,0,4
+Google*,10,0,3,7
+bullseye,2,2,0,0
+siteexplorer,10,10,0,0
+g00g1e,2,2,0,0
+xxxyy,2,2,0,0
+moveoverbot,2,2,0,0
+harvest,2,2,0,0
+webreaper,2,2,0,0
+acapbot,2,2,0,0
+datacha,2,2,0,0
+webwhacker,2,2,0,0
+kmccrew,5,2,0,3
+semalt,2,2,0,0
+leechftp,5,5,0,0
+octopus,2,2,0,0
+cy_cho,2,2,0,0
+webviewer,2,2,0,0
+stripper,2,2,0,0
+careerbot,5,5,0,0
+loader,2,2,0,0
+cmsworld,2,2,0,0
+acoonbot,2,2,0,0
+takeout,2,2,0,0
+xaldon,2,2,0,0
+linkwalker,2,2,0,0
+pycurl,2,2,0,0
+youda,2,2,0,0
+flicky,5,2,0,3
+bunnys,2,2,0,0
+binlar,5,2,0,3
+cherrypick,2,2,0,0
+planetwork,5,2,0,3
+ninja,2,2,0,0
+seekerspider,2,2,0,0
+zyborg,2,2,0,0
+netmechanic,2,2,0,0
+vikspider,5,2,0,3
+morfeus,2,2,0,0
+sucker,3,3,0,0
+nikto,2,2,0,0
+jetbot,2,2,0,0
+gozilla,2,2,0,0
+radiation,2,2,0,0
+go-ahead-got,2,2,0,0
+libweb,2,2,0,0
+dittospyder,2,2,0,0
+jetcar,2,2,0,0
+skygrid,5,2,0,3
+sitesnagger,2,2,0,0
+chinaclaw,2,2,0,0
+mechanize,2,2,0,0
+cheesebot,2,2,0,0
+zmeu,2,2,0,0
+spankbot,2,2,0,0
+sux0r,2,2,0,0
+snoopy,2,2,0,0
+emailwolf,2,2,0,0
+eyenetie,2,2,0,0
+checkpriv,2,2,0,0
+true_robots,2,2,0,0
+webstripper,2,2,0,0
+voideye,3,3,0,0
+emailsiphon,2,2,0,0
+butterfly,2,2,0,0
+linkextractor,2,2,0,0
+smartdownload,2,2,0,0
+zune,2,2,0,0
+feedfinder,5,2,0,3
+linkscan,2,2,0,0
+icarus6j,2,2,0,0
+flashget,3,3,0,0
+blackwidow,2,2,0,0
+teleport,2,2,0,0
+crescent,2,2,0,0
+foobot,2,2,0,0
+yamanalab,2,2,0,0
+pagegrabber,2,2,0,0
+backdorbot,2,2,0,0
+woxbot,2,2,0,0
+stackrambler,2,2,0,0
+flaming,2,2,0,0
+dotnetdotcom,2,2,0,0
+netspider,2,2,0,0
+nicerspro,2,2,0,0
+masscan,2,2,0,0
+turnit,5,2,0,3
+postrank,2,2,0,0
+queryn,2,2,0,0
+grabnet,2,2,0,0
+emailcollector,2,2,0,0
+attackbot,2,2,0,0
+realdownload,2,2,0,0
+siclab,2,2,0,0
+python,2,2,0,0
+webleacher,2,2,0,0
+wwwoffle,2,2,0,0
+blekkobot,3,3,0,0
+clshttp,5,2,0,3
+copernic,2,2,0,0
+miner,5,2,0,3
+demon,2,2,0,0
+sindice,2,2,0,0
+zeus,2,2,0,0
+grafula,7,7,0,0
+suzukacz,2,2,0,0
+jikespider,2,2,0,0
+queryseeker,2,2,0,0
+diavol,5,2,0,3
+yioopbot,2,2,0,0
+choppy,2,2,0,0
+winhttp,2,2,0,0
+radian6,2,2,0,0
+copyrightcheck,2,2,0,0
+casper,5,2,0,3
+telesoft,2,2,0,0
+blowfish,2,2,0,0
+extract,5,2,0,3
+surftbot,2,2,0,0
+getright,2,2,0,0
+sqlmap,2,2,0,0
+vampire,2,2,0,0
+purebot,5,2,0,3
+Bebee,28,28,0,0
+Sonic Jobs,11,11,0,0
+Gaisbot/3.0,25,0,0,25
+Site Server 3.0 Robot,87,0,87,0
+maxamine.com--robot,87,87,0,0
+Jeeves,87,0,87,0
+Morning Paper,87,87,0,0
+* *,18,0,0,18
+iVia,57,0,0,57
+Antelope,74,74,0,0
+cmsworldmap,3,0,0,3
+URI::Fetch,3,0,0,3
+checkprivacy,3,0,0,3
+comodo,3,0,0,3
+Maxthon$,3,0,0,3
+Default Browser 0,3,0,0,3
+WEP Search,3,0,0,3
+NEWT,3,0,0,3
+Wells Search II,3,0,0,3
+LinksManager.com_bot,3,0,0,3
+80LEGS,3,0,0,3
+Rippers 0,3,0,0,3
+SeaMonkey$,3,0,0,3
+jakarta,3,0,0,3
+Bolt 0,3,0,0,3
+Toata dragostea mea pentru diavola,3,0,0,3
+id-search.org,3,0,0,3
+microsoft.url,3,0,0,3
+grab,3,0,0,3
+ISC Systems iRc Search 2.1,3,0,0,3
+urllib,3,0,0,3
+FunnelBack,131,0,131,0
+CloudflarePrefetch,131,0,131,0
+Google-Sitemaps,131,0,131,0
+YandexVideoParser,119,0,119,0
+Google-Site-Verification,132,0,131,1
+aranhabot,84,0,84,0
+Sosospider/2.0,52,52,0,0
+Mozilla/5.0(compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html),65,65,0,0
++Baiduspider/2.0;++http://www.baidu.com/search/spider.html,65,65,0,0
++Baiduspider,65,65,0,0
+Sosospider+,52,52,0,0
+sogou web spider,76,76,0,0
++Baiduspider/2.0,65,65,0,0
+Baiduspider/2.0;+http://www.baidu.com/search/spider.html,65,65,0,0
+gopher,9,9,0,0
+CensysInspect,9,9,0,0
+siteripz,9,9,0,0
+Anthill,9,9,0,0
+PageThing.com,9,9,0,0
+scalaj-http,9,9,0,0
+CyotekWebCopy,9,9,0,0
+CODE87,9,9,0,0
+Fuzz,9,9,0,0
+Re-re,9,9,0,0
+Anarchy99,9,9,0,0
+Anarchy,9,9,0,0
+ZoomBot,9,9,0,0
+01h4x.com,9,9,0,0
+check1.exe,9,9,0,0
+IDBTE4M,9,9,0,0
+Nuclei,12,9,0,3
+ripz,9,9,0,0
+Piepmatz,9,9,0,0
+probe-image-size,9,9,0,0
+HoaxyBot,11,0,0,11
+seoscanners.net,14,3,0,11
+Siteimprovebot,45,0,0,45
+Siteimprovebot-crawler,45,0,0,45
+BSpider,5,5,0,0
+Libwww-perl,11,11,0,0
+JobboerseBot,23,23,0,0
+Sogou Pic Agent,1,1,0,0
+linkdexbot/2.2,10,10,0,0
+semaltspider,8,8,0,0
+CarsnipBot,6,6,0,0
+maj12,6,0,0,6
+AHrefs,6,0,0,6
+SEMRush,6,0,0,6
+Semrushbot-SI,33,0,0,33
+checks.panopta.com,42,42,0,0
+FindTheBest.com,42,42,0,0
+linkdex.com,42,42,0,0
+Healthbot/Health_and_Longevity_Project_(HealthHaven.com),42,42,0,0
+Gimme60bot,42,42,0,0
+Healthbot,42,42,0,0
+CuteStat,48,48,0,0
+Zoominfobot,6,3,0,3
+BLEXB]ot,3,3,0,0
+Mozilla/5.0 (compatible; MonsidoUptime/1.0; +http://monsido.com/uptime.html; info@monsido.com),1,0,0,1
+MonsidoUptime,1,0,0,1
+litefinder,17,17,0,0
+RealSpider,26,26,0,0
+ImageWalker,26,26,0,0
+findfiles.org,16,16,0,0
+Zeusbot,19,19,0,0
+WebsiteWiki,27,27,0,0
+Nederland.zoek,22,22,0,0
+* #agent,22,0,22,0
+gonzo,19,19,0,0
+XGET,22,22,0,0
+ThumbSniper,3,3,0,0
+fr-crawler,3,3,0,0
+ImplisenseBot,3,3,0,0
+Plista,3,3,0,0
+MetaJobBot,3,3,0,0
+jobs.de-Robot,3,3,0,0
+LinkStats,3,3,0,0
+mindUpBot,3,3,0,0
+sg-Orbiter,3,3,0,0
+*Disallow: /wp-admin/Allow: /wp-admin/admin-ajax.php,3,0,0,3
+webauto,5,5,0,0
+TelegramBot,2,0,2,0
+*Disallow: /wp-admin/Allow: /wp-admin/admin-ajax.phpSitemap: https://www.fileder.co.uk/wp-sitemap.xmlDisallow:,4,0,0,4
+american-univ-crawler (Enterprise; S5-DWRRJ5KWB2NAA; nguyen@american.edu),26,26,0,0
+CSTV Search Crawler,26,26,0,0
+*mercator*,27,0,27,0
+*ia_archiver*,27,0,27,0
+*Google*,27,0,27,0
+*scooter*,27,0,27,0
+*googlebot*,27,0,27,0
+*webcrawler*,27,0,27,0
+*msnbot*,27,0,27,0
+*sitecheck*,27,0,27,0
+*Slurp*,27,0,27,0
+e-collector,20,20,0,0
+MS FrontPage,20,20,0,0
+WebAlta Crawler/2.0,20,20,0,0
+Spam Bot,20,20,0,0
+Netcraft Web Server Survey,20,20,0,0
+appie,20,20,0,0
+Faxobot,20,20,0,0
+WebMon,20,20,0,0
+Test,20,20,0,0
+W3CRobot,20,20,0,0
+WorQmada,20,20,0,0
+Custom Bot/Robot #20,20,20,0,0
+omniweb,20,20,0,0
+Fetch API Request,20,20,0,0
+Microsoft-WebDAV,20,20,0,0
+Mac Finder,20,20,0,0
+Szukacz (www.szukacz.pl),20,20,0,0
+Advanced Email Extractor,20,20,0,0
+NutchCVS (nutch.org),20,20,0,0
+EmailSyphon,20,20,0,0
+Almaden.ibm.com/cs/crawler,20,20,0,0
+PICgrabber,20,20,0,0
+GaisBot,20,20,0,0
+Stupid email harvester,20,20,0,0
+sohu-search,20,20,0,0
+PlantyNet_WebRobot,20,20,0,0
+iaea,20,20,0,0
+IlTrovatore-Setaccio,20,20,0,0
+Asterias Crawler,20,20,0,0
+* Disallow: SITEMAP: http://strummers.org/sitemap.xml,1,0,0,1
+Algolia Crawler,40,0,40,0
+funnelback,80,0,80,0
+BadBot,1,1,0,0
+YadirectBot,1,1,0,0
+ConveraCrawler/0.9e,26,26,0,0
+Trident,7,7,0,0
+BizNut,6,6,0,0
+Gigabot/1.0,19,19,0,0
+Xovi,19,19,0,0
+linkdexbot v2.0,19,19,0,0
+istellabot-nutch/Nutch-1.10,19,19,0,0
+linkdexbot v2.2,19,19,0,0
+ptr.cnsat.com.cn,19,19,0,0
+Veoozbot,19,19,0,0
+linkdexbot v2.1,19,19,0,0
+ShenZhen Sunrise Technology,19,19,0,0
+GeedoBot,1,1,0,0
+FRInformation,26,26,0,0
+FacebookExternalHit,3,0,0,3
+WotBox,1,1,0,0
+AlphaSeoBot-SA,8,0,0,8
+CheckMarkNetwork/1.0 (+http://www.checkmarknetwork.com/spider.html),7,7,0,0
+Uptimebot/1.0,24,24,0,0
+Disallow:,18,0,18,0
+Cookiebot,2,0,0,2
+YaDirectBot,2,0,0,2
+AA-Site-Audit-Crawler,5,5,0,0
+google-xrawler,19,0,0,19
+SnapPreviewBot,1,1,0,0
+BuyerBase,1,1,0,0
+BuyerBase User Agent,1,1,0,0
+Pigafetta,29,0,0,29
+GA Checker,29,0,0,29
+webpros.com,2,2,0,0
+seobility,2,2,0,0
+Wallpapers,2,2,0,0
+MolokaiBot,2,2,0,0
+seostar,2,2,0,0
+Crawling at Home Project,2,2,0,0
+dataforseo.com,2,2,0,0
+ScrepyBot,2,2,0,0
+cah.io.community,2,2,0,0
+Minefield,2,2,0,0
+ubermetrics-technologies.com,2,2,0,0
+iubenda-radar,2,2,0,0
+Leap,2,2,0,0
+DnBCrawler-Analytics,2,2,0,0
+seocompany.store,2,2,0,0
+V-BOT,2,2,0,0
+Moblie Safari,2,2,0,0
+Atomseobot,2,2,0,0
+voyagerx.com,2,2,0,0
+ALittle Client,2,2,0,0
+HonoluluBot,2,2,0,0
+SemanticJuice,2,2,0,0
+clark-crawler,2,2,0,0
+Not,2,2,0,0
+Citoid,2,2,0,0
+MJ12bot/v1.0.6,18,18,0,0
+MJ12bot/v1.2.4,18,18,0,0
+MJ12bot/v1.2.3,18,18,0,0
+MJ12bot/v1.0.8,18,18,0,0
+MJ12bot/v1.0.5,18,18,0,0
+MJ12bot/v1.4.0,18,18,0,0
+MJ12bot/v1.4.5,18,18,0,0
+MJ12bot/v1.0.7,18,18,0,0
+WDG_SiteValidator,24,0,0,24
+SemrushBot/1.2~bl,4,4,0,0
+Snapchat,1,0,0,1
+facebookcatalog/1.0,1,0,0,1
+LinkedInBot/1.0,4,0,0,4
+Instagram,1,0,0,1
+bl.uk_lddc_bot,1,0,0,1
+DuckDuckBot-Https,1,0,0,1
+Goodzer/2.0,23,23,0,0
+bpimagewalker/2.0,8,8,0,0
+seokicks-robot,8,8,0,0
+abonti,8,8,0,0
+searchmetricsbot,9,9,0,0
+bubing,8,8,0,0
+unisterbot,8,8,0,0
+smtbot,8,8,0,0
+mixbot,8,8,0,0
+exb language crawler,8,8,0,0
+aboundexbot,8,8,0,0
+memorybot,8,8,0,0
+screenerbot,8,8,0,0
+netestate ne crawler,8,8,0,0
+megaindex.ru,8,8,0,0
+feedbooster,8,8,0,0
+xovibot,8,8,0,0
+lipperhey,8,8,0,0
+advbot,8,8,0,0
+megaindex.ru/2.0,8,8,0,0
+linkpadbot,8,8,0,0
+wbsearchbot,8,8,0,0
+easouspider,8,8,0,0
+Keybot Translation-Search-Machine,1,1,0,0
+AppleBot # Allow /tickets,31,0,31,0
+EdisterBot,14,14,0,0
+SWEBot,14,14,0,0
+Xenu Link Sleuth 1.2e,40,40,0,0
+*Disallow: /wp-adminDisallow: /wp-includesDisallow: /wp-content/pluginsDisallow: /wp-content/cacheDisallow: /wp-json/Disallow: /xmlrpc.phpDisallow: /readme.htmlDisallow: /*?Disallow: /?s=Allow: /*.cssAllow: /*.jsHost: soundandimage.co.za/hotSitemap: ArraySitemap: https://www.soundandimage.co.za/sitemap.xml.gz,4,0,0,4
+*Allow: /*.cssAllow: /*.jsDisallow: /wp-admin/Disallow: /wp-includes/Disallow: /wp-content/plugins/Disallow: /wp-content/cache/Disallow: /wp-json/Disallow: /xmlrpc.phpDisallow: /readme.htmlDisallow: /*?/Disallow: /?s=/Sitemap: https://www.soundandimage.co.za/sitemap.xmlSitemap: https://www.soundandimage.co.za/sitemap.rssSitemap: Array,1,0,0,1
+*Allow: /*.cssAllow: /*.jsDisallow: /wp-admin/Disallow: /wp-includes/Disallow: /wp-content/plugins/Disallow: /wp-content/cache/Disallow: /wp-json/Disallow: /xmlrpc.phpDisallow: /readme.htmlDisallow: /*?/Disallow: /?s=/Sitemap: https://www.soundandimage.co.za/sitemap.xmlSitemap: https://www.soundandimage.co.za/sitemap.rss,1,0,0,1
+Yandex # this directive will be used by all Yandex robots,3,0,3,0
+penthesilea,12,12,0,0
+Bad-Robot Disallow: *,16,0,0,16
+uoCrawl,3,0,0,3
+coccocbot-image,6,6,0,0
+opensearchserver.focusflow.net,14,0,0,14
+Yanga,14,14,0,0
+ZangoToolbar,14,14,0,0
+boo/Nutch,14,14,0,0
+vscooter,1,0,0,1
+Experibot,1,0,0,1
+SearchmetericsBot,1,0,0,1
+parsijoo-bot,1,0,0,1
+thunderstone,1,0,0,1
+Seeker,1,0,0,1
+tbot-nutch,1,0,0,1
+InfoPath.2,1,0,0,1
+taptubot,1,0,0,1
+ip-web-crawler.com,1,0,0,1
+gocrawl,1,0,0,1
+LoadTimeBot,1,0,0,1
+Contacts-Crawler,1,0,0,1
+swebot,1,0,0,1
+RankSonicBot,1,0,0,1
+memoryBot,1,0,0,1
+EC2LinkFinder,1,0,0,1
+Amazonbot               # Amazon's user agent,22,0,22,0
+^Byte,12,12,0,0
+PopeTech-ScanBot,12,0,0,12
+PopeTech-CrawlBot,12,0,0,12
+Yahoobot,27,0,0,27
+Datanyze,18,18,0,0
+Byte,1,1,0,0
+BLEXBot*,6,6,0,0
+URLmetrics,5,5,0,0
+Tarantula web browser,55,55,0,0
+RSS_Reader,55,55,0,0
+FAST Enterprise Crawler,55,0,0,55
+FAST MetaWeb Crawler,55,55,0,0
+parse.ly,3,0,0,3
+SiteImprove.com,1,0,0,1
+Yahoo!,1,0,0,1
+Qwant,1,1,0,0
+linklint,24,0,24,0
+trafficbot.life,6,6,0,0
+Ask Jeeves/Teoma #Ask,12,0,0,12
+ia_archiver #Alexa,12,0,0,12
+HaoSouSpider,1,0,1,0
+Mediabot,1,0,1,0
+SE Ranking Gentle bot,3,3,0,0
+MBCrawler/1.0.,3,3,0,0
+ubersuggestBot,3,3,0,0
+Coveobot,15,0,0,15
+SaladSpoon,1,1,0,0
+yandex bot,1,1,0,0
+temaseek.com,1,1,0,0
+Sogou pic spider,1,1,0,0
+Tagoobot,1,1,0,0
+misterpix,3,3,0,0
+mixrankbot,3,3,0,0
+recorder,3,3,0,0
+lipperhey spider,1,1,0,0
+sqworm,1,1,0,0
+botmailto,1,1,0,0
+batchftp,1,1,0,0
+valet,1,1,0,0
+semantic-visions,1,1,0,0
+custo,1,1,0,0
+tocrawl,1,1,0,0
+getsmart,1,1,0,0
+surveybot,1,1,0,0
+metacarta,1,1,0,0
+website,1,1,0,0
+linkalarm,1,1,0,0
+link,1,1,0,0
+w3c_validator,1,1,0,0
+YandexPagechecker,12,12,0,0
+Yahoo-MMAudVid/1.0,25,25,0,0
+IAArchiver-1.0,25,25,0,0
+crawler@alexa.com,25,25,0,0
+asterias/2.0,25,25,0,0
+Mozilla/5.0 (compatible; Ezooms/1.0; ezooms.bot@gmail.com),21,21,0,0
+anu-gsa-prodprimary-crawler,1,1,0,0
+gsa-crawler-uofu,1,1,0,0
+gsa-prod-crawler,1,1,0,0
+ubgsa,1,1,0,0
+gsa-crawler-urel,1,1,0,0
+nsu-gsa-crawler,1,1,0,0
+uon-gsa-crawler,1,1,0,0
+gsa-emory,1,1,0,0
+gsa-crawler-iastate,1,1,0,0
+Barkrowler/0.9,1,1,0,0
+360Spider-Image,6,0,0,6
+haosouspider,6,0,0,6
+Mozilla/5.0 (compatible; Jobrapido/1.1; +http://www.jobrapido.com),22,22,0,0
+"""Mozilla/5.0 (compatible; Jobrapido/1.1; +http://www.jobrapido.com)""",22,22,0,0
+Jobrapido,22,22,0,0
+wise-guys,22,22,0,0
+Mozilla/5.0 (JobRapido WebPump),22,22,0,0
+innosense,22,22,0,0
+OffByOne,22,22,0,0
+Aghaven,22,22,0,0
+JobCrawlerBot,22,22,0,0
+Jakarta Commons,22,22,0,0
+YandexCatalog,22,22,0,0
+Nutraspace,22,22,0,0
+Speedy Spider,22,22,0,0
+All,47,0,0,47
+Acunetix Web Vulnerability Scanner,1,1,0,0
+Acunetix Security Scanner,1,1,0,0
+Rambler,8,0,0,8
+*Disallow: /feed/Disallow: /trackback/Disallow: /wp-admin/Disallow: /xmlrpc.phpDisallow: /wp-,3,0,0,3
+Google Crawler,4,0,4,0
+Google Spider,4,0,4,0
+typhoeus,4,0,0,4
+ClarityDailyBot,4,0,0,4
+BoardReader Favicon Fetcher,4,0,0,4
+* Bingbot,4,0,0,4
+* Yahoo!bot,4,0,0,4
+Jooble,37,0,37,0
+scrapybot,8,8,0,0
+TwengaBot/2.0,20,20,0,0
