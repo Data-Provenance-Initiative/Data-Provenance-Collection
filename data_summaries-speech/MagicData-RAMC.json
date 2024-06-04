@@ -1,0 +1,80 @@
+{
+    "MagicData-RAMC": {
+        "Dataset Name": "magicdata-ramc",
+        "Unique Dataset Identifier": "magicdata-ramc",
+        "Collection": "MagicData-RAMC",
+        "Hours": 180.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Mandarin Chinese"
+        ],
+        "Languages (ISO)": [
+            "cmn"
+        ],
+        "Language Groups": [
+            "Chinese"
+        ],
+        "Language Families": [
+            "Sino-Tibetan"
+        ],
+        "Speakers": 663,
+        "Tasks": [
+            "Speech Recognition",
+            "Speaker Diarization"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-ND 4.0",
+                "License URL": "https://www.openslr.org/123/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Humanities",
+            "Entertainment",
+            "Sports",
+            "Military",
+            "Finance & Economy",
+            "Religion",
+            "Family Life",
+            "Politics & Law",
+            "Education & Health",
+            "Digital Devices",
+            "Climate & Environment",
+            "Science & Technology",
+            "Professional Development",
+            "Art",
+            "Ordinary Life"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Audios Gotten First With Mobile Apps, Text Trascribed Later",
+        "Github URL": "https://github.com/MagicHub-io/MagicData-RAMC",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://www.openslr.org/123/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/magicdata-ramc",
+        "Paper URL": "https://arxiv.org/pdf/2203.16844",
+        "Semantic Scholar Corpus ID": 247839167,
+        "Creators": [
+            "University of Chinese Academy of Sciences",
+            "Magic Data Technology Co. Ltd.",
+            "Shanghai Jiao Tong University",
+            "Northwestern Polytechnical University"
+        ],
+        "Creator Categories": [
+            "Academia",
+            "Industry"
+        ],
+        "Year Released": 2022,
+        "Location": [
+            "China"
+        ],
+        "Notes": ""
+    }
+}

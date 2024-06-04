@@ -1,0 +1,89 @@
+{
+    "Corpora for Javanese, Sundanese, Sinhala, Nepali, and Bangladeshi Bengali": {
+        "Dataset Name": "corpora-for-javanese-sundanese-sinhala-nepali-and-bangladeshi-bengali",
+        "Unique Dataset Identifier": "corpora-for-javanese-sundanese-sinhala-nepali-and-bangladeshi-bengali",
+        "Collection": "Corpora for Javanese, Sundanese, Sinhala, Nepali, and Bangladeshi Bengali",
+        "Hours": 1247.0,
+        "Languages (Count)": 5,
+        "Languages": [
+            "Javanese",
+            "Sundanese",
+            "Sinhala",
+            "Nepali",
+            "Bangladeshi Bengali"
+        ],
+        "Languages (ISO)": [
+            "jv",
+            "su",
+            "si",
+            "ne",
+            "bn"
+        ],
+        "Language Groups": [
+            "Austronesian",
+            "Low Resource Languages",
+            "Indian Peninsula"
+        ],
+        "Language Families": [
+            "Austronesian",
+            "Indo-European",
+            "Other"
+        ],
+        "Speakers": 3074,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://openslr.org/35/"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://openslr.org/36/"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://openslr.org/52"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://openslr.org/53"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://openslr.org/54"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Web Pages"
+        ],
+        "Source Category": [
+            "Crowd-Sourcing"
+        ],
+        "Source": [
+            "Crowd-Sourcing"
+        ],
+        "Process Description": "Texts Initially Collected And Sentences Prepared, Audio Then Recorded With Participants Reading Off Sentences",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://research.google/pubs/crowd-sourced-speech-corpora-for-javanese-sundanese-sinhala-nepali-and-bangladeshi-bengali/"
+        ],
+        "Papers with Code URL": "",
+        "Paper URL": "https://www.isca-archive.org/sltu_2018/kjartansson18_sltu.pdf",
+        "Semantic Scholar Corpus ID": 53467862,
+        "Creators": [
+            "Google"
+        ],
+        "Creator Categories": [
+            "Industry"
+        ],
+        "Year Released": 2018,
+        "Location": [
+            "United States"
+        ],
+        "Notes": ""
+    }
+}

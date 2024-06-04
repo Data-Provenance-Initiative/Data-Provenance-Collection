@@ -1,0 +1,68 @@
+{
+    "Spoken Wikipedia": {
+        "Dataset Name": "spoken-wikipedia",
+        "Unique Dataset Identifier": "spoken-wikipedia",
+        "Collection": "Spoken Wikipedia",
+        "Hours": 1005.0,
+        "Languages (Count)": 3,
+        "Languages": [
+            "German",
+            "English",
+            "Dutch"
+        ],
+        "Languages (ISO)": [
+            "de",
+            "en",
+            "nl"
+        ],
+        "Language Groups": [
+            "German",
+            "English",
+            "Other Indo-European"
+        ],
+        "Language Families": [
+            "Indo-European",
+            "English"
+        ],
+        "Speakers": 960,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://nats.gitlab.io/swc/"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Wikipedia Articles"
+        ],
+        "Source Category": [
+            "Crowd-Sourcing"
+        ],
+        "Source": [
+            "Crowd-Sourcing"
+        ],
+        "Process Description": "Volunteers Read Out And Record Wikipedia Articles (Which Are Originally Produced In Writing)",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://nats.gitlab.io/swc/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/the-spoken-wikipedia-corpora",
+        "Paper URL": "https://arne.chark.eu/static/spoken-wp-corpus-collection.pdf",
+        "Semantic Scholar Corpus ID": 52825870,
+        "Creators": [
+            "Universitat Hamburg"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2016,
+        "Location": [
+            "Germany"
+        ],
+        "Notes": ""
+    }
+}

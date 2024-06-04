@@ -1,0 +1,39 @@
+{
+    "Multi-Moments in Time: Learning and Interpreting Models for Multi-Action Video Understanding\n": {
+        "Unique Dataset Identifier": "multi-moments-in-time-dataset",
+        "Collection": "multi-moments-in-time-dataset",
+        "Collection URL": "https://arxiv.org/pdf/1911.00232.pdf",
+        "Dataset Name": "Multi-Moments in Time: Learning and Interpreting Models for Multi-Action Video Understanding",
+        "Paper Title": "Multi-Moments in Time: Learning and Interpreting Models for Multi-Action Video Understanding",
+        "Paper URL": "https://arxiv.org/pdf/1911.00232.pdf",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/pdf/1911.00232.pdf",
+        "Semantic Scholar Corpus ID": 207780280,
+        "Year Released": 2021,
+        "Text Sources": [
+            "crowdsourced",
+            "undisclosed web"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "Massachusetts Institute of Technology"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 833.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "crowdsourced",
+            "undisclosed web"
+        ]
+    }
+}

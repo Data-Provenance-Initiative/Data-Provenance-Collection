@@ -1,0 +1,65 @@
+{
+    "JTUBESPEECH": {
+        "Dataset Name": "jtubespeech",
+        "Unique Dataset Identifier": "jtubespeech",
+        "Collection": "JTUBESPEECH",
+        "Hours": 1300.0,
+        "Languages (Count)": 2,
+        "Languages": [
+            "Japanese",
+            "English"
+        ],
+        "Languages (ISO)": [
+            "en",
+            "ja"
+        ],
+        "Language Groups": [
+            "English",
+            "Japanese"
+        ],
+        "Language Families": [
+            "Germanic",
+            "Japonic"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition",
+            "Speaker Identification"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "Topics": "Unclear",
+        "Source Category": [
+            "Internet Video"
+        ],
+        "Source": [
+            "YouTube"
+        ],
+        "Process Description": "Audios With Transcripts Attached",
+        "Github URL": "https://github.com/sarulab-speech/jtubespeech",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://cs.paperswithcode.com/paper/jtubespeech-corpus-of-japanese-speech",
+        "Paper URL": "https://arxiv.org/pdf/2112.09323",
+        "Semantic Scholar Corpus ID": 245329374,
+        "Creators": [
+            "The University of Tokyo",
+            "Technische Universit\u00e4t M\u00fcnchen",
+            "Tokyo Metropolitan University",
+            "Carnegie Mellon University"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2021,
+        "Location": [
+            "Japan",
+            "United States",
+            "Germany"
+        ],
+        "Notes": ""
+    }
+}

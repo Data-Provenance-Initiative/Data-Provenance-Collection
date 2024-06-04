@@ -401,5 +401,17 @@ COLLECTION_FN_MAPPER = {
     "LongAlign-10k": {
         "download_function": downloaders.download_longalign_10k,
         "prepare_function": preparers.prepare_longalign_10k,
+    },
+    "Dynosaur": {
+        "download_function": downloaders.download_dynosaur,
+        "prepare_function": preparers.prepare_dynosaur,
+    },
+    "Lumos Planning": {
+        "download_function": downloaders.download_lumos_planning,
+        "prepare_function": preparers.prepare_lumos_planning,
+    },
+    "Lumos Grounding": {
+        "download_function": downloaders.download_lumos_grounding,
+        "prepare_function": preparers.prepare_lumos_grounding,
     }
 }

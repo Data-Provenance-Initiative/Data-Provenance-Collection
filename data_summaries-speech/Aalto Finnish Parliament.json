@@ -1,0 +1,66 @@
+{
+    "Aalto Finnish Parliament": {
+        "Dataset Name": "aalto-finnish-parliament",
+        "Unique Dataset Identifier": "aalto-finnish-parliament",
+        "Collection": "Aalto Finnish Parliament",
+        "Hours": 3087.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Finnish"
+        ],
+        "Languages (ISO)": [
+            "fi"
+        ],
+        "Language Groups": [
+            "Scandinavian"
+        ],
+        "Language Families": [
+            "Indo-European"
+        ],
+        "Speakers": 449,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://www.kielipankki.fi/lic/eduskunta-av/?lang=en"
+            },
+            {
+                "License": "Custom",
+                "License URL": "https://www.kielipankki.fi/lic/eduskunta-text/?lang=en"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Government",
+            "Politics"
+        ],
+        "Source Category": [
+            "Parliament"
+        ],
+        "Source": [
+            "Finnish Parliament Meeting Recordings"
+        ],
+        "Process Description": "Audios Recorded First, Text Transcribed Later",
+        "Github URL": "https://github.com/aalto-speech/finnish-parliament-scripts",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://www.kielipankki.fi/corpora/fi-parliament-asr/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/paper/finnish-parliament-asr-corpus-analysis",
+        "Paper URL": "https://arxiv.org/abs/2203.14876",
+        "Semantic Scholar Corpus ID": 247779318,
+        "Creators": [
+            "Aalto University"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2023,
+        "Location": [
+            "Finland"
+        ],
+        "Notes": ""
+    }
+}

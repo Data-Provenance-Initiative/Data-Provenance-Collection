@@ -1,0 +1,65 @@
+{
+    "FT SPEECH": {
+        "Dataset Name": "ft-speech",
+        "Unique Dataset Identifier": "ft-speech",
+        "Collection": "FT SPEECH",
+        "Hours": 1857.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Danish"
+        ],
+        "Languages (ISO)": [
+            "da"
+        ],
+        "Language Groups": [
+            "Scandinavian"
+        ],
+        "Language Families": [
+            "Indo-European"
+        ],
+        "Speakers": 434,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://ftspeech.github.io/LICENSE.html"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Government",
+            "Politics"
+        ],
+        "Source Category": [
+            "Parliament"
+        ],
+        "Source": [
+            "Danish Parliament Meeting Recordings"
+        ],
+        "Process Description": "Audios Recorded First, Text Transcribed Later",
+        "Github URL": "https://github.com/ftspeech/ftspeech-kaldi-recipe",
+        "Hugging Face URL": "https://huggingface.co/datasets/alexandrainst/ftspeech",
+        "Website URL": [
+            "https://ftspeech.github.io/about.html"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/dataset/ft-speech",
+        "Paper URL": "https://arxiv.org/pdf/2005.12368",
+        "Semantic Scholar Corpus ID": 218889816,
+        "Creators": [
+            "University of Copenhagen",
+            "Interactions LLC"
+        ],
+        "Creator Categories": [
+            "Academia",
+            "Industry"
+        ],
+        "Year Released": 2020,
+        "Location": [
+            "United States",
+            "Denmark"
+        ],
+        "Notes": ""
+    }
+}
