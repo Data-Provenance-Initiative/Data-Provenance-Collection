@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 import seaborn as sns
+import altair as alt
 from scipy.stats import gaussian_kde
 from plotly.subplots import make_subplots
 from urllib.parse import urlparse
@@ -70,7 +71,7 @@ BOT_TRACKER = {
         # https://developers.facebook.com/docs/sharing/bot/
     },
     "Internet Archive": {
-        "train": ["ia_archiver"], 
+        "train": ["ia_archiver"],
         "retrieval": ["ia_archiver"]
     },
     "Google Search": {
@@ -619,9 +620,6 @@ def prepare_robots_temporal_summary_detailed(
 #     summary_df = pd.DataFrame(summary_df_list)
 #     return summary_df
 
-
-import pandas as pd
-
 def robots_temporal_to_df(filled_status_summary, strictness_order, url_to_counts={}):
     """
     Args:
@@ -648,7 +646,7 @@ def robots_temporal_to_df(filled_status_summary, strictness_order, url_to_counts
                     if url not in url_statuses:
                         url_statuses[url] = []
                     url_statuses[url].append((agent, status))
-        
+
         # Determine the strictest status for each URL
         for url, agent_status_list in url_statuses.items():
             strictest_status = max(agent_status_list, key=lambda x: strictness_order.index(x[1]))[1]
@@ -667,7 +665,7 @@ def robots_temporal_to_df(filled_status_summary, strictness_order, url_to_counts
                         "tokens": sum([url_to_counts.get(url, 0) for url in urls])
                     }
                 )
-    
+
     # Add the "Combined Agent" data
     for period, statuses in combined_agent_summary.items():
         for status, urls in statuses.items():
@@ -680,7 +678,7 @@ def robots_temporal_to_df(filled_status_summary, strictness_order, url_to_counts
                     "tokens": sum([url_to_counts.get(url, 0) for url in urls])
                 }
             )
-    
+
     summary_df = pd.DataFrame(summary_df_list)
     return summary_df
 
@@ -1135,19 +1133,26 @@ def prepare_tos_robots_confusion_matrix(
 
 
 def plot_robots_time_map_altair(
-    df,
-    agent_type,
-    period_col,
-    status_col,
-    val_col,
-    title="",
-    ordered_statuses=None,
-    status_colors=None,
-    datetime_swap=False,
-):
+    df: pd.DataFrame,
+    agent_type: str,
+    period_col: str,
+    status_col: str,
+    val_col: str,
+    title: str = "",
+    ordered_statuses: list[str] = None,
+    status_colors: dict[str, str] = None,
+    datetime_swap: bool = False,
+    legend_cols: int = 1,
+    vertical_line_dates: list[str] = [],
+    label_fontsize: int = 14,
+    title_fontsize: int = 16,
+    width: int = 1000,
+    height: int = 200,
+    forecast_startdate: str = None,
+    legend_title: str = None,
+) -> alt.Chart:
     # Filter the DataFrame for the relevant agent
     filtered_df = df[df["agent"] == agent_type]
-    # print(filtered_df)
     return plot_temporal_area_map_altair(
         filtered_df,
         period_col=period_col,
@@ -1157,20 +1162,37 @@ def plot_robots_time_map_altair(
         ordered_statuses=ordered_statuses,
         status_colors=status_colors,
         datetime_swap=datetime_swap,
+        legend_cols=legend_cols,
+        vertical_line_dates=vertical_line_dates,
+        label_fontsize=label_fontsize,
+        title_fontsize=title_fontsize,
+        width=width,
+        height=height,
+        forecast_startdate=forecast_startdate,
+        legend_title=legend_title
     )
 
 
 def plot_robots_time_map_altair_detailed(
-    df,
-    agent_type,
-    period_col,
-    status_col,
-    val_col,
-    title="",
-    ordered_statuses=None,
-    status_colors=None,
-    datetime_swap=False,
-):
+    df: pd.DataFrame,
+    agent_type: str,
+    period_col: str,
+    status_col: str,
+    val_col: str,
+    title: str = "",
+    ordered_statuses: list[str] = None,
+    status_colors: dict[str, str] = None,
+    datetime_swap: bool = False,
+    legend_cols: int = 1,
+    vertical_line_dates: list[str] = [],
+    label_fontsize: int = 14,
+    title_fontsize: int = 16,
+    width: int = 1000,
+    height: int = 200,
+    forecast_startdate: str = None,
+    configure: bool = True,
+    legend_title: str = None
+) -> alt.Chart:
     # Filter the DataFrame for the relevant agent
     filtered_df = df[df["agent"] == agent_type]
 
@@ -1228,20 +1250,37 @@ def plot_robots_time_map_altair_detailed(
         title=title,
         ordered_statuses=ordered_statuses,
         status_colors=status_colors,
+        legend_cols=legend_cols,
+        vertical_line_dates=vertical_line_dates,
+        label_fontsize=label_fontsize,
+        title_fontsize=title_fontsize,
+        width=width,
+        height=height,
+        forecast_startdate=forecast_startdate,
+        configure=configure,
+        legend_title=legend_title
     )
 
     return chart
 
 
 def plot_temporal_area_map_altair(
-    df,
-    period_col,
-    status_col,
-    val_col,
-    title="",
-    ordered_statuses=None,
-    status_colors=None,
-    datetime_swap=False,
+    df: pd.DataFrame,
+    period_col: str,
+    status_col: str,
+    val_col: str,
+    title: str = "",
+    ordered_statuses: list[str] = None,
+    status_colors: dict[str, str] = None,
+    datetime_swap: bool = False,
+    legend_cols: int = 1,
+    vertical_line_dates: list[str] = [],
+    label_fontsize: int = 14,
+    title_fontsize: int = 16,
+    width: int = 1000,
+    height: int = 200,
+    forecast_startdate: str = None,
+    **plot_kwargs
 ):
     # Group by 'period' and 'status', and sum up the 'count'
     grouped_df = (
@@ -1279,6 +1318,14 @@ def plot_temporal_area_map_altair(
         title=title,
         ordered_statuses=ordered_statuses,
         status_colors=status_colors,
+        legend_cols=legend_cols,
+        vertical_line_dates=vertical_line_dates,
+        label_fontsize=label_fontsize,
+        title_fontsize=title_fontsize,
+        width=width,
+        height=height,
+        forecast_startdate=forecast_startdate,
+        **plot_kwargs
     )
 
     return chart
@@ -1287,7 +1334,6 @@ def plot_temporal_area_map_altair(
 ############################################################
 ###### Plotly Code
 ############################################################
-
 
 def plot_robots_heat_map_plotly(
     filled_status_summary, agent_groups_to_track, val_key="count"
