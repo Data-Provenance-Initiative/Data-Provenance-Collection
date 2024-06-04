@@ -38,7 +38,7 @@
         ],
         "Licenses": [
             {
-                "License": "Apache 2.0 License",
+                "License": "Apache License 2.0",
                 "License URL": "https://github.com/prometheus-eval/prometheus-eval"
             },
             {
@@ -53,7 +53,7 @@
         ],
         "Bibtex": "",
         "Inferred Metadata": {
-            "GitHub License": "Apache 2.0 License",
+            "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 528,
             "GitHub Topics": [],
             "Github Date": "",

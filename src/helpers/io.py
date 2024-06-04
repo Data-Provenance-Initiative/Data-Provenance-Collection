@@ -59,9 +59,9 @@ def read_json(inpath: str, verbose=False):
         return json.load(inf)
 
 def write_jsonl(
-    data: typing.Union[pd.DataFrame, typing.List[typing.Dict]], 
-    outpath: str, 
-    compress: bool=False, 
+    data: typing.Union[pd.DataFrame, typing.List[typing.Dict]],
+    outpath: str,
+    compress: bool=False,
     dumps=None,
 ):
     dirname = os.path.dirname(outpath)
@@ -111,6 +111,7 @@ def read_data_summary_json(summary_dir: str):
 def read_all_constants(constants_dir):
     license_classes = read_json(os.path.join(constants_dir, constants.LICENSE_CONSTANTS_FP))
     custom_license_classes = read_json(os.path.join(constants_dir, constants.CUSTOM_LICENSE_CONSTANTS_FP))
+    license_paraphrases = read_json(os.path.join(constants_dir, constants.LICENSE_PARAPHRASES_FP))
     language_groups = read_json(os.path.join(constants_dir, constants.LANGUAGE_CONSTANTS_FP))
     task_groups = read_json(os.path.join(constants_dir, constants.TASK_CONSTANTS_FP))
     model_groups = read_json(os.path.join(constants_dir, constants.MODEL_CONSTANTS_FP))
@@ -119,10 +120,12 @@ def read_all_constants(constants_dir):
     all_formats = read_json(os.path.join(constants_dir, constants.FORMATS_CONSTANTS_FP))
     topic_groups = read_json(os.path.join(constants_dir, constants.TOPIC_CONSTANTS_FP))
     domain_groups = read_json(os.path.join(constants_dir, constants.DOMAINS_CONSTANTS_FP))
+    domain_types = read_json(os.path.join(constants_dir, constants.DOMAIN_TYPES_CONSTANTS_FP))
 
     return {
         "LICENSE_CLASSES": license_classes,
         "CUSTOM_LICENSE_CLASSES": custom_license_classes,
+        "LICENSE_PARAPHRASES": license_paraphrases,
         "LANGUAGE_GROUPS": language_groups,
         "TASK_GROUPS": task_groups,
         "MODEL_GROUPS": model_groups,
@@ -131,6 +134,7 @@ def read_all_constants(constants_dir):
         "FORMATS": all_formats,
         "TOPICS": topic_groups,
         "DOMAIN_GROUPS": domain_groups,
+        "DOMAIN_TYPES": domain_types
     }
 
 

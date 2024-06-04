@@ -1,0 +1,57 @@
+{
+    "Moments in Time Dataset: one million videos for event understanding (TPAMI 2019)\n": {
+        "Unique Dataset Identifier": "moments-in-time-dataset",
+        "Collection": "moments-in-time-dataset",
+        "Collection URL": "https://arxiv.org/pdf/1801.03150.pdf",
+        "Dataset Name": "Moments in Time Dataset: one million videos for event understanding (TPAMI 2019)",
+        "Paper Title": "Moments in Time Dataset: one million videos for event understanding (TPAMI 2019)",
+        "Paper URL": "https://arxiv.org/pdf/1801.03150.pdf",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/pdf/1801.03150.pdf",
+        "Semantic Scholar Corpus ID": 11868155,
+        "Year Released": 2019,
+        "Text Sources": [
+            "youtube",
+            "flickr",
+            "vine",
+            "metacafe",
+            "peeks",
+            "vimeo",
+            "videoblocks",
+            "bing videos",
+            "giphy",
+            "weather channel",
+            "getty-images"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "http://moments.csail.mit.edu/"
+            }
+        ],
+        "Creators": [
+            "Massachusetts Institute of Technology"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 833.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "youtube",
+            "flickr",
+            "vine",
+            "metacafe",
+            "peeks",
+            "vimeo",
+            "videoblocks",
+            "bing videos",
+            "giphy",
+            "weather channel",
+            "getty-images"
+        ]
+    }
+}

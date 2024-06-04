@@ -1,0 +1,69 @@
+{
+    "OpenSTT": {
+        "Dataset Name": "openstt",
+        "Unique Dataset Identifier": "openstt",
+        "Collection": "OpenSTT",
+        "Hours": 20000.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Russian"
+        ],
+        "Languages (ISO)": [
+            "ru"
+        ],
+        "Language Groups": [
+            "Other Indo-European"
+        ],
+        "Language Families": [
+            "Indo-European"
+        ],
+        "Speakers": "Unclear",
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/snakers4/open_stt/?tab=readme-ov-file#license"
+            }
+        ],
+        "License Notes": "",
+        "Topics": [
+            "Radio",
+            "Public Speech",
+            "YouTube",
+            "Audiobooks",
+            "Phone Calls",
+            "Lectures"
+        ],
+        "Source Category": [
+            "Internet Video",
+            "Audiobooks",
+            "Radio",
+            "Phone Calls"
+        ],
+        "Source": [
+            "YouTube",
+            "Other"
+        ],
+        "Process Description": "Audios Gotten First, Text Trascribed Later",
+        "Github URL": "https://github.com/snakers4/open_stt/",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/exploration-of-end-to-end-asr-for-openstt",
+        "Paper URL": "https://arxiv.org/pdf/2006.08274",
+        "Semantic Scholar Corpus ID": 219687535,
+        "Creators": [
+            "ITMO University",
+            "STC-innovations Ltd"
+        ],
+        "Creator Categories": [
+            "Academia",
+            "Industry"
+        ],
+        "Year Released": 2019,
+        "Location": [
+            "Russia"
+        ],
+        "Notes": ""
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "AFRISPEECH-200": {
+        "Dataset Name": "afrispeech-200",
+        "Unique Dataset Identifier": "afrispeech-200",
+        "Collection": "AFRISPEECH-200",
+        "Hours": 200.0,
+        "Languages (Count)": 23,
+        "Languages": [
+            "Yoruba",
+            "Swahili",
+            "Igbo",
+            "Zulu",
+            "Setswana",
+            "Isizulu",
+            "Ijaw",
+            "Luhya",
+            "Twi",
+            "Idoma",
+            "Luganda",
+            "Tswana",
+            "Akan",
+            "Kikuyu",
+            "Xhosa",
+            "Sepedi",
+            "Kiswahili",
+            "Urhobo",
+            "Nembe",
+            "Kinyarwanda",
+            "Hausa",
+            "Afrikaans",
+            "Luo"
+        ],
+        "Languages (ISO)": [
+            "yo",
+            "sw",
+            "ig",
+            "zu",
+            "tn",
+            "zu",
+            "ij",
+            "luy",
+            "tw",
+            "ido",
+            "lg",
+            "tn",
+            "ak",
+            "ki",
+            "xh",
+            "nso",
+            "sw",
+            "urh",
+            "rw",
+            "ha",
+            "af",
+            "luo",
+            "ijs"
+        ],
+        "Language Groups": [
+            "Low Resource Languages"
+        ],
+        "Language Families": [
+            "Afroasiatic",
+            "Indo-European",
+            "Atlantic-Congo",
+            "Other"
+        ],
+        "Speakers": 2463,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/tobiolatunji/afrispeech-200"
+            }
+        ],
+        "License Notes": "CC BY-NC-SA 4.0 (paper, HF)",
+        "Topics": [
+            "Politics",
+            "Entertainment",
+            "Sports",
+            "Religion",
+            "Education",
+            "Health"
+        ],
+        "Source Category": [
+            "Crowd-Sourcing"
+        ],
+        "Source": [
+            "Crowd-Sourcing"
+        ],
+        "Process Description": "Transcripts Created First, Audio Recorded Later",
+        "Github URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/tobiolatunji/afrispeech-200",
+        "Papers with Code URL": "https://paperswithcode.com/paper/afrispeech-200-pan-african-accented-speech",
+        "Paper URL": "https://arxiv.org/abs/2310.00274",
+        "Semantic Scholar Corpus ID": 263334123,
+        "Creators": [
+            "Nigeria & Masakhane NLP",
+            "Intron Health",
+            "CISPA Helmholtz Center for Information Security",
+            "AI Saturdays Lagos",
+            "Karya Inc",
+            "Mila Quebec AI Institute",
+            "Lanfrica",
+            "Ford Motor Company",
+            "Lelapa AI",
+            "McGill University",
+            "University of Deusto",
+            "Instituto Polit\u00e9cnico Nacional",
+            "University of Colorado Colorado Springs",
+            "University of Minnesota"
+        ],
+        "Creator Categories": [
+            "Academia",
+            "Industry",
+            "Nonprofit"
+        ],
+        "Year Released": 2023,
+        "Location": [
+            "Nigeria",
+            "India",
+            "South Africa",
+            "United States",
+            "Germany",
+            "Canada",
+            "Mexico",
+            "Spain"
+        ],
+        "Notes": ""
+    }
+}
