@@ -1,0 +1,262 @@
+{
+    "lumos-planning-complex_qa": {
+        "Unique Dataset Identifier": "lumos-planning-complex_qa",
+        "Dataset Name": "ai2lumos/lumos_unified_plan_iterative",
+        "Paper Title": "Agent Lumos: Unified and Modular Training for Open-Source Language Agents",
+        "Dataset URL": "https://huggingface.co/datasets/ai2lumos/lumos_unified_plan_iterative",
+        "GitHub URL": "https://github.com/allenai/lumos",
+        "Hugging Face URL": "https://huggingface.co/datasets/ai2lumos/lumos_unified_plan_iterative",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2311.05657",
+        "Semantic Scholar Corpus ID": 265128672,
+        "Collection": "Lumos Planning",
+        "Collection URL": "https://huggingface.co/datasets/ai2lumos/lumos_unified_plan_iterative",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Logical Reasoning Question Answering",
+            "Binary Question Answering",
+            "Open-Domain Question Answering",
+            "Dialogue Generation",
+            "Instruction Following"
+        ],
+        "Text Sources": [
+            "ML Datasets",
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "StrategyQA",
+            "Musique"
+        ],
+        "Creators": [
+            "AI2",
+            "UCLA",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/ai2lumos/lumos_unified_plan_iterative"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/eladsegal/strategyqa/blob/main/LICENSE"
+            },
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://github.com/StonyBrookNLP/musique?tab=readme-ov-file#data"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "The license information is clearly stated in the Lumos Huggingface repo.",
+        "License Verified By": "Da Yin",
+        "Dataset Filter IDs": [
+            "complex_qa"
+        ],
+        "Bibtex": "@article{yin2023lumos, title={Agent Lumos: Unified and Modular Training for Open-Source Language Agents}, author={Yin, Da and Brahman, Faeze and Ravichander, Abhilasha and Chandu, Khyathi and Chang, Kai-Wei and Choi, Yejin and Lin, Bill Yuchen}, journal={arXiv preprint arXiv:2311.05657}, year={2023}}"
+    },
+    "lumos-planning-maths": {
+        "Unique Dataset Identifier": "lumos-planning-maths",
+        "Dataset Name": "ai2lumos/lumos_unified_plan_iterative",
+        "Paper Title": "Agent Lumos: Unified and Modular Training for Open-Source Language Agents",
+        "Dataset URL": "https://huggingface.co/datasets/ai2lumos/lumos_unified_plan_iterative",
+        "GitHub URL": "https://github.com/allenai/lumos",
+        "Hugging Face URL": "https://huggingface.co/datasets/ai2lumos/lumos_unified_plan_iterative",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2311.05657",
+        "Semantic Scholar Corpus ID": 265128672,
+        "Collection": "Lumos Planning",
+        "Collection URL": "https://huggingface.co/datasets/ai2lumos/lumos_unified_plan_iterative",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Logical Reasoning Question Answering",
+            "Dialogue Generation",
+            "Instruction Following"
+        ],
+        "Text Sources": [
+            "ML Datasets",
+            "school math word problems"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "GSM8K",
+            "PRM800K",
+            "AsDiv"
+        ],
+        "Creators": [
+            "AI2",
+            "UCLA",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/ai2lumos/lumos_unified_plan_iterative"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/openai/grade-school-math/blob/master/LICENSE"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/openai/prm800k/blob/main/LICENSE"
+            },
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/chaochun/nlu-asdiv-dataset?tab=readme-ov-file#citation"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "The license information is clearly stated in the Lumos Huggingface repo.",
+        "License Verified By": "Da Yin",
+        "Dataset Filter IDs": [
+            "maths"
+        ],
+        "Bibtex": "@article{yin2023lumos, title={Agent Lumos: Unified and Modular Training for Open-Source Language Agents}, author={Yin, Da and Brahman, Faeze and Ravichander, Abhilasha and Chandu, Khyathi and Chang, Kai-Wei and Choi, Yejin and Lin, Bill Yuchen}, journal={arXiv preprint arXiv:2311.05657}, year={2023}}"
+    },
+    "lumos-planning-web_agent": {
+        "Unique Dataset Identifier": "lumos-planning-web_agent",
+        "Dataset Name": "ai2lumos/lumos_unified_plan_iterative",
+        "Paper Title": "Agent Lumos: Unified and Modular Training for Open-Source Language Agents",
+        "Dataset URL": "https://huggingface.co/datasets/ai2lumos/lumos_unified_plan_iterative",
+        "GitHub URL": "https://github.com/allenai/lumos",
+        "Hugging Face URL": "https://huggingface.co/datasets/ai2lumos/lumos_unified_plan_iterative",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2311.05657",
+        "Semantic Scholar Corpus ID": 265128672,
+        "Collection": "Lumos Planning",
+        "Collection URL": "https://huggingface.co/datasets/ai2lumos/lumos_unified_plan_iterative",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialogue Generation",
+            "Instruction Following"
+        ],
+        "Text Sources": [
+            "ML Datasets",
+            "crowdsourced",
+            "travel websites",
+            "shopping websites",
+            "service websites",
+            "entertainment websites",
+            "information websites"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "Mind2Web"
+        ],
+        "Creators": [
+            "AI2",
+            "UCLA",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/ai2lumos/lumos_unified_plan_iterative"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/OSU-NLP-Group/Mind2Web/blob/main/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "The license information is clearly stated in the Lumos Huggingface repo.",
+        "License Verified By": "Da Yin",
+        "Dataset Filter IDs": [
+            "web_agent"
+        ],
+        "Bibtex": "@article{yin2023lumos, title={Agent Lumos: Unified and Modular Training for Open-Source Language Agents}, author={Yin, Da and Brahman, Faeze and Ravichander, Abhilasha and Chandu, Khyathi and Chang, Kai-Wei and Choi, Yejin and Lin, Bill Yuchen}, journal={arXiv preprint arXiv:2311.05657}, year={2023}}"
+    },
+    "lumos-planning-multimodal": {
+        "Unique Dataset Identifier": "lumos-planning-multimodal",
+        "Dataset Name": "ai2lumos/lumos_unified_plan_iterative",
+        "Paper Title": "Agent Lumos: Unified and Modular Training for Open-Source Language Agents",
+        "Dataset URL": "https://huggingface.co/datasets/ai2lumos/lumos_unified_plan_iterative",
+        "GitHub URL": "https://github.com/allenai/lumos",
+        "Hugging Face URL": "https://huggingface.co/datasets/ai2lumos/lumos_unified_plan_iterative",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2311.05657",
+        "Semantic Scholar Corpus ID": 265128672,
+        "Collection": "Lumos Planning",
+        "Collection URL": "https://huggingface.co/datasets/ai2lumos/lumos_unified_plan_iterative",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialogue Generation",
+            "Instruction Following"
+        ],
+        "Text Sources": [
+            "ML Datasets",
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "A-OKVQA"
+        ],
+        "Creators": [
+            "AI2",
+            "UCLA",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/ai2lumos/lumos_unified_plan_iterative"
+            },
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://github.com/allenai/aokvqa"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "The license information is clearly stated in the Lumos Huggingface repo.",
+        "License Verified By": "Da Yin",
+        "Dataset Filter IDs": [
+            "multimodal"
+        ],
+        "Bibtex": "@article{yin2023lumos, title={Agent Lumos: Unified and Modular Training for Open-Source Language Agents}, author={Yin, Da and Brahman, Faeze and Ravichander, Abhilasha and Chandu, Khyathi and Chang, Kai-Wei and Choi, Yejin and Lin, Bill Yuchen}, journal={arXiv preprint arXiv:2311.05657}, year={2023}}"
+    }
+}

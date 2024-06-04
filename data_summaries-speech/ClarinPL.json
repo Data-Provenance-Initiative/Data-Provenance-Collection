@@ -1,0 +1,58 @@
+{
+    "ClarinPL": {
+        "Dataset Name": "clarinpl",
+        "Unique Dataset Identifier": "clarinpl",
+        "Collection": "ClarinPL",
+        "Hours": 56.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "Polish"
+        ],
+        "Languages (ISO)": [
+            "pl"
+        ],
+        "Language Groups": [
+            "Other Indo-European"
+        ],
+        "Language Families": [
+            "Indo-European"
+        ],
+        "Speakers": 317,
+        "Tasks": [
+            "Speech Recognition"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://arxiv.org/pdf/1706.00245"
+            }
+        ],
+        "License Notes": "",
+        "Topics": "Unclear",
+        "Source Category": [
+            "Calling Platform",
+            "Human Participants"
+        ],
+        "Source": [
+            "Calling Platform",
+            "Human Participants"
+        ],
+        "Process Description": "Audios Gotten First, Text Trascribed Later",
+        "Github URL": "https://github.com/danijel3/ClarinStudioKaldi",
+        "Hugging Face URL": "https://huggingface.co/datasets/jimregan/clarinpl_studio",
+        "Papers with Code URL": "https://paperswithcode.com/paper/polish-read-speech-corpus-for-speech-tools",
+        "Paper URL": "https://arxiv.org/abs/1706.00245",
+        "Semantic Scholar Corpus ID": 29839254,
+        "Creators": [
+            "Polish-Japanese Academy of Information Technology"
+        ],
+        "Creator Categories": [
+            "Academia"
+        ],
+        "Year Released": 2017,
+        "Location": [
+            "Poland"
+        ],
+        "Notes": ""
+    }
+}

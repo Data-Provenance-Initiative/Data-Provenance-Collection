@@ -29,62 +29,25 @@ python website_geolocation.py --custom_url_list "http://example.com" "http://exa
 ### Website Temporal Extraction
 
 This script collects historical versions of webpages and extracts their raw text/HTML content for analysis. It uses the Wayback Machine and [CDX API](https://github.com/internetarchive/wayback/blob/master/wayback-cdx-server/README.md) to retrieve snapshots of websites at different time intervals (daily, weekly, monthly, or yearly). Additionally, it tracks the number of times a given webpage has changed its content within the specified time range. To install the required dependencies, use the `requirements_wayback.txt` file.
+
 ```
-python src/web_analysis/wayback_cdx.py --url-file <in-path> --start-date <YYYYMMDD> --end-date <YYYYMMDD>
+python -m web_analysis.wayback_extraction.temporal_pipeline --input-path data/tos --snapshots-path data/snapshots --stats-path data/stats --start-date <YYYYMMDD> --end-date <YYYYMMDD> --save-snapshots --count-changes --process-to-json --max-chunk-size 1000 --site-type tos
 ```
 **Arguments**
 
-- `--url-file` (required): Path to a text file containing a list of URLs, one per line.
-- `--start-date` (required): Start date in the YYYYMMDD format.
-- `--end-date` (required): End date in the YYYYMMDD format.
-- `--frequency` (optional): Frequency of data collection. Options are "daily", "weekly", "monthly", or "annual" (default is "monthly").
-- `--num-workers` (optional): Number of worker threads (default is 10).
-- `--snapshots-folder` (optional): Directory to save the website snapshots (default is "snapshots").
-- `--stats-folder` (optional): Directory to save statistical data (default is "stats").
-- `--debug` (optional): Enable detailed logging and/or debugging.
+TODO: update
 
-NOTE: The Wayback CDX API does not allow for filtering by week, so if you choose "weekly" the script will filtr using daily granularity and then aggregate the results into weeks manually in the post-processing step.
+NOTE: The Wayback CDX API does not allow for filtering by week, so if you choose "weekly" the script will filter using daily granularity and then aggregate the results into weeks manually in the post-processing step.
 
 **Example**
 
-Here's a concrete example using the `urls_example.txt` file in this folder: 
-```
-python src/web_analysis/wayback_cdx.py --url-file urls_example.txt --start-date 20230101 --end-date 20230107 --frequency daily
-```
-This command creates two directories: `snapshots` and `stats`.
-
-1. The `snapshots` folder contains subfolders for each website, with sanitized URLs as folder names (e.g., `www_bloomberg_com_tos`). Inside each subfolder, there are daily snapshots of the website in HTML format (e.g., `20230102204130.html`).
-
-2. The `stats` folder contains JSON files with statistical data about the website changes. For example, for the site `https://www.bloomberg.com/tos/`, the corresponding JSON file `www_bloomberg_com_tos_stats.json` has following information:
-
-```json
-{
-  "url": "https://www.bloomberg.com/tos/",
-  "change_counts": {
-    "2023-01-01": 0,
-    "2023-01-02": 1,
-    "2023-01-03": 1,
-    "2023-01-04": 0,
-    "2023-01-05": 1,
-    "2023-01-06": 0,
-    "2023-01-07": 1
-  }
-}
-```
-This indicates that the content of the website changed 4 times within the specified date range (01-01-2023 to 01-07-2023).
+TODO: update
 
 **Rate Limiting**
 
 To avoid overwhelming sites and respect rate limits, this script uses the `ratelimit` library to limit the number of requests to 3 requests per second. 
 
 If you need to adjust the rate limit, modify the `@limits` decorator in the `get_pages`, `get_snapshot_content`, and `count_site_changes` methods.
-
-**Basic Plotting (WIP)**
-
-Plot of basic output statistics after running historical extraction.
-```
-python src/web_analysis/plot.py <data-in-path> <png-out-path>
-```
 
 
 ### Robots.txt Extraction & Parsing
@@ -111,16 +74,21 @@ This script facilitates the analysis of Terms of Service (ToS) and other usage p
 
 Example usage - 
 
-Using the default dataset, run the `AI-policy` prompt on a sample size of 100. Save sample as a `.plk` file for future reference:
+Using a full JSON dataset, run the `AI-policy` prompt and save output:
 
 ```
-python gpt_tos_analysis.py --save_sample True --sample_size 100 --prompt_key AI-policy
+python gpt_tos_analysis.py --input_file_path "\path-to-data.json" --prompt_key "AI-policy" --output_file_path "\path-for-output-data.json"
 ```
 
-Run the `type-of-license` prompt on a custom sample:
+Run the `type-of-license` prompt on a custom sample and save output to csv file:
 
 ```
-python gpt_tos_analysis.py --custom_sample True --sample_file_path "\path-to-sample-data.pkl" --prompt_key type-of-license
+python gpt_tos_analysis.py --input_sample_file_path "\path-to-sample-data.pkl" --prompt_key "type-of-license" --save_verdicts_to_csv True
+```
+Run the `scraping-policy` prompt on a custom sample, filter text without keywords:
+
+```
+python gpt_tos_analysis.py --input_sample_file_path "\path-to-sample-data.pkl" --prompt_key "scraping-policy" --filter_keywords True
 ```
 
 Note - 

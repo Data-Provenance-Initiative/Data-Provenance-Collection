@@ -1,0 +1,66 @@
+{
+    "SDS-200": {
+        "Dataset Name": "sds-200",
+        "Unique Dataset Identifier": "sds-200",
+        "Collection": "SDS-200",
+        "Hours": 200.0,
+        "Languages (Count)": 1,
+        "Languages": [
+            "German (Dialects)"
+        ],
+        "Languages (ISO)": [
+            "de"
+        ],
+        "Language Groups": [
+            "German"
+        ],
+        "Language Families": [
+            "Indo-European"
+        ],
+        "Speakers": 4000,
+        "Tasks": [
+            "Speech Recognition",
+            "Speech Translation"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://swissnlp.org/home/activities/datasets/"
+            }
+        ],
+        "License Notes": "MS NC-NoReD",
+        "Topics": [
+            "Newspapers",
+            "German Common Voice Corpus"
+        ],
+        "Source Category": [
+            "Human Participants"
+        ],
+        "Source": [
+            "Human Participants"
+        ],
+        "Process Description": "Audios Recorded First, Text Transcribed Later",
+        "Github URL": "",
+        "Hugging Face URL": "",
+        "Website URL": [
+            "https://swissnlp.org/home/activities/datasets/"
+        ],
+        "Papers with Code URL": "https://paperswithcode.com/paper/sds-200-a-swiss-german-speech-to-standard",
+        "Paper URL": "https://arxiv.org/pdf/2205.09501",
+        "Semantic Scholar Corpus ID": 248887445,
+        "Creators": [
+            "University of Applied Sciences and Arts Northwestern Switzerland",
+            "Zurich University of Applied Sciences",
+            "SpinningBytes AG"
+        ],
+        "Creator Categories": [
+            "Academia",
+            "Industry"
+        ],
+        "Year Released": 2022,
+        "Location": [
+            "Switzerland"
+        ],
+        "Notes": ""
+    }
+}
