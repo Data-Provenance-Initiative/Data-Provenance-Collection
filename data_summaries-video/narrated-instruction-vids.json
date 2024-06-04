@@ -1,7 +1,7 @@
 {
     "Narrated Instruction Videos": {
-        "Unique Dataset Identifier": "narrated-instruction-vids\n",
-        "Collection": "narrated-instruction-vids\n",
+        "Unique Dataset Identifier": "narrated-instruction-vids",
+        "Collection": "narrated-instruction-vids",
         "Collection URL": "https://arxiv.org/abs/1506.09215",
         "Dataset Name": "Narrated Instruction Videos",
         "Paper Title": "Narrated Instruction Videos",
