@@ -415,80 +415,6 @@ def plot_confusion_matrix(
     return final_plot
 
 
-
-# def create_stacked_area_chart(
-#     df,
-#     period_col,
-#     status_col,
-#     percentage_col,
-#     title='',
-#     ordered_statuses=None,
-#     status_colors=None,
-#     vertical_line_dates=[],
-#     width=1200,
-#     height=400,
-#     font_size=20,
-#     font_style='sans-serif',
-# ):
-#     if ordered_statuses is None:
-#         ordered_statuses = df[status_col].unique().tolist()
-
-#     if status_colors is None:
-#         status_colors = {status: 'gray' for status in ordered_statuses}
-
-#     # Create the Altair chart
-#     chart = alt.Chart(df).mark_area().encode(
-#         x=alt.X(f'{period_col}:T', axis=alt.Axis(format='%Y', title=period_col)),
-#         y=alt.Y(f'{percentage_col}:Q', scale=alt.Scale(domain=[0, 1]), axis=alt.Axis(format='.0f', title=percentage_col)),
-#         color=alt.Color(
-#             f'{status_col}:N',
-#             scale=alt.Scale(domain=list(status_colors.keys()), range=list(status_colors.values())),
-#             title=status_col
-#         ),
-#         order="order:Q"
-#     )
-
-#     if vertical_line_dates:
-#         for vl_date in vertical_line_dates:
-#             vl_date = pd.to_datetime(vl_date)
-#             vertical_line = alt.Chart(pd.DataFrame({period_col: [vl_date]})).mark_rule(
-#                 color='white',
-#                 strokeDash=[5, 5]
-#             ).encode(
-#                 x=f'{period_col}:T'
-#             )
-#             chart = chart + vertical_line
-
-#     final_plot = chart.properties(
-#         title=title,
-#         width=width,
-#         height=height
-#     ).configure_axis(
-#         labelFontSize=font_size,
-#         labelFont=font_style,
-#         titleFontSize=font_size,
-#         titleFont=font_style,
-#         domain=True
-#     ).configure_axisX(
-#         labelAngle=0,
-#         domain=True,
-#         format='%Y',
-#         tickCount='year',
-#         labelExpr="timeFormat(datum.value, '%Y')"  # Ensure only year labels are shown
-#     ).configure_axisY(
-#         domain=True,
-#         format='.0f',
-#         labelExpr="datum.value * 100"  # Scale from 0-1 to 0-100
-#     ).configure_legend(
-#         labelFontSize=font_size,
-#         titleFontSize=font_size,
-#         labelFont=font_style,
-#         titleFont=font_style
-#     )
-
-#     return final_plot
-
-
 def create_stacked_area_chart(
     df: pd.DataFrame,
     period_col: str,
@@ -548,27 +474,27 @@ def create_stacked_area_chart(
         color="black"
     ).encode(
         x="period:T",
-        y=alt.value((height // 2) - (height // 8)),
-        y2=alt.value((height // 2) + (height // 8))
+        y=alt.value(-20),
+        y2=alt.value(height)
     )
 
     rules_midpoint = alt.Chart(df_rules).mark_point(
         color="black"
     ).encode(
         x="period:T",
-        y=alt.value(height // 2)
+        y=alt.value(-20)
     )
 
     rules_text = alt.Chart(df_rules).mark_text(
-        align="center",
+        align="left",
         baseline="middle",
-        dx=2,
-        dy=-(height // 8) - 10,
+        dx=10,
+        dy=0,
         color="black",
         fontSize=label_fontsize
     ).encode(
         x="period:T",
-        y=alt.value(height // 2),
+        y=alt.value(-20),
         text="label:N"
     )
 
@@ -583,8 +509,8 @@ def create_stacked_area_chart(
         shading = alt.Chart(
             pd.DataFrame({"start": [forecast_startdate], "end": [df[period_col].max()]})
         ).mark_rect(
-            opacity=0.2,
-            color="gray"
+            opacity=0.4,
+            color="white"
         ).encode(
             x=alt.X("start:T", title=""),
             x2="end:T"
@@ -599,7 +525,6 @@ def create_stacked_area_chart(
             dx=0,
             dy=height - 20,
             color="black",
-            fontSize=title_fontsize,
             fontWeight="bold"
         ).encode(
             x="date:T",
@@ -830,159 +755,6 @@ def plot_robots_time_map_3d_density(
     fig.show()
 
 
-# def plot_company_comparisons_altair(
-#     df,
-#     vertical_line_dates=[],
-#     color_mapping={},
-#     label_fontsize=14,
-#     title_fontsize=16,
-#     width=1000,
-#     height=200,
-#     scale_y="linear",
-#     show_months=False,
-#     forecast_startdate=None
-# ):
-#     # Assuming you have your data in a DataFrame called 'df'
-#     df = df.copy()  # Create a copy to avoid modifying the original DataFrame
-
-#     # Convert the 'Period' column to datetime
-#     # df['period'] = pd.to_datetime(df['period'], format='%Y-%m')
-#     df['period'] = df['period'].dt.to_timestamp()
-
-#     # Calculate the percentage of tokens for the 'Restrictive' status
-#     total_tokens = df.groupby(['period', 'agent'])['tokens'].sum().reset_index()
-#     restrictive_tokens = df[df['status'] == 'all'].groupby(['period', 'agent'])['tokens'].sum().reset_index()
-#     data = pd.merge(total_tokens, restrictive_tokens, on=['period', 'agent'], how='left').fillna(0)
-#     data['percent_Restrictive'] = (data['tokens_y'] / data['tokens_x']) * 100
-#     data = data[['period', 'agent', 'percent_Restrictive']]
-
-#     # Create the color scale based on the provided color mapping
-#     color_scale = alt.Scale(domain=list(color_mapping.keys()), range=list(color_mapping.values()))
-
-#     # Create the Altair chart
-#     chart = alt.Chart(data).mark_line(point=True).encode(
-#         x=alt.X(
-#             'yearmonth(period):T',
-#             title='', # No title needed for the X-axis
-#             axis=alt.Axis(format="%Y", labelAngle=0, tickCount="year") if (not show_months) else alt.Axis()
-#         ),
-#         y=alt.Y(
-#             'percent_Restrictive:Q',
-#             title='Percentage of Tokens',
-#             scale=alt.Scale(type=scale_y)
-#         ),
-#         color=alt.Color('agent:N', scale=color_scale, legend=alt.Legend(title='Agent', orient='bottom')),
-#         # color=alt.Color('agent:N', scale=color_scale, legend=alt.Legend(title='Agent')),
-#         tooltip=['agent', alt.Tooltip('percent_Restrictive:Q', format='.2f')]
-#     )
-
-#     # if vertical_line_dates:
-#     #     for vl_date in vertical_line_dates:
-#     #         vl_date = pd.to_datetime(vl_date)
-#     #         vertical_line = alt.Chart(pd.DataFrame({'period': [vl_date]})).mark_rule(
-#     #             color='white',
-#     #             strokeDash=[5, 5]
-#     #         ).encode(
-#     #             x='period:T'
-#     #         )
-#     #         chart = chart + vertical_line
-
-#     rules_dates = [pd.to_datetime(vl_date) for vl_date, _ in vertical_line_dates]
-#     df_rules = pd.DataFrame(
-#         {
-#             "period": rules_dates,
-#             "label": [label for _, label in vertical_line_dates]
-#         }
-#     )
-
-#     rules = alt.Chart(
-#         df_rules
-#     ).mark_rule(
-#         color="black",
-#         strokeDash=[5, 5]
-#     ).encode(x="period:T")
-
-#     def get_nearest_y(data, x_value):
-#         nearest = data.iloc[(data['period'] - x_value).abs().argsort()[:1]]
-#         return nearest['percent_Restrictive'].values[0]
-
-#     # Calculate the dynamic y-values for the text labels
-#     df_rules['y'] = df_rules['period'].apply(lambda x: get_nearest_y(data, x)) + 5
-
-#     # Update the rules_text section to use the new y-values
-#     rules_text = alt.Chart(
-#         df_rules
-#     ).mark_text(
-#         align="center",
-#         baseline="middle",
-#         dx=10,
-#         dy=-10,
-#         color="black",
-#         fontSize=label_fontsize
-#     ).encode(
-#         x="period:T",
-#         y=alt.Y('y:Q'),
-#         text="label:N"
-#     )
-
-#     if forecast_startdate:
-#         forecast_startdate = pd.to_datetime(forecast_startdate)
-#         shading = alt.Chart(
-#             pd.DataFrame(
-#                 {
-#                     "start": [forecast_startdate],
-#                     "end": [data["period"].max()]
-#                 }
-#             )
-#         ).mark_rect(
-#             opacity=0.2,
-#             color="gray"
-#         ).encode(
-#             x=alt.X("start:T", title=""),
-#             x2="end:T"
-#         )
-
-#         shading_text = alt.Chart(
-#             pd.DataFrame(
-#                 {
-#                     "date": [forecast_startdate + (data["period"].max() - forecast_startdate) / 2],
-#                     "text": ["Forecast"]
-#                 }
-#             )
-#         ).mark_text(
-#             align="center",
-#             baseline="middle",
-#             dx=0,
-#             dy=180,
-#             color="gray",
-#             fontSize=label_fontsize,
-#             fontWeight="bold"
-#         ).encode(
-#             x="date:T",
-#             y=alt.value(0),
-#             text="text:N"
-#         )
-
-#         chart = chart + shading + shading_text
-
-#     chart = (chart + rules + rules_text).properties(
-#         width=width,
-#         height=height,
-#     ).configure_axis(
-#         grid=False,
-#         labelFontSize=label_fontsize,
-#         titleFontSize=title_fontsize,
-#         labelAngle=0
-#     ).configure_legend(
-#         labelFontSize=label_fontsize,
-#         titleFontSize=title_fontsize
-#     ).configure_view(
-#         strokeWidth=0
-#     )
-
-#     return chart
-
-
 def plot_company_comparisons_altair(
     df: pd.DataFrame,
     vertical_line_dates: list[tuple[str, str]] = [], # List of tuples with vertical line dates and corresponding labels
@@ -1010,6 +782,9 @@ def plot_company_comparisons_altair(
     data["percent_Restrictive"] = (data["tokens_y"] / data["tokens_x"]) * 100
     data = data[["period", "agent", "percent_Restrictive"]]
 
+    data["timestamp"] = data["period"].map(pd.Timestamp.timestamp)
+    forecast_ts = pd.to_datetime(forecast_startdate).timestamp() if forecast_startdate else int(data["timestamp"].max())
+
     # Create the color scale based on the provided color mapping
     color_scale = alt.Scale(domain=list(color_mapping.keys()), range=list(color_mapping.values()))
 
@@ -1017,7 +792,9 @@ def plot_company_comparisons_altair(
     # BASE CHART
     # Create the Altair chart
     ################################################################
-    chart = alt.Chart(data).mark_line(point=True).encode(
+    chart = alt.Chart(
+        data[data["timestamp"] <= forecast_ts]
+    ).mark_line(point=True).encode(
         x=alt.X(
             "yearmonth(period):T",
             title="",
@@ -1081,6 +858,15 @@ def plot_company_comparisons_altair(
     # Add a shaded region for forecasted data, if needed
     ################################################################
     if forecast_startdate:
+        chart_line = alt.Chart(
+            data[data["timestamp"] >= forecast_ts]
+        ).mark_line().encode(
+            x=alt.X("yearmonth(period):T", title="", axis=alt.Axis(format="%Y", labelAngle=0, tickCount="year")),
+            y=alt.Y("percent_Restrictive:Q", title="Percentage of Tokens", scale=alt.Scale(type=scale_y)),
+            color=alt.Color("agent:N", scale=color_scale, legend=alt.Legend(title="Agent", orient="bottom")),
+            strokeDash=alt.value([5, 5])
+        )
+
         forecast_startdate = pd.to_datetime(forecast_startdate)
         shading = alt.Chart(
             pd.DataFrame({"start": [forecast_startdate], "end": [data["period"].max()]})
@@ -1090,6 +876,14 @@ def plot_company_comparisons_altair(
         ).encode(
             x=alt.X("start:T", title=""),
             x2="end:T"
+        )
+
+        forecast_rule = alt.Chart(
+            pd.DataFrame({"period": [forecast_startdate]})
+        ).mark_rule(
+            color="gray"
+        ).encode(
+            x="period:T"
         )
 
         # Add a label in the middle of the forecasted region
@@ -1109,7 +903,7 @@ def plot_company_comparisons_altair(
             text="text:N"
         )
 
-        chart = chart + shading + shading_text
+        chart = chart_line + chart + shading + forecast_rule + shading_text
 
     ################################################################
     # CHART PROPERTIES
