@@ -70,7 +70,7 @@ BOT_TRACKER = {
         # https://developers.facebook.com/docs/sharing/bot/
     },
     "Internet Archive": {
-        "train": ["ia_archiver"], 
+        "train": ["ia_archiver"],
         "retrieval": ["ia_archiver"]
     },
     "Google Search": {
@@ -1228,6 +1228,13 @@ def plot_robots_time_map_altair_detailed(
         title=title,
         ordered_statuses=ordered_statuses,
         status_colors=status_colors,
+        legend_cols=legend_cols,
+        vertical_line_dates=vertical_line_dates,
+        label_fontsize=label_fontsize,
+        title_fontsize=title_fontsize,
+        width=width,
+        height=height,
+        forecast_startdate=forecast_startdate
     )
 
     return chart
@@ -1287,7 +1294,6 @@ def plot_temporal_area_map_altair(
 ############################################################
 ###### Plotly Code
 ############################################################
-
 
 def plot_robots_heat_map_plotly(
     filled_status_summary, agent_groups_to_track, val_key="count"
