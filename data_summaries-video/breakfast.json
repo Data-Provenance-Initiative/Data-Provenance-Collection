@@ -1,7 +1,7 @@
 {
     "Breakfast": {
-        "Unique Dataset Identifier": "breakfast\n",
-        "Collection": "breakfast\n",
+        "Unique Dataset Identifier": "breakfast",
+        "Collection": "breakfast",
         "Collection URL": "https://openaccess.thecvf.com/content_cvpr_2014/html/Kuehne_The_Language_of_2014_CVPR_paper.html",
         "Dataset Name": "Breakfast",
         "Paper Title": "Breakfast",
