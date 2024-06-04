@@ -1148,7 +1148,8 @@ def plot_robots_time_map_altair(
     title_fontsize: int = 16,
     width: int = 1000,
     height: int = 200,
-    forecast_startdate: str = None
+    forecast_startdate: str = None,
+    legend_title: str = None,
 ) -> alt.Chart:
     # Filter the DataFrame for the relevant agent
     filtered_df = df[df["agent"] == agent_type]
@@ -1167,7 +1168,8 @@ def plot_robots_time_map_altair(
         title_fontsize=title_fontsize,
         width=width,
         height=height,
-        forecast_startdate=forecast_startdate
+        forecast_startdate=forecast_startdate,
+        legend_title=legend_title
     )
 
 
@@ -1188,7 +1190,8 @@ def plot_robots_time_map_altair_detailed(
     width: int = 1000,
     height: int = 200,
     forecast_startdate: str = None,
-    configure: bool = True
+    configure: bool = True,
+    legend_title: str = None
 ) -> alt.Chart:
     # Filter the DataFrame for the relevant agent
     filtered_df = df[df["agent"] == agent_type]
@@ -1254,7 +1257,8 @@ def plot_robots_time_map_altair_detailed(
         width=width,
         height=height,
         forecast_startdate=forecast_startdate,
-        configure=configure
+        configure=configure,
+        legend_title=legend_title
     )
 
     return chart

@@ -557,10 +557,7 @@ def analyze_robots(
 def forecast_company_comparisons_altair(df, lags, val_col, n_periods=6):
     df = df.copy()  # Create a copy to avoid modifying the original DataFrame
 
-    def convert_period_to_timestamp(x):
-        return x.to_timestamp()
-
-    df["period"] = df["period"].apply(convert_period_to_timestamp)
+    df["period"] = df["period"].apply(lambda x: x.to_timestamp())
 
     # Calculate the percentage of tokens for the 'Restrictive' status
     total_tokens = df.groupby(["period", "agent"])[val_col].sum().reset_index()
