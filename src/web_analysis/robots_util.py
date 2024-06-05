@@ -621,6 +621,7 @@ def prepare_robots_temporal_summary_detailed(
 #     summary_df = pd.DataFrame(summary_df_list)
 #     return summary_df
 
+
 def robots_temporal_to_df(filled_status_summary, strictness_order, url_to_counts={}):
     """
     Args:
@@ -650,7 +651,9 @@ def robots_temporal_to_df(filled_status_summary, strictness_order, url_to_counts
 
         # Determine the strictest status for each URL
         for url, agent_status_list in url_statuses.items():
-            strictest_status = max(agent_status_list, key=lambda x: strictness_order.index(x[1]))[1]
+            strictest_status = max(
+                agent_status_list, key=lambda x: strictness_order.index(x[1])
+            )[1]
             if strictest_status not in combined_agent_summary[period]:
                 combined_agent_summary[period][strictest_status] = set()
             combined_agent_summary[period][strictest_status].add(url)
@@ -663,7 +666,7 @@ def robots_temporal_to_df(filled_status_summary, strictness_order, url_to_counts
                         "agent": agent,
                         "status": status,
                         "count": len(urls),
-                        "tokens": sum([url_to_counts.get(url, 0) for url in urls])
+                        "tokens": sum([url_to_counts.get(url, 0) for url in urls]),
                     }
                 )
 
@@ -676,12 +679,13 @@ def robots_temporal_to_df(filled_status_summary, strictness_order, url_to_counts
                     "agent": "Combined Agent",
                     "status": status,
                     "count": len(urls),
-                    "tokens": sum([url_to_counts.get(url, 0) for url in urls])
+                    "tokens": sum([url_to_counts.get(url, 0) for url in urls]),
                 }
             )
 
     summary_df = pd.DataFrame(summary_df_list)
     return summary_df
+
 
 # # Example usage:
 # filled_status_summary = {
@@ -706,7 +710,6 @@ def robots_temporal_to_df(filled_status_summary, strictness_order, url_to_counts
 
 # summary_df = robots_temporal_to_df(filled_status_summary, url_to_counts, strictness_order)
 # print(summary_df)
-
 
 
 def get_latest_url_robot_statuses(url_robots_summary, agents):
@@ -743,9 +746,10 @@ def switch_dates_yearly_to_monthly(nested_dict):
             nested_dict[url][new_date] = nested_dict[url].pop(date)
     return nested_dict
 
+
 def tos_policy_merging(
-    verdict_ai, 
-    verdict_license, 
+    verdict_ai,
+    verdict_license,
     compete_verdict,
 ):
     if verdict_license == "Non-Comercial Only":
@@ -770,18 +774,16 @@ def tos_policy_merging(
         return verdict_ai
 
 
-
 def determine_tos_verdicts(
-    tos_time, 
-    ai_verdict_dict, 
+    tos_time,
+    ai_verdict_dict,
     license_verdict_dict,
     compete_verdict_dict,
 ):
     verdict = None
     if tos_time in license_verdict_dict and tos_time in compete_verdict_dict:
         verdict_ai_codes = [
-            vinfo["verdict"]
-            for vinfo in ai_verdict_dict[tos_time].values()
+            vinfo["verdict"] for vinfo in ai_verdict_dict[tos_time].values()
         ]
         verdict_license_codes = [
             vinfo["verdict"] if vinfo["verdict"] else 3
@@ -791,9 +793,15 @@ def determine_tos_verdicts(
             vinfo["verdict"] if vinfo["verdict"] else 4
             for vinfo in compete_verdict_dict[tos_time].values()
         ]
-        ai_verdict = analysis_constants.TOS_AI_SCRAPING_VERDICT_MAPPER[min(verdict_ai_codes)]
-        license_verdict = analysis_constants.TOS_LICENSE_VERDICT_MAPPER[min(verdict_license_codes)]
-        compete_verdict = analysis_constants.TOS_COMPETE_VERDICT_MAPPER[min(verdict_compete_codes)]
+        ai_verdict = analysis_constants.TOS_AI_SCRAPING_VERDICT_MAPPER[
+            min(verdict_ai_codes)
+        ]
+        license_verdict = analysis_constants.TOS_LICENSE_VERDICT_MAPPER[
+            min(verdict_license_codes)
+        ]
+        compete_verdict = analysis_constants.TOS_COMPETE_VERDICT_MAPPER[
+            min(verdict_compete_codes)
+        ]
         verdict = tos_policy_merging(ai_verdict, license_verdict, compete_verdict)
     return verdict
 
@@ -816,18 +824,18 @@ def get_tos_url_time_verdicts(
     for url, time_to_subpage_to_verdicts in tos_policies.items():
         for tos_time, subpage_verdict in time_to_subpage_to_verdicts.items():
             verdict = determine_tos_verdicts(
-                tos_time, time_to_subpage_to_verdicts, tos_license_policies[url], tos_compete_policies[url])
+                tos_time,
+                time_to_subpage_to_verdicts,
+                tos_license_policies[url],
+                tos_compete_policies[url],
+            )
             if verdict is None:
                 misses += 1
             else:
                 hits += 1
                 if url not in url_to_time_to_verdict:
                     url_to_time_to_verdict[url] = {}
-                url_to_time_to_verdict[url].update(
-                    {
-                        tos_time: verdict
-                    }
-                )
+                url_to_time_to_verdict[url].update({tos_time: verdict})
     print(f"{misses} / {misses + hits} dates missed due to time mismatches.")
     return url_to_time_to_verdict
 
@@ -1029,8 +1037,8 @@ def tos_get_most_recent_verdict(
         recent_key = max(time_to_subpage_to_verdicts.keys())
 
         url_to_recent_policy[url] = determine_tos_verdicts(
-            recent_key, 
-            time_to_subpage_to_verdicts, 
+            recent_key,
+            time_to_subpage_to_verdicts,
             tos_license_policies[url],
             tos_compete_policies[url],
         )
@@ -1050,7 +1058,8 @@ def prepare_recent_robots_tos_info(
     url_robots_status = get_latest_url_robot_statuses(url_robots_summary, agent_names)
     print(len(url_robots_status))
     url_tos_verdicts = tos_get_most_recent_verdict(
-        tos_policies_dict, tos_license_policies, tos_compete_policies)
+        tos_policies_dict, tos_license_policies, tos_compete_policies
+    )
     return url_robots_status, url_tos_verdicts
 
 
@@ -1064,7 +1073,11 @@ def encode_latest_tos_robots_into_df(
 ):
 
     recent_url_robots, recent_url_tos_verdicts = prepare_recent_robots_tos_info(
-        tos_policies, tos_license_policies, tos_compete_policies, url_robots_summary, companies
+        tos_policies,
+        tos_license_policies,
+        tos_compete_policies,
+        url_robots_summary,
+        companies,
     )
     url_results_df["robots"] = url_results_df["URL"].map(recent_url_robots)
     url_results_df["robots"].fillna("none", inplace=True)
@@ -1077,7 +1090,9 @@ def encode_latest_tos_robots_into_df(
     # tos_strictness = {
     #     v: k < 5 for k, v in analysis_constants.TOS_AI_SCRAPING_VERDICT_MAPPER.items()
     # }
-    url_results_df["Restrictive Terms"] = url_results_df["ToS"].apply(lambda x: x != 'Unrestricted Use')
+    url_results_df["Restrictive Terms"] = url_results_df["ToS"].apply(
+        lambda x: x != "Unrestricted Use"
+    )
     return url_results_df
 
 
@@ -1237,6 +1252,7 @@ def plot_robots_time_map_altair(
     height: int = 200,
     forecast_startdate: str = None,
     legend_title: str = None,
+    configure=False,
 ) -> alt.Chart:
     # Filter the DataFrame for the relevant agent
     filtered_df = df[df["agent"] == agent_type]
@@ -1256,7 +1272,8 @@ def plot_robots_time_map_altair(
         width=width,
         height=height,
         forecast_startdate=forecast_startdate,
-        legend_title=legend_title
+        legend_title=legend_title,
+        configure=configure,
     )
 
 
@@ -1278,7 +1295,7 @@ def plot_robots_time_map_altair_detailed(
     height: int = 200,
     forecast_startdate: str = None,
     configure: bool = True,
-    legend_title: str = None
+    legend_title: str = None,
 ) -> alt.Chart:
     # Filter the DataFrame for the relevant agent
     filtered_df = df[df["agent"] == agent_type]
@@ -1345,7 +1362,7 @@ def plot_robots_time_map_altair_detailed(
         height=height,
         forecast_startdate=forecast_startdate,
         configure=configure,
-        legend_title=legend_title
+        legend_title=legend_title,
     )
 
     return chart
@@ -1367,7 +1384,7 @@ def plot_temporal_area_map_altair(
     width: int = 1000,
     height: int = 200,
     forecast_startdate: str = None,
-    **plot_kwargs
+    **plot_kwargs,
 ):
     # Group by 'period' and 'status', and sum up the 'count'
     grouped_df = (
@@ -1412,7 +1429,7 @@ def plot_temporal_area_map_altair(
         width=width,
         height=height,
         forecast_startdate=forecast_startdate,
-        **plot_kwargs
+        **plot_kwargs,
     )
 
     return chart
@@ -1421,6 +1438,7 @@ def plot_temporal_area_map_altair(
 ############################################################
 ###### Plotly Code
 ############################################################
+
 
 def plot_robots_heat_map_plotly(
     filled_status_summary, agent_groups_to_track, val_key="count"
