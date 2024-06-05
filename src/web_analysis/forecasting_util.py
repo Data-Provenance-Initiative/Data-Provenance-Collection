@@ -7,6 +7,7 @@ from statsmodels.tsa.statespace.sarimax import SARIMAX
 import typing
 
 from . import robots_util
+from analysis import visualization_util
 
 # disable user warning
 import warnings
@@ -144,7 +145,7 @@ def forecast_and_plot(
     val_col: str = "count",
     detailed: bool = False,
     n_periods: int = 6,
-    **plot_kwargs: dict
+    **plot_kwargs: dict,
 ) -> alt.Chart:
     # Filter the DataFrame for the specific agent
     agent_df = df[df["agent"] == agent].copy()
@@ -174,9 +175,7 @@ def forecast_and_plot(
 
     # Make future predictions
     future_periods = pd.date_range(
-        start=agent_df["period"].max(),
-        periods=n_periods,
-        freq="M"
+        start=agent_df["period"].max(), periods=n_periods, freq="M"
     )
 
     predictions = {}
@@ -218,7 +217,7 @@ def forecast_and_plot(
             status_colors=status_colors,
             datetime_swap=True,
             forecast_startdate=forecast_startdate,
-            **plot_kwargs
+            **plot_kwargs,
         )
     else:
         chart = robots_util.plot_robots_time_map_altair(
@@ -232,7 +231,7 @@ def forecast_and_plot(
             status_colors=status_colors,
             datetime_swap=True,
             forecast_startdate=forecast_startdate,
-            **plot_kwargs
+            **plot_kwargs,
         )
     # map the confidence intervals to the predicted df
     for status, conf_int in conf_intervals.items():
@@ -254,7 +253,7 @@ def forecast_and_plot_prophet(
     status_colors: typing.Dict[str, str],
     ordered_statuses: typing.List[str],
     n_periods: int = 6,
-    **plot_kwargs: dict
+    **plot_kwargs: dict,
 ) -> alt.Chart:
     # Pick agent
     agent_df = df[df["agent"] == agent].copy()
@@ -315,7 +314,7 @@ def forecast_and_plot_prophet(
 
     forecast_startdate = predicted_df["period"].min()
 
-    chart = robots_util.plot_robots_time_map_altair(
+    chart = robots_util.plot_robots_time_map_altair_detailed(
         combined_df,
         agent_type=agent,
         period_col="period",
@@ -325,7 +324,7 @@ def forecast_and_plot_prophet(
         status_colors=status_colors,
         datetime_swap=True,
         forecast_startdate=forecast_startdate,
-        **plot_kwargs
+        **plot_kwargs,
     )
 
     return chart
@@ -338,7 +337,7 @@ def forecast_and_plot_arima(
     status_colors: typing.Dict[str, str],
     ordered_statuses: typing.List[str],
     n_periods: int = 6,
-    **plot_kwargs: dict
+    **plot_kwargs: dict,
 ) -> alt.Chart:
     # Pick agent
     agent_df = df[df["agent"] == agent].copy()
@@ -378,9 +377,7 @@ def forecast_and_plot_arima(
     # Combine the predictions into a single DataFrame
     predicted_df = pd.DataFrame(predictions, index=future_periods)
     predicted_df = predicted_df.reset_index().melt(
-        id_vars="index",
-        var_name="status",
-        value_name="predicted_value"
+        id_vars="index", var_name="status", value_name="predicted_value"
     )
 
     predicted_df.columns = ["period", "status", "predicted_value"]
@@ -399,7 +396,6 @@ def forecast_and_plot_arima(
     combined_df = pd.concat([agent_df, predicted_df], ignore_index=True)
 
     forecast_startdate = predicted_df["period"].min()
-
 
     chart = robots_util.plot_robots_time_map_altair(
         combined_df,
@@ -411,7 +407,7 @@ def forecast_and_plot_arima(
         status_colors=status_colors,
         datetime_swap=True,
         forecast_startdate=forecast_startdate,
-        **plot_kwargs
+        **plot_kwargs,
     )
 
     return chart
@@ -420,71 +416,67 @@ def forecast_and_plot_arima(
 def forecast_and_plot_sarima(
     df: pd.DataFrame,
     agent: str,
-    lags: typing.List[int],
-    seasonal_order: typing.Tuple[int, int, int],
+    order: typing.Tuple[int, int, int],
+    seasonal_order: typing.Tuple[int, int, int, int],
     status_colors: typing.Dict[str, str],
     ordered_statuses: typing.List[str],
-    n_periods: int = 6,
-    **plot_kwargs: dict
+    n_periods: int = 12,
+    **plot_kwargs: dict,
 ) -> alt.Chart:
-    # Pick agent
-    agent_df = df[df["agent"] == agent].copy()
-
-    # agent_df.loc[:, 'period'] = agent_df['period'].apply(lambda x: x.to_timestamp() if isinstance(x, pd.Period) else x)
-    agent_df["period"] = agent_df["period"].apply(lambda x: x.to_timestamp())
-
+    filtered_df = df[df["agent"] == agent].copy()
+    grouped_df = (
+        filtered_df.groupby(["period", "status"])["tokens"].sum().unstack(fill_value=0)
+    )
+    grouped_df = grouped_df[ordered_statuses]
+    total_counts = grouped_df.sum(axis=1)
+    percent_df = grouped_df.div(total_counts, axis=0).reset_index()
+    percent_df["period"] = percent_df["period"].apply(lambda x: x.to_timestamp())
     # Reshape the data
-    pivoted_df = agent_df.pivot_table(index="period", columns="status", values="count")
+    pivoted_df = percent_df.melt(
+        id_vars="period", var_name="status", value_name="percentage"
+    )
+    pivoted_df["tokens"] = pivoted_df["percentage"]
+    pivoted_df["agent"] = agent
 
-    # Normalize the counts to percentages
-    pivoted_df = pivoted_df.div(pivoted_df.sum(axis=1), axis=0) * 100
-
-    # Create separate DataFrames for each status
-    status_dfs = {}
-    for status in pivoted_df.columns:
-        status_df = pivoted_df[[status]].reset_index()
-        status_df.columns = ["ds", "y"]
-        status_df = create_lagged_features(status_df, lags)
-        status_dfs[status] = status_df
-
-    # Train SARIMA models for each status
-    models = {}
-    for status, status_df in status_dfs.items():
-        model = SARIMAX(
-            status_df["y"], order=(max(lags), 0, 0), seasonal_order=seasonal_order
+    # Fit SARIMA or ARIMA model for each status
+    predicted_data = []
+    for status in ordered_statuses:
+        status_data = pivoted_df[pivoted_df["status"] == status]
+        if seasonal_order is not None:
+            model = SARIMAX(
+                status_data["percentage"], order=order, seasonal_order=seasonal_order
+            )
+        else:
+            model = ARIMA(status_data["percentage"], order=order)
+        models = model.fit(disp=False)
+        # Make future predictions
+        future_periods = pd.date_range(
+            start=percent_df["period"].max() + pd.DateOffset(months=1),
+            periods=n_periods,
+            freq="M",
         )
-        models[status] = model.fit(disp=False)
+        forecast = models.forecast(steps=n_periods)
+        forecast[forecast < 0] = 0  # Clip negative values to zero
+        conf_int = models.get_forecast(steps=n_periods).conf_int()
+        predicted_df = pd.DataFrame(
+            {"period": future_periods, "status": status, "percentage": forecast}
+        )
+        predicted_df["agent"] = agent
+        predicted_df["tokens"] = predicted_df["percentage"]
+        predicted_df["lower"] = conf_int.iloc[:, 0]
+        predicted_df["upper"] = conf_int.iloc[:, 1]
+        predicted_data.append(predicted_df)
 
-    # Make future predictions
-    future_periods = pd.date_range(
-        start=agent_df["period"].max(), periods=n_periods, freq="M"
+    predicted_data = pd.concat(predicted_data)
+    predicted_data["total_percentage"] = predicted_data.groupby("period")[
+        "percentage"
+    ].transform("sum")
+    predicted_data["percentage"] = (
+        predicted_data["percentage"] / predicted_data["total_percentage"]
     )
-    predictions = {}
-    for status, model in models.items():
-        forecast = model.get_forecast(steps=n_periods)
-        predictions[status] = forecast.predicted_mean.values
-
-    # Combine the predictions into a single DataFrame
-    predicted_df = pd.DataFrame(predictions, index=future_periods)
-    predicted_df = predicted_df.reset_index().melt(
-        id_vars="index", var_name="status", value_name="predicted_value"
-    )
-    predicted_df.columns = ["period", "status", "predicted_value"]
-    # add agent column
-    predicted_df["agent"] = agent
-    # add tokens column
-    predicted_df["tokens"] = predicted_df["predicted_value"]
-    # Define the color scheme for the statuses
-    # status_colors = {
-    #     "no_robots": "gray",
-    #     "none": "blue",
-    #     "some": "orange",
-    #     "all": "red",
-    # }
-
-    combined_df = pd.concat([agent_df, predicted_df], ignore_index=True)
-
-    forecast_startdate = predicted_df["period"].min()
+    predicted_data.drop("total_percentage", axis=1, inplace=True)
+    combined_df = pd.concat([pivoted_df, predicted_data], ignore_index=True)
+    forecast_startdate = predicted_data["period"].min()
 
     chart = robots_util.plot_robots_time_map_altair(
         combined_df,
@@ -497,9 +489,9 @@ def forecast_and_plot_sarima(
         status_colors=status_colors,
         datetime_swap=True,
         forecast_startdate=forecast_startdate,
-        **plot_kwargs
+        configure=False,
+        **plot_kwargs,
     )
-
     return chart
 
 
@@ -555,7 +547,7 @@ def analyze_robots(
     chart.show()
 
 
-def forecast_company_comparisons_altair(df, lags, val_col, n_periods=6):
+def forecast_company_comparisons_autoregression(df, lags, val_col, n_periods=6):
     df = df.copy()  # Create a copy to avoid modifying the original DataFrame
 
     df["period"] = df["period"].apply(lambda x: x.to_timestamp())
@@ -611,6 +603,184 @@ def forecast_company_comparisons_altair(df, lags, val_col, n_periods=6):
 
     # Concatenate the original and predicted data
     predicted_data = pd.concat(predicted_data)
-    combined_data = pd.concat([data, predicted_data])
+    combined_df = pd.concat([data, predicted_data])
 
-    return combined_data
+    return combined_df
+
+
+def forecast_company_comparisons_sarima(
+    df: pd.DataFrame,
+    val_col: str,
+    n_periods: int = 12,
+    order: typing.Tuple[int, int, int] = (2, 1, 1),
+    seasonal_order: typing.Tuple[int, int, int, int] = (1, 1, 1, 4),
+) -> pd.DataFrame:
+    df = df.copy()  # Create a copy to avoid modifying the original DataFrame
+
+    def convert_period_to_timestamp(x):
+        return x.to_timestamp()
+
+    df["period"] = df["period"].apply(convert_period_to_timestamp)
+
+    # Calculate the percentage of tokens for the 'Restrictive' status
+    total_tokens = df.groupby(["period", "agent"])[val_col].sum().reset_index()
+    restrictive_tokens = (
+        df[df["status"] == "all"]
+        .groupby(["period", "agent"])[val_col]
+        .sum()
+        .reset_index()
+    )
+    data = pd.merge(
+        total_tokens, restrictive_tokens, on=["period", "agent"], how="left"
+    ).fillna(0)
+    data["percent_Restrictive"] = (data["tokens_y"] / data["tokens_x"]) * 100
+    data = data[["period", "agent", "percent_Restrictive"]]
+
+    pivoted_df = data.pivot_table(
+        index="period", columns="agent", values="percent_Restrictive"
+    )
+
+    predicted_data = []
+    for agent in pivoted_df.columns:
+        agent_data = pivoted_df[agent]
+
+        if seasonal_order is not None:
+            model = SARIMAX(agent_data, order=order, seasonal_order=seasonal_order)
+        else:
+            model = ARIMA(agent_data, order=order)
+
+        models = model.fit(disp=False)
+
+        # Make future predictions
+        future_periods = pd.date_range(
+            start=data["period"].max() + pd.DateOffset(months=1),
+            periods=n_periods,
+            freq="M",
+        )
+        forecast = models.forecast(steps=n_periods)
+        conf_int = models.get_forecast(steps=n_periods).conf_int()
+
+        predicted_df = pd.DataFrame(
+            {"period": future_periods, "agent": agent, "percent_Restrictive": forecast}
+        )
+        predicted_df["lower"] = conf_int.iloc[:, 0]
+        predicted_df["upper"] = conf_int.iloc[:, 1]
+        predicted_data.append(predicted_df)
+
+    predicted_data = pd.concat(predicted_data)
+    combined_df = pd.concat([data, predicted_data])
+
+    return combined_df
+
+
+def plot_and_forecast_tos_sarima(
+    df: pd.DataFrame,
+    period_col: str,
+    status_col: str,
+    val_col: str,
+    title: str = "",
+    ordered_statuses: typing.List[str] = None,
+    status_colors: typing.Dict[str, str] = None,
+    datetime_swap: bool = False,
+    legend_cols: int = 1,
+    vertical_line_dates: typing.List[str] = [],
+    label_fontsize: int = 14,
+    title_fontsize: int = 16,
+    width: int = 1000,
+    height: int = 200,
+    forecast_startdate: str = None,
+    configure: bool = False,
+    n_periods: int = 12,
+    order: typing.Tuple[int, int, int] = (2, 1, 2),
+    seasonal_order: typing.Tuple[int, int, int, int] = (1, 1, 1, 4),
+    **plot_kwargs,
+):
+    # Group by 'period' and 'status', and sum up the 'count'
+    grouped_df = (
+        df.groupby([period_col, status_col])[val_col].sum().unstack(fill_value=0)
+    )
+
+    # Reorder the columns as desired
+    if ordered_statuses is None:
+        ordered_statuses = grouped_df.columns.tolist()
+
+    grouped_df = grouped_df[ordered_statuses]
+
+    # Calculate the total counts for each period
+    total_counts = grouped_df.sum(axis=1)
+
+    # Calculate the percentage of each status per period
+    percent_df = grouped_df.div(total_counts, axis=0).reset_index()
+
+    if datetime_swap:
+        percent_df[period_col] = pd.to_datetime(percent_df[period_col])
+    else:
+        percent_df[period_col] = percent_df[period_col].dt.to_timestamp()
+
+    # Reshape the data
+    pivoted_df = percent_df.melt(
+        id_vars=period_col, var_name=status_col, value_name="percentage"
+    )
+    pivoted_df[val_col] = pivoted_df["percentage"]
+
+    # Fit SARIMA or ARIMA model for each status
+    predicted_data = []
+    for status in ordered_statuses:
+        status_data = pivoted_df[pivoted_df[status_col] == status]
+        if seasonal_order is not None:
+            model = SARIMAX(
+                status_data["percentage"], order=order, seasonal_order=seasonal_order
+            )
+        else:
+            model = ARIMA(status_data["percentage"], order=order)
+        models = model.fit(disp=False)
+        # Make future predictions
+        future_periods = pd.date_range(
+            start=percent_df[period_col].max() + pd.DateOffset(months=1),
+            periods=n_periods,
+            freq="M",
+        )
+        forecast = models.forecast(steps=n_periods)
+        forecast[forecast < 0] = 0  # Clip negative values to zero
+        conf_int = models.get_forecast(steps=n_periods).conf_int()
+        predicted_df = pd.DataFrame(
+            {period_col: future_periods, status_col: status, "percentage": forecast}
+        )
+        predicted_df[val_col] = predicted_df["percentage"]
+        predicted_df["lower"] = conf_int.iloc[:, 0]
+        predicted_df["upper"] = conf_int.iloc[:, 1]
+        predicted_data.append(predicted_df)
+
+    predicted_data = pd.concat(predicted_data)
+    predicted_data["total_percentage"] = predicted_data.groupby(period_col)[
+        "percentage"
+    ].transform("sum")
+    predicted_data["percentage"] = (
+        predicted_data["percentage"] / predicted_data["total_percentage"]
+    )
+    predicted_data.drop("total_percentage", axis=1, inplace=True)
+
+    combined_df = pd.concat([pivoted_df, predicted_data], ignore_index=True)
+    forecast_startdate = predicted_data[period_col].min()
+
+    # Create the chart using the general plotting function
+    chart = visualization_util.create_stacked_area_chart(
+        df=combined_df,
+        period_col=period_col,
+        status_col=status_col,
+        percentage_col="percentage",
+        title=title,
+        ordered_statuses=ordered_statuses,
+        status_colors=status_colors,
+        legend_cols=legend_cols,
+        vertical_line_dates=vertical_line_dates,
+        label_fontsize=label_fontsize,
+        title_fontsize=title_fontsize,
+        width=width,
+        height=height,
+        forecast_startdate=forecast_startdate,
+        configure=configure,
+        **plot_kwargs,
+    )
+
+    return chart
