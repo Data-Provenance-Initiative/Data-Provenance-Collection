@@ -4,6 +4,7 @@ from statsmodels.tsa.ar_model import AutoReg
 from prophet import Prophet
 from statsmodels.tsa.arima.model import ARIMA
 from statsmodels.tsa.statespace.sarimax import SARIMAX
+import typing
 
 from . import robots_util
 
@@ -137,9 +138,9 @@ def create_lagged_features(df, lags):
 def forecast_and_plot(
     df: pd.DataFrame,
     agent: str,
-    lags: list[int],
-    status_colors: dict[str, str],
-    ordered_statuses: list[str],
+    lags: typing.List[int],
+    status_colors: typing.Dict[str, str],
+    ordered_statuses: typing.List[str],
     val_col: str = "count",
     detailed: bool = False,
     n_periods: int = 6,
@@ -249,9 +250,9 @@ def forecast_and_plot(
 def forecast_and_plot_prophet(
     df: pd.DataFrame,
     agent: str,
-    lags: list[int],
-    status_colors: dict[str, str],
-    ordered_statuses: list[str],
+    lags: typing.List[int],
+    status_colors: typing.Dict[str, str],
+    ordered_statuses: typing.List[str],
     n_periods: int = 6,
     **plot_kwargs: dict
 ) -> alt.Chart:
@@ -333,9 +334,9 @@ def forecast_and_plot_prophet(
 def forecast_and_plot_arima(
     df: pd.DataFrame,
     agent: str,
-    lags: list[int],
-    status_colors: dict[str, str],
-    ordered_statuses: list[str],
+    lags: typing.List[int],
+    status_colors: typing.Dict[str, str],
+    ordered_statuses: typing.List[str],
     n_periods: int = 6,
     **plot_kwargs: dict
 ) -> alt.Chart:
@@ -419,10 +420,10 @@ def forecast_and_plot_arima(
 def forecast_and_plot_sarima(
     df: pd.DataFrame,
     agent: str,
-    lags: list[int],
-    seasonal_order: tuple[int, int, int],
-    status_colors: dict[str, str],
-    ordered_statuses: list[str],
+    lags: typing.List[int],
+    seasonal_order: typing.Tuple[int, int, int],
+    status_colors: typing.Dict[str, str],
+    ordered_statuses: typing.List[str],
     n_periods: int = 6,
     **plot_kwargs: dict
 ) -> alt.Chart:
