@@ -14,6 +14,7 @@ import altair as alt
 from scipy.stats import gaussian_kde
 from plotly.subplots import make_subplots
 from urllib.parse import urlparse
+import typing
 
 from . import parse_robots
 from analysis import visualization_util, analysis_constants
@@ -733,30 +734,84 @@ def get_latest_url_robot_statuses(url_robots_summary, agents):
 ############################################################
 
 
-def get_tos_url_time_verdicts(tos_policies):
+def switch_dates_yearly_to_monthly(nested_dict):
+    for url, date_dict in nested_dict.items():
+        for date, tos_dict in list(date_dict.items()):
+            # Split the date and take the first two parts to form "YYYY-MM"
+            new_date = "-".join(date.split("-")[:2])
+            # Assign the new date to the same sub-dictionary
+            nested_dict[url][new_date] = nested_dict[url].pop(date)
+    return nested_dict
+
+def tos_policy_merging(verdict_ai, verdict_license):
+    if verdict_license == "Non-Comercial Only":
+        verdict_license = "NC Only"
+    elif verdict_license == "Conditionally Commercial":
+        verdict_license = "Conditional Use"
+
+    if verdict_ai == "No Terms Pages":
+        return verdict_ai
+    if verdict_ai == verdict_license:
+        return verdict_ai
+
+    if verdict_ai.startswith("No"):
+        return verdict_ai
+    elif verdict_license == "NC Only":
+        return verdict_license
+    elif "Conditional" in verdict_ai or "Conditional" in verdict_license:
+        return verdict_ai
+    else:
+        return verdict_ai
+
+
+def determine_tos_verdicts(
+    tos_time, ai_verdict_dict, license_verdict_dict
+):
+    verdict = None
+    if tos_time in license_verdict_dict:
+        verdict_ai_codes = [
+            vinfo["verdict"]
+            for vinfo in ai_verdict_dict[tos_time].values()
+        ]
+        verdict_license_codes = [
+            vinfo["verdict"] if vinfo["verdict"] else 3
+            for vinfo in license_verdict_dict[tos_time].values()
+        ]
+        ai_verdict = analysis_constants.TOS_AI_SCRAPING_VERDICT_MAPPER[min(verdict_ai_codes)]
+        license_verdict = analysis_constants.TOS_LICENSE_VERDICT_MAPPER[min(verdict_license_codes)]
+        verdict = tos_policy_merging(ai_verdict, license_verdict)
+    return verdict
+
+
+def get_tos_url_time_verdicts(
+    tos_policies,
+    tos_license_policies,
+):
     """
     Input:
+        URL --> time --> ToS subpage --> {verdict: <code>, evidence: <evidence>}
         URL --> time --> ToS subpage --> {verdict: <code>, evidence: <evidence>}
 
     Returns:
         URL --> time --> ToS verdict string.
     """
     url_to_time_to_verdict = {}
+    misses, hits = 0, 0
     for url, time_to_subpage_to_verdicts in tos_policies.items():
         for tos_time, subpage_verdict in time_to_subpage_to_verdicts.items():
-            verdict_codes = [
-                vinfo["verdict"]
-                for vinfo in time_to_subpage_to_verdicts[tos_time].values()
-            ]
-            if url not in url_to_time_to_verdict:
-                url_to_time_to_verdict[url] = {}
-            url_to_time_to_verdict[url].update(
-                {
-                    tos_time: analysis_constants.TOS_AI_SCRAPING_VERDICT_MAPPER[
-                        max(verdict_codes)
-                    ]
-                }
-            )
+            verdict = determine_tos_verdicts(tos_time, time_to_subpage_to_verdicts, tos_license_policies[url])
+            if verdict is None:
+                misses += 1
+            else:
+                hits += 1
+                if url not in url_to_time_to_verdict:
+                    url_to_time_to_verdict[url] = {}
+                url_to_time_to_verdict[url].update(
+                    {
+                        tos_time: verdict
+                    }
+                )
+    print(f"{misses} / {misses + hits} dates missed due to time mismatches.")
     return url_to_time_to_verdict
 
 
@@ -947,22 +1002,23 @@ def plot_size_against_restrictions(
     )
 
 
-def tos_get_most_recent_verdict(tos_policies):
+def tos_get_most_recent_verdict(
+    tos_policies,
+    tos_license_policies,
+):
     url_to_recent_policy = {}
     for url, time_to_subpage_to_verdicts in tos_policies.items():
         recent_key = max(time_to_subpage_to_verdicts.keys())
-        verdict_codes = [
-            vinfo["verdict"]
-            for vinfo in time_to_subpage_to_verdicts[recent_key].values()
-        ]
-        url_to_recent_policy[url] = analysis_constants.TOS_AI_SCRAPING_VERDICT_MAPPER[
-            max(verdict_codes)
-        ]
+
+        url_to_recent_policy[url] = determine_tos_verdicts(
+            recent_key, time_to_subpage_to_verdicts, tos_license_policies[url])
+
     return url_to_recent_policy
 
 
 def prepare_recent_robots_tos_info(
     tos_policies_dict,
+    tos_license_policies,
     url_robots_summary,
     companies,
 ):
@@ -970,19 +1026,21 @@ def prepare_recent_robots_tos_info(
     # {URL --> Date --> Agent --> Status} --> {URL —> status}
     url_robots_status = get_latest_url_robot_statuses(url_robots_summary, agent_names)
     print(len(url_robots_status))
-    url_tos_verdicts = tos_get_most_recent_verdict(tos_policies_dict)
+    url_tos_verdicts = tos_get_most_recent_verdict(
+        tos_policies_dict, tos_license_policies)
     return url_robots_status, url_tos_verdicts
 
 
 def encode_latest_tos_robots_into_df(
     url_results_df,
     tos_policies,
+    tos_license_policies,
     url_robots_summary,
     companies,
 ):
 
     recent_url_robots, recent_url_tos_verdicts = prepare_recent_robots_tos_info(
-        tos_policies, url_robots_summary, companies
+        tos_policies, tos_license_policies, url_robots_summary, companies
     )
     url_results_df["robots"] = url_results_df["URL"].map(recent_url_robots)
     url_results_df["robots"].fillna("none", inplace=True)
@@ -1041,6 +1099,7 @@ def plot_robots_time_map_original(df, agent_type, val_key, frequency="M"):
 
 def prepare_tos_robots_confusion_matrix(
     tos_policies,
+    tos_license_policies,
     url_robots_summary,
     companies,
     url_token_lookup,
@@ -1053,6 +1112,7 @@ def prepare_tos_robots_confusion_matrix(
 ):
     recent_url_robots, recent_tos_verdicts = prepare_recent_robots_tos_info(
         tos_policies,
+        tos_license_policies,
         url_robots_summary,
         companies,
     )
@@ -1139,11 +1199,11 @@ def plot_robots_time_map_altair(
     status_col: str,
     val_col: str,
     title: str = "",
-    ordered_statuses: list[str] = None,
-    status_colors: dict[str, str] = None,
+    ordered_statuses: typing.List[str] = None,
+    status_colors: typing.Dict[str, str] = None,
     datetime_swap: bool = False,
     legend_cols: int = 1,
-    vertical_line_dates: list[str] = [],
+    vertical_line_dates: typing.List[str] = [],
     label_fontsize: int = 14,
     title_fontsize: int = 16,
     width: int = 1000,
@@ -1180,11 +1240,11 @@ def plot_robots_time_map_altair_detailed(
     status_col: str,
     val_col: str,
     title: str = "",
-    ordered_statuses: list[str] = None,
-    status_colors: dict[str, str] = None,
+    ordered_statuses: typing.List[str] = None,
+    status_colors: typing.Dict[str, str] = None,
     datetime_swap: bool = False,
     legend_cols: int = 1,
-    vertical_line_dates: list[str] = [],
+    vertical_line_dates: typing.List[str] = [],
     label_fontsize: int = 14,
     title_fontsize: int = 16,
     width: int = 1000,
@@ -1270,11 +1330,11 @@ def plot_temporal_area_map_altair(
     status_col: str,
     val_col: str,
     title: str = "",
-    ordered_statuses: list[str] = None,
-    status_colors: dict[str, str] = None,
+    ordered_statuses: typing.List[str] = None,
+    status_colors: typing.Dict[str, str] = None,
     datetime_swap: bool = False,
     legend_cols: int = 1,
-    vertical_line_dates: list[str] = [],
+    vertical_line_dates: typing.List[str] = [],
     label_fontsize: int = 14,
     title_fontsize: int = 16,
     width: int = 1000,
