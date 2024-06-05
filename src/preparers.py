@@ -1412,3 +1412,48 @@ def prepare_dialogstudio(row):
         })
         parent = 2 * i + 1
     return messages
+
+
+def prepare_lumos_planning(row):
+    messages = row["messages"]
+    new_messages = list()
+    for i, message in enumerate(messages):
+        if i == 0:
+            new_messages.append({
+                "from": message["role"],
+                "text": message["content"],
+                "parent": row["dataset"]
+            })
+        else:
+            new_messages.append({
+                "from": message["role"],
+                "text": message["content"],
+                "parent": i-1
+            })
+    return new_messages
+
+
+def prepare_lumos_grounding(row):
+    messages = row["messages"]
+    new_messages = list()
+    for i, message in enumerate(messages):
+        if i == 0:
+            new_messages.append({
+                "from": message["role"],
+                "text": message["content"],
+                "parent": row["dataset"]
+            })
+        else:
+            new_messages.append({
+                "from": message["role"],
+                "text": message["content"],
+                "parent": i-1
+            })
+    return new_messages
+
+
+def prepare_dynosaur(row):
+    return [
+        {"from": "user", "text": row["instruction"].strip() + f" The task input is {row['input']}.", "parent": row["taskname"]},
+        {"from": "assistant", "text": row['output'], "parent": 0}
+    ]
