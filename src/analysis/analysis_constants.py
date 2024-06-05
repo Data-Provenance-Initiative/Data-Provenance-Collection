@@ -14,7 +14,13 @@ TOS_LICENSE_VERDICT_MAPPER = {
     None: "Unrestricted Use",
 }
 
-
+TOS_COMPETE_VERDICT_MAPPER = {
+    1: "Non-Compete",
+    2: "No Re-Distribution",
+    3: "Non-Compete",
+    4: "Unrestricted Use",
+    None: "Unrestricted Use",
+}
 
 
 CONTENT_DOMAIN_CATEGORY_COMPRESSION = {
