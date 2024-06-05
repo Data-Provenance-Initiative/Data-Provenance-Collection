@@ -743,7 +743,11 @@ def switch_dates_yearly_to_monthly(nested_dict):
             nested_dict[url][new_date] = nested_dict[url].pop(date)
     return nested_dict
 
-def tos_policy_merging(verdict_ai, verdict_license):
+def tos_policy_merging(
+    verdict_ai, 
+    verdict_license, 
+    compete_verdict,
+):
     if verdict_license == "Non-Comercial Only":
         verdict_license = "NC Only"
     elif verdict_license == "Conditionally Commercial":
@@ -751,24 +755,30 @@ def tos_policy_merging(verdict_ai, verdict_license):
 
     if verdict_ai == "No Terms Pages":
         return verdict_ai
-    if verdict_ai == verdict_license:
+    if verdict_ai == verdict_license == compete_verdict:
         return verdict_ai
 
     if verdict_ai.startswith("No"):
         return verdict_ai
     elif verdict_license == "NC Only":
         return verdict_license
+    elif compete_verdict in ["Non-Compete", "No Re-Distribution"]:
+        return compete_verdict
     elif "Conditional" in verdict_ai or "Conditional" in verdict_license:
         return verdict_ai
     else:
         return verdict_ai
 
 
+
 def determine_tos_verdicts(
-    tos_time, ai_verdict_dict, license_verdict_dict
+    tos_time, 
+    ai_verdict_dict, 
+    license_verdict_dict,
+    compete_verdict_dict,
 ):
     verdict = None
-    if tos_time in license_verdict_dict:
+    if tos_time in license_verdict_dict and tos_time in compete_verdict_dict:
         verdict_ai_codes = [
             vinfo["verdict"]
             for vinfo in ai_verdict_dict[tos_time].values()
@@ -777,15 +787,21 @@ def determine_tos_verdicts(
             vinfo["verdict"] if vinfo["verdict"] else 3
             for vinfo in license_verdict_dict[tos_time].values()
         ]
+        verdict_compete_codes = [
+            vinfo["verdict"] if vinfo["verdict"] else 4
+            for vinfo in compete_verdict_dict[tos_time].values()
+        ]
         ai_verdict = analysis_constants.TOS_AI_SCRAPING_VERDICT_MAPPER[min(verdict_ai_codes)]
         license_verdict = analysis_constants.TOS_LICENSE_VERDICT_MAPPER[min(verdict_license_codes)]
-        verdict = tos_policy_merging(ai_verdict, license_verdict)
+        compete_verdict = analysis_constants.TOS_COMPETE_VERDICT_MAPPER[min(verdict_compete_codes)]
+        verdict = tos_policy_merging(ai_verdict, license_verdict, compete_verdict)
     return verdict
 
 
 def get_tos_url_time_verdicts(
     tos_policies,
     tos_license_policies,
+    tos_compete_policies,
 ):
     """
     Input:
@@ -799,7 +815,8 @@ def get_tos_url_time_verdicts(
     misses, hits = 0, 0
     for url, time_to_subpage_to_verdicts in tos_policies.items():
         for tos_time, subpage_verdict in time_to_subpage_to_verdicts.items():
-            verdict = determine_tos_verdicts(tos_time, time_to_subpage_to_verdicts, tos_license_policies[url])
+            verdict = determine_tos_verdicts(
+                tos_time, time_to_subpage_to_verdicts, tos_license_policies[url], tos_compete_policies[url])
             if verdict is None:
                 misses += 1
             else:
@@ -1005,13 +1022,18 @@ def plot_size_against_restrictions(
 def tos_get_most_recent_verdict(
     tos_policies,
     tos_license_policies,
+    tos_compete_policies,
 ):
     url_to_recent_policy = {}
     for url, time_to_subpage_to_verdicts in tos_policies.items():
         recent_key = max(time_to_subpage_to_verdicts.keys())
 
         url_to_recent_policy[url] = determine_tos_verdicts(
-            recent_key, time_to_subpage_to_verdicts, tos_license_policies[url])
+            recent_key, 
+            time_to_subpage_to_verdicts, 
+            tos_license_policies[url],
+            tos_compete_policies[url],
+        )
 
     return url_to_recent_policy
 
@@ -1019,6 +1041,7 @@ def tos_get_most_recent_verdict(
 def prepare_recent_robots_tos_info(
     tos_policies_dict,
     tos_license_policies,
+    tos_compete_policies,
     url_robots_summary,
     companies,
 ):
@@ -1027,7 +1050,7 @@ def prepare_recent_robots_tos_info(
     url_robots_status = get_latest_url_robot_statuses(url_robots_summary, agent_names)
     print(len(url_robots_status))
     url_tos_verdicts = tos_get_most_recent_verdict(
-        tos_policies_dict, tos_license_policies)
+        tos_policies_dict, tos_license_policies, tos_compete_policies)
     return url_robots_status, url_tos_verdicts
 
 
@@ -1035,12 +1058,13 @@ def encode_latest_tos_robots_into_df(
     url_results_df,
     tos_policies,
     tos_license_policies,
+    tos_compete_policies,
     url_robots_summary,
     companies,
 ):
 
     recent_url_robots, recent_url_tos_verdicts = prepare_recent_robots_tos_info(
-        tos_policies, tos_license_policies, url_robots_summary, companies
+        tos_policies, tos_license_policies, tos_compete_policies, url_robots_summary, companies
     )
     url_results_df["robots"] = url_results_df["URL"].map(recent_url_robots)
     url_results_df["robots"].fillna("none", inplace=True)
@@ -1048,11 +1072,12 @@ def encode_latest_tos_robots_into_df(
         {"all": True, "some": False, "none": False}
     )
     url_results_df["ToS"] = url_results_df["URL"].map(recent_url_tos_verdicts)
-    url_results_df["ToS"].fillna("No Restrictions", inplace=True)
-    tos_strictness = {
-        v: k < 5 for k, v in analysis_constants.TOS_AI_SCRAPING_VERDICT_MAPPER.items()
-    }
-    url_results_df["Restrictive Terms"] = url_results_df["ToS"].map(tos_strictness)
+    url_results_df["ToS"].fillna("Unrestricted Use", inplace=True)
+    # print(Counter(url_results_df["ToS"].tolist()))
+    # tos_strictness = {
+    #     v: k < 5 for k, v in analysis_constants.TOS_AI_SCRAPING_VERDICT_MAPPER.items()
+    # }
+    url_results_df["Restrictive Terms"] = url_results_df["ToS"].apply(lambda x: x != 'Unrestricted Use')
     return url_results_df
 
 
@@ -1100,6 +1125,7 @@ def plot_robots_time_map_original(df, agent_type, val_key, frequency="M"):
 def prepare_tos_robots_confusion_matrix(
     tos_policies,
     tos_license_policies,
+    tos_compete_policies,
     url_robots_summary,
     companies,
     url_token_lookup,
@@ -1113,6 +1139,7 @@ def prepare_tos_robots_confusion_matrix(
     recent_url_robots, recent_tos_verdicts = prepare_recent_robots_tos_info(
         tos_policies,
         tos_license_policies,
+        tos_compete_policies,
         url_robots_summary,
         companies,
     )
