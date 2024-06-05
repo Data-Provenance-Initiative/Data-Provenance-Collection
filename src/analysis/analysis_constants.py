@@ -1,11 +1,21 @@
 
 TOS_AI_SCRAPING_VERDICT_MAPPER = {
-    1: "Prohibits Scraping & AI",
-    2: "Prohibits Scraping",
-    3: "Prohibits AI",
-    4: "Conditional Restrictions",
-    5: "No Restrictions",
+    1: "No Scraping & AI",
+    2: "No Scraping",
+    3: "No AI",
+    4: "Conditional Use",
+    5: "Unrestricted Use",
 }
+
+TOS_LICENSE_VERDICT_MAPPER = {
+    1: "Non-Comercial Only",
+    2: "Conditionally Commercial",
+    3: "Unrestricted Use",
+    None: "Unrestricted Use",
+}
+
+
+
 
 CONTENT_DOMAIN_CATEGORY_COMPRESSION = {
     "News": ["News/Periodicals"],

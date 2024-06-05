@@ -26,8 +26,8 @@ Java/1.5.0_11,200,200,0,0
 VoilaBot,780,769,1,10
 msnbot,6784,261,2737,3786
 facebookexternalhit,2286,31,323,1932
-dotbot,2985,2448,160,377
 VelenPublicWebCrawler,195,110,0,85
+dotbot,2985,2448,160,377
 MJ12bot,10556,5962,319,4275
 BLEXBot,2748,2087,0,661
 AhrefsBot,9824,5506,1516,2802
@@ -284,40 +284,24 @@ uMBot-LN,229,2,0,227
 calculon,137,11,0,126
 ZoominfoBot,296,119,0,177
 YandexBot,1971,908,500,563
-Bloglovin,122,0,0,122
 linkdexbot,655,298,0,357
 Uptimebot,268,124,0,144
 feedbot,126,0,0,126
 MojeekBot,277,53,0,224
-Feedbin,122,0,0,122
-ToutiaoSpider,296,99,69,128
-dlvr.it,130,8,0,122
 Pinterestbot,468,17,51,400
 Ocarinabot,126,0,0,126
-CommaFeed,122,0,0,122
 CFNetwork,212,0,0,212
 Vegi,164,37,0,127
-ZumBot,408,189,0,219
-StorygizeBot,133,0,0,133
 Qwantify,410,236,0,174
-EveryoneSocialBot,219,0,0,219
-Moreover,222,99,0,123
 Applebot,1768,141,542,1085
-pfblogs,122,0,0,122
-WWW-Mechanize,445,323,0,122
-heritrix,596,288,46,262
-Flipboard,122,0,0,122
 adbeat_bot,305,130,0,175
-PicoFeed,122,0,0,122
 contxbot,126,0,0,126
 DeuSu,129,3,0,126
 wonderbot,126,0,0,126
 UptimeRobot,177,3,0,174
 YandexImages,768,228,133,407
 Mediatoolkitbot,253,127,0,126
-FlipboardRSS,122,0,0,122
 SMTBot,281,108,0,173
-GarlikCrawler,225,59,0,166
 metabot.ru,126,0,0,126
 YandexMobileBot,204,67,0,137
 RSSMicro,126,0,0,126
@@ -325,65 +309,43 @@ Pvblcbot,126,0,0,126
 PaperLiBot,420,193,0,227
 g2reader-bot,223,0,0,223
 Clickagy,204,45,0,159
-Steeler,328,206,0,122
 Sottopop,224,98,0,126
-Feedspot,122,0,0,122
 HybridBot,252,126,0,126
 Slack-ImgProxy,129,3,0,126
 Superfeedr,148,22,0,126
 Feedspotbot,126,0,0,126
 Yahoo! Slurp,1068,160,288,620
 YaK,172,37,0,135
-Tiny,122,0,0,122
-omgili,328,199,1,128
 Nutch-1.10,126,0,0,126
-Twingly,122,0,0,122
 VigLink,126,0,0,126
 Claritybot,445,222,0,223
-um-IC,125,3,0,122
-feedparser,122,0,0,122
-acebookexternalhit,122,0,0,122
 psbot,2763,2109,19,635
-YisouSpider,603,429,0,174
 Discordbot,128,0,2,126
 yacybot,591,169,129,293
-SimplePie,127,5,0,122
 Findxbot,241,114,0,127
 sogou spider,1601,1062,38,501
 PiplBot,822,540,155,127
 SEOkicks-Robot,548,408,0,140
 zarabotok--doma,126,0,0,126
-Aol,122,0,0,122
-TkBot,132,10,0,122
 GnowitNewsbot,170,44,0,126
-Typhoeus,344,208,0,136
 TweetedTimes Bot,309,0,0,309
 Cliqzbot,771,499,9,263
 YandexImageResizer,227,0,0,227
-WF search,122,0,0,122
-Photon,122,0,0,122
 istellabot,334,157,0,177
 Tapatalk,126,0,0,126
-Netvibes,220,98,0,122
-BUbiNG,1293,1159,0,134
 Leikibot,132,6,0,126
 Girafabot,151,25,0,126
-NetSeer,222,100,0,122
+Taboolabot,195,0,11,184
 Zombiebot,126,0,0,126
-ScooperBot,289,70,0,219
-Mercury,122,0,0,122
+twitterbot,167,0,44,123
 MaxPointCrawler,335,209,0,126
 rogerbot,2147,736,703,708
 uipbot,262,105,0,157
-Yahoo,250,40,88,122
 bot-pge.chlooe.com,126,0,0,126
-Sogou,726,380,90,256
 Multiviewbot,126,0,0,126
 moatbot,173,47,0,126
-Pulsepoint,206,84,0,122
 SafeDNSBot,130,3,0,127
 Laserlikebot,137,0,0,137
-UniversalFeedParser,122,0,0,122
 trendiction,136,10,0,126
 360Spider,788,428,95,265
 mcsbot,126,0,0,126
@@ -394,34 +356,72 @@ Kraken,228,5,0,223
 Plukkie,156,30,0,126
 Flamingo_SearchEngine,384,89,0,295
 Treato-Bot,126,0,0,126
+GetIntent,210,84,0,126
+coccoc,498,315,53,130
+Dragonbot,126,0,0,126
+YoudaoBot,1304,858,37,409
+Yeti,1496,683,289,524
+_zbot,126,0,0,126
+Seoterritory,126,0,0,126
+QuerySeekerSpider,470,161,0,309
+TweetmemeBot,299,25,3,271
+Wotbox,313,187,0,126
+Facebot,2020,0,936,1084
+Bloglovin,122,0,0,122
+ToutiaoSpider,296,99,69,128
+dlvr.it,130,8,0,122
+Feedbin,122,0,0,122
+CommaFeed,122,0,0,122
+ZumBot,408,189,0,219
+StorygizeBot,133,0,0,133
+EveryoneSocialBot,219,0,0,219
+Moreover,222,99,0,123
+pfblogs,122,0,0,122
+WWW-Mechanize,445,323,0,122
+heritrix,596,288,46,262
+Flipboard,122,0,0,122
+PicoFeed,122,0,0,122
+FlipboardRSS,122,0,0,122
+GarlikCrawler,225,59,0,166
+Steeler,328,206,0,122
+Feedspot,122,0,0,122
+Tiny,122,0,0,122
+omgili,328,199,1,128
+Twingly,122,0,0,122
+um-IC,125,3,0,122
+feedparser,122,0,0,122
+acebookexternalhit,122,0,0,122
+YisouSpider,603,429,0,174
+SimplePie,127,5,0,122
+Aol,122,0,0,122
+TkBot,132,10,0,122
+Typhoeus,344,208,0,136
+WF search,122,0,0,122
+Photon,122,0,0,122
+Netvibes,220,98,0,122
+BUbiNG,1293,1159,0,134
+NetSeer,222,100,0,122
+ScooperBot,289,70,0,219
+Mercury,122,0,0,122
+Yahoo,250,40,88,122
+Sogou,726,380,90,256
+Pulsepoint,206,84,0,122
+UniversalFeedParser,122,0,0,122
 mTalk,122,0,0,122
 Synaptive,122,0,0,122
-GetIntent,210,84,0,126
 Digg,122,0,0,122
 newspaper,187,0,0,187
 Genieo,393,188,0,205
 GroupHigh,122,0,0,122
-coccoc,498,315,53,130
-Dragonbot,126,0,0,126
 GermCrawler,220,98,0,122
 Feed,122,0,0,122
 um-FC,122,0,0,122
-YoudaoBot,1304,858,37,409
-Yeti,1496,683,289,524
 EzineArticlesLinkScanner,129,7,0,122
 BYO-4,122,0,0,122
-_zbot,126,0,0,126
-Seoterritory,126,0,0,126
-QuerySeekerSpider,470,161,0,309
 AddThis.com,352,229,0,123
-TweetmemeBot,299,25,3,271
 BYO-2,122,0,0,122
-Wotbox,313,187,0,126
 Vagabondo,303,181,0,122
-Facebot,2020,0,936,1084
 YahooCacheSystem,122,0,0,122
-Taboolabot,195,0,11,184
-twitterbot,167,0,44,123
 Marfeelman,44,0,0,44
 Petalbot,291,182,42,67
 pavuk,352,183,0,169
@@ -512,10 +512,10 @@ hul-wax,100,0,0,100
 NPBot-1/2.0,78,78,0,0
 SurveyBot,764,653,0,111
 Alexibot,1192,1069,0,123
+Mail.Ru,391,359,23,9
 ichiro,638,594,2,42
 SiteExplorer,340,339,0,1
 MegaIndex,173,156,0,17
-Mail.Ru,391,359,23,9
 claudebot,4,4,0,0
 *			# match any robot name,85,0,85,0
 *		# match any robot name,11,0,11,0
@@ -609,11 +609,11 @@ DealOzBot,81,71,0,10
 linksmanager,81,71,0,10
 PCNBot,81,71,0,10
 e-SocietyRobot,261,251,0,10
-pimeyes.com crawler,36,26,0,10
 AddThis.com robot tech.support@clearspring.com,200,200,0,0
 aipbot,410,390,0,20
 RedCarpet,81,71,0,10
 PGBot,81,71,0,10
+pimeyes.com crawler,36,26,0,10
 SplitSignalBot,129,101,0,28
 SiteAuditBot,127,87,0,40
 SemrushBot-COUB,99,87,0,12
@@ -727,7 +727,6 @@ WebMiner,57,57,0,0
 ContextAd,91,91,0,0
 SuperPagesUrlVerifyBot,91,91,0,0
 SuperPagesBot,91,91,0,0
-Barkrowler,293,220,0,73
 FunWebProducts,105,105,0,0
 YodaoBot,328,322,0,6
 MLBot,377,365,0,12
@@ -742,14 +741,15 @@ YPBot,91,91,0,0
 SearQuBot,91,91,0,0
 YandexFavicons,113,113,0,0
 TwengaBot-Discover,91,91,0,0
+Barkrowler,293,220,0,73
 Clark-Crawler2,31,31,0,0
 Seekport Crawler,67,53,0,14
 Timpibot,3,3,0,0
 007ac9,100,99,0,1
 Turnitin,130,113,17,0
 TinEye,89,89,0,0
-SemrushBot-Desktop,55,0,0,55
 archive.org_bot,1011,205,520,286
+SemrushBot-Desktop,55,0,0,55
 msnbotÂ,38,0,0,38
 docspotbot,40,40,0,0
 Y!J-SRD,595,0,595,0
@@ -818,26 +818,23 @@ sentibot,281,273,0,8
 Eyeotabot,5,0,0,5
 Baiduspider+,208,196,0,12
 CazoodleBot,103,103,0,0
-scan.lol,75,75,0,0
 Sucuri,126,126,0,0
 Nameprotect,126,126,0,0
-plumanalytics,75,75,0,0
 Openvas,103,103,0,0
 GalaxyBot,126,126,0,0
 ScanAlert,132,126,0,6
 Blow,126,126,0,0
-Mojolicious,60,60,0,0
 HaosouSpider,176,176,0,0
 Calculon,126,126,0,0
+Image Stripper,216,211,0,5
 Lightspeedsystems,126,126,0,0
-sexsearcher,75,75,0,0
 OutfoxBot,171,171,0,0
 Turingos,126,126,0,0
-Sociscraper,75,75,0,0
 Recorder,126,126,0,0
 Grabber,126,126,0,0
 SEOprofiler,126,126,0,0
 WebCollage,126,126,0,0
+Web Copier,28,28,0,0
 Web Sucker,168,163,0,5
 Brandwatch,126,126,0,0
 Attach,126,126,0,0
@@ -845,7 +842,6 @@ page scorer,103,103,0,0
 OpenLinkProfiler,248,248,0,0
 EasyDL,126,126,0,0
 Pockey,126,126,0,0
-Extreme Picture Finder,98,98,0,0
 IlseBot,126,126,0,0
 WinHTTrack,240,155,0,85
 Snoopy,126,126,0,0
@@ -853,15 +849,11 @@ Magnet,126,126,0,0
 Acunetix,126,126,0,0
 Picscout,126,126,0,0
 Telesphorep,126,126,0,0
-RankingBot,98,98,0,0
-zgrab,75,75,0,0
-BacklinkCrawler,222,140,0,82
 Voil,126,126,0,0
 WebGo IS,334,329,0,5
 Toata,126,126,0,0
 80legs,255,182,0,73
 Rankivabot,126,126,0,0
-Blackboard,98,98,0,0
 Image Sucker,314,309,0,5
 Msrabot,126,126,0,0
 Nettrack,126,126,0,0
@@ -875,7 +867,6 @@ Whatweb,126,126,0,0
 WISENutbot,126,126,0,0
 CATExplorador,126,126,0,0
 MSFrontPage,126,126,0,0
-seoscanners,96,96,0,0
 MarkMonitor,126,126,0,0
 Toweyabot,126,126,0,0
 Musobot,126,126,0,0
@@ -889,21 +880,20 @@ Craftbot,126,126,0,0
 NPbot,165,163,0,2
 Scanbot,126,126,0,0
 Trendictionbot,164,164,0,0
+Download Demon,70,65,0,5
 Ecxi,126,126,0,0
 Bandit,126,126,0,0
 Gigablast,124,124,0,0
-Lipperhey Spider,85,85,0,0
 Deusu,126,126,0,0
 Extractor,126,126,0,0
 JustView,126,126,0,0
+GuzzleHttp,28,28,0,0
 Demon,126,126,0,0
 EMail Wolf,126,126,0,0
 GridBot,126,126,0,0
-HEADMasterSEO,98,98,0,0
 Cogentbot,126,126,0,0
 Anarchie,126,126,0,0
 ScreenerBot,226,226,0,0
-Nimbostratus,75,75,0,0
 Yahoo Pipes 1.0,1251,790,461,0
 BackWeb,126,126,0,0
 CrazyWebCrawler,128,128,0,0
@@ -912,7 +902,6 @@ Gotit,126,126,0,0
 Evil,126,126,0,0
 Iria,126,126,0,0
 Stripper,126,126,0,0
-RankurBot,98,98,0,0
 GoZilla,126,126,0,0
 Bigfoot,126,126,0,0
 BetaBot,126,126,0,0
@@ -921,7 +910,9 @@ Nessus,126,126,0,0
 Lmspider,126,126,0,0
 Telesphoreo,126,126,0,0
 AiHitBot,165,156,0,9
+Web Stripper,28,28,0,0
 POE-Component-Client-HTTP,126,126,0,0
+Bubing,51,51,0,0
 ADmantX,358,358,0,0
 NimbleCrawler,279,279,0,0
 AIBOT,126,126,0,0
@@ -929,12 +920,9 @@ Voltron,126,126,0,0
 Web Fuck,126,126,0,0
 Image Fetch,126,126,0,0
 Joomla,126,126,0,0
-ips-agent,75,75,0,0
 Harvest,311,309,0,2
-arquivo-web-crawler,60,60,0,0
 Nmap,126,126,0,0
 T8Abot,126,126,0,0
-Majestic-SEO,85,85,0,0
 Indy Library,170,165,0,5
 Sqworm,126,126,0,0
 BackDoorBot,319,317,0,2
@@ -945,7 +933,6 @@ Lftp,126,126,0,0
 Twice,126,126,0,0
 URLy.Warning,165,163,0,2
 BatchFTP,126,126,0,0
-Wallpapers/3.0,98,98,0,0
 LinqiaRSSBot,126,126,0,0
 Site Sucker,126,126,0,0
 Firefox/7.0,126,126,0,0
@@ -958,30 +945,17 @@ Intelliseek,126,126,0,0
 Pump,126,126,0,0
 Iskanie,126,126,0,0
 Siphon,126,126,0,0
-xpymep1.exe,75,75,0,0
 Id-search,126,126,0,0
-Upflow,75,75,0,0
-SeoSiteCheckup,76,76,0,0
-PxBroker,98,98,0,0
-Who.is Bot,98,98,0,0
 webmeup-crawler,187,187,0,0
-demandbase-bot,75,75,0,0
 Getintent,126,126,0,0
 Net Vampire,314,309,0,5
-AfD-Verbotsverfahren,98,98,0,0
-PictureFinder,98,98,0,0
 MegaIndex.ru,1172,680,26,466
 Cosmos,126,126,0,0
-DnyzBot,99,98,0,1
 Spammen,126,126,0,0
 WiseGuys Robot,160,160,0,0
 Netcraft,126,126,0,0
 Offline Navigator,168,163,0,5
-404enemy,98,98,0,0
-com.plumanalytics,75,75,0,0
 IDBot,127,126,0,1
-RebelMouse,106,106,0,0
-Trendiction,136,136,0,0
 Linkdexbot,125,125,0,0
 Freeuploader,126,126,0,0
 WWW::Mechanize,126,126,0,0
@@ -992,73 +966,58 @@ Humanlinks,126,126,0,0
 LinksManager,126,126,0,0
 Lanshanbot,126,126,0,0
 WallpapersHD,126,126,0,0
-muhstik-scan,75,75,0,0
-DigitalPebble,98,98,0,0
 Picsearch,126,126,0,0
 internetVista monitor,103,103,0,0
 Disco,126,126,0,0
 Niki-bot,126,126,0,0
 Meanpathbot,126,126,0,0
 Alligator,126,126,0,0
-instabid,75,75,0,0
-FDM,98,98,0,0
 Webster,226,226,0,0
 Discobot,126,126,0,0
 VB Project,126,126,0,0
 ZmEu,126,126,0,0
-Dispatch,75,75,0,0
-s1z.ru,75,75,0,0
-BDCbot,146,103,0,43
-BackStreet,126,126,0,0
 Vacuum,126,126,0,0
+BackStreet,126,126,0,0
 BuiltWith,152,152,0,0
 MFC_Tear_Sample,126,126,0,0
 Heritrix,143,131,0,12
 Boardreader,163,162,0,1
 Web Sauger,126,126,0,0
+Web Bandit,28,28,0,0
 Screaming,126,126,0,0
 Webshag,126,126,0,0
 GrapeFX,126,126,0,0
 PeoplePal,126,126,0,0
 AllSubmitter,126,126,0,0
-Tracemyfile,98,98,0,0
 Nibbler,126,126,0,0
-sysscan,75,75,0,0
-ExtLinksBot,142,98,0,44
 Psbot,131,131,0,0
-Jetty,75,75,0,0
 ASPSeek,126,126,0,0
 InfoTekies,126,126,0,0
 GT::WWW,126,126,0,0
 Seomoz,126,126,0,0
-DomainStatsBot,183,183,0,0
-Cloud mapping,98,98,0,0
 Suzuran,126,126,0,0
+Download Devil,28,28,0,0
 SEOstats,227,227,0,0
-cognitiveseo,75,75,0,0
 Microsoft Data Access,124,124,0,0
-RankingBot2,98,98,0,0
 Sqlworm,126,126,0,0
 Pi-Monster,131,131,0,0
 Sitevigil,126,126,0,0
+Website Extractor,28,28,0,0
 Ebingbong,126,126,0,0
 Hloader,126,126,0,0
-facebookscraper,75,75,0,0
 Aboundex,228,227,0,1
 Mojeek,129,129,0,0
+MS Web Services Client Protocol,51,51,0,0
 Badass,126,126,0,0
-OnCrawl,75,75,0,0
 WebsiteQuester,126,126,0,0
-DatabaseDriverMysqli,98,98,0,0
 Lipperhey,229,228,0,1
-OutclicksBot,98,98,0,0
 WebFuck,126,126,0,0
+Mail.ru,51,51,0,0
 Whack,126,126,0,0
 LinkScan,126,126,0,0
 PageScorer,126,126,0,0
 Panscient,126,126,0,0
 Sucker,126,126,0,0
-RankActive,98,98,0,0
 Pavuk,138,126,0,12
 Internet Ninja,168,163,0,5
 Reaper,126,126,0,0
@@ -1066,7 +1025,6 @@ Bitacle,126,126,0,0
 SalesIntelligent,210,210,0,0
 ECCP/1.0,126,126,0,0
 Bullseye,319,317,0,2
-OpenVAS,98,98,0,0
 GetWeb,126,126,0,0
 Flunky,126,126,0,0
 BBBike,126,126,0,0
@@ -1079,63 +1037,46 @@ BDFetch,128,128,0,0
 Collector,126,126,0,0
 Mag-Net,126,126,0,0
 Pixray,126,126,0,0
-Virusdie,98,98,0,0
-G-i-g-a-b-o-t,265,265,0,0
 LibWeb,126,126,0,0
 FHscan,126,126,0,0
 Spbot,126,126,0,0
-Kozmosbot,98,98,0,0
 Jbrofuzz,126,126,0,0
 LeechGet,126,126,0,0
-UnisterBot,135,135,0,0
 Ltx71,126,126,0,0
-Mr.4x3,98,98,0,0
-Haansoft,98,98,0,0
 MarkWatch,126,126,0,0
-IstellaBot,98,98,0,0
-Thumbor,75,75,0,0
+Zgrab,51,51,0,0
 Buddy,126,126,0,0
-crawler4j,245,244,0,1
 SocialRankIOBot,210,210,0,0
 Litemage_walker,126,126,0,0
 WebSucker,126,126,0,0
-trendiction.de,113,113,0,0
 Xaldon WebSpider,168,163,0,5
 Chlooe,126,126,0,0
-x09Mozilla,75,75,0,0
+Slackbot-LinkExpanding,148,51,0,97
 Copyscape,128,128,0,0
 PECL::HTTP,126,126,0,0
 Web Enhancer,126,126,0,0
-CrunchBot,75,75,0,0
 Brandprotect,126,126,0,0
 EMail Siphon,126,126,0,0
 T0PHackTeam,126,126,0,0
 DTS Agent,165,165,0,0
 Wprecon,126,126,0,0
-DataCha0s,98,98,0,0
 Apexoo,126,126,0,0
-DSearch,85,85,0,0
+startmebot,53,53,0,0
 netEstate NE Crawler,239,238,0,1
 autoemailspider,103,103,0,0
 Spanner,126,126,0,0
-CheTeam,75,75,0,0
 SiteLockSpider,126,126,0,0
-crawl.sogou.com,98,98,0,0
 lwp-request,103,103,0,0
 Dragonfly,126,126,0,0
-arquivo.pt,60,60,0,0
 VidibleScraper,126,126,0,0
-Digincore,100,100,0,0
-AlphaBot,99,98,0,1
-404checker,98,98,0,0
 RocketCrawler,126,126,0,0
 Discoverybot,126,126,0,0
+EMail Collector,28,28,0,0
 PageAnalyzer,128,128,0,0
 Name Intelligence,126,126,0,0
 SISTRIX,230,230,0,0
 Web Auto,126,126,0,0
 Papa Foto,168,163,0,5
-Zauba,98,98,0,0
 BuzzSumo,126,126,0,0
 Libwhisker,126,126,0,0
 Web Pix,126,126,0,0
@@ -1147,94 +1088,153 @@ Web Fetch,126,126,0,0
 ProPowerBot,126,126,0,0
 DIIbot,126,126,0,0
 FrontPage,185,183,0,2
+Page Grabber,28,28,0,0
 Zade,126,126,0,0
 Drip,126,126,0,0
 Nikto,126,126,0,0
 Metauri,126,126,0,0
+SISTRIX Crawler,90,90,0,0
+WEBDAV Client,28,28,0,0
 Dirbuster,126,126,0,0
 Jyxobot,149,149,0,0
 Probethenet,126,126,0,0
 Likse,126,126,0,0
 InternetSeer,126,126,0,0
-zauba.io,75,75,0,0
 Curious,126,126,0,0
 BlowFish,319,317,0,2
-FyberSpider,98,98,0,0
-Shodan,98,98,0,0
 Zermelo,126,126,0,0
+MSIE 6.0,54,28,0,26
+EMail Extractor,28,28,0,0
 LWP::Simple,126,126,0,0
 Web Collage,126,126,0,0
-crawler.feedback,75,75,0,0
 Mass Downloader,314,309,0,5
 Ninja,126,126,0,0
 VeriCiteCrawler,212,212,0,0
 Szukacz,126,126,0,0
-Backlink-Ceck,98,98,0,0
-IndeedBot,99,98,0,1
+Web Reaper,28,28,0,0
 Iblog,126,126,0,0
 Battleztar Bazinga,128,128,0,0
-RSSingBot,75,75,0,0
 Snake,126,126,0,0
-sogouspider,108,108,0,0
 DBLBot,140,140,0,0
-Quick-Crawler,98,98,0,0
-evc-batch,77,77,0,0
+Woobot,126,126,0,0
 Pimonster,131,131,0,0
 WEBDAV,126,126,0,0
-Woobot,126,126,0,0
 Express WebPictures,170,165,0,5
 WASALive-Bot,225,128,0,97
-MeanPath Bot,75,75,0,0
-Morfeus Fucking Scanner,98,98,0,0
 Keyword Density,126,126,0,0
 x22Mozilla,103,103,0,0
 DomainCrawler,206,151,0,55
 JOC Web Spider,314,309,0,5
-Pandalytics,83,75,8,0
-trendiction.com,113,113,0,0
 MIDown tool,314,309,0,5
 Havij,126,126,0,0
 Fimap,126,126,0,0
 RankActiveLinkBot,104,103,0,1
 DomainSigmaCrawler,128,128,0,0
-spyfu,85,85,0,0
 Majestic12,126,126,0,0
-Majestic SEO,75,75,0,0
-Jorgee,112,98,0,14
-WebImageCollector,126,126,0,0
 Zitebot,126,126,0,0
-backlink-check,75,75,0,0
+WebImageCollector,126,126,0,0
 Page Analyzer,128,128,0,0
 JamesBOT,198,183,0,15
-RankFlex,99,99,0,0
+Web Whacker,28,28,0,0
 PleaseCrawl,126,126,0,0
 Bolt,126,126,0,0
-Whacker,126,126,0,0
-Image Stripper,216,211,0,5
-Web Copier,28,28,0,0
-Download Demon,70,65,0,5
-GuzzleHttp,28,28,0,0
-Web Stripper,28,28,0,0
-Bubing,51,51,0,0
-Web Bandit,28,28,0,0
-Download Devil,28,28,0,0
-Website Extractor,28,28,0,0
-MS Web Services Client Protocol,51,51,0,0
-Mail.ru,51,51,0,0
-Zgrab,51,51,0,0
-Slackbot-LinkExpanding,148,51,0,97
-startmebot,53,53,0,0
-EMail Collector,28,28,0,0
-Page Grabber,28,28,0,0
-SISTRIX Crawler,90,90,0,0
-WEBDAV Client,28,28,0,0
-MSIE 6.0,54,28,0,26
-EMail Extractor,28,28,0,0
-Web Reaper,28,28,0,0
-Web Whacker,28,28,0,0
 Proximic,51,51,0,0
+Whacker,126,126,0,0
 Turnitin Robot,40,11,0,29
 Turnitin Bot,6,6,0,0
+scan.lol,75,75,0,0
+plumanalytics,75,75,0,0
+Mojolicious,60,60,0,0
+sexsearcher,75,75,0,0
+Sociscraper,75,75,0,0
+Extreme Picture Finder,98,98,0,0
+RankingBot,98,98,0,0
+zgrab,75,75,0,0
+BacklinkCrawler,222,140,0,82
+Blackboard,98,98,0,0
+seoscanners,96,96,0,0
+Lipperhey Spider,85,85,0,0
+HEADMasterSEO,98,98,0,0
+Nimbostratus,75,75,0,0
+RankurBot,98,98,0,0
+ips-agent,75,75,0,0
+arquivo-web-crawler,60,60,0,0
+Majestic-SEO,85,85,0,0
+Wallpapers/3.0,98,98,0,0
+xpymep1.exe,75,75,0,0
+Upflow,75,75,0,0
+SeoSiteCheckup,76,76,0,0
+PxBroker,98,98,0,0
+Who.is Bot,98,98,0,0
+demandbase-bot,75,75,0,0
+AfD-Verbotsverfahren,98,98,0,0
+PictureFinder,98,98,0,0
+DnyzBot,99,98,0,1
+404enemy,98,98,0,0
+com.plumanalytics,75,75,0,0
+RebelMouse,106,106,0,0
+Trendiction,136,136,0,0
+muhstik-scan,75,75,0,0
+DigitalPebble,98,98,0,0
+instabid,75,75,0,0
+FDM,98,98,0,0
+Dispatch,75,75,0,0
+s1z.ru,75,75,0,0
+BDCbot,146,103,0,43
+Tracemyfile,98,98,0,0
+sysscan,75,75,0,0
+ExtLinksBot,142,98,0,44
+Jetty,75,75,0,0
+DomainStatsBot,183,183,0,0
+Cloud mapping,98,98,0,0
+cognitiveseo,75,75,0,0
+RankingBot2,98,98,0,0
+facebookscraper,75,75,0,0
+OnCrawl,75,75,0,0
+DatabaseDriverMysqli,98,98,0,0
+OutclicksBot,98,98,0,0
+RankActive,98,98,0,0
+OpenVAS,98,98,0,0
+Virusdie,98,98,0,0
+G-i-g-a-b-o-t,265,265,0,0
+Kozmosbot,98,98,0,0
+UnisterBot,135,135,0,0
+Mr.4x3,98,98,0,0
+Haansoft,98,98,0,0
+IstellaBot,98,98,0,0
+Thumbor,75,75,0,0
+crawler4j,245,244,0,1
+trendiction.de,113,113,0,0
+x09Mozilla,75,75,0,0
+CrunchBot,75,75,0,0
+DataCha0s,98,98,0,0
+DSearch,85,85,0,0
+CheTeam,75,75,0,0
+crawl.sogou.com,98,98,0,0
+arquivo.pt,60,60,0,0
+Digincore,100,100,0,0
+AlphaBot,99,98,0,1
+404checker,98,98,0,0
+Zauba,98,98,0,0
+zauba.io,75,75,0,0
+FyberSpider,98,98,0,0
+Shodan,98,98,0,0
+crawler.feedback,75,75,0,0
+Backlink-Ceck,98,98,0,0
+IndeedBot,99,98,0,1
+RSSingBot,75,75,0,0
+sogouspider,108,108,0,0
+evc-batch,77,77,0,0
+Quick-Crawler,98,98,0,0
+MeanPath Bot,75,75,0,0
+Morfeus Fucking Scanner,98,98,0,0
+Pandalytics,83,75,8,0
+trendiction.com,113,113,0,0
+spyfu,85,85,0,0
+Jorgee,112,98,0,14
+Majestic SEO,75,75,0,0
+backlink-check,75,75,0,0
+RankFlex,99,99,0,0
 axios,26,26,0,0
 Welltory,16,16,0,0
 IBM-AppConnect/V1,16,16,0,0
@@ -1303,13 +1303,13 @@ IonCrawl,7,0,7,0
 Googlebot-mobile,1,0,1,0
 yahoobot,55,0,6,49
 *				# Updated 09/10/2015,7,0,7,0
+*				# Updated 10/18/2016,5,0,5,0
+*				# Updated 8/26/2016,1,0,1,0
 *				# Updated 2/23/2018,30,0,30,0
 *				# Updated 2/2/2017,11,0,11,0
-*				# Updated 10/18/2016,5,0,5,0
 *				# Updated 2/11/2018,1,0,1,0
-*				# Updated 9/12/2016,1,0,1,0
-*				# Updated 8/26/2016,1,0,1,0
 *				# Updated 7/5/2016,1,0,1,0
+*				# Updated 9/12/2016,1,0,1,0
 *				# Updated 10/05/2020,7,0,7,0
 Bytespider (Bytedance),1,1,0,0
 google-extended,23,23,0,0
@@ -1339,8 +1339,8 @@ eiciluxgsa,17,0,0,17
 BLP_bbot/0.1,390,390,0,0
 BLEXbot,186,186,0,0
 PropsmartCrawler,94,94,0,0
-ahrefsbot,384,382,0,2
 TruliaBot,355,355,0,0
+ahrefsbot,384,382,0,2
 Mozilla/4.0 (compatible; MSIE 4.01; Windows NT; MS Search 5.0 Robot) Microsoft,80,80,0,0
 Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 5.0 Robot) Microsoft,80,80,0,0
 Mozilla/4.0 (compatible; MSIE 4.01; Windows NT; MS Search 4.0 Robot),80,80,0,0
@@ -1351,11 +1351,11 @@ Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 5.0 Robot),80,80,0,0
 Arachnida:,80,80,0,0
 Mozilla/4.0 (compatible; MSIE 4.01; Windows NT; MS Search 5.0 Robot),106,80,0,26
 Baiduspider:,66,66,0,0
-DotBot:,62,62,0,0
 Mozilla/4.0 (compatible; MSIE 4.01; Windows NT; MS Search 4.0 Robot) Microsoft,98,98,0,0
-Sogou:,62,62,0,0
 Baiduspider/2.0:,66,66,0,0
 MS Search 4.0 Robot,173,86,87,0
+DotBot:,62,62,0,0
+Sogou:,62,62,0,0
 yacybot:,7,7,0,0
 mag-robot403.osl.basefarm.net,32,32,0,0
 ia_archiver/1.6,302,266,0,36
@@ -1413,12 +1413,12 @@ yacy,181,81,100,0
 wotbox,64,63,0,1
 discoverybot,78,78,0,0
 magpie-crawler*,187,187,0,0
-GomezAgent,44,44,0,0
 GomezAgent+2.0,12,12,0,0
 gomezagent+1.0,12,12,0,0
 gomezagent+2.0,12,12,0,0
 GomezAgent 3.0,12,12,0,0
 gomezagent+3.0,12,12,0,0
+GomezAgent,44,44,0,0
 MSNBot/Bingbot,13,0,0,13
 GomezAgent+3.0,12,12,0,0
 GomezAgent+1.0,12,12,0,0
@@ -1463,8 +1463,8 @@ NetAttache,114,29,0,85
 AboutUsBot,161,161,0,0
 MS Search 6.0 Robot,176,79,0,97
 Daum,8,0,0,8
-Google,216,1,155,60
 Naver,31,23,0,8
+Google,216,1,155,60
 Elastic-Crawler epo-org,6,0,0,6
 ClarityBot,179,0,98,81
 ^NetShelter,171,171,0,0
@@ -1536,25 +1536,25 @@ Mozilla/4.0 (compatible; MSIE 5.0; Windows 95) VoilaBot BETA 1.2 (http://www.voi
 "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html) https://deepcrawl.com/bot",2,0,2,0
 Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html) https://deepcrawl.com/bot,2,0,2,0
 Baiduspider+(+http://www.baidu.com/search/spider.htm),143,130,13,0
-GrapeshotCrawler/2.0,1,1,0,0
-YandexImages/3.0,64,64,0,0
-PaperLiBot/2.1,64,64,0,0
-Baiduspider-render/2.0,64,64,0,0
-ToutiaoSpider/1.0,64,64,0,0
-Baiduspider-render,64,64,0,0
-SemrushBot/3~bl,64,64,0,0
 Freshbot/4.0,58,58,0,0
 Cutbot/1.5,60,60,0,0
+YandexImages/3.0,64,64,0,0
 AhrefsBot/6.1,71,71,0,0
+PaperLiBot/2.1,64,64,0,0
 VoluumDSP-content-bot/2.0,58,58,0,0
+Baiduspider-render/2.0,64,64,0,0
+ToutiaoSpider/1.0,64,64,0,0
 DotBot/1.1,60,60,0,0
 Cutbot/+1.5,60,60,0,0
+Baiduspider-render,64,64,0,0
 Cutbot;+1.5,60,60,0,0
+SemrushBot/3~bl,64,64,0,0
 Yahoo-MMCrawler,116,56,4,56
 Yahoo-Blogs,4,0,0,4
+GrapeshotCrawler/2.0,1,1,0,0
 wegobot,124,124,0,0
-Google-Podcast,11,4,7,0
 Alexabot,164,0,164,0
+Google-Podcast,11,4,7,0
 Mozilla/5.0 (compatible; Google-Podcast),7,0,7,0
 Infovell,32,0,32,0
 genomeBot,8,0,8,0
@@ -1823,8 +1823,8 @@ https://hada.news,3,3,0,0
 JenkersBot,3,3,0,0
 https://www.imediaethics.org,3,3,0,0
 Arquivo-web-crawler,23,1,22,0
-*  # directed to all robots (Fly),3,0,3,0
 *  # directed to all robots,46,0,46,0
+*  # directed to all robots (Fly),3,0,3,0
 Offline Explorer/1.1,95,95,0,0
 webcollage/1.96,95,95,0,0
 Offline Explorer/1.5,95,95,0,0
@@ -1873,11 +1873,12 @@ Google Favicon,11,0,0,11
 emrush,11,2,0,9
 google,142,0,0,142
 MindSpider,199,199,0,0
-zhanzhang,10,10,0,0
 bsalsa,12,12,0,0
+wadoo,12,12,0,0
+BluechipBacklinks,72,72,0,0
+zhanzhang,10,10,0,0
 EcoSearch,10,10,0,0
 mail.ru,18,18,0,0
-wadoo,12,12,0,0
 picoFeed,10,10,0,0
 eyemon,10,10,0,0
 Studio,10,10,0,0
@@ -1893,7 +1894,6 @@ magpie,10,10,0,0
 Gwene,10,10,0,0
 bbot,10,10,0,0
 amazonbot,10,10,0,0
-BluechipBacklinks,72,72,0,0
 BcahiBot,10,10,0,0
 zoominfobot,10,10,0,0
 Jersey,53,10,0,43
@@ -1901,8 +1901,8 @@ OpenNet.ru,10,10,0,0
 Hatena,10,10,0,0
 MBCrawler,36,36,0,0
 babbar,10,10,0,0
-* Disallow: /wp-admin/ Allow: /wp-admin/admin-ajax.php,34,0,0,34
 """Vegi bot (we follow your robots.txt settings before crawling, you can slow down the bot by change",11,11,0,0
+* Disallow: /wp-admin/ Allow: /wp-admin/admin-ajax.php,34,0,0,34
 * Disallow: /wp-admin/,1,0,0,1
 StormCrawler,57,36,0,21
 Semanticbot,44,35,0,9
@@ -3440,15 +3440,14 @@ Hitcrawler,23,23,0,0
 HtTrack,92,92,0,0
 Fish search,93,93,0,0
 RUBot,55,55,0,0
-MSIE 6 - ( Rogue Robot ),38,38,0,0
 semrush,70,70,0,0
 webmeup,55,55,0,0
+MSIE 6 - ( Rogue Robot ),38,38,0,0
 API scraper,27,0,27,0
 1science Harvester,31,0,31,0
 AAABot,8,8,0,0
 Megaindex,77,77,0,0
 TalkTalk Virus Alerts Scanning Engine,82,0,82,0
-mj12,15,15,0,0
 Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot),3,0,3,0
 Sogou ... spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07),3,0,3,0
 Mozilla/5.0 (compatible; Bingbot/2.0; +http://www.bing.com/bingbot.htm),3,0,3,0
@@ -3459,8 +3458,9 @@ Mozilla/5.0 (compatible; Pinterestbot/1.0; +http://www.pinterest.com/bot.html),3
 ia_archiver (+http://www.alexa.com/site/help/webmasters; crawler@alexa.com),3,0,3,0
 DuckDuckBot/1.0; (+http://duckduckgo.com/duckduckbot.html),3,0,3,0
 Discourse.org Server Monitor,3,0,3,0
-Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html),2,0,2,0
+mj12,15,15,0,0
 Molokai,8,8,0,0
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html),2,0,2,0
 yahoo,111,12,11,88
 Ask Jeeves,99,0,11,88
 tcg-cache-warmer-bot,1,1,0,0
@@ -3493,6 +3493,7 @@ mozilla/5.0 (compatible; heritrix/1.3.0 http://archive.crawler.org),12,0,12,0
 Guardcrwlr,84,84,0,0
 linkcheck,84,84,0,0
 link checker,86,86,0,0
+A6-Indexer,80,79,0,1
 HubSpot Links Crawler,84,84,0,0
 betaBot,91,86,0,5
 Searchie,84,84,0,0
@@ -3508,7 +3509,6 @@ okhttp,84,84,0,0
 LinksCrawler,84,84,0,0
 BPImageWalker,86,86,0,0
 RankvalBot,84,84,0,0
-A6-Indexer,80,79,0,1
 CCBots,7,7,0,0
 Techiejobs.co,36,36,0,0
 qsdb,27,27,0,0
@@ -4530,6 +4530,7 @@ VocusBot,97,0,0,97
 mob2bw,97,0,0,97
 AddThis.com robot,97,0,0,97
 sReleaseBot,97,0,0,97
+Nuzzel,65,0,0,65
 LDRbot,97,0,0,97
 MarketwireBot,97,0,0,97
 Kemvibot,97,0,0,97
@@ -4558,7 +4559,6 @@ CoveoEnterpriseSearch,97,0,0,97
 mmm-google-two,97,0,0,97
 PictureBot,97,0,0,97
 SocialShare,97,0,0,97
-Nuzzel,65,0,0,65
 Gogglebot,2,0,0,2
 Tiingo News - support@tiingo.com,39,0,0,39
 izsearch.com,7,0,7,0
@@ -4890,8 +4890,8 @@ Libwww-perl,11,11,0,0
 JobboerseBot,23,23,0,0
 Sogou Pic Agent,1,1,0,0
 linkdexbot/2.2,10,10,0,0
-semaltspider,8,8,0,0
 CarsnipBot,6,6,0,0
+semaltspider,8,8,0,0
 maj12,6,0,0,6
 AHrefs,6,0,0,6
 SEMRush,6,0,0,6
@@ -4913,9 +4913,9 @@ ImageWalker,26,26,0,0
 findfiles.org,16,16,0,0
 Zeusbot,19,19,0,0
 WebsiteWiki,27,27,0,0
-Nederland.zoek,22,22,0,0
 * #agent,22,0,22,0
 gonzo,19,19,0,0
+Nederland.zoek,22,22,0,0
 XGET,22,22,0,0
 ThumbSniper,3,3,0,0
 fr-crawler,3,3,0,0
@@ -4971,8 +4971,8 @@ iaea,20,20,0,0
 IlTrovatore-Setaccio,20,20,0,0
 Asterias Crawler,20,20,0,0
 * Disallow: SITEMAP: http://strummers.org/sitemap.xml,1,0,0,1
-Algolia Crawler,40,0,40,0
 funnelback,80,0,80,0
+Algolia Crawler,40,0,40,0
 BadBot,1,1,0,0
 YadirectBot,1,1,0,0
 ConveraCrawler/0.9e,26,26,0,0
@@ -5162,10 +5162,10 @@ anu-gsa-prodprimary-crawler,1,1,0,0
 gsa-crawler-uofu,1,1,0,0
 gsa-prod-crawler,1,1,0,0
 ubgsa,1,1,0,0
-gsa-crawler-urel,1,1,0,0
 nsu-gsa-crawler,1,1,0,0
 uon-gsa-crawler,1,1,0,0
 gsa-emory,1,1,0,0
+gsa-crawler-urel,1,1,0,0
 gsa-crawler-iastate,1,1,0,0
 Barkrowler/0.9,1,1,0,0
 360Spider-Image,6,0,0,6
