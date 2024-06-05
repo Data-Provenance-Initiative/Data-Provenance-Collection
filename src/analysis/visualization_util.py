@@ -5,6 +5,7 @@ from matplotlib.patches import Patch
 import seaborn as sns
 import pandas as pd
 import numpy as np
+import typing
 from collections import Counter, defaultdict
 
 
@@ -421,9 +422,9 @@ def create_stacked_area_chart(
     status_col: str,
     percentage_col: str,
     title: str = "",
-    ordered_statuses: list[str] = None,
-    status_colors: dict[str, str] = None,
-    vertical_line_dates: list[tuple[str, str]] = [],
+    ordered_statuses: typing.List[str] = None,
+    status_colors: typing.Dict[str, str] = None,
+    vertical_line_dates: typing.List[typing.Tuple[str, str]] = [],
     label_fontsize: int = 14,
     title_fontsize: int = 16,
     width: int = 1000,
@@ -772,8 +773,8 @@ def plot_robots_time_map_3d_density(
 
 def plot_company_comparisons_altair(
     df: pd.DataFrame,
-    vertical_line_dates: list[tuple[str, str]] = [], # List of tuples with vertical line dates and corresponding labels
-    color_mapping: dict[str, str] = {},
+    vertical_line_dates: typing.List[typing.Tuple[str, str]] = [], # List of tuples with vertical line dates and corresponding labels
+    color_mapping: typing.Dict[str, str] = {},
     label_fontsize: int = 14,
     title_fontsize: int = 16,
     width: int = 1000,
