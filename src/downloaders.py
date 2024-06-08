@@ -1257,7 +1257,7 @@ def download_cobra_frames(accepted_filter_ids):
     mapping = {
         'normal': accepted_filter_ids[0],
     }
-    df = pd.read_csv("https://huggingface.co/datasets/cmu-lti/cobracorpus/resolve/main/toxigen_explanations_train.csv")
+    df = pd.read_csv("https://huggingface.co/datasets/cmu-lti/cobracorpus/resolve/main/toxigen_explanations.csv")
     dset = Dataset.from_pandas(df)
 
     dset = annotate_source(dset, mapping['normal'])
