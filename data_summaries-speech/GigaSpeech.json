@@ -65,7 +65,7 @@
             "YouTube"
         ],
         "Process Description": "Audios With Transcripts Attached (These Transcripts Were Then Later Normalized)",
-        "Github URL": "https://github.com/SpeechColab/GigaSpeech",
+        "GitHub URL": "https://github.com/SpeechColab/GigaSpeech",
         "Hugging Face URL": "https://huggingface.co/datasets/speechcolab/gigaspeech",
         "Papers with Code URL": "https://paperswithcode.com/dataset/gigaspeech",
         "Paper URL": "https://arxiv.org/abs/2106.06909",
@@ -90,6 +90,25 @@
             "United States",
             "China"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (June 2024)": 608,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": 7311,
+            "HF Likes (June 2024)": 68,
+            "HF Yaml License": "",
+            "PwC Date": "2021-06-13",
+            "PwC Description": "GigaSpeech, an evolving, multi-domain English speech recognition corpus with 10,000 hours of high quality labeled audio suitable for supervised training, and 40,000 hours of total audio suitable for semi-supervised and unsupervised training.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

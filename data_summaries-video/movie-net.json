@@ -32,6 +32,35 @@
         "Taken Down": "False",
         "Video Sources": [
             "movies"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": 256,
+            "GitHub Topics": [
+                "action-recognition",
+                "computer-vision",
+                "cross-modality",
+                "deep-learning",
+                "movie",
+                "person-analysis",
+                "shot-detection",
+                "video-understanding",
+                "vision-language"
+            ],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2020-07-21",
+            "PwC Description": "MovieNet is a holistic dataset for movie understanding. MovieNet contains 1,100 movies with a large amount of multi-modal data, e.g. trailers, photos, plot descriptions, etc.. Besides, different aspects of manual annotations are provided in MovieNet, including 1.1M characters with bounding boxes and identities, 42K scene boundaries, 2.5K aligned description sentences, 65K tags of place and action, and 92 K tags of cinematic style.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

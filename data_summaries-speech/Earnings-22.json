@@ -40,7 +40,7 @@
             "MTN Ghana"
         ],
         "Process Description": "Audios Gotten First, Text Trascribed Later",
-        "Github URL": "https://github.com/revdotcom/speech-datasets",
+        "GitHub URL": "https://github.com/revdotcom/speech-datasets",
         "Hugging Face URL": "https://huggingface.co/datasets/distil-whisper/earnings22",
         "Papers with Code URL": "https://paperswithcode.com/dataset/earnings-22",
         "Paper URL": "https://arxiv.org/abs/2203.15591",
@@ -55,6 +55,25 @@
         "Location": [
             "United States"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": 83,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "full",
+            "HF Config License": "",
+            "HF Dataset": "distil-whisper/earnings22",
+            "HF Date": "2023-10-13",
+            "HF Downloads (June 2024)": 399,
+            "HF Likes (June 2024)": 0,
+            "HF Yaml License": "",
+            "PwC Date": "2022-03-29",
+            "PwC Description": "Earnings-22 is a practical benchmark designed to evaluate automatic speech recognition (ASR) systems' performance on real-world, accented audio. Let me provide you with more details:\n\n\nCorpus Description:\nEarnings-22 consists of 125 audio files totaling 119 hours of English-language earnings calls. These calls were gathered from global companies.\n\nUnlike many existing corpora, Earnings-22 focuses on speech in the wild, representing real-world scenarios where accents and environmental conditions vary.\n\n\n\nPurpose and Significance:\n\n\nASR systems have achieved impressive performance on common corpora but often struggle with real-world speech.\nEarnings-22 aims to bridge this gap by providing a free-to-use benchmark that includes accented audio.\n\nResearchers and industry professionals can use Earnings-22 to evaluate and improve ASR models' robustness.\n\n\n\nComparison and Insights:\n\n\nThe benchmark involves four commercial ASR models, and their performance is compared.\nBy considering the country of origin, the study reveals variations in ASR accuracy.\n\nIndividual Word Error Rate (IWER) analysis highlights how certain accents impact model performance more than others.\n\n\n\nAcademic and Industrial Impact:\n\n\nEarnings-22 serves as a valuable resource for both academic research and industrial applications.\nIt provides a realistic dataset for evaluating ASR systems' effectiveness in handling diverse accents.\n\nSource: Conversation with Bing, 3/16/2024\n(1) Earnings-22: A Practical Benchmark for Accents in the Wild. https://arxiv.org/abs/2203.15591.\n(2) Earnings-22: A Practical Benchmark for Accents in the Wild. https://deepai.org/publication/earnings-22-a-practical-benchmark-for-accents-in-the-wild.\n(3) arXiv:2203.15591v1 [cs.CL] 29 Mar 2022. https://arxiv.org/pdf/2203.15591.pdf.\n(4) undefined. https://doi.org/10.48550/arXiv.2203.15591.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

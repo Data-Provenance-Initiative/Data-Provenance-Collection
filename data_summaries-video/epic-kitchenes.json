@@ -36,6 +36,27 @@
         "Taken Down": "False",
         "Video Sources": [
             "human"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": 0,
+            "GitHub Topics": [
+                ""
+            ],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2020-06-23",
+            "PwC Description": "This paper introduces the pipeline to scale the largest dataset in egocentric vision EPIC-KITCHENS. The effort culminates in EPIC-KITCHENS-100, a collection of 100 hours, 20M frames, 90K actions in 700 variable-length videos, capturing long-term unscripted activities in 45 environments, using head-mounted cameras. Compared to its previous version (EPIC-KITCHENS-55), EPIC-KITCHENS-100 has been annotated using a novel pipeline that allows denser (54% more actions per minute) and more complete annotations of fine-grained actions (+128% more action segments). This collection also enables evaluating the \"test of time\" - i.e. whether models trained on data collected in 2018 can generalise to new footage collected under the same hypotheses albeit \"two years on\".\nThe dataset is aligned with 6 challenges: action recognition (full and weak supervision), action detection, action anticipation, cross-modal retrieval (from captions), as well as unsupervised domain adaptation for action recognition. For each challenge, we define the task, provide baselines and evaluation metrics.",
+            "PwC License Name": "CC BY-NC 4.0",
+            "PwC License URL": "https://epic-kitchens.github.io/2021",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

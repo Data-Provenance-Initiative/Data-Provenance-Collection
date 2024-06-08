@@ -36,7 +36,7 @@
             "Human Participants"
         ],
         "Process Description": "",
-        "Github URL": "",
+        "GitHub URL": "",
         "Hugging Face URL": "",
         "Website URL": [
             "https://openslr.org/62/"
@@ -54,6 +54,25 @@
         "Location": [
             "China"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2022-06-15",
+            "PwC Description": "A Chinese Mandarin speech corpus by Beijing DataTang Technology Co., Ltd, containing 200 hours of speech data from 600 speakers. The transcription accuracy for each sentence is larger than 98%.\nAidatatang_200zh is a free Chinese Mandarin speech corpus provided by Beijing DataTang Technology Co., Ltd under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License.\nThe contents and the corresponding descriptions of the corpus include:\n\nThe corpus contains 200 hours of acoustic data, which is mostly mobile recorded data.\n600 speakers from different accent areas in China are invited to participate in the recording.\nThe transcription accuracy for each sentence is larger than 98%.\nRecordings are conducted in a quiet indoor environment.\nThe database is divided into training set, validation set, and testing set in a ratio of 7: 1: 2.\nDetail information such as speech data coding and speaker information is preserved in the metadata file.\nSegmented transcripts are also provided.\nThe corpus aims to support researchers in speech recognition, machine translation, voiceprint recognition, and other speech-related fields. Therefore, the corpus is totally free for academic use.",
+            "PwC License Name": "CC BY-NC-ND 4.0",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }
