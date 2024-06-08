@@ -152,7 +152,7 @@
             "LibriVox Audiobooks"
         ],
         "Process Description": "Audios With Transcripts Attached",
-        "Github URL": "",
+        "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/librispeech_asr",
         "Website URL": [
             "https://www.openslr.org/12"
@@ -170,6 +170,25 @@
         "Location": [
             "United States"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "librispeech_asr",
+            "HF Date": "2022-01-25",
+            "HF Downloads (June 2024)": 345,
+            "HF Likes (June 2024)": 105,
+            "HF Yaml License": "CC BY 4.0",
+            "PwC Date": "2015-01-01",
+            "PwC Description": "The LibriSpeech corpus is a collection of approximately 1,000 hours of audiobooks that are a part of the LibriVox project. Most of the audiobooks come from the Project Gutenberg. The training data is split into 3 partitions of 100hr, 360hr, and 500hr sets while the dev and test data are split into the ’clean’ and ’other’ categories, respectively, depending upon how well or challenging Automatic Speech Recognition systems would perform against. Each of the dev and test sets is around 5hr in audio length. This corpus also provides the n-gram language models and the corresponding texts excerpted from the Project Gutenberg books, which contain 803M tokens and 977K unique words.",
+            "PwC License Name": "CC BY 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

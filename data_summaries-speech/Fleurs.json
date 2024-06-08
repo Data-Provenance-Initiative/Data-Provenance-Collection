@@ -282,7 +282,7 @@
             "Crowd-Sourcing"
         ],
         "Process Description": "Scripts Generated First, Then Audio Was Recorded",
-        "Github URL": "",
+        "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/google/fleurs",
         "Website URL": [
             "https://research.google/pubs/fleurs-few-shot-learning-evaluation-of-universal-representations-of-speech/"
@@ -303,6 +303,25 @@
         "Location": [
             "United States"
         ],
-        "Notes": "Widely used: 23,361 downloads last month"
+        "Notes": "Widely used: 23,361 downloads last month",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "google/fleurs",
+            "HF Date": "2022-04-19",
+            "HF Downloads (June 2024)": 44127,
+            "HF Likes (June 2024)": 211,
+            "HF Yaml License": "CC BY 4.0",
+            "PwC Date": "2022-05-25",
+            "PwC Description": "We introduce FLEURS, the Few-shot Learning Evaluation of Universal Representations of Speech benchmark. FLEURS is an n-way parallel speech dataset in 102 languages built on top of the machine translation FLoRes-101 benchmark, with approximately 12 hours of speech supervision per language. FLEURS can be used for a variety of speech tasks, including Automatic Speech Recognition (ASR), Speech Language Identification (Speech LangID), Translation and Retrieval. In this paper, we provide baselines for the tasks based on multilingual pre-trained models like mSLAM. The goal of FLEURS is to enable speech technology in more languages and catalyze research in low-resource speech understanding.",
+            "PwC License Name": "CC BY 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by/2.5/",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

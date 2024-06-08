@@ -60,13 +60,13 @@
             "Bible"
         ],
         "Process Description": "Extracted Audio And Transcriptions From The Bible.Is Website, Then Proceeded With Alignment Extraction And Segmentation",
-        "Github URL": "https://github.com/getalp/mass-dataset",
+        "GitHub URL": "https://github.com/getalp/mass-dataset",
         "Hugging Face URL": "",
         "Papers with Code URL": "https://paperswithcode.com/dataset/mass",
         "Paper URL": "https://arxiv.org/pdf/1907.12895",
         "Semantic Scholar Corpus ID": 198986161,
         "Creators": [
-            "Universit\u00e9 Grenoble Alpes"
+            "Université Grenoble Alpes"
         ],
         "Creator Categories": [
             "Academia"
@@ -75,6 +75,25 @@
         "Location": [
             "France"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "MIT License",
+            "GitHub Stars (June 2024)": 46,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "MaSS (Multilingual corpus of Sentence-aligned Spoken utterances) is an extension of the CMU Wilderness Multilingual Speech Dataset, a speech dataset based on recorded readings of the New Testament.\n\nMaSS extends it by providing a large and clean dataset of 8,130 parallel spoken utterances across 8 languages (56 language pairs). The covered languages are: Basque, English, Finnish, French, Hungarian, Romanian, Russian and Spanish.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

@@ -37,7 +37,7 @@
             "Human Participants"
         ],
         "Process Description": "Scripts Generated First, Then Audio Was Recorded",
-        "Github URL": "",
+        "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/timit_asr",
         "Website URL": [
             "https://catalog.ldc.upenn.edu/LDC93S1"
@@ -58,6 +58,25 @@
         "Location": [
             "United States"
         ],
-        "Notes": "Used a lot: 4,135 downloads last month"
+        "Notes": "Used a lot: 4,135 downloads last month",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "clean",
+            "HF Config License": "",
+            "HF Dataset": "timit_asr",
+            "HF Date": "2022-01-25",
+            "HF Downloads (June 2024)": 2,
+            "HF Likes (June 2024)": 20,
+            "HF Yaml License": "Unspecified",
+            "PwC Date": "",
+            "PwC Description": "The TIMIT Acoustic-Phonetic Continuous Speech Corpus is a standard dataset used for evaluation of automatic speech recognition systems. It consists of recordings of 630 speakers of 8 dialects of American English each reading 10 phonetically-rich sentences. It also comes with the word and phone-level transcriptions of the speech.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

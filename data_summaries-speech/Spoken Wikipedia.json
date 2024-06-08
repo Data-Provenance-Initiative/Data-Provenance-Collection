@@ -45,7 +45,7 @@
             "Crowd-Sourcing"
         ],
         "Process Description": "Volunteers Read Out And Record Wikipedia Articles (Which Are Originally Produced In Writing)",
-        "Github URL": "",
+        "GitHub URL": "",
         "Hugging Face URL": "",
         "Website URL": [
             "https://nats.gitlab.io/swc/"
@@ -63,6 +63,25 @@
         "Location": [
             "Germany"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "The SWC is a corpus of aligned Spoken Wikipedia articles from the English, German, and Dutch Wikipedia. This corpus has several outstanding characteristics:\n\n\nhundreds of hours of aligned audio\nfrom a diverse set of readers\nabout a diverse set of topics\nin a well-researched textual genre\nlicensed under a free license (CC BY-SA 4.0)\nAnnotations can be mapped back to the original html\nphoneme-level alignments",
+            "PwC License Name": "CC BY-SA 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

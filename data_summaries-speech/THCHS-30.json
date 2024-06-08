@@ -38,7 +38,7 @@
             "Human Participants"
         ],
         "Process Description": "Audios Recorded First, Text Transcribed Later",
-        "Github URL": "",
+        "GitHub URL": "",
         "Hugging Face URL": "",
         "Website URL": [
             "https://www.openslr.org/18/"
@@ -56,6 +56,25 @@
         "Location": [
             "China"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "THCHS-30 is a free Chinese speech database\nTHCHS-30 that can be used to build a full-fledged\nChinese speech recognition system.",
+            "PwC License Name": "Academic Research Purposes Only",
+            "PwC License URL": "http://166.111.134.19:7777/data/thchs30/README.html",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

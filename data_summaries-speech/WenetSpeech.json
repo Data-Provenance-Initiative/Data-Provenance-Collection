@@ -49,7 +49,7 @@
             "Podcast"
         ],
         "Process Description": "Audios With Transcripts Attached",
-        "Github URL": "https://github.com/wenet-e2e/WenetSpeech",
+        "GitHub URL": "https://github.com/wenet-e2e/WenetSpeech",
         "Hugging Face URL": "",
         "Website URL": [
             "https://wenet.org.cn/WenetSpeech/"
@@ -71,6 +71,25 @@
         "Location": [
             "China"
         ],
-        "Notes": "Automatic transcription (ASR for Podcast, OCR from subtitles for YouTube)"
+        "Notes": "Automatic transcription (ASR for Podcast, OCR from subtitles for YouTube)",
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (June 2024)": 471,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2021-10-07",
+            "PwC Description": "WenetSpeech is a multi-domain Mandarin corpus consisting of 10,000+ hours high-quality labeled speech, 2,400+ hours weakly labelled speech, and about 10,000 hours unlabeled speech, with 22,400+ hours in total. The authors collected the data from YouTube and Podcast, which covers a variety of speaking styles, scenarios, domains, topics, and noisy conditions. An optical character recognition (OCR) based method is introduced to generate the audio/text segmentation candidates for the YouTube data on its corresponding video captions.",
+            "PwC License Name": "CC BY 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }
