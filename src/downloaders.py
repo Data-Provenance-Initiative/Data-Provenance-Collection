@@ -406,7 +406,7 @@ def download_nectar(accepted_filter_ids):
 
 
 def download_feedback_collection(accepted_filter_ids):
-    return huggingface_download("prometheus-eval/Feedback-Collection")
+    return huggingface_download("prometheus-eval/Feedback-Collection", split='train')
 
 def download_preference_collection(accepted_filter_ids):
     return huggingface_download("prometheus-eval/Preference-Collection")
