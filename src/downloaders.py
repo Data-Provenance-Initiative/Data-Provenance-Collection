@@ -1,30 +1,22 @@
-import os
-import re
-import json
-import random
-import zipfile
-import multiprocessing
 import itertools as it
-
-from io import BytesIO
-from functools import partial
+import json
+import multiprocessing
+import os
+import random
+import re
+import zipfile
 from collections import Counter
+from functools import partial
+from io import BytesIO
 
 import chardet
-import requests
 import pandas as pd
-
-from datasets import load_dataset, list_datasets, Dataset
-
-# `HfFileSystem` requires the latest version of `huggingface_hub`
-from huggingface_hub import HfFileSystem, hf_hub_url, hf_hub_download, login
-
+import requests
+from datasets import Dataset, list_datasets, load_dataset
 from helpers import io
 
-
-###########################################################################
-############### Download Utils
-###########################################################################
+# `HfFileSystem` requires the latest version of `huggingface_hub`
+from huggingface_hub import HfFileSystem, hf_hub_download, hf_hub_url, login
 
 
 def filter_dataset_on_task_name(ex, task_key, accepted_filter_ids):
@@ -1265,8 +1257,10 @@ def download_cobra_frames(accepted_filter_ids):
     mapping = {
         'normal': accepted_filter_ids[0],
     }
-    dset = huggingface_download('cmu-lti/cobracorpus', data_files={'normal': 'toxigen_explanations.csv'})
-    dset = annotate_source(dset['normal'], mapping['normal'])
+    df = pd.read_csv("https://huggingface.co/datasets/cmu-lti/cobracorpus/resolve/main/toxigen_explanations_train.csv")
+    dset = Dataset.from_pandas(df)
+
+    dset = annotate_source(dset, mapping['normal'])
     return dset
 
 
