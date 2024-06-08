@@ -53,7 +53,7 @@
             "Human Participants"
         ],
         "Process Description": "Audios Gotten First With Mobile Apps, Text Trascribed Later",
-        "Github URL": "https://github.com/MagicHub-io/MagicData-RAMC",
+        "GitHub URL": "https://github.com/MagicHub-io/MagicData-RAMC",
         "Hugging Face URL": "",
         "Website URL": [
             "https://www.openslr.org/123/"
@@ -75,6 +75,25 @@
         "Location": [
             "China"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": 43,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2022-03-31",
+            "PwC Description": "The MagicData-RAMC corpus contains 180 hours of conversational speech data recorded from native speakers of Mandarin Chinese over mobile phones with a sampling rate of 16 kHz. The dialogs in the dialogs are classified into 15 diversified domains and tagged with topic labels, ranging from science and technology to ordinary life. Accurate transcription and precise speaker voice activity timestamps are manually labeled for each sample. Speakers' detailed information is also provided.",
+            "PwC License Name": "CC BY-NC 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

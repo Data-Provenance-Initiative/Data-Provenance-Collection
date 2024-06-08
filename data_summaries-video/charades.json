@@ -36,6 +36,25 @@
         "Taken Down": "False",
         "Video Sources": [
             "human"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "HuggingFaceM4/charades",
+            "HF Date": "2022-05-11",
+            "HF Downloads (June 2024)": 7,
+            "HF Likes (June 2024)": 2,
+            "HF Yaml License": "Unspecified",
+            "PwC Date": "2016-01-01",
+            "PwC Description": "The Charades dataset is composed of 9,848 videos of daily indoors activities with an average length of 30 seconds, involving interactions with 46 objects classes in 15 types of indoor scenes and containing a vocabulary of 30 verbs leading to 157 action classes. Each video in this dataset is annotated by multiple free-text descriptions, action labels, action intervals and classes of interacting objects. 267 different users were presented with a sentence, which includes objects and actions from a fixed vocabulary, and they recorded a video acting out the sentence. In total, the dataset contains 66,500 temporal annotations for 157 action classes, 41,104 labels for 46 object classes, and 27,847 textual descriptions of the videos. In the standard split there are7,986 training video and 1,863 validation video.",
+            "PwC License Name": "Non Commercial",
+            "PwC License URL": "http://vuchallenge.org/license-charades.txt",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

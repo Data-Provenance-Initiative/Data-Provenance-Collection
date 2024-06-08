@@ -49,7 +49,7 @@
             "Derived Dataset"
         ],
         "Process Description": "Audios Recorded First, Data Annotators Transcribing Speech Data",
-        "Github URL": "https://github.com/felixfuyihui/AISHELL-4",
+        "GitHub URL": "https://github.com/felixfuyihui/AISHELL-4",
         "Hugging Face URL": "https://huggingface.co/datasets/AISHELL/AISHELL-1",
         "Website URL": [
             "https://www.openslr.org/33/"
@@ -69,6 +69,25 @@
         "Location": [
             "China"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (June 2024)": 112,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "AISHELL/AISHELL-1",
+            "HF Date": "2023-08-03",
+            "HF Downloads (June 2024)": 52,
+            "HF Likes (June 2024)": 2,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "AISHELL-1 is a corpus for speech recognition research and building speech recognition systems for Mandarin.",
+            "PwC License Name": "Apache License 2.0",
+            "PwC License URL": "http://www.openslr.org/33/",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

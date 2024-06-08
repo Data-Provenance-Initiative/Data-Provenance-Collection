@@ -44,7 +44,7 @@
             "Human Participants"
         ],
         "Process Description": "",
-        "Github URL": "",
+        "GitHub URL": "",
         "Hugging Face URL": "",
         "Papers with Code URL": "https://paperswithcode.com/dataset/aishell-2",
         "Paper URL": "https://arxiv.org/pdf/1808.10583",
@@ -61,6 +61,25 @@
         "Location": [
             "China"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "AISHELL-2 contains 1000 hours of clean read-speech data from iOS is free for academic usage.",
+            "PwC License Name": "Various",
+            "PwC License URL": "https://github.com/kaldi-asr/kaldi/tree/master/egs/aishell2",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

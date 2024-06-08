@@ -23,9 +23,9 @@
         ],
         "Creators": [
             "Middle East Technical University",
-            "Ecole Normale Sup\u00e9rieure",
+            "Ecole Normale Supérieure",
             "Inria",
-            "PSL University - Universit\u00e9 PSL",
+            "PSL University - Université PSL",
             "CIIRC",
             "Czech Technical University",
             "University of Michigan"
@@ -41,6 +41,25 @@
         "Taken Down": "False",
         "Video Sources": [
             "youtube"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "BSD 3-Clause License",
+            "GitHub Stars (June 2024)": 83,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2019-01-01",
+            "PwC Description": "CrossTask dataset contains instructional videos, collected for 83 different tasks. For each task an ordered list of steps with manual descriptions is provided. The dataset is divided in two parts: 18 primary and 65 related tasks. Videos for the primary tasks are collected manually and provided with annotations for temporal step boundaries. Videos for the related tasks are collected automatically and don't have annotations.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

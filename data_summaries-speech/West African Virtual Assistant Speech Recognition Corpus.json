@@ -45,7 +45,7 @@
             "Human Participants"
         ],
         "Process Description": "Audios Recorded First, Text Transcribed Later",
-        "Github URL": "https://github.com/mdoumbouya/nicolingua",
+        "GitHub URL": "https://github.com/mdoumbouya/nicolingua",
         "Hugging Face URL": "",
         "Website URL": [
             "https://openslr.org/106/"
@@ -66,6 +66,25 @@
             "United States",
             "Guinea"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": 9,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "This dataset contains 10,083 recorded utterances in French, Maninka, Pular and Susu from 49 speakers (16 female and 33 male) ranging from 5 to 76 years old on a variety of devices.\n\nPlease see our paper for more details on this dataset. Additional resources can be found in the following git repository: https://github.com/mdoumbouya/nicolingua",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

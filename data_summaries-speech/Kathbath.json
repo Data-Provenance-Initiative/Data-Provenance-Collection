@@ -71,7 +71,7 @@
             "Crowd-Sourcing"
         ],
         "Process Description": "Scripts (Sentences) Generated First, Then Audio Was Recorded",
-        "Github URL": "https://github.com/AI4Bharat/IndicSUPERB?tab=Apache-2.0-1-ov-file",
+        "GitHub URL": "https://github.com/AI4Bharat/IndicSUPERB?tab=Apache-2.0-1-ov-file",
         "Hugging Face URL": "https://huggingface.co/datasets/ai4bharat/kathbath",
         "Website URL": [
             "https://ai4bharat.iitm.ac.in/indicsuperb/"
@@ -91,6 +91,25 @@
         "Location": [
             "India"
         ],
-        "Notes": "newer dataset, about 2 years old"
+        "Notes": "newer dataset, about 2 years old",
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (June 2024)": 3,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "bn",
+            "HF Config License": "",
+            "HF Dataset": "ai4bharat/kathbath",
+            "HF Date": "2022-12-04",
+            "HF Downloads (June 2024)": 395,
+            "HF Likes (June 2024)": 6,
+            "HF Yaml License": "MIT License",
+            "PwC Date": "",
+            "PwC Description": "Implemented in one code library.",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }
