@@ -1233,9 +1233,6 @@ def download_collective_cognition(accepted_filter_ids):
 
     
 def download_chatbot_arena_conversations(accepted_filter_ids):
-    # Dataset is gated, needs login first
-    login()
-
     # Standard download
     dset = huggingface_download(
         "lmsys/chatbot_arena_conversations",
