@@ -89,7 +89,7 @@
             "TED Talks"
         ],
         "Process Description": "Audios With Transcripts Attached",
-        "Github URL": "",
+        "GitHub URL": "",
         "Hugging Face URL": "",
         "Website URL": [
             "https://mt.fbk.eu/must-c/"
@@ -109,6 +109,25 @@
         "Location": [
             "Italy"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2019-01-01",
+            "PwC Description": "MuST-C currently represents the largest publicly available multilingual corpus (one-to-many) for speech translation. It covers eight language directions, from English to German, Spanish, French, Italian, Dutch, Portuguese, Romanian and Russian. The corpus consists of audio, transcriptions and translations of English TED talks, and it comes with a predefined training, validation and test split.",
+            "PwC License Name": "CC BY-NC-ND 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

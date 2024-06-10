@@ -60,7 +60,7 @@
             "Show Ana Haber"
         ],
         "Process Description": "Audios Gotten First, Text Trascribed Later",
-        "Github URL": "https://github.com/NTRLab/MediaSpeech",
+        "GitHub URL": "https://github.com/NTRLab/MediaSpeech",
         "Hugging Face URL": "",
         "Website URL": [
             "https://www.openslr.org/108/"
@@ -83,6 +83,25 @@
         "Location": [
             "Russia"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": 10,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2021-03-30",
+            "PwC Description": "MediaSpeech is a media speech dataset (you might have guessed this) built with the purpose of testing Automated Speech Recognition (ASR) systems performance. The dataset consists of short speech segments automatically extracted from media videos available on YouTube and manually transcribed, with some pre- and post-processing. The dataset contains 10 hours of speech for each language provided. This release contains audio datasets in French, Arabic, Turkish and Spanish, and is a part of a larger private dataset.",
+            "PwC License Name": "CC BY 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

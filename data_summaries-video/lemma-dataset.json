@@ -34,6 +34,25 @@
         "Video Sources": [
             "crowdsourced",
             "human"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": 27,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "The LEMMA dataset aims to explore the essence of complex human activities in a goal-directed, multi-agent, multi-task setting with ground-truth labels of compositional atomic-actions and their associated tasks. By quantifying the scenarios to up to two multi-step tasks with two agents, the authors strive to address human multi-task and multi-agent interactions in four scenarios: single-agent single-task (1 x 1), single-agent multi-task (1 x 2), multi-agent single-task (2 x 1), and multi-agent multi-task (2 x 2). Task instructions are only given to one agent in the 2 x 1 setting to resemble the robot-helping scenario, hoping that the learned perception models could be applied in robotic tasks (especially in HRI) in the near future.\n\nBoth the third-person views (TPVs) and the first-person views (FPVs) were recorded to account for different perspectives of the same activities. The authors densely annotate atomic-actions (in the form of compositional verb-noun pairs) and tasks of each atomic-action, as well as the spatial location of each participating agent (bounding boxes) to facilitate the learning of multi-agent multi-task task scheduling and assignment.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

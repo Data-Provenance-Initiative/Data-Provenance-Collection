@@ -36,6 +36,29 @@
         "Taken Down": "False",
         "Video Sources": [
             "youtube"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": 33,
+            "GitHub Topics": [
+                "long-tailed-recognition",
+                "video-classification",
+                "video-dataset"
+            ],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2021-05-06",
+            "PwC Description": "VideoLT is a large-scale long-tailed video recognition dataset that contains 256,218 untrimmed videos, annotated into 1,004 classes with a long-tailed distribution.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

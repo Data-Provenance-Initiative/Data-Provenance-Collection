@@ -52,7 +52,7 @@
             "Human Participants"
         ],
         "Process Description": "Audios Recorded First, Text Transcribed Later",
-        "Github URL": "https://github.com/IIP-Sogang/olkavs-avspeech",
+        "GitHub URL": "https://github.com/IIP-Sogang/olkavs-avspeech",
         "Hugging Face URL": "",
         "Website URL": [
             "https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=538"
@@ -72,6 +72,29 @@
         "Location": [
             "South Korea"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": 26,
+            "GitHub Topics": [
+                "dataset",
+                "deep-learning",
+                "pytorch"
+            ],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2023-01-16",
+            "PwC Description": "The dataset contains 1,150 hours of transcribed audio from 1,107 Korean speakers in a studio setup with nine different viewpoints and various noise situations. We also provide the pre-trained baseline models for two tasks, audio-visual speech recognition and lip reading.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

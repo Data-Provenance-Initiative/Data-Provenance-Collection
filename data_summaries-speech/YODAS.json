@@ -103,7 +103,7 @@
             "North Ndebele",
             "Occitan",
             "Serbo-Croatian",
-            "Volap\u00fck",
+            "Volapük",
             "Venda",
             "Uzbek",
             "Norwegian",
@@ -363,7 +363,7 @@
             "YouTube"
         ],
         "Process Description": "Audios With Transcripts And Without Transcripts Attached",
-        "Github URL": "",
+        "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/espnet/yodas",
         "Papers with Code URL": "",
         "Paper URL": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10389689",
@@ -381,6 +381,25 @@
             "United States",
             "Japan"
         ],
-        "Notes": "86,400 manually transcribed, much of it is \"automatic\""
+        "Notes": "86,400 manually transcribed, much of it is \"automatic\"",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "aa000",
+            "HF Config License": "",
+            "HF Dataset": "espnet/yodas",
+            "HF Date": "2024-02-10",
+            "HF Downloads (June 2024)": 44084,
+            "HF Likes (June 2024)": 94,
+            "HF Yaml License": "CC BY 3.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

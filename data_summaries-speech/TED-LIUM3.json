@@ -38,7 +38,7 @@
             "TED Talks"
         ],
         "Process Description": "Audios With Transcripts Attached",
-        "Github URL": "",
+        "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/LIUM/tedlium",
         "Website URL": [
             "https://www.openslr.org/51/"
@@ -58,6 +58,25 @@
         "Location": [
             "France"
         ],
-        "Notes": "First paper released in 2012 and last release in 2019"
+        "Notes": "First paper released in 2012 and last release in 2019",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "2022-05-11",
+            "HF Downloads (June 2024)": 1896,
+            "HF Likes (June 2024)": 15,
+            "HF Yaml License": "",
+            "PwC Date": "2012-05-01",
+            "PwC Description": "The TED-LIUM corpus consists of English-language TED talks. It includes transcriptions of these talks. The audio is sampled at 16kHz. The dataset spans a range of 118 to 452 hours of transcribed speech data.",
+            "PwC License Name": "CC BY-NC 3.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-nc-nd/3.0/",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

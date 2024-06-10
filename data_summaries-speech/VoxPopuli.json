@@ -62,7 +62,7 @@
             "European Parliament Event Recordings"
         ],
         "Process Description": "Audios Recorded First, Text Transcribed Using Asr + Manually",
-        "Github URL": "https://github.com/facebookresearch/voxpopuli",
+        "GitHub URL": "https://github.com/facebookresearch/voxpopuli",
         "Hugging Face URL": "https://huggingface.co/datasets/facebook/voxpopuli",
         "Website URL": [
             "https://ai.meta.com/blog/voxpopuli-the-largest-open-multilingual-speech-corpus-for-ai-translation-and-more/"
@@ -80,6 +80,25 @@
         "Location": [
             "United States"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": 495,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "en",
+            "HF Config License": "",
+            "HF Dataset": "facebook/voxpopuli",
+            "HF Date": "2022-05-10",
+            "HF Downloads (June 2024)": 11088,
+            "HF Likes (June 2024)": 64,
+            "HF Yaml License": "CC0 1.0",
+            "PwC Date": "",
+            "PwC Description": "VoxPopuli is a large-scale multilingual corpus providing 100K hours of unlabelled speech data in 23 languages. It is the largest open data to date for unsupervised representation learning as well as semi-supervised learning. VoxPopuli also contains 1.8K hours of transcribed speeches in 16 languages and their aligned oral interpretations into 5 other languages totaling 5.1K hours.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }
