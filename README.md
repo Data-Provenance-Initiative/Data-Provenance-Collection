@@ -34,6 +34,8 @@ Either pass in arguments via argparse, or your own yaml config, similar to `src/
 All datasets will be normalized to the same format.
 By default, we use this [format](#dataset-format) as it generalizes to multi-turn dialog and response rankings, but you can also normalize the datasets for supervised finetuning.
 
+Some datasets have Gated access so you need to create a `.env` file similar to `.env.template` in the repository and add your HuggingFace token, and accepted the Datasets terms and conditions on their HuggingFace page.
+
 ```
 python src/download_and_filter.py -c src/configs/default.yaml
 ```

@@ -12,6 +12,7 @@ tenacity
 openai
 chardet
 semanticscholar
+python-dotenv
 # ftfy
 # funcy
 # pdfminer.six
