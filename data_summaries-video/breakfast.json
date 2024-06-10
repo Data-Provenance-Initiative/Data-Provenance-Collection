@@ -34,6 +34,25 @@
         "Taken Down": "False",
         "Video Sources": [
             "human"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2014-01-01",
+            "PwC Description": "The Breakfast Actions Dataset comprises of 10 actions related to breakfast preparation, performed by 52 different individuals in 18 different kitchens. The dataset is one of the largest fully annotated datasets available. The actions are recorded “in the wild” as opposed to a single controlled lab environment. It consists of over 77 hours of video recordings.",
+            "PwC License Name": "CC BY 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

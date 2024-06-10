@@ -23,7 +23,7 @@
         ],
         "Creators": [
             "CNRS",
-            "Ecole Normale Sup\u00e9rieure",
+            "Ecole Normale Supérieure",
             "Inria",
             "International Institute of Information Technology - Hyderabad"
         ],
@@ -36,6 +36,25 @@
         "Taken Down": "False",
         "Video Sources": [
             "youtube"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "MIT License",
+            "GitHub Stars (June 2024)": 19,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "We address the problem of automatically learning the main steps to complete a certain task, such as changing a car tire, from a set of narrated instruction videos. The contributions of this paper are three-fold. First, we develop a new unsupervised learning approach that takes advantage of the complementary nature of the input video and the associated narration. The method solves two clustering problems, one in text and one in video, applied one after each other and linked by joint constraints to obtain a single coherent sequence of steps in both modalities. Second, we collect and annotate a new challenging dataset of real-world instruction videos from the Internet. The dataset contains about 800,000 frames for five different tasks (How to : change a car tire, perform CardioPulmonary resuscitation (CPR), jump cars, repot a plant and make coffee) that include complex interactions between people and objects, and are captured in a variety of indoor and outdoor settings. Third, we experimentally demonstrate that the proposed method can automatically discover, in an unsupervised manner , the main steps to achieve the task and locate the steps in the input videos.\n\nThis video presents our results of automatically discovering the scenario for the two following task : changing a tire and performing CardioPulmonary Resuscitation (CPR). At the bottom of the videos, there are three bars. The first one corresponds to our ground truth annotation. The second one corresponds to our time interval prediction in video. Finally the third one corresponds to the constraints that we obtain from the text domain. On the right, there is a list of label. They corresponds to the label recovered by our NLP method in an unsupervised manner.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

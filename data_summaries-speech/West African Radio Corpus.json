@@ -62,7 +62,7 @@
             "Guinean Radio Stations"
         ],
         "Process Description": "Audios Recorded First, Text Transcribed Later",
-        "Github URL": "https://github.com/mdoumbouya/nicolingua",
+        "GitHub URL": "https://github.com/mdoumbouya/nicolingua",
         "Hugging Face URL": "",
         "Website URL": [
             "https://openslr.org/105/"
@@ -83,6 +83,25 @@
             "United States",
             "Guinea"
         ],
-        "Notes": "\"Although an effort was made to filter out archive files that mostly contained music, the filtering was not exhaustive. Therefore, this dataset should be considered uncurated.\""
+        "Notes": "\"Although an effort was made to filter out archive files that mostly contained music, the filtering was not exhaustive. Therefore, this dataset should be considered uncurated.\"",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": 9,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "This dataset contains 17,090 audio clips of length 30 seconds sampled from archives collected from 6 Guinean radio stations. The broadcasts consist of news and various radio shows in languages including French, Guerze, Koniaka, Kissi, Kono, Maninka, Mano, Pular, Susu, and Toma. Some radio shows include phone calls, background and foreground music, and various noise types. We collected this dataset for the purpose of unsupervised speech representation learning. A validation set of 300 tagged audio clips is also included.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

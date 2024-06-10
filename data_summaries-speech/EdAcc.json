@@ -47,7 +47,7 @@
             "Human Participants"
         ],
         "Process Description": "Audios Recorded First, Text Manually Transcribed Later",
-        "Github URL": "",
+        "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/edinburghcstr/edacc",
         "Website URL": [
             "https://groups.inf.ed.ac.uk/edacc/"
@@ -65,6 +65,25 @@
         "Location": [
             "United Kingdom"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "edinburghcstr/edacc",
+            "HF Date": "2024-02-21",
+            "HF Downloads (June 2024)": 119,
+            "HF Likes (June 2024)": 0,
+            "HF Yaml License": "",
+            "PwC Date": "2023-03-31",
+            "PwC Description": "The Edinburgh International Accents of English Corpus (EdAcc) is a new automatic speech recognition (ASR) dataset composed of 40 hours of English dyadic conversations between speakers with a diverse set of accents. EdAcc includes a wide range of first and second-language varieties of English and a linguistic background profile of each speaker.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }
