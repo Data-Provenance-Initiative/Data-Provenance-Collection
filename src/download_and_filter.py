@@ -12,6 +12,18 @@ from collection_mapper import COLLECTION_FN_MAPPER
 import data_provenance_card as data_provenance_card
 from downloader import Downloader
 import data_bibtex as data_bibtex
+from dotenv import load_dotenv
+from huggingface_hub import HfApi, utils
+
+load_dotenv()
+hf_token = os.getenv('HF_TOKEN')
+
+try:
+    api = HfApi(token=hf_token)
+    print("Hugging Face Authorization Successful!")
+except Exception as e:
+    print(e)
+    print("HF Authorization Failed, some datasets might not download properly!!!")
 
 
 def check_args(args):
@@ -151,14 +163,16 @@ def main(args):
         downloader_args.update({"uid_key_mapper": uid_task_keys})
         collection_filter_maps = {}
         downloader = Downloader(name=collection_key, **downloader_args)
-        downloader.run_and_save(
-            flat_task_keys,
-            limit=args.data_limit,
-            reformat=args.output_format,
-            savedir=args.savedir,
-            debug=args.debug
-        )
-
+        try:
+            downloader.run_and_save(
+                flat_task_keys,
+                limit=args.data_limit,
+                reformat=args.output_format,
+                savedir=args.savedir,
+                debug=args.debug
+            )
+        except utils.GatedRepoError:
+            print(f"You are not authorized to download Collection: {collection_key}. Please go to their HF Page and accept the dataset terms and conditions.")
 
 
 if __name__ == "__main__":

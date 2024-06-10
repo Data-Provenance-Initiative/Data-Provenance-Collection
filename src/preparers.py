@@ -1,12 +1,11 @@
 # import os
 # import pandas as pd
-import numpy as np
-
 # from functools import partial
 # from collections import Counter, defaultdict
 # from helpers import io
 import re
 
+import numpy as np
 
 # ##########################################################################
 # ############## Data Preparer Utils
@@ -14,9 +13,9 @@ import re
 
 
 def convert_inputs_targets_to_messages(
-        input_text,
-        target_text,
-        dset,
+    input_text,
+    target_text,
+    dset,
 ):
     """
     Converts standard [input/output] type rows into the universal messages format.
@@ -91,18 +90,17 @@ def prepare_cobra_frames(row):
         "targetGroupCognitiveReaction": "[Targeted minority group cognitive reaction] {}[/]",
     }
 
-    f = [
-        formatting[v].format(row[v])
-        for v in row.keys() if v in formatting
-    ]
-    input_instructions = "Following the examples and complete the structured explanation for the given statement.\n\n" + row['examples']
+    f = [formatting[v].format(row[v]) for v in row.keys() if v in formatting]
+    input_instructions = (
+        "Following the examples and complete the structured explanation for the given statement.\n\n"
+        + row["examples"]
+    )
     input_context = "\n".join(f[1:5])
     output = "\n".join(f[5:])
     return convert_inputs_targets_to_messages(
-        input_instructions + "\n" + input_context,
-        output,
-        row["_source"]
+        input_instructions + "\n" + input_context, output, row["_source"]
     )
+
 
 def prepare_dolly_15k(row):
     input_text = re.sub(
@@ -174,11 +172,12 @@ def prepare_anthropic_hh_rlhf(row):
 
     # Add placeholder markers for splitting.
 
-    marked_chosen = chosen_text.replace('\n\nHuman:', f'{SEPARATOR}USER{SEPARATOR}').replace('\n\nAssistant:',
-                                                                                             f'{SEPARATOR}ASSISTANT{SEPARATOR}')
-    marked_rejected = rejected_text.replace('\n\nHuman:', f'{SEPARATOR}USER{SEPARATOR}').replace('\n\nAssistant:',
-                                                                                                 f'{SEPARATOR}ASSISTANT{SEPARATOR}')
-
+    marked_chosen = chosen_text.replace(
+        "\n\nHuman:", f"{SEPARATOR}USER{SEPARATOR}"
+    ).replace("\n\nAssistant:", f"{SEPARATOR}ASSISTANT{SEPARATOR}")
+    marked_rejected = rejected_text.replace(
+        "\n\nHuman:", f"{SEPARATOR}USER{SEPARATOR}"
+    ).replace("\n\nAssistant:", f"{SEPARATOR}ASSISTANT{SEPARATOR}")
 
     # Split the transcript into statements using the placeholder markers.
     chosen_seq = marked_chosen.split(SEPARATOR)[1:]
@@ -279,11 +278,13 @@ def prepare_oasst_octopack(row):
     messages = []
     for i, segment in enumerate(row["conversations"]):
 
-        messages.append({
-            "from": "user" if segment["role"] == "prompter" else "assistant",
-            "text": segment["text"].strip().replace("\"", ""),
-            "parent": i - 1 if i else "octopack",
-        })
+        messages.append(
+            {
+                "from": "user" if segment["role"] == "prompter" else "assistant",
+                "text": segment["text"].strip().replace('"', ""),
+                "parent": i - 1 if i else "octopack",
+            }
+        )
 
     return messages
 
@@ -423,11 +424,13 @@ def prepare_deita_10k(row):
     messages = []
     for i, turn in enumerate(row["conversations"]):
 
-        messages.append({
-            "from": "user" if turn["from"] == "human" else "assistant",
-            "text": turn["value"].strip(),
-            "parent": row["source"] if i == 0 else i - 1
-        })
+        messages.append(
+            {
+                "from": "user" if turn["from"] == "human" else "assistant",
+                "text": turn["value"].strip(),
+                "parent": row["source"] if i == 0 else i - 1,
+            }
+        )
 
     return messages
 
@@ -442,18 +445,24 @@ def prepare_metamathqa(row):
 
 def prepare_ultraFeedback_argilla(row):
     return convert_inputs_targets_to_messages(
-        row["instruction"], row["chosen_response"], row["source"],
+        row["instruction"],
+        row["chosen_response"],
+        row["source"],
     )
+
 
 def prepare_longalign_10k(row):
     messages = []
     for i, turn in enumerate(row["messages"]):
-        messages.append({
-            "from": turn["role"],
-            "text": turn["content"].strip(),
-            "parent": "LongAlign-10k" if i == 0 else i - 1
-        })
+        messages.append(
+            {
+                "from": turn["role"],
+                "text": turn["content"].strip(),
+                "parent": "LongAlign-10k" if i == 0 else i - 1,
+            }
+        )
     return messages
+
 
 def prepare_pure_dove(row):
     messages = []
@@ -478,15 +487,19 @@ def prepare_pure_dove(row):
         parent_id += 1
     return messages
 
+
 def prepare_lmsys_chat_1m(row):
     messages = []
     for i, turn in enumerate(row["conversation"]):
-        messages.append({
-            "from": turn["role"].strip(),
-            "text": turn["content"].strip(),
-            "parent": "lmsys_chat_1m" if i == 0 else i - 1,
-        })
+        messages.append(
+            {
+                "from": turn["role"].strip(),
+                "text": turn["content"].strip(),
+                "parent": "lmsys_chat_1m" if i == 0 else i - 1,
+            }
+        )
     return messages
+
 
 def prepare_nectar(row):
     human = []
@@ -497,7 +510,9 @@ def prepare_nectar(row):
         input = row["prompt"].split("Assistant:")[0].strip()
         output = row["answers"][0]["answer"]
         return convert_inputs_targets_to_messages(
-            input, output, "nectar",
+            input,
+            output,
+            "nectar",
         )
     else:
         # Split the conversation based on "Human:" and "Assistant:" tags
@@ -511,18 +526,22 @@ def prepare_nectar(row):
         assistant.append(row["answers"][0]["answer"])
         parent_id = 0
         for index, (h, a) in enumerate(zip(human, assistant)):
-            messages.append({
-                "from": "user",
-                "text": h.strip(),
-                "parent": "nectar" if index == 0 else parent_id,
-            })
+            messages.append(
+                {
+                    "from": "user",
+                    "text": h.strip(),
+                    "parent": "nectar" if index == 0 else parent_id,
+                }
+            )
             if parent_id != 0:
                 parent_id += 1
-            messages.append({
-                "from": "assistant",
-                "text": a.strip(),
-                "parent": parent_id,
-            })
+            messages.append(
+                {
+                    "from": "assistant",
+                    "text": a.strip(),
+                    "parent": parent_id,
+                }
+            )
             parent_id += 1
         return messages
 
@@ -533,6 +552,7 @@ def prepare_feedback_collection(row):
         row["output"],
         "feedback_collection",
     )
+
 
 def prepare_preference_collection(row):
     return convert_inputs_targets_to_messages(
@@ -567,18 +587,25 @@ def prepare_code_alpaca(row):
         "code_alpaca",
     )
 
+
 def prepare_riddle_sense(row):
     options = ""
     for label, text in zip(row["choices"]["label"], row["choices"]["text"]):
         options += f"{label}: {text}, "
     inputs = row["question"].strip() + "\n" + options
     return convert_inputs_targets_to_messages(
-        inputs, row["answerKey"], "riddle_sense",
+        inputs,
+        row["answerKey"],
+        "riddle_sense",
     )
+
+
 def prepare_glaive_code_assistant(row):
     inputs = row["question"].strip()
     return convert_inputs_targets_to_messages(
-        inputs, row["answer"], "glaive_code_assistant",
+        inputs,
+        row["answer"],
+        "glaive_code_assistant",
     )
 
 
@@ -612,32 +639,43 @@ def prepare_camel_science(row):
 
     if row["_source"] != "code" and "ai-society-translated" not in row["_source"]:
         return convert_inputs_targets_to_messages(
-            row["message_1"], row["message_2"], row["_source"],
+            row["message_1"],
+            row["message_2"],
+            row["_source"],
         )
     else:
         messages = []
-        total_messages = row['num_messages']
+        total_messages = row["num_messages"]
         if total_messages == 0:
-            messages.append({
-                "from": "user",
-                "text": row["specified_task"],
-                "parent": row["_source"]
-            })
-            messages.append({
-                "from": "assistant",
-                "text": row["termination_reason"],
-                "parent": 0
-            })
+            messages.append(
+                {
+                    "from": "user",
+                    "text": row["specified_task"],
+                    "parent": row["_source"],
+                }
+            )
+            messages.append(
+                {"from": "assistant", "text": row["termination_reason"], "parent": 0}
+            )
         else:
             for i in range(1, total_messages + 1):
                 if len(row[f"message_{i}"].get("content")) != 0:
-                    messages.append({
-                        "from": "assistant" if row[f"message_{i}"].get("role_type") == "ASSISTANT" else "user",
-                        "text": row[f"message_{i}"].get("content"),
-                        "parent": 0 if row[f"message_{i}"].get("role_type") == "ASSISTANT" else row["_source"]
-                    })
+                    messages.append(
+                        {
+                            "from": (
+                                "assistant"
+                                if row[f"message_{i}"].get("role_type") == "ASSISTANT"
+                                else "user"
+                            ),
+                            "text": row[f"message_{i}"].get("content"),
+                            "parent": (
+                                0
+                                if row[f"message_{i}"].get("role_type") == "ASSISTANT"
+                                else row["_source"]
+                            ),
+                        }
+                    )
         return messages
-
 
 
 def prepare_cot_collection(row):
@@ -836,12 +874,14 @@ def prepare_ultrachat(row):
 def prepare_wildchat(row):
     messages = []
 
-    for i, script_dict in enumerate(row['conversation']):
-        messages.append({
-            'from': script_dict['role'],
-            'text': script_dict['content'].strip(),
-            'parent': row['model'] if i == 0 else i - 1
-        })
+    for i, script_dict in enumerate(row["conversation"]):
+        messages.append(
+            {
+                "from": script_dict["role"],
+                "text": script_dict["content"].strip(),
+                "parent": row["model"] if i == 0 else i - 1,
+            }
+        )
 
     return messages
 
@@ -942,48 +982,62 @@ def prepare_open_orca(row):
         {"from": "assistant", "text": outputs.strip(), "parent": 0},
     ]
 
+
 def prepare_toxicchat(row):
-    return[
+    return [
         {"from": "user", "text": row["user_input"].strip(), "parent": "toxicchat0124"},
-        {"from": "assistant", "text": row["model_output"].strip(), "parent": 0, "score":float(1-row["toxicity"]) }
+        {
+            "from": "assistant",
+            "text": row["model_output"].strip(),
+            "parent": 0,
+            "score": float(1 - row["toxicity"]),
+        },
     ]
-    
+
+
 def prepare_coig(row):
     messages = []
-    parent = row['source']
+    parent = row["source"]
     parent_id = -1
-    for i, turn in enumerate(row['conversations']):
+    for i, turn in enumerate(row["conversations"]):
         human_turn_item = {
             "from": "user",
-            "text": row['instruction']+ turn['question'] if parent_id == -1 else turn['question'],
+            "text": (
+                row["instruction"] + turn["question"]
+                if parent_id == -1
+                else turn["question"]
+            ),
             "parent": parent if parent_id == -1 else parent_id,
         }
         messages.append(human_turn_item)
         parent_id += 1
         agent_turn_item = {
             "from": "assistant",
-            "text": turn['answer'],
+            "text": turn["answer"],
             "parent": parent_id,
         }
         messages.append(agent_turn_item)
         parent_id += 1
     return messages
 
+
 def prepare_coig_kun(row):
-    inputs = row['instruction']
-    outputs = row['output']
+    inputs = row["instruction"]
+    outputs = row["output"]
     return [
-        {"from": "user", "text": inputs, "parent": row['_source']},
+        {"from": "user", "text": inputs, "parent": row["_source"]},
         {"from": "assistant", "text": outputs, "parent": 0},
     ]
 
+
 def prepare_coig_cqia(row):
-    inputs = "".join([row['instruction'] + row['input']])
-    outputs = row['output']
+    inputs = "".join([row["instruction"] + row["input"]])
+    outputs = row["output"]
     return [
-        {"from": "user", "text": inputs, "parent": row['_source']},
+        {"from": "user", "text": inputs, "parent": row["_source"]},
         {"from": "assistant", "text": outputs, "parent": 0},
     ]
+
 
 def prepare_selfee(row):
     outputs = row["outputs"]
@@ -995,8 +1049,12 @@ def prepare_selfee(row):
         revision_number = index
         if index != 0:
 
-            output = "\n\n### Revision {number}:\n{revision}".format(number=revision_number, revision=output)
-        parsed_outputs += output + "\n\n### Feedback {number}:\n{feedback}".format(number=feedback_number, feedback=feedback)
+            output = "\n\n### Revision {number}:\n{revision}".format(
+                number=revision_number, revision=output
+            )
+        parsed_outputs += output + "\n\n### Feedback {number}:\n{feedback}".format(
+            number=feedback_number, feedback=feedback
+        )
 
     return convert_inputs_targets_to_messages(
         row["instruction"],
@@ -1007,12 +1065,8 @@ def prepare_selfee(row):
 
 def prepare_pmc_llama(row):
 
-    inputs = "".join([row['instruction'] + row['input']])
-    return convert_inputs_targets_to_messages(
-        inputs,
-        row['output'],
-        row['source']
-    )
+    inputs = "".join([row["instruction"] + row["input"]])
+    return convert_inputs_targets_to_messages(inputs, row["output"], row["source"])
 
 
 def prepare_medical_meadow(row):
@@ -1035,7 +1089,7 @@ def prepare_medinstruct(row):
 
 def prepare_chatdoctor(row):
     return convert_inputs_targets_to_messages(
-        row["inputs"], row["outputs"], row["_source"]
+        row["input"], row["output"], row["_source"]
     )
 
 
@@ -1066,47 +1120,51 @@ def prepare_agentinstruct(row):
 
 def prepare_cidar(row):
     return convert_inputs_targets_to_messages(
-        row['instruction'],
-        row['output'],
-        'cidar',
+        row["instruction"],
+        row["output"],
+        "cidar",
     )
 
 
 def prepare_indic_instruct(row):
-
-    ''' This dataset conatins lots of other datasets, each having their own format. A different prepare method is needed for each sub-dataset
+    """This dataset conatins lots of other datasets, each having their own format. A different prepare method is needed for each sub-dataset
     Some datasets such as 'hh-rlhf', 'lm_sys', 'oasst1' have same forrmat and thus they have the prepare method below
-    '''
-    if row['dataset'] == 'anudesh':
+    """
+    if row["dataset"] == "anudesh":
 
         return convert_inputs_targets_to_messages(
             row["messages"][0]["content"], row["messages"][1]["content"], row["dataset"]
         )
-    if row['dataset'] == 'dolly':
-        input_text = re.sub(r'\s*\[.*?\]\s*', '', "\n".join([row["context"], row["instruction"]]).strip())
-        target_text = re.sub(r'\s*\[.*?\]\s*', '', row["response"])
+    if row["dataset"] == "dolly":
+        input_text = re.sub(
+            r"\s*\[.*?\]\s*",
+            "",
+            "\n".join([row["context"], row["instruction"]]).strip(),
+        )
+        target_text = re.sub(r"\s*\[.*?\]\s*", "", row["response"])
 
         return convert_inputs_targets_to_messages(
             input_text, target_text, row["dataset"]
         )
 
-
-    if row['dataset'] == 'flan_v2':
+    if row["dataset"] == "flan_v2":
         return convert_inputs_targets_to_messages(
             row["inputs"], row["targets"], row["dataset"]
         )
 
-    if row['dataset'] in ['hh-rlhf', 'lm_sys', 'oasst1']:
+    if row["dataset"] in ["hh-rlhf", "lm_sys", "oasst1"]:
         messages = []
-        for i, turn in enumerate(row['messages']):
-            messages.append({
-                "from": turn["role"],
-                "text": turn["content"].strip(),
-                "parent": row['dataset'] if turn["role"] == 'user' else 0,
-            })
+        for i, turn in enumerate(row["messages"]):
+            messages.append(
+                {
+                    "from": turn["role"],
+                    "text": turn["content"].strip(),
+                    "parent": row["dataset"] if turn["role"] == "user" else 0,
+                }
+            )
         return messages
 
-    if row['dataset'] == 'nmt-seed':
+    if row["dataset"] == "nmt-seed":
         return convert_inputs_targets_to_messages(
             row["input_text"], row["output_text"], row["dataset"]
         )
@@ -1117,11 +1175,11 @@ def prepare_indic_instruct(row):
             input_text += "\n" + turn["description"]
         input_text += row["messages"][0]["content"]
 
-    if row['dataset'] == 'wikihow':
+    if row["dataset"] == "wikihow":
         input_text = row["intro"]
         for i, turn in enumerate(row["steps"]):
-            input_text += '\n' + turn['description']
-        input_text += row['messages'][0]['content']
+            input_text += "\n" + turn["description"]
+        input_text += row["messages"][0]["content"]
         target_text = row["messages"][1]["content"]
         return convert_inputs_targets_to_messages(
             input_text, target_text, row["dataset"]
@@ -1163,7 +1221,6 @@ def prepare_bactrianx(row):
     ]
 
 
-
 def prepare_pippa(row):
     messages = []
     parent_id = "PygmalionAI-PIPPA"  # Initial parent ID for the first message
@@ -1189,7 +1246,8 @@ def prepare_pippa(row):
         # Update the parent ID to the current message's index for the next iteration
         parent_id = i
     return messages
-        
+
+
 def prepare_collective_cognition(row):
     """
     Prepares a dataset row by converting conversation parts into a standardized messages format.
@@ -1214,6 +1272,7 @@ def prepare_collective_cognition(row):
                 text = ""
             messages.append({"from": speaker, "text": text, "parent": parent})
     return messages
+
 
 def prepare_chatbot_arena_conversations(row):
     messages = []
@@ -1241,9 +1300,9 @@ def prepare_chatbot_arena_conversations(row):
                 message["score"] = 1 if model_name == winner_model else 0
 
             messages.append(message)
-            
+
     return messages
-    
+
 
 def prepare_kiwi(row):
     messages = []
@@ -1282,44 +1341,49 @@ def prepare_kiwi(row):
 
     return messages
 
+
 def prepare_mathdial(row):
     conversation = row["conversation"].split("|EOM|")
     parent = "mathdial"
     messages = []
     for i, turn in enumerate(conversation):
         colon_index = turn.find(":")
-        messages.append({
-            "from": "assistant" if turn[:colon_index].strip() == "Teacher" else "user",
-            "text": turn[colon_index+1:].strip(),
-            "parent": parent,
-        })
+        messages.append(
+            {
+                "from": (
+                    "assistant" if turn[:colon_index].strip() == "Teacher" else "user"
+                ),
+                "text": turn[colon_index + 1 :].strip(),
+                "parent": parent,
+            }
+        )
         parent = i
     return messages
-  
+
 
 def prepare_10k_prompt_ranked(row):
-    inputs = row["prompt"] + "\n\n" + "Considering the previous paragraph, rate the quality of its content on a scale " \
-                                      "of 1 to 5. Here are the criteria to consider: \n Grammar and mechanics: Are " \
-                                      "there any grammatical errors, typos, or punctuation mistakes? (1 = Many errors, " \
-                                      "5 = Flawless) \n Clarity: Is the paragraph easy to understand? Is the writing " \
-                                      "clear and concise? (1 = Difficult to understand, 5 = Crystal clear) " \
-                                      "\n Specificity of information: Does the paragraph provide specific details and " \
-                                      "examples to support its claims? (1 = Very vague, 5 = Highly specific) \n " \
-                                      "Organization: Does the paragraph flow logically and smoothly from sentence to " \
-                                      "sentence? (1 = Disorganized, 5 = Well-organized)"
-    outputs = f"The rating for the above paragraph is {str(row['avg_rating'])}."
-    return convert_inputs_targets_to_messages(
-        inputs,
-        outputs,
-        '10k-prompt-ranked'
+    inputs = (
+        row["prompt"]
+        + "\n\n"
+        + "Considering the previous paragraph, rate the quality of its content on a scale "
+        "of 1 to 5. Here are the criteria to consider: \n Grammar and mechanics: Are "
+        "there any grammatical errors, typos, or punctuation mistakes? (1 = Many errors, "
+        "5 = Flawless) \n Clarity: Is the paragraph easy to understand? Is the writing "
+        "clear and concise? (1 = Difficult to understand, 5 = Crystal clear) "
+        "\n Specificity of information: Does the paragraph provide specific details and "
+        "examples to support its claims? (1 = Very vague, 5 = Highly specific) \n "
+        "Organization: Does the paragraph flow logically and smoothly from sentence to "
+        "sentence? (1 = Disorganized, 5 = Well-organized)"
     )
-      
+    outputs = f"The rating for the above paragraph is {str(row['avg_rating'])}."
+    return convert_inputs_targets_to_messages(inputs, outputs, "10k-prompt-ranked")
+
+
 def prepare_orca_math(row):
     return convert_inputs_targets_to_messages(
-        row["question"],
-        row["answer"],
-        "orca-math"
+        row["question"], row["answer"], "orca-math"
     )
+
 
 def prepare_aya_dataset(row):
     return convert_inputs_targets_to_messages(
@@ -1331,33 +1395,30 @@ def prepare_aya_dataset(row):
 
 def prepare_megawika(row):
     return convert_inputs_targets_to_messages(
-        row["input"],
-        row["output"],
-        row["source"]
+        row["input"], row["output"], row["source"]
     )
 
 
 def prepare_gretel_text_to_sql(row):
     return convert_inputs_targets_to_messages(
-        "Here is how the SQL table was created:\n\n" + row["sql_context"] + "\n\n" + row["sql_prompt"],
+        "Here is how the SQL table was created:\n\n"
+        + row["sql_context"]
+        + "\n\n"
+        + row["sql_prompt"],
         row["sql"],
-        "gretel_text_to_sql"
+        "gretel_text_to_sql",
     )
 
 
 def prepare_expertqa(row):
     return convert_inputs_targets_to_messages(
-        row["question"],
-        row["answer"],
-        "expert_qa"
+        row["question"], row["answer"], "expert_qa"
     )
 
 
 def prepare_openmath_instruct(row):
     return convert_inputs_targets_to_messages(
-        row["question"],
-        row["generated_solution"],
-        row["dataset"]
+        row["question"], row["generated_solution"], row["dataset"]
     )
 
 
@@ -1368,26 +1429,34 @@ def prepare_opengpt_healthcare(row):
 
     for i, turn in enumerate(text):
         indicator_index = turn.find(">")
-        messages.append({
-            "from": "user" if turn[:indicator_index+1].strip() == "<|user|>" else "assistant",
-            "text": turn[indicator_index+1:].strip(),
-            "parent": parent,
-        })
+        messages.append(
+            {
+                "from": (
+                    "user"
+                    if turn[: indicator_index + 1].strip() == "<|user|>"
+                    else "assistant"
+                ),
+                "text": turn[indicator_index + 1 :].strip(),
+                "parent": parent,
+            }
+        )
         parent = i
 
     return messages
-        
+
 
 def prepare_conifer(row):
     conversation = row["messages"]
     parent = "conifer"
     messages = []
     for i, turn in enumerate(conversation):
-        messages.append({
-            "from": "user" if turn["role"] == "user" else "assistant",
-            "text": turn["content"],
-            "parent": parent,
-        })
+        messages.append(
+            {
+                "from": "user" if turn["role"] == "user" else "assistant",
+                "text": turn["content"],
+                "parent": parent,
+            }
+        )
         parent = i
     return messages
 
@@ -1399,17 +1468,21 @@ def prepare_dialogstudio(row):
     for i, turn in enumerate(conversation):
         usr_utt = turn["user utterance"]
         sys_utt = turn["system response"]
-        messages.append({
-            "from": "user",
-            "text": usr_utt,
-            "parent": parent,
-        })
+        messages.append(
+            {
+                "from": "user",
+                "text": usr_utt,
+                "parent": parent,
+            }
+        )
         parent = 2 * i
-        messages.append({
-            "from": "system",
-            "text": sys_utt,
-            "parent": parent,
-        })
+        messages.append(
+            {
+                "from": "system",
+                "text": sys_utt,
+                "parent": parent,
+            }
+        )
         parent = 2 * i + 1
     return messages
 
@@ -1419,17 +1492,17 @@ def prepare_lumos_planning(row):
     new_messages = list()
     for i, message in enumerate(messages):
         if i == 0:
-            new_messages.append({
-                "from": message["role"],
-                "text": message["content"],
-                "parent": row["dataset"]
-            })
+            new_messages.append(
+                {
+                    "from": message["role"],
+                    "text": message["content"],
+                    "parent": row["dataset"],
+                }
+            )
         else:
-            new_messages.append({
-                "from": message["role"],
-                "text": message["content"],
-                "parent": i-1
-            })
+            new_messages.append(
+                {"from": message["role"], "text": message["content"], "parent": i - 1}
+            )
     return new_messages
 
 
@@ -1438,22 +1511,26 @@ def prepare_lumos_grounding(row):
     new_messages = list()
     for i, message in enumerate(messages):
         if i == 0:
-            new_messages.append({
-                "from": message["role"],
-                "text": message["content"],
-                "parent": row["dataset"]
-            })
+            new_messages.append(
+                {
+                    "from": message["role"],
+                    "text": message["content"],
+                    "parent": row["dataset"],
+                }
+            )
         else:
-            new_messages.append({
-                "from": message["role"],
-                "text": message["content"],
-                "parent": i-1
-            })
+            new_messages.append(
+                {"from": message["role"], "text": message["content"], "parent": i - 1}
+            )
     return new_messages
 
 
 def prepare_dynosaur(row):
     return [
-        {"from": "user", "text": row["instruction"].strip() + f" The task input is {row['input']}.", "parent": row["taskname"]},
-        {"from": "assistant", "text": row['output'], "parent": 0}
+        {
+            "from": "user",
+            "text": row["instruction"].strip() + f" The task input is {row['input']}.",
+            "parent": row["taskname"],
+        },
+        {"from": "assistant", "text": row["output"], "parent": 0},
     ]
