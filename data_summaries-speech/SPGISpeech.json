@@ -39,7 +39,7 @@
             "S&P Global Inc Earnings Calls"
         ],
         "Process Description": "Audios Recorded First, Text Manually Transcribed Later",
-        "Github URL": "",
+        "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/kensho/spgispeech",
         "Website URL": [
             "https://datasets.kensho.com/datasets/spgispeech"
@@ -61,6 +61,25 @@
         "Location": [
             "United States"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": 739,
+            "HF Likes (June 2024)": 23,
+            "HF Yaml License": "",
+            "PwC Date": "2021-04-05",
+            "PwC Description": "SPGISpeech (pronounced “speegie-speech”) is a large-scale transcription dataset, freely available for academic research. SPGISpeech is a collection of 5,000 hours of professionally-transcribed financial audio. Contrary to previous transcription datasets, SPGISpeech contains global english accents, strongly varying audio quality as well as both spontaneous and presentation style speech. The transcripts have each been cross-checked by multiple professional editors for high accuracy and are fully formatted including sentence structure and capitalization.\n\nSPGISpeech consists of 5,000 hours of recorded company earnings calls and associated manual transcription text. The original calls were split based on silences into slices ranging from 5 to 15 seconds to allow easy training of a speech recognition system. The format of each WAV file is single channel, 16kHz, 16 bit audio.\n\nTranscription text represents the output of several stages of manual post-processing. As such, the text contains polished English orthography following a detailed style guide, including proper casing, punctuation, and denormalized non-standard words such as numbers or acronyms, making SPGISpeech suited for training fully formatted end-to-end models.\n\nIn general, the transcriptions aim at professional utility rather than linguistic fidelity, and the correspondence between verbatim speech and finalized text is therefore not exact, resulting in the occasional purposeful omission of meeting operator instructions or certain verbal pleasantries.",
+            "PwC License Name": "Non Commercial",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

@@ -39,7 +39,7 @@
             "Human Participants"
         ],
         "Process Description": "Scripts Generated First (From Newspapers), Then Audio Was Recorded",
-        "Github URL": "",
+        "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/vctk",
         "Website URL": [
             "https://datashare.ed.ac.uk/handle/10283/3443"
@@ -57,6 +57,25 @@
         "Location": [
             "United Kingdom"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "main",
+            "HF Config License": "",
+            "HF Dataset": "vctk",
+            "HF Date": "2022-01-25",
+            "HF Downloads (June 2024)": 8,
+            "HF Likes (June 2024)": 20,
+            "HF Yaml License": "CC BY 4.0",
+            "PwC Date": "",
+            "PwC Description": "This CSTR VCTK Corpus includes speech data uttered by 110 English speakers with various accents. Each speaker reads out about 400 sentences, which were selected from a newspaper, the rainbow passage and an elicitation paragraph used for the speech accent archive. The newspaper texts were taken from Herald Glasgow, with permission from Herald & Times Group. Each speaker has a different set of the newspaper texts selected based a greedy algorithm that increases the contextual and phonetic coverage. The details of the text selection algorithms are described in the following paper: C. Veaux, J. Yamagishi and S. King, \"The voice bank corpus: Design, collection and data analysis of a large regional accent speech database,\" https://doi.org/10.1109/ICSDA.2013.6709856. The rainbow passage and elicitation paragraph are the same for all speakers. The rainbow passage can be found at International Dialects of English Archive: (http://web.ku.edu/~idea/readings/rainbow.htm). The elicitation paragraph is identical to the one used for the speech accent archive (http://accent.gmu.edu). The details of the the speech accent archive can be found at http://www.ualberta.ca/~aacl2009/PDFs/WeinbergerKunath2009AACL.pdf. All speech data was recorded using an identical recording setup: an omni-directional microphone (DPA 4035) and a small diaphragm condenser microphone with very wide bandwidth (Sennheiser MKH 800), 96kHz sampling frequency at 24 bits and in a hemi-anechoic chamber of the University of Edinburgh. (However, two speakers, p280 and p315 had technical issues of the audio recordings using MKH 800). All recordings were converted into 16 bits, were downsampled to 48 kHz, and were manually end-pointed.",
+            "PwC License Name": "CC BY 4.0",
+            "PwC License URL": "https://datashare.ed.ac.uk/bitstream/handle/10283/2651/license_text?sequence=3&isAllowed=y",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

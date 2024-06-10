@@ -1,10 +1,10 @@
 {
-    "The THUMOS Challenge on Action Recognition for\nVideos \u201cin the Wild\u201d": {
+    "The THUMOS Challenge on Action Recognition for\nVideos “in the Wild”": {
         "Unique Dataset Identifier": "thumos-challenge",
         "Collection": "thumos-challenge",
         "Collection URL": "https://arxiv.org/pdf/1604.06182.pdf",
-        "Dataset Name": "The THUMOS Challenge on Action Recognition for\nVideos \u201cin the Wild\u201d",
-        "Paper Title": "The THUMOS Challenge on Action Recognition for\nVideos \u201cin the Wild\u201d",
+        "Dataset Name": "The THUMOS Challenge on Action Recognition for\nVideos “in the Wild”",
+        "Paper Title": "The THUMOS Challenge on Action Recognition for\nVideos “in the Wild”",
         "Paper URL": "https://arxiv.org/pdf/1604.06182.pdf",
         "GitHub URL": "",
         "Hugging Face URL": "",
@@ -36,6 +36,25 @@
         "Taken Down": "False",
         "Video Sources": [
             "youtube"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "The THUMOS14 (THUMOS 2014) dataset is a large-scale video dataset that includes 1,010 videos for validation and 1,574 videos for testing from 20 classes. Among all the videos, there are 220 and 212 videos with temporal annotations in validation and testing set, respectively.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

@@ -72,7 +72,7 @@
             "Calling Platform"
         ],
         "Process Description": "Audios Recorded First, Text Transcribed Later",
-        "Github URL": "https://github.com/zanuura/Whisper-ASR-Minds14-English",
+        "GitHub URL": "https://github.com/zanuura/Whisper-ASR-Minds14-English",
         "Hugging Face URL": "https://huggingface.co/datasets/PolyAI/minds14",
         "Papers with Code URL": "https://paperswithcode.com/dataset/minds14",
         "Paper URL": "https://arxiv.org/abs/2104.08524",
@@ -87,6 +87,35 @@
         "Location": [
             "United Kingdom"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": 1,
+            "GitHub Topics": [
+                "asr",
+                "huggingface",
+                "minds14",
+                "nlp",
+                "polyai",
+                "python",
+                "transformer",
+                "whisper",
+                "whisper-ai"
+            ],
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "PolyAI/minds14",
+            "HF Date": "2022-04-05",
+            "HF Downloads (June 2024)": 172392,
+            "HF Likes (June 2024)": 66,
+            "HF Yaml License": "CC BY 4.0",
+            "PwC Date": "",
+            "PwC Description": "MINDS-14 is a dataset designed for the intent detection task with spoken data. It encompasses 14 distinct intents extracted from a commercial system in the e-banking domain. These intents are associated with spoken examples in 14 diverse language varieties. The dataset serves as a valuable resource for training and evaluating intent detection models.\n\nHere are some key details about the MINDS-14 dataset:\n\n\nTasks: The primary task is Automatic Speech Recognition, specifically keyword-spotting.\nLanguages: The dataset includes examples in English, French, Italian, and nine other languages.\nMultilinguality: It is a multilingual dataset.\nSize Categories: The dataset size falls within the range of 10,000 to 100,000 examples.\nLanguage Creators: The annotations were created by a combination of crowdsourced and expert-generated contributors.\nLicense: The dataset is available under the CC-BY-4.0 license.\n\nSource: Conversation with Bing, 3/18/2024\n(1) PolyAI/minds14 · Datasets at Hugging Face. https://huggingface.co/datasets/PolyAI/minds14.\n(2) PolyAI/minds14 at main - Hugging Face. https://huggingface.co/datasets/PolyAI/minds14/tree/main.\n(3) minds14.py · PolyAI/minds14 at main - Hugging Face. https://huggingface.co/datasets/PolyAI/minds14/blob/main/minds14.py.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

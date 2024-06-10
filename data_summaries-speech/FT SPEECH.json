@@ -39,7 +39,7 @@
             "Danish Parliament Meeting Recordings"
         ],
         "Process Description": "Audios Recorded First, Text Transcribed Later",
-        "Github URL": "https://github.com/ftspeech/ftspeech-kaldi-recipe",
+        "GitHub URL": "https://github.com/ftspeech/ftspeech-kaldi-recipe",
         "Hugging Face URL": "https://huggingface.co/datasets/alexandrainst/ftspeech",
         "Website URL": [
             "https://ftspeech.github.io/about.html"
@@ -60,6 +60,25 @@
             "United States",
             "Denmark"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": 0,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "alexandrainst/ftspeech",
+            "HF Date": "2023-05-11",
+            "HF Downloads (June 2024)": 44,
+            "HF Likes (June 2024)": 2,
+            "HF Yaml License": "Unspecified",
+            "PwC Date": "",
+            "PwC Description": "FT Speech is a speech corpus created from the recorded meetings of the Danish Parliament, otherwise known as the Folketing (FT). The corpus contains over 1,800 hours of transcribed speech by a total of 434 speakers. It is significantly larger in duration, vocabulary, and amount of spontaneous speech than the existing public speech corpora for Danish, which are largely limited to read-aloud and dictation data.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

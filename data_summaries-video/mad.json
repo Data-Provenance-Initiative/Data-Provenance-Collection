@@ -32,6 +32,25 @@
         "Taken Down": "False",
         "Video Sources": [
             "undisclosed web"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "MIT License",
+            "GitHub Stars (June 2024)": 138,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2021-12-01",
+            "PwC Description": "MAD (Movie Audio Descriptions) is an automatically curated large-scale dataset for the task of natural language grounding in videos or natural language moment retrieval.\nMAD exploits available audio descriptions of mainstream movies. Such audio descriptions are redacted for visually impaired audiences and are therefore highly descriptive of the visual content being displayed. \nMAD contains over 384,000 natural language sentences grounded in over 1,200 hours of video, and provides a unique setup for video grounding as the visual stream is truly untrimmed with an average video duration of 110 minutes. 2 orders of magnitude longer than legacy datasets. \n\nTake a look at the paper for additional information.\n\nFrom the authors on availability: \"Due to copyright constraints, MAD’s videos will not be publicly released. However, we will provide all necessary features for our experiments’ reproducibility and promote future research in this direction\"",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

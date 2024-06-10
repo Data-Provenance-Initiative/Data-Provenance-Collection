@@ -41,7 +41,7 @@
             "Meetings"
         ],
         "Process Description": "Audios Recorded First, Text Manually Transcribed Later",
-        "Github URL": "https://github.com/gcunhase/AMICorpusXML",
+        "GitHub URL": "https://github.com/gcunhase/AMICorpusXML",
         "Hugging Face URL": "https://huggingface.co/datasets/ami",
         "Website URL": [
             "https://groups.inf.ed.ac.uk/ami/corpus/"
@@ -59,6 +59,30 @@
         "Location": [
             "United Kingdom"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "MIT License",
+            "GitHub Stars (June 2024)": 52,
+            "GitHub Topics": [
+                "convert-to-cnn-dm-format",
+                "meeting-dataset",
+                "nlp-datasets",
+                "xml-to-story"
+            ],
+            "Github Date": "",
+            "HF Config": "headset-single",
+            "HF Config License": "",
+            "HF Dataset": "ami",
+            "HF Date": "2022-01-25",
+            "HF Downloads (June 2024)": 34,
+            "HF Likes (June 2024)": 13,
+            "HF Yaml License": "CC BY 4.0",
+            "PwC Date": "",
+            "PwC Description": "The AMI Meeting Corpus is a multi-modal data set comprising 100 hours of meeting recordings. It has been meticulously curated for research purposes and includes various modes of data capture. Let me provide you with more details:\n\n\nPurpose and Context:\nThe corpus was created in the context of a project that aims to develop meeting browsing technology.\n\nEventually, it will be publicly released for use by researchers and practitioners.\n\n\n\nData Composition:\n\n\n100 hours of recorded meetings are included.\nThe data is collected from various domains and scenarios.\nAround two-thirds of the data involves participants playing different roles in a design team, taking a design project from kick-off to completion over the course of a day.\n\nThe remaining data consists of naturally occurring meetings.\n\n\n\nModalities and Annotations:\n\n\nThe corpus includes synchronized recording devices such as close-talking and far-field microphones, individual and room-view video cameras, projection, a whiteboard, and individual pens.\n\nAnnotations cover various phenomena, including orthographic transcription, dialog acts, and head movement.\n\n\n\nResearch Applications:\n\n\nAlthough initially designed for meeting browsing technology, the AMI Meeting Corpus is useful for a wide range of research areas.\nResearchers engaged in video processing can access higher resolution videos.\n\nSource: Conversation with Bing, 3/16/2024\n(1) AMI Corpus - University of Edinburgh. https://groups.inf.ed.ac.uk/ami/corpus/.\n(2) The AMI Meeting Corpus: A Pre-announcement. https://www.research.ed.ac.uk/en/publications/the-ami-meeting-corpus-a-pre-announcement.\n(3) The AMI Meeting Corpus: A Pre-announcement | SpringerLink. https://link.springer.com/chapter/10.1007/11677482_3.\n(4) The AMI Meeting Corpus: A Pre-announcement — University of Twente .... https://research.utwente.nl/en/publications/the-ami-meeting-corpus-a-pre-announcement.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

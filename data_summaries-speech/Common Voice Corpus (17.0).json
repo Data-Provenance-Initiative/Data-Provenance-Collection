@@ -315,7 +315,7 @@
             "Crowd-Sourcing"
         ],
         "Process Description": "Scripts Generated First, Then Audio Was Recorded",
-        "Github URL": "https://github.com/common-voice/common-voice",
+        "GitHub URL": "https://github.com/common-voice/common-voice",
         "Hugging Face URL": "https://huggingface.co/datasets/common_voice",
         "Website URL": [
             "https://commonvoice.mozilla.org/en/datasets"
@@ -337,6 +337,30 @@
         "Location": [
             "United States"
         ],
-        "Notes": "19916h validated"
+        "Notes": "19916h validated",
+        "Inferred Metadata": {
+            "GitHub License": "All Uses-Attribution",
+            "GitHub Stars (June 2024)": 3265,
+            "GitHub Topics": [
+                "crowdsourcing",
+                "internet-freedom",
+                "open-data",
+                "voice"
+            ],
+            "Github Date": "",
+            "HF Config": "ab",
+            "HF Config License": "",
+            "HF Dataset": "common_voice",
+            "HF Date": "2022-01-25",
+            "HF Downloads (June 2024)": 30,
+            "HF Likes (June 2024)": 127,
+            "HF Yaml License": "CC0 1.0",
+            "PwC Date": "2019-12-13",
+            "PwC Description": "Common Voice is an audio dataset that consists of a unique MP3 and corresponding text file. There are 9,283 recorded hours in the dataset. The dataset also includes demographic metadata like age, sex, and accent. The dataset consists of 7,335 validated hours in 60 languages.",
+            "PwC License Name": "CC0 1.0",
+            "PwC License URL": "https://creativecommons.org/share-your-work/public-domain/cc0/",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

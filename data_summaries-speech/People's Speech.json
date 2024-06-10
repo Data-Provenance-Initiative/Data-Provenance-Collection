@@ -72,7 +72,7 @@
             "Archive.org"
         ],
         "Process Description": "Audios With Transcripts Attached",
-        "Github URL": "https://github.com/mlcommons/peoples-speech",
+        "GitHub URL": "https://github.com/mlcommons/peoples-speech",
         "Hugging Face URL": "https://huggingface.co/datasets/MLCommons/peoples_speech",
         "Website URL": [
             "https://mlcommons.org/datasets/peoples-speech/"
@@ -98,6 +98,25 @@
         "Location": [
             "United States"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (June 2024)": 94,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "microset",
+            "HF Config License": "",
+            "HF Dataset": "MLCommons/peoples_speech",
+            "HF Date": "2022-08-16",
+            "HF Downloads (June 2024)": 1709,
+            "HF Likes (June 2024)": 59,
+            "HF Yaml License": "CC BY 3.0",
+            "PwC Date": "2021-11-17",
+            "PwC Description": "The People's Speech is a free-to-download 30,000-hour and growing supervised conversational English speech recognition dataset licensed for academic and commercial usage under CC-BY-SA (with a CC-BY subset). The data is collected via searching the Internet for appropriately licensed audio data with existing transcriptions.",
+            "PwC License Name": "CC BY-SA 4.0",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

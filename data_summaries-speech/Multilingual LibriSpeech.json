@@ -90,7 +90,7 @@
             "LibriVox Audiobooks"
         ],
         "Process Description": "Audios With Transcripts Attached",
-        "Github URL": "",
+        "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/multilingual_librispeech",
         "Website URL": [
             "https://www.openslr.org/94/"
@@ -109,6 +109,25 @@
             "United States",
             "France"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "german",
+            "HF Config License": "",
+            "HF Dataset": "multilingual_librispeech",
+            "HF Date": "2022-01-25",
+            "HF Downloads (June 2024)": 2,
+            "HF Likes (June 2024)": 13,
+            "HF Yaml License": "CC BY 4.0",
+            "PwC Date": "",
+            "PwC Description": "Multilingual LibriSpeech is a large multilingual corpus suitable for speech research. The dataset is derived from read audiobooks from LibriVox and consists of 8 languages - English, German, Dutch, Spanish, French, Italian, Portuguese, Polish. It includes about 44.5K hours of English and a total of about 6K hours for other languages.",
+            "PwC License Name": "CC BY 4.0",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

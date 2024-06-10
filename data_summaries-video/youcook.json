@@ -32,6 +32,25 @@
         "Taken Down": "False",
         "Video Sources": [
             "youtube"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "This data set was prepared from 88 open-source YouTube cooking videos. The YouCook dataset contains videos of people cooking various recipes. The videos were downloaded from YouTube and are all in the third-person viewpoint; they represent a significantly more challenging visual problem than existing cooking and kitchen datasets (the background kitchen/scene is different for many and most videos have dynamic camera changes). In addition, frame-by-frame object and action annotations are provided for training data (as well as a number of precomputed low-level features). Finally, each video has a number of human provided natural language descriptions (on average, there are eight different descriptions per video). This dataset has been created to serve as a benchmark in describing complex real-world videos with natural language descriptions.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

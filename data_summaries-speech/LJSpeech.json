@@ -38,7 +38,7 @@
             "LibriVox Audiobooks"
         ],
         "Process Description": "Scripts Generated First, Then Audio Was Recorded",
-        "Github URL": "",
+        "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/lj_speech",
         "Website URL": [
             "https://keithito.com/LJ-Speech-Dataset/"
@@ -56,6 +56,25 @@
         "Location": [
             "United States"
         ],
-        "Notes": "Used a lot: 3,156 downloads last month"
+        "Notes": "Used a lot: 3,156 downloads last month",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "main",
+            "HF Config License": "",
+            "HF Dataset": "lj_speech",
+            "HF Date": "2022-01-25",
+            "HF Downloads (June 2024)": 513,
+            "HF Likes (June 2024)": 33,
+            "HF Yaml License": "CC0 1.0",
+            "PwC Date": "",
+            "PwC Description": "This is a public domain speech dataset consisting of 13,100 short audio clips of a single speaker reading passages from 7 non-fiction books. A transcription is provided for each clip. Clips vary in length from 1 to 10 seconds and have a total length of approximately 24 hours. The texts were published between 1884 and 1964, and are in the public domain. The audio was recorded in 2016-17 by the LibriVox project and is also in the public domain.",
+            "PwC License Name": "CC0 1.0",
+            "PwC License URL": "https://librivox.org/pages/public-domain/",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }

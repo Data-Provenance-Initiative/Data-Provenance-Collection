@@ -91,7 +91,7 @@
             "LibriVox Audiobooks"
         ],
         "Process Description": "Audios With Transcripts Attached",
-        "Github URL": "",
+        "GitHub URL": "",
         "Hugging Face URL": "",
         "Website URL": [
             "https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/"
@@ -109,6 +109,25 @@
         "Location": [
             "Germany"
         ],
-        "Notes": ""
+        "Notes": "",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2019-01-03",
+            "PwC Description": "The M-AILABS Speech Dataset is the first large dataset that we are providing free-of-charge, freely usable as training data for speech recognition and speech synthesis.\nMost of the data is based on LibriVox and Project Gutenberg. The training data consist of nearly thousand hours of audio and the text-files in prepared format.\nA transcription is provided for each clip. Clips vary in length from 1 to 20 seconds and have a total length of approximately shown in the list (and in the respective info.txt-files) below.\nThe texts were published between 1884 and 1964, and are in the public domain. The audio was recorded by the LibriVox project and is also in the public domain",
+            "PwC License Name": "All Uses-Attribution",
+            "PwC License URL": "https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }
