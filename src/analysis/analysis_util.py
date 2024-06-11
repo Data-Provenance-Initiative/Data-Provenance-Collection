@@ -429,7 +429,7 @@ def check_datasummary_in_constants(rows, all_constants):
         check_entities(row["Collection"], row.get("Task Categories", []), 
                        TASK_TO_GROUP, missing_metadata["Task Categories"])
 
-        check_entities(row["Collection"], row.get("Text Sources", []), 
+        check_entities(row["Unique Dataset Identifier"], row.get("Text Sources", []), 
                        SOURCE_TO_GROUP, missing_metadata["Text Sources"])
 
         check_entities(row["Collection"], row.get("Languages", []), 
@@ -445,6 +445,7 @@ def check_datasummary_in_constants(rows, all_constants):
             print("If it is not in the constants file in any form, then add it to the constants file.")
             print()
             for x, collections in missing_info.items():
+                # print(x)
                 print(x + f"   |   Appears in: {collections}")
         print()
 

@@ -14272,7 +14272,7 @@
             "travel guides",
             "telephone conversations",
             "forum posts",
-            "Open American National\nCorpus",
+            "Open American National Corpus",
             "government letters",
             "non-fiction public books",
             "University of Pennsylvania\u2019s Linguistic Data Consortium Switchboard corpus telephone conversations",
@@ -19898,7 +19898,7 @@
             "fiction books",
             "wikihow",
             "custom model/code generated",
-            " transcribed speech",
+            "transcribed speech",
             "government reports"
         ],
         "Model Generated": [],
@@ -19956,7 +19956,7 @@
             "fiction books",
             "wikihow",
             "custom model/code generated",
-            " transcribed speech",
+            "transcribed speech",
             "government reports"
         ],
         "Model Generated": [],
@@ -20015,7 +20015,7 @@
             "fiction books",
             "wikihow",
             "custom model/code generated",
-            " transcribed speech",
+            "transcribed speech",
             "government reports"
         ],
         "Model Generated": [],
@@ -20073,7 +20073,7 @@
             "fiction books",
             "wikihow",
             "custom model/code generated",
-            " transcribed speech",
+            "transcribed speech",
             "government reports"
         ],
         "Model Generated": [],
@@ -20132,7 +20132,7 @@
             "fiction books",
             "wikihow",
             "custom model/code generated",
-            " transcribed speech",
+            "transcribed speech",
             "government reports"
         ],
         "Model Generated": [],
@@ -24192,8 +24192,7 @@
         "Text Sources": [
             "crowdsourced",
             "personal narratives",
-            "web blogs",
-            ""
+            "web blogs"
         ],
         "Model Generated": [],
         "Format": [
@@ -24247,8 +24246,7 @@
         "Text Sources": [
             "crowdsourced",
             "personal narratives",
-            "web blogs",
-            ""
+            "web blogs"
         ],
         "Model Generated": [],
         "Format": [
@@ -24303,8 +24301,7 @@
         "Text Sources": [
             "crowdsourced",
             "personal narratives",
-            "web blogs",
-            ""
+            "web blogs"
         ],
         "Model Generated": [],
         "Format": [
@@ -24358,8 +24355,7 @@
         "Text Sources": [
             "crowdsourced",
             "personal narratives",
-            "web blogs",
-            ""
+            "web blogs"
         ],
         "Model Generated": [],
         "Format": [
@@ -24414,8 +24410,7 @@
         "Text Sources": [
             "crowdsourced",
             "personal narratives",
-            "web blogs",
-            ""
+            "web blogs"
         ],
         "Model Generated": [],
         "Format": [
@@ -24470,8 +24465,7 @@
         "Text Sources": [
             "crowdsourced",
             "personal narratives",
-            "web blogs",
-            ""
+            "web blogs"
         ],
         "Model Generated": [],
         "Format": [
@@ -24525,8 +24519,7 @@
         "Text Sources": [
             "crowdsourced",
             "personal narratives",
-            "web blogs",
-            ""
+            "web blogs"
         ],
         "Model Generated": [],
         "Format": [
@@ -24581,8 +24574,7 @@
         "Text Sources": [
             "crowdsourced",
             "personal narratives",
-            "web blogs",
-            ""
+            "web blogs"
         ],
         "Model Generated": [],
         "Format": [
@@ -24636,8 +24628,7 @@
         "Text Sources": [
             "crowdsourced",
             "personal narratives",
-            "web blogs",
-            ""
+            "web blogs"
         ],
         "Model Generated": [],
         "Format": [
@@ -24692,8 +24683,7 @@
         "Text Sources": [
             "crowdsourced",
             "personal narratives",
-            "web blogs",
-            ""
+            "web blogs"
         ],
         "Model Generated": [],
         "Format": [
@@ -24748,8 +24738,7 @@
         "Text Sources": [
             "crowdsourced",
             "personal narratives",
-            "web blogs",
-            ""
+            "web blogs"
         ],
         "Model Generated": [],
         "Format": [
@@ -32170,7 +32159,7 @@
             "movie dialogues",
             "twitter",
             "comments data",
-            " transcription of meetings",
+            "transcription of meetings",
             "written discussions",
             "phone dialogues",
             "daily communication data",
@@ -32228,7 +32217,7 @@
             "movie dialogues",
             "twitter",
             "comments data",
-            " transcription of meetings",
+            "transcription of meetings",
             "written discussions",
             "phone dialogues",
             "daily communication data",
@@ -32285,7 +32274,7 @@
             "movie dialogues",
             "twitter",
             "comments data",
-            " transcription of meetings",
+            "transcription of meetings",
             "written discussions",
             "phone dialogues",
             "daily communication data",
@@ -32342,7 +32331,7 @@
             "movie dialogues",
             "twitter",
             "comments data",
-            " transcription of meetings",
+            "transcription of meetings",
             "written discussions",
             "phone dialogues",
             "daily communication data",
@@ -32399,7 +32388,7 @@
             "movie dialogues",
             "twitter",
             "comments data",
-            " transcription of meetings",
+            "transcription of meetings",
             "written discussions",
             "phone dialogues",
             "daily communication data",
@@ -32456,7 +32445,7 @@
             "movie dialogues",
             "twitter",
             "comments data",
-            " transcription of meetings",
+            "transcription of meetings",
             "written discussions",
             "phone dialogues",
             "daily communication data",
@@ -45784,8 +45773,7 @@
         "Text Sources": [
             "crowdsourced",
             "personal narratives",
-            "web blogs",
-            ""
+            "web blogs"
         ],
         "Model Generated": [],
         "Format": [
@@ -61962,7 +61950,7 @@
             "String Formatting"
         ],
         "Text Sources": [
-            "genetic sequences "
+            "genetic sequences"
         ],
         "Model Generated": [],
         "Format": [
@@ -63965,17 +63953,13 @@
         "Task Categories": [
             "Toxicity Detection"
         ],
-        "Text Sources": [
-            ""
-        ],
+        "Text Sources": [],
         "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": [
-            ""
-        ],
+        "Derived from Datasets": [],
         "Creators": [],
         "Bibtex": "",
         "Licenses": [
@@ -65017,17 +65001,13 @@
             "Keyword Tagging",
             "Text Generation"
         ],
-        "Text Sources": [
-            "-"
-        ],
+        "Text Sources": [],
         "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": [
-            "-"
-        ],
+        "Derived from Datasets": [],
         "Creators": [],
         "Bibtex": "",
         "Licenses": [
