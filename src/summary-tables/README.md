@@ -3,6 +3,9 @@
 Add this to the preamble to get symbols used in the tables:
 
 ```
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{pifont}
 \usepackage{emoji}
 \usepackage{tikz}
 \usepackage{makecell}
