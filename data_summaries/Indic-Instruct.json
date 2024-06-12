@@ -65,7 +65,6 @@
         "Dataset Filter IDs": [
             "anudesh"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 43,
@@ -100,7 +99,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Gala2024AiravataIH,\n author = {Jay Gala and Thanmay Jayakumar and Jaavid Aktar Husain and M. AswanthKumar and Mohammed Safi Ur Rahman Khan and Diptesh Kanojia and Ratish Puduppully and Mitesh M. Khapra and Raj Dabre and Rudra Murthy and Anoop Kunchukuttan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Airavata: Introducing Hindi Instruction-tuned LLM},\n volume = {abs/2401.15006},\n year = {2024}\n}\n"
     },
     "indic-instruct-dolly": {
         "Unique Dataset Identifier": "indic-instruct-dolly",
@@ -171,7 +171,6 @@
         "Dataset Filter IDs": [
             "dolly"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 43,
@@ -206,7 +205,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Gala2024AiravataIH,\n author = {Jay Gala and Thanmay Jayakumar and Jaavid Aktar Husain and M. AswanthKumar and Mohammed Safi Ur Rahman Khan and Diptesh Kanojia and Ratish Puduppully and Mitesh M. Khapra and Raj Dabre and Rudra Murthy and Anoop Kunchukuttan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Airavata: Introducing Hindi Instruction-tuned LLM},\n volume = {abs/2401.15006},\n year = {2024}\n}\n"
     },
     "indic-instruct-flan_v2": {
         "Unique Dataset Identifier": "indic-instruct-flan_v2",
@@ -279,7 +279,6 @@
         "Dataset Filter IDs": [
             "flan_v2"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 43,
@@ -314,7 +313,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Gala2024AiravataIH,\n author = {Jay Gala and Thanmay Jayakumar and Jaavid Aktar Husain and M. AswanthKumar and Mohammed Safi Ur Rahman Khan and Diptesh Kanojia and Ratish Puduppully and Mitesh M. Khapra and Raj Dabre and Rudra Murthy and Anoop Kunchukuttan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Airavata: Introducing Hindi Instruction-tuned LLM},\n volume = {abs/2401.15006},\n year = {2024}\n}\n"
     },
     "indic-instruct-hh-rlhf": {
         "Unique Dataset Identifier": "indic-instruct-hh-rlhf",
@@ -374,7 +374,6 @@
         "Dataset Filter IDs": [
             "hh-rlhf"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 43,
@@ -409,7 +408,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 38,
             "Mean Dialog Turns": 4.676
-        }
+        },
+        "Bibtex": "@Article{Gala2024AiravataIH,\n author = {Jay Gala and Thanmay Jayakumar and Jaavid Aktar Husain and M. AswanthKumar and Mohammed Safi Ur Rahman Khan and Diptesh Kanojia and Ratish Puduppully and Mitesh M. Khapra and Raj Dabre and Rudra Murthy and Anoop Kunchukuttan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Airavata: Introducing Hindi Instruction-tuned LLM},\n volume = {abs/2401.15006},\n year = {2024}\n}\n"
     },
     "indic-instruct-lm_sys": {
         "Unique Dataset Identifier": "indic-instruct-lm_sys",
@@ -486,7 +486,6 @@
         "Dataset Filter IDs": [
             "lm_sys"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 43,
@@ -521,7 +520,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 170,
             "Mean Dialog Turns": 3.8545
-        }
+        },
+        "Bibtex": "@Article{Gala2024AiravataIH,\n author = {Jay Gala and Thanmay Jayakumar and Jaavid Aktar Husain and M. AswanthKumar and Mohammed Safi Ur Rahman Khan and Diptesh Kanojia and Ratish Puduppully and Mitesh M. Khapra and Raj Dabre and Rudra Murthy and Anoop Kunchukuttan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Airavata: Introducing Hindi Instruction-tuned LLM},\n volume = {abs/2401.15006},\n year = {2024}\n}\n"
     },
     "indic-instruct-nmt-seed": {
         "Unique Dataset Identifier": "indic-instruct-nmt-seed",
@@ -579,7 +579,6 @@
         "Dataset Filter IDs": [
             "nmt-seed"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 43,
@@ -614,7 +613,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Gala2024AiravataIH,\n author = {Jay Gala and Thanmay Jayakumar and Jaavid Aktar Husain and M. AswanthKumar and Mohammed Safi Ur Rahman Khan and Diptesh Kanojia and Ratish Puduppully and Mitesh M. Khapra and Raj Dabre and Rudra Murthy and Anoop Kunchukuttan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Airavata: Introducing Hindi Instruction-tuned LLM},\n volume = {abs/2401.15006},\n year = {2024}\n}\n"
     },
     "indic-instruct-oasst1": {
         "Unique Dataset Identifier": "indic-instruct-oasst1",
@@ -685,7 +685,6 @@
         "Dataset Filter IDs": [
             "oasst1"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 43,
@@ -720,7 +719,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 7,
             "Mean Dialog Turns": 3.6223
-        }
+        },
+        "Bibtex": "@Article{Gala2024AiravataIH,\n author = {Jay Gala and Thanmay Jayakumar and Jaavid Aktar Husain and M. AswanthKumar and Mohammed Safi Ur Rahman Khan and Diptesh Kanojia and Ratish Puduppully and Mitesh M. Khapra and Raj Dabre and Rudra Murthy and Anoop Kunchukuttan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Airavata: Introducing Hindi Instruction-tuned LLM},\n volume = {abs/2401.15006},\n year = {2024}\n}\n"
     },
     "indic-instruct-wikihow": {
         "Unique Dataset Identifier": "indic-instruct-wikihow",
@@ -781,7 +781,6 @@
         "Dataset Filter IDs": [
             "wikihow"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 43,
@@ -816,6 +815,7 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Gala2024AiravataIH,\n author = {Jay Gala and Thanmay Jayakumar and Jaavid Aktar Husain and M. AswanthKumar and Mohammed Safi Ur Rahman Khan and Diptesh Kanojia and Ratish Puduppully and Mitesh M. Khapra and Raj Dabre and Rudra Murthy and Anoop Kunchukuttan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Airavata: Introducing Hindi Instruction-tuned LLM},\n volume = {abs/2401.15006},\n year = {2024}\n}\n"
     }
 }

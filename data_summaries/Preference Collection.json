@@ -51,7 +51,6 @@
         "Dataset Filter IDs": [
             "preference_collection"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 528,
@@ -70,6 +69,7 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": ""
     }
 }
