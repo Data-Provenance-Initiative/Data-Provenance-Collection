@@ -90,6 +90,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Andrusenko2020ExplorationOE,\n author = {A. Andrusenko and A. Laptev and I. Medennikov},\n booktitle = {International Conference on Speech and Computer},\n journal = {ArXiv},\n title = {Exploration of End-to-End ASR for OpenSTT - Russian Open Speech-to-Text Dataset},\n volume = {abs/2006.08274},\n year = {2020}\n}\n"
     }
 }

@@ -51,6 +51,7 @@
             "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Abu-El-Haija2016YouTube8MAL,\n author = {Sami Abu-El-Haija and Nisarg Kothari and Joonseok Lee and A. Natsev and G. Toderici and Balakrishnan Varadarajan and Sudheendra Vijayanarasimhan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {YouTube-8M: A Large-Scale Video Classification Benchmark},\n volume = {abs/1609.08675},\n year = {2016}\n}\n"
     }
 }

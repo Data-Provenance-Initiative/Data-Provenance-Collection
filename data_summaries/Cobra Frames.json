@@ -75,6 +75,7 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 11,
             "S2 Date": "2023-06-03"
-        }
+        },
+        "Bibtex": "@Article{Zhou2023COBRAFC,\n author = {Xuhui Zhou and Haojie Zhu and Akhila Yerukola and Thomas Davidson and Jena D. Hwang and Swabha Swayamdipta and Maarten Sap},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {COBRA Frames: Contextual Reasoning about Effects and Harms of Offensive Statements},\n volume = {abs/2306.01985},\n year = {2023}\n}\n"
     }
 }

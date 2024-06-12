@@ -103,6 +103,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Kjartansson2018CrowdSourcedSC,\n author = {Oddur Kjartansson and Supheakmungkol Sarin and Knot Pipatsrisawat and Martin Jansche and Linne Ha},\n booktitle = {Workshop on Spoken Language Technologies for Under-resourced Languages},\n pages = {52-55},\n title = {Crowd-Sourced Speech Corpora for Javanese, Sundanese, Sinhala, Nepali, and Bangladeshi Bengali},\n year = {2018}\n}\n"
     }
 }

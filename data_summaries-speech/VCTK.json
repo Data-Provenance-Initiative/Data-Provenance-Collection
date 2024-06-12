@@ -76,6 +76,7 @@
             "PwC License URL": "https://datashare.ed.ac.uk/bitstream/handle/10283/2651/license_text?sequence=3&isAllowed=y",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Inproceedings{Yamagishi2019CSTRVC,\n author = {J. Yamagishi and C. Veaux and Kirsten MacDonald},\n title = {CSTR VCTK Corpus: English Multi-speaker Corpus for CSTR Voice Cloning Toolkit (version 0.92)},\n year = {2019}\n}\n"
     }
 }

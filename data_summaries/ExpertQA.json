@@ -51,7 +51,6 @@
         "Dataset Filter IDs": [
             "expert_qa"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "MIT License",
             "GitHub Stars (May 2024)": 109,
@@ -86,6 +85,7 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Malaviya2023ExpertQAEQ,\n author = {Chaitanya Malaviya and Subin Lee and Sihao Chen and Elizabeth Sieber and Mark Yatskar and Dan Roth},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {ExpertQA: Expert-Curated Questions and Attributed Answers},\n volume = {abs/2309.07852},\n year = {2023}\n}\n"
     }
 }

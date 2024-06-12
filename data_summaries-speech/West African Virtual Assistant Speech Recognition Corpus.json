@@ -85,6 +85,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Doumbouya2021UsingRA,\n author = {Moussa Doumbouya and Lisa Einstein and C. Piech},\n booktitle = {AAAI Conference on Artificial Intelligence},\n pages = {14757-14765},\n title = {Using Radio Archives for Low-Resource Speech Recognition: Towards an Intelligent Virtual Assistant for Illiterate Users},\n year = {2021}\n}\n"
     }
 }

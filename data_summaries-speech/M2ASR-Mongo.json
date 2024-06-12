@@ -72,6 +72,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Zhi2021M2ASRMONGOAF,\n author = {Tiankai Zhi and Ying Shi and Wenqiang Du and Guanyu Li and Dong Wang},\n booktitle = {Oriental COCOSDA International Conference on Speech Database and Assessments},\n journal = {2021 24th Conference of the Oriental COCOSDA International Committee for the Co-ordination and Standardisation of Speech Databases and Assessment Techniques (O-COCOSDA)},\n pages = {140-145},\n title = {M2ASR-MONGO: A Free Mongolian Speech Database and Accompanied Baselines},\n year = {2021}\n}\n"
     }
 }

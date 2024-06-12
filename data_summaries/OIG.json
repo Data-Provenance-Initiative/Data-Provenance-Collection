@@ -113,7 +113,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Kim2022SODAMD,\n author = {Hyunwoo Kim and Jack Hessel and Liwei Jiang and Peter West and Ximing Lu and Youngjae Yu and Pei Zhou and Ronan Le Bras and Malihe Alikhani and Gunhee Kim and Maarten Sap and Yejin Choi},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {12930-12949},\n title = {SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization},\n year = {2022}\n}\n"
     },
     "oig-unified_abstract_infill": {
         "Unique Dataset Identifier": "oig-unified_abstract_infill",
@@ -213,7 +213,7 @@
             "MS Marco retrieval corpus"
         ],
         "Human Annotation": "Yes",
-        "Bibtex": ""
+        "Bibtex": "@Article{Dai2022DialogIT,\n author = {Zhuyun Dai and Arun Tejasvi Chaganty and Vincent Zhao and Aida Amini and Q. Rashid and Mike Green and Kelvin Guu},\n booktitle = {International Conference on Machine Learning},\n journal = {ArXiv},\n title = {Dialog Inpainting: Turning Documents into Dialogs},\n volume = {abs/2205.09073},\n year = {2022}\n}\n"
     },
     "oig-unified_unnatural_instructions": {
         "Unique Dataset Identifier": "oig-unified_unnatural_instructions",
@@ -312,7 +312,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
-        "Bibtex": ""
+        "Bibtex": "@Article{Honovich2022UnnaturalIT,\n author = {Or Honovich and Thomas Scialom and Omer Levy and Timo Schick},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor},\n volume = {abs/2212.09689},\n year = {2022}\n}\n"
     },
     "oig-unified_mathqa_flanv2_kojma_cot": {
         "Unique Dataset Identifier": "oig-unified_mathqa_flanv2_kojma_cot",
@@ -410,7 +410,7 @@
             "AQuA dataset"
         ],
         "Human Annotation": "Yes",
-        "Bibtex": ""
+        "Bibtex": "@Article{Amini2019MathQATI,\n author = {Aida Amini and Saadia Gabriel and Shanchuan Lin and Rik Koncel-Kedziorski and Yejin Choi and Hannaneh Hajishirzi},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n pages = {2357-2367},\n title = {MathQA: Towards Interpretable Math Word Problem Solving with Operation-Based Formalisms},\n year = {2019}\n}\n"
     },
     "oig-unified_poetry_instructions": {
         "Unique Dataset Identifier": "oig-unified_poetry_instructions",
@@ -776,7 +776,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
-        "Bibtex": ""
+        "Bibtex": "@Article{Fabbri2019MultiNewsAL,\n author = {Alexander R. Fabbri and Irene Li and Tianwei She and Suyi Li and Dragomir R. Radev},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {1074-1084},\n title = {Multi-News: A Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model},\n year = {2019}\n}\n"
     },
     "oig-unified_rallio_safety_and_prosocial": {
         "Unique Dataset Identifier": "oig-unified_rallio_safety_and_prosocial",
@@ -1053,7 +1053,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
-        "Bibtex": ""
+        "Bibtex": "@Article{Cobbe2021TrainingVT,\n author = {Karl Cobbe and V. Kosaraju and Mohammad Bavarian and Mark Chen and Heewoo Jun and Lukasz Kaiser and Matthias Plappert and Jerry Tworek and Jacob Hilton and Reiichiro Nakano and Christopher Hesse and John Schulman},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Training Verifiers to Solve Math Word Problems},\n volume = {abs/2110.14168},\n year = {2021}\n}\n"
     },
     "oig-unified_sqlv2": {
         "Unique Dataset Identifier": "oig-unified_sqlv2",
@@ -1351,7 +1351,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Kwiatkowski2019NaturalQA,\n author = {T. Kwiatkowski and J. Palomaki and Olivia Redfield and Michael Collins and Ankur P. Parikh and Chris Alberti and D. Epstein and Illia Polosukhin and Jacob Devlin and Kenton Lee and Kristina Toutanova and Llion Jones and Matthew Kelcey and Ming-Wei Chang and Andrew M. Dai and Jakob Uszkoreit and Quoc V. Le and Slav Petrov},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {453-466},\n title = {Natural Questions: A Benchmark for Question Answering Research},\n volume = {7},\n year = {2019}\n}\n"
     },
     "oig-unified_joke_explanations": {
         "Unique Dataset Identifier": "oig-unified_joke_explanations",
@@ -1533,7 +1533,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Stiennon2020LearningTS,\n author = {Nisan Stiennon and Long Ouyang and Jeff Wu and Daniel M. Ziegler and Ryan J. Lowe and Chelsea Voss and Alec Radford and Dario Amodei and Paul Christiano},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {Learning to summarize from human feedback},\n volume = {abs/2009.01325},\n year = {2020}\n}\n"
     },
     "oig-unified_unifiedskg_instructions": {
         "Unique Dataset Identifier": "oig-unified_unifiedskg_instructions",
@@ -1661,7 +1661,7 @@
             "Logic2Text"
         ],
         "Human Annotation": "Yes",
-        "Bibtex": ""
+        "Bibtex": "@Article{Xie2022UnifiedSKGUA,\n author = {Tianbao Xie and Chen Henry Wu and Peng Shi and Ruiqi Zhong and Torsten Scholak and Michihiro Yasunaga and Chien-Sheng Wu and Ming Zhong and Pengcheng Yin and Sida I. Wang and Victor Zhong and Bailin Wang and Chengzu Li and Connor Boyle and Ansong Ni and Ziyu Yao and Dragomir R. Radev and Caiming Xiong and Lingpeng Kong and Rui Zhang and Noah A. Smith and Luke Zettlemoyer and Tao Yu},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models},\n volume = {abs/2201.05966},\n year = {2022}\n}\n"
     },
     "oig-unified_sqlv1": {
         "Unique Dataset Identifier": "oig-unified_sqlv1",
@@ -2134,7 +2134,7 @@
             "FinQA"
         ],
         "Human Annotation": "Yes",
-        "Bibtex": ""
+        "Bibtex": "@Article{Chen2022ConvFinQAET,\n author = {Zhiyu Chen and SHIYANG LI and Charese Smiley and Zhiqiang Ma and Sameena Shah and William Yang Wang},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {6279-6292},\n title = {ConvFinQA: Exploring the Chain of Numerical Reasoning in Conversational Finance Question Answering},\n year = {2022}\n}\n"
     },
     "oig-unified_hc3_human": {
         "Unique Dataset Identifier": "oig-unified_hc3_human",
@@ -2256,7 +2256,7 @@
             "FinanceZhidao dataset"
         ],
         "Human Annotation": "Yes",
-        "Bibtex": ""
+        "Bibtex": "@Article{Guo2023HowCI,\n author = {Biyang Guo and Xin Zhang and Ziyuan Wang and Minqi Jiang and Jinran Nie and Yuxuan Ding and Jianwei Yue and Yupeng Wu},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection},\n volume = {abs/2301.07597},\n year = {2023}\n}\n"
     },
     "oig-unified_cuad": {
         "Unique Dataset Identifier": "oig-unified_cuad",
@@ -2349,7 +2349,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
-        "Bibtex": ""
+        "Bibtex": "@Article{Hendrycks2021CUADAE,\n author = {Dan Hendrycks and Collin Burns and Anya Chen and Spencer Ball},\n booktitle = {NeurIPS Datasets and Benchmarks},\n journal = {ArXiv},\n title = {CUAD: An Expert-Annotated NLP Dataset for Legal Contract Review},\n volume = {abs/2103.06268},\n year = {2021}\n}\n"
     },
     "oig-unified_squad_v2_more_neg": {
         "Unique Dataset Identifier": "oig-unified_squad_v2_more_neg",
@@ -2442,7 +2442,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
-        "Bibtex": ""
+        "Bibtex": "@Article{Rajpurkar2018KnowWY,\n author = {Pranav Rajpurkar and Robin Jia and Percy Liang},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Know What You Don’t Know: Unanswerable Questions for SQuAD},\n volume = {abs/1806.03822},\n year = {2018}\n}\n"
     },
     "oig-unified_squad_v2": {
         "Unique Dataset Identifier": "oig-unified_squad_v2",
@@ -2535,6 +2535,6 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "Yes",
-        "Bibtex": ""
+        "Bibtex": "@Article{Rajpurkar2018KnowWY,\n author = {Pranav Rajpurkar and Robin Jia and Percy Liang},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {Know What You Don’t Know: Unanswerable Questions for SQuAD},\n volume = {abs/1806.03822},\n year = {2018}\n}\n"
     }
 }

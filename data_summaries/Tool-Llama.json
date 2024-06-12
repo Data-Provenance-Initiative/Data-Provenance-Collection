@@ -101,6 +101,6 @@
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],
-        "Bibtex": ""
+        "Bibtex": "@Article{Qin2023ToolLLMFL,\n author = {Yujia Qin and Shi Liang and Yining Ye and Kunlun Zhu and Lan Yan and Ya-Ting Lu and Yankai Lin and Xin Cong and Xiangru Tang and Bill Qian and Sihan Zhao and Runchu Tian and Ruobing Xie and Jie Zhou and M. Gerstein and Dahai Li and Zhiyuan Liu and Maosong Sun},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs},\n volume = {abs/2307.16789},\n year = {2023}\n}\n"
     }
 }

@@ -44,7 +44,6 @@
         "Dataset Filter IDs": [
             "en"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -63,7 +62,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-af": {
         "Unique Dataset Identifier": "MegaWika-af",
@@ -110,7 +110,6 @@
         "Dataset Filter IDs": [
             "af"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -129,7 +128,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-ar": {
         "Unique Dataset Identifier": "MegaWika-ar",
@@ -176,7 +176,6 @@
         "Dataset Filter IDs": [
             "ar"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -195,7 +194,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-az": {
         "Unique Dataset Identifier": "MegaWika-az",
@@ -242,7 +242,6 @@
         "Dataset Filter IDs": [
             "az"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -261,7 +260,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-bn": {
         "Unique Dataset Identifier": "MegaWika-bn",
@@ -308,7 +308,6 @@
         "Dataset Filter IDs": [
             "bn"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -327,7 +326,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-cs": {
         "Unique Dataset Identifier": "MegaWika-cs",
@@ -374,7 +374,6 @@
         "Dataset Filter IDs": [
             "cs"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -393,7 +392,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-de": {
         "Unique Dataset Identifier": "MegaWika-de",
@@ -440,7 +440,6 @@
         "Dataset Filter IDs": [
             "de"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -459,7 +458,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-es": {
         "Unique Dataset Identifier": "MegaWika-es",
@@ -506,7 +506,6 @@
         "Dataset Filter IDs": [
             "es"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -525,7 +524,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-et": {
         "Unique Dataset Identifier": "MegaWika-et",
@@ -572,7 +572,6 @@
         "Dataset Filter IDs": [
             "et"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -591,7 +590,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-fa": {
         "Unique Dataset Identifier": "MegaWika-fa",
@@ -638,7 +638,6 @@
         "Dataset Filter IDs": [
             "fa"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -657,7 +656,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-fi": {
         "Unique Dataset Identifier": "MegaWika-fi",
@@ -704,7 +704,6 @@
         "Dataset Filter IDs": [
             "fi"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -723,7 +722,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-fr": {
         "Unique Dataset Identifier": "MegaWika-fr",
@@ -770,7 +770,6 @@
         "Dataset Filter IDs": [
             "fr"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -789,7 +788,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-ga": {
         "Unique Dataset Identifier": "MegaWika-ga",
@@ -836,7 +836,6 @@
         "Dataset Filter IDs": [
             "ga"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -855,7 +854,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-gl": {
         "Unique Dataset Identifier": "MegaWika-gl",
@@ -902,7 +902,6 @@
         "Dataset Filter IDs": [
             "gl"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -921,7 +920,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-gu": {
         "Unique Dataset Identifier": "MegaWika-gu",
@@ -968,7 +968,6 @@
         "Dataset Filter IDs": [
             "gu"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -987,7 +986,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-he": {
         "Unique Dataset Identifier": "MegaWika-he",
@@ -1034,7 +1034,6 @@
         "Dataset Filter IDs": [
             "he"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -1053,7 +1052,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-hi": {
         "Unique Dataset Identifier": "MegaWika-hi",
@@ -1100,7 +1100,6 @@
         "Dataset Filter IDs": [
             "hi"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -1119,7 +1118,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-hr": {
         "Unique Dataset Identifier": "MegaWika-hr",
@@ -1166,7 +1166,6 @@
         "Dataset Filter IDs": [
             "hr"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -1185,7 +1184,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-id": {
         "Unique Dataset Identifier": "MegaWika-id",
@@ -1232,7 +1232,6 @@
         "Dataset Filter IDs": [
             "id"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -1251,7 +1250,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-it": {
         "Unique Dataset Identifier": "MegaWika-it",
@@ -1298,7 +1298,6 @@
         "Dataset Filter IDs": [
             "it"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -1317,7 +1316,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-ja": {
         "Unique Dataset Identifier": "MegaWika-ja",
@@ -1364,7 +1364,6 @@
         "Dataset Filter IDs": [
             "ja"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -1383,7 +1382,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-ka": {
         "Unique Dataset Identifier": "MegaWika-ka",
@@ -1430,7 +1430,6 @@
         "Dataset Filter IDs": [
             "ka"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -1449,7 +1448,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-kk": {
         "Unique Dataset Identifier": "MegaWika-kk",
@@ -1496,7 +1496,6 @@
         "Dataset Filter IDs": [
             "kk"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -1515,7 +1514,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-km": {
         "Unique Dataset Identifier": "MegaWika-km",
@@ -1562,7 +1562,6 @@
         "Dataset Filter IDs": [
             "km"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -1581,7 +1580,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-ko": {
         "Unique Dataset Identifier": "MegaWika-ko",
@@ -1628,7 +1628,6 @@
         "Dataset Filter IDs": [
             "ko"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -1647,7 +1646,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-lt": {
         "Unique Dataset Identifier": "MegaWika-lt",
@@ -1694,7 +1694,6 @@
         "Dataset Filter IDs": [
             "lt"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -1713,7 +1712,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-lv": {
         "Unique Dataset Identifier": "MegaWika-lv",
@@ -1760,7 +1760,6 @@
         "Dataset Filter IDs": [
             "lv"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -1779,7 +1778,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-mk": {
         "Unique Dataset Identifier": "MegaWika-mk",
@@ -1826,7 +1826,6 @@
         "Dataset Filter IDs": [
             "mk"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -1845,7 +1844,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-ml": {
         "Unique Dataset Identifier": "MegaWika-ml",
@@ -1892,7 +1892,6 @@
         "Dataset Filter IDs": [
             "ml"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -1911,7 +1910,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-mn": {
         "Unique Dataset Identifier": "MegaWika-mn",
@@ -1958,7 +1958,6 @@
         "Dataset Filter IDs": [
             "mn"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -1977,7 +1976,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-mr": {
         "Unique Dataset Identifier": "MegaWika-mr",
@@ -2024,7 +2024,6 @@
         "Dataset Filter IDs": [
             "mr"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -2043,7 +2042,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-my": {
         "Unique Dataset Identifier": "MegaWika-my",
@@ -2090,7 +2090,6 @@
         "Dataset Filter IDs": [
             "my"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -2109,7 +2108,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-ne": {
         "Unique Dataset Identifier": "MegaWika-ne",
@@ -2156,7 +2156,6 @@
         "Dataset Filter IDs": [
             "ne"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -2175,7 +2174,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-nl": {
         "Unique Dataset Identifier": "MegaWika-nl",
@@ -2222,7 +2222,6 @@
         "Dataset Filter IDs": [
             "nl"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -2241,7 +2240,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-pl": {
         "Unique Dataset Identifier": "MegaWika-pl",
@@ -2288,7 +2288,6 @@
         "Dataset Filter IDs": [
             "pl"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -2307,7 +2306,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-ps": {
         "Unique Dataset Identifier": "MegaWika-ps",
@@ -2354,7 +2354,6 @@
         "Dataset Filter IDs": [
             "ps"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -2373,7 +2372,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-pt": {
         "Unique Dataset Identifier": "MegaWika-pt",
@@ -2420,7 +2420,6 @@
         "Dataset Filter IDs": [
             "pt"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -2439,7 +2438,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-ro": {
         "Unique Dataset Identifier": "MegaWika-ro",
@@ -2486,7 +2486,6 @@
         "Dataset Filter IDs": [
             "ro"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -2505,7 +2504,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-ru": {
         "Unique Dataset Identifier": "MegaWika-ru",
@@ -2552,7 +2552,6 @@
         "Dataset Filter IDs": [
             "ru"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -2571,7 +2570,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-si": {
         "Unique Dataset Identifier": "MegaWika-si",
@@ -2618,7 +2618,6 @@
         "Dataset Filter IDs": [
             "si"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -2637,7 +2636,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-sl": {
         "Unique Dataset Identifier": "MegaWika-sl",
@@ -2684,7 +2684,6 @@
         "Dataset Filter IDs": [
             "sl"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -2703,7 +2702,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-sv": {
         "Unique Dataset Identifier": "MegaWika-sv",
@@ -2750,7 +2750,6 @@
         "Dataset Filter IDs": [
             "sv"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -2769,7 +2768,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-ta": {
         "Unique Dataset Identifier": "MegaWika-ta",
@@ -2816,7 +2816,6 @@
         "Dataset Filter IDs": [
             "ta"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -2835,7 +2834,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-th": {
         "Unique Dataset Identifier": "MegaWika-th",
@@ -2882,7 +2882,6 @@
         "Dataset Filter IDs": [
             "th"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -2901,7 +2900,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-tr": {
         "Unique Dataset Identifier": "MegaWika-tr",
@@ -2948,7 +2948,6 @@
         "Dataset Filter IDs": [
             "tr"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -2967,7 +2966,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-uk": {
         "Unique Dataset Identifier": "MegaWika-uk",
@@ -3014,7 +3014,6 @@
         "Dataset Filter IDs": [
             "uk"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -3033,7 +3032,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-ur": {
         "Unique Dataset Identifier": "MegaWika-ur",
@@ -3080,7 +3080,6 @@
         "Dataset Filter IDs": [
             "ur"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -3099,7 +3098,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-vi": {
         "Unique Dataset Identifier": "MegaWika-vi",
@@ -3146,7 +3146,6 @@
         "Dataset Filter IDs": [
             "vi"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -3165,7 +3164,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-xh": {
         "Unique Dataset Identifier": "MegaWika-xh",
@@ -3212,7 +3212,6 @@
         "Dataset Filter IDs": [
             "xh"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -3231,7 +3230,8 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     },
     "MegaWika-zh": {
         "Unique Dataset Identifier": "MegaWika-zh",
@@ -3278,7 +3278,6 @@
         "Dataset Filter IDs": [
             "zh"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -3297,6 +3296,7 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 2,
             "S2 Date": "2023-07-13"
-        }
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
     }
 }

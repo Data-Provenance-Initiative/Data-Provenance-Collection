@@ -51,6 +51,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Das2013ATF,\n author = {Pradipto Das and Chenliang Xu and Richard F. Doell and Jason J. Corso},\n booktitle = {2013 IEEE Conference on Computer Vision and Pattern Recognition},\n journal = {2013 IEEE Conference on Computer Vision and Pattern Recognition},\n pages = {2634-2641},\n title = {A Thousand Frames in Just a Few Words: Lingual Description of Videos through Latent Topics and Sparse Object Stitching},\n year = {2013}\n}\n"
     }
 }

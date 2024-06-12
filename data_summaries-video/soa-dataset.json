@@ -51,6 +51,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Ray2018ScenesObjectsActionsAM,\n author = {Jamie Ray and Heng Wang and Du Tran and Yufei Wang and Matt Feiszli and L. Torresani and Manohar Paluri},\n booktitle = {European Conference on Computer Vision},\n pages = {660-676},\n title = {Scenes-Objects-Actions: A Multi-task, Multi-label Video Dataset},\n year = {2018}\n}\n"
     }
 }
