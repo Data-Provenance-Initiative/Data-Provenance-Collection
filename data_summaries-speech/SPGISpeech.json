@@ -80,6 +80,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{O’Neill2021SPGISpeech50,\n author = {Patrick K. O’Neill and Vitaly Lavrukhin and Somshubra Majumdar and V. Noroozi and Yuekai Zhang and Oleksii Kuchaiev and Jagadeesh Balam and Yuliya Dovzhenko and Keenan Freyberg and Michael D. Shulman and Boris Ginsburg and Shinji Watanabe and G. Kucsko},\n booktitle = {Interspeech},\n pages = {1434-1438},\n title = {SPGISpeech: 5, 000 hours of transcribed financial audio for fully formatted end-to-end speech recognition},\n year = {2021}\n}\n"
     }
 }

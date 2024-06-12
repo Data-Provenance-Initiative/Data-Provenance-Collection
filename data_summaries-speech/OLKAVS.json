@@ -95,6 +95,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Park2023OLKAVSAO,\n author = {J. Park and Jung-Wook Hwang and Kwanghee Choi and Seung-Hyun Lee and Jun-Hwan Ahn and R.-H. Park and Hyung-Min Park},\n booktitle = {IEEE International Conference on Acoustics, Speech, and Signal Processing},\n journal = {ArXiv},\n title = {OLKAVS: An Open Large-Scale Korean Audio-Visual Speech Dataset},\n volume = {abs/2301.06375},\n year = {2023}\n}\n"
     }
 }

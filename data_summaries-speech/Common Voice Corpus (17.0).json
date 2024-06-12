@@ -361,6 +361,7 @@
             "PwC License URL": "https://creativecommons.org/share-your-work/public-domain/cc0/",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Ardila2019CommonVA,\n author = {Rosana Ardila and Megan Branson and Kelly Davis and Michael Henretty and M. Kohler and Josh Meyer and Reuben Morais and Lindsay Saunders and Francis M. Tyers and Gregor Weber},\n booktitle = {International Conference on Language Resources and Evaluation},\n journal = {ArXiv},\n title = {Common Voice: A Massively-Multilingual Speech Corpus},\n volume = {abs/1912.06670},\n year = {2019}\n}\n"
     }
 }

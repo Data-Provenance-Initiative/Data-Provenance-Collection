@@ -57,6 +57,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Sharma2020DeepMF,\n author = {Vivek Sharma and Makarand Tapaswi and R. Stiefelhagen},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Deep Multimodal Feature Encoding for Video Ordering},\n volume = {abs/2004.02205},\n year = {2020}\n}\n"
     }
 }

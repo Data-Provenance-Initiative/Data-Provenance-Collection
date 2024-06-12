@@ -53,6 +53,7 @@
             "PwC License URL": "https://docs.google.com/forms/d/e/1FAIpQLScytuCn4kRBKFPPei0t01Sfadpu8Qh5i9fFvfODWAAJGyEs7g/viewform",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Vicol2017MovieGraphsTU,\n author = {Paul Vicol and Makarand Tapaswi and Lluís Castrejón and S. Fidler},\n booktitle = {2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n journal = {2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n pages = {8581-8590},\n title = {MovieGraphs: Towards Understanding Human-Centric Situations from Videos},\n year = {2017}\n}\n"
     }
 }

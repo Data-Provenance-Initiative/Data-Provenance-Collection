@@ -73,6 +73,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Monfort2021SpokenML,\n author = {Mathew Monfort and SouYoung Jin},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {14866-14876},\n title = {Spoken Moments: Learning Joint Audio-Visual Representations from Video Descriptions},\n year = {2021}\n}\n"
     }
 }

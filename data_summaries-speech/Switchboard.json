@@ -144,6 +144,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Godfrey1992SWITCHBOARDTS,\n author = {J. Godfrey and E. Holliman and J. McDaniel},\n booktitle = {IEEE International Conference on Acoustics, Speech, and Signal Processing},\n journal = {[Proceedings] ICASSP-92: 1992 IEEE International Conference on Acoustics, Speech, and Signal Processing},\n pages = {517-520 vol.1},\n title = {SWITCHBOARD: telephone speech corpus for research and development},\n volume = {1},\n year = {1992}\n}\n"
     }
 }

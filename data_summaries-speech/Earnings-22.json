@@ -74,6 +74,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Rio2022Earnings22AP,\n author = {Miguel Rio and Peter Ha and Quinten McNamara and Corey Miller and Shipra Chandra},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Earnings-22: A Practical Benchmark for Accents in the Wild},\n volume = {abs/2203.15591},\n year = {2022}\n}\n"
     }
 }
