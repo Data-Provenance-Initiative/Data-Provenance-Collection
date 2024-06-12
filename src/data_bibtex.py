@@ -8,6 +8,48 @@ from helpers import io
 from glob import glob
 
 
+def scan_empty_bibtex(
+        collection: str,
+        data_dir: str = 'data_summaries',
+):
+    """
+    Scan all data collections for datasets with empty BibTeX entries.
+    """
+    all_successful = True
+    collection_filepath = os.path.join(data_dir, f"{collection}.json")
+    assert os.path.exists(collection_filepath), f"There is no collection file at {collection_filepath}"
+    collection_info = io.read_json(collection_filepath)
+
+    for dataset_uid, dataset_info in collection_info.items():
+        if 'Bibtex' in dataset_info and len(dataset_info['Bibtex']) == 0:
+            print(f"Empty BibTeX entry for dataset {dataset_uid}")
+            dataset_info.pop('Bibtex', None)
+            corpus_id = dataset_info.get('Semantic Scholar Corpus ID')
+            print(
+                f"Generating BibTeX for {dataset_uid} (Corpus ID: {corpus_id})"
+                if corpus_id
+                else f"Generating BibTeX for {dataset_uid}"
+            )
+            if isinstance(corpus_id, str) and len(corpus_id) == 0:
+                print(f"No Semantic Scholar Corpus ID found for {dataset_uid}")
+                dataset_info['Bibtex'] = ""
+                continue
+            try:
+                bibtex = io.get_bibtex_from_paper("CorpusId:{}".format(corpus_id))
+                dataset_info['Bibtex'] = bibtex
+            except Exception as e:
+                all_successful = False
+                print(f"Error generating BibTeX for {dataset_uid}: {e}")
+                dataset_info['Bibtex'] = ""
+
+    io.write_json(collection_info, collection_filepath)
+
+    if all_successful:
+        return "All BibTeX entries have been successfully generated."
+    else:
+        return f"Some BibTeX entries could not be generated for {collection}."
+
+
 def generate_bibtex(
         collection: Union[str, pd.DataFrame],
         data_dir: str = 'data_summaries',
@@ -49,7 +91,7 @@ def generate_bibtex(
             corpus_id = dataset_info.get('Semantic Scholar Corpus ID')
             print(f"Generating BibTeX for {dataset_uid} (Corpus ID: {corpus_id})" if corpus_id else f"Generating BibTeX for {dataset_uid}")
 
-            if isinstance(corpus_id, str):
+            if isinstance(corpus_id, str) and len(corpus_id) == 0:
                 print(f"No Semantic Scholar Corpus ID found for {dataset_uid}")
                 dataset_info['Bibtex'] = ""
                 continue
@@ -114,6 +156,10 @@ if __name__ == '__main__':
         '--overwrite',
         action='store_true',
         help='Overwrite existing BibTeX entries')
+    parser.add_argument(
+        '--check_existing',
+        action='store_true',
+        help='Check for empty BibTeX entries and regenerate them')
     args = parser.parse_args()
     DEFAULT_DATA_DIR = ['data_summaries', 'data_summaries-speech', 'data_summaries-video']
 
@@ -128,7 +174,12 @@ if __name__ == '__main__':
         collections = [os.path.splitext(os.path.basename(x))[0] for x in glob(f"{args.data_dir}/*.json")]
 
     for collection in tqdm(list(collections)):
-        print(f"Generating bibtex for {collection} collection")
-        result = generate_bibtex(collection, args.data_dir)
-        print(result)
+        if args.check_existing:
+            print(f"Checking for empty BibTeX entries in {collection} collection")
+            result = scan_empty_bibtex(collection, args.data_dir)
+            print(result)
+        else:
+            print(f"Generating bibtex for {collection} collection")
+            result = generate_bibtex(collection, args.data_dir)
+            print(result)
 

@@ -57,7 +57,6 @@
         "Dataset Filter IDs": [
             "opengpt-nhs-qa"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 316,
@@ -98,7 +97,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "opengpt-nhs-conversations": {
         "Unique Dataset Identifier": "opengpt-nhs-conversations",
@@ -159,7 +159,6 @@
         "Dataset Filter IDs": [
             "opengpt-nhs-conversations"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 316,
@@ -200,7 +199,8 @@
             "Min Dialog Turns": 4,
             "Max Dialog Turns": 20,
             "Mean Dialog Turns": 10.5025
-        }
+        },
+        "Bibtex": ""
     },
     "opengpt-med-tasks": {
         "Unique Dataset Identifier": "opengpt-med-tasks",
@@ -266,7 +266,6 @@
         "Dataset Filter IDs": [
             "opengpt-med-tasks"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 316,
@@ -307,6 +306,7 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     }
 }

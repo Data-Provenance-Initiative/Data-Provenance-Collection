@@ -48,7 +48,6 @@
         "Dataset Filter IDs": [
             "bhinneka_korpus"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 1,
@@ -79,7 +78,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Lopo2024ConstructingAE,\n author = {Joanito Agili Lopo and Radius Tanone},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Constructing and Expanding Low-Resource and Underrepresented Parallel Datasets for Indonesian Local Languages},\n volume = {abs/2404.01009},\n year = {2024}\n}\n"
     },
     "seacrowd-cebuaner": {
         "Unique Dataset Identifier": "seacrowd-cebuaner",
@@ -126,7 +126,6 @@
         "Dataset Filter IDs": [
             "cebuaner"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": 3,
@@ -157,7 +156,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Pilar2023CebuaNERAN,\n author = {Ma. Beatrice Emanuela Pilar and Ellyza Mari Papas and Mary Loise Buenaventura and Dane Dedoroy and M. D. Montefalcon and Jay Rhald Padilla and Lany L. Maceda and Mideth B. Abisado and Joseph Marvin Imperial},\n booktitle = {Pacific Asia Conference on Language, Information and Computation},\n journal = {ArXiv},\n title = {CebuaNER: A New Baseline Cebuano Named Entity Recognition Model},\n volume = {abs/2310.00679},\n year = {2023}\n}\n"
     },
     "seacrowd-emotes_3k": {
         "Unique Dataset Identifier": "seacrowd-emotes_3k",
@@ -206,7 +206,6 @@
         "Dataset Filter IDs": [
             "emotes_3k"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -237,7 +236,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Inproceedings{Catapang2023EmotionbasedMI,\n author = {Jasper Kyle Catapang and Moses Visperas},\n booktitle = {NLP4DH},\n title = {Emotion-based Morality in Tagalog and English Scenarios (EMoTES-3K): A Parallel Corpus for Explaining (Im)morality of Actions},\n year = {2023}\n}\n"
     },
     "seacrowd-fakenews_ph": {
         "Unique Dataset Identifier": "seacrowd-fakenews_ph",
@@ -280,7 +280,6 @@
         "Dataset Filter IDs": [
             "fakenews_ph"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "GNU General Public License v3.0",
             "GitHub Stars (May 2024)": 13,
@@ -321,7 +320,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Cruz2019LocalizationOF,\n author = {Jan Christian Blaise Cruz and C. Cheng},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {2596-2604},\n title = {Localization of Fake News Detection via Multitask Transfer Learning},\n year = {2019}\n}\n"
     },
     "seacrowd-filipino_hatespeech_tiktok": {
         "Unique Dataset Identifier": "seacrowd-filipino_hatespeech_tiktok",
@@ -364,7 +364,6 @@
         "Dataset Filter IDs": [
             "filipino_hatespeech_tiktok"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": 0,
@@ -402,7 +401,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "seacrowd-filipino_slang_norm": {
         "Unique Dataset Identifier": "seacrowd-filipino_slang_norm",
@@ -445,7 +445,6 @@
         "Dataset Filter IDs": [
             "filipino_slang_norm"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": 2,
@@ -476,7 +475,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Flores2022LookMO,\n author = {Lorenzo Jaime Yu Flores},\n booktitle = {SUSTAINLP},\n journal = {ArXiv},\n title = {Look Ma, Only 400 Samples! Revisiting the Effectiveness of Automatic N-Gram Rule Generation for Spelling Normalization in Filipino},\n volume = {abs/2210.02675},\n year = {2022}\n}\n"
     },
     "seacrowd-id_vaccines_tweet": {
         "Unique Dataset Identifier": "seacrowd-id_vaccines_tweet",
@@ -520,7 +520,6 @@
         "Dataset Filter IDs": [
             "id_vaccines_tweet"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": 0,
@@ -551,7 +550,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "seacrowd-identifikasi_bahasa": {
         "Unique Dataset Identifier": "seacrowd-identifikasi_bahasa",
@@ -600,7 +600,6 @@
         "Dataset Filter IDs": [
             "identifikasi_bahasa"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 0,
@@ -631,7 +630,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "seacrowd-indoner_tourism": {
         "Unique Dataset Identifier": "seacrowd-indoner_tourism",
@@ -676,7 +676,6 @@
         "Dataset Filter IDs": [
             "indoner_tourism"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": 0,
@@ -707,7 +706,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "seacrowd-indonesia_chinese_mtrobusteval": {
         "Unique Dataset Identifier": "seacrowd-indonesia_chinese_mtrobusteval",
@@ -752,7 +752,6 @@
         "Dataset Filter IDs": [
             "indonesia_chinese_mtrobusteval"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "MIT License",
             "GitHub Stars (May 2024)": 0,
@@ -783,7 +782,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "seacrowd-limesoda": {
         "Unique Dataset Identifier": "seacrowd-limesoda",
@@ -831,7 +831,6 @@
         "Dataset Filter IDs": [
             "limesoda"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "CC BY 4.0",
             "GitHub Stars (May 2024)": 11,
@@ -862,7 +861,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "seacrowd-mabl": {
         "Unique Dataset Identifier": "seacrowd-mabl",
@@ -929,7 +929,6 @@
         "Dataset Filter IDs": [
             "mabl"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "MIT License",
             "GitHub Stars (May 2024)": 1,
@@ -960,7 +959,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Kabra2023MultilingualAM,\n author = {Anubha Kabra and Emmy Liu and Simran Khanuja and Alham Fikri Aji and Genta Indra Winata and Samuel Cahyawijaya and Anuoluwapo Aremu and Perez Ogayo and Graham Neubig},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n pages = {8269-8284},\n title = {Multi-lingual and Multi-cultural Figurative Language Understanding},\n year = {2023}\n}\n"
     },
     "seacrowd-mkqa": {
         "Unique Dataset Identifier": "seacrowd-mkqa",
@@ -1030,7 +1030,6 @@
         "Dataset Filter IDs": [
             "mkqa"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 151,
@@ -1065,7 +1064,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Longpre2020MKQAAL,\n author = {S. Longpre and Yi Lu and Joachim Daiber},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {1389-1406},\n title = {MKQA: A Linguistically Diverse Benchmark for Multilingual Open Domain Question Answering},\n volume = {9},\n year = {2020}\n}\n"
     },
     "seacrowd-id_sent_emo_mobile_apps": {
         "Unique Dataset Identifier": "seacrowd-id_sent_emo_mobile_apps",
@@ -1110,7 +1110,6 @@
         "Dataset Filter IDs": [
             "id_sent_emo_mobile_apps"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": 1,
@@ -1141,7 +1140,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "seacrowd-burmese_romanize": {
         "Unique Dataset Identifier": "seacrowd-burmese_romanize",
@@ -1187,7 +1187,6 @@
         "Dataset Filter IDs": [
             "burmese_romanize"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -1218,7 +1217,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Inproceedings{Chenchen2017StatisticalRF,\n author = {Ding Chenchen and Chea Vichet and P. Pa and Utiyama Masao and Sumita Eiichiro},\n pages = {7},\n title = {Statistical Romanization for Abugida Scripts: Data and Experiment on Khmer and Burmese},\n year = {2017}\n}\n"
     },
     "seacrowd-ntrex_128": {
         "Unique Dataset Identifier": "seacrowd-ntrex_128",
@@ -1383,7 +1383,6 @@
         "Dataset Filter IDs": [
             "ntrex_128"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "CC BY-SA 4.0",
             "GitHub Stars (May 2024)": 67,
@@ -1414,7 +1413,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Inproceedings{Federmann2022NTREX128N,\n author = {C. Federmann and Tom Kocmi and Ying Xin},\n booktitle = {SUMEVAL},\n title = {NTREX-128 – News Test References for MT Evaluation of 128 Languages},\n year = {2022}\n}\n"
     },
     "seacrowd-spamid_pair": {
         "Unique Dataset Identifier": "seacrowd-spamid_pair",
@@ -1460,7 +1460,6 @@
         "Dataset Filter IDs": [
             "spamid_pair"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -1491,7 +1490,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "seacrowd-tgl_profanity": {
         "Unique Dataset Identifier": "seacrowd-tgl_profanity",
@@ -1534,7 +1534,6 @@
         "Dataset Filter IDs": [
             "tgl_profanity"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -1565,7 +1564,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "seacrowd-thai_depression": {
         "Unique Dataset Identifier": "seacrowd-thai_depression",
@@ -1610,7 +1610,6 @@
         "Dataset Filter IDs": [
             "thai_depression"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -1641,7 +1640,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Hämäläinen2021DetectingDI,\n author = {Mika Hämäläinen and P. Patpong and Khalid Alnajjar and N. Partanen and Jack Rueter},\n booktitle = {WNUT},\n journal = {ArXiv},\n title = {Detecting Depression in Thai Blog Posts: a Dataset and a Baseline},\n volume = {abs/2111.04574},\n year = {2021}\n}\n"
     },
     "seacrowd-thai_toxicity_tweet": {
         "Unique Dataset Identifier": "seacrowd-thai_toxicity_tweet",
@@ -1684,7 +1684,6 @@
         "Dataset Filter IDs": [
             "thai_toxicity_tweet"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": 9,
@@ -1715,7 +1714,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Inproceedings{Sirihattasak2018AnnotationAC,\n author = {Sugan Sirihattasak and Mamoru Komachi and H. Ishikawa},\n title = {Annotation and Classification of Toxicity for Thai Twitter},\n year = {2018}\n}\n"
     },
     "seacrowd-typhoon_yolanda_tweets": {
         "Unique Dataset Identifier": "seacrowd-typhoon_yolanda_tweets",
@@ -1758,7 +1758,6 @@
         "Dataset Filter IDs": [
             "typhoon_yolanda_tweets"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": 7,
@@ -1789,7 +1788,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Imperial2019SentimentAO,\n author = {Joseph Marvin Imperial and Jeyrome Orosco and Shiela Mae Mazo and Lany L. Maceda},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Sentiment Analysis of Typhoon Related Tweets using Standard and Bidirectional Recurrent Neural Networks},\n volume = {abs/1908.01765},\n year = {2019}\n}\n"
     },
     "seacrowd-uit_victsd": {
         "Unique Dataset Identifier": "seacrowd-uit_victsd",
@@ -1833,7 +1833,6 @@
         "Dataset Filter IDs": [
             "uit_victsd"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": 0,
@@ -1864,7 +1863,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Nguyen2021ConstructiveAT,\n author = {Luan Thanh Nguyen and Kiet Van Nguyen and Kiet Van Nguyen and N. Nguyen},\n booktitle = {International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems},\n pages = {572-583},\n title = {Constructive and Toxic Speech Detection for Open-domain Social Media Comments in Vietnamese},\n year = {2021}\n}\n"
     },
     "seacrowd-uit_viocd": {
         "Unique Dataset Identifier": "seacrowd-uit_viocd",
@@ -1908,7 +1908,6 @@
         "Dataset Filter IDs": [
             "uit_viocd"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -1939,7 +1938,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Nguyen2021VietnameseCD,\n author = {N. Nguyen and Phuong Phan-Dieu Ha and Luan Thanh Nguyen and Kiet Van Nguyen and N. Nguyen},\n booktitle = {New Trends in Software Methodologies, Tools and Techniques},\n pages = {618-629},\n title = {Vietnamese Complaint Detection on E-Commerce Websites},\n year = {2021}\n}\n"
     },
     "seacrowd-uit_vsmec": {
         "Unique Dataset Identifier": "seacrowd-uit_vsmec",
@@ -1983,7 +1983,6 @@
         "Dataset Filter IDs": [
             "uit_vsmec"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "MIT License",
             "GitHub Stars (May 2024)": 4,
@@ -2021,7 +2020,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Ho2019EmotionRF,\n author = {Vong Anh Ho and Duong Nguyen and D. H. Nguyen and L. T. Pham and Duc-Vu Nguyen and Kiet Van Nguyen and Kiet Van Nguyen and N. Nguyen},\n booktitle = {International Conference of the Pacific Association for Computaitonal Linguistics},\n journal = {ArXiv},\n title = {Emotion Recognition for Vietnamese Social Media Text},\n volume = {abs/1911.09339},\n year = {2019}\n}\n"
     },
     "seacrowd-vihealthqa": {
         "Unique Dataset Identifier": "seacrowd-vihealthqa",
@@ -2066,7 +2066,6 @@
         "Dataset Filter IDs": [
             "vihealthqa"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -2097,7 +2096,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Nguyen2022SPBERTQAAT,\n author = {N. T. Nguyen and Phuong Phan-Dieu Ha and Luan Thanh Nguyen and Kiet Van Nguyen and N. Nguyen},\n booktitle = {Knowledge Science, Engineering and Management},\n pages = {371-382},\n title = {SPBERTQA: A Two-Stage Question Answering System Based on Sentence Transformers for Medical Texts},\n year = {2022}\n}\n"
     },
     "seacrowd-wisesight_thai_sentiment": {
         "Unique Dataset Identifier": "seacrowd-wisesight_thai_sentiment",
@@ -2146,7 +2146,6 @@
         "Dataset Filter IDs": [
             "wisesight_thai_sentiment"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "CC0 1.0",
             "GitHub Stars (May 2024)": 74,
@@ -2177,7 +2176,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "seacrowd-wongnai_reviews": {
         "Unique Dataset Identifier": "seacrowd-wongnai_reviews",
@@ -2223,7 +2223,6 @@
         "Dataset Filter IDs": [
             "wongnai_reviews"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "LGPL 3.0",
             "GitHub Stars (May 2024)": 73,
@@ -2259,7 +2258,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "seacrowd-xnli": {
         "Unique Dataset Identifier": "seacrowd-xnli",
@@ -2319,7 +2319,6 @@
         "Dataset Filter IDs": [
             "xnli"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": 434,
@@ -2350,7 +2349,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Conneau2018XNLIEC,\n author = {Alexis Conneau and Guillaume Lample and Ruty Rinott and Adina Williams and Samuel R. Bowman and Holger Schwenk and Veselin Stoyanov},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {2475-2485},\n title = {XNLI: Evaluating Cross-lingual Sentence Representations},\n year = {2018}\n}\n"
     },
     "seacrowd-xstorycloze": {
         "Unique Dataset Identifier": "seacrowd-xstorycloze",
@@ -2406,7 +2406,6 @@
         "Dataset Filter IDs": [
             "xstorycloze"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -2437,6 +2436,7 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Lin2021FewshotLW,\n author = {Xi Victoria Lin and Todor Mihaylov and Mikel Artetxe and Tianlu Wang and Shuohui Chen and Daniel Simig and Myle Ott and Naman Goyal and Shruti Bhosale and Jingfei Du and Ramakanth Pasunuru and Sam Shleifer and Punit Singh Koura and Vishrav Chaudhary and Brian O'Horo and Jeff Wang and Luke Zettlemoyer and Zornitsa Kozareva and Mona T. Diab and Ves Stoyanov and Xian Li},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {9019-9052},\n title = {Few-shot Learning with Multilingual Generative Language Models},\n year = {2021}\n}\n"
     }
 }
