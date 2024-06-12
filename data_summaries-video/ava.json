@@ -51,6 +51,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Gu2017AVAAV,\n author = {Chunhui Gu and Chen Sun and Sudheendra Vijayanarasimhan and C. Pantofaru and David A. Ross and G. Toderici and Yeqing Li and Susanna Ricco and R. Sukthankar and C. Schmid and J. Malik},\n booktitle = {2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n journal = {2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n pages = {6047-6056},\n title = {AVA: A Video Dataset of Spatio-Temporally Localized Atomic Visual Actions},\n year = {2017}\n}\n"
     }
 }

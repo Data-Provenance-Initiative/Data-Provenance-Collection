@@ -74,6 +74,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Li2017FreeLA,\n author = {Guanyu Li and Hongzhi Yu and T. Zheng and Jinghao Yan and Shipeng Xu},\n booktitle = {Asia-Pacific Signal and Information Processing Association Annual Summit and Conference},\n journal = {2017 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)},\n pages = {733-736},\n title = {Free linguistic and speech resources for Tibetan},\n year = {2017}\n}\n"
     }
 }

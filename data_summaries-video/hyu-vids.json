@@ -57,6 +57,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Diba2019HolisticLS,\n author = {Ali Diba and Mohsen Fayyaz and Vivek Sharma and Manohar Paluri and Juergen Gall and R. Stiefelhagen and L. Gool},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Holistic Large Scale Video Understanding},\n volume = {abs/1904.11451},\n year = {2019}\n}\n"
     }
 }

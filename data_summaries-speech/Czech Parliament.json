@@ -70,6 +70,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Bojar2020LargeCO,\n author = {Ondrej Bojar and J. Kratochvíl and Peter Polák},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {6363-6367},\n title = {Large Corpus of Czech Parliament Plenary Hearings},\n year = {2020}\n}\n"
     }
 }

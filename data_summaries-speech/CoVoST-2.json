@@ -137,6 +137,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Wang2020CoVoST2A,\n author = {Changhan Wang and Anne Wu and J. Pino},\n journal = {arXiv: Computation and Language},\n title = {CoVoST 2 and Massively Multilingual Speech-to-Text Translation},\n year = {2020}\n}\n"
     }
 }

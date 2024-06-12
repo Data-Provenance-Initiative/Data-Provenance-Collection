@@ -71,6 +71,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Monfort2018MomentsIT,\n author = {Mathew Monfort and Bolei Zhou and Sarah Adel Bargal and A. Andonian and Tom Yan and K. Ramakrishnan and L. Brown and Quanfu Fan and Dan Gutfreund and Carl Vondrick and A. Oliva},\n booktitle = {IEEE Transactions on Pattern Analysis and Machine Intelligence},\n journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},\n pages = {502-508},\n title = {Moments in Time Dataset: One Million Videos for Event Understanding},\n volume = {42},\n year = {2018}\n}\n"
     }
 }

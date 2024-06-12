@@ -86,6 +86,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Nguyen2022AHA,\n author = {L. T. Nguyen and Nguyen Luong Tran and Long Doan and Manh Luong and Dat Quoc Nguyen},\n booktitle = {Interspeech},\n pages = {1726-1730},\n title = {A High-Quality and Large-Scale Dataset for English-Vietnamese Speech Translation},\n year = {2022}\n}\n"
     }
 }

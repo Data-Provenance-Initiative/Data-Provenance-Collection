@@ -102,6 +102,7 @@
             "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Kolobov2021MediaSpeechMA,\n author = {Rostislav Kolobov and Olga Okhapkina and Olga Omelchishina and A. Platunov and Roman Bedyakin and V. Moshkin and Dmitry Menshikov and N. Mikhaylovskiy},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MediaSpeech: Multilanguage ASR Benchmark and Dataset},\n volume = {abs/2103.16193},\n year = {2021}\n}\n"
     }
 }

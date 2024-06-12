@@ -5,13 +5,19 @@ from tqdm import tqdm
 from typing import Union
 from collection_mapper import COLLECTION_FN_MAPPER
 from helpers import io
+from glob import glob
 
 
-def generate_bibtex(collection: Union[str, pd.DataFrame], save_to_file: bool = False, output_dir: str = None):
+def generate_bibtex(
+        collection: Union[str, pd.DataFrame],
+        data_dir: str = 'data_summaries',
+        save_to_file: bool = False,
+        output_dir: str = None,
+        overwrite: bool = False,
+):
     """
     Generate BibTeX citations for all datasets in a collection.
     """
-    DATA_DIR = 'data_summaries'
     bibtex_entries = ""
     all_successful = True
     if isinstance(collection, pd.DataFrame):
@@ -22,21 +28,26 @@ def generate_bibtex(collection: Union[str, pd.DataFrame], save_to_file: bool = F
                     bibtex_entries += str(row['Bibtex']) + '\n\n'
     else:
         # Open data collection metadata file
-        collection_filepath = os.path.join(DATA_DIR, f"{collection}.json")
+        collection_filepath = os.path.join(data_dir, f"{collection}.json")
         assert os.path.exists(collection_filepath), f"There is no collection file at {collection_filepath}"
         collection_info = io.read_json(collection_filepath)
 
         for dataset_uid, dataset_info in collection_info.items():
-            if 'Bibtex' in dataset_info:
-                if save_to_file:
-                    # Use existing BibTeX entry if available
-                    bibtex_entries += dataset_info['Bibtex'] + '\n\n'
-                    continue
-                else:
-                    print(f"Skipping {dataset_uid} as it already has a BibTeX citation")
-                    continue
+            if overwrite:
+                print(f"Overwriting BibTeX for {dataset_uid}")
+                dataset_info.pop('Bibtex', None)
+            else:
+                if 'Bibtex' in dataset_info:
+                    if save_to_file:
+                        # Use existing BibTeX entry if available
+                        bibtex_entries += dataset_info['Bibtex'] + '\n\n'
+                        continue
+                    else:
+                        print(f"Skipping {dataset_uid} as it already has a BibTeX citation")
+                        continue
 
             corpus_id = dataset_info.get('Semantic Scholar Corpus ID')
+            print(f"Generating BibTeX for {dataset_uid} (Corpus ID: {corpus_id})" if corpus_id else f"Generating BibTeX for {dataset_uid}")
 
             if isinstance(corpus_id, str):
                 print(f"No Semantic Scholar Corpus ID found for {dataset_uid}")
@@ -64,7 +75,7 @@ def generate_bibtex(collection: Union[str, pd.DataFrame], save_to_file: bool = F
         io.write_bib(bibtex_entries, append=False, save_dir=output_path)
 
     if isinstance(collection, pd.DataFrame) or all_successful:
-        return f"Successfully generated BibTeX citations."
+        return f"Successfully generated BibTeX citations for {collection} collection."
     else:
         return f"BibTeX citations were not generated for all datasets."
 
@@ -82,14 +93,42 @@ if __name__ == '__main__':
         type=str,
         required=False,
         default=None,
-        choices=list(COLLECTION_FN_MAPPER.keys()) + [None],
         help='Name of the collection to generate bibtex for')
+    parser.add_argument(
+        '--data_dir',
+        type=str,
+        required=False,
+        default='data_summaries',
+        help='Directory containing the collection metadata files')
+    parser.add_argument(
+        '--save_to_file',
+        action='store_true',
+        help='Save the BibTeX entries to a file')
+    parser.add_argument(
+        '--output_dir',
+        type=str,
+        required=False,
+        default=None,
+        help='Directory to save the BibTeX file')
+    parser.add_argument(
+        '--overwrite',
+        action='store_true',
+        help='Overwrite existing BibTeX entries')
     args = parser.parse_args()
-    collections = [args.collection]
-    collections = COLLECTION_FN_MAPPER.keys() if args.collection is None else [args.collection]
+    DEFAULT_DATA_DIR = ['data_summaries', 'data_summaries-speech', 'data_summaries-video']
+
+    if args.collection:
+        assert args.data_dir, "Please provide the data directory"
+        all_collections = [os.path.basename(x).split('.')[0] for x in glob(f"{args.data_dir}/*.json")]
+        assert args.collection in all_collections, \
+            f"Invalid collection. Change current data directory '{args.data_dir}' or choose from {all_collections}"
+        collections = [args.collection]
+    else:
+        assert args.data_dir in DEFAULT_DATA_DIR, f"Invalid data directory. Choose from {DEFAULT_DATA_DIR}"
+        collections = [os.path.splitext(os.path.basename(x))[0] for x in glob(f"{args.data_dir}/*.json")]
 
     for collection in tqdm(list(collections)):
         print(f"Generating bibtex for {collection} collection")
-        result = generate_bibtex(collection)
+        result = generate_bibtex(collection, args.data_dir)
         print(result)
 

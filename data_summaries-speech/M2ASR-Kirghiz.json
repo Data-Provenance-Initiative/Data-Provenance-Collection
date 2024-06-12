@@ -74,6 +74,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Mamtimin2023M2ASRKIRGHIZAF,\n author = {Ikram Mamtimin and Wenqiang Du and A. Hamdulla},\n booktitle = {Inf.},\n journal = {Inf.},\n pages = {55},\n title = {M2ASR-KIRGHIZ: A Free Kirghiz Speech Database and Accompanied Baselines},\n volume = {14},\n year = {2023}\n}\n"
     }
 }

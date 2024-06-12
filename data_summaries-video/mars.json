@@ -54,6 +54,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Zheng2016MARSAV,\n author = {Liang Zheng and Zhi Bie and Yifan Sun and Jingdong Wang and Chi Su and Shengjin Wang and Q. Tian},\n booktitle = {European Conference on Computer Vision},\n pages = {868-884},\n title = {MARS: A Video Benchmark for Large-Scale Person Re-Identification},\n year = {2016}\n}\n"
     }
 }

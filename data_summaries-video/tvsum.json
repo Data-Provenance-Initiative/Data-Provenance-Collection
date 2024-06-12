@@ -51,6 +51,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Song2015TVSumSW,\n author = {Yale Song and Jordi Vallmitjana and Amanda Stent and A. Jaimes},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {5179-5187},\n title = {TVSum: Summarizing web videos using titles},\n year = {2015}\n}\n"
     }
 }

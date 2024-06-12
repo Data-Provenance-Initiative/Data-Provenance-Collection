@@ -76,6 +76,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Shi2021HighlandPN,\n author = {Jiatong Shi and Jonathan D. Amith and Xuankai Chang and Siddharth Dalmia and Brian Yan and Shinji Watanabe},\n booktitle = {AMERICASNLP},\n journal = {Proceedings of the First Workshop on Natural Language Processing for Indigenous Languages of the Americas},\n title = {Highland Puebla Nahuatl Speech Translation Corpus for Endangered Language Documentation},\n year = {2021}\n}\n"
     }
 }
