@@ -223,6 +223,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Leong2022BloomLM,\n author = {Colin Leong and Joshua Nemecek and Jacob Mansdorfer and Anna Filighera and A. Owodunni and Daniel Whitenack},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {Bloom Library: Multimodal Datasets in 300+ Languages for a Variety of Downstream Tasks},\n volume = {abs/2210.14712},\n year = {2022}\n}\n"
     }
 }

@@ -83,6 +83,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Rozi2015AnOD,\n author = {Askar Rozi and Dong Wang and Zhiyong Zhang and T. Zheng},\n booktitle = {International Conference Oriental COCOSDA held jointly with Conference on Asian Spoken Language Research and Evaluation},\n journal = {2015 International Conference Oriental COCOSDA held jointly with 2015 Conference on Asian Spoken Language Research and Evaluation (O-COCOSDA/CASLRE)},\n pages = {81-85},\n title = {An open/free database and Benchmark for Uyghur speaker recognition},\n year = {2015}\n}\n"
     }
 }

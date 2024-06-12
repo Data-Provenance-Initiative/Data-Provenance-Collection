@@ -189,6 +189,7 @@
             "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Panayotov2015LibrispeechAA,\n author = {Vassil Panayotov and Guoguo Chen and Daniel Povey and S. Khudanpur},\n booktitle = {IEEE International Conference on Acoustics, Speech, and Signal Processing},\n journal = {2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},\n pages = {5206-5210},\n title = {Librispeech: An ASR corpus based on public domain audio books},\n year = {2015}\n}\n"
     }
 }

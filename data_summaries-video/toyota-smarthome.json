@@ -51,6 +51,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Das2019ToyotaSR,\n author = {Srijan Das and Rui Dai and Michal Koperski and Luca Minciullo and L. Garattoni and F. Brémond and G. Francesca},\n booktitle = {IEEE International Conference on Computer Vision},\n journal = {2019 IEEE/CVF International Conference on Computer Vision (ICCV)},\n pages = {833-842},\n title = {Toyota Smarthome: Real-World Activities of Daily Living},\n year = {2019}\n}\n"
     }
 }

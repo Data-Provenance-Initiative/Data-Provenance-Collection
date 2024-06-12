@@ -110,6 +110,6 @@
         },
         "Human Annotation": "No",
         "Derived from Datasets": [],
-        "Bibtex": ""
+        "Bibtex": "@Article{Patil2023GorillaLL,\n author = {Shishir G. Patil and Tianjun Zhang and Xin Wang and Joseph E. Gonzalez},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Gorilla: Large Language Model Connected with Massive APIs},\n volume = {abs/2305.15334},\n year = {2023}\n}\n"
     }
 }

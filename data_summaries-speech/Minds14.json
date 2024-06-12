@@ -116,6 +116,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Gerz2021MultilingualAC,\n author = {D. Gerz and Pei-hao Su and Razvan Kusztos and Avishek Mondal and M. Lis and Eshan Singhal and N. Mrksic and Tsung-Hsien Wen and Ivan Vulic},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {Multilingual and Cross-Lingual Intent Detection from Spoken Data},\n volume = {abs/2104.08524},\n year = {2021}\n}\n"
     }
 }

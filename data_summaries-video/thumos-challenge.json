@@ -55,6 +55,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Misc{None,\n author = {Haroon Idrees and Amir Zamir and Yu-Gang Jiang and Alexander N. Gorban and I. Laptev and R. Sukthankar and M. Shah},\n title = {Computer Vision and Image Understanding}\n}\n"
     }
 }

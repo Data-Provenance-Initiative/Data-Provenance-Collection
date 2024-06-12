@@ -364,7 +364,7 @@
         "Derived from Datasets": [
             "Flan Collection"
         ],
-        "Bibtex": ""
+        "Bibtex": "@Article{Longpre2023TheFC,\n author = {S. Longpre and Le Hou and Tu Vu and Albert Webson and Hyung Won Chung and Yi Tay and Denny Zhou and Quoc V. Le and Barret Zoph and Jason Wei and Adam Roberts},\n booktitle = {International Conference on Machine Learning},\n pages = {22631-22648},\n title = {The Flan Collection: Designing Data and Methods for Effective Instruction Tuning},\n year = {2023}\n}\n"
     },
     "open-orca-t0": {
         "Unique Dataset Identifier": "open-orca-t0",
@@ -490,7 +490,7 @@
         "Derived from Datasets": [
             "Flan Collection"
         ],
-        "Bibtex": ""
+        "Bibtex": "@Article{Longpre2023TheFC,\n author = {S. Longpre and Le Hou and Tu Vu and Albert Webson and Hyung Won Chung and Yi Tay and Denny Zhou and Quoc V. Le and Barret Zoph and Jason Wei and Adam Roberts},\n booktitle = {International Conference on Machine Learning},\n pages = {22631-22648},\n title = {The Flan Collection: Designing Data and Methods for Effective Instruction Tuning},\n year = {2023}\n}\n"
     },
     "open-orca-cot": {
         "Unique Dataset Identifier": "open-orca-cot",
@@ -610,7 +610,7 @@
         "Derived from Datasets": [
             "Flan Collection"
         ],
-        "Bibtex": ""
+        "Bibtex": "@Article{Longpre2023TheFC,\n author = {S. Longpre and Le Hou and Tu Vu and Albert Webson and Hyung Won Chung and Yi Tay and Denny Zhou and Quoc V. Le and Barret Zoph and Jason Wei and Adam Roberts},\n booktitle = {International Conference on Machine Learning},\n pages = {22631-22648},\n title = {The Flan Collection: Designing Data and Methods for Effective Instruction Tuning},\n year = {2023}\n}\n"
     },
     "open-orca-flan": {
         "Unique Dataset Identifier": "open-orca-flan",
@@ -787,6 +787,6 @@
         "Derived from Datasets": [
             "Flan Collection"
         ],
-        "Bibtex": ""
+        "Bibtex": "@Article{Longpre2023TheFC,\n author = {S. Longpre and Le Hou and Tu Vu and Albert Webson and Hyung Won Chung and Yi Tay and Denny Zhou and Quoc V. Le and Barret Zoph and Jason Wei and Adam Roberts},\n booktitle = {International Conference on Machine Learning},\n pages = {22631-22648},\n title = {The Flan Collection: Designing Data and Methods for Effective Instruction Tuning},\n year = {2023}\n}\n"
     }
 }

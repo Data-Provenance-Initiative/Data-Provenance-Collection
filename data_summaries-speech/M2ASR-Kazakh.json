@@ -75,6 +75,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Shi2017AFK,\n author = {Ying Shi and Askar Hamdullah and Zhiyuan Tang and Dong Wang and T. Zheng},\n booktitle = {Asia-Pacific Signal and Information Processing Association Annual Summit and Conference},\n journal = {2017 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)},\n pages = {745-748},\n title = {A free Kazakh speech database and a speech recognition baseline},\n year = {2017}\n}\n"
     }
 }

@@ -128,6 +128,7 @@
             "PwC License URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Gangi2019MuSTCAM,\n author = {Mattia Antonino Di Gangi and R. Cattoni and L. Bentivogli and Matteo Negri and Marco Turchi},\n booktitle = {North American Chapter of the Association for Computational Linguistics},\n pages = {2012-2017},\n title = {MuST-C: a Multilingual Speech Translation Corpus},\n year = {2019}\n}\n"
     }
 }

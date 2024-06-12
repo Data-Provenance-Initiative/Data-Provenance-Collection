@@ -51,7 +51,6 @@
         "Dataset Filter IDs": [
             "selfee"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 218,
@@ -82,6 +81,7 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     }
 }
