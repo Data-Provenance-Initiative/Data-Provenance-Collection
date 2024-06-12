@@ -49,7 +49,6 @@
         "Dataset Filter IDs": [
             "feedback_collection"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "MIT License",
             "GitHub Stars (May 2024)": 251,
@@ -68,6 +67,7 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": ""
     }
 }

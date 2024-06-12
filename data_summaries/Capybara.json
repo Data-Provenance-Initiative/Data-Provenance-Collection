@@ -56,7 +56,6 @@
         "Dataset Filter IDs": [
             "Dove"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -87,7 +86,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 34,
             "Mean Dialog Turns": 3.683
-        }
+        },
+        "Bibtex": ""
     },
     "capybara-Airoboros": {
         "Unique Dataset Identifier": "capybara-Airoboros",
@@ -145,7 +145,6 @@
         "Dataset Filter IDs": [
             "Airoboros"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -176,7 +175,8 @@
             "Min Dialog Turns": 4,
             "Max Dialog Turns": 8,
             "Mean Dialog Turns": 6.7719
-        }
+        },
+        "Bibtex": ""
     },
     "capybara-Know-Logic": {
         "Unique Dataset Identifier": "capybara-Know-Logic",
@@ -227,7 +227,6 @@
         "Dataset Filter IDs": [
             "Know-Logic"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -258,7 +257,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 8,
             "Mean Dialog Turns": 6.7606
-        }
+        },
+        "Bibtex": ""
     },
     "capybara-EverythingLM": {
         "Unique Dataset Identifier": "capybara-EverythingLM",
@@ -326,7 +326,6 @@
         "Dataset Filter IDs": [
             "EverythingLM"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -357,7 +356,8 @@
             "Min Dialog Turns": 6,
             "Max Dialog Turns": 8,
             "Mean Dialog Turns": 6.7753
-        }
+        },
+        "Bibtex": ""
     },
     "capybara-GOAT": {
         "Unique Dataset Identifier": "capybara-GOAT",
@@ -404,7 +404,6 @@
         "Dataset Filter IDs": [
             "GOAT"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -435,7 +434,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "capybara-TaskSource": {
         "Unique Dataset Identifier": "capybara-TaskSource",
@@ -494,7 +494,6 @@
         "Dataset Filter IDs": [
             "TaskSource"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -525,7 +524,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "capybara-General-Instruct": {
         "Unique Dataset Identifier": "capybara-General-Instruct",
@@ -581,7 +581,6 @@
         "Dataset Filter IDs": [
             "General-Instruct"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -612,7 +611,8 @@
             "Min Dialog Turns": 6,
             "Max Dialog Turns": 8,
             "Mean Dialog Turns": 6.7589
-        }
+        },
+        "Bibtex": ""
     },
     "capybara-GPT4LLM": {
         "Unique Dataset Identifier": "capybara-GPT4LLM",
@@ -679,7 +679,6 @@
         "Dataset Filter IDs": [
             "GPT4LLM"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -710,7 +709,8 @@
             "Min Dialog Turns": 4,
             "Max Dialog Turns": 8,
             "Mean Dialog Turns": 6.7585
-        }
+        },
+        "Bibtex": ""
     },
     "capybara-TheoremQA": {
         "Unique Dataset Identifier": "capybara-TheoremQA",
@@ -757,7 +757,6 @@
         "Dataset Filter IDs": [
             "TheoremQA"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -788,7 +787,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "capybara-Less-Wrong": {
         "Unique Dataset Identifier": "capybara-Less-Wrong",
@@ -841,7 +841,6 @@
         "Dataset Filter IDs": [
             "Less-Wrong"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -872,7 +871,8 @@
             "Min Dialog Turns": 4,
             "Max Dialog Turns": 8,
             "Mean Dialog Turns": 5.5213
-        }
+        },
+        "Bibtex": ""
     },
     "capybara-SuperCOT": {
         "Unique Dataset Identifier": "capybara-SuperCOT",
@@ -922,7 +922,6 @@
         "Dataset Filter IDs": [
             "SuperCOT"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -953,6 +952,7 @@
             "Min Dialog Turns": 6,
             "Max Dialog Turns": 8,
             "Mean Dialog Turns": 6.757
-        }
+        },
+        "Bibtex": ""
     }
 }
