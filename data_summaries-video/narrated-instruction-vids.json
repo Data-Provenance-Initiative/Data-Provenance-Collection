@@ -55,6 +55,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Alayrac2015UnsupervisedLF,\n author = {Jean-Baptiste Alayrac and Piotr Bojanowski and Nishant Agrawal and Josef Sivic and I. Laptev and Simon Lacoste-Julien},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {4575-4583},\n title = {Unsupervised Learning from Narrated Instruction Videos},\n year = {2015}\n}\n"
     }
 }

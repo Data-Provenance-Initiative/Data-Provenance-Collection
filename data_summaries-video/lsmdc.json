@@ -57,6 +57,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Rohrbach2016MovieD,\n author = {Anna Rohrbach and Atousa Torabi and Marcus Rohrbach and Niket Tandon and C. Pal and H. Larochelle and Aaron C. Courville and B. Schiele},\n booktitle = {International Journal of Computer Vision},\n journal = {International Journal of Computer Vision},\n pages = {94 - 120},\n title = {Movie Description},\n volume = {123},\n year = {2016}\n}\n"
     }
 }

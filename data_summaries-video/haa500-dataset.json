@@ -55,6 +55,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Chung2020HAA500HA,\n author = {Jihoon Chung and Cheng-hsin Wuu and Hsuan-ru Yang and Yu-Wing Tai and Chi-Keung Tang},\n booktitle = {IEEE International Conference on Computer Vision},\n journal = {2021 IEEE/CVF International Conference on Computer Vision (ICCV)},\n pages = {13445-13454},\n title = {HAA500: Human-Centric Atomic Action Dataset with Curated Videos},\n year = {2020}\n}\n"
     }
 }

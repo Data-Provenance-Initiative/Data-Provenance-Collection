@@ -51,6 +51,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Materzynska2019TheJD,\n author = {Joanna Materzynska and Guillaume Berger and Ingo Bax and R. Memisevic},\n booktitle = {2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW)},\n journal = {2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW)},\n pages = {2874-2882},\n title = {The Jester Dataset: A Large-Scale Video Dataset of Human Gestures},\n year = {2019}\n}\n"
     }
 }

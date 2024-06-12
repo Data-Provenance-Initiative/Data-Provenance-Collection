@@ -57,6 +57,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Miech2020RareActAV,\n author = {Antoine Miech and Jean-Baptiste Alayrac and I. Laptev and Josef Sivic and Andrew Zisserman},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {RareAct: A video dataset of unusual interactions},\n volume = {abs/2008.01018},\n year = {2020}\n}\n"
     }
 }

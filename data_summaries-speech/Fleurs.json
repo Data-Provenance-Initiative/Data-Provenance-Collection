@@ -322,6 +322,7 @@
             "PwC License URL": "https://creativecommons.org/licenses/by/2.5/",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Conneau2022FLEURSFL,\n author = {Alexis Conneau and Min Ma and Simran Khanuja and Yu Zhang and Vera Axelrod and Siddharth Dalmia and Jason Riesa and Clara Rivera and Ankur Bapna},\n booktitle = {Spoken Language Technology Workshop},\n journal = {2022 IEEE Spoken Language Technology Workshop (SLT)},\n pages = {798-805},\n title = {FLEURS: FEW-Shot Learning Evaluation of Universal Representations of Speech},\n year = {2022}\n}\n"
     }
 }

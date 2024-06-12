@@ -53,6 +53,7 @@
             "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Kuehne2014TheLO,\n author = {Hilde Kuehne and A. B. Arslan and Thomas Serre},\n booktitle = {2014 IEEE Conference on Computer Vision and Pattern Recognition},\n journal = {2014 IEEE Conference on Computer Vision and Pattern Recognition},\n pages = {780-787},\n title = {The Language of Actions: Recovering the Syntax and Semantics of Goal-Directed Human Activities},\n year = {2014}\n}\n"
     }
 }

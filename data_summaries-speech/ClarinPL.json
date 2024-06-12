@@ -72,6 +72,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Koržinek2017PolishRS,\n author = {Danijel Koržinek and K. Marasek and Lukasz Brocki and K. Wołk},\n booktitle = {CLARIN Annual Conference},\n pages = {54-62},\n title = {Polish Read Speech Corpus for Speech Tools and Services},\n year = {2017}\n}\n"
     }
 }

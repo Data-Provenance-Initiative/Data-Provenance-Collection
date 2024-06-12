@@ -78,6 +78,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Demirsahin2020OpensourceMC,\n author = {Isin Demirsahin and Oddur Kjartansson and Alexander Gutkin and Clara Rivera},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {6532-6541},\n title = {Open-source Multi-speaker Corpora of the English Accents in the British Isles},\n year = {2020}\n}\n"
     }
 }

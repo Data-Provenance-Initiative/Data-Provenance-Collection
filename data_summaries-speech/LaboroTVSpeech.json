@@ -84,6 +84,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Ando2021ConstructionOA,\n author = {Shintaro Ando and Hiromasa Fujihara},\n booktitle = {IEEE International Conference on Acoustics, Speech, and Signal Processing},\n journal = {ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},\n pages = {6948-6952},\n title = {Construction of a Large-Scale Japanese ASR Corpus on TV Recordings},\n year = {2021}\n}\n"
     }
 }
