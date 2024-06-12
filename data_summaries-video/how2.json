@@ -60,6 +60,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Sanabria2018How2AL,\n author = {Ramon Sanabria and Ozan Caglayan and Shruti Palaskar and Desmond Elliott and Loïc Barrault and Lucia Specia and Florian Metze},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {How2: A Large-scale Dataset for Multimodal Language Understanding},\n volume = {abs/1811.00347},\n year = {2018}\n}\n"
     }
 }

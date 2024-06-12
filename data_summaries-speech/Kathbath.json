@@ -110,6 +110,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Javed2022IndicSUPERBAS,\n author = {Tahir Javed and Kaushal Bhogale and A. Raman and Anoop Kunchukuttan and Pratyush Kumar and Mitesh M. Khapra},\n booktitle = {AAAI Conference on Artificial Intelligence},\n journal = {ArXiv},\n title = {IndicSUPERB: A Speech Processing Universal Performance Benchmark for Indian languages},\n volume = {abs/2208.11761},\n year = {2022}\n}\n"
     }
 }

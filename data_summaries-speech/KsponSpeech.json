@@ -84,6 +84,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Bang2020KsponSpeechKS,\n author = {Jeong-Uk Bang and Seung Yun and Seunghi Kim and Mu-Yeol Choi and Min-Kyu Lee and Yeojeong Kim and Dong-Hyun Kim and Jun Park and Youngjik Lee and Sang-Hun Kim},\n journal = {Applied Sciences},\n pages = {6936},\n title = {KsponSpeech: Korean Spontaneous Speech Corpus for Automatic Speech Recognition},\n volume = {10},\n year = {2020}\n}\n"
     }
 }

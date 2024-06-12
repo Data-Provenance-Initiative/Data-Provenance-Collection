@@ -60,6 +60,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Zhukov2019CrossTaskWS,\n author = {Dimitri Zhukov and Jean-Baptiste Alayrac and R. G. Cinbis and D. Fouhey and I. Laptev and Josef Sivic},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {3532-3540},\n title = {Cross-Task Weakly Supervised Learning From Instructional Videos},\n year = {2019}\n}\n"
     }
 }

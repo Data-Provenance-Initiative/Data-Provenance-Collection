@@ -53,7 +53,6 @@
         "Dataset Filter IDs": [
             "pure_dove"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -84,6 +83,7 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 34,
             "Mean Dialog Turns": 3.6935
-        }
+        },
+        "Bibtex": ""
     }
 }

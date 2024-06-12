@@ -53,6 +53,7 @@
             "PwC License URL": "https://github.com/hangzhaomit/HACS-dataset/blob/master/LICENSE",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Zhao2017HACSHA,\n author = {Hang Zhao and A. Torralba and L. Torresani and Zhicheng Yan},\n booktitle = {IEEE International Conference on Computer Vision},\n journal = {2019 IEEE/CVF International Conference on Computer Vision (ICCV)},\n pages = {8667-8677},\n title = {HACS: Human Action Clips and Segments Dataset for Recognition and Temporal Localization},\n year = {2017}\n}\n"
     }
 }

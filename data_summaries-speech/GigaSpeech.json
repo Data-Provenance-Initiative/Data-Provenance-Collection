@@ -109,6 +109,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Chen2021GigaSpeechAE,\n author = {Guoguo Chen and Shuzhou Chai and Guan-Bo Wang and Jiayu Du and Weiqiang Zhang and Chao Weng and Dan Su and Daniel Povey and J. Trmal and Junbo Zhang and Mingjie Jin and S. Khudanpur and Shinji Watanabe and Shuaijiang Zhao and Wei Zou and Xiangang Li and Xuchen Yao and Yongqing Wang and Yujun Wang and Zhao You and Zhiyong Yan},\n booktitle = {Interspeech},\n journal = {ArXiv},\n title = {GigaSpeech: An Evolving, Multi-domain ASR Corpus with 10, 000 Hours of Transcribed Audio},\n volume = {abs/2106.06909},\n year = {2021}\n}\n"
     }
 }

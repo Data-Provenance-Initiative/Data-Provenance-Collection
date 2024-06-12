@@ -76,6 +76,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Guo2020DidispeechAL,\n author = {Tingwei Guo and Cheng Wen and Dongwei Jiang and Ne Luo and Ruixiong Zhang and Shuaijiang Zhao and Wubo Li and Cheng Gong and Wei Zou and Kun Han and Xiangang Li},\n booktitle = {IEEE International Conference on Acoustics, Speech, and Signal Processing},\n journal = {ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},\n pages = {6968-6972},\n title = {Didispeech: A Large Scale Mandarin Speech Corpus},\n year = {2020}\n}\n"
     }
 }

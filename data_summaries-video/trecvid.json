@@ -53,6 +53,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Awad2019TRECVID2A,\n author = {G. Awad and A. Butt and Keith Curtis and Yooyoung Lee and Jonathan G. Fiscus and A. Godil and Andrew Delgado and Jesse Zhang and Eliot Godard and Lukas L. Diduch and A. Smeaton and Yyette Graham and Wessel Kraaij and G. Quénot},\n booktitle = {TREC Video Retrieval Evaluation},\n journal = {ArXiv},\n title = {TRECVID 2019: An evaluation campaign to benchmark Video Activity Detection, Video Captioning and Matching, and Video Search & retrieval},\n volume = {abs/2009.09984},\n year = {2019}\n}\n"
     }
 }

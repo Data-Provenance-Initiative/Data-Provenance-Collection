@@ -80,6 +80,7 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Lin2021RiddleSenseRA,\n author = {Bill Yuchen Lin and Ziyi Wu and Yichi Yang and Dong-Ho Lee and Xiang Ren},\n booktitle = {Findings},\n pages = {1504-1515},\n title = {RiddleSense: Reasoning about Riddle Questions Featuring Linguistic Creativity and Commonsense Knowledge},\n year = {2021}\n}\n"
     }
 }

@@ -47,7 +47,6 @@
         "Dataset Filter IDs": [
             "pii-masking-200k"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -66,6 +65,7 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": ""
     }
 }

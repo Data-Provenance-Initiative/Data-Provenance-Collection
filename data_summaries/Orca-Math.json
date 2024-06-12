@@ -118,6 +118,7 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Mitra2024OrcaMathUT,\n author = {Arindam Mitra and Hamed Khanpour and Corby Rosset and Ahmed Awadallah},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Orca-Math: Unlocking the potential of SLMs in Grade School Math},\n volume = {abs/2402.14830},\n year = {2024}\n}\n"
     }
 }

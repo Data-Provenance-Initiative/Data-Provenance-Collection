@@ -62,7 +62,6 @@
         "Dataset Filter IDs": [
             "sharegpt"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -93,7 +92,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "ultraFeedback_argilla-flan_v2_niv2": {
         "Unique Dataset Identifier": "ultraFeedback_argilla-flan_v2_niv2",
@@ -217,7 +217,6 @@
         "Dataset Filter IDs": [
             "flan_v2_niv2"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -248,7 +247,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "ultraFeedback_argilla-evol_instruct": {
         "Unique Dataset Identifier": "ultraFeedback_argilla-evol_instruct",
@@ -301,7 +301,6 @@
         "Dataset Filter IDs": [
             "evol_instruct"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -332,7 +331,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "ultraFeedback_argilla-ultrachat": {
         "Unique Dataset Identifier": "ultraFeedback_argilla-ultrachat",
@@ -395,7 +395,6 @@
         "Dataset Filter IDs": [
             "ultrachat"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -426,7 +425,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "ultraFeedback_argilla-flan_v2_cot": {
         "Unique Dataset Identifier": "ultraFeedback_argilla-flan_v2_cot",
@@ -475,7 +475,6 @@
         "Dataset Filter IDs": [
             "flan_v2_cot"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -506,7 +505,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "ultraFeedback_argilla-false_qa": {
         "Unique Dataset Identifier": "ultraFeedback_argilla-false_qa",
@@ -550,7 +550,6 @@
         "Dataset Filter IDs": [
             "false_qa"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -581,7 +580,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "ultraFeedback_argilla-flan_v2_p3": {
         "Unique Dataset Identifier": "ultraFeedback_argilla-flan_v2_p3",
@@ -655,7 +655,6 @@
         "Dataset Filter IDs": [
             "flan_v2_p3"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -686,7 +685,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "ultraFeedback_argilla-truthful_qa": {
         "Unique Dataset Identifier": "ultraFeedback_argilla-truthful_qa",
@@ -734,7 +734,6 @@
         "Dataset Filter IDs": [
             "truthful_qa"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -765,7 +764,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "ultraFeedback_argilla-flan_v2_flan2021": {
         "Unique Dataset Identifier": "ultraFeedback_argilla-flan_v2_flan2021",
@@ -814,7 +814,6 @@
         "Dataset Filter IDs": [
             "flan_v2_flan2021"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -845,6 +844,7 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     }
 }
