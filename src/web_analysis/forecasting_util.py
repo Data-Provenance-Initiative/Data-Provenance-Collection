@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import altair as alt
 from statsmodels.tsa.ar_model import AutoReg
@@ -421,6 +422,8 @@ def forecast_and_plot_sarima(
     status_colors: typing.Dict[str, str],
     ordered_statuses: typing.List[str],
     n_periods: int = 12,
+    excel_file: str = "forecasted_robots_data.xlsx",
+    chosen_corpus: str = "c4",
     **plot_kwargs: dict,
 ) -> alt.Chart:
     filtered_df = df[df["agent"] == agent].copy()
@@ -477,6 +480,32 @@ def forecast_and_plot_sarima(
     predicted_data.drop("total_percentage", axis=1, inplace=True)
     combined_df = pd.concat([pivoted_df, predicted_data], ignore_index=True)
     forecast_startdate = predicted_data["period"].min()
+
+    merged_df = pd.merge(
+        percent_df.melt(
+            id_vars=["period"], var_name="status", value_name="Actual Percentage"
+        ),
+        predicted_data[["period", "status", "percentage"]].rename(
+            columns={"percentage": "Forecasted Percentage"}
+        ),
+        on=["period", "status"],
+        how="outer",
+    )
+    merged_df["Agent"] = agent
+
+    # Reorder columns
+    merged_df = merged_df[
+        ["period", "status", "Actual Percentage", "Forecasted Percentage", "Agent"]
+    ]
+
+    if os.path.exists(excel_file):
+        # If the file exists, append the new data to a new sheet
+        with pd.ExcelWriter(excel_file, engine="openpyxl", mode="a") as writer:
+            merged_df.to_excel(writer, sheet_name=chosen_corpus, index=False)
+    else:
+        # If the file doesn't exist, create a new Excel file with the data
+        with pd.ExcelWriter(excel_file) as writer:
+            merged_df.to_excel(writer, sheet_name=chosen_corpus, index=False)
 
     chart = robots_util.plot_robots_time_map_altair(
         combined_df,
@@ -693,6 +722,8 @@ def plot_and_forecast_tos_sarima(
     n_periods: int = 12,
     order: typing.Tuple[int, int, int] = (2, 1, 2),
     seasonal_order: typing.Tuple[int, int, int, int] = (1, 1, 1, 4),
+    excel_file: str = "forecasted_tos_data.xlsx",
+    chosen_corpus: str = "c4",
     **plot_kwargs,
 ):
     # Group by 'period' and 'status', and sum up the 'count'
@@ -763,7 +794,27 @@ def plot_and_forecast_tos_sarima(
     combined_df = pd.concat([pivoted_df, predicted_data], ignore_index=True)
     forecast_startdate = predicted_data[period_col].min()
 
-    # Create the chart using the general plotting function
+    merged_df = pd.merge(
+        pivoted_df.rename(columns={"percentage": "Actual Percentage"}),
+        predicted_data[[period_col, status_col, "percentage"]].rename(
+            columns={"percentage": "Forecasted Percentage"}
+        ),
+        on=[period_col, status_col],
+        how="outer",
+    )
+
+    merged_df = merged_df[
+        [period_col, status_col, "Actual Percentage", "Forecasted Percentage"]
+    ]
+
+    if os.path.exists(excel_file):
+        # If the file exists, append the new data to a new sheet
+        with pd.ExcelWriter(excel_file, engine="openpyxl", mode="a") as writer:
+            merged_df.to_excel(writer, sheet_name=chosen_corpus, index=False)
+    else:
+        with pd.ExcelWriter(excel_file) as writer:
+            merged_df.to_excel(writer, sheet_name=chosen_corpus, index=False)
+
     chart = visualization_util.create_stacked_area_chart(
         df=combined_df,
         period_col=period_col,
@@ -784,3 +835,43 @@ def plot_and_forecast_tos_sarima(
     )
 
     return chart
+
+
+def forecast_restrictive_tokens_sarima(
+    df: pd.DataFrame,
+    n_periods: int = 12,
+    order: typing.Tuple[int, int, int] = (1, 1, 1),
+    seasonal_order: typing.Tuple[int, int, int, int] = (1, 1, 1, 6),
+) -> pd.DataFrame:
+    df = df.copy()  # Create a copy to avoid modifying the original DataFrame
+
+    # Combine 'rand' and 'head' columns to calculate total restrictive tokens
+    df["total_tokens"] = df["rand"] + df["head"]
+
+    df["percent_restrictive"] = df["total_tokens"]
+
+    df.set_index("period", inplace=True)
+
+    model = SARIMAX(
+        df["percent_restrictive"], order=order, seasonal_order=seasonal_order
+    )
+    model_fit = model.fit(disp=False)
+    print(model_fit.summary())
+
+    future_periods = pd.date_range(
+        start=df.index.max() + pd.DateOffset(months=1), periods=n_periods, freq="M"
+    )
+    forecast = model_fit.forecast(steps=n_periods)
+    conf_int = model_fit.get_forecast(steps=n_periods).conf_int()
+    predicted_df = pd.DataFrame(
+        {
+            "period": future_periods,
+            "forecasted_restrictive_tokens": forecast,
+            "lower": conf_int.iloc[:, 0],
+            "upper": conf_int.iloc[:, 1],
+        }
+    )
+
+    combined_df = pd.concat([df.reset_index(), predicted_df])
+
+    return combined_df
