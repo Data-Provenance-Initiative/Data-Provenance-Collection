@@ -1,5 +1,5 @@
 {
-    "Social Media and User-Generated Content": [
+    "Social Media & User-Generated Content": [
         "Facebook",
         "Flickr",
         "Instagram",
@@ -19,53 +19,44 @@
         "metacafe",
         "peeks",
         "vimeo",
+        "Vimeo",
         "tumblr",
-        "instagram"
+        "instagram",
+        "Podcast",
+        "Reviews",
+        "Peeks",
+        "Code"
     ],
-    "Commercial and Economic": [
-        "Commerce",
-        "Earnings Calls"
-    ],
-    "Cultural and Entertainment Content": [
-        "Audiobooks",
+    "News websites": [
         "BBC",
-        "Books",
+        "bbc",
+        "The Weather Channel",
+        "weather channel",
+        "News"
+    ],
+    "Multi-Media Entertainment Content": [
+        "Audiobooks",
         "Entertainment",
         "Movies",
-        "News",
         "Prelinger archive",
         "Radio",
         "TED Talks",
         "TV",
         "VideoBlocks",
-        "Vimeo",
         "Visual Novels",
         "movies",
-        "bbc",
         "prelinger archive"
     ],
-    "Other": [
-        "Code",
-        "Encyclopedias",
-        "Getty-Images",
+    "Synthetic": [
         "Models",
+        "Template Generated"
+    ],
+    "Other": [
         "Others",
-        "Peeks",
-        "Podcast",
-        "Reviews",
-        "Template Generated",
-        "The Weather Channel",
         "Unclear",
-        "Unsure",
-        "and Getty-Images",
-        "weather channel"
+        "Unsure"
     ],
-    "Government and Legal": [
-        "Governments",
-        "Legal",
-        "Parliament"
-    ],
-    "General Web and Search": [
+    "General Web Scraped": [
         "Bing,\r\nGiphy",
         "General Web",
         "General web",
@@ -79,16 +70,27 @@
         "google videos",
         "bing videos",
         "giphy",
-        "getty-images"
+        "getty-images",
+        "and Getty-Images",
+        "Getty-Images",
+        "Commerce",
+        "Earnings Calls"
     ],
-    "Academic and Research": [
+    "Books, Academic & Encyclopedias": [
         "Academic Papers",
         "Biomedical",
         "Education",
         "Exams",
-        "ML Datasets"
+        "ML Datasets",
+        "Books",
+        "Encyclopedias"
     ],
-    "Crowdsourced and Human Participants": [
+    "Government Documents": [
+        "Governments",
+        "Legal",
+        "Parliament"
+    ],
+    "Human / Crowdsourced": [
         "Calling Platform",
         "Conversations",
         "Crowd-Sourcing",
