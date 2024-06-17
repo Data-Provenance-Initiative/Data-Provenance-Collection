@@ -2,6 +2,7 @@ import sys
 import os
 import datetime
 import logging
+import numpy as np
 import pandas as pd
 import altair as alt
 
@@ -806,3 +807,115 @@ def plot_license_terms_stacked_bar_chart_collections(
         chart_licenses.save(os.path.join(save_dir, "license_use_by_modality_collections.png"), ppi=plot_ppi)
 
     return chart_licenses
+
+
+def gini(array: np.ndarray) -> float:
+    """Calculate the Gini coefficient of a numpy array.
+
+    Implementation taken from: https://github.com/oliviaguest/gini
+    """
+    # based on bottom eq:
+    # http://www.statsdirect.com/help/generatedimages/equations/equation154.svg
+    # from:
+    # http://www.statsdirect.com/help/default.htm#nonparametric_methods/gini.htm
+    # All values are treated equally, arrays must be 1d:
+    array = array.flatten()
+    if np.amin(array) < 0:
+        # Values cannot be negative:
+        array -= np.amin(array)
+    # Values cannot be 0:
+    array = array + 0.0000001
+    # Values must be sorted:
+    array = np.sort(array)
+    # Index per array element:
+    index = np.arange(1,array.shape[0]+1)
+    # Number of array elements:
+    n = array.shape[0]
+    # Gini coefficient:
+    return ((np.sum((2 * index - n  - 1) * array)) / (n * np.sum(array)))
+
+
+def bootstrap_cis_for_gini(
+    data: np.ndarray,
+    n_samples: int = 1000,
+    alpha: float = 0.05
+) -> tuple[float, float]:
+    """Estimate the confidence interval for the Gini coefficient using bootstrapping.
+    """
+
+    ginis = []
+    for _ in range(n_samples):
+        sample = np.random.choice(data, size=len(data), replace=True)
+        ginis.append(gini(sample))
+
+    ginis = np.array(ginis)
+    lower_bound = np.percentile(ginis, alpha / 2 * 100)
+    upper_bound = np.percentile(ginis, (1 - alpha / 2) * 100)
+
+    return np.mean(ginis), lower_bound, upper_bound
+
+
+def factor_year(
+    df: pd.DataFrame,
+    column: str = "Year Released",
+    min_year: int = 2013
+) -> pd.DataFrame:
+    """Transform the year column into a categorical column.
+
+    Years before `min_year` are grouped into a category, i.e. "<`min_year`" (e.g. )
+    """
+    df = df.copy()
+
+    min_yeartext = "<%d" % min_year
+    max_year = df[column].max()
+
+    df[column] = df[column].map(
+        lambda x: min_yeartext if (x < min_year) else str(x)
+    )
+
+    order = [min_yeartext, *map(str, range(min_year, max_year + 1))]
+
+    df[column] = pd.Categorical(
+        df[column],
+        categories=order,
+        ordered=True
+    )
+
+    return df, order
+
+
+def order_by_grouped_permisiveness(
+    df: pd.DataFrame,
+    group_column: str,
+    licensetype_column: str = "License Type",
+    permissive_licensetypes: list[str] = ["Commercial"]
+) -> pd.Series:
+    """Given a DataFrame, group it by `group_column` and calculate the permissiveness of each group.
+
+    Permisiveness is calculated as the proportion of licenses that are in `permissive_licensetypes`.
+    """
+    permisiveness = df.groupby(group_column).apply(
+        lambda x: (x[licensetype_column].isin(permissive_licensetypes)).mean()
+    ).reset_index(name="Permissiveness")
+
+    permisiveness_order = permisiveness.sort_values(by="Permissiveness")[group_column].tolist()
+
+    return permisiveness_order
+
+
+def reduce_categories_to_topk(
+    df: pd.DataFrame,
+    column: str,
+    k: int = 6
+) -> pd.DataFrame:
+    """Reduce the number of categories in a column to the top `k` categories.
+
+    The rest are grouped into an "Other" category.
+    """
+    df = df.copy()
+    topk = df[column].value_counts().head(k).index.tolist()
+    df[column] = df[column].map(
+        lambda x: x if x in topk else "Other"
+    )
+
+    return df
