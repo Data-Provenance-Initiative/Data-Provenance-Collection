@@ -40,7 +40,7 @@ def parse_arguments() -> argparse.Namespace:
         "--frequency",
         type=str,
         default="annually",
-        choices=["daily", "weekly", "monthly", "annually"],
+        choices=["daily", "monthly", "annually"],
         help="Frequency of collecting snapshots. Default is monthly.",
     )
     parser.add_argument(

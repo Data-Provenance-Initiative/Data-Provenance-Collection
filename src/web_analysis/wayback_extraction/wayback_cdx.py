@@ -4,7 +4,7 @@ import os
 import threading
 from tqdm import tqdm
 from collections import defaultdict
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import as_completed, ThreadPoolExecutor
 from datetime import datetime
 from typing import Optional
 
@@ -18,7 +18,6 @@ BASE_URL = "https://web.archive.org"
 
 FREQUENCY_MAP = {
     "daily": ("timestamp:8", "%Y-%m-%d", relativedelta(days=1)),
-    "weekly": ("timestamp:6", "%Y-%W", relativedelta(weeks=1)),
     "monthly": ("timestamp:6", "%Y-%m", relativedelta(months=1)),
     "annually": ("timestamp:4", "%Y", relativedelta(years=1)),
 }
@@ -76,7 +75,7 @@ class WaybackMachineClient:
         end_date : str
             The end date for the analysis in 'YYYYMMDD' format.
         frequency : str
-            The frequency of the snapshots to retrieve (daily, weekly, monthly, or annually).
+            The frequency of the snapshots to retrieve (daily, monthly, or annually).
 
         Returns
         -------
@@ -142,6 +141,7 @@ class WaybackMachineClient:
         """
         Counts the number of unique changes of a site within a given date range (rate of change).
         To do this we use the collapse=digest feature to count unique snapshots only.
+        This requires daily frequency to collapse correctly - use sparingly.
 
         Parameters
         ----------
@@ -310,12 +310,14 @@ class WaybackMachineClient:
                 for url in urls
             }
 
-            for future in tqdm(futures, total=len(futures), desc="Processing URLs"):
-                try:
-                    future.result()
-                except Exception as e:
+            with tqdm(total=len(urls), desc="Processing URLs") as pbar:
+                for future in as_completed(futures):
                     url = futures[future]
-                    self.handle_error(url, e)
+                    try:
+                        future.result()
+                    except Exception as e:
+                        self.handle_error(url, e)
+                    pbar.update(1)
 
     def save_snapshot(
         self, url: str, snapshot_date: datetime, snapshot_content: str
@@ -394,5 +396,3 @@ class WaybackMachineClient:
                         f.write(f"{url} --> error: {error}\n")
                 logging.info(f"Failed URLs saved to {filename}")
                 self.failed_urls.clear()
-            else:
-                logging.info("No failed URLs to save.")

@@ -842,36 +842,55 @@ def forecast_restrictive_tokens_sarima(
     n_periods: int = 12,
     order: typing.Tuple[int, int, int] = (1, 1, 1),
     seasonal_order: typing.Tuple[int, int, int, int] = (1, 1, 1, 6),
+    excel_file: str = "final_forecasted_restrictive_tokens.xlsx",
+    chosen_corpus: str = "c4",
 ) -> pd.DataFrame:
     df = df.copy()  # Create a copy to avoid modifying the original DataFrame
 
     # Combine 'rand' and 'head' columns to calculate total restrictive tokens
-    df["total_tokens"] = df["rand"] + df["head"]
-
-    df["percent_restrictive"] = df["total_tokens"]
-
+    df["combined"] = df["rand"] + df["head"]
     df.set_index("period", inplace=True)
 
-    model = SARIMAX(
-        df["percent_restrictive"], order=order, seasonal_order=seasonal_order
-    )
-    model_fit = model.fit(disp=False)
-    print(model_fit.summary())
+    forecasted_data = []
 
-    future_periods = pd.date_range(
-        start=df.index.max() + pd.DateOffset(months=1), periods=n_periods, freq="M"
-    )
-    forecast = model_fit.forecast(steps=n_periods)
-    conf_int = model_fit.get_forecast(steps=n_periods).conf_int()
-    predicted_df = pd.DataFrame(
-        {
-            "period": future_periods,
-            "forecasted_restrictive_tokens": forecast,
-            "lower": conf_int.iloc[:, 0],
-            "upper": conf_int.iloc[:, 1],
-        }
+    for column in ["rand", "head", "combined"]:
+        model = SARIMAX(df[column], order=order, seasonal_order=seasonal_order)
+        model_fit = model.fit(disp=False)
+        print(f"Model summary for {column}:")
+        print(model_fit.summary())
+
+        future_periods = pd.date_range(
+            start=df.index.max() + pd.DateOffset(months=1), periods=n_periods, freq="M"
+        )
+        forecast = model_fit.forecast(steps=n_periods)
+        conf_int = model_fit.get_forecast(steps=n_periods).conf_int()
+
+        predicted_df = pd.DataFrame(
+            {
+                "period": future_periods,
+                f"forecasted_{column}": forecast,
+            }
+        )
+        forecasted_data.append(predicted_df)
+
+    forecasted_df = pd.concat(forecasted_data, axis=1)
+    forecasted_df = forecasted_df.loc[:, ~forecasted_df.columns.duplicated()]
+
+    combined_df = pd.concat([df.reset_index(), forecasted_df])
+
+    # Merge actual and forecasted data into a single data frame
+    merged_df = pd.merge(
+        df.reset_index(),
+        forecasted_df,
+        on=["period"],
+        how="outer",
     )
 
-    combined_df = pd.concat([df.reset_index(), predicted_df])
+    if os.path.exists(excel_file):
+        with pd.ExcelWriter(excel_file, engine="openpyxl", mode="a") as writer:
+            merged_df.to_excel(writer, sheet_name=chosen_corpus, index=False)
+    else:
+        with pd.ExcelWriter(excel_file) as writer:
+            merged_df.to_excel(writer, sheet_name=chosen_corpus, index=False)
 
-    return combined_df
+    return combined_df, merged_df
