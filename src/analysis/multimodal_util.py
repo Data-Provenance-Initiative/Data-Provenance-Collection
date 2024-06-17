@@ -200,10 +200,10 @@ def plot_license_terms_stacked_bar_chart(
         width=plot_width,
         height=plot_height
     )
-    
+
     if save_dir:
         chart_licenses.save(os.path.join(save_dir, "license_use_by_modality.png"), ppi=plot_ppi)
-    
+
     return chart_licenses
 
 
@@ -269,6 +269,12 @@ def prep_summaries_for_visualization(
     collection_to_terms_mapper,
     year_categories,
     license_order,
+    license_map={
+        "academic-only": "Non-Commercial/Academic",
+        "non-commercial": "Non-Commercial/Academic",
+        "unspecified": "Unspecified",
+        "commercial": "Commercial"
+    }
 ):
     license_paraphrases = invert_dict_of_lists(all_constants["LICENSE_PARAPHRASES"])
     creator_groupmap = invert_dict_of_lists(all_constants["CREATOR_GROUPS"])
@@ -283,7 +289,7 @@ def prep_summaries_for_visualization(
         ),
         all_constants
     )
-    
+
     speech_summaries = map_license_criteria_multimodal(
         remap_licenses_with_paraphrases(
             speech_summaries,
@@ -291,7 +297,7 @@ def prep_summaries_for_visualization(
         ),
         all_constants
     )
-    
+
     video_summaries = map_license_criteria_multimodal(
         remap_licenses_with_paraphrases(
             video_summaries,
@@ -306,35 +312,30 @@ def prep_summaries_for_visualization(
     df_speech["Data Terms"] = df_speech["Collection"].apply(lambda x: collection_to_terms_mapper[x])
     df_video = pd.DataFrame(video_summaries).assign(Modality="Video").rename(columns={"Video Sources": "Source Category"})
     df_video["Data Terms"] = df_video["Dataset Name"].apply(lambda x: collection_to_terms_mapper[x])
-    
+
     df_text["Year Released"] = df_text["Inferred Metadata"].map(get_year_for_text)
     # Combine modalities
     df = pd.concat([df_text, df_speech, df_video])
     df["Model Generated"] = df["Model Generated"].fillna("")
-    
+
     df["Year Released"] = pd.Categorical(
         df["Year Released"].map(
             lambda x : "<2013" if (isinstance(x, int) and x < 2013) else str(x)
         ),
         categories=year_categories
     )
-    
-    df["License Type"] = df["License Use (DataProvenance IgnoreOpenAI)"].map({
-        "academic-only": "Non-Commercial/\nAcademic",
-        "non-commercial": "Non-Commercial/\nAcademic",
-        "unspecified": "Unspecified",
-        "commercial": "Commercial"
-    })
+
+    df["License Type"] = df["License Use (DataProvenance IgnoreOpenAI)"].map(license_map)
     df["License Type"] = pd.Categorical(
         df["License Type"],
         categories=license_order,
         ordered=True
     )
     df = df.sort_values(by="License Type")
-    
+
     # Map creators to categories (all modalities from constants, for this)
     df["Creator Categories"] = df["Creators"].map(lambda c: [creator_groupmap[ci] for ci in c])
-    
+
     # For Text, we can infer the country from the creator group using the constants
     # For other modalities, they're taken from the summaries (annotated independently)
     df.loc[df["Modality"] == "Text", "Countries"] = df.loc[df["Modality"] == "Text", "Creators"].map(
@@ -350,14 +351,14 @@ def prep_summaries_for_visualization(
 
 
 def plot_stacked_temporal_license_categories(
-    df, 
-    license_palette, 
-    year_categories, 
-    license_order, 
-    plot_width, 
-    plot_height, 
-    save_dir=None, 
-    plot_ppi=None, 
+    df,
+    license_palette,
+    year_categories,
+    license_order,
+    plot_width,
+    plot_height,
+    save_dir=None,
+    plot_ppi=None,
     label_limit=1000,
 ):
 
@@ -366,7 +367,7 @@ def plot_stacked_temporal_license_categories(
         categories=year_categories,
         ordered=True
     )
-    
+
     base = alt.Chart(df).mark_bar().encode(
         x=alt.X(
             "Year Released:N",
@@ -390,7 +391,7 @@ def plot_stacked_temporal_license_categories(
         width=plot_width,
         height=plot_height // 2
     )
-    
+
     text = alt.Chart(df).mark_text(
         dy=-68,
         align="center",
@@ -403,20 +404,16 @@ def plot_stacked_temporal_license_categories(
         ),
         text="count():Q"
     )
-    
+
     chart_licensesyears = (base + text).facet(
         row="Modality:N"
-    ).configure_legend(
-        orient="bottom",
-        columns=3,
-        labelLimit=label_limit
     ).properties(
         title="License Use by Modality and Dataset Release Year"
     )
-    
+
     if save_dir:
         chart_licensesyears.save(os.path.join(save_dir, "license_use_by_modality+year.png"), ppi=plot_ppi)
-    
+
     return chart_licensesyears
 
 
@@ -447,10 +444,10 @@ def categorize_sources(df, order, domain_typemap):
 
     # Unlist to have one row per source category (atomic components)
     df_sources = df.explode("Source Category")
-    
+
     # Apply the updated map_domaingroup function to each row
     df_sources["Source Category"] = df_sources.apply(map_domaingroup, axis=1).fillna("Other")
-    
+
     df_sources["Source Category"] = pd.Categorical(
         df_sources["Source Category"],
         categories=order,
@@ -484,10 +481,10 @@ def plot_stacked_creator_categories(
         width=pwidth,
         height=pheight
     )
-    
+
     if save_dir:
         chart_categories.save(os.path.join(save_dir, "creator_categories_by_modality.png"), ppi=300)
-    
+
     return chart_categories
 
 
@@ -514,10 +511,10 @@ def plot_donut_creator_categories(
         "Modality:N",
         columns=3
     )
-    
+
     if save_dir:
         chart_categoriesalt.save(os.path.join(save_dir, "creator_categories_by_modality-alt.png"), ppi=300)
-    
+
     return chart_categoriesalt
 
 def plot_stacked_temporal_creator_categories(
@@ -548,7 +545,7 @@ def plot_stacked_temporal_creator_categories(
         width=pwidth,
         height=pheight // 2
     )
-    
+
     text = alt.Chart(df_categories).mark_text(
         dy=-68,
         align="center",
@@ -561,20 +558,16 @@ def plot_stacked_temporal_creator_categories(
         ),
         text="count():Q"
     )
-    
+
     chart_categoriesyears = (base + text).facet(
         row="Modality:N"
-    ).configure_legend(
-        orient="bottom",
-        columns=3,
-        labelLimit=1000
     ).properties(
         title="Creator Categories by Modality and Dataset Release Year"
     )
-    
+
     if save_dir:
         chart_categoriesyears.save(os.path.join(save_dir, "creator_categories_by_modality+year.png"), ppi=300)
-    
+
     return chart_categoriesyears
 
 
@@ -597,9 +590,9 @@ def plot_altair_worldmap(
     ).project(
         type="equalEarth"
     )
-    
+
     charts = []
-    
+
     for modality, color in modality_colors.items():
         modality_data = df_countries[df_countries["Modality"] == modality]
         chart = base.encode(
@@ -624,7 +617,7 @@ def plot_altair_worldmap(
             title=modality
         )
         charts.append(chart)
-    
+
     chart_map = alt.vconcat(
         *charts
     ).resolve_scale(
@@ -632,10 +625,10 @@ def plot_altair_worldmap(
     ).properties(
         title="Dataset Count by Country and Modality"
     )
-    
+
     if save_dir:
         chart_map.save(os.path.join(save_dir, "dataset_count_by_country_and_modality.png"), ppi=300)
-    
+
     return chart_map
 
 def plot_source_domain_stacked_chart(
@@ -656,19 +649,15 @@ def plot_source_domain_stacked_chart(
             sort=order
         ),
         order="order:Q"
-    ).configure_legend(
-        orient="bottom",
-        columns=3,
-        labelLimit=1000
     ).properties(
         title="Source Categories by Modality",
         width=pwidth,
         height=pheight
     )
-    
+
     if save_dir:
         chart_sources.save(os.path.join(save_dir, "source_categories_by_modality.png"), ppi=300)
-    
+
     return chart_sources
 
 
@@ -677,7 +666,7 @@ def plot_stacked_temporal_source_categories(
 ):
 
     df_sources = categorize_sources(df, order, domain_typemap)
-    
+
     base = alt.Chart(df_sources).mark_bar().encode(
         x=alt.X(
             "Year Released:N",
@@ -700,7 +689,7 @@ def plot_stacked_temporal_source_categories(
         width=pwidth,
         height=pheight // 2
     )
-    
+
     text = alt.Chart(df_sources).mark_text(
         dy=-68,
         align="center",
@@ -713,29 +702,25 @@ def plot_stacked_temporal_source_categories(
         ),
         text="count():Q"
     )
-    
+
     chart_sourcesyears = (base + text).facet(
         row="Modality:N"
-    ).configure_legend(
-        orient="bottom",
-        columns=3,
-        labelLimit=1000
     ).properties(
         title="Source Categories by Modality and Dataset Release Year"
     )
-    
+
     if save_dir:
         chart_sourcesyears.save(os.path.join(save_dir, "source_categories_by_modality+year.png"), ppi=300)
-    
+
     return chart_sourcesyears
 
 def text_groupby_collection(df, mode_column, fn):
 
     df_text = df[df["Modality"] == "Text"].copy()
     df_nontext = df[df["Modality"] != "Text"]
-    
+
     df_text.loc[:, mode_column] = df_text.groupby("Collection")[mode_column].transform(fn)
-    
+
     df_text = df_text.drop_duplicates(subset="Collection")
     new_df = pd.concat([df_nontext, df_text], ignore_index=True)
     return new_df
@@ -744,13 +729,13 @@ def text_groupby_collection(df, mode_column, fn):
 def plot_source_domain_stacked_chart_collections(
     df, domain_typemap, order, pwidth, pheight, save_dir
 ):
-    
+
     df_sources = categorize_sources(df, order, domain_typemap)
-    df_sources = text_groupby_collection(df_sources, "Source Category", 
+    df_sources = text_groupby_collection(df_sources, "Source Category",
         fn=lambda x: x.mode()[0] if not x.mode().empty else "Unspecified")
-    
+
     logging.warning("Aggregating to %d collections" % len(df_sources.loc[df_sources["Modality"] == "Text", "Collection"].unique()))
-    
+
     df_sources = df_sources.sort_values(by="Source Category")
     chart_sourcesaggregated = alt.Chart(df_sources).mark_bar().encode(
         x=alt.Y(
@@ -766,36 +751,34 @@ def plot_source_domain_stacked_chart_collections(
             sort=order
         ),
         order="order:Q"
-    ).configure_legend(
-        orient="bottom",
-        columns=3,
-        labelLimit=1000
     ).properties(
         title="Source Categories by Modality (Aggregated Collections)",
         width=pwidth,
         height=pheight
     )
-    
+
     if save_dir:
         chart_sourcesaggregated.save(os.path.join(save_dir, "source_categories_by_modality-aggregated.png"), ppi=300)
-    
+
     return chart_sourcesaggregated
 
 
+# 'Non-Commercial/Academic', 'Unspecified', 'Commercial'
+def license_rank_fn(license_list):
+    ll = license_list.tolist()
+    if "Non-Commercial/Academic" in ll:
+        return "Non-Commercial/Academic"
+    elif "Unspecified" in ll:
+        return "Unspecified"
+    else:
+        return "Commercial"
+
 
 def plot_license_terms_stacked_bar_chart_collections(
-    df, license_palette, license_order, plot_width, plot_height, save_dir=None, plot_ppi=None
+    df, license_palette, license_order, plot_width, plot_height, save_dir=None, plot_ppi=None, license_rank_fn=license_rank_fn
 ):
 
-    # 'Non-Commercial/\nAcademic', 'Unspecified', 'Commercial'
-    def license_rank_fn(license_list):
-        ll = license_list.tolist()
-        if "Non-Commercial/\nAcademic" in ll:
-            return "Non-Commercial/\nAcademic"
-        elif "Unspecified" in ll:
-            return "Unspecified"
-        else:
-            return "Commercial"
+
 
     df = text_groupby_collection(df, "License Type",fn=license_rank_fn,)
     chart_licenses = alt.Chart(df).mark_bar().encode(
@@ -818,8 +801,8 @@ def plot_license_terms_stacked_bar_chart_collections(
         width=plot_width,
         height=plot_height
     )
-    
+
     if save_dir:
         chart_licenses.save(os.path.join(save_dir, "license_use_by_modality_collections.png"), ppi=plot_ppi)
-    
+
     return chart_licenses
