@@ -52,6 +52,7 @@
             "PwC License URL": "https://coin-dataset.github.io/",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Tang2019COINAL,\n author = {Yansong Tang and Dajun Ding and Yongming Rao and Yu Zheng and Danyang Zhang and Lili Zhao and Jiwen Lu and Jie Zhou},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {1207-1216},\n title = {COIN: A Large-Scale Dataset for Comprehensive Instructional Video Analysis},\n year = {2019}\n}\n"
     }
 }

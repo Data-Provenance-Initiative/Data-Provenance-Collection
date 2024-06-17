@@ -128,6 +128,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Pratap2020MLSAL,\n author = {Vineel Pratap and Qiantong Xu and Anuroop Sriram and Gabriel Synnaeve and R. Collobert},\n booktitle = {Interspeech},\n journal = {ArXiv},\n title = {MLS: A Large-Scale Multilingual Dataset for Speech Research},\n volume = {abs/2012.03411},\n year = {2020}\n}\n"
     }
 }

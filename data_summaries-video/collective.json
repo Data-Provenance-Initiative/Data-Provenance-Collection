@@ -51,6 +51,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Choi2009WhatAT,\n author = {Wongun Choi and Khuram Shahid and S. Savarese},\n booktitle = {2009 IEEE 12th International Conference on Computer Vision Workshops, ICCV Workshops},\n journal = {2009 IEEE 12th International Conference on Computer Vision Workshops, ICCV Workshops},\n pages = {1282-1289},\n title = {What are they doing? : Collective activity classification using spatio-temporal relationship among people},\n year = {2009}\n}\n"
     }
 }

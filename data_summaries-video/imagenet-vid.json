@@ -51,6 +51,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Russakovsky2014ImageNetLS,\n author = {Olga Russakovsky and Jia Deng and Hao Su and J. Krause and S. Satheesh and Sean Ma and Zhiheng Huang and A. Karpathy and A. Khosla and Michael S. Bernstein and A. Berg and Li Fei-Fei},\n booktitle = {International Journal of Computer Vision},\n journal = {International Journal of Computer Vision},\n pages = {211 - 252},\n title = {ImageNet Large Scale Visual Recognition Challenge},\n volume = {115},\n year = {2014}\n}\n"
     }
 }

@@ -94,6 +94,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Boito2019MaSSAL,\n author = {Marcely Zanon Boito and William N. Havard and Mahault Garnerin and Éric Le Ferrand and L. Besacier},\n booktitle = {International Conference on Language Resources and Evaluation},\n journal = {ArXiv},\n title = {MaSS: A Large and Clean Multilingual Corpus of Sentence-aligned Spoken Utterances Extracted from the Bible},\n volume = {abs/1907.12895},\n year = {2019}\n}\n"
     }
 }

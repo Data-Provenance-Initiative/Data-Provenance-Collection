@@ -53,6 +53,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Oncescu2021QUERYDAV,\n author = {Andreea-Maria Oncescu and João F. Henriques and Yang Liu and Andrew Zisserman and Samuel Albanie},\n booktitle = {IEEE International Conference on Acoustics, Speech, and Signal Processing},\n journal = {ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},\n pages = {2265-2269},\n title = {QUERYD: A Video Dataset with High-Quality Text and Audio Narrations},\n year = {2021}\n}\n"
     }
 }

@@ -54,6 +54,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Yeung2015EveryMC,\n author = {Serena Yeung and Olga Russakovsky and Ning Jin and Mykhaylo Andriluka and Greg Mori and Li Fei-Fei},\n booktitle = {International Journal of Computer Vision},\n journal = {International Journal of Computer Vision},\n pages = {375 - 389},\n title = {Every Moment Counts: Dense Detailed Labeling of Actions in Complex Videos},\n volume = {126},\n year = {2015}\n}\n"
     }
 }

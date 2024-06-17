@@ -84,6 +84,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Sanabria2023TheEI,\n author = {Ramon Sanabria and Nikolay Bogoychev and Nina Markl and Andrea Carmantini and Ondrej Klejch and P. Bell},\n booktitle = {IEEE International Conference on Acoustics, Speech, and Signal Processing},\n journal = {ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},\n pages = {1-5},\n title = {The Edinburgh International Accents of English Corpus: Towards the Democratization of English ASR},\n year = {2023}\n}\n"
     }
 }

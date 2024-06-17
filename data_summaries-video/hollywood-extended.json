@@ -51,6 +51,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Bojanowski2014WeaklySA,\n author = {Piotr Bojanowski and Rémi Lajugie and F. Bach and I. Laptev and J. Ponce and C. Schmid and Josef Sivic},\n booktitle = {European Conference on Computer Vision},\n journal = {ArXiv},\n title = {Weakly Supervised Action Labeling in Videos under Ordering Constraints},\n volume = {abs/1407.1208},\n year = {2014}\n}\n"
     }
 }

@@ -84,6 +84,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Khassanov2020ACO,\n author = {Yerbolat Khassanov and Saida Mussakhojayeva and A. Mirzakhmetov and A. Adiyev and Mukhamet Nurpeiissov and H. A. Varol},\n booktitle = {Conference of the European Chapter of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {A Crowdsourced Open-Source Kazakh Speech Corpus and Initial Speech Recognition Baseline},\n volume = {abs/2009.10334},\n year = {2020}\n}\n"
     }
 }
