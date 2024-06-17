@@ -52,7 +52,6 @@
         "Dataset Filter IDs": [
             "LongAlign-10k"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 105,
@@ -88,6 +87,7 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Bai2024LongAlignAR,\n author = {Yushi Bai and Xin Lv and Jiajie Zhang and Yuze He and Ji Qi and Lei Hou and Jie Tang and Yuxiao Dong and Juanzi Li},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {LongAlign: A Recipe for Long Context Alignment of Large Language Models},\n volume = {abs/2401.18058},\n year = {2024}\n}\n"
     }
 }

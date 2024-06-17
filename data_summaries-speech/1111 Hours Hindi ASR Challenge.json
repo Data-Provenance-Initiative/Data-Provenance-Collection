@@ -79,6 +79,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Bhanushali2022GramVA,\n author = {Anish Bhanushali and Grant Bridgman and Deekshitha G and P. Ghosh and Pratik Kumar and Saurabh Kumar and Adithya Raj Kolladath and Nithya Ravi and Aaditeshwar Seth and Ashish Seth and Abhayjeet Singh and Vrunda N. Sukhadia and Umesh S and Sathvik Udupa and L. D. Prasad},\n booktitle = {Interspeech},\n pages = {3548-3552},\n title = {Gram Vaani ASR Challenge on spontaneous telephone speech recordings in regional variations of Hindi},\n year = {2022}\n}\n"
     }
 }

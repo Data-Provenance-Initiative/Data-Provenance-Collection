@@ -76,6 +76,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Inproceedings{Maekawa2003CORPUSOS,\n author = {K. Maekawa},\n title = {CORPUS OF SPONTANEOUS JAPANESE : ITS DESIGN AND EVALUATION},\n year = {2003}\n}\n"
     }
 }

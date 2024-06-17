@@ -440,7 +440,9 @@ def compute_url_date_agent_status_detailed(data, relevant_agents):
                 elif status == "none" or status == "*":
                     if re.search(r"Crawl-delay:", robots_txt):
                         status = "none_crawl_delay"
-                    elif re.search(r"Sitemap:", robots_txt):
+                    elif re.search(r"Sitemap", robots_txt) or re.search(
+                        r"sitemap", robots_txt
+                    ):
                         status = "none_sitemap"
                     else:
                         status = "none"

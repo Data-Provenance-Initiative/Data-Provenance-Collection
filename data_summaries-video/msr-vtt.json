@@ -51,6 +51,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Xu2016MSRVTTAL,\n author = {Jun Xu and Tao Mei and Ting Yao and Y. Rui},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {5288-5296},\n title = {MSR-VTT: A Large Video Description Dataset for Bridging Video and Language},\n year = {2016}\n}\n"
     }
 }

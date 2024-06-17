@@ -51,6 +51,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Rohrbach2015RecognizingFA,\n author = {Marcus Rohrbach and Anna Rohrbach and Michaela Regneri and S. Amin and Mykhaylo Andriluka and Manfred Pinkal and B. Schiele},\n booktitle = {International Journal of Computer Vision},\n journal = {International Journal of Computer Vision},\n pages = {346 - 373},\n title = {Recognizing Fine-Grained and Composite Activities Using Hand-Centric Features and Script Data},\n volume = {119},\n year = {2015}\n}\n"
     }
 }

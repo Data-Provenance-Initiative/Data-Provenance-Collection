@@ -53,6 +53,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Xue2021AdvancingHV,\n author = {Hongwei Xue and Tiankai Hang and Yanhong Zeng and Yuchong Sun and Bei Liu and Huan Yang and Jianlong Fu and B. Guo},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {5026-5035},\n title = {Advancing High-Resolution Video-Language Representation with Large-Scale Video Transcriptions},\n year = {2021}\n}\n"
     }
 }

@@ -51,7 +51,6 @@
             "Dolly 15k"
         ],
         "Human Annotation": "Yes",
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -82,7 +81,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "thai_gen_ai_dolly-closedqa": {
         "Unique Dataset Identifier": "thai_gen_ai_dolly-closedqa",
@@ -135,7 +135,6 @@
             "Dolly 15k"
         ],
         "Human Annotation": "Yes",
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -166,7 +165,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "thai_gen_ai_dolly-classification": {
         "Unique Dataset Identifier": "thai_gen_ai_dolly-classification",
@@ -219,7 +219,6 @@
             "Dolly 15k"
         ],
         "Human Annotation": "Yes",
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -250,7 +249,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "thai_gen_ai_dolly-brainstorming": {
         "Unique Dataset Identifier": "thai_gen_ai_dolly-brainstorming",
@@ -303,7 +303,6 @@
             "Dolly 15k"
         ],
         "Human Annotation": "Yes",
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -334,7 +333,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "thai_gen_ai_dolly-infoextract": {
         "Unique Dataset Identifier": "thai_gen_ai_dolly-infoextract",
@@ -387,7 +387,6 @@
             "Dolly 15k"
         ],
         "Human Annotation": "Yes",
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -418,7 +417,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "thai_gen_ai_dolly-summarization": {
         "Unique Dataset Identifier": "thai_gen_ai_dolly-summarization",
@@ -471,7 +471,6 @@
             "Dolly 15k"
         ],
         "Human Annotation": "Yes",
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -502,7 +501,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     },
     "thai_gen_ai_dolly-creative_writing": {
         "Unique Dataset Identifier": "thai_gen_ai_dolly-creative_writing",
@@ -555,7 +555,6 @@
             "Dolly 15k"
         ],
         "Human Annotation": "Yes",
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -586,6 +585,7 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": ""
     }
 }

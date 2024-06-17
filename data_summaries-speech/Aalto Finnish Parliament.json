@@ -84,6 +84,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Virkkunen2022FinnishPA,\n author = {A. Virkkunen and Aku Rouhe and Nhan Phan and M. Kurimo},\n booktitle = {Language Resources and Evaluation},\n journal = {Language Resources and Evaluation},\n pages = {1 - 26},\n title = {Finnish parliament ASR corpus},\n year = {2022}\n}\n"
     }
 }

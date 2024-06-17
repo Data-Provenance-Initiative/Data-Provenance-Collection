@@ -88,6 +88,7 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Alyafeai2024CIDARCR,\n author = {Zaid Alyafeai and Khalid Almubarak and Ahmed Ashraf and Deema Alnuhait and Saied Alshahrani and G. A. Abdulrahman and Gamil Ahmed and Qais Gawah and Zead Saleh and Mustafa Ghaleb and Yousef Ali and Maged S. Al-Shaibani},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {CIDAR: Culturally Relevant Instruction Dataset For Arabic},\n volume = {abs/2402.03177},\n year = {2024}\n}\n"
     }
 }

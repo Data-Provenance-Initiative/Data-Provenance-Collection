@@ -52,6 +52,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Nagrani2017VoxCelebAL,\n author = {Arsha Nagrani and Joon Son Chung and Andrew Zisserman},\n booktitle = {Interspeech},\n pages = {2616-2620},\n title = {VoxCeleb: A Large-Scale Speaker Identification Dataset},\n year = {2017}\n}\n"
     }
 }

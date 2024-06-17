@@ -31,6 +31,18 @@ def convert_inputs_targets_to_messages(
 # ##########################################################################
 
 
+def prepare_open_platypus(row):
+    input_text = row['input'] + ' ' if row['input'] is not None else ''  # it is empty in many cases
+    instruction = input_text + row['instruction']
+    dset = row['data_source']
+    output = row['output']
+    return convert_inputs_targets_to_messages(
+        instruction,
+        output,
+        dset
+    )
+
+
 def prepare_flan_collection(row):
     return convert_inputs_targets_to_messages(
         row["inputs"], row["targets"], row["task_name"]

@@ -52,6 +52,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Xiang2022CDADAC,\n author = {Wangmeng Xiang and C. Li and Ke Li and Biao Wang and Xiangpei Hua and Lei Zhang},\n booktitle = {2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},\n journal = {2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},\n pages = {3920-3929},\n title = {CDAD: A Common Daily Action Dataset with Collected Hard Negative Samples},\n year = {2022}\n}\n"
     }
 }

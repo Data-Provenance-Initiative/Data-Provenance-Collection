@@ -55,6 +55,7 @@
             "PwC License URL": "http://vuchallenge.org/license-charades.txt",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Sigurdsson2016HollywoodIH,\n author = {Gunnar A. Sigurdsson and Gül Varol and X. Wang and Ali Farhadi and I. Laptev and A. Gupta},\n booktitle = {European Conference on Computer Vision},\n pages = {510-526},\n title = {Hollywood in Homes: Crowdsourcing Data Collection for Activity Understanding},\n year = {2016}\n}\n"
     }
 }

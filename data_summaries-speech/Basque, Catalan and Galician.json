@@ -93,6 +93,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Kjartansson2020OpenSourceHQ,\n author = {Oddur Kjartansson and Alexander Gutkin and Alena Butryna and Isin Demirsahin and Clara Rivera},\n booktitle = {Workshop on Spoken Language Technologies for Under-resourced Languages},\n pages = {21-27},\n title = {Open-Source High Quality Speech Datasets for Basque, Catalan and Galician},\n year = {2020}\n}\n"
     }
 }

@@ -52,6 +52,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Sharghi2017QueryFocusedVS,\n author = {Aidean Sharghi and Jacob S. Laurel and Boqing Gong},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {2127-2136},\n title = {Query-Focused Video Summarization: Dataset, Evaluation, and a Memory Network Based Approach},\n year = {2017}\n}\n"
     }
 }

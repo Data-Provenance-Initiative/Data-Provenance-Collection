@@ -77,6 +77,7 @@
             "PwC License URL": "https://creativecommons.org/licenses/by-nc-nd/3.0/",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Hernandez2018TEDLIUM3T,\n author = {François Hernandez and Vincent Nguyen and Sahar Ghannay and N. Tomashenko and Y. Estève},\n booktitle = {International Conference on Speech and Computer},\n journal = {ArXiv},\n title = {TED-LIUM 3: twice as much data and corpus repartition for experiments on speaker adaptation},\n volume = {abs/1805.04699},\n year = {2018}\n}\n"
     }
 }

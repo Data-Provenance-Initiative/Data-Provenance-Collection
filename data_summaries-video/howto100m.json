@@ -55,6 +55,7 @@
             "PwC License URL": "https://www.di.ens.fr/willow/research/howto100m/",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Miech2019HowTo100MLA,\n author = {Antoine Miech and Dimitri Zhukov and Jean-Baptiste Alayrac and Makarand Tapaswi and I. Laptev and Josef Sivic},\n booktitle = {IEEE International Conference on Computer Vision},\n journal = {2019 IEEE/CVF International Conference on Computer Vision (ICCV)},\n pages = {2630-2640},\n title = {HowTo100M: Learning a Text-Video Embedding by Watching Hundred Million Narrated Video Clips},\n year = {2019}\n}\n"
     }
 }
