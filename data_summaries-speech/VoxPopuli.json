@@ -99,6 +99,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Wang2021VoxPopuliAL,\n author = {Changhan Wang and M. Rivière and Ann Lee and Anne Wu and Chaitanya Talnikar and Daniel Haziza and Mary Williamson and J. Pino and Emmanuel Dupoux},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {VoxPopuli: A Large-Scale Multilingual Speech Corpus for Representation Learning, Semi-Supervised Learning and Interpretation},\n volume = {abs/2101.00390},\n year = {2021}\n}\n"
     }
 }

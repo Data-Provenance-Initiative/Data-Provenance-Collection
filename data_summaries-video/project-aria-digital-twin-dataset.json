@@ -51,6 +51,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Somasundaram2023ProjectAA,\n author = {K. Somasundaram and Jing Dong and Huixuan Tang and Julian Straub and Mingfei Yan and M. Goesele and Jakob J. Engel and R. D. Nardi and Richard A. Newcombe},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Project Aria: A New Tool for Egocentric Multi-Modal AI Research},\n volume = {abs/2308.13561},\n year = {2023}\n}\n"
     }
 }

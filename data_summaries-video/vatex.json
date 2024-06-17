@@ -53,6 +53,7 @@
             "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Wang2019VaTeXAL,\n author = {Xin Eric Wang and Jiawei Wu and Junkun Chen and Lei Li and Yuan-fang Wang and William Yang Wang},\n booktitle = {IEEE International Conference on Computer Vision},\n journal = {2019 IEEE/CVF International Conference on Computer Vision (ICCV)},\n pages = {4580-4590},\n title = {VaTeX: A Large-Scale, High-Quality Multilingual Dataset for Video-and-Language Research},\n year = {2019}\n}\n"
     }
 }

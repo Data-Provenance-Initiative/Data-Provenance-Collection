@@ -80,6 +80,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Coats2019ACO,\n author = {Steven Coats},\n booktitle = {Digital Humanities in the Nordic Countries Conference},\n pages = {79-91},\n title = {A Corpus of Regional American Language from YouTube},\n year = {2019}\n}\n"
     }
 }

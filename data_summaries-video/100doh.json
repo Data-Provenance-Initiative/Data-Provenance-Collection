@@ -57,6 +57,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Shan2020UnderstandingHH,\n author = {Dandan Shan and Jiaqi Geng and Michelle Shu and D. Fouhey},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {9866-9875},\n title = {Understanding Human Hands in Contact at Internet Scale},\n year = {2020}\n}\n"
     }
 }

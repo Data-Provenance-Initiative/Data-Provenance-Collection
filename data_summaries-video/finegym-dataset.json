@@ -51,6 +51,7 @@
             "PwC License URL": "https://creativecommons.org/licenses/by-nc/4.0/",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Shao2020FineGymAH,\n author = {Dian Shao and Yue Zhao and Bo Dai and Dahua Lin},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {2613-2622},\n title = {FineGym: A Hierarchical Video Dataset for Fine-Grained Action Understanding},\n year = {2020}\n}\n"
     }
 }

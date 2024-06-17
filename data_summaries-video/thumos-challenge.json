@@ -3,8 +3,8 @@
         "Unique Dataset Identifier": "thumos-challenge",
         "Collection": "thumos-challenge",
         "Collection URL": "https://arxiv.org/pdf/1604.06182.pdf",
-        "Dataset Name": "The THUMOS Challenge on Action Recognition for\nVideos “in the Wild”",
-        "Paper Title": "The THUMOS Challenge on Action Recognition for\nVideos “in the Wild”",
+        "Dataset Name": "The THUMOS Challenge on Action Recognition for Videos “in the Wild”",
+        "Paper Title": "The THUMOS Challenge on Action Recognition for Videos “in the Wild”",
         "Paper URL": "https://arxiv.org/pdf/1604.06182.pdf",
         "GitHub URL": "",
         "Hugging Face URL": "",
@@ -55,6 +55,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Misc{None,\n author = {Haroon Idrees and Amir Zamir and Yu-Gang Jiang and Alexander N. Gorban and I. Laptev and R. Sukthankar and M. Shah},\n title = {Computer Vision and Image Understanding}\n}\n"
     }
 }

@@ -79,6 +79,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Takamichi2021JTubeSpeechCO,\n author = {Shinnosuke Takamichi and Ludwig Kurzinger and Takaaki Saeki and Sayaka Shiota and Shinji Watanabe},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {JTubeSpeech: corpus of Japanese speech collected from YouTube for speech recognition and speaker verification},\n volume = {abs/2112.09323},\n year = {2021}\n}\n"
     }
 }

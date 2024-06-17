@@ -52,6 +52,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Sun2020EEVDP,\n author = {Jennifer J. Sun and Ting Liu and Alan S. Cowen and Florian Schroff and Hartwig Adam and Gautam Prasad},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {EEV Dataset: Predicting Expressions Evoked by Diverse Videos},\n volume = {abs/2001.05488},\n year = {2020}\n}\n"
     }
 }

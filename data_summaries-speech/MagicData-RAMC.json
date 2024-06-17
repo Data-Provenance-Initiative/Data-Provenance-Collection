@@ -94,6 +94,7 @@
             "PwC License URL": "https://creativecommons.org/licenses/by-nc/4.0/",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Yang2022OpenSM,\n author = {Zehui Yang and Yifan Chen and Lei Luo and Runyan Yang and Lingxuan Ye and Gaofeng Cheng and Ji Xu and Yaohui Jin and Qingqing Zhang and Pengyuan Zhang and Lei Xie and Yonghong Yan},\n booktitle = {Interspeech},\n pages = {1736-1740},\n title = {Open Source MagicData-RAMC: A Rich Annotated Mandarin Conversational(RAMC) Speech Dataset},\n year = {2022}\n}\n"
     }
 }

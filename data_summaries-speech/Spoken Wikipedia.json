@@ -82,6 +82,7 @@
             "PwC License URL": "https://creativecommons.org/licenses/by-sa/4.0/",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Baumann2018TheSW,\n author = {Timo Baumann and Arne Köhn and Felix Hennig},\n booktitle = {Language Resources and Evaluation},\n journal = {Language Resources and Evaluation},\n pages = {303 - 329},\n title = {The Spoken Wikipedia Corpus collection: Harvesting, alignment and an application to hyperlistening},\n volume = {53},\n year = {2018}\n}\n"
     }
 }

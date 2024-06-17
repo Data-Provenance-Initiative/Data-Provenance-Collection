@@ -84,6 +84,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Mubarak2021QASRQA,\n author = {Hamdy Mubarak and A. Hussein and S. A. Chowdhury and Ahmed M. Ali},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {QASR: QCRI Aljazeera Speech Resource A Large Scale Annotated Arabic Speech Corpus},\n volume = {abs/2106.13000},\n year = {2021}\n}\n"
     }
 }

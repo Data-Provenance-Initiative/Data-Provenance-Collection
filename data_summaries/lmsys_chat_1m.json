@@ -98,6 +98,7 @@
             "PwC License URL": "",
             "S2 Citation Count (May 2024)": 36,
             "S2 Date": "2023-09-21"
-        }
+        },
+        "Bibtex": "@Article{Zheng2023LMSYSChat1MAL,\n author = {Lianmin Zheng and Wei-Lin Chiang and Ying Sheng and Tianle Li and Siyuan Zhuang and Zhanghao Wu and Yonghao Zhuang and Zhuohan Li and Zi Lin and Eric P. Xing and Joseph E. Gonzalez and Ion Stoica and Haotong Zhang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {LMSYS-Chat-1M: A Large-Scale Real-World LLM Conversation Dataset},\n volume = {abs/2309.11998},\n year = {2023}\n}\n"
     }
 }

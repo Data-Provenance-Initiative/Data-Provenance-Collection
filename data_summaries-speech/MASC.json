@@ -94,6 +94,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Al-Fetyani2023MASCMA,\n author = {Mohammad Al-Fetyani and Muhammad Al-Barham and Gheith A. Abandah and A. Alsharkawi and Maha Dawas},\n booktitle = {Spoken Language Technology Workshop},\n journal = {2022 IEEE Spoken Language Technology Workshop (SLT)},\n pages = {1006-1013},\n title = {MASC: Massive Arabic Speech Corpus},\n year = {2023}\n}\n"
     }
 }

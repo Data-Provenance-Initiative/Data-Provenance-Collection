@@ -52,6 +52,7 @@
             "PwC License URL": "http://youcook2.eecs.umich.edu/download",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Zhou2017TowardsAL,\n author = {Luowei Zhou and Chenliang Xu and Jason J. Corso},\n booktitle = {AAAI Conference on Artificial Intelligence},\n pages = {7590-7598},\n title = {Towards Automatic Learning of Procedures From Web Instructional Videos},\n year = {2017}\n}\n"
     }
 }

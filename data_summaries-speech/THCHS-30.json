@@ -75,6 +75,7 @@
             "PwC License URL": "http://166.111.134.19:7777/data/thchs30/README.html",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Wang2015THCHS30A,\n author = {Dong Wang and Xuewei Zhang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {THCHS-30 : A Free Chinese Speech Corpus},\n volume = {abs/1512.01882},\n year = {2015}\n}\n"
     }
 }

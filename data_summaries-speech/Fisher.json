@@ -110,6 +110,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Cieri2004TheFC,\n author = {C. Cieri and David Miller and Kevin Walker},\n booktitle = {International Conference on Language Resources and Evaluation},\n title = {The Fisher Corpus: a Resource for the Next Generations of Speech-to-Text},\n year = {2004}\n}\n"
     }
 }

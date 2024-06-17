@@ -59,6 +59,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Zhang2021VideoLTLL,\n author = {Xing Zhang and Zuxuan Wu and Zejia Weng and H. Fu and Jingjing Chen and Yu-Gang Jiang and Larry S. Davis},\n booktitle = {IEEE International Conference on Computer Vision},\n journal = {2021 IEEE/CVF International Conference on Computer Vision (ICCV)},\n pages = {7940-7949},\n title = {VideoLT: Large-scale Long-tailed Video Recognition},\n year = {2021}\n}\n"
     }
 }
