@@ -13,5 +13,6 @@ CREATOR_COUNTRY_CONSTANTS_FP = "creator_groups_by_country.json"
 FORMATS_CONSTANTS_FP = "data_formats.json"
 DOMAINS_CONSTANTS_FP = "domain_groups.json"
 DOMAIN_TYPES_CONSTANTS_FP = "domain_types.json"
+SOURCE_NAME_MAPPER_FP = "source_name_mapper.json"
 
 LICENSE_USE_TYPES = ['commercial', 'unspecified', 'non-commercial', 'academic-only']
