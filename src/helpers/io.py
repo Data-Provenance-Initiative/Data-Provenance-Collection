@@ -121,6 +121,7 @@ def read_all_constants(constants_dir):
     topic_groups = read_json(os.path.join(constants_dir, constants.TOPIC_CONSTANTS_FP))
     domain_groups = read_json(os.path.join(constants_dir, constants.DOMAINS_CONSTANTS_FP))
     domain_types = read_json(os.path.join(constants_dir, constants.DOMAIN_TYPES_CONSTANTS_FP))
+    source_namemapper = read_json(os.path.join(constants_dir, constants.SOURCE_NAME_MAPPER_FP))
 
     return {
         "LICENSE_CLASSES": license_classes,
@@ -134,7 +135,8 @@ def read_all_constants(constants_dir):
         "FORMATS": all_formats,
         "TOPICS": topic_groups,
         "DOMAIN_GROUPS": domain_groups,
-        "DOMAIN_TYPES": domain_types
+        "DOMAIN_TYPES": domain_types,
+        "SOURCE_NAME_MAPPER": source_namemapper,
     }
 
 
