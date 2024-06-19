@@ -689,29 +689,6 @@ def robots_temporal_to_df(filled_status_summary, strictness_order, url_to_counts
     return summary_df
 
 
-# # Example usage:
-# filled_status_summary = {
-#     '2023-01': {
-#         'AgentA': {
-#             'OK': {'url1', 'url2'},
-#             'Blocked': {'url3'}
-#         },
-#         'AgentB': {
-#             'OK': {'url1'},
-#             'Blocked': {'url2', 'url4'}
-#         }
-#     }
-# }
-# url_to_counts = {
-#     'url1': 100,
-#     'url2': 200,
-#     'url3': 300,
-#     'url4': 400
-# }
-# strictness_order = ['OK', 'Blocked']
-
-# summary_df = robots_temporal_to_df(filled_status_summary, url_to_counts, strictness_order)
-# print(summary_df)
 
 
 def get_latest_url_robot_statuses(url_robots_summary, agents):
