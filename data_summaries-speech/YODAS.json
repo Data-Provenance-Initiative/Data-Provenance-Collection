@@ -400,6 +400,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Li2023YodasYD,\n author = {Xinjian Li and Shinnosuke Takamichi and Takaaki Saeki and William Chen and Sayaka Shiota and Shinji Watanabe},\n booktitle = {Automatic Speech Recognition & Understanding},\n journal = {2023 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)},\n pages = {1-8},\n title = {Yodas: Youtube-Oriented Dataset for Audio and Speech},\n year = {2023}\n}\n"
     }
 }

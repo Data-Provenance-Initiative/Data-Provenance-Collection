@@ -3,6 +3,10 @@ import preparers as preparers
 
 
 COLLECTION_FN_MAPPER = {
+    "Open-Platypus": {
+        "download_function": downloaders.download_open_platypus,
+        "prepare_function": preparers.prepare_open_platypus,
+    },
     "Flan Collection (Super-NaturalInstructions)": {
         "download_function": downloaders.download_flan_collection_sni,
         "prepare_function": preparers.prepare_flan_collection,

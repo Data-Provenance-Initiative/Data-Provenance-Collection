@@ -66,7 +66,8 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": ""
     },
     "op-arb": {
         "Unique Dataset Identifier": "op-arb",
@@ -146,7 +147,8 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Sawada2023ARBAR,\n author = {Tomohiro Sawada and Daniel Paleka and Alexander Havrilla and Pranav Tadepalli and Paula Vidas and Alexander Kranias and John J. Nay and Kshitij Gupta and Aran Komatsuzaki},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {ARB: Advanced Reasoning Benchmark for Large Language Models},\n volume = {abs/2307.13692},\n year = {2023}\n}\n"
     },
     "op-ne_leetcode": {
         "Unique Dataset Identifier": "op-ne_leetcode",
@@ -215,7 +217,8 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": ""
     },
     "op-openassistant_guanaco": {
         "Unique Dataset Identifier": "op-openassistant_guanaco",
@@ -317,7 +320,8 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Dettmers2023QLoRAEF,\n author = {Tim Dettmers and Artidoro Pagnoni and Ari Holtzman and Luke Zettlemoyer},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {QLoRA: Efficient Finetuning of Quantized LLMs},\n volume = {abs/2305.14314},\n year = {2023}\n}\n"
     },
     "op-prm800k": {
         "Unique Dataset Identifier": "op-prm800k",
@@ -395,7 +399,8 @@
             "PwC License URL": "https://github.com/openai/prm800k/blob/main/LICENSE",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Lightman2023LetsVS,\n author = {Hunter Lightman and V. Kosaraju and Yura Burda and Harrison Edwards and Bowen Baker and Teddy Lee and J. Leike and John Schulman and I. Sutskever and Karl Cobbe},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Let's Verify Step by Step},\n volume = {abs/2305.20050},\n year = {2023}\n}\n"
     },
     "op-reclor": {
         "Unique Dataset Identifier": "op-reclor",
@@ -469,7 +474,8 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Yu2020ReClorAR,\n author = {Weihao Yu and Zihang Jiang and Yanfei Dong and Jiashi Feng},\n booktitle = {International Conference on Learning Representations},\n journal = {ArXiv},\n title = {ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning},\n volume = {abs/2002.04326},\n year = {2020}\n}\n"
     },
     "op-scibench": {
         "Unique Dataset Identifier": "op-scibench",
@@ -542,7 +548,8 @@
             "PwC License URL": "https://github.com/mandyyyyii/scibench/blob/main/LICENSE",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Wang2023SciBenchEC,\n author = {Xiaoxuan Wang and Ziniu Hu and Pan Lu and Yanqiao Zhu and Jieyu Zhang and Satyen Subramaniam and Arjun R. Loomba and Shichang Zhang and Yizhou Sun and Wei Wang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models},\n volume = {abs/2307.10635},\n year = {2023}\n}\n"
     },
     "op-scienceqa": {
         "Unique Dataset Identifier": "op-scienceqa",
@@ -610,7 +617,8 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Lu2022LearnTE,\n author = {Pan Lu and Swaroop Mishra and Tony Xia and Liang Qiu and Kai-Wei Chang and Song-Chun Zhu and Oyvind Tafjord and Peter Clark and A. Kalyan},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering},\n volume = {abs/2209.09513},\n year = {2022}\n}\n"
     },
     "op-theoremqa": {
         "Unique Dataset Identifier": "op-theoremqa",
@@ -683,7 +691,8 @@
             "PwC License URL": "https://raw.githubusercontent.com/wenhuchen/TheoremQA/main/LICENSE",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Chen2023TheoremQAAT,\n author = {Wenhu Chen and Ming Yin and Max W.F. Ku and Yixin Wan and Xueguang Ma and Jianyu Xu and Tony Xia and Xinyi Wang and Pan Lu},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {TheoremQA: A Theorem-driven Question Answering dataset},\n volume = {abs/2305.12524},\n year = {2023}\n}\n"
     },
     "op-tigerbot_leetcode": {
         "Unique Dataset Identifier": "op-tigerbot_leetcode",
@@ -749,6 +758,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": ""
     }
 }

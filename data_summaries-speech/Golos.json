@@ -81,6 +81,7 @@
             "PwC License URL": "https://github.com/sberdevices/golos/blob/master/license/en_us.pdf",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Karpov2021GolosRD,\n author = {N. Karpov and Alexander A. Denisenko and Fedor Minkin},\n booktitle = {Interspeech},\n pages = {1419-1423},\n title = {Golos: Russian Dataset for Speech Research},\n year = {2021}\n}\n"
     }
 }

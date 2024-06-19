@@ -83,6 +83,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Carletta2005TheAM,\n author = {J. Carletta and S. Ashby and S. Bourban and Mike Flynn and M. Guillemot and Thomas Hain and J. Kadlec and Vasilis Karaiskos and Wessel Kraaij and Melissa Kronenthal and Guillaume Lathoud and Mike Lincoln and Agnes Lisowska Masson and I. McCowan and W. Post and D. Reidsma and P. Wellner},\n booktitle = {Machine Learning for Multimodal Interaction},\n pages = {28-39},\n title = {The AMI Meeting Corpus: A Pre-announcement},\n year = {2005}\n}\n"
     }
 }

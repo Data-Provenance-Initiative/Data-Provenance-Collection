@@ -53,6 +53,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Kong2019MMActAL,\n author = {Quan Kong and Ziming Wu and Ziwei Deng and Martin Klinkigt and Bin Tong and Tomokazu Murakami},\n booktitle = {IEEE International Conference on Computer Vision},\n journal = {2019 IEEE/CVF International Conference on Computer Vision (ICCV)},\n pages = {8657-8666},\n title = {MMAct: A Large-Scale Dataset for Cross Modal Human Action Understanding},\n year = {2019}\n}\n"
     }
 }

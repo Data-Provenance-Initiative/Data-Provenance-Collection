@@ -87,6 +87,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Fu2021AISHELL4AO,\n author = {Yihui Fu and Luyao Cheng and Shubo Lv and Yukai Jv and Yuxiang Kong and Zhuo Chen and Yanxin Hu and Lei Xie and Jian Wu and Hui Bu and Xin Xu and Jun Du and Jingdong Chen},\n booktitle = {Interspeech},\n pages = {3665-3669},\n title = {AISHELL-4: An Open Source Dataset for Speech Enhancement, Separation, Recognition and Speaker Diarization in Conference Scenario},\n year = {2021}\n}\n"
     }
 }

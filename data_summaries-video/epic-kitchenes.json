@@ -57,6 +57,7 @@
             "PwC License URL": "https://epic-kitchens.github.io/2021",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Damen2018ScalingEV,\n author = {D. Damen and Hazel Doughty and G. Farinella and S. Fidler and Antonino Furnari and E. Kazakos and D. Moltisanti and Jonathan Munro and Toby Perrett and Will Price and Michael Wray},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Scaling Egocentric Vision: The EPIC-KITCHENS Dataset},\n volume = {abs/1804.02748},\n year = {2018}\n}\n"
     }
 }

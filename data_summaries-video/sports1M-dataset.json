@@ -51,6 +51,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Karpathy2014LargeScaleVC,\n author = {A. Karpathy and G. Toderici and Sanketh Shetty and Thomas Leung and R. Sukthankar and Li Fei-Fei},\n booktitle = {2014 IEEE Conference on Computer Vision and Pattern Recognition},\n journal = {2014 IEEE Conference on Computer Vision and Pattern Recognition},\n pages = {1725-1732},\n title = {Large-Scale Video Classification with Convolutional Neural Networks},\n year = {2014}\n}\n"
     }
 }

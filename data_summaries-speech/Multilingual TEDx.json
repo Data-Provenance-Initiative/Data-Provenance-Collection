@@ -101,6 +101,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Salesky2021TheMT,\n author = {Elizabeth Salesky and Matthew Wiesner and Jacob Bremerman and R. Cattoni and Matteo Negri and Marco Turchi and Douglas W. Oard and Matt Post},\n booktitle = {Interspeech},\n journal = {ArXiv},\n title = {The Multilingual TEDx Corpus for Speech Recognition and Translation},\n volume = {abs/2102.01757},\n year = {2021}\n}\n"
     }
 }

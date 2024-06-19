@@ -51,6 +51,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Epstein2019OopsPU,\n author = {Dave Epstein and Boyuan Chen and Carl Vondrick},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {916-926},\n title = {Oops! Predicting Unintentional Action in Video},\n year = {2019}\n}\n"
     }
 }

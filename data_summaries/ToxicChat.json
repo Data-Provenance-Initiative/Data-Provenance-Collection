@@ -84,6 +84,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Lin2023ToxicChatUH,\n author = {Zi Lin and Zihan Wang and Yongqi Tong and Yangkun Wang and Yuxin Guo and Yujia Wang and Jingbo Shang},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {4694-4702},\n title = {ToxicChat: Unveiling Hidden Challenges of Toxicity Detection in Real-World User-AI Conversation},\n year = {2023}\n}\n"
     }
 }

@@ -64,7 +64,6 @@
         "Dataset Filter IDs": [
             "ShareGPT"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 346,
@@ -100,7 +99,8 @@
             "Min Dialog Turns": 8,
             "Max Dialog Turns": 972,
             "Mean Dialog Turns": 48.4857
-        }
+        },
+        "Bibtex": "@Article{Liu2023WhatMG,\n author = {Wei Liu and Weihao Zeng and Keqing He and Yong Jiang and Junxian He},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning},\n volume = {abs/2312.15685},\n year = {2023}\n}\n"
     },
     "deita-10k-ultrachat": {
         "Unique Dataset Identifier": "deita-10k-ultrachat",
@@ -164,7 +164,6 @@
         "Dataset Filter IDs": [
             "UltraChat"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 346,
@@ -200,6 +199,7 @@
             "Min Dialog Turns": 8,
             "Max Dialog Turns": 14,
             "Mean Dialog Turns": 13.5674
-        }
+        },
+        "Bibtex": "@Article{Liu2023WhatMG,\n author = {Wei Liu and Weihao Zeng and Keqing He and Yong Jiang and Junxian He},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning},\n volume = {abs/2312.15685},\n year = {2023}\n}\n"
     }
 }

@@ -61,6 +61,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Huang2020MovieNetAH,\n author = {Qingqiu Huang and Yu Xiong and Anyi Rao and Jiaze Wang and Dahua Lin},\n booktitle = {European Conference on Computer Vision},\n pages = {709-727},\n title = {MovieNet: A Holistic Dataset for Movie Understanding},\n year = {2020}\n}\n"
     }
 }

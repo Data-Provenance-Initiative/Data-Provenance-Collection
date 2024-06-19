@@ -51,6 +51,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Book{Sigurdsson2018ActorAO,\n author = {Gunnar A. Sigurdsson and A. Gupta and C. Schmid and Ali Farhadi and Alahari Karteek},\n booktitle = {2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n journal = {2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n pages = {7396-7404},\n title = {Actor and Observer: Joint Modeling of First and Third-Person Videos},\n year = {2018}\n}\n"
     }
 }

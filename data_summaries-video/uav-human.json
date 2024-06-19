@@ -57,6 +57,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Li2021UAVHumanAL,\n author = {Tianjiao Li and Jun Liu and Wei Zhang and Yun Ni and Wenqian Wang and Zhiheng Li},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {16261-16270},\n title = {UAV-Human: A Large Benchmark for Human Behavior Understanding with Unmanned Aerial Vehicles},\n year = {2021}\n}\n"
     }
 }

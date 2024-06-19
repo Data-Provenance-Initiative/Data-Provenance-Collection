@@ -80,6 +80,7 @@
             "PwC License URL": "https://github.com/kaldi-asr/kaldi/tree/master/egs/aishell2",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Du2018AISHELL2TM,\n author = {Jiayu Du and Xingyu Na and Xuechen Liu and Hui Bu},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {AISHELL-2: Transforming Mandarin ASR Research Into Industrial Scale},\n volume = {abs/1808.10583},\n year = {2018}\n}\n"
     }
 }

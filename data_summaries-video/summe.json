@@ -54,6 +54,7 @@
             "PwC License URL": "https://gyglim.github.io/me/vsum/index.html#benchmark",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Gygli2014CreatingSF,\n author = {Michael Gygli and H. Grabner and Hayko Riemenschneider and L. Gool},\n booktitle = {European Conference on Computer Vision},\n pages = {505-520},\n title = {Creating Summaries from User Videos},\n year = {2014}\n}\n"
     }
 }

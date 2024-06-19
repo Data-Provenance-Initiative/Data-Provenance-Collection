@@ -87,6 +87,7 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Zhou2023COBRAFC,\n author = {Xuhui Zhou and Haojie Zhu and Akhila Yerukola and Thomas Davidson and Jena D. Hwang and Swabha Swayamdipta and Maarten Sap},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {COBRA Frames: Contextual Reasoning about Effects and Harms of Offensive Statements},\n volume = {abs/2306.01985},\n year = {2023}\n}\n"
     }
 }

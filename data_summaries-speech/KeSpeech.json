@@ -74,6 +74,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Tang2021KeSpeechAO,\n author = {Zhiyuan Tang and Dong Wang and Yanguang Xu and Jianwei Sun and Xiaoning Lei and Shuaijiang Zhao and Cheng Wen and Xi Tan and Chuandong Xie and Shuran Zhou and Rui Yan and Chenjia Lv and Yang Han and Wei Zou and Xiangang Li},\n booktitle = {NeurIPS Datasets and Benchmarks},\n title = {KeSpeech: An Open Source Speech Dataset of Mandarin and Its Eight Subdialects},\n year = {2021}\n}\n"
     }
 }

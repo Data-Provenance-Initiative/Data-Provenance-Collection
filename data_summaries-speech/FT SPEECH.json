@@ -79,6 +79,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Kirkedal2020FTSD,\n author = {Andreas Søeborg Kirkedal and Marija Stepanović and Barbara Plank},\n booktitle = {Interspeech},\n journal = {ArXiv},\n title = {FT Speech: Danish Parliament Speech Corpus},\n volume = {abs/2005.12368},\n year = {2020}\n}\n"
     }
 }

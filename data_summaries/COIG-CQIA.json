@@ -183,7 +183,6 @@
         "Dataset Filter IDs": [
             "coig-cqia-coig-pc"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": 51,
@@ -214,7 +213,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Bai2024COIGCQIAQI,\n author = {Yuelin Bai and Xinrun Du and Yiming Liang and Yonggang Jin and Ziqiang Liu and Junting Zhou and Tianyu Zheng and Xincheng Zhang and Nuo Ma and Zekun Wang and Ruibin Yuan and Haihong Wu and Hongquan Lin and Wenhao Huang and Jiajun Zhang and Wenhu Chen and Chenghua Lin and Jie Fu and Min Yang and Shiwen Ni and Ge Zhang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {COIG-CQIA: Quality is All You Need for Chinese Instruction Fine-tuning},\n volume = {abs/2403.18058},\n year = {2024}\n}\n"
     },
     "coig-cqia-douban": {
         "Unique Dataset Identifier": "coig-cqia-douban",
@@ -260,7 +260,6 @@
         "Dataset Filter IDs": [
             "coig-cqia-douban"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": 51,
@@ -291,7 +290,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Bai2024COIGCQIAQI,\n author = {Yuelin Bai and Xinrun Du and Yiming Liang and Yonggang Jin and Ziqiang Liu and Junting Zhou and Tianyu Zheng and Xincheng Zhang and Nuo Ma and Zekun Wang and Ruibin Yuan and Haihong Wu and Hongquan Lin and Wenhao Huang and Jiajun Zhang and Wenhu Chen and Chenghua Lin and Jie Fu and Min Yang and Shiwen Ni and Ge Zhang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {COIG-CQIA: Quality is All You Need for Chinese Instruction Fine-tuning},\n volume = {abs/2403.18058},\n year = {2024}\n}\n"
     },
     "coig-cqia-exam": {
         "Unique Dataset Identifier": "coig-cqia-exam",
@@ -683,7 +683,6 @@
         "Dataset Filter IDs": [
             "coig-cqia-finance"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": 51,
@@ -714,7 +713,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Bai2024COIGCQIAQI,\n author = {Yuelin Bai and Xinrun Du and Yiming Liang and Yonggang Jin and Ziqiang Liu and Junting Zhou and Tianyu Zheng and Xincheng Zhang and Nuo Ma and Zekun Wang and Ruibin Yuan and Haihong Wu and Hongquan Lin and Wenhao Huang and Jiajun Zhang and Wenhu Chen and Chenghua Lin and Jie Fu and Min Yang and Shiwen Ni and Ge Zhang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {COIG-CQIA: Quality is All You Need for Chinese Instruction Fine-tuning},\n volume = {abs/2403.18058},\n year = {2024}\n}\n"
     },
     "coig-cqia-human-value": {
         "Unique Dataset Identifier": "coig-cqia-human-value",
@@ -850,7 +850,6 @@
         "Dataset Filter IDs": [
             "coig-cqia-logi-qa"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": 51,
@@ -881,7 +880,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Bai2024COIGCQIAQI,\n author = {Yuelin Bai and Xinrun Du and Yiming Liang and Yonggang Jin and Ziqiang Liu and Junting Zhou and Tianyu Zheng and Xincheng Zhang and Nuo Ma and Zekun Wang and Ruibin Yuan and Haihong Wu and Hongquan Lin and Wenhao Huang and Jiajun Zhang and Wenhu Chen and Chenghua Lin and Jie Fu and Min Yang and Shiwen Ni and Ge Zhang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {COIG-CQIA: Quality is All You Need for Chinese Instruction Fine-tuning},\n volume = {abs/2403.18058},\n year = {2024}\n}\n"
     },
     "coig-cqia-ruozhiba": {
         "Unique Dataset Identifier": "coig-cqia-ruozhiba",
@@ -1006,7 +1006,6 @@
         "Dataset Filter IDs": [
             "coig-cqia-segmentfault"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": 51,
@@ -1037,7 +1036,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Bai2024COIGCQIAQI,\n author = {Yuelin Bai and Xinrun Du and Yiming Liang and Yonggang Jin and Ziqiang Liu and Junting Zhou and Tianyu Zheng and Xincheng Zhang and Nuo Ma and Zekun Wang and Ruibin Yuan and Haihong Wu and Hongquan Lin and Wenhao Huang and Jiajun Zhang and Wenhu Chen and Chenghua Lin and Jie Fu and Min Yang and Shiwen Ni and Ge Zhang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {COIG-CQIA: Quality is All You Need for Chinese Instruction Fine-tuning},\n volume = {abs/2403.18058},\n year = {2024}\n}\n"
     },
     "coig-cqia-wiki": {
         "Unique Dataset Identifier": "coig-cqia-wiki",
@@ -1086,7 +1086,6 @@
         "Dataset Filter IDs": [
             "coig-cqia-wiki"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": 51,
@@ -1117,7 +1116,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Bai2024COIGCQIAQI,\n author = {Yuelin Bai and Xinrun Du and Yiming Liang and Yonggang Jin and Ziqiang Liu and Junting Zhou and Tianyu Zheng and Xincheng Zhang and Nuo Ma and Zekun Wang and Ruibin Yuan and Haihong Wu and Hongquan Lin and Wenhao Huang and Jiajun Zhang and Wenhu Chen and Chenghua Lin and Jie Fu and Min Yang and Shiwen Ni and Ge Zhang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {COIG-CQIA: Quality is All You Need for Chinese Instruction Fine-tuning},\n volume = {abs/2403.18058},\n year = {2024}\n}\n"
     },
     "coig-cqia-wikihow": {
         "Unique Dataset Identifier": "coig-cqia-wikihow",
@@ -1245,7 +1245,6 @@
         "Dataset Filter IDs": [
             "coig-cqia-xhs"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": 51,
@@ -1276,7 +1275,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Bai2024COIGCQIAQI,\n author = {Yuelin Bai and Xinrun Du and Yiming Liang and Yonggang Jin and Ziqiang Liu and Junting Zhou and Tianyu Zheng and Xincheng Zhang and Nuo Ma and Zekun Wang and Ruibin Yuan and Haihong Wu and Hongquan Lin and Wenhao Huang and Jiajun Zhang and Wenhu Chen and Chenghua Lin and Jie Fu and Min Yang and Shiwen Ni and Ge Zhang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {COIG-CQIA: Quality is All You Need for Chinese Instruction Fine-tuning},\n volume = {abs/2403.18058},\n year = {2024}\n}\n"
     },
     "coig-cqia-zhihu": {
         "Unique Dataset Identifier": "coig-cqia-zhihu",
@@ -1322,7 +1322,6 @@
         "Dataset Filter IDs": [
             "coig-cqia-zhihu"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": 51,
@@ -1353,6 +1352,7 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Bai2024COIGCQIAQI,\n author = {Yuelin Bai and Xinrun Du and Yiming Liang and Yonggang Jin and Ziqiang Liu and Junting Zhou and Tianyu Zheng and Xincheng Zhang and Nuo Ma and Zekun Wang and Ruibin Yuan and Haihong Wu and Hongquan Lin and Wenhao Huang and Jiajun Zhang and Wenhu Chen and Chenghua Lin and Jie Fu and Min Yang and Shiwen Ni and Ge Zhang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {COIG-CQIA: Quality is All You Need for Chinese Instruction Fine-tuning},\n volume = {abs/2403.18058},\n year = {2024}\n}\n"
     }
 }

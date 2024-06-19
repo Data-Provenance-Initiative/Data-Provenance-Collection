@@ -51,6 +51,7 @@
             "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Carreira2018ASN,\n author = {João Carreira and Eric Noland and Andras Banki-Horvath and Chloe Hillier and Andrew Zisserman},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {A Short Note about Kinetics-600},\n volume = {abs/1808.01340},\n year = {2018}\n}\n"
     }
 }

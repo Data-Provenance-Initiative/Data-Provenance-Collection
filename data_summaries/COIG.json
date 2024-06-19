@@ -132,7 +132,6 @@
         "Dataset Filter IDs": [
             "coig-exam-instruction"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": 123,
@@ -163,7 +162,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Zhang2023ChineseOI,\n author = {Ge Zhang and Yemin Shi and Ruibo Liu and Ruibin Yuan and Yizhi Li and Siwei Dong and Yu Shu and Zhaoqun Li and Zekun Wang and Chenghua Lin and Wen-Fen Huang and Jie Fu},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Chinese Open Instruction Generalist: A Preliminary Release},\n volume = {abs/2304.07987},\n year = {2023}\n}\n"
     },
     "coig-alignment-instruction": {
         "Unique Dataset Identifier": "coig-alignment-instruction",
@@ -215,7 +215,6 @@
         "Dataset Filter IDs": [
             "coig-alignment-instruction"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": 123,
@@ -246,7 +245,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Zhang2023ChineseOI,\n author = {Ge Zhang and Yemin Shi and Ruibo Liu and Ruibin Yuan and Yizhi Li and Siwei Dong and Yu Shu and Zhaoqun Li and Zekun Wang and Chenghua Lin and Wen-Fen Huang and Jie Fu},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Chinese Open Instruction Generalist: A Preliminary Release},\n volume = {abs/2304.07987},\n year = {2023}\n}\n"
     },
     "coig-counterfactual-correction": {
         "Unique Dataset Identifier": "coig-counterfactual-correction",
