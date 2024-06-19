@@ -51,6 +51,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Book{Stein2013CombiningEA,\n author = {Sebastian Stein and S. McKenna},\n booktitle = {Ubiquitous Computing},\n journal = {Proceedings of the 2013 ACM international joint conference on Pervasive and ubiquitous computing},\n title = {Combining embedded accelerometers with computer vision for recognizing food preparation activities},\n year = {2013}\n}\n"
     }
 }

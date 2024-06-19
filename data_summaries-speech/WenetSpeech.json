@@ -90,6 +90,7 @@
             "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Zhang2021WENETSPEECHA1,\n author = {Binbin Zhang and Hang Lv and Pengcheng Guo and Qijie Shao and Chao Yang and Lei Xie and Xin Xu and Hui Bu and Xiaoyu Chen and Chenchen Zeng and Di Wu and Zhendong Peng},\n booktitle = {IEEE International Conference on Acoustics, Speech, and Signal Processing},\n journal = {ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},\n pages = {6182-6186},\n title = {WENETSPEECH: A 10000+ Hours Multi-Domain Mandarin Corpus for Speech Recognition},\n year = {2021}\n}\n"
     }
 }

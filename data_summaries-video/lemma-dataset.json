@@ -53,6 +53,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Jia2020LEMMAAM,\n author = {Baoxiong Jia and Yixin Chen and Siyuan Huang and Yixin Zhu and Song-Chun Zhu},\n booktitle = {European Conference on Computer Vision},\n journal = {ArXiv},\n title = {LEMMA: A Multi-view Dataset for Learning Multi-agent Multi-task Activities},\n volume = {abs/2007.15781},\n year = {2020}\n}\n"
     }
 }

@@ -63,6 +63,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Duan2020OmnisourcedWL,\n author = {Haodong Duan and Yue Zhao and Yuanjun Xiong and Wentao Liu and Dahua Lin},\n booktitle = {European Conference on Computer Vision},\n journal = {ArXiv},\n title = {Omni-sourced Webly-supervised Learning for Video Recognition},\n volume = {abs/2003.13042},\n year = {2020}\n}\n"
     }
 }

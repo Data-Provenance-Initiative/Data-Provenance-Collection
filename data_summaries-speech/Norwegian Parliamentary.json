@@ -78,6 +78,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Solberg2022TheNP,\n author = {Per Erik Solberg and Pablo Ortiz},\n booktitle = {International Conference on Language Resources and Evaluation},\n journal = {ArXiv},\n title = {The Norwegian Parliamentary Speech Corpus},\n volume = {abs/2201.10881},\n year = {2022}\n}\n"
     }
 }

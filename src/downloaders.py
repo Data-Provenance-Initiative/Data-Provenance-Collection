@@ -680,7 +680,7 @@ def download_pii_masking_200k(accepted_filter_ids):
 
 
 def download_no_robots(accepted_filter_ids):
-    dset = huggingface_download("HuggingFaceH4/no_robots", split="train_sft")
+    dset = huggingface_download("HuggingFaceH4/no_robots", split="train")
     return pool_filter(dset, "category", accepted_filter_ids)
 
 

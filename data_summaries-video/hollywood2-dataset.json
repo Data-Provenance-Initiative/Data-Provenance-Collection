@@ -51,6 +51,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Marszalek2009ActionsIC,\n author = {Marcin Marszalek and I. Laptev and C. Schmid},\n booktitle = {2009 IEEE Conference on Computer Vision and Pattern Recognition},\n journal = {2009 IEEE Conference on Computer Vision and Pattern Recognition},\n pages = {2929-2936},\n title = {Actions in context},\n year = {2009}\n}\n"
     }
 }

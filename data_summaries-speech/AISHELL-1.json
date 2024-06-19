@@ -88,6 +88,7 @@
             "PwC License URL": "http://www.openslr.org/33/",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Bu2017AISHELL1AO,\n author = {Hui Bu and Jiayu Du and Xingyu Na and Bengu Wu and Hao Zheng},\n booktitle = {Oriental COCOSDA International Conference on Speech Database and Assessments},\n journal = {2017 20th Conference of the Oriental Chapter of the International Coordinating Committee on Speech Databases and Speech I/O Systems and Assessment (O-COCOSDA)},\n pages = {1-5},\n title = {AISHELL-1: An open-source Mandarin speech corpus and a speech recognition baseline},\n year = {2017}\n}\n"
     }
 }

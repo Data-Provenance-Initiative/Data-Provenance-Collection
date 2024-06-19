@@ -51,6 +51,7 @@
             "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Kay2017TheKH,\n author = {W. Kay and João Carreira and K. Simonyan and Brian Zhang and Chloe Hillier and Sudheendra Vijayanarasimhan and Fabio Viola and Tim Green and T. Back and A. Natsev and Mustafa Suleyman and Andrew Zisserman},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {The Kinetics Human Action Video Dataset},\n volume = {abs/1705.06950},\n year = {2017}\n}\n"
     }
 }

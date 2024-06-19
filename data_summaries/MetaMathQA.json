@@ -60,7 +60,6 @@
         "Dataset Filter IDs": [
             "MATH_Rephrased"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 319,
@@ -91,7 +90,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Yu2023MetaMathBY,\n author = {L. Yu and Weisen Jiang and Han Shi and Jincheng Yu and Zhengying Liu and Yu Zhang and James T. Kwok and Zheng Li and Adrian Weller and Weiyang Liu},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models},\n volume = {abs/2309.12284},\n year = {2023}\n}\n"
     },
     "metamathqa-MATH_AnsAug": {
         "Unique Dataset Identifier": "metamathqa-MATH_AnsAug",
@@ -154,7 +154,6 @@
         "Dataset Filter IDs": [
             "MATH_AnsAug"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 319,
@@ -185,7 +184,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Yu2023MetaMathBY,\n author = {L. Yu and Weisen Jiang and Han Shi and Jincheng Yu and Zhengying Liu and Yu Zhang and James T. Kwok and Zheng Li and Adrian Weller and Weiyang Liu},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models},\n volume = {abs/2309.12284},\n year = {2023}\n}\n"
     },
     "metamathqa-MATH_FOBAR": {
         "Unique Dataset Identifier": "metamathqa-MATH_FOBAR",
@@ -248,7 +248,6 @@
         "Dataset Filter IDs": [
             "MATH_FOBAR"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 319,
@@ -279,7 +278,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Yu2023MetaMathBY,\n author = {L. Yu and Weisen Jiang and Han Shi and Jincheng Yu and Zhengying Liu and Yu Zhang and James T. Kwok and Zheng Li and Adrian Weller and Weiyang Liu},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models},\n volume = {abs/2309.12284},\n year = {2023}\n}\n"
     },
     "metamathqa-MATH_SV": {
         "Unique Dataset Identifier": "metamathqa-MATH_SV",
@@ -342,7 +342,6 @@
         "Dataset Filter IDs": [
             "MATH_SV"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 319,
@@ -373,7 +372,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Yu2023MetaMathBY,\n author = {L. Yu and Weisen Jiang and Han Shi and Jincheng Yu and Zhengying Liu and Yu Zhang and James T. Kwok and Zheng Li and Adrian Weller and Weiyang Liu},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models},\n volume = {abs/2309.12284},\n year = {2023}\n}\n"
     },
     "metamathqa-GSM_Rephrased": {
         "Unique Dataset Identifier": "metamathqa-GSM_Rephrased",
@@ -436,7 +436,6 @@
         "Dataset Filter IDs": [
             "GSM_Rephrased"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 319,
@@ -467,7 +466,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Yu2023MetaMathBY,\n author = {L. Yu and Weisen Jiang and Han Shi and Jincheng Yu and Zhengying Liu and Yu Zhang and James T. Kwok and Zheng Li and Adrian Weller and Weiyang Liu},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models},\n volume = {abs/2309.12284},\n year = {2023}\n}\n"
     },
     "metamathqa-GSM_AnsAug": {
         "Unique Dataset Identifier": "metamathqa-GSM_AnsAug",
@@ -530,7 +530,6 @@
         "Dataset Filter IDs": [
             "GSM_AnsAug"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 319,
@@ -561,7 +560,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Yu2023MetaMathBY,\n author = {L. Yu and Weisen Jiang and Han Shi and Jincheng Yu and Zhengying Liu and Yu Zhang and James T. Kwok and Zheng Li and Adrian Weller and Weiyang Liu},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models},\n volume = {abs/2309.12284},\n year = {2023}\n}\n"
     },
     "metamathqa-GSM_FOBAR": {
         "Unique Dataset Identifier": "metamathqa-GSM_FOBAR",
@@ -624,7 +624,6 @@
         "Dataset Filter IDs": [
             "GSM_FOBAR"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 319,
@@ -655,7 +654,8 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Yu2023MetaMathBY,\n author = {L. Yu and Weisen Jiang and Han Shi and Jincheng Yu and Zhengying Liu and Yu Zhang and James T. Kwok and Zheng Li and Adrian Weller and Weiyang Liu},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models},\n volume = {abs/2309.12284},\n year = {2023}\n}\n"
     },
     "metamathqa-GSM_SV": {
         "Unique Dataset Identifier": "metamathqa-GSM_SV",
@@ -718,7 +718,6 @@
         "Dataset Filter IDs": [
             "GSM_SV"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (May 2024)": 319,
@@ -749,6 +748,7 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
-        }
+        },
+        "Bibtex": "@Article{Yu2023MetaMathBY,\n author = {L. Yu and Weisen Jiang and Han Shi and Jincheng Yu and Zhengying Liu and Yu Zhang and James T. Kwok and Zheng Li and Adrian Weller and Weiyang Liu},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models},\n volume = {abs/2309.12284},\n year = {2023}\n}\n"
     }
 }

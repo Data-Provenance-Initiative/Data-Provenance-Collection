@@ -146,6 +146,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Olatunji2023AfriSpeech200PA,\n author = {Tobi Olatunji and Tejumade Afonja and Aditya Yadavalli and C. Emezue and Sahib Singh and Bonaventure F. P. Dossou and Joanne I. Osuchukwu and Salomey Osei and A. Tonja and Naome A. Etori and Clinton Mbataku},\n booktitle = {Transactions of the Association for Computational Linguistics},\n journal = {Transactions of the Association for Computational Linguistics},\n pages = {1669-1685},\n title = {AfriSpeech-200: Pan-African Accented Speech Dataset for Clinical and General Domain ASR},\n volume = {11},\n year = {2023}\n}\n"
     }
 }

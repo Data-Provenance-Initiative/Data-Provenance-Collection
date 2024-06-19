@@ -52,7 +52,6 @@
         "Dataset Filter IDs": [
             "CC-chats-data-2023-10-16"
         ],
-        "Bibtex": "",
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (May 2024)": "",
@@ -83,6 +82,7 @@
             "Min Dialog Turns": 2,
             "Max Dialog Turns": 160,
             "Mean Dialog Turns": 13.455
-        }
+        },
+        "Bibtex": ""
     }
 }

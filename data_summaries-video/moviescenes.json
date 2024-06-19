@@ -58,6 +58,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Rao2020ALA,\n author = {Anyi Rao and Linning Xu and Yu Xiong and Guodong Xu and Qingqiu Huang and Bolei Zhou and Dahua Lin},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {10143-10152},\n title = {A Local-to-Global Approach to Multi-Modal Movie Scene Segmentation},\n year = {2020}\n}\n"
     }
 }

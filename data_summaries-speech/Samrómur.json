@@ -83,6 +83,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Mollberg2020SamrómurCD,\n author = {David Erik Mollberg and Ó. H. Jónsson and Sunneva THorsteinsdóttir and Steinþór Steingrímsson and E. Magnúsdóttir and Jón Guðnason},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {3463-3467},\n title = {Samrómur: Crowd-sourcing Data Collection for Icelandic Speech Recognition},\n year = {2020}\n}\n"
     }
 }

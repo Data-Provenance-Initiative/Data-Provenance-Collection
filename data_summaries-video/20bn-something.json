@@ -51,6 +51,7 @@
             "PwC License URL": "https://20bn.com/licensing/datasets/academic",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Goyal2017TheS,\n author = {Raghav Goyal and Samira Ebrahimi Kahou and Vincent Michalski and Joanna Materzynska and S. Westphal and Heuna Kim and V. Haenel and Ingo Fründ and P. Yianilos and Moritz Mueller-Freitag and F. Hoppe and Christian Thurau and Ingo Bax and R. Memisevic},\n booktitle = {IEEE International Conference on Computer Vision},\n journal = {2017 IEEE International Conference on Computer Vision (ICCV)},\n pages = {5843-5851},\n title = {The “Something Something” Video Database for Learning and Evaluating Visual Common Sense},\n year = {2017}\n}\n"
     }
 }

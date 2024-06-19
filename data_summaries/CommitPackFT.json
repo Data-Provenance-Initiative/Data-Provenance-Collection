@@ -138,7 +138,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-ruby": {
         "Unique Dataset Identifier": "commitpackft-ruby",
@@ -278,7 +278,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-yaml": {
         "Unique Dataset Identifier": "commitpackft-yaml",
@@ -420,7 +420,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-markdown": {
         "Unique Dataset Identifier": "commitpackft-markdown",
@@ -563,7 +563,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-javascript": {
         "Unique Dataset Identifier": "commitpackft-javascript",
@@ -704,7 +704,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-json": {
         "Unique Dataset Identifier": "commitpackft-json",
@@ -846,7 +846,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-shell": {
         "Unique Dataset Identifier": "commitpackft-shell",
@@ -987,7 +987,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-text": {
         "Unique Dataset Identifier": "commitpackft-text",
@@ -1127,7 +1127,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-php": {
         "Unique Dataset Identifier": "commitpackft-php",
@@ -1270,7 +1270,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-java": {
         "Unique Dataset Identifier": "commitpackft-java",
@@ -1412,7 +1412,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-html": {
         "Unique Dataset Identifier": "commitpackft-html",
@@ -1554,7 +1554,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-c#": {
         "Unique Dataset Identifier": "commitpackft-c#",
@@ -1694,7 +1694,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-xml": {
         "Unique Dataset Identifier": "commitpackft-xml",
@@ -1835,7 +1835,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-html+erb": {
         "Unique Dataset Identifier": "commitpackft-html+erb",
@@ -1978,7 +1978,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-c": {
         "Unique Dataset Identifier": "commitpackft-c",
@@ -2120,7 +2120,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-ini": {
         "Unique Dataset Identifier": "commitpackft-ini",
@@ -2259,7 +2259,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-coffeescript": {
         "Unique Dataset Identifier": "commitpackft-coffeescript",
@@ -2400,7 +2400,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-swift": {
         "Unique Dataset Identifier": "commitpackft-swift",
@@ -2530,7 +2530,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-restructuredtext": {
         "Unique Dataset Identifier": "commitpackft-restructuredtext",
@@ -2670,7 +2670,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-typescript": {
         "Unique Dataset Identifier": "commitpackft-typescript",
@@ -2806,7 +2806,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-c++": {
         "Unique Dataset Identifier": "commitpackft-c++",
@@ -2946,7 +2946,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-scss": {
         "Unique Dataset Identifier": "commitpackft-scss",
@@ -3087,7 +3087,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-go": {
         "Unique Dataset Identifier": "commitpackft-go",
@@ -3228,7 +3228,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-scala": {
         "Unique Dataset Identifier": "commitpackft-scala",
@@ -3365,7 +3365,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-haml": {
         "Unique Dataset Identifier": "commitpackft-haml",
@@ -3503,7 +3503,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-css": {
         "Unique Dataset Identifier": "commitpackft-css",
@@ -3646,7 +3646,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-rust": {
         "Unique Dataset Identifier": "commitpackft-rust",
@@ -3778,7 +3778,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-toml": {
         "Unique Dataset Identifier": "commitpackft-toml",
@@ -3921,7 +3921,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-jsx": {
         "Unique Dataset Identifier": "commitpackft-jsx",
@@ -4060,7 +4060,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-kotlin": {
         "Unique Dataset Identifier": "commitpackft-kotlin",
@@ -4190,7 +4190,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-clojure": {
         "Unique Dataset Identifier": "commitpackft-clojure",
@@ -4326,7 +4326,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-perl": {
         "Unique Dataset Identifier": "commitpackft-perl",
@@ -4469,7 +4469,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-bitbake": {
         "Unique Dataset Identifier": "commitpackft-bitbake",
@@ -4573,7 +4573,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-groovy": {
         "Unique Dataset Identifier": "commitpackft-groovy",
@@ -4711,7 +4711,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-twig": {
         "Unique Dataset Identifier": "commitpackft-twig",
@@ -4839,7 +4839,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-nix": {
         "Unique Dataset Identifier": "commitpackft-nix",
@@ -4967,7 +4967,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-sql": {
         "Unique Dataset Identifier": "commitpackft-sql",
@@ -5105,7 +5105,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-less": {
         "Unique Dataset Identifier": "commitpackft-less",
@@ -5237,7 +5237,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-haskell": {
         "Unique Dataset Identifier": "commitpackft-haskell",
@@ -5368,7 +5368,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-handlebars": {
         "Unique Dataset Identifier": "commitpackft-handlebars",
@@ -5492,7 +5492,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-unknown": {
         "Unique Dataset Identifier": "commitpackft-unknown",
@@ -5624,7 +5624,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-batchfile": {
         "Unique Dataset Identifier": "commitpackft-batchfile",
@@ -5764,7 +5764,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-cucumber": {
         "Unique Dataset Identifier": "commitpackft-cucumber",
@@ -5892,7 +5892,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-makefile": {
         "Unique Dataset Identifier": "commitpackft-makefile",
@@ -6031,7 +6031,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-elixir": {
         "Unique Dataset Identifier": "commitpackft-elixir",
@@ -6165,7 +6165,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-jade": {
         "Unique Dataset Identifier": "commitpackft-jade",
@@ -6299,7 +6299,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-cmake": {
         "Unique Dataset Identifier": "commitpackft-cmake",
@@ -6433,7 +6433,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-powershell": {
         "Unique Dataset Identifier": "commitpackft-powershell",
@@ -6565,7 +6565,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-slim": {
         "Unique Dataset Identifier": "commitpackft-slim",
@@ -6687,7 +6687,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-emacs-lisp": {
         "Unique Dataset Identifier": "commitpackft-emacs-lisp",
@@ -6819,7 +6819,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-dart": {
         "Unique Dataset Identifier": "commitpackft-dart",
@@ -6942,7 +6942,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-viml": {
         "Unique Dataset Identifier": "commitpackft-viml",
@@ -7064,7 +7064,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-asciidoc": {
         "Unique Dataset Identifier": "commitpackft-asciidoc",
@@ -7203,7 +7203,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-lua": {
         "Unique Dataset Identifier": "commitpackft-lua",
@@ -7336,7 +7336,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-llvm": {
         "Unique Dataset Identifier": "commitpackft-llvm",
@@ -7443,7 +7443,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-smarty": {
         "Unique Dataset Identifier": "commitpackft-smarty",
@@ -7568,7 +7568,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-diff": {
         "Unique Dataset Identifier": "commitpackft-diff",
@@ -7707,7 +7707,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-common-lisp": {
         "Unique Dataset Identifier": "commitpackft-common-lisp",
@@ -7836,7 +7836,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-saltstack": {
         "Unique Dataset Identifier": "commitpackft-saltstack",
@@ -7961,7 +7961,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-vue": {
         "Unique Dataset Identifier": "commitpackft-vue",
@@ -8088,7 +8088,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-sass": {
         "Unique Dataset Identifier": "commitpackft-sass",
@@ -8209,7 +8209,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-fish": {
         "Unique Dataset Identifier": "commitpackft-fish",
@@ -8336,7 +8336,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-erlang": {
         "Unique Dataset Identifier": "commitpackft-erlang",
@@ -8462,7 +8462,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-freemarker": {
         "Unique Dataset Identifier": "commitpackft-freemarker",
@@ -8578,7 +8578,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-stylus": {
         "Unique Dataset Identifier": "commitpackft-stylus",
@@ -8705,7 +8705,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-qml": {
         "Unique Dataset Identifier": "commitpackft-qml",
@@ -8829,7 +8829,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-hcl": {
         "Unique Dataset Identifier": "commitpackft-hcl",
@@ -8947,7 +8947,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-html+django": {
         "Unique Dataset Identifier": "commitpackft-html+django",
@@ -9078,7 +9078,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-mako": {
         "Unique Dataset Identifier": "commitpackft-mako",
@@ -9194,7 +9194,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-ada": {
         "Unique Dataset Identifier": "commitpackft-ada",
@@ -9306,7 +9306,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-ocaml": {
         "Unique Dataset Identifier": "commitpackft-ocaml",
@@ -9428,7 +9428,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-f#": {
         "Unique Dataset Identifier": "commitpackft-f#",
@@ -9560,7 +9560,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-elm": {
         "Unique Dataset Identifier": "commitpackft-elm",
@@ -9676,7 +9676,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-tex": {
         "Unique Dataset Identifier": "commitpackft-tex",
@@ -9811,7 +9811,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-rdoc": {
         "Unique Dataset Identifier": "commitpackft-rdoc",
@@ -9930,7 +9930,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-csv": {
         "Unique Dataset Identifier": "commitpackft-csv",
@@ -10067,7 +10067,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-protocol-buffer": {
         "Unique Dataset Identifier": "commitpackft-protocol-buffer",
@@ -10191,7 +10191,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-smalltalk": {
         "Unique Dataset Identifier": "commitpackft-smalltalk",
@@ -10297,7 +10297,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-arduino": {
         "Unique Dataset Identifier": "commitpackft-arduino",
@@ -10426,7 +10426,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-java-server-pages": {
         "Unique Dataset Identifier": "commitpackft-java-server-pages",
@@ -10544,7 +10544,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-scheme": {
         "Unique Dataset Identifier": "commitpackft-scheme",
@@ -10662,7 +10662,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-groff": {
         "Unique Dataset Identifier": "commitpackft-groff",
@@ -10791,7 +10791,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-objective-c++": {
         "Unique Dataset Identifier": "commitpackft-objective-c++",
@@ -10910,7 +10910,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-desktop": {
         "Unique Dataset Identifier": "commitpackft-desktop",
@@ -11037,7 +11037,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-factor": {
         "Unique Dataset Identifier": "commitpackft-factor",
@@ -11135,7 +11135,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-crystal": {
         "Unique Dataset Identifier": "commitpackft-crystal",
@@ -11231,7 +11231,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-rhtml": {
         "Unique Dataset Identifier": "commitpackft-rhtml",
@@ -11335,7 +11335,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-haxe": {
         "Unique Dataset Identifier": "commitpackft-haxe",
@@ -11446,7 +11446,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-glsl": {
         "Unique Dataset Identifier": "commitpackft-glsl",
@@ -11570,7 +11570,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-gas": {
         "Unique Dataset Identifier": "commitpackft-gas",
@@ -11689,7 +11689,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-html+php": {
         "Unique Dataset Identifier": "commitpackft-html+php",
@@ -11807,7 +11807,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-qmake": {
         "Unique Dataset Identifier": "commitpackft-qmake",
@@ -11928,7 +11928,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-julia": {
         "Unique Dataset Identifier": "commitpackft-julia",
@@ -12050,7 +12050,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-cython": {
         "Unique Dataset Identifier": "commitpackft-cython",
@@ -12171,7 +12171,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-html+eex": {
         "Unique Dataset Identifier": "commitpackft-html+eex",
@@ -12285,7 +12285,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-tcl": {
         "Unique Dataset Identifier": "commitpackft-tcl",
@@ -12408,7 +12408,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-org": {
         "Unique Dataset Identifier": "commitpackft-org",
@@ -12539,7 +12539,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-perl6": {
         "Unique Dataset Identifier": "commitpackft-perl6",
@@ -12658,7 +12658,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-m4": {
         "Unique Dataset Identifier": "commitpackft-m4",
@@ -12778,7 +12778,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-xslt": {
         "Unique Dataset Identifier": "commitpackft-xslt",
@@ -12903,7 +12903,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-svg": {
         "Unique Dataset Identifier": "commitpackft-svg",
@@ -13034,7 +13034,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-nimrod": {
         "Unique Dataset Identifier": "commitpackft-nimrod",
@@ -13146,7 +13146,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-r": {
         "Unique Dataset Identifier": "commitpackft-r",
@@ -13259,7 +13259,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-robotframework": {
         "Unique Dataset Identifier": "commitpackft-robotframework",
@@ -13364,7 +13364,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-racket": {
         "Unique Dataset Identifier": "commitpackft-racket",
@@ -13480,7 +13480,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-textile": {
         "Unique Dataset Identifier": "commitpackft-textile",
@@ -13595,7 +13595,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-assembly": {
         "Unique Dataset Identifier": "commitpackft-assembly",
@@ -13708,7 +13708,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-purescript": {
         "Unique Dataset Identifier": "commitpackft-purescript",
@@ -13809,7 +13809,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-unity3d-asset": {
         "Unique Dataset Identifier": "commitpackft-unity3d-asset",
@@ -13928,7 +13928,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-visual-basic": {
         "Unique Dataset Identifier": "commitpackft-visual-basic",
@@ -14045,7 +14045,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-dm": {
         "Unique Dataset Identifier": "commitpackft-dm",
@@ -14137,7 +14137,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-pod": {
         "Unique Dataset Identifier": "commitpackft-pod",
@@ -14246,7 +14246,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-standard-ml": {
         "Unique Dataset Identifier": "commitpackft-standard-ml",
@@ -14356,7 +14356,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-fortran": {
         "Unique Dataset Identifier": "commitpackft-fortran",
@@ -14466,7 +14466,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-gettext-catalog": {
         "Unique Dataset Identifier": "commitpackft-gettext-catalog",
@@ -14580,7 +14580,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-idris": {
         "Unique Dataset Identifier": "commitpackft-idris",
@@ -14682,7 +14682,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-livescript": {
         "Unique Dataset Identifier": "commitpackft-livescript",
@@ -14796,7 +14796,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-xtend": {
         "Unique Dataset Identifier": "commitpackft-xtend",
@@ -14904,7 +14904,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-actionscript": {
         "Unique Dataset Identifier": "commitpackft-actionscript",
@@ -15021,7 +15021,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-vala": {
         "Unique Dataset Identifier": "commitpackft-vala",
@@ -15122,7 +15122,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-awk": {
         "Unique Dataset Identifier": "commitpackft-awk",
@@ -15245,7 +15245,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-ceylon": {
         "Unique Dataset Identifier": "commitpackft-ceylon",
@@ -15343,7 +15343,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-jupyter-notebook": {
         "Unique Dataset Identifier": "commitpackft-jupyter-notebook",
@@ -15461,7 +15461,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-dockerfile": {
         "Unique Dataset Identifier": "commitpackft-dockerfile",
@@ -15573,7 +15573,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-rouge": {
         "Unique Dataset Identifier": "commitpackft-rouge",
@@ -15665,7 +15665,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-asp": {
         "Unique Dataset Identifier": "commitpackft-asp",
@@ -15771,7 +15771,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-sqf": {
         "Unique Dataset Identifier": "commitpackft-sqf",
@@ -15872,7 +15872,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-edn": {
         "Unique Dataset Identifier": "commitpackft-edn",
@@ -15992,7 +15992,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-liquid": {
         "Unique Dataset Identifier": "commitpackft-liquid",
@@ -16094,7 +16094,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-xquery": {
         "Unique Dataset Identifier": "commitpackft-xquery",
@@ -16200,7 +16200,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-linker-script": {
         "Unique Dataset Identifier": "commitpackft-linker-script",
@@ -16316,7 +16316,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-mediawiki": {
         "Unique Dataset Identifier": "commitpackft-mediawiki",
@@ -16418,7 +16418,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-parrot-internal-representation": {
         "Unique Dataset Identifier": "commitpackft-parrot-internal-representation",
@@ -16511,7 +16511,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-solidity": {
         "Unique Dataset Identifier": "commitpackft-solidity",
@@ -16611,7 +16611,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-json5": {
         "Unique Dataset Identifier": "commitpackft-json5",
@@ -16711,7 +16711,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-systemverilog": {
         "Unique Dataset Identifier": "commitpackft-systemverilog",
@@ -16812,7 +16812,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-thrift": {
         "Unique Dataset Identifier": "commitpackft-thrift",
@@ -16922,7 +16922,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-groovy-server-pages": {
         "Unique Dataset Identifier": "commitpackft-groovy-server-pages",
@@ -17028,7 +17028,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-processing": {
         "Unique Dataset Identifier": "commitpackft-processing",
@@ -17136,7 +17136,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-cuda": {
         "Unique Dataset Identifier": "commitpackft-cuda",
@@ -17247,7 +17247,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-graphviz-dot": {
         "Unique Dataset Identifier": "commitpackft-graphviz-dot",
@@ -17363,7 +17363,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-inno-setup": {
         "Unique Dataset Identifier": "commitpackft-inno-setup",
@@ -17468,7 +17468,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-api-blueprint": {
         "Unique Dataset Identifier": "commitpackft-api-blueprint",
@@ -17569,7 +17569,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-nsis": {
         "Unique Dataset Identifier": "commitpackft-nsis",
@@ -17683,7 +17683,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-gentoo-ebuild": {
         "Unique Dataset Identifier": "commitpackft-gentoo-ebuild",
@@ -17789,7 +17789,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-logtalk": {
         "Unique Dataset Identifier": "commitpackft-logtalk",
@@ -17887,7 +17887,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-jasmin": {
         "Unique Dataset Identifier": "commitpackft-jasmin",
@@ -17983,7 +17983,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-literate-coffeescript": {
         "Unique Dataset Identifier": "commitpackft-literate-coffeescript",
@@ -18076,7 +18076,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-webidl": {
         "Unique Dataset Identifier": "commitpackft-webidl",
@@ -18175,7 +18175,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-coldfusion-cfc": {
         "Unique Dataset Identifier": "commitpackft-coldfusion-cfc",
@@ -18276,7 +18276,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-opencl": {
         "Unique Dataset Identifier": "commitpackft-opencl",
@@ -18391,7 +18391,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-openscad": {
         "Unique Dataset Identifier": "commitpackft-openscad",
@@ -18493,7 +18493,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-pan": {
         "Unique Dataset Identifier": "commitpackft-pan",
@@ -18588,7 +18588,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-pascal": {
         "Unique Dataset Identifier": "commitpackft-pascal",
@@ -18710,7 +18710,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-pony": {
         "Unique Dataset Identifier": "commitpackft-pony",
@@ -18809,7 +18809,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-turtle": {
         "Unique Dataset Identifier": "commitpackft-turtle",
@@ -18925,7 +18925,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-chapel": {
         "Unique Dataset Identifier": "commitpackft-chapel",
@@ -19022,7 +19022,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-ioke": {
         "Unique Dataset Identifier": "commitpackft-ioke",
@@ -19117,7 +19117,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-ooc": {
         "Unique Dataset Identifier": "commitpackft-ooc",
@@ -19212,7 +19212,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-sparql": {
         "Unique Dataset Identifier": "commitpackft-sparql",
@@ -19330,7 +19330,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-applescript": {
         "Unique Dataset Identifier": "commitpackft-applescript",
@@ -19435,7 +19435,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-augeas": {
         "Unique Dataset Identifier": "commitpackft-augeas",
@@ -19531,7 +19531,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-g-code": {
         "Unique Dataset Identifier": "commitpackft-g-code",
@@ -19633,7 +19633,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-mirah": {
         "Unique Dataset Identifier": "commitpackft-mirah",
@@ -19725,7 +19725,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-capn-proto": {
         "Unique Dataset Identifier": "commitpackft-capn-proto",
@@ -19822,7 +19822,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-digital-command-language": {
         "Unique Dataset Identifier": "commitpackft-digital-command-language",
@@ -19927,7 +19927,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-hy": {
         "Unique Dataset Identifier": "commitpackft-hy",
@@ -20035,7 +20035,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-logos": {
         "Unique Dataset Identifier": "commitpackft-logos",
@@ -20143,7 +20143,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-modelica": {
         "Unique Dataset Identifier": "commitpackft-modelica",
@@ -20246,7 +20246,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-vcl": {
         "Unique Dataset Identifier": "commitpackft-vcl",
@@ -20348,7 +20348,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-antlr": {
         "Unique Dataset Identifier": "commitpackft-antlr",
@@ -20449,7 +20449,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-gdscript": {
         "Unique Dataset Identifier": "commitpackft-gdscript",
@@ -20550,7 +20550,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-graphql": {
         "Unique Dataset Identifier": "commitpackft-graphql",
@@ -20657,7 +20657,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-hlsl": {
         "Unique Dataset Identifier": "commitpackft-hlsl",
@@ -20756,7 +20756,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-gnuplot": {
         "Unique Dataset Identifier": "commitpackft-gnuplot",
@@ -20873,7 +20873,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-http": {
         "Unique Dataset Identifier": "commitpackft-http",
@@ -20970,7 +20970,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-ninja": {
         "Unique Dataset Identifier": "commitpackft-ninja",
@@ -21070,7 +21070,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-oz": {
         "Unique Dataset Identifier": "commitpackft-oz",
@@ -21162,7 +21162,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-raml": {
         "Unique Dataset Identifier": "commitpackft-raml",
@@ -21265,7 +21265,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-aspectj": {
         "Unique Dataset Identifier": "commitpackft-aspectj",
@@ -21367,7 +21367,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-autohotkey": {
         "Unique Dataset Identifier": "commitpackft-autohotkey",
@@ -21468,7 +21468,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-fancy": {
         "Unique Dataset Identifier": "commitpackft-fancy",
@@ -21563,7 +21563,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-moonscript": {
         "Unique Dataset Identifier": "commitpackft-moonscript",
@@ -21658,7 +21658,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-piglatin": {
         "Unique Dataset Identifier": "commitpackft-piglatin",
@@ -21756,7 +21756,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-stata": {
         "Unique Dataset Identifier": "commitpackft-stata",
@@ -21860,7 +21860,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-urweb": {
         "Unique Dataset Identifier": "commitpackft-urweb",
@@ -21948,7 +21948,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-xs": {
         "Unique Dataset Identifier": "commitpackft-xs",
@@ -22058,7 +22058,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-yang": {
         "Unique Dataset Identifier": "commitpackft-yang",
@@ -22160,7 +22160,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-agda": {
         "Unique Dataset Identifier": "commitpackft-agda",
@@ -22258,7 +22258,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-coldfusion": {
         "Unique Dataset Identifier": "commitpackft-coldfusion",
@@ -22355,7 +22355,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-emberscript": {
         "Unique Dataset Identifier": "commitpackft-emberscript",
@@ -22457,7 +22457,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-latte": {
         "Unique Dataset Identifier": "commitpackft-latte",
@@ -22551,7 +22551,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-literate-haskell": {
         "Unique Dataset Identifier": "commitpackft-literate-haskell",
@@ -22647,7 +22647,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-postscript": {
         "Unique Dataset Identifier": "commitpackft-postscript",
@@ -22746,7 +22746,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-scilab": {
         "Unique Dataset Identifier": "commitpackft-scilab",
@@ -22842,7 +22842,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-tcsh": {
         "Unique Dataset Identifier": "commitpackft-tcsh",
@@ -22952,7 +22952,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-volt": {
         "Unique Dataset Identifier": "commitpackft-volt",
@@ -23054,7 +23054,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-apl": {
         "Unique Dataset Identifier": "commitpackft-apl",
@@ -23150,7 +23150,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-genshi": {
         "Unique Dataset Identifier": "commitpackft-genshi",
@@ -23241,7 +23241,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-jsonld": {
         "Unique Dataset Identifier": "commitpackft-jsonld",
@@ -23352,7 +23352,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-krl": {
         "Unique Dataset Identifier": "commitpackft-krl",
@@ -23444,7 +23444,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-lean": {
         "Unique Dataset Identifier": "commitpackft-lean",
@@ -23534,7 +23534,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-lfe": {
         "Unique Dataset Identifier": "commitpackft-lfe",
@@ -23631,7 +23631,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-metal": {
         "Unique Dataset Identifier": "commitpackft-metal",
@@ -23728,7 +23728,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-monkey": {
         "Unique Dataset Identifier": "commitpackft-monkey",
@@ -23816,7 +23816,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-mupad": {
         "Unique Dataset Identifier": "commitpackft-mupad",
@@ -23918,7 +23918,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-nesc": {
         "Unique Dataset Identifier": "commitpackft-nesc",
@@ -24012,7 +24012,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-nit": {
         "Unique Dataset Identifier": "commitpackft-nit",
@@ -24102,7 +24102,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-pike": {
         "Unique Dataset Identifier": "commitpackft-pike",
@@ -24198,7 +24198,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-purebasic": {
         "Unique Dataset Identifier": "commitpackft-purebasic",
@@ -24294,7 +24294,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-renpy": {
         "Unique Dataset Identifier": "commitpackft-renpy",
@@ -24389,7 +24389,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-vhdl": {
         "Unique Dataset Identifier": "commitpackft-vhdl",
@@ -24489,7 +24489,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-xproc": {
         "Unique Dataset Identifier": "commitpackft-xproc",
@@ -24581,7 +24581,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-zephir": {
         "Unique Dataset Identifier": "commitpackft-zephir",
@@ -24676,7 +24676,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-apacheconf": {
         "Unique Dataset Identifier": "commitpackft-apacheconf",
@@ -24770,7 +24770,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-boo": {
         "Unique Dataset Identifier": "commitpackft-boo",
@@ -24861,7 +24861,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-brainfuck": {
         "Unique Dataset Identifier": "commitpackft-brainfuck",
@@ -24956,7 +24956,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-bro": {
         "Unique Dataset Identifier": "commitpackft-bro",
@@ -25047,7 +25047,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-cartocss": {
         "Unique Dataset Identifier": "commitpackft-cartocss",
@@ -25137,7 +25137,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-creole": {
         "Unique Dataset Identifier": "commitpackft-creole",
@@ -25233,7 +25233,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-csound": {
         "Unique Dataset Identifier": "commitpackft-csound",
@@ -25321,7 +25321,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-dylan": {
         "Unique Dataset Identifier": "commitpackft-dylan",
@@ -25413,7 +25413,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-eagle": {
         "Unique Dataset Identifier": "commitpackft-eagle",
@@ -25510,7 +25510,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-ecl": {
         "Unique Dataset Identifier": "commitpackft-ecl",
@@ -25601,7 +25601,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-eiffel": {
         "Unique Dataset Identifier": "commitpackft-eiffel",
@@ -25692,7 +25692,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-flux": {
         "Unique Dataset Identifier": "commitpackft-flux",
@@ -25785,7 +25785,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-io": {
         "Unique Dataset Identifier": "commitpackft-io",
@@ -25883,7 +25883,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-jsoniq": {
         "Unique Dataset Identifier": "commitpackft-jsoniq",
@@ -25985,7 +25985,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-lilypond": {
         "Unique Dataset Identifier": "commitpackft-lilypond",
@@ -26079,7 +26079,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-lsl": {
         "Unique Dataset Identifier": "commitpackft-lsl",
@@ -26171,7 +26171,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-mask": {
         "Unique Dataset Identifier": "commitpackft-mask",
@@ -26266,7 +26266,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-nginx": {
         "Unique Dataset Identifier": "commitpackft-nginx",
@@ -26358,7 +26358,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-nu": {
         "Unique Dataset Identifier": "commitpackft-nu",
@@ -26446,7 +26446,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-pov-ray-sdl": {
         "Unique Dataset Identifier": "commitpackft-pov-ray-sdl",
@@ -26540,7 +26540,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-ragel-in-ruby-host": {
         "Unique Dataset Identifier": "commitpackft-ragel-in-ruby-host",
@@ -26633,7 +26633,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-slash": {
         "Unique Dataset Identifier": "commitpackft-slash",
@@ -26731,7 +26731,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-sourcepawn": {
         "Unique Dataset Identifier": "commitpackft-sourcepawn",
@@ -26828,7 +26828,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-squirrel": {
         "Unique Dataset Identifier": "commitpackft-squirrel",
@@ -26920,7 +26920,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-ston": {
         "Unique Dataset Identifier": "commitpackft-ston",
@@ -27012,7 +27012,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-uno": {
         "Unique Dataset Identifier": "commitpackft-uno",
@@ -27100,7 +27100,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-wisp": {
         "Unique Dataset Identifier": "commitpackft-wisp",
@@ -27194,7 +27194,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-xbase": {
         "Unique Dataset Identifier": "commitpackft-xbase",
@@ -27287,7 +27287,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-yacc": {
         "Unique Dataset Identifier": "commitpackft-yacc",
@@ -27388,7 +27388,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-zig": {
         "Unique Dataset Identifier": "commitpackft-zig",
@@ -27483,7 +27483,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-abap": {
         "Unique Dataset Identifier": "commitpackft-abap",
@@ -27573,7 +27573,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-arc": {
         "Unique Dataset Identifier": "commitpackft-arc",
@@ -27662,7 +27662,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-ats": {
         "Unique Dataset Identifier": "commitpackft-ats",
@@ -27756,7 +27756,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-blitzmax": {
         "Unique Dataset Identifier": "commitpackft-blitzmax",
@@ -27846,7 +27846,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-bluespec": {
         "Unique Dataset Identifier": "commitpackft-bluespec",
@@ -27938,7 +27938,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-c2hs-haskell": {
         "Unique Dataset Identifier": "commitpackft-c2hs-haskell",
@@ -28030,7 +28030,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-clean": {
         "Unique Dataset Identifier": "commitpackft-clean",
@@ -28120,7 +28120,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-dns-zone": {
         "Unique Dataset Identifier": "commitpackft-dns-zone",
@@ -28212,7 +28212,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-forth": {
         "Unique Dataset Identifier": "commitpackft-forth",
@@ -28300,7 +28300,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-harbour": {
         "Unique Dataset Identifier": "commitpackft-harbour",
@@ -28390,7 +28390,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-igor-pro": {
         "Unique Dataset Identifier": "commitpackft-igor-pro",
@@ -28480,7 +28480,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-inform-7": {
         "Unique Dataset Identifier": "commitpackft-inform-7",
@@ -28568,7 +28568,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-isabelle": {
         "Unique Dataset Identifier": "commitpackft-isabelle",
@@ -28660,7 +28660,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-jflex": {
         "Unique Dataset Identifier": "commitpackft-jflex",
@@ -28750,7 +28750,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-literate-agda": {
         "Unique Dataset Identifier": "commitpackft-literate-agda",
@@ -28840,7 +28840,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-maple": {
         "Unique Dataset Identifier": "commitpackft-maple",
@@ -28932,7 +28932,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-mathematica": {
         "Unique Dataset Identifier": "commitpackft-mathematica",
@@ -29022,7 +29022,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-module-management-system": {
         "Unique Dataset Identifier": "commitpackft-module-management-system",
@@ -29112,7 +29112,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-mtml": {
         "Unique Dataset Identifier": "commitpackft-mtml",
@@ -29203,7 +29203,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-netlinx": {
         "Unique Dataset Identifier": "commitpackft-netlinx",
@@ -29293,7 +29293,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-parrot-assembly": {
         "Unique Dataset Identifier": "commitpackft-parrot-assembly",
@@ -29383,7 +29383,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-pawn": {
         "Unique Dataset Identifier": "commitpackft-pawn",
@@ -29479,7 +29479,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-propeller-spin": {
         "Unique Dataset Identifier": "commitpackft-propeller-spin",
@@ -29569,7 +29569,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-pure-data": {
         "Unique Dataset Identifier": "commitpackft-pure-data",
@@ -29659,7 +29659,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-rebol": {
         "Unique Dataset Identifier": "commitpackft-rebol",
@@ -29748,7 +29748,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-red": {
         "Unique Dataset Identifier": "commitpackft-red",
@@ -29838,7 +29838,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-sage": {
         "Unique Dataset Identifier": "commitpackft-sage",
@@ -29928,7 +29928,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-sas": {
         "Unique Dataset Identifier": "commitpackft-sas",
@@ -30018,7 +30018,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-scaml": {
         "Unique Dataset Identifier": "commitpackft-scaml",
@@ -30108,7 +30108,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-smt": {
         "Unique Dataset Identifier": "commitpackft-smt",
@@ -30204,7 +30204,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-supercollider": {
         "Unique Dataset Identifier": "commitpackft-supercollider",
@@ -30299,7 +30299,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-unrealscript": {
         "Unique Dataset Identifier": "commitpackft-unrealscript",
@@ -30389,7 +30389,7 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     },
     "commitpackft-xpages": {
         "Unique Dataset Identifier": "commitpackft-xpages",
@@ -30479,6 +30479,6 @@
         },
         "Derived from Datasets": [],
         "Human Annotation": "No",
-        "Bibtex": ""
+        "Bibtex": "@Article{Muennighoff2023OctoPackIT,\n author = {Niklas Muennighoff and Qian Liu and Qi Liu and Armel Zebaze and Qinkai Zheng and Binyuan Hui and Terry Yue Zhuo and Swayam Singh and Xiangru Tang and Leandro von Werra and S. Longpre},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {OctoPack: Instruction Tuning Code Large Language Models},\n volume = {abs/2308.07124},\n year = {2023}\n}\n"
     }
 }

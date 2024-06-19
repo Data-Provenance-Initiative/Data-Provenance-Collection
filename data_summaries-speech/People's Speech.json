@@ -117,6 +117,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Galvez2021ThePS,\n author = {Daniel Galvez and G. Diamos and Juan Ciro and Juan Felipe Cer'on and Keith Achorn and Anjali Gopi and David Kanter and Maximilian Lam and Mark Mazumder and V. Reddi},\n booktitle = {NeurIPS Datasets and Benchmarks},\n journal = {ArXiv},\n title = {The People's Speech: A Large-Scale Diverse English Speech Recognition Dataset for Commercial Usage},\n volume = {abs/2111.09344},\n year = {2021}\n}\n"
     }
 }
