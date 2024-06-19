@@ -99,6 +99,18 @@
             "S2 Citation Count (May 2024)": 36,
             "S2 Date": "2023-09-21"
         },
+        "Text Metrics": {
+            "Num Dialogs": 1000000,
+            "Mean Inputs Length": 236.0251,
+            "Mean Targets Length": 788.2541,
+            "Max Inputs Length": 2882,
+            "Max Targets Length": 3317282,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 430,
+            "Mean Dialog Turns": 4.0313
+        },
         "Bibtex": "@Article{Zheng2023LMSYSChat1MAL,\n author = {Lianmin Zheng and Wei-Lin Chiang and Ying Sheng and Tianle Li and Siyuan Zhuang and Zhanghao Wu and Yonghao Zhuang and Zhuohan Li and Zi Lin and Eric P. Xing and Joseph E. Gonzalez and Ion Stoica and Haotong Zhang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {LMSYS-Chat-1M: A Large-Scale Real-World LLM Conversation Dataset},\n volume = {abs/2309.11998},\n year = {2023}\n}\n"
     }
 }
