@@ -53,6 +53,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Heilbron2015ActivityNetAL,\n author = {Fabian Caba Heilbron and Victor Escorcia and Bernard Ghanem and Juan Carlos Niebles},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {961-970},\n title = {ActivityNet: A large-scale video benchmark for human activity understanding},\n year = {2015}\n}\n"
     }
 }

@@ -62,6 +62,7 @@
             "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Kuehne2011HMDBAL,\n author = {Hilde Kuehne and Hueihan Jhuang and Estíbaliz Garrote and T. Poggio and Thomas Serre},\n booktitle = {Vision},\n journal = {2011 International Conference on Computer Vision},\n pages = {2556-2563},\n title = {HMDB: A large video database for human motion recognition},\n year = {2011}\n}\n"
     }
 }

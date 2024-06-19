@@ -51,6 +51,7 @@
             "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Carreira2019ASN,\n author = {João Carreira and Eric Noland and Chloe Hillier and Andrew Zisserman},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {A Short Note on the Kinetics-700 Human Action Dataset},\n volume = {abs/1907.06987},\n year = {2019}\n}\n"
     }
 }

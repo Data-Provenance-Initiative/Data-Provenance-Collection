@@ -51,6 +51,7 @@
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Demir2020TinyVIRATLV,\n author = {Ugur Demir and Y. Rawat and M. Shah},\n booktitle = {International Conference on Pattern Recognition},\n journal = {2020 25th International Conference on Pattern Recognition (ICPR)},\n pages = {7387-7394},\n title = {TinyVIRAT: Low-resolution Video Action Recognition},\n year = {2020}\n}\n"
     }
 }

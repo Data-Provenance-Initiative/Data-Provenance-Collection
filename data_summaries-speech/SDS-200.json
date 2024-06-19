@@ -80,6 +80,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Plüss2022SDS200AS,\n author = {Michel Plüss and Manuela Hurlimann and Marc Cuny and Alla Stockli and Nikolaos Kapotis and Julia Hartmann and Malgorzata Anna Ulasik and C. Scheller and Yanick Schraner and Amit Jain and Jan Deriu and Mark Cieliebak and Manfred Vogel},\n booktitle = {International Conference on Language Resources and Evaluation},\n pages = {3250-3256},\n title = {SDS-200: A Swiss German Speech to Standard German Text Corpus},\n year = {2022}\n}\n"
     }
 }

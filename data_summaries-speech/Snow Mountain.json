@@ -105,6 +105,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Raju2022SnowMD,\n author = {K. Raju and V. Anjaly and R. Lish and Joel Mathew},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Snow Mountain: Dataset of Audio Recordings of The Bible in Low Resource Languages},\n volume = {abs/2206.01205},\n year = {2022}\n}\n"
     }
 }

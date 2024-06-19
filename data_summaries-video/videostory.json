@@ -51,6 +51,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Book{Habibian2014VideoStoryAN,\n author = {A. Habibian and Thomas Mensink and Cees G. M. Snoek},\n booktitle = {ACM Multimedia},\n journal = {Proceedings of the 22nd ACM international conference on Multimedia},\n title = {VideoStory: A New Multimedia Embedding for Few-Example Recognition and Translation of Events},\n year = {2014}\n}\n"
     }
 }

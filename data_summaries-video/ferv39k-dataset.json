@@ -51,6 +51,7 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
-        }
+        },
+        "Bibtex": "@Article{Wang2022FERV39kAL,\n author = {Yan Wang and Yixuan Sun and Yiwen Huang and Zhongying Liu and Shuyong Gao and Wei Zhang and Weifeng Ge and Wenqiang Zhang},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {20890-20899},\n title = {FERV39k: A Large-Scale Multi-Scene Dataset for Facial Expression Recognition in Videos},\n year = {2022}\n}\n"
     }
 }
