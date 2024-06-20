@@ -49,6 +49,8 @@ def extract_url_annotations(dirpaths):
         overwrite_attempts = 0
         for _, row in df.iterrows():
             domain = row["Domain"]
+            if not domain.startswith("www."):
+                domain = "www." + domain
             row_info = extract_row_info(row)
             if domain in url_to_issue or row_info["Website Issue"]:
                 url_to_issue.add(domain)
@@ -62,6 +64,7 @@ def extract_url_annotations(dirpaths):
     print(f"{len(url_to_info)} rows before filtering.")
     # filter out incomplete rows:
     url_to_rows = {}
+    unannotated_urls = {}
     issue_counter, unannotated_counter = 0, 0
     for url, infos in url_to_info.items():
         if url in url_to_issue:
@@ -69,10 +72,11 @@ def extract_url_annotations(dirpaths):
             continue
         elif not infos.get('Website Description', "") or not infos.get("Paywall", ""):
             unannotated_counter += 1
+            unannotated_urls[url] = infos
             continue
         url_to_rows[url] = infos
     print(f"{len(url_to_rows)} rows after filtering. {issue_counter} issues, {unannotated_counter} unannotated.")
-    return url_to_rows
+    return url_to_rows, unannotated_urls
 
 
 def categorize_domain_annotations(url_to_info, cols, mapper):
@@ -605,3 +609,15 @@ def run_population_analysis(
             "Estimated Tokens Pct": pos_t_pct,
         }
     return final_results
+
+
+def map_services_to_urls(url_results_df):
+    service_to_urls = defaultdict(list)
+    for i, row in url_results_df.iterrows():
+        for service in row.Services:
+            service_to_urls[service.replace("/", "_").replace("-", "_")].append(row["URL"])
+        service_to_urls["all"].append(row["URL"])
+    for k, vs in service_to_urls.items():
+        print(f"{k}: {len(vs)}")
+    return service_to_urls
+
