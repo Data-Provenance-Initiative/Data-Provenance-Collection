@@ -15,6 +15,7 @@ from pathlib import Path
 from typing import Optional, Union
 from tqdm import tqdm
 from urllib.parse import urlparse
+from pympler import asizeof
 
 import chardet
 from bs4 import BeautifulSoup
@@ -22,41 +23,40 @@ from bs4 import BeautifulSoup
 from ..extract_robots import normalize_url
 
 
-def extract_urls(csv_directory_path: Path, site_type: str) -> list[str]:
+def extract_urls(csv_file_path: Path, site_type: str) -> list[str]:
     """
-    Extracts URLs from a directory of CSV files.
+    Extracts URLs from a single CSV file.
     """
     assert (
-        csv_directory_path.is_dir()
-    ), f"Invalid input path, must be directory: {csv_directory_path}"
+        csv_file_path.suffix == ".csv"
+    ), f"Invalid input path, must be a csv file: {csv_file_path}"
     urls = set()
-    for file_path in csv_directory_path.glob("*.csv"):
-        with file_path.open(mode="r") as file:
-            csv_reader = csv.DictReader(file)
-            for row in csv_reader:
-                if site_type == "tos":
-                    for i in range(1, 6):
-                        column_name = f"Terms of Use Link {i}"
-                        url = row.get(column_name)
-                        if url:
-                            if not url.startswith("https://") and not url.startswith(
-                                "http://"
-                            ):
-                                url = "https://" + url
-                            urls.add(url)
-                else:
-                    url = row.get("URL")
+    with csv_file_path.open(mode="r") as file:
+        csv_reader = csv.DictReader(file)
+        for row in csv_reader:
+            if site_type == "tos":
+                for i in range(1, 6):
+                    column_name = f"Terms of Use Link {i}"
+                    url = row.get(column_name)
                     if url:
-                        if site_type == "robots":
-                            url = normalize_url(url)
-                        elif site_type == "main":
-                            if not url.startswith("https://") and not url.startswith(
-                                "http://"
-                            ):
-                                url = "https://" + url
+                        if not url.startswith("https://") and not url.startswith(
+                            "http://"
+                        ):
+                            url = "https://" + url
                         urls.add(url)
+            else:
+                url = row.get("URL")
+                if url:
+                    if site_type == "robots":
+                        url = normalize_url(url)
+                    elif site_type == "main":
+                        if not url.startswith("https://") and not url.startswith(
+                            "http://"
+                        ):
+                            url = "https://" + url
+                    urls.add(url)
     if not urls:
-        logging.error(f"No URLs and/or CSV files found in: {csv_directory_path}")
+        logging.error(f"No URLs found in the CSV file: {csv_file_path}")
     return list(urls)
 
 
@@ -71,21 +71,6 @@ def sanitize_url(url: str) -> str:
     )
     sanitized_url = f"{sanitized_netloc}_{sanitized_path}"
     return sanitized_url.replace(".", "_")
-
-
-def get_size_in_bytes(data) -> int:
-    """
-    Returns the approximate size in bytes of the given data, including nested structures.
-    """
-    size = sys.getsizeof(data)
-    if isinstance(data, dict):
-        size += sum(
-            get_size_in_bytes(key) + get_size_in_bytes(value)
-            for key, value in data.items()
-        )
-    elif isinstance(data, (list, tuple, set, frozenset)):
-        size += sum(get_size_in_bytes(item) for item in data)
-    return size
 
 
 def process_directory(
@@ -120,7 +105,7 @@ def process_directory(
 
     if site_type == "tos":
         return {url: dict(data)} if data else {}
-    elif site_type == "robots":
+    else:
         return data if data else {}
 
 
@@ -130,21 +115,25 @@ def parse_html_directories(
     site_type: str,
     num_workers: int,
     num_processes: int = None,
-    max_chunk_size: Optional[int] = 1000,
-    output_file: Union[str, Path] = "temporal_data.json",
-) -> None:
+    max_chunk_size: Optional[int] = 5000,
+    output_json_path: Union[str, Path] = "temporal_data",
+) -> list[Path]:
     """
     Processes directories of HTML files and writes the formatted text to JSON files.
+    Returns a list of output file paths.
     """
     root_directory = Path(root_directory)
     csv_file_path = Path(csv_file_path)
-    output_file = Path(output_file)
+    # either output_json_path or output_json_path.json if given name does not end with json
+    output_json_path = Path(output_json_path.with_suffix(".json"))
+
     if not num_processes:
         num_processes = multiprocessing.cpu_count()
 
     current_chunk = {}
     current_chunk_size = 0
     chunk_number = 1
+    output_files = []
 
     with multiprocessing.Pool(processes=num_processes) as pool:
         worker_func = partial(
@@ -157,19 +146,19 @@ def parse_html_directories(
             csv_reader = csv.DictReader(file)
             for result in tqdm(
                 pool.imap(worker_func, csv_reader),
-                desc=f"Processing {csv_file_path}",
+                desc="Process HTML to JSON",
                 unit="row",
                 total=sum(1 for _ in csv_file_path.open("r")),
             ):
                 for key, value in result.items():
-                    item_size = get_size_in_bytes({key: value})
+                    item_size = asizeof.asizeof({key: value})
                     if (
                         max_chunk_size
                         and current_chunk_size + item_size > max_chunk_size
                     ):
                         chunk_file_path = (
-                            output_file.parent
-                            / f"{output_file.stem}_chunk_{chunk_number}.json"
+                            output_json_path.parent
+                            / f"{output_json_path.stem}_chunk_{chunk_number}.json"
                         )
                         with chunk_file_path.open(
                             "w", encoding="utf-8", errors="surrogateescape"
@@ -177,6 +166,7 @@ def parse_html_directories(
                             json.dump(
                                 current_chunk, chunk_file, ensure_ascii=True, indent=4
                             )
+                        output_files.append(chunk_file_path)
                         current_chunk = {}
                         current_chunk_size = 0
                         chunk_number += 1
@@ -185,13 +175,24 @@ def parse_html_directories(
                     current_chunk_size += item_size
 
     if current_chunk:
-        chunk_file_path = (
-            output_file.parent / f"{output_file.stem}_chunk_{chunk_number}.json"
-        )
-        with chunk_file_path.open(
-            "w", encoding="utf-8", errors="surrogateescape"
-        ) as chunk_file:
-            json.dump(current_chunk, chunk_file, ensure_ascii=True, indent=4)
+        if len(output_files) == 0:
+            with output_json_path.open(
+                "w", encoding="utf-8", errors="surrogateescape"
+            ) as file:
+                json.dump(current_chunk, file, ensure_ascii=True, indent=4)
+            output_files.append(output_json_path)
+        else:
+            chunk_file_path = (
+                output_json_path.parent
+                / f"{output_json_path.stem}_chunk_{chunk_number}.json"
+            )
+            with chunk_file_path.open(
+                "w", encoding="utf-8", errors="surrogateescape"
+            ) as chunk_file:
+                json.dump(current_chunk, chunk_file, ensure_ascii=True, indent=4)
+            output_files.append(chunk_file_path)
+
+    return output_files
 
 
 def process_row(
@@ -200,15 +201,74 @@ def process_row(
     data = {}
     if site_type == "robots" or site_type == "main":
         url = row["URL"]
-        normalized_url = normalize_url(url)
-        sanitized_url = sanitize_url(normalized_url)
-        directory_path = root_directory / sanitized_url
-        if directory_path.is_dir():
+
+        if site_type == "robots":
+            normalized_url = normalize_url(url)
+            sanitized_url = sanitize_url(normalized_url)
+        else:
+            sanitized_url = sanitize_url(url)
+
+        # Check if the sanitized URL exists as a directory
+        if sanitized_url in os.listdir(root_directory):
+            directory_path = root_directory / sanitized_url
             processed_data = process_directory(
                 directory_path, url, site_type, num_workers
             )
             if processed_data:
                 data[url] = processed_data
+
+        # Check for directories with leading underscores
+        elif "_" + sanitized_url in os.listdir(root_directory):
+            directory_path = root_directory / ("_" + sanitized_url)
+            processed_data = process_directory(
+                directory_path, url, site_type, num_workers
+            )
+            if processed_data:
+                data[url] = processed_data
+
+        # Check for URLs starting with "www."
+        elif url.startswith("www."):
+            url_copy = url.replace("www.", "")
+            sanitized_url_copy = sanitize_url(url_copy)
+
+            if sanitized_url_copy in os.listdir(root_directory):
+                directory_path = root_directory / sanitized_url_copy
+                processed_data = process_directory(
+                    directory_path, url, site_type, num_workers
+                )
+                if processed_data:
+                    data[url] = processed_data
+
+            elif "_" + sanitized_url_copy in os.listdir(root_directory):
+                directory_path = root_directory / ("_" + sanitized_url_copy)
+                processed_data = process_directory(
+                    directory_path, url, site_type, num_workers
+                )
+                if processed_data:
+                    data[url] = processed_data
+
+            elif "_www_" + sanitized_url in os.listdir(root_directory):
+                directory_path = root_directory / ("_www_" + sanitized_url)
+                processed_data = process_directory(
+                    directory_path, url, site_type, num_workers
+                )
+                if processed_data:
+                    data[url] = processed_data
+
+        # Handle leading/trailing underscores for "main" site_type
+        if site_type == "main":
+            if sanitized_url.startswith("_"):
+                sanitized_url = sanitized_url[1:]
+            if not sanitized_url.endswith("_"):
+                sanitized_url += "_"
+            directory_path = root_directory / sanitized_url
+            if directory_path.is_dir():
+                processed_data = process_directory(
+                    directory_path, url, site_type, num_workers
+                )
+                if processed_data:
+                    data[url] = processed_data
+
     elif site_type == "tos":
         url_domain = row["Domain"]
         count = 0
@@ -268,10 +328,6 @@ def extract_and_format_text(file_path: Path) -> str:
         return ""
 
 
-def process_errors_json(json_directory: str, output_file: str) -> None:
-    pass
-
-
 def get_website_start_dates(snapshot_dir: str) -> dict[str, pd.Timestamp]:
     start_dates = {}
     for sanitized_url in os.listdir(snapshot_dir):
@@ -280,12 +336,8 @@ def get_website_start_dates(snapshot_dir: str) -> dict[str, pd.Timestamp]:
             snapshots = [f for f in os.listdir(url_dir) if f.endswith(".html")]
             if snapshots:
                 earliest_snapshot = min(snapshots)
-                start_date_str = earliest_snapshot.split(".")[
-                    0
-                ]  # Extract the date string from the file name
-                start_date = pd.to_datetime(
-                    start_date_str, format="%Y%m%d%H%M%S"
-                )  # Parse the date string using the correct format
+                start_date_str = earliest_snapshot.split(".")[0]
+                start_date = pd.to_datetime(start_date_str, format="%Y%m%d%H%M%S")
                 start_dates[sanitized_url] = start_date
     return start_dates
 
