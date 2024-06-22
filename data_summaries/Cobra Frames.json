@@ -76,6 +76,18 @@
             "S2 Citation Count (May 2024)": 11,
             "S2 Date": "2023-06-03"
         },
+        "Text Metrics": {
+            "Num Dialogs": 32582,
+            "Mean Inputs Length": 3612.1138,
+            "Mean Targets Length": 793.6961,
+            "Max Inputs Length": 4581,
+            "Max Targets Length": 2290,
+            "Min Inputs Length": 3375,
+            "Min Targets Length": 298,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
         "Bibtex": "@Article{Zhou2023COBRAFC,\n author = {Xuhui Zhou and Haojie Zhu and Akhila Yerukola and Thomas Davidson and Jena D. Hwang and Swabha Swayamdipta and Maarten Sap},\n booktitle = {Annual Meeting of the Association for Computational Linguistics},\n journal = {ArXiv},\n title = {COBRA Frames: Contextual Reasoning about Effects and Harms of Offensive Statements},\n volume = {abs/2306.01985},\n year = {2023}\n}\n"
     }
 }
