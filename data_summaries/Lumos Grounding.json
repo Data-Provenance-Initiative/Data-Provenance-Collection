@@ -64,7 +64,35 @@
         "Dataset Filter IDs": [
             "complex_qa"
         ],
-        "Bibtex": "@article{yin2023lumos, title={Agent Lumos: Unified and Modular Training for Open-Source Language Agents}, author={Yin, Da and Brahman, Faeze and Ravichander, Abhilasha and Chandu, Khyathi and Chang, Kai-Wei and Choi, Yejin and Lin, Bill Yuchen}, journal={arXiv preprint arXiv:2311.05657}, year={2023}}"
+        "Bibtex": "@article{yin2023lumos, title={Agent Lumos: Unified and Modular Training for Open-Source Language Agents}, author={Yin, Da and Brahman, Faeze and Ravichander, Abhilasha and Chandu, Khyathi and Chang, Kai-Wei and Choi, Yejin and Lin, Bill Yuchen}, journal={arXiv preprint arXiv:2311.05657}, year={2023}}",
+        "Inferred Metadata": {
+            "GitHub License": "MIT License",
+            "GitHub Stars (June 2024)": 419,
+            "GitHub Topics": [
+                "decision-making",
+                "grounding",
+                "language-agent",
+                "maths",
+                "planning",
+                "question-answering",
+                "reasoning",
+                "web-agent"
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "ai2lumos/lumos_unified_ground_iterative",
+            "HF Date": "2023-10-23",
+            "HF Downloads (June 2024)": 7,
+            "HF Likes (June 2024)": 2,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     },
     "lumos-grounding-maths": {
         "Unique Dataset Identifier": "lumos-grounding-maths",
@@ -134,7 +162,35 @@
         "Dataset Filter IDs": [
             "maths"
         ],
-        "Bibtex": "@article{yin2023lumos, title={Agent Lumos: Unified and Modular Training for Open-Source Language Agents}, author={Yin, Da and Brahman, Faeze and Ravichander, Abhilasha and Chandu, Khyathi and Chang, Kai-Wei and Choi, Yejin and Lin, Bill Yuchen}, journal={arXiv preprint arXiv:2311.05657}, year={2023}}"
+        "Bibtex": "@article{yin2023lumos, title={Agent Lumos: Unified and Modular Training for Open-Source Language Agents}, author={Yin, Da and Brahman, Faeze and Ravichander, Abhilasha and Chandu, Khyathi and Chang, Kai-Wei and Choi, Yejin and Lin, Bill Yuchen}, journal={arXiv preprint arXiv:2311.05657}, year={2023}}",
+        "Inferred Metadata": {
+            "GitHub License": "MIT License",
+            "GitHub Stars (June 2024)": 419,
+            "GitHub Topics": [
+                "decision-making",
+                "grounding",
+                "language-agent",
+                "maths",
+                "planning",
+                "question-answering",
+                "reasoning",
+                "web-agent"
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "ai2lumos/lumos_unified_ground_iterative",
+            "HF Date": "2023-10-23",
+            "HF Downloads (June 2024)": 7,
+            "HF Likes (June 2024)": 2,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     },
     "lumos-grounding-web_agent": {
         "Unique Dataset Identifier": "lumos-grounding-web_agent",
@@ -198,7 +254,35 @@
         "Dataset Filter IDs": [
             "web_agent"
         ],
-        "Bibtex": "@article{yin2023lumos, title={Agent Lumos: Unified and Modular Training for Open-Source Language Agents}, author={Yin, Da and Brahman, Faeze and Ravichander, Abhilasha and Chandu, Khyathi and Chang, Kai-Wei and Choi, Yejin and Lin, Bill Yuchen}, journal={arXiv preprint arXiv:2311.05657}, year={2023}}"
+        "Bibtex": "@article{yin2023lumos, title={Agent Lumos: Unified and Modular Training for Open-Source Language Agents}, author={Yin, Da and Brahman, Faeze and Ravichander, Abhilasha and Chandu, Khyathi and Chang, Kai-Wei and Choi, Yejin and Lin, Bill Yuchen}, journal={arXiv preprint arXiv:2311.05657}, year={2023}}",
+        "Inferred Metadata": {
+            "GitHub License": "MIT License",
+            "GitHub Stars (June 2024)": 419,
+            "GitHub Topics": [
+                "decision-making",
+                "grounding",
+                "language-agent",
+                "maths",
+                "planning",
+                "question-answering",
+                "reasoning",
+                "web-agent"
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "ai2lumos/lumos_unified_ground_iterative",
+            "HF Date": "2023-10-23",
+            "HF Downloads (June 2024)": 7,
+            "HF Likes (June 2024)": 2,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     },
     "lumos-grounding-multimodal": {
         "Unique Dataset Identifier": "lumos-grounding-multimodal",
@@ -257,6 +341,34 @@
         "Dataset Filter IDs": [
             "multimodal"
         ],
-        "Bibtex": "@article{yin2023lumos, title={Agent Lumos: Unified and Modular Training for Open-Source Language Agents}, author={Yin, Da and Brahman, Faeze and Ravichander, Abhilasha and Chandu, Khyathi and Chang, Kai-Wei and Choi, Yejin and Lin, Bill Yuchen}, journal={arXiv preprint arXiv:2311.05657}, year={2023}}"
+        "Bibtex": "@article{yin2023lumos, title={Agent Lumos: Unified and Modular Training for Open-Source Language Agents}, author={Yin, Da and Brahman, Faeze and Ravichander, Abhilasha and Chandu, Khyathi and Chang, Kai-Wei and Choi, Yejin and Lin, Bill Yuchen}, journal={arXiv preprint arXiv:2311.05657}, year={2023}}",
+        "Inferred Metadata": {
+            "GitHub License": "MIT License",
+            "GitHub Stars (June 2024)": 419,
+            "GitHub Topics": [
+                "decision-making",
+                "grounding",
+                "language-agent",
+                "maths",
+                "planning",
+                "question-answering",
+                "reasoning",
+                "web-agent"
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "ai2lumos/lumos_unified_ground_iterative",
+            "HF Date": "2023-10-23",
+            "HF Downloads (June 2024)": 7,
+            "HF Likes (June 2024)": 2,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        }
     }
 }
