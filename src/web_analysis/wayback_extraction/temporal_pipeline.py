@@ -16,12 +16,12 @@ def parse_arguments() -> argparse.Namespace:
         "--input-path",
         type=Path,
         required=True,
-        help="Path to a directory of CSV files containing URLs (assumes DPI annotations format).",
+        help="Path to CSV file containing URLs (assumes DPI annotations format).",
     )
     parser.add_argument(
         "--output-json-path",
         type=Path,
-        default=Path("./temporal_tos.json"),
+        default=Path("./temporal_data.json"),
         help="Path to save the output JSON file with extracted text for all URLs.",
     )
     parser.add_argument(
@@ -39,14 +39,14 @@ def parse_arguments() -> argparse.Namespace:
     parser.add_argument(
         "--frequency",
         type=str,
-        default="annually",
+        default="monthly",
         choices=["daily", "monthly", "annually"],
         help="Frequency of collecting snapshots. Default is monthly.",
     )
     parser.add_argument(
         "--num-workers",
         type=int,
-        default=8,
+        default=6,
         help="Number of worker threads.",
     )
     parser.add_argument(
@@ -79,15 +79,15 @@ def parse_arguments() -> argparse.Namespace:
     parser.add_argument(
         "--site-type",
         type=str,
-        default="main",
+        default="robots",
         choices=["tos", "robots", "main"],
         help="Type of site to process (terms of service or robots.txt). If type is main, we will process the main page/domain of the site.",
     )
     parser.add_argument(
         "--max-chunk-size",
         type=int,
-        default=1000,
-        help="Chunk size (MB) for saving data to JSON file. Default is 1000 MB.",
+        default=5000,
+        help="Chunk size (MB) for saving data to JSON file. Default is 5000 MB.",
     )
     return parser.parse_args()
 
@@ -105,43 +105,47 @@ if __name__ == "__main__":
     for arg, value in vars(args).items():
         print(f"{arg}: {value}")
 
-    urls = extract_urls(args.input_path, args.site_type)
+    urls = extract_urls(csv_file_path=args.input_path, site_type=args.site_type)
 
     if args.save_snapshots:
-        client = WaybackMachineClient(
-            args.num_workers,
-            args.snapshots_path,
-            args.stats_path,
-            args.site_type,
+        print_colored(
+            "\nDetailed logs will be saved to wayback_client.log",
+            Fore.YELLOW,
         )
-
+        client = WaybackMachineClient(
+            num_workers=args.num_workers,
+            snapshots_path=args.snapshots_path,
+            stats_path=args.stats_path,
+            site_type=args.site_type,
+        )
         print_colored(
             f"\nStarting WaybackMachineClient processing with {len(urls)} URLs...",
             Fore.GREEN,
         )
-
         client.process_urls(
-            urls,
-            args.start_date,
-            args.end_date,
-            args.frequency,
-            args.count_changes,
+            urls=urls,
+            start_date=args.start_date,
+            end_date=args.end_date,
+            frequency=args.frequency,
+            count_changes=args.count_changes,
         )
-
-        client.save_failed_urls("failed_urls.txt")
-        print_colored("Failed URLs saved to failed_urls.txt", Fore.YELLOW)
-
+        client.save_failed_urls(filename="failed_urls.txt")
+        print_colored(
+            "Failed URLs and error info saved to failed_urls.txt", Fore.YELLOW
+        )
     if args.process_to_json:
-        print(f"Parsing HTML directories...")
-        parse_html_directories(
-            args.snapshots_path,
-            "/Users/ariel-raive/Desktop/Data-Provenance-Collection/src/web_analysis/wayback_extraction/robots/robots_head.csv",
-            args.site_type,
-            args.num_workers,
+        output_files = parse_html_directories(
+            root_directory=args.snapshots_path,
+            csv_file_path=args.input_path,
+            site_type=args.site_type,
+            num_workers=args.num_workers,
+            num_processes=args.num_workers,
             max_chunk_size=(
                 args.max_chunk_size * 1024 * 1024 if args.max_chunk_size else None
             ),  # MB
-            output_file=args.output_json_path,
+            output_json_path=args.output_json_path,
         )
-        # TODO: fix chunking file names
-        print_colored(f"Parsed data saved to {args.output_json_path}", Fore.GREEN)
+        if output_files:
+            print_colored(f"\nParsed data saved to:", Fore.GREEN)
+            for file in output_files:
+                print(f"- {file}")
