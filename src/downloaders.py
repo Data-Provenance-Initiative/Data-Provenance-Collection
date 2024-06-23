@@ -699,10 +699,6 @@ def download_ultrachat(accepted_filter_ids):
         "UltraChat",
     )
 
-def download_ultrachat(accepted_filter_ids):
-    return huggingface_download("stingning/ultrachat", split="train")
-
-
 
 def download_wildchat(accepted_filter_ids):
     """downloads in the wild chat dataset from hugging face"""
