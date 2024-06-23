@@ -1,6 +1,7 @@
-bs4
-chardet
-colorama
-python-dateutil
-ratelimit
-requests
+bs4==0.0.2
+chardet==5.2.0
+colorama==0.4.6
+pympler==1.0.1
+python-dateutil==2.9.0.post0
+ratelimit==2.2.1
+requests==2.32.3
