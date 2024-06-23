@@ -1083,7 +1083,7 @@ def encode_latest_tos_robots_into_df(
 
     url_to_tos_map = dict(zip(url_results_df['URL'], url_results_df['ToS']))
     
-    return url_results_df, url_to_tos_map
+    return url_results_df #, url_to_tos_map
 
 
 def plot_robots_time_map_original(df, agent_type, val_key, frequency="M"):
