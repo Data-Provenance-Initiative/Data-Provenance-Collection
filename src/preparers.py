@@ -32,7 +32,7 @@ def convert_inputs_targets_to_messages(
 
 
 def prepare_open_platypus(row):
-    input_text = row['input'] + ' ' if row['input'] != None else ''  # it is empty in many cases
+    input_text = row['input'] + ' ' if row['input'] is not None else ''  # it is empty in many cases
     instruction = input_text + row['instruction']
     dset = row['data_source']
     output = row['output']
@@ -41,6 +41,7 @@ def prepare_open_platypus(row):
         output,
         dset
     )
+
 
 def prepare_flan_collection(row):
     return convert_inputs_targets_to_messages(
@@ -431,6 +432,11 @@ def prepare_evol_instruct(row):
     row['conversations'][0]['parent'] = dset
     row['conversations'][1]['parent'] = 0
     return row['conversations']
+    # return convert_inputs_targets_to_messages(
+    #     row["instruction"],
+    #     row["output"],
+    #     "evol_instruct",
+    # )
 
 
 def prepare_deita_10k(row):
@@ -1193,14 +1199,14 @@ def prepare_indic_instruct(row):
 
 def prepare_pii_masking_200k(row):
     inputs = (
-        row["unmasked_text"]
+        row["source_text"]
         + "\n\n"
         + "Given the previous paragraph, please mask any personally "
         "identifiable information using masks, such as [FIRSTNAME_1], [AGE_2],"
         " [GENDER_1], or [COUNTRY_2],.."
     )
     return convert_inputs_targets_to_messages(
-        inputs, row["masked_text"], "pii-masking-200k"
+        inputs, row["target_text"], "pii-masking-200k"
     )
 
 
