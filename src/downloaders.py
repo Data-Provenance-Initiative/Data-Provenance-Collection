@@ -409,7 +409,7 @@ def download_feedback_collection(accepted_filter_ids):
     return huggingface_download("prometheus-eval/Feedback-Collection", split='train')
 
 def download_preference_collection(accepted_filter_ids):
-    return huggingface_download("prometheus-eval/Preference-Collection")
+    return huggingface_download("prometheus-eval/Preference-Collection", split='train')
 
 def download_evol_instruct(accepted_filter_ids):
     return huggingface_download("mlabonne/WizardLM_evol_instruct_70k-ShareGPT", split="train")
