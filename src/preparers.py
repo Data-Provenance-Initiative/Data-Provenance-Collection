@@ -32,7 +32,7 @@ def convert_inputs_targets_to_messages(
 
 
 def prepare_open_platypus(row):
-    input_text = row['input'] + ' ' if row['input'] is not None else ''  # it is empty in many cases
+    input_text = row['input'] + ' ' if row['input'] != None else ''  # it is empty in many cases
     instruction = input_text + row['instruction']
     dset = row['data_source']
     output = row['output']
@@ -41,7 +41,6 @@ def prepare_open_platypus(row):
         output,
         dset
     )
-
 
 def prepare_flan_collection(row):
     return convert_inputs_targets_to_messages(
@@ -425,11 +424,13 @@ def prepare_capybara(row):
 
 
 def prepare_evol_instruct(row):
-    return convert_inputs_targets_to_messages(
-        row["instruction"],
-        row["output"],
-        "evol_instruct",
-    )
+    row['conversations'][1]['from'] = "assistant"
+    row['conversations'][0]['from'] = "user"
+    dset = "evol_instruct"
+
+    row['conversations'][0]['parent'] = dset
+    row['conversations'][1]['parent'] = 0
+    return row['conversations']
 
 
 def prepare_deita_10k(row):
@@ -849,6 +850,7 @@ def prepare_book_summaries(row):
 
 def prepare_ultrachat(row):
     messages = []
+    # print(row)
     if row["_source"] == "UltraChat":
         parent = "ultrachat"
         for i, script in enumerate(row["data"]):
@@ -862,24 +864,15 @@ def prepare_ultrachat(row):
             parent = i
     elif row["_source"] == "UltraChat_200k":
         parent = "ultrachat_200k"
-        for i, script in enumerate(row):
+        for i, script in enumerate(row['messages']):
             messages.append(
                 {
-                    "from": "user" if i % 2 == 0 else "assistant",
-                    "text": script.strip(),
+                    "from": script['role'],
+                    "text": script['content'].strip(),
                     "parent": parent,
                 }
             )
             parent = i
-    for i, script in enumerate(row["data"]):
-        messages.append(
-            {
-                "from": "user" if i % 2 == 0 else "assistant",
-                "text": script.strip(),
-                "parent": parent,
-            }
-        )
-        parent = i
     return messages
 
 
