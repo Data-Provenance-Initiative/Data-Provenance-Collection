@@ -2,6 +2,7 @@ from collections import defaultdict, Counter
 import re
 import itertools
 
+import os
 import json
 import numpy as np
 import pandas as pd
@@ -138,6 +139,8 @@ def get_bots(company=None, setting=None):
 ###### URL --> Token Lookup Methods
 ############################################################
 
+def normalize_url(url):
+    return url if url.startswith("www.") else f"www.{url}"
 
 class URLTokenLookup:
     def __init__(self, file_path):
@@ -172,6 +175,17 @@ class URLTokenLookup:
         df = pd.read_csv(self.file_path)
         # x = df.set_index('url')[['c4_tokens', 'rf_tokens', 'dolma_tokens']]
         # return {row['url']: (row['c4_tokens'], row['rf_tokens'], row['dolma_tokens']) for index, row in df.iterrows()}
+        # print(df)
+        df['url'] = df['url'].apply(normalize_url)
+        # df = df.drop_duplicates(subset='url')
+        df = df.groupby('url').agg({
+            'c4_tokens': 'sum',
+            'rf_tokens': 'sum',
+            'dolma_tokens': 'sum',
+        }).reset_index()
+        # print(df)
+        # www.apnews.com,8981058,19450645,8819143
+        # apnews.com,14265514,15769066,143689592
 
         df.set_index("url", inplace=True)
 
@@ -192,12 +206,7 @@ class URLTokenLookup:
         int: Total number of tokens for the specified dataset.
         """
         return self._TOTAL_TOKENS[dataset_name]
-        # index_map = {'c4': 0, 'rf': 1, 'dolma': 2}
-        # dataset_index = index_map[dataset_name]
-        # total = 0
-        # for tokens in self.lookup_map.values():
-        #     total += tokens[dataset_index]
-        # return total
+
 
     def url_tokens(self, url, dataset_name):
         """
@@ -234,7 +243,7 @@ class URLTokenLookup:
         )
 
         # Extract the top K URLs
-        top_urls = [url for url, tokens in sorted_urls[:k]]
+        top_urls = [normalize_url(url) for url, tokens in sorted_urls[:k]]
         num_tokens = sum(
             [tokens[self.index_map[dataset_name]] for url, tokens in sorted_urls[:k]]
         )
@@ -250,7 +259,7 @@ class URLTokenLookup:
             + self.top_k_urls("rf", 2000, False)
             + self.top_k_urls("dolma", 2000, False)
         )
-        return [url for url in self.lookup_map if url not in top_urls]
+        return [normalize_url(url) for url in self.lookup_map if url not in top_urls]
 
     def get_url_to_token_map(self, dataset_name):
         dataset_index = self.index_map[dataset_name]
@@ -366,6 +375,7 @@ def compute_url_date_agent_status(data, relevant_agents):
     status_counter = defaultdict(lambda: Counter({"all": 0, "none": 0, "some": 0}))
 
     for url, date_to_robots in data.items():
+        url = normalize_url(url)
         if None in date_to_robots:
             print(url)
         _, parsed_result = parse_robots.analyze_robots(date_to_robots)
@@ -417,8 +427,7 @@ def compute_url_date_agent_status_detailed(data, relevant_agents):
     """
     status_summary = defaultdict(lambda: defaultdict(lambda: defaultdict(str)))
     for url, date_to_robots in data.items():
-        if None in date_to_robots:
-            print(url)
+        url = url if url.startswith("www.") else f"www.{url}"
         _, parsed_result = robots_stats, url_interpretations = (
             parse_robots.analyze_robots(date_to_robots)
         )
@@ -470,7 +479,7 @@ def read_start_dates(fpath, robots_urls):
 
     # Map the sanitized URLs back to the original URLs
     website_start_dates = {
-        url: start_dates.get(sanitize_url(url), pd.to_datetime("1970-01-01"))
+        normalize_url(url): start_dates.get(sanitize_url(url), pd.to_datetime("1970-01-01"))
         for url in robots_urls
     }
     return website_start_dates
@@ -592,37 +601,6 @@ def prepare_robots_temporal_summary_detailed(
     return filled_status_summary
 
 
-# def robots_temporal_to_df(filled_status_summary, url_to_counts={}):
-#     """
-#     Args:
-#         filled_status_summary: {Period --> Agent --> Status --> set(URLs)}
-#         url_to_counts: {url -> num tokens}. If available, will sum the tokens for each URL in counts
-
-#     Returns:
-#         Dataframe: [Period, Agent, Status, Count, Tokens]
-#     """
-
-#     # Convert results to a DataFrame for easy viewing and manipulation
-#     summary_df_list = []
-#     for period, agent_statuses in filled_status_summary.items():
-#         for agent, statuses in agent_statuses.items():
-#             for status, urls in statuses.items():
-#                 summary_df_list.append(
-#                     {
-#                         "period": period,
-#                         "agent": agent,
-#                         "status": status,
-#                         "count": len(urls),
-#                     }
-#                 )
-#                 if url_to_counts:
-#                     summary_df_list[-1].update(
-#                         {"tokens": sum([url_to_counts[url] for url in urls])}
-#                     )
-
-#     summary_df = pd.DataFrame(summary_df_list)
-#     return summary_df
-
 
 def robots_temporal_to_df(filled_status_summary, strictness_order, url_to_counts={}):
     """
@@ -689,29 +667,6 @@ def robots_temporal_to_df(filled_status_summary, strictness_order, url_to_counts
     return summary_df
 
 
-# # Example usage:
-# filled_status_summary = {
-#     '2023-01': {
-#         'AgentA': {
-#             'OK': {'url1', 'url2'},
-#             'Blocked': {'url3'}
-#         },
-#         'AgentB': {
-#             'OK': {'url1'},
-#             'Blocked': {'url2', 'url4'}
-#         }
-#     }
-# }
-# url_to_counts = {
-#     'url1': 100,
-#     'url2': 200,
-#     'url3': 300,
-#     'url4': 400
-# }
-# strictness_order = ['OK', 'Blocked']
-
-# summary_df = robots_temporal_to_df(filled_status_summary, url_to_counts, strictness_order)
-# print(summary_df)
 
 
 def get_latest_url_robot_statuses(url_robots_summary, agents):
@@ -812,15 +767,21 @@ def get_tos_url_time_verdicts(
     tos_policies,
     tos_license_policies,
     tos_compete_policies,
+    manual_annotated_urls, 
+    website_start_dates,
 ):
     """
     Input:
         URL --> time --> ToS subpage --> {verdict: <code>, evidence: <evidence>}
         URL --> time --> ToS subpage --> {verdict: <code>, evidence: <evidence>}
+        URL --> time --> ToS subpage --> {verdict: <code>, evidence: <evidence>}
+        List of manually annotated URLs
+        URL --> Start date.
 
     Returns:
         URL --> time --> ToS verdict string.
     """
+
     url_to_time_to_verdict = {}
     misses, hits = 0, 0
     for url, time_to_subpage_to_verdicts in tos_policies.items():
@@ -838,8 +799,16 @@ def get_tos_url_time_verdicts(
                 if url not in url_to_time_to_verdict:
                     url_to_time_to_verdict[url] = {}
                 url_to_time_to_verdict[url].update({tos_time: verdict})
+
+    # print(len(url_to_time_to_verdict))
+    for url in manual_annotated_urls:
+        if url in website_start_dates and url not in url_to_time_to_verdict:
+            url_to_time_to_verdict[url] = {website_start_dates[url].strftime("%Y-%m-%d"): "No Terms Pages"}
+    # print(len(url_to_time_to_verdict))
+
     print(f"{misses} / {misses + hits} dates missed due to time mismatches.")
     return url_to_time_to_verdict
+
 
 
 def prepare_tos_temporal_summary(
@@ -914,6 +883,8 @@ def tos_temporal_to_df(filled_status_summary, url_set, url_to_counts={}):
     for period, status_urls in filled_status_summary.items():
         for status, urls in status_urls.items():
             included_urls = [url for url in urls if url in url_set]
+            if len(included_urls) < len(urls):
+                print(f"{len(included_urls)} | {len(urls)}")
             summary_df_list.append(
                 {
                     "period": period,
@@ -1058,7 +1029,7 @@ def prepare_recent_robots_tos_info(
     agent_names = [agent for company in companies for agent in get_bots(company)]
     # {URL --> Date --> Agent --> Status} --> {URL —> status}
     url_robots_status = get_latest_url_robot_statuses(url_robots_summary, agent_names)
-    print(len(url_robots_status))
+    # print(len(url_robots_status))
     url_tos_verdicts = tos_get_most_recent_verdict(
         tos_policies_dict, tos_license_policies, tos_compete_policies
     )
@@ -1072,6 +1043,7 @@ def encode_latest_tos_robots_into_df(
     tos_compete_policies,
     url_robots_summary,
     companies,
+    robots_detailed=False,
 ):
 
     recent_url_robots, recent_url_tos_verdicts = prepare_recent_robots_tos_info(
@@ -1083,19 +1055,35 @@ def encode_latest_tos_robots_into_df(
     )
     url_results_df["robots"] = url_results_df["URL"].map(recent_url_robots)
     url_results_df["robots"].fillna("none", inplace=True)
-    url_results_df["Restrictive Robots.txt"] = url_results_df["robots"].map(
-        {"all": True, "some": False, "none": False}
-    )
+    if robots_detailed:
+        url_results_df["Restrictive Robots.txt"] = url_results_df["robots"].map(
+            {'no_robots': False, 'none': False, 'none_sitemap': False, 'none_crawl_delay': False, 
+            'some_pattern_restrictions': False, 'some_disallow_important_dir': False, 'some_other': False, 'all': True}
+        )
+    else:
+        url_results_df["Restrictive Robots.txt"] = url_results_df["robots"].map(
+            {"all": True, "some": False, "none": False}
+        )
+
+    
     url_results_df["ToS"] = url_results_df["URL"].map(recent_url_tos_verdicts)
-    url_results_df["ToS"].fillna("Unrestricted Use", inplace=True)
+    # print(url_results_df[url_results_df["URL"]])
+    # print("start")
+    # print(len(recent_url_tos_verdicts))
+    # print(len(url_results_df))
+    # print(len(url_results_df[url_results_df["sample"] == "random"]))
+    # print(len(url_results_df[url_results_df["sample"] == "random"][url_results_df["ToS"].isna()]))
+    url_results_df["ToS"].fillna("No Terms Pages", inplace=True)
+    # print(len(url_results_df[url_results_df["sample"] == "random"][url_results_df["ToS"].isin(["Unrestricted Use","No Terms Pages"])]))
     # print(Counter(url_results_df["ToS"].tolist()))
-    # tos_strictness = {
-    #     v: k < 5 for k, v in analysis_constants.TOS_AI_SCRAPING_VERDICT_MAPPER.items()
-    # }
+
     url_results_df["Restrictive Terms"] = url_results_df["ToS"].apply(
-        lambda x: x != "Unrestricted Use"
+        lambda x: x not in ["Unrestricted Use", "No Terms Pages"]
     )
-    return url_results_df
+
+    url_to_tos_map = dict(zip(url_results_df['URL'], url_results_df['ToS']))
+    
+    return url_results_df #, url_to_tos_map
 
 
 def plot_robots_time_map_original(df, agent_type, val_key, frequency="M"):
@@ -1793,3 +1781,270 @@ def plot_robots_time_map_3d_surface_matplotlib(
     fig.colorbar(surf, ax=ax, shrink=0.5, aspect=5)
     plt.show()
     plt.clf()
+
+
+def prepare_temporal_robots_for_corpus(
+    url_robots_summary_detailed,
+    head_urls,
+    random_urls,
+    service_to_urls,
+    url_to_counts,
+    agent_groups_to_track,
+    robots_strictness_order,
+    temporal_start_date,
+    temporal_end_date,
+    website_start_dates,
+):
+    urlsubset_to_robots_summary, urlsubsets = {}, {}
+    for key, url_subset in service_to_urls.items():
+        url_robots_summary_rand_detailed = {url: url_robots_summary_detailed[url] for url in random_urls if url in url_robots_summary_detailed}
+        url_robots_summary_rand_subset = {url: details for url, details in url_robots_summary_rand_detailed.items() if url in url_subset}
+        url_robots_summary_head_detailed = {url: url_robots_summary_detailed[url] for url in head_urls if url in url_robots_summary_detailed}
+        url_robots_summary_head_subset = {url: details for url, details in url_robots_summary_head_detailed.items() if url in url_subset}
+        
+        # RANDOM
+        # {Period --> Agent --> Status --> set(URLs)}
+        robots_filled_status_rand_summary_detailed = prepare_robots_temporal_summary_detailed(
+            url_robots_summary=url_robots_summary_rand_subset,
+            group_to_agents=agent_groups_to_track,
+            start_time=temporal_start_date,
+            end_time=temporal_end_date,
+            time_frequency="M",
+            website_start_dates=website_start_dates,
+        )
+        # [Period, Agent, Status, Count, Tokens]
+        robots_temporal_rand_summary_detailed = robots_temporal_to_df(
+            robots_filled_status_rand_summary_detailed,
+            strictness_order=robots_strictness_order,
+            url_to_counts=url_to_counts,
+        )
+        # HEAD
+        # {Period --> Agent --> Status --> set(URLs)}
+        robots_filled_status_head_summary_detailed = prepare_robots_temporal_summary_detailed(
+            url_robots_summary=url_robots_summary_head_subset,
+            group_to_agents=agent_groups_to_track,
+            start_time=temporal_start_date,
+            end_time=temporal_end_date,
+            time_frequency="M",
+            website_start_dates=website_start_dates,
+        )
+        # [Period, Agent, Status, Count, Tokens]
+        robots_temporal_head_summary_detailed = robots_temporal_to_df(
+            robots_filled_status_head_summary_detailed,
+            strictness_order=robots_strictness_order,
+            url_to_counts=url_to_counts,
+        )
+        urlsubset_to_robots_summary[f"rand-{key}"] = robots_temporal_rand_summary_detailed
+        urlsubset_to_robots_summary[f"head-{key}"] = robots_temporal_head_summary_detailed
+        urlsubsets[f"rand-{key}"] = set(url_robots_summary_rand_subset.keys())
+        urlsubsets[f"head-{key}"] = set(url_robots_summary_head_subset.keys())
+    return urlsubset_to_robots_summary, urlsubsets
+
+
+def prepare_temporal_tos_for_corpus(
+    tos_policies,
+    tos_license_policies,
+    tos_compete_policies,
+    head_urls,
+    random_urls,
+    service_to_urls,
+    url_to_counts,
+    agent_groups_to_track,
+    temporal_start_date,
+    temporal_end_date,
+    manual_annotated_urls,
+    website_start_dates,
+):
+    urlsubset_to_tos_summary, urlsubsets = {}, {}
+    url_to_time_to_tos_verdict = get_tos_url_time_verdicts(
+        tos_policies, tos_license_policies, tos_compete_policies, manual_annotated_urls, website_start_dates)
+    for key, url_subset in service_to_urls.items():
+        # if key != "all":
+        #     continue
+
+        url_tos_summary_rand_detailed = {url: url_to_time_to_tos_verdict[url] for url in random_urls if url in url_to_time_to_tos_verdict}
+        url_tos_summary_rand_subset = {url: details for url, details in url_tos_summary_rand_detailed.items() if url in url_subset}
+        url_tos_summary_head_detailed = {url: url_to_time_to_tos_verdict[url] for url in head_urls if url in url_to_time_to_tos_verdict}
+        url_tos_summary_head_subset = {url: details for url, details in url_tos_summary_head_detailed.items() if url in url_subset}
+        # print(len(url_tos_summary_head_subset))
+        # print(len(url_tos_summary_rand_subset))
+
+
+        # Period --> Status --> set(URLs)
+        period_tos_verdict_urls_head = prepare_tos_temporal_summary(
+            url_tos_summary_head_subset,
+            start_time=temporal_start_date,
+            end_time=temporal_end_date,
+            time_frequency="M",
+            website_start_dates=website_start_dates,
+        )
+        # cc_head_urls = set()
+        # for k, vs in period_tos_verdict_urls_head.items():
+        #     for urls in vs.values():
+        #         cc_head_urls = cc_head_urls.union(urls)
+        # print(len(cc_head_urls))
+
+        # Period --> Status --> set(URLs)
+        period_tos_verdict_urls_rand = prepare_tos_temporal_summary(
+            url_tos_summary_rand_subset,
+            start_time=temporal_start_date,
+            end_time=temporal_end_date,
+            time_frequency="M",
+            website_start_dates=website_start_dates,
+        )
+        # cc_rand_urls = set()
+        # for k, vs in period_tos_verdict_urls_rand.items():
+        #     for urls in vs.values():
+        #         cc_rand_urls = cc_rand_urls.union(urls)
+        # print(len(cc_rand_urls))
+
+        # Dataframe: [Period, Status, Count, Tokens]
+        tos_summary_df_head = tos_temporal_to_df(
+            period_tos_verdict_urls_head,
+            url_set=url_subset,
+            url_to_counts=url_to_counts,
+        )
+        tos_summary_df_rand = tos_temporal_to_df(
+            period_tos_verdict_urls_rand,
+            url_set=url_subset,
+            url_to_counts=url_to_counts,
+        )
+
+        urlsubset_to_tos_summary[f"head-{key}"] = tos_summary_df_head
+        urlsubset_to_tos_summary[f"rand-{key}"] = tos_summary_df_rand
+        urlsubsets[f"head-{key}"] = set(url_tos_summary_head_subset.keys())
+        urlsubsets[f"rand-{key}"] = set(url_tos_summary_rand_subset.keys())        
+    return urlsubset_to_tos_summary, urlsubsets
+
+
+def compute_corpus_restriction_estimates(
+    head_df,
+    rand_df,
+    head_token_frac,
+    rand_token_frac,
+    target_agent,
+    restrictive_statuses,
+    save_fpath,
+    verbose=False
+):
+    # Get the minimum and maximum date from the 'period' column
+    # rand_df['period'] = rand_df['period'].dt.to_timestamp()
+    start_period = rand_df['period'].min()
+    end_period = rand_df['period'].max()
+    all_periods = pd.period_range(start=start_period, end=end_period, freq='M')
+
+    # print(rand_df[rand_df['agent'] == target_agent][rand_df["period"] == "2024-04"])
+    rand_restricted = rand_df \
+        .loc[rand_df['agent'] == target_agent] \
+        .loc[rand_df['status'].isin(restrictive_statuses)] \
+        [['period', 'tokens']]
+    rand_restricted = rand_restricted.groupby('period').sum()['tokens']
+    rand_restricted = rand_restricted.reindex(all_periods, fill_value=0)
+    
+    rand_all = rand_df \
+        .loc[rand_df['agent'] == target_agent] \
+        [['period', 'tokens']]
+    rand_all = rand_all.groupby('period').sum()['tokens']
+    
+    head_restricted = head_df \
+        .loc[head_df['agent'] == target_agent] \
+        .loc[head_df['status'].isin(restrictive_statuses)] \
+        [['period', 'tokens']]
+    head_restricted = head_restricted.groupby('period').sum()['tokens']
+    head_restricted = head_restricted.reindex(all_periods, fill_value=0)
+    
+    head_all = head_df \
+        .loc[head_df['agent'] == target_agent] \
+        [['period', 'tokens']]
+    head_all = head_all.groupby('period').sum()['tokens']
+
+    assert (rand_restricted.index == head_restricted.index).all()
+    assert (rand_all.index == head_all.index).all()
+    assert (rand_restricted.index == head_all.index).all()
+    assert rand_restricted.index.is_unique
+    assert head_restricted.index.is_unique
+    assert rand_all.index.is_unique
+    assert head_all.index.is_unique
+
+    rand_frac = rand_restricted / rand_all
+    head_frac = head_restricted / head_all
+    # print(save_fpath)
+    # print(f"rand token frac = {rand_token_frac}")
+    # print(f"head token frac = {head_token_frac}")
+    out = pd.concat([
+        rand_frac.rename('Random'),
+        head_frac.rename('Head'),
+        (rand_token_frac * rand_frac).rename('Rand Portion'),
+        (head_token_frac * head_frac).rename('Head Portion'),
+        ((rand_token_frac * rand_frac) + (head_token_frac * head_frac)).rename('Full Corpus'),
+    ], axis=1)
+    if verbose:
+        print(head_frac[-1])
+        print(rand_frac[-1])
+        print(head_token_frac * head_frac[-1])
+        print(rand_token_frac * rand_frac[-1])
+        print((rand_token_frac * rand_frac[-1]) + (head_token_frac * head_frac[-1]))
+    
+    # out.to_csv(f'src/analysis/{CHOSEN_CORPUS}_total_token_estimates.csv', index=True)
+    out.to_csv(save_fpath, index=True)
+
+
+def generate_corpus_restriction_estimates_per_url_split(
+    urlsubset_to_robots_summary,
+    url_subsets,
+    target_corpus,
+    url_token_lookup,
+    target_agent,
+    robot_statuses_to_include,
+    save_dir="output_data_robots"
+):
+    
+    total_tokens = url_token_lookup._TOTAL_TOKENS[target_corpus.lower()]
+    top_corpus_urls = url_token_lookup.top_k_urls(target_corpus.lower(), 2000)
+    corpus_urls_to_counts = url_token_lookup.get_url_to_token_map(target_corpus.lower())
+    num_head_tokens = sum([v for k, v in corpus_urls_to_counts.items() if k in top_corpus_urls])
+    non_head_tokens = total_tokens - num_head_tokens
+    assert non_head_tokens >= 0
+    
+    num_tokens_splits = {}
+    service_keys = set([k.split("-")[-1] for k in urlsubset_to_robots_summary.keys()])
+    for key in service_keys:
+        url_keys = list(urlsubset_to_robots_summary[f"head-{key}"].keys())
+        num_head_service_tokens = sum([v for k, v in corpus_urls_to_counts.items() if k in url_subsets[f"head-{key}"]])
+        num_rand_service_tokens = sum([v for k, v in corpus_urls_to_counts.items() if k in url_subsets[f"rand-{key}"]])
+        num_tokens_splits[key] = {
+            "head": num_head_service_tokens / num_head_tokens,
+            "rand": num_rand_service_tokens / non_head_tokens,
+        }
+    # overwrite "all".
+    num_tokens_splits["all"] = {"head": num_head_tokens / total_tokens, "rand": non_head_tokens / total_tokens}
+    # print(num_tokens_splits["all"])
+
+
+    for i, splitkey in enumerate(service_keys):
+        # print(splitkey)
+        save_fpath = os.path.join(save_dir, f'{target_corpus}_{splitkey}_token_estimates.csv')
+        head_df = urlsubset_to_robots_summary[f"head-{splitkey}"]
+        rand_df = urlsubset_to_robots_summary[f"rand-{splitkey}"]
+        # if splitkey == "all":
+        #     print(rand_df[rand_df['period'] == "2024-04"])
+        if "agent" not in head_df:
+            head_df["agent"] = target_agent
+            rand_df["agent"] = target_agent
+        
+        # if splitkey == "all":
+            # print(len(head_df))
+            # print(len(rand_df))
+            # print(total_tokens)
+            # print(non_head_tokens)
+        compute_corpus_restriction_estimates(
+            head_df,
+            rand_df,
+            num_tokens_splits[splitkey]["head"],
+            num_tokens_splits[splitkey]["rand"],
+            target_agent,
+            robot_statuses_to_include,
+            save_fpath,
+            verbose=splitkey=="all",
+        )
+        # prev_head_df = head_df
