@@ -425,11 +425,18 @@ def prepare_capybara(row):
 
 
 def prepare_evol_instruct(row):
-    return convert_inputs_targets_to_messages(
-        row["instruction"],
-        row["output"],
-        "evol_instruct",
-    )
+    row['conversations'][1]['from'] = "assistant"
+    row['conversations'][0]['from'] = "user"
+    dset = "evol_instruct"
+
+    row['conversations'][0]['parent'] = dset
+    row['conversations'][1]['parent'] = 0
+    return row['conversations']
+    # return convert_inputs_targets_to_messages(
+    #     row["instruction"],
+    #     row["output"],
+    #     "evol_instruct",
+    # )
 
 
 def prepare_deita_10k(row):
@@ -849,6 +856,7 @@ def prepare_book_summaries(row):
 
 def prepare_ultrachat(row):
     messages = []
+    # print(row)
     if row["_source"] == "UltraChat":
         parent = "ultrachat"
         for i, script in enumerate(row["data"]):
@@ -862,24 +870,15 @@ def prepare_ultrachat(row):
             parent = i
     elif row["_source"] == "UltraChat_200k":
         parent = "ultrachat_200k"
-        for i, script in enumerate(row):
+        for i, script in enumerate(row['messages']):
             messages.append(
                 {
-                    "from": "user" if i % 2 == 0 else "assistant",
-                    "text": script.strip(),
+                    "from": script['role'],
+                    "text": script['content'].strip(),
                     "parent": parent,
                 }
             )
             parent = i
-    for i, script in enumerate(row["data"]):
-        messages.append(
-            {
-                "from": "user" if i % 2 == 0 else "assistant",
-                "text": script.strip(),
-                "parent": parent,
-            }
-        )
-        parent = i
     return messages
 
 
@@ -1200,14 +1199,14 @@ def prepare_indic_instruct(row):
 
 def prepare_pii_masking_200k(row):
     inputs = (
-        row["unmasked_text"]
+        row["source_text"]
         + "\n\n"
         + "Given the previous paragraph, please mask any personally "
         "identifiable information using masks, such as [FIRSTNAME_1], [AGE_2],"
         " [GENDER_1], or [COUNTRY_2],.."
     )
     return convert_inputs_targets_to_messages(
-        inputs, row["masked_text"], "pii-masking-200k"
+        inputs, row["target_text"], "pii-masking-200k"
     )
 
 
