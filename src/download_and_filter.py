@@ -14,6 +14,7 @@ from downloader import Downloader
 import data_bibtex as data_bibtex
 from dotenv import load_dotenv
 from huggingface_hub import HfApi, utils
+from datasets.exceptions import DatasetNotFoundError
 
 load_dotenv()
 hf_token = os.getenv('HF_TOKEN')
@@ -173,6 +174,8 @@ def main(args):
             )
         except utils.GatedRepoError:
             print(f"You are not authorized to download Collection: {collection_key}. Please go to their HF Page and accept the dataset terms and conditions.")
+        except DatasetNotFoundError as e:
+            print(f"Dataset {collection_key} can not be found, Exception Message: {e}")
 
 
 if __name__ == "__main__":
