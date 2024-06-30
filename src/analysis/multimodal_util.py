@@ -457,6 +457,32 @@ def categorize_sources(df, order, domain_typemap):
     df_sources = df_sources.sort_values(by="Source Category")
     return df_sources
 
+def categorize_tasks(df, order, domain_typemap, tasks_column, modality, task_categories_mapper):
+    def map_taskgroup(row, modality) -> str:
+        task = row[tasks_column]
+        model_generated = row["Model Generated"]
+        
+        if modality == "Text":
+            if task in domain_typemap:
+                return domain_typemap[task]
+            if not pd.isna(task):
+                logging.warning("Could not find domain for %s" % task)
+            return "Other"
+        else:
+            return task
+
+    # Unlist to have one row per task (atomic components)
+    df_tasks = df.explode(tasks_column)
+
+    # Apply the updated map_taskgroup function to each row
+    df_tasks[tasks_column] = df_tasks.apply(lambda row: map_taskgroup(row, modality), axis=1).fillna("Other")
+
+    df_tasks = df_tasks.sort_values(by=tasks_column)
+    df_tasks[tasks_column] = df_tasks[tasks_column].apply(lambda x: task_categories_mapper[x])
+    df_tasks = df_tasks[df_tasks['Tasks']!= 'Other'] if modality == "Speech" else df_tasks
+
+    return df_tasks
+
 def plot_stacked_creator_categories(
     df, order, palette, pwidth, pheight, save_dir
 ):
@@ -807,6 +833,69 @@ def plot_license_terms_stacked_bar_chart_collections(
         chart_licenses.save(os.path.join(save_dir, "license_use_by_modality_collections.png"), ppi=plot_ppi)
 
     return chart_licenses
+
+def plot_tasks_chart(
+    df, task_typemap, order, pwidth, pheight, save_dir, modality, tasks_column, category_mapping_dict
+):
+    df = df[df['Modality'] == modality]
+    df_sources = categorize_tasks(df, order, task_typemap, tasks_column, modality, category_mapping_dict)
+    df_sources = df_sources[df_sources[tasks_column].notnull()]
+
+    # Aggregate counts for each category
+    df_aggregated = df_sources[tasks_column].value_counts().reset_index()
+    df_aggregated.columns = [tasks_column, 'count']
+
+    # Calculate percentages and format with a '%' sign
+    df_aggregated['percentage'] = ((df_aggregated['count'] / df_aggregated['count'].sum()) * 100).round().astype(int)
+
+    sorted_order = df_aggregated.sort_values('count', ascending=False)[tasks_column].tolist()
+
+    bar_chart = alt.Chart(df_aggregated).mark_bar(size=30).encode(
+        y=alt.Y(
+            field=f"{tasks_column}",
+            type="nominal",
+            title=f"{tasks_column}",
+            sort=sorted_order,
+            axis=alt.Axis(labelFontSize=12, titleFontSize=14)
+        ),
+        x=alt.X(
+            field="percentage",
+            type="quantitative",
+            title="Percentage",
+            axis=alt.Axis(format='.0f', labelExpr="datum.value + '%'", labelFontSize=12, titleFontSize=14)
+        ),
+        color=alt.Color(
+            field=f"{tasks_column}",
+            type="nominal",
+            title=f"{tasks_column}",
+            sort=sorted_order,
+            scale=alt.Scale(scheme='tableau20'),
+            legend=None
+        ),
+        tooltip=[
+            alt.Tooltip(f"{tasks_column}", title=f"{tasks_column}"), 
+            alt.Tooltip('count', title='Count'), 
+            alt.Tooltip('percentage', title='Percentage', format='.2f')
+        ]
+    ).properties(
+        title="",
+        width=pwidth,
+        height=pheight
+    ).configure_axis(
+        grid=False,
+        domain=False
+    ).configure_view(
+        strokeOpacity=0
+    ).configure_title(
+        fontSize=16,
+        anchor='start'
+    ).configure_legend(
+        titleFontSize=12,
+        labelFontSize=10,
+        symbolSize=100
+    )
+
+    return bar_chart
 
 
 def gini(array: np.ndarray) -> float:
