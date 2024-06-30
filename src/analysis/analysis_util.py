@@ -628,23 +628,15 @@ def run_population_analysis(
             'est_tokens_pct': est_tokens / total_tokens,
         }
         if verbose and bvar == "Restrictive Terms": # and corpus_name == "c4":
-            print(len(data_head))
-            print(len(data_random))
-            print(data_head[bvar].sum()) # 524
-            print(data_random[bvar].sum()) # 104
             # print(total_tokens - total_tokens_rest)
             # print(total_tokens_rest)
             head_rate = (data_head['magnitude'] * data_head[bvar]).sum() / data_head['magnitude'].sum()
             rand_rate = ((data_random['magnitude'] * data_random[bvar]).sum() / data_random['magnitude'].sum())
-            print(head_rate)
-            print(rand_rate)
+
             head_proportion = (data_head['magnitude'] * data_head[bvar]).sum() / total_tokens
             # head_proportion = (pred_head * (data_head['magnitude'].sum() / total_tokens))
             rand_proportion = (total_tokens_rest * ((data_random['magnitude'] * data_random[bvar]).sum() / data_random['magnitude'].sum())) / total_tokens
-            print(head_proportion)
-            print(rand_proportion)
-            print(final_results[bvar]['est_tokens_pct'])
-            print()
+
     
     return pd.DataFrame(final_results).T
 
