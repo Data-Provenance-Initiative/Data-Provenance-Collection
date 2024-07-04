@@ -1802,7 +1802,6 @@ def prepare_temporal_robots_for_corpus(
         url_robots_summary_rand_subset = {url: details for url, details in url_robots_summary_rand_detailed.items() if url in url_subset}
         url_robots_summary_head_detailed = {url: url_robots_summary_detailed[url] for url in head_urls if url in url_robots_summary_detailed}
         url_robots_summary_head_subset = {url: details for url, details in url_robots_summary_head_detailed.items() if url in url_subset}
-
         # RANDOM
         # {Period --> Agent --> Status --> set(URLs)}
         robots_filled_status_rand_summary_detailed = prepare_robots_temporal_summary_detailed(
@@ -1966,7 +1965,6 @@ def compute_corpus_restriction_estimates(
         .loc[head_df['agent'] == target_agent] \
         [['period', 'tokens']]
     head_all = head_all.groupby('period').sum()['tokens']
-    # print(head_all)
 
     assert (rand_restricted.index == head_restricted.index).all()
     assert (rand_all.index == head_all.index).all()
@@ -2040,7 +2038,6 @@ def generate_corpus_restriction_estimates_per_url_split(
         if "agent" not in head_df:
             head_df["agent"] = target_agent
             rand_df["agent"] = target_agent
-
         compute_corpus_restriction_estimates(
             head_df,
             rand_df,
