@@ -457,7 +457,7 @@ def categorize_sources(df, order, domain_typemap):
     df_sources = df_sources.sort_values(by="Source Category")
     return df_sources
 
-def categorize_tasks(df, order, domain_typemap, tasks_column, modality, task_categories_mapper):
+def categorize_tasks(df, order, domain_typemap, tasks_column, modality):
     def map_taskgroup(row, modality) -> str:
         task = row[tasks_column]
         model_generated = row["Model Generated"]
@@ -470,6 +470,53 @@ def categorize_tasks(df, order, domain_typemap, tasks_column, modality, task_cat
             return "Other"
         else:
             return task
+    
+    task_categories_mapper_text = {
+        'Code': 'Code',
+        'Translation': 'Translation',
+        'Summarization': 'Summarization',
+        'Response Ranking': 'Response Ranking',
+        'Bias & Toxicicity Detection': 'Bias & Toxicity Detection',
+        'Question Answering': 'Question Answering',
+        'Dialog Generation': 'Dialog Generation',
+        'Miscellaneous': 'Miscellaneous',
+        'Short Text Generation': 'Generation',
+        'Open-form Text Generation': 'Generation',
+        'Brainstorming': 'Creativity',
+        'Creative Writing': 'Creativity',
+        'Creativity': 'Creativity',
+        'Explanation': 'Reasoning',
+        'Commonsense Reasoning': 'Reasoning',
+        'Logical and Mathematical Reasoning': 'Reasoning',
+        'Chain-of-Thought': 'Reasoning',
+        'Natural Language Inference': 'Classification',
+        'Text Classification': 'Classification',
+        'Sequence Tagging': 'Classification',
+        'Language Style Analysis': 'Classification'
+    }
+
+    task_categories_mapper_speech = {
+        'Text to Speech': 'Text-To-Speech',
+        'Text-To-Speech': 'Text-To-Speech',
+        'Translation and Retrieval': 'Translation',
+        'Speech Translation': 'Translation',
+        'Machine Translation': 'Translation',
+        'Speaker Identification': 'Speaker Identification',
+        'Speaker Identification (mono/multi)': 'Speaker Identification',
+        'Speaker Recognition': 'Speaker Identification',
+        'Speaker Verification': 'Speaker Identification',
+        'Speaker Diarization': 'Speaker Identification',
+        'Speech Recognition/Translation': 'Translation',
+        'Speech Language Identification': 'Speech Language Identification',
+        'Language Identification': 'Language Identification',
+        'Bias in Speech Recognition (Accents)': 'Bias',
+        'Speech Synthesis': 'Speech Synthesis',
+        'Query By Example': 'Query by Example',
+        'Keyword Spotting': 'Keyword Spotting',
+        'Speech Recognition': 'Other', # other will be filtered out in the end
+    }
+
+    task_categories_mapper = task_categories_mapper_text if modality == "Text" else task_categories_mapper_speech
 
     # Unlist to have one row per task (atomic components)
     df_tasks = df.explode(tasks_column)
@@ -835,10 +882,10 @@ def plot_license_terms_stacked_bar_chart_collections(
     return chart_licenses
 
 def plot_tasks_chart(
-    df, task_typemap, order, pwidth, pheight, save_dir, font_size, modality, tasks_column, category_mapping_dict
+    df, task_typemap, order, pwidth, pheight, save_dir, font_size, modality, tasks_column
 ):
     df = df[df['Modality'] == modality]
-    df_sources = categorize_tasks(df, order, task_typemap, tasks_column, modality, category_mapping_dict)
+    df_sources = categorize_tasks(df, order, task_typemap, tasks_column, modality)
     df_sources = df_sources[df_sources[tasks_column].notnull()]
 
     # Aggregate counts for each category
