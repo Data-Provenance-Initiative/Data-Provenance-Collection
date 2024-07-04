@@ -835,7 +835,7 @@ def plot_license_terms_stacked_bar_chart_collections(
     return chart_licenses
 
 def plot_tasks_chart(
-    df, task_typemap, order, pwidth, pheight, save_dir, modality, tasks_column, category_mapping_dict
+    df, task_typemap, order, pwidth, pheight, save_dir, font_size, modality, tasks_column, category_mapping_dict
 ):
     df = df[df['Modality'] == modality]
     df_sources = categorize_tasks(df, order, task_typemap, tasks_column, modality, category_mapping_dict)
@@ -856,13 +856,13 @@ def plot_tasks_chart(
             type="nominal",
             title=f"{tasks_column}",
             sort=sorted_order,
-            axis=alt.Axis(labelFontSize=12, titleFontSize=14)
+            axis=alt.Axis(labelFontSize=font_size, titleFontSize=font_size+2)
         ),
         x=alt.X(
             field="percentage",
             type="quantitative",
             title="Percentage",
-            axis=alt.Axis(format='.0f', labelExpr="datum.value + '%'", labelFontSize=12, titleFontSize=14)
+            axis=alt.Axis(format='.0f', labelExpr="datum.value + '%'", labelFontSize=font_size, titleFontSize=font_size+2)
         ),
         color=alt.Color(
             field=f"{tasks_column}",
@@ -887,11 +887,11 @@ def plot_tasks_chart(
     ).configure_view(
         strokeOpacity=0
     ).configure_title(
-        fontSize=16,
+        fontSize=font_size+2,
         anchor='start'
     ).configure_legend(
-        titleFontSize=12,
-        labelFontSize=10,
+        titleFontSize=font_size+2,
+        labelFontSize=font_size,
         symbolSize=100
     )
 
