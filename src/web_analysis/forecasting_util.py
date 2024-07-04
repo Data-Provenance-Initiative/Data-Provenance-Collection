@@ -735,7 +735,8 @@ def plot_and_forecast_tos_sarima(
     if ordered_statuses is None:
         ordered_statuses = grouped_df.columns.tolist()
 
-    grouped_df = grouped_df[ordered_statuses]
+    ord_stats = [stat for stat in ordered_statuses if stat in grouped_df.columns]
+    grouped_df = grouped_df[ord_stats]
 
     # Calculate the total counts for each period
     total_counts = grouped_df.sum(axis=1)
@@ -756,7 +757,7 @@ def plot_and_forecast_tos_sarima(
 
     # Fit SARIMA or ARIMA model for each status
     predicted_data = []
-    for status in ordered_statuses:
+    for status in ord_stats:
         status_data = pivoted_df[pivoted_df[status_col] == status]
         if seasonal_order is not None:
             model = SARIMAX(
@@ -848,12 +849,12 @@ def forecast_restrictive_tokens_sarima(
     df = df.copy()  # Create a copy to avoid modifying the original DataFrame
 
     # Combine 'rand' and 'head' columns to calculate total restrictive tokens
-    df["combined"] = df["rand"] + df["head"]
+    # df["combined"] = df["rand"] + df["head"]
     df.set_index("period", inplace=True)
 
     forecasted_data = []
 
-    for column in ["rand", "head", "combined"]:
+    for column in ["rand_tokens", "head_tokens", "combined_tokens"]:
         model = SARIMAX(df[column], order=order, seasonal_order=seasonal_order)
         model_fit = model.fit(disp=False)
         print(f"Model summary for {column}:")
