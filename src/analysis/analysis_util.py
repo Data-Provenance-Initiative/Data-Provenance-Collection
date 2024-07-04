@@ -580,12 +580,17 @@ def analyze_url_variable_correlations(df, all_vars, top_n_list=[100, 500, 2000])
 def run_population_analysis(
     url_results_df, 
     url_token_lookup,
-    top_corpus_urls, 
     corpus_name,
     all_vars,
+    top_corpus_urls,
     verbose=False,
 ):
-    
+    total_urls = url_token_lookup._TOTAL_URLS[corpus_name]
+    total_tokens = url_token_lookup._TOTAL_TOKENS[corpus_name.lower()]
+    # top_corpus_urls = url_token_lookup.top_k_urls(corpus_name.lower(), 2000)
+    corpus_urls_to_counts = url_token_lookup.get_url_to_token_map(corpus_name.lower())
+    num_head_tokens = sum([v for k, v in corpus_urls_to_counts.items() if k in top_corpus_urls])
+
     data_head = url_results_df \
         .loc[url_results_df['URL'].isin(top_corpus_urls)] \
         .rename({f"{corpus_name} tokens": 'magnitude'}, axis=1) \
@@ -599,107 +604,36 @@ def run_population_analysis(
         [all_vars + ['magnitude', 'URL']] \
         .set_index('URL') \
         .astype(int)
-
-    # print(data_random)
-    total_urls = url_token_lookup._TOTAL_URLS[corpus_name]
-    total_tokens = url_token_lookup._TOTAL_TOKENS[corpus_name]
-    total_urls_rest = total_urls - data_head.shape[0] - data_random.shape[0]
-    # total_tokens_rest = total_tokens - data_head['magnitude'].sum() - data_random['magnitude'].sum()
-    total_tokens_rest = total_tokens - data_head['magnitude'].sum()
+    
+    head_frac = num_head_tokens / total_tokens 
+    rand_frac = (total_tokens - num_head_tokens) / total_tokens
+    url_head_frac = data_head.shape[0] / total_urls
+    url_rand_frac = total_urls - data_head.shape[0] / total_urls
 
     final_results = {}
     for bvar in all_vars:
-        pred_rest = data_random[bvar].mean()
-        pred_head = data_head[bvar].mean()
-
-        # Tokens for [2k-rand]
-        
-        # compute proportion of tokens out of 2k-rand
-        # (X / total_tokens) * (Y / total_tokens)
     
-        est_urls = data_head[bvar].sum() + data_random[bvar].sum() + (pred_rest * total_urls_rest).sum()
-        est_tokens = (
-            (data_head['magnitude'] * data_head[bvar]).sum() +
-            (total_tokens_rest * ((data_random['magnitude'] * data_random[bvar]).sum() / data_random['magnitude'].sum()))
+        head_url_rate = data_head[bvar].mean()
+        rand_url_rate = data_random[bvar].mean()
+        head_restrict_rate = (data_head['magnitude'] * data_head[bvar]).sum() / data_head['magnitude'].sum()
+        rand_restrict_rate = ((data_random['magnitude'] * data_random[bvar]).sum() / data_random['magnitude'].sum())
+        est_total_restricted_urls = (
+            (head_url_rate * url_head_frac) +
+            (rand_url_rate * url_rand_frac)
+        )
+        est_total_frac_restricted = (
+            (head_restrict_rate * head_frac) +
+            (rand_restrict_rate * rand_frac)
         )
     
         final_results[bvar] = {
-            'est_url_pct': est_urls / total_urls,
-            'est_tokens_pct': est_tokens / total_tokens,
+            'est_url_pct': est_total_restricted_urls,
+            'est_tokens_pct': est_total_frac_restricted,
         }
-        if verbose and bvar == "Restrictive Terms": # and corpus_name == "c4":
-            # print(total_tokens - total_tokens_rest)
-            # print(total_tokens_rest)
-            head_rate = (data_head['magnitude'] * data_head[bvar]).sum() / data_head['magnitude'].sum()
-            rand_rate = ((data_random['magnitude'] * data_random[bvar]).sum() / data_random['magnitude'].sum())
+        if verbose and bvar == "Restrictive Robots.txt": # and corpus_name == "c4":
+            # print((data_head['magnitude'] * data_head[bvar]).sum())
+            print(head_restrict_rate)
+            print(head_frac)
 
-            head_proportion = (data_head['magnitude'] * data_head[bvar]).sum() / total_tokens
-            # head_proportion = (pred_head * (data_head['magnitude'].sum() / total_tokens))
-            rand_proportion = (total_tokens_rest * ((data_random['magnitude'] * data_random[bvar]).sum() / data_random['magnitude'].sum())) / total_tokens
 
-    
     return pd.DataFrame(final_results).T
-
-
-# def run_population_analysis(
-#     url_results_df, 
-#     top_corpus_urls, 
-#     corpus_name,
-#     data_buckets_fpath,
-#     url_token_lookup,
-#     verbose=False,
-# ):
-#     total_tokens = url_token_lookup._TOTAL_TOKENS[corpus_name]
-#     total_urls = url_token_lookup._TOTAL_URLS[corpus_name]
-    
-#     top_results_df = url_results_df[url_results_df['URL'].isin(top_corpus_urls)]
-#     random_results_df = url_results_df[url_results_df['sample'] == "random"]
-#     print(f"Head sample size: {len(top_results_df)}")
-#     print(f"Rand sample size: {len(random_results_df)}")
-#     head_tokens = list(top_results_df[f"{corpus_name} tokens"])
-#     rand_tokens = list(random_results_df[f"{corpus_name} tokens"])
-
-#     cols = ['User Content', 'Paywall', 'Ads','Modality: Image', 'Modality: Video', 'Modality: Audio',
-#        'Sensitive Content', 'services_Academic', 'services_Blogs',
-#        'services_E-Commerce', 'services_Encyclopedia/Database',
-#        'services_Government', 'services_News/Periodicals',
-#        'services_Organization/Personal Website', 'services_Other',
-#        'services_Social Media/Forums', 'Restrictive Robots.txt', 'Restrictive Terms']
-#     # var_name --> {head -> vals, rand -> vals}
-#     vars_data = {}
-#     for col in cols:
-#         vars_data[col] = {
-#             "head": [int(x) for x in top_results_df[col]],
-#             "rand": [int(x) for x in random_results_df[col]],
-#         }
-
-#     head_info = {k: v["head"] for k, v in vars_data.items()}
-#     head_info.update({'magnitude': head_tokens})
-#     rand_info = {k: v["rand"] for k, v in vars_data.items()}
-#     rand_info.update({'magnitude': rand_tokens})
-#     population = {
-#         'head': pd.DataFrame(head_info),
-#         'random': pd.DataFrame(rand_info),
-#         'buckets': pd.read_csv(data_buckets_fpath),
-#         'binary_vars': cols,
-#     }
-#     results = process_url_population(population, method='conservative') # conservative, empirical_bayes
-
-#     final_results = {}
-#     for bvar, var_results in results.items():
-#         head_pct = round(100 * np.mean(vars_data[bvar]["head"]), 2)
-#         rand_pct = round(100 * np.mean(vars_data[bvar]["rand"]), 2)
-#         pos = var_results["total_positive_count"]
-#         pos_pct = round(100 * pos / total_urls, 2)
-#         pos_t = var_results["total_summed_magnitude"]
-#         pos_t_pct = round(100 * pos_t / total_tokens, 2)
-#         if verbose:
-#             print(f"{bvar} | Head = {head_pct} % | Rand = {rand_pct} %")
-#             print(f"Estimated URLs = {pos} / {total_urls} = {pos_pct} %")
-#             print(f"Estimated Tokens = {pos_t} / {total_tokens} = {pos_t_pct} %")
-#             print()
-#         final_results[bvar] = {
-#             "Estimated URL Pct": pos_pct,
-#             "Estimated Tokens Pct": pos_t_pct,
-#         }
-#     return final_results
