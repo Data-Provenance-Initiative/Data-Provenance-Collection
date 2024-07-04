@@ -238,11 +238,11 @@ def load_terms_metadata(data_dir):
         ]
         final_verdict = None
         if any(x.startswith(w) for x in src_rules for w in prohibit_starts):
-            final_verdict = "Source Prohibits"
+            final_verdict = "Source Closed"
         elif any(x.startswith(w) for x in model_rules for w in prohibit_starts):
-            final_verdict = "Model Prohibits"
+            final_verdict = "Model Closed"
         elif any(x.startswith(w) for x in src_rules for w in nonprohibit_starts):
-            final_verdict = "Not Prohibited"
+            final_verdict = "Unrestricted"
         elif any(x.startswith(w) for x in src_rules for w in unspecified_starts):
             final_verdict = "Unspecified"
         else:
@@ -271,8 +271,8 @@ def prep_summaries_for_visualization(
     year_categories,
     license_order,
     license_map={
-        "academic-only": "Non-Commercial/Academic",
-        "non-commercial": "Non-Commercial/Academic",
+        "academic-only": "NC/Acad",
+        "non-commercial": "NC/Acad",
         "unspecified": "Unspecified",
         "commercial": "Commercial"
     }
@@ -327,12 +327,13 @@ def prep_summaries_for_visualization(
     )
 
     df["License Type"] = df["License Use (DataProvenance IgnoreOpenAI)"].map(license_map)
-    df["License Type"] = pd.Categorical(
-        df["License Type"],
-        categories=license_order,
-        ordered=True
-    )
-    df = df.sort_values(by="License Type")
+    df['License | Terms'] = df['License Type'] + ' | ' + df['Data Terms']
+    # df["License Type"] = pd.Categorical(
+    #     df["License Type"],
+    #     categories=license_order,
+    #     ordered=True
+    # )
+    # df = df.sort_values(by="License Type")
 
     # Map creators to categories (all modalities from constants, for this)
     df["Creator Categories"] = df["Creators"].map(lambda c: [creator_groupmap[ci] for ci in c])
@@ -766,47 +767,110 @@ def plot_source_domain_stacked_chart_collections(
 
 # 'Non-Commercial/Academic', 'Unspecified', 'Commercial'
 def license_rank_fn(license_list):
-    ll = license_list.tolist()
-    if "Non-Commercial/Academic" in ll:
-        return "Non-Commercial/Academic"
-    elif "Unspecified" in ll:
+    if not isinstance(license_list, list):
+        license_list = license_list.tolist()
+    if "NC/Acad" in license_list:
+        return "NC/Acad"
+    elif "Unspecified" in license_list:
         return "Unspecified"
     else:
         return "Commercial"
 
+def terms_rank_fn(terms_list):
+    if not isinstance(terms_list, list):
+        terms_list = terms_list.tolist()
+    if "Model Closed" in terms_list:
+        return "Model Closed"
+    elif "Source Closed" in terms_list:
+        return "Source Closed"
+    elif "Unspecified" in terms_list:
+        return "Unspecified"
+    else:
+        return "Unrestricted" 
+
+def license_terms_rank_fn(license_list):
+    ll = license_list.tolist()
+    # TODO: Fix.
+    if not all(isinstance(x, str) for x in ll):
+        print(ll)
+        return "NC/Acad | Source Closed"
+    prefix = license_rank_fn([x.split(" | ")[0] for x in ll])
+    suffix = terms_rank_fn([x.split(" | ")[1] for x in ll])
+    return prefix + " | " + suffix
+
 
 def plot_license_terms_stacked_bar_chart_collections(
-    df, license_palette, license_order, plot_width, plot_height, save_dir=None, plot_ppi=None, license_rank_fn=license_rank_fn
+    df, 
+    license_key,
+    license_palette, 
+    license_order, 
+    plot_width, 
+    plot_height,
+    save_dir=None, 
+    plot_ppi=None,
+    font_size=15,
 ):
+    if license_key == "License Type":
+        hierarchy_fn = license_rank_fn
+    else:
+        hierarchy_fn = license_terms_rank_fn
 
+    df[license_key] = pd.Categorical(
+        df[license_key],
+        categories=license_order,
+        ordered=True
+    )
+    df = df.sort_values(by=license_key)
+    df = text_groupby_collection(df, license_key, fn=hierarchy_fn,)
 
+    # modality_specific = df[df["Modality"] == "Speech"]
+    # print(modality_specific.columns)
+    # print(modality_specific[['Modality', 'License | Terms']])
+    # print(modality_specific[license_key].value_counts())
 
-    df = text_groupby_collection(df, "License Type",fn=license_rank_fn,)
-    chart_licenses = alt.Chart(df).mark_bar().encode(
+    # print(df.groupby(['Modality', license_key]).size().reset_index(name='counts'))
+    # grouped_data = df.groupby(['Modality', license_key]).size().reset_index(name='counts')
+    # print(grouped_data)
+
+    chart = alt.Chart(df).mark_bar().encode(
         x=alt.Y(
             "count():Q",
             stack="normalize",
             axis=alt.Axis(format="%"),
-            title="Pct. Datasets"
+            # title="Pct. Datasets",
+            title="",
         ),
-        y=alt.X("Modality:N"),
+        y=alt.X("Modality:N", title=""),
         color=alt.Color(
-            "License Type:N",
-            scale=alt.Scale(range=license_palette),
-            title="License Use",
-            sort=license_order
+            f"{license_key}:N",
+            scale=alt.Scale(domain=license_order, range=license_palette),  # Map each license to a specific color
+            title=license_key,
+            sort=license_order,
         ),
-        order="order:Q"
-    ).properties(
-        title="License Use by Modality",
+        order=alt.Order("order:Q", sort="ascending")  # Ensures correct order of the bars
+    )
+    
+    chart = chart.properties(
         width=plot_width,
         height=plot_height
+    ).configure_axis(
+        labelFontSize=font_size,
+        titleFontSize=font_size,
+    ).configure_legend(
+        labelFontSize=font_size,
+        titleFontSize=font_size,
+        orient='bottom',
+        columns=4,
+        labelLimit=200,
     )
 
     if save_dir:
-        chart_licenses.save(os.path.join(save_dir, "license_use_by_modality_collections.png"), ppi=plot_ppi)
+        chart.save(os.path.join(save_dir, "license_use_by_modality_collections.png"), ppi=plot_ppi)
 
-    return chart_licenses
+    table = generate_multimodal_license_terms_latex(df)
+    return chart, table
+
+
 
 
 def gini(array: np.ndarray) -> float:
@@ -839,7 +903,7 @@ def bootstrap_cis_for_gini(
     data: np.ndarray,
     n_samples: int = 1000,
     alpha: float = 0.05
-) -> tuple[float, float]:
+) -> typing.Tuple[float, float]:
     """Estimate the confidence interval for the Gini coefficient using bootstrapping.
     """
 
@@ -888,7 +952,7 @@ def order_by_grouped_permisiveness(
     df: pd.DataFrame,
     group_column: str,
     licensetype_column: str = "License Type",
-    permissive_licensetypes: list[str] = ["Commercial"]
+    permissive_licensetypes: typing.List[str] = ["Commercial"]
 ) -> pd.Series:
     """Given a DataFrame, group it by `group_column` and calculate the permissiveness of each group.
 
@@ -919,3 +983,78 @@ def reduce_categories_to_topk(
     )
 
     return df
+
+
+def generate_multimodal_license_terms_latex(df):
+    dfx = df.groupby(['Modality', 'License | Terms']).size().reset_index(name='counts')
+
+    # Apply the function and assign the results to new columns
+    dfx['License Info'] = dfx['License | Terms'].apply(lambda x: x.split(' | ')[0].strip())
+    dfx['Terms Info'] = dfx['License | Terms'].apply(lambda x: x.split(' | ')[1].strip())
+
+    # List of all modalities
+    modalities = dfx['Modality'].unique()
+    
+    # Initialize an empty string to store all LaTeX tables
+    latex_outputs = {}
+    
+    # Process each modality
+    for modality in modalities:
+        # Filter the dataframe for the current modality
+        modality_df = dfx[dfx['Modality'] == modality]
+        
+        # Get unique License Info and Terms Info
+        license_info = modality_df['License Info'].unique()
+        terms_info = modality_df['Terms Info'].unique()
+        
+        # Create an empty dictionary to hold counts
+        counts_dict = {license: {term: 0 for term in terms_info} for license in license_info}
+        
+        # Add 'Total' key with a dictionary initialized for terms and total
+        counts_dict['Total'] = {term: 0 for term in terms_info}
+        counts_dict['Total']['Total'] = 0
+        
+        # Ensure each license has a 'Total' key
+        for license in counts_dict:
+            counts_dict[license]['Total'] = 0
+        
+        # Fill the dictionary with counts
+        for _, row in modality_df.iterrows():
+            license = row['License Info']
+            term = row['Terms Info']
+            count = row['counts']
+            counts_dict[license][term] += count
+            counts_dict[license]['Total'] += count
+            counts_dict['Total'][term] += count
+            counts_dict['Total']['Total'] += count
+        
+        # Calculate the percentage of each cell relative to the total counts
+        total_counts = counts_dict['Total']['Total']
+        for license in counts_dict:
+            for term in counts_dict[license]:
+                counts_dict[license][term] = round((counts_dict[license][term] / total_counts) * 100, 1)
+        
+        # Generate LaTeX table
+        latex_table = "\\begin{table*}[t!]\n\\centering\n\\begin{adjustbox}{width=0.98\\textwidth}\n"
+        latex_table += "\\begin{tabular}{l|" + "r" * len(terms_info) + "|r}\n\\toprule\n"
+        joined_col_headers = " & ".join(["\\textsc{" + ti + "}" for ti in terms_info])
+        latex_table += "\\textsc{License / Terms} & " + joined_col_headers + " & \\textsc{Total} \\\\\n"
+        latex_table += "\\midrule\n"
+        for license in counts_dict:
+            lic_vals = [str(counts_dict[license][term]) for term in terms_info]
+            total_vals = str(counts_dict[license]['Total'])
+            if license == "Total":
+                latex_table += "\\midrule\n"
+            latex_table += "\\textsc{" + license + "} & " + " & ".join(lic_vals) + " & " + total_vals + " \\\\\n"
+        mod_label = modality.lower() + "_license_terms_breakdown"
+        unspec_or_open = counts_dict["Commercial"]["Unrestricted"] + counts_dict["Commercial"]["Unspecified"] + counts_dict["Unspecified"]["Unrestricted"] + counts_dict["Unspecified"]["Unspecified"]
+        closed_pct = round(100 - unspec_or_open, 1)
+        total_nc_license = round(counts_dict["NC/Acad"]["Total"], 1)
+        total_restrictive_terms = round(counts_dict["Total"]["Source Closed"] + counts_dict["Total"]["Model Closed"], 1)
+        caption = "\\textbf{A breakdown of " + modality + " Dataset licenses, and the Terms attached to their sources.} "
+        caption += f"Among {modality} datasets, while only {total_nc_license}\% are Non-Commerically licensed, or have {total_restrictive_terms}\% have restrictive terms, a full {closed_pct}\% of datasets have either a restrictive license or terms."
+        latex_table += "\\bottomrule\n\\end{tabular}\n\\end{adjustbox}\n\\caption{" + caption + "}\n\\label{tab:" + mod_label + "}\n\\end{table*}\n"
+        
+        latex_outputs[modality] = latex_table
+    
+    return latex_outputs
