@@ -457,7 +457,7 @@ def categorize_sources(df, order, domain_typemap):
     df_sources = df_sources.sort_values(by="Source Category")
     return df_sources
 
-def categorize_tasks(df, order, domain_typemap, tasks_column, modality):
+def categorize_tasks(df, order, domain_typemap, tasks_column, modality, collections_datasets_flag):
     def map_taskgroup(row, modality) -> str:
         task = row[tasks_column]
         model_generated = row["Model Generated"]
@@ -518,8 +518,14 @@ def categorize_tasks(df, order, domain_typemap, tasks_column, modality):
 
     task_categories_mapper = task_categories_mapper_text if modality == "Text" else task_categories_mapper_speech
 
+    if modality == "Text":
+        if collections_datasets_flag == 'Datasets':
+            df_tasks = df.explode('tasks')
+        elif collections_datasets_flag == 'Collections':
+            df_tasks = df.groupby('Collection')['tasks'].apply(lambda x: set.union(*map(set, x))).reset_index()
+
     # Unlist to have one row per task (atomic components)
-    df_tasks = df.explode(tasks_column)
+    d#f_tasks = df.explode(tasks_column)
 
     # Apply the updated map_taskgroup function to each row
     df_tasks[tasks_column] = df_tasks.apply(lambda row: map_taskgroup(row, modality), axis=1).fillna("Other")
@@ -882,10 +888,10 @@ def plot_license_terms_stacked_bar_chart_collections(
     return chart_licenses
 
 def plot_tasks_chart(
-    df, task_typemap, order, pwidth, pheight, save_dir, font_size, modality, tasks_column
+    df, task_typemap, order, pwidth, pheight, save_dir, font_size, modality, tasks_column, collections_datasets_flag
 ):
     df = df[df['Modality'] == modality]
-    df_sources = categorize_tasks(df, order, task_typemap, tasks_column, modality)
+    df_sources = categorize_tasks(df, order, task_typemap, tasks_column, modality, collections_datasets_flag)
     df_sources = df_sources[df_sources[tasks_column].notnull()]
 
     # Aggregate counts for each category
