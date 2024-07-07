@@ -89,9 +89,7 @@ def main(args):
     n_collections = set(filtered_data_summary["Collection"])
     n_datasets = len(filtered_data_summary)
     print(f"{n_datasets} datasets from {len(n_collections)} collections after filtering.")
-    print(f"{n_datasets} datasets from {n_collections} collections after filtering.")
 
-    assert 1 == 0
     # IGNORE:
     # cols = ['Unique Dataset Identifier', 'Collection', 'Dataset Name', 'Languages', 'Text Sources','Model Generated', 
     #         'Derived from Datasets', 'License Use (DataProvenance)', 'License Use (GitHub)', 'Licenses', 'GitHub License',
