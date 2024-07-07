@@ -520,12 +520,15 @@ def categorize_tasks(df, order, domain_typemap, tasks_column, modality, collecti
 
     if modality == "Text":
         if collections_datasets_flag == 'Datasets':
-            df_tasks = df.explode('tasks')
+            df_tasks = df.explode(tasks_column)
         elif collections_datasets_flag == 'Collections':
-            df_tasks = df.groupby('Collection')['tasks'].apply(lambda x: set.union(*map(set, x))).reset_index()
-
-    # Unlist to have one row per task (atomic components)
-    d#f_tasks = df.explode(tasks_column)
+            df_agg = df.groupby('Collection')[tasks_column].apply(lambda x: list(set.union(*map(set, x)))).reset_index()
+            df_tasks = df.merge(df_agg, on='Collection', suffixes=('', '_agg'))
+            df_tasks[tasks_column] = df_tasks[f'{tasks_column}_agg']
+            df_tasks.drop(columns=[f'{tasks_column}_agg'], inplace=True)
+            df_tasks = df_tasks.explode(tasks_column)
+    else:
+        df_tasks = df.explode(tasks_column)
 
     # Apply the updated map_taskgroup function to each row
     df_tasks[tasks_column] = df_tasks.apply(lambda row: map_taskgroup(row, modality), axis=1).fillna("Other")
