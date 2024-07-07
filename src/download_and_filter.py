@@ -70,6 +70,7 @@ def main(args):
         data_summary_df,
         ALL_CONSTANTS,
         args.collection,
+        io.read_txt(args.dataset_names) if args.dataset_names else None,
         args.licenses,
         args.license_use,
         int(args.openai_license_override),
@@ -87,8 +88,10 @@ def main(args):
     )
     n_collections = set(filtered_data_summary["Collection"])
     n_datasets = len(filtered_data_summary)
-    print(f"{n_datasets} datasets from {n_collections} after filtering.")
+    print(f"{n_datasets} datasets from {len(n_collections)} collections after filtering.")
+    print(f"{n_datasets} datasets from {n_collections} collections after filtering.")
 
+    assert 1 == 0
     # IGNORE:
     # cols = ['Unique Dataset Identifier', 'Collection', 'Dataset Name', 'Languages', 'Text Sources','Model Generated', 
     #         'Derived from Datasets', 'License Use (DataProvenance)', 'License Use (GitHub)', 'Licenses', 'GitHub License',
@@ -207,6 +210,10 @@ if __name__ == "__main__":
         "--collection", required=False,
         default=None, choices=list(COLLECTION_FN_MAPPER.keys()),
         help="Name of the collection you'd like to download and filter. Default is to loop through all collections.")
+    # Dataset UIDs to limit to
+    parser.add(
+        "--dataset-names", required=False, default=None,
+        help=f"A path to a text file with newline separated dataset UIDs to confine our datasets to.")
     # Specify license categories
     parser.add(
         "-l", "--licenses", required=False,
