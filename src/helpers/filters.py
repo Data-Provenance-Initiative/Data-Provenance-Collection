@@ -124,6 +124,7 @@ def apply_filters(
     df,
     all_constants,
     selected_collection,
+    selected_datasets,
     selected_licenses,
     selected_license_use,  # sources from where the license information should be retrieved
     openai_license_override,
@@ -175,6 +176,9 @@ def apply_filters(
     # Apply filters:
     if selected_collection:
         filtered_df = filtered_df[filtered_df["Collection"] == selected_collection]
+
+    if selected_datasets:
+        filtered_df = filtered_df[filtered_df["Unique Dataset Identifier"].isin(selected_datasets)]
 
     if not filtered_df.empty and selected_licenses:
         license_strs = set(all_constants["LICENSE_CLASSES"].keys())
