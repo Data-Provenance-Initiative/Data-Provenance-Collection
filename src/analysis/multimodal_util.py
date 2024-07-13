@@ -479,9 +479,9 @@ def categorize_tasks(df, order, domain_typemap, tasks_column, modality, collecti
         'Bias & Toxicicity Detection': 'Bias & Toxicity Detection',
         'Question Answering': 'Question Answering',
         'Dialog Generation': 'Dialog Generation',
-        'Miscellaneous': 'Miscellaneous',
-        'Short Text Generation': 'Generation',
-        'Open-form Text Generation': 'Generation',
+        'Miscellaneous': 'Other',
+        'Short Text Generation': 'Open Generation',
+        'Open-form Text Generation': 'Open Generation',
         'Brainstorming': 'Creativity',
         'Creative Writing': 'Creativity',
         'Creativity': 'Creativity',
@@ -507,13 +507,13 @@ def categorize_tasks(df, order, domain_typemap, tasks_column, modality, collecti
         'Speaker Verification': 'Speaker Identification',
         'Speaker Diarization': 'Speaker Identification',
         'Speech Recognition/Translation': 'Translation',
-        'Speech Language Identification': 'Speech Language Identification',
+        'Speech Language Identification': 'Language Identification',
         'Language Identification': 'Language Identification',
-        'Bias in Speech Recognition (Accents)': 'Bias',
+        'Bias in Speech Recognition (Accents)': 'Bias Detection',
         'Speech Synthesis': 'Speech Synthesis',
         'Query By Example': 'Query by Example',
         'Keyword Spotting': 'Keyword Spotting',
-        'Speech Recognition': 'Other', # other will be filtered out in the end
+        'Speech Recognition': 'Recognition', # other will be filtered out in the end
     }
 
     task_categories_mapper = task_categories_mapper_text if modality == "Text" else task_categories_mapper_speech
@@ -535,9 +535,26 @@ def categorize_tasks(df, order, domain_typemap, tasks_column, modality, collecti
 
     df_tasks = df_tasks.sort_values(by=tasks_column)
     df_tasks[tasks_column] = df_tasks[tasks_column].apply(lambda x: task_categories_mapper[x])
-    df_tasks = df_tasks[df_tasks['Tasks']!= 'Other'] if modality == "Speech" else df_tasks
+    df_tasks = df_tasks[df_tasks[tasks_column]!= 'Other']
 
     return df_tasks
+
+def concatenate_task_charts(chart1, chart2, chart3, font_size):
+    combined_chart = alt.hconcat(chart1, chart2, chart3).configure_axis(
+        grid=False,
+        domain=False
+    ).configure_view(
+        strokeOpacity=0
+    ).configure_title(
+        fontSize=font_size+2,
+        anchor='start'
+    ).configure_legend(
+        titleFontSize=font_size+2,
+        labelFontSize=font_size,
+        symbolSize=100
+    )
+
+    return combined_chart
 
 def plot_stacked_creator_categories(
     df, order, palette, pwidth, pheight, save_dir
@@ -906,26 +923,29 @@ def plot_tasks_chart(
 
     sorted_order = df_aggregated.sort_values('count', ascending=False)[tasks_column].tolist()
 
+    df_aggregated['position'] = df_aggregated[tasks_column].apply(lambda x: sorted_order.index(x))
+
+    color_scale = alt.Scale(domain=list(range(len(sorted_order))), scheme='tableau20')
+
     bar_chart = alt.Chart(df_aggregated).mark_bar(size=30).encode(
         y=alt.Y(
             field=f"{tasks_column}",
             type="nominal",
-            title=f"{tasks_column}",
+            title=None,
             sort=sorted_order,
             axis=alt.Axis(labelFontSize=font_size, titleFontSize=font_size+2)
         ),
         x=alt.X(
             field="percentage",
             type="quantitative",
-            title="Percentage",
+            title=None,
             axis=alt.Axis(format='.0f', labelExpr="datum.value + '%'", labelFontSize=font_size, titleFontSize=font_size+2)
         ),
         color=alt.Color(
-            field=f"{tasks_column}",
-            type="nominal",
-            title=f"{tasks_column}",
-            sort=sorted_order,
-            scale=alt.Scale(scheme='tableau20'),
+            field="position",
+            type="ordinal",
+            title=None,
+            scale=color_scale,
             legend=None
         ),
         tooltip=[
@@ -937,18 +957,6 @@ def plot_tasks_chart(
         title="",
         width=pwidth,
         height=pheight
-    ).configure_axis(
-        grid=False,
-        domain=False
-    ).configure_view(
-        strokeOpacity=0
-    ).configure_title(
-        fontSize=font_size+2,
-        anchor='start'
-    ).configure_legend(
-        titleFontSize=font_size+2,
-        labelFontSize=font_size,
-        symbolSize=100
     )
 
     return bar_chart
