@@ -198,9 +198,10 @@ def get_continent(x: str, continent_country_iso_list: list) -> typing.List[int]:
     continent_set = set()
     for country in x:
         if country == "African Continent":
-            continent_set.update('Africa')
+            continent_set.update(['Africa'])
             continue
         if country == "International/Other/Unknown":
+            logging.warning(f"Country '{country}' not found in the data.")
             continue
         country = countries_replace.get(country, country)
         filtered_country= df_continent_country_iso[df_continent_country_iso['country'].str.lower() == country.lower()]
@@ -220,8 +221,7 @@ def get_continent_id(x: str, continent_country_iso_list: list) -> typing.List[in
     """
     
     df_continent_country_iso = pd.DataFrame(continent_country_iso_list)
-    continent_iso_ids = df_continent_country_iso[df_continent_country_iso['continent'] == x]['iso_code'].unique().tolist()
-     
+    continent_iso_ids = df_continent_country_iso[df_continent_country_iso['continent'] == x]['iso_code'].apply(int).unique().tolist()
     if len(continent_iso_ids) > 0:
         return continent_iso_ids
     else:
@@ -720,7 +720,7 @@ def plot_altair_worldmap_continent(
     df_countries = df
     df_countries["Continent"] = df_countries["Countries"].map(lambda x: get_continent(x, continent_country_iso_list))
     df_countries = df_countries.explode("Continent").dropna(subset=["Continent"])
-    df_countries.to_csv('df_countries.csv')
+    # df_countries.to_csv('df_continent.csv')
     df_countries = df_countries[["Continent", "Modality"]].value_counts().reset_index(name="Count")
     df_countries["Continent ISO ID"] = df_countries["Continent"].map(lambda x: get_continent_id(x, continent_country_iso_list))
     df_countries = df_countries.explode("Continent ISO ID").dropna(subset=["Continent ISO ID"]) # If couldn't be found (see any logged warnings), drop it
