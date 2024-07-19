@@ -1,6 +1,6 @@
 import pandas as pd
 
-file_path = "src/analysis/all_agents_counter.csv"
+file_path = "src/analysis/data/agents_counter/all_agents_counter.csv"
 df = pd.read_csv(file_path)
 
 additional_agents = [
