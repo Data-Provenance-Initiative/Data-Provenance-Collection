@@ -2,6 +2,7 @@ import sys
 import os
 import datetime
 import logging
+import json
 import numpy as np
 import pandas as pd
 import altair as alt
@@ -161,6 +162,71 @@ def get_country(x: str) -> typing.List[int]:
             logging.warning("Could not find country for %s" % x)
             return []
 
+
+def read_continent_country_iso_codes():
+    """
+    Read continent, country and ISO codes mapping from the JSON file.
+    """
+
+    try:
+        with open('../../constants/continent_country_iso.json', 'r') as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        logging.error("The file '../../constants/continent_country_iso.json' was not found.")
+        return []
+    except json.JSONDecodeError:
+        logging.error("Error decoding JSON from the file '../../constants/continent_country_iso.json'.")
+        return []
+
+    continent_country_iso_list = []
+    
+    for continent_data in data['continents']:
+        continent = continent_data['name']
+        countries = continent_data['countries']
+        for country_data in countries:
+            country = country_data['name']
+            iso_numeric = country_data['iso_code']
+            continent_country_iso_list.append({'continent': continent, 'country': country, 'iso_code': iso_numeric})
+    return continent_country_iso_list
+
+def get_continent(x: str, continent_country_iso_list: list) -> typing.List[int]:    
+    """
+    Get the continent for a given country name, case-insensitive.
+    
+    """
+    df_continent_country_iso = pd.DataFrame(continent_country_iso_list)
+    continent_set = set()
+    for country in x:
+        if country == "African Continent":
+            continent_set.update('Africa')
+            continue
+        if country == "International/Other/Unknown":
+            continue
+        country = countries_replace.get(country, country)
+        filtered_country= df_continent_country_iso[df_continent_country_iso['country'].str.lower() == country.lower()]
+    
+        if len(filtered_country) > 0:
+            continent_set.update(filtered_country['continent'].unique().tolist())
+        else:
+            logging.warning(f"Country '{country}' not found in the data.")
+    
+    return list(continent_set)
+            
+
+def get_continent_id(x: str, continent_country_iso_list: list) -> typing.List[int]:    
+    """
+    Get list of ISO numeric codes of countriues for a given continent.
+    
+    """
+    
+    df_continent_country_iso = pd.DataFrame(continent_country_iso_list)
+    continent_iso_ids = df_continent_country_iso[df_continent_country_iso['continent'] == x]['iso_code'].unique().tolist()
+     
+    if len(continent_iso_ids) > 0:
+        return continent_iso_ids
+    else:
+        logging.warning(f"Country '{x}' not found in the data.")
+        return []
 
 # Get year released for text datasets
 def get_year_for_text(metadata: typing.Dict[str, typing.Any]):
@@ -573,7 +639,7 @@ def plot_stacked_temporal_creator_categories(
     return chart_categoriesyears
 
 
-def plot_altair_worldmap(
+def plot_altair_worldmap_country(
     df,
     countries_src,
     modality_colors,
@@ -584,6 +650,7 @@ def plot_altair_worldmap(
     df_countries = df_countries[["Countries", "Modality"]].value_counts().reset_index(name="Count")
     df_countries["Country ID"] = df_countries["Countries"].map(get_country)
     df_countries = df_countries.explode("Country ID").dropna(subset=["Country ID"]) # If couldn't be found (see any logged warnings), drop it
+
 
     base = alt.Chart(
         alt.topo_feature(countries_src, "countries")
@@ -620,7 +687,7 @@ def plot_altair_worldmap(
         )
         charts.append(chart)
 
-    chart_map = alt.vconcat(
+    chart_map = alt.hconcat(
         *charts
     ).resolve_scale(
         color="independent"
@@ -628,10 +695,84 @@ def plot_altair_worldmap(
         title="Dataset Count by Country and Modality"
     )
 
+    
     if save_dir:
         chart_map.save(os.path.join(save_dir, "dataset_count_by_country_and_modality.png"), ppi=300)
 
     return chart_map
+
+
+def plot_altair_worldmap_continent(
+    df,
+    countries_src,
+    modality_colors,
+    plot_dim,
+    save_dir
+):
+    
+    # if aggregate_level == "Country":
+    #     df_countries = df.explode("Countries").dropna(subset=["Countries"]) # Drop rows with no country for the moment
+    #     df_countries = df_countries[["Countries", "Modality"]].value_counts().reset_index(name="Count")
+    #     df_countries["Country ID"] = df_countries["Countries"].map(get_country)
+    #     df_countries = df_countries.explode("Country ID").dropna(subset=["Country ID"]) # If couldn't be found (see any logged warnings), drop it
+    # else:
+    continent_country_iso_list = read_continent_country_iso_codes()
+    df_countries = df
+    df_countries["Continent"] = df_countries["Countries"].map(lambda x: get_continent(x, continent_country_iso_list))
+    df_countries = df_countries.explode("Continent").dropna(subset=["Continent"])
+    df_countries.to_csv('df_countries.csv')
+    df_countries = df_countries[["Continent", "Modality"]].value_counts().reset_index(name="Count")
+    df_countries["Continent ISO ID"] = df_countries["Continent"].map(lambda x: get_continent_id(x, continent_country_iso_list))
+    df_countries = df_countries.explode("Continent ISO ID").dropna(subset=["Continent ISO ID"]) # If couldn't be found (see any logged warnings), drop it
+    
+    base = alt.Chart(
+        alt.topo_feature(countries_src, "countries")
+    ).mark_geoshape(
+        stroke="white"
+    ).project(
+        type="equalEarth"
+    )
+
+    charts = []
+
+    for modality, color in modality_colors.items():
+        modality_data = df_countries[df_countries["Modality"] == modality]
+        chart = base.encode(
+            color=alt.Color(
+                "Count:Q",
+                # log scale
+                scale=alt.Scale(scheme=color, type="symlog"),
+                title="Datasets"
+            ),
+            tooltip=["Continents:N", "Count:Q", "Modality:N"]
+        ).properties(
+            width=plot_dim,
+            height=plot_dim//2
+        ).transform_lookup(
+            lookup="id",
+            from_=alt.LookupData(modality_data, "Continent ISO ID", ["Count", "Modality", "Continent"])
+        ).transform_calculate(
+            Count="isValid(datum.Count) ? datum.Count : 0",
+            Modality="isValid(datum.Modality) ? datum.Modality : ''",
+            Continents="isValid(datum.Continent) ? datum.Continent : ''"
+        ).properties(
+            title=modality
+        )
+        charts.append(chart)
+
+    chart_map = alt.hconcat(
+        *charts
+    ).resolve_scale(
+        color="independent"
+    ).properties(
+        title="Dataset Count by Continent and Modality"
+    )
+
+    if save_dir:
+        chart_map.save(os.path.join(save_dir, "dataset_count_by_continent_and_modality.png"), ppi=300)
+
+    return chart_map
+
 
 def plot_source_domain_stacked_chart(
     df, domain_typemap, order, pwidth, pheight, save_dir
