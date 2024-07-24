@@ -1058,3 +1058,192 @@ def generate_multimodal_license_terms_latex(df):
         latex_outputs[modality] = latex_table
     
     return latex_outputs
+
+
+# Function to categorize tasks based on their domain and modality
+def categorize_tasks(df, order, domain_typemap, tasks_column, modality, collections_datasets_flag):
+    def map_taskgroup(row, modality) -> str:
+        task = row[tasks_column]
+
+        # If the modality is "Text" and the task is in the domain_typemap, return the mapped domain
+        if modality == "Text":
+            if task in domain_typemap:
+                return domain_typemap[task]
+            if not pd.isna(task):
+                logging.warning("Could not find domain for %s" % task)
+            return "Other"
+        # If the modality is "Speech", return the task without domain mapping
+        elif modality == "Speech":
+            return task
+        else:
+            logging.warning("Unsupported modality for task categorization: %s" % modality)
+            return "Other"
+
+    # Define a mapping function for text tasks
+    task_categories_mapper_text = {
+        'Code': 'Code',
+        'Translation': 'Translation',
+        'Summarization': 'Summarization',
+        'Response Ranking': 'Response Ranking',
+        'Bias & Toxicicity Detection': 'Bias & Toxicity Detection',
+        'Question Answering': 'Question Answering',
+        'Dialog Generation': 'Dialog Generation',
+        'Miscellaneous': 'Other',
+        'Short Text Generation': 'Open Generation',
+        'Open-form Text Generation': 'Open Generation',
+        'Brainstorming': 'Creativity',
+        'Creative Writing': 'Creativity',
+        'Creativity': 'Creativity',
+        'Explanation': 'Reasoning',
+        'Commonsense Reasoning': 'Reasoning',
+        'Logical and Mathematical Reasoning': 'Reasoning',
+        'Chain-of-Thought': 'Reasoning',
+        'Natural Language Inference': 'Classification',
+        'Text Classification': 'Classification',
+        'Sequence Tagging': 'Classification',
+        'Language Style Analysis': 'Classification'
+    }
+
+    # Define a mapping function for speech tasks
+    task_categories_mapper_speech = {
+        'Text to Speech': 'Text-To-Speech',
+        'Text-To-Speech': 'Text-To-Speech',
+        'Translation and Retrieval': 'Translation',
+        'Speech Translation': 'Translation',
+        'Machine Translation': 'Translation',
+        'Speaker Identification': 'Speaker Identification',
+        'Speaker Identification (mono/multi)': 'Speaker Identification',
+        'Speaker Recognition': 'Speaker Identification',
+        'Speaker Verification': 'Speaker Identification',
+        'Speaker Diarization': 'Speaker Identification',
+        'Speech Recognition/Translation': 'Translation',
+        'Speech Language Identification': 'Language Identification',
+        'Language Identification': 'Language Identification',
+        'Bias in Speech Recognition (Accents)': 'Bias Detection',
+        'Speech Synthesis': 'Speech Synthesis',
+        'Query By Example': 'Query by Example',
+        'Keyword Spotting': 'Keyword Spotting',
+        'Speech Recognition': 'Other',  # other will be filtered out in the end
+    }
+
+    # Choose the appropriate mapping function based on the modality and collections_datasets_flag (needs to be updated if the flag is updated)
+    task_categories_mapper = task_categories_mapper_text if modality == "Text" else task_categories_mapper_speech
+
+    # Explode the tasks column to have one row per task
+    if modality == "Text":
+        if collections_datasets_flag == 'Datasets':
+            df_tasks = df.explode(tasks_column)
+        elif collections_datasets_flag == 'Collections':
+            df_agg = df.groupby('Collection')[tasks_column].apply(lambda x: list(set.union(*map(set, x)))).reset_index()
+            df_tasks = df.merge(df_agg, on='Collection', suffixes=('', '_agg'))
+            df_tasks[tasks_column] = df_tasks[f'{tasks_column}_agg']
+            df_tasks.drop(columns=[f'{tasks_column}_agg'], inplace=True)
+            df_tasks = df_tasks.explode(tasks_column)
+    else:
+        df_tasks = df.explode(tasks_column)
+
+    # Apply the mapping function to each row
+    df_tasks[tasks_column] = df_tasks.apply(lambda row: map_taskgroup(row, modality), axis=1).fillna("Other")
+
+    # Sort the tasks in the desired order
+    df_tasks = df_tasks.sort_values(by=tasks_column)
+
+    # Map the tasks to their corresponding categories using the chosen mapping function
+    df_tasks[tasks_column] = df_tasks[tasks_column].apply(lambda x: task_categories_mapper[x])
+
+    # Filter out the 'Other' tasks
+    df_tasks = df_tasks[df_tasks[tasks_column] != 'Other']
+
+    # Add a new row for the 'Recognition' task in the Speech modality as every dataset should have a 'Recognition' task by default
+    if modality == 'Speech':
+        new_rows = pd.DataFrame({tasks_column: ['Recognition'] * len(df_tasks), 'Recognition': range(len(df_tasks) + 1, len(df_tasks) + len(df_tasks) + 1)})
+        df_tasks = pd.concat([df_tasks, new_rows], ignore_index=True)
+
+    return df_tasks
+
+
+# Function to plot the conceptual bar chart
+def concatenate_task_charts(chart1, chart2, chart3, font_size):
+    combined_chart = alt.hconcat(chart1, chart2, chart3).configure_axis(
+        grid=False,  # remove grid lines
+        domain=False
+    ).configure_view(
+        strokeOpacity=0
+    ).configure_title(
+        fontSize=font_size+2,  # increase font size for the title by 2
+        anchor='start'
+    ).configure_legend(
+        titleFontSize=font_size+2,  # increase font size for the legend title by 2
+        labelFontSize=font_size,
+        symbolSize=100
+    )
+
+    return combined_chart
+
+
+# Function to plot the tasks chart
+def plot_tasks_chart(
+    df, task_typemap, order, pwidth, pheight, save_dir, font_size, modality, tasks_column, collections_datasets_flag
+):
+    # Filter the dataframe to only include the specified modality
+    df = df[df['Modality'] == modality]
+
+    # Categorize the tasks into their respective groups
+    df_sources = categorize_tasks(df, order, task_typemap, tasks_column, modality, collections_datasets_flag)
+
+    # Filter out the tasks that are not having a category
+    df_sources = df_sources[df_sources[tasks_column].notnull()]
+
+    # Prepare the aggregated counts for each task
+    df_tasks_aggregated = df_sources[tasks_column].value_counts().reset_index()
+    df_tasks_aggregated.columns = [tasks_column, 'count']
+
+    # Prepare the aggregated counts for each dataset
+    df_datasets_aggregated = df_sources['Dataset Name'].value_counts().reset_index()
+    df_datasets_aggregated.columns = ['Dataset Name', 'count']
+
+    # Calculate percentage for each task and dataset in the aggregated dataframe using the count of datasets as denominator
+    df_tasks_aggregated['percentage'] = ((df_tasks_aggregated['count'] / df_datasets_aggregated['count'].sum()) * 100).round().astype(int)
+
+    # Sort the tasks based on the count
+    sorted_order = df_tasks_aggregated.sort_values('count', ascending=False)[tasks_column].tolist()
+
+    # Assign a position to each task based on the sorted order
+    df_tasks_aggregated['position'] = df_tasks_aggregated[tasks_column].apply(lambda x: sorted_order.index(x))
+
+    # Assign a color to each task based on the position
+    color_scale = alt.Scale(domain=list(range(len(sorted_order))), scheme='tableau20')
+
+    bar_chart = alt.Chart(df_tasks_aggregated).mark_bar(size=30).encode(
+        y=alt.Y(
+            field=f"{tasks_column}",
+            type="nominal",
+            title=None,  # remove axis title
+            sort=sorted_order,
+            axis=alt.Axis(labelFontSize=font_size, titleFontSize=font_size+2)
+        ),
+        x=alt.X(
+            field="percentage",
+            type="quantitative",
+            title=None,  # remove axis title
+            axis=alt.Axis(format='.0f', labelExpr="datum.value + '%'", labelFontSize=font_size, titleFontSize=font_size+2)  # format percentage
+        ),
+        color=alt.Color(
+            field="position",
+            type="ordinal",
+            title=None,  # remove legend title
+            scale=color_scale,
+            legend=None  # remove legend
+        ),
+        tooltip=[
+            alt.Tooltip(f"{tasks_column}", title=f"{tasks_column}"),
+            alt.Tooltip('count', title='Count'),
+            alt.Tooltip('percentage', title='Percentage', format='.2f')
+        ]
+    ).properties(
+        title="",
+        width=pwidth,  # set width
+        height=pheight  # set height
+    )
+
+    return bar_chart
