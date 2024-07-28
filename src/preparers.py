@@ -32,15 +32,13 @@ def convert_inputs_targets_to_messages(
 
 
 def prepare_open_platypus(row):
-    input_text = row['input'] + ' ' if row['input'] is not None else ''  # it is empty in many cases
-    instruction = input_text + row['instruction']
-    dset = row['data_source']
-    output = row['output']
-    return convert_inputs_targets_to_messages(
-        instruction,
-        output,
-        dset
-    )
+    input_text = (
+        row["input"] + " " if row["input"] is not None else ""
+    )  # it is empty in many cases
+    instruction = input_text + row["instruction"]
+    dset = row["data_source"]
+    output = row["output"]
+    return convert_inputs_targets_to_messages(instruction, output, dset)
 
 
 def prepare_flan_collection(row):
@@ -425,18 +423,11 @@ def prepare_capybara(row):
 
 
 def prepare_evol_instruct(row):
-    row['conversations'][1]['from'] = "assistant"
-    row['conversations'][0]['from'] = "user"
-    dset = "evol_instruct"
-
-    row['conversations'][0]['parent'] = dset
-    row['conversations'][1]['parent'] = 0
-    return row['conversations']
-    # return convert_inputs_targets_to_messages(
-    #     row["instruction"],
-    #     row["output"],
-    #     "evol_instruct",
-    # )
+    return convert_inputs_targets_to_messages(
+        row["conversations"][0]["value"],
+        row["conversations"][1]["value"],
+        "evol_instruct",
+    )
 
 
 def prepare_deita_10k(row):
@@ -870,11 +861,11 @@ def prepare_ultrachat(row):
             parent = i
     elif row["_source"] == "UltraChat_200k":
         parent = "ultrachat_200k"
-        for i, script in enumerate(row['messages']):
+        for i, script in enumerate(row["messages"]):
             messages.append(
                 {
-                    "from": script['role'],
-                    "text": script['content'].strip(),
+                    "from": script["role"],
+                    "text": script["content"].strip(),
                     "parent": parent,
                 }
             )
