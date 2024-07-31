@@ -1247,3 +1247,94 @@ def plot_tasks_chart(
     )
 
     return bar_chart
+
+def tokens_calculation(df):
+    # Extract and aggregate Text Metrics
+    df = df.copy()
+    text_metrics = df[['Unique Dataset Identifier', 'Text Metrics']].groupby('Unique Dataset Identifier').first().reset_index()
+
+    # Normalize the 'Text Metrics' column
+    metrics_df = pd.json_normalize(text_metrics['Text Metrics'])
+    metrics_df['Unique Dataset Identifier'] = text_metrics['Unique Dataset Identifier']
+
+    # Columns to check for NaN
+    columns_to_check = [
+        'Num Dialogs', 'Mean Inputs Length', 'Mean Targets Length',
+        'Max Inputs Length', 'Max Targets Length', 'Min Inputs Length',
+        'Min Targets Length', 'Min Dialog Turns', 'Max Dialog Turns',
+        'Mean Dialog Turns'
+    ]
+
+    # Filter out rows where all specified columns are NaN
+    metrics_df = metrics_df[metrics_df[columns_to_check].notna().any(axis=1)]
+
+    # Calculate 'Total Tokens' using a lambda function
+    metrics_df['Total Tokens'] = metrics_df.apply(lambda row: (
+        row['Num Dialogs'] * row['Mean Dialog Turns'] * (row['Mean Inputs Length'] + row['Mean Targets Length'])
+    ), axis=1)
+
+    # Select relevant columns and merge with original DataFrame
+    df_token = metrics_df[['Unique Dataset Identifier', 'Total Tokens']]
+    tokens_output = pd.merge(df, df_token, on='Unique Dataset Identifier', how='left')
+
+    return tokens_output
+
+    def chart_creation(df: pd.DataFrame, max_count: int, x_field: str, labels: list, ratio: float, title: str, width: int, height: int, color: str):
+    chart1 = alt.Chart(df).mark_bar(color=color).encode(
+        x=alt.X(f'{x_field}:N', sort=labels, axis=alt.Axis(labelAngle=45)),
+        y=alt.Y('Number of datasets:Q', scale=alt.Scale(domain=[0, max_count * ratio]), axis=alt.Axis(grid=True, tickCount=5)),
+        tooltip=[x_field, 'Number of datasets']
+    ).properties(
+        title=title,
+        width=width,
+        height=height
+    )
+    return chart1
+
+def combined_charts(*charts):
+    # Concatenate the two charts horizontally with different scales for the y-axes
+    combined_chart = alt.hconcat(*charts).configure(
+        title={"font": "Times New Roman"},
+        axis={
+            "labelFont": "Times New Roman",
+            "titleFont": "Times New Roman",
+            "labelFontSize": 16,
+            "titleFontSize": 16,
+            "labelAngle": 0,
+            "grid": True,
+            "gridOpacity": 0.7,
+            "tickColor": "grey",
+            "tickSize": 10,
+            "tickWidth": 2,
+            "tickOpacity": 0.8
+        },
+        legend={
+            "labelFont": "Times New Roman",
+            "titleFont": "Times New Roman",
+            "titleFontSize": 16,
+            "labelFontSize": 16
+        }
+    )
+    return combined_chart
+
+def data_aggregation_for_chart(df, modality: str, bins, labels,  measure_column: str, group_column: str, by_collection=False):
+    df_modality = df[df['Modality'] == modality]
+    if by_collection:
+        # Aggregate data by 'Collection' if specified
+        df_modality = df_modality.groupby('Collection')[measure_column].sum().reset_index()
+        df_modality[group_column] = pd.cut(df_modality[measure_column], bins=bins, labels=labels, right=False)
+    else:
+        # Normal token grouping
+        df_modality[group_column] = pd.cut(df_modality[measure_column], bins=bins, labels=labels, right=False)
+
+    group_distribution = df_modality[group_column].value_counts().sort_index()
+
+    df1 = group_distribution.reset_index()
+    df1.columns = [group_column, 'Count']
+
+    df1[group_column] = df1[group_column].astype(str)
+    df1['Number of datasets'] = df1['Count'].astype(int)
+
+    max_count1 = df1['Number of datasets'].max()
+
+    return df1, max_count1
