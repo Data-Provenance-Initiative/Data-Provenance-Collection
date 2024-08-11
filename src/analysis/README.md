@@ -25,7 +25,7 @@ This folder contains code relevant to conducting analysis for Data Provenance In
 Download the folders listed below from the following GDrive: [Organized Raw Data](https://drive.google.com/drive/folders/1jfDAb0qKWZxMhGbCd4o1OIAscE3nc7tv?usp=share_link) and add them your local DPI repo in `src/analysis/data`.
 * `forecasting` --- Forecasting results. 
 * `GPT_analysis_results` --- GPT responses and grades for TOS policies.
-* `plotting` --- General files required for plotting results in Consent in Crisis.
+* `raw_annotations` --- Raw annotation files required for plotting results in Consent in Crisis.
 * `robots` --- Historial robots policies for the head and 10k random samples.
 
 NOTE: `robots_analysis_p2.ipynb` --- Exploratory data analysis notebook for robots restrictions. None of the results / figures in this notebook were used in the final paper since the data was outdated. Thus, this notebook cannot be fully run but is included for completeness. Run `robots_analysis.ipynb` to reproduce results from the Consent in Crisis paper.
