@@ -37,33 +37,8 @@
             "instagram",
             "youtube"
         ],
-        "Inferred Metadata": {
-            "GitHub License": "Apache License 2.0",
-            "GitHub Stars (June 2024)": 1856,
-            "GitHub Topics": [
-                "action-detection",
-                "action-recognition",
-                "pytorch",
-                "spatial-temporal-action-detection",
-                "temporal-action-detection",
-                "temporal-action-localization",
-                "video-understanding"
-            ],
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "",
-            "PwC Description": "3 code implementations in PyTorch. We introduce OmniSource, a novel framework for leveraging web data to train video recognition models. OmniSource overcomes the barriers between data formats, such as images, short videos, and long untrimmed videos for webly-supervised learning. First, data samples with multiple formats, curated by task-specific data collection and automatically filtered by a teacher model, are transformed into a unified form. Then a joint-training strategy is proposed to deal with the domain gaps between multiple data sources and formats in webly-supervised learning. Several good practices, including data balancing, resampling, and cross-dataset mixup are adopted in joint training. Experiments show that by utilizing data from multiple sources and formats, OmniSource is more data-efficient in training. With only 3.5M images and 800K minutes videos crawled from the internet without human labeling (less than 2% of prior works), our models learned with OmniSource improve Top-1 accuracy of 2D- and 3D-ConvNet baseline models by 3.0% and 3.9%, respectively, on the Kinetics-400 benchmark. With OmniSource, we establish new records with different pretraining strategies for video recognition. Our best models achieve 80.4%, 80.5%, and 83.6 Top-1 accuracies on the Kinetics-400 benchmark respectively for training-from-scratch, ImageNet pre-training and IG-65M pre-training.",
-            "PwC License Name": "",
-            "PwC License URL": "",
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Duan2020OmnisourcedWL,\n author = {Haodong Duan and Yue Zhao and Yuanjun Xiong and Wentao Liu and Dahua Lin},\n booktitle = {European Conference on Computer Vision},\n journal = {ArXiv},\n title = {Omni-sourced Webly-supervised Learning for Video Recognition},\n volume = {abs/2003.13042},\n year = {2020}\n}\n"
+        "Task Categories": [
+            "Video Classification"
+        ]
     }
 }

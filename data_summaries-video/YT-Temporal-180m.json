@@ -1,0 +1,41 @@
+{
+    "MERLOT: Multimodal Neural Script Knowledge Models": {
+        "Unique Dataset Identifier": "YT-Temporal-180m",
+        "Collection": "YT-Temporal-180m",
+        "Collection URL": "https://arxiv.org/pdf/2106.02636",
+        "Dataset Name": "MERLOT: Multimodal Neural Script Knowledge Models",
+        "Paper Title": "MERLOT: Multimodal Neural Script Knowledge Models",
+        "Paper URL": "https://arxiv.org/pdf/2106.02636",
+        "GitHub URL": "https://github.com/rowanz/merlot",
+        "Hugging Face URL": "https://huggingface.co/datasets/HuggingFaceM4/yttemporal180m",
+        "Papers with Code URL": "https://paperswithcode.com/paper/merlot-multimodal-neural-script-knowledge",
+        "ArXiv URL": "https://arxiv.org/pdf/2106.02636",
+        "Semantic Scholar Corpus ID": 235352775,
+        "Year Released": 2021,
+        "Text Sources": [
+            "youtube"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/rowanz/merlot/blob/main/LICENSE"
+            }
+        ],
+        "Creators": [
+            "University of Washington",
+            "Allen Institute for AI"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 1515.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "youtube"
+        ],
+        "Task Categories": [
+            "Video Q&A"
+        ]
+    }
+}

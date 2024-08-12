@@ -1,0 +1,43 @@
+{
+    "MERLOT Reserve: Multimodal Neural Script Knowledge through Vision and Language and Sound": {
+        "Unique Dataset Identifier": "YT-Temporal-1B",
+        "Collection": "YT-Temporal-1B",
+        "Collection URL": "https://arxiv.org/pdf/2201.02639",
+        "Dataset Name": "MERLOT Reserve: Multimodal Neural Script Knowledge through Vision and Language and Sound",
+        "Paper Title": "MERLOT Reserve: Multimodal Neural Script Knowledge through Vision and Language and Sound",
+        "Paper URL": "https://arxiv.org/pdf/2201.02639",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/merlot-reserve-neural-script-knowledge",
+        "ArXiv URL": "https://arxiv.org/pdf/2201.02639",
+        "Semantic Scholar Corpus ID": 245837609,
+        "Year Released": 2022,
+        "Text Sources": [
+            "youtube"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/rowanz/merlot_reserve/blob/main/LICENSE"
+            }
+        ],
+        "Creators": [
+            "University of Washington",
+            "Allen Institute for AI",
+            "University of Edinburgh"
+        ],
+        "Countries": [
+            "United States of America",
+            "Scotland"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 55555.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "youtube"
+        ],
+        "Task Categories": [
+            "Video Q&A"
+        ]
+    }
+}

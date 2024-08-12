@@ -3,8 +3,8 @@
         "Unique Dataset Identifier": "youcook",
         "Collection": "youcook",
         "Collection URL": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Das_A_Thousand_Frames_2013_CVPR_paper.pdf",
-        "Dataset Name": "YouCook: A Thousand Frames in Just a Few Words: Lingual Description of Videos through Latent Topics and Sparse Object Stitching (CVPR 2013)",
-        "Paper Title": "YouCook: A Thousand Frames in Just a Few Words: Lingual Description of Videos through Latent Topics and Sparse Object Stitching (CVPR 2013)",
+        "Dataset Name": "YouCook: A Thousand Frames in Just a Few Words: Lingual Description of Videos through Latent Topics and Sparse Object Stitching (CVPR 2013)\n",
+        "Paper Title": "YouCook: A Thousand Frames in Just a Few Words: Lingual Description of Videos through Latent Topics and Sparse Object Stitching (CVPR 2013)\n",
         "Paper URL": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Das_A_Thousand_Frames_2013_CVPR_paper.pdf",
         "GitHub URL": "",
         "Hugging Face URL": "",
@@ -33,25 +33,8 @@
         "Video Sources": [
             "youtube"
         ],
-        "Inferred Metadata": {
-            "GitHub License": "",
-            "GitHub Stars (June 2024)": "",
-            "GitHub Topics": "",
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "",
-            "PwC Description": "This data set was prepared from 88 open-source YouTube cooking videos. The YouCook dataset contains videos of people cooking various recipes. The videos were downloaded from YouTube and are all in the third-person viewpoint; they represent a significantly more challenging visual problem than existing cooking and kitchen datasets (the background kitchen/scene is different for many and most videos have dynamic camera changes). In addition, frame-by-frame object and action annotations are provided for training data (as well as a number of precomputed low-level features). Finally, each video has a number of human provided natural language descriptions (on average, there are eight different descriptions per video). This dataset has been created to serve as a benchmark in describing complex real-world videos with natural language descriptions.",
-            "PwC License Name": "Unspecified",
-            "PwC License URL": null,
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Das2013ATF,\n author = {Pradipto Das and Chenliang Xu and Richard F. Doell and Jason J. Corso},\n booktitle = {2013 IEEE Conference on Computer Vision and Pattern Recognition},\n journal = {2013 IEEE Conference on Computer Vision and Pattern Recognition},\n pages = {2634-2641},\n title = {A Thousand Frames in Just a Few Words: Lingual Description of Videos through Latent Topics and Sparse Object Stitching},\n year = {2013}\n}\n"
+        "Task Categories": [
+            "Video Captioning"
+        ]
     }
 }

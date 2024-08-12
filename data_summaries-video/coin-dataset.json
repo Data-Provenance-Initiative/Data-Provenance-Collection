@@ -34,25 +34,8 @@
         "Video Sources": [
             "youtube"
         ],
-        "Inferred Metadata": {
-            "GitHub License": "",
-            "GitHub Stars (June 2024)": 100,
-            "GitHub Topics": [],
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "",
-            "PwC Description": "The COIN dataset (a large-scale dataset for COmprehensive INstructional video analysis) consists of 11,827 videos related to 180 different tasks in 12 domains (e.g., vehicles, gadgets, etc.) related to our daily life. The videos are all collected from YouTube. The average length of a video is 2.36 minutes. Each video is labelled with 3.91 step segments, where each segment lasts 14.91 seconds on average. In total, the dataset contains videos of 476 hours, with 46,354 annotated segments.",
-            "PwC License Name": "Various",
-            "PwC License URL": "https://coin-dataset.github.io/",
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Tang2019COINAL,\n author = {Yansong Tang and Dajun Ding and Yongming Rao and Yu Zheng and Danyang Zhang and Lili Zhao and Jiwen Lu and Jie Zhou},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {1207-1216},\n title = {COIN: A Large-Scale Dataset for Comprehensive Instructional Video Analysis},\n year = {2019}\n}\n"
+        "Task Categories": [
+            "Video Classification"
+        ]
     }
 }

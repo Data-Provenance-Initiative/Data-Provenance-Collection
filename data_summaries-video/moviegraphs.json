@@ -35,25 +35,10 @@
         "Video Sources": [
             "movies"
         ],
-        "Inferred Metadata": {
-            "GitHub License": "",
-            "GitHub Stars (June 2024)": "",
-            "GitHub Topics": "",
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "",
-            "PwC Description": "Provides detailed, graph-based annotations of social situations depicted in movie clips. Each graph consists of several types of nodes, to capture who is present in the clip, their emotional and physical attributes, their relationships (i.e., parent/child), and the interactions between them. Most interactions are associated with topics that provide additional details, and reasons that give motivations for actions.",
-            "PwC License Name": "Academic Research Purposes Only",
-            "PwC License URL": "https://docs.google.com/forms/d/e/1FAIpQLScytuCn4kRBKFPPei0t01Sfadpu8Qh5i9fFvfODWAAJGyEs7g/viewform",
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Vicol2017MovieGraphsTU,\n author = {Paul Vicol and Makarand Tapaswi and Lluís Castrejón and S. Fidler},\n booktitle = {2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n journal = {2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n pages = {8581-8590},\n title = {MovieGraphs: Towards Understanding Human-Centric Situations from Videos},\n year = {2017}\n}\n"
+        "Task Categories": [
+            "Misc (video retrieval",
+            "interaction understanding via ordering",
+            "reason prediction)"
+        ]
     }
 }

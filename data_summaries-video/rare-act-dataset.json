@@ -3,8 +3,8 @@
         "Unique Dataset Identifier": "rare-act-dataset",
         "Collection": "rare-act-dataset",
         "Collection URL": "https://arxiv.org/pdf/2008.01018.pdf",
-        "Dataset Name": "RareAct: A video dataset of unusual interactions",
-        "Paper Title": "RareAct: A video dataset of unusual interactions",
+        "Dataset Name": "RareAct: A video dataset of unusual interactions\n",
+        "Paper Title": "RareAct: A video dataset of unusual interactions\n",
         "Paper URL": "https://arxiv.org/pdf/2008.01018.pdf",
         "GitHub URL": "https://github.com/antoine77340/RareAct",
         "Hugging Face URL": "",
@@ -23,7 +23,7 @@
         ],
         "Creators": [
             "University of Oxford",
-            "Ecole Normale Supérieure",
+            "Ecole Normale Sup\u00e9rieure",
             "Inria",
             "CIIRC",
             "Czech Technical University"
@@ -39,25 +39,8 @@
         "Video Sources": [
             "undisclosed web"
         ],
-        "Inferred Metadata": {
-            "GitHub License": "Apache License 2.0",
-            "GitHub Stars (June 2024)": 32,
-            "GitHub Topics": [],
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "",
-            "PwC Description": "RareAct is a video dataset of unusual actions, including actions like “blend phone”, “cut keyboard” and “microwave shoes”. It aims at evaluating the zero-shot and few-shot compositionality of action recognition models for unlikely compositions of common action verbs and object nouns. It contains 122 different actions which were obtained by combining verbs and nouns rarely co-occurring together in the large-scale textual corpus from HowTo100M, but that frequently appear separately.",
-            "PwC License Name": "Unspecified",
-            "PwC License URL": null,
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Miech2020RareActAV,\n author = {Antoine Miech and Jean-Baptiste Alayrac and I. Laptev and Josef Sivic and Andrew Zisserman},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {RareAct: A video dataset of unusual interactions},\n volume = {abs/2008.01018},\n year = {2020}\n}\n"
+        "Task Categories": [
+            "Video Classification"
+        ]
     }
 }

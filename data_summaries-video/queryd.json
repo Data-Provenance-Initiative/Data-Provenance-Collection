@@ -35,25 +35,8 @@
             "youtube",
             "youdescribe"
         ],
-        "Inferred Metadata": {
-            "GitHub License": "",
-            "GitHub Stars (June 2024)": "",
-            "GitHub Topics": "",
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "",
-            "PwC Description": "A large-scale dataset for retrieval and event localisation in video. A unique feature of the dataset is the availability of two audio tracks for each video: the original audio, and a high-quality spoken description of the visual content.",
-            "PwC License Name": "Unspecified",
-            "PwC License URL": null,
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Oncescu2021QUERYDAV,\n author = {Andreea-Maria Oncescu and João F. Henriques and Yang Liu and Andrew Zisserman and Samuel Albanie},\n booktitle = {IEEE International Conference on Acoustics, Speech, and Signal Processing},\n journal = {ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},\n pages = {2265-2269},\n title = {QUERYD: A Video Dataset with High-Quality Text and Audio Narrations},\n year = {2021}\n}\n"
+        "Task Categories": [
+            "Video Captioning"
+        ]
     }
 }

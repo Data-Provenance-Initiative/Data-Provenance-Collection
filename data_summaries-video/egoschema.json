@@ -1,0 +1,40 @@
+{
+    "EgoSchema: A Diagnostic Benchmark for Very Long-form Video Language Understanding": {
+        "Unique Dataset Identifier": "egoschema",
+        "Collection": "egoschema",
+        "Collection URL": "https://arxiv.org/pdf/2308.09126",
+        "Dataset Name": "EgoSchema: A Diagnostic Benchmark for Very Long-form Video Language Understanding",
+        "Paper Title": "EgoSchema: A Diagnostic Benchmark for Very Long-form Video Language Understanding",
+        "Paper URL": "https://arxiv.org/pdf/2308.09126",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/egoschema-a-diagnostic-benchmark-for-very-1",
+        "ArXiv URL": "https://arxiv.org/pdf/2308.09126",
+        "Semantic Scholar Corpus ID": 261031047,
+        "Year Released": 2024,
+        "Text Sources": [
+            "human"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "Creators": [
+            "UC Berkeley"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 250.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "human"
+        ],
+        "Task Categories": [
+            "Video Q&A"
+        ]
+    }
+}
