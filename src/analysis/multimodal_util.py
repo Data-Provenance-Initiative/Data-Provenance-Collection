@@ -1421,16 +1421,16 @@ def tokens_calculation(df):
     return tokens_output
 
     def chart_creation(df: pd.DataFrame, max_count: int, x_field: str, labels: list, ratio: float, title: str, width: int, height: int, color: str):
-    chart1 = alt.Chart(df).mark_bar(color=color).encode(
-        x=alt.X(f'{x_field}:N', sort=labels, axis=alt.Axis(labelAngle=45)),
-        y=alt.Y('Number of datasets:Q', scale=alt.Scale(domain=[0, max_count * ratio]), axis=alt.Axis(grid=True, tickCount=5)),
-        tooltip=[x_field, 'Number of datasets']
-    ).properties(
-        title=title,
-        width=width,
-        height=height
-    )
-    return chart1
+        chart1 = alt.Chart(df).mark_bar(color=color).encode(
+            x=alt.X(f'{x_field}:N', sort=labels, axis=alt.Axis(labelAngle=45)),
+            y=alt.Y('Number of datasets:Q', scale=alt.Scale(domain=[0, max_count * ratio]), axis=alt.Axis(grid=True, tickCount=5)),
+            tooltip=[x_field, 'Number of datasets']
+        ).properties(
+            title=title,
+            width=width,
+            height=height
+        )
+        return chart1
 
 def combined_charts(*charts):
     # Concatenate the two charts horizontally with different scales for the y-axes
