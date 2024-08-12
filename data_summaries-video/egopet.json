@@ -1,0 +1,47 @@
+{
+    "EgoPet: Egomotion and Interaction Data from an Animal's Perspective": {
+        "Unique Dataset Identifier": "egopet",
+        "Collection": "egopet",
+        "Collection URL": "https://arxiv.org/pdf/2404.09991",
+        "Dataset Name": "EgoPet: Egomotion and Interaction Data from an Animal's Perspective",
+        "Paper Title": "EgoPet: Egomotion and Interaction Data from an Animal's Perspective",
+        "Paper URL": "https://arxiv.org/pdf/2404.09991",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/egopet-egomotion-and-interaction-data-from-an",
+        "ArXiv URL": "https://arxiv.org/pdf/2404.09991",
+        "Semantic Scholar Corpus ID": 269148727,
+        "Year Released": 2024,
+        "Text Sources": [
+            "tiktok",
+            "youtube"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/DannyTran123/egopet/blob/main/LICENSE"
+            }
+        ],
+        "Creators": [
+            "Tel Aviv University",
+            "UC Berkeley",
+            "New York University"
+        ],
+        "Countries": [
+            "United States of America",
+            "Israel"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 84.0,
+        "Taken Down": "False",
+        "Video Sources": [
+            "tiktok",
+            "youtube"
+        ],
+        "Task Categories": [
+            "Misc (Locomotion Prediction",
+            "Visual Interaction Prediction",
+            "Vision to Proprioception Prediction)"
+        ]
+    }
+}

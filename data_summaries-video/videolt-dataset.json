@@ -3,8 +3,8 @@
         "Unique Dataset Identifier": "videolt-dataset",
         "Collection": "videolt-dataset",
         "Collection URL": "https://arxiv.org/abs/2105.02668",
-        "Dataset Name": "VideoLT: Large-scale Long-tailed Video Recognition",
-        "Paper Title": "VideoLT: Large-scale Long-tailed Video Recognition",
+        "Dataset Name": "VideoLT: Large-scale Long-tailed Video Recognition\n",
+        "Paper Title": "VideoLT: Large-scale Long-tailed Video Recognition\n",
         "Paper URL": "https://arxiv.org/abs/2105.02668",
         "GitHub URL": "https://github.com/17Skye17/VideoLT",
         "Hugging Face URL": "",
@@ -37,29 +37,8 @@
         "Video Sources": [
             "youtube"
         ],
-        "Inferred Metadata": {
-            "GitHub License": "",
-            "GitHub Stars (June 2024)": 33,
-            "GitHub Topics": [
-                "long-tailed-recognition",
-                "video-classification",
-                "video-dataset"
-            ],
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "2021-05-06",
-            "PwC Description": "VideoLT is a large-scale long-tailed video recognition dataset that contains 256,218 untrimmed videos, annotated into 1,004 classes with a long-tailed distribution.",
-            "PwC License Name": "Unspecified",
-            "PwC License URL": null,
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Zhang2021VideoLTLL,\n author = {Xing Zhang and Zuxuan Wu and Zejia Weng and H. Fu and Jingjing Chen and Yu-Gang Jiang and Larry S. Davis},\n booktitle = {IEEE International Conference on Computer Vision},\n journal = {2021 IEEE/CVF International Conference on Computer Vision (ICCV)},\n pages = {7940-7949},\n title = {VideoLT: Large-scale Long-tailed Video Recognition},\n year = {2021}\n}\n"
+        "Task Categories": [
+            "Video Classification"
+        ]
     }
 }

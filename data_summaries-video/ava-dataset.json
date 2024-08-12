@@ -13,8 +13,7 @@
         "Semantic Scholar Corpus ID": 216211909,
         "Year Released": 2019,
         "Text Sources": [
-            "youtube",
-            "movies"
+            "Not Prohibited"
         ],
         "Licenses": [
             {
@@ -32,28 +31,10 @@
         "Video Hours": 38.5,
         "Taken Down": "False",
         "Video Sources": [
-            "youtube",
-            "movies"
+            "Not Prohibited"
         ],
-        "Inferred Metadata": {
-            "GitHub License": "",
-            "GitHub Stars (June 2024)": 305,
-            "GitHub Topics": [],
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "",
-            "PwC Description": "Contains temporally labeled face tracks in video, where each face instance is labeled as speaking or not, and whether the speech is audible. This dataset contains about 3.65 million human labeled frames or about 38.5 hours of face tracks, and the corresponding audio.",
-            "PwC License Name": "Unspecified",
-            "PwC License URL": null,
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Roth2019AvaAS,\n author = {Joseph Roth and Sourish Chaudhuri and Ondrej Klejch and Radhika Marvin and Andrew C. Gallagher and Liat Kaver and S. Ramaswamy and Arkadiusz Stopczynski and C. Schmid and Zhonghua Xi and C. Pantofaru},\n booktitle = {IEEE International Conference on Acoustics, Speech, and Signal Processing},\n journal = {ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},\n pages = {4492-4496},\n title = {Ava Active Speaker: An Audio-Visual Dataset for Active Speaker Detection},\n year = {2019}\n}\n"
+        "Task Categories": [
+            "Video Classification"
+        ]
     }
 }

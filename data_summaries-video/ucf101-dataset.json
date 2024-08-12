@@ -3,8 +3,8 @@
         "Unique Dataset Identifier": "ucf101-dataset",
         "Collection": "ucf101-dataset",
         "Collection URL": "https://arxiv.org/abs/1212.0402",
-        "Dataset Name": "UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild",
-        "Paper Title": "UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild",
+        "Dataset Name": "UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild\n",
+        "Paper Title": "UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild\n",
         "Paper URL": "https://arxiv.org/abs/1212.0402",
         "GitHub URL": "",
         "Hugging Face URL": "",
@@ -33,25 +33,8 @@
         "Video Sources": [
             "youtube"
         ],
-        "Inferred Metadata": {
-            "GitHub License": "",
-            "GitHub Stars (June 2024)": "",
-            "GitHub Topics": "",
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "2012-12-03",
-            "PwC Description": "UCF101 dataset is an extension of UCF50 and consists of 13,320 video clips, which are classified into 101 categories. These 101 categories can be classified into 5 types (Body motion, Human-human interactions, Human-object interactions, Playing musical instruments and Sports). The total length of these video clips is over 27 hours. All the videos are collected from YouTube and have a fixed frame rate of 25 FPS with the resolution of 320 × 240.",
-            "PwC License Name": "Unspecified",
-            "PwC License URL": null,
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Soomro2012UCF101AD,\n author = {K. Soomro and Amir Zamir and M. Shah},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild},\n volume = {abs/1212.0402},\n year = {2012}\n}\n"
+        "Task Categories": [
+            "Video Classification"
+        ]
     }
 }

@@ -3,8 +3,8 @@
         "Unique Dataset Identifier": "ntu-rgbd",
         "Collection": "ntu-rgbd",
         "Collection URL": "https://arxiv.org/pdf/1604.02808.pdf",
-        "Dataset Name": "NTU RGB+D: A Large Scale Dataset for 3D Human Activity Analysis (CVPR 2016, TPAMI 2019)",
-        "Paper Title": "NTU RGB+D: A Large Scale Dataset for 3D Human Activity Analysis (CVPR 2016, TPAMI 2019)",
+        "Dataset Name": "NTU RGB+D: A Large Scale Dataset for 3D Human Activity Analysis (CVPR 2016, TPAMI 2019)\n",
+        "Paper Title": "NTU RGB+D: A Large Scale Dataset for 3D Human Activity Analysis (CVPR 2016, TPAMI 2019)\n",
         "Paper URL": "https://arxiv.org/pdf/1604.02808.pdf",
         "GitHub URL": "https://github.com/shahroudy/NTURGB-D",
         "Hugging Face URL": "",
@@ -33,25 +33,8 @@
         "Video Sources": [
             "crowdsourced"
         ],
-        "Inferred Metadata": {
-            "GitHub License": "",
-            "GitHub Stars (June 2024)": 715,
-            "GitHub Topics": [],
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "",
-            "PwC Description": "#4 best model for Skeleton Based Action Recognition on Varying-view RGB-D Action-Skeleton (Accuracy (CS) metric)",
-            "PwC License Name": "",
-            "PwC License URL": "",
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Shahroudy2016NTURA,\n author = {Amir Shahroudy and Jun Liu and T. Ng and G. Wang},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {1010-1019},\n title = {NTU RGB+D: A Large Scale Dataset for 3D Human Activity Analysis},\n year = {2016}\n}\n"
+        "Task Categories": [
+            "Video Classification"
+        ]
     }
 }
