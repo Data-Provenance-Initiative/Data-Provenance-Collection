@@ -12,6 +12,7 @@ tenacity
 openai
 chardet
 semanticscholar
+pycountry_convert
 python-dotenv
 # ftfy
 # funcy
