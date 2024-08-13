@@ -1,4 +1,4 @@
-datasets
+datasets==2.15.0
 numpy
 pandas
 jsonlines
