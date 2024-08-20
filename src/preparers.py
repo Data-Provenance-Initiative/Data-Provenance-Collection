@@ -1536,3 +1536,10 @@ def prepare_dynosaur(row):
         },
         {"from": "assistant", "text": row["output"], "parent": 0},
     ]
+
+def prepare_inst_ar(row):
+    return convert_inputs_targets_to_messages(
+        row["instruction"],
+        row["output"],
+        row["source"],
+    )
