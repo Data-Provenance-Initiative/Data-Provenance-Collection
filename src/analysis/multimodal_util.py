@@ -993,6 +993,7 @@ def plot_license_terms_stacked_bar_chart_collections(
         order=alt.Order("order:Q", sort="ascending")  # Ensures correct order of the bars
     )
     chart = chart.properties(
+        title="License Use by Modality (Collections)",
         width=plot_width,
         height=plot_height
     )    
