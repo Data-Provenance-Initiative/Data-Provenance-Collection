@@ -1,10 +1,10 @@
 {
-    "RareAct: A video dataset of unusual interactions\n": {
+    "RareAct: A video dataset of unusual interactions": {
         "Unique Dataset Identifier": "rare-act-dataset",
         "Collection": "rare-act-dataset",
         "Collection URL": "https://arxiv.org/pdf/2008.01018.pdf",
-        "Dataset Name": "RareAct: A video dataset of unusual interactions\n",
-        "Paper Title": "RareAct: A video dataset of unusual interactions\n",
+        "Dataset Name": "RareAct: A video dataset of unusual interactions",
+        "Paper Title": "RareAct: A video dataset of unusual interactions",
         "Paper URL": "https://arxiv.org/pdf/2008.01018.pdf",
         "GitHub URL": "https://github.com/antoine77340/RareAct",
         "Hugging Face URL": "",

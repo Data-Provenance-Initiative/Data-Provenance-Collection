@@ -1,10 +1,10 @@
 {
-    "100DOH: Understanding Human Hands in Contact at Internet Scale (CVPR 2020)\n": {
+    "100DOH: Understanding Human Hands in Contact at Internet Scale (CVPR 2020)": {
         "Unique Dataset Identifier": "100doh",
         "Collection": "100doh",
         "Collection URL": "https://arxiv.org/abs/2006.06669",
-        "Dataset Name": "100DOH: Understanding Human Hands in Contact at Internet Scale (CVPR 2020)\n",
-        "Paper Title": "100DOH: Understanding Human Hands in Contact at Internet Scale (CVPR 2020)\n",
+        "Dataset Name": "100DOH: Understanding Human Hands in Contact at Internet Scale (CVPR 2020)",
+        "Paper Title": "100DOH: Understanding Human Hands in Contact at Internet Scale (CVPR 2020)",
         "Paper URL": "https://arxiv.org/abs/2006.06669",
         "GitHub URL": "https://github.com/ddshan/hand_object_detector",
         "Hugging Face URL": "",

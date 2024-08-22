@@ -1,10 +1,10 @@
 {
-    "The THUMOS Challenge on Action Recognition for\nVideos \u201cin the Wild\u201d": {
+    "The THUMOS Challenge on Action Recognition for Videos in the Wild": {
         "Unique Dataset Identifier": "thumos-challenge",
         "Collection": "thumos-challenge",
         "Collection URL": "https://arxiv.org/pdf/1604.06182.pdf",
-        "Dataset Name": "The THUMOS Challenge on Action Recognition for\nVideos \u201cin the Wild\u201d",
-        "Paper Title": "The THUMOS Challenge on Action Recognition for\nVideos \u201cin the Wild\u201d",
+        "Dataset Name": "The THUMOS Challenge on Action Recognition for Videos in the Wild",
+        "Paper Title": "The THUMOS Challenge on Action Recognition for Videos in the Wild",
         "Paper URL": "https://arxiv.org/pdf/1604.06182.pdf",
         "GitHub URL": "",
         "Hugging Face URL": "",

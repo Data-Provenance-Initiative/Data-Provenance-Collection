@@ -1,10 +1,10 @@
 {
-    "LEMMA: A Multi-view Dataset for LEarning Multi-agent Multi-task Activities (ECCV 2020)\n": {
+    "LEMMA: A Multi-view Dataset for LEarning Multi-agent Multi-task Activities (ECCV 2020)": {
         "Unique Dataset Identifier": "lemma-dataset",
         "Collection": "lemma-dataset",
         "Collection URL": "https://arxiv.org/abs/2007.15781",
-        "Dataset Name": "LEMMA: A Multi-view Dataset for LEarning Multi-agent Multi-task Activities (ECCV 2020)\n",
-        "Paper Title": "LEMMA: A Multi-view Dataset for LEarning Multi-agent Multi-task Activities (ECCV 2020)\n",
+        "Dataset Name": "LEMMA: A Multi-view Dataset for LEarning Multi-agent Multi-task Activities (ECCV 2020)",
+        "Paper Title": "LEMMA: A Multi-view Dataset for LEarning Multi-agent Multi-task Activities (ECCV 2020)",
         "Paper URL": "https://arxiv.org/abs/2007.15781",
         "GitHub URL": "https://github.com/Buzz-Beater/LEMMA",
         "Hugging Face URL": "",

@@ -1,10 +1,10 @@
 {
-    "Sports-1M: Large-scale Video Classification with Convolutional Neural Networks\n": {
-        "Unique Dataset Identifier": "sports1M-dataset\n",
-        "Collection": "sports1M-dataset\n",
+    "Sports-1M: Large-scale Video Classification with Convolutional Neural Networks": {
+        "Unique Dataset Identifier": "sports1M-dataset",
+        "Collection": "sports1M-dataset",
         "Collection URL": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/42455.pdf",
-        "Dataset Name": "Sports-1M: Large-scale Video Classification with Convolutional Neural Networks\n",
-        "Paper Title": "Sports-1M: Large-scale Video Classification with Convolutional Neural Networks\n",
+        "Dataset Name": "Sports-1M: Large-scale Video Classification with Convolutional Neural Networks",
+        "Paper Title": "Sports-1M: Large-scale Video Classification with Convolutional Neural Networks",
         "Paper URL": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/42455.pdf",
         "GitHub URL": "https://github.com/gtoderici/sports-1m-dataset",
         "Hugging Face URL": "",
