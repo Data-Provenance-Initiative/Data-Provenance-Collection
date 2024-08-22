@@ -950,6 +950,8 @@ def plot_license_terms_stacked_bar_chart_collections(
     save_dir=None, 
     plot_ppi=None,
     font_size=15,
+    return_license_table=True,
+    configure_chart=True
 ):
     if license_key == "License Type":
         hierarchy_fn = license_rank_fn
@@ -990,26 +992,29 @@ def plot_license_terms_stacked_bar_chart_collections(
         ),
         order=alt.Order("order:Q", sort="ascending")  # Ensures correct order of the bars
     )
-    
     chart = chart.properties(
         width=plot_width,
         height=plot_height
-    ).configure_axis(
-        labelFontSize=font_size,
-        titleFontSize=font_size,
-    ).configure_legend(
-        labelFontSize=font_size,
-        titleFontSize=font_size,
-        orient='bottom',
-        columns=4,
-        labelLimit=200,
-    )
+    )    
+    if configure_chart:
+        chart = chart.configure_axis(
+            labelFontSize=font_size,
+            titleFontSize=font_size,
+        ).configure_legend(
+            labelFontSize=font_size,
+            titleFontSize=font_size,
+            orient='bottom',
+            columns=4,
+            labelLimit=200,
+        )
 
     if save_dir:
         chart.save(os.path.join(save_dir, "license_use_by_modality_collections.png"), ppi=plot_ppi)
 
-    table = generate_multimodal_license_terms_latex(df)
-    return chart, table
+    if return_license_table:
+        table = generate_multimodal_license_terms_latex(df)
+        return chart, table
+    return chart
 
 
 
