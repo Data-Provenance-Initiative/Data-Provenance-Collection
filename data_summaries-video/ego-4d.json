@@ -1,10 +1,10 @@
 {
-    "Ego4D: Around the World in 3,000 Hours of Egocentric Video\n": {
+    "Ego4D: Around the World in 3,000 Hours of Egocentric Video": {
         "Unique Dataset Identifier": "ego-4d",
         "Collection": "ego-4d",
         "Collection URL": "https://arxiv.org/abs/2110.07058",
-        "Dataset Name": "Ego4D: Around the World in 3,000 Hours of Egocentric Video\n",
-        "Paper Title": "Ego4D: Around the World in 3,000 Hours of Egocentric Video\n",
+        "Dataset Name": "Ego4D: Around the World in 3,000 Hours of Egocentric Video",
+        "Paper Title": "Ego4D: Around the World in 3,000 Hours of Egocentric Video",
         "Paper URL": "https://arxiv.org/abs/2110.07058",
         "GitHub URL": "https://github.com/EGO4D/forecasting",
         "Hugging Face URL": "",

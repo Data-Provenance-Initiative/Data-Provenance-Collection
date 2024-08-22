@@ -1,10 +1,10 @@
 {
-    "DiDeMo: Localizing Moments in Video with Temporal Language (EMNLP 2018)\n": {
+    "DiDeMo: Localizing Moments in Video with Temporal Language (EMNLP 2018)": {
         "Unique Dataset Identifier": "didemo",
         "Collection": "didemo",
         "Collection URL": "https://paperswithcode.com/dataset/didemo",
-        "Dataset Name": "DiDeMo: Localizing Moments in Video with Temporal Language (EMNLP 2018)\n",
-        "Paper Title": "DiDeMo: Localizing Moments in Video with Temporal Language (EMNLP 2018)\n",
+        "Dataset Name": "DiDeMo: Localizing Moments in Video with Temporal Language (EMNLP 2018)",
+        "Paper Title": "DiDeMo: Localizing Moments in Video with Temporal Language (EMNLP 2018)",
         "Paper URL": "https://paperswithcode.com/dataset/didemo",
         "GitHub URL": "https://github.com/LisaAnne/TemporalLanguageRelease",
         "Hugging Face URL": "",

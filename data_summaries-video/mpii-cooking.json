@@ -1,10 +1,10 @@
 {
-    "MPII-Cooking: Recognizing Fine-Grained and Composite Activities Using Hand-Centric Features and Script Data (IJCV 2015)\n": {
+    "MPII-Cooking: Recognizing Fine-Grained and Composite Activities Using Hand-Centric Features and Script Data (IJCV 2015)": {
         "Unique Dataset Identifier": "mpii-cooking",
         "Collection": "mpii-cooking",
         "Collection URL": "https://arxiv.org/abs/1502.06648",
-        "Dataset Name": "MPII-Cooking: Recognizing Fine-Grained and Composite Activities Using Hand-Centric Features and Script Data (IJCV 2015)\n",
-        "Paper Title": "MPII-Cooking: Recognizing Fine-Grained and Composite Activities Using Hand-Centric Features and Script Data (IJCV 2015)\n",
+        "Dataset Name": "MPII-Cooking: Recognizing Fine-Grained and Composite Activities Using Hand-Centric Features and Script Data (IJCV 2015)",
+        "Paper Title": "MPII-Cooking: Recognizing Fine-Grained and Composite Activities Using Hand-Centric Features and Script Data (IJCV 2015)",
         "Paper URL": "https://arxiv.org/abs/1502.06648",
         "GitHub URL": "",
         "Hugging Face URL": "",

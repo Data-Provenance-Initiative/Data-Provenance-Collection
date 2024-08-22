@@ -1,10 +1,10 @@
 {
-    "Youtube-8M: A Large-Scale Video Classification Benchmark\n": {
+    "Youtube-8M: A Large-Scale Video Classification Benchmark": {
         "Unique Dataset Identifier": "youtube-8m",
         "Collection": "youtube-8m",
         "Collection URL": "https://arxiv.org/abs/1609.08675",
-        "Dataset Name": "Youtube-8M: A Large-Scale Video Classification Benchmark\n",
-        "Paper Title": "Youtube-8M: A Large-Scale Video Classification Benchmark\n",
+        "Dataset Name": "Youtube-8M: A Large-Scale Video Classification Benchmark",
+        "Paper Title": "Youtube-8M: A Large-Scale Video Classification Benchmark",
         "Paper URL": "https://arxiv.org/abs/1609.08675",
         "GitHub URL": "",
         "Hugging Face URL": "",

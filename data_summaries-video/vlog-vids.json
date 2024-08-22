@@ -1,10 +1,10 @@
 {
-    "VLOG: From Lifestyle Vlogs to Everyday Interactions (CVPR 2018)\n": {
+    "VLOG: From Lifestyle Vlogs to Everyday Interactions (CVPR 2018)": {
         "Unique Dataset Identifier": "vlog-vids",
         "Collection": "vlog-vids",
         "Collection URL": "https://arxiv.org/abs/1712.02310",
-        "Dataset Name": "VLOG: From Lifestyle Vlogs to Everyday Interactions (CVPR 2018)\n",
-        "Paper Title": "VLOG: From Lifestyle Vlogs to Everyday Interactions (CVPR 2018)\n",
+        "Dataset Name": "VLOG: From Lifestyle Vlogs to Everyday Interactions (CVPR 2018)",
+        "Paper Title": "VLOG: From Lifestyle Vlogs to Everyday Interactions (CVPR 2018)",
         "Paper URL": "https://arxiv.org/abs/1712.02310",
         "GitHub URL": "",
         "Hugging Face URL": "",

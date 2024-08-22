@@ -1,10 +1,10 @@
 {
-    "HMDB: A Large Video Database for Human Motion Recognition (ICCV 2011)\n": {
-        "Unique Dataset Identifier": "hmdb-dataset\n",
-        "Collection": "hmdb-dataset\n",
+    "HMDB: A Large Video Database for Human Motion Recognition (ICCV 2011)": {
+        "Unique Dataset Identifier": "hmdb-dataset",
+        "Collection": "hmdb-dataset",
         "Collection URL": "https://ieeexplore.ieee.org/document/6126543",
-        "Dataset Name": "HMDB: A Large Video Database for Human Motion Recognition (ICCV 2011)\n",
-        "Paper Title": "HMDB: A Large Video Database for Human Motion Recognition (ICCV 2011)\n",
+        "Dataset Name": "HMDB: A Large Video Database for Human Motion Recognition (ICCV 2011)",
+        "Paper Title": "HMDB: A Large Video Database for Human Motion Recognition (ICCV 2011)",
         "Paper URL": "https://ieeexplore.ieee.org/document/6126543",
         "GitHub URL": "",
         "Hugging Face URL": "",
