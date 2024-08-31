@@ -36,6 +36,26 @@
         ],
         "Task Categories": [
             "Temporal Action Detection"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "A dataset which provides detailed annotations for activity recognition.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "@Article{Rohrbach2015RecognizingFA,\n author = {Marcus Rohrbach and Anna Rohrbach and Michaela Regneri and S. Amin and Mykhaylo Andriluka and Manfred Pinkal and B. Schiele},\n booktitle = {International Journal of Computer Vision},\n journal = {International Journal of Computer Vision},\n pages = {346 - 373},\n title = {Recognizing Fine-Grained and Composite Activities Using Hand-Centric Features and Script Data},\n volume = {119},\n year = {2015}\n}\n"
     }
 }

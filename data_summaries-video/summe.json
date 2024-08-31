@@ -38,6 +38,26 @@
         ],
         "Task Categories": [
             "Video Summarization"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2014-01-01",
+            "PwC Description": "The SumMe dataset is a video summarization dataset consisting of 25 videos, each annotated with at least 15 human summaries (390 in total).",
+            "PwC License Name": "Academic Research Purposes Only",
+            "PwC License URL": "https://gyglim.github.io/me/vsum/index.html#benchmark",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "@Article{Gygli2014CreatingSF,\n author = {Michael Gygli and H. Grabner and Hayko Riemenschneider and L. Gool},\n booktitle = {European Conference on Computer Vision},\n pages = {505-520},\n title = {Creating Summaries from User Videos},\n year = {2014}\n}\n"
     }
 }

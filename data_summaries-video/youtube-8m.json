@@ -35,6 +35,26 @@
         ],
         "Task Categories": [
             "Video Classification"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2016-01-01",
+            "PwC Description": "The YouTube-8M dataset is a large scale video dataset, which includes more than 7 million videos with 4716 classes labeled by the annotation system. The dataset consists of three parts: training set, validate set, and test set. In the training set, each class contains at least 100 training videos. Features of these videos are extracted by the state-of-the-art popular pre-trained models and released for public use. Each video contains audio and visual modality. Based on the visual information, videos are divided into 24 topics, such as sports, game, arts & entertainment, etc",
+            "PwC License Name": "CC BY 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "@Article{Abu-El-Haija2016YouTube8MAL,\n author = {Sami Abu-El-Haija and Nisarg Kothari and Joonseok Lee and A. Natsev and G. Toderici and Balakrishnan Varadarajan and Sudheendra Vijayanarasimhan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {YouTube-8M: A Large-Scale Video Classification Benchmark},\n volume = {abs/1609.08675},\n year = {2016}\n}\n"
     }
 }

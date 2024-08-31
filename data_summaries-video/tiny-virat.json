@@ -35,6 +35,26 @@
         ],
         "Task Categories": [
             "Video Classification"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": 16,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "TinyVIRAT contains natural low-resolution activities. The actions in TinyVIRAT videos have multiple labels and they are extracted from surveillance videos which makes them realistic and more challenging.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "@Article{Demir2020TinyVIRATLV,\n author = {Ugur Demir and Y. Rawat and M. Shah},\n booktitle = {International Conference on Pattern Recognition},\n journal = {2020 25th International Conference on Pattern Recognition (ICPR)},\n pages = {7387-7394},\n title = {TinyVIRAT: Low-resolution Video Action Recognition},\n year = {2020}\n}\n"
     }
 }

@@ -41,6 +41,26 @@
         ],
         "Task Categories": [
             "Video Classification"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "MIT License",
+            "GitHub Stars (June 2024)": 11,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "1 code implementation in PyTorch. True understanding of videos comes from a joint analysis of all its modalities: the video frames, the audio track, and any accompanying text such as closed captions. We present a way to learn a compact multimodal feature representation that encodes all these modalities. Our model parameters are learned through a proxy task of inferring the temporal ordering of a set of unordered videos in a timeline. To this end, we create a new multimodal dataset for temporal ordering that consists of approximately 30K scenes (2-6 clips per scene) based on the \"Large Scale Movie Description Challenge\". We analyze and evaluate the individual and joint modalities on three challenging tasks: (i) inferring the temporal ordering of a set of videos; and (ii) action recognition. We demonstrate empirically that multimodal representations are indeed complementary, and can play a key role in improving the performance of many applications.",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "@Article{Sharma2020DeepMF,\n author = {Vivek Sharma and Makarand Tapaswi and R. Stiefelhagen},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Deep Multimodal Feature Encoding for Video Ordering},\n volume = {abs/2004.02205},\n year = {2020}\n}\n"
     }
 }
