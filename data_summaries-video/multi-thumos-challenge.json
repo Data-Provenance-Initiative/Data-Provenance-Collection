@@ -38,6 +38,26 @@
         ],
         "Task Categories": [
             "Video Classification"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2018-01-01",
+            "PwC Description": "The MultiTHUMOS dataset contains dense, multilabel, frame-level action annotations for 30 hours across 400 videos in the THUMOS'14 action detection dataset. It consists of 38,690 annotations of 65 action classes, with an average of 1.5 labels per frame and 10.5 action classes per video.",
+            "PwC License Name": "CC BY 4.0",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "@Article{Yeung2015EveryMC,\n author = {Serena Yeung and Olga Russakovsky and Ning Jin and Mykhaylo Andriluka and Greg Mori and Li Fei-Fei},\n booktitle = {International Journal of Computer Vision},\n journal = {International Journal of Computer Vision},\n pages = {375 - 389},\n title = {Every Moment Counts: Dense Detailed Labeling of Actions in Complex Videos},\n volume = {126},\n year = {2015}\n}\n"
     }
 }

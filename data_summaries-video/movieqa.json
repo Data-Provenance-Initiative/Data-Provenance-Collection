@@ -39,6 +39,26 @@
         ],
         "Task Categories": [
             "Video Question Answering"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": 80,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2016-01-01",
+            "PwC Description": "The MovieQA dataset is a dataset for movie question answering. to evaluate automatic story comprehension from both video and text. The data set consists of almost 15,000 multiple choice question answers obtained from over 400 movies and features high semantic diversity. Each question comes with a set of five highly plausible answers; only one of which is correct. The questions can be answered using multiple sources of information: movie clips, plots, subtitles, and for a subset scripts and DVS.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "@Article{Tapaswi2015MovieQAUS,\n author = {Makarand Tapaswi and Yukun Zhu and R. Stiefelhagen and A. Torralba and R. Urtasun and S. Fidler},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {4631-4640},\n title = {MovieQA: Understanding Stories in Movies through Question-Answering},\n year = {2015}\n}\n"
     }
 }

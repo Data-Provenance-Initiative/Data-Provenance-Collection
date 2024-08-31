@@ -35,6 +35,26 @@
         ],
         "Task Categories": [
             "Video Classification"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "A large collection of interaction-rich video data which are annotated and analyzed.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "@Article{Fouhey2017FromLV,\n author = {D. Fouhey and Weicheng Kuo and Alexei A. Efros and Jitendra Malik},\n booktitle = {2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n journal = {2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n pages = {4991-5000},\n title = {From Lifestyle Vlogs to Everyday Interactions},\n year = {2017}\n}\n"
     }
 }

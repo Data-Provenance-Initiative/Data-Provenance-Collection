@@ -39,6 +39,26 @@
         ],
         "Task Categories": [
             "Video Captioning"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (June 2024)": 242,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2019-06-07",
+            "PwC Description": "HowTo100M is a large-scale dataset of narrated videos with an emphasis on instructional videos where content creators teach complex tasks with an explicit intention of explaining the visual content on screen. HowTo100M features a total of:\n\n\n136M video clips with captions sourced from 1.2M Youtube videos (15 years of video)\n23k activities from domains such as cooking, hand crafting, personal care, gardening or fitness\n\nEach video is associated with a narration available as subtitles automatically downloaded from Youtube.",
+            "PwC License Name": "Various",
+            "PwC License URL": "https://www.di.ens.fr/willow/research/howto100m/",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "@Article{Miech2019HowTo100MLA,\n author = {Antoine Miech and Dimitri Zhukov and Jean-Baptiste Alayrac and Makarand Tapaswi and I. Laptev and Josef Sivic},\n booktitle = {IEEE International Conference on Computer Vision},\n journal = {2019 IEEE/CVF International Conference on Computer Vision (ICCV)},\n pages = {2630-2640},\n title = {HowTo100M: Learning a Text-Video Embedding by Watching Hundred Million Narrated Video Clips},\n year = {2019}\n}\n"
     }
 }

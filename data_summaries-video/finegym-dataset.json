@@ -35,6 +35,26 @@
         ],
         "Task Categories": [
             "Video Classification"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": 124,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2020-04-14",
+            "PwC Description": "FineGym is an action recognition dataset build on top of gymnasium videos. Compared to existing action recognition datasets, FineGym is distinguished in richness, quality, and diversity. In particular, it provides temporal annotations at both action and sub-action levels with a three-level semantic hierarchy. For example, a \"balance beam\" event will be annotated as a sequence of elementary sub-actions derived from five sets: \"leap-jumphop\", \"beam-turns\", \"flight-salto\", \"flight-handspring\", and \"dismount\", where the sub-action in each set will be further annotated with finely defined class labels. This new level of granularity presents significant challenges for action recognition, e.g. how to parse the temporal structures from a coherent action, and how to distinguish between subtly different action classes.",
+            "PwC License Name": "CC BY-NC 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "@Article{Shao2020FineGymAH,\n author = {Dian Shao and Yue Zhao and Bo Dai and Dahua Lin},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {2613-2622},\n title = {FineGym: A Hierarchical Video Dataset for Fine-Grained Action Understanding},\n year = {2020}\n}\n"
     }
 }

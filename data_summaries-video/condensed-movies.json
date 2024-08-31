@@ -35,6 +35,32 @@
         ],
         "Task Categories": [
             "Video Summarization"
-        ]
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": 153,
+            "GitHub Topics": [
+                "dataset",
+                "precomputed-features",
+                "retrieval",
+                "source-videos",
+                "video-text-retrieval"
+            ],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2020-05-08",
+            "PwC Description": "A large-scale video dataset, featuring clips from movies with detailed captions.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "@Article{Bain2020CondensedMS,\n author = {Max Bain and Arsha Nagrani and A. Brown and Andrew Zisserman},\n booktitle = {Asian Conference on Computer Vision},\n journal = {ArXiv},\n title = {Condensed Movies: Story Based Retrieval with Contextual Embeddings},\n volume = {abs/2005.04208},\n year = {2020}\n}\n"
     }
 }

@@ -1,10 +1,10 @@
 {
-    "CrossTask": {
+    "CrossTask: weakly supervised learning from instructional videos (CVPR 2019)": {
         "Unique Dataset Identifier": "crosstask",
         "Collection": "crosstask",
         "Collection URL": "https://arxiv.org/abs/1903.08225",
-        "Dataset Name": "CrossTask",
-        "Paper Title": "CrossTask",
+        "Dataset Name": "CrossTask: weakly supervised learning from instructional videos (CVPR 2019)",
+        "Paper Title": "CrossTask: weakly supervised learning from instructional videos (CVPR 2019)",
         "Paper URL": "https://arxiv.org/abs/1903.08225",
         "GitHub URL": "https://github.com/DmZhukov/CrossTask",
         "Hugging Face URL": "",
@@ -22,17 +22,17 @@
             }
         ],
         "Creators": [
-            "Middle East Technical University",
+            "Ecole Normale Sup\u00e9rieure",
             "Inria",
-            "PSL University - Universit\u00e9 PSL",
-            "University of Michigan",
-            "CIIRC"
+            "CIIRC",
+            "Czech Technical University",
+            "University of Michigan"
         ],
         "Countries": [
-            "Czech Republic",
             "France",
             "Turkey",
-            "United States of America"
+            "United States of America",
+            "Czech Republic"
         ],
         "License Verified By": "Vivek Sharma",
         "Video Hours": 376.0,
@@ -41,7 +41,27 @@
             "youtube"
         ],
         "Task Categories": [
-            "Video Captioning"
-        ]
+            "Temporal Action Localization"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "BSD 3-Clause License",
+            "GitHub Stars (June 2024)": 83,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2019-01-01",
+            "PwC Description": "CrossTask dataset contains instructional videos, collected for 83 different tasks. For each task an ordered list of steps with manual descriptions is provided. The dataset is divided in two parts: 18 primary and 65 related tasks. Videos for the primary tasks are collected manually and provided with annotations for temporal step boundaries. Videos for the related tasks are collected automatically and don't have annotations.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "@Article{Zhukov2019CrossTaskWS,\n author = {Dimitri Zhukov and Jean-Baptiste Alayrac and R. G. Cinbis and D. Fouhey and I. Laptev and Josef Sivic},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {3532-3540},\n title = {Cross-Task Weakly Supervised Learning From Instructional Videos},\n year = {2019}\n}\n"
     }
 }
