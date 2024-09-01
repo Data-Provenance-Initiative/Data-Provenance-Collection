@@ -35,26 +35,6 @@
         ],
         "Task Categories": [
             "Group Activity Recognition"
-        ],
-        "Inferred Metadata": {
-            "GitHub License": "BSD 3-Clause License",
-            "GitHub Stars (June 2024)": 171,
-            "GitHub Topics": [],
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "2016-01-01",
-            "PwC Description": "Volleyball is a video action recognition dataset. It has 4830 annotated frames that were handpicked from 55 videos with 9 player action labels and 8 team activity labels. It contains group activity annotations as well as individual activity annotations.",
-            "PwC License Name": "Unspecified",
-            "PwC License URL": null,
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Ibrahim2016HierarchicalDT,\n author = {Mostafa S. Ibrahim and S. Muralidharan and Zhiwei Deng and Arash Vahdat and Greg Mori},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Hierarchical Deep Temporal Models for Group Activity Recognition},\n volume = {abs/1607.02643},\n year = {2016}\n}\n"
+        ]
     }
 }

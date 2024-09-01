@@ -37,26 +37,6 @@
         ],
         "Task Categories": [
             "Video Captioning"
-        ],
-        "Inferred Metadata": {
-            "GitHub License": "",
-            "GitHub Stars (June 2024)": "",
-            "GitHub Topics": "",
-            "Github Date": "",
-            "HF Config": "v1.1",
-            "HF Config License": "",
-            "HF Dataset": "HuggingFaceM4/vatex",
-            "HF Date": "2022-05-13",
-            "HF Downloads (June 2024)": 112,
-            "HF Likes (June 2024)": 4,
-            "HF Yaml License": "",
-            "PwC Date": "2019-01-01",
-            "PwC Description": "VATEX is multilingual, large, linguistically complex, and diverse dataset in terms of both video and natural language descriptions. It has two tasks for video-and-language research: (1) Multilingual Video Captioning, aimed at describing a video in various languages with a compact unified captioning model, and (2) Video-guided Machine Translation, to translate a source language description into the target language using the video information as additional spatiotemporal context.",
-            "PwC License Name": "CC BY 4.0",
-            "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Wang2019VaTeXAL,\n author = {Xin Eric Wang and Jiawei Wu and Junkun Chen and Lei Li and Yuan-fang Wang and William Yang Wang},\n booktitle = {IEEE International Conference on Computer Vision},\n journal = {2019 IEEE/CVF International Conference on Computer Vision (ICCV)},\n pages = {4580-4590},\n title = {VaTeX: A Large-Scale, High-Quality Multilingual Dataset for Video-and-Language Research},\n year = {2019}\n}\n"
+        ]
     }
 }

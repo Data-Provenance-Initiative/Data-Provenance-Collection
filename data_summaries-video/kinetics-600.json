@@ -35,26 +35,6 @@
         ],
         "Task Categories": [
             "Video Classification"
-        ],
-        "Inferred Metadata": {
-            "GitHub License": "",
-            "GitHub Stars (June 2024)": 704,
-            "GitHub Topics": [],
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "2018-01-01",
-            "PwC Description": "The Kinetics-600 is a large-scale action recognition dataset which consists of around 480K videos from 600 action categories. The 480K videos are divided into 390K, 30K, 60K for training, validation and test sets, respectively. Each video in the dataset is a 10-second clip of action moment annotated from raw YouTube video. It is an extensions of the Kinetics-400 dataset.",
-            "PwC License Name": "CC BY 4.0",
-            "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Carreira2018ASN,\n author = {Jo\u00e3o Carreira and Eric Noland and Andras Banki-Horvath and Chloe Hillier and Andrew Zisserman},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {A Short Note about Kinetics-600},\n volume = {abs/1808.01340},\n year = {2018}\n}\n"
+        ]
     }
 }

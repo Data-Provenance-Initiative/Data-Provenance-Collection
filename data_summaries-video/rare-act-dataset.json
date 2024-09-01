@@ -41,26 +41,6 @@
         ],
         "Task Categories": [
             "Video Classification"
-        ],
-        "Inferred Metadata": {
-            "GitHub License": "Apache License 2.0",
-            "GitHub Stars (June 2024)": 32,
-            "GitHub Topics": [],
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "",
-            "PwC Description": "RareAct is a video dataset of unusual actions, including actions like \u201cblend phone\u201d, \u201ccut keyboard\u201d and \u201cmicrowave shoes\u201d. It aims at evaluating the zero-shot and few-shot compositionality of action recognition models for unlikely compositions of common action verbs and object nouns. It contains 122 different actions which were obtained by combining verbs and nouns rarely co-occurring together in the large-scale textual corpus from HowTo100M, but that frequently appear separately.",
-            "PwC License Name": "Unspecified",
-            "PwC License URL": null,
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Miech2020RareActAV,\n author = {Antoine Miech and Jean-Baptiste Alayrac and I. Laptev and Josef Sivic and Andrew Zisserman},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {RareAct: A video dataset of unusual interactions},\n volume = {abs/2008.01018},\n year = {2020}\n}\n"
+        ]
     }
 }

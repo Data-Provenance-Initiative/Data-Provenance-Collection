@@ -37,26 +37,6 @@
         ],
         "Task Categories": [
             "Video Classification"
-        ],
-        "Inferred Metadata": {
-            "GitHub License": "BSD 3-Clause License",
-            "GitHub Stars (June 2024)": 184,
-            "GitHub Topics": [],
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "",
-            "PwC Description": "HACS is a dataset for human action recognition. It uses a taxonomy of 200 action classes, which is identical to that of the ActivityNet-v1.3 dataset. It has 504K videos retrieved from YouTube. Each one is strictly shorter than 4 minutes, and the average length is 2.6 minutes. A total of 1.5M clips of 2-second duration are sparsely sampled by methods based on both uniform randomness and consensus/disagreement of image classifiers. 0.6M and 0.9M clips are annotated as positive and negative samples, respectively.\n\nAuthors split the collection into training, validation and testing sets of size 1.4M, 50K and 50K clips, which are sampled\nfrom 492K, 6K and 6K videos, respectively.",
-            "PwC License Name": "BSD 3-Clause License",
-            "PwC License URL": "https://github.com/hangzhaomit/HACS-dataset/blob/master/LICENSE",
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Zhao2017HACSHA,\n author = {Hang Zhao and A. Torralba and L. Torresani and Zhicheng Yan},\n booktitle = {IEEE International Conference on Computer Vision},\n journal = {2019 IEEE/CVF International Conference on Computer Vision (ICCV)},\n pages = {8667-8677},\n title = {HACS: Human Action Clips and Segments Dataset for Recognition and Temporal Localization},\n year = {2017}\n}\n"
+        ]
     }
 }

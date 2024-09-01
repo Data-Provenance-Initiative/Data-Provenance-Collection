@@ -39,26 +39,6 @@
             "Temporal Localization",
             "Action Recognition",
             "Spatial-Temporal Action Localization"
-        ],
-        "Inferred Metadata": {
-            "GitHub License": "",
-            "GitHub Stars (June 2024)": "",
-            "GitHub Topics": "",
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "",
-            "PwC Description": "MMAct is a large-scale dataset for multi/cross modal action understanding. This dataset has been recorded from 20 distinct subjects with seven different types of modalities: RGB videos, keypoints, acceleration, gyroscope, orientation, Wi-Fi and pressure signal. The dataset consists of more than 36k video clips for 37 action classes covering a wide range of daily life activities such as desktop-related and check-in-based ones in four different distinct scenarios.",
-            "PwC License Name": "Unspecified",
-            "PwC License URL": null,
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Kong2019MMActAL,\n author = {Quan Kong and Ziming Wu and Ziwei Deng and Martin Klinkigt and Bin Tong and Tomokazu Murakami},\n booktitle = {IEEE International Conference on Computer Vision},\n journal = {2019 IEEE/CVF International Conference on Computer Vision (ICCV)},\n pages = {8657-8666},\n title = {MMAct: A Large-Scale Dataset for Cross Modal Human Action Understanding},\n year = {2019}\n}\n"
+        ]
     }
 }

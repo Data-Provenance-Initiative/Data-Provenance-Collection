@@ -39,26 +39,6 @@
         "Task Categories": [
             "Video Segmentation",
             "Video Classification"
-        ],
-        "Inferred Metadata": {
-            "GitHub License": "",
-            "GitHub Stars (June 2024)": "",
-            "GitHub Topics": "",
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "2016-01-01",
-            "PwC Description": "MARS (Motion Analysis and Re-identification Set) is a large scale video based person reidentification dataset, an extension of the Market-1501 dataset. It has been collected from six near-synchronized cameras. It consists of 1,261 different pedestrians, who are captured by at least 2 cameras. The variations in poses, colors and illuminations of pedestrians, as well as the poor image quality, make it very difficult to yield high matching accuracy. Moreover, the dataset contains 3,248 distractors in order to make it more realistic. Deformable Part Model and GMMCP tracker were used to automatically generate the tracklets (mostly 25-50 frames long).",
-            "PwC License Name": "Unspecified",
-            "PwC License URL": null,
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Zheng2016MARSAV,\n author = {Liang Zheng and Zhi Bie and Yifan Sun and Jingdong Wang and Chi Su and Shengjin Wang and Q. Tian},\n booktitle = {European Conference on Computer Vision},\n pages = {868-884},\n title = {MARS: A Video Benchmark for Large-Scale Person Re-Identification},\n year = {2016}\n}\n"
+        ]
     }
 }

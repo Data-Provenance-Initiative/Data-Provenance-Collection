@@ -37,26 +37,6 @@
         ],
         "Task Categories": [
             "Video Classification"
-        ],
-        "Inferred Metadata": {
-            "GitHub License": "",
-            "GitHub Stars (June 2024)": "",
-            "GitHub Topics": "",
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "",
-            "PwC Description": "",
-            "PwC License Name": "",
-            "PwC License URL": "",
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Monfort2019MultiMomentsIT,\n author = {Mathew Monfort and K. Ramakrishnan and A. Andonian and Barry A. McNamara and A. Lascelles and Bowen Pan and Quanfu Fan and Dan Gutfreund and R. Feris and A. Oliva},\n booktitle = {IEEE Transactions on Pattern Analysis and Machine Intelligence},\n journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},\n pages = {1-1},\n title = {Multi-Moments in Time: Learning and Interpreting Models for Multi-Action Video Understanding},\n volume = {PP},\n year = {2019}\n}\n"
+        ]
     }
 }

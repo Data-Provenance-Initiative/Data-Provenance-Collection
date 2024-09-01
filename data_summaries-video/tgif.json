@@ -37,26 +37,6 @@
         ],
         "Task Categories": [
             "Video Captioning"
-        ],
-        "Inferred Metadata": {
-            "GitHub License": "BSD 3-Clause License",
-            "GitHub Stars (June 2024)": 111,
-            "GitHub Topics": [],
-            "Github Date": "",
-            "HF Config": "all",
-            "HF Config License": "",
-            "HF Dataset": "HuggingFaceM4/TGIF",
-            "HF Date": "2022-05-17",
-            "HF Downloads (June 2024)": 9,
-            "HF Likes (June 2024)": 11,
-            "HF Yaml License": "Unspecified",
-            "PwC Date": "2016-04-10",
-            "PwC Description": "The Tumblr GIF (TGIF) dataset contains 100K animated GIFs and 120K sentences describing visual content of the animated GIFs. The animated GIFs have been collected from Tumblr, from randomly selected posts published between May and June of 2015. The dataset provides the URLs of animated GIFs. The sentences are collected via crowdsourcing, with a carefully designed annotation interface that ensures high quality dataset. There is one sentence per animated GIF for the training and validation splits, and three sentences per GIF for the test split. The dataset can be used to evaluate animated GIF/video description techniques.",
-            "PwC License Name": "Academic Research Purposes Only",
-            "PwC License URL": "https://github.com/raingo/TGIF-Release#license",
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Li2016TGIFAN,\n author = {Yuncheng Li and Yale Song and Liangliang Cao and Joel R. Tetreault and Larry Goldberg and A. Jaimes and Jiebo Luo},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {4641-4650},\n title = {TGIF: A New Dataset and Benchmark on Animated GIF Description},\n year = {2016}\n}\n"
+        ]
     }
 }

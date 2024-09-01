@@ -35,26 +35,6 @@
         ],
         "Task Categories": [
             "Video Classification"
-        ],
-        "Inferred Metadata": {
-            "GitHub License": "",
-            "GitHub Stars (June 2024)": "",
-            "GitHub Topics": "",
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "2019-07-15",
-            "PwC Description": "Kinetics-700 is a video dataset of 650,000 clips that covers 700 human action classes. The videos include human-object interactions such as playing instruments, as well as human-human interactions such as shaking hands and hugging. Each action class has at least 700 video clips. Each clip is annotated with an action class and lasts approximately 10 seconds.",
-            "PwC License Name": "CC BY 4.0",
-            "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Carreira2019ASN,\n author = {Jo\u00e3o Carreira and Eric Noland and Chloe Hillier and Andrew Zisserman},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {A Short Note on the Kinetics-700 Human Action Dataset},\n volume = {abs/1907.06987},\n year = {2019}\n}\n"
+        ]
     }
 }

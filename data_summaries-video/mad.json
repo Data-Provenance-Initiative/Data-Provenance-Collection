@@ -35,26 +35,6 @@
         ],
         "Task Categories": [
             "Video Captioning"
-        ],
-        "Inferred Metadata": {
-            "GitHub License": "MIT License",
-            "GitHub Stars (June 2024)": 138,
-            "GitHub Topics": [],
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "2021-12-01",
-            "PwC Description": "MAD (Movie Audio Descriptions) is an automatically curated large-scale dataset for the task of natural language grounding in videos or natural language moment retrieval.\nMAD exploits available audio descriptions of mainstream movies. Such audio descriptions are redacted for visually impaired audiences and are therefore highly descriptive of the visual content being displayed. \nMAD contains over 384,000 natural language sentences grounded in over 1,200 hours of video, and provides a unique setup for video grounding as the visual stream is truly untrimmed with an average video duration of 110 minutes. 2 orders of magnitude longer than legacy datasets. \n\nTake a look at the paper for additional information.\n\nFrom the authors on availability: \"Due to copyright constraints, MAD\u2019s videos will not be publicly released. However, we will provide all necessary features for our experiments\u2019 reproducibility and promote future research in this direction\"",
-            "PwC License Name": "Unspecified",
-            "PwC License URL": null,
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Soldan2021MADAS,\n author = {Mattia Soldan and A. Pardo and Juan Le'on Alc'azar and Fabian Caba Heilbron and Chen Zhao and Silvio Giancola and Bernard Ghanem},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {5016-5025},\n title = {MAD: A Scalable Dataset for Language Grounding in Videos from Movie Audio Descriptions},\n year = {2021}\n}\n"
+        ]
     }
 }

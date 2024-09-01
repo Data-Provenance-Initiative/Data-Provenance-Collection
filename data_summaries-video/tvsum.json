@@ -35,26 +35,6 @@
         ],
         "Task Categories": [
             "Video Summarization"
-        ],
-        "Inferred Metadata": {
-            "GitHub License": "",
-            "GitHub Stars (June 2024)": 116,
-            "GitHub Topics": [],
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "2015-06-01",
-            "PwC Description": "Title-based Video Summarization (TVSum) dataset serves as a benchmark to validate video summarization techniques. It contains 50 videos of various genres (e.g., news, how-to, documentary, vlog, egocentric) and 1,000 annotations of shot-level importance scores obtained via crowdsourcing (20 per video).",
-            "PwC License Name": "Unspecified",
-            "PwC License URL": null,
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Song2015TVSumSW,\n author = {Yale Song and Jordi Vallmitjana and Amanda Stent and A. Jaimes},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {5179-5187},\n title = {TVSum: Summarizing web videos using titles},\n year = {2015}\n}\n"
+        ]
     }
 }

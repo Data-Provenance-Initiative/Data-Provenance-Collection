@@ -37,26 +37,6 @@
         ],
         "Task Categories": [
             "Video Captioning"
-        ],
-        "Inferred Metadata": {
-            "GitHub License": "",
-            "GitHub Stars (June 2024)": "",
-            "GitHub Topics": "",
-            "Github Date": "",
-            "HF Config": "all",
-            "HF Config License": "",
-            "HF Dataset": "Leyo/ActivityNet_Captions",
-            "HF Date": "2022-05-13",
-            "HF Downloads (June 2024)": 21,
-            "HF Likes (June 2024)": 0,
-            "HF Yaml License": "Unspecified",
-            "PwC Date": "2015-01-01",
-            "PwC Description": "The ActivityNet dataset contains 200 different types of activities and a total of 849 hours of videos collected from YouTube. ActivityNet is the largest benchmark for temporal activity detection to date in terms of both the number of activity categories and number of videos, making the task particularly challenging. Version 1.3 of the dataset contains 19994 untrimmed videos in total and is divided into three disjoint subsets, training, validation, and testing by a ratio of 2:1:1. On average, each activity category has 137 untrimmed videos. Each video on average has 1.41 activities which are annotated with temporal boundaries. The ground-truth annotations of test videos are not public.",
-            "PwC License Name": "Unspecified",
-            "PwC License URL": null,
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Heilbron2015ActivityNetAL,\n author = {Fabian Caba Heilbron and Victor Escorcia and Bernard Ghanem and Juan Carlos Niebles},\n booktitle = {Computer Vision and Pattern Recognition},\n journal = {2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},\n pages = {961-970},\n title = {ActivityNet: A large-scale video benchmark for human activity understanding},\n year = {2015}\n}\n"
+        ]
     }
 }

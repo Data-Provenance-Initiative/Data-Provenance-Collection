@@ -37,26 +37,6 @@
         ],
         "Task Categories": [
             "Video Captioning"
-        ],
-        "Inferred Metadata": {
-            "GitHub License": "",
-            "GitHub Stars (June 2024)": 528,
-            "GitHub Topics": [],
-            "Github Date": "",
-            "HF Config": "default",
-            "HF Config License": "",
-            "HF Dataset": "TempoFunk/webvid-10M",
-            "HF Date": "2023-06-16",
-            "HF Downloads (June 2024)": 360,
-            "HF Likes (June 2024)": 28,
-            "HF Yaml License": "GNU General Public License v3.0",
-            "PwC Date": "2021-04-01",
-            "PwC Description": "WebVid contains 10 million video clips with captions, sourced from the web. The videos are diverse and rich in their content.\n\nBoth the full 10M set and a 2.5M subset is available for download:\nhttps://github.com/m-bain/webvid-dataset",
-            "PwC License Name": "Various",
-            "PwC License URL": "https://github.com/m-bain/webvid/blob/main/TERMS.md",
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Bain2021FrozenIT,\n author = {Max Bain and Arsha Nagrani and G\u00fcl Varol and Andrew Zisserman},\n booktitle = {IEEE International Conference on Computer Vision},\n journal = {2021 IEEE/CVF International Conference on Computer Vision (ICCV)},\n pages = {1708-1718},\n title = {Frozen in Time: A Joint Video and Image Encoder for End-to-End Retrieval},\n year = {2021}\n}\n"
+        ]
     }
 }

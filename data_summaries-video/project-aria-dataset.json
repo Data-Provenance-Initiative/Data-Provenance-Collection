@@ -35,26 +35,6 @@
         ],
         "Task Categories": [
             "Misc (Scene Reconstruction)"
-        ],
-        "Inferred Metadata": {
-            "GitHub License": "Apache License 2.0",
-            "GitHub Stars (June 2024)": 361,
-            "GitHub Topics": [],
-            "Github Date": "",
-            "HF Config": "",
-            "HF Config License": "",
-            "HF Dataset": "",
-            "HF Date": "",
-            "HF Downloads (June 2024)": "",
-            "HF Likes (June 2024)": "",
-            "HF Yaml License": "",
-            "PwC Date": "",
-            "PwC Description": "Implemented in one code library.",
-            "PwC License Name": "",
-            "PwC License URL": "",
-            "S2 Citation Count (June 2024)": "",
-            "S2 Date": ""
-        },
-        "Bibtex": "@Article{Lv2024AriaEA,\n author = {Zhaoyang Lv and Nickolas Charron and Pierre Moulon and Alexander Gamino and Cheng Peng and Chris Sweeney and Edward Miller and Huixuan Tang and Jeff Meissner and Jing Dong and Kiran Somasundaram and Luis Pesqueira and Mark Schwesinger and Omkar M. Parkhi and Qiao Gu and R. D. Nardi and Shangyi Cheng and Steve Saarinen and Vijay Baiyya and Yuyang Zou and Richard A. Newcombe and J. Engel and Xiaqing Pan and Carl Ren},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Aria Everyday Activities Dataset},\n volume = {abs/2402.13349},\n year = {2024}\n}\n"
+        ]
     }
 }
