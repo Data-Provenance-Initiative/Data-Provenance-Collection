@@ -57,7 +57,6 @@ def parse_args():
     parser.add_argument('--sch_api_key', type=str, required=False, help='API key for the scheduler')
     parser.add_argument('--github_token', type=str, required=False, help='Token for GitHub access')
     parser.add_argument('--f', type=str, required=False)
-    parser.add_argument('--input-dir', default='data_summaries', type=str, required=False)
     
     args = parser.parse_args()
     return edict(vars(args))
@@ -315,7 +314,7 @@ def add_inferred_metadata(dataset):
 collection_summaries = {}
 for cname in collection_names:
     cname=cname.replace('Masking','masking')
-    collection_summaries[cname] = io.read_json(f"{args.input_dir}/{cname}.json")
+    collection_summaries[cname] = io.read_json(f"data_summaries/{cname}.json")
 
 
 fixes={
@@ -348,4 +347,4 @@ for cname, cname_infos in tqdm(collection_summaries.items()):
         except Exception as e:
             di=dataset_infos['Unique Dataset Identifier']
             print("Error:",di,e)
-    io.write_json(cname_infos, f"{args.input_dir}/{cname}.json")
+    io.write_json(cname_infos, f"data_summaries/{cname}.json")
