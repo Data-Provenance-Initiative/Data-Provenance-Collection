@@ -18,14 +18,13 @@ This folder contains code relevant to conducting analysis for Data Provenance In
 - `multimodal_analysis.ipynb` --- Notebook to compare text, video, and speech datasets.
 - `paywall_domain_analysis.ipynb` --- Notebook to analyze the types of domains found behind paywalls.
 - `prompt_analysis.ipynb` --- Notebook for plotting WildChat vs content domain type.
-- `corpus_robots_trends.ipynb` --- Forecasting and plotting robots and TOS domain specific trends.
+- `corpus_robots_trends.ipynb` --- Plotting robots and TOS domain specific trends.
 
 ## How to Run Notebooks
 
 Download the folders listed below from the following GDrive: [Organized Raw Data](https://drive.google.com/drive/folders/1jfDAb0qKWZxMhGbCd4o1OIAscE3nc7tv?usp=share_link) and add them your local DPI repo in `src/analysis/data`.
 
 - `domain_estimates` --- Domain estimate sheets for plotting in `corpus_robots_trends.ipynb`
-- `forecasting` --- Forecasting results.
 - `GPT_analysis_results` --- GPT responses and grades for TOS policies.
 - `raw_annotations` --- Raw annotation files required for plotting results in Consent in Crisis.
 - `robots` --- Historical robots policies for the head and 10k random samples.
