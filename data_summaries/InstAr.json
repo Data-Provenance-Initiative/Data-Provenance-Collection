@@ -83,7 +83,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Classification"],
-        "Text Sources": ["book reviews"],
+        "Text Sources": ["GoodReads.com"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -118,7 +118,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Question Answering"],
-        "Text Sources": ["google search queries", "google search"],
+        "Text Sources": ["web scrapped"],
         "Model Generated": [],
         "Format": [
             "Zero-shot"
@@ -188,7 +188,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Entity Linking"],
-        "Text Sources": ["quran"],
+        "Text Sources": ["Quran"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -288,12 +288,12 @@
         "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Papers with Code URL": "",
         "ArXiv URL": "",
-        "Semantic Scholar Corpus ID": "",
+        "Semantic Scholar Corpus ID": "14933068",
         "Collection": "InstAr",
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Classification"],
-        "Text Sources": [],
+        "Text Sources": ["web crawls"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -328,7 +328,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Classification"],
-        "Text Sources": [],
+        "Text Sources": ["web crawls"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -363,7 +363,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Classification"],
-        "Text Sources": [],
+        "Text Sources": ["web crawls"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -398,13 +398,13 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Logical and Mathematical Reasoning"],
-        "Text Sources": [],
+        "Text Sources": ["human curated"],
         "Model Generated": [],
         "Format": [
             "Zero-shot"
         ],
         "Human Annotation": "Yes",
-        "Derived from Datasets": [],
+        "Derived from Datasets": ["MATH23K"],
 	  "Bibtex": "@article{alghamdi2022armath,\ntitle={Armath: a dataset for solving arabic math word problems},\nauthor={Alghamdi, Reem,\nLiang, Zhenwen,\nZhang, Xiangliang},\nyear={2022},\npublisher={European Language Resources Association}\n}",
         "Creators": ["King Abdullah University of Science and Technology (KAUST)"],
         "Licenses": [
@@ -433,13 +433,13 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Open Question Answering"],
-        "Text Sources":[],
-        "Model Generated": [],
+        "Text Sources":["translated English datasets", "human curated"],
+        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
         "Format": [
             "Zero-shot"
         ],
         "Human Annotation": "No",
-        "Derived from Datasets": [],
+        "Derived from Datasets": ["PubMedQA", "MedMCQA", "MedQA", "HealthCareMagic", "iCliniq", "Medical Meadow", "UMLS", "LiveQA", "MedicationQA"],
 	  "Bibtex": "@misc{pieri2024bimedixbilingualmedicalmixture,\ntitle={BiMediX: Bilingual Medical Mixture of Experts LLM},\nauthor={Sara Pieri,\nSahal Shaji Mullappilly,\nFahad Shahbaz Khan,\nRao Muhammad Anwer,\nSalman Khan,\nTimothy Baldwin,\nHisham Cholakkal},\nyear={2024},\neprint={2402.13253},\narchivePrefix={arXiv},\nprimaryClass={cs.CL},\nurl={https://arxiv.org/abs/2402.13253}\n}",
         "Creators": ["MBZUAI"],
         "Licenses": [
@@ -468,7 +468,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Classification"],
-        "Text Sources": [],
+        "Text Sources": ["web crawls"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -494,7 +494,7 @@
         "Dataset Name": "arabic_rc",
         "Paper Title": "Arabic Reading Comprehension Benchmarks Created Semiautomatically",
         "Dataset URL": "https://huggingface.co/datasets/arbml/Arabic_RC_AQA",
-        "GitHub URL": "",
+        "GitHub URL": "https://github.com/MariamBiltawi/Arabic_RC_datasets",
         "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Papers with Code URL": "",
         "ArXiv URL": "",
@@ -503,7 +503,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Question Answering"],
-        "Text Sources": [],
+        "Text Sources": ["web crawls"],
         "Model Generated":[],
         "Format": [
             "Zero-shot"
@@ -538,7 +538,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Summarization"],
-        "Text Sources": [],
+        "Text Sources": ["101 Billion Arabic Words Dataset"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -573,7 +573,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Classification"],
-        "Text Sources": [],
+        "Text Sources": ["Arabic Poetry Dataset"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -608,7 +608,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Sentiment Analysis", "Classification"],
-        "Text Sources": [],
+        "Text Sources": ["web scrapped"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -643,7 +643,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Sentiment Analysis", "Classification"],
-        "Text Sources": [],
+        "Text Sources": ["web scrapped"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -678,7 +678,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Classification"],
-        "Text Sources": [],
+        "Text Sources": ["web scrapped"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -713,7 +713,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Sentiment Analysis", "Classification"],
-        "Text Sources": [],
+        "Text Sources": ["web scrapped"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -748,7 +748,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Sentiment Analysis", "Classification"],
-        "Text Sources": [],
+        "Text Sources": ["web scrapped"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
