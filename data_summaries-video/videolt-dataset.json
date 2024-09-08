@@ -1,5 +1,5 @@
 {
-    "VideoLT: Large-scale Long-tailed Video Recognition\n": {
+    "VideoLT: Large-scale Long-tailed Video Recognition": {
         "Unique Dataset Identifier": "videolt-dataset",
         "Collection": "videolt-dataset",
         "Collection URL": "https://arxiv.org/abs/2105.02668",
@@ -36,6 +36,9 @@
         "Taken Down": "False",
         "Video Sources": [
             "youtube"
+        ],
+        "Task Categories": [
+            "Video Classification"
         ],
         "Inferred Metadata": {
             "GitHub License": "",

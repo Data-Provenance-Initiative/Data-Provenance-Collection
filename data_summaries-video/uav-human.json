@@ -1,5 +1,5 @@
 {
-    "UAV-Human: A Large Benchmark for Human Behavior Understanding with Unmanned Aerial Vehicles\n": {
+    "UAV-Human: A Large Benchmark for Human Behavior Understanding with Unmanned Aerial Vehicles": {
         "Unique Dataset Identifier": "uav-human",
         "Collection": "uav-human",
         "Collection URL": "https://arxiv.org/abs/2104.00946",
@@ -34,6 +34,9 @@
         "Taken Down": "False",
         "Video Sources": [
             "human"
+        ],
+        "Task Categories": [
+            "Video Classification"
         ],
         "Inferred Metadata": {
             "GitHub License": "",

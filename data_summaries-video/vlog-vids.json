@@ -1,5 +1,5 @@
 {
-    "VLOG: From Lifestyle Vlogs to Everyday Interactions (CVPR 2018)\n": {
+    "VLOG: From Lifestyle Vlogs to Everyday Interactions (CVPR 2018)": {
         "Unique Dataset Identifier": "vlog-vids",
         "Collection": "vlog-vids",
         "Collection URL": "https://arxiv.org/abs/1712.02310",
@@ -32,6 +32,9 @@
         "Taken Down": "False",
         "Video Sources": [
             "youtube"
+        ],
+        "Task Categories": [
+            "Video Classification"
         ],
         "Inferred Metadata": {
             "GitHub License": "",

@@ -1,5 +1,5 @@
 {
-    "Multi-Moments in Time: Learning and Interpreting Models for Multi-Action Video Understanding\n": {
+    "Multi-Moments in Time: Learning and Interpreting Models for Multi-Action Video Understanding": {
         "Unique Dataset Identifier": "multi-moments-in-time-dataset",
         "Collection": "multi-moments-in-time-dataset",
         "Collection URL": "https://arxiv.org/pdf/1911.00232.pdf",
@@ -34,6 +34,9 @@
         "Video Sources": [
             "crowdsourced",
             "undisclosed web"
+        ],
+        "Task Categories": [
+            "Video Classification"
         ],
         "Inferred Metadata": {
             "GitHub License": "",

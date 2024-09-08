@@ -1,5 +1,5 @@
 {
-    "DiDeMo: Localizing Moments in Video with Temporal Language (EMNLP 2018)\n": {
+    "DiDeMo: Localizing Moments in Video with Temporal Language (EMNLP 2018)": {
         "Unique Dataset Identifier": "didemo",
         "Collection": "didemo",
         "Collection URL": "https://paperswithcode.com/dataset/didemo",
@@ -32,6 +32,9 @@
         "Taken Down": "False",
         "Video Sources": [
             "flickr"
+        ],
+        "Task Categories": [
+            "Temporal Action Localization"
         ],
         "Inferred Metadata": {
             "GitHub License": "",

@@ -1,5 +1,5 @@
 {
-    "20BN-SOMETHING-SOMETHING: The \"something something\" video database for learning and evaluating visual common sense\n": {
+    "20BN-SOMETHING-SOMETHING: The \"something something\" video database for learning and evaluating visual common sense": {
         "Unique Dataset Identifier": "20bn-something",
         "Collection": "20bn-something",
         "Collection URL": "https://arxiv.org/abs/1706.04261",
@@ -33,6 +33,9 @@
         "Video Sources": [
             "crowdsourced"
         ],
+        "Task Categories": [
+            "Video Classification"
+        ],
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (June 2024)": "",
@@ -52,6 +55,6 @@
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": "@Article{Goyal2017TheS,\n author = {Raghav Goyal and Samira Ebrahimi Kahou and Vincent Michalski and Joanna Materzynska and S. Westphal and Heuna Kim and V. Haenel and Ingo Fründ and P. Yianilos and Moritz Mueller-Freitag and F. Hoppe and Christian Thurau and Ingo Bax and R. Memisevic},\n booktitle = {IEEE International Conference on Computer Vision},\n journal = {2017 IEEE International Conference on Computer Vision (ICCV)},\n pages = {5843-5851},\n title = {The “Something Something” Video Database for Learning and Evaluating Visual Common Sense},\n year = {2017}\n}\n"
+        "Bibtex": "@Article{Goyal2017TheS,\n author = {Raghav Goyal and Samira Ebrahimi Kahou and Vincent Michalski and Joanna Materzynska and S. Westphal and Heuna Kim and V. Haenel and Ingo Fr\u00fcnd and P. Yianilos and Moritz Mueller-Freitag and F. Hoppe and Christian Thurau and Ingo Bax and R. Memisevic},\n booktitle = {IEEE International Conference on Computer Vision},\n journal = {2017 IEEE International Conference on Computer Vision (ICCV)},\n pages = {5843-5851},\n title = {The \u201cSomething Something\u201d Video Database for Learning and Evaluating Visual Common Sense},\n year = {2017}\n}\n"
     }
 }

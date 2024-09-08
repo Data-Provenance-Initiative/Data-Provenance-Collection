@@ -1,5 +1,5 @@
 {
-    "UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild\n": {
+    "UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild": {
         "Unique Dataset Identifier": "ucf101-dataset",
         "Collection": "ucf101-dataset",
         "Collection URL": "https://arxiv.org/abs/1212.0402",
@@ -33,6 +33,9 @@
         "Video Sources": [
             "youtube"
         ],
+        "Task Categories": [
+            "Video Classification"
+        ],
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (June 2024)": "",
@@ -46,7 +49,7 @@
             "HF Likes (June 2024)": "",
             "HF Yaml License": "",
             "PwC Date": "2012-12-03",
-            "PwC Description": "UCF101 dataset is an extension of UCF50 and consists of 13,320 video clips, which are classified into 101 categories. These 101 categories can be classified into 5 types (Body motion, Human-human interactions, Human-object interactions, Playing musical instruments and Sports). The total length of these video clips is over 27 hours. All the videos are collected from YouTube and have a fixed frame rate of 25 FPS with the resolution of 320 × 240.",
+            "PwC Description": "UCF101 dataset is an extension of UCF50 and consists of 13,320 video clips, which are classified into 101 categories. These 101 categories can be classified into 5 types (Body motion, Human-human interactions, Human-object interactions, Playing musical instruments and Sports). The total length of these video clips is over 27 hours. All the videos are collected from YouTube and have a fixed frame rate of 25 FPS with the resolution of 320 \u00d7 240.",
             "PwC License Name": "Unspecified",
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",

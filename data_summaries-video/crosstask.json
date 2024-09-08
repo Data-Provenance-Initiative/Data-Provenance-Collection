@@ -1,5 +1,5 @@
 {
-    "CrossTask: weakly supervised learning from instructional videos (CVPR 2019)\n": {
+    "CrossTask: weakly supervised learning from instructional videos (CVPR 2019)": {
         "Unique Dataset Identifier": "crosstask",
         "Collection": "crosstask",
         "Collection URL": "https://arxiv.org/abs/1903.08225",
@@ -22,10 +22,8 @@
             }
         ],
         "Creators": [
-            "Middle East Technical University",
-            "Ecole Normale Supérieure",
+            "Ecole Normale Sup\u00e9rieure",
             "Inria",
-            "PSL University - Université PSL",
             "CIIRC",
             "Czech Technical University",
             "University of Michigan"
@@ -41,6 +39,9 @@
         "Taken Down": "False",
         "Video Sources": [
             "youtube"
+        ],
+        "Task Categories": [
+            "Temporal Action Localization"
         ],
         "Inferred Metadata": {
             "GitHub License": "BSD 3-Clause License",

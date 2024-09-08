@@ -1,0 +1,44 @@
+{
+    "CinePile: A Long Video Question Answering Dataset and Benchmark": {
+        "Unique Dataset Identifier": "cinepile",
+        "Collection": "cinepile",
+        "Collection URL": "https://arxiv.org/pdf/2405.08813",
+        "Dataset Name": "CinePile: A Long Video Question Answering Dataset and Benchmark",
+        "Paper Title": "CinePile: A Long Video Question Answering Dataset and Benchmark",
+        "Paper URL": "https://arxiv.org/pdf/2405.08813",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/tomg-group-umd/cinepile",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/cinepile",
+        "ArXiv URL": "https://arxiv.org/pdf/2405.08813",
+        "Semantic Scholar Corpus ID": 269761335,
+        "Year Released": 2024,
+        "Text Sources": [
+            "youtube",
+            "movies"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://creativecommons.org/licenses/by/4.0/"
+            }
+        ],
+        "Creators": [
+            "University of Maryland",
+            "Weizmann Institute of Science"
+        ],
+        "Countries": [
+            "United States of America",
+            "Israel"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 417.6,
+        "Taken Down": "False",
+        "Video Sources": [
+            "youtube",
+            "movies"
+        ],
+        "Task Categories": [
+            "Video Q&A"
+        ]
+    }
+}

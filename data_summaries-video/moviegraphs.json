@@ -35,6 +35,11 @@
         "Video Sources": [
             "movies"
         ],
+        "Task Categories": [
+            "Misc (video retrieval",
+            "interaction understanding via ordering",
+            "reason prediction)"
+        ],
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (June 2024)": "",
@@ -54,6 +59,6 @@
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": "@Article{Vicol2017MovieGraphsTU,\n author = {Paul Vicol and Makarand Tapaswi and Lluís Castrejón and S. Fidler},\n booktitle = {2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n journal = {2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n pages = {8581-8590},\n title = {MovieGraphs: Towards Understanding Human-Centric Situations from Videos},\n year = {2017}\n}\n"
+        "Bibtex": "@Article{Vicol2017MovieGraphsTU,\n author = {Paul Vicol and Makarand Tapaswi and Llu\u00eds Castrej\u00f3n and S. Fidler},\n booktitle = {2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n journal = {2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n pages = {8581-8590},\n title = {MovieGraphs: Towards Understanding Human-Centric Situations from Videos},\n year = {2017}\n}\n"
     }
 }

@@ -33,6 +33,9 @@
         "Video Sources": [
             "facebook"
         ],
+        "Task Categories": [
+            "Video Classification"
+        ],
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (June 2024)": "",

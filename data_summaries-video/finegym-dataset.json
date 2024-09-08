@@ -1,5 +1,5 @@
 {
-    "FineGym: A Hierarchical Video Dataset for Fine-grained Action Understanding (CVPR 2020)\n": {
+    "FineGym: A Hierarchical Video Dataset for Fine-grained Action Understanding (CVPR 2020)": {
         "Unique Dataset Identifier": "finegym-dataset",
         "Collection": "finegym-dataset",
         "Collection URL": "https://arxiv.org/abs/2004.06704",
@@ -32,6 +32,9 @@
         "Taken Down": "False",
         "Video Sources": [
             "undisclosed web"
+        ],
+        "Task Categories": [
+            "Video Classification"
         ],
         "Inferred Metadata": {
             "GitHub License": "",

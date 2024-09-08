@@ -35,6 +35,9 @@
         "Video Sources": [
             "youtube"
         ],
+        "Task Categories": [
+            "Video Captioning"
+        ],
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (June 2024)": "",

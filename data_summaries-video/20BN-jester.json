@@ -1,5 +1,5 @@
 {
-    "20BN-jester: The Jester Dataset: A Large-Scale Video Dataset of Human Gestures (ICCVW 2019)\n": {
+    "20BN-jester: The Jester Dataset: A Large-Scale Video Dataset of Human Gestures (ICCVW 2019)": {
         "Unique Dataset Identifier": "20BN-jester",
         "Collection": "20BN-jester",
         "Collection URL": "https://openaccess.thecvf.com/content_ICCVW_2019/papers/HANDS/Materzynska_The_Jester_Dataset_A_Large-Scale_Video_Dataset_of_Human_Gestures_ICCVW_2019_paper.pdf",
@@ -32,6 +32,9 @@
         "Taken Down": "False",
         "Video Sources": [
             "crowdsourced"
+        ],
+        "Task Categories": [
+            "Video Classification"
         ],
         "Inferred Metadata": {
             "GitHub License": "",

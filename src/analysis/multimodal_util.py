@@ -950,6 +950,8 @@ def plot_license_terms_stacked_bar_chart_collections(
     save_dir=None, 
     plot_ppi=None,
     font_size=15,
+    return_license_table=True,
+    configure_chart=True
 ):
     if license_key == "License Type":
         hierarchy_fn = license_rank_fn
@@ -990,26 +992,30 @@ def plot_license_terms_stacked_bar_chart_collections(
         ),
         order=alt.Order("order:Q", sort="ascending")  # Ensures correct order of the bars
     )
-    
     chart = chart.properties(
+        title="License Use by Modality (Collections)",
         width=plot_width,
         height=plot_height
-    ).configure_axis(
-        labelFontSize=font_size,
-        titleFontSize=font_size,
-    ).configure_legend(
-        labelFontSize=font_size,
-        titleFontSize=font_size,
-        orient='bottom',
-        columns=4,
-        labelLimit=200,
-    )
+    )    
+    if configure_chart:
+        chart = chart.configure_axis(
+            labelFontSize=font_size,
+            titleFontSize=font_size,
+        ).configure_legend(
+            labelFontSize=font_size,
+            titleFontSize=font_size,
+            orient='bottom',
+            columns=4,
+            labelLimit=200,
+        )
 
     if save_dir:
         chart.save(os.path.join(save_dir, "license_use_by_modality_collections.png"), ppi=plot_ppi)
 
-    table = generate_multimodal_license_terms_latex(df)
-    return chart, table
+    if return_license_table:
+        table = generate_multimodal_license_terms_latex(df)
+        return chart, table
+    return chart
 
 
 
@@ -1421,16 +1427,16 @@ def tokens_calculation(df):
     return tokens_output
 
     def chart_creation(df: pd.DataFrame, max_count: int, x_field: str, labels: list, ratio: float, title: str, width: int, height: int, color: str):
-    chart1 = alt.Chart(df).mark_bar(color=color).encode(
-        x=alt.X(f'{x_field}:N', sort=labels, axis=alt.Axis(labelAngle=45)),
-        y=alt.Y('Number of datasets:Q', scale=alt.Scale(domain=[0, max_count * ratio]), axis=alt.Axis(grid=True, tickCount=5)),
-        tooltip=[x_field, 'Number of datasets']
-    ).properties(
-        title=title,
-        width=width,
-        height=height
-    )
-    return chart1
+        chart1 = alt.Chart(df).mark_bar(color=color).encode(
+            x=alt.X(f'{x_field}:N', sort=labels, axis=alt.Axis(labelAngle=45)),
+            y=alt.Y('Number of datasets:Q', scale=alt.Scale(domain=[0, max_count * ratio]), axis=alt.Axis(grid=True, tickCount=5)),
+            tooltip=[x_field, 'Number of datasets']
+        ).properties(
+            title=title,
+            width=width,
+            height=height
+        )
+        return chart1
 
 def combined_charts(*charts):
     # Concatenate the two charts horizontally with different scales for the y-axes

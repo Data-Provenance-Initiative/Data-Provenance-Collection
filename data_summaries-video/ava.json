@@ -33,6 +33,10 @@
         "Video Sources": [
             "youtube"
         ],
+        "Task Categories": [
+            "Temporal Localization",
+            "Video Classification"
+        ],
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (June 2024)": "",

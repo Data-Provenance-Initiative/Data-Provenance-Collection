@@ -34,6 +34,9 @@
         "Video Sources": [
             "human"
         ],
+        "Task Categories": [
+            "Temporal Action Detection"
+        ],
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (June 2024)": "",

@@ -33,6 +33,9 @@
         "Video Sources": [
             "human"
         ],
+        "Task Categories": [
+            "Video Classification"
+        ],
         "Inferred Metadata": {
             "GitHub License": "GNU General Public License v3.0",
             "GitHub Stars (June 2024)": 75,

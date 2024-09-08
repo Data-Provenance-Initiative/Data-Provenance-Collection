@@ -1,5 +1,5 @@
 {
-    "100DOH: Understanding Human Hands in Contact at Internet Scale (CVPR 2020)\n": {
+    "100DOH: Understanding Human Hands in Contact at Internet Scale (CVPR 2020)": {
         "Unique Dataset Identifier": "100doh",
         "Collection": "100doh",
         "Collection URL": "https://arxiv.org/abs/2006.06669",
@@ -33,6 +33,9 @@
         "Taken Down": "False",
         "Video Sources": [
             "youtube"
+        ],
+        "Task Categories": [
+            "Misc (Hand/Object Detection)"
         ],
         "Inferred Metadata": {
             "GitHub License": "MIT License",

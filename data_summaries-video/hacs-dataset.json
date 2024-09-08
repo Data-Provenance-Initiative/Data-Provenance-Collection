@@ -1,5 +1,5 @@
 {
-    "HACS: Human Action Clips and Segments Dataset for Recognition and Temporal Localization\n": {
+    "HACS: Human Action Clips and Segments Dataset for Recognition and Temporal Localization": {
         "Unique Dataset Identifier": "hacs-dataset",
         "Collection": "hacs-dataset",
         "Collection URL": "https://arxiv.org/abs/1712.09374",
@@ -34,6 +34,9 @@
         "Taken Down": "False",
         "Video Sources": [
             "youtube"
+        ],
+        "Task Categories": [
+            "Video Classification"
         ],
         "Inferred Metadata": {
             "GitHub License": "BSD 3-Clause License",

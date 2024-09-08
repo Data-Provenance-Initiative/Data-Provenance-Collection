@@ -1,5 +1,5 @@
 {
-    "LEMMA: A Multi-view Dataset for LEarning Multi-agent Multi-task Activities (ECCV 2020)\n": {
+    "LEMMA: A Multi-view Dataset for LEarning Multi-agent Multi-task Activities (ECCV 2020)": {
         "Unique Dataset Identifier": "lemma-dataset",
         "Collection": "lemma-dataset",
         "Collection URL": "https://arxiv.org/abs/2007.15781",
@@ -34,6 +34,9 @@
         "Video Sources": [
             "crowdsourced",
             "human"
+        ],
+        "Task Categories": [
+            "Video Classification"
         ],
         "Inferred Metadata": {
             "GitHub License": "",

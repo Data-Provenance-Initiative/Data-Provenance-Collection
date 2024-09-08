@@ -33,6 +33,9 @@
         "Video Sources": [
             "human"
         ],
+        "Task Categories": [
+            "Group Activity Recognition"
+        ],
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (June 2024)": "",

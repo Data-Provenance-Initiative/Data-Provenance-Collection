@@ -11,6 +11,6 @@ You can also omit the github token but it will not fill github fields.
 Use the --sch_api_key argument
 You can request an API key here https://www.semanticscholar.org/product/api#api-key-form
 ### Requirements:
-`pip install datasets ratelimit humanfriendly jsonlines funcy semanticscholar tenacity -q`
+`pip install datasets ratelimit humanfriendly jsonlines funcy semanticscholar tenacity bs4 -q`
 ### Colab:
 https://colab.research.google.com/drive/1btjynODfCIbuq0c1Wx4FveiM4lWTkWZ_?usp=sharing

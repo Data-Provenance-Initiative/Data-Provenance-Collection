@@ -1,5 +1,5 @@
 {
-    "How2: A Large-scale Dataset for Multimodal Language Understanding (NeurIPS 2018)\n": {
+    "How2: A Large-scale Dataset for Multimodal Language Understanding (NeurIPS 2018)": {
         "Unique Dataset Identifier": "how2",
         "Collection": "how2",
         "Collection URL": "https://arxiv.org/abs/1811.00347",
@@ -33,6 +33,9 @@
         "Video Sources": [
             "youtube"
         ],
+        "Task Categories": [
+            "Video Captioning"
+        ],
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (June 2024)": 150,
@@ -61,6 +64,6 @@
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": "@Article{Sanabria2018How2AL,\n author = {Ramon Sanabria and Ozan Caglayan and Shruti Palaskar and Desmond Elliott and Loïc Barrault and Lucia Specia and Florian Metze},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {How2: A Large-scale Dataset for Multimodal Language Understanding},\n volume = {abs/1811.00347},\n year = {2018}\n}\n"
+        "Bibtex": "@Article{Sanabria2018How2AL,\n author = {Ramon Sanabria and Ozan Caglayan and Shruti Palaskar and Desmond Elliott and Lo\u00efc Barrault and Lucia Specia and Florian Metze},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {How2: A Large-scale Dataset for Multimodal Language Understanding},\n volume = {abs/1811.00347},\n year = {2018}\n}\n"
     }
 }

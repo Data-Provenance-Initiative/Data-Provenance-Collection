@@ -37,6 +37,9 @@
         "Video Sources": [
             "movies"
         ],
+        "Task Categories": [
+            "Video Classification"
+        ],
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (June 2024)": 4,
@@ -56,6 +59,6 @@
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": "@Article{Alcazar2021APESAP,\n author = {Juan Leon Alcazar and Long Mai and Federico Perazzi and Joon-Young Lee and Pablo Arbeláez and Bernard Ghanem and Fabian Caba Heilbron},\n booktitle = {2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},\n journal = {2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},\n pages = {1720-1729},\n title = {APES: Audiovisual Person Search in Untrimmed Video},\n year = {2021}\n}\n"
+        "Bibtex": "@Article{Alcazar2021APESAP,\n author = {Juan Leon Alcazar and Long Mai and Federico Perazzi and Joon-Young Lee and Pablo Arbel\u00e1ez and Bernard Ghanem and Fabian Caba Heilbron},\n booktitle = {2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},\n journal = {2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},\n pages = {1720-1729},\n title = {APES: Audiovisual Person Search in Untrimmed Video},\n year = {2021}\n}\n"
     }
 }

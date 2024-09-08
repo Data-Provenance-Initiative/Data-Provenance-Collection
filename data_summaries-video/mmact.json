@@ -35,6 +35,11 @@
         "Video Sources": [
             "human"
         ],
+        "Task Categories": [
+            "Temporal Localization",
+            "Action Recognition",
+            "Spatial-Temporal Action Localization"
+        ],
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (June 2024)": "",

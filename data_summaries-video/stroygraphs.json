@@ -33,6 +33,9 @@
         "Video Sources": [
             "movies"
         ],
+        "Task Categories": [
+            "Misc"
+        ],
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (June 2024)": 20,
@@ -52,6 +55,6 @@
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": "@Article{Tapaswi2014StoryGraphsVC,\n author = {Makarand Tapaswi and M. Bäuml and R. Stiefelhagen},\n booktitle = {2014 IEEE Conference on Computer Vision and Pattern Recognition},\n journal = {2014 IEEE Conference on Computer Vision and Pattern Recognition},\n pages = {827-834},\n title = {StoryGraphs: Visualizing Character Interactions as a Timeline},\n year = {2014}\n}\n"
+        "Bibtex": "@Article{Tapaswi2014StoryGraphsVC,\n author = {Makarand Tapaswi and M. B\u00e4uml and R. Stiefelhagen},\n booktitle = {2014 IEEE Conference on Computer Vision and Pattern Recognition},\n journal = {2014 IEEE Conference on Computer Vision and Pattern Recognition},\n pages = {827-834},\n title = {StoryGraphs: Visualizing Character Interactions as a Timeline},\n year = {2014}\n}\n"
     }
 }

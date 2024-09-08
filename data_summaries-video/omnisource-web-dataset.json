@@ -37,6 +37,9 @@
             "instagram",
             "youtube"
         ],
+        "Task Categories": [
+            "Video Classification"
+        ],
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",
             "GitHub Stars (June 2024)": 1856,

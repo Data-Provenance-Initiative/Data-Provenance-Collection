@@ -37,6 +37,9 @@
         "Video Sources": [
             "human"
         ],
+        "Task Categories": [
+            "Video Captioning"
+        ],
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (June 2024)": 0,

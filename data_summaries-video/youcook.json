@@ -1,5 +1,5 @@
 {
-    "YouCook: A Thousand Frames in Just a Few Words: Lingual Description of Videos through Latent Topics and Sparse Object Stitching (CVPR 2013)\n": {
+    "YouCook: A Thousand Frames in Just a Few Words: Lingual Description of Videos through Latent Topics and Sparse Object Stitching (CVPR 2013)": {
         "Unique Dataset Identifier": "youcook",
         "Collection": "youcook",
         "Collection URL": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Das_A_Thousand_Frames_2013_CVPR_paper.pdf",
@@ -32,6 +32,9 @@
         "Taken Down": "False",
         "Video Sources": [
             "youtube"
+        ],
+        "Task Categories": [
+            "Video Captioning"
         ],
         "Inferred Metadata": {
             "GitHub License": "",

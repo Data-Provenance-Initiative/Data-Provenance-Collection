@@ -1,5 +1,5 @@
 {
-    "Mimetics: Towards Understanding Human Actions Out of Context\n": {
+    "Mimetics: Towards Understanding Human Actions Out of Context": {
         "Unique Dataset Identifier": "mimetics-dataset",
         "Collection": "mimetics-dataset",
         "Collection URL": "https://arxiv.org/abs/1912.07249",
@@ -33,6 +33,9 @@
         "Video Sources": [
             "youtube"
         ],
+        "Task Categories": [
+            "Video Classification"
+        ],
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (June 2024)": "",
@@ -52,6 +55,6 @@
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": "@Article{Weinzaepfel2019MimeticsTU,\n author = {Philippe Weinzaepfel and Grégory Rogez},\n booktitle = {International Journal of Computer Vision},\n journal = {International Journal of Computer Vision},\n pages = {1675 - 1690},\n title = {Mimetics: Towards Understanding Human Actions Out of Context},\n volume = {129},\n year = {2019}\n}\n"
+        "Bibtex": "@Article{Weinzaepfel2019MimeticsTU,\n author = {Philippe Weinzaepfel and Gr\u00e9gory Rogez},\n booktitle = {International Journal of Computer Vision},\n journal = {International Journal of Computer Vision},\n pages = {1675 - 1690},\n title = {Mimetics: Towards Understanding Human Actions Out of Context},\n volume = {129},\n year = {2019}\n}\n"
     }
 }

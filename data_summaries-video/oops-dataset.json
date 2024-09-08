@@ -33,6 +33,9 @@
         "Video Sources": [
             "youtube"
         ],
+        "Task Categories": [
+            "Video Classification"
+        ],
         "Inferred Metadata": {
             "GitHub License": "MIT License",
             "GitHub Stars (June 2024)": 77,

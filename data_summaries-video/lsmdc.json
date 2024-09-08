@@ -25,8 +25,8 @@
             "UC Berkeley",
             "Disney Research",
             "Universite de Montreal",
-            "Polytechnique Montréal",
-            "Université de Sherbrooke",
+            "Polytechnique Montr\u00e9al",
+            "Universit\u00e9 de Sherbrooke",
             "Twitter"
         ],
         "Countries": [
@@ -38,6 +38,11 @@
         "Taken Down": "False",
         "Video Sources": [
             "movies"
+        ],
+        "Task Categories": [
+            "Video Summarization",
+            "Misc",
+            "Video Classification"
         ],
         "Inferred Metadata": {
             "GitHub License": "",

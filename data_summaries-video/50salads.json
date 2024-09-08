@@ -33,6 +33,10 @@
         "Video Sources": [
             "human"
         ],
+        "Task Categories": [
+            "Action Segmentation",
+            "Action Localization"
+        ],
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (June 2024)": "",
@@ -46,7 +50,7 @@
             "HF Likes (June 2024)": "",
             "HF Yaml License": "",
             "PwC Date": "2013-09-08",
-            "PwC Description": "Activity recognition research has shifted focus from distinguishing full-body motion patterns to recognizing complex interactions of multiple entities. Manipulative gestures – characterized by interactions between hands, tools, and manipulable objects – frequently occur in food preparation, manufacturing, and assembly tasks, and have a variety of applications including situational support, automated supervision, and skill assessment. With the aim to stimulate research on recognizing manipulative gestures we introduce the 50 Salads dataset. It captures 25 people preparing 2 mixed salads each and contains over 4h of annotated accelerometer and RGB-D video data. Including detailed annotations, multiple sensor types, and two sequences per participant, the 50 Salads dataset may be used for research in areas such as activity recognition, activity spotting, sequence analysis, progress tracking, sensor fusion, transfer learning, and user-adaptation.\n\nThe dataset includes\n\nRGB video data 640×480 pixels at 30 Hz\nDepth maps 640×480 pixels at 30 Hz\n3-axis accelerometer data at 50 Hz of devices attached to a knife, a mixing spoon, a small spoon, a peeler, a glass, an oil bottle, and a pepper dispenser.\nSynchronization parameters for temporal alignment of video and accelerometer data\nAnnotations as temporal intervals of pre- core- and post-phases of activities corresponding to steps in a recipe",
+            "PwC Description": "Activity recognition research has shifted focus from distinguishing full-body motion patterns to recognizing complex interactions of multiple entities. Manipulative gestures \u2013 characterized by interactions between hands, tools, and manipulable objects \u2013 frequently occur in food preparation, manufacturing, and assembly tasks, and have a variety of applications including situational support, automated supervision, and skill assessment. With the aim to stimulate research on recognizing manipulative gestures we introduce the 50 Salads dataset. It captures 25 people preparing 2 mixed salads each and contains over 4h of annotated accelerometer and RGB-D video data. Including detailed annotations, multiple sensor types, and two sequences per participant, the 50 Salads dataset may be used for research in areas such as activity recognition, activity spotting, sequence analysis, progress tracking, sensor fusion, transfer learning, and user-adaptation.\n\nThe dataset includes\n\nRGB video data 640\u00d7480 pixels at 30 Hz\nDepth maps 640\u00d7480 pixels at 30 Hz\n3-axis accelerometer data at 50 Hz of devices attached to a knife, a mixing spoon, a small spoon, a peeler, a glass, an oil bottle, and a pepper dispenser.\nSynchronization parameters for temporal alignment of video and accelerometer data\nAnnotations as temporal intervals of pre- core- and post-phases of activities corresponding to steps in a recipe",
             "PwC License Name": "CC BY-NC-SA 4.0",
             "PwC License URL": null,
             "S2 Citation Count (June 2024)": "",

@@ -1,5 +1,5 @@
 {
-    "ActivityNet ": {
+    "ActivityNet": {
         "Unique Dataset Identifier": "activitynet",
         "Collection": "activitynet",
         "Collection URL": "https://ieeexplore.ieee.org/document/7298698",
@@ -34,6 +34,9 @@
         "Taken Down": "False",
         "Video Sources": [
             "undisclosed web"
+        ],
+        "Task Categories": [
+            "Video Captioning"
         ],
         "Inferred Metadata": {
             "GitHub License": "",

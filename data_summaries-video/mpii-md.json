@@ -1,5 +1,5 @@
 {
-    "MPII-MD: A Dataset for Movie Description\n": {
+    "MPII-MD: A Dataset for Movie Description": {
         "Unique Dataset Identifier": "mpii-md",
         "Collection": "mpii-md",
         "Collection URL": "https://arxiv.org/pdf/1501.02530.pdf",
@@ -32,6 +32,9 @@
         "Taken Down": "False",
         "Video Sources": [
             "movies"
+        ],
+        "Task Categories": [
+            "Video Captioning"
         ],
         "Inferred Metadata": {
             "GitHub License": "",

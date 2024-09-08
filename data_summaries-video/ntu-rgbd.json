@@ -1,5 +1,5 @@
 {
-    "NTU RGB+D: A Large Scale Dataset for 3D Human Activity Analysis (CVPR 2016, TPAMI 2019)\n": {
+    "NTU RGB+D: A Large Scale Dataset for 3D Human Activity Analysis (CVPR 2016, TPAMI 2019)": {
         "Unique Dataset Identifier": "ntu-rgbd",
         "Collection": "ntu-rgbd",
         "Collection URL": "https://arxiv.org/pdf/1604.02808.pdf",
@@ -32,6 +32,9 @@
         "Taken Down": "False",
         "Video Sources": [
             "crowdsourced"
+        ],
+        "Task Categories": [
+            "Video Classification"
         ],
         "Inferred Metadata": {
             "GitHub License": "",

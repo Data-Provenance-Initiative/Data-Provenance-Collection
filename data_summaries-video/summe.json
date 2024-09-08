@@ -22,7 +22,7 @@
             }
         ],
         "Creators": [
-            "ETH Zürich",
+            "ETH Z\u00fcrich",
             "KU Leuven",
             "upicto GmbH"
         ],
@@ -35,6 +35,9 @@
         "Taken Down": "False",
         "Video Sources": [
             "crowdsourced"
+        ],
+        "Task Categories": [
+            "Video Summarization"
         ],
         "Inferred Metadata": {
             "GitHub License": "",

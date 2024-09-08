@@ -1,5 +1,5 @@
 {
-    "Toyota Smarthome: Real-World Activities of Daily Living (ICCV 2019)\n": {
+    "Toyota Smarthome: Real-World Activities of Daily Living (ICCV 2019)": {
         "Unique Dataset Identifier": "toyota-smarthome",
         "Collection": "toyota-smarthome",
         "Collection URL": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Das_Toyota_Smarthome_Real-World_Activities_of_Daily_Living_ICCV_2019_paper.pdf",
@@ -33,6 +33,9 @@
         "Video Sources": [
             "human"
         ],
+        "Task Categories": [
+            "Video Classification"
+        ],
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (June 2024)": "",
@@ -52,6 +55,6 @@
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": "@Article{Das2019ToyotaSR,\n author = {Srijan Das and Rui Dai and Michal Koperski and Luca Minciullo and L. Garattoni and F. Brémond and G. Francesca},\n booktitle = {IEEE International Conference on Computer Vision},\n journal = {2019 IEEE/CVF International Conference on Computer Vision (ICCV)},\n pages = {833-842},\n title = {Toyota Smarthome: Real-World Activities of Daily Living},\n year = {2019}\n}\n"
+        "Bibtex": "@Article{Das2019ToyotaSR,\n author = {Srijan Das and Rui Dai and Michal Koperski and Luca Minciullo and L. Garattoni and F. Br\u00e9mond and G. Francesca},\n booktitle = {IEEE International Conference on Computer Vision},\n journal = {2019 IEEE/CVF International Conference on Computer Vision (ICCV)},\n pages = {833-842},\n title = {Toyota Smarthome: Real-World Activities of Daily Living},\n year = {2019}\n}\n"
     }
 }

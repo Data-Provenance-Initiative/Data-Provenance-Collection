@@ -1,5 +1,5 @@
 {
-    "HVU: Large Scale Holistic Video Understanding (ECCV 2020)\n": {
+    "HVU: Large Scale Holistic Video Understanding (ECCV 2020)": {
         "Unique Dataset Identifier": "hyu-vids",
         "Collection": "hyu-vids",
         "Collection URL": "https://arxiv.org/abs/1904.11451",
@@ -23,7 +23,7 @@
         ],
         "Creators": [
             "Karlsruhe Institute of Technology",
-            "ETH Zürich",
+            "ETH Z\u00fcrich",
             "KU Leuven",
             "University of Bonn",
             "Sensifai"
@@ -38,6 +38,9 @@
         "Taken Down": "False",
         "Video Sources": [
             "youtube"
+        ],
+        "Task Categories": [
+            "Video Classification"
         ],
         "Inferred Metadata": {
             "GitHub License": "",

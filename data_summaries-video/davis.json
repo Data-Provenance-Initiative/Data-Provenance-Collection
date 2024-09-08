@@ -22,7 +22,7 @@
             }
         ],
         "Creators": [
-            "ETH Zürich",
+            "ETH Z\u00fcrich",
             "Disney Research"
         ],
         "Countries": [
@@ -33,6 +33,10 @@
         "Taken Down": "False",
         "Video Sources": [
             "undisclosed web"
+        ],
+        "Task Categories": [
+            "Video Segmentation",
+            "Video Classification"
         ],
         "Inferred Metadata": {
             "GitHub License": "",
@@ -53,6 +57,6 @@
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": "@Article{Pont-Tuset2017The2D,\n author = {J. Pont-Tuset and Federico Perazzi and Sergi Caelles and Pablo Arbeláez and A. Sorkine-Hornung and L. Gool},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {The 2017 DAVIS Challenge on Video Object Segmentation},\n volume = {abs/1704.00675},\n year = {2017}\n}\n"
+        "Bibtex": "@Article{Pont-Tuset2017The2D,\n author = {J. Pont-Tuset and Federico Perazzi and Sergi Caelles and Pablo Arbel\u00e1ez and A. Sorkine-Hornung and L. Gool},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {The 2017 DAVIS Challenge on Video Object Segmentation},\n volume = {abs/1704.00675},\n year = {2017}\n}\n"
     }
 }

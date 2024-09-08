@@ -35,6 +35,9 @@
         "Video Sources": [
             "movies"
         ],
+        "Task Categories": [
+            "Misc (Scene Segmentation)"
+        ],
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (June 2024)": 213,

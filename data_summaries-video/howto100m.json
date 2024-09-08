@@ -22,7 +22,7 @@
             }
         ],
         "Creators": [
-            "Ecole Normale Supérieure",
+            "Ecole Normale Sup\u00e9rieure",
             "Inria",
             "CIIRC",
             "Czech Technical University"
@@ -36,6 +36,9 @@
         "Taken Down": "False",
         "Video Sources": [
             "youtube"
+        ],
+        "Task Categories": [
+            "Video Captioning"
         ],
         "Inferred Metadata": {
             "GitHub License": "Apache License 2.0",

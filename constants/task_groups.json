@@ -144,6 +144,8 @@
         "Trick Question",
         "Trivia",
         "Vegetarian Recipe Modification Question Answering",
+        "Video Q&A",
+        "Video Question Answering",
         "Visual Reasoning Question Answering",
         "Webpage Content Retrieval"
     ],
@@ -154,7 +156,8 @@
         "Explanation",
         "Explanation Generation",
         "Explanation Question Answering",
-        "Metaphor Explanation Question Answering"
+        "Metaphor Explanation Question Answering", 
+        "Video Captioning"
     ],
     "Summarization": [
         "BioMedical Text Summarization",
@@ -166,7 +169,8 @@
         "Summarization",
         "Summarization of US Congressional and California State Bills",
         "Systematic Review Summarization",
-        "Video Diary Summarization"
+        "Video Diary Summarization", 
+        "Video Summarization"
     ],
     "Code": [
         "C++ Program Synthesis",
@@ -431,5 +435,24 @@
         "Step-by-Step Instruction Generation",
         "Title Suggestion for Multiple Connected Questions",
         "Website Mirroring with Local Browsing"
+    ], 
+    "Vision Based Tasks": [
+        "Action Localization",
+        "Action Recognition",
+        "Action Segmentation",
+        "Group Activity Recognition",
+        "Pose Estimation",
+        "Spatial-Temporal Action Localization",
+        "Temporal Action Detection",
+        "Temporal Action Localization",
+        "Temporal Action Segmentation",
+        "Temporal Localization",
+        "Video Captioning",
+        "Video Classification",
+        "Visual Interaction Prediction",
+        "Vision to Proprioception Prediction)",
+        "Video Object Detection",
+        "Video Segmentation",
+        "Video Summarization" 
     ]
 }

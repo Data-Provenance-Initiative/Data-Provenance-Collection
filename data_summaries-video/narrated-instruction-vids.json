@@ -23,7 +23,7 @@
         ],
         "Creators": [
             "CNRS",
-            "Ecole Normale Supérieure",
+            "Ecole Normale Sup\u00e9rieure",
             "Inria",
             "International Institute of Information Technology - Hyderabad"
         ],
@@ -36,6 +36,9 @@
         "Taken Down": "False",
         "Video Sources": [
             "youtube"
+        ],
+        "Task Categories": [
+            "Video Captioning"
         ],
         "Inferred Metadata": {
             "GitHub License": "MIT License",

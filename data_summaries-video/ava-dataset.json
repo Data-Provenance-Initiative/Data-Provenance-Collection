@@ -13,8 +13,7 @@
         "Semantic Scholar Corpus ID": 216211909,
         "Year Released": 2019,
         "Text Sources": [
-            "youtube",
-            "movies"
+            "Not Prohibited"
         ],
         "Licenses": [
             {
@@ -32,8 +31,10 @@
         "Video Hours": 38.5,
         "Taken Down": "False",
         "Video Sources": [
-            "youtube",
-            "movies"
+            "Not Prohibited"
+        ],
+        "Task Categories": [
+            "Video Classification"
         ],
         "Inferred Metadata": {
             "GitHub License": "",

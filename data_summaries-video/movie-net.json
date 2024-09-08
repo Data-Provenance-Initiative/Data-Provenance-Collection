@@ -33,6 +33,10 @@
         "Video Sources": [
             "movies"
         ],
+        "Task Categories": [
+            "Video Summarization",
+            "Misc"
+        ],
         "Inferred Metadata": {
             "GitHub License": "",
             "GitHub Stars (June 2024)": 256,

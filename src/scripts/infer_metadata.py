@@ -38,20 +38,6 @@ import functools
 from semanticscholar import SemanticScholar
 from tenacity import Retrying, RetryError, stop_after_attempt
 
-
-def parse_args():
-    parser = argparse.ArgumentParser(description='Process some parameters.')
-    parser.add_argument('--collections', nargs='*', default=[], help='List of items for collection')
-    parser.add_argument('--sch_api_key', type=str, required=False, help='API key for the scheduler')
-    parser.add_argument('--github_token', type=str, required=False, help='Token for GitHub access')
-    parser.add_argument('--f', type=str, required=False)
-    
-    args = parser.parse_args()
-    return edict(vars(args))
-
-args = parse_args()
-
-
 class edict(dict):
     __getattr__ = dict.get
     __setattr__ = dict.__setitem__
@@ -64,6 +50,18 @@ class edict(dict):
 
     def __setstate__(self, state):
         self.update(state)
+
+def parse_args():
+    parser = argparse.ArgumentParser(description='Process some parameters.')
+    parser.add_argument('--collections', nargs='*', default=[], help='List of items for collection')
+    parser.add_argument('--sch_api_key', type=str, required=False, help='API key for the scheduler')
+    parser.add_argument('--github_token', type=str, required=False, help='Token for GitHub access')
+    parser.add_argument('--f', type=str, required=False)
+    
+    args = parser.parse_args()
+    return edict(vars(args))
+
+args = parse_args()
 
 flatten = lambda x: list(fc.flatten(x))
 cache = functools.cache

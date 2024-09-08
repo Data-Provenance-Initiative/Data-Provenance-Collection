@@ -35,6 +35,9 @@
         "Video Sources": [
             "tumblr"
         ],
+        "Task Categories": [
+            "Video Captioning"
+        ],
         "Inferred Metadata": {
             "GitHub License": "BSD 3-Clause License",
             "GitHub Stars (June 2024)": 111,
