@@ -84,6 +84,18 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 471017,
+            "Mean Inputs Length": 529.5679,
+            "Mean Targets Length": 1066.7806,
+            "Max Inputs Length": 24962,
+            "Max Targets Length": 50685,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 240,
+            "Mean Dialog Turns": 4.8279
         }
     },
     "wildchat-gpt_4": {
@@ -171,6 +183,18 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 58038,
+            "Mean Inputs Length": 1177.3812,
+            "Mean Targets Length": 1953.162,
+            "Max Inputs Length": 50006,
+            "Max Targets Length": 27128,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 62,
+            "Mean Dialog Turns": 3.6139
         }
     }
 }
