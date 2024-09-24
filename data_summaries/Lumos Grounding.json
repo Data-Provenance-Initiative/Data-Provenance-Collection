@@ -92,6 +92,18 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 19080,
+            "Mean Inputs Length": 473.782,
+            "Mean Targets Length": 177.3153,
+            "Max Inputs Length": 1269,
+            "Max Targets Length": 478,
+            "Min Inputs Length": 158,
+            "Min Targets Length": 8,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 12,
+            "Mean Dialog Turns": 5.5091
         }
     },
     "lumos-grounding-maths": {
@@ -190,6 +202,18 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 19471,
+            "Mean Inputs Length": 339.411,
+            "Mean Targets Length": 34.9476,
+            "Max Inputs Length": 2154,
+            "Max Targets Length": 950,
+            "Min Inputs Length": 31,
+            "Min Targets Length": 7,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 28,
+            "Mean Dialog Turns": 7.5325
         }
     },
     "lumos-grounding-web_agent": {
@@ -282,6 +306,18 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1007,
+            "Mean Inputs Length": 155.4307,
+            "Mean Targets Length": 65.0252,
+            "Max Inputs Length": 869,
+            "Max Targets Length": 486,
+            "Min Inputs Length": 47,
+            "Min Targets Length": 33,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 42,
+            "Mean Dialog Turns": 14.5025
         }
     },
     "lumos-grounding-multimodal": {
@@ -369,6 +405,18 @@
             "PwC License URL": "",
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 15941,
+            "Mean Inputs Length": 422.6551,
+            "Mean Targets Length": 123.2382,
+            "Max Inputs Length": 2467,
+            "Max Targets Length": 327,
+            "Min Inputs Length": 53,
+            "Min Targets Length": 41,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 14,
+            "Mean Dialog Turns": 5.8325
         }
     }
 }

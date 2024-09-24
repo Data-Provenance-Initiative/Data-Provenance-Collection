@@ -67,7 +67,19 @@
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 2605,
+            "Mean Inputs Length": 885.5754,
+            "Mean Targets Length": 1567.1939,
+            "Max Inputs Length": 7949,
+            "Max Targets Length": 7905,
+            "Min Inputs Length": 29,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "op-arb": {
         "Unique Dataset Identifier": "op-arb",
@@ -148,7 +160,19 @@
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": "@Article{Sawada2023ARBAR,\n author = {Tomohiro Sawada and Daniel Paleka and Alexander Havrilla and Pranav Tadepalli and Paula Vidas and Alexander Kranias and John J. Nay and Kshitij Gupta and Aran Komatsuzaki},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {ARB: Advanced Reasoning Benchmark for Large Language Models},\n volume = {abs/2307.13692},\n year = {2023}\n}\n"
+        "Bibtex": "@Article{Sawada2023ARBAR,\n author = {Tomohiro Sawada and Daniel Paleka and Alexander Havrilla and Pranav Tadepalli and Paula Vidas and Alexander Kranias and John J. Nay and Kshitij Gupta and Aran Komatsuzaki},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {ARB: Advanced Reasoning Benchmark for Large Language Models},\n volume = {abs/2307.13692},\n year = {2023}\n}\n",
+        "Text Metrics": {
+            "Num Dialogs": 713,
+            "Mean Inputs Length": 1153.8485,
+            "Mean Targets Length": 202.9649,
+            "Max Inputs Length": 3969,
+            "Max Targets Length": 3483,
+            "Min Inputs Length": 53,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "op-ne_leetcode": {
         "Unique Dataset Identifier": "op-ne_leetcode",
@@ -218,7 +242,19 @@
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 1100,
+            "Mean Inputs Length": 1323.9527,
+            "Mean Targets Length": 378.1355,
+            "Max Inputs Length": 5692,
+            "Max Targets Length": 1316,
+            "Min Inputs Length": 256,
+            "Min Targets Length": 39,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "op-openassistant_guanaco": {
         "Unique Dataset Identifier": "op-openassistant_guanaco",
@@ -321,7 +357,19 @@
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": "@Article{Dettmers2023QLoRAEF,\n author = {Tim Dettmers and Artidoro Pagnoni and Ari Holtzman and Luke Zettlemoyer},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {QLoRA: Efficient Finetuning of Quantized LLMs},\n volume = {abs/2305.14314},\n year = {2023}\n}\n"
+        "Bibtex": "@Article{Dettmers2023QLoRAEF,\n author = {Tim Dettmers and Artidoro Pagnoni and Ari Holtzman and Luke Zettlemoyer},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {QLoRA: Efficient Finetuning of Quantized LLMs},\n volume = {abs/2305.14314},\n year = {2023}\n}\n",
+        "Text Metrics": {
+            "Num Dialogs": 797,
+            "Mean Inputs Length": 274.3802,
+            "Mean Targets Length": 1822.6524,
+            "Max Inputs Length": 9785,
+            "Max Targets Length": 11174,
+            "Min Inputs Length": 10,
+            "Min Targets Length": 36,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "op-prm800k": {
         "Unique Dataset Identifier": "op-prm800k",
@@ -400,7 +448,19 @@
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": "@Article{Lightman2023LetsVS,\n author = {Hunter Lightman and V. Kosaraju and Yura Burda and Harrison Edwards and Bowen Baker and Teddy Lee and J. Leike and John Schulman and I. Sutskever and Karl Cobbe},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Let's Verify Step by Step},\n volume = {abs/2305.20050},\n year = {2023}\n}\n"
+        "Bibtex": "@Article{Lightman2023LetsVS,\n author = {Hunter Lightman and V. Kosaraju and Yura Burda and Harrison Edwards and Bowen Baker and Teddy Lee and J. Leike and John Schulman and I. Sutskever and Karl Cobbe},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Let's Verify Step by Step},\n volume = {abs/2305.20050},\n year = {2023}\n}\n",
+        "Text Metrics": {
+            "Num Dialogs": 12298,
+            "Mean Inputs Length": 203.6239,
+            "Mean Targets Length": 729.2572,
+            "Max Inputs Length": 4309,
+            "Max Targets Length": 6759,
+            "Min Inputs Length": 16,
+            "Min Targets Length": 33,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "op-reclor": {
         "Unique Dataset Identifier": "op-reclor",
@@ -475,7 +535,19 @@
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": "@Article{Yu2020ReClorAR,\n author = {Weihao Yu and Zihang Jiang and Yanfei Dong and Jiashi Feng},\n booktitle = {International Conference on Learning Representations},\n journal = {ArXiv},\n title = {ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning},\n volume = {abs/2002.04326},\n year = {2020}\n}\n"
+        "Bibtex": "@Article{Yu2020ReClorAR,\n author = {Weihao Yu and Zihang Jiang and Yanfei Dong and Jiashi Feng},\n booktitle = {International Conference on Learning Representations},\n journal = {ArXiv},\n title = {ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning},\n volume = {abs/2002.04326},\n year = {2020}\n}\n",
+        "Text Metrics": {
+            "Num Dialogs": 4530,
+            "Mean Inputs Length": 1021.8168,
+            "Mean Targets Length": 1.0,
+            "Max Inputs Length": 2085,
+            "Max Targets Length": 1,
+            "Min Inputs Length": 386,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "op-scibench": {
         "Unique Dataset Identifier": "op-scibench",
@@ -549,7 +621,19 @@
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": "@Article{Wang2023SciBenchEC,\n author = {Xiaoxuan Wang and Ziniu Hu and Pan Lu and Yanqiao Zhu and Jieyu Zhang and Satyen Subramaniam and Arjun R. Loomba and Shichang Zhang and Yizhou Sun and Wei Wang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models},\n volume = {abs/2307.10635},\n year = {2023}\n}\n"
+        "Bibtex": "@Article{Wang2023SciBenchEC,\n author = {Xiaoxuan Wang and Ziniu Hu and Pan Lu and Yanqiao Zhu and Jieyu Zhang and Satyen Subramaniam and Arjun R. Loomba and Shichang Zhang and Yizhou Sun and Wei Wang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models},\n volume = {abs/2307.10635},\n year = {2023}\n}\n",
+        "Text Metrics": {
+            "Num Dialogs": 616,
+            "Mean Inputs Length": 294.1899,
+            "Mean Targets Length": 153.763,
+            "Max Inputs Length": 1275,
+            "Max Targets Length": 3316,
+            "Min Inputs Length": 39,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "op-scienceqa": {
         "Unique Dataset Identifier": "op-scienceqa",
@@ -618,7 +702,19 @@
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": "@Article{Lu2022LearnTE,\n author = {Pan Lu and Swaroop Mishra and Tony Xia and Liang Qiu and Kai-Wei Chang and Song-Chun Zhu and Oyvind Tafjord and Peter Clark and A. Kalyan},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering},\n volume = {abs/2209.09513},\n year = {2022}\n}\n"
+        "Bibtex": "@Article{Lu2022LearnTE,\n author = {Pan Lu and Swaroop Mishra and Tony Xia and Liang Qiu and Kai-Wei Chang and Song-Chun Zhu and Oyvind Tafjord and Peter Clark and A. Kalyan},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering},\n volume = {abs/2209.09513},\n year = {2022}\n}\n",
+        "Text Metrics": {
+            "Num Dialogs": 1317,
+            "Mean Inputs Length": 241.0569,
+            "Mean Targets Length": 416.202,
+            "Max Inputs Length": 2211,
+            "Max Targets Length": 1359,
+            "Min Inputs Length": 36,
+            "Min Targets Length": 181,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "op-theoremqa": {
         "Unique Dataset Identifier": "op-theoremqa",
@@ -692,7 +788,19 @@
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": "@Article{Chen2023TheoremQAAT,\n author = {Wenhu Chen and Ming Yin and Max W.F. Ku and Yixin Wan and Xueguang Ma and Jianyu Xu and Tony Xia and Xinyi Wang and Pan Lu},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {TheoremQA: A Theorem-driven Question Answering dataset},\n volume = {abs/2305.12524},\n year = {2023}\n}\n"
+        "Bibtex": "@Article{Chen2023TheoremQAAT,\n author = {Wenhu Chen and Ming Yin and Max W.F. Ku and Yixin Wan and Xueguang Ma and Jianyu Xu and Tony Xia and Xinyi Wang and Pan Lu},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {TheoremQA: A Theorem-driven Question Answering dataset},\n volume = {abs/2305.12524},\n year = {2023}\n}\n",
+        "Text Metrics": {
+            "Num Dialogs": 564,
+            "Mean Inputs Length": 1913.9628,
+            "Mean Targets Length": 4.7287,
+            "Max Inputs Length": 3579,
+            "Max Targets Length": 39,
+            "Min Inputs Length": 860,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "op-tigerbot_leetcode": {
         "Unique Dataset Identifier": "op-tigerbot_leetcode",
@@ -759,6 +867,18 @@
             "S2 Citation Count (June 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 386,
+            "Mean Inputs Length": 1015.6554,
+            "Mean Targets Length": 1200.0907,
+            "Max Inputs Length": 3326,
+            "Max Targets Length": 2765,
+            "Min Inputs Length": 230,
+            "Min Targets Length": 451,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     }
 }
