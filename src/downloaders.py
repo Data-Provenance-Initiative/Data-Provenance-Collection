@@ -289,6 +289,14 @@ def download_glaive_code_assistant(accepted_filter_ids):
     return huggingface_download('glaiveai/glaive-code-assistant', split='train')
 
 
+def download_glaive_code_assistant_v2(accepted_filter_ids):
+    return huggingface_download("glaiveai/glaive-code-assistant-v2", split='train')
+
+
+def download_glaive_code_assistant_v3(accepted_filter_ids):
+    return huggingface_download("glaiveai/glaive-code-assistant-v3", split='train')
+
+
 def download_thai_gen_ai_alpaca(accepted_filter_ids):
     return huggingface_download("Thaweewat/alpaca-cleaned-52k-th", split="train")
 
