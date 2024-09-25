@@ -1,0 +1,53 @@
+{
+    "glaive-code-assistant-v3": {
+        "Unique Dataset Identifier": "glaive-code-assistant-v3",
+        "Dataset Name": "glaive-code-assistant-v3",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/glaiveai/glaive-code-assistant-v3",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/glaiveai/glaive-code-assistant-v3",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "Glaive Code Assistant v3",
+        "Collection URL": "https://huggingface.co/datasets/glaiveai/glaive-code-assistant-v3",
+        "Languages": [
+            "English",
+            "Code"
+        ],
+        "Task Categories": [
+            "Code",
+            "Coding",
+            "Code Generation",
+            "Code Synthesis",
+            "C++ Program Synthesis",
+            "Instruction Following",
+            "Program Synthesis",
+            "Text to Code"
+        ],
+        "Text Sources": [],
+        "Model Generated": [
+            "In-House Glaive AI"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Glaive AI"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/glaiveai/glaive-code-assistant-v3"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "glaive-code-assistant-v3"
+        ],
+        "Bibtex": ""
+    }
+}
