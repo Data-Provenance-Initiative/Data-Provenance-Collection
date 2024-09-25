@@ -394,6 +394,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_conifer,
         "prepare_function": preparers.prepare_conifer,
     },
+    "Reasoning": {
+        "download_function": downloaders.download_reasoning,
+        "prepare_function": preparers.prepare_reasoning,
+    },
     "DialogStudio": {
         "download_function": downloaders.download_dialogstudio,
         "prepare_function": preparers.prepare_dialogstudio,
