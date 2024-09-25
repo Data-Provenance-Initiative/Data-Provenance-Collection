@@ -1,0 +1,52 @@
+{
+    "Reasoning-0.01 ": {
+        "Unique Dataset Identifier": "reasoning-0.01",
+        "Dataset Name": "reasoning-0.01",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/SkunkworksAI/reasoning-0.01",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/SkunkworksAI/reasoning-0.01",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "Reasoning",
+        "Collection URL": "https://huggingface.co/datasets/SkunkworksAI/reasoning-0.01",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Algebraic Expression Evaluation",
+            "Coding",
+            "Code Synthesis",
+            "Commonsense Reasoning",
+            "Instruction Following",
+            "Logical Reasoning",
+            "Logical and Mathematical Reasoning",
+            "Logical Reasoning Question Answering",
+            "Math",
+            "Program Synthesis"
+        ],
+        "Text Sources": [],
+        "Model Generated": [],
+        "Format": [
+            "Multi-step Reasoning"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "SkunkworksAI"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/SkunkworksAI/reasoning-0.01"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "reasoning-0.01"
+        ],
+        "Bibtex": ""
+    }
+}
