@@ -34,9 +34,9 @@ Flan Collection (P3),Prohibited-Yelp,,Unspecified,,Noncommercial-Yelp,,,,
 Flan Collection (Super-NaturalInstructions),"Prohibited-Yelp, Quora",,,,"Noncommercial-Yelp, Quora",,Non-compete - OpenAI,,Unspecified
 GPT-4-Alpaca,,,,,,,Non-compete - OpenAI,,Prohibited-Anthropic
 GPTeacher,,,,,,,Non-compete - OpenAI,,Unspecified
-Glaive Code Assistant,,,,,,,,,
+Glaive Code Assistant,,,Unspecified,,Unspecified,,,,
 Gorilla,,,,,,,Non-compete - OpenAI,,Unspecified
-Gretel Text-to-SQL,,,,,,,,,
+Gretel Text-to-SQL,,,Not Prohibited,,Commercial,,,,
 HC3 (Chinese),Prohibited- heathcaremagic.com,,Unspecified,,Noncommercial,,Non-compete - OpenAI,,Unspecified
 HC3 (English),Prohibited- heathcaremagic.com,,Unspecified,,Noncommercial,,Non-compete - OpenAI,,Unspecified
 HelpSteer,Unspecified - scale.com,,Unspecified - scale.com,,Non-compete,,,,
@@ -44,7 +44,7 @@ Indic-Instruct,Not Prohibited,,Not Prohibited,,Commercial,,Non-compete - OpenAI,
 Joke Explanation,Unspecified,,Unspecified,,Unspecified,,,,
 KIWI,Likely Prohibited,,Likely Prohibited,,Not sure,,Non-compete - OpenAI,,Unspecified
 LIMA,Prohibited - reddit,,Unspecified,,Noncommercial - Reddit,,,,
-Llama2-MedTuned-Instructions,,,,,,,,,
+Llama2-MedTuned-Instructions,,,Unspecified,,Unspecified,,,,
 LongAlign-10k,,,,,,,"Non-compete - openai, anthropic",Non-commercial-Anthropic,Prohibited- Anthropic
 Longform,Likely Prohibited,,Likely Prohibited,,Likely Noncommercial,,Non-compete - OpenAI,,Unspecified
 MathDial,,,,,,,Non-compete - OpenAI,,Unspecified

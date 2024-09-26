@@ -6,6 +6,7 @@ import json
 import numpy as np
 import pandas as pd
 import altair as alt
+import langcodes
 
 from collections import defaultdict, Counter
 from vega_datasets import data
@@ -297,7 +298,7 @@ def load_terms_metadata(data_dir):
             "prohibited", "likely prohibited", "noncommercial", "non-compete"
         ]
         nonprohibit_starts = [
-            "not prohibited"
+            "not prohibited", "unrestricted"
         ]
         unspecified_starts = [
             "unspecified", "cannot find website",
@@ -313,15 +314,19 @@ def load_terms_metadata(data_dir):
             final_verdict = "Unspecified"
         else:
             # print(row["Collection"])
-            final_verdict = "Not Prohibited"
+            final_verdict = "Unspecified"
         return final_verdict
 
     # print(text_terms.columns)
     dset_to_value = {}
     for i, row in text_terms.iterrows():
+        # if row["Collection"] == "Glaive Code Assistant":
+        #     print(row, interpret_row(row))
         dset_to_value[row["Collection"]] = interpret_row(row)
     for i, row in speech_terms.iterrows():
-        dset_to_value[row["Collection"]] = interpret_row(row)
+        val = interpret_row(row)
+        # print(val)
+        dset_to_value[row["Collection"]] = val
     for i, row in video_terms.iterrows():
         dset_to_value[row["Collection"]] = interpret_row(row)
 
@@ -348,6 +353,7 @@ def prep_summaries_for_visualization(
     creator_countrymap = invert_dict_of_lists(all_constants["CREATOR_COUNTRY_GROUPS"])
     domain_groupmap = invert_dict_of_lists(all_constants["DOMAIN_GROUPS"])
     domain_typemap = invert_dict_of_lists(all_constants["DOMAIN_TYPES"])
+    lang_typmap = invert_dict_of_lists(all_constants["LANGUAGE_GROUPS"])
 
     text_summaries = filters.map_license_criteria(
         remap_licenses_with_paraphrases(
@@ -374,10 +380,13 @@ def prep_summaries_for_visualization(
     )
 
     df_text = pd.DataFrame(text_summaries).assign(Modality="Text")
+    df_text = tokens_calculation(df_text)
     df_text["Data Terms"] = df_text["Collection"].apply(lambda x: collection_to_terms_mapper[x])
+    df_text["Language Families"] = df_text["Languages"].map(lambda c: [lang_typmap[ci] for ci in c])
     df_speech = pd.DataFrame(speech_summaries).assign(Modality="Speech").rename(columns={"Location": "Countries"})
     df_speech["Data Terms"] = df_speech["Collection"].apply(lambda x: collection_to_terms_mapper[x])
-    df_video = pd.DataFrame(video_summaries).assign(Modality="Video").rename(columns={"Video Sources": "Source Category"})
+    df_video = pd.DataFrame(video_summaries).assign(Modality="Video").rename(columns={
+        "Video Sources": "Source Category", "Video Hours": "Hours"})
     df_video["Data Terms"] = df_video["Dataset Name"].apply(lambda x: collection_to_terms_mapper[x])
 
     df_text["Year Released"] = df_text["Inferred Metadata"].map(get_year_for_text)
@@ -394,12 +403,6 @@ def prep_summaries_for_visualization(
 
     df["License Type"] = df["License Use (DataProvenance IgnoreOpenAI)"].map(license_map)
     df['License | Terms'] = df['License Type'] + ' | ' + df['Data Terms']
-    # df["License Type"] = pd.Categorical(
-    #     df["License Type"],
-    #     categories=license_order,
-    #     ordered=True
-    # )
-    # df = df.sort_values(by="License Type")
 
     # Map creators to categories (all modalities from constants, for this)
     df["Creator Categories"] = df["Creators"].map(lambda c: [creator_groupmap[ci] for ci in c])
@@ -525,29 +528,50 @@ def categorize_sources(df, order, domain_typemap):
     return df_sources
 
 def plot_stacked_creator_categories(
-    df, order, palette, pwidth, pheight, save_dir
+    df_categories, order, palette, pwidth, pheight, save_dir, collection_level=False,
 ):
-    df_categories = categorize_creators(df, order)
+    if collection_level:
+        def unpack_list(cats):
+            cat_list = cats.tolist()
+            num_vars = len(cat_list)
+            flatten_cats = list(set([cat for catsll in cat_list for cat in catsll]))
+            # print(flatten_cats)
+            replicated_list = [flatten_cats[:] for _ in range(num_vars)]
+            return replicated_list
+
+        df_categories = text_groupby_collection(df_categories, "Creator Categories",
+            fn=unpack_list)
+    df_categories = categorize_creators(df_categories, order)
+
 
     chart_categories = alt.Chart(df_categories).mark_bar().encode(
         x=alt.Y(
             "count():Q",
             stack="normalize",
             axis=alt.Axis(format="%"),
-            title="Pct. Datasets"
+            title=""
         ),
-        y=alt.X("Modality:N"),
+        y=alt.X("Modality:N", title=""),
         color=alt.Color(
             "Creator Categories:N",
-            scale=alt.Scale(range=palette),
+            # scale=alt.Scale(range=palette),
             title="Creator Category",
             sort=order
         ),
         order="order:Q"
     ).properties(
-        title="Creator Categories by Modality",
+        # title="Creator Categories by Modality",
         width=pwidth,
         height=pheight
+    ).configure_axis(
+            labelFontSize=15,
+            titleFontSize=15,
+    ).configure_legend(
+        labelFontSize=14,
+        titleFontSize=15,
+        orient='bottom',
+        columns=8,
+        labelLimit=200,
     )
 
     if save_dir:
@@ -669,7 +693,8 @@ def plot_altair_worldmap_country(
                 "Count:Q",
                 # log scale
                 scale=alt.Scale(scheme=color, type="symlog"),
-                title="Datasets"
+                title="Datasets",
+                legend=None,
             ),
             tooltip=["Countries:N", "Count:Q", "Modality:N"]
         ).properties(
@@ -688,12 +713,17 @@ def plot_altair_worldmap_country(
         charts.append(chart)
 
     chart_map = alt.hconcat(
-        *charts
+        *charts,
+        spacing=-400,
     ).resolve_scale(
         color="independent"
     ).properties(
-        title="Dataset Count by Country and Modality"
+        # title="Dataset Count by Country and Modality",
+        # width=600,
+        # height=200,
     )
+
+    # chart_map.properties(width=400, height=100)
 
     
     if save_dir:
@@ -862,7 +892,9 @@ def text_groupby_collection(df, mode_column, fn):
     df_text = df[df["Modality"] == "Text"].copy()
     df_nontext = df[df["Modality"] != "Text"]
 
+    # print(df_text[["Collection", "License | Terms"]])
     df_text.loc[:, mode_column] = df_text.groupby("Collection")[mode_column].transform(fn)
+    # df_nontext = df_nontext[mode_column].transform(fn)
 
     df_text = df_text.drop_duplicates(subset="Collection")
     new_df = pd.concat([df_nontext, df_text], ignore_index=True)
@@ -953,11 +985,13 @@ def plot_license_terms_stacked_bar_chart_collections(
     return_license_table=True,
     configure_chart=True
 ):
+
     if license_key == "License Type":
         hierarchy_fn = license_rank_fn
     else:
         hierarchy_fn = license_terms_rank_fn
 
+    df = df.copy()
     df[license_key] = pd.Categorical(
         df[license_key],
         categories=license_order,
@@ -966,14 +1000,15 @@ def plot_license_terms_stacked_bar_chart_collections(
     df = df.sort_values(by=license_key)
     df = text_groupby_collection(df, license_key, fn=hierarchy_fn,)
 
-    # modality_specific = df[df["Modality"] == "Speech"]
-    # print(modality_specific.columns)
-    # print(modality_specific[['Modality', 'License | Terms']])
-    # print(modality_specific[license_key].value_counts())
+    # speech_df = df[df["Modality"] == "Speech"]
+    # print(speech_df[["Dataset Name", "License | Terms"]])
+    # return speech_df
+    # print(speech_df.columns)
+    # print(speech_df[['Modality', 'License | Terms']])
+    # print(speech_df[license_key].value_counts())
+    # print(speech_df[license_key])
 
-    # print(df.groupby(['Modality', license_key]).size().reset_index(name='counts'))
-    # grouped_data = df.groupby(['Modality', license_key]).size().reset_index(name='counts')
-    # print(grouped_data)
+    df = df[["Modality", license_key]]
 
     chart = alt.Chart(df).mark_bar().encode(
         x=alt.Y(
@@ -993,7 +1028,8 @@ def plot_license_terms_stacked_bar_chart_collections(
         order=alt.Order("order:Q", sort="ascending")  # Ensures correct order of the bars
     )
     chart = chart.properties(
-        title="License Use by Modality (Collections)",
+        # title="License Use by Modality (Collections)",
+        title="",
         width=plot_width,
         height=plot_height
     )    
@@ -1199,7 +1235,7 @@ def generate_multimodal_license_terms_latex(df):
         total_nc_license = round(counts_dict["NC/Acad"]["Total"], 1)
         total_restrictive_terms = round(counts_dict["Total"]["Source Closed"] + counts_dict["Total"]["Model Closed"], 1)
         caption = "\\textbf{A breakdown of " + modality + " Dataset licenses, and the Terms attached to their sources.} "
-        caption += f"Among {modality} datasets, while only {total_nc_license}\% are Non-Commerically licensed, or have {total_restrictive_terms}\% have restrictive terms, a full {closed_pct}\% of datasets have either a restrictive license or terms."
+        caption += f"Among {modality} datasets, {total_nc_license}\% are Non-Commercially licensed, and {total_restrictive_terms}\% have restrictive terms, but a full {closed_pct}\% of datasets have either a restrictive license or terms."
         latex_table += "\\bottomrule\n\\end{tabular}\n\\end{adjustbox}\n\\caption{" + caption + "}\n\\label{tab:" + mod_label + "}\n\\end{table*}\n"
         
         latex_outputs[modality] = latex_table
@@ -1222,6 +1258,10 @@ def categorize_tasks(df, order, domain_typemap, tasks_column, modality, collecti
         # If the modality is "Speech", return the task without domain mapping
         elif modality == "Speech":
             return task
+        elif modality == "Video":
+            if "misc" in task:
+                return "Other"
+            return task
         else:
             logging.warning("Unsupported modality for task categorization: %s" % modality)
             return "Other"
@@ -1231,13 +1271,13 @@ def categorize_tasks(df, order, domain_typemap, tasks_column, modality, collecti
         'Code': 'Code',
         'Translation': 'Translation',
         'Summarization': 'Summarization',
-        'Response Ranking': 'Response Ranking',
-        'Bias & Toxicicity Detection': 'Bias & Toxicity Detection',
-        'Question Answering': 'Question Answering',
-        'Dialog Generation': 'Dialog Generation',
+        'Response Ranking': 'Resp. Ranking',
+        'Bias & Toxicicity Detection': 'Bias Detection',
+        'Question Answering': 'Q&A',
+        'Dialog Generation': 'Generation',
         'Miscellaneous': 'Other',
-        'Short Text Generation': 'Open Generation',
-        'Open-form Text Generation': 'Open Generation',
+        'Short Text Generation': 'Generation',
+        'Open-form Text Generation': 'Generation',
         'Brainstorming': 'Creativity',
         'Creative Writing': 'Creativity',
         'Creativity': 'Creativity',
@@ -1258,23 +1298,54 @@ def categorize_tasks(df, order, domain_typemap, tasks_column, modality, collecti
         'Translation and Retrieval': 'Translation',
         'Speech Translation': 'Translation',
         'Machine Translation': 'Translation',
-        'Speaker Identification': 'Speaker Identification',
-        'Speaker Identification (mono/multi)': 'Speaker Identification',
-        'Speaker Recognition': 'Speaker Identification',
-        'Speaker Verification': 'Speaker Identification',
-        'Speaker Diarization': 'Speaker Identification',
+        'Speaker Identification': 'Speaker ID',
+        'Speaker Identification (mono/multi)': 'Speaker ID',
+        'Speaker Recognition': 'Speaker ID',
+        'Speaker Verification': 'Speaker ID',
+        'Speaker Diarization': 'Speaker ID',
         'Speech Recognition/Translation': 'Translation',
-        'Speech Language Identification': 'Language Identification',
-        'Language Identification': 'Language Identification',
+        'Speech Language Identification': 'Language ID',
+        'Language Identification': 'Language ID',
         'Bias in Speech Recognition (Accents)': 'Bias Detection',
         'Speech Synthesis': 'Speech Synthesis',
-        'Query By Example': 'Query by Example',
+        'Query By Example': 'Query by Ex',
         'Keyword Spotting': 'Keyword Spotting',
         'Speech Recognition': 'Other',  # other will be filtered out in the end
     }
 
+    task_categories_mapper_video = {
+        'Video Classification': 'Classification',
+        'Video Captioning': 'Captioning',
+        'Video Summarization': 'Summarization',
+        'Video Q&A': 'Q&A',
+        'Temporal Action Localization': 'Localization',
+        'Group Activity Recognition': 'Action Recognition',
+        'Video Segmentation': 'Segmentation',
+        'Action Segmentation': 'Segmentation',
+        'Action Localization': 'Localization',
+        'Pose Estimation': 'Pose Estimation',
+        'Temporal Action Segmentation': 'Segmentation',
+        'Interaction understanding via ordering': 'Action Recognition',
+        'Video Question Answering': 'Q&A',
+        'Temporal Action Detection': 'Action Detection',
+        'Action Recognition': 'Action Recognition',
+        'Visual Interaction Prediction': 'Action Recognition',
+        'Temporal Localization': 'Localization',
+        'Spatial-Temporal Action Localization': 'Localization',
+        'Video Object Detection': 'Object Detection',
+        'Other': 'Other',
+    }
+
+
     # Choose the appropriate mapping function based on the modality and collections_datasets_flag (needs to be updated if the flag is updated)
-    task_categories_mapper = task_categories_mapper_text if modality == "Text" else task_categories_mapper_speech
+    
+    task_categories_mapper = None
+    if modality == "Text":
+        task_categories_mapper = task_categories_mapper_text
+    elif modality == "Speech": 
+        task_categories_mapper = task_categories_mapper_speech
+    elif modality == "Video":
+        task_categories_mapper = task_categories_mapper_video
 
     # Explode the tasks column to have one row per task
     if modality == "Text":
@@ -1296,7 +1367,7 @@ def categorize_tasks(df, order, domain_typemap, tasks_column, modality, collecti
     df_tasks = df_tasks.sort_values(by=tasks_column)
 
     # Map the tasks to their corresponding categories using the chosen mapping function
-    df_tasks[tasks_column] = df_tasks[tasks_column].apply(lambda x: task_categories_mapper[x])
+    df_tasks[tasks_column] = df_tasks[tasks_column].apply(lambda x: task_categories_mapper.get(x, "Other"))
 
     # Filter out the 'Other' tasks
     df_tasks = df_tasks[df_tasks[tasks_column] != 'Other']
@@ -1361,7 +1432,7 @@ def plot_tasks_chart(
     # Assign a color to each task based on the position
     color_scale = alt.Scale(domain=list(range(len(sorted_order))), scheme='tableau20')
 
-    bar_chart = alt.Chart(df_tasks_aggregated).mark_bar(size=30).encode(
+    bar_chart = alt.Chart(df_tasks_aggregated).mark_bar(size=12).encode(
         y=alt.Y(
             field=f"{tasks_column}",
             type="nominal",
@@ -1388,7 +1459,11 @@ def plot_tasks_chart(
             alt.Tooltip('percentage', title='Percentage', format='.2f')
         ]
     ).properties(
-        title="",
+        title={
+            "text": [modality],
+            "align": "center",  # center the title
+            "anchor": "middle"  # anchor the title in the middle
+        },
         width=pwidth,  # set width
         height=pheight  # set height
     )
@@ -1426,27 +1501,38 @@ def tokens_calculation(df):
 
     return tokens_output
 
-    def chart_creation(df: pd.DataFrame, max_count: int, x_field: str, labels: list, ratio: float, title: str, width: int, height: int, color: str):
-        chart1 = alt.Chart(df).mark_bar(color=color).encode(
-            x=alt.X(f'{x_field}:N', sort=labels, axis=alt.Axis(labelAngle=45)),
-            y=alt.Y('Number of datasets:Q', scale=alt.Scale(domain=[0, max_count * ratio]), axis=alt.Axis(grid=True, tickCount=5)),
-            tooltip=[x_field, 'Number of datasets']
-        ).properties(
-            title=title,
-            width=width,
-            height=height
-        )
-        return chart1
+def chart_creation(
+    df: pd.DataFrame, max_count: int, x_field: str, labels: list, ratio: float, title: str, width: int, height: int, color: str):
+    chart1 = alt.Chart(df).mark_bar(color=color).encode(
+        # y=alt.Y(f'{x_field}:N', sort=labels, axis=alt.Axis(labelAngle=45)),
+        # , domain=False, ticks=False, grid=False
+        y=alt.Y(f'{x_field}:N', sort=labels, axis=alt.Axis(title=None, grid=False, domain=False, ticks=False)),
+        x=alt.X('Number of datasets:Q', scale=alt.Scale(domain=[0, max_count * ratio]), axis=alt.Axis(grid=False, domain=False, tickCount=5)),
+        tooltip=[x_field, 'Number of datasets']
+    ).properties(
+        title=title,
+        width=width,
+        height=height
+    )
+    return chart1
 
-def combined_charts(*charts):
+def combined_dim_charts(*charts):
     # Concatenate the two charts horizontally with different scales for the y-axes
-    combined_chart = alt.hconcat(*charts).configure(
-        title={"font": "Times New Roman"},
+    combined_chart = alt.hconcat(*charts, spacing=1).resolve_scale(
+        color="independent",  # Ensures independent color scale for each chart
+        shape="independent",  # Ensures independent shape scale for each chart (if applicable)
+        size="independent"    # Ensures independent size scale for each chart (if applicable)
+    ).resolve_legend(
+        color="independent",  # Ensures each chart has an independent legend for color
+        shape="independent",  # Ensures each chart has an independent legend for shape (if applicable)
+        size="independent"    # Ensures each chart has an independent legend for size (if applicable)
+    ).configure(
+        title={"font": "Times New Roman", "fontSize": 16},
         axis={
             "labelFont": "Times New Roman",
             "titleFont": "Times New Roman",
-            "labelFontSize": 16,
-            "titleFontSize": 16,
+            "labelFontSize": 14,
+            "titleFontSize": 14,
             "labelAngle": 0,
             "grid": True,
             "gridOpacity": 0.7,
@@ -1485,3 +1571,698 @@ def data_aggregation_for_chart(df, modality: str, bins, labels,  measure_column:
     max_count1 = df1['Number of datasets'].max()
 
     return df1, max_count1
+
+
+def plot_temporal_cumulative_sources(
+    df, modality, top_n, cumulative_measurement, earliest_year=2015, plotw=400, ploth=200,
+    save_png=False
+):
+
+    def prep_df(df, modality, top_n, cumulative_measurement, earliest_year=2015):
+        df_mod = df[df["Modality"] == modality]
+        df_modsourceyears = df_mod.explode("Source Category")
+        df_modsourceyears = reduce_categories_to_topk(df_modsourceyears, "Source Category", top_n)
+        df_modsourceyears['Source Category'] = df_modsourceyears['Source Category'].apply(lambda x: x.title())
+        
+        source_cat_mapper = {
+            "Crowdsourced": "Crowd-Sourced",
+            "Human": "Human Partic.",
+            "Human Participants": "Human Partic.",
+            "Getty-Images": "Getty Images",
+            "Entertainment": "General Web",
+            "News": "News Sites",
+            "Encyclopedias": "Encyclopedias",
+            "Governments": "Government",
+            "Undisclosed Web": "General Web",
+            "Calling Platform": "Calling Plat.",
+            "Ml Datasets": "Unsure",
+            "Others": "Unsure",
+            "Other": "Unsure",
+        }
+
+        df_modsourceyears['Source Category'].replace(source_cat_mapper, inplace=True)
+        if earliest_year > 2013:
+            rep_map = {str(yr): f"<{earliest_year}" for yr in range(2013, earliest_year)} 
+            rep_map.update({"<2013": f"<{earliest_year}"})
+            df_modsourceyears['Year Released'].replace(rep_map, inplace=True)
+
+        df_modsourcecumulativeyears = df_modsourceyears.groupby(
+            ["Year Released", "Source Category"]
+        )[cumulative_measurement].sum().groupby(
+            "Source Category"
+        ).cumsum().reset_index(name="Cumulative Hours")
+        
+        df_modsourcecumulativeyears = df_modsourcecumulativeyears.sort_values(by="Year Released")
+        # Assuming your dataframe is named df
+        df_modsourcecumulativeyears = df_modsourcecumulativeyears[df_modsourcecumulativeyears['Year Released'] != "Unknown"]
+        df_modsourcecumulativeyears = df_modsourcecumulativeyears[df_modsourcecumulativeyears['Source Category'] != "Unsure"]
+        # print(df_modsourcecumulativeyears)
+        return df_modsourcecumulativeyears[["Year Released", "Source Category", "Cumulative Hours"]]
+    df_cumyears = prep_df(df, modality, top_n, cumulative_measurement, earliest_year=earliest_year)
+    # return df_cumyears
+
+    df_final_values = df_cumyears.groupby('Source Category').apply(lambda x: x.loc[x['Year Released'].idxmax()])
+    df_final_values = df_final_values[['Source Category', 'Cumulative Hours']].sort_values('Cumulative Hours', ascending=False)
+    # Use the sorted categories for the legend order
+    sorted_categories = df_final_values['Source Category'].tolist()
+    # print(sorted_categories)
+    # print(df_cumyears)
+
+    YEARS_ORDER = [f"<{earliest_year}"] + [str(year) for year in range(earliest_year, 2025)]
+    if modality in ["Speech", "Video"]:
+        domain_max = 1000000
+        yaxis_vals = [0, 1, 1000, 10000, 100000, 1000000]
+        symlog_constant = 1000
+    else:
+        domain_max = 1e13
+        yaxis_vals = [1e7, 1e9, 1e10, 1e11, 1e12, 1e13]
+        symlog_constant = 1e7
+    chart_sourceyearhours = alt.Chart(
+        df_cumyears
+    ).mark_line().encode(
+        x=alt.X(
+            "Year Released:N",
+            title="",
+            sort=YEARS_ORDER,
+            axis=alt.Axis(labelAngle=0)
+        ),
+        y=alt.Y(
+            "Cumulative Hours:Q",
+            title="",
+            scale=alt.Scale(
+                type="symlog",
+                constant=symlog_constant,
+                domain=[1, domain_max]
+            ),
+            axis=alt.Axis(
+                values=yaxis_vals,
+                labelExpr="datum.value >= 1000000000000 ? datum.value / 1000000000000 + 'T' : datum.value >= 1000000000 ? datum.value / 1000000000 + 'B' : datum.value >= 1000000 ? datum.value / 1000000 + 'M' : datum.value >= 1000 ? datum.value / 1000 + 'K' : datum.value"
+                # labelExpr="datum.value >= 1000000 ? datum.value / 1000000 + 'M' : datum.value >= 1000 ? datum.value / 1000 + 'K' : datum.value"
+            )
+        ),
+    color=alt.Color(
+        "Source Category:N",
+        title="Source Category",
+        legend=alt.Legend(
+            orient="bottom",
+            labelFontSize=12,  # Adjust the font size for the legend
+            columns=4  # Wrap every K entries (replace K with the number of entries per row)
+        ),
+        sort=sorted_categories  # Sort legend by the final value
+    )
+    ).properties(
+        width=plotw,
+        height=ploth,
+        title=f"{modality}"
+    )
+
+    if save_png:
+        chart_sourceyearhours.save(
+            os.path.join(PLOT_DIR, f"{modality}_sourcecategories-cumulativehours.png"),
+            ppi=PLOT_PPI
+        )
+    return chart_sourceyearhours
+
+
+def extract_lang_fam_mappers():
+
+    lang_codes_to_families = {}
+    lang_codes_to_names = {}
+    iso_codes_to_langs = {}
+    lang_id_to_iso_codes = {}
+    lang_families = {}
+
+    df_langsglottolog = pd.read_csv("data/speech_supporting_data/languages.csv")
+    for i, row in df_langsglottolog.iterrows():
+        lang_id = row["ID"]
+
+        iso_code = row["Closest_ISO369P3code"]
+
+        iso_codes_to_langs[iso_code] = lang_id
+        lang_id_to_iso_codes[lang_id] = iso_code
+        lang_codes_to_names[lang_id] = row["Name"]
+
+        if row["Level"] == "family":
+            lang_families[lang_id] = row["Name"]
+
+        if pd.isna(iso_code):
+            continue
+
+        family_id = row["Family_ID"]
+        if pd.isna(family_id):
+            continue
+
+        lang_codes_to_families[lang_id] = family_id
+    return lang_codes_to_families, lang_codes_to_names, iso_codes_to_langs, lang_families, lang_id_to_iso_codes
+
+def get_langfamily(
+    lang: str,
+    lang_fam_infos,
+    code_langs,
+) -> str:
+    lang_codes_to_families, lang_codes_to_names, iso_codes_to_langs, lang_families, lang_id_to_iso_codes = lang_fam_infos
+    # if not isinstance(lang, str):
+    #     print(lang)
+    lang = lang.split("-")[0].split("_")[0]
+    try:
+        if lang in code_langs:
+            return "Code"
+        # Need to iteratively seek to the top level
+        lang = langcodes.get(langcodes.standardize_tag(lang, macro=True)).to_alpha3()
+        lang = iso_codes_to_langs.get(lang, lang)
+
+        while lang in lang_codes_to_families:
+            lang = lang_codes_to_families[lang]
+
+        lang = lang_families[lang]
+
+    except:
+        lang = "Other"
+
+    return lang
+
+# Creating a dictionary with the given languages mapped to their ISO 369-3 codes
+language_iso_additional_mapping = {
+    "Greek": "ell",
+    "Northern Sotho": "nso",
+    "Jingpho": "kac",
+    "Pashto": "pus",
+    "Sardinian": "srd",
+    "Interlingue": "ile",
+    'Arabic': 'arb',
+    'Chinese': 'zho',
+    'Hebrew': 'heb',
+    'Persian': 'fas',
+    'Indonesian': 'ind',
+    'Portugese (Brazilian)': 'por',
+    'Azerbaijani': 'aze',
+    'Kyrgyz': 'kir',
+    'Oromo': 'orm',
+    'Nigerian Pidgin English': 'pcm',
+    'Punjabi': 'pan',
+    'Gaelic': 'gla',
+    'Serbian': 'srp',
+    'Serbian (Latin script)': 'srp',
+    'Sinhalese': 'sin',
+    'Kiswahili': 'swa',
+    'Flemish': 'nld',
+    'Croatian': 'hrv',
+    'Bosnian': 'bos',
+    'Guarani': 'grn',
+    'Armenian': 'hye',
+    'Interlingua': 'ina',
+    'Ilocano': 'ilo',
+    'Khmer': 'khm',
+    'Luxembourgish': 'ltz',
+    'Malay': 'msa',
+    'Quechua': 'que',
+    'Serbo-Croatian': 'hbs',
+    'Yiddish': 'yid',
+    'Farsi': 'fas',
+    'Acehnese (Arabic script)': 'ace',
+    'Acehnese (Latin script)': 'ace',
+    'Mesopotamian Arabic': 'acm',
+    'Ta’izzi-Adeni Arabic': 'acq',
+    'North Levantine Arabic': 'apc',
+    'Modern Standard Arabic': 'arb',
+    'Modern Standard Arabic (Romanized)': 'arb',
+    'Bemba': 'bem',
+    'Banjar (Arabic script)': 'bjn',
+    'Banjar (Latin script)': 'bjn',
+    'Standard Tibetan': 'bod',
+    'Nigerian Fulfulde': 'fuv',
+    'Haitian Creole': 'hat',
+    'Kamba': 'kam',
+    'Kashmiri (Arabic script)': 'kas',
+    'Kashmiri (Devanagari script)': 'kas',
+    'Central Kanuri (Arabic script)': 'knc',
+    'Central Kanuri (Latin script)': 'knc',
+    'Kabiyè': 'kbp',
+    'Kikongo': 'kon',
+    'Limburgish': 'lim',
+    'Lingala': 'lin',
+    'Latgalian': 'ltg',
+    'Luba-Kasai': 'lua',
+    'Luo': 'luo',
+    'Minangkabau (Arabic script)': 'min',
+    'Minangkabau (Latin script)': 'min',
+    'Meitei (Bengali script)': 'mni',
+    'Western Persian': 'pes',
+    'Tosk Albanian': 'als',
+    'Tamasheq (Latin script)': 'taq',
+    'Tamasheq (Tifinagh script)': 'taq',
+    'Central Atlas Tamazight': 'tzm',
+    'Uyghur': 'uig',
+    'Chinese (Simplified)': 'zho',
+    'Chinese (Traditional)': 'zho',
+    'Iranian Persian': 'fas',
+    'Panjabi': 'pan',
+    'Pashto (Southern)': 'pbt',
+    'Albanian (Tosk)': 'als',
+    'Dayak': 'day',
+    'Chinese (Hong Kong)': 'zho',
+    'Divehi': 'div',
+    'Hmong': 'hmn',
+    'Hassaniya Arabic': 'mey',
+    'Malagasy': 'mlg',
+    'Myanmar': 'mya',
+    'Northern Ndebele': 'nde',
+    'Chichewa': 'nya',
+    'Shilha': 'shi',
+    'Tonga': 'ton',
+    'Zhuang': 'zha'
+}
+
+
+def get_hours_for_dataset_and_language(row: pd.Series) -> float:
+    df_yodashours = pd.read_csv("data/speech_supporting_data/yodas_splithours.csv").rename({"hours": "Hours"}, axis=1)
+    df_yodashours["Language (ISO)"] = df_yodashours["split"].map(lambda x : x[:2])
+    df_yodashours["Language (Name)"] = df_yodashours["Language (ISO)"].map(
+        lambda x: langcodes.Language.make(language=langcodes.standardize_tag(x, macro=True)).language_name()
+    )
+    df_commonvoicehours = pd.read_json("data/speech_supporting_data/commonvoice_splithours.json").T
+
+    language_codes_to_aggregate = {}
+    for langcode in df_commonvoicehours.index:
+        if "-" in langcode or "_" in langcode:
+            langcode_simplified = langcode.split("-")[0].split("_")[0]
+            # print("Will aggregate language %s to %s" % (langcode, langcode_simplified))
+            language_codes_to_aggregate.setdefault(langcode_simplified, [])
+            language_codes_to_aggregate[langcode_simplified].append(langcode)
+
+    for langcode_simplified, langcode_data_to_aggregate in language_codes_to_aggregate.items():
+        df_commonvoicehours.loc[langcode_simplified, "total_clips_duration"] = df_commonvoicehours.loc[langcode_data_to_aggregate, "total_clips_duration"].sum()
+
+
+    df_commonvoicehours["Hours"] = df_commonvoicehours["total_clips_duration"] / 60 / 60 / 1000
+    df_commonvoicehours = df_commonvoicehours.rename(columns={'Languages (ISO)': 'Language (ISO)'})
+    df_commonvoicehours = df_commonvoicehours.reset_index(names=["Language (ISO)"])
+
+    df_multilinguallibrispeechhours = pd.read_csv("data/speech_supporting_data/multilinguallibrispeech_splithours.csv")
+    df_multilinguallibrispeechhours["Hours"] = df_multilinguallibrispeechhours[df_multilinguallibrispeechhours.columns[1:]].sum(axis=1)
+    df_multilinguallibrispeechhours["Language (ISO)"] = df_multilinguallibrispeechhours.language.map(lambda x: langcodes.find(x).to_tag())
+
+    df_bloomspeechhours = pd.read_csv("data/speech_supporting_data/bloomspeech_splithours.csv")
+    df_bloomspeechhours["Hours"] = df_bloomspeechhours[df_bloomspeechhours.columns[2:]].sum(axis=1) / 60
+    df_bloomspeechhours["Language (ISO)"] = df_bloomspeechhours["ISO-639-3"].map(lambda x: langcodes.standardize_tag(x, macro=True))
+
+    df_fleursspeechhours = pd.read_csv("data/speech_supporting_data/fleurs_splithours.csv")
+    df_fleursspeechhours = df_fleursspeechhours.rename(columns={'Languages (ISO)': 'Language (ISO)'})
+
+    dataset_hoursmapping = {
+        "yodas": df_yodashours,
+        "common-voice-corpus-170": df_commonvoicehours,
+        "multilingual-librispeech": df_multilinguallibrispeechhours,
+        "bloom-speech": df_bloomspeechhours,
+        "fleurs": df_fleursspeechhours
+    }
+
+    special_cases = {
+        "yodas": {
+            "sr-Latn": "sr", # YODAS metadata doesn't specify the script
+            "he": "iw" # YODAS appears to use the old ISO639-1 code
+        },
+        "fleurs": {
+            "no": "nb" # FLEURS specifies locale code
+        }
+    }
+
+    dataset = row["Unique Dataset Identifier"]
+    language = row["Language (ISO)"]
+    language = langcodes.standardize_tag(language)
+
+    if dataset in dataset_hoursmapping:
+        if language in special_cases.get(dataset, {}):
+            language = special_cases[dataset][language]
+
+        hours_df = dataset_hoursmapping[dataset]
+        hours = hours_df[hours_df["Language (ISO)"] == language]["Hours"].sum()
+        if hours == 0:
+            print("Hours not found for language code %s in dataset %s" % (language, dataset))
+        return hours
+
+    return row["Hours"]
+
+
+
+def plot_temporal_ginis(df_gini, df_spec, domain_cats, columns):
+    FONT_SIZE = 16
+    EARLIEST_YEAR = 2013
+    YEARS_ORDER = [f"<{EARLIEST_YEAR}"] + [str(year) for year in range(EARLIEST_YEAR, 2025)]
+
+    domains = df_gini["Type"].unique()
+    df_gini["Modality"] = df_gini["Type"]
+    y_axis_min, y_axis_max = 0, 1
+    chart_meanlangf = alt.Chart(
+        df_gini
+    ).mark_line().encode(
+        x=alt.X(
+            "Year Released:N",
+            title="",
+            sort=YEARS_ORDER,
+            # axis=alt.Axis(labelAngle=-30),
+            axis=alt.Axis(labelAngle=0),
+            scale=alt.Scale(padding=0)
+        ),
+        y=alt.Y(
+            "Gini Mean:Q",
+            title="Gini (Cumulative)",
+            # scale=alt.Scale(zero=False)
+            scale=alt.Scale(zero=False, domain=[y_axis_min, y_axis_max])
+        ),
+        color=alt.Color(
+            "Type:N",
+            title="Modality",
+            scale=alt.Scale(
+                domain=domains,
+                # range=color_range,
+                # domain=["Text Language (ISO)", "Text Language Family", "Speech Language (ISO)", "Speech Language Family"],
+                # range=["#82b5cf", "#ff7fde"]
+            )
+        )
+    )
+    
+    chart_meanpointslangf = alt.Chart(
+        df_gini
+    ).mark_point().encode(
+        x=alt.X(
+            "Year Released:N",
+            title="",
+            sort=YEARS_ORDER,
+            axis=alt.Axis(labelAngle=0),
+            # axis=alt.Axis(labelAngle=-30),
+            scale=alt.Scale(padding=0)
+        ),
+        y=alt.Y(
+            "Gini Mean:Q",
+            title="Gini (Cumulative)",
+            # scale=alt.Scale(zero=False),
+            scale=alt.Scale(zero=False, domain=[y_axis_min, y_axis_max])
+        ),
+        color="Type:N"
+    )
+    
+    chart_cislangf = alt.Chart(
+        df_gini
+    ).mark_area(
+        opacity=0.25
+    ).encode(
+        x=alt.X(
+            "Year Released:N",
+            title="",
+            sort=YEARS_ORDER,
+            axis=alt.Axis(labelAngle=0)
+            # axis=alt.Axis(labelAngle=-30)
+        ),
+        y="Gini Lower:Q",
+        y2="Gini Upper:Q",
+        color="Type:N"
+    )
+    
+    chart_langf = (chart_cislangf + chart_meanlangf + chart_meanpointslangf).configure_axis(
+        labelFontSize=FONT_SIZE,
+        titleFontSize=FONT_SIZE,
+        grid=False
+    ).configure_legend(
+        orient="bottom",
+        direction="horizontal",
+        padding=15,
+        # opacity=1.0,
+        # cornerRadius=5,
+        # fillColor="white",
+        # strokeColor="lightgray",
+        offset=-100,
+        # legendX=-100,
+        # legendY=-50,
+        columns=columns,
+        titleFontSize=15,
+        labelFontSize=15,
+    ).properties(
+        width=500,
+        height=200,
+    )
+    modalities = df_spec["Modality"].unique()
+    for modality in modalities:
+        for domain in domain_cats:
+            print(f"{modality} | {domain} | {df_spec[df_spec['Modality'] == modality][domain].nunique()}")
+    
+    return chart_langf
+
+def compute_temporal_gini_bounds(df_spec, measure_key, cumulation_key):
+    # Get the cumulative hours by language over time
+    df_spec = df_spec[df_spec['Year Released'] != "Unknown"]
+    df_spec['Year Released'] = df_spec['Year Released'].cat.remove_unused_categories()
+    
+    df_spec_cum = df_spec.groupby(
+        ["Year Released", measure_key]
+    )[cumulation_key].sum().groupby(
+        measure_key
+    ).cumsum().reset_index(name="Cumulative Hours")
+    df_spec_cum = df_spec_cum[df_spec_cum['Year Released'] != "Unknown"]
+    
+    # Calculate Gini coefficient and CIs for cumulative hours by language
+    df_spec_cum_gini = df_spec_cum.groupby("Year Released")["Cumulative Hours"]
+    # print(df_spec_cum_gini.groups)
+    df_spec_cum_gini = df_spec_cum_gini.apply(
+        lambda x: bootstrap_cis_for_gini(x.values)
+    ).reset_index(
+        name="Gini"
+    )
+    df_spec_cum_gini = df_spec_cum_gini[df_spec_cum_gini['Year Released'] != "Unknown"]
+    
+    df_spec_cum_gini["Gini Mean"] = df_spec_cum_gini["Gini"].map(lambda x: x[0])
+    df_spec_cum_gini["Gini Lower"] = df_spec_cum_gini["Gini"].map(lambda x: max(0, x[1]))
+    df_spec_cum_gini["Gini Upper"] = df_spec_cum_gini["Gini"].map(lambda x: min(x[2], 1))
+    df_spec_cum_gini["Type"] = measure_key
+    return df_spec_cum_gini
+
+
+def prepare_speech_for_gini(df):
+    df_speech = df[df["Modality"] == "Speech"]
+    df_speech = df_speech.rename(columns={'Languages (ISO)': 'Language (ISO)'})
+    df_speechlanguagenames = df_speech.explode("Language (ISO)")
+    df_speechlanguagenames["Language (Name)"] = df_speechlanguagenames["Language (ISO)"].map(
+        lambda x: langcodes.Language.make(language=langcodes.standardize_tag(x.split("-")[0].split("_")[0], macro=True)).language_name()
+    )
+    df_speechlanguagesn = df_speechlanguagenames.copy()
+    
+    df_speechlanguagesn["Language (ISO)"] = df_speechlanguagesn["Language (ISO)"].map(lambda x : x.split("_")[0].split("-")[0])
+    lang_fam_infos = extract_lang_fam_mappers()
+    df_speechlanguagesn["Language Family"] = df_speechlanguagesn["Language (ISO)"].map(lambda x: get_langfamily(x, lang_fam_infos, []))
+    
+    # Subdivide hours evenly across the languages given in each dataset
+    df_speechlanguagesn["Hours"] = df_speechlanguagesn.groupby(["Unique Dataset Identifier", "Language (ISO)"])["Hours"].transform(
+        lambda x: x / x.count()
+    )
+    df_speechlanguagesn["Hours"] = df_speechlanguagesn.apply(get_hours_for_dataset_and_language, axis=1)
+    
+    df_speechlanguagesn = df_speechlanguagesn.sort_values(by="Year Released")
+    
+    # Ensure that, for each of those datasets, we have heterogenous language hours
+    for dataset in ["yodas", "common-voice-corpus-170", "multilingual-librispeech", "bloom-speech", "fleurs"]:
+        assert df_speechlanguagesn[
+                df_speechlanguagesn["Unique Dataset Identifier"] == dataset
+            ]["Hours"].nunique() > 1, "Dataset %s has homogenous language hours" % dataset
+
+    # # Gini coefficient for hours across languages
+    # speechlanguages_totalhours = df_speechlanguagesn.groupby("Languages (ISO)")["Hours"].sum().reset_index(name="Total Hours")
+    
+    # multimodal_util.gini(speechlanguages_totalhours["Total Hours"].values)
+    
+    # # Gini coefficient for hours across language-families
+    # speechlanguagesf_totalhours = df_speechlanguagesn.groupby("Language Family")["Hours"].sum().reset_index(name="Total Hours")
+    
+    # multimodal_util.gini(speechlanguagesf_totalhours["Total Hours"].values)
+    speech_df_spec_cum_gini_langs = compute_temporal_gini_bounds(df_speechlanguagesn, "Language (ISO)", "Hours")
+    speech_df_spec_cum_gini_langfams = compute_temporal_gini_bounds(df_speechlanguagesn, "Language Family", "Hours")
+    df_speechlanguagesfamilycumulativehoursgini = pd.concat(
+        [speech_df_spec_cum_gini_langs, speech_df_spec_cum_gini_langfams]
+    )
+    return df_speechlanguagesfamilycumulativehoursgini, df_speechlanguagesn[["Year Released", "Hours", "Language (ISO)", "Language Family"]]
+
+
+def prep_text_for_lang_gini(df, all_constants):
+    LANG_GROUP_MAPPER = invert_dict_of_lists(all_constants["LANGUAGE_GROUPS"])
+    df_text = df[df["Modality"] == "Text"] #[["Year Released", "Total Tokens", "Languages", "Language Families"]]
+
+    # TODO: Undo this when we have all metrics in.
+    df_text = df_text[df_text["Total Tokens"].notna()]
+    
+    df_text = df_text[df_text['Year Released'] != "Unknown"]
+    df_text['Year Released'] = df_text['Year Released'].cat.remove_unused_categories()
+    
+    df_text_lang_explode = df_text.explode("Languages")
+    df_text_lang_explode["Language Families"] = df_text_lang_explode["Languages"].map(lambda c: LANG_GROUP_MAPPER[c])
+    # Subdivide tokens evenly across the languages given in each dataset
+    df_text_lang_explode["Tokens"] = df_text_lang_explode.groupby(["Unique Dataset Identifier", "Languages"])["Total Tokens"].transform(
+        lambda x: x / x.count()
+    )
+    df_text_lang_explode = df_text_lang_explode[["Collection", "Dataset Name", "Year Released", "Tokens", "Languages", "Language Families"]]
+    
+    code_languages = df_text_lang_explode[df_text_lang_explode["Language Families"] == "Code"]["Languages"].unique()
+    
+    lang_fam_infos = extract_lang_fam_mappers()
+    lang_name_to_id = {v: k for k, v in lang_fam_infos[1].items()}
+    lang_id_to_isocode = lang_fam_infos[4]
+    
+    lang_iso_mapper = {}
+    for langname in df_text_lang_explode["Languages"].unique():
+        if langname in code_languages:
+            lang_iso_mapper[langname] = langname
+        elif langname in language_iso_additional_mapping:
+            lang_iso_mapper[langname] = language_iso_additional_mapping[langname]
+        elif langname in lang_name_to_id:
+            xx = lang_name_to_id[langname]
+            lang_iso_mapper[langname] = lang_id_to_isocode[xx]
+        else:
+            print(f"{langname} not found")
+
+    df_text_lang_explode['Language (ISO)'] = df_text_lang_explode['Languages'].map(lang_iso_mapper)
+    # print(df_text_lang_explode["Language (ISO)"].value_counts())
+    # print(all([isinstance(ll, str) for ll in df_text_lang_explode["Language (ISO)"].unique()]))
+    df_text_lang_explode["Language Family"] = df_text_lang_explode["Language (ISO)"].map(lambda x: get_langfamily(x, lang_fam_infos, code_languages))
+
+    # df_text = df_text.rename(columns={'Languages': 'Language (ISO)', "Language Families": "Language Family"})
+    
+    text_df_spec_cum_gini_langs = compute_temporal_gini_bounds(df_text_lang_explode, "Language (ISO)", "Tokens")
+    text_df_spec_cum_gini_langfams = compute_temporal_gini_bounds(df_text_lang_explode, "Language Family", "Tokens")
+    return pd.concat([text_df_spec_cum_gini_langs, text_df_spec_cum_gini_langfams]), df_text_lang_explode
+
+
+def prepare_geo_gini_data(df):
+    df_locs = df[df['Countries'].apply(lambda x: len(x) > 0)]
+    # print(len(df_locs))
+    df_loc_explode = df_locs.explode("Countries")
+    # print(len(df_loc_explode))
+    df_text_locs = df_loc_explode[df_loc_explode["Modality"] == "Text"]
+    # print(len(df_text_locs))
+    df_speech_locs = df_loc_explode[df_loc_explode["Modality"] == "Speech"]
+    df_video_locs = df_loc_explode[df_loc_explode["Modality"] == "Video"]
+    df_text_locs = df_text_locs[df_text_locs["Total Tokens"].notna()]
+    # print(len(df_text_locs))
+    df_text_locs["Dimension"] = df_text_locs["Total Tokens"]
+    df_speech_locs["Dimension"] = df_speech_locs["Hours"]
+    df_video_locs["Dimension"] = df_video_locs["Hours"]
+    
+    
+    df_text_locs["Dimension"] = df_text_locs.groupby(["Unique Dataset Identifier", "Countries"])["Dimension"].transform(
+        lambda x: x / x.count()
+    )
+    df_video_locs["Dimension"] = df_video_locs.groupby(["Unique Dataset Identifier", "Countries"])["Dimension"].transform(
+        lambda x: x / x.count()
+    )
+    df_speech_locs["Dimension"] = df_speech_locs.groupby(["Unique Dataset Identifier", "Countries"])["Dimension"].transform(
+        lambda x: x / x.count()
+    )
+    df_spec_locs = pd.concat([df_text_locs, df_speech_locs, df_video_locs])[["Unique Dataset Identifier", "Countries", "Dimension", "Modality", "Year Released"]]
+
+    text_df_spec_cum_gini_locs = compute_temporal_gini_bounds(df_text_locs, "Countries", "Dimension")
+    text_df_spec_cum_gini_locs["Type"] = "Text"
+    speech_df_spec_cum_gini_locs = compute_temporal_gini_bounds(df_speech_locs, "Countries", "Dimension")
+    speech_df_spec_cum_gini_locs["Type"] = "Speech"
+    video_df_spec_cum_gini_locs = compute_temporal_gini_bounds(df_video_locs, "Countries", "Dimension")
+    video_df_spec_cum_gini_locs["Type"] = "Video"
+    df_gini_locs = pd.concat(
+        [text_df_spec_cum_gini_locs, speech_df_spec_cum_gini_locs, video_df_spec_cum_gini_locs]
+    )
+    return df_gini_locs, df_spec_locs
+
+
+def prepare_data_cum_barchart(df_spec_locs, target):
+    EARLIEST_YEAR = 2013
+    YEARS_ORDER = [f"<{EARLIEST_YEAR}"] + [str(year) for year in range(EARLIEST_YEAR, 2025)]
+    
+    # Ensure that 'Year Released' is treated as an ordered categorical variable
+    df_spec_locs["Year Released"] = pd.Categorical(
+        df_spec_locs["Year Released"],
+        categories=YEARS_ORDER,
+        ordered=True
+    )
+    
+    unique_countries_per_modality_year = defaultdict(lambda: defaultdict(set))
+    cumulative_count = []  # This will store the result
+    # Step 3: Iterate over sorted data and calculate cumulative unique country count
+    for i, entry in df_spec_locs.iterrows():
+        modality = entry["Modality"]
+        country = entry[target]
+        year = entry["Year Released"]
+        
+        # Add the country to the set for the current modality
+        unique_countries_per_modality_year[modality][year].add(country)
+    
+    df_spec_src = []
+    for modality, year_countries in unique_countries_per_modality_year.items():
+        observed = set()
+        for year in YEARS_ORDER:
+            observed = observed.union(year_countries[year])
+            # Append the result to the cumulative_count list
+            df_spec_src.append({
+                "Modality": modality,
+                "First Year Released": year,
+                f"Total {target}": len(observed)
+            })
+    return pd.DataFrame(df_spec_src)
+
+
+def plot_cum_barchart(df_spec_src, target):
+    EARLIEST_YEAR = 2013
+    YEARS_ORDER = [f"<{EARLIEST_YEAR}"] + [str(year) for year in range(EARLIEST_YEAR, 2025)]
+    color_scale = alt.Scale(
+        domain=["Video", "Speech", "Text"],  # Sorted as requested
+        range=["forestgreen", "skyblue", "salmon"]
+    )
+    
+    chart = alt.Chart(df_spec_src).mark_bar(
+        width=6  # Adjust this value to control bar width
+    ).encode(
+        x=alt.X(
+            "First Year Released:N",
+            title="",
+            sort=YEARS_ORDER,
+            axis=alt.Axis(labelAngle=0, domain=False, ticks=False, grid=False)
+        ),
+        y=alt.Y(
+            f"Total {target}:Q",
+            axis=alt.Axis(grid=False, domain=False),
+            title=f"Total {target} Represented"
+        ),
+        xOffset=alt.XOffset("Modality:N", sort=["Video", "Speech", "Text"]),  # Sorted as requested
+        color=alt.Color("Modality:N", scale=color_scale, title="Modality"),
+        # opacity=alt.Opacity("Unique Dataset Identifier:N", legend=None, scale=alt.Scale(range=[0.6, 1.0])),
+    )
+    
+    # Control the width and height of the figure
+    chart = chart.configure_axis(
+        labelFontSize=15,
+        titleFontSize=15,
+        grid=False
+    ).properties(
+        width=500,  # Adjust this value to control the width
+        height=200  # Adjust this value to control the height
+    ).configure_view(
+        strokeWidth=0  # This removes the frame around the plot
+    ).configure_legend(
+        # columns=columns,
+        orient='top-left',
+        titleFontSize=15,
+        labelFontSize=15,
+    )
+
+
+    # ).configure_legend(
+    #     orient="bottom",
+    #     direction="horizontal",
+    #     padding=15,
+    #     # opacity=1.0,
+    #     # cornerRadius=5,
+    #     # fillColor="white",
+    #     # strokeColor="lightgray",
+    #     offset=-100,
+    #     # legendX=-100,
+    #     # legendY=-50,
+    #     columns=columns,
+    #     titleFontSize=15,
+    #     labelFontSize=15,
+    # )
+
+    return chart
