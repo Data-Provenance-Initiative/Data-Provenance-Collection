@@ -528,7 +528,7 @@ def categorize_sources(df, order, domain_typemap):
     return df_sources
 
 def plot_stacked_creator_categories(
-    df_categories, order, palette, pwidth, pheight, save_dir, collection_level=False,
+    df_categories, order, modality_order, palette, pwidth, pheight, save_dir, collection_level=False,
 ):
     if collection_level:
         def unpack_list(cats):
@@ -543,15 +543,40 @@ def plot_stacked_creator_categories(
             fn=unpack_list)
     df_categories = categorize_creators(df_categories, order)
 
+    # Add counts for calculating percentages
+    df_categories['count'] = 1
+    df_grouped = df_categories.groupby(['Modality', "Creator Categories"]).size().reset_index(name='count')
 
-    chart_categories = alt.Chart(df_categories).mark_bar().encode(
+    # Add percentage column based on counts
+    df_grouped['percentage'] = df_grouped.groupby('Modality')['count'].transform(lambda x: (x / x.sum()) * 100)
+    
+    def calculate_midpoints(points):
+        midpoints = []
+        for i in range(len(points)):
+            trailing_quant = points.iloc[:i]
+            midpoints.append((points.iloc[i]/2 + sum(trailing_quant))/100)
+        
+        return midpoints
+    
+    df_grouped['midpoints'] = df_grouped.groupby('Modality')['percentage'].transform(calculate_midpoints)
+
+    # Base chart
+    base = alt.Chart(df_grouped).encode(
         x=alt.Y(
-            "count():Q",
+            "percentage:Q",
             stack="normalize",
             axis=alt.Axis(format="%"),
-            title=""
+            title="",
         ),
-        y=alt.X("Modality:N", title=""),
+        y=alt.X("Modality:N", title="", sort=modality_order)
+    ).properties(
+        # title="Creator Categories by Modality",
+        width=pwidth,
+        height=pheight
+    )
+
+    # Create bars
+    bars = base.mark_bar().encode(
         color=alt.Color(
             "Creator Categories:N",
             # scale=alt.Scale(range=palette),
@@ -559,11 +584,24 @@ def plot_stacked_creator_categories(
             sort=order
         ),
         order="order:Q"
-    ).properties(
-        # title="Creator Categories by Modality",
-        width=pwidth,
-        height=pheight
-    ).configure_axis(
+    )
+
+    # Text annotations inside bars for percentages > 10%
+    text = bars.mark_text(
+        align='center',
+        fontSize=14,
+    ).encode(
+        x='midpoints',
+        text=alt.condition(
+            alt.datum.percentage > 10,
+            alt.Text('percentage:Q', format='.1f'),
+            alt.value('')
+        ),
+        color=alt.value('white')
+    )
+
+    chart_categories = bars + text
+    chart_categories = chart_categories.configure_axis(
             labelFontSize=15,
             titleFontSize=15,
     ).configure_legend(
@@ -573,9 +611,8 @@ def plot_stacked_creator_categories(
         columns=8,
         labelLimit=200,
     )
-
     if save_dir:
-        chart_categories.save(os.path.join(save_dir, "creator_categories_by_modality.png"), ppi=300)
+        chart_categories.save(os.path.join(save_dir, "creator_categories_by_modality.svg"), format='svg')
 
     return chart_categories
 
@@ -982,19 +1019,12 @@ def merge_to_restricted(license_term):
     # Otherwise, return the original term
     return license_term
 
-def calculate_midpoints(points):
-    midpoints = []
-    for i in range(len(points)):
-        trailing_quant=points.iloc[:i]
-        midpoints.append((points.iloc[i]/2 + sum(trailing_quant))/100)
-    
-    return midpoints
-
 def plot_license_terms_stacked_bar_chart_collections(
     df, 
     license_key,
     license_palette, 
-    license_order, 
+    license_order,
+    modality_order, 
     plot_width, 
     plot_height,
     save_dir=None, 
@@ -1003,7 +1033,6 @@ def plot_license_terms_stacked_bar_chart_collections(
     return_license_table=True,
     configure_chart=True,
 ):
-
     if license_key == "License Type":
         hierarchy_fn = license_rank_fn
     else:
@@ -1020,8 +1049,7 @@ def plot_license_terms_stacked_bar_chart_collections(
 
     df = text_groupby_collection(df, license_key, fn=hierarchy_fn,)
     
-    # Force modality ordering
-    modality_order = ["Text", "Speech", "Video"]
+    # Modify the order of the modality
     df['Modality'] = pd.Categorical(df['Modality'], categories=modality_order, ordered=True)
 
     # Add counts for calculating percentages
@@ -1033,6 +1061,15 @@ def plot_license_terms_stacked_bar_chart_collections(
 
     # Melt the dataframe for Altair
     df_melted = df_grouped.melt(id_vars=['Modality', license_key, 'percentage'], value_vars=['count'], var_name='metric', value_name='value')
+    
+    # Calculate midpoints for text annotations
+    def calculate_midpoints(points):
+        midpoints = []
+        for i in range(len(points)):
+            trailing_quant = points.iloc[:i]
+            midpoints.append((points.iloc[i]/2 + sum(trailing_quant))/100)
+        
+        return midpoints
     df_melted['midpoints'] = df_melted.groupby('Modality')['percentage'].transform(calculate_midpoints)
 
     # Base chart
