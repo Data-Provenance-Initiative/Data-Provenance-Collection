@@ -619,6 +619,22 @@ def prepare_glaive_code_assistant(row):
     )
 
 
+def prepare_glaive_code_assistant_v2(row):
+    return convert_inputs_targets_to_messages(
+        row["question"],
+        row["answer"],
+        "glaive-code-assistant-v2",
+    )
+
+
+def prepare_glaive_code_assistant_v3(row):
+    return convert_inputs_targets_to_messages(
+        row["question"],
+        row["answer"],
+        "glaive-code-assistant-v3",
+    )
+
+
 def prepare_hc3(row, lang):
     # dset_id = f"hc3_{lang}-{row['source']}"
     messages = [

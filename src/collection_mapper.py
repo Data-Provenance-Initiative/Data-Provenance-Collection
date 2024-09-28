@@ -97,6 +97,14 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_glaive_code_assistant,
         "prepare_function": preparers.prepare_glaive_code_assistant,
     },
+    "Glaive Code Assistant v2": {
+        "download_function": downloaders.download_glaive_code_assistant_v2,
+        "prepare_function": preparers.prepare_glaive_code_assistant_v2,
+    },
+    "Glaive Code Assistant v3": {
+        "download_function": downloaders.download_glaive_code_assistant_v3,
+        "prepare_function": preparers.prepare_glaive_code_assistant_v3,
+    },
     "Nectar": {
         "download_function": downloaders.download_nectar,
         "prepare_function": preparers.prepare_nectar,

@@ -95,6 +95,18 @@
         "Derived from Datasets": [
             "UltraChat"
         ],
-        "Bibtex": "@misc{ding2023enhancing, title={Enhancing Chat Language Models by Scaling High-quality Instructional Conversations}, author={Ning Ding and Yulin Chen and Bokai Xu and Yujia Qin and Zhi Zheng and Shengding Hu and Zhiyuan Liu and Maosong Sun and Bowen Zhou}, year={2023}, eprint={2305.14233}, archivePrefix={arXiv}, primaryClass={cs.CL}}"
+        "Bibtex": "@misc{ding2023enhancing, title={Enhancing Chat Language Models by Scaling High-quality Instructional Conversations}, author={Ning Ding and Yulin Chen and Bokai Xu and Yujia Qin and Zhi Zheng and Shengding Hu and Zhiyuan Liu and Maosong Sun and Bowen Zhou}, year={2023}, eprint={2305.14233}, archivePrefix={arXiv}, primaryClass={cs.CL}}",
+        "Text Metrics": {
+            "Num Dialogs": 207865,
+            "Mean Inputs Length": 379.2249,
+            "Mean Targets Length": 1417.5931,
+            "Max Inputs Length": 14884,
+            "Max Targets Length": 25536,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 14,
+            "Mean Dialog Turns": 6.3291
+        }
     }
 }

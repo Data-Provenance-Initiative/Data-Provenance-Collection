@@ -68,6 +68,18 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 99952,
+            "Mean Inputs Length": 4616.1715,
+            "Mean Targets Length": 693.7591,
+            "Max Inputs Length": 8392,
+            "Max Targets Length": 1798,
+            "Min Inputs Length": 1964,
+            "Min Targets Length": 168,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     }
 }
