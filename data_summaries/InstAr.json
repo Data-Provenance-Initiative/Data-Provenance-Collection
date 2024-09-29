@@ -83,7 +83,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Classification"],
-        "Text Sources": ["GoodReads.com"],
+        "Text Sources": ["goodreads.com"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -118,7 +118,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Question Answering"],
-        "Text Sources": ["web scrapped"],
+        "Text Sources": ["google search"],
         "Model Generated": [],
         "Format": [
             "Zero-shot"
@@ -188,7 +188,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Entity Linking"],
-        "Text Sources": ["Quran"],
+        "Text Sources": ["quran"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -223,7 +223,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Question Answering"],
-        "Text Sources": ["Arabic Wikipedia"],
+        "Text Sources": ["wikipedia.org"],
         "Model Generated": [],
         "Format": [
             "Zero-shot"
@@ -258,7 +258,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Language Modeling"],
-        "Text Sources": ["Common Crawl"],
+        "Text Sources": ["commoncrawl.org"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -293,7 +293,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Classification"],
-        "Text Sources": ["web crawls"],
+        "Text Sources": ["undisclosed web"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -328,7 +328,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Classification"],
-        "Text Sources": ["web crawls"],
+        "Text Sources": ["undisclosed web"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -363,7 +363,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Classification"],
-        "Text Sources": ["web crawls"],
+        "Text Sources": ["undisclosed web"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -398,7 +398,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Logical and Mathematical Reasoning"],
-        "Text Sources": ["human curated"],
+        "Text Sources": ["human"],
         "Model Generated": [],
         "Format": [
             "Zero-shot"
@@ -433,7 +433,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Open Question Answering"],
-        "Text Sources":["translated English datasets", "human curated"],
+        "Text Sources":["medical dialog", "Medical Exams", "human"],
         "Model Generated": ["OpenAI GPT-3.5-Turbo"],
         "Format": [
             "Zero-shot"
@@ -468,7 +468,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Classification"],
-        "Text Sources": ["web crawls"],
+        "Text Sources": ["undisclosed web"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -503,7 +503,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Question Answering"],
-        "Text Sources": ["web crawls"],
+        "Text Sources": ["undisclosed web"],
         "Model Generated":[],
         "Format": [
             "Zero-shot"
@@ -538,7 +538,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Summarization"],
-        "Text Sources": ["101 Billion Arabic Words Dataset"],
+        "Text Sources": ["undisclosed web"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -573,7 +573,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Classification"],
-        "Text Sources": ["Arabic Poetry Dataset"],
+        "Text Sources": ["poetry"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -608,7 +608,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Sentiment Analysis", "Classification"],
-        "Text Sources": ["web scrapped"],
+        "Text Sources": ["undisclosed web"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -643,7 +643,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Sentiment Analysis", "Classification"],
-        "Text Sources": ["web scrapped"],
+        "Text Sources": ["undisclosed web"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -678,7 +678,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Classification"],
-        "Text Sources": ["web scrapped"],
+        "Text Sources": ["undisclosed web"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -713,7 +713,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Sentiment Analysis", "Classification"],
-        "Text Sources": ["web scrapped"],
+        "Text Sources": ["undisclosed web"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
@@ -748,7 +748,7 @@
         "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
         "Languages": ["Arabic"],
         "Task Categories": ["Sentiment Analysis", "Classification"],
-        "Text Sources": ["web scrapped"],
+        "Text Sources": ["undisclosed web"],
         "Model Generated": ["Command R+"],
         "Format": [
             "Zero-shot"
