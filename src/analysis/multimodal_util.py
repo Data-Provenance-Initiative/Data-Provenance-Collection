@@ -381,6 +381,7 @@ def prep_summaries_for_visualization(
 
     df_text = pd.DataFrame(text_summaries).assign(Modality="Text")
     df_text = tokens_calculation(df_text)
+    df_text = df_text[df_text["Collection"].isin(collection_to_terms_mapper.keys())]
     df_text["Data Terms"] = df_text["Collection"].apply(lambda x: collection_to_terms_mapper[x])
     df_text["Language Families"] = df_text["Languages"].map(lambda c: [lang_typmap[ci] for ci in c])
     df_speech = pd.DataFrame(speech_summaries).assign(Modality="Speech").rename(columns={"Location": "Countries"})
@@ -1039,26 +1040,23 @@ def plot_license_terms_stacked_bar_chart_collections(
         hierarchy_fn = license_terms_rank_fn
 
     df = df.copy()
+    df = df.sort_values(by=license_key)
+
+    df = text_groupby_collection(df, license_key, fn=hierarchy_fn,)
     df[license_key] = df[license_key].apply(merge_to_restricted)
     df[license_key] = pd.Categorical(
         df[license_key],
         categories=license_order,
         ordered=True
     )
-    df = df.sort_values(by=license_key)
-
-    df = text_groupby_collection(df, license_key, fn=hierarchy_fn,)
-    
     # Modify the order of the modality
     df['Modality'] = pd.Categorical(df['Modality'], categories=modality_order, ordered=True)
 
     # Add counts for calculating percentages
     df['count'] = 1
     df_grouped = df.groupby(['Modality', license_key]).size().reset_index(name='count')
-
     # Add percentage column based on counts
     df_grouped['percentage'] = df_grouped.groupby('Modality')['count'].transform(lambda x: (x / x.sum()) * 100)
-
     # Melt the dataframe for Altair
     df_melted = df_grouped.melt(id_vars=['Modality', license_key, 'percentage'], value_vars=['count'], var_name='metric', value_name='value')
     
