@@ -419,6 +419,12 @@ def download_feedback_collection(accepted_filter_ids):
 def download_preference_collection(accepted_filter_ids):
     return huggingface_download("prometheus-eval/Preference-Collection", split='train')
 
+def download_magpie(accepted_filter_ids):
+    return huggingface_download("Magpie-Align/Magpie-Pro-300K-Filtered",split="train")
+
+def download_synthetic_gsm8k_reflection(accepted_filter_ids):
+    return huggingface_download("gretelai/synthetic-gsm8k-reflection-405b", split="train")
+
 def download_evol_instruct(accepted_filter_ids):
     return huggingface_download("mlabonne/WizardLM_evol_instruct_70k-ShareGPT", split="train")
 
@@ -1356,6 +1362,9 @@ def download_conifer(accepted_filter_ids):
     dset = huggingface_download("ConiferLM/Conifer", split="train_sft")
     return dset
 
+def download_reasoning(accepted_filter_ids):
+    dset = huggingface_download("SkunkworksAI/reasoning-0.01", split="train")
+    return dset
 
 def download_dialogstudio(accepted_filter_ids):
     dsets = []
@@ -1385,3 +1394,7 @@ def download_lumos_grounding(accepted_filter_ids):
 def download_dynosaur(accepted_filter_ids):
     dset = huggingface_download('Dynosaur/dynosaur-full', split='train')
     return pool_filter(dset, "taskname", accepted_filter_ids)
+
+def download_inst_ar(accepted_filter_ids):
+    dset = huggingface_download("ClusterlabAi/InstAr-500k", split="train")
+    return pool_filter(dset, "source", accepted_filter_ids)

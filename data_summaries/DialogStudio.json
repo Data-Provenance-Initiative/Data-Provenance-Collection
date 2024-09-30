@@ -64,7 +64,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 8034,
+            "Mean Inputs Length": 36.1371,
+            "Mean Targets Length": 62.3889,
+            "Max Inputs Length": 391,
+            "Max Targets Length": 621,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 46,
+            "Mean Dialog Turns": 15.468
+        }
     },
     "ds-AirDialogue": {
         "Unique Dataset Identifier": "ds-AirDialogue",
@@ -131,7 +143,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 321459,
+            "Mean Inputs Length": 37.6488,
+            "Mean Targets Length": 46.2437,
+            "Max Inputs Length": 534,
+            "Max Targets Length": 382,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 34,
+            "Mean Dialog Turns": 12.7084
+        }
     },
     "ds-BiTOD": {
         "Unique Dataset Identifier": "ds-BiTOD",
@@ -206,7 +230,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 2952,
+            "Mean Inputs Length": 43.492,
+            "Mean Targets Length": 72.4939,
+            "Max Inputs Length": 307,
+            "Max Targets Length": 784,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 48,
+            "Mean Dialog Turns": 19.6111
+        }
     },
     "ds-CaSiNo": {
         "Unique Dataset Identifier": "ds-CaSiNo",
@@ -273,7 +309,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 900,
+            "Mean Inputs Length": 92.4157,
+            "Mean Targets Length": 88.8455,
+            "Max Inputs Length": 526,
+            "Max Targets Length": 601,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 6,
+            "Max Dialog Turns": 26,
+            "Mean Dialog Turns": 11.8778
+        }
     },
     "ds-CraigslistBargains": {
         "Unique Dataset Identifier": "ds-CraigslistBargains",
@@ -340,7 +388,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 4000,
+            "Mean Inputs Length": 65.7018,
+            "Mean Targets Length": 67.3473,
+            "Max Inputs Length": 543,
+            "Max Targets Length": 585,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 44,
+            "Mean Dialog Turns": 7.2005
+        }
     },
     "ds-DSTC2-Clean": {
         "Unique Dataset Identifier": "ds-DSTC2-Clean",
@@ -407,7 +467,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 1612,
+            "Mean Inputs Length": 17.477,
+            "Mean Targets Length": 59.5964,
+            "Max Inputs Length": 106,
+            "Max Targets Length": 136,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 8,
+            "Max Dialog Turns": 62,
+            "Mean Dialog Turns": 16.4876
+        }
     },
     "ds-Disambiguation": {
         "Unique Dataset Identifier": "ds-Disambiguation",
@@ -474,7 +546,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 8433,
+            "Mean Inputs Length": 60.9622,
+            "Mean Targets Length": 83.0793,
+            "Max Inputs Length": 240,
+            "Max Targets Length": 507,
+            "Min Inputs Length": 2,
+            "Min Targets Length": 3,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 44,
+            "Mean Dialog Turns": 13.4586
+        }
     },
     "ds-DuRecDial-2.0": {
         "Unique Dataset Identifier": "ds-DuRecDial-2.0",
@@ -541,7 +625,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 5678,
+            "Mean Inputs Length": 34.3228,
+            "Mean Targets Length": 56.1489,
+            "Max Inputs Length": 325,
+            "Max Targets Length": 488,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 6,
+            "Max Dialog Turns": 30,
+            "Mean Dialog Turns": 15.9264
+        }
     },
     "ds-FRAMES": {
         "Unique Dataset Identifier": "ds-FRAMES",
@@ -615,7 +711,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 1329,
+            "Mean Inputs Length": 52.687,
+            "Mean Targets Length": 73.0339,
+            "Max Inputs Length": 393,
+            "Max Targets Length": 609,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 48,
+            "Mean Dialog Turns": 15.1904
+        }
     },
     "ds-GECOR": {
         "Unique Dataset Identifier": "ds-GECOR",
@@ -682,7 +790,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 676,
+            "Mean Inputs Length": 42.758,
+            "Mean Targets Length": 75.1148,
+            "Max Inputs Length": 175,
+            "Max Targets Length": 271,
+            "Min Inputs Length": 2,
+            "Min Targets Length": 3,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 16,
+            "Mean Dialog Turns": 8.1183
+        }
     },
     "ds-HDSA-Dialog": {
         "Unique Dataset Identifier": "ds-HDSA-Dialog",
@@ -749,7 +869,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 8438,
+            "Mean Inputs Length": 68.4765,
+            "Mean Targets Length": 93.1157,
+            "Max Inputs Length": 235,
+            "Max Targets Length": 835,
+            "Min Inputs Length": 2,
+            "Min Targets Length": 3,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 44,
+            "Mean Dialog Turns": 13.4577
+        }
     },
     "ds-KETOD": {
         "Unique Dataset Identifier": "ds-KETOD",
@@ -816,7 +948,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 4247,
+            "Mean Inputs Length": 42.002,
+            "Mean Targets Length": 69.8658,
+            "Max Inputs Length": 265,
+            "Max Targets Length": 655,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 30,
+            "Mean Dialog Turns": 19.7499
+        }
     },
     "ds-KVRET": {
         "Unique Dataset Identifier": "ds-KVRET",
@@ -883,7 +1027,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 2424,
+            "Mean Inputs Length": 34.2164,
+            "Mean Targets Length": 48.6682,
+            "Max Inputs Length": 160,
+            "Max Targets Length": 386,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 12,
+            "Mean Dialog Turns": 5.3045
+        }
     },
     "ds-MULTIWOZ2_2": {
         "Unique Dataset Identifier": "ds-MULTIWOZ2_2",
@@ -959,7 +1115,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 8437,
+            "Mean Inputs Length": 58.2973,
+            "Mean Targets Length": 80.1162,
+            "Max Inputs Length": 195,
+            "Max Targets Length": 507,
+            "Min Inputs Length": 2,
+            "Min Targets Length": 3,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 44,
+            "Mean Dialog Turns": 13.4588
+        }
     },
     "ds-MetaLWOZ": {
         "Unique Dataset Identifier": "ds-MetaLWOZ",
@@ -1026,7 +1194,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 37884,
+            "Mean Inputs Length": 33.6868,
+            "Mean Targets Length": 39.7998,
+            "Max Inputs Length": 306,
+            "Max Targets Length": 2067,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 10,
+            "Max Dialog Turns": 46,
+            "Mean Dialog Turns": 10.5674
+        }
     },
     "ds-MuDoCo": {
         "Unique Dataset Identifier": "ds-MuDoCo",
@@ -1093,7 +1273,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 6032,
+            "Mean Inputs Length": 35.1353,
+            "Mean Targets Length": 26.7144,
+            "Max Inputs Length": 295,
+            "Max Targets Length": 352,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 12,
+            "Mean Dialog Turns": 6.877
+        }
     },
     "ds-MulDoGO": {
         "Unique Dataset Identifier": "ds-MulDoGO",
@@ -1160,7 +1352,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 59939,
+            "Mean Inputs Length": 19.7737,
+            "Mean Targets Length": 96.003,
+            "Max Inputs Length": 11625,
+            "Max Targets Length": 1045,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 42,
+            "Mean Dialog Turns": 14.2596
+        }
     },
     "ds-MultiWOZ_2.1": {
         "Unique Dataset Identifier": "ds-MultiWOZ_2.1",
@@ -1236,7 +1440,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 8434,
+            "Mean Inputs Length": 58.5575,
+            "Mean Targets Length": 80.3287,
+            "Max Inputs Length": 195,
+            "Max Targets Length": 643,
+            "Min Inputs Length": 2,
+            "Min Targets Length": 3,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 44,
+            "Mean Dialog Turns": 13.4574
+        }
     },
     "ds-OpenDialKG": {
         "Unique Dataset Identifier": "ds-OpenDialKG",
@@ -1302,7 +1518,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 12302,
+            "Mean Inputs Length": 57.8168,
+            "Mean Targets Length": 69.3576,
+            "Max Inputs Length": 383,
+            "Max Targets Length": 1489,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 18,
+            "Mean Dialog Turns": 6.829
+        }
     },
     "ds-SGD": {
         "Unique Dataset Identifier": "ds-SGD",
@@ -1375,7 +1603,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 16142,
+            "Mean Inputs Length": 41.0299,
+            "Mean Targets Length": 58.9162,
+            "Max Inputs Length": 283,
+            "Max Targets Length": 453,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 50,
+            "Mean Dialog Turns": 20.4413
+        }
     },
     "ds-STAR": {
         "Unique Dataset Identifier": "ds-STAR",
@@ -1442,7 +1682,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 6145,
+            "Mean Inputs Length": 42.1699,
+            "Mean Targets Length": 57.5246,
+            "Max Inputs Length": 350,
+            "Max Targets Length": 419,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 54,
+            "Mean Dialog Turns": 17.602
+        }
     },
     "ds-SalesBot": {
         "Unique Dataset Identifier": "ds-SalesBot",
@@ -1508,7 +1760,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 10277,
+            "Mean Inputs Length": 58.3062,
+            "Mean Targets Length": 55.0708,
+            "Max Inputs Length": 288,
+            "Max Targets Length": 317,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 54,
+            "Mean Dialog Turns": 17.7595
+        }
     },
     "ds-SimJointGEN": {
         "Unique Dataset Identifier": "ds-SimJointGEN",
@@ -1575,7 +1839,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 100000,
+            "Mean Inputs Length": 22.0376,
+            "Mean Targets Length": 64.4301,
+            "Max Inputs Length": 283,
+            "Max Targets Length": 189,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 8,
+            "Max Dialog Turns": 32,
+            "Mean Dialog Turns": 15.8411
+        }
     },
     "ds-SimJointMovie": {
         "Unique Dataset Identifier": "ds-SimJointMovie",
@@ -1642,7 +1918,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 384,
+            "Mean Inputs Length": 26.2772,
+            "Mean Targets Length": 41.8393,
+            "Max Inputs Length": 135,
+            "Max Targets Length": 184,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 22,
+            "Mean Dialog Turns": 10.276
+        }
     },
     "ds-SimJointRestaurant": {
         "Unique Dataset Identifier": "ds-SimJointRestaurant",
@@ -1709,7 +1997,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 1116,
+            "Mean Inputs Length": 24.2177,
+            "Mean Targets Length": 42.0536,
+            "Max Inputs Length": 134,
+            "Max Targets Length": 185,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 30,
+            "Mean Dialog Turns": 11.0663
+        }
     },
     "ds-Taskmaster1": {
         "Unique Dataset Identifier": "ds-Taskmaster1",
@@ -1776,7 +2076,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 6170,
+            "Mean Inputs Length": 36.1529,
+            "Mean Targets Length": 51.653,
+            "Max Inputs Length": 369,
+            "Max Targets Length": 3619,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 14,
+            "Max Dialog Turns": 30,
+            "Mean Dialog Turns": 21.7478
+        }
     },
     "ds-Taskmaster2": {
         "Unique Dataset Identifier": "ds-Taskmaster2",
@@ -1843,7 +2155,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 17301,
+            "Mean Inputs Length": 44.4716,
+            "Mean Targets Length": 55.5572,
+            "Max Inputs Length": 757,
+            "Max Targets Length": 1456,
+            "Min Inputs Length": 2,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 178,
+            "Mean Dialog Turns": 15.8446
+        }
     },
     "ds-Taskmaster3": {
         "Unique Dataset Identifier": "ds-Taskmaster3",
@@ -1910,7 +2234,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 22724,
+            "Mean Inputs Length": 39.8779,
+            "Mean Targets Length": 69.3424,
+            "Max Inputs Length": 788,
+            "Max Targets Length": 1319,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 30,
+            "Mean Dialog Turns": 19.9894
+        }
     },
     "ds-WOZ2_0": {
         "Unique Dataset Identifier": "ds-WOZ2_0",
@@ -1977,7 +2313,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 600,
+            "Mean Inputs Length": 43.8959,
+            "Mean Targets Length": 65.1325,
+            "Max Inputs Length": 206,
+            "Max Targets Length": 352,
+            "Min Inputs Length": 2,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 16,
+            "Mean Dialog Turns": 8.4533
+        }
     },
     "ds-AMI": {
         "Unique Dataset Identifier": "ds-AMI",
@@ -2260,7 +2608,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 12460,
+            "Mean Inputs Length": 62.7227,
+            "Mean Targets Length": 69.5043,
+            "Max Inputs Length": 1088,
+            "Max Targets Length": 1388,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 60,
+            "Mean Dialog Turns": 9.1039
+        }
     },
     "ds-ECTSum": {
         "Unique Dataset Identifier": "ds-ECTSum",
@@ -2603,7 +2963,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 14731,
+            "Mean Inputs Length": 39.0029,
+            "Mean Targets Length": 36.0678,
+            "Max Inputs Length": 633,
+            "Max Targets Length": 699,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 46,
+            "Mean Dialog Turns": 10.6867
+        }
     },
     "ds-SummScreen_ForeverDreaming": {
         "Unique Dataset Identifier": "ds-SummScreen_ForeverDreaming",
@@ -2804,7 +3176,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 879,
+            "Mean Inputs Length": 140.7531,
+            "Mean Targets Length": 137.7407,
+            "Max Inputs Length": 1442,
+            "Max Targets Length": 958,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 13,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 18,
+            "Mean Dialog Turns": 7.9249
+        }
     },
     "ds-AntiScam": {
         "Unique Dataset Identifier": "ds-AntiScam",
@@ -2870,7 +3254,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 220,
+            "Mean Inputs Length": 55.6998,
+            "Mean Targets Length": 43.5394,
+            "Max Inputs Length": 287,
+            "Max Targets Length": 113,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 14,
+            "Max Dialog Turns": 44,
+            "Mean Dialog Turns": 24.8909
+        }
     },
     "ds-ConvAI2": {
         "Unique Dataset Identifier": "ds-ConvAI2",
@@ -2936,7 +3332,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 2423,
+            "Mean Inputs Length": 35.5287,
+            "Mean Targets Length": 29.9044,
+            "Max Inputs Length": 508,
+            "Max Targets Length": 451,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 1000,
+            "Mean Dialog Turns": 19.5452
+        }
     },
     "ds-Empathetic": {
         "Unique Dataset Identifier": "ds-Empathetic",
@@ -3002,7 +3410,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 17802,
+            "Mean Inputs Length": 67.219,
+            "Mean Targets Length": 82.9029,
+            "Max Inputs Length": 587,
+            "Max Targets Length": 115953,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 10,
+            "Mean Dialog Turns": 6.1168
+        }
     },
     "ds-HH-RLHF": {
         "Unique Dataset Identifier": "ds-HH-RLHF",
@@ -3068,7 +3488,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 160800,
+            "Mean Inputs Length": 70.3458,
+            "Mean Targets Length": 313.053,
+            "Max Inputs Length": 7598,
+            "Max Targets Length": 6881,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 68,
+            "Mean Dialog Turns": 4.7041
+        }
     },
     "ds-PLACES3.5": {
         "Unique Dataset Identifier": "ds-PLACES3.5",
@@ -3136,7 +3568,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 5591,
+            "Mean Inputs Length": 62.071,
+            "Mean Targets Length": 65.2284,
+            "Max Inputs Length": 834,
+            "Max Targets Length": 840,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 46,
+            "Mean Dialog Turns": 8.6958
+        }
     },
     "ds-Prosocial": {
         "Unique Dataset Identifier": "ds-Prosocial",
@@ -3207,7 +3651,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 42304,
+            "Mean Inputs Length": 69.4647,
+            "Mean Targets Length": 137.3587,
+            "Max Inputs Length": 672,
+            "Max Targets Length": 539,
+            "Min Inputs Length": 2,
+            "Min Targets Length": 4,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 6,
+            "Mean Dialog Turns": 5.6844
+        }
     },
     "ds-chitchat-dataset": {
         "Unique Dataset Identifier": "ds-chitchat-dataset",
@@ -3277,7 +3733,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 4018,
+            "Mean Inputs Length": 88.4185,
+            "Mean Targets Length": 88.4657,
+            "Max Inputs Length": 8109,
+            "Max Targets Length": 34641,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 564,
+            "Mean Dialog Turns": 33.2768
+        }
     },
     "ds-CoQA": {
         "Unique Dataset Identifier": "ds-CoQA",
@@ -3344,7 +3812,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 7199,
+            "Mean Inputs Length": 27.9008,
+            "Mean Targets Length": 14.6254,
+            "Max Inputs Length": 229,
+            "Max Targets Length": 1819,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 72,
+            "Mean Dialog Turns": 30.1839
+        }
     },
     "ds-CoSQL": {
         "Unique Dataset Identifier": "ds-CoSQL",
@@ -3411,7 +3891,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 4318,
+            "Mean Inputs Length": 56.3633,
+            "Mean Targets Length": 103.3349,
+            "Max Inputs Length": 238,
+            "Max Targets Length": 557,
+            "Min Inputs Length": 2,
+            "Min Targets Length": 18,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 20,
+            "Mean Dialog Turns": 4.4011
+        }
     },
     "ds-CompWebQ": {
         "Unique Dataset Identifier": "ds-CompWebQ",
@@ -3478,7 +3970,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 27639,
+            "Mean Inputs Length": 77.993,
+            "Mean Targets Length": 36.2148,
+            "Max Inputs Length": 168,
+            "Max Targets Length": 1145,
+            "Min Inputs Length": 19,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-DART": {
         "Unique Dataset Identifier": "ds-DART",
@@ -3545,7 +4049,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 62659,
+            "Mean Inputs Length": 141.9306,
+            "Mean Targets Length": 106.2403,
+            "Max Inputs Length": 1144,
+            "Max Targets Length": 581,
+            "Min Inputs Length": 12,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-FeTaQA": {
         "Unique Dataset Identifier": "ds-FeTaQA",
@@ -3612,7 +4128,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 7326,
+            "Mean Inputs Length": 75.4178,
+            "Mean Targets Length": 108.2984,
+            "Max Inputs Length": 165,
+            "Max Targets Length": 303,
+            "Min Inputs Length": 17,
+            "Min Targets Length": 8,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-GrailQA": {
         "Unique Dataset Identifier": "ds-GrailQA",
@@ -3683,7 +4211,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 44337,
+            "Mean Inputs Length": 62.7385,
+            "Mean Targets Length": 106.8962,
+            "Max Inputs Length": 910,
+            "Max Targets Length": 330,
+            "Min Inputs Length": 13,
+            "Min Targets Length": 35,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-HybridQA": {
         "Unique Dataset Identifier": "ds-HybridQA",
@@ -3750,7 +4290,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 62682,
+            "Mean Inputs Length": 98.7967,
+            "Mean Targets Length": 12.1378,
+            "Max Inputs Length": 403,
+            "Max Targets Length": 118,
+            "Min Inputs Length": 5,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-MMQA": {
         "Unique Dataset Identifier": "ds-MMQA",
@@ -3887,7 +4439,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 15667,
+            "Mean Inputs Length": 37.0855,
+            "Mean Targets Length": 72.4109,
+            "Max Inputs Length": 150,
+            "Max Targets Length": 460,
+            "Min Inputs Length": 4,
+            "Min Targets Length": 14,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-MultiModalQA": {
         "Unique Dataset Identifier": "ds-MultiModalQA",
@@ -3954,7 +4518,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 15688,
+            "Mean Inputs Length": 100.8044,
+            "Mean Targets Length": 15.1785,
+            "Max Inputs Length": 630,
+            "Max Targets Length": 540,
+            "Min Inputs Length": 21,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-SParC": {
         "Unique Dataset Identifier": "ds-SParC",
@@ -4021,7 +4597,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 6064,
+            "Mean Inputs Length": 51.714,
+            "Mean Targets Length": 96.4792,
+            "Max Inputs Length": 224,
+            "Max Targets Length": 557,
+            "Min Inputs Length": 9,
+            "Min Targets Length": 18,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 12,
+            "Mean Dialog Turns": 3.9772
+        }
     },
     "ds-SQA": {
         "Unique Dataset Identifier": "ds-SQA",
@@ -4088,7 +4676,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 4257,
+            "Mean Inputs Length": 43.8191,
+            "Mean Targets Length": 73.4172,
+            "Max Inputs Length": 291,
+            "Max Targets Length": 1725,
+            "Min Inputs Length": 10,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 4,
+            "Max Dialog Turns": 16,
+            "Mean Dialog Turns": 5.767
+        }
     },
     "ds-Spider": {
         "Unique Dataset Identifier": "ds-Spider",
@@ -4155,7 +4755,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 7000,
+            "Mean Inputs Length": 70.8649,
+            "Mean Targets Length": 106.651,
+            "Max Inputs Length": 224,
+            "Max Targets Length": 557,
+            "Min Inputs Length": 16,
+            "Min Targets Length": 18,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-ToTTo": {
         "Unique Dataset Identifier": "ds-ToTTo",
@@ -4222,7 +4834,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 120761,
+            "Mean Inputs Length": 497.3422,
+            "Mean Targets Length": 86.0584,
+            "Max Inputs Length": 637256,
+            "Max Targets Length": 343,
+            "Min Inputs Length": 70,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-WebQSP": {
         "Unique Dataset Identifier": "ds-WebQSP",
@@ -4289,7 +4913,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 2673,
+            "Mean Inputs Length": 36.5773,
+            "Mean Targets Length": 86.7475,
+            "Max Inputs Length": 81,
+            "Max Targets Length": 325,
+            "Min Inputs Length": 16,
+            "Min Targets Length": 35,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-WikiSQL": {
         "Unique Dataset Identifier": "ds-WikiSQL",
@@ -4363,7 +4999,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 56355,
+            "Mean Inputs Length": 60.9935,
+            "Mean Targets Length": 9.9408,
+            "Max Inputs Length": 244,
+            "Max Targets Length": 1597,
+            "Min Inputs Length": 12,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-WikiTQ": {
         "Unique Dataset Identifier": "ds-WikiTQ",
@@ -4435,7 +5083,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 11321,
+            "Mean Inputs Length": 54.9892,
+            "Mean Targets Length": 8.7545,
+            "Max Inputs Length": 352,
+            "Max Targets Length": 990,
+            "Min Inputs Length": 7,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-wizard_of_internet": {
         "Unique Dataset Identifier": "ds-wizard_of_internet",
@@ -4502,7 +5162,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 8614,
+            "Mean Inputs Length": 73.217,
+            "Mean Targets Length": 70.0185,
+            "Max Inputs Length": 968,
+            "Max Targets Length": 637,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 68,
+            "Mean Dialog Turns": 10.6694
+        }
     },
     "ds-wizard_of_wikipedia": {
         "Unique Dataset Identifier": "ds-wizard_of_wikipedia",
@@ -4569,7 +5241,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 18430,
+            "Mean Inputs Length": 66.7538,
+            "Mean Targets Length": 91.3021,
+            "Max Inputs Length": 704,
+            "Max Targets Length": 1411,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 8,
+            "Max Dialog Turns": 24,
+            "Mean Dialog Turns": 10.0591
+        }
     },
     "ds-ATIS": {
         "Unique Dataset Identifier": "ds-ATIS",
@@ -4633,7 +5317,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 4478,
+            "Mean Inputs Length": 63.7271,
+            "Mean Targets Length": 11.9145,
+            "Max Inputs Length": 259,
+            "Max Targets Length": 40,
+            "Min Inputs Length": 6,
+            "Min Targets Length": 9,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-ATIS-NER": {
         "Unique Dataset Identifier": "ds-ATIS-NER",
@@ -4697,7 +5393,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 4478,
+            "Mean Inputs Length": 63.7271,
+            "Mean Targets Length": 91.7997,
+            "Max Inputs Length": 259,
+            "Max Targets Length": 478,
+            "Min Inputs Length": 6,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-BANKING77": {
         "Unique Dataset Identifier": "ds-BANKING77",
@@ -4761,7 +5469,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 8622,
+            "Mean Inputs Length": 59.8583,
+            "Mean Targets Length": 21.2203,
+            "Max Inputs Length": 433,
+            "Max Targets Length": 48,
+            "Min Inputs Length": 13,
+            "Min Targets Length": 9,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-BANKING77-OOS": {
         "Unique Dataset Identifier": "ds-BANKING77-OOS",
@@ -4825,7 +5545,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 5905,
+            "Mean Inputs Length": 64.1919,
+            "Mean Targets Length": 22.0638,
+            "Max Inputs Length": 409,
+            "Max Targets Length": 48,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 10,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-CLINC-Single-Domain-OOS-banking": {
         "Unique Dataset Identifier": "ds-CLINC-Single-Domain-OOS-banking",
@@ -4895,7 +5627,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 500,
+            "Mean Inputs Length": 46.468,
+            "Mean Targets Length": 11.7,
+            "Max Inputs Length": 92,
+            "Max Targets Length": 16,
+            "Min Inputs Length": 18,
+            "Min Targets Length": 7,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-CLINC-Single-Domain-OOS-credit_cards": {
         "Unique Dataset Identifier": "ds-CLINC-Single-Domain-OOS-credit_cards",
@@ -4965,7 +5709,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 500,
+            "Mean Inputs Length": 45.412,
+            "Mean Targets Length": 12.6,
+            "Max Inputs Length": 93,
+            "Max Targets Length": 19,
+            "Min Inputs Length": 12,
+            "Min Targets Length": 3,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-CLINC150": {
         "Unique Dataset Identifier": "ds-CLINC150",
@@ -5029,7 +5785,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 15000,
+            "Mean Inputs Length": 39.9061,
+            "Mean Targets Length": 11.7867,
+            "Max Inputs Length": 136,
+            "Max Targets Length": 25,
+            "Min Inputs Length": 2,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-DSTC8-SGD": {
         "Unique Dataset Identifier": "ds-DSTC8-SGD",
@@ -5099,7 +5867,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 1402,
+            "Mean Inputs Length": 55.0271,
+            "Mean Targets Length": 29.9401,
+            "Max Inputs Length": 189,
+            "Max Targets Length": 108,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 8,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-HWU64": {
         "Unique Dataset Identifier": "ds-HWU64",
@@ -5168,7 +5948,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 8954,
+            "Mean Inputs Length": 33.4305,
+            "Mean Targets Length": 13.7597,
+            "Max Inputs Length": 133,
+            "Max Targets Length": 24,
+            "Min Inputs Length": 2,
+            "Min Targets Length": 8,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-MIT-Movie": {
         "Unique Dataset Identifier": "ds-MIT-Movie",
@@ -5233,7 +6025,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 17590,
+            "Mean Inputs Length": 78.4899,
+            "Mean Targets Length": 77.6365,
+            "Max Inputs Length": 396,
+            "Max Targets Length": 396,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 7,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-MIT-Restaurant": {
         "Unique Dataset Identifier": "ds-MIT-Restaurant",
@@ -5298,7 +6102,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 7660,
+            "Mean Inputs Length": 47.964,
+            "Mean Targets Length": 48.2193,
+            "Max Inputs Length": 170,
+            "Max Targets Length": 198,
+            "Min Inputs Length": 2,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-RESTAURANTS8K": {
         "Unique Dataset Identifier": "ds-RESTAURANTS8K",
@@ -5362,7 +6178,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 4613,
+            "Mean Inputs Length": 36.8621,
+            "Mean Targets Length": 24.4349,
+            "Max Inputs Length": 181,
+            "Max Targets Length": 88,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 7,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-SNIPS": {
         "Unique Dataset Identifier": "ds-SNIPS",
@@ -5443,7 +6271,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 13084,
+            "Mean Inputs Length": 45.9272,
+            "Mean Targets Length": 13.1036,
+            "Max Inputs Length": 186,
+            "Max Targets Length": 20,
+            "Min Inputs Length": 8,
+            "Min Targets Length": 8,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-SNIPS-NER": {
         "Unique Dataset Identifier": "ds-SNIPS-NER",
@@ -5524,7 +6364,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 13084,
+            "Mean Inputs Length": 45.9272,
+            "Mean Targets Length": 70.6785,
+            "Max Inputs Length": 186,
+            "Max Targets Length": 299,
+            "Min Inputs Length": 8,
+            "Min Targets Length": 8,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-TOP": {
         "Unique Dataset Identifier": "ds-TOP",
@@ -5593,7 +6445,19 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 31279,
+            "Mean Inputs Length": 46.0534,
+            "Mean Targets Length": 18.0754,
+            "Max Inputs Length": 252,
+            "Max Targets Length": 28,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 10,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     },
     "ds-TOP-NER": {
         "Unique Dataset Identifier": "ds-TOP-NER",
@@ -5662,6 +6526,18 @@
             "S2 Citation Count (May 2024)": "",
             "S2 Date": ""
         },
-        "Bibtex": ""
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 31279,
+            "Mean Inputs Length": 46.0534,
+            "Mean Targets Length": 97.7471,
+            "Max Inputs Length": 252,
+            "Max Targets Length": 1477,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
     }
 }
