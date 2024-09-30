@@ -1385,3 +1385,7 @@ def download_lumos_grounding(accepted_filter_ids):
 def download_dynosaur(accepted_filter_ids):
     dset = huggingface_download('Dynosaur/dynosaur-full', split='train')
     return pool_filter(dset, "taskname", accepted_filter_ids)
+
+def download_inst_ar(accepted_filter_ids):
+    dset = huggingface_download("ClusterlabAi/InstAr-500k", split="train")
+    return pool_filter(dset, "source", accepted_filter_ids)

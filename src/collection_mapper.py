@@ -425,5 +425,9 @@ COLLECTION_FN_MAPPER = {
     "Lumos Grounding": {
         "download_function": downloaders.download_lumos_grounding,
         "prepare_function": preparers.prepare_lumos_grounding,
+    },
+    "InstAr": {
+        "download_function": downloaders.download_inst_ar,
+        "prepare_function": preparers.prepare_inst_ar,
     }
 }
