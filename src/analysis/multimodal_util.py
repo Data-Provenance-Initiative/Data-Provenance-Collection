@@ -394,7 +394,7 @@ def prep_summaries_for_visualization(
     df = pd.concat([df_text, df_speech, df_video])
     df["Model Generated"] = df["Model Generated"].fillna("")
 
-    df["Year Released"] = pd.Categorical(
+    df["Year Released Category"] = pd.Categorical(
         df["Year Released"].map(
             lambda x : "<2013" if (isinstance(x, int) and x < 2013) else str(x)
         ),
@@ -417,6 +417,15 @@ def prep_summaries_for_visualization(
     df.loc[df["Modality"] == "Text","Source Category"] = df.loc[df["Modality"] == "Text","Text Sources"].map(
         lambda x: [domain_groupmap[ci] for ci in x]
     )
+    df["Source Category"] = df.apply(
+        lambda row: row["Source Category"] + ["Synthetic"] 
+        if len(row["Model Generated"]) > 0 and "templates" not in [x.lower() for x in row["Model Generated"]]
+        and "other" not in [x.lower() for x in row["Model Generated"]]
+        else row["Source Category"],
+        axis=1
+    )
+    df["Source Category"] = df.apply(lambda row: [x for x in row["Source Category"] if x != "Unsure"], axis=1)
+
     return df
 
 
@@ -971,6 +980,29 @@ def license_terms_rank_fn(license_list):
     suffix = terms_rank_fn([x.split(" | ")[1] for x in ll])
     return prefix + " | " + suffix
 
+
+def prepare_license_terms_temporal_plot(
+    df, 
+    license_key,
+    license_palette, 
+    license_order, 
+):
+    if license_key == "License Type":
+        hierarchy_fn = license_rank_fn
+    else:
+        hierarchy_fn = license_terms_rank_fn
+
+    df = df.copy()
+    df[license_key] = pd.Categorical(
+        df[license_key],
+        categories=license_order,
+        ordered=True
+    )
+    df = df.sort_values(by=license_key)
+    df = text_groupby_collection(df, license_key, fn=hierarchy_fn,)
+
+    # df = df[["Modality", license_key]]
+    return df
 
 def plot_license_terms_stacked_bar_chart_collections(
     df, 
@@ -1583,6 +1615,7 @@ def plot_temporal_cumulative_sources(
         df_modsourceyears = df_mod.explode("Source Category")
         df_modsourceyears = reduce_categories_to_topk(df_modsourceyears, "Source Category", top_n)
         df_modsourceyears['Source Category'] = df_modsourceyears['Source Category'].apply(lambda x: x.title())
+        # return df_modsourceyears
         
         source_cat_mapper = {
             "Crowdsourced": "Crowd-Sourced",
@@ -1595,9 +1628,9 @@ def plot_temporal_cumulative_sources(
             "Governments": "Government",
             "Undisclosed Web": "General Web",
             "Calling Platform": "Calling Plat.",
-            "Ml Datasets": "Unsure",
-            "Others": "Unsure",
-            "Other": "Unsure",
+            "Ml Datasets": "Other",
+            "Others": "Other",
+            "Other": "Other",
         }
 
         df_modsourceyears['Source Category'].replace(source_cat_mapper, inplace=True)
@@ -1606,16 +1639,20 @@ def plot_temporal_cumulative_sources(
             rep_map.update({"<2013": f"<{earliest_year}"})
             df_modsourceyears['Year Released'].replace(rep_map, inplace=True)
 
+        df_modsourceyears = df_modsourceyears[df_modsourceyears['Year Released'] != "Unknown"]
+        df_modsourceyears['Year Released'] = df_modsourceyears['Year Released'].cat.remove_unused_categories()
+
         df_modsourcecumulativeyears = df_modsourceyears.groupby(
             ["Year Released", "Source Category"]
         )[cumulative_measurement].sum().groupby(
             "Source Category"
         ).cumsum().reset_index(name="Cumulative Hours")
+
+        # return df_modsourcecumulativeyears
         
         df_modsourcecumulativeyears = df_modsourcecumulativeyears.sort_values(by="Year Released")
         # Assuming your dataframe is named df
-        df_modsourcecumulativeyears = df_modsourcecumulativeyears[df_modsourcecumulativeyears['Year Released'] != "Unknown"]
-        df_modsourcecumulativeyears = df_modsourcecumulativeyears[df_modsourcecumulativeyears['Source Category'] != "Unsure"]
+        df_modsourcecumulativeyears = df_modsourcecumulativeyears[df_modsourcecumulativeyears['Source Category'] != "Other"]
         # print(df_modsourcecumulativeyears)
         return df_modsourcecumulativeyears[["Year Released", "Source Category", "Cumulative Hours"]]
     df_cumyears = prep_df(df, modality, top_n, cumulative_measurement, earliest_year=earliest_year)
