@@ -1478,6 +1478,13 @@ def prepare_conifer(row):
         parent = i
     return messages
 
+def prepare_reasoning(row):
+    outputs = "\n".join([row["reasoning"], row["output"]]).strip()
+    return convert_inputs_targets_to_messages(
+        row["instruction"],
+        outputs,
+        "reasoning-0.01",
+    )
 
 def prepare_dialogstudio(row):
     conversation = row["log"]

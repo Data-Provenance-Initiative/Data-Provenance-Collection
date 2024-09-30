@@ -1356,6 +1356,9 @@ def download_conifer(accepted_filter_ids):
     dset = huggingface_download("ConiferLM/Conifer", split="train_sft")
     return dset
 
+def download_reasoning(accepted_filter_ids):
+    dset = huggingface_download("SkunkworksAI/reasoning-0.01", split="train")
+    return dset
 
 def download_dialogstudio(accepted_filter_ids):
     dsets = []
