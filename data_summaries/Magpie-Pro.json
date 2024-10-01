@@ -8,8 +8,8 @@
         "Hugging Face URL": "https://huggingface.co/datasets/Magpie-Align/Magpie-Pro-300K-Filtered",
         "Papers with Code URL": "https://paperswithcode.com/paper/magpie-alignment-data-synthesis-from-scratch",
         "ArXiv URL": "https://arxiv.org/abs/2406.08464",
-        "Semantic Scholar Corpus ID": "https://www.semanticscholar.org/paper/Magpie%3A-Alignment-Data-Synthesis-from-Scratch-by-Xu-Jiang/cab3d65b3f4d0a4169d0fdaaed15af6be1d6bb84",
-        "Collection": "Magpie",
+        "Semantic Scholar Corpus ID": 270391432,
+        "Collection": "Magpie-Pro",
         "Collection URL": "https://huggingface.co/collections/Magpie-Align/magpie-pro-datasets-llama-3-6666b0e713e5f5c09554876f",
         "Languages": [
             "English"
@@ -36,7 +36,7 @@
             "Llama-3-70B-Instruct"
         ],
         "Format": [
-            "Chat"
+            "Multi-turn Dialog"
         ],
         "Human Annotation": "No",
         "Derived from Datasets": [],

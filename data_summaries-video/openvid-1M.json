@@ -1,5 +1,5 @@
 {
-    "Dataset Name": {
+    "OpenVid-1M": {
         "Unique Dataset Identifier": "OpenVid-1M",
         "Collection": "OpenVid-1M",
         "Collection URL": "",
@@ -23,7 +23,7 @@
         ],
         "Creators": [
             "Nanjing University",
-            "ByteDance",
+            "ByteDance AI Lab",
             "Nankai University"
         ],
         "Countries": [
