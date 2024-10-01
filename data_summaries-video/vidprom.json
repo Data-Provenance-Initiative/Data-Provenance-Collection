@@ -22,21 +22,18 @@
             }
         ],
         "Creators": [
-            "Wenhao Wang",
-            "Yi Yang"
+            "University of Technology Sydney",
+            "Zhejiang University"
         ],
         "Countries": [
             "Australia",
-            "China"
+            "China"        
         ],
         "License Verified By": "Campbell Lund",
         "Video Hours": 239688.16,
         "Taken Down": "False",
         "Video Sources": [
-            "Pika",
-            "Text2Video-Zero",
-            "VideoCraft2",
-            "ModelScope"
+            "Models"
         ],
         "Task Categories": [
             "Text-to-Video",

@@ -36,17 +36,14 @@
         "Video Hours": "",
         "Taken Down": "False",
         "Video Sources": [
-            "STAR",
-            "PAXION",
-            "MiTV1",
-            "FunQA",
-            "CLEVRER",
-            "Perception Test",
-            "Charades-STA",
-            "MoVQA",
-            "NTURGB+D",
-            "VLN-CE",
-            "TVQA"
+            "Unclear",
+            "Human Participants",
+            "General Web",
+            "youtube",
+            "Models",
+            "Movies",
+            "crowdsourced",
+            "TV"
         ],
         "Task Categories": [
             "Visual Question Answering",

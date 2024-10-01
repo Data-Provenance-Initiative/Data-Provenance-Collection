@@ -13,7 +13,7 @@
         "Semantic Scholar Corpus ID": 270285854,
         "Year Released": 2024,
         "Text Sources": [
-            "ShareCaptioner-Video and GPT4V generated"
+            "Models"
         ],
         "Licenses": [
             {
@@ -36,8 +36,8 @@
         "Video Sources": [
             "youtube",
             "undisclosed web",
-            "Ego4D",
-            "BDD100K"
+            "Human Participants",
+            "crowdsourced"
 
         ],
         "Task Categories": [
