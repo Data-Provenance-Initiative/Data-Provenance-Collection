@@ -9,7 +9,7 @@
         "Papers with Code URL": "",
         "ArXiv URL": "",
         "Semantic Scholar Corpus ID": "",
-        "Collection": "",
+        "Collection": "Synthetic-GSM8K-Refelction",
         "Collection URL": "",
         "Languages": [
             "English"
@@ -17,15 +17,15 @@
         "Task Categories": [
             "Math Word Problems",
             "Reflection",
-            "Chain of Thought Reasoning"
+            "Chain of Thought Reasoning",
+            "Question Answering"
         ],
-        "Text Sources": ["Machine generated"],
+        "Text Sources": [],
         "Model Generated": [
             "Llama-3.1-405B-Instruct"
         ],
         "Format": [
-            "Question Answering",
-            "Instruction Following"
+            "Zero-shot"
         ],
         "Human Annotation": "No",
         "Derived from Datasets": [],

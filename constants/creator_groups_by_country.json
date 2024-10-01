@@ -3,13 +3,17 @@
         "Alamoja Yoruba & Masakhane NLP",
         "Masakhane NLP"
     ],
+    "Algeria": [
+        "Crstdla"
+    ],
     "Australia": [
         "RMIT University",
         "University of Melbourne",
         "University of New South Wales"
     ],
     "Austria": [
-        "Institute of Science and Technology Austria"
+        "Institute of Science and Technology Austria",
+        "University of Innsbruck"
     ],
     "Bangladesh": [
         "Bangladesh University of Engineering and Technology",
@@ -139,6 +143,12 @@
         "ROCKWOOL Foundation Research Unit",
         "University of Copenhagen"
     ],
+    "Egypt": [
+        "Alexandria University",
+        "Assiut University",
+        "Nile University",
+        "Al-Azhar University"
+    ],
     "Finland": [
         "Aalto University",
         "Aalto University School of Business",
@@ -261,6 +271,7 @@
         "BigScience",
         "Center for Research on Engineering Software Technologies",
         "CodeX",
+        "Clusterlab Team",
         "Collective Cognition",
         "Flax-sentence-embeddings",
         "Mobile Communications Business",
@@ -324,10 +335,15 @@
     ],
     "Jordan": [
         "Appswave",
-        "The University of Jordan"
+        "The University of Jordan",
+        "Princess Sumaya University for Technology",
+        "Mutah University"
     ],
     "Kazakhstan": [
         "Nazarbayev University"
+    ],
+    "Lebanon": [
+        "American University of Beirut"
     ],
     "Mexico": [
         "Instituto Polit\u00e9cnico Nacional"
@@ -409,7 +425,9 @@
     "Saudi Arabia": [
         "ArbML",
         "King Abdullah University of Science and Technology (KAUST)",
-        "King Fahd University of Petroleum and Minerals"
+        "King Fahd University of Petroleum and Minerals",
+        "Umm Al-Qura University",
+        "Arab Open University"
     ],
     "Scotland": [
         "University of Glasgow"
@@ -490,7 +508,9 @@
     ],
     "UAE": [
         "Abu Dhabi University",
-        "MBZUAI"
+        "Emirates College of Technology",
+        "MBZUAI",
+        "University of Sharjah"
     ],
     "Ukraine": [
         "Taras Shevchenko National University of Kyiv"
@@ -659,6 +679,7 @@
         "Schrodinger Inc.",
         "Seasalt AI Inc",
         "ServiceNow Research",
+        "SkunkworksAI",
         "ShareGPT",
         "Snap Inc.",
         "Snips",
@@ -724,6 +745,10 @@
         "Wright State University",
         "Yahoo! Inc.",
         "Yale University"
+    ],
+    
+    "Venezuela": [
+        "Simon Bolivar University"
     ],
     "Vietnam": [
         "VietAI",

@@ -27,7 +27,7 @@
             "Program Synthesis"
         ],
         "Text Sources": [],
-        "Model Generated": [],
+        "Model Generated": ["OpenAI ChatGPT"],
         "Format": [
             "Multi-step Reasoning"
         ],
@@ -40,6 +40,10 @@
             {
                 "License": "Apache License 2.0",
                 "License URL": "https://huggingface.co/datasets/SkunkworksAI/reasoning-0.01"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": ""
             }
         ],
         "License Notes": "",

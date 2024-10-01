@@ -1,5 +1,5 @@
 {
-    "Dataset Name": {
+    "Disney-VideoGeneration-Dataset": {
         "Unique Dataset Identifier": "Disney-VideoGeneration-Dataset",
         "Collection": "Disney-VideoGeneration-Dataset",
         "Collection URL": "",
@@ -17,13 +17,11 @@
         ],
         "Licenses": [
             {
-                "License": "Apache-2.0",
+                "License": "Apache 2.0",
                 "License URL": "https://huggingface.co/datasets/Wild-Heart/Disney-VideoGeneration-Dataset/resolve/main/LICENSE"
             }
         ],
-        "Creators": [
-            ""
-        ],
+        "Creators": [],
         "Countries": [
             "China"
         ],

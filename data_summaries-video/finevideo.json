@@ -1,5 +1,5 @@
 {
-    "Dataset Name": {
+    "finevideo": {
         "Unique Dataset Identifier": "finevideo",
         "Collection": "finevideo",
         "Collection URL": "",
@@ -17,19 +17,15 @@
         ],
         "Licenses": [
             {
-                "License": "CC BY",
+                "License": "CC BY 4.0",
                 "License URL": "https://huggingface.co/datasets/HuggingFaceFV/finevideo#license-cc-by"
             }
         ],
         "Creators": [
-            "Miquel Farré",
-            "Andi Marafioti",
-            "Lewis Tunstall",
-            "Leandro Von Werra",
-            "Thomas Wolf"
+            "Huggingface"
         ],
         "Countries": [
-            ""
+            "United States of America"
         ],
         "License Verified By": "Campbell Lund",
         "Video Hours": 3425.0,

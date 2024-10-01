@@ -231,7 +231,7 @@
         "Human Annotation": "Yes",
         "Derived from Datasets": [],
 	  "Bibtex": "@misc{abdallah2024arabicaqacomprehensivedatasetarabic,\ntitle={ArabicaQA: A Comprehensive Dataset for Arabic Question Answering},\nauthor={Abdelrahman Abdallah,\nMahmoud Kasem,\nMahmoud Abdalla,\nMohamed Mahmoud,\nMohamed Elkasaby,\nYasser Elbendary,\nAdam Jatowt},\nyear={2024},\neprint={2403.17848},\narchivePrefix={arXiv},\nprimaryClass={cs.CL},\nurl={https://arxiv.org/abs/2403.17848}\n}",
-        "Creators": ["University of Innsbruck", "Assuit University"],
+        "Creators": ["University of Innsbruck", "Assiut University"],
         "Licenses": [
             {
                 "License": "MIT License",

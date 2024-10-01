@@ -1,5 +1,5 @@
 {
-    "Dataset Name": {
+    "MVBench": {
         "Unique Dataset Identifier": "MVBench",
         "Collection": "MVBench",
         "Collection URL": "",
@@ -27,13 +27,13 @@
             "Shanghai AI Laboratory",
             "The University of Hong Kong",
             "Fudan University",
-            "State Key Laboratory for Novel Software Technology, Nanjing University"
+            "Nanjing University"
         ],
         "Countries": [
             "China"
         ],
         "License Verified By": "Campbell Lund",
-        "Video Hours": "",
+        "Video Hours": 0,
         "Taken Down": "False",
         "Video Sources": [
             "STAR",

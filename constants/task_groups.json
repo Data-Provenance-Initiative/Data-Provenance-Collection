@@ -25,6 +25,7 @@
         "Logical Reasoning Question Answering",
         "Logical and Mathematical Reasoning",
         "Mathematical Equation Generation",
+        "Math Word Problems",
         "Numerical Data Aggregation and Analysis",
         "Ordering Task",
         "Price Prediction",
@@ -35,6 +36,7 @@
         "Argumentative Dialogue Generation",
         "Context Generation",
         "Customer Service Dialogue Generation",
+        "Chat",
         "Dialog Context Generation",
         "Dialog Generation",
         "Dialog Turn Prediction",
@@ -102,6 +104,7 @@
         "Intent Identification",
         "Interview Question Answering",
         "Inverted Question Answering",
+        "Information Seeking",
         "Knowledge Base Question Answering",
         "Math",
         "Medical Diagnosis Question Answering",
@@ -186,6 +189,7 @@
         "Coding",
         "Command Line Execution Question Answering",
         "Command Line Output Generation",
+        "Debugging",
         "File Line Counting",
         "File Search and Replace Generation",
         "Program Execution",
@@ -306,7 +310,9 @@
     ],
     "Chain-of-Thought": [
         "Chain-of-Thought",
-        "Goal Setting Question Answering"
+        "Goal Setting Question Answering",
+        "Chain of Thought Reasoning",
+        "Reflection"
     ],
     "Bias & Toxicicity Detection": [
         "Adversarial Hate Speech Detection",
@@ -353,6 +359,7 @@
         "Advertising Slogan Generation",
         "Biography Generation",
         "Creative Writing",
+        "Editing",
         "DIY Tutorial Generation",
         "Educational Content Generation for Television",
         "Email Drafting",
@@ -365,12 +372,14 @@
         "Poem Generation",
         "Recipe Generation",
         "Roleplay",
+        "Role Playing",
         "Scene Generation",
         "Song Generation",
         "Story Arc Construction",
         "Taxpayer Receipt Generation"
     ],
     "Creativity": [
+        "Advice Seeking",
         "Cooking Instruction Understanding",
         "Creativity",
         "Humor Detection",
@@ -410,8 +419,10 @@
         "Probabilistic Reasoning",
         "Probabilistic Reasoning Question Answering",
         "Reasoning over Natural Language",
+        "Reasoning",
         "Spatial Reasoning Question Answering",
         "Task-Specific Actions",
+        "Planning",
         "Word Relation Classification",
         "Word Semantics"
     ],
