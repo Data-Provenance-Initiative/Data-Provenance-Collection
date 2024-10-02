@@ -571,6 +571,27 @@ def prepare_preference_collection(row):
         "preference_collection",
     )
 
+def prepare_synthetic_gsm8k_reflection(row):
+    return convert_inputs_targets_to_messages(
+        row["question"],
+        row["answer"],
+        "synthetic_gsm8k_reflection",
+    )
+
+def prepare_magie(row):
+    parent = "magpie"
+    messages = []
+    for i, turn in enumerate(row["conversations"]):
+        messages.append(
+            {
+                "from": "user" if turn["from"] == "human" else "gpt",
+                "text": turn["value"].strip(),
+                "parent": parent,
+            }
+        )
+        parent = i
+    return messages
+
 
 def prepare_sharegpt_vicuna(row):
     parent = "sharegpt_vicuna"
@@ -1478,6 +1499,13 @@ def prepare_conifer(row):
         parent = i
     return messages
 
+def prepare_reasoning(row):
+    outputs = "\n".join([row["reasoning"], row["output"]]).strip()
+    return convert_inputs_targets_to_messages(
+        row["instruction"],
+        outputs,
+        "reasoning-0.01",
+    )
 
 def prepare_dialogstudio(row):
     conversation = row["log"]
@@ -1552,3 +1580,10 @@ def prepare_dynosaur(row):
         },
         {"from": "assistant", "text": row["output"], "parent": 0},
     ]
+
+def prepare_inst_ar(row):
+    return convert_inputs_targets_to_messages(
+        row["instruction"],
+        row["output"],
+        row["source"],
+    )

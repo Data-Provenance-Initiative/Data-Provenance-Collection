@@ -35,6 +35,8 @@ Flan Collection (Super-NaturalInstructions),"Prohibited-Yelp, Quora",,,,"Noncomm
 GPT-4-Alpaca,,,,,,,Non-compete - OpenAI,,Prohibited-Anthropic
 GPTeacher,,,,,,,Non-compete - OpenAI,,Unspecified
 Glaive Code Assistant,,,Unspecified,,Unspecified,,,,
+Glaive Code Assistant v2,,,Unspecified,,Unspecified,,,,
+Glaive Code Assistant v3,,,Unspecified,,Unspecified,,,,
 Gorilla,,,,,,,Non-compete - OpenAI,,Unspecified
 Gretel Text-to-SQL,,,Not Prohibited,,Commercial,,,,
 HC3 (Chinese),Prohibited- heathcaremagic.com,,Unspecified,,Noncommercial,,Non-compete - OpenAI,,Unspecified
@@ -101,3 +103,7 @@ xP3x,Prohibited-Quora,,Unspecified,,Noncommercial - Quora,,Unspecified,,Unspecif
 Dynosaur,Prohibited,,Likely Prohibited,,Noncommercial,,Non-compete,,
 Lumos Grounding,Prohibited,,Likely Prohibited,,Noncommercial,,Non-compete,,
 Lumos Planning,Prohibited,,Likely Prohibited,,Noncommercial,,Non-compete,,
+InstAr,Prohibited,,Unspecified,,Noncommercial,,Unspecified,,Unspecified
+Reasoning,Unspecified,,Unspecified,,Unspecified,,Non-compete - OpenAI,,Unspecified
+Magpie-Pro,Unspecified,,Unspecified,,Unspecified,,Unspecified,,Unspecified
+Synthetic-GSM8K-Refelction,Unspecified,,Unspecified,,Unspecified,,Unspecified,,Unspecified

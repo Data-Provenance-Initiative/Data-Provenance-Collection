@@ -1,0 +1,959 @@
+{
+    "instAr-aqad": {
+        "Unique Dataset Identifier": "instAr-aqad",
+        "Dataset Name": "aqad",
+        "Paper Title": "AQAD: 17,000+ Arabic Questions for Machine Comprehension of Text",
+        "Dataset URL": "https://huggingface.co/datasets/arbml/AQAD",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 231618331,
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Question Answering"],
+        "Text Sources": ["wikipedia.org"],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": ["squad"],
+        "Bibtex": "@Article{Atef2020AQAD,\n author = {Adel Atef and Bassam Mattar and Sandra Sherif and Eman Elrefai and Marwan Torki},\n title = {{AQAD}: 17,000+ Arabic Questions for Machine Comprehension of Text}\n, journal   = {2020 IEEE/ACS 17th International Conference on Computer Systems and Applications (AICCSA)},\n year = {2020},\n pages = {1-6}, \n url = {https://api.semanticscholar.org/CorpusID:231618331}}",
+        "Creators": ["Alexandria University"],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "aqad"
+        ]
+    },
+    "instAr-arcd": {
+        "Unique Dataset Identifier": "instAr-arcd",
+        "Dataset Name": "arcd",
+        "Paper Title": "Neural Arabic Question Answering\n",
+        "Dataset URL": "https://huggingface.co/datasets/arcd",
+        "GitHub URL": "https://github.com/husseinmozannar/SOQAL",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/1906.05394",
+        "Semantic Scholar Corpus ID": 189762189,
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Question Answering"],
+        "Text Sources": ["wikipedia.org"],
+        "Model Generated": ["Command R+"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Bibtex": "",
+        "Creators": ["American University of Beirut"],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/arcd"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "arcd"
+        ]
+    },
+    "instAr-brad": {
+        "Unique Dataset Identifier": "instAr-brad",
+        "Dataset Name": "brad",
+        "Paper Title": "BRAD 1.0: Book reviews in Arabic dataset\n",
+        "Dataset URL": "https://huggingface.co/datasets/arbml/BRAD",
+        "GitHub URL": "https://github.com/elnagara/BRAD-Arabic-Dataset",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 26062127,
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Classification"],
+        "Text Sources": ["goodreads.com"],
+        "Model Generated": ["Command R+"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": ["labr"],
+	  "Bibtex": "@inproceedings{elnagar2016brad,\n title={BRAD 1.0: Book reviews in Arabic dataset},\n author={Elnagar, Ashraf and Einea, Omar},\n booktitle={2016 IEEE/ACS 13th International Conference of Computer Systems and Applications (AICCSA)},\n pages={1--8},\n year={2016},\n organization={IEEE}\n}",
+        "Creators": ["University of Sharjah"],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "brad"
+        ]
+    },
+    "instAr-dawqas": {
+        "Unique Dataset Identifier": "instAr-dawqas",
+        "Dataset Name": "dawqas",
+        "Paper Title": "DAWQAS: A Dataset for Arabic Why Question Answering System",
+        "Dataset URL": "https://huggingface.co/datasets/arbml/DAWQAS",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 58952100,
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Question Answering"],
+        "Text Sources": ["google search"],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+	  "Bibtex": "",
+        "Creators": ["Emirates College of Technology", "Simon Bolivar University"],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "dawqas"
+        ]
+    },
+    "instAr-xtreme": {
+        "Unique Dataset Identifier": "instAr-xtreme",
+        "Dataset Name": "xtreme",
+        "Paper Title": "XTREME: A Massively Multilingual Multi-task Benchmark\nfor Evaluating Cross-lingual Generalization",
+        "Dataset URL": "https://huggingface.co/datasets/xtreme",
+        "GitHub URL": "https://github.com/google-research/xtreme",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2003.11080",
+        "Semantic Scholar Corpus ID": 214641214,
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Misc.","Part-of-Speech Tagging", "Named Entity Recognition", "Question Answering", "Translation"],
+        "Text Sources": ["crowdsourced"],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": ["multinli"],
+	  "Bibtex": "@inproceedings{hu2020xtreme,\ntitle={Xtreme: A massively multilingual multi-task benchmark for evaluating cross-lingual generalisation},\nauthor={Hu, Junjie,\nRuder, Sebastian,\nSiddhant, Aditya,\nNeubig, Graham,\nFirat, Orhan,\nJohnson, Melvin},\nbooktitle={International Conference on Machine Learning},\npages={4411--4421},\nyear={2020},\norganization={PMLR}\n}",
+        "Creators": ["Carnegie Mellon University", "DeepMind"],
+        "Licenses": [
+            {
+                "License": "Apache 2.0",
+                "License URL": "https://github.com/google-research/xtreme?tab=Apache-2.0-1-ov-file"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "xtreme"
+        ]
+    },
+    "instAr-xlel_wd_dictionary": {
+        "Unique Dataset Identifier": "instAr-xlel_wd_dictionary",
+        "Dataset Name": "xlel_wd_dictionary",
+        "Paper Title": "Multilingual Entity Linking to Wikidata",
+        "Dataset URL": "https://huggingface.co/datasets/adithya7/xlel_wd_dictionary",
+        "GitHub URL": "https://github.com/adithya7/xlel-wd",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2204.06535",
+        "Semantic Scholar Corpus ID": 248157430,
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Entity Linking"],
+        "Text Sources": ["quran"],
+        "Model Generated": ["Command R+"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+	  "Bibtex": "@misc{pratapa2022multilingualeventlinkingwikidata,\ntitle={Multilingual Event Linking to Wikidata},\nauthor={Adithya Pratapa,\nRishubh Gupta,\nTeruko Mitamura},\nyear={2022},\neprint={2204.06535},\narchivePrefix={arXiv},\nprimaryClass={cs.CL},\nurl={https://arxiv.org/abs/2204.06535}\n}",
+        "Creators": ["Carnegie Mellon University"],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://archive.researchdata.leeds.ac.uk/464/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "xlel_wd_dictionary"
+        ]
+    },
+    "instAr-arabica_qa": {
+        "Unique Dataset Identifier": "instAr-arabica_qa",
+        "Dataset Name": "arabica_qa",
+        "Paper Title": "Arabicaqa: A comprehensive dataset for arabic question answering",
+        "Dataset URL": "https://huggingface.co/datasets/abdoelsayed/ArabicaQA",
+        "GitHub URL": "https://github.com/DataScienceUIBK/ArabicaQA#",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2403.17848",
+        "Semantic Scholar Corpus ID": 268691723,
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Question Answering"],
+        "Text Sources": ["wikipedia.org"],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+	  "Bibtex": "@misc{abdallah2024arabicaqacomprehensivedatasetarabic,\ntitle={ArabicaQA: A Comprehensive Dataset for Arabic Question Answering},\nauthor={Abdelrahman Abdallah,\nMahmoud Kasem,\nMahmoud Abdalla,\nMohamed Mahmoud,\nMohamed Elkasaby,\nYasser Elbendary,\nAdam Jatowt},\nyear={2024},\neprint={2403.17848},\narchivePrefix={arXiv},\nprimaryClass={cs.CL},\nurl={https://arxiv.org/abs/2403.17848}\n}",
+        "Creators": ["University of Innsbruck", "Assiut University"],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/DataScienceUIBK/ArabicaQA#"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "arabica_qa"
+        ]
+    },
+    "instAr-101_billion_arabic_dataset": {
+        "Unique Dataset Identifier": "instAr-101_billion_arabic_dataset",
+        "Dataset Name": "101_billion_arabic_dataset",
+        "Paper Title": "101 Billion Arabic Words Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/ClusterlabAi/101_billion_arabic_words_dataset",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2405.01590",
+        "Semantic Scholar Corpus ID": 269588197,
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Language Modeling"],
+        "Text Sources": ["commoncrawl.org"],
+        "Model Generated": ["Command R+"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+	  "Bibtex": "@misc{aloui2024101billionarabicwords,\ntitle={101 Billion Arabic Words Dataset},\nauthor={Manel Aloui,\nHasna Chouikhi,\nGhaith Chaabane,\nHaithem Kchaou,\nChehir Dhaouadi},\nyear={2024},\neprint={2405.01590},\narchivePrefix={arXiv},\nprimaryClass={cs.CL},\nurl={https://arxiv.org/abs/2405.01590}\n}",
+        "Creators": ["Clusterlab Team"],
+        "Licenses": [
+            {
+                "License": "Apache 2.0",
+                "License URL": "https://huggingface.co/datasets/ClusterlabAi/101_billion_arabic_words_dataset"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "101_billion_arabic_dataset"
+        ]
+    },
+    "instAr-abmc_arabic_corpus": {
+        "Unique Dataset Identifier": "instAr-abmc_arabic_corpus",
+        "Dataset Name": "abmc_arabic_corpus",
+        "Paper Title": "Evaluation of Topic Identification Methods on Arabic Corpora",
+        "Dataset URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "14933068",
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Classification"],
+        "Text Sources": ["undisclosed web"],
+        "Model Generated": ["Command R+"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+	  "Bibtex": "",
+        "Creators": ["Crstdla"],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "abmc_arabic_corpus"
+        ]
+    },
+    "instAr-abu_el_khair": {
+        "Unique Dataset Identifier": "instAr-abu_el_khair",
+        "Dataset Name": "abu_el_khair",
+        "Paper Title": "1.5 billion words Arabic Corpus",
+        "Dataset URL": "https://huggingface.co/datasets/abuelkhair-corpus/arabic_billion_words",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/1611.04033",
+        "Semantic Scholar Corpus ID": 12951274,
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Classification"],
+        "Text Sources": ["undisclosed web"],
+        "Model Generated": ["Command R+"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+	  "Bibtex": "@misc{elkhair201615billionwordsarabic,\ntitle={1.5 billion words Arabic Corpus},\nauthor={Ibrahim Abu El-khair},\nyear={2016},\neprint={1611.04033},\narchivePrefix={arXiv},\nprimaryClass={cs.CL},\nurl={https://arxiv.org/abs/1611.04033}\n}",
+        "Creators": ["Umm Al-Qura University"],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "abu_el_khair"
+        ]
+    },
+    "instAr-alriyadh_news": {
+        "Unique Dataset Identifier": "instAr-alriyadh_news",
+        "Dataset Name": "alriyadh_news",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Classification"],
+        "Text Sources": ["undisclosed web"],
+        "Model Generated": ["Command R+"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+	  "Bibtex": "",
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "alriyadh_news"
+        ]
+    },
+    "instAr-ar_math": {
+        "Unique Dataset Identifier": "instAr-ar_math",
+        "Dataset Name": "ar_math",
+        "Paper Title": "Armath: a dataset for solving arabic math word problems",
+        "Dataset URL": "https://github.com/reem-codes/ArMATH",
+        "GitHub URL": "https://github.com/reem-codes/ArMATH",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 252410658,
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Logical and Mathematical Reasoning"],
+        "Text Sources": ["human"],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": ["MATH23K"],
+	  "Bibtex": "@article{alghamdi2022armath,\ntitle={Armath: a dataset for solving arabic math word problems},\nauthor={Alghamdi, Reem,\nLiang, Zhenwen,\nZhang, Xiangliang},\nyear={2022},\npublisher={European Language Resources Association}\n}",
+        "Creators": ["King Abdullah University of Science and Technology (KAUST)"],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://repository.kaust.edu.sa/items/37a292e5-b35e-482f-876b-4628e7833afa"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "ar_math"
+        ]
+    },
+    "instAr-ar_medical": {
+        "Unique Dataset Identifier": "instAr-ar_medical",
+        "Dataset Name": "ar_medical",
+        "Paper Title": "BiMediX: Bilingual Medical Mixture of Experts LLM",
+        "Dataset URL": "https://huggingface.co/BiMediX",
+        "GitHub URL": "https://github.com/mbzuai-oryx/BiMediXX",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2402.13253",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Open Question Answering"],
+        "Text Sources":["medical dialog", "Medical Exams", "human"],
+        "Model Generated": ["OpenAI GPT-3.5-Turbo"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": ["PubMedQA", "MedMCQA", "MedQA", "HealthCareMagic", "iCliniq", "Medical Meadow", "UMLS", "LiveQA", "MedicationQA"],
+	  "Bibtex": "@misc{pieri2024bimedixbilingualmedicalmixture,\ntitle={BiMediX: Bilingual Medical Mixture of Experts LLM},\nauthor={Sara Pieri,\nSahal Shaji Mullappilly,\nFahad Shahbaz Khan,\nRao Muhammad Anwer,\nSalman Khan,\nTimothy Baldwin,\nHisham Cholakkal},\nyear={2024},\neprint={2402.13253},\narchivePrefix={arXiv},\nprimaryClass={cs.CL},\nurl={https://arxiv.org/abs/2402.13253}\n}",
+        "Creators": ["MBZUAI"],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "https://github.com/mbzuai-oryx/BiMediX"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "ar_medical"
+        ]
+    },
+    "instAr-arabic_categorization_sanad": {
+        "Unique Dataset Identifier": "instAr-arabic_categorization_sanad",
+        "Dataset Name": "arabic_categorization_sanad",
+        "Paper Title": "SANAD: Single-label Arabic News Articles Dataset for automatic text categorization\n",
+        "Dataset URL": "https://huggingface.co/datasets/arbml/SANAD",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 195417601,
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Classification"],
+        "Text Sources": ["undisclosed web"],
+        "Model Generated": ["Command R+"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+	  "Bibtex": "@article{einea2019sanad,\ntitle={Sanad: Single-label arabic news articles dataset for automatic text categorization},\nauthor={Einea, Omar,\nElnagar, Ashraf,\nAl Debsi, Ridhwan},\njournal={Data in brief},\nvolume={25},\npages={104076},\nyear={2019},\npublisher={Elsevier}\n}",
+        "Creators": ["University of Sharjah"],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://data.mendeley.com/datasets/57zpx667y9/2"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "arabic_categorization_sanad"
+        ]
+    },
+    "instAr-arabic_rc": {
+        "Unique Dataset Identifier": "instAr-arabic_rc",
+        "Dataset Name": "arabic_rc",
+        "Paper Title": "Arabic Reading Comprehension Benchmarks Created Semiautomatically",
+        "Dataset URL": "https://huggingface.co/datasets/arbml/Arabic_RC_AQA",
+        "GitHub URL": "https://github.com/MariamBiltawi/Arabic_RC_datasets",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 230999138,
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Question Answering"],
+        "Text Sources": ["undisclosed web"],
+        "Model Generated":[],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": ["public websites without copyright"],
+	  "Bibtex": "@inproceedings{biltawi2020arabic,\ntitle={Arabic reading comprehension benchmarks created semiautomatically},\nauthor={Biltawi, Mariam,\nAwajan, Arafat,\nTedmori, Sara},\nbooktitle={2020 21st International Arab Conference on Information Technology (ACIT)},\npages={1--6},\nyear={2020},\norganization={IEEE}\n}",
+        "Creators": ["Princess Sumaya University for Technology", "Mutah University"],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "arabic_rc"
+        ]
+    },
+    "instAr-arabic_text_summarization": {
+        "Unique Dataset Identifier": "instAr-arabic_text_summarization",
+        "Dataset Name": "arabic_text_summarization",
+        "Paper Title": "Arabic Text Summarization Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 0,
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Summarization"],
+        "Text Sources": ["undisclosed web"],
+        "Model Generated": ["Command R+"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+	  "Bibtex": "",
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "arabic_text_summarization"
+        ]
+    },
+    "instAr-classical_arabic_poetry": {
+        "Unique Dataset Identifier": "instAr-classical_arabic_poetry",
+        "Dataset Name": "classical_arabic_poetry",
+        "Paper Title": "Classical Arabic Poetry: Classification based on Era",
+        "Dataset URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 231618070,
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Classification"],
+        "Text Sources": ["poetry"],
+        "Model Generated": ["Command R+"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+	  "Bibtex": "",
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://data.mendeley.com/datasets/mcj6vkg6zw/1"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "classical_arabic_poetry"
+        ]
+    },
+    "instAr-htl_ar_sentiment": {
+        "Unique Dataset Identifier": "instAr-htl_ar_sentiment",
+        "Dataset Name": "htl_ar_sentiment",
+        "Paper Title": "Building Large Arabic Multi-domain Resources for Sentiment Analysis",
+        "Dataset URL": "https://huggingface.co/datasets/arbml/ATT",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 37553039,
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Sentiment Analysis", "Classification"],
+        "Text Sources": ["undisclosed web"],
+        "Model Generated": ["Command R+"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": ["movies reviews", "hotels reviews", "restaurants reviews", "products reviews"],
+	  "Bibtex": "@inproceedings{elsahar2015building,\ntitle={Building large arabic multi-domain resources for sentiment analysis},\nauthor={ElSahar, Hady,\nEl-Beltagy, Samhaa R},\nbooktitle={International conference on intelligent text processing and computational linguistics},\npages={23--34},\nyear={2015},\norganization={Springer}\n}",
+        "Creators": ["Nile University"],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "htl_ar_sentiment"
+        ]
+    },
+    "instAr-mov_arsentiment": {
+        "Unique Dataset Identifier": "instAr-mov_arsentiment",
+        "Dataset Name": "mov_arsentiment",
+        "Paper Title": "Building Large Arabic Multi-domain Resources for Sentiment Analysis",
+        "Dataset URL": "https://huggingface.co/datasets/arbml/ATT",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 37553039,
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Sentiment Analysis", "Classification"],
+        "Text Sources": ["undisclosed web"],
+        "Model Generated": ["Command R+"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": ["movies reviews", "hotels reviews", "restaurants reviews", "products reviews"],
+	  "Bibtex": "@inproceedings{elsahar2015building,\ntitle={Building large arabic multi-domain resources for sentiment analysis},\nauthor={ElSahar, Hady,\nEl-Beltagy, Samhaa R},\nbooktitle={International conference on intelligent text processing and computational linguistics},\npages={23--34},\nyear={2015},\norganization={Springer}\n}",
+        "Creators": ["Nile University"],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "mov_arsentiment"
+        ]
+    },
+    "instAr-sahih_al_bukhari": {
+        "Unique Dataset Identifier": "instAr-sahih_al_bukhari",
+        "Dataset Name": "sahih_al_bukhari",
+        "Paper Title": "Doc2Vec: An approach to identify Hadith Similarities",
+        "Dataset URL": "https://www.researchgate.net/publication/350291221_Doc2Vec_An_approach_to_identify_Hadith_Similarities",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Classification"],
+        "Text Sources": ["undisclosed web"],
+        "Model Generated": ["Command R+"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+	  "Bibtex": "@article{abdelghany2020doc2vec,\ntitle={Doc2Vec: An approach to identify Hadith Similarities},\nauthor={Abdelghany, Ahmed M,\nAbdElaal, Hammam M,\nKamr, Abdulrahman M,\nElkafrawy, Passent M},\njournal={Australian Journal of Basic and Applied Sciences},\nvolume={14},\nnumber={12},\npages={46--53},\nyear={2020}\n}",
+        "Creators": ["Nile University", "Al-Azhar University", "Arab Open University"],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "sahih_al_bukhari"
+        ]
+    },
+    "instAr-res_ar_sentiment": {
+        "Unique Dataset Identifier": "instAr-res_ar_sentiment",
+        "Dataset Name": "res_ar_sentiment",
+        "Paper Title": "Building Large Arabic Multi-domain Resources for Sentiment Analysis",
+        "Dataset URL": "https://huggingface.co/datasets/ar_res_reviews",
+        "GitHub URL": "https://github.com/hadyelsahar/large-arabic-sentiment-analysis-resouces",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 37553039,
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Sentiment Analysis", "Classification"],
+        "Text Sources": ["undisclosed web"],
+        "Model Generated": ["Command R+"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": ["movies reviews", "hotels reviews", "restaurants reviews", "products reviews"],
+	  "Bibtex": "@inproceedings{elsahar2015building,\ntitle={Building large arabic multi-domain resources for sentiment analysis},\nauthor={ElSahar, Hady,\nEl-Beltagy, Samhaa R},\nbooktitle={International conference on intelligent text processing and computational linguistics},\npages={23--34},\nyear={2015},\norganization={Springer}\n}",
+        "Creators": ["Nile University"],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "res_ar_sentiment"
+        ]
+    },
+    "instAr-prod_arsentiment": {
+        "Unique Dataset Identifier": "instAr-prod_arsentiment",
+        "Dataset Name": "prod_arsentiment",
+        "Paper Title": "Building Large Arabic Multi-domain Resources for Sentiment Analysis",
+        "Dataset URL": "https://huggingface.co/datasets/ar_res_reviews",
+        "GitHub URL": "https://github.com/hadyelsahar/large-arabic-sentiment-analysis-resouces",
+        "Hugging Face URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 37553039,
+        "Collection": "InstAr",
+        "Collection URL": "https://huggingface.co/datasets/ClusterlabAi/InstAr-500k",
+        "Languages": ["Arabic"],
+        "Task Categories": ["Sentiment Analysis", "Classification"],
+        "Text Sources": ["undisclosed web"],
+        "Model Generated": ["Command R+"],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": ["movies reviews", "hotels reviews", "restaurants reviews", "products reviews"],
+	  "Bibtex": "@inproceedings{elsahar2015building,\ntitle={Building large arabic multi-domain resources for sentiment analysis},\nauthor={ElSahar, Hady,\nEl-Beltagy, Samhaa R},\nbooktitle={International conference on intelligent text processing and computational linguistics},\npages={23--34},\nyear={2015},\norganization={Springer}\n}",
+        "Creators": ["Nile University"],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "prod_arsentiment"
+        ]
+    },
+     "instAr-cidar": {
+        "Unique Dataset Identifier": "instAr-cidar",
+        "Dataset Name": "cidar",
+        "Paper Title": "CIDAR: Culturally Relevant Instruction Dataset For Arabic",
+        "Dataset URL": "https://github.com/ARBML/CIDAR",
+        "GitHub URL": "https://github.com/ARBML/CIDAR",
+        "Hugging Face URL": "https://hf.co/datasets/arbml/CIDAR",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/cidar",
+        "ArXiv URL": "https://arxiv.org/abs/2402.03177",
+        "Semantic Scholar Corpus ID": "267413026",
+        "Collection": "InstAr",
+        "Collection URL": "https://hf.co/datasets/arbml/CIDAR",
+        "Languages": [
+            "Arabic"
+        ],
+        "Task Categories": [
+            "Instruction Generation",
+            "Binary Classification Question Answering",
+            "Goal Setting Question Answering",
+            "Shopping List Generation",
+            "Instruction Following",
+            "Narrative Generation",
+            "Summarization",
+            "Multiple Choice Necessity Classification",
+            "Interpretive Art Analysis",
+            "Open-Domain Question Answering",
+            "Hypernym Classification"
+        ],
+        "Text Sources": [
+            "learning.aljazeera.net/ar/asktheteacher"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "Alpagasus"
+        ],
+        "Creators": [
+            "ArbML"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/ARBML/CIDAR?tab=readme-ov-file#-license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://crfm.stanford.edu/2023/03/13/alpaca.html"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Emad Alghamdi",
+        "Dataset Filter IDs": [
+            "cidar"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 23,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "arbml/CIDAR",
+            "HF Date": "2024-01-20",
+            "HF Downloads (May 2024)": 1136,
+            "HF Likes (May 2024)": 31,
+            "HF Yaml License": "CC BY-NC 4.0",
+            "PwC Date": "2024-02-05",
+            "PwC Description": "CIDAR contains 10,000 instructions and their output. The dataset was created by selecting around 9,109 samples from Alpagasus dataset then translating it to Arabic using ChatGPT. In addition, we append that with around 891 Arabic grammar instructions from the webiste Ask the teacher. All the 10,000 samples were reviewed by around 12 reviewers.",
+            "PwC License Name": "CC BY-NC 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+            "S2 Citation Count (May 2024)": 0,
+            "S2 Date": "2024-02-05"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 10000,
+            "Mean Inputs Length": 59.6971,
+            "Mean Targets Length": 305.1279,
+            "Max Inputs Length": 1419,
+            "Max Targets Length": 10079,
+            "Min Inputs Length": 10,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Bibtex": "@Article{Alyafeai2024CIDARCR,\n author = {Zaid Alyafeai and Khalid Almubarak and Ahmed Ashraf and Deema Alnuhait and Saied Alshahrani and G. A. Abdulrahman and Gamil Ahmed and Qais Gawah and Zead Saleh and Mustafa Ghaleb and Yousef Ali and Maged S. Al-Shaibani},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {CIDAR: Culturally Relevant Instruction Dataset For Arabic},\n volume = {abs/2402.03177},\n year = {2024}\n}\n"
+    },
+        "instAr-aya": {
+        "Unique Dataset Identifier": "instAr-aya",
+        "Dataset Name": "aya",
+        "Paper Title": "Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning",
+        "Dataset URL": "https://huggingface.co/datasets/CohereForAI/aya_dataset/viewer/default/train?f[language][value]=%27Najdi%20Arabic%27",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/CohereForAI/aya_dataset",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2402.06619",
+        "Semantic Scholar Corpus ID": 267617144,
+        "Collection": "InstAr",
+        "Collection URL": "https://aya.for.ai",
+        "Languages": [
+            "Arabic"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought",
+            "Factual Knowledge Question Answering",
+            "Instruction Following",
+            "Multiple Choice Question Answering",
+            "Natural Language Inference",
+            "Open Question Answering",
+            "Question Answering",
+            "Summarization",
+            "Translation",
+            "Textual Entailment",
+            "Trivia",
+            "Miscellaneous"
+        ],
+        "Text Sources": [
+            "crowdsourced",
+            "human",
+            "volunteer annotations"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot",
+            "Chain-of-Thought"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "xP3"
+        ],
+        "Creators": [
+            "Cohere For AI"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/CohereForAI/aya_dataset#licensing-information"
+            },
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/bigscience/xP3#licensing-information"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "ars"
+        ],
+        "Bibtex": "@article{Singh2024AyaDA,\n title={Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning},\n author={Shivalika Singh and Freddie Vargus and Daniel Dsouza and B{\"o}rje F. Karlsson and Abinaya Mahendiran and Wei-Yin Ko and Herumb Shandilya and Jay Patel and Deividas Mataciunas and Laura OMahony and Mike Zhang and Ramith Hettiarachchi and Joseph Wilson and Marina Machado and Luisa Souza Moura and Dominik Krzemi'nski and Hakimeh Fadaei and Irem Ergun and Ifeoma Okoh and Aisha Alaagib and Oshan Mudannayake and Zaid Alyafeai and Minh Chien Vu and Sebastian Ruder and Surya Guthikonda and Emad A. Alghamdi and Sebastian Gehrmann and Niklas Muennighoff and Max Bartolo and Julia Kreutzer and A. Ustun and Marzieh Fadaee and Sara Hooker},\n journal={ArXiv},\n year={2024},\n volume={abs/2402.06619},\n url={https://api.semanticscholar.org/CorpusID:267617144}\n }",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "CohereForAI/aya_dataset",
+            "HF Date": "2024-01-31",
+            "HF Downloads (May 2024)": 3518,
+            "HF Likes (May 2024)": 225,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 10,
+            "S2 Date": "2024-02-09"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 136,
+            "Mean Inputs Length": 109.0368,
+            "Mean Targets Length": 185.7941,
+            "Max Inputs Length": 1591,
+            "Max Targets Length": 1406,
+            "Min Inputs Length": 9,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    }
+
+}

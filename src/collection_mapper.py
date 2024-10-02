@@ -149,6 +149,14 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_preference_collection,
         "prepare_function": preparers.prepare_preference_collection,
     },
+    "MagPie-Pro": {
+        "download_function": downloaders.download_magpie
+        "prepare_function": preparers.prepare_magie
+    },
+    "Synthetic-GSM8K-Reflection": {
+        "download_function":, downloaders.download_synthetic_gsm8k_reflection
+        "prepare_function": preparers.download_synthetic_gsm8k_reflection
+    }
     "Llama2-MedTuned-Instructions": {
         "download_function": downloaders.download_llama2_med_tuned_instructions,
         "prepare_function": preparers.prepare_llama2_med_tuned_instructions,
@@ -402,6 +410,10 @@ COLLECTION_FN_MAPPER = {
         "download_function": downloaders.download_conifer,
         "prepare_function": preparers.prepare_conifer,
     },
+    "Reasoning": {
+        "download_function": downloaders.download_reasoning,
+        "prepare_function": preparers.prepare_reasoning,
+    },
     "DialogStudio": {
         "download_function": downloaders.download_dialogstudio,
         "prepare_function": preparers.prepare_dialogstudio,
@@ -425,5 +437,9 @@ COLLECTION_FN_MAPPER = {
     "Lumos Grounding": {
         "download_function": downloaders.download_lumos_grounding,
         "prepare_function": preparers.prepare_lumos_grounding,
+    },
+    "InstAr": {
+        "download_function": downloaders.download_inst_ar,
+        "prepare_function": preparers.prepare_inst_ar,
     }
 }
