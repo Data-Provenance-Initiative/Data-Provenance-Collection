@@ -1121,6 +1121,7 @@ def plot_license_terms_stacked_bar_chart_collections(
     pct_by_tokens=False,
     font_size=15,
     return_license_table=True,
+    return_df=True,
     configure_chart=True,
 ):
     if license_key == "License Type":
@@ -1257,12 +1258,17 @@ def plot_license_terms_stacked_bar_chart_collections(
     if save_dir:
         chart.save(os.path.join(save_dir, "license_use_by_modality_collections.svg"), format='svg')
 
+    ret = [chart]
+
     # Return the chart and the generated LaTeX table if requested
     if return_license_table:
         table = generate_multimodal_license_terms_latex(df)
-        return chart, table
+        ret += [table]
 
-    return chart
+    if return_df:
+        ret += [df, df_grouped, df_melted]
+
+    return ret
 
 def gini(array: np.ndarray) -> float:
     """Calculate the Gini coefficient of a numpy array.
