@@ -125,7 +125,7 @@
 "finetune","Nectar","Nectar",""
 "finetune","No Robots","No Robots",""
 "finetune","Open Asst. v2","Open Assistant v2","kopfOpenAssistantConversationsDemocratizing2023"
-"finetune","Open-Platypus","Open-Platypus","sawadaARBAdvancedReasoning2023|dettmersQLoRAEfficientFinetuning2023|lightmanLetVerifyStep2023|yuReClorReadingComprehension2020|wangSciBenchEvaluatingCollegeLevel2024|luLearnExplainMultimodal2022|chenTheoremQATheoremdrivenQuestion2023"
+"finetune","Open-Platypus","Open-Platypus","sawadaARBAdvancedReasoning2023|dettmersQLoRAEfficientFinetuning2023|lightmanLetsVerifyStep2023|yuReClorReadingComprehension2020|wangSciBenchEvaluatingCollegeLevel2024|luLearnExplainMultimodal2022|chenTheoremQATheoremdrivenQuestion2023"
 "finetune","OpenGPT Healthcare","OpenGPT Healthcare",""
 "finetune","OpenMathInstr.-1","OpenMathInstruct-1","toshniwalOpenMathInstruct1MillionMath2024"
 "finetune","Orca-Math","Orca-Math","mitraOrcaMathUnlockingPotential2024"
