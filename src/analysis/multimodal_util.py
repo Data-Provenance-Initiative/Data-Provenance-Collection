@@ -996,7 +996,9 @@ def text_groupby_collection(df, mode_column, fn, txt_mod_col="Text"):
     df_text.loc[:, mode_column] = df_text.groupby("Collection")[mode_column].transform(fn)
     # df_nontext = df_nontext[mode_column].transform(fn)
 
-    df_text = df_text.drop_duplicates(subset="Collection")
+    # NOTE needs to be disabled for correct results
+    # df_text = df_text.drop_duplicates(subset="Collection")
+
     new_df = pd.concat([df_nontext, df_text], ignore_index=True)
     return new_df
 
