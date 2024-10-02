@@ -23,20 +23,17 @@
         ],
         "Creators": [
             "Zhejiang University",
-            "University of Sydney"
+            "University of Technology Sydney"
         ],
         "Countries": [
             "Australia",
-            "China"
+            "China"        
         ],
         "License Verified By": "Campbell Lund",
         "Video Hours": 239688.16,
         "Taken Down": "False",
         "Video Sources": [
-            "Pika",
-            "Text2Video-Zero",
-            "VideoCraft2",
-            "ModelScope"
+            "Models"
         ],
         "Task Categories": [
             "Text-to-Video",
