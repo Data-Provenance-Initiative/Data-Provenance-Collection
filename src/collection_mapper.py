@@ -150,13 +150,13 @@ COLLECTION_FN_MAPPER = {
         "prepare_function": preparers.prepare_preference_collection,
     },
     "MagPie-Pro": {
-        "download_function": downloaders.download_magpie
-        "prepare_function": preparers.prepare_magie
+        "download_function": downloaders.download_magpie,
+        "prepare_function": preparers.prepare_magie,
     },
     "Synthetic-GSM8K-Reflection": {
-        "download_function":, downloaders.download_synthetic_gsm8k_reflection
-        "prepare_function": preparers.download_synthetic_gsm8k_reflection
-    }
+        "download_function": downloaders.download_synthetic_gsm8k_reflection,
+        "prepare_function": preparers.prepare_synthetic_gsm8k_reflection,
+    },
     "Llama2-MedTuned-Instructions": {
         "download_function": downloaders.download_llama2_med_tuned_instructions,
         "prepare_function": preparers.prepare_llama2_med_tuned_instructions,
