@@ -1054,6 +1054,8 @@ def license_rank_fn(license_list):
 def terms_rank_fn(terms_list):
     if not isinstance(terms_list, list):
         terms_list = terms_list.tolist()
+    if "Restricted" in terms_list:
+        return "Restricted"
     if "Model Closed" in terms_list:
         return "Model Closed"
     elif "Source Closed" in terms_list:
@@ -1107,6 +1109,57 @@ def prepare_license_terms_temporal_plot(
     # df = df[["Modality", license_key]]
     return df
 
+
+def generate_latex_licenses_terms_v2(dfx):
+    df = dfx.copy()
+
+    def create_latex_table(df_modality):
+        licenses = ['NC/Acad', 'Unspecified', 'Commercial']
+        terms = ['Restricted', 'Unspecified', 'Unrestricted']
+
+        latex_table = "\\begin{tabular}{lrrrr}\n\\toprule\n"
+        latex_table += "\\textsc{License / Terms} & \\textsc{Restricted} & \\textsc{Unspecified} & \\textsc{Unrestricted} & \\textsc{Total} \\\\\n"
+        latex_table += "\\midrule\n"
+
+        # print(df_modality)
+        for license in licenses:
+            row_total = 0
+            latex_table += f"\\textsc{{{license}}} & "
+            for term in terms:
+                value = df_modality[(df_modality['License'] == license) & (df_modality['Terms'] == term)]['percentage'].values
+                # print(value)
+                value = value[0] if len(value) > 0 else 0
+                row_total += value
+                latex_table += f"{value:.1f} & "
+            latex_table += f"{row_total:.1f} \\\\\n"
+
+        latex_table += "\\midrule\n"
+
+        # Calculate and add the Total row
+        latex_table += "\\textsc{Total} & "
+        for term in terms:
+            total = df_modality[df_modality['Terms'] == term]['percentage'].sum()
+            latex_table += f"{total:.1f} & "
+        latex_table += f"{df_modality['percentage'].sum():.1f} \\\\\n"
+
+        latex_table += "\\bottomrule\n\\end{tabular} \\\\\n"
+        # latex_table += f"Among {modality} datasets, XX\% are Non-Commercially licensed, and YY\% have restrictive terms, but a full ZZ\% of datasets have either a restrictive license or terms."
+        return latex_table
+
+    modality_to_table = {}
+    # Split the 'License | Terms' column
+    df[['License', 'Terms']] = df['License | Terms'].str.split(' \| ', expand=True)
+
+    modalities = ["Text (Collections)", 'Text (Datasets)', "Speech", "Video"]
+
+    # Create a LaTeX table for each modality
+    for modality in modalities:
+        # print(f"\n\\textbf{{{modality}}}")
+        df_modality = df[df['Modality'] == modality]
+        modality_to_table[modality] = create_latex_table(df_modality)
+    return modality_to_table
+
+
 def plot_license_terms_stacked_bar_chart_collections(
     df,
     license_key,
@@ -1158,8 +1211,17 @@ def plot_license_terms_stacked_bar_chart_collections(
 
     # Add counts for calculating percentages
     df['count'] = 1
-    # print(df_grouped)
     if pct_by_tokens:
+        # This is a no-op? Variables created aren't used elsewhere in scope
+        # for modality in modalities:
+        #     quant = "Total Tokens" if "Text" in modality else "Hours"
+        #     df_spec = df[df["Modality"] == modality]
+        #     df_filtered = df_spec[df_spec[quant].notna()]
+
+        #     for license_type in df[license_key].unique():
+        #         target_df = df_filtered[license_key].apply(lambda x: x == license_type)
+        #         percent_collections_commercial_restricted = (target_df.sum() / target_df.shape[0]) * 100
+
         df_grouped = df.groupby(['Modality', license_key]).agg({
             'Hours': 'sum',
             'Total Tokens': 'sum'
@@ -1264,7 +1326,7 @@ def plot_license_terms_stacked_bar_chart_collections(
 
     # Return the chart and the generated LaTeX table if requested
     if return_license_table:
-        table = generate_multimodal_license_terms_latex(df)
+        table = generate_latex_licenses_terms_v2(df_melted)
         ret += [table]
 
     if return_df:
@@ -2203,6 +2265,9 @@ def plot_temporal_ginis(df_gini, df_spec, domain_cats, columns):
         color="Type:N"
     )
 
+    # def wrap_text(text, max_width=20):
+    #     return '\n'.join(textwrap.wrap(text, max_width))
+
     chart_cislangf = alt.Chart(
         df_gini
     ).mark_area(
@@ -2219,6 +2284,10 @@ def plot_temporal_ginis(df_gini, df_spec, domain_cats, columns):
         y2="Gini Upper:Q",
         color="Type:N"
     )
+    # .transform_calculate(
+    #     wrapped_category="datum.category.length > 20 ? slice(datum.category, 0, 17) + '...' : datum.category"
+    # )
+
 
     chart_langf = (chart_cislangf + chart_meanlangf + chart_meanpointslangf).configure_axis(
         labelFontSize=FONT_SIZE,
