@@ -101,13 +101,13 @@ def huggingface_download(
 
     num_proc = max(multiprocessing.cpu_count() // 2, 1)
     if data_files:
-        dset = load_dataset(data_address, data_files=data_files, num_proc=num_proc, trust_remote_code=True, token=True)
+        dset = load_dataset(data_address, data_files=data_files, num_proc=num_proc)
     elif data_dir:
-        dset = load_dataset(data_address, data_dir=data_dir, num_proc=num_proc, trust_remote_code=True, token=True)
+        dset = load_dataset(data_address, data_dir=data_dir, num_proc=num_proc)
     elif name:
-        dset = load_dataset(data_address, name, trust_remote_code=True, token=True)
+        dset = load_dataset(data_address, name)
     else:
-        dset = load_dataset(data_address, num_proc=num_proc, trust_remote_code=True, token=True)
+        dset = load_dataset(data_address, num_proc=num_proc)
 
     if split:
         dset = dset[split]

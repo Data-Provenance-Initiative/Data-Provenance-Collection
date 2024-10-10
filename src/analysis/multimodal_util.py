@@ -180,7 +180,7 @@ def read_continent_country_iso_codes():
         return []
 
     continent_country_iso_list = []
-    
+
     for continent_data in data['continents']:
         continent = continent_data['name']
         countries = continent_data['countries']
@@ -190,10 +190,10 @@ def read_continent_country_iso_codes():
             continent_country_iso_list.append({'continent': continent, 'country': country, 'iso_code': iso_numeric})
     return continent_country_iso_list
 
-def get_continent(x: str, continent_country_iso_list: list) -> typing.List[int]:    
+def get_continent(x: str, continent_country_iso_list: list) -> typing.List[int]:
     """
     Get the continent for a given country name, case-insensitive.
-    
+
     """
     df_continent_country_iso = pd.DataFrame(continent_country_iso_list)
     continent_set = set()
@@ -206,21 +206,21 @@ def get_continent(x: str, continent_country_iso_list: list) -> typing.List[int]:
             continue
         country = countries_replace.get(country, country)
         filtered_country= df_continent_country_iso[df_continent_country_iso['country'].str.lower() == country.lower()]
-    
+
         if len(filtered_country) > 0:
             continent_set.update(filtered_country['continent'].unique().tolist())
         else:
             logging.warning(f"Country '{country}' not found in the data.")
-    
-    return list(continent_set)
-            
 
-def get_continent_id(x: str, continent_country_iso_list: list) -> typing.List[int]:    
+    return list(continent_set)
+
+
+def get_continent_id(x: str, continent_country_iso_list: list) -> typing.List[int]:
     """
     Get list of ISO numeric codes of countriues for a given continent.
-    
+
     """
-    
+
     df_continent_country_iso = pd.DataFrame(continent_country_iso_list)
     continent_iso_ids = df_continent_country_iso[df_continent_country_iso['continent'] == x]['iso_code'].apply(int).unique().tolist()
     if len(continent_iso_ids) > 0:
@@ -420,7 +420,7 @@ def prep_summaries_for_visualization(
         lambda x: [domain_groupmap[ci] for ci in x]
     )
     df["Source Category"] = df.apply(
-        lambda row: row["Source Category"] + ["Synthetic"] 
+        lambda row: row["Source Category"] + ["Synthetic"]
         if len(row["Model Generated"]) > 0 and "templates" not in [x.lower() for x in row["Model Generated"]]
         and "other" not in [x.lower() for x in row["Model Generated"]]
         else row["Source Category"],
@@ -540,7 +540,8 @@ def categorize_sources(df, order, domain_typemap):
     return df_sources
 
 def plot_stacked_creator_categories(
-    df_categories, order, modality_order, palette, pwidth, pheight, save_dir, collection_level=False,
+    df_categories, order, modality_order, palette, pwidth, pheight,
+    save_dir=None, collection_level=False,
 ):
     if collection_level:
         def unpack_list(cats):
@@ -561,15 +562,15 @@ def plot_stacked_creator_categories(
 
     # Add percentage column based on counts
     df_grouped['percentage'] = df_grouped.groupby('Modality')['count'].transform(lambda x: (x / x.sum()) * 100)
-    
+
     def calculate_midpoints(points):
         midpoints = []
         for i in range(len(points)):
             trailing_quant = points.iloc[:i]
             midpoints.append((points.iloc[i]/2 + sum(trailing_quant))/100)
-        
+
         return midpoints
-    
+
     df_grouped['midpoints'] = df_grouped.groupby('Modality')['percentage'].transform(calculate_midpoints)
 
     # Base chart
@@ -774,7 +775,7 @@ def plot_altair_worldmap_country(
 
     # chart_map.properties(width=400, height=100)
 
-    
+
     if save_dir:
         chart_map.save(os.path.join(save_dir, "dataset_count_by_country_and_modality.png"), ppi=300)
 
@@ -810,11 +811,11 @@ def map_country_to_continent(df):
         count = row['Count']
         dims = row["Total_Hours"]
         # dims = row["Total Tokens"] if modality == "Text" else row["Hours"]
-        
+
         # Calculate the percentage
         total_for_modality = modality_totals[modality]
         percentage = (count / total_for_modality) * 100
-        
+
         # Assign the percentage to the appropriate cell
         percent_df.at[modality, continent] = round(percentage, 1)
         percent_df_hrs.at[modality, continent] = round(100 * dims / modality_total_hrs[modality], 1)
@@ -838,7 +839,7 @@ def plot_altair_worldmap_continent(
     plot_dim,
     save_dir
 ):
-    
+
     # if aggregate_level == "Country":
     #     df_countries = df.explode("Countries").dropna(subset=["Countries"]) # Drop rows with no country for the moment
     #     df_countries = df_countries[["Countries", "Modality"]].value_counts().reset_index(name="Count")
@@ -853,7 +854,7 @@ def plot_altair_worldmap_continent(
     df_countries = df_countries[["Continent", "Modality"]].value_counts().reset_index(name="Count")
     df_countries["Continent ISO ID"] = df_countries["Continent"].map(lambda x: get_continent_id(x, continent_country_iso_list))
     df_countries = df_countries.explode("Continent ISO ID").dropna(subset=["Continent ISO ID"]) # If couldn't be found (see any logged warnings), drop it
-    
+
     base = alt.Chart(
         alt.topo_feature(countries_src, "countries")
     ).mark_geoshape(
@@ -995,7 +996,9 @@ def text_groupby_collection(df, mode_column, fn, txt_mod_col="Text"):
     df_text.loc[:, mode_column] = df_text.groupby("Collection")[mode_column].transform(fn)
     # df_nontext = df_nontext[mode_column].transform(fn)
 
+    # NOTE needs to be disabled for correct results
     # df_text = df_text.drop_duplicates(subset="Collection")
+
     new_df = pd.concat([df_nontext, df_text], ignore_index=True)
     return new_df
 
@@ -1060,7 +1063,7 @@ def terms_rank_fn(terms_list):
     elif "Unspecified" in terms_list:
         return "Unspecified"
     else:
-        return "Unrestricted" 
+        return "Unrestricted"
 
 def license_terms_rank_fn(license_list):
     ll = license_list.tolist()
@@ -1075,19 +1078,19 @@ def license_terms_rank_fn(license_list):
 def merge_to_restricted(license_term):
     # Split the license and the term
     license_part, term_part = license_term.split(' | ')
-    
+
     # If the term is "Source Closed" or "Model Closed", change it to "Restricted"
     if term_part in ['Source Closed', 'Model Closed']:
         return f"{license_part} | Restricted"
-    
+
     # Otherwise, return the original term
     return license_term
 
 def prepare_license_terms_temporal_plot(
-    df, 
+    df,
     license_key,
-    license_palette, 
-    license_order, 
+    license_palette,
+    license_order,
 ):
     if license_key == "License Type":
         hierarchy_fn = license_rank_fn
@@ -1113,11 +1116,11 @@ def generate_latex_licenses_terms_v2(dfx):
     def create_latex_table(df_modality):
         licenses = ['NC/Acad', 'Unspecified', 'Commercial']
         terms = ['Restricted', 'Unspecified', 'Unrestricted']
-        
+
         latex_table = "\\begin{tabular}{lrrrr}\n\\toprule\n"
         latex_table += "\\textsc{License / Terms} & \\textsc{Restricted} & \\textsc{Unspecified} & \\textsc{Unrestricted} & \\textsc{Total} \\\\\n"
         latex_table += "\\midrule\n"
-        
+
         # print(df_modality)
         for license in licenses:
             row_total = 0
@@ -1129,16 +1132,16 @@ def generate_latex_licenses_terms_v2(dfx):
                 row_total += value
                 latex_table += f"{value:.1f} & "
             latex_table += f"{row_total:.1f} \\\\\n"
-        
+
         latex_table += "\\midrule\n"
-        
+
         # Calculate and add the Total row
         latex_table += "\\textsc{Total} & "
         for term in terms:
             total = df_modality[df_modality['Terms'] == term]['percentage'].sum()
             latex_table += f"{total:.1f} & "
         latex_table += f"{df_modality['percentage'].sum():.1f} \\\\\n"
-        
+
         latex_table += "\\bottomrule\n\\end{tabular} \\\\\n"
         # latex_table += f"Among {modality} datasets, XX\% are Non-Commercially licensed, and YY\% have restrictive terms, but a full ZZ\% of datasets have either a restrictive license or terms."
         return latex_table
@@ -1156,22 +1159,24 @@ def generate_latex_licenses_terms_v2(dfx):
         modality_to_table[modality] = create_latex_table(df_modality)
     return modality_to_table
 
+
 def plot_license_terms_stacked_bar_chart_collections(
-    df, 
+    df,
     license_key,
-    license_palette, 
+    license_palette,
     license_order,
-    modality_order, 
-    plot_width, 
+    modality_order,
+    plot_width,
     plot_height,
     title="",
     no_legend=False,
-    save_dir=None, 
+    save_dir=None,
     plot_ppi=None,
     split_text_mod=False,
     pct_by_tokens=False,
     font_size=15,
     return_license_table=True,
+    return_df=True,
     configure_chart=True,
 ):
     if license_key == "License Type":
@@ -1206,17 +1211,16 @@ def plot_license_terms_stacked_bar_chart_collections(
 
     # Add counts for calculating percentages
     df['count'] = 1
-    return df
     if pct_by_tokens:
-        for modality in modalities:
-            quant = "Total Tokens" if "Text" in modality else "Hours"
-            df_spec = df[df["Modality"] == modality]
-            df_filtered = df_spec[df_spec[quant].notna()]
+        # This is a no-op? Variables created aren't used elsewhere in scope
+        # for modality in modalities:
+        #     quant = "Total Tokens" if "Text" in modality else "Hours"
+        #     df_spec = df[df["Modality"] == modality]
+        #     df_filtered = df_spec[df_spec[quant].notna()]
 
-            for license_type in df[license_key].unique():
-                target_df = df_filtered[license_key].apply(lambda x: x == license_type)
-                percent_collections_commercial_restricted = (target_df.sum() / target_df.shape[0]) * 100
-
+        #     for license_type in df[license_key].unique():
+        #         target_df = df_filtered[license_key].apply(lambda x: x == license_type)
+        #         percent_collections_commercial_restricted = (target_df.sum() / target_df.shape[0]) * 100
 
         df_grouped = df.groupby(['Modality', license_key]).agg({
             'Hours': 'sum',
@@ -1224,8 +1228,8 @@ def plot_license_terms_stacked_bar_chart_collections(
         }).reset_index()
 
         # Create a new column to hold the quantity based on the Modality
-        df_grouped['quantity'] = np.where(df_grouped['Modality'].isin(['Speech', 'Video']), 
-                                        df_grouped['Hours'], 
+        df_grouped['quantity'] = np.where(df_grouped['Modality'].isin(['Speech', 'Video']),
+                                        df_grouped['Hours'],
                                         df_grouped['Total Tokens'])
 
         # Now calculate the percentage based on the 'quantity' column
@@ -1235,15 +1239,14 @@ def plot_license_terms_stacked_bar_chart_collections(
         df_grouped = df.groupby(['Modality', license_key]).size().reset_index(name='count')
         df_grouped['percentage'] = df_grouped.groupby('Modality')['count'].transform(lambda x: (x / x.sum()) * 100)
         df_melted = df_grouped.melt(id_vars=['Modality', license_key, 'percentage'], value_vars=['count'], var_name='metric', value_name='value')
-    
-    return df_melted
+
     # Calculate midpoints for text annotations
     def calculate_midpoints(points):
         midpoints = []
         for i in range(len(points)):
             trailing_quant = points.iloc[:i]
             midpoints.append((points.iloc[i]/2 + sum(trailing_quant))/100)
-        
+
         return midpoints
     df_melted['midpoints'] = df_melted.groupby('Modality')['percentage'].transform(calculate_midpoints)
 
@@ -1261,7 +1264,7 @@ def plot_license_terms_stacked_bar_chart_collections(
         width=plot_width,
         height=plot_height
     )
-    
+
     # Create bars
     if no_legend:
         colors = alt.Color(
@@ -1276,7 +1279,7 @@ def plot_license_terms_stacked_bar_chart_collections(
                     scale=alt.Scale(domain=license_order, range=license_palette),
                     title=license_key,
                 )
-    
+
     bars = base.mark_bar().encode(
         color=colors,
         order=alt.Order(
@@ -1319,14 +1322,17 @@ def plot_license_terms_stacked_bar_chart_collections(
     if save_dir:
         chart.save(os.path.join(save_dir, "license_use_by_modality_collections.svg"), format='svg')
 
-    # print(df_melted)
+    ret = [chart]
+
     # Return the chart and the generated LaTeX table if requested
     if return_license_table:
-        # table = generate_multimodal_license_terms_latex(df)
         table = generate_latex_licenses_terms_v2(df_melted)
-        return chart, table
+        ret += [table]
 
-    return chart
+    if return_df:
+        ret += [df, df_grouped, df_melted]
+
+    return ret
 
 def gini(array: np.ndarray) -> float:
     """Calculate the Gini coefficient of a numpy array.
@@ -1453,31 +1459,31 @@ def generate_multimodal_license_terms_latex(df):
 
     # List of all modalities
     modalities = dfx['Modality'].unique()
-    
+
     # Initialize an empty string to store all LaTeX tables
     latex_outputs = {}
-    
+
     # Process each modality
     for modality in modalities:
         # Filter the dataframe for the current modality
         modality_df = dfx[dfx['Modality'] == modality]
-        
+
         # Get unique License Info and Terms Info
         license_info = modality_df['License Info'].unique()
         # terms_info = modality_df['Terms Info'].unique()
         terms_info = ["Model Closed", "Source Closed", "Unspecified", "Unrestricted"]
-        
+
         # Create an empty dictionary to hold counts
         counts_dict = {license: {term: 0 for term in terms_info} for license in license_info}
-        
+
         # Add 'Total' key with a dictionary initialized for terms and total
         counts_dict['Total'] = {term: 0 for term in terms_info}
         counts_dict['Total']['Total'] = 0
-        
+
         # Ensure each license has a 'Total' key
         for license in counts_dict:
             counts_dict[license]['Total'] = 0
-        
+
         # Fill the dictionary with counts
         for _, row in modality_df.iterrows():
             license = row['License Info']
@@ -1487,20 +1493,20 @@ def generate_multimodal_license_terms_latex(df):
             counts_dict[license]['Total'] += count
             counts_dict['Total'][term] += count
             counts_dict['Total']['Total'] += count
-        
+
         # Ensure "Source Closed" and "Model Closed" are present in 'Total'
         if 'Source Closed' not in counts_dict['Total']:
             counts_dict['Total']['Source Closed'] = 0
         if 'Model Closed' not in counts_dict['Total']:
             counts_dict['Total']['Model Closed'] = 0
-        
+
         # Calculate the percentage of each cell relative to the total counts
         total_counts = counts_dict['Total']['Total']
         if total_counts > 0:
             for license in counts_dict:
                 for term in counts_dict[license]:
                     counts_dict[license][term] = round((counts_dict[license][term] / total_counts) * 100, 1)
-        
+
         # Generate LaTeX table
         latex_table = "\\begin{table*}[t!]\n\\centering\n\\begin{adjustbox}{width=0.98\\textwidth}\n"
         latex_table += "\\begin{tabular}{l|" + "r" * len(terms_info) + "|r}\n\\toprule\n"
@@ -1513,7 +1519,7 @@ def generate_multimodal_license_terms_latex(df):
             if license == "Total":
                 latex_table += "\\midrule\n"
             latex_table += "\\textsc{" + license + "} & " + " & ".join(lic_vals) + " & " + total_vals + " \\\\\n"
-        
+
         # Adding calculations for percentages
         mod_label = modality.lower() + "_license_terms_breakdown"
         unspec_or_open = counts_dict["Commercial"].get("Unrestricted", 0) + counts_dict["Commercial"].get("Unspecified", 0) + counts_dict["Unspecified"].get("Unrestricted", 0) + counts_dict["Unspecified"].get("Unspecified", 0)
@@ -1523,9 +1529,9 @@ def generate_multimodal_license_terms_latex(df):
         caption = "\\textbf{A breakdown of " + modality + " Dataset licenses, and the Terms attached to their sources.} "
         caption += f"Among {modality} datasets, {total_nc_license}\% are Non-Commercially licensed, and {total_restrictive_terms}\% have restrictive terms, but a full {closed_pct}\% of datasets have either a restrictive license or terms."
         latex_table += "\\bottomrule\n\\end{tabular}\n\\end{adjustbox}\n\\caption{" + caption + "}\n\\label{tab:" + mod_label + "}\n\\end{table*}\n"
-        
+
         latex_outputs[modality] = latex_table
-    
+
     return latex_outputs
 
 
@@ -1624,11 +1630,11 @@ def categorize_tasks(df, order, domain_typemap, tasks_column, modality, collecti
 
 
     # Choose the appropriate mapping function based on the modality and collections_datasets_flag (needs to be updated if the flag is updated)
-    
+
     task_categories_mapper = None
     if modality == "Text":
         task_categories_mapper = task_categories_mapper_text
-    elif modality == "Speech": 
+    elif modality == "Speech":
         task_categories_mapper = task_categories_mapper_speech
     elif modality == "Video":
         task_categories_mapper = task_categories_mapper_video
@@ -1870,7 +1876,7 @@ def plot_temporal_cumulative_sources(
         df_modsourceyears = reduce_categories_to_topk(df_modsourceyears, "Source Category", top_n)
         df_modsourceyears['Source Category'] = df_modsourceyears['Source Category'].apply(lambda x: x.title())
         # return df_modsourceyears
-        
+
         source_cat_mapper = {
             "Crowdsourced": "Human Partic.",
             "Human": "Human Partic.",
@@ -1892,7 +1898,7 @@ def plot_temporal_cumulative_sources(
 
         df_modsourceyears['Source Category'].replace(source_cat_mapper, inplace=True)
         if earliest_year > 2013:
-            rep_map = {str(yr): f"<{earliest_year}" for yr in range(2013, earliest_year)} 
+            rep_map = {str(yr): f"<{earliest_year}" for yr in range(2013, earliest_year)}
             rep_map.update({"<2013": f"<{earliest_year}"})
             df_modsourceyears['Year Released Category'].replace(rep_map, inplace=True)
 
@@ -1906,7 +1912,7 @@ def plot_temporal_cumulative_sources(
         ).cumsum().reset_index(name="Cumulative Hours")
 
         # return df_modsourcecumulativeyears
-        
+
         df_modsourcecumulativeyears = df_modsourcecumulativeyears.sort_values(by="Year Released Category")
         # Assuming your dataframe is named df
         df_modsourcecumulativeyears = df_modsourcecumulativeyears[df_modsourcecumulativeyears['Source Category'] != "Other"]
@@ -2238,7 +2244,7 @@ def plot_temporal_ginis(df_gini, df_spec, domain_cats, columns):
             )
         )
     )
-    
+
     chart_meanpointslangf = alt.Chart(
         df_gini
     ).mark_point().encode(
@@ -2258,7 +2264,7 @@ def plot_temporal_ginis(df_gini, df_spec, domain_cats, columns):
         ),
         color="Type:N"
     )
-    
+
     # def wrap_text(text, max_width=20):
     #     return '\n'.join(textwrap.wrap(text, max_width))
 
@@ -2282,7 +2288,7 @@ def plot_temporal_ginis(df_gini, df_spec, domain_cats, columns):
     #     wrapped_category="datum.category.length > 20 ? slice(datum.category, 0, 17) + '...' : datum.category"
     # )
 
-    
+
     chart_langf = (chart_cislangf + chart_meanlangf + chart_meanpointslangf).configure_axis(
         labelFontSize=FONT_SIZE,
         titleFontSize=FONT_SIZE,
@@ -2309,21 +2315,21 @@ def plot_temporal_ginis(df_gini, df_spec, domain_cats, columns):
     for modality in modalities:
         for domain in domain_cats:
             print(f"{modality} | {domain} | {df_spec[df_spec['Modality'] == modality][domain].nunique()}")
-    
+
     return chart_langf
 
 def compute_temporal_gini_bounds(df_spec, measure_key, cumulation_key):
     # Get the cumulative hours by language over time
     df_spec = df_spec[df_spec['Year Released Category'] != "Unknown"]
     df_spec['Year Released Category'] = df_spec['Year Released Category'].cat.remove_unused_categories()
-    
+
     df_spec_cum = df_spec.groupby(
         ["Year Released Category", measure_key]
     )[cumulation_key].sum().groupby(
         measure_key
     ).cumsum().reset_index(name="Cumulative Hours")
     df_spec_cum = df_spec_cum[df_spec_cum['Year Released Category'] != "Unknown"]
-    
+
     # Calculate Gini coefficient and CIs for cumulative hours by language
     df_spec_cum_gini = df_spec_cum.groupby("Year Released Category")["Cumulative Hours"]
     # print(df_spec_cum_gini.groups)
@@ -2333,7 +2339,7 @@ def compute_temporal_gini_bounds(df_spec, measure_key, cumulation_key):
         name="Gini"
     )
     df_spec_cum_gini = df_spec_cum_gini[df_spec_cum_gini['Year Released Category'] != "Unknown"]
-    
+
     df_spec_cum_gini["Gini Mean"] = df_spec_cum_gini["Gini"].map(lambda x: x[0])
     df_spec_cum_gini["Gini Lower"] = df_spec_cum_gini["Gini"].map(lambda x: max(0, x[1]))
     df_spec_cum_gini["Gini Upper"] = df_spec_cum_gini["Gini"].map(lambda x: min(x[2], 1))
@@ -2349,19 +2355,19 @@ def prepare_speech_for_gini(df):
         lambda x: langcodes.Language.make(language=langcodes.standardize_tag(x.split("-")[0].split("_")[0], macro=True)).language_name()
     )
     df_speechlanguagesn = df_speechlanguagenames.copy()
-    
+
     df_speechlanguagesn["Language (ISO)"] = df_speechlanguagesn["Language (ISO)"].map(lambda x : x.split("_")[0].split("-")[0])
     lang_fam_infos = extract_lang_fam_mappers()
     df_speechlanguagesn["Language Family"] = df_speechlanguagesn["Language (ISO)"].map(lambda x: get_langfamily(x, lang_fam_infos, []))
-    
+
     # Subdivide hours evenly across the languages given in each dataset
     df_speechlanguagesn["Hours"] = df_speechlanguagesn.groupby(["Unique Dataset Identifier", "Language (ISO)"])["Hours"].transform(
         lambda x: x / x.count()
     )
     df_speechlanguagesn["Hours"] = df_speechlanguagesn.apply(get_hours_for_dataset_and_language, axis=1)
-    
+
     df_speechlanguagesn = df_speechlanguagesn.sort_values(by="Year Released Category")
-    
+
     # Ensure that, for each of those datasets, we have heterogenous language hours
     for dataset in ["yodas", "common-voice-corpus-170", "multilingual-librispeech", "bloom-speech", "fleurs"]:
         assert df_speechlanguagesn[
@@ -2370,12 +2376,12 @@ def prepare_speech_for_gini(df):
 
     # # Gini coefficient for hours across languages
     # speechlanguages_totalhours = df_speechlanguagesn.groupby("Languages (ISO)")["Hours"].sum().reset_index(name="Total Hours")
-    
+
     # multimodal_util.gini(speechlanguages_totalhours["Total Hours"].values)
-    
+
     # # Gini coefficient for hours across language-families
     # speechlanguagesf_totalhours = df_speechlanguagesn.groupby("Language Family")["Hours"].sum().reset_index(name="Total Hours")
-    
+
     # multimodal_util.gini(speechlanguagesf_totalhours["Total Hours"].values)
     speech_df_spec_cum_gini_langs = compute_temporal_gini_bounds(df_speechlanguagesn, "Language (ISO)", "Hours")
     speech_df_spec_cum_gini_langfams = compute_temporal_gini_bounds(df_speechlanguagesn, "Language Family", "Hours")
@@ -2391,10 +2397,10 @@ def prep_text_for_lang_gini(df, all_constants):
 
     # TODO: Undo this when we have all metrics in.
     df_text = df_text[df_text["Total Tokens"].notna()]
-    
+
     df_text = df_text[df_text['Year Released Category'] != "Unknown"]
     df_text['Year Released Category'] = df_text['Year Released Category'].cat.remove_unused_categories()
-    
+
     df_text_lang_explode = df_text.explode("Languages")
     df_text_lang_explode["Language Families"] = df_text_lang_explode["Languages"].map(lambda c: LANG_GROUP_MAPPER[c])
     # Subdivide tokens evenly across the languages given in each dataset
@@ -2402,13 +2408,13 @@ def prep_text_for_lang_gini(df, all_constants):
         lambda x: x / x.count()
     )
     df_text_lang_explode = df_text_lang_explode[["Collection", "Dataset Name", "Year Released Category", "Tokens", "Languages", "Language Families"]]
-    
+
     code_languages = df_text_lang_explode[df_text_lang_explode["Language Families"] == "Code"]["Languages"].unique()
-    
+
     lang_fam_infos = extract_lang_fam_mappers()
     lang_name_to_id = {v: k for k, v in lang_fam_infos[1].items()}
     lang_id_to_isocode = lang_fam_infos[4]
-    
+
     lang_iso_mapper = {}
     for langname in df_text_lang_explode["Languages"].unique():
         if langname in code_languages:
@@ -2427,7 +2433,7 @@ def prep_text_for_lang_gini(df, all_constants):
     df_text_lang_explode["Language Family"] = df_text_lang_explode["Language (ISO)"].map(lambda x: get_langfamily(x, lang_fam_infos, code_languages))
 
     # df_text = df_text.rename(columns={'Languages': 'Language (ISO)', "Language Families": "Language Family"})
-    
+
     text_df_spec_cum_gini_langs = compute_temporal_gini_bounds(df_text_lang_explode, "Language (ISO)", "Tokens")
     text_df_spec_cum_gini_langfams = compute_temporal_gini_bounds(df_text_lang_explode, "Language Family", "Tokens")
     return pd.concat([text_df_spec_cum_gini_langs, text_df_spec_cum_gini_langfams]), df_text_lang_explode
@@ -2447,8 +2453,8 @@ def prepare_geo_gini_data(df):
     df_text_locs["Dimension"] = df_text_locs["Total Tokens"]
     df_speech_locs["Dimension"] = df_speech_locs["Hours"]
     df_video_locs["Dimension"] = df_video_locs["Hours"]
-    
-    
+
+
     df_text_locs["Dimension"] = df_text_locs.groupby(["Unique Dataset Identifier", "Countries"])["Dimension"].transform(
         lambda x: x / x.count()
     )
@@ -2476,14 +2482,14 @@ def prepare_geo_gini_data(df):
 def prepare_data_cum_barchart(df_spec_locs, target):
     EARLIEST_YEAR = 2013
     YEARS_ORDER = [f"<{EARLIEST_YEAR}"] + [str(year) for year in range(EARLIEST_YEAR, 2025)]
-    
+
     # Ensure that 'Year Released' is treated as an ordered categorical variable
     df_spec_locs["Year Released Category"] = pd.Categorical(
         df_spec_locs["Year Released Category"],
         categories=YEARS_ORDER,
         ordered=True
     )
-    
+
     unique_countries_per_modality_year = defaultdict(lambda: defaultdict(set))
     cumulative_count = []  # This will store the result
     # Step 3: Iterate over sorted data and calculate cumulative unique country count
@@ -2491,10 +2497,10 @@ def prepare_data_cum_barchart(df_spec_locs, target):
         modality = entry["Modality"]
         country = entry[target]
         year = entry["Year Released Category"]
-        
+
         # Add the country to the set for the current modality
         unique_countries_per_modality_year[modality][year].add(country)
-    
+
     df_spec_src = []
     for modality, year_countries in unique_countries_per_modality_year.items():
         observed = set()
@@ -2521,7 +2527,7 @@ def plot_cum_barchart(df_spec_src, target, domains):
         domain=domains,  # Sorted as requested
         range=[colors[d] for d in domains]
     )
-    
+
     chart = alt.Chart(df_spec_src).mark_bar(
         width=6  # Adjust this value to control bar width
     ).encode(
@@ -2540,7 +2546,7 @@ def plot_cum_barchart(df_spec_src, target, domains):
         color=alt.Color("Modality:N", scale=color_scale, title="Modality"),
         # opacity=alt.Opacity("Unique Dataset Identifier:N", legend=None, scale=alt.Scale(range=[0.6, 1.0])),
     )
-    
+
     # Control the width and height of the figure
     chart = chart.configure_axis(
         labelFontSize=15,
