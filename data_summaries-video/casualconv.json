@@ -1,0 +1,61 @@
+{
+    "casualconv: The Casual Conversations v2 Dataset": {
+        "Unique Dataset Identifier": "casualconv",
+        "Collection": "Casual Conversations",
+        "Collection URL": "https://ai.meta.com/datasets/casual-conversations-v2-dataset/",
+        "Dataset Name": "The Casual Conversations v2 Dataset",
+        "Paper Title": "The Casual Conversations v2 Dataset",
+        "Paper URL": "https://ai.meta.com/datasets/casual-conversations-v2-dataset",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/paper/the-casual-conversations-v2-dataset",
+        "ArXiv URL": "https://arxiv.org/pdf/2303.04838",
+        "Semantic Scholar Corpus ID": 257427566,
+        "Year Released": 2023,
+        "Text Sources": [
+            "human"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://ai.meta.com/datasets/casual-conversations-v2-downloads/"
+            }
+        ],
+        "Creators": [
+            "Meta AI"
+        ],
+        "Countries": [
+            "United States of America"
+        ],
+        "License Verified By": "Vivek Sharma",
+        "Video Hours": 441.12,
+        "Taken Down": "False",
+        "Video Sources": [
+            "human"
+        ],
+        "Task Categories": [
+            "Video Classification", 
+            "Video Captioning"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2023-01-01",
+            "PwC Description": "The Casual Conversations v2 Dataset",
+            "PwC License Name": "Custom",
+            "PwC License URL": "https://ai.meta.com/datasets/casual-conversations-v2-downloads/",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "@misc{porgali2023casualconversationsv2dataset,title={The Casual Conversations v2 Dataset}, author={Bilal Porgali and Vítor Albiero and Jordan Ryda and Cristian Canton Ferrer and Caner Hazirbas},year={2023},eprint={2303.04838},archivePrefix={arXiv},primaryClass={cs.CV},url={https://arxiv.org/abs/2303.04838}}\n"
+    }
+}
