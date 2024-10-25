@@ -13,11 +13,11 @@
         "Semantic Scholar Corpus ID": 270285854,
         "Year Released": 2024,
         "Text Sources": [
-            "ShareCaptioner-Video and GPT4V generated"
+            "Models"
         ],
         "Licenses": [
             {
-                "License": "Attribution-NonCommercial 4.0 International",
+                "License": "CC BY-NC 4.0",
                 "License URL": "https://huggingface.co/datasets/ShareGPT4Video/ShareGPT4Video"
             }
         ],
@@ -36,8 +36,8 @@
         "Video Sources": [
             "youtube",
             "undisclosed web",
-            "Ego4D",
-            "BDD100K"
+            "Human Participants",
+            "crowdsourced"
 
         ],
         "Task Categories": [
