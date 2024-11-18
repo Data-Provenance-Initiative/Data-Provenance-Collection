@@ -90,12 +90,9 @@ def add_license_classes_to_summaries(
     """Function taken from `text_ft_plots.ipynb`"""
     # Update DataFrame with columns for use, attribution, share_alike
     for row in data_summary:
-        row[f"License Use ({
-            aggregator})"] = resolved_classes[row["Unique Dataset Identifier"]][0]
-        row[f"License Attribution ({
-            aggregator})"] = resolved_classes[row["Unique Dataset Identifier"]][1]
-        row[f"License Share Alike ({
-            aggregator})"] = resolved_classes[row["Unique Dataset Identifier"]][2]
+        row[f"License Use ({aggregator})"] = resolved_classes[row["Unique Dataset Identifier"]][0]
+        row[f"License Attribution ({aggregator})"] = resolved_classes[row["Unique Dataset Identifier"]][1]
+        row[f"License Share Alike ({aggregator})"] = resolved_classes[row["Unique Dataset Identifier"]][2]
     return data_summary
 
 
@@ -176,7 +173,7 @@ def get_country(x: str) -> typing.List[int]:
     try:
         return [countries.get(countries_replace.get(x, x))[-2]]
     except KeyError:
-        logging.warning("Could not find country for %s" % x)
+        # logging.warning("Could not find country for %s" % x)
         return []
 
 
@@ -1311,6 +1308,7 @@ def plot_license_terms_stacked_bar_chart_collections(
     return_license_table=True,
     return_df=True,
     configure_chart=True,
+    early_return=False,
 ):
     if license_key == "License Type":
         hierarchy_fn = license_rank_fn
@@ -1320,6 +1318,7 @@ def plot_license_terms_stacked_bar_chart_collections(
     df = df.copy()
     df = df.sort_values(by=license_key)
 
+    # print(len(df))
     if split_text_mod:
         df_text = df[df['Modality'] == 'Text'].copy()
         df_text_datasets = df_text.copy()
@@ -1333,6 +1332,7 @@ def plot_license_terms_stacked_bar_chart_collections(
     else:
         modality_name = "Text"
 
+
     df = text_groupby_collection(
         df, license_key, fn=hierarchy_fn, txt_mod_col=modality_name)
     df[license_key] = df[license_key].apply(merge_to_restricted)
@@ -1344,6 +1344,9 @@ def plot_license_terms_stacked_bar_chart_collections(
     # Modify the order of the modality
     df['Modality'] = pd.Categorical(
         df['Modality'], categories=modality_order, ordered=True)
+
+    if early_return:
+        return df
 
     # Add counts for calculating percentages
     df['count'] = 1
@@ -1683,8 +1686,7 @@ def generate_multimodal_license_terms_latex(df):
             counts_dict["Total"]["Source Closed"] + counts_dict["Total"]["Model Closed"], 1)
         caption = "\\textbf{A breakdown of " + modality + \
             " Dataset licenses, and the Terms attached to their sources.} "
-        caption += f"Among {modality} datasets, {total_nc_license}\% are Non-Commercially licensed, and {
-            total_restrictive_terms}\% have restrictive terms, but a full {closed_pct}\% of datasets have either a restrictive license or terms."
+        caption += f"Among {modality} datasets, {total_nc_license}\% are Non-Commercially licensed, and {total_restrictive_terms}\% have restrictive terms, but a full {closed_pct}\% of datasets have either a restrictive license or terms."
         latex_table += "\\bottomrule\n\\end{tabular}\n\\end{adjustbox}\n\\caption{" + \
             caption + "}\n\\label{tab:" + mod_label + "}\n\\end{table*}\n"
 
@@ -1694,7 +1696,10 @@ def generate_multimodal_license_terms_latex(df):
 
 
 # Function to categorize tasks based on their domain and modality
-def categorize_tasks(df, order, domain_typemap, tasks_column, modality, collections_datasets_flag):
+def categorize_tasks(
+    df, order, domain_typemap, tasks_column, modality, collections_datasets_flag,
+    full_process=True
+):
     def map_taskgroup(row, modality) -> str:
         task = row[tasks_column]
 
@@ -1761,7 +1766,7 @@ def categorize_tasks(df, order, domain_typemap, tasks_column, modality, collecti
         'Speech Synthesis': 'Speech Synthesis',
         'Query By Example': 'Query by Ex',
         'Keyword Spotting': 'Keyword Spotting',
-        'Speech Recognition': 'Other',  # other will be filtered out in the end
+        'Speech Recognition': 'Speech Recognition',  # other will be filtered out in the end
     }
 
     task_categories_mapper_video = {
@@ -1822,14 +1827,15 @@ def categorize_tasks(df, order, domain_typemap, tasks_column, modality, collecti
     df_tasks[tasks_column] = df_tasks[tasks_column].apply(
         lambda x: task_categories_mapper.get(x, "Other"))
 
-    # Filter out the 'Other' tasks
-    df_tasks = df_tasks[df_tasks[tasks_column] != 'Other']
+    if full_process: 
+        # Filter out the 'Other' tasks
+        df_tasks = df_tasks[df_tasks[tasks_column] != 'Other']
 
-    # Add a new row for the 'Recognition' task in the Speech modality as every dataset should have a 'Recognition' task by default
-    if modality == 'Speech':
-        new_rows = pd.DataFrame({tasks_column: ['Recognition'] * len(
-            df_tasks), 'Recognition': range(len(df_tasks) + 1, len(df_tasks) + len(df_tasks) + 1)})
-        df_tasks = pd.concat([df_tasks, new_rows], ignore_index=True)
+        # Add a new row for the 'Recognition' task in the Speech modality as every dataset should have a 'Recognition' task by default
+        if modality == 'Speech':
+            new_rows = pd.DataFrame({tasks_column: ['Recognition'] * len(
+                df_tasks), 'Recognition': range(len(df_tasks) + 1, len(df_tasks) + len(df_tasks) + 1)})
+            df_tasks = pd.concat([df_tasks, new_rows], ignore_index=True)
 
     return df_tasks
 
@@ -2530,8 +2536,7 @@ def plot_temporal_ginis(df_gini, df_spec, domain_cats, columns):
     modalities = df_spec["Modality"].unique()
     for modality in modalities:
         for domain in domain_cats:
-            print(f"{modality} | {domain} | {
-                  df_spec[df_spec['Modality'] == modality][domain].nunique()}")
+            print(f"{modality} | {domain} | {df_spec[df_spec['Modality'] == modality][domain].nunique()}")
 
     return chart_langf
 
@@ -2617,7 +2622,7 @@ def prepare_speech_for_gini(df):
     df_speechlanguagesfamilycumulativehoursgini = pd.concat(
         [speech_df_spec_cum_gini_langs, speech_df_spec_cum_gini_langfams]
     )
-    return df_speechlanguagesfamilycumulativehoursgini, df_speechlanguagesn[["Year Released Category", "Hours", "Language (ISO)", "Language Family"]]
+    return df_speechlanguagesfamilycumulativehoursgini, df_speechlanguagesn[["Unique Dataset Identifier", "Year Released Category", "Hours", "Language (ISO)", "Language Family"]]
 
 
 def prep_text_for_lang_gini(df, all_constants):
@@ -2639,7 +2644,7 @@ def prep_text_for_lang_gini(df, all_constants):
         lambda x: x / x.count()
     )
     df_text_lang_explode = df_text_lang_explode[[
-        "Collection", "Dataset Name", "Year Released Category", "Tokens", "Languages", "Language Families"]]
+        "Unique Dataset Identifier", "Collection", "Dataset Name", "Year Released Category", "Tokens", "Languages", "Language Families"]]
 
     code_languages = df_text_lang_explode[df_text_lang_explode["Language Families"]
                                           == "Code"]["Languages"].unique()
