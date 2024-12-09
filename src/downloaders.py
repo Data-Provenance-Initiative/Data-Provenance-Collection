@@ -641,7 +641,7 @@ def download_tasksource_symbol_tuning(accepted_filter_ids):
 
 
 def download_stack_exchange_instruction(accepted_filter_ids):
-    return huggingface_download("ArmelR/stack-exchange-instruction", split="train")
+    return huggingface_download("DataProvenanceInitiative/stack-exchange-instruction-2split", split="train")
 
 
 
