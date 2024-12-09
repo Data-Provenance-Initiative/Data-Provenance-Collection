@@ -13,10 +13,11 @@ import chardet
 import pandas as pd
 import requests
 from datasets import Dataset, list_datasets, load_dataset
-from helpers import io
 
 # `HfFileSystem` requires the latest version of `huggingface_hub`
 from huggingface_hub import HfFileSystem, hf_hub_download, hf_hub_url, login
+
+from helpers import io
 
 
 def filter_dataset_on_task_name(ex, task_key, accepted_filter_ids):
@@ -101,13 +102,27 @@ def huggingface_download(
 
     num_proc = max(multiprocessing.cpu_count() // 2, 1)
     if data_files:
-        dset = load_dataset(data_address, data_files=data_files, num_proc=num_proc, trust_remote_code=True, token=True)
+        dset = load_dataset(
+            data_address,
+            data_files=data_files,
+            num_proc=num_proc,
+            trust_remote_code=True,
+            token=True,
+        )
     elif data_dir:
-        dset = load_dataset(data_address, data_dir=data_dir, num_proc=num_proc, trust_remote_code=True, token=True)
+        dset = load_dataset(
+            data_address,
+            data_dir=data_dir,
+            num_proc=num_proc,
+            trust_remote_code=True,
+            token=True,
+        )
     elif name:
         dset = load_dataset(data_address, name, trust_remote_code=True, token=True)
     else:
-        dset = load_dataset(data_address, num_proc=num_proc, trust_remote_code=True, token=True)
+        dset = load_dataset(
+            data_address, num_proc=num_proc, trust_remote_code=True, token=True
+        )
 
     if split:
         dset = dset[split]
@@ -127,7 +142,6 @@ def detect_encoding(file_path):
     return result["encoding"]
 
 
-
 def convert_to_utf8(file_path):
     encoding = detect_encoding(file_path)
     with open(file_path, "r", encoding=encoding) as f:
@@ -136,10 +150,9 @@ def convert_to_utf8(file_path):
     return json.loads(utf8_content.decode("utf-8"))
 
 
-
 def process_zipped_file(zip_file):
     dset = []
-    with zipfile.ZipFile(zip_file, 'r') as z:
+    with zipfile.ZipFile(zip_file, "r") as z:
         for json_file in z.namelist():
             if json_file.endswith(".json"):
                 data = json.load(z.open(json_file))
@@ -192,14 +205,17 @@ def download_xp3x(accepted_filter_ids, sample_threshold=100):
     # Meanwhile if people just choose a few ids, maybe just one language or so, then use the big one.
     if len(accepted_filter_ids) > sample_threshold:
         print(
-            f"xP3x: Detected {len(accepted_filter_ids)} filter IDs. Defaulting to xP3x-sample to reduce download size. Increase sample_threshold to download full dataset.")
+            f"xP3x: Detected {len(accepted_filter_ids)} filter IDs. Defaulting to xP3x-sample to reduce download size. Increase sample_threshold to download full dataset."
+        )
         return download_xp3x_sample(accepted_filter_ids)
 
     fs = HfFileSystem()
     fps = [
-        (task, fs.resolve_path(fp)) for task in accepted_filter_ids
-        for fp in
-        fs.glob(f"datasets/Muennighoff/xP3x/data/{task.split('/')[0]}/*{task.split('/')[1].replace('-', '_')}*")
+        (task, fs.resolve_path(fp))
+        for task in accepted_filter_ids
+        for fp in fs.glob(
+            f"datasets/Muennighoff/xP3x/data/{task.split('/')[0]}/*{task.split('/')[1].replace('-', '_')}*"
+        )
     ]
 
     data_files = [
@@ -272,34 +288,30 @@ def download_self_instruct(accepted_filter_ids):
     return huggingface_download("yizhongw/self_instruct", split="train")
 
 
-
 def download_everything_lm(accepted_filter_ids):
     return huggingface_download(
         "totally-not-an-llm/EverythingLM-data-V3", split="train"
     )
 
 
-
 def download_anthropic_hh_rlhf(accepted_filter_ids):
     return huggingface_download("anthropic/hh-rlhf", split="train")
 
 
-
 def download_glaive_code_assistant(accepted_filter_ids):
-    return huggingface_download('glaiveai/glaive-code-assistant', split='train')
+    return huggingface_download("glaiveai/glaive-code-assistant", split="train")
 
 
 def download_glaive_code_assistant_v2(accepted_filter_ids):
-    return huggingface_download("glaiveai/glaive-code-assistant-v2", split='train')
+    return huggingface_download("glaiveai/glaive-code-assistant-v2", split="train")
 
 
 def download_glaive_code_assistant_v3(accepted_filter_ids):
-    return huggingface_download("glaiveai/glaive-code-assistant-v3", split='train')
+    return huggingface_download("glaiveai/glaive-code-assistant-v3", split="train")
 
 
 def download_thai_gen_ai_alpaca(accepted_filter_ids):
     return huggingface_download("Thaweewat/alpaca-cleaned-52k-th", split="train")
-
 
 
 def download_stanford_human_preferences(accepted_filter_ids):
@@ -336,15 +348,18 @@ def download_gpteacher(accepted_filter_ids):
         dset += annotate_source(instruct_dset, "gpteacher_instruct")
     if "gpteacher_codegen" in accepted_filter_ids:
         codegen_dset = direct_data_request(
-            "https://raw.githubusercontent.com/teknium1/GPTeacher/main/Codegen/codegen-instruct.json")
+            "https://raw.githubusercontent.com/teknium1/GPTeacher/main/Codegen/codegen-instruct.json"
+        )
         dset += annotate_source(codegen_dset, "gpteacher_codegen")
     if "gpteacher_toolformer" in accepted_filter_ids:
         toolformer_dset = direct_data_request(
-            "https://raw.githubusercontent.com/teknium1/GPTeacher/main/Toolformer/toolformer-dedupe-only-dataset.json")
+            "https://raw.githubusercontent.com/teknium1/GPTeacher/main/Toolformer/toolformer-dedupe-only-dataset.json"
+        )
         dset += annotate_source(toolformer_dset, "gpteacher_toolformer")
     if "gpteacher_roleplay" in accepted_filter_ids:
         roleplay_dset = direct_data_request(
-            "https://raw.githubusercontent.com/teknium1/GPTeacher/main/Roleplay/roleplay-simple-deduped-roleplay-instruct.json")
+            "https://raw.githubusercontent.com/teknium1/GPTeacher/main/Roleplay/roleplay-simple-deduped-roleplay-instruct.json"
+        )
         dset += annotate_source(roleplay_dset, "gpteacher_roleplay")
     return dset
 
@@ -353,22 +368,26 @@ def download_baize_data(accepted_filter_ids):
     dset = []
     if "alpaca_chat_data" in accepted_filter_ids:
         alpaca_chat_dataset = direct_data_request(
-            "https://raw.githubusercontent.com/project-baize/baize-chatbot/main/data/alpaca_chat_data.json")
+            "https://raw.githubusercontent.com/project-baize/baize-chatbot/main/data/alpaca_chat_data.json"
+        )
         dset += annotate_source(alpaca_chat_dataset, "alpaca_chat_data")
 
     if "medical_chat_data" in accepted_filter_ids:
         medical_chat_dataset = direct_data_request(
-            "https://raw.githubusercontent.com/project-baize/baize-chatbot/main/data/medical_chat_data.json")
+            "https://raw.githubusercontent.com/project-baize/baize-chatbot/main/data/medical_chat_data.json"
+        )
         dset += annotate_source(medical_chat_dataset, "medical_chat_data")
 
     if "quora_chat_data" in accepted_filter_ids:
         quora_chat_dataset = direct_data_request(
-            "https://raw.githubusercontent.com/project-baize/baize-chatbot/main/data/quora_chat_data.json")
+            "https://raw.githubusercontent.com/project-baize/baize-chatbot/main/data/quora_chat_data.json"
+        )
         dset += annotate_source(quora_chat_dataset, "quora_chat_data")
 
     if "stackoverflow_chat_data" in accepted_filter_ids:
         stackoverflow_chat_dataset = direct_data_request(
-            "https://raw.githubusercontent.com/project-baize/baize-chatbot/main/data/stackoverflow_chat_data.json")
+            "https://raw.githubusercontent.com/project-baize/baize-chatbot/main/data/stackoverflow_chat_data.json"
+        )
         dset += annotate_source(stackoverflow_chat_dataset, "stackoverflow_chat_data")
     return dset
 
@@ -407,26 +426,35 @@ def download_pure_dove(accepted_filter_ids):
 
 
 def download_riddle_sense(accepted_filter_ids):
-    return huggingface_download('riddle_sense', split='train')    
+    return huggingface_download("riddle_sense", split="train")
+
 
 def download_nectar(accepted_filter_ids):
-    return huggingface_download('berkeley-nest/Nectar', split='train')
+    return huggingface_download("berkeley-nest/Nectar", split="train")
 
 
 def download_feedback_collection(accepted_filter_ids):
-    return huggingface_download("prometheus-eval/Feedback-Collection", split='train')
+    return huggingface_download("prometheus-eval/Feedback-Collection", split="train")
+
 
 def download_preference_collection(accepted_filter_ids):
-    return huggingface_download("prometheus-eval/Preference-Collection", split='train')
+    return huggingface_download("prometheus-eval/Preference-Collection", split="train")
+
 
 def download_magpie(accepted_filter_ids):
-    return huggingface_download("Magpie-Align/Magpie-Pro-300K-Filtered",split="train")
+    return huggingface_download("Magpie-Align/Magpie-Pro-300K-Filtered", split="train")
+
 
 def download_synthetic_gsm8k_reflection(accepted_filter_ids):
-    return huggingface_download("gretelai/synthetic-gsm8k-reflection-405b", split="train")
+    return huggingface_download(
+        "gretelai/synthetic-gsm8k-reflection-405b", split="train"
+    )
+
 
 def download_evol_instruct(accepted_filter_ids):
-    return huggingface_download("mlabonne/WizardLM_evol_instruct_70k-ShareGPT", split="train")
+    return huggingface_download(
+        "mlabonne/WizardLM_evol_instruct_70k-ShareGPT", split="train"
+    )
 
 
 def download_selfee(accepted_filter_ids):
@@ -498,17 +526,13 @@ def download_camel_science(accepted_filter_ids):
         dset += annotate_source(biology_dset, "biology")
     if "math" in accepted_filter_ids:
         math_zip = hf_hub_download(
-            repo_id="camel-ai/math",
-            filename="math.zip",
-            repo_type="dataset"
+            repo_id="camel-ai/math", filename="math.zip", repo_type="dataset"
         )
         math_dset = process_zipped_file(math_zip)
         dset += annotate_source(math_dset, "math")
     if "code" in accepted_filter_ids:
         code_zip = hf_hub_download(
-            repo_id="camel-ai/code",
-            filename="code_chat.zip",
-            repo_type="dataset"
+            repo_id="camel-ai/code", filename="code_chat.zip", repo_type="dataset"
         )
         code_dset = process_zipped_file(code_zip)
         dset += annotate_source(code_dset, "code")
@@ -641,8 +665,9 @@ def download_tasksource_symbol_tuning(accepted_filter_ids):
 
 
 def download_stack_exchange_instruction(accepted_filter_ids):
-    return huggingface_download("ArmelR/stack-exchange-instruction", split="train")
-
+    return huggingface_download(
+        "DataProvenanceInitiative/stack-exchange-instruction-2split", split="train"
+    )
 
 
 def download_unnatural_instructions(accepted_filter_ids):
@@ -651,10 +676,8 @@ def download_unnatural_instructions(accepted_filter_ids):
     )
 
 
-
 def download_starcoder_self_instruct(accepted_filter_ids):
     return huggingface_download("codeparrot/self-instruct-starcoder", split="curated")
-
 
 
 def download_thai_gen_ai_gpteacher(accepted_filter_ids):
@@ -662,7 +685,8 @@ def download_thai_gen_ai_gpteacher(accepted_filter_ids):
 
 
 def download_lmsys_chat_1m(accepted_filter_ids):
-    return huggingface_download('lmsys/lmsys-chat-1m', split='train')
+    return huggingface_download("lmsys/lmsys-chat-1m", split="train")
+
 
 def download_tiny_stories(accepted_filter_ids):
     return huggingface_download("roneneldan/TinyStoriesInstruct", split="train")
@@ -672,14 +696,15 @@ def download_joke_explanation(accepted_filter_ids):
     return huggingface_download("theblackcat102/joke_explaination", split="train")
 
 
-
 def download_ultraFeedback_argilla(accepted_filter_ids):
-    dset = huggingface_download('argilla/ultrafeedback-binarized-preferences', split='train')
+    dset = huggingface_download(
+        "argilla/ultrafeedback-binarized-preferences", split="train"
+    )
     return pool_filter(dset, "source", accepted_filter_ids)
 
-  
+
 def download_longalign_10k(accepted_filter_ids):
-    return huggingface_download('THUDM/LongAlign-10k', split='train')
+    return huggingface_download("THUDM/LongAlign-10k", split="train")
 
 
 def download_book_summaries(accepted_filter_ids):
@@ -701,11 +726,13 @@ def download_no_robots(accepted_filter_ids):
 def download_help_steer(accepted_filter_ids):
     return huggingface_download("nvidia/HelpSteer", split="train")
 
+
 def download_ultrachat_200k(accepted_filter_ids):
     return annotate_source(
         huggingface_download("HuggingFaceH4/ultrachat_200k", split="train_sft"),
         "UltraChat_200k",
     )
+
 
 def download_ultrachat(accepted_filter_ids):
     return annotate_source(
@@ -719,13 +746,15 @@ def download_wildchat(accepted_filter_ids):
     dset = huggingface_download("allenai/WildChat", split="train")
     return pool_filter(dset, "model", accepted_filter_ids)
 
+
 def download_seacrowd(accepted_filter_ids):
     dset = huggingface_download("DataProvenanceInitiative/seacrowd", split="train")
     return pool_filter(dset, "user_parent", accepted_filter_ids)
 
 
 def download_airoboros(accepted_filter_ids):
-    return huggingface_download('jondurbin/airoboros-3.2', split='train')
+    return huggingface_download("jondurbin/airoboros-3.2", split="train")
+
 
 def download_lima(accepted_filter_ids):
     dset = huggingface_download("GAIR/lima", split="train")
@@ -733,8 +762,8 @@ def download_lima(accepted_filter_ids):
 
 
 def download_open_orca(accepeted_filter_ids):
-    dset = huggingface_download('Open-Orca/OpenOrca', split='train')
-    dset = list(map(lambda x: {**x, 'source': x['id'].split('.')[0]}, dset))
+    dset = huggingface_download("Open-Orca/OpenOrca", split="train")
+    dset = list(map(lambda x: {**x, "source": x["id"].split(".")[0]}, dset))
     return pool_filter(dset, "source", accepeted_filter_ids)
 
 
@@ -758,9 +787,12 @@ def download_medical_meadow(accepted_filter_ids):
             wikidoc_living_textbook, "medical-meadow-wikidoc-living-textbook"
         )
     if "medical-meadow-wikidoc-patient-information" in accepted_filter_ids:
-        wikidoc_patient_information = huggingface_download("medalpaca/medical_meadow_wikidoc_patient_information",
-                                                           split='train')
-        dset += annotate_source(wikidoc_patient_information, "medical-meadow-wikidoc-patient-information")
+        wikidoc_patient_information = huggingface_download(
+            "medalpaca/medical_meadow_wikidoc_patient_information", split="train"
+        )
+        dset += annotate_source(
+            wikidoc_patient_information, "medical-meadow-wikidoc-patient-information"
+        )
     if "medical-meadow-cord19" in accepted_filter_ids:
         cord19 = huggingface_download("medalpaca/medical_meadow_cord19", split="train")
         dset += annotate_source(cord19, "medical-meadow-cord19")
@@ -785,56 +817,84 @@ def download_medical_meadow(accepted_filter_ids):
 
 def download_medinstruct(accepted_filter_ids):
     return direct_data_request(
-        "https://raw.githubusercontent.com/XZhang97666/AlpaCare/master/data/MedInstruct-52k.json")
+        "https://raw.githubusercontent.com/XZhang97666/AlpaCare/master/data/MedInstruct-52k.json"
+    )
+
 
 def download_mathinstruct(accepted_filter_ids):
     mathinstruct = load_dataset("TIGER-Lab/MathInstruct", split="train")
     dset = []
 
-    if 'cot_MATH_train' in accepted_filter_ids:
-        cot_MATH_train = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/MATH_train.json').to_list()
-        dset += annotate_source(cot_MATH_train, 'cot_MATH_train')
-    if 'cot_TheoremQA' in accepted_filter_ids:
-        cot_TheoremQA = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/TheoremQA.json').to_list()
-        dset += annotate_source(cot_TheoremQA, 'cot_TheoremQA')
-    if 'cot_aqua_rat' in accepted_filter_ids:
-        cot_aqua_rat = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/aqua_rat.json').to_list()
-        dset += annotate_source(cot_aqua_rat, 'cot_aqua_rat')
-    if 'cot_college_math' in accepted_filter_ids:
-        cot_college_math = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/college_math.json').to_list()
-        dset += annotate_source(cot_college_math, 'cot_college_math')
-    if 'cot_gsm_rft' in accepted_filter_ids:
-        cot_gsm_rft = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/gsm_rft.json').to_list()
-        dset += annotate_source(cot_gsm_rft, 'cot_gsm_rft')
-    if 'cot_gsm_train' in accepted_filter_ids:
-        cot_gsm_train = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/gsm_train.json').to_list()
-        dset += annotate_source(cot_gsm_train, 'cot_gsm_train')
-    if 'cot_math50k_camel' in accepted_filter_ids:
-        cot_math50k_camel = mathinstruct.filter(lambda row: row['source'] == 'data/CoT/math50k_camel.json').to_list()
-        dset += annotate_source(cot_math50k_camel, 'cot_math50k_camel')
-    if 'cot_number_comparison' in accepted_filter_ids:
+    if "cot_MATH_train" in accepted_filter_ids:
+        cot_MATH_train = mathinstruct.filter(
+            lambda row: row["source"] == "data/CoT/MATH_train.json"
+        ).to_list()
+        dset += annotate_source(cot_MATH_train, "cot_MATH_train")
+    if "cot_TheoremQA" in accepted_filter_ids:
+        cot_TheoremQA = mathinstruct.filter(
+            lambda row: row["source"] == "data/CoT/TheoremQA.json"
+        ).to_list()
+        dset += annotate_source(cot_TheoremQA, "cot_TheoremQA")
+    if "cot_aqua_rat" in accepted_filter_ids:
+        cot_aqua_rat = mathinstruct.filter(
+            lambda row: row["source"] == "data/CoT/aqua_rat.json"
+        ).to_list()
+        dset += annotate_source(cot_aqua_rat, "cot_aqua_rat")
+    if "cot_college_math" in accepted_filter_ids:
+        cot_college_math = mathinstruct.filter(
+            lambda row: row["source"] == "data/CoT/college_math.json"
+        ).to_list()
+        dset += annotate_source(cot_college_math, "cot_college_math")
+    if "cot_gsm_rft" in accepted_filter_ids:
+        cot_gsm_rft = mathinstruct.filter(
+            lambda row: row["source"] == "data/CoT/gsm_rft.json"
+        ).to_list()
+        dset += annotate_source(cot_gsm_rft, "cot_gsm_rft")
+    if "cot_gsm_train" in accepted_filter_ids:
+        cot_gsm_train = mathinstruct.filter(
+            lambda row: row["source"] == "data/CoT/gsm_train.json"
+        ).to_list()
+        dset += annotate_source(cot_gsm_train, "cot_gsm_train")
+    if "cot_math50k_camel" in accepted_filter_ids:
+        cot_math50k_camel = mathinstruct.filter(
+            lambda row: row["source"] == "data/CoT/math50k_camel.json"
+        ).to_list()
+        dset += annotate_source(cot_math50k_camel, "cot_math50k_camel")
+    if "cot_number_comparison" in accepted_filter_ids:
         cot_number_comparison = mathinstruct.filter(
-            lambda row: row['source'] == 'data/CoT/number_comparison.json').to_list()
-        dset += annotate_source(cot_number_comparison, 'cot_number_comparison')
-    if 'pot_MATH_train' in accepted_filter_ids:
-        pot_MATH_train = mathinstruct.filter(lambda row: row['source'] == 'data/PoT/MATH_train.json').to_list()
-        dset += annotate_source(pot_MATH_train, 'pot_MATH_train')
-    if 'pot_TheoremQA' in accepted_filter_ids:
-        pot_TheoremQA = mathinstruct.filter(lambda row: row['source'] == 'data/PoT/TheoremQA.json').to_list()
-        dset += annotate_source(pot_TheoremQA, 'pot_TheoremQA')
-    if 'pot_aqua_rat_filtered' in accepted_filter_ids:
+            lambda row: row["source"] == "data/CoT/number_comparison.json"
+        ).to_list()
+        dset += annotate_source(cot_number_comparison, "cot_number_comparison")
+    if "pot_MATH_train" in accepted_filter_ids:
+        pot_MATH_train = mathinstruct.filter(
+            lambda row: row["source"] == "data/PoT/MATH_train.json"
+        ).to_list()
+        dset += annotate_source(pot_MATH_train, "pot_MATH_train")
+    if "pot_TheoremQA" in accepted_filter_ids:
+        pot_TheoremQA = mathinstruct.filter(
+            lambda row: row["source"] == "data/PoT/TheoremQA.json"
+        ).to_list()
+        dset += annotate_source(pot_TheoremQA, "pot_TheoremQA")
+    if "pot_aqua_rat_filtered" in accepted_filter_ids:
         pot_aqua_rat_filtered = mathinstruct.filter(
-            lambda row: row['source'] == 'data/PoT/aqua_rat_filtered.json').to_list()
-        dset += annotate_source(pot_aqua_rat_filtered, 'pot_aqua_rat_filtered')
-    if 'pot_gsm_gpt4' in accepted_filter_ids:
-        pot_gsm_gpt4 = mathinstruct.filter(lambda row: row['source'] == 'data/PoT/gsm_gpt4.json').to_list()
-        dset += annotate_source(pot_gsm_gpt4, 'pot_gsm_gpt4')
-    if 'pot_mathqa' in accepted_filter_ids:
-        pot_mathqa = mathinstruct.filter(lambda row: row['source'] == 'data/PoT/mathqa.json').to_list()
-        dset += annotate_source(pot_mathqa, 'pot_mathqa')
-    if 'pot_numglue' in accepted_filter_ids:
-        pot_numglue = mathinstruct.filter(lambda row: row['source'] == 'data/PoT/numglue.json').to_list()
-        dset += annotate_source(pot_numglue, 'pot_numglue')
+            lambda row: row["source"] == "data/PoT/aqua_rat_filtered.json"
+        ).to_list()
+        dset += annotate_source(pot_aqua_rat_filtered, "pot_aqua_rat_filtered")
+    if "pot_gsm_gpt4" in accepted_filter_ids:
+        pot_gsm_gpt4 = mathinstruct.filter(
+            lambda row: row["source"] == "data/PoT/gsm_gpt4.json"
+        ).to_list()
+        dset += annotate_source(pot_gsm_gpt4, "pot_gsm_gpt4")
+    if "pot_mathqa" in accepted_filter_ids:
+        pot_mathqa = mathinstruct.filter(
+            lambda row: row["source"] == "data/PoT/mathqa.json"
+        ).to_list()
+        dset += annotate_source(pot_mathqa, "pot_mathqa")
+    if "pot_numglue" in accepted_filter_ids:
+        pot_numglue = mathinstruct.filter(
+            lambda row: row["source"] == "data/PoT/numglue.json"
+        ).to_list()
+        dset += annotate_source(pot_numglue, "pot_numglue")
     return dset
 
 
@@ -977,7 +1037,7 @@ def download_gorilla(accepted_filter_ids):
 def download_toxicchat(accepted_filter_ids):
     dset = []
     for c in accepted_filter_ids:
-        raw_dset = huggingface_download('lmsys/toxic-chat', c, split='train')
+        raw_dset = huggingface_download("lmsys/toxic-chat", c, split="train")
         dset.extend(raw_dset)
     return dset
 
@@ -990,22 +1050,27 @@ def download_coig(accepted_filter_ids):
 
     base_url = "https://huggingface.co/datasets/BAAI/COIG/resolve/main"
     filter_id_to_filenames = {
-        "coig-translated-instruction" : ["translated_instructions.jsonl"],
-        "coig-exam-instruction" : ["exam_instructions.jsonl"],
-        "coig-alignment-instruction" : ["human_value_alignment_instructions_part1.json", "human_value_alignment_instructions_part2.json"],
-        "coig-counterfactual-correction" : ["counterfactural_correction_multi_round_chat.tar.gz"],
-        "coig-leetcode" : ["leetcode_instructions.jsonl"],
+        "coig-translated-instruction": ["translated_instructions.jsonl"],
+        "coig-exam-instruction": ["exam_instructions.jsonl"],
+        "coig-alignment-instruction": [
+            "human_value_alignment_instructions_part1.json",
+            "human_value_alignment_instructions_part2.json",
+        ],
+        "coig-counterfactual-correction": [
+            "counterfactural_correction_multi_round_chat.tar.gz"
+        ],
+        "coig-leetcode": ["leetcode_instructions.jsonl"],
     }
     filenames_to_filter_ids = {}
     for k, v in filter_id_to_filenames.items():
         for fn in v:
             filenames_to_filter_ids[fn] = k
-    
+
     filenames = []
     for id in accepted_filter_ids:
         filenames.extend(filter_id_to_filenames[id])
     fileurls = [f"{base_url}/{fn}" for fn in filenames]
-    
+
     if len(fileurls) > 0:
         local_datafiles = dl_manager.download(fileurls)
     for i in range(len(filenames)):
@@ -1014,14 +1079,18 @@ def download_coig(accepted_filter_ids):
                 local_datafiles[i] = dl_manager.iter_archive(local_datafiles[i])
             else:
                 extracted_path = dl_manager.extract(local_datafiles[i])
-                extracted_path = os.path.join(extracted_path, filenames[i][:-len(".tar.gz")])
+                extracted_path = os.path.join(
+                    extracted_path, filenames[i][: -len(".tar.gz")]
+                )
+
                 def get_file_iter():
                     for json_file in os.listdir(extracted_path):
                         json_path = os.path.join(extracted_path, json_file)
                         with open(json_path, "rb") as jfp:
                             yield json_path, jfp
+
                 local_datafiles[i] = get_file_iter()
-    
+
     all_data_list = []
     for fi, fn in enumerate(filenames):
         if fn == "counterfactural_correction_multi_round_chat.tar.gz":
@@ -1029,101 +1098,148 @@ def download_coig(accepted_filter_ids):
             for json_file, jfp in local_datafiles[fi]:
                 sample = {"instruction": "", "conversations": []}
                 legal_convs = True
-                data = json.loads(jfp.read().decode('utf8'))
+                data = json.loads(jfp.read().decode("utf8"))
                 for ri in range(max_rounds):
                     if f"round_{ri}" not in data:
                         continue
                     conv = json.loads(data[f"round_{ri}"]["response"])
-                    sample["conversations"].append({"question": conv["Q"], "answer": conv["A"]})
-                    if not(isinstance(conv["Q"], str) and isinstance(conv["A"], str)):
+                    sample["conversations"].append(
+                        {"question": conv["Q"], "answer": conv["A"]}
+                    )
+                    if not (isinstance(conv["Q"], str) and isinstance(conv["A"], str)):
                         legal_convs = False
                 if legal_convs and len(sample["conversations"]) > 0:
-                    sample['source'] = filenames_to_filter_ids[fn]
+                    sample["source"] = filenames_to_filter_ids[fn]
                     all_data_list.append(sample)
-        elif fn == "exam_instructions.jsonl" or fn == "human_value_alignment_instructions_part2.json":
+        elif (
+            fn == "exam_instructions.jsonl"
+            or fn == "human_value_alignment_instructions_part2.json"
+        ):
             with open(local_datafiles[fi], "r") as jfp:
                 for line in jfp:
                     sample = {"instruction": "", "conversations": []}
                     data = json.loads(line.strip(" \n"))
                     sample["instruction"] = data["textbox_q_instruction"]
                     question = ""
-                    if "textbox_q_context" in data and len(data["textbox_q_context"]) > 0:
+                    if (
+                        "textbox_q_context" in data
+                        and len(data["textbox_q_context"]) > 0
+                    ):
                         question += data["textbox_q_context"] + "\n"
                     question += data["textbox_question"]
-                    if "textbox_answer_analysis" in data and len(data["textbox_answer_analysis"]) > 0:
+                    if (
+                        "textbox_answer_analysis" in data
+                        and len(data["textbox_answer_analysis"]) > 0
+                    ):
                         answer = data["textbox_answer_analysis"]
                     else:
                         answer = data["textbox_answer"]
-                    sample["conversations"].append({"question": question, "answer": answer})
-                    sample['source'] = filenames_to_filter_ids[fn]
+                    sample["conversations"].append(
+                        {"question": question, "answer": answer}
+                    )
+                    sample["source"] = filenames_to_filter_ids[fn]
                     all_data_list.append(sample)
         elif fn == "human_value_alignment_instructions_part1.json":
-                with open(local_datafiles[fi], "r") as jfp:
-                    all_data = json.load(jfp)
-                for data in all_data:
-                    if len(data["input"]) > 0:
-                        sample = {"instruction": data["instruction"], "conversations": [{
-                            "question": data["input"],
-                            "answer": data["output"],
-                            }]}
-                    else:
-                        sample = {"instruction": "", "conversations": [{
-                            "question": data["instruction"],
-                            "answer": data["output"],
-                            }]}
-                    sample['source'] = filenames_to_filter_ids[fn]
-                    all_data_list.append(sample)
+            with open(local_datafiles[fi], "r") as jfp:
+                all_data = json.load(jfp)
+            for data in all_data:
+                if len(data["input"]) > 0:
+                    sample = {
+                        "instruction": data["instruction"],
+                        "conversations": [
+                            {
+                                "question": data["input"],
+                                "answer": data["output"],
+                            }
+                        ],
+                    }
+                else:
+                    sample = {
+                        "instruction": "",
+                        "conversations": [
+                            {
+                                "question": data["instruction"],
+                                "answer": data["output"],
+                            }
+                        ],
+                    }
+                sample["source"] = filenames_to_filter_ids[fn]
+                all_data_list.append(sample)
         elif fn == "leetcode_instructions.jsonl":
             with open(local_datafiles[fi], "r") as jfp:
                 for line in jfp:
                     data = json.loads(line.strip(" \n"))
                     if len(data["input"]) > 0:
-                        sample = {"instruction": data["instruction"], "conversations": [{
-                            "question": data["input"],
-                            "answer": data["output"],
-                            }]}
+                        sample = {
+                            "instruction": data["instruction"],
+                            "conversations": [
+                                {
+                                    "question": data["input"],
+                                    "answer": data["output"],
+                                }
+                            ],
+                        }
                     else:
-                        sample = {"instruction": "", "conversations": [{
-                            "question": data["instruction"],
-                            "answer": data["output"],
-                            }]}
-                    sample['source'] = filenames_to_filter_ids[fn]
+                        sample = {
+                            "instruction": "",
+                            "conversations": [
+                                {
+                                    "question": data["instruction"],
+                                    "answer": data["output"],
+                                }
+                            ],
+                        }
+                    sample["source"] = filenames_to_filter_ids[fn]
                     all_data_list.append(sample)
         elif fn == "translated_instructions.jsonl":
             with open(local_datafiles[fi], "r") as jfp:
                 for line in jfp:
                     data = json.loads(line.strip(" \n"))
                     if len(data["trans_input"]) > 0:
-                        sample = {"instruction": data["trans_instruction"], "conversations": [{
-                            "question": data["trans_input"],
-                            "answer": data["trans_output"],
-                            }]}
+                        sample = {
+                            "instruction": data["trans_instruction"],
+                            "conversations": [
+                                {
+                                    "question": data["trans_input"],
+                                    "answer": data["trans_output"],
+                                }
+                            ],
+                        }
                     else:
-                        sample = {"instruction": "", "conversations": [{
-                            "question": data["trans_instruction"],
-                            "answer": data["trans_output"],
-                            }]}
-                    sample['source'] = filenames_to_filter_ids[fn]
+                        sample = {
+                            "instruction": "",
+                            "conversations": [
+                                {
+                                    "question": data["trans_instruction"],
+                                    "answer": data["trans_output"],
+                                }
+                            ],
+                        }
+                    sample["source"] = filenames_to_filter_ids[fn]
                     all_data_list.append(sample)
     if len(all_data_list) > 0:
         dset = Dataset.from_list(all_data_list)
     return dset
 
+
 def download_coig_kun(accepted_filter_ids):
     dset = []
     for split in accepted_filter_ids:
-        dset_tmp = huggingface_download('m-a-p/COIG-Kun', split=split.replace('coig-kun-',''))
+        dset_tmp = huggingface_download(
+            "m-a-p/COIG-Kun", split=split.replace("coig-kun-", "")
+        )
         dset_tmp = annotate_source(dset_tmp, split)
-        dset = dset  + dset_tmp
+        dset = dset + dset_tmp
     return dset
+
 
 def download_coig_cqia(accepted_filter_ids):
     dset = []
     for split in accepted_filter_ids:
-        id = split.replace('coig-cqia-','').replace('-','_')
-        dset_tmp = load_dataset('m-a-p/COIG-CQIA', id)['train']
+        id = split.replace("coig-cqia-", "").replace("-", "_")
+        dset_tmp = load_dataset("m-a-p/COIG-CQIA", id)["train"]
         dset_tmp = annotate_source(dset_tmp.to_list(), split)
-        dset = dset  + dset_tmp
+        dset = dset + dset_tmp
     return dset
 
 
@@ -1171,14 +1287,14 @@ def download_agentinstruct(accepted_filter_ids):
 
 
 def download_cidar(accepted_filter_ids):
-    return huggingface_download('arbml/CIDAR', split='train')
+    return huggingface_download("arbml/CIDAR", split="train")
 
 
 def download_indic_instruct(accepted_filter_ids):
     dset = []
     ## Each dataset has a different format, thus storing dataset name info for next step
     for data_name in accepted_filter_ids:
-        if data_name == 'nmt-seed':
+        if data_name == "nmt-seed":
             ##nmt-seed doesn't have en split, rest all datasets have 2 splits - en and hi
             data_hi = huggingface_download(
                 "ai4bharat/indic-instruct-data-v0.1", name=data_name, split="hi"
@@ -1194,10 +1310,14 @@ def download_indic_instruct(accepted_filter_ids):
                 "ai4bharat/indic-instruct-data-v0.1", name=data_name, split="hi"
             )
             data_hi = [{**d, "dataset": data_name, "language": "hi"} for d in data_hi]
-            data_en = huggingface_download('ai4bharat/indic-instruct-data-v0.1', name=data_name, split='en')
-            data_en = [{**d, 'dataset': data_name, 'language': 'en'} for d in data_en]
-            data_hi = huggingface_download('ai4bharat/indic-instruct-data-v0.1', name=data_name, split='hi')
-            data_hi = [{**d, 'dataset': data_name, 'language': 'hi'} for d in data_hi]
+            data_en = huggingface_download(
+                "ai4bharat/indic-instruct-data-v0.1", name=data_name, split="en"
+            )
+            data_en = [{**d, "dataset": data_name, "language": "en"} for d in data_en]
+            data_hi = huggingface_download(
+                "ai4bharat/indic-instruct-data-v0.1", name=data_name, split="hi"
+            )
+            data_hi = [{**d, "dataset": data_name, "language": "hi"} for d in data_hi]
             dset += data_en
             dset += data_hi
 
@@ -1233,7 +1353,7 @@ def download_pippa(accepted_filter_ids):
     # Initialize an empty list to hold the filtered dataset entries
     return huggingface_download("PygmalionAI/PIPPA", split="train")
 
-  
+
 def download_collective_cognition(accepted_filter_ids):
     dset = huggingface_download(
         "CollectiveCognition/chats-data-2023-10-16",
@@ -1241,7 +1361,7 @@ def download_collective_cognition(accepted_filter_ids):
     )
     return dset
 
-    
+
 def download_chatbot_arena_conversations(accepted_filter_ids):
     # Standard download
     dset = huggingface_download(
@@ -1250,10 +1370,11 @@ def download_chatbot_arena_conversations(accepted_filter_ids):
     )
     return dset
 
-    
+
 def download_kiwi(accepted_filter_ids):
     dset = huggingface_download("fangyuan/kiwi", split="train")
     return dset
+
 
 def download_orca_math(accepted_filter_ids):
     dset = huggingface_download("microsoft/orca-math-word-problems-200k", split="train")
@@ -1262,36 +1383,44 @@ def download_orca_math(accepted_filter_ids):
 
 def download_cobra_frames(accepted_filter_ids):
     mapping = {
-        'normal': accepted_filter_ids[0],
+        "normal": accepted_filter_ids[0],
     }
-    df = pd.read_csv("https://huggingface.co/datasets/cmu-lti/cobracorpus/resolve/main/toxigen_explanations.csv")
+    df = pd.read_csv(
+        "https://huggingface.co/datasets/cmu-lti/cobracorpus/resolve/main/toxigen_explanations.csv"
+    )
     dset = Dataset.from_pandas(df)
 
-    dset = annotate_source(dset, mapping['normal'])
+    dset = annotate_source(dset, mapping["normal"])
     return dset
 
 
 def download_mathdial(accepted_filter_ids):
-    data_url = "https://raw.githubusercontent.com/eth-nlped/mathdial/main/data/train.csv"
+    data_url = (
+        "https://raw.githubusercontent.com/eth-nlped/mathdial/main/data/train.csv"
+    )
     train_data = pd.read_csv(data_url)
-    return train_data.to_dict(orient='records')
+    return train_data.to_dict(orient="records")
 
-  
+
 def download_10k_prompt_ranked(accepted_filter_ids):
-    return huggingface_download('DIBT/10k_prompts_ranked', split='train')
+    return huggingface_download("DIBT/10k_prompts_ranked", split="train")
 
 
 def download_aya_dataset(accepted_filter_ids):
     # The language code for both Simplified and Traditional Chinese is currently zho.
-    # This function updates Simplified Chinese to zhs, but this is not an official ISO code and I couldn't 
+    # This function updates Simplified Chinese to zhs, but this is not an official ISO code and I couldn't
     # find an official one.
     def update_simplified_chinese_langcode(row):
-        row["language_code"] = "zhs" if row["language"] == "Simplified Chinese" else row["language_code"]
+        row["language_code"] = (
+            "zhs" if row["language"] == "Simplified Chinese" else row["language_code"]
+        )
         return row
 
-    aya_dataset = load_dataset("CohereForAI/aya_dataset", split="train")\
-            .map(update_simplified_chinese_langcode)\
-            .to_list()
+    aya_dataset = (
+        load_dataset("CohereForAI/aya_dataset", split="train")
+        .map(update_simplified_chinese_langcode)
+        .to_list()
+    )
 
     return pool_filter(aya_dataset, "language_code", accepted_filter_ids)
 
@@ -1303,11 +1432,13 @@ def download_megawika(accepted_filter_ids):
         exs = []
         for qa_pairs in row["entries"]["qa_pairs"]:
             for i, question in enumerate(qa_pairs["question"]):
-                exs.append({
-                    "input": context + "\n\n\n" + question, 
-                    "output": "Answer: " + qa_pairs["en_answer"][i], 
-                    "source": lang
-                })
+                exs.append(
+                    {
+                        "input": context + "\n\n\n" + question,
+                        "output": "Answer: " + qa_pairs["en_answer"][i],
+                        "source": lang,
+                    }
+                )
         return exs
 
     exs = []
@@ -1317,83 +1448,171 @@ def download_megawika(accepted_filter_ids):
             exs.extend(generate_exs(row, filter_id))
     return exs
 
+
 def download_gretel_text_to_sql(accepted_filter_ids):
     return huggingface_download("gretelai/synthetic_text_to_sql", split="train")
 
+
 def download_expertqa(accepted_filter_ids):
     return huggingface_download("cmalaviya/expertqa", "lfqa_domain", split="train")
-  
+
 
 def download_openmath_instruct(accepted_filter_ids):
     dset = huggingface_download("nvidia/OpenMathInstruct-1", split="train")
     return pool_filter(dset, "dataset", accepted_filter_ids)
-  
+
 
 def download_opengpt_healthcare(accepted_filter_ids):
     dset = []
     if "opengpt-nhs-qa" in accepted_filter_ids:
         nhs_qa_url = "https://raw.githubusercontent.com/CogStack/OpenGPT/main/data/nhs_uk_full/prepared_generated_data_for_nhs_uk_qa.csv"
-        nhs_qa = pd.read_csv(nhs_qa_url)\
-            .to_dict(orient='records')
+        nhs_qa = pd.read_csv(nhs_qa_url).to_dict(orient="records")
         for record in nhs_qa:
             record["_source"] = "opengpt-nhs-qa"
             dset.append(record)
 
     if "opengpt-nhs-conversations" in accepted_filter_ids:
         nhs_conversations_url = "https://raw.githubusercontent.com/CogStack/OpenGPT/main/data/nhs_uk_full/prepared_generated_data_for_nhs_uk_conversations.csv"
-        nhs_conversations = pd.read_csv(nhs_conversations_url)\
-            .to_dict(orient='records')
+        nhs_conversations = pd.read_csv(nhs_conversations_url).to_dict(orient="records")
         for record in nhs_conversations:
             record["_source"] = "opengpt-nhs-conversations"
             dset.append(record)
-        
+
     if "opengpt-med-tasks" in accepted_filter_ids:
         med_tasks_url = "https://raw.githubusercontent.com/CogStack/OpenGPT/main/data/medical_tasks_gpt4/prepared_generated_data_for_medical_tasks.csv"
-        med_tasks = pd.read_csv(med_tasks_url)\
-            .to_dict(orient='records')
+        med_tasks = pd.read_csv(med_tasks_url).to_dict(orient="records")
         for record in med_tasks:
             record["_source"] = "opengpt-med-tasks"
             dset.append(record)
 
     return dset
 
-  
+
 def download_conifer(accepted_filter_ids):
     dset = huggingface_download("ConiferLM/Conifer", split="train_sft")
     return dset
+
 
 def download_reasoning(accepted_filter_ids):
     dset = huggingface_download("SkunkworksAI/reasoning-0.01", split="train")
     return dset
 
+
 def download_dialogstudio(accepted_filter_ids):
     dsets = []
-    for data_name in ['chitchat-dataset', 'ConvAI2', 'AntiScam', 'Empathetic', 'HH-RLHF', 'PLACES3.5', 'Prosocial', 'SODA', 'ShareGPT', 'CompWebQ', 
-                        'CoQA', 'CoSQL', 'DART', 'FeTaQA', 'GrailQA', 'HybridQA', 'MTOP', 'MultiModalQA', 'SParC', 'Spider', 'SQA', 'ToTTo', 'WebQSP', 
-                        'WikiSQL', 'WikiTQ', 'wizard_of_internet', 'wizard_of_wikipedia', 'AMI', 'CRD3', 'DialogSum', 'ECTSum', 'ICSI', 'MediaSum', 
-                        'QMSum', 'SAMSum', 'TweetSumm', 'ConvoSumm', 'SummScreen_ForeverDreaming', 'SummScreen_TVMegaSite', 'ATIS', 'ATIS-NER', 
-                        'BANKING77', 'BANKING77-OOS', 'CLINC-Single-Domain-OOS-banking', 'CLINC-Single-Domain-OOS-credit_cards', 'CLINC150', 'DSTC8-SGD', 
-                        'HWU64', 'MIT-Movie', 'MIT-Restaurant', 'RESTAURANTS8K', 'SNIPS', 'SNIPS-NER', 'TOP', 'TOP-NER', 'ABCD', 'AirDialogue', 
-                        'BiTOD', 'CaSiNo', 'CraigslistBargains', 'Disambiguation', 'DSTC2-Clean', 'FRAMES', 'GECOR', 'HDSA-Dialog', 'KETOD', 'KVRET', 
-                        'MetaLWOZ', 'MS-DC', 'MuDoCo', 'MulDoGO', 'MultiWOZ_2.1', 'MULTIWOZ2_2', 'SGD', 'SimJointGEN', 'SimJointMovie', 'SimJointRestaurant', 
-                        'STAR', 'Taskmaster1', 'Taskmaster2', 'Taskmaster3', 'WOZ2_0', 'Redial', 'DuRecDial-2.0', 'OpenDialKG', 'SalesBot']:
+    for data_name in [
+        "chitchat-dataset",
+        "ConvAI2",
+        "AntiScam",
+        "Empathetic",
+        "HH-RLHF",
+        "PLACES3.5",
+        "Prosocial",
+        "SODA",
+        "ShareGPT",
+        "CompWebQ",
+        "CoQA",
+        "CoSQL",
+        "DART",
+        "FeTaQA",
+        "GrailQA",
+        "HybridQA",
+        "MTOP",
+        "MultiModalQA",
+        "SParC",
+        "Spider",
+        "SQA",
+        "ToTTo",
+        "WebQSP",
+        "WikiSQL",
+        "WikiTQ",
+        "wizard_of_internet",
+        "wizard_of_wikipedia",
+        "AMI",
+        "CRD3",
+        "DialogSum",
+        "ECTSum",
+        "ICSI",
+        "MediaSum",
+        "QMSum",
+        "SAMSum",
+        "TweetSumm",
+        "ConvoSumm",
+        "SummScreen_ForeverDreaming",
+        "SummScreen_TVMegaSite",
+        "ATIS",
+        "ATIS-NER",
+        "BANKING77",
+        "BANKING77-OOS",
+        "CLINC-Single-Domain-OOS-banking",
+        "CLINC-Single-Domain-OOS-credit_cards",
+        "CLINC150",
+        "DSTC8-SGD",
+        "HWU64",
+        "MIT-Movie",
+        "MIT-Restaurant",
+        "RESTAURANTS8K",
+        "SNIPS",
+        "SNIPS-NER",
+        "TOP",
+        "TOP-NER",
+        "ABCD",
+        "AirDialogue",
+        "BiTOD",
+        "CaSiNo",
+        "CraigslistBargains",
+        "Disambiguation",
+        "DSTC2-Clean",
+        "FRAMES",
+        "GECOR",
+        "HDSA-Dialog",
+        "KETOD",
+        "KVRET",
+        "MetaLWOZ",
+        "MS-DC",
+        "MuDoCo",
+        "MulDoGO",
+        "MultiWOZ_2.1",
+        "MULTIWOZ2_2",
+        "SGD",
+        "SimJointGEN",
+        "SimJointMovie",
+        "SimJointRestaurant",
+        "STAR",
+        "Taskmaster1",
+        "Taskmaster2",
+        "Taskmaster3",
+        "WOZ2_0",
+        "Redial",
+        "DuRecDial-2.0",
+        "OpenDialKG",
+        "SalesBot",
+    ]:
         if f"ds-{data_name}" in accepted_filter_ids:
-            dset = huggingface_download("Salesforce/dialogstudio", data_name, split="train")
+            dset = huggingface_download(
+                "Salesforce/dialogstudio", data_name, split="train"
+            )
             dset = annotate_source(dset, f"ds-{data_name}")
             dsets.extend(dset)
     return dsets
 
+
 def download_lumos_planning(accepted_filter_ids):
-    dset = huggingface_download('ai2lumos/lumos_unified_plan_iterative', split='train')
+    dset = huggingface_download("ai2lumos/lumos_unified_plan_iterative", split="train")
     return pool_filter(dset, "dataset", accepted_filter_ids)
+
 
 def download_lumos_grounding(accepted_filter_ids):
-    dset = huggingface_download('ai2lumos/lumos_unified_ground_iterative', split='train')
+    dset = huggingface_download(
+        "ai2lumos/lumos_unified_ground_iterative", split="train"
+    )
     return pool_filter(dset, "dataset", accepted_filter_ids)
 
+
 def download_dynosaur(accepted_filter_ids):
-    dset = huggingface_download('Dynosaur/dynosaur-full', split='train')
+    dset = huggingface_download("Dynosaur/dynosaur-full", split="train")
     return pool_filter(dset, "taskname", accepted_filter_ids)
+
 
 def download_inst_ar(accepted_filter_ids):
     dset = huggingface_download("ClusterlabAi/InstAr-500k", split="train")
