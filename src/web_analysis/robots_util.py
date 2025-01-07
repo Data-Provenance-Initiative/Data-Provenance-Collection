@@ -63,19 +63,13 @@ BOT_TRACKER = {
         "retrieval": ["ClaudeBot", "CCBot"],
         # https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler
     },
-    "Cohere": {
-        "train": ["cohere-ai"],
-        "retrieval": ["cohere-ai"]
-    },
+    "Cohere": {"train": ["cohere-ai"], "retrieval": ["cohere-ai"]},
     "Meta": {
         "train": ["FacebookBot"],
         "retrieval": ["FacebookBot"],
         # https://developers.facebook.com/docs/sharing/bot/
     },
-    "Internet Archive": {
-        "train": ["ia_archiver"],
-        "retrieval": ["ia_archiver"]
-    },
+    "Internet Archive": {"train": ["ia_archiver"], "retrieval": ["ia_archiver"]},
     "Google Search": {
         "train": ["Googlebot"],
         "retrieval": ["Googlebot"],
@@ -139,8 +133,10 @@ def get_bots(company=None, setting=None):
 ###### URL --> Token Lookup Methods
 ############################################################
 
+
 def normalize_url(url):
     return url if url.startswith("www.") else f"www.{url}"
+
 
 class URLTokenLookup:
     def __init__(self, file_path):
@@ -176,13 +172,19 @@ class URLTokenLookup:
         # x = df.set_index('url')[['c4_tokens', 'rf_tokens', 'dolma_tokens']]
         # return {row['url']: (row['c4_tokens'], row['rf_tokens'], row['dolma_tokens']) for index, row in df.iterrows()}
         # print(df)
-        df['url'] = df['url'].apply(normalize_url)
+        df["url"] = df["url"].apply(normalize_url)
         # df = df.drop_duplicates(subset='url')
-        df = df.groupby('url').agg({
-            'c4_tokens': 'sum',
-            'rf_tokens': 'sum',
-            'dolma_tokens': 'sum',
-        }).reset_index()
+        df = (
+            df.groupby("url")
+            .agg(
+                {
+                    "c4_tokens": "sum",
+                    "rf_tokens": "sum",
+                    "dolma_tokens": "sum",
+                }
+            )
+            .reset_index()
+        )
         # print(df)
         # www.apnews.com,8981058,19450645,8819143
         # apnews.com,14265514,15769066,143689592
@@ -206,7 +208,6 @@ class URLTokenLookup:
         int: Total number of tokens for the specified dataset.
         """
         return self._TOTAL_TOKENS[dataset_name]
-
 
     def url_tokens(self, url, dataset_name):
         """
@@ -477,7 +478,9 @@ def read_start_dates(fpath, robots_urls):
 
     # Map the sanitized URLs back to the original URLs
     website_start_dates = {
-        normalize_url(url): start_dates.get(sanitize_url(url), pd.to_datetime("1970-01-01"))
+        normalize_url(url): start_dates.get(
+            sanitize_url(url), pd.to_datetime("1970-01-01")
+        )
         for url in robots_urls
     }
     return website_start_dates
@@ -763,7 +766,7 @@ def get_tos_url_time_verdicts(
     tos_policies,
     tos_license_policies,
     tos_compete_policies,
-    manual_annotated_urls, 
+    manual_annotated_urls,
     website_start_dates,
 ):
     """
@@ -799,7 +802,9 @@ def get_tos_url_time_verdicts(
     # print(len(url_to_time_to_verdict))
     for url in manual_annotated_urls:
         if url in website_start_dates and url not in url_to_time_to_verdict:
-            url_to_time_to_verdict[url] = {website_start_dates[url].strftime("%Y-%m-%d"): "No Terms Pages"}
+            url_to_time_to_verdict[url] = {
+                website_start_dates[url].strftime("%Y-%m-%d"): "No Terms Pages"
+            }
     # print(len(url_to_time_to_verdict))
 
     print(f"{misses} / {misses + hits} dates missed due to time mismatches.")
@@ -1052,15 +1057,22 @@ def encode_latest_tos_robots_into_df(
     url_results_df["robots"].fillna("none", inplace=True)
     if robots_detailed:
         url_results_df["Restrictive Robots.txt"] = url_results_df["robots"].map(
-            {'no_robots': False, 'none': False, 'none_sitemap': False, 'none_crawl_delay': False, 
-            'some_pattern_restrictions': False, 'some_disallow_important_dir': False, 'some_other': False, 'all': True}
+            {
+                "no_robots": False,
+                "none": False,
+                "none_sitemap": False,
+                "none_crawl_delay": False,
+                "some_pattern_restrictions": False,
+                "some_disallow_important_dir": False,
+                "some_other": False,
+                "all": True,
+            }
         )
     else:
         url_results_df["Restrictive Robots.txt"] = url_results_df["robots"].map(
             {"all": True, "some": False, "none": False}
         )
 
-    
     url_results_df["ToS"] = url_results_df["URL"].map(recent_url_tos_verdicts)
     # print(url_results_df[url_results_df["URL"]])
     # print("start")
@@ -1076,9 +1088,9 @@ def encode_latest_tos_robots_into_df(
         lambda x: x not in ["Unrestricted Use", "No Terms Pages"]
     )
 
-    url_to_tos_map = dict(zip(url_results_df['URL'], url_results_df['ToS']))
-    
-    return url_results_df #, url_to_tos_map
+    url_to_tos_map = dict(zip(url_results_df["URL"], url_results_df["ToS"]))
+
+    return url_results_df  # , url_to_tos_map
 
 
 def plot_robots_time_map_original(df, agent_type, val_key, frequency="M"):
@@ -1792,19 +1804,37 @@ def prepare_temporal_robots_for_corpus(
 ):
     urlsubset_to_robots_summary, urlsubsets = {}, {}
     for key, url_subset in service_to_urls.items():
-        url_robots_summary_rand_detailed = {url: url_robots_summary_detailed[url] for url in random_urls if url in url_robots_summary_detailed}
-        url_robots_summary_rand_subset = {url: details for url, details in url_robots_summary_rand_detailed.items() if url in url_subset}
-        url_robots_summary_head_detailed = {url: url_robots_summary_detailed[url] for url in head_urls if url in url_robots_summary_detailed}
-        url_robots_summary_head_subset = {url: details for url, details in url_robots_summary_head_detailed.items() if url in url_subset}
+        url_robots_summary_rand_detailed = {
+            url: url_robots_summary_detailed[url]
+            for url in random_urls
+            if url in url_robots_summary_detailed
+        }
+        url_robots_summary_rand_subset = {
+            url: details
+            for url, details in url_robots_summary_rand_detailed.items()
+            if url in url_subset
+        }
+        url_robots_summary_head_detailed = {
+            url: url_robots_summary_detailed[url]
+            for url in head_urls
+            if url in url_robots_summary_detailed
+        }
+        url_robots_summary_head_subset = {
+            url: details
+            for url, details in url_robots_summary_head_detailed.items()
+            if url in url_subset
+        }
         # RANDOM
         # {Period --> Agent --> Status --> set(URLs)}
-        robots_filled_status_rand_summary_detailed = prepare_robots_temporal_summary_detailed(
-            url_robots_summary=url_robots_summary_rand_subset,
-            group_to_agents=agent_groups_to_track,
-            start_time=temporal_start_date,
-            end_time=temporal_end_date,
-            time_frequency="M",
-            website_start_dates=website_start_dates,
+        robots_filled_status_rand_summary_detailed = (
+            prepare_robots_temporal_summary_detailed(
+                url_robots_summary=url_robots_summary_rand_subset,
+                group_to_agents=agent_groups_to_track,
+                start_time=temporal_start_date,
+                end_time=temporal_end_date,
+                time_frequency="M",
+                website_start_dates=website_start_dates,
+            )
         )
         # [Period, Agent, Status, Count, Tokens, URLs]
         robots_temporal_rand_summary_detailed = robots_temporal_to_df(
@@ -1814,13 +1844,15 @@ def prepare_temporal_robots_for_corpus(
         )
         # HEAD
         # {Period --> Agent --> Status --> set(URLs)}
-        robots_filled_status_head_summary_detailed = prepare_robots_temporal_summary_detailed(
-            url_robots_summary=url_robots_summary_head_subset,
-            group_to_agents=agent_groups_to_track,
-            start_time=temporal_start_date,
-            end_time=temporal_end_date,
-            time_frequency="M",
-            website_start_dates=website_start_dates,
+        robots_filled_status_head_summary_detailed = (
+            prepare_robots_temporal_summary_detailed(
+                url_robots_summary=url_robots_summary_head_subset,
+                group_to_agents=agent_groups_to_track,
+                start_time=temporal_start_date,
+                end_time=temporal_end_date,
+                time_frequency="M",
+                website_start_dates=website_start_dates,
+            )
         )
         # [Period, Agent, Status, Count, Tokens, URLs]
         robots_temporal_head_summary_detailed = robots_temporal_to_df(
@@ -1828,15 +1860,19 @@ def prepare_temporal_robots_for_corpus(
             strictness_order=robots_strictness_order,
             url_to_counts=url_to_counts,
         )
-        urlsubset_to_robots_summary[f"rand-{key}"] = robots_temporal_rand_summary_detailed
-        urlsubset_to_robots_summary[f"head-{key}"] = robots_temporal_head_summary_detailed
+        urlsubset_to_robots_summary[f"rand-{key}"] = (
+            robots_temporal_rand_summary_detailed
+        )
+        urlsubset_to_robots_summary[f"head-{key}"] = (
+            robots_temporal_head_summary_detailed
+        )
         urlsubsets[f"rand-{key}"] = set(url_robots_summary_rand_subset.keys())
         urlsubsets[f"head-{key}"] = set(url_robots_summary_head_subset.keys())
 
         # if key == "all":
-            # print(len(url_robots_summary_head_detailed))
-            # print(len(url_robots_summary_head_subset))
-            # target_head_summary_df = robots_temporal_head_summary_detailed
+        # print(len(url_robots_summary_head_detailed))
+        # print(len(url_robots_summary_head_subset))
+        # target_head_summary_df = robots_temporal_head_summary_detailed
     return urlsubset_to_robots_summary, urlsubsets
 
 
@@ -1856,18 +1892,38 @@ def prepare_temporal_tos_for_corpus(
 ):
     urlsubset_to_tos_summary, urlsubsets = {}, {}
     url_to_time_to_tos_verdict = get_tos_url_time_verdicts(
-        tos_policies, tos_license_policies, tos_compete_policies, manual_annotated_urls, website_start_dates)
+        tos_policies,
+        tos_license_policies,
+        tos_compete_policies,
+        manual_annotated_urls,
+        website_start_dates,
+    )
     for key, url_subset in service_to_urls.items():
         # if key != "all":
         #     continue
 
-        url_tos_summary_rand_detailed = {url: url_to_time_to_tos_verdict[url] for url in random_urls if url in url_to_time_to_tos_verdict}
-        url_tos_summary_rand_subset = {url: details for url, details in url_tos_summary_rand_detailed.items() if url in url_subset}
-        url_tos_summary_head_detailed = {url: url_to_time_to_tos_verdict[url] for url in head_urls if url in url_to_time_to_tos_verdict}
-        url_tos_summary_head_subset = {url: details for url, details in url_tos_summary_head_detailed.items() if url in url_subset}
+        url_tos_summary_rand_detailed = {
+            url: url_to_time_to_tos_verdict[url]
+            for url in random_urls
+            if url in url_to_time_to_tos_verdict
+        }
+        url_tos_summary_rand_subset = {
+            url: details
+            for url, details in url_tos_summary_rand_detailed.items()
+            if url in url_subset
+        }
+        url_tos_summary_head_detailed = {
+            url: url_to_time_to_tos_verdict[url]
+            for url in head_urls
+            if url in url_to_time_to_tos_verdict
+        }
+        url_tos_summary_head_subset = {
+            url: details
+            for url, details in url_tos_summary_head_detailed.items()
+            if url in url_subset
+        }
         # print(len(url_tos_summary_head_subset))
         # print(len(url_tos_summary_rand_subset))
-
 
         # Period --> Status --> set(URLs)
         period_tos_verdict_urls_head = prepare_tos_temporal_summary(
@@ -1912,7 +1968,7 @@ def prepare_temporal_tos_for_corpus(
         urlsubset_to_tos_summary[f"head-{key}"] = tos_summary_df_head
         urlsubset_to_tos_summary[f"rand-{key}"] = tos_summary_df_rand
         urlsubsets[f"head-{key}"] = set(url_tos_summary_head_subset.keys())
-        urlsubsets[f"rand-{key}"] = set(url_tos_summary_rand_subset.keys())        
+        urlsubsets[f"rand-{key}"] = set(url_tos_summary_rand_subset.keys())
     return urlsubset_to_tos_summary, urlsubsets
 
 
@@ -1924,41 +1980,34 @@ def compute_corpus_restriction_estimates(
     target_agent,
     restrictive_statuses,
     save_fpath,
-    verbose=False
+    verbose=False,
 ):
     # Get the minimum and maximum date from the 'period' column
     # rand_df['period'] = rand_df['period'].dt.to_timestamp()
-    start_period = rand_df['period'].min()
-    end_period = rand_df['period'].max()
-    all_periods = pd.period_range(start=start_period, end=end_period, freq='M')
+    start_period = rand_df["period"].min()
+    end_period = rand_df["period"].max()
+    all_periods = pd.period_range(start=start_period, end=end_period, freq="M")
 
     # print(rand_df[rand_df['agent'] == target_agent][rand_df["period"] == "2024-04"])
-    rand_restricted = rand_df \
-        .loc[rand_df['agent'] == target_agent] \
-        .loc[rand_df['status'].isin(restrictive_statuses)] \
-        [['period', 'tokens']]
-    rand_restricted = rand_restricted.groupby('period').sum()['tokens']
+    rand_restricted = rand_df.loc[rand_df["agent"] == target_agent].loc[
+        rand_df["status"].isin(restrictive_statuses)
+    ][["period", "tokens"]]
+    rand_restricted = rand_restricted.groupby("period").sum()["tokens"]
     rand_restricted = rand_restricted.reindex(all_periods, fill_value=0)
-    
-    rand_all = rand_df \
-        .loc[rand_df['agent'] == target_agent] \
-        [['period', 'tokens']]
-    rand_all = rand_all.groupby('period').sum()['tokens']
-    
-    head_restricted = head_df \
-        .loc[head_df['agent'] == target_agent] \
-        .loc[head_df['status'].isin(restrictive_statuses)] \
-        [['period', 'tokens', 'count']]
+
+    rand_all = rand_df.loc[rand_df["agent"] == target_agent][["period", "tokens"]]
+    rand_all = rand_all.groupby("period").sum()["tokens"]
+
+    head_restricted = head_df.loc[head_df["agent"] == target_agent].loc[
+        head_df["status"].isin(restrictive_statuses)
+    ][["period", "tokens", "count"]]
     if verbose:
         print(head_restricted[head_restricted["period"] == "2024-04"])
-    head_restricted = head_restricted.groupby('period').sum()['tokens']
+    head_restricted = head_restricted.groupby("period").sum()["tokens"]
     head_restricted = head_restricted.reindex(all_periods, fill_value=0)
 
-    
-    head_all = head_df \
-        .loc[head_df['agent'] == target_agent] \
-        [['period', 'tokens']]
-    head_all = head_all.groupby('period').sum()['tokens']
+    head_all = head_df.loc[head_df["agent"] == target_agent][["period", "tokens"]]
+    head_all = head_all.groupby("period").sum()["tokens"]
 
     assert (rand_restricted.index == head_restricted.index).all()
     assert (rand_all.index == head_all.index).all()
@@ -1974,20 +2023,25 @@ def compute_corpus_restriction_estimates(
     # print(save_fpath)
     # print(f"rand token frac = {rand_token_frac}")
     # print(f"head token frac = {head_token_frac}")
-    out = pd.concat([
-        rand_frac.rename('Random'),
-        head_frac.rename('Head'),
-        (rand_token_frac * rand_frac).rename('Rand Portion'),
-        (head_token_frac * head_frac).rename('Head Portion'),
-        ((rand_token_frac * rand_frac) + (head_token_frac * head_frac)).rename('Full Corpus'),
-    ], axis=1)
+    out = pd.concat(
+        [
+            rand_frac.rename("Random"),
+            head_frac.rename("Head"),
+            (rand_token_frac * rand_frac).rename("Rand Portion"),
+            (head_token_frac * head_frac).rename("Head Portion"),
+            ((rand_token_frac * rand_frac) + (head_token_frac * head_frac)).rename(
+                "Full Corpus"
+            ),
+        ],
+        axis=1,
+    )
     if verbose:
         print(head_frac[-1])
         print(rand_frac[-1])
         print(head_token_frac * head_frac[-1])
         print(rand_token_frac * rand_frac[-1])
         print((rand_token_frac * rand_frac[-1]) + (head_token_frac * head_frac[-1]))
-    
+
     # out.to_csv(f'src/analysis/{CHOSEN_CORPUS}_total_token_estimates.csv', index=True)
     out.to_csv(save_fpath, index=True)
 
@@ -1999,32 +2053,51 @@ def generate_corpus_restriction_estimates_per_url_split(
     url_token_lookup,
     target_agent,
     robot_statuses_to_include,
-    save_dir="output_data_robots"
+    save_dir="output_data_robots",
 ):
-    
+
     total_tokens = url_token_lookup._TOTAL_TOKENS[target_corpus.lower()]
     top_corpus_urls = url_token_lookup.top_k_urls(target_corpus.lower(), 2000)
     corpus_urls_to_counts = url_token_lookup.get_url_to_token_map(target_corpus.lower())
-    num_head_tokens = sum([v for k, v in corpus_urls_to_counts.items() if k in top_corpus_urls])
+    num_head_tokens = sum(
+        [v for k, v in corpus_urls_to_counts.items() if k in top_corpus_urls]
+    )
     non_head_tokens = total_tokens - num_head_tokens
     assert non_head_tokens >= 0
-    
+
     num_tokens_splits = {}
     service_keys = set([k.split("-")[-1] for k in urlsubset_to_robots_summary.keys()])
     for key in service_keys:
         url_keys = list(urlsubset_to_robots_summary[f"head-{key}"].keys())
-        num_head_service_tokens = sum([v for k, v in corpus_urls_to_counts.items() if k in url_subsets[f"head-{key}"]])
-        num_rand_service_tokens = sum([v for k, v in corpus_urls_to_counts.items() if k in url_subsets[f"rand-{key}"]])
+        num_head_service_tokens = sum(
+            [
+                v
+                for k, v in corpus_urls_to_counts.items()
+                if k in url_subsets[f"head-{key}"]
+            ]
+        )
+        num_rand_service_tokens = sum(
+            [
+                v
+                for k, v in corpus_urls_to_counts.items()
+                if k in url_subsets[f"rand-{key}"]
+            ]
+        )
         num_tokens_splits[key] = {
             "head": num_head_service_tokens / num_head_tokens,
             "rand": num_rand_service_tokens / non_head_tokens,
         }
     # overwrite "all".
-    num_tokens_splits["all"] = {"head": num_head_tokens / total_tokens, "rand": non_head_tokens / total_tokens}
+    num_tokens_splits["all"] = {
+        "head": num_head_tokens / total_tokens,
+        "rand": non_head_tokens / total_tokens,
+    }
 
     for i, splitkey in enumerate(service_keys):
         # print(splitkey)
-        save_fpath = os.path.join(save_dir, f'{target_corpus}_{splitkey}_token_estimates.csv')
+        save_fpath = os.path.join(
+            save_dir, f"{target_corpus}_{splitkey}_token_estimates.csv"
+        )
         head_df = urlsubset_to_robots_summary[f"head-{splitkey}"]
         rand_df = urlsubset_to_robots_summary[f"rand-{splitkey}"]
         # if splitkey == "all":
