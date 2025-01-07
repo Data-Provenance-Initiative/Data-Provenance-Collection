@@ -428,9 +428,7 @@ def compute_url_date_agent_status_detailed(data, relevant_agents):
     status_summary = defaultdict(lambda: defaultdict(lambda: defaultdict(str)))
     for url, date_to_robots in data.items():
         url = normalize_url(url)
-        _, parsed_result = robots_stats, url_interpretations = (
-            parse_robots.analyze_robots(date_to_robots)
-        )
+        _, parsed_result = parse_robots.analyze_robots(date_to_robots)
         for date_str, agent_to_status in parsed_result.items():
             date = pd.to_datetime(date_str)
             for agent in relevant_agents:
@@ -601,7 +599,6 @@ def prepare_robots_temporal_summary_detailed(
     return filled_status_summary
 
 
-
 def robots_temporal_to_df(filled_status_summary, strictness_order, url_to_counts={}):
     """
     Args:
@@ -666,8 +663,6 @@ def robots_temporal_to_df(filled_status_summary, strictness_order, url_to_counts
 
     summary_df = pd.DataFrame(summary_df_list)
     return summary_df
-
-
 
 
 def get_latest_url_robot_statuses(url_robots_summary, agents):
@@ -809,7 +804,6 @@ def get_tos_url_time_verdicts(
 
     print(f"{misses} / {misses + hits} dates missed due to time mismatches.")
     return url_to_time_to_verdict
-
 
 
 def prepare_tos_temporal_summary(
