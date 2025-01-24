@@ -1,5 +1,6 @@
 import unittest
-from parse_robots import interpret_robots
+
+from parse_robots import interpret_robots, parse_robots_txt
 
 
 class TestRobotsTxtInterpretation(unittest.TestCase):
@@ -1062,6 +1063,120 @@ class TestRobotsTxtInterpretation(unittest.TestCase):
             interpret_robots(agent_rules, all_agents),
             expected,
             "Whitespace in paths should be trimmed, and empty paths should imply no disallowance.",
+        )
+
+    def test_group_multiple_user_agents(self):
+        """Tests that multiple consecutive user-agent lines form a group sharing the same rules.
+
+        As per RFC 9309 Section 2.1 and Google's documentation, multiple user-agent lines
+        that are not separated by blank lines should be treated as a group, with all
+        subsequent rules applying to all agents in that group.
+        """
+        robots_txt = """
+            User-agent: anthropic-ai
+            User-agent: Google-Extended
+            User-agent: GPTBot
+            Disallow: /
+            """
+        agent_rules = parse_robots_txt(robots_txt)
+        all_agents = ["anthropic-ai", "Google-Extended", "GPTBot"]
+        expected = {
+            "*": "none",
+            "anthropic-ai": "all",
+            "Google-Extended": "all",
+            "GPTBot": "all",
+        }
+        self.assertEqual(
+            interpret_robots(agent_rules, all_agents),
+            expected,
+            "Multiple stacked user-agents should each get the same rules applied.",
+        )
+
+    def test_group_separation_by_blank_line(self):
+        """Tests that blank lines properly separate user-agent groups.
+
+        According to Google's documentation on grouping rules, blank lines should separate
+        different groups of rules. Non-standard directives like Crawl-delay should be ignored
+        and should not affect the grouping of rules.
+        """
+        robots_txt = """
+            User-agent: GPTBot
+            Crawl-delay: 5
+
+            User-agent: CCBot
+            Disallow: /
+            """
+        agent_rules = parse_robots_txt(robots_txt)
+        all_agents = ["GPTBot", "CCBot"]
+        expected = {"*": "none", "GPTBot": "all", "CCBot": "all"}
+        self.assertEqual(
+            interpret_robots(agent_rules, all_agents),
+            expected,
+            "Crawl-delay should be ignored and repeated agents should work correctly.",
+        )
+
+    def test_case_insensitive_directives(self):
+        """Tests that user-agent directive is case-insensitive.
+
+        As per Google's documentation on user-agent line syntax, the "user-agent:" directive
+        itself should be recognized regardless of case (e.g., "User-Agent:", "USER-AGENT:",
+        or "user-agent:" are all valid).
+        """
+        robots_txt = """
+            user-agent: GPTBot
+            Disallow: /
+            """
+        agent_rules = parse_robots_txt(robots_txt)
+        all_agents = ["GPTBot"]
+        expected = {"*": "none", "GPTBot": "all"}
+        self.assertEqual(
+            interpret_robots(agent_rules, all_agents),
+            expected,
+            "User-agent matching should be case-insensitive.",
+        )
+
+    def test_case_insensitive_agent_names(self):
+        """Tests that user-agent names are matched case-insensitively.
+
+        Different capitalizations of the same user-agent name (e.g., "Googlebot" vs "GoogleBot")
+        should be treated as the same agent, with their rules being combined according to
+        standard precedence rules.
+        """
+        robots_txt = """
+            User-agent: Googlebot
+            Disallow: /
+
+            User-agent: GoogleBot
+            Allow: /stats
+            """
+        agent_rules = parse_robots_txt(robots_txt)
+        all_agents = ["Googlebot"]
+        expected = {"*": "none", "Googlebot": "some"}
+        self.assertEqual(
+            interpret_robots(agent_rules, all_agents),
+            expected,
+            "Different cases of Googlebot should be unified.",
+        )
+
+    def test_comment_handling(self):
+        """Tests proper handling of comments in robots.txt.
+
+        According to Google's documentation on syntax, comments start with # and continue
+        to the end of the line. Comments should be completely ignored and should not affect
+        the interpretation of subsequent directives.
+        """
+        robots_txt = """
+            User-agent: GPTBot
+            # Block GPTBot
+            Disallow: /
+            """
+        agent_rules = parse_robots_txt(robots_txt)
+        all_agents = ["GPTBot"]
+        expected = {"*": "none", "GPTBot": "all"}
+        self.assertEqual(
+            interpret_robots(agent_rules, all_agents),
+            expected,
+            "Comments should not affect rule interpretation.",
         )
 
 
