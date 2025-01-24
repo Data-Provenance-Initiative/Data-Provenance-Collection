@@ -24,12 +24,13 @@ df["all_percentage"] = (df["all"] / df["observed"] * 100).round(2)
 df["some_percentage"] = (df["some"] / df["observed"] * 100).round(2)
 df["none_percentage"] = (df["none"] / df["observed"] * 100).round(2)
 
-top_60_agents = df.sort_values(by="observed", ascending=False).head(60)
+# changed this to reflect paper, whic shows top 40
+top_40_agents = df.sort_values(by="observed", ascending=False).head(40)
 
 
 additional_df = df[df["agent"].isin(additional_agents)]
 combined_df = (
-    pd.concat([top_60_agents, additional_df]).drop_duplicates().reset_index(drop=True)
+    pd.concat([top_40_agents, additional_df]).drop_duplicates().reset_index(drop=True)
 )
 
 
