@@ -26,9 +26,7 @@ def parse_robots_txt(robots_txt):
                 rules[agent_name_raw] = defaultdict(list)
             current_agents.append(agent_name)
 
-        elif any(
-            lower_line.startswith(d + ":") for d in ["allow", "disallow", "crawl-delay"]
-        ):
+        elif any(lower_line.startswith(d + ":") for d in ["allow", "disallow"]):
             if not current_agents:
                 rules["ERRORS"].append(
                     f"Directive '{line}' found with no preceding user-agent."
@@ -40,7 +38,11 @@ def parse_robots_txt(robots_txt):
             for agent in current_agents:
                 original_name = agent_map[agent]
                 rules[original_name][directive_key].append(directive_value)
-
+        elif lower_line.startswith("crawl-delay:"):
+            crawl_delay_value = line.split(":", 1)[1].strip()
+            for agent in current_agents:
+                original_name = agent_map[agent]
+                rules[original_name]["Crawl-Delay"].append(crawl_delay_value)
         elif lower_line.startswith("sitemap:"):
             sitemap_value = line.split(":", 1)[1].strip()
             rules["Sitemaps"].append(sitemap_value)
@@ -247,15 +249,21 @@ if __name__ == "__main__":
     Example commands:
 
     python src/web_analysis/parse_robots.py <in-path> <out-path>
-    
-    python src/web_analysis/parse_robots.py data/robots-test.json.gz data/robots-analysis.csv 
+
+    python src/web_analysis/parse_robots.py data/robots-test.json.gz data/robots-analysis.csv
 
     Process:
         1. Reads the json.gz mapping base-url to robots.txt
         2. Parse all the robots.txt so they can be analyzed on aggregate
     """
     parser = argparse.ArgumentParser(description="Parse and analyze robots.txt.")
-    parser.add_argument("file_path", type=str, help="Path to the JSON.GZ file mapping urls to robots.txt text.")
-    parser.add_argument("output_path", type=str, help="Path where analysis will be saved.")
+    parser.add_argument(
+        "file_path",
+        type=str,
+        help="Path to the JSON.GZ file mapping urls to robots.txt text.",
+    )
+    parser.add_argument(
+        "output_path", type=str, help="Path where analysis will be saved."
+    )
     args = parser.parse_args()
     main(args)
