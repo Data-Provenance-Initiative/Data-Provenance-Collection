@@ -1179,6 +1179,55 @@ class TestRobotsTxtInterpretation(unittest.TestCase):
             "Comments should not affect rule interpretation.",
         )
 
+    def test_merge_same_agent_groups(self):
+        """
+        Tests that multiple groups for the same user agent are merged.
+
+        As shown in Google's documentation, if there are multiple groups in robots.txt
+        that are relevant to a specific user agent, Google's crawlers internally merge
+        the groups.
+        """
+        robots_txt = """
+            user-agent: googleBot-news
+            disallow: /fish
+            
+            user-agent: *
+            disallow: /carrots
+            
+            user-agent: googlebot-news
+            disallow: /shrimp
+            """
+        agent_rules = parse_robots_txt(robots_txt)
+        all_agents = ["googlebot-news"]
+        expected = {"*": "some", "googlebot-news": "some"}
+        self.assertEqual(
+            interpret_robots(agent_rules, all_agents),
+            expected,
+            "Multiple groups for googlebot-news should be merged into one set of rules.",
+        )
+
+    def test_groups_with_non_standard_directives(self):
+        """
+        Tests that groups separated by non-standard directives are treated as one group.
+        """
+        robots_txt = """
+        user-agent: a
+        sitemap: https://example.com/sitemap.xml
+        
+        user-agent: b
+        disallow: /
+        """
+        agent_rules = parse_robots_txt(robots_txt)
+
+        # Test that both user agents are affected by the disallow rule
+        all_agents = ["a", "b"]
+        expected = {"*": "none", "a": "all", "b": "all"}
+        self.assertEqual(
+            interpret_robots(agent_rules, all_agents),
+            expected,
+            "Both user agents should be affected by the disallow rule despite sitemap directive.",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

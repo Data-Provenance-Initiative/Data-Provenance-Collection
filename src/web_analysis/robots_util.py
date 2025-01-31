@@ -1,24 +1,25 @@
-from collections import defaultdict, Counter
-import re
 import itertools
-
-import os
 import json
+import os
+import re
+import typing
+from collections import Counter, defaultdict
+from datetime import datetime
+from urllib.parse import urlparse
+
+import altair as alt
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from datetime import datetime
-import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 import seaborn as sns
-import altair as alt
-from scipy.stats import gaussian_kde
 from plotly.subplots import make_subplots
-from urllib.parse import urlparse
-import typing
+from scipy.stats import gaussian_kde
+
+from analysis import analysis_constants, visualization_util
 
 from . import parse_robots
-from analysis import visualization_util, analysis_constants
 
 ############################################################
 ###### Robots.txt Bot Methods
@@ -368,12 +369,18 @@ def compute_url_date_agent_status(data, relevant_agents):
         status_summary: {URL --> Date --> Agent --> Status} (only for relevant_agents)
         agent_counter_df: DataFrame with columns [agent, observed, all, some, none]
     """
+    # Convert relevant_agents to lowercase for matching
+    relevant_agents_lower = [agent.lower() for agent in relevant_agents]
+
     # Status summary to be returned (only for relevant agents)
     status_summary = defaultdict(lambda: defaultdict(lambda: defaultdict(str)))
 
-    # Counter to track statuses for all agents
+    # Counter to track statuses for all agents and their case variants
     agent_counter = Counter()
     status_counter = defaultdict(lambda: Counter({"all": 0, "none": 0, "some": 0}))
+    case_variants = defaultdict(
+        Counter
+    )  # Track case variants {lowercase: {original_case: count}}
 
     for url, date_to_robots in data.items():
         url = normalize_url(url)
@@ -383,11 +390,25 @@ def compute_url_date_agent_status(data, relevant_agents):
 
         for date_str, agent_to_status in parsed_result.items():
             date = pd.to_datetime(date_str)
+
+            # Create case-insensitive lookup for current agents
+            agent_to_status_lower = {
+                agent.lower(): (status, agent)
+                for agent, status in agent_to_status.items()
+            }
             for agent in relevant_agents:
-                status = agent_to_status.get(agent, agent_to_status.get("*", "none"))
-                status_summary[url][date][agent] = status
-            for agent, status in agent_to_status.items():
-                # Update counters for all agents
+                agent_lower = agent.lower()
+                if agent_lower in agent_to_status_lower:
+                    status, original_case = agent_to_status_lower[agent_lower]
+                    case_variants[agent_lower][original_case] += 1
+                    status_summary[url][date][agent] = status
+                else:
+                    # Fall back to wildcard rules
+                    status = agent_to_status.get("*", "none")
+                    status_summary[url][date][agent] = status
+
+            # Update counters using lowercase matching
+            for agent, (status, original_case) in agent_to_status_lower.items():
                 agent_counter[agent] += 1
                 if status == "all":
                     status_counter[agent]["all"] += 1
@@ -396,10 +417,22 @@ def compute_url_date_agent_status(data, relevant_agents):
                 else:
                     status_counter[agent]["some"] += 1
 
-    # Create DataFrame from the status counters
+    # Use most common case variant for each agent in the final DataFrame
+    agent_case_map = {
+        agent_lower: max(variants.items(), key=lambda x: x[1])[0]
+        for agent_lower, variants in case_variants.items()
+    }
+
+    # Create DataFrame using the most common case variants
     agent_counter_df = pd.DataFrame(
         [
-            (agent, agent_counter[agent], counts["all"], counts["some"], counts["none"])
+            (
+                agent_case_map.get(agent, agent),  # Use most common case variant
+                agent_counter[agent],
+                counts["all"],
+                counts["some"],
+                counts["none"],
+            )
             for agent, counts in status_counter.items()
         ],
         columns=["agent", "observed", "all", "some", "none"],
@@ -2115,3 +2148,146 @@ def generate_corpus_restriction_estimates_per_url_split(
             save_fpath,
             # verbose=splitkey=="all",
         )
+
+
+def save_robots_agent_statistics(
+    agents_to_track: set,
+    url_robots_summary: dict,  # Can be either dict or DataFrame
+    save_path: str,
+    legend_mapping: dict,
+):
+    """
+    Save detailed statistics for each agent including domain-level information over time.
+    Saves data in both JSON and JSONL formats for efficient processing.
+
+    Args:
+        agents_to_track: Set of individual agents to track
+        url_robots_summary: Either a dictionary mapping URLs to their parsed robots.txt data
+                          or a DataFrame with temporal robots data
+        save_path: Base path for saving files (will append .json/.jsonl)
+        legend_mapping: Dictionary mapping raw statuses to display names
+        corpus_name: Name of the corpus (c4, rf, dolma)
+    """
+    json_path = f"{save_path}agent_robots_statistics.json"
+    jsonl_path = f"{save_path}agent_robots_statistics.jsonl"
+
+    json_records = []
+
+    # Handle DataFrame input
+    if isinstance(url_robots_summary, dict) and any(
+        isinstance(v, pd.DataFrame) for v in url_robots_summary.values()
+    ):
+        # Process each split (head/rand) separately
+        for split_name, df in url_robots_summary.items():
+            # Group by period and agent to get status distribution
+            grouped = (
+                df.groupby(["period", "agent", "status"])
+                .agg({"tokens": "sum", "count": "sum"})
+                .reset_index()
+            )
+
+            for period in grouped["period"].unique():
+                period_data = grouped[grouped["period"] == period]
+                record = {
+                    "split": split_name,
+                    "period": (
+                        period.strftime("%Y-%m-%d")
+                        if isinstance(period, pd.Timestamp)
+                        else str(period)
+                    ),
+                    "agents": {},
+                }
+
+                for agent in agents_to_track:
+                    agent_data = period_data[period_data["agent"] == agent]
+                    if not agent_data.empty:
+                        record["agents"][agent] = {
+                            "statuses": {
+                                row["status"]: {
+                                    "tokens": row["tokens"],
+                                    "count": row["count"],
+                                }
+                                for _, row in agent_data.iterrows()
+                            }
+                        }
+
+                json_records.append(record)
+
+    # Handle original dictionary input
+    else:
+        for url, date_to_statuses in url_robots_summary.items():
+            url_record = {"domain": url, "timestamps": {}}
+
+            for date_str, agent_statuses in date_to_statuses.items():
+                try:
+                    date = pd.to_datetime(date_str)
+                    date_str = date.strftime("%Y-%m-%d")
+                    url_record["timestamps"][date_str] = {}
+
+                    agent_statuses_lower = {
+                        k.lower(): v for k, v in agent_statuses.items()
+                    }
+                    wildcard_status = agent_statuses_lower.get("*", "none")
+
+                    for agent in agents_to_track:
+                        raw_status = agent_statuses_lower.get(
+                            agent.lower(), wildcard_status
+                        )
+                        status = legend_mapping.get(raw_status, raw_status)
+                        url_record["timestamps"][date_str][agent] = status
+
+                except Exception as e:
+                    print(f"Error processing {date_str}: {str(e)}")
+                    continue
+
+            json_records.append(url_record)
+
+    # Save JSON format (one record per line for easier processing)
+    with open(jsonl_path, "w") as f:
+        for record in json_records:
+            f.write(json.dumps(record) + "\n")
+
+    # Save full JSON
+    with open(json_path, "w") as f:
+        json.dump(json_records, f, indent=2)
+
+
+def save_tos_agent_statistics(
+    url_to_time_to_tos_verdict: dict,  # URL -> time -> ToS verdict mapping
+    save_path: str,
+):
+    """Save ToS statistics to JSON and JSONL files in the same format as robots data.
+
+    Args:
+        url_to_time_to_tos_verdict: Dictionary mapping URLs to their temporal ToS verdicts
+        save_path: Base path to save the JSON/JSONL files (without extension)
+    """
+    json_path = f"{save_path}agent_tos_statistics.json"
+    jsonl_path = f"{save_path}agent_tos_statistics.jsonl"
+
+    json_records = []
+
+    # Process each URL's temporal data
+    for url, time_to_verdict in url_to_time_to_tos_verdict.items():
+        url_record = {"domain": url, "timestamps": {}}
+
+        for date_str, verdict in time_to_verdict.items():
+            try:
+                date = pd.to_datetime(date_str)
+                date_str = date.strftime("%Y-%m-%d")
+                url_record["timestamps"][date_str] = verdict
+
+            except Exception as e:
+                print(f"Error processing {date_str}: {str(e)}")
+                continue
+
+        json_records.append(url_record)
+
+    # Save JSON format (one record per line for easier processing)
+    with open(jsonl_path, "w") as f:
+        for record in json_records:
+            f.write(json.dumps(record) + "\n")
+
+    # Save full JSON
+    with open(json_path, "w") as f:
+        json.dump(json_records, f, indent=2)
