@@ -31,6 +31,6 @@ start-time: null
 # End time as `YYYY-MM-DD`. Excludes datasets created after this time
 end-time: null
 data-limit: 0
-output-format: "messages" # "messages" or "supervised"
+output-format: "concat_dialog" # "messages" or "supervised" or "concat_dialog"
 savedir: "data/"
 # debug: True
