@@ -10,6 +10,7 @@ def parse_robots_txt(robots_txt):
     rules = {"ERRORS": [], "Sitemaps": []}
     agent_map = {}
     current_agents = []
+    seen_agent_criteria = False
 
     for raw_line in robots_txt.splitlines():
         line = raw_line.split("#", 1)[0].strip()
@@ -24,9 +25,13 @@ def parse_robots_txt(robots_txt):
             if agent_name not in agent_map:
                 agent_map[agent_name] = agent_name_raw
                 rules[agent_name_raw] = defaultdict(list)
-            current_agents.append(agent_name)
+            if seen_agent_criteria:
+                current_agents = [agent_name]
+            else:
+                current_agents.append(agent_name)
 
         elif any(lower_line.startswith(d + ":") for d in ["allow", "disallow"]):
+            seen_agent_criteria = True
             if not current_agents:
                 rules["ERRORS"].append(
                     f"Directive '{line}' found with no preceding user-agent."
@@ -39,11 +44,13 @@ def parse_robots_txt(robots_txt):
                 original_name = agent_map[agent]
                 rules[original_name][directive_key].append(directive_value)
         elif lower_line.startswith("crawl-delay:"):
+            seen_agent_criteria = True
             crawl_delay_value = line.split(":", 1)[1].strip()
             for agent in current_agents:
                 original_name = agent_map[agent]
                 rules[original_name]["Crawl-Delay"].append(crawl_delay_value)
         elif lower_line.startswith("sitemap:"):
+            seen_agent_criteria = True
             sitemap_value = line.split(":", 1)[1].strip()
             rules["Sitemaps"].append(sitemap_value)
         else:

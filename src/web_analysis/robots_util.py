@@ -36,6 +36,7 @@ BOT_TRACKER = {
     "OpenAI": {
         "train": ["GPTBot"],
         "retrieval": ["ChatGPT-User"],
+        "search": ["OAI-SearchBot"],
         # https://platform.openai.com/docs/gptbot
         # https://platform.openai.com/docs/plugins/bot
     },
@@ -75,11 +76,11 @@ BOT_TRACKER = {
         "train": ["Googlebot"],
         "retrieval": ["Googlebot"],
     },
-    # "Perplexity AI": {
-    #     "train": ["PerplexityBot"],
-    #     "retrieval": ["PerplexityBot"]
-    #     # https://docs.perplexity.ai/docs/perplexitybot
-    # },
+    "Perplexity AI": {
+        "train": ["PerplexityBot"],
+        "retrieval": ["Perplexity-User"]
+        # https://docs.perplexity.ai/guides/bots#perplexity-crawlers
+    },
     # "Microsoft": {
     #     "train": [],
     #     "retrieval": ["Bingbot"]
@@ -91,7 +92,7 @@ def get_bot_groups(groups=BOT_TRACKER.keys()):
     ret = {}
     for group in groups:
         ret[group] = list(
-            set(BOT_TRACKER[group]["train"] + BOT_TRACKER[group]["retrieval"])
+            set([v[0] for v in BOT_TRACKER[group].values()]) 
         )
     return ret
 
