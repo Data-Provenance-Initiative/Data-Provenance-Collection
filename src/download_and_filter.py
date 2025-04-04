@@ -13,14 +13,15 @@ import data_provenance_card as data_provenance_card
 from downloader import Downloader
 import data_bibtex as data_bibtex
 from dotenv import load_dotenv
-from huggingface_hub import HfApi, utils
-from datasets.exceptions import DatasetNotFoundError
+from huggingface_hub import HfApi, utils, login
+# from datasets.exceptions import DatasetNotFoundError
 
 load_dotenv()
 hf_token = os.getenv('HF_TOKEN')
 
 try:
     api = HfApi(token=hf_token)
+    login(hf_token, add_to_git_credential=True)
     print("Hugging Face Authorization Successful!")
 except Exception as e:
     print(e)
