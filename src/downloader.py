@@ -1,7 +1,7 @@
 import os
 # import pandas as pd
 # from functools import partial
-from collections import defaultdict  # Counter,
+from collections import defaultdict, Counter
 # from datasets import load_dataset, list_datasets
 from helpers import io
 import random
@@ -106,6 +106,8 @@ class Downloader:
         # If specified, reformat dataset for supervised learning, multi-turn dialogs, or reward modeling.
         if reformat == "supervised":
             prepared_dset = self._reformat_supervised(prepared_dset)
+        elif reformat == "concat_dialog":
+            prepared_dset = self._reformat_concat_dialog(prepared_dset)
 
         # save.
         savepath = os.path.join(savedir, f"{self.name}.jsonl.gz")
@@ -156,3 +158,28 @@ class Downloader:
             dfs(root_id, dialog[root_id])
 
         return pairs
+
+    def _reformat_concat_dialog(self, dialogs):
+        reformatted = []
+        lens = []
+        for dialog in dialogs:
+            full_dialog = []
+            parent = None
+            for idx, message in enumerate(dialog):
+                if parent is None:
+                    full_dialog.append(message["text"])
+                    parent = 0
+                elif message["parent"] == parent:
+                    full_dialog.append(message["text"])
+                    parent = idx
+            lens.append(len(full_dialog))
+            reformatted.append({
+                "inputs": "\n".join(full_dialog),
+                "targets": "",
+                "dataset": dialog[0]["parent"],
+            })
+
+        # print(Counter(lens))
+        # print(reformatted[0])
+
+        return reformatted

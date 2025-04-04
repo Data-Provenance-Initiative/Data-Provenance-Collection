@@ -298,7 +298,7 @@ if __name__ == "__main__":
     parser.add(
         "-of", "--output-format", required=False,
         default="messages", type=str,
-        choices=["messages", "supervised"],
+        choices=["messages", "supervised", "concat_dialog"],
         help="The output format to save the data. By default it mimcs the format described in `preparers.py`. `supervised` means it saves as input-target pairs.")
     # Specify savedir
     parser.add(
